@@ -77,15 +77,15 @@ facilities:
     connectorsDisabled: true
     storage: 50
     storageTiles:
-    - [3, 3, 0]
-    - [1, 2, 1]
-    - [6, 3, 2]
-    - [2, 3, 2]
-    - [4, 2, 3]
+      - [3, 3, 0]
+      - [1, 2, 1]
+      - [6, 3, 2]
+      - [2, 3, 2]
+      - [4, 2, 3]
     mapName: WW1BASE_07
   - type: STR_ALIEN_CONTAINMENT
     requires:
-    - STR_ALIEN_CONTAINMENT
+      - STR_ALIEN_CONTAINMENT
     spriteShape: 1
     spriteFacility: 25
     buildCost: 400000
@@ -247,8 +247,8 @@ facilities:
 mapScripts:
   - type: WW1BASE
     commands:
-    - type: fillArea
-      terrain: baseTerrain
+      - type: fillArea
+        terrain: baseTerrain
 
 terrains:
   - name: WW1BASE
@@ -283,13 +283,13 @@ terrains:
         width: 10
         length: 10
         items:
-            STR_ZEPPELIN_TURRET_SPAWNER:
-              - [2, 7, 0]
-              - [2, 2, 0]
-              - [7, 2, 0]
-              - [7, 7, 0]
+          STR_ZEPPELIN_TURRET_SPAWNER:
+            - [2, 7, 0]
+            - [2, 2, 0]
+            - [7, 2, 0]
+            - [7, 7, 0]
         fuseTimers:
-            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+          STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
       - name: WW1BASE_07
         width: 10
         length: 10
@@ -300,26 +300,26 @@ terrains:
         width: 10
         length: 10
         items:
-            STR_75MM_FORT_TURRET_SPAWNER:
-              - [4, 4, 3]
+          STR_75MM_FORT_TURRET_SPAWNER:
+            - [4, 4, 3]
         fuseTimers:
-            STR_75MM_FORT_TURRET_SPAWNER: [0, 0]
+          STR_75MM_FORT_TURRET_SPAWNER: [0, 0]
       - name: WW1BASE_10
         width: 10
         length: 10
         items:
-            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
-              - [4, 4, 3]
+          STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
+            - [4, 4, 3]
         fuseTimers:
-            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
+          STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
       - name: WW1BASE_11
         width: 10
         length: 10
         items:
-            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
-              - [4, 4, 3]
+          STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
+            - [4, 4, 3]
         fuseTimers:
-            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
+          STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
       - name: WW1BASE_12
         width: 10
         length: 10

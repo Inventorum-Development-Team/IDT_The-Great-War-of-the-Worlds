@@ -899,10 +899,10 @@ armors:
     painImmune: true
     zombiImmune: true
     corpseBattle:
-     - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_0
-     - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_1
-     - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_2
-     - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_3
+      - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_0
+      - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_1
+      - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_2
+      - STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_3
     loftempsSet: [ 92, 89, 90, 91 ]
     frontArmor: 80
     sideArmor: 80
@@ -954,7 +954,7 @@ armors:
     painImmune: true
     zombiImmune: true
     corpseBattle:
-     - STR_LIGHT_HEAT_RAY_PROJECTOR_CORPSE
+      - STR_LIGHT_HEAT_RAY_PROJECTOR_CORPSE
     loftempsSet: [ 3 ]
     createsMeleeThreat: false
     frontArmor: 20
