@@ -723,11 +723,11 @@ ufos:
               - position: [5, 3, 1]
                 amount: 3
                 mixed: true
-                itemList: &Rations [STR_BREAD, STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_BISCUIT_BOX, STR_WINE, STR_BROKEN_WINE_BOTTLE]
+                itemList: *Rations
               - position: [3, 6, 1]
                 amount: 2
                 mixed: true
-                itemList: &MedicalItems [STR_MEDIKIT, STR_PAINKILLER, STR_BANDAGES, STR_BANDAGES, STR_MEDIKIT]
+                itemList: *MedicalItems
 
   - type: STR_VERDUN_BATTLE_WAVE
     size: STR_SMALL
