@@ -1610,7 +1610,6 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2230
-    costBuy: 1000
   - type: STR_FARQHUAR_HILL_DRUM_KMM
     categories:
       [
@@ -1648,7 +1647,6 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2240
-    costBuy: 1000
 
   - type: STR_MONDRAGON
     categories:
