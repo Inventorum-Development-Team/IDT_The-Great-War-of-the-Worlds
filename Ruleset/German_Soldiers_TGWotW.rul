@@ -1,0 +1,522 @@
+soldiers:
+  - delete: STR_SOLDIER
+  - type: STR_GERMAN_SOLDIER
+    costBuy: 50000
+    costSalary: 40000
+    flagOffset: 9
+    minStats:
+      tu: 60
+      stamina: 60
+      health: 40
+      bravery: 20
+      reactions: 30
+      firing: 50
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 80
+      stamina: 70
+      health: 45
+      bravery: 50
+      reactions: 60
+      firing: 90
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 90
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 130
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 20
+    soldierNames:
+      - delete
+      - GermanNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+items:
+  - type: STR_GERMAN_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 108
+    floorSprite: 108
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_GERMAN_GASMASK_CORPSE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 109
+    floorSprite: 109
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_GERMAN_OFFICER_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    weight: 24
+#    bigSprite: 110
+#    floorSprite: 110
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+  - type: STR_GERMAN_TRENCH_COAT_UNIFORM_CORPSE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 111
+    floorSprite: 111
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+armors:
+#GERMAN 
+  - type: STR_GERMAN_FIELD_UNIFORM_UC
+    spriteSheet: XCOM_24.PCK
+    spriteInv: MAN_24
+    corpseBattle:
+      - STR_GERMAN_FIELD_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_GERMAN_SOLDIER
+#Gasmask
+  - type: STR_GERMAN_GASMASK_UC
+    spriteSheet: XCOM_24GM.PCK
+    spriteInv: MAN_24GM
+    corpseBattle:
+      - STR_GERMAN_GASMASK_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 0.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.4 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_GERMAN_SOLDIER
+
+#Officer
+#  - type: STR_GERMAN_OFFICER_UNIFORM_UC
+#    spriteSheet: XCOM_24OU.PCK
+#    spriteInv: MAN_24OU
+#    corpseItem: STR_GERMAN_OFFICER_UNIFORM_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_GERMAN_SOLDIER
+
+  - type: STR_GERMAN_TRENCH_COAT_UNIFORM_UC
+    spriteSheet: XCOM_24TC.PCK
+    spriteInv: MAN_24TC
+    corpseItem: STR_GERMAN_TRENCH_COAT_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+      - 1.0 #11 Tesla
+      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.0 #14 Black Smoke
+      - 1.0 #15 Pulse Energy
+      - 1.0 #16 Cold
+      - 1.0 #17 Toxic
+      - 1.0 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_GERMAN_SOLDIER
+
+ufopaedia:
+  - id: STR_GERMAN_SOLDIER_INTRODUCTION
+    type_id: 7
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: GERMAN_SOLDIER_IMAGE
+    text: STR_GERMAN_SOLDIER_UFOPEDIA
+    text_width: 150
+    listOrder: 1710
+  - id: STR_GERMAN_FIELD_UNIFORM_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1711
+    text: STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA
+  - id: STR_GERMAN_GASMASK_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1712
+    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
+#  - id: STR_GERMAN_OFFICER_UNIFORM_UC
+#    type_id: 5
+#    section: STR_WEAPONS_AND_EQUIPMENT
+#    listOrder: 1713
+#    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
+  - id: STR_GERMAN_TRENCH_COAT_UNIFORM_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1714
+    text: STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA
+extraSprites:
+  - type: GERMAN_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GERMAN_SOLDIER_IMAGE.PNG
+#Field Uniform
+  - type: MAN_24F0.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F0.png
+  - type: MAN_24F1.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F1.png
+  - type: MAN_24F2.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F2.png
+  - type: MAN_24F3.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F3.png
+  - type: MAN_24M0.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M0.png
+  - type: MAN_24M1.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M1.png
+  - type: MAN_24M2.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M2.png
+  - type: MAN_24M3.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M3.png
+  - type: XCOM_24.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/German/GERMAN_FIELD_UNIFORM.png
+#Gas Mask 
+  - type: MAN_24GM.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24GM.png
+  - type: XCOM_24GM.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/German/GERMAN_GASMASK.png
+
+#Officer Uniform
+#  - type: MAN_24OUF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF0.png
+#  - type: MAN_24OUF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF1.png
+#  - type: MAN_24OUF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF2.png
+#  - type: MAN_24OUF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF3.png
+#  - type: MAN_24OUM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM0.png
+#  - type: MAN_24OUM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM1.png
+#  - type: MAN_24OUM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM2.png
+#  - type: MAN_24OUM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM3.png
+#  - type: XCOM_24OU.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/GERMAN/GERMAN_OFFICER_UNIFORM.png	  
+
+#Trench Coat Uniform
+  - type: MAN_24TCF0.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF0.png
+  - type: MAN_24TCF1.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF1.png
+  - type: MAN_24TCF2.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF2.png
+  - type: MAN_24TCF3.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF3.png
+  - type: MAN_24TCM0.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM0.png
+  - type: MAN_24TCM1.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM1.png
+  - type: MAN_24TCM2.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM2.png
+  - type: MAN_24TCM3.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM3.png
+  - type: XCOM_24TC.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/German/GERMAN_TRENCH_COAT.png	  
+
+  - type: BIGOBS.PCK
+    files:
+      108: Resources/German/GERMAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      109: Resources/German/GERMAN_GASMASK_CORPSE_BIGOB.png
+#      110: Resources/German/GERMAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
+      111: Resources/German/GERMAN_TRENCH_COAT_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      108: Resources/German/GERMAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      109: Resources/German/GERMAN_GASMASK_CORPSE_FLOOROB.png
+#      110: Resources/German/GERMAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
+      111: Resources/German/GERMAN_TRENCH_COAT_CORPSE_FLOOROB.png
+
+  - type: Flag9
+    singleImage: true
+    files:
+      0: Resources/Flags/09-German.png
+
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/UI/avatar-background.png
+extraStrings:
+  - type: en-US
+    strings:
+      STR_GERMAN_SOLDIER: German Soldier
+      STR_GERMAN_SOLDIER_INTRODUCTION: The Jerry
+      STR_GERMAN_SOLDIER_UFOPEDIA: The brave and heroic soldiers of the Kaiser serve gallantly on the battlefield. One of Europe's largest armies is affectionately called 'Jerry,' derived from 'German'. They are one of the best snipers in the world, since Napoleonic times they have stood out for their precision and lethality. They have put aside their rivalry with the French to work alongside them.
+      STR_GERMAN_FIELD_UNIFORM_UC: GERMAN ARMY FIELD UNIFORM
+      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: Standard Field Combat Uniform, part of the equipment of the soldiers of the Deutsches Heer. Entering service in 1910, the feldgrau uniform replaced the colorful colorful uniforms of the Germanic states. In 1913 the iconic Pickelhaube was reemplaced for the grey Stalhlhelm, better protected and easier to manufacture. 	
+      STR_GERMAN_GASMASK_UC: GERMAN ARMY GAS MASK
+      STR_GERMAN_GASMASK_UC_UFOPEDIA: The Lederschutzmaske M1914 gas mask (leather protection mask) is probably one of the best designs to date. It went into action shortly before the last Martian offensive on the Marne and has been employed by numerous soldiers and civilians alike, from many nations. It protects well from toxic gases, although it obstructs the view and deafens the soldier.
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC: GERMAN ARMY TRENCH COAT
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: The wool coat used by the German Army is designed to keep troops warm at the front. It does not have any additional pockets, so it is used together with a belt and a backpack. This uniform includes the traditional Pickelhaube adorned with the German imperial eagle. Although it has no protection, it is worn with pride by the Kaiser's troops. 

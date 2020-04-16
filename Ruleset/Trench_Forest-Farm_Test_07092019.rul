@@ -1,0 +1,317 @@
+terrains:
+  - name: TRENCH_FARM
+    script: FARM_MIX
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+
+  - name: DIRT
+    mapDataSets:
+      - BLANKS
+      - DIRT
+    mapBlocks:
+      - name: DIRT10X10
+        width: 10
+        length: 10
+        height: 1
+      - name: DIRT20X20
+        width: 20
+        length: 20
+        height: 1
+
+  - name: FOREST_TRENCH
+    mapDataSets:
+      - BLANKS
+      - FOREST
+    script: DEFAULT_TRENCH
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+
+mapScripts:
+  - type: DEFAULT_TRENCH # forest, mountain
+    commands:
+    - type: addUFO
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 0]
+          groups: 1
+        - type: craft
+          size: [1, 1, 4]
+    - type: addCraft
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 0]
+          groups: 1
+        - type: craft
+          size: [1, 1, 4]
+    - type: addBlock
+      size: [2, 2, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 1
+          size: [2, 2, 1]
+        - type: middle
+          size: [2, 2, 4]
+      executions: 2
+    - type: addBlock
+      terrain: DEEPTRENCH
+      size: 1
+      executions: 6
+    - type: fillArea
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 4]
+
+  - type: FARM_MIX
+    commands:
+    - type: addUFO
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 0]
+          groups: 1
+        - type: craft
+          size: [1, 1, 4]
+    - type: addCraft
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 0]
+          groups: 1
+        - type: craft
+          size: [1, 1, 4]
+    - type: addBlock
+      terrain: DEEPTRENCH
+      size: 1
+      executions: 5
+    - type: fillArea
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 4]
+
+  - type: DIRT_TRENCH_MIX_FARM_2
+    commands:
+    - type: addCraft
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 0]
+          groups: 1
+        - type: craft
+          size: [1, 1, 4]
+    - type: addUFO
+      size: [1, 1, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 0
+          size: [1, 1, 1]
+        - type: middle
+          size: [1, 1, 0]
+          groups: 1
+        - type: craft
+          size: [1, 1, 4]
+    - type: addBlock
+      size: [2, 2, 5]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 1
+          size: [2, 2, 1]
+        - type: middle
+          size: [2, 2, 4]
+      executions: 2
+    - type: addBlock
+      terrain: DEEPTRENCH
+      size: 1
+      executions: 4
+    - type: fillArea
+      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+      verticalLevels:
+        - type: ground
+          terrain: DIRT
+          blocks: 1
+          size: [2, 2, 1]
+        - type: middle
+          size: [2, 2, 4]
+
+  - type: TRENCH                                    # trenches - test
+    commands:
+    - type: addCraft 
+      executions: 1
+      groups: 1
+    - type: addUFO
+      groups: 1
+      executions: 1
+    - type: addLine # adds the row of trenches
+      label: 1
+      conditionals: -1
+      executionChances: 100
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addBlock # test - large block
+      groups: 4
+      executionChances: 99
+      size: 2
+      maxUses: 1
+    - type: fillArea
+
+  - type: TRENCH_FORTS                                    # trenches - test
+    commands:
+    - type: addCraft 
+      executions: 1
+      groups: 1
+    - type: addUFO
+      groups: 1
+      executions: 1
+    - type: addUFO
+      UFOName: STR_BUNKER_SMALL
+    - type: addUFO
+      UFOName: STR_BUNKER_SMALL
+    - type: addLine # adds the row of trenches
+      label: 1
+      conditionals: -1
+      executionChances: 100
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addBlock # test - large block
+      groups: 4
+      executionChances: 99
+      size: 2
+      maxUses: 1
+    - type: fillArea

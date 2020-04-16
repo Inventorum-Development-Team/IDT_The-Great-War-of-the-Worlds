@@ -1,0 +1,1452 @@
+units:
+#A brief explanation: 
+#The "Rifleman" are soldiers who use rifles as their main weapon, they will be the most common you will find in assaults. 
+#The "Assault" will use short-range weapons, such as pistols, submachine guns. They carry a lot explosives of explosives, more than other soldier classes.
+#The "Support" are soldiers who have heavy weapons, as machine guns will be less common.
+#The "Raider" are soldiers specialized in close quarters combat and posess medical equipment. 
+#The "Officer" are special NPCs, leading an assault. They are armed with pistols, but they also carry moral enhancer equipment and Sabres. Very smart, if they die the moral drops abruptly
+#######################################################
+#British
+#Tier I, initial human weapons
+  - type: STR_BRITISH_T1_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_BRITISH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SMLE_MKIII
+        - STR_SMLE_MKIII_CLIP
+        - STR_SMLE_MKIII_CLIP
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MILLS_BOMB
+      - 
+        - STR_SMLE_MKIII
+        - STR_SMLE_MKIII_CLIP
+        - STR_SMLE_MKIII_CLIP
+        - STR_SMLE_MKIII_CLIP
+        - STR_SMLE_MKIII_CLIP
+        - STR_BANDAGES
+      - 
+        - STR_SMLE_MKIII
+        - STR_SMLE_MKIII_CLIP
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+  - type: STR_BRITISH_T1_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_BRITISH_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MILLS_BOMB
+        - STR_DYNAMITE
+        - STR_MILLS_BOMB
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+        - STR_MILLS_BOMB
+  - type: STR_BRITISH_T1_SUPPORT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_BRITISH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_MACE
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_KNIFE
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+  - type: STR_BRITISH_T1_RAIDER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_BRITISH_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    isLeeroyJenkins: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_TRENCH_MACE
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_BANDAGES
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_SHOVEL
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_KNIFE
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+        - STR_PAINKILLER
+  - type: STR_BRITISH_T1_OFFICER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 100
+      health: 45
+      bravery: 150
+      reactions: 45
+      firing: 65
+      throwing: 40
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 40
+    armor: STR_BRITISH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43]
+    intelligence: 10
+    aggression: 0
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_SABRE
+        - STR_WHISTLE
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_SABRE
+        - STR_BANDAGES
+      - 
+        - STR_SABRE
+        - STR_WHISTLE
+        - STR_PAINKILLERS
+#####################################
+#Tier II, employs advanced Martian Metal ballistic weapons
+  - type: STR_BRITISH_T2_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_BRITISH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_FARQUHAR_HILL
+        - STR_FARQUHAR_HILL_CLIP
+        - STR_FARQUHAR_HILL_CLIP
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MILLS_BOMB
+      - 
+        - STR_FARQUHAR_HILL
+        - STR_FARQUHAR_HILL_CLIP
+        - STR_FARQUHAR_HILL_CLIP
+        - STR_BANDAGES
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+      - 
+        - STR_SMLE_MKIII
+        - STR_SMLE_MKIII_CLIP
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MILLS_BOMB
+  - type: STR_BRITISH_T2_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_BRITISH_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_TRENCH_GUN
+        - STR_TRENCH_GUN_SHELLS
+        - STR_TRENCH_GUN_SHELLS
+        - STR_TRENCH_MACE
+        - STR_DYNAMITE
+        - STR_MILLS_BOMB
+      - 
+        - STR_TRENCH_GUN
+        - STR_TRENCH_GUN_SHELLS
+        - STR_TRENCH_GUN_SHELLS
+        - STR_TRENCH_KNIFE
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+      - 
+        - STR_TRENCH_SHOVEL
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+        - STR_WHISTLE
+  - type: STR_BRITISH_T2_SUPPORT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_BRITISH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_HUOT_LMG
+        - STR_HUOT_LMG_DRUM
+        - STR_TRENCH_MACE
+        - STR_MILLS_BOMB
+      - 
+        - STR_HUOT_LMG
+        - STR_HUOT_LMG_DRUM
+        - STR_HUOT_LMG_DRUM
+        - STR_TRENCH_KNIFE
+      - 
+        - STR_HUOT_LMG
+        - STR_HUOT_LMG_DRUM
+        - STR_HUOT_LMG_DRUM
+        - STR_TRENCH_SHOVEL
+#########################################
+#American
+#Tier I, initial human weapons
+  - type: STR_AMERICAN_T1_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_AMERICAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 0
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SPRINGFIELD
+        - STR_SPRINGFIELD_CLIP
+        - STR_SPRINGFIELD_CLIP
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+      - 
+        - STR_SPRINGFIELD
+        - STR_SPRINGFIELD_CLIP
+        - STR_SPRINGFIELD_CLIP
+        - STR_BANDAGES
+        - STR_MILLS_BOMB
+      - 
+        - STR_SPRINGFIELD
+        - STR_SPRINGFIELD_CLIP
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+  - type: STR_AMERICAN_T1_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_AMERICAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_DYNAMITE
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+      - 
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_TRENCH_KNIFE
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+      - 
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+  - type: STR_AMERICAN_T1_SUPPORT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_AMERICAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+      -
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+      -
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_SHOVEL
+  - type: STR_AMERICAN_T1_RAIDER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_AMERICAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    isLeeroyJenkins: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_TRENCH_MACE
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_BANDAGES
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_SHOVEL
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_KNIFE
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+        - STR_PAINKILLER
+  - type: STR_AMERICAN_T1_OFFICER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 100
+      health: 45
+      bravery: 150
+      reactions: 45
+      firing: 65
+      throwing: 40
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 40
+    armor: STR_AMERICAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43]
+    intelligence: 10
+    aggression: 0
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SABRE
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_WHISTLE
+      - 
+        - STR_SABRE
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_WHISTLE
+        - STR_BANDAGES
+      - 
+        - STR_SABRE
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_WHISTLE
+        - STR_PAINKILLERS
+#####################################
+#Tier II, employs advanced Martian Metal ballistic weapons
+  - type: STR_AMERICAN_T2_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_AMERICAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 0
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MONDRAGON
+        - STR_MONDRAGON_CLIP
+        - STR_MONDRAGON_CLIP
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_MILLS_BOMB
+      - 
+        - STR_MONDRAGON
+        - STR_MONDRAGON_CLIP
+        - STR_MONDRAGON_CLIP
+        - STR_BANDAGES
+        - STR_MILLS_BOMB
+      - 
+        - STR_SPRINGFIELD
+        - STR_SPRINGFIELD_CLIP
+        - STR_SPRINGFIELD_CLIP
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_MILLS_BOMB
+  - type: STR_AMERICAN_T2_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_AMERICAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 4
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_TRENCH_GUN
+        - STR_TRENCH_GUN_SHELLS
+        - STR_TRENCH_MACE
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+      - 
+        - STR_TRENCH_GUN
+        - STR_TRENCH_GUN_SHELLS
+        - STR_TRENCH_GUN_SHELLS
+        - STR_TRENCH_KNIFE
+        - STR_MILLS_BOMB
+      - 
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_TRENCH_SHOVEL
+        - STR_DYNAMITE
+  - type: STR_AMERICAN_T2_SUPPORT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_AMERICAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_BAR
+        - STR_BAR_CLIP
+        - STR_BAR_CLIP
+        - STR_TRENCH_MACE
+        - STR_MILLS_BOMB
+      - 
+        - STR_BAR
+        - STR_BAR_CLIP
+        - STR_BAR_CLIP
+        - STR_TRENCH_KNIFE
+      - 
+        - STR_BAR
+        - STR_BAR_CLIP
+        - STR_TRENCH_SHOVEL
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+###########################################
+#German
+#Tier I, initial human weapons
+  - type: STR_GERMAN_T1_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_GEWEHR98
+        - STR_GEWEHR98_CLIP
+        - STR_GEWEHR98_CLIP
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_GEWEHR98
+        - STR_GEWEHR98_CLIP
+        - STR_GEWEHR98_CLIP
+        - STR_BANDAGES
+        - STR_STIELHANDGRENADE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_GEWEHR98
+        - STR_GEWEHR98_CLIP
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_STIELHANDGRENADE
+  - type: STR_GERMAN_T1_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_STIELHANDGRENADE
+        - STR_DYNAMITE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_STIELHANDGRENADE
+        - STR_STIELHANDGRENADE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+  - type: STR_GERMAN_T1_RAIDER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+    armor: STR_GERMAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    isLeeroyJenkins: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_TRENCH_MACE
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_BANDAGES
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_SHOVEL
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_KNIFE
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+        - STR_PAINKILLER
+  - type: STR_GERMAN_T1_OFFICER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 100
+      health: 45
+      bravery: 150
+      reactions: 45
+      firing: 65
+      throwing: 40
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 40
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43]
+    intelligence: 10
+    aggression: 0
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SABRE
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_WHISTLE
+      - 
+        - STR_SABRE
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_BANDAGES
+        - STR_WHISTLE
+      - 
+        - STR_SABRE
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_WHISTLE
+        - STR_PAINKILLERS
+#####################################
+#Tier II, employs advanced Martian Metal ballistic weapons
+  - type: STR_GERMAN_T2_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_GEWEHR98
+        - STR_GEWEHR98_CLIP
+        - STR_GEWEHR98_CLIP
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_GEWEHR98
+        - STR_GEWEHR98_CLIP
+        - STR_GEWEHR98_CLIP
+        - STR_BANDAGES
+        - STR_STIELHANDGRENADE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_TGEWEHR
+        - STR_TGEWEHR_ROUND
+        - STR_TGEWEHR_ROUND
+        - STR_TGEWEHR_ROUND
+        - STR_TGEWEHR_ROUND
+        - STR_TRENCH_KNIFE
+  - type: STR_GERMAN_T2_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_GERMAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_LUGER_ARTILLERY
+        - STR_LUGER_ARTILLERY_DRUM
+        - STR_LUGER_ARTILLERY_DRUM
+        - STR_TRENCH_MACE
+        - STR_DYNAMITE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_LUGER_ARTILLERY
+        - STR_LUGER_ARTILLERY_DRUM
+        - STR_LUGER_ARTILLERY_DRUM
+        - STR_TRENCH_KNIFE
+        - STR_STIELHANDGRENADE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_MAUSER
+        - STR_MAUSER_CLIP
+        - STR_MAUSER_CLIP
+        - STR_TRENCH_SHOVEL
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+  - type: STR_GERMAN_T2_SUPPORT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_MG0815
+        - STR_MG0815_DRUM
+        - STR_TRENCH_MACE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_MG0815
+        - STR_MG0815_DRUM
+        - STR_MG0815_DRUM
+        - STR_TRENCH_KNIFE
+      - 
+        - STR_MG0815
+        - STR_MG0815_DRUM
+        - STR_MG0815_DRUM
+        - STR_TRENCH_SHOVEL
+########################################
+#French
+#Tier I, initial human weapons
+  - type: STR_FRENCH_T1_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_LEBEL
+        - STR_LEBEL_CLIP
+        - STR_LEBEL_CLIP
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_LEBEL
+        - STR_LEBEL_CLIP
+        - STR_LEBEL_CLIP
+        - STR_BANDAGES
+        - STR_STIELHANDGRENADE
+        - STR_MILLS_BOMB
+      - 
+        - STR_LEBEL
+        - STR_LEBEL_CLIP
+        - STR_LEBEL_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_MILLS_BOMB
+  - type: STR_FRENCH_T1_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_FRENCH_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_TRENCH_MACE
+        - STR_DYNAMITE
+        - STR_WHISTLE
+        - STR_MILLS_BOMB
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_TRENCH_KNIFE
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+        - STR_WHISTLE
+      - 
+        - STR_TRENCH_SHOVEL
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+        - STR_WHISTLE
+  - type: STR_FRENCH_T1_SUPPORT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_MACE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_KNIFE
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_SHOVEL
+  - type: STR_FRENCH_T1_RAIDER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+    armor: STR_GERMAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    isLeeroyJenkins: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_TRENCH_MACE
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_BANDAGES
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_SHOVEL
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+      - 
+        - STR_TRENCH_KNIFE
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_MEDIKIT
+        - STR_BANDAGES
+        - STR_PAINKILLER
+  - type: STR_FRENCH_T1_OFFICER_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 100
+      health: 45
+      bravery: 150
+      reactions: 45
+      firing: 65
+      throwing: 40
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 40
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 10
+    moraleLossWhenKilled: 200
+    aggression: 0
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_SABRE
+        - STR_WHISTLE
+      - 
+        - STR_SABRE
+        - STR_BANDAGES
+        - STR_WHISTLE
+      - 
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_WEBLEY_REVOLVER_CLIP
+        - STR_SABRE
+        - STR_WHISTLE
+        - STR_PAINKILLERS
+#####################################
+#Tier II, employs advanced Martian Metal ballistic weapons
+  - type: STR_FRENCH_T2_RIFLEMAN_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_RSC17
+        - STR_RSC17_CLIP
+        - STR_RSC17_CLIP
+        - STR_WEBLEY_REVOLVER
+        - STR_WEBLEY_REVOLVER_CLIP
+      - 
+        - STR_RSC17
+        - STR_RSC17_CLIP
+        - STR_RSC17_CLIP
+        - STR_BANDAGES
+        - STR_MILLS_BOMB
+      - 
+        - STR_LEBEL
+        - STR_LEBEL_CLIP
+        - STR_LEBEL_CLIP
+        - STR_M1911_COLT
+        - STR_M1911_COLT_CLIP
+        - STR_M1911_COLT_CLIP
+        - STR_MILLS_BOMB
+  - type: STR_FRENCH_T2_ASSAULT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_FRENCH_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_RIBEYROLLES
+        - STR_RIBEYROLLES_CLIP
+        - STR_RIBEYROLLES_CLIP
+        - STR_DYNAMITE
+        - STR_STIELHANDGRENADE
+      - 
+        - STR_RIBEYROLLES
+        - STR_RIBEYROLLES_CLIP
+        - STR_RIBEYROLLES_CLIP
+        - STR_MILLS_BOMB
+        - STR_MILLS_BOMB
+      - 
+        - STR_RIBEYROLLES
+        - STR_RIBEYROLLES_CLIP
+        - STR_RIBEYROLLES_CLIP
+        - STR_TRENCH_SHOVEL
+        - STR_DYNAMITE
+        - STR_DYNAMITE
+  - type: STR_FRENCH_T2_SUPPORT_NPC
+    race: STR_HUMANS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+    builtInWeaponSets:
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_MACE
+        - STR_CHAUCHAT_LMG_CLIP
+      - 
+        - STR_CHAUCHAT_LMG
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_CHAUCHAT_LMG_CLIP
+        - STR_TRENCH_KNIFE
+      - 
+        - STR_RIBEYROLLES
+        - STR_RIBEYROLLES_CLIP
+        - STR_RIBEYROLLES_CLIP
+        - STR_TRENCH_SHOVEL
+extraStrings:
+  - type: en-US
+    strings:
+      STR_BRITISH_T1_RIFLEMAN_NPC: Commonwealth Rifleman T1
+      STR_BRITISH_T1_ASSAULT_NPC: Commonwealth Assault T1
+      STR_BRITISH_T1_SUPPORT_NPC: Commonwealth Support T1
+      STR_BRITISH_T1_RAIDER_NPC: Commonwealth Raider T1
+      STR_BRITISH_T1_OFFICER_NPC: Commonwealth Officer T1
+      STR_BRITISH_T2_RIFLEMAN_NPC: Commonwealth Rifleman T2
+      STR_BRITISH_T2_ASSAULT_NPC: Commonwealth Assault T2
+      STR_BRITISH_T2_SUPPORT_NPC: Commonwealth Support T2
+      STR_BRITISH_T2_OFFICER_NPC: Commonwealth Officer T2
+#
+      STR_AMERICAN_T1_RIFLEMAN_NPC: US Army Rifleman T1
+      STR_AMERICAN_T1_ASSAULT_NPC: US Army Assault T1
+      STR_AMERICAN_T1_SUPPORT_NPC: US Army Support T1
+      STR_AMERICAN_T1_RAIDER_NPC: US Army Raider T1
+      STR_AMERICAN_T1_OFFICER_NPC: US Army Officer T1
+      STR_AMERICAN_T2_RIFLEMAN_NPC: US Army Rifleman T2
+      STR_AMERICAN_T2_ASSAULT_NPC: US Army Assault T2
+      STR_AMERICAN_T2_SUPPORT_NPC: US Army Support T2
+      STR_AMERICAN_T2_OFFICER_NPC: US Army Officer T2
+#
+      STR_GERMAN_T1_RIFLEMAN_NPC: Deutsches Heer Rifleman T1
+      STR_GERMAN_T1_ASSAULT_NPC: Deutsches Heer Assault T1
+      STR_GERMAN_T1_SUPPORT_NPC: Deutsches Heer Support T1
+      STR_GERMAN_T1_RAIDER_NPC: Deutsches Heer Raider T1
+      STR_GERMAN_T1_OFFICER_NPC: Deutsches Heer Officer T1
+      STR_GERMAN_T2_RIFLEMAN_NPC: Deutsches Heer Rifleman T2
+      STR_GERMAN_T2_ASSAULT_NPC: Deutsches Heer Assault T2
+      STR_GERMAN_T2_SUPPORT_NPC: Deutsches Heer Support T2
+      STR_GERMAN_T2_OFFICER_NPC: Deutsches Heer Officer T2
+#
+      STR_PILOT_T1_NPC: Pilot T1
+      STR_PILOT_T2_NPC: Pilot T2
+#
+      STR_FRENCH_T1_RIFLEMAN_NPC: French Army Rifleman T1
+      STR_FRENCH_T1_ASSAULT_NPC: French Army Assault T1
+      STR_FRENCH_T1_SUPPORT_NPC: French Army Support T1
+      STR_FRENCH_T1_RAIDER_NPC: French Army Raider T1
+      STR_FRENCH_T1_OFFICER_NPC: French Army Officer T1
+      STR_FRENCH_T2_RIFLEMAN_NPC: French Army Rifleman T2
+      STR_FRENCH_T2_ASSAULT_NPC: French Army Assault T2
+      STR_FRENCH_T2_SUPPORT_NPC: French Army Support T2
+      STR_FRENCH_T2_OFFICER_NPC: French Army Officer T2
+#

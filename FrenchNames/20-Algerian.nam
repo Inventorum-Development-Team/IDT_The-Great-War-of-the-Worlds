@@ -1,0 +1,51 @@
+lookWeights:
+  - 10
+  - 20
+  - 50
+  - 10
+maleFirst:
+  - Basem
+  - Said
+  - Farid
+  - Hakim
+  - Samir
+  - Mustafa
+  - Zuthimalin
+  - Moustapha
+  - Moustafa
+  - Zuthimalin
+  - Mohamed
+  - Ali
+  - Ahmed
+femaleFirst:
+  - Basira
+  - Samia
+  - Gazala
+  - Imane
+  - Maisah
+  - Aarfah
+  - Hamia
+maleLast:
+  - Lellouche
+  - Benyamina
+  - Hamidou
+  - Hannachi
+  - Kateb
+  - Bensoussan
+  - Bourgeois
+  - Zidane
+  - Bouvier
+  - Blanc
+  - Sahnoun
+  - Sidi
+  - Bouhouche
+  - Belkacem
+  - Mokrani
+  - Rezgui
+  - Stambouli
+  - Hannachi
+  - Hamidou
+  - Bensoussan
+  - Sahnoun
+  - Lellouche
+

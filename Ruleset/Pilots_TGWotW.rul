@@ -1,0 +1,228 @@
+soldiers:
+  - type: STR_PILOT
+    flagOffset: 10
+    armorForAvatar: 
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 50000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 50
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 80
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_PILOT_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 45
+    soldierNames:
+      - delete
+      - PilotNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: true
+    dogfightExperience:
+      bravery: 30
+      reactions: 100
+      firing: 75
+items:
+  - type: STR_PILOT_UNIFORM_CORPSE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 112
+    floorSprite: 112
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+armors:
+#Pilot 
+  - type: STR_PILOT_UNIFORM_UC
+    spriteSheet: XCOM_25.PCK
+    spriteInv: MAN_25
+    corpseBattle:
+      - STR_PILOT_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 5
+      stamina: 10
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 0.9 #18 Flames
+    builtInWeapons:
+      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+#      - INV_NULL_1X1_LEFT_LEG
+      - INV_PARACHUTE_C_3X3
+    units:
+      - STR_PILOT
+ufopaedia:
+  - id: STR_PILOT_INTRODUCTION
+    type_id: 7
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: PILOT_IMAGE
+    text: STR_PILOT_UFOPEDIA
+    text_width: 150
+    listOrder: 1715
+  - id: STR_PILOT_UNIFORM_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1716
+    text: STR_PILOT_UNIFORM_UC_UFOPEDIA
+extraSprites:
+  - type: PILOT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/PILOT_IMAGE.PNG
+  - type: MAN_25F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F0.png
+  - type: MAN_25F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F1.png
+  - type: MAN_25F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F2.png
+  - type: MAN_25F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F3.png
+  - type: MAN_25M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M0.png
+  - type: MAN_25M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M1.png
+  - type: MAN_25M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M2.png
+  - type: MAN_25M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M3.png
+
+  - type: XCOM_25.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Pilot/PILOT_UNIFORM.png 
+
+  - type: BIGOBS.PCK
+    files:
+      112: Resources/Pilot/PILOT_UNIFORM_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      112: Resources/Pilot/PILOT_UNIFORM_CORPSE_FLOOROB.png
+
+  - type: Flag10
+    singleImage: true
+    files:
+      0: Resources/Flags/10-BritishPilot.png
+  - type: Flag11
+    singleImage: true
+    files:
+      0: Resources/Flags/11-AmericanPilot.png
+  - type: Flag12
+    singleImage: true
+    files:
+      0: Resources/Flags/12-GermanPilot.png
+  - type: Flag13
+    singleImage: true
+    files:
+      0: Resources/Flags/13-FrenchPilot.png
+  - type: Flag15
+    singleImage: true
+    files:
+      0: Resources/Flags/15-ItalianPilot.png
+
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/UI/avatar-background.png
+extraStrings:
+  - type: en-US
+    strings:
+      STR_PILOT: Pilot
+      STR_PILOT_INTRODUCTION: The Knights of the Sky
+      STR_PILOT_UFOPEDIA: The flight of the Wright brothers in 1905 and the Second Martian Invasion resulted in the full adoption of combat from the air and hundreds of volunteers enlisted in the newly formed military air forces. The knights of the air ride on their powerful air mounts of wood and cloth, defending the human skies.
+      STR_PILOT_UNIFORM_UC: PILOT JUMPSUIT
+      STR_PILOT_UNIFORM_UC_UFOPEDIA: Soft and confortable jump suit made of light cottom clothes, keeps the user warm at high-attitiude and prevents overheating inside landships and other ground vehicles. Includes a brand new parachute made in the USA, using a design of Stefan Banic. This allows the pilot to eject if it's vehicle becomes too damage to return base. Our war machine can reemplace a lost vehicle easily, not a veteran pilot.

@@ -1,0 +1,1455 @@
+terrains:
+###########################################
+######### GRAND BATTLE TERRAINS ##########
+#########################################
+  - name: STR_FRONTLINES_VERDUN_FORT_VAUX_TERRAIN
+    mapDataSets:
+      - BLANKS
+      - BARN
+      - BON1
+      - BON2
+      - BON3
+      - CULTIVAT
+#    script: TRENCH
+    script: TRENCH_FORTS
+    mapBlocks: &AnchorDeepTrench
+      - name: DEEPTRENCH00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DEEPTRENCH01
+        width: 10
+        length: 10
+        groups: 2 # TRENCH BLOCKS
+      - name: DEEPTRENCH02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH07
+        width: 10
+        length: 10
+      - name: DEEPTRENCH08
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH09
+        width: 10
+        length: 10
+      - name: DEEPTRENCH10
+        width: 10
+        length: 10
+      - name: DEEPTRENCH11
+        width: 10
+        length: 10
+      - name: DEEPTRENCH12
+        width: 10
+        length: 10    
+      - name: DEEPTRENCH13
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH14
+        width: 10
+        length: 10
+      - name: DEEPTRENCH15
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH16
+        width: 10
+        length: 10
+      - name: DEEPTRENCH17
+        width: 10
+        length: 10
+      - name: DEEPTRENCH18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH19
+        width: 10
+        length: 10   
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10  
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10  
+      - name: DEEPTRENCH21
+        width: 10
+        length: 10  
+      # - name: DEEPTRENCH22
+      #   width: 20
+      #   length: 20  
+      #   groups: 4
+      - name: DEEPTRENCH24 #CROSS ROAD
+        width: 10
+        length: 10  
+        groups: 4
+      - name: DEEPTRENCH25 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH26 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH27 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH28 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH29 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH30 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3  
+    civilianTypes:
+      - STR_FRENCH_T1_RIFLEMAN_NPC
+      - STR_FRENCH_T1_ASSAULT_NPC
+      - STR_FRENCH_T1_RAIDER_NPC
+      - STR_FRENCH_T1_OFFICER_NPC
+      - STR_FRENCH_T1_SUPPORT_NPC
+
+  - name: STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_TERRAIN
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: VILLAGE
+    civilianTypes:
+      - STR_GERMAN_T1_RIFLEMAN_NPC
+      - STR_GERMAN_T1_ASSAULT_NPC
+      - STR_GERMAN_T1_RAIDER_NPC
+      - STR_GERMAN_T1_OFFICER_NPC
+      - STR_GERMAN_T1_SUPPORT_NPC
+    mapBlocks: &AnchorVillage
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+
+  - name: STR_FRONTLINES_MEUSE_ARGONNE_TERRAIN
+    mapDataSets:
+      - BLANKS
+      - FORESTPOLAR
+      - FOREST
+      - NEWRAIL
+    script: FOREST_RAIL
+    civilianTypes:
+      - STR_AMERICAN_T1_RIFLEMAN_NPC
+      - STR_AMERICAN_T1_ASSAULT_NPC
+      - STR_AMERICAN_T1_RAIDER_NPC
+      - STR_AMERICAN_T1_OFFICER_NPC
+      - STR_AMERICAN_T1_SUPPORT_NPC
+    mapBlocks: 
+      - name: FORESTPOLAR00 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR01 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR02 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR20 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+
+ 
+alienDeployments:
+##############################################
+######### GRAND BATTLE DEPLOYMENTS ##########
+############################################
+  - type: STR_FRONTLINES_VERDUN_FORT_VAUX
+    startingCondition: STR_STARTING_FRONTLINES_VERDUN_FORT_VAUX
+    enviroEffects: STR_ENVIRO_UNIT_UNDER_SIEGE
+    data: &GERMAN_ARMY_RANKS_DATA
+      - alienRank: 5 # Soldier
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_GEWEHR98
+            - STR_GEWEHR98_CLIP
+            - STR_GEWEHR98_CLIP
+            - STR_GEWEHR98_CLIP
+          -
+            - STR_GEWEHR98
+            - STR_GEWEHR98_CLIP
+            - STR_GEWEHR98_CLIP
+            - STR_GEWEHR98_CLIP
+          -
+            - STR_GEWEHR98
+            - STR_GEWEHR98_CLIP
+            - STR_GEWEHR98_CLIP
+            - STR_GEWEHR98_CLIP
+          -
+            - STR_SELBSTLADER_M1916
+            - STR_SELBSTLADER_M1916_CLIP
+            - STR_SELBSTLADER_M1916_CLIP
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+          -
+            - STR_SELBSTLADER_M1916
+            - STR_SELBSTLADER_M1916_CLIP
+            - STR_SELBSTLADER_M1916_CLIP
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+      - alienRank: 4 # Assault
+        lowQty: 3
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_STIELHANDGRENADE
+          -
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_STIELHANDGRENADE
+            - STR_STIELHANDGRENADE
+            - STR_DYNAMITE
+          -
+            - STR_LUGER_ARTILLERY
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_STIELHANDGRENADE
+            - STR_STIELHANDGRENADE
+            - STR_DYNAMITE
+          -
+            - STR_LUGER_ARTILLERY
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_STIELHANDGRENADE
+            - STR_STIELHANDGRENADE
+            - STR_DYNAMITE            
+          -
+            - STR_MP18
+            - STR_MP18_DRUM
+            - STR_MP18_DRUM
+            - STR_STIELHANDGRENADE
+            - STR_STIELHANDGRENADE
+            - STR_DYNAMITE
+      - alienRank: 3 # Medic
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_MEDIKIT
+          -
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_BANDAGES
+            - STR_MEDIKIT
+            - STR_BANDAGES
+          -
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_MEDIKIT
+            - STR_BANDAGES
+          -
+            - STR_LUGER_ARTILLERY
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_MEDIKIT
+            - STR_BANDAGES
+            - STR_PAINKILLER
+          -
+            - STR_LUGER_ARTILLERY
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_LUGER_ARTILLERY_DRUM
+            - STR_MEDIKIT
+            - STR_BANDAGES
+            - STR_PAINKILLER
+      - alienRank: 2 # Support
+        lowQty: 2
+        highQty: 4
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MG0815
+            - STR_MG0815_DRUM
+            - STR_MG0815_DRUM
+            - STR_TRENCH_MACE
+          -
+            - STR_MG0815
+            - STR_MG0815_DRUM
+            - STR_MG0815_DRUM
+            - STR_TRENCH_MACE
+          -
+            - STR_MG0815
+            - STR_MG0815_DRUM
+            - STR_MG0815_DRUM
+            - STR_TRENCH_KNIFE
+          -
+            - STR_MG0815
+            - STR_MG0815_DRUM
+            - STR_MG0815_DRUM
+            - STR_TRENCH_SHOVEL
+            - STR_STIELHANDGRENADE
+          -
+            - STR_MG0815
+            - STR_MG0815_DRUM
+            - STR_MG0815_DRUM
+            - STR_TRENCH_SHOVEL
+            - STR_STIELHANDGRENADE
+      - alienRank: 1 # Officer
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+            
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+      - alienRank: 0 # Officer
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+            
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+            - STR_WHISTLE
+      - alienRank: 6 # Melee Trooper
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_TRENCH_KNIFE
+            - STR_STIELHANDGRENADE
+          -
+            - STR_TRENCH_MACE
+            - STR_STIELHANDGRENADE
+            - STR_BANDAGES
+          -
+            - STR_TRENCH_SHOVEL
+            - STR_DYNAMITE
+            - STR_BANDAGES
+            - STR_BANDAGES
+          -
+            - STR_TRENCH_SHOVEL
+            - STR_DYNAMITE
+            - STR_BANDAGES
+            - STR_BANDAGES
+          -
+            - STR_SABRE
+            - STR_DYNAMITE
+            - STR_BANDAGES
+            - STR_BANDAGES
+      - alienRank: 7 # Flame Trooper
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_FLAMETHROWER
+          -
+            - STR_FLAMETHROWER
+          -
+            - STR_FLAMETHROWER
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+          -
+            - STR_FLAMETHROWER
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP
+          -
+            - STR_FLAMETHROWER
+            - STR_MAUSER
+            - STR_MAUSER_CLIP
+            - STR_MAUSER_CLIP  
+        extraRandomItems:
+          - [STR_TRENCH_SHOVEL, STR_TRENCH_KNIFE, STR_TRENCH_MACE]
+          - [STR_DYNAMITE, STR_STIELHANDGRENADE, STR_STIELHANDGRENADE]
+          - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]		
+    width: 60
+    length: 60
+    height: 10
+    turnLimit: 10 
+    chronoTrigger: 2
+    cheatTurn: 5
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_FRENCH_T2_RIFLEMAN_NPC: 4 
+      STR_FRENCH_T2_ASSAULT_NPC: 4
+      STR_FRENCH_T1_OFFICER_NPC: 2
+      STR_FRENCH_T1_RAIDER_NPC: 2
+      STR_FRENCH_T2_SUPPORT_NPC: 2
+    terrains:  
+      - STR_FRONTLINES_VERDUN_FORT_VAUX_TERRAIN
+#    music:
+#      - EPIC2
+    briefing:
+      title: STR_FRONTLINES_VERDUN_FORT_VAUX
+      desc: STR_FRONTLINES_VERDUN_FORT_VAUX_BRIEFING
+      palette: 1
+      textOffset: -16
+      background: FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND 
+      showTarget: false
+      showCraft: false
+
+  - type: STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
+    startingCondition: STR_STARTING_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
+    data: &FRENCH_ARMY_RANKS_DATA
+      - alienRank: 5 # Soldier
+        lowQty: 4
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_LEBEL
+            - STR_LEBEL_CLIP
+            - STR_LEBEL_CLIP
+            - STR_LEBEL_CLIP
+          -
+            - STR_LEBEL
+            - STR_LEBEL_CLIP
+            - STR_LEBEL_CLIP
+            - STR_LEBEL_CLIP
+          -
+            - STR_LEBEL
+            - STR_LEBEL_CLIP
+            - STR_LEBEL_CLIP
+            - STR_LEBEL_CLIP
+          -
+            - STR_RSC17
+            - STR_RSC17_CLIP
+            - STR_RSC17_CLIP
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+          -
+            - STR_RSC17
+            - STR_RSC17_CLIP
+            - STR_RSC17_CLIP
+            - STR_RSC17_CLIP
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+      - alienRank: 4 # Assault
+        lowQty: 3
+        highQty: 4
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+            - STR_MILLS_BOMB
+          -
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+            - STR_STIELHANDGRENADE
+            - STR_STIELHANDGRENADE
+            - STR_DYNAMITE
+          -
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+            - STR_MILLS_BOMB
+            - STR_MILLS_BOMB
+            - STR_DYNAMITE
+          -
+            - STR_RIBEYROLLES
+            - STR_RIBEYROLLES_CLIP
+            - STR_RIBEYROLLES_CLIP
+            - STR_MILLS_BOMB
+            - STR_MILLS_BOMB
+            - STR_DYNAMITE            
+          -
+            - STR_RIBEYROLLES
+            - STR_RIBEYROLLES_CLIP
+            - STR_RIBEYROLLES_CLIP
+            - STR_MILLS_BOMB
+            - STR_MILLS_BOMB
+            - STR_DYNAMITE
+      - alienRank: 3 # Medic
+        lowQty: 1
+        highQty: 3
+        dQty: 1
+        percentageOutsideUfo: 20
+        itemSets:
+          -
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+            - STR_MEDIKIT
+          -
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+            - STR_BANDAGES
+            - STR_MEDIKIT
+            - STR_BANDAGES
+          -
+            - STR_M1911_COLT
+            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_CLIP
+            - STR_MEDIKIT
+            - STR_BANDAGES
+          -
+            - STR_RIBEYROLLES
+            - STR_RIBEYROLLES_CLIP
+            - STR_RIBEYROLLES_CLIP
+            - STR_MEDIKIT
+            - STR_BANDAGES
+            - STR_PAINKILLER
+          -
+            - STR_RIBEYROLLES
+            - STR_RIBEYROLLES_CLIP
+            - STR_RIBEYROLLES_CLIP
+            - STR_MEDIKIT
+            - STR_BANDAGES
+            - STR_PAINKILLER
+      - alienRank: 2 # Support
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_CHAUCHAT_LMG
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_TRENCH_MACE
+          -
+            - STR_CHAUCHAT_LMG
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_TRENCH_MACE
+          -
+            - STR_CHAUCHAT_LMG
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_TRENCH_KNIFE
+          -
+            - STR_CHAUCHAT_LMG
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_TRENCH_SHOVEL
+            - STR_MILLS_BOMB
+          -
+            - STR_CHAUCHAT_LMG
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_CLIP
+            - STR_TRENCH_SHOVEL
+            - STR_MILLS_BOMB
+            - STR_MILLS_BOMB
+      - alienRank: 1 # Officer
+        lowQty: 1
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+      - alienRank: 0 # Officer
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+          -
+            - STR_SABRE
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WHISTLE
+      - alienRank: 6 # Melee Trooper
+        lowQty: 2
+        highQty: 6
+        dQty: 2
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_TRENCH_KNIFE
+            - STR_MILLS_BOMB
+          -
+            - STR_TRENCH_MACE
+            - STR_MILLS_BOMB
+            - STR_BANDAGES
+          -
+            - STR_TRENCH_SHOVEL
+            - STR_DYNAMITE
+            - STR_MILLS_BOMB
+            - STR_BANDAGES
+          -
+            - STR_TRENCH_SHOVEL
+            - STR_DYNAMITE
+            - STR_MILLS_BOMB
+            - STR_BANDAGES
+            - STR_BANDAGES
+          -
+            - STR_SABRE
+            - STR_DYNAMITE
+            - STR_MILLS_BOMB
+            - STR_BANDAGES
+            - STR_BANDAGES
+      - alienRank: 7 # Flame Trooper
+        lowQty: 1
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_FLAMETHROWER
+          -
+            - STR_FLAMETHROWER
+          -
+            - STR_FLAMETHROWER
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+          -
+            - STR_FLAMETHROWER
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP
+          -
+            - STR_FLAMETHROWER
+            - STR_WEBLEY_REVOLVER
+            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_WEBLEY_REVOLVER_CLIP 
+        extraRandomItems:
+          - [STR_TRENCH_SHOVEL, STR_TRENCH_KNIFE, STR_TRENCH_MACE]
+          - [STR_DYNAMITE, STR_MILLS_BOMB, STR_MILLS_BOMB]
+          - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]		
+    width: 60
+    length: 60
+    height: 10
+    civilians: 0 # no random civilians
+    civiliansByType:	  
+      STR_GERMAN_T2_RIFLEMAN_NPC: 4 
+      STR_GERMAN_T2_ASSAULT_NPC: 4
+      STR_GERMAN_T1_OFFICER_NPC: 2
+      STR_GERMAN_T1_RAIDER_NPC: 4
+      STR_GERMAN_T2_SUPPORT_NPC: 4
+    terrains:
+      - STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_TERRAIN
+    shade: 2
+    briefing:
+      title: STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
+      desc: STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BRIEFING
+      textOffset: -16
+      background: FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BACKGROUND
+      showTarget: false
+      showCraft: false
+
+  - type: STR_FRONTLINES_MEUSE_ARGONNE
+    startingCondition: STR_STARTING_FRONTLINES_MEUSE_ARGONNE
+    data: *GERMAN_ARMY_RANKS_DATA
+    width: 60
+    length: 60
+    height: 10
+    civilians: 0 # no random civilians
+    civiliansByType:	  
+      STR_AMERICAN_T2_RIFLEMAN_NPC: 2 
+      STR_AMERICAN_T2_ASSAULT_NPC: 3
+      STR_AMERICAN_T1_OFFICER_NPC: 1
+      STR_AMERICAN_T1_RAIDER_NPC: 1
+      STR_AMERICAN_T2_SUPPORT_NPC: 2
+    terrains:
+      - STR_FRONTLINES_MEUSE_ARGONNE_TERRAIN
+    shade: 3
+    briefing:
+      title: STR_FRONTLINES_MEUSE_ARGONNE
+      desc: STR_FRONTLINES_MEUSE_ARGONNE_BRIEFING
+      textOffset: -16
+      background: FRONTLINES_MEUSE_ARGONNE_BACKGROUND
+      showTarget: false
+      showCraft: false
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_FRONTLINES_VERDUN_FORT_VAUX: "FRONTLINES: Verdun, Defense of Fort Vaux"
+      STR_FRONTLINES_VERDUN_FORT_VAUX_TERRAIN: "Trenches outside Fort Vaux"
+      STR_FRONTLINES_VERDUN_FORT_VAUX_BRIEFING: "1916. German forces have besieged the fortress of Verdun. Fort Douaumont has fallen and now the enemy assaults Fort Vaux. Our company was assigned to defend the trenches in the frontline of Vaux. General Nivelle has given the order 'They shall not pass!' And we will make the Germans pay dearly for their daring."
+      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT: "FRONTLINES: Assault on Fleury-devant-Douaumont Village"
+      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_TERRAIN: "Small town near Verdun"
+      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BRIEFING: "1916. The siege of Verdun is proving more successful than expected. The High Command has ordered our platoon to capture the important village of Fleury-devant-Douamont, near the line of fortresses of Verdun. We have recaptured the position of French hands many times, this time it will be the definitive one."
+      STR_FRONTLINES_MEUSE_ARGONNE: "FRONTLINES: Meuse-Argonne Offensive"
+      STR_FRONTLINES_MEUSE_ARGONNE_TERRAIN: "Railroad in the Argonne Forest"
+      STR_FRONTLINES_MEUSE_ARGONNE_BRIEFING: "1918. It is the Hundred Days Offensive and the US Army will finally participate in operations on the Western Front. Our squadron will attack a German position near the Hinderburg Line deep in the Argonne forest. Strong opposition is expected. It is time to end the German menance once and for all!"
+#
+      STR_GERMAN_ARMY: "German Army"
+      STR_GERMAN_ARMY_OFFICER: "German Army Officer"
+      STR_GERMAN_ARMY_SUPPORT: "German Army Support"
+      STR_GERMAN_ARMY_MEDIC: "German Army Medic"
+      STR_GERMAN_ARMY_ASSAULT: "German Army Assault"
+      STR_GERMAN_ARMY_RIFLEMAN: "German Army Rifleman"
+      STR_GERMAN_ARMY_RAIDER: "German Army Raider"
+      STR_GERMAN_ARMY_FLAME_TROOPER: "German Army Flame Trooper"
+#
+      STR_FRENCH_ARMY: "French Army"
+      STR_FRENCH_ARMY_OFFICER: "French Army Officer"
+      STR_FRENCH_ARMY_SUPPORT: "French Army Support"
+      STR_FRENCH_ARMY_MEDIC: "French Army Medic"
+      STR_FRENCH_ARMY_ASSAULT: "French Army Assault"
+      STR_FRENCH_ARMY_RIFLEMAN: "French Army Rifleman"
+      STR_FRENCH_ARMY_RAIDER: "French Army Raider"
+      STR_FRENCH_ARMY_FLAME_TROOPER: "French Army Flame Trooper"
+
+extraSprites:
+  - type: FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND.png
+  - type: FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BACKGROUND.png
+  - type: FRONTLINES_MEUSE_ARGONNE_BACKGROUND 
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/FRONTLINES_MEUSE_ARGONNE_BACKGROUND.png
+     
+##########################################
+######### GRAND BATTLE ENEMIES ##########
+########################################     
+alienRaces: # usually in file AlianRaces.rul
+  - id: STR_GERMAN_ARMY
+    members:
+      - STR_GERMAN_ARMY_OFFICER #COMMANDER
+      - STR_GERMAN_ARMY_OFFICER # LEADER
+      - STR_GERMAN_ARMY_SUPPORT # ENGINEER
+      - STR_GERMAN_ARMY_MEDIC #MEDIC
+      - STR_GERMAN_ARMY_ASSAULT # NAVIGATOR
+      - STR_GERMAN_ARMY_RIFLEMAN #SOLDIER
+      - STR_GERMAN_ARMY_RAIDER #TERRORIST
+      - STR_GERMAN_ARMY_FLAME_TROOPER #TERRORIST
+
+  - id: STR_FRENCH_ARMY
+    members:
+      - STR_FRENCH_ARMY_OFFICER #COMMANDER
+      - STR_FRENCH_ARMY_OFFICER # LEADER
+      - STR_FRENCH_ARMY_SUPPORT # ENGINEER
+      - STR_FRENCH_ARMY_MEDIC #MEDIC
+      - STR_FRENCH_ARMY_ASSAULT # NAVIGATOR
+      - STR_FRENCH_ARMY_RIFLEMAN #SOLDIER
+      - STR_FRENCH_ARMY_RAIDER #TERRORIST
+      - STR_FRENCH_ARMY_FLAME_TROOPER #TERRORIST
+
+units: # Usually in file Armor.rul
+  - type: STR_GERMAN_ARMY_OFFICER
+    race: STR_GERMAN_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 100
+      health: 45
+      bravery: 150
+      reactions: 45
+      firing: 65
+      throwing: 40
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 40
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43]
+    intelligence: 10
+    aggression: 0
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_GERMAN_ARMY_SUPPORT
+    race: STR_GERMAN_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_GERMAN_ARMY_MEDIC
+    race: STR_GERMAN_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 100
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 10
+    aggression: 0
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_GERMAN_ARMY_ASSAULT
+    race: STR_GERMAN_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_GERMAN_ARMY_RIFLEMAN
+    race: STR_GERMAN_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 100
+      reactions: 40
+      firing: 75
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_GERMAN_ARMY_RAIDER
+    race: STR_GERMAN_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 115
+      health: 30
+      bravery: 110
+      reactions: 46
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 75
+    armor: STR_GERMAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    canSurrender: true
+    isLeeroyJenkins: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_GERMAN_ARMY_FLAME_TROOPER
+    race: STR_GERMAN_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+    armor: STR_GERMAN_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+##################################################
+  - type: STR_FRENCH_ARMY_OFFICER
+    race: STR_FRENCH_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 100
+      health: 45
+      bravery: 150
+      reactions: 45
+      firing: 65
+      throwing: 40
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 40
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    moraleLossWhenKilled: 200
+    deathSound: [41, 42, 43]
+    intelligence: 10
+    aggression: 0
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_FRENCH_ARMY_SUPPORT
+    race: STR_FRENCH_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 90
+      health: 45
+      bravery: 100
+      reactions: 40
+      firing: 70
+      throwing: 60
+      strength: 70
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_FRENCH_ARMY_MEDIC
+    race: STR_FRENCH_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 100
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 10
+    aggression: 0
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_FRENCH_ARMY_ASSAULT
+    race: STR_FRENCH_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 65
+      stamina: 110
+      health: 32
+      bravery: 150
+      reactions: 50
+      firing: 65
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 35
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 6
+    aggression: 3
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_FRENCH_ARMY_RIFLEMAN
+    race: STR_FRENCH_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 90
+      health: 35
+      bravery: 100
+      reactions: 40
+      firing: 75
+      throwing: 60
+      strength: 45
+      psiStrength: 35
+      psiSkill: 0
+      melee: 25
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_FRENCH_ARMY_RAIDER
+    race: STR_FRENCH_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 60
+      stamina: 115
+      health: 30
+      bravery: 110
+      reactions: 46
+      firing: 50
+      throwing: 60
+      strength: 30
+      psiStrength: 35
+      psiSkill: 0
+      melee: 75
+    armor: STR_FRENCH_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    isLeeroyJenkins: true
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1
+
+  - type: STR_FRENCH_ARMY_FLAME_TROOPER
+    race: STR_FRENCH_ARMY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 56
+      stamina: 90
+      health: 30
+      bravery: 100
+      reactions: 46
+      firing: 65
+      throwing: 60
+      strength: 25
+      psiStrength: 35
+      psiSkill: 0
+      melee: 50
+    armor: STR_FRENCH_GASMASK_UC
+    standHeight: 22
+    kneelHeight: 14
+    value: 10
+    deathSound: [41, 42, 43]
+    intelligence: 4
+    aggression: 6
+    isLeeroyJenkins: true
+    canSurrender: true
+    showFullNameInAlienInventory: 1
+    pickUpWeaponsMoreActively: 1

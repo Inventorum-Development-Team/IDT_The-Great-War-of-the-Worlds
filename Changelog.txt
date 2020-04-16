@@ -1,0 +1,176 @@
+14-April-2020: v0.7.2 Mk III Beta 'Tempesta d'Acciaio'
+Changes made:
+*Updated to latest OXCE v6.4.3
+*Added missing "unarmed combat" attack to Italian armors
+*Fixed wrongly defined North Pacific region, thanks to Tson to found it, Meridian & Warboy to giving advice 
+*Fixed issue with German Trench Coat corpse not appearing
+
+18-February-2020: v0.7.1f Mk III Beta 'Tempesta d'Acciaio' 
+Changes made:
+*Re-uploaded to fix critical crash
+*Minor update, fixed issues with v0.7.1 reported by StormRangerX
+*OXCE v6.3.4 is now a requisite to use the mod
+*Minor Spanish spellcheck
+
+16-February-2020: v0.7.1 Mk III Beta 'Tempesta d'Acciaio' 
+Changes made:
+*New French translations, by BlackStaff
+*Fixed issue with Terror Missions crashing on Geoscape, found by cubik2k
+*Fixed issue with Italian uniform corpses (wrong sprites), found by Ikhanad
+*Fixed issue related to missing routes on Martian Overlord Walker
+*Now the Martian Walkers and Fleet ships have unique Interception Window (you can identify them easily during interceptions)
+*Increased Martian Machines shield (now they are equal to the Machine HP, doubling its damage resistance)
+*Fixed many War Codex entries, now they are locked behind their respective research
+*Improved Spanish and English War Codex text entries (some were off screen)
+*Fixed issue with Alien Supply mission (the assigned Supply ship was wrongly defined)
+*Lewis and T-Gewehr turrets now have inventory image
+
+13-February-2020: v0.7 Mk III Beta 'Tempesta d'Acciaio' 
+Changes made:
+*Introduced memmaker's Weapon Proficiency based on Weapon Class. Now you will become better if you use certain weapon type
+*New Coalition of Nations logo, drawn by Dauntless1942
+*Added Italian Faction
+	* TIER 1
+	- Carcano M91 Carbine
+	- Beretta MAB14 SMG
+	* TIER 2
+	- Cei-Rigotti SLR
+	- Villar-Perosa SMG
+*Added soldierType:
+	- Italian
+*Fixed R-Class Zeppelin map, now the ropes and ladders are usable. Changed size of the map
+*Improved Geoscape, new textures for Infested Forest, Infested Snowland, Alpine and Winter Forest textures
+*Improved British, American & German uniform sprites, now their Battlescape sprites match their Inventory paperdolls
+*New Trench Coat uniform for German troops
+*Added 4 new maps made by members of the IDT (luke83, b__0, efrenespartano & Hans Woofington):
+	- Rural Settlement
+	- Rural Forest
+	- Snow Rural Settlement
+	- Snow Rural Forest
+*Added 11 new terrains made by bulletdesigner:
+	- High Mountain
+	- Low Mountain
+	- Desert Mountain
+	- Mountain Pass
+	- Tropical Mountain
+	- Mountain Plateau
+	- Snow Plains
+	- Plains
+	- Steppe
+	- Rocky Plains
+	- Tropical Plains
+*Fixed palette issues with Next Turn backgrounds
+*New French translations, by BlackStaff
+*New Spanish translations
+*Added new Events, will randomly appear on the Geoscape, by Ikhanad & efrenespartano
+*Tweaked some item costs
+*Tweaked M1903 Springfield and Gewehr 98 stats, suggested by Bootchicken48
+*Tweaked German Soldiers initial stats, suggested by Bootchicken48
+*Fixed crash with Frontline missions
+
+29-January-2020: v0.6.6 Mk Beta 'On Ne Passe Pas!'
+Changes made:
+*Updated to OXCE v6.3.4
+*Fixed fatal crash related to Martian Rock Thrower
+*Added new Military Ration item:
+	- Tea Flask, by wolwerin
+*New Bandages sprites, by wolwerin
+*New SPAD XIII base sprite, drawn by Andr
+*Corrected War Codex craft texts, by BlackStaff
+*Updated French translation, by BlackStaff
+*Updated Spanish translation
+*Tweaked costBuy and costSell of many items (some were unavailable for purchase)
+*New R-Class Airship map, now you will spawn on the gondolas of the airship
+*Updated Medical and Military Rations items to the new OXCE syntax
+*Broken Wine Bottle now has a limited clip (two uses), suggested by Bootchicken48
+*Fixed Unarmed Melee Attack running out of ammo, found by Bootchicken48
+*Added missing extraStrings, found by Bootchicken48
+*Trench Gun now has automatic fire mode (IRL, the Trench Gun doesn't have trigger disconector)
+
+25-December-2019: v0.6.5 Mk II Beta 'On Ne Passe Pas!'
+Changes made:
+*Disabled crashing vanilla Tank Cannon War Codex entry (the item & unit were disabled, but the ufopedia entry no)
+*Fixed issue with crashing Frontline Forest and Frontline Farm terrains with tall Martian Crafts
+*Added missing strings for Human Chemical Weapons
+*Added Gas Grenade, unlocked from Human Chemical Weapons
+*Starting armors now have the new damageTypes defined, armors with gasmask resist better the effects of gas weapons
+*Re-arranged L-Class Airship map, boxes provide some cover now.
+
+14-December-2019: v0.6.4 Mk II Beta 'On Ne Passe Pas!'
+Changes made:
+*Updated to OXCE v6.2
+*Fixed issue with STR_ALIEN_TERROR bugged mission (deleted, issue found by Anon & Tal'Raziid)
+*Deleted avoidBonus on all of the Martian machines
+*Improved accuracy of all craft weapons (+10)
+*Fixed issue with Fragmentation Bomb that made impossible to reload at basem (issue found by Tal'Raziid)
+*Added 3 more Pilots at starting base
+*Fixed issue related to Lewis Turret, now it is required only one Drum to load it at the base (instead of 48 Drums), by Tal'Raziid 
+*Added Signal Pistol, a flare gun
+*Added Frontline Forest & Frontline Farm terrains
+*Disabled Martian weapons available for purchase
+*Disabled vanilla content left
+*Fixed research tree, research topics won't be available from start
+*Locked War Codex Tier II weapon entries behind their respective research
+*Deleted Hobbes' content 
+
+15-October-2019: v0.6.3 Mk II Beta 'On Ne Passe Pas!'
+Changes made:
+*Updated to OXCE v6.0
+*Added more French translations, by BlackStaff
+*Fixed issues with Geoscape missions (terror sites, some alien missions)
+*Added random Operation and Base names
+*Improved starting base, Hangars and General Stores now have more room
+*Many minor fixes
+
+3-September-2019: v0.6.2 Mk II Beta 'On Ne Passe Pas!'
+Changes made:
+*Added French Faction
+	- Lebel M1886 Bayoneted
+	- Chauchat M15 LMG
+	- RSC 17 Rifle
+	- Ribeyrolles
+*Added soldierType:
+	- French
+*Improved German Army paperdolls by DarkDust
+*Fixed issues with War Codex pages (bad palettes)
+*Added Kzer-Za wounding scripts to melee weapons and shotguns
+*Brand new Martian Flying Machines (UFOs) by Luke83
+*Added new Martian Static Bases, maps by Luke83, with Heat-Ray weaponry defined on alienDeployments
+*New Trench Road & Forest Railroad Terrain by Luke83
+*Fixed issues with campaign mission on Geoscape, with help of Warboy
+*Fixed issues with campaign mission Battle of Verdun alienDeployments, with help of Luke83 and Hobbes
+*Tweaked weapons:
+	- Improved Mondragón accuracy, new sprites
+	- Improved BAR accuracy, new sprites, now has a bipod.
+	- Improved CGSR Chauchat accuracy & new sprites, now has a bipod too.
+	- T-Gewehr is no longer an infantry weapon, reemplaced by Selbslatder M1915
+	- Flamethrower now has unique damage (19, flames), bulletSprite. autoAccuracy increased from 25 to 75, ammo reduced from 50 to 30, autoShots reduced from 10 to 5, now has 2 sprayWaypoints.
+	- Punch! now does 20 stun damage multiplied x2 by melee stat and x1.5 strength
+	- T-Gewehr and Lewis turret now has increased accuracy
+	- New T-Gewehr Turret, damage improved from 75 to 95
+	- Lewis MG Turret now has unique sounds (old sounds were those of the MG-08/15)
+	- Martian Rock Thrower's Calysten ammo now has damageType: 19, Gas Capsules now has damageType: 1. Acid Capsules now uses Kzer-Za wounding script. All of the Rock Thrower ammo made less damage.
+*Added new items:
+Military rations, recover morale and energy
+	- Bread
+	- Canned Beef
+	- Biscuit Box
+	- Wine
+	- Rotten versions, edible, but with a sight health penalty
+*Added French nationality to pilots
+*Added new Mode: Frontlines (WW1 real life battles)
+	- Siege of Verdun: Fort Vaux -1916-
+	- Raid on Fleury-devant-Douaumont -1916-
+	- Offensive Meuse-Argonne -1918-
+*Added hiddenMovementBackgrounds
+*Added surrenderMode & enableCloseQuartersCombat
+*New missionZones con North America, Europe and Australia
+*Added initial Martian Missions with Tripods
+*New tech-tree & research
+*First Story Mission: Siege of Verdun, Three-part mission
+	- Fixed issues with mission stages
+*Balanced Martian Heat-Ray Guns by The Reaver of Darkness
+*Added Martian Heat-Ray weapons
+	- Heat-Ray Carbine
+	- New Martian Launcher Sprite
+	- Martian Rock Thrower (Original idea by BlackStaff, sprites by efrenespartano)s by efrenespartano)

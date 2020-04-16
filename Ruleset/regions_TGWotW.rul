@@ -1,0 +1,531 @@
+regions:
+  - delete: STR_NORTH_AMERICA
+  - delete: STR_ARCTIC
+  - delete: STR_ANTARCTICA
+  - delete: STR_SOUTH_AMERICA
+  - delete: STR_EUROPE
+  - delete: STR_NORTH_AFRICA
+  - delete: STR_SOUTHERN_AFRICA
+  - delete: STR_CENTRAL_ASIA
+  - delete: STR_SOUTH_EAST_ASIA
+  - delete: STR_SIBERIA
+  - delete: STR_AUSTRALASIA
+  - delete: STR_PACIFIC
+  - delete: STR_NORTH_ATLANTIC
+  - delete: STR_SOUTH_ATLANTIC
+  - delete: STR_INDIAN_OCEAN
+########################################
+  - type: STR_VERDUN_REGION
+    missionZones:
+      -
+        - [5.41193, 5.41193, -49.2667, -49.2667, -1, STR_VERDUN]
+  - type: STR_NORTH_AMERICA
+    cost: 800000
+    areas:
+      - [195, 305, -70, -55]
+      - [230, 305, -55, -30]
+      - [240, 300, -30, -10]
+    regionWeight: 18
+    missionWeights:
+      STR_ALIEN_RESEARCH: 14
+      STR_ALIEN_HARVEST: 17
+      STR_ALIEN_ABDUCTION: 20
+    missionZones:
+      -
+        - [200, 220, -65, -60] #MissionZone 0
+      -
+        - [200, 225, -63.75, -60.75] #MissionZone 1 
+# MissionZone 2 - Active frontlines - White
+      -
+        - [236, 240, -50, -45] # Seattle Front
+        - [267.846, 270.679, -46.5498, -30.3286] # Mississippi Front
+        - [235.432, 243.035, -41.6635, -40.7259] # North California Front
+        - [255.118, 259.394, -31.3003, -30.7318] # Central Texas Front
+        - [253.865, 255.277, -29.9956, -27.3751] # Western Chihuahua Front
+        - [256.314, 262.442, -25.678, -24.1703] # South Saltillo Front
+        - [259.526, 271.652, -52.449, -29.1174] # Central Canada Front
+      -
+# MissionZone 3 - Alien terror - Green dots
+        - [284.25, 284.25, -45.5, -45.5, -1, STR_MONTREAL] 
+        - [234.75, 234.75, -49.375, -49.375, -1, STR_VANCOUVER]
+        - [279.733, 279.733, -26.08, -26.08, -1, STR_MIAMI]
+        - [282.875, 282.875, -38.75, -38.75, -1, STR_WASHINGTON]
+        - [279.454, 279.454, -43.14, -43.14, -1, STR_TORONTO]
+        - [255.23, 255.23, -29.04, -29.04, -1, STR_CHIHUAHUA]
+        - [258.569, 258.569, -25.3741, -25.3741, -1, STR_SALTILLO]
+        - [272.375, 272.375, -41.875, -41.875, -1, STR_CHICAGO]
+        - [263.375, 263.375, -32.75, -32.75, -1, STR_DALLAS]
+        - [269.794, 269.794, -30.07, -30.07, -1, STR_NEW_ORLEANS]
+        - [286.125, 286.125, -40.75, -40.75, -1, STR_NEW_YORK]
+        - [289.348, 289.348, -42.429, -42.429, -1, STR_BOSTON]
+        - [260.875, 260.875, -19.375, -19.375, -1, STR_MEXICO_CITY]
+        - [277.625, 277.625, -22.5, -22.5, -1, STR_HAVANA]
+        - [241.75, 241.75, -34.125, -34.125, -1, STR_LOS_ANGELES]
+        - [236.705, 236.705, -38.72, -38.72, -1, STR_SANFRANCISCO]
+        - [235.47, 235.47, -47, -47, -1, STR_SEATTLE]
+      -
+#MissionZone 4 - Alien bases - Cyan
+        - [250, 270, -66, -64] # Near the Artic
+        - [270, 275, -33, -31] # Near New Orleans
+        - [270, 276, -41, -39] # Near Chicago
+        - [280, 284, -40, -43] # Between New York and Vancouver
+        - [256, 261, -29, -27] # Between Texas and Coahuila
+        - [238, 244, -38, -35] # California Desert
+        - [234, 239, -52, -50] # Inside Seattle Front 
+      -
+# MissionZone 5 - Old Atmosphere entry/exit points - Yellow
+        - [0, 359.875, -90, -80] 
+      -
+# MissionZone 6 - Martian Ocupation Zone, no-fly/no-go zone - Red
+        - [245.711, 268.565, -40.9463, -34.7545] # South-Central USA
+        - [243.797, 246.345, -40.9794, -35.3127] # Near California
+        - [243.765, 259.006, -52.5765, -50.1871] # South Canada
+        - [245.651, 259.439, -55.6088, -52.455] # Central Canada
+        - [240.156, 268.223, -49.9289, -40.9235] # North-Central USA
+        - [259.551, 269.068, -34.734, -33.3805] # North of Dallas
+        - [246.341, 259.609, -35.0249, -31.5121] # Mexico Border
+        - [246.552, 255.061, -31.2045, -27.4787] # Northern Mexico
+        - [249.372, 254.996, -27.2746, -24.8517] # North-eastern Mexico 
+        - [251.461, 271.133, -24.9112, -13.4631] # Central Mexico 
+
+  - type: STR_SOUTH_AMERICA
+    cost: 600000
+    areas:
+      - [270, 315, -10, 0]
+      - [275, 330, 0, 15]
+      - [275, 325, 15, 60]
+    regionWeight: 10
+    missionWeights:
+      STR_ALIEN_RESEARCH: 10
+      STR_ALIEN_HARVEST: 24
+      STR_ALIEN_ABDUCTION: 12
+    missionZones:
+      -
+        - [280.375, 297.625, -11.875, -4.125]
+      -
+        - [312.875, 320.25, 6.25, 11.5]
+      -
+        - [284.25, 289.75, -8.375, -6.5]
+      -
+        - [289.375, 289.375, 33.375, 33.375, -1, STR_SANTIAGO]
+        - [283, 283, 12, 12, -1, STR_LIMA]
+        - [302.5, 302.5, 34.5, 34.5, -3, STR_BUENOS_AIRES]
+        - [312.125, 312.125, 15.75, 15.75, -1, STR_BRASILIA]
+        - [316.875, 316.875, 22.875, 22.875, -1, STR_RIO_DE_JANEIRO]
+      -
+        - [290.125, 305.5, 1.5, 7.625, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_EUROPE
+    cost: 1000000
+    areas:
+      - [335, 60, -70, -35]
+    regionWeight: 16
+    missionWeights:
+      STR_ALIEN_RESEARCH: 10
+      STR_ALIEN_HARVEST: 10
+      STR_ALIEN_ABDUCTION: 15
+      STR_ALIEN_INFILTRATION: 20
+      STR_ALIEN_BASE: 6
+    missionZones:
+      -
+        - [334, 396.125, -66.125, -58.125]
+      -
+        - [356.5, 360.25, -53, -51.875]
+# MissionZone 2 - Active frontlines - White
+      -
+        - [3.0757, 6.89857, -50.9886, -49.5688] # North of Verdun
+        - [6.7207, 10.1651, -53.6726, -50.4027] # Near the Rhine river
+# MissionZone 3 - Alien terror - Green dots
+      -
+        - [359.875, 359.875, -51.5, -51.5, -1, STR_LONDON]
+        - [10.17, 10.17, -59.5, -59.5, -1, STR_OSLO]
+        - [21.08, 21.08, -53.103, -53.103, -1, STR_WARSAW]
+        - [337.99, 337.99, -64.47, -64.47, -1, STR_REYKJAVIK]
+        - [23.58, 23.58, -38.09, -38.09, -1, STR_ATHENS]
+        - [12.5, 12.5, -41.875, -41.875, -1, STR_ROME]
+        - [11.1387, 11.1387, -46.5315, -46.5315, -1, Bozen]
+        - [356.25, 356.25, -40.375, -40.375, -1, STR_MADRID]
+        - [16.3716, 16.3716, -48.2082, -48.2082, -1, Vienna]
+        - [19.125, 19.125, -47.5, -47.5, -1, STR_BUDAPEST]
+        - [13.375, 13.375, -52.5, -52.5, -1, STR_BERLIN]
+        - [350.776, 350.776, -38.67, -38.67, -1, STR_LISBON]
+        - [37.625, 37.625, -55.75, -55.75, -1, STR_MOSCOW]
+        - [49.875, 49.875, -40.38, -40.38, -1, STR_BAKU]
+        - [2.375, 2.375, -48.75, -48.75, -1, STR_PARIS]
+        - [29.80, 29.80, -60.23, -60.23, -1, STR_ST_PETERSBURG]
+        - [40.87, 40.87, -64.44, -64.44, -1, STR_ARCHANGEL]
+        - [6.27, 6.27, -46.27, -46.27, -1, STR_GENEVA]
+        - [5.41193, 5.41193, -49.2667, -49.2667, -1, STR_VERDUN]
+#MissionZone 4 - Alien bases - Cyan
+      -
+        - [355.875, 357.25, -57.625, -57, -115]
+# MissionZone 5 - Old Atmosphere entry/exit points - Yellow
+      -
+        - [0, 359.875, -90, -80]
+      -
+# MissionZone 6 - Martian Ocupation Zone, no-fly/no-go zone - Red
+        - [2.55916, 7.02969, -53.1922, -49.8876] # Benelux Zone West
+        - [6.54306, 10.0053, -53.4902, -50.261] # Benelux Zone East
+
+  - type: STR_ARCTIC
+    cost: 950000
+    areas:
+      - [0, 360, -90, -70]
+    regionWeight: 4
+    missionWeights:
+      STR_ALIEN_RESEARCH: 25
+      STR_ALIEN_BASE: 35
+    missionZones:
+      -
+        - [305.25, 333.125, -79.25, -75.25]
+      -
+        - [302.25, 323.625, -80.75, -78.625]
+      -
+        - [302.25, 323.625, -80.75, -78.625]
+      -
+        - [16, 16, -78, -78, -23, STR_SVALBARD]
+        - [128.75, 128.75, -71.75, -71.75, -24, STR_TIKSI]
+      -
+        - [302.25, 323.625, -80.75, -78.625, -112]
+      -
+        - [121.625, 176.125, -46.25, -21.75]
+      -
+        - [121.625, 176.125, -46.25, -21.75]
+  - type: STR_ANTARCTICA
+    cost: 900000
+    areas:
+      - [0, 360, 60, 90]
+    regionWeight: 4
+    missionWeights:
+      STR_ALIEN_RESEARCH: 25
+      STR_ALIEN_BASE: 35
+    missionZones:
+      -
+        - [77, 108.125, 62.125, 76.125]
+      -
+        - [291.125, 296.25, 68.25, 70.5]
+      -
+        - [291.125, 296.25, 68.25, 70.5]
+      -
+        - [291.125, 296.25, 68.25, 70.5, -40, -110]
+      -
+        - [121.625, 176.125, -46.25, -21.75]
+      -
+        - [121.625, 176.125, -46.25, -21.75]
+      -
+        - [121.625, 176.125, -46.25, -21.75]
+  - type: STR_NORTH_AFRICA
+    cost: 650000
+    areas:
+      - [335, 40, -35, -15]
+      - [335, 55, -15, 0]
+    regionWeight: 12
+    missionWeights:
+      STR_ALIEN_RESEARCH: 8
+      STR_ALIEN_HARVEST: 8
+      STR_ALIEN_ABDUCTION: 8
+    missionZones:
+      -
+        - [348.5, 384.5, -34.5, -25]
+      -
+        - [354.25, 365.125, -34.5, -32.875]
+      -
+        - [348.625, 358.75, -27.125, -20.125]
+      -
+        - [3.08, 3.08, -36.56, -36.56, -1, STR_ALGIERS]
+        - [10.16, 10.16, -37.07, -37.07, -1, STR_TUNIS]
+        - [352.375, 352.375, -33.5, -33.5, -1, STR_CASABLANCA]
+        - [11.19, 11.19, -33.27, -33.27, -1, STR_TRIPOLI]
+        - [31.25, 31.25, -30, -30, -1, STR_CAIRO]
+        - [35.331, 35.331, -34.245, -34.245, -1, STR_BEIRUT]
+      -
+        - [5.625, 9, -6.125, -5, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_SOUTHERN_AFRICA
+    cost: 550000
+    areas:
+      - [5, 55, 0, 40]
+    regionWeight: 8
+    missionWeights:
+      STR_ALIEN_RESEARCH: 7
+      STR_ALIEN_HARVEST: 8
+      STR_ALIEN_ABDUCTION: 8
+    missionZones:
+      -
+        - [7.125, 27, -0.375, 7.625]
+      -
+        - [19.875, 24.25, 28.5, 31.25]
+      -
+        - [12.375, 23.25, -1.5, 4.625]
+      -
+        - [18.5, 18.5, 34, 34, -1, STR_CAPE_TOWN]
+        - [28.125, 28.125, 26.25, 26.25, -1, STR_PRETORIA]
+        - [346.31, 346.31, -9.23, -9.23, -1, STR_FREETOWN]
+      -
+        - [17.125, 23.25, 22.75, 27.125, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_CENTRAL_ASIA
+    cost: 500000
+    areas:
+      - [40, 70, -35, -15]
+      - [60, 90, -50, -35]
+      - [70, 90, -35, -5]
+    regionWeight: 12
+    missionWeights:
+      STR_ALIEN_RESEARCH: 5
+      STR_ALIEN_HARVEST: 5
+      STR_ALIEN_ABDUCTION: 6
+    missionZones:
+      -
+        - [39.5, 53.125, -27.625, -16.125]
+      -
+        - [38.25, 47, -38.625, -35]
+      -
+        - [33.625, 47, -39.5, -37.875]
+      -
+        - [73.125, 73.125, -18.875, -18.875, -1, STR_BOMBAY]
+        - [47, 47, -23.95, -23.95, -1, STR_RIYADH]
+        - [55.36, 55.36, -25.16, -25.16, -1, STR_DUBAI]
+        - [32.75, 32.75, -39.875, -39.875, -1, STR_ANKARA]
+        - [88.375, 88.375, -22.625, -22.625, -1, STR_CALCUTTA]
+        - [79.88, 79.88, -7.37, -7.37, -1, STR_SRI_LANKA]
+        
+      -
+        - [42.375, 52.125, -23.5, -18.375, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_SOUTH_EAST_ASIA
+    cost: 750000
+    areas:
+      - [90, 105, -50, 10]
+      - [105, 150, -50, -5]
+    regionWeight: 15
+    missionWeights:
+      STR_ALIEN_RESEARCH: 8
+      STR_ALIEN_HARVEST: 13
+      STR_ALIEN_ABDUCTION: 21
+    missionZones:
+      -
+        - [90.125, 108.25, -36.625, -22.625]
+      -
+        - [92.875, 102.5, -36.5, -31.125]
+      -
+        - [111.125, 117.5, -2, -0.375]
+      -
+        - [121.5, 121.5, -31.25, -31.25, -1, STR_SHANGHAI]
+        - [103.875, 103.875, -1.375, -1.375, -1, STR_SINGAPORE]
+        - [114.125, 114.125, -22.25, -22.25, -1, STR_HONG_KONG]
+        - [139.75, 139.75, -35.625, -35.625, -1, STR_TOKYO]
+        - [121, 121, -14.625, -14.625, -1, STR_MANILA]
+        - [133.01, 133.01, -42.86, -42.86, -1, STR_VLADIVOSTOK]
+      -
+        - [100.625, 103.125, -0.375, 0.75, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_SIBERIA
+    cost: 800000
+    areas:
+      - [60, 180, -70, -50]
+    regionWeight: 10
+    missionWeights:
+      STR_ALIEN_RESEARCH: 6
+      STR_ALIEN_ABDUCTION: 4
+    missionZones:
+      -
+        - [49.875, 80.125, -66.75, -46.5]
+      -
+        - [63.125, 78.375, -66.5, -62]
+      -
+        - [53.25, 66.625, -64.875, -61]
+      -
+        - [56.8518, 56.8518, -60.54, -60.54, -1, STR_YEKATERINBURG]
+        - [158.625, 158.625, -53, -53, -1, STR_PETROPAVLOVSK]
+        - [134.59, 134.59, -48.28, -48.28, -1, STR_KHABAROVSK]
+      -
+        - [63.125, 78.375, -66.5, -62, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_AUSTRALASIA
+    cost: 750000
+    areas:
+      - [105, 180, -5, 60]
+    regionWeight: 10
+    missionWeights:
+      STR_ALIEN_RESEARCH: 15
+      STR_ALIEN_HARVEST: 11
+      STR_ALIEN_ABDUCTION: 4
+    missionZones:
+      -
+        - [129.625, 155.375, -1.875, 9.75]
+      -
+        - [115.75, 123.125, 30.375, 33.125]
+      -
+# MissionZone 2 - Active frontlines - White
+        - [139.438, 139.656, 17.1252, 21.8859] # Queensland Front 
+        - [135.012, 135.685, 20.8392, 28.0759] # Central Australia Front 
+        - [129.921, 131.134, 28.8212, 32.3163] # South Australia Front 		
+# MissionZone 3 - Alien terror - Green dots
+      -
+        - [147.36, 147.36, 42.78, 42.78, -1, STR_TASMANIA]
+        - [175.125, 175.125, 41.25, 41.25, -1, STR_WELLINGTON]
+        - [149.125, 149.125, 35.375, 35.375, -1, STR_CANBERRA]
+        - [151.955, 151.955, 31.915, 31.915, -1, New Castle]
+        - [145, 145, 37.875, 37.875, -1, STR_MELBOURNE]
+        - [147.25, 147.25, 9.5, 9.5, -1, STR_PORTMORESBY]
+#MissionZone 4 - Alien bases - Cyan
+      -
+        - [122.25, 135.375, 21, 27.5, -110]
+# MissionZone 5 - Old Atmosphere entry/exit points - Yellow
+      -
+        - [0, 359.875, -90, -80]
+      -
+# MissionZone 6 - Martian Ocupation Zone, no-fly/no-go zone - Red
+        - [113.649, 129.123, 21.9433, 31.6768] # Western Australia 
+        - [126.708, 139.768, 13.9269, 21.7654] # Northern Territory
+
+  - type: STR_NORTH_PACIFIC
+    cost: 600000
+    areas:
+      - [180, 195, -70, -55]
+      - [180, 230, -55, -30]
+      - [180, 240, -30, -10]
+      - [180, 270, -10, -0]
+      - [150, 180, -50, -5]
+    regionWeight: 5
+    missionWeights:
+      STR_ALIEN_RESEARCH: 15
+      STR_ALIEN_BASE: 27
+    missionZones:
+      -
+        - [194.5, 225.625, -29.25, -15.25]
+        - [202.625, 245.625, -2.25, 18.375]
+      -
+        - [203.9, 204.7, -19.92, -19.24]
+      -
+        - [203.9, 204.7, -19.92, -19.24]
+      - 
+        - [209.25, 209.25, -60.72, -60.72, -1, STR_ANCHORAGE]
+        - [204.39, 204.39, -19.64, -19.64, -1, STR_HAWAII]
+        - [151.5, 151.5, -46.5, -46.5, -1, STR_KURIL_ISLANDS]
+      -
+        - [203.9, 204.7, -19.92, -19.24, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_SOUTH_PACIFIC
+    cost: 600000
+    areas:
+      - [180, 275, 0, 60]
+    regionWeight: 5
+    missionWeights:
+      STR_ALIEN_RESEARCH: 15
+      STR_ALIEN_BASE: 27
+    missionZones:
+      -
+        - [194.5, 225.625, -29.25, -15.25]
+      -
+        - [203.9, 204.7, -19.92, -19.24]
+      -
+        - [203.9, 204.7, -19.92, -19.24]
+      - 
+        - [241, 241, 26.5, 26.5, -5, STR_EASTER_ISLAND]
+        - [269, 269, 1, 1, -5, STR_GALAPAGOS_ISLAND]
+      -
+        - [177.75, 178.25, 17.5, 17.875, -110]
+      -
+        - [0, 359.875, -90, -80]
+      -
+        - [0, 359.875, -90, -80]
+  - type: STR_NORTH_ATLANTIC 
+    cost: 500000
+    areas:
+      - [305, 335, -70, -30]
+      - [300, 335, -30, -10]
+      - [315, 335, -10, 0]
+    regionWeight: 5
+    missionWeights:
+      STR_ALIEN_RESEARCH: 15
+      STR_ALIEN_BASE: 27
+    missionZones:
+      -
+        - [300, 301, -58, -57]
+      -
+        - [265.75, 266.25, -62, -61.5]
+      -
+        - [293.4, 296.5, -57.7, -54.264]
+      - 
+        - [294.76, 294.76, -32.509, -32.509, -1, STR_BERMUDA]
+        - [308.8, 308.8, -64.07, -64.07, -1, STR_NUUK]
+        - [334.16, 334.16, -37, -37, -1, STR_AZORES]
+      -
+        - [278.18, 279.05, -28.81, -26.94, -114]
+      -
+        - [303, 304, -66, -65]
+      -
+        - [303, 304, -66, -65]
+  - type: STR_SOUTH_ATLANTIC
+    cost: 500000
+    areas:
+      - [330, 5, 0,  15]
+      - [325, 5, 15, 60]
+      - [5, 55, 40, 60]
+    regionWeight: 5
+    missionWeights:
+      STR_ALIEN_RESEARCH: 15
+      STR_ALIEN_BASE: 27
+    missionZones:
+      -
+        - [303, 305.75, 51, 55]
+      -
+        - [299.98, 300.85, 51.32, 52.2]
+      -
+        - [15.17, 16.04, 20.91, 23.04]
+      -
+        - [301.79, 301.79, 51.77, 51.77, -1, STR_FALKLAND_ISLAND]
+      -
+        - [344.52, 346.64, -13.87, -11.74, -114]
+      -
+        - [79.5, 81.5, -16, -13.625]
+      -
+        - [79.5, 81.5, -16, -13.625]
+  - type: STR_INDIAN_OCEAN 
+    cost: 500000
+    areas:
+      - [55, 70, -15, 10]
+      - [70, 90, -5, 10]
+      - [55, 105, 10, 60]
+    regionWeight: 5
+    missionWeights:
+      STR_ALIEN_RESEARCH: 15
+      STR_ALIEN_BASE: 27
+    missionZones:
+      -
+        - [56, 57.25, -16, -14.25]
+      -
+        - [43.98, 47.1, 22.11, 24.86]
+      -
+        - [34.32, 38.19, 3.52, 6.02]
+      -
+        - [43.76, 46.13, -16.95, -13.82, -110]
+      -
+        - [72, 74.5, 50, 52.875]
+      -
+        - [72, 74.5, 50, 52.875]
+      -
+        - [72, 74.5, 50, 52.875]

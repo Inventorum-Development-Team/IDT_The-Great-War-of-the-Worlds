@@ -1,0 +1,1798 @@
+customPalettes:
+  - type: PAL_GEOSCAPE
+    target: PAL_GEOSCAPE
+    file: Resources/Geoscape/NewTGWOTW_GeoPalette.pal
+globe:
+  data: Resources/Geoscape/GREATWARGLOBE.DAT
+  oceanPalette: 12
+  countryColor: 239
+  cityColor: 138
+  baseColor: 133
+  lineColor: 162
+  textures:
+    - id: 0 # Large Forest Zone
+      terrain:
+        - name: FOREST
+          area: [0, 360, -90, 0]
+          weight: 30
+        - name: IDT_FOREST
+          area: [0, 360, -90, 0]
+          weight: 30
+        - name: IDT_VILLAGE
+          area: [0, 360, -90, 0]
+          weight: 20
+        - name: FORESTRAIL
+          area: [0, 360, -90, 0]
+          weight: 20
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+          weight: 60
+        - name: PLAINSTROP
+          area: [0, 360, 0, 90]
+          weight: 30
+        - name: MOUNTTROP
+          area: [0, 360, 0, 90]
+          weight: 10
+    - id: 1 # Human Populated Zone
+      terrain:
+        - name: CULTA
+          weight: 30
+        - name: VILLAGE
+          weight: 10
+        - name: IDT_FOREST
+          weight: 30
+        - name: IDT_VILLAGE
+          weight: 10
+    - id: 2 # Human Populated Zone within Forests
+      terrain:
+        - name: CULTA
+          weight: 20
+        - name: VILLAGE
+          weight: 20
+        - name: URBAN
+          weight: 10
+        - name: IDT_VILLAGE
+          weight: 30
+    - id: 3 # Human Populated Plains Zone
+      terrain:
+        - name: CULTA
+          weight: 20
+        - name: VILLAGE
+          weight: 20
+        - name: IDT_VILLAGE
+          weight: 30
+        - name: PLAINSGRASS
+          weight: 30
+    - id: 4 # Wild Plains Zone
+      terrain:
+        - name: CULTA
+          weight: 10
+        - name: VILLAGE
+          weight: 10
+        - name: PLAINSGRASS
+          weight: 50
+        - name: IDT_VILLAGE
+          weight: 20
+    - id: 5 # Mountains Zone
+      terrain:
+        - name: MOUNTSNOW
+          weight: 10
+        - name: MOUNT
+          weight: 30
+        - name: MOUNTROCK
+          weight: 30
+        - name: PLAINS
+          weight: 10
+        - name: PLAINSROCK
+          weight: 20
+    - id: 6 # Heavy Forest Zone
+      terrain:
+        - name: FOREST
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: FORESTRAIL
+          area: [0, 360, -90, 0]
+          weight: 40
+        - name: IDT_FOREST
+          area: [0, 360, -90, 0]
+          weight: 10
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+          weight: 60
+        - name: PLAINSTROP
+          area: [0, 360, 0, 90]
+          weight: 30
+        - name: MOUNTTROP
+          area: [0, 360, 0, 90]
+          weight: 10
+    - id: 7 # Wild Desert Zone
+      terrain:
+        - name: MOUNTSAND
+          weight: 10
+        - name: DESERT
+          weight: 40
+        - name: PLAINSSAND
+          weight: 40
+    - id: 8 # Human Populated Desert Zone
+      terrain:
+        - name: MOUNTSAND
+          weight: 10
+        - name: DESERT
+          weight: 30
+        - name: PLAINSSAND
+          weight: 40
+        - name: IDT_VILLAGE
+          weight: 20
+    - id: 9 # Snow Zone
+      terrain:
+        - name: POLAR
+          weight: 10
+        - name: IDT_SNOWVILLAGE
+          weight: 40
+        - name: IDT_SNOWFOREST
+          weight: 50
+        - name: PLAINSSNOW
+          weight: 40
+    - id: 10 # Forest Zone 3
+      terrain:
+        - name: FOREST
+          area: [0, 360, -90, 0]
+          weight: 40
+        - name: FORESTRAIL
+          area: [0, 360, -90, 0]
+          weight: 30
+        - name: IDT_FOREST
+          area: [0, 360, -90, 0]
+          weight: 30
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+    - id: 11 # Frontline Forest Zone 
+      terrain:
+        - name: FOREST
+          area: [0, 360, -90, 0]
+          weight: 30
+        - name: FORESTRAIL
+          area: [0, 360, -90, 0]
+          weight: 20
+        - name: FOREST_TRENCH
+          area: [0, 360, -90, 0]
+          weight: 50
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+    - id: 12 # Artic Zone
+      terrain:
+        - name: POLAR
+          weight: 40
+        - name: PLAINSSNOW
+          weight: 60
+    - id: 13 # Heavily infested zone (dark red)
+      terrain:
+        - name: INFESTED
+          weight: 40
+        - name: FARM_INFESTED
+          weight: 10
+        - name: RUINED_URBAN
+          weight: 20
+        - name: DEEPTRENCH
+          weight: 20
+    - id: 14 # Mid-infested zone (red 1)
+      terrain:
+        - name: INFESTED
+          weight: 30
+        - name: FARM_INFESTED
+          weight: 10
+        - name: TRENCH_FARM
+          weight: 10
+        - name: RUINED_URBAN
+          weight: 20
+        - name: DEEPTRENCH
+          weight: 30
+    - id: 15 # Light infested zone (red 2)
+      terrain:
+        - name: INFESTED
+          weight: 20
+        - name: FARM_INFESTED
+          weight: 5
+        - name: TRENCH_FARM
+          weight: 5
+        - name: RUINED_URBAN
+          weight: 20
+        - name: DEEPTRENCH
+          weight: 30
+        - name: IDT_FOREST
+          area: [0, 360, -90, 0]
+          weight: 10
+        - name: IDT_VILLAGE
+          area: [0, 360, -90, 0]
+          weight: 10
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+    - id: 16 # Snow infested zone (white with red)
+      terrain:
+        - name: INFESTED
+          weight: 10
+        - name: TRENCH_FARM
+          weight: 10
+        - name: RUINED_URBAN
+          weight: 40
+        - name: DEEPTRENCH
+          weight: 40
+        - name: JUNGLE
+          area: [0, 360, 0, 90]
+          weight: 60
+        - name: PLAINSTROP
+          area: [0, 360, 0, 90]
+          weight: 30
+        - name: MOUNTTROP
+          area: [0, 360, 0, 90]
+          weight: 10
+    - id: 17 # Alpine zone (green and white)
+      terrain:
+        - name: MOUNTSNOW
+          weight: 15
+        - name: MOUNTGRASS
+          weight: 35
+        - name: PLAINSROCK
+          weight: 20
+        - name: IDT_SNOWVILLAGE
+          weight: 10
+        - name: IDT_SNOWFOREST
+          weight: 20
+    - id: 18 # Snow forest zone (light green with white)
+      terrain:
+        - name: IDT_SNOWVILLAGE
+          weight: 20
+        - name: IDT_SNOWFOREST
+          weight: 50
+        - name: PLAINSSNOW
+          weight: 30
+    - id: 19 # Desert mountains
+      terrain:
+        - name: MOUNTSAND
+          weight: 40
+        - name: DESERT
+          weight: 20
+        - name: MOUNT
+          weight: 10
+        - name: PLAINSSAND
+          weight: 10
+    - id: -1
+      deployments:
+        STR_TERROR_MISSION: 100
+countries:
+  - delete: STR_USA
+  - delete: STR_RUSSIA
+  - delete: STR_UK
+  - delete: STR_FRANCE
+  - delete: STR_GERMANY
+  - delete: STR_ITALY
+  - delete: STR_SPAIN
+  - delete: STR_CHINA
+  - delete: STR_JAPAN
+  - delete: STR_INDIA
+  - delete: STR_BRAZIL
+  - delete: STR_AUSTRALIA
+  - delete: STR_NIGERIA
+  - delete: STR_SOUTH_AFRICA
+  - delete: STR_EGYPT
+  - delete: STR_CANADA
+  - type: STR_USA
+    areas:
+      - - 267.5
+        - 272.48394675056
+        - -42.78515625
+        - -36.535560348996
+      - - 269.02517650028
+        - 274.47439525028
+        - -48.800983299498
+        - -30.343952049498
+      - - 272.58962962528
+        - 277.58962962528
+        - -33.074420799498
+        - -30.074420799498
+      - - 277
+        - 280
+        - -32
+        - -25
+      - - 274.91384837528
+        - 285.28494212528
+        - -46.164264549498
+        - -32.453327049498
+      - - 286.07595775028
+        - 295.74392650028
+        - -46.252155174498
+        - -40.627155174498
+    fundingBase: 600
+    fundingCap: 10000
+    labelLon: 277.5629298773
+    labelLat: -37.423486810799
+  - type: STR_RUSSIA
+    areas:
+      - - 30
+        - 50
+        - -70
+        - -45
+      - - 24
+        - 30
+        - -60
+        - -42
+      - - 48.22702084799403
+        - 57.17306392428202
+        - -69.949752506554
+        - -48.9988651806
+      - - 54.425347558356975
+        - 62.26764379572501
+        - -62.924919188019
+        - -40.652797873899
+      - - 165
+        - 170
+        - -70
+        - -59
+      - - 21.20757337343798
+        - 24.44638008557598
+        - -57.965697958644
+        - -50.562711188044
+    fundingBase: 230
+    fundingCap: 8000
+    labelLon: 36.9372
+    labelLat: -57.1709
+  - type: STR_UK
+    areas:
+      - - 352
+        - 2
+        - -60
+        - -50
+    fundingBase: 240
+    fundingCap: 7000
+    labelLon: 358
+    labelLat: -53.625
+  - type: STR_FRANCE
+    areas:
+      - - 355
+        - 7
+        - -50
+        - -43
+    fundingBase: 320
+    fundingCap: 8000
+    labelLon: 2.5
+    labelLat: -46.5
+  - type: STR_GERMANY
+    areas:
+      - - 7.426756733742991
+        - 13.573243266257009
+        - -55.56166775173
+        - -46.93833224827
+      - - 13.958815493892018
+        - 20.74488670027597
+        - -54.726891246506
+        - -50.716940079098
+    fundingBase: 250
+    fundingCap: 9000
+    labelLon: 11.5
+    labelLat: -50
+  - type: STR_ITALY
+    areas:
+      - - 8.041184506107982
+        - 13.958815493892018
+        - -46.880076701247
+        - -42.619923298753
+      - - 11
+        - 18
+        - -43
+        - -37
+    fundingBase: 160
+    fundingCap: 6000
+    labelLon: 12.5
+    labelLat: -43.875
+  - type: STR_SPAIN
+    areas:
+      - - 353
+        - 3
+        - -43
+        - -36.5
+      - - 351
+        - 353
+        - -43
+        - -42.25
+    fundingBase: 140
+    fundingCap: 5000
+    labelLon: 357.5
+    labelLat: -42.625
+  - type: STR_CHINA
+    areas:
+      - - 108.38555508278
+        - 111.55143349136
+        - -20.643931183068
+        - -17.930920554432
+      - - 116.92859281515001
+        - 124.78397317803001
+        - -26.321965591534
+        - -21.930920554432
+      - - 122
+        - 133
+        - -54
+        - -40
+    fundingBase: 245
+    fundingCap: 7000
+    labelLon: 120.74630533286
+    labelLat: -23.466577090588
+  - type: STR_JAPAN
+    areas:
+      - - 130
+        - 143
+        - -40
+        - -30
+      - - 138
+        - 147
+        - -46
+        - -40
+      - - 105.19842792418001
+        - 118.11834979918001
+        - -29.546289545174
+        - -26.558008295174
+      - - 117.7347932193
+        - 122.28120325406002
+        - -32.044606096763
+        - -26.432738618585
+      - - 105.72577167418001
+        - 116.53631854918001
+        - -26.601953607674
+        - -20.537500482674
+    fundingBase: 400
+    fundingCap: 10000
+    labelLon: 138
+    labelLat: -38.25
+  - type: STR_INDIA
+    areas:
+      - - 70.58770488831999
+        - 84.41229511168001
+        - -22.691991704826
+        - -15.308008295174
+      - - 73.60174823668001
+        - 82.83026386168001
+        - -25.591211420174
+        - -22.690820795174
+      - - 72.73260761168001
+        - 82.73260761168001
+        - -15.380273920174
+        - -8.380273920174
+    fundingBase: 150
+    fundingCap: 5000
+    labelLon: 77.26019550230001
+    labelLat: -17.340478998299
+  - type: STR_BRAZIL
+    areas:
+      - - 311.1417569772
+        - 323.1417569772
+        - 8.630789381277
+        - 28.130789381277
+      - - 311.3839444772
+        - 319.3839444772
+        - -3.009835618723
+        - 21.490164381277
+      - - 310
+        - 325
+        - -0.0
+        - 24
+      - - 306.1105069772
+        - 314.1105069772
+        - 21.818289381277
+        - 31.818289381277
+    fundingBase: 300
+    fundingCap: 4000
+    labelLon: 320.3058194772
+    labelLat: 13.810476881277
+  - type: STR_AUSTRALIA
+    areas:
+      - - 139.58752883938996
+        - 152.67368958718998
+        - 12.922863794456
+        - 42.2751599764
+    fundingBase: 280
+    fundingCap: 5000
+    labelLon: 145.56
+    labelLat: 27.7364
+  - type: STR_NIGERIA
+    areas:
+      - - 357.7869810222856
+        - 29.866590361554017
+        - -37.249626660868
+        - -30.926242127646
+      - - 11.792342842445976
+        - 20.958934701397993
+        - -31.750707263686
+        - -27.722782717252
+      - - 348.441312183851
+        - 11.756576895154012
+        - -36.445382478155
+        - -28.307035361945
+    fundingBase: 180
+    fundingCap: 2000
+    labelLon: 6.694582112918624
+    labelLat: -34.198282465016
+  - type: STR_SOUTH_AFRICA
+    areas:
+      - - 15
+        - 25
+        - 26
+        - 35
+      - - 25
+        - 32.5
+        - 22
+        - 35
+    fundingBase: 230
+    fundingCap: 3000
+    labelLon: 25
+    labelLat: 30
+  - type: STR_EGYPT
+    areas:
+      - - 21.453949490584023
+        - 33.07290547230798
+        - -30.312909717689
+        - -25.641295023807
+      - - 33.12033913192897
+        - 39.56675256418703
+        - -34.8003763553
+        - -26.143764031984
+    fundingBase: 230
+    fundingCap: 2000
+    labelLon: 31.3289
+    labelLat: -27.4965
+  - type: STR_CANADA
+    areas:
+      - - 214.5633211478
+        - 234.4366788522
+        - -70.080008131277
+        - -54.919991868723
+      - - 264.1437101022
+        - 304.0460538522
+        - -61.863351243723
+        - -49.207101243723
+      - - 234.7882413522
+        - 265.7257413522
+        - -63.972726243723
+        - -54.304757493723
+      - - 229.5148038522
+        - 240.7648038522
+        - -54.656319993723
+        - -49.207101243723
+      - - 257.2003507272
+        - 264.2316007272
+        - -54.216866868723
+        - -51.052804368723
+      - - 239.6222257272
+        - 245.2472257272
+        - -53.777413743723
+        - -51.140694993723
+    fundingBase: 230
+    fundingCap: 4000
+    labelLon: 257.77655292418
+    labelLat: -58.704004388924
+  - type: STR_CALIFORNIA_REPUBLIC
+    areas:
+      - - 236.11758705533
+        - 243.45645424283
+        - -41.527657884348
+        - -33.969064134348
+      - - 241.72061439908
+        - 245.67569252408
+        - -34.540353196848
+        - -28.651681321848
+      - - 244.66495033658
+        - 250.11416908658
+        - -29.926095384348
+        - -23.246407884348
+      - - 236.11758705533
+        - 243.45645424283
+        - -41.527657884348
+        - -33.969064134348
+      - - 241.72061439908
+        - 245.67569252408
+        - -34.540353196848
+        - -28.651681321848
+      - - 244.66495033658
+        - 250.11416908658
+        - -29.926095384348
+        - -23.246407884348
+      - - 260.54019447721
+        - 265.64767699615
+        - -33.145089524973
+        - -27.749247377875
+      - - 257.95233417418
+        - 260.41327167418
+        - -32.600488763924
+        - -30.139551263924
+      - - 260.32538104918
+        - 263.75311542418
+        - -27.722559076424
+        - -26.667871576424
+    fundingBase: 12
+    fundingCap: 120
+    labelLon: 240.799
+    labelLat: -35.9729
+  - type: STR_TEXAS_FRONT
+    areas:
+      - - 257.37613197721
+        - 263.17691322721
+        - -32.046456712473
+        - -25.103097337473
+    fundingBase: 12
+    fundingCap: 120
+    labelLon: 262.432
+    labelLat: -30.7477
+  - type: STR_SEATTLE_FRONT
+    areas:
+      - - 234.76626869595998
+        - 240.25943275845998
+        - -49.404855149973
+        - -41.758370774973
+    fundingBase: 8
+    fundingCap: 80
+    labelLon: 237.51285072720998
+    labelLat: -45.581612962473
+  - type: STR_PATAGONIA_RESISTANCE
+    areas:
+      - - 296.4093351022
+        - 306.4093351022
+        - 31.398367506277
+        - 41.398367506277
+      - - 289.3780851022
+        - 299.3780851022
+        - 35.968680006277
+        - 45.968680006277
+      - - 290.9503507272
+        - 297.6300382272
+        - 32.003836256277
+        - 37.277273756277
+    fundingBase: 11
+    fundingCap: 95
+    labelLon: 301.4093351022
+    labelLat: 36.398367506277
+  - type: STR_AUSTRIA_HUNGARY
+    areas:
+      - - 14.267273276000026
+        - 22.749862283980008
+        - -50.63982563357
+        - -43.391067754024
+    fundingBase: 15
+    fundingCap: 150
+    labelLon: 18.5619
+    labelLat: -45.3121
+  - type: STR_MEXICAN_RESISTANCE
+    areas:
+      - - 258.25995136168
+        - 262.47870136168
+        - -26.404199701424
+        - -24.910059076424
+      - - 255.9418361273
+        - 260.2484767523
+        - -30.172510248299
+        - -26.481103998299
+    fundingBase: 7
+    fundingCap: 75
+    labelLon: 258.29291034605
+    labelLat: -27.381982904549
+###################################
+########## TERRAINS ##############
+#################################
+terrains:
+  - name: VILLAGE
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+#    civilianTypes:
+#      - MALE_CIVILIAN
+    script: VILLAGE
+    mapBlocks: &AnchorVillage
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+  - name: VILLAGE_NO_UFO
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: VILLAGE_NO_UFO
+    mapBlocks: *AnchorVillage
+#######################################
+######## INFESTED TERRAINS ###########
+#####################################
+  - name: INFESTED # barrls still need to be removed from map set
+    script: ALIEN_FOREST
+    mapDataSets:
+      - BLANKS
+      - RUINED_FOREST
+      - ALIENCULT2
+      - ALIENCULT
+      - ALIENBARN
+    mapBlocks:
+      - name: ALIENFOREST01
+        width: 10
+        length: 10
+        groups: 1 #Landable for UFOs/Crafts
+      - name: ALIENFOREST02
+        width: 10
+        length: 10
+        groups: 1 #Landable for UFOs/Crafts
+      - name: ALIENFOREST03  #Partially Clear area
+        width: 10
+        length: 10 
+        # groups: 3
+      - name: ALIENFOREST04 # Hill
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENFOREST05 # Large Hills
+        width: 20
+        length: 20
+      - name: ALIENFOREST06 # Mega Hill
+        width: 20
+        length: 20
+      - name: ALIENFOREST07 #Partially Clear area
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST08 # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [6, 5, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST09 # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [5, 8, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST10  # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [4, 7, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST13  # Large Hill
+        width: 20
+        length: 20
+        groups: 4
+      - name: ALIENFOREST14 # Mega Hill with Infection Barrel
+        width: 20
+        length: 20
+        groups: 2
+      - name: ALIENFOREST15 # building
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST16 # long block Block
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST17   # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [6, 4, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST18 # Partially Clear Block
+        width: 10
+        length: 10 
+        # groups: 3
+      - name: ALIENFOREST19 # Large Farm estate
+        width: 20
+        length: 20
+        groups: 4
+      - name: ALIENFOREST20 # Small house
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST21 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST22 # Large Blocks
+        width: 20
+        length: 20 
+        groups: 2
+      - name: ALIENFOREST23 # Large Blocks
+        width: 20
+        length: 20 
+        groups: 2
+      - name: ALIENFOREST24 # Partially Clear Block
+        width: 10
+        length: 10
+      - name: ALIENFOREST25 # Small house
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST26 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST27 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST28 # Partially Clear Block
+        width: 10
+        length: 10
+        groups: 3
+      - name: ALIENFOREST29 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST30 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST31 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST32 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST33 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST34 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+  - name: RUINED_URBAN 
+    script: RUINED_URBAN
+    mapDataSets:
+      - BLANKS
+      - ALIENCULT2
+      - RUINEDCITY
+      - ALIENCULT
+      - ALIENBARN
+    mapBlocks:
+      - name: RUINED_URBAN00
+        width: 20
+        length: 20
+      - name: RUINED_URBAN01
+        width: 10
+        length: 10
+      - name: RUINED_URBAN02  
+        width: 10
+        length: 10 
+      - name: RUINED_URBAN03
+        width: 10
+        length: 10
+      - name: RUINED_URBAN04
+        width: 10
+        length: 10
+      - name: RUINED_URBAN05  
+        width: 10
+        length: 10 
+      - name: RUINED_URBAN06
+        width: 10
+        length: 10
+      - name: RUINED_URBAN07
+        width: 10
+        length: 10
+      - name: RUINED_URBAN08  
+        width: 20
+        length: 20 
+      - name: RUINED_URBAN10 # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [5, 8, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: RUINED_URBAN11  # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [4, 7, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+  - name: RUINED_URBAN_B
+    # script: RUINED_URBAN_B
+    mapDataSets:
+      - BLANKS
+      - ALIENCULT2
+      - ALIENCULT
+      - ALIENBARN
+      - ROADS
+    mapBlocks:
+      - name: RUINED_URBAN_B00 #X
+        width: 10
+        length: 10
+        groups: 4 #was 2
+      - name: RUINED_URBAN_B01 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B02  #EW
+        width: 10
+        length: 10 
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B03 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B04 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B05   #X
+        width: 10
+        length: 10 
+        groups: 4  #was 2
+      - name: RUINED_URBAN_B06 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B07  #X
+        width: 10
+        length: 10
+        groups: 4  #was 2
+      - name: RUINED_URBAN_B08 #EW
+        width: 10
+        length: 10
+        groups: 2  #was 4
+      - name: RUINED_URBAN_B09 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B10 #NS
+        width: 10
+        length: 10
+        groups: 3
+  - name: FARM_INFESTED
+    script: MIXED_LAND
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+
+  - name: VILLAGE_INFESTED
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+#    civilianTypes:
+#      - MALE_CIVILIAN
+    script: INFESTED_VILLAGE_NO_UFO
+    mapBlocks: &AnchorVillage
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+  - name: INFESTED_VILLAGE_NO_UFO
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: INFESTED_VILLAGE_NO_UFO
+    mapBlocks: *AnchorVillage
+####################################
+
+#####################################
+####### RAILROAD MAP TERRAINS ######
+###################################
+  - name: FORESTRAIL
+    mapDataSets:
+      - BLANKS
+      - FORESTPOLAR
+      - FOREST
+      - NEWRAIL
+    script: FOREST_RAIL
+    mapBlocks: &AnchorForestRail
+      - name: FORESTPOLAR00 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR01 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR02 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR20 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+########################################
+mapScripts:
+  - type: ALIEN_FOREST                     #Luke83 Mapscript - 
+    commands:
+    - type: addCraft
+    - type: addUFO
+      executions: 1
+    - type: addBlock #Need working large mountains
+      executionChances: 60
+      executions: 2
+      size: 2
+    # - type: addBlock  # Infected Barrels
+    #   groups: 2
+    #   maxUses: 1
+    - type: addBlock 
+      groups: 4
+      executionChances: 70
+      maxUses: 4
+    # - type: addBlock  # HILLS - was working
+    #   groups: 5
+    #   executionChances: 40
+    #   maxUses: 4
+    - type: fillArea
+      # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]        
+      # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] 
+  - type: RUINED_URBAN                    #Luke83 Mapscript - Ruined Urban
+    commands:
+    - type: addCraft 
+      terrain: INFESTED
+      executions: 1
+      groups: 1
+    - type: addUFO
+      terrain: INFESTED
+      groups: 1
+      executions: 1
+    - type: addLine  # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4] # Trying to add Roads to map
+    - type: fillArea
+  - type: MIXED_LAND
+    commands:
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      terrain: INFESTED
+      size: 2
+    - type: addUFO
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 2
+    - type: fillArea
+  - type: MIXED_LAND_NO_UFO
+    commands:
+    - type: addCraft
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 4
+    - type: addBlock
+      terrain: INFESTED
+      size: 2
+      executions: 1  
+    - type: fillArea
+  - type: VILLAGE
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+  - type: VILLAGE_NO_UFO
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+  - type: INFESTED_VILLAGE_NO_UFO
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 3
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+  - type: URBAN
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+  - type: URBAN_UFO_INFESTED
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 3
+    - type: fillArea
+  - type: URBAN_UFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+
+#####################################
+####### RAILROAD MAPSCRIPTS ########
+###################################
+  - type: FOREST_RAIL           
+    commands:
+    - type: addLine  # Trying to add Roads to map
+      groups: 3
+      label: 1
+      direction: vertical
+      executionChances: 99
+      rects:
+        - [1, 1, 4, 1]
+    - type: addCraft 
+      executions: 1
+      groups: 1
+    - type: addUFO
+      groups: 2
+      executions: 1
+    - type: fillArea
+#####################################
+extraSprites:
+  - type: TEXTURE.DAT
+    width: 640
+    height: 96
+    subX: 32
+    subY: 32
+    files:
+      0: Resources/Geoscape/TEXTURES.PNG
+extraStrings:
+  - type: en-US
+    strings:
+      STR_AUSTRIA_HUNGARY: AUSTRIA-HUNGARY
+      STR_CALIFORNIA_REPUBLIC: CALIFORNIA REPUBLIC
+      STR_TEXAS_FRONT: TEXAN FRONT
+      STR_SEATTLE_FRONT: SEATTLE FRONT
+      STR_MEXICAN_RESISTANCE: MEXICAN RESISTANCE
+      STR_PATAGONIA_RESISTANCE: PATAGONIA RESISTANCE
+      STR_USA: "UNITED STATES"
+      STR_RUSSIA: "RUSSIAN EMPIRE"
+      STR_UK: "UNITED KNIGDOM"
+      STR_FRANCE: "FRENCH REPUBLIC"
+      STR_GERMANY: "GERMAN EMPIRE"
+      STR_ITALY: "KINGDOM OF ITALY"
+      STR_SPAIN: "SPAIN"
+      STR_CHINA: "CHINESE REMNANT"
+      STR_JAPAN: "EMPIRE OF JAPAN"
+      STR_INDIA: "BRITSH INDIA"
+      STR_BRAZIL: "BRAZIL"
+      STR_AUSTRALIA: "AUSTRALIA"
+      STR_NIGERIA: "MEDITERREAN FRONT"
+      STR_SOUTH_AFRICA: "SOUTH AFRICA"
+      STR_EGYPT: "BRITISH EGYPT"
+      STR_CANADA: "CANADA"
+      STR_SEATTLE: Seattle
+      STR_SANFRANCISCO: San Francisco
+      STR_CHIHUAHUA: Chihuahua
+      STR_SALTILLO: Saltillo
+      STR_NEW_ORLEANS: New Orleans
+      STR_MIAMI: Miami
+      STR_TORONTO: Toronto
+      STR_BOSTON: Boston
+      STR_BERMUDA: Bermuda
+      STR_HAWAII: Hawaii
+      STR_MIDWAY: Midway
+      STR_ANCHORAGE: Anchorage
+      STR_NUUK: Nuuk
+
+      STR_SANTIAGO: Santiago
+      STR_LIMA: Lima
+      STR_BUENOS_AIRES: Buenos Aires
+      STR_BRASILIA: Brasilia
+      STR_RIO_DE_JANEIRO: Rio de Janeiro
+      STR_LONDON: London
+      STR_OSLO: Oslo
+      STR_WARSAW: Warsaw
+      STR_REYKJAVIK: Reykjavik
+      STR_ATHENS: Athens
+      STR_ROME: Rome
+      STR_MADRID: Madrid
+      STR_BUDAPEST: Budapest
+      STR_BERLIN: Berlin
+      STR_LISBON: Lisbon
+      STR_MOSCOW: Moscow
+      STR_BAKU: Baku
+      STR_PARIS: Paris
+      STR_VERDUN: Verdun
+      STR_ST_PETERSBURG: St Petersburg
+      STR_ARCHANGEL: Archangelsk
+      STR_GENEVA: Geneva
+      STR_SVALBARD: Svalbard
+      STR_ALGIERS: Algiers
+      STR_TUNIS: Tunis
+      STR_CASABLANCA: Casablanca
+      STR_TRIPOLI: Tripoli
+      STR_CAIRO: El Cairo
+      STR_BEIRUT: Beirut
+      STR_CAPE_TOWN: Cape Town
+      STR_PRETORIA: Pretoria
+      STR_FREETOWN: Freetown
+      STR_BOMBAY: Bombay
+      STR_RIYADH: Riyadh
+      STR_DUBAI: Dubai
+      STR_ANKARA: Ankara
+      STR_CALCUTTA: Calcutta
+      STR_SRI_LANKA: Sri Lanka
+      STR_SHANGHAI: Shanghai 
+      STR_SINGAPORE: Singapore
+      STR_HONG_KONG: Hong Kong
+      STR_SEOUL: Seoul
+      STR_TOKYO: Tokyo
+      STR_MANILA: Manila
+      STR_VLADIVOSTOK: Vladivostok
+      STR_YEKATERINBURG: Yekateringburg
+      STR_PETROPAVLOVSK: Petropavlovsk
+      STR_KHABAROVSK: Khabarovsk
+      STR_TASMANIA: Tasmania
+      STR_WELLINGTON: Wellington
+      STR_CANBERRA: Canberra
+      STR_MELBOURNE: Melbourne
+      STR_PORTMORESBY: Port Moresby
+      STR_KURIL_ISLANDS: Kuril Islands
+      STR_HAWAII: Hawaii
+      STR_ANCHORAGE: Anchorage
+      STR_EASTER_ISLAND: Easter Island
+      STR_GALAPAGOS_ISLAND: Galapagos Island
+      STR_BERMUDA: Bermuda
+      STR_NUUK: Nuuk
+      STR_AZORES: Azores
+      STR_NORTH_PACIFIC: North Pacific
+      STR_SOUTH_PACIFIC: South Pacific
+      STR_TIKSI: Tiksi      
+      STR_FALKLAND_ISLAND: Falkland Island
+      STR_BOZEN: Bozen
+      STR_NEWCASTLE: Newcastle
+###############################################
+      MAP_VILLAGE: Village
+      MAP_VILLAGE_INFESTED: Infested Village
+      MAP_FARM_INFESTED: Infested Farm
+      MAP_TRENCH_FARM: Frontline Farm
+      MAP_FOREST_TRENCH: Frontline Forest
+      MAP_INFESTED: Infested Land
+      MAP_RUINED_URBAN: Infested Urban
+      MAP_DEEPTRENCH: No Man's Land
+      MAP_FORESTRAIL: Forest Railroad
+      MAP_IDT_VILLAGE: Rural Settlement
+      MAP_IDT_FOREST: Rural Forest
+      MAP_IDT_SNOWVILLAGE:  Snow Rural Settlement
+      MAP_IDT_SNOWFOREST: Snow Rural Forest
+      MAP_MOUNTSNOW: High Mountain
+      MAP_MOUNTGRASS: Low Mountain
+      MAP_MOUNTSAND: Desert Mountain
+      MAP_MOUNTROCK: Mountain Pass
+      MAP_MOUNTTROP: Tropical Mountain
+      MAP_PLAINS: Mountain Plateau
+      MAP_PLAINSSNOW: Snow Plains
+      MAP_PLAINSGRASS: Plains
+      MAP_PLAINSSAND: Steppe
+      MAP_PLAINSROCK: Rocky Plain
+      MAP_PLAINSTROP: Tropical Plain

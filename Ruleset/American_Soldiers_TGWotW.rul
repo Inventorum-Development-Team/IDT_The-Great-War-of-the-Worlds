@@ -1,0 +1,527 @@
+soldiers:
+  - delete: STR_SOLDIER
+  - type: STR_AMERICAN_SOLDIER
+    flagOffset: 7
+    armorForAvatar: 
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 30000
+    costSalary: 20000
+    minStats:
+      tu: 40
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 10
+    maxStats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 70
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 50
+    statCaps:
+      tu: 70
+      stamina: 120
+      health: 70
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 60
+      psiStrength: 100
+      psiSkill: 100
+      melee: 110
+    armor: STR_AMERICAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 30
+    soldierNames:
+      - delete
+      - AmericanNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+items:
+  - type: STR_AMERICAN_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 104
+    floorSprite: 104
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_AMERICAN_GASMASK_CORPSE
+    name: STR_CORPSE
+    weight: 24
+    bigSprite: 105
+    floorSprite: 105
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_BRITISH_OFFICER_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    weight: 24
+#    bigSprite: 106
+#    floorSprite: 106
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    weight: 24
+#    bigSprite: 107
+#    floorSprite: 107
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+armors:
+#American 
+  - type: STR_AMERICAN_FIELD_UNIFORM_UC
+    spriteSheet: XCOM_23.PCK
+    spriteInv: MAN_23
+    corpseBattle:
+      - STR_AMERICAN_FIELD_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_AMERICAN_SOLDIER
+#Gasmask
+  - type: STR_AMERICAN_GASMASK_UC
+    spriteSheet: XCOM_23GM.PCK
+    spriteInv: MAN_23GM
+    corpseBattle:
+      - STR_AMERICAN_GASMASK_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 0.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.4 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_AMERICAN_SOLDIER
+#Officer
+#  - type: STR_BRITISH_OFFICER_UNIFORM_UC
+#    spriteSheet: XCOM_22OU.PCK
+#    spriteInv: MAN_22OU
+#    corpseItem: STR_BRITISH_OFFICER_UNIFORM_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_BRITISH_SOLDIER
+
+#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_UC
+#    spriteSheet: XCOM_22TC.PCK
+#    spriteInv: MAN_22TC
+#    corpseItem: STR_BRITISH_TRENCHCOATCORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_BRITISH_SOLDIER
+
+ufopaedia:
+  - id: STR_AMERICAN_SOLDIER_INTRODUCTION
+    type_id: 7
+    section: STR_WEAPONS_AND_EQUIPMENT
+    image_id: AMERICAN_SOLDIER_IMAGE
+    text: STR_AMERICAN_SOLDIER_UFOPEDIA
+    text_width: 150
+    listOrder: 1705
+  - id: STR_AMERICAN_FIELD_UNIFORM_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1706
+    text: STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA
+  - id: STR_AMERICAN_GASMASK_UC
+    type_id: 5
+    section: STR_WEAPONS_AND_EQUIPMENT
+    listOrder: 1707
+    text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
+#  - id: STR_AMERICAN_OFFICER_UNIFORM_UC
+#    type_id: 5
+#    section: STR_WEAPONS_AND_EQUIPMENT
+#    listOrder: 1708
+#    text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
+#  - id: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC
+#    type_id: 5
+#    section: STR_WEAPONS_AND_EQUIPMENT
+#    listOrder: 1709
+#    text: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+extraSprites:
+  - type: AMERICAN_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/AMERICAN_SOLDIER_IMAGE.PNG
+#Field Uniform
+  - type: MAN_23F0.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F0.png
+  - type: MAN_23F1.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F1.png
+  - type: MAN_23F2.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F2.png
+  - type: MAN_23F3.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F3.png
+  - type: MAN_23M0.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M0.png
+  - type: MAN_23M1.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M1.png
+  - type: MAN_23M2.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M2.png
+  - type: MAN_23M3.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M3.png
+  - type: XCOM_23.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/American/AMERICAN_FIELD_UNIFORM.png
+
+#Gas Mask
+  - type: MAN_23GM.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23GM.png
+  - type: XCOM_23GM.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/American/AMERICAN_GASMASK.png
+ 
+#Officer Uniform
+#  - type: MAN_23OUF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF0.png
+#  - type: MAN_23OUF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF1.png
+#  - type: MAN_23OUF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF2.png
+#  - type: MAN_23OUF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF3.png
+#  - type: MAN_23OUM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM0.png
+#  - type: MAN_23OUM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM1.png
+#  - type: MAN_23OUM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM2.png
+#  - type: MAN_23OUM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM3.png
+#  - type: XCOM_23OU.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png	  
+
+#Trench Coat Uniform
+#  - type: MAN_23TCF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF0.png
+#  - type: MAN_23TCF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF1.png
+#  - type: MAN_23TCF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF2.png
+#  - type: MAN_23TCF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF3.png
+#  - type: MAN_23TCM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM0.png
+#  - type: MAN_23TCM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM1.png
+#  - type: MAN_23TCM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM2.png
+#  - type: MAN_23TCM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM3.png
+#  - type: XCOM_23TC.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM.png	
+
+  - type: BIGOBS.PCK
+    files:
+      104: Resources/American/AMERICAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      105: Resources/American/AMERICAN_GASMASK_CORPSE_BIGOB.png
+#      106: Resources/American/AMERICAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
+#      107: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+  - type: FLOOROB.PCK
+    files:
+      104: Resources/American/AMERICAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      105: Resources/American/AMERICAN_GASMASK_CORPSE_FLOOROB.png
+#      106: Resources/American/AMERICAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
+#      107: Resources/American/AMERICAN_TRENCHCOAT_CORPSE_FLOOROB.png
+
+  - type: Flag7
+    singleImage: true
+    files:
+      0: Resources/Flags/07-American.png
+  - type: Flag8
+    singleImage: true
+    files:
+      0: Resources/Flags/08-Mexican.png
+
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/UI/avatar-background.png
+extraStrings:
+  - type: en-US
+    strings:
+      STR_AMERICAN_SOLDIER: American Soldier
+      STR_AMERICAN_SOLDIER_INTRODUCTION: The Doughboys
+      STR_AMERICAN_SOLDIER_UFOPEDIA: The American soldiers called "doughtboys" are intelligent, experts in guerrilla tactics. Since their country is divided in half by the Martians, they fight fiercely every battle. Each fallen enemy brings them a little closer to reuniting the country. Together with them they fight what remains of the Mexican Army, which also fights to liberate North America, as well as the guerrilla of Pancho Villa.
+      STR_AMERICAN_FIELD_UNIFORM_UC: US ARMY FIELD UNIFORM
+      STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA: Uniform olive green color, very characteristic of the new American army that fights against the Martians. Includes multiple cartridges to transport supplies or additional ammunition, as well as the same M12 Brodie helmet of the British, but in gray. The Mexicans also wear it, although Pancho Villa's guerrilla prefers a variant of the British uniform.
+      STR_AMERICAN_GASMASK_UC: US ARMY GAS MASK
+      STR_AMERICAN_GASMASK_UC_UFOPEDIA: Improved version of the British HLS Mk1 gas mask, with better visors that avoid clouding the eyes as much as other gas masks. Other than this, it is the same model used by the Commonwealth. Very important to avoid the lethal gases employed on the battlefront.

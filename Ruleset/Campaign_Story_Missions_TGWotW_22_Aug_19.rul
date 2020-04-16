@@ -1,0 +1,1200 @@
+mapScripts:
+  - type: VERDUN_SCRIPT                                    # trenches - test
+    commands:
+    - type: addLine # adds the row of trenches
+      label: 1
+      conditionals: -1
+      # executionChances: 100
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      direction: vertical
+      # executionChances: 100
+      groups: 3
+      rects:
+        - [1, 1, 1, 3]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      executionChances: 100
+      groups: 4
+      rects:
+        - [1, 1, 1, 3]
+    - type: addCraft 
+      executions: 1
+      groups: 1
+    - type: addUFO
+      groups: 1
+      executions: 1
+    - type: addUFO
+      UFOName: STR_BUNKER_SMALL
+    - type: addUFO
+      UFOName: STR_BUNKER_SMALL
+    - type: fillArea
+  - type: TRENCH_FORTS_VERDUN                                 # trenches - test
+    commands:
+    - type: addUFO
+      UFOName: STR_BUNKER_SPAWN
+      executions: 1
+    - type: addLine # adds the row of trenches
+      label: 1
+      conditionals: -1
+      executionChances: 100
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addBlock # test - large block
+      groups: 4
+      executionChances: 99
+      size: 2
+      maxUses: 1
+    - type: fillArea
+  - type: VILLAGE_VERDUN
+    commands:
+#    - type: addCraft
+#    - type: addCraft
+#      craftName: STR_BUNKER_SPAWN
+#      executions: 1
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+
+terrains:
+  - name: VERDUN_VOIE_SACREE
+    mapDataSets:
+      - BLANKS
+      - BARN
+      - BON1
+      - BON2
+      - BON3
+      - CULTIVAT
+    script: VERDUN_SCRIPT
+    civilianTypes:
+      - STR_BRITISH_T2_RIFLEMAN_NPC
+      - STR_FRENCH_T2_RIFLEMAN_NPC
+      - STR_BRITISH_T2_ASSAULT_NPC
+      - STR_FRENCH_T2_ASSAULT_NPC
+      - STR_BRITISH_T1_OFFICER_NPC
+      - STR_FRENCH_T1_OFFICER_NPC
+      - STR_BRITISH_T2_SUPPORT_NPC
+      - STR_FRENCH_T2_SUPPORT_NPC
+    mapBlocks:
+      - name: DEEPTRENCH00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DEEPTRENCH01
+        width: 10
+        length: 10
+        groups: 2 # TRENCH BLOCKS
+      - name: DEEPTRENCH02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH07
+        width: 10
+        length: 10
+      - name: DEEPTRENCH08
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH09
+        width: 10
+        length: 10
+      - name: DEEPTRENCH10
+        width: 10
+        length: 10
+      - name: DEEPTRENCH11
+        width: 10
+        length: 10
+      - name: DEEPTRENCH12
+        width: 10
+        length: 10    
+      - name: DEEPTRENCH13
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH14
+        width: 10
+        length: 10
+      - name: DEEPTRENCH15
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH16
+        width: 10
+        length: 10
+      - name: DEEPTRENCH17
+        width: 10
+        length: 10
+      - name: DEEPTRENCH18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH19
+        width: 10
+        length: 10   
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10  
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10  
+      - name: DEEPTRENCH21
+        width: 10
+        length: 10  
+      # - name: DEEPTRENCH22
+      #   width: 20
+      #   length: 20  
+      #   groups: 4
+      - name: DEEPTRENCH24 #CROSS ROAD
+        width: 10
+        length: 10  
+        groups: 4
+      - name: DEEPTRENCH25 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH26 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH27 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH28 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH29 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+#      - name: DEEPTRENCH30 # Vertical Road
+#        width: 10
+#        length: 10  
+#        groups: 3
+  - name: VERDUN_FLEURY_VILLAGE
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: VILLAGE_VERDUN
+    mapBlocks: &AnchorVillage
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+    civilianTypes:
+      - STR_BRITISH_T2_RIFLEMAN_NPC
+      - STR_FRENCH_T2_RIFLEMAN_NPC
+      - STR_BRITISH_T2_ASSAULT_NPC
+      - STR_FRENCH_T2_ASSAULT_NPC
+      - STR_BRITISH_T1_OFFICER_NPC
+      - STR_FRENCH_T1_OFFICER_NPC
+      - STR_BRITISH_T2_SUPPORT_NPC
+      - STR_FRENCH_T2_SUPPORT_NPC
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+  - name: VERDUN_FORT_DOUAUMONT
+    mapDataSets:
+      - BLANKS
+      - BARN
+      - BON1
+      - BON2
+      - BON3
+      - CULTIVAT
+    script: TRENCH_FORTS_VERDUN
+    mapBlocks: &AnchorDeepTrench
+      - name: DEEPTRENCH00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DEEPTRENCH01
+        width: 10
+        length: 10
+        groups: 2 # TRENCH BLOCKS
+      - name: DEEPTRENCH02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH07
+        width: 10
+        length: 10
+      - name: DEEPTRENCH08
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH09
+        width: 10
+        length: 10
+      - name: DEEPTRENCH10
+        width: 10
+        length: 10
+      - name: DEEPTRENCH11
+        width: 10
+        length: 10
+      - name: DEEPTRENCH12
+        width: 10
+        length: 10    
+      - name: DEEPTRENCH13
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH14
+        width: 10
+        length: 10
+      - name: DEEPTRENCH15
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH16
+        width: 10
+        length: 10
+      - name: DEEPTRENCH17
+        width: 10
+        length: 10
+      - name: DEEPTRENCH18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH19
+        width: 10
+        length: 10   
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10  
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10  
+      - name: DEEPTRENCH21
+        width: 10
+        length: 10  
+      # - name: DEEPTRENCH22
+      #   width: 20
+      #   length: 20  
+      #   groups: 4
+      - name: DEEPTRENCH24 #CROSS ROAD
+        width: 10
+        length: 10  
+        groups: 4
+      - name: DEEPTRENCH25 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH26 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH27 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH28 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH29 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3
+      - name: DEEPTRENCH30 # Vertical Road
+        width: 10
+        length: 10  
+        groups: 3  
+    civilianTypes:
+      - STR_BRITISH_T2_RIFLEMAN_NPC
+      - STR_FRENCH_T2_RIFLEMAN_NPC
+      - STR_BRITISH_T2_ASSAULT_NPC
+      - STR_FRENCH_T2_ASSAULT_NPC
+      - STR_BRITISH_T1_OFFICER_NPC
+      - STR_FRENCH_T1_OFFICER_NPC
+      - STR_BRITISH_T2_SUPPORT_NPC
+      - STR_FRENCH_T2_SUPPORT_NPC
+
+
+ufos:
+  - type: STR_BUNKER_SMALL
+    size: STR_SMALL_UC
+    sprite: 1
+    damageMax: 10
+    speedMax: 0
+    battlescapeTerrainData:
+      name: BUNKER_SMALL
+      mapDataSets:
+        - BLANKS
+        - BON1
+        - BON2
+        - BON3
+        - BON4
+        - URBAN
+      mapBlocks:
+        - name: BUNKER_SMALL
+          width: 10
+          length: 10
+          randomizedItems:
+              - position: [5, 3, 1]
+                amount: 3
+                mixed: true
+                itemList: &Rations [STR_BREAD, STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_BISCUIT_BOX, STR_WINE, STR_BROKEN_WINE_BOTTLE]
+              - position: [3, 6, 1]
+                amount: 2
+                mixed: true
+                itemList: &MedicalItems [STR_MEDIKIT, STR_PAINKILLER, STR_BANDAGES, STR_BANDAGES, STR_MEDIKIT]
+
+  - type: STR_BUNKER_SPAWN
+    size: STR_SMALL_UC
+    sprite: 1
+    damageMax: 10
+    speedMax: 0
+    battlescapeTerrainData:
+      name: BUNKER_SPAWN
+      mapDataSets:
+        - BLANKS
+        - BON1
+        - BON3
+        - URBAN
+      mapBlocks:
+        - name: BUNKER_SPAWN
+          width: 20
+          length: 10
+          randomizedItems:
+              - position: [5, 3, 1]
+                amount: 3
+                mixed: true
+                itemList: &Rations [STR_BREAD, STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_BISCUIT_BOX, STR_WINE, STR_BROKEN_WINE_BOTTLE]
+              - position: [3, 6, 1]
+                amount: 2
+                mixed: true
+                itemList: &MedicalItems [STR_MEDIKIT, STR_PAINKILLER, STR_BANDAGES, STR_BANDAGES, STR_MEDIKIT]
+
+  - type: STR_VERDUN_BATTLE_WAVE
+    size: STR_SMALL_UC
+    sprite: 1
+    damageMax: 10
+    speedMax: 0
+    battlescapeTerrainData:
+      name: BUNKER_SMALL
+      mapDataSets:
+        - BLANKS
+        - BON1
+        - BON2
+        - BON3
+        - BON4
+        - URBAN
+      mapBlocks:
+        - name: BUNKER_SMALL
+          width: 10
+          length: 10
+
+missionScripts: 
+  - type: CampaignStoryActOneVerdun
+    missionWeights:
+      0:
+        STR_CAMPAIGN_VERDUN_VOIE_SACREE: 100
+    regionWeights:
+      0:  
+        STR_VERDUN_REGION: 100
+    useTable: false
+    maxRuns: 1
+    varName: VerdunMission
+    researchTriggers:
+      STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 18000
+    randomDelay: 58000
+    executionOdds: 5
+
+  - type: recurringTerror
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    useTable: false
+    startDelay: 150
+
+alienMissions:
+  - type: STR_CAMPAIGN_VERDUN_VOIE_SACREE
+    objective: 3
+    spawnZone: 0
+    siteType: STR_CAMPAIGN_VERDUN_VOIE_SACREE
+    raceWeights:
+      0:
+          STR_SECTOID: 100    
+    waves:
+      - ufo: STR_VERDUN_BATTLE_WAVE
+        count: 1
+        trajectory: P7
+        timer: 100
+        objective: true
+
+  - type: STR_ALIEN_TERROR
+    points: 10
+    objective: 3
+    spawnZone: 3 #Mission zone for terror missions
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_SECTOID: 100
+      3:
+        STR_SECTOID: 100
+      6:
+        STR_SECTOID: 100
+      9:
+        STR_SECTOID: 100
+    waves:
+      - ufo: NIMBLE_FIGHTER
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: STR_MARTIAN_RECON_WALKER
+        count: 1
+        trajectory: P1
+        timer: 9600
+      - ufo: STR_MARTIAN_ASSAULT_WALKER
+        count: 1
+        trajectory: P0
+        timer: 12000
+      - ufo: STR_MARTIAN_SIEGE_WALKER
+        count: 1
+        trajectory: P7
+        timer: 9000
+        objective: true
+
+alienDeployments:
+  - type: STR_CAMPAIGN_VERDUN_VOIE_SACREE
+    data:
+#Race Line Infantry
+#alienRank: 5 - Soldier
+#alienRank: 4 - Marine
+#alienRank: 3 - Medic
+#alienRank: 2 - Sapper
+#alienRank: 1 - Commando
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE		
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
+    width: 50
+    length: 50
+    height: 9
+    race: STR_SECTOID
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_BRITISH_T2_RIFLEMAN_NPC: 4 
+      STR_FRENCH_T2_RIFLEMAN_NPC: 4 
+      STR_BRITISH_T2_ASSAULT_NPC: 2	  
+      STR_FRENCH_T2_ASSAULT_NPC: 2	  
+      STR_BRITISH_T1_OFFICER_NPC: 1
+      STR_FRENCH_T1_OFFICER_NPC: 1
+      STR_BRITISH_T2_SUPPORT_NPC: 2
+      STR_FRENCH_T2_SUPPORT_NPC: 2
+    terrains:  
+      - VERDUN_VOIE_SACREE
+    alert: STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT
+    alertBackground: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
+    alertDescription: STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT_DESCRIPTION
+#    music:
+#      - EPIC2
+    briefing:
+      title: STR_CAMPAIGN_VERDUN_VOIE_SACREE
+      desc: STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING
+      palette: 1
+      textOffset: -16
+      background: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND 
+      showTarget: false
+      showCraft: false
+    markerName: STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME
+    duration: [720, 730]
+    despawnPenalty: 500
+    nextStage: STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE
+    points: 200
+
+  - type: STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE
+    enviroEffects: STR_ENVIRO_UNIT_UNDER_SIEGE
+    data:
+#Race Line Infantry
+#alienRank: 5 - Soldier
+#alienRank: 4 - Marine
+#alienRank: 3 - Medic
+#alienRank: 2 - Sapper
+#alienRank: 1 - Commando
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 60
+    length: 60
+    height: 9 
+    shade: 3
+    race: STR_SECTOID
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_BRITISH_T2_RIFLEMAN_NPC: 4
+      STR_FRENCH_T2_RIFLEMAN_NPC: 4
+      STR_BRITISH_T2_ASSAULT_NPC: 2  
+      STR_FRENCH_T2_ASSAULT_NPC: 2  
+      STR_BRITISH_T1_OFFICER_NPC: 1
+      STR_FRENCH_T1_OFFICER_NPC: 1
+      STR_BRITISH_T2_SUPPORT_NPC: 1
+      STR_FRENCH_T2_SUPPORT_NPC: 1
+      MALE_CIVILIAN: 8
+      FEMALE_CIVILIAN: 8
+    terrains:  
+      - VERDUN_FLEURY_VILLAGE
+#    music:
+#      - EPIC2
+    briefing:
+#      title: STR_CAMPAIGN_SIEGE_OF_VERDUN_TITLE
+      desc: STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE_BRIEFING
+      palette: 1
+      textOffset: -16
+      background: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
+      showTarget: false
+      showCraft: false
+    nextStage: STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT
+    points: 200
+
+  - type: STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT
+    enviroEffects: STR_ENVIRO_UNIT_UNDER_SIEGE
+    data:
+#Race Line Infantry
+#alienRank: 5 - Soldier
+#alienRank: 4 - Marine
+#alienRank: 3 - Medic
+#alienRank: 2 - Sapper
+#alienRank: 1 - Commando
+      - alienRank: 5
+        lowQty: 10
+        highQty: 15
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE		
+      - alienRank: 1
+        lowQty: 3
+        highQty: 5
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
+    width: 50
+    length: 50
+    height: 9
+    shade: 6
+    race: STR_SECTOID
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_BRITISH_T2_RIFLEMAN_NPC: 4 
+      STR_FRENCH_T2_RIFLEMAN_NPC: 4 
+      STR_BRITISH_T2_ASSAULT_NPC: 4	
+      STR_FRENCH_T2_ASSAULT_NPC: 4
+      STR_BRITISH_T1_OFFICER_NPC: 2
+      STR_FRENCH_T1_OFFICER_NPC: 2
+      STR_BRITISH_T2_SUPPORT_NPC: 2
+      STR_FRENCH_T2_SUPPORT_NPC: 2
+    terrains:  
+      - VERDUN_FORT_DOUAUMONT
+    turnLimit: 10 
+    chronoTrigger: 2
+    cheatTurn: 3
+#    music:
+#      - EPIC2
+    briefing:
+      desc: STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT_BRIEFING
+      palette: 1
+      textOffset: -16
+      background: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND 
+      showTarget: false
+      showCraft: false
+    points: 200
+   
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT: "THEY SHALL NOT PASS!"
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_BRIEFING: "..."
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME: "The Siege of Verdun"
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT_DESCRIPTION: "Go immediately to defend Verdun. It is the only point in the Benelux Occupation Zone where the Martians can break our defenses. The British Black Watch Regiment and the 151st French Infantry Regiment are on their way to support our assault."
+  
+      STR_CAMPAIGN_VERDUN_VOIE_SACREE: "Siege of Verdun, Voie Sacrée"
+      STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING: "The Martians have launched a strong attack on the Fortified Square of Verdun. Doctor Nikola Tesla is trapped in the camp in the village of Fleury-devant-Douaumont, right on the front line. We must first reconquer the Voie Sacrée from the hands of the Martians, to allow new allied reinforcements and supplies to reach the besieged city."
+
+      STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE: "Siege of Verdun, Fleury Village"
+      STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE_BRIEFING: "We have successfully broken the attack on the Voie Sacrée, our reinforcements are on their way. We have reached the centre of Fleury-devant-Douaumont, but the area is still full of civilians. Reports inform that Martian assault teams have managed to break through our defenses at some points on the front and have managed to sneak into Fleury. We must stop them to avoid a massacre."
+
+      STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT: "Siege of Verdun, Fort Doaumont"
+      STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT_BRIEFING: "Allied recon reports that the bulk of Martian forces have concentrated in front of Fort Doaumont for a final attack. Our British and French allies remain with us, we must resist the position for 10 turns, to give Falkenhayn's German army time to get to us and push Verdun's enemy once and for all. ON NE PASSE PAS!"
+
+      STR_ENVIRO_UNIT_UNDER_SIEGE: The morale of your besieged troops is getting low 
+extraSprites:
+  - type: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/CAMPAIGN_STORY_SIEGE_OF_VERDUN_BACKGROUND.png

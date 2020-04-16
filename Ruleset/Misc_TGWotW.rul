@@ -1,0 +1,807 @@
+extraSprites:
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  - type: GEOBORD.SCR #Space
+    singleImage: true
+    files:
+      0: Resources/Backgrounds/BACK100.png
+#  - type: TAC01.SCR #Inventory Background
+#    singleImage: true
+#    width: 320
+#    height: 200
+#    files:
+#      0: Resources/Backgrounds/InventoryBackground.PNG
+  - type: BACK01.SCR #Main
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK01.PNG
+  - type: BACK02.SCR #soldier
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK02.PNG
+  - type: BACK04.SCR #base defense/equipment selection
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK04.PNG
+  - type: BACK05.SCR #research
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK05.PNG
+  - type: BACK12.SCR #launch interceptor
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK12.PNG
+  - type: BACK13.SCR #buy stuff, purschase things
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK13.PNG
+  - type: BACK14.SCR #equip craft
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK14.PNG
+  - type: BACK15.SCR #land at crash/landing site
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK15.PNG
+  - type: BACK16.SCR #mission briefing
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK16.PNG
+  - type: BACK17.SCR #manufacture
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/BACK17.PNG
+  - type: TACTICBACK00.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK00.PNG
+  - type: TACTICBACK01.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK01.PNG
+  - type: TACTICBACK02.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK02.PNG
+  - type: TACTICBACK03.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK03.PNG
+  - type: TACTICBACK04.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK04.PNG
+  - type: TACTICBACK05.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK05.PNG
+  - type: TACTICBACK06.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK06.PNG
+  - type: TACTICBACK07.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK07.PNG
+  - type: TACTICBACK08.SCR #In-mission Hidden movement background
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/TACTICBACK08.PNG
+##########################################
+############ GLOBE MARKERS ###############
+##########################################
+  - delete: GlobeMarkers
+  - type: GlobeMarkers
+    width: 63
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      0: Resources/BaseGlobeMarkers.png
+  - type: GlobeMarkers
+    width: 140
+    height: 7
+    subX: 7
+    subY: 7
+    files:
+      9: Resources/CraftGlobeMarkers.png
+##########################################
+############### RANKS ####################
+##########################################
+  - type: SMOKE.PCK
+    files:
+      20: Resources/Rank_0_B.png
+      21: Resources/Rank_1_B.png
+      22: Resources/Rank_2_B.png
+      23: Resources/Rank_3_B.png
+      24: Resources/Rank_4_B.png
+      25: Resources/Rank_5_B.png
+  - type: BASEBITS.PCK
+    files:
+      42: Resources/Rank_0_B.png
+      43: Resources/Rank_1_B.png
+      44: Resources/Rank_2_B.png
+      45: Resources/Rank_3_B.png
+      46: Resources/Rank_4_B.png
+      47: Resources/Rank_5_B.png
+##########################################
+############# HAND TO HAND ###############
+##########################################
+  - type: BIGOBS.PCK
+    width: 32
+    height: 48
+    files:
+      99: Resources/specialWeapons/BigFist.png
+
+  - type: SPICONS.DAT
+    width: 32
+    height: 24
+    files:
+      2: Resources/specialWeapons/spicon_brawl.png
+
+specialWeaponInventorySlots:
+  - STR_BELT
+
+crafts:
+  - type: STR_SPAD
+    marker: 9
+  - type: STR_RCLASS_AIRSHIP
+    marker: 10
+  - type: STR_CONQUEROR
+    marker: 11
+
+ufos:
+# size: STR_VERY_SMALL
+#    marker: 12
+#    markerLand: 17
+#    markerCrash: 22
+# size: STR_SMALL
+#    marker: 13
+#    markerLand: 18
+#    markerCrash: 23
+# size: STR_MEDIUM
+#    marker: 14
+#    markerLand: 19
+#    markerCrash: 24
+# size: STR_LARGE
+#    marker: 15
+#    markerLand: 20
+#    markerCrash: 25
+# size: STR_VERY_LARGE
+#    marker: 16
+#    markerLand: 21
+#    markerCrash: 26
+############################
+  - type: STR_SMALL_SCOUT
+    marker: 12
+    markerLand: 17
+    markerCrash: 22
+  - type: STR_MEDIUM_SCOUT
+    marker: 13
+    markerLand: 18
+    markerCrash: 23
+  - type: STR_LARGE_SCOUT
+    marker: 13
+    markerLand: 18
+    markerCrash: 23
+  - type: STR_MARTIAN_FIGHTER
+    marker: 13
+    markerLand: 18
+    markerCrash: 23
+  - type: STR_MARTIAN_GUNSHIP
+    marker: 14
+    markerLand: 19
+    markerCrash: 24
+  - type: STR_MARTIAN_TRANSPORT
+    marker: 14
+    markerLand: 19
+    markerCrash: 24
+  - type: STR_MARTIAN_ASSAULT_WALKER
+    marker: 14
+    markerLand: 19
+    markerCrash: 24
+  - type: STR_MARTIAN_BATTLE_WALKER
+    marker: 15
+    markerLand: 20
+    markerCrash: 25
+  - type: STR_MARTIAN_SIEGE_WALKER
+    marker: 16
+    markerLand: 21
+    markerCrash: 26
+  - type: STR_MARTIAN_HARVESTER_WALKER
+    marker: 15
+    markerLand: 20
+    markerCrash: 25
+  - type: STR_MARTIAN_OVERLORD_WALKER
+    marker: 16
+    markerLand: 21
+    markerCrash: 26
+  - type: STR_MARTIAN_RECON_WALKER
+    marker: 12
+    markerLand: 17
+    markerCrash: 22
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_OPENXCOM: "The Great War of the Worlds"
+      STR_NEW_GAME: "Grand Campaign"
+      STR_NEW_BATTLE: "Skirmirshes"
+      STR_MISSION_GENERATOR: "THE WAR TO END ALL WARS"
+      STR_UFOPAEDIA_UC: "WAR CODEX"
+      STR_DAMAGE_10: SUPER AP
+      STR_DAMAGE_11: TESLA
+      STR_DAMAGE_12: ELECTROMAGNETIC
+      STR_DAMAGE_13: HEAT RAY
+      STR_DAMAGE_14: BLACK SMOKE
+      STR_DAMAGE_15: PULSE ENERGY
+      STR_DAMAGE_16: COLD
+      STR_DAMAGE_17: TOXIC
+      STR_DAMAGE_18: FLAMES
+      STR_ALIEN_ALLOYS: Entropium
+      STR_ALIEN_ALLOYS_UFOPEDIA: "Exotic alien mineral used by the Martians to build everything, from small weapons to ship armor. Extremely light and durable, but requieres high pressure and heat to be able to mold. Named after the themodynamic principle and the greek word, Entropy. It means 'evolution' or 'transformation'."
+      STR_ELERIUM_115: Tungunskium
+      STR_ELERIUM_115_UFOPEDIA: "This element has the unusual property of generating anti-matter power when bombarded with certain particles. This creates gravity waves and other forms of energy. It seems that Mars has vast mines of this mineral beneath its surface. Called in honor of Tungunska, the first Martian Landing Zone."
+      STR_BALLISTIC: Ballistic
+      STR_TESLA: Tesla
+      STR_COILGUN: Coilgun
+      STR_BOLT_ACTION_RIFLES: Bolt Action Rifles
+      STR_SELFLOADING_RIFLES: Self-Loading Rifles
+      STR_PISTOLS: Pistols
+      STR_MACHINE_GUNS: Machine Guns
+      STR_SHOTGUNS: Shotguns
+      STR_CARBINES: Carbines 
+      STR_SMGS: Submachine guns
+      STR_SNIPER_RIFLES: Sniper Rifles
+      STR_EXPLOSIVES: Explosives
+      STR_ARTILLERY: Artillery
+      STR_MEDICAL: Medical
+      STR_ARTILLERY: Artillery
+      STR_FIREARMS: Firearms 
+      STR_CLIPS: Ammo
+      STR_TURRETS: Turrets
+      STR_MILITARY_RATIONS: Military Rations
+      STR_LIGHT_EQUIPMENT: Light Equipment
+      STR_HEAVY_EQUIPMENT: Heavy Equipment
+      STR_RIFLEMAN_CLASS: Rifleman Class
+      STR_ASSAULT_CLASS: Assault Class
+      STR_MEDIC_CLASS: Medic Class
+      STR_SUPPORT_CLASS: Support Class
+      STR_RAIDER_CLASS: Raider Class
+      STR_AIRBORNE_EQUIPMENT: Airborne Equipment
+      STR_BRITISH_EQUIPMENT: British Equipment
+      STR_AMERICAN_EQUIPMENT: American Equipment
+      STR_GERMAN_EQUIPMENT: German Equipment
+      STR_FRENCH_EQUIPMENT: French Equipment
+      STR_ITALIAN_EQUIPMENT: Italian Equipment
+      STR_RUSSIAN_EQUIPMENT: Russian Equipment
+      STR_AUSTRO_HUNGARIAN_EQUIPMENT: Austro-Hungarian Equipment
+      STR_JAPANESE_EQUIPMENT: Japanese Equipment
+      STR_ROOKIE: "Soldier"
+      STR_SQUADDIE: "Sergeant"
+      STR_SERGEANT: "Lieutenant"
+      STR_CAPTAIN: "Captain"
+      STR_COLONEL: "Colonel"
+      STR_COMMANDER: "General"
+      STR_PUNCH: "Punch!"
+      STR_UNARMED_UNIFORM: "Unarmed Melee Attack"
+      STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements."
+      STR_DETECTED: "Sighted"
+      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON TRIPOD-TIME=5 Secs"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE TRIPOD "
+      STR_UFO_IS_NOT_RECOVERED: "Tripod not recovered"
+      STR_UFO_IS_RECOVERED: "Tripod recovered"
+      STR_UFO_RECOVERY: "TRIPOD RECOVERY"
+      STR_UFO_DESTROYED: "TRIPOD DESTROYED!"
+      STR_UFO_: "TRIPOD-{0}"
+      STR_TAILING_UFO: "CHASING A TRIPOD"
+      STR_INTERCEPTING_UFO: "INTERCEPTING TRIPOD-{0}"
+      STR_XCOM_OPERATIVES_KILLED: "IEF LOSSES"
+      STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "IEF SOLDIERS MISSING IN ACTION"
+      STR_XCOM_CRAFT_LOST: "IEF SHIP LOST"
+      STR_ALIEN_BASE_: "MARTIAN FORTRESS-{0}"
+      STR_ALIEN_BASE_STILL_INTACT: "Martian Fortress still intact"
+      STR_ALIEN_BASE_DESTROYED: "Martian Fortress detroyed"
+      STR_ALIEN_BASE_RECOVERY: "RECOVERY OF MARTIAN FORTRESS"
+      STR_ALIEN_BASE_ASSAULT: "ASSAULT ON MARTIAN FORTRESS"
+      STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a Martian Fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
+      STR_UFO_CRASH_RECOVERY: "DOWNED TRIPOD RECOVERY"
+      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the Tripod or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of Tripod remains, artifacts and Martian corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_GROUND_ASSAULT: "TRIPOD GROUND ASSAULT"
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the Tripod. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Tripod remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a Martian base in {0}"
+      STR_XCOM_PERFORMANCE_ROSTER: "IEF Performance Roster"
+      STR_UFOPAEDIA: "War Codex"
+      STR_XCOM_CRAFT_ARMAMENT: "IEF CRAFT & ARMAMENT"
+      STR_HEAVY_WEAPONS_PLATFORMS: "HEAVY WEAPONS PLATFORMS"
+      STR_WEAPONS_AND_EQUIPMENT: "WEAPONS AND EQUIPMENT"
+      STR_ALIEN_ARTIFACTS: "MARTIAN ARTIFACTS"
+      STR_BASE_FACILITIES: "BASE FACILITIES"
+      STR_ALIEN_LIFE_FORMS: "ALIEN LIFE FORMS"
+      STR_ALIEN_RESEARCH_UC: "MARTIAN RESEARCH"
+      STR_UFO_COMPONENTS: "MARTIAN MACHINES COMPONENTS"
+      STR_UFOS: "MARTIAN MACHINES"
+      STR_BESIEGED_TROOPS_LOW_MORALE: "The morale of your besieged troops is getting low!"
+
+
+musics:
+   - type: IDT_TGWOTW_THEME
+     normalization: 2.0
+
+itemCategories:
+  - type: STR_BALLISTIC
+    listOrder: 10
+  - type: STR_TESLA
+    listOrder: 20
+  - type: STR_PULSE_ENERGY
+    listOrder: 30
+  - type: STR_COILGUN
+    listOrder: 40
+  - type: STR_BOLT_ACTION_RIFLES
+    listOrder: 50
+  - type: STR_SELFLOADING_RIFLES
+    listOrder: 60
+  - type: STR_SNIPER_RIFLES
+    listOrder: 70
+  - type: STR_MACHINE_GUNS
+    listOrder: 80
+  - type: STR_SHOTGUNS
+    listOrder: 90
+  - type: STR_CARBINES
+    listOrder: 100
+  - type: STR_SMGS
+    listOrder: 110
+  - type: STR_PISTOLS
+    listOrder: 120
+  - type: STR_EXPLOSIVES
+    listOrder: 130
+  - type: STR_MEDICAL
+    listOrder: 140
+  - type: STR_ARTILLERY
+    listOrder: 150
+  - type: STR_FIREARMS
+    listOrder: 160
+  - type: STR_CLIPS
+    listOrder: 170
+  - type: STR_CQB
+    listOrder: 180
+  - type: STR_LIGHT_EQUIPMENT
+    listOrder: 190
+  - type: STR_HEAVY_EQUIPMENT
+    listOrder: 200
+  - type: STR_MILITARY_RATIONS
+    listOrder: 210
+  - type: STR_RIFLEMAN_CLASS
+    listOrder: 220
+  - type: STR_ASSAULT_CLASS
+    listOrder: 220
+  - type: STR_MEDIC_CLASS
+    listOrder: 220
+  - type: STR_SUPPORT_CLASS
+    listOrder: 220
+  - type: STR_RAIDER_CLASS
+    listOrder: 220
+  - type: STR_AIRBORNE_EQUIPMENT
+    listOrder: 230
+  - type: STR_BRITISH_EQUIPMENT
+    listOrder: 240
+  - type: STR_AMERICAN_EQUIPMENT
+    listOrder: 230
+  - type: STR_GERMAN_EQUIPMENT
+    listOrder: 240
+  - type: STR_FRENCH_EQUIPMENT
+    listOrder: 250
+  - type: STR_ITALIAN_EQUIPMENT
+    listOrder: 240
+  - type: STR_RUSSIAN_EQUIPMENT
+    listOrder: 230
+  - type: STR_AUSTRO_HUNGARIAN_EQUIPMENT
+    listOrder: 240
+  - type: STR_JAPANESE_EQUIPMENT
+    listOrder: 250
+  - type: STR_TURRETS
+    listOrder: 260
+  - type: STR_BLANKS
+    listOrder: 300
+    hidden: true
+
+
+startingConditions:
+  - type: STR_STARTING_FRONTLINES_VERDUN_FORT_VAUX
+    defaultArmor:
+      STR_BRITISH_SOLDIER: 
+        STR_FRENCH_FIELD_UNIFORM_UC: 100
+      STR_AMERICAN_SOLDIER:
+        STR_FRENCH_FIELD_UNIFORM_UC: 100 
+      STR_GERMAN_SOLDIER:
+        STR_FRENCH_FIELD_UNIFORM_UC: 100
+      STR_FRENCH_SOLDIER:
+        STR_FRENCH_FIELD_UNIFORM_UC: 100
+    allowedArmors:
+      - STR_FRENCH_FIELD_UNIFORM_UC 
+      - STR_FRENCH_GASMASK_UC
+    allowedItemCategories:
+      - STR_FRENCH_EQUIPMENT
+      - STR_LIGHT_EQUIPMENT
+      - STR_HEAVY_EQUIPMENT
+      - STR_EXPLOSIVES
+      - STR_BALLISTIC
+      - STR_MILITARY_RATIONS
+      - STR_CQB
+    allowedVehicles:
+      - STR_NONE
+    allowedCraft:
+      - STR_MARCH
+      - STR_MARCH_LARGE
+
+  - type: STR_STARTING_FRONTLINES_MEUSE_ARGONNE
+    defaultArmor:
+      STR_BRITISH_SOLDIER: 
+        STR_AMERICAN_FIELD_UNIFORM_UC: 100
+      STR_AMERICAN_SOLDIER:
+        STR_AMERICAN_FIELD_UNIFORM_UC: 100 
+      STR_GERMAN_SOLDIER:
+        STR_AMERICAN_FIELD_UNIFORM_UC: 100
+      STR_FRENCH_SOLDIER:
+        STR_AMERICAN_FIELD_UNIFORM_UC: 100
+    allowedArmors:
+      - STR_AMERICAN_FIELD_UNIFORM_UC 
+      - STR_AMERICAN_GASMASK_UC
+    allowedItemCategories:
+      - STR_AMERICAN_EQUIPMENT
+      - STR_LIGHT_EQUIPMENT
+      - STR_HEAVY_EQUIPMENT
+      - STR_EXPLOSIVES
+      - STR_BALLISTIC
+      - STR_MILITARY_RATIONS
+      - STR_CQB
+    allowedVehicles:
+      - STR_NONE
+    allowedCraft:
+      - STR_MARCH
+      - STR_MARCH_LARGE
+
+  - type: STR_STARTING_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
+    defaultArmor:
+      STR_BRITISH_SOLDIER: 
+        STR_GERMAN_FIELD_UNIFORM_UC: 100
+      STR_AMERICAN_SOLDIER:
+        STR_GERMAN_FIELD_UNIFORM_UC: 100 
+      STR_GERMAN_SOLDIER:
+        STR_GERMAN_FIELD_UNIFORM_UC: 100
+      STR_FRENCH_SOLDIER:
+        STR_GERMAN_FIELD_UNIFORM_UC: 100
+    allowedArmors:
+      - STR_GERMAN_FIELD_UNIFORM_UC 
+      - STR_GERMAN_GASMASK_UC
+    allowedItemCategories:
+      - STR_GERMAN_EQUIPMENT
+      - STR_LIGHT_EQUIPMENT
+      - STR_HEAVY_EQUIPMENT
+      - STR_EXPLOSIVES
+      - STR_BALLISTIC
+      - STR_MILITARY_RATIONS
+      - STR_CQB
+    allowedVehicles:
+      - STR_NONE
+    allowedCraft:
+      - STR_MARCH
+      - STR_MARCH_LARGE
+
+enviroEffects:
+  - type: STR_ENVIRO_UNIT_UNDER_SIEGE
+    environmentalConditions:
+      STR_FRIENDLY:
+        chancePerTurn: 95
+        firstTurn: 1 # first turn to apply damage
+        lastTurn: 1000 # last turn to apply damage
+        message: STR_BESIEGED_TROOPS_LOW_MORALE
+        color: 29
+        weaponOrAmmo: STR_SIEGE_LOW_MORALE_WEAPON
+        side: -1
+        bodyPart: -1
+#This is when our team has been under siege by
+#many days and is tired
+
+	
+items:
+  - type: STR_UNARMED_UNIFORM
+    weight: 0
+    bigSprite: 99
+    meleeHitSound: 99
+    meleeAnimation: 0
+    power: 20
+    damageType: 6
+    damageBonus:
+      strength: 1.5
+      melee: 2.0
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.15
+      ToHealth: 0.35
+    accuracyMelee: 85
+    meleeMultiplier:
+      melee: 2.0
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 8
+      energy: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialIconSprite: 2
+    specialUseEmptyHand: true
+
+  - type: STR_SIEGE_LOW_MORALE_WEAPON
+    damage: 30
+    damageType: 6
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToMorale: 3.0
+
+armors:
+  - type: STR_BRITISH_FIELD_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_BRITISH_GASMASK_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_AMERICAN_FIELD_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_AMERICAN_GASMASK_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_GERMAN_FIELD_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_GERMAN_GASMASK_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_PILOT_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_FRENCH_FIELD_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_FRENCH_GASMASK_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_FRENCH_FIELD_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_FRENCH_GASMASK_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_ITALIAN_FIELD_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_ITALIAN_ALPINI_UNIFORM_UC
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: SECTOID_ARMOR0
+    spriteSheet: SECTOID.PCK
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 1.0 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.2 #7 Melee
+      - 1.6 #8 Acid
+      - 0.1 #9 Smoke
+      - 1.2 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.2 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.8 #17 Toxic
+      - 1.8 #18 Flames
+    loftempsSet: [ 2 ]
+
+
+ufopaedia:
+  - id: STR_UNARMED_UNIFORM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNARMED_NONE_PEDIA
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      99: Resources/specialWeapons/ClubHit.wav
+
+startingBase:
+  facilities:
+    - type: STR_ACCESS_LIFT
+      x: 0
+      y: 2
+    - type: STR_HANGAR
+      x: 0
+      y: 0
+    - type: STR_HANGAR
+      x: 2
+      y: 0
+    - type: STR_HANGAR
+      x: 4
+      y: 0
+    - type: STR_GENERAL_STORES
+      x: 0
+      y: 3
+    - type: STR_LIVING_QUARTERS
+      x: 0
+      y: 4
+    - type: STR_LABORATORY
+      x: 1
+      y: 4
+    - type: STR_WORKSHOP
+      x: 2
+      y: 4
+    - type: STR_SMALL_RADAR_SYSTEM
+      x: 3
+      y: 4
+  randomSoldiers:
+    STR_BRITISH_SOLDIER: 3
+    STR_AMERICAN_SOLDIER: 3
+    STR_GERMAN_SOLDIER: 3
+    STR_PILOT: 15
+  crafts:
+    - type: STR_SPAD
+      id: 1
+      fuel: 300
+      damage: 0
+      weapons:
+        - type: STR_TWIN_HMG
+          ammo: 200
+        - type: STR_FRAGMENTATION_BOMB
+          ammo: 3
+      status: STR_READY
+    - type: STR_SPAD
+      id: 2
+      fuel: 300
+      damage: 0
+      weapons:
+        - type: STR_TWIN_HMG
+          ammo: 200
+        - type: STR_FRAGMENTATION_BOMB
+          ammo: 3
+      status: STR_READY
+    - type: STR_RCLASS_AIRSHIP
+      id: 1
+      fuel: 1450
+      damage: 0
+      weapons:
+        - type: STR_AUTOCANNON
+          ammo: 100
+        - type: STR_QF_1_PDR_POMPOM
+          ammo: 30
+        - type: STR_QF_1_PDR_POMPOM
+          ammo: 30
+        - type: STR_TWIN_HMG
+          ammo: 200
+      status: STR_READY
+    - type: STR_CONQUEROR
+      id: 1
+      fuel: 1000
+      damage: 0
+      weapons:
+        - type: STR_AUTOCANNON
+          ammo: 100
+      items:
+        STR_MILLS_BOMB: 8
+        STR_WEBLEY_REVOLVER: 1
+        STR_WEBLEY_REVOLVER_CLIP: 2
+        STR_SMLE_MKIII: 5
+        STR_SMLE_MKIII_CLIP: 5
+        STR_M1911_COLT: 1
+        STR_M1911_COLT_CLIP: 3
+        STR_SPRINGFIELD: 1
+        STR_SPRINGFIELD_CLIP: 3
+        STR_GEWEHR98: 2
+        STR_GEWEHR98_CLIP: 5
+        STR_SABRE: 8
+      status: STR_READY
+  items:
+    STR_TWIN_HMG_LAUNCHER: 2
+    STR_TWIN_HMG_ROUNDS_X50: 10
+    STR_AUTOCANNON_LAUNCHER: 1
+    STR_AUTOCANNON_ROUNDS_X50: 10
+    STR_QF_1_PDR_POMPOM_LAUNCHER: 1
+    STR_QF_1_PDR_POMPOM_X30: 10
+    STR_FRAGMENTATION_BOMB_LAUNCHER: 1
+    STR_FRAGMENTATION_BOMB_X3: 10
+    STR_WEBLEY_REVOLVER: 2
+    STR_WEBLEY_REVOLVER_CLIP: 10
+    STR_SMLE_MKIII: 2
+    STR_SMLE_MKIII_CLIP: 10
+    STR_M1911_COLT: 2
+    STR_M1911_COLT_CLIP: 10
+    STR_SPRINGFIELD: 1
+    STR_SPRINGFIELD_CLIP: 10
+    STR_GEWEHR98: 1
+    STR_GEWEHR98_CLIP: 10
+    STR_MAUSER: 2
+    STR_MAUSER_CLIP: 10
+    STR_SABRE: 8
+    STR_TRENCH_KNIFE: 5
+    STR_MEDIKIT: 5
+    STR_BANDAGES: 10
+    STR_PAINKILLER: 10
+    STR_TURRET_INTERACTION_ITEM: 4
+    STR_LEWIS_MG_TURRET: 1
+    STR_LEWIS_MG_DRUM: 4
+  scientists: 10
+  engineers: 10
+ 
+alienItemLevels:
+  - [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+  - [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
+  - [0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
+ 
+facilities:
+  - delete: STR_HANGAR
+
+  - type: STR_HANGAR
+    spriteShape: 9
+    spriteFacility: 9
+    size: 2
+    buildCost: 200000
+    buildTime: 25
+    storage: 50
+    monthlyCost: 25000
+    crafts: 2
+    mapName: XBASE_16
+  - type: STR_GENERAL_STORES
+    storage: 100

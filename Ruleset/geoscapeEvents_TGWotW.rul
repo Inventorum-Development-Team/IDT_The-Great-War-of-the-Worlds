@@ -1,0 +1,305 @@
+eventScripts:
+  - type: STR_HUMAN_WAR_EFFORTS_EVENT_SCRIPT
+    eventWeights:
+      0:
+        STR_SUCCESSFUL_TROOP_ADVANCE_EVENT: 100
+        STR_WAR_TROPHIES_EVENT: 50
+      3:
+        STR_WAR_TROPHIES_EVENT: 100
+        STR_SUCCESSFUL_TROOP_ADVANCE_EVENT: 100
+        STR_MECHANIZED_SKIRMISH_EVENT: 50
+      4:
+        STR_WAR_TROPHIES_EVENT: 60
+        STR_SUCCESSFUL_TROOP_ADVANCE_EVENT: 40
+        STR_SUCCESSFUL_BOMBING_RUN_EVENT: 100
+      6:
+        STR_SUCCESSFUL_BOMBING_RUN_EVENT: 40
+        STR_SUCCESSFUL_TROOP_ADVANCE_EVENT: 100
+        STR_MECHANIZED_SKIRMISH_EVENT: 60
+    firstMonth: 0
+    lastMonth: 20
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_HUMAN_SUPPLIES_EVENT_SCRIPT
+    eventWeights:
+      0:
+        STR_SUPPLY_SURPLUS_EVENT: 30
+        STR_FIELD_KITCHEN_EVENT: 50
+      2:
+        STR_SUPPLY_SURPLUS_EVENT: 100
+        STR_FIELD_KITCHEN_EVENT: 100
+      4:
+        STR_SUPPLY_SURPLUS_EVENT: 100
+        STR_FIELD_KITCHEN_EVENT: 50
+      6:
+        STR_SUPPLY_SURPLUS_EVENT: 60
+        STR_FIELD_KITCHEN_EVENT: 100
+    firstMonth: 0
+    lastMonth: 20
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+  - type: STR_DISASTER_EVENT_SCRIPT2
+    eventWeights:
+      0:
+        STR_FACTORY_MALFUNCTION_EVENT: 20
+        STR_CIVILIAN_AIRSHIP_DOWN_EVENT: 60
+      2:
+        STR_FACTORY_MALFUNCTION_EVENT: 30
+        STR_CIVILIAN_AIRSHIP_DOWN_EVENT: 30
+        STR_MILITARY_AIRSHIP_DOWN_EVENT: 60
+      4:
+        STR_FACTORY_MALFUNCTION_EVENT: 40
+        STR_CIVILIAN_AIRSHIP_DOWN_EVENT: 20
+        STR_MILITARY_AIRSHIP_DOWN_EVENT: 100
+      6:
+        STR_FACTORY_MALFUNCTION_EVENT: 100
+        STR_CIVILIAN_AIRSHIP_DOWN_EVENT: 80
+        STR_MILITARY_AIRSHIP_DOWN_EVENT: 20
+    firstMonth: 0
+    lastMonth: 12
+    executionOdds: 100
+    minDifficulty: 0
+    maxDifficulty: 4
+
+
+# - type: STR_TEST_EVENT_SCRIPT
+#    eventWeights:                 # randomly generated repeatable events
+#      0:
+#        STR_TEST_EVENT_A: 100
+#        STR_TEST_EVENT_B: 100
+#    oneTimeSequentialEvents:      # sequentially generated one-time events (cannot repeat)
+#      - STR_TEST_EVENT2
+#      - STR_TEST_EVENT3
+#    oneTimeRandomEvents:          # randomly generated one-time events (cannot repeat)
+#      STR_TEST_EVENT1R: 100
+#      STR_TEST_EVENT1R: 100
+#    timerRandom: 150
+
+events:
+#    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
+#############################
+#### WAR EFFORT EVENTS #####
+###########################
+  - name: STR_SUCCESSFUL_TROOP_ADVANCE_EVENT
+    description: STR_SUCCESSFUL_TROOP_ADVANCE_DESCRIPTION
+    background: SUCCESSFUL_TROOP_ADVANCE_EVENT_BACKGROUND
+#    music: EVENT_MUSIC_MARCH
+    regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+#    city: false
+    points: 300
+#    funds: -100000000
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [XXX, YYY]
+#    researchList: [STR_LASER_RIFLE]
+#    interruptResearch: XXX
+    timer: 3600
+    timerRandom: 30500
+
+  - name: STR_WAR_TROPHIES_EVENT
+    description: STR_WAR_TROPHIES_DESCRIPTION
+    background: WAR_TROPHIES_EVENT_BACKGROUND
+#    music: EVENT_MUSIC_MARCH
+    regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+#    city: false
+    points: 50
+#    funds: -100000000
+#    randomItemList: [YYY, XXX]
+    everyItemList: [STR_ALIEN_ALLOYS, STR_ALIEN_GRENADE, STR_ALIEN_ALLOYS]
+#    researchList: [STR_LASER_RIFLE]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+
+  - name: STR_MECHANIZED_SKIRMISH_EVENT
+    description: STR_MECHANIZED_SKIRMISH_DESCRIPTION
+    background: MECHANIZED_SKIRMISH_EVENT_BACKGROUND
+#    music: EVENT_MUSIC_TANK_TRACK
+    regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+#    city: false
+    points: 200
+#    funds: -100000000
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [STR_ALIEN_ALLOYS, STR_ALIEN_GRENADE, STR_ALIEN_ALLOYS]
+#    researchList: [STR_LASER_RIFLE]
+#    interruptResearch: XXX
+    timer: 6000
+    timerRandom: 43500
+
+  - name: STR_SUCCESSFUL_BOMBING_RUN_EVENT
+    description: STR_SUCCESSFUL_BOMBING_RUN_DESCRIPTION
+    background: SUCCESSFUL_BOMBING_RUN_EVENT_BACKGROUND
+#    music: EVENT_MUSIC_BOMBS
+    regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+#    city: false
+    points: 200
+#    funds: -100000000
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [STR_ALIEN_ALLOYS, STR_ALIEN_GRENADE, STR_ALIEN_ALLOYS]
+#    researchList: [STR_LASER_RIFLE]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+
+#############################
+#### SUPPLY RUN EVENTS #####
+###########################
+
+  - name: STR_SUPPLY_SURPLUS_EVENT
+    description: STR_SUPPLY_SURPLUS_DESCRIPTION
+    background: SUPPLY_SURPLUS_EVENT_BACKGROUND
+#    regionList: [STR_NORTH_AMERICA, STR_EUROPE]
+#    city: true
+    points: 200
+#    funds: 100000000
+    everyItemList: [STR_MEDIKIT, STR_BANDAGES, STR_BANDAGES, STR_CANNED_BEEF, STR_CANNED_BEEF, STR_BISCUIT_BOX]
+    timer: 2300
+    timerRandom: 30000
+
+  - name: STR_FIELD_KITCHEN_EVENT
+    description: STR_FIELD_KITCHEN_DESCRIPTION
+    background: FIELD_KITCHEN_EVENT_BACKGROUND
+#    regionList: [STR_NORTH_AMERICA, STR_EUROPE]
+#    city: true
+    points: 200
+#    funds: 100000000
+    everyItemList: [STR_BREAD, STR_BREAD, STR_BREAD, STR_BREAD, STR_BREAD, STR_TEA_FLASK]
+    timer: 3600
+    timerRandom: 6000
+
+#############################
+##### DISASTER EVENTS ######
+###########################
+
+  - name: STR_FACTORY_MALFUNCTION_EVENT
+    description: STR_FACTORY_MALFUNCTION_DESCRIPTION
+    background: FACTORY_MALFUNCTION_EVENT_BACKGROUND
+##    music: 
+    regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    city: true
+    points: -350
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [XXX, YYY]
+#    interruptResearch: XXX
+    timer: 9000
+    timerRandom: 63500
+#    itemTriggers:
+#       STR_ITEM1: true
+#       STR_ITEM2: false
+
+  - name: STR_CIVILIAN_AIRSHIP_DOWN_EVENT
+    description: STR_CIVILIAN_AIRSHIP_DOWN_DESCRIPTION
+    background: CIVILIAN_AIRSHIP_DOWN_EVENT_BACKGROUND
+##    music: 
+    regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    city: true
+    points: -500
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [XXX, YYY]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+#    itemTriggers:
+#       STR_ITEM1: true
+#       STR_ITEM2: false
+
+  - name: STR_MILITARY_AIRSHIP_DOWN_EVENT
+    description: STR_MILITARY_AIRSHIP_DOWN_DESCRIPTION
+    background: MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND
+##    music: 
+    regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    points: -500
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [XXX, YYY]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+#    itemTriggers:
+#       STR_ITEM1: true
+#       STR_ITEM2: false
+
+extraSprites:
+##########################################
+############ BACKGROUNDS #################
+##########################################
+  - type: SUCCESSFUL_TROOP_ADVANCE_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/SUCCESSFUL_TROOP_ADVANCE_EVENT_BACKGROUND.PNG
+  - type: WAR_TROPHIES_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/WAR_TROPHIES_EVENT_BACKGROUND.PNG
+  - type: MECHANIZED_SKIRMISH_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/MECHANIZED_SKIRMISH_EVENT_BACKGROUND.PNG
+  - type: SUCCESSFUL_BOMBING_RUN_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/SUCCESSFUL_BOMBING_RUN_EVENT_BACKGROUND.PNG
+
+  - type: SUPPLY_SURPLUS_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/SUPPLY_SURPLUS_EVENT_BACKGROUND.PNG
+  - type: FIELD_KITCHEN_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/FIELD_KITCHEN_EVENT_BACKGROUND.PNG
+
+  - type: FACTORY_MALFUNCTION_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/FACTORY_MALFUNCTION_EVENT_BACKGROUND.PNG
+  - type: CIVILIAN_AIRSHIP_DOWN_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/CIVILIAN_AIRSHIP_DOWN_EVENT_BACKGROUND.PNG
+  - type: MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND.PNG
+
+extraStrings:
+   - type: en-US
+     strings:
+       STR_CIVILIAN_AIRSHIP_DOWN_EVENT: "Civilian airship shot down in {0}"
+       STR_CIVILIAN_AIRSHIP_DOWN_DESCRIPTION: "A civilian airship ferring passengers and supplies exploded in mysterious circumstances as it approached its destination in {0}. The human and material losses are substantial. The local government ordered increased escorts for civilian airships to avoid another tragedy."
+       STR_MILITARY_AIRSHIP_DOWN_EVENT: "Military airship shot down"
+       STR_MILITARY_AIRSHIP_DOWN_DESCRIPTION: "On a patrol near the front lines, a swarm of Martian Flying Machines ambushed an allied airship in {0}. Despite the valiant efforts of the crew, the airship could not resist any longer and was shot down. The Navy mourns the loss of the crew and the ship."
+       STR_FACTORY_MALFUNCTION_EVENT: "Factory disaster in {0}"
+       STR_FACTORY_MALFUNCTION_DESCRIPTION: "Local authority reports that an accident has occurred in a major industry in the region, paralyzing production for an undetermined time. The origins of the incident are unknown, although enemy agents are suspected."
+       STR_SUCCESSFUL_TROOP_ADVANCE_EVENT: "Troop advance on the front line"
+       STR_SUCCESSFUL_TROOP_ADVANCE_DESCRIPTION: "A new offensive in {0} has been launched in the enemy occupied sectors. Several casualties are reported among the allied units, but it is confirmed that the enemy retreated and abandoned the position. Reinforcements have been deployed to the position."
+       STR_WAR_TROPHIES_EVENT: "War trophies recovered"
+       STR_WAR_TROPHIES_DESCRIPTION: "After a successful skirmish in {0}, Allied troops have recovered the fragments of a Martian Machine, as a war trophy. The Allied High Command in the area has forwarded the finding to our base for study."
+       STR_MECHANIZED_SKIRMISH_EVENT: "Mechanized skirmish in {0}"
+       STR_MECHANIZED_SKIRMISH_DESCRIPTION: "Early this morning, a column of mechanized units consisting of tanks and infantry managed to ambush a group of Martian infantry, inflicting heavy casualties. There are reports of some wounded allies and few tank losses."
+       STR_SUCCESSFUL_BOMBING_RUN_EVENT: "Allied bomber successful!"
+       STR_SUCCESSFUL_BOMBING_RUN_DESCRIPTION: "Our heavy bombers, accompanied by fighter escorts, have devastated a key Martian Fortress for the enemy's war effort located at {0}. Light casualties are reported in the squadron in charge of the mission. It is hoped that this will help disable the Martian war effort in the region."
+       STR_SUPPLY_SURPLUS_EVENT: "Surplus supplies"
+       STR_SUPPLY_SURPLUS_DESCRIPTION: "A supply caravan advancing towards the front line has stopped at our base to refuel and has left us some surplus supplies. Our troops are grateful for the extra rations and medicine!"
+       STR_FIELD_KITCHEN_EVENT: "Field kitchen supplies us"
+       STR_FIELD_KITCHEN_DESCRIPTION: "An Allied battalion passing near our headquarters included a field kitchen. They stopped in front of our base and the field kitchen distributed freshly prepared food to our troops. There is no better boost to army morale than a hot meal."	   

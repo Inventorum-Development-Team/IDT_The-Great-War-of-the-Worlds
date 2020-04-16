@@ -1,0 +1,8 @@
+name: "The Great War of the Worlds - Tempesta d'Acciaio"
+version: "0.7.2 Mk III"
+author: "Andr, alinare, efrenespartano, Luke83, Noah183, The Reaver of Darkness, wolwerin + IDT"
+description: "Defend the planet from the Martians on this alternate WW1!"
+id: tgwotw
+master: xcom1
+reservedSpace: 3
+requiredExtendedVersion: "6.3.4"
