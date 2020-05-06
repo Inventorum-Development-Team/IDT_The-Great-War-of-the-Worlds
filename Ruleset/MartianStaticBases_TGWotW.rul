@@ -353,20 +353,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -377,19 +387,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -462,19 +483,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -523,20 +555,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -547,19 +594,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -642,26 +700,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -679,20 +752,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -703,19 +791,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -792,26 +891,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -829,20 +943,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -853,19 +982,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -948,26 +1088,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -985,20 +1140,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1009,19 +1179,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1110,20 +1291,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1134,19 +1330,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1229,26 +1436,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1266,20 +1488,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1290,19 +1527,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1390,20 +1638,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1414,19 +1677,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1509,26 +1783,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1540,26 +1829,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
