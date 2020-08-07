@@ -100,7 +100,7 @@ ufos:
     armor: 40
     shieldCapacity: 200
     shieldRecarge: 100
-    breakOffTime: 300
+    breakOffTime: 1000
     battlescapeTerrainData:
       name: P8_A
       mapDataSets:
