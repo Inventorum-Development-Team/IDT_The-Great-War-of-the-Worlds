@@ -1064,3 +1064,11 @@ extraSprites:
       2520: Resources/Tanks/bigob_MG18.png
       2521: Resources/Tanks/Bigob_MG18_Clip.png
 
+  - type: FERRET.PCK
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/FERRET.png
+
