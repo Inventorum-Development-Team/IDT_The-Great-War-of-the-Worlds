@@ -10,7 +10,7 @@ crafts:
 #################################
   - type: STR_MARCH
     sprite: 99
-    fuelMax: 9000 
+    fuelMax: 9000
     damageMax: 50
     speedMax: 80
     accel: 1
@@ -61,7 +61,7 @@ crafts:
 # 4 3 2
   - type: STR_MARCH_LARGE
     sprite: 100
-    fuelMax: 9000 
+    fuelMax: 9000
     damageMax: 50
     speedMax: 50
     accel: 1
@@ -186,7 +186,7 @@ crafts:
       - [4, 15, 0, 0]
       - [3, 16, 0, 0]
       - [4, 16, 0, 0]
-    listOrder: 800 
+    listOrder: 800
 ###################################
 ######### AIRCRAFT ###############
 #################################
@@ -203,7 +203,7 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 1
-    weaponTypes: 
+    weaponTypes:
       - 0
     weaponStrings:
       - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
@@ -216,8 +216,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -233,7 +233,7 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 1
-    weaponTypes: 
+    weaponTypes:
       - 0
     weaponStrings:
       - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
@@ -246,8 +246,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -266,9 +266,9 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 2
-    weaponTypes: 
+    weaponTypes:
       - 0
-      - [3, 4] 
+      - [3, 4]
     weaponStrings:
       - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
       - STR_CRAFT_ROCKET_TWO
@@ -281,8 +281,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -298,9 +298,9 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 2
-    weaponTypes: 
+    weaponTypes:
       - 0
-      - [3, 4] 
+      - [3, 4]
     weaponStrings:
       - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
       - STR_CRAFT_ROCKET_TWO
@@ -313,8 +313,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -330,9 +330,9 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 2
-    weaponTypes: 
+    weaponTypes:
       - 0
-      - [3, 4] 
+      - [3, 4]
     weaponStrings:
       - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
       - STR_CRAFT_FORWARD_MACHINE_GUN_TWO
@@ -345,8 +345,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -365,7 +365,7 @@ crafts:
     speedMax: 500
     accel: 2
     weapons: 4
-    weaponTypes: 
+    weaponTypes:
       - 1
       - 1
       - 5
@@ -384,8 +384,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -401,7 +401,7 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 2
-    weaponTypes: 
+    weaponTypes:
       - [0, 3]
       - 1
       - 5
@@ -418,8 +418,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -435,7 +435,7 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 4
-    weaponTypes: 
+    weaponTypes:
       - 1
       - 1
       - [1, 5]
@@ -454,8 +454,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -474,7 +474,7 @@ crafts:
     speedMax: 500
     accel: 2
     weapons: 3
-    weaponTypes: 
+    weaponTypes:
       - 4
       - [2, 3]
       - 3
@@ -491,8 +491,8 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
@@ -508,7 +508,7 @@ crafts:
     speedMax: 500
     accel: 3
     weapons: 3
-    weaponTypes: 
+    weaponTypes:
       - 4
       - 4
       - 2
@@ -527,14 +527,14 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    escortRange: 20
-    escortsJoinFightAgainstHK: true
+    # escortRange: 20
+    # escortsJoinFightAgainstHK: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
     score: 400
     listOrder: 850
-	
+
 #Airships
   - type: STR_C_CLASS_AIRSHIP
     sprite: 202
@@ -543,7 +543,7 @@ crafts:
     speedMax: 300
     accel: 1
     weapons: 4
-    weaponTypes: 
+    weaponTypes:
       - 2
       - 2
       - [3, 1]
@@ -585,26 +585,26 @@ crafts:
               - position: [3, 14, 6]
                 amount: 5
                 mixed: true
-                itemList: [STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_TURRET_INTERACTION_ITEM] 
+                itemList: [STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [4, 2, 6]
     deployment:
 # Frontal gondola
 # Captain's Helm
       - [4, 15, 6, 4]
 # Turret Gunners
-      - [5, 15, 6, 2] 
+      - [5, 15, 6, 2]
       - [3, 15, 6, 6]
 # Crew staff
-      - [4, 14, 6, 2] 
+      - [4, 14, 6, 2]
       - [5, 14, 6, 2]
       - [4, 13, 6, 2]
       - [5, 13, 6, 2]
 # Rear gondola
 # Passengers
       - [4, 3, 6, 2]
-      - [5, 3, 6, 2] 
+      - [5, 3, 6, 2]
       - [3, 3, 6, 2]
-      - [5, 4, 6, 2] 
+      - [5, 4, 6, 2]
       - [3, 4, 6, 2]
 # unit facing
 # 6 7 0
@@ -618,8 +618,8 @@ crafts:
     speedMax: 300
     accel: 1
     weapons: 4
-    weaponTypes: 
-      - [0, 1] 
+    weaponTypes:
+      - [0, 1]
       - [0, 1]
       - [0, 1]
       - [0, 1, 4, 5]
@@ -662,26 +662,26 @@ crafts:
               - position: [3, 14, 6]
                 amount: 5
                 mixed: true
-                itemList: [STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_TURRET_INTERACTION_ITEM] 
+                itemList: [STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [4, 2, 6]
     deployment:
 # Frontal gondola
 # Captain's Helm
       - [4, 15, 6, 4]
 # Turret Gunners
-      - [5, 15, 6, 2] 
+      - [5, 15, 6, 2]
       - [3, 15, 6, 6]
 # Crew staff
-      - [4, 14, 6, 2] 
+      - [4, 14, 6, 2]
       - [5, 14, 6, 2]
       - [4, 13, 6, 2]
       - [5, 13, 6, 2]
 # Rear gondola
 # Passengers
       - [4, 3, 6, 2]
-      - [5, 3, 6, 2] 
+      - [5, 3, 6, 2]
       - [3, 3, 6, 2]
-      - [5, 4, 6, 2] 
+      - [5, 4, 6, 2]
       - [3, 4, 6, 2]
 # unit facing
 # 6 7 0
@@ -701,7 +701,7 @@ craftWeapons:
 # weaponType 4 = Artillery (Naval guns, super powerful, low ammo, very low reload times)
 # weaponType 5 = Bombs (Free fall ordnance, close range, good damage)
 # weaponType 6 = Rockets (Rocket propelled projectiles, short range, very fast ROF)
-# weaponType 7 = Auxliary Systems (Fuel tanks, extra shields, etc) 
+# weaponType 7 = Auxliary Systems (Fuel tanks, extra shields, etc)
 #Forward Machine Gun
   - type: STR_VICKERS_MMG
     weaponType: 0
@@ -714,7 +714,7 @@ craftWeapons:
     reloadStandard: 4
     reloadAggressive: 3
     ammoMax: 250
-    rearmRate: 200
+    rearmRate: 250
     launcher: STR_VICKERS_MMG_LAUNCHER
     clip: STR_VICKERS_MMG_ROUNDS_X250
     projectileType: 2
@@ -731,13 +731,13 @@ craftWeapons:
     reloadStandard: 4
     reloadAggressive: 3
     ammoMax: 250
-    rearmRate: 200
+    rearmRate: 250
     launcher: STR_SPANDAU_HMG_LAUNCHER
     clip: STR_SPANDAU_HMG_ROUNDS_X250
     projectileType: 2
     projectileSpeed: 10
 
-#Defensive Machine Gun	
+#Defensive Machine Gun
   - type: STR_LEWIS_303_TURRET
     weaponType: 0
     sprite: 200
@@ -881,11 +881,12 @@ units:
     deathSound: 23
     energyRecovery: 0
     livingWeapon: true
-    zombiImmune: true
-    bleedImmune: true
-    stunImmune: true
-    painImmune: true
-    builtInWeapons:
+    # zombieImmune: true
+    # bleedImmune: true
+    # stunImmune: true
+    # painImmune: true
+    builtInWeaponSets:
+    -
       - STR_CONQUEROR_AUTOCANNON
     specab: 1
 armors:
@@ -905,7 +906,7 @@ armors:
     rearArmor: 130
     underArmor: 150
     size: 2
-    damageModifier: 
+    damageModifier:
       - 1.0 #0 None
       - 0.35 #1 Armor Piercing
       - 0.85 #2 Incendiary
@@ -928,7 +929,8 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
     drawingRoutine: 5
     allowsKneeling: false
-    allowsSprinting: false
+    # allowsSprinting: false
+
 items:
 #*** Vehicle turrets spawned on maps ***
   - type: STR_CONQUEROR_TURRET_SPAWNER
@@ -1196,9 +1198,9 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_FRAGMENTATION_BOMB_UFOPEDIA
     listOrder: 803
-extraSprites: 
+extraSprites:
 # "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
-# INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33	  
+# INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33
 # Craft Weapons: file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
   - type: BASEBITS.PCK
     files:
@@ -1212,7 +1214,7 @@ extraSprites:
       202: Resources/Crafts/RClassAirship_minimised.png
       211: Resources/Crafts/Conqueror_dogfight.png
       212: Resources/Crafts/Spad_dogfight.png
-      213: Resources/Crafts/RClassAirship_dogfight.png 
+      213: Resources/Crafts/RClassAirship_dogfight.png
 
 #Craft weapons
   - type: BASEBITS.PCK
@@ -1307,7 +1309,7 @@ extraStrings:
       STR_CONQUEROR_UFOPEDIA: LARGE LANDSHIP ADAPTED TO COMBAT IN DIFFICULT TERRAIN, WITH TROOP TRANSPORT CAPACITY. EQUIPPED WITH A 20MM AUTOMATIC CANNON TO PROVIDE FIRE SUPPORT TO THE INFANTRY
       STR_CONQUEROR_TURRET: 20mm Conqueror AC
       STR_SPAD: SPAD XIII
-      STR_SPAD_UFOPEDIA: NIMBLE BIPLANE AIRCRAFT, VERY POPULAR IN THE COALITION AIR FORCE. IT'S USED BY MANY FIGHTER ACES. IS RATHER SLOW, BUT CAN PERFORM ANY MISSION OF AIR SUPREMACY OR CLOSE AIR SUPPORT. 
+      STR_SPAD_UFOPEDIA: NIMBLE BIPLANE AIRCRAFT, VERY POPULAR IN THE COALITION AIR FORCE. IT'S USED BY MANY FIGHTER ACES. IS RATHER SLOW, BUT CAN PERFORM ANY MISSION OF AIR SUPREMACY OR CLOSE AIR SUPPORT.
       STR_R_CLASS_AIRSHIP: R-CLASS AIRSHIP
       STR_R_CLASS_AIRSHIP_UFOPEDIA: POWERFUL WAR AIRSHIP, THE LARGEST IN THE GERMAN NAVY. POSESES MULTIPLE TURRET HARDPOINTS, ADAPTABLE TO ANY MISSION. CAN CARRY A COMBINATION OF CANNONS AND MG.
       STR_TWIN_HMG: Twin HMG
@@ -1363,7 +1365,7 @@ extraStrings:
   - type: es
     strings:
       STR_CONQUEROR: CONQUEROR
-      STR_CONQUEROR_UFOPEDIA: EL PRIMER MODELO DE BUQUE TERRESTRE, DISEÑADO PARA TRANSPORTAR GRANDES CANTIDADES DE INFANTERÍA CON SEGURIDAD HASTA EL FRENTE DE BATALLA. POSEE UNA TORRETA ESPECIAL CAPAZ DE BRINDAR APOYO CERCANO EN BATALLA Y UN BLINDAJE MUY RESISTENTE QUE PUEDE DETENER ALGUNOS DISPAROS CALÓRICOS. 
+      STR_CONQUEROR_UFOPEDIA: EL PRIMER MODELO DE BUQUE TERRESTRE, DISEÑADO PARA TRANSPORTAR GRANDES CANTIDADES DE INFANTERÍA CON SEGURIDAD HASTA EL FRENTE DE BATALLA. POSEE UNA TORRETA ESPECIAL CAPAZ DE BRINDAR APOYO CERCANO EN BATALLA Y UN BLINDAJE MUY RESISTENTE QUE PUEDE DETENER ALGUNOS DISPAROS CALÓRICOS.
       STR_MARCH: MARCHA
       STR_MARCH_UFOPEDIA: EL MEJOR MÉTODO PARA TRANSPORTAR GRANDES CANTIDADES DE TROPAS A LA BATALLA ES MARCHANDO. LA FORMACIÓN ESTRECHA EN DOS FILAS AYUDA A MANTENER EL ORDEN. UNA UNIDAD MÁS PEQUEÑA ES MÁS RÁPIDA Y TIENE MEJORES CAPACIDADES DE RECONOCIMIENTO.
       STR_MARCH_LARGE: MARCHA LARGA
@@ -1374,7 +1376,7 @@ extraStrings:
       STR_AIRCO_DH2: AIRCO DH2
       STR_AIRCO_DH2_UFOPEDIA: LA RESPUESTA BRITÁNICA AL PROBLEMA DE DISPARAR HACIA EL FRENTE DEL AVIÓN FUE ESTE CURIOSO MODELO TIPO 'PUSHER', QUE TIENE LA HÉLICE Y EL MOTOR DETRÁS. ESTO PERMITE POSICIONAR UNA AMETRALLADORA FRONTAL SIN PELIGRO DE DAÑAR ALGUNA PIEZA MECÁNICA.
       STR_NIEUPORT_17: NIEUPORT 17
-      STR_NIEUPORT_17_UFOPEDIA: ÁGIL CAZA BIPLANO FRANCÉS, MUY POPULAR EN LA FUERZA AÉREA DE LA COALICIÓN. ES USADO POR MUCHOS ASES DE COMBATE. ES ALGO LENTO, PERO PUEDE REALIZAR CUALQUIER MISIÓN DE SUPERIORIDAD AÉREA O APOYO AÉREO CERCANO, EMPLEADO POR FRANCIA, EE.UU, ITALIA Y RUSIA. 
+      STR_NIEUPORT_17_UFOPEDIA: ÁGIL CAZA BIPLANO FRANCÉS, MUY POPULAR EN LA FUERZA AÉREA DE LA COALICIÓN. ES USADO POR MUCHOS ASES DE COMBATE. ES ALGO LENTO, PERO PUEDE REALIZAR CUALQUIER MISIÓN DE SUPERIORIDAD AÉREA O APOYO AÉREO CERCANO, EMPLEADO POR FRANCIA, EE.UU, ITALIA Y RUSIA.
       STR_SOPWITH_CAMEL: SOPWITH CAMEL
       STR_SOPWITH_CAMEL_UFOPEDIA: EL CAZA DE PRIMERA LÍNEA BRITÁNICO, ES EXTREMADAMENTE MANIOBRABLE DEBIDO A SU CONSTRUCCIÓN ROBUSTA, AUNQUE REQUIERE UN MANEJO ADECUADO Y CONSTANTE DEL TIMÓN DE DIRECCIÓN. EL FAVORITO DE LA COMMONWEALTH PARA DEFENDER LOS CIELOS ALIADOS.
       STR_ALBATROS_DIII: ALBATROS D-III
@@ -1385,10 +1387,10 @@ extraStrings:
       STR_HALBERSTADT_CLII: "HALBERSTADT CL.II"
       STR_HALBERSTADT_CLII_UFOPEDIA: AVIÓN DE ATAQUE A TIERRA Y ESCOLTA, ES EXCELENTE PARA ATACAR OBJETIVOS TERRESTRES. CUENTA CON CAÑONES AUTOMÁTICOS Y CON UN ARTILLERO PARA DEFENDER EL AVIÓN. CADA CL.II ESTÁ EQUIPADO CON BOMBAS, ALGUNOS INCLUSO LLEVAN GRANADAS DE MANO, EN CASO QUE SE QUEDEN SIN MUNICIÓN LAS ARMAS PRINCIPALES.
       STR_HANDLEY_PAGE_TYPE_O: HANDLEY-PAGE TYPE O
-      STR_HADNLEY_PAGE_TYPE_O_UFOPEDIA: EL MÁS GRANDE AVIÓN EN SERVICIO BRITÁNICO Y UNO DE LOS MÁS GRANDES DEL MUNDO, ES UN BOMBARDERO PESADO DE LARGO ALCANCE, PERFECTO PARA REALIZAR INCURSIONES TRAS LAS LÍNEAS ENEMIGAS. CUENTA CON VARIOS DEPÓSITOS PARA BOMBAS Y DIVERSAS POSICIONES PARA AMETRALLADORAS DEFENSIVAS. 
+      STR_HADNLEY_PAGE_TYPE_O_UFOPEDIA: EL MÁS GRANDE AVIÓN EN SERVICIO BRITÁNICO Y UNO DE LOS MÁS GRANDES DEL MUNDO, ES UN BOMBARDERO PESADO DE LARGO ALCANCE, PERFECTO PARA REALIZAR INCURSIONES TRAS LAS LÍNEAS ENEMIGAS. CUENTA CON VARIOS DEPÓSITOS PARA BOMBAS Y DIVERSAS POSICIONES PARA AMETRALLADORAS DEFENSIVAS.
 #
       STR_LCLASS_DESTROYER: DESTRUCTOR CLASE-L
-      STR_LCLASS_DESTROYER_UFOPEDIA: ESTE DESTRUCTOR CUMPLE UNA VARIEDAD DE ROLES, DESDE DEFENSA AA HASTA ESCOLTA DE BUQUES MÁS GRANDES. SE EMPLEA CON REGULARIDAD PARA VIGILAR LAS COSTAS O PARA APOYAR A LA INFANTERÍA CON BOMBARDEO COSTERO. SUS ARMAS SON PERFECTAS PARA DERRIBAR AERONAVES ENEMIGAS. 
+      STR_LCLASS_DESTROYER_UFOPEDIA: ESTE DESTRUCTOR CUMPLE UNA VARIEDAD DE ROLES, DESDE DEFENSA AA HASTA ESCOLTA DE BUQUES MÁS GRANDES. SE EMPLEA CON REGULARIDAD PARA VIGILAR LAS COSTAS O PARA APOYAR A LA INFANTERÍA CON BOMBARDEO COSTERO. SUS ARMAS SON PERFECTAS PARA DERRIBAR AERONAVES ENEMIGAS.
       STR_WINDSTORM_CLASS_DESTROYER: DESTRUCTOR CLASE-WINDSTORM
       STR_WINDSTORM_CLASS_DESTROYER_UFOPEDIA: MODERNO DESTRUCTOR DE DESARROLLO BRITÁNICO. TIENE MEJOR BLINDAJE Y CUENTA CON UNA TORRETA EXTRA PARA EQUIPAR MÁS ARMAS DEFENSIVAS U OFENSIVAS. ES EXCELENTE PARA PATRULLAR TANTO EN MAR PROFUNDO COMO CERCA DE LA COSTA Y SU VELOCIDAD Y TAMAÑO LO HACEN ÁGIL EN COMBATE.
 #
@@ -1409,9 +1411,9 @@ extraStrings:
       STR_SPANDAU_HMG_UFOPEDIA: AMETRALLADORAS PESADAS DOBLES SPANDAU IMG-08 REFRIGERADAS POR AIRE, POSEEN UNA GRAN CADENCIA DE FUEGO, AUNQUE SU MUNICIÓN SEA DE CALIBRE RELATIVAMENTE MEDIO, UTILIZA BALAS K-MM PERFORANTES. COMBINANDO ESTAS NUEVAS BALAS CON UNA ALTA CADENCIA DE FUEGO, BRIDA UNA EFICAZ ARMA PARA DERRIBAR MÁQUINAS MARCIANAS LIGERAS. EL USO DE DOS ARMAS DISPARADAS AL MISMO TIEMPO INCREMENTA EL VOLUMEN DE FUEGO.
       STR_SPANDAU_HMG_LAUNCHER: Ametralladoras Spandau
       STR_SPANDAU_HMG_ROUNDS_X250: Cartuchos de Ametralladoras Spandau (x250)
-      STR_BECKER_2CM_CANNON: Cañón M2 Becker de 2cm 
-      STR_BECKER_2CM_CANNON_UFOPEDIA: CAÑÓN AUTOMÁTICO DISEÑADO EN ALEMANIA, EMPLEA CARGADORES CURVOS DE 15 PROYECTILES CADA UNO. SU USO PRINCIPAL ES COMO ARMA OFENSIVA EN AVIONES DE ATAQUE AL SUELO Y POSICIONES ESTÁTICAS, PUEDE SER FÁCILMENTE OPERADO POR UN ARTILLERO. SU MAYOR DESVENTAJA ES LA POCA CANTIDAD DE MUNICIÓN POR CARGADOR, QUE IMPLICA RECARGAR CONSTANTEMENTE NUEVA MUNICIÓN EN COMBATES INTENSOS. 
-      STR_BECKER_2CM_CANNON_LAUNCHER: Cañón M2 Becker de 2cm 
+      STR_BECKER_2CM_CANNON: Cañón M2 Becker de 2cm
+      STR_BECKER_2CM_CANNON_UFOPEDIA: CAÑÓN AUTOMÁTICO DISEÑADO EN ALEMANIA, EMPLEA CARGADORES CURVOS DE 15 PROYECTILES CADA UNO. SU USO PRINCIPAL ES COMO ARMA OFENSIVA EN AVIONES DE ATAQUE AL SUELO Y POSICIONES ESTÁTICAS, PUEDE SER FÁCILMENTE OPERADO POR UN ARTILLERO. SU MAYOR DESVENTAJA ES LA POCA CANTIDAD DE MUNICIÓN POR CARGADOR, QUE IMPLICA RECARGAR CONSTANTEMENTE NUEVA MUNICIÓN EN COMBATES INTENSOS.
+      STR_BECKER_2CM_CANNON_LAUNCHER: Cañón M2 Becker de 2cm
       STR_BECKER_2CM_CANNON_ROUNDS_X15: Cartuchos de M2 Becker de 2cm (x15)
       STR_QF_1_PDR_POMPOM: QF de 1 libra 'Pom Pom'
       STR_QF_1_PDR_POMPOM_UFOPEDIA: CONFIABLE ARMA ANTIAÉREA, PUEDE ENCONTRARSE MONTADA EN TODAS PARTES, DESDE EMPLAZAMIENTOS FIJOS HASTA AVIONES Y BUQUES DE GUERRA. DISPARA RONDAS ESPECIALES DE FRAGMENTACIÓN. SE APODA 'POM POM' POR EL SONIDO QUE HACE AL DISPARAR.
@@ -1422,7 +1424,7 @@ extraStrings:
       STR_QF_6_PDR_57MM_CANNON_LAUNCHER: QF de 6 libras
       STR_QF_6_PDR_57MM_CANNON_X30: Obuses de QF de 6 libras (x30)
       STR_QF_4_INCH_DOUBLE_CANNON: QF de 4 pulgadas
-      STR_QF_4_INCH_DOUBLE_CANNON_UFOPEDIA: UN PODEROSO CAÑÓN NAVAL DE DOBLE PROPÓSITO, PUEDE SER EMPLEADO PARA BOMBARDERO COSTERO, COMBATE CONTRA OTRAS NAVES Y COMO BATERÍA ANTIAÉREA. LOS MODELOS MÁS RECIENTES INCLUYEN UN MONTAJE DOBLE PARA MAXIMIZAR EL DAÑO INFLINGIDO, AUNQUE ESTO INCREMENTA EL TIEMPO DE RECARGA ENTRE RONDA Y RONDA.  
+      STR_QF_4_INCH_DOUBLE_CANNON_UFOPEDIA: UN PODEROSO CAÑÓN NAVAL DE DOBLE PROPÓSITO, PUEDE SER EMPLEADO PARA BOMBARDERO COSTERO, COMBATE CONTRA OTRAS NAVES Y COMO BATERÍA ANTIAÉREA. LOS MODELOS MÁS RECIENTES INCLUYEN UN MONTAJE DOBLE PARA MAXIMIZAR EL DAÑO INFLINGIDO, AUNQUE ESTO INCREMENTA EL TIEMPO DE RECARGA ENTRE RONDA Y RONDA.
       STR_QF_4_INCH_DOUBLE_CANNON_LAUNCHER: QF de 4 pulgadas
       STR_QF_4_INCH_DOUBLE_CANNON_X30: Obuses de QF de 4 pulgadas (x15)
 

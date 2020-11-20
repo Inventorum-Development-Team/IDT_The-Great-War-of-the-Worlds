@@ -32,16 +32,16 @@
       STR_GERMAN_GASMASK_UC: GERMAN ARMY GAS MASK
       STR_GERMAN_GASMASK_UC_UFOPEDIA: La máscara antigás Lederschutzmaske M1914 (máscara de protección de cuero) es probablemente uno de los mejores diseños hasta la fecha. Entró en acción poco antes de la última ofensiva marciana en la Marne y ha sido empleada por numerosos soldados y civiles por igual, de muchas naciones. Protege bien de los gases tóxicos, aunque obstruye la vista y ensordece al soldado.
       STR_GERMAN_TRENCH_COAT_UNIFORM_UC: GABARDINA DEL EJÉRCITO ALEMÁN
-      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: La gabardina fabricada con lana empleada por el Ejército Alemán está pensada para mantener caliente a las tropas en el frente. No posee ningún bolsillo adicional, por lo que se emplea junto a un cinturón y una mochila. Este uniforme incluye el tradicional Pickelhaube adornado con el águila imperial alemana. Aunque no posee ninguna protección, es usado con orgullo por las tropas del Káiser. 
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: La gabardina fabricada con lana empleada por el Ejército Alemán está pensada para mantener caliente a las tropas en el frente. No posee ningún bolsillo adicional, por lo que se emplea junto a un cinturón y una mochila. Este uniforme incluye el tradicional Pickelhaube adornado con el águila imperial alemana. Aunque no posee ninguna protección, es usado con orgullo por las tropas del Káiser.
 
 #**************************************
 # Italian_Soldiers_TGWotW
-#**************************************	  
+#**************************************
       STR_ITALIAN_SOLDIER: Soldado Italiano
       STR_ITALIAN_SOLDIER_INTRODUCTION: Los Osados
-      STR_ITALIAN_SOLDIER_UFOPEDIA: Italia, hasta el comienzo de la Gran Guerra, se ha caracterizado por ser un país predominantemente agrícola y pacífico. Con la llegada de los marcianos y la subsiguiente invasión de Europa, el ejército italiano ha sido movilizado. A pesar de estar menos equipado y ser más pequeño que otros ejércitos, está más que compensado por la incesante tenacidad y coraje de los soldados italianos, que se destacan por su ingenio en la creación de armaduras personales. 
+      STR_ITALIAN_SOLDIER_UFOPEDIA: Italia, hasta el comienzo de la Gran Guerra, se ha caracterizado por ser un país predominantemente agrícola y pacífico. Con la llegada de los marcianos y la subsiguiente invasión de Europa, el ejército italiano ha sido movilizado. A pesar de estar menos equipado y ser más pequeño que otros ejércitos, está más que compensado por la incesante tenacidad y coraje de los soldados italianos, que se destacan por su ingenio en la creación de armaduras personales.
       STR_ITALIAN_FIELD_UNIFORM_UC: UNIFORME DEL EJÉRCITO ITALIANO
-      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: El uniforme 'Grigio Verde' usado por las tropas italianas se ha usado desde 1905 en el Regio Esercito. Presentado por Luigi Brioschi, presidente del Club Alpino Italiano, se caracteriza por su color gris verdoso, que le permite mezclarse mejor con los ambientes forestales. Incluye un casco Adrian de origen francés para proteger la cabeza. La mayoría de los soldados tienen experiencia en la guerra de montañas y bosques. 
+      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: El uniforme 'Grigio Verde' usado por las tropas italianas se ha usado desde 1905 en el Regio Esercito. Presentado por Luigi Brioschi, presidente del Club Alpino Italiano, se caracteriza por su color gris verdoso, que le permite mezclarse mejor con los ambientes forestales. Incluye un casco Adrian de origen francés para proteger la cabeza. La mayoría de los soldados tienen experiencia en la guerra de montañas y bosques.
       STR_ITALIAN_ALPINI_UNIFORM_UC: UNIFORME ALPINO ITALIANO
       STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA: Este uniforme de campaña 'Grigio Verde' es acompañado con el Cappello Alpino, usado con orgullo por los Alpini, las tropas de montaña Italianas. Su pluma de cuervo negro les da su apodo, 'Penne nere'.  Las tropas Alpini son expertas en combate en climas inhóspitos donde otros soldados no podrían ni siquiera moverse.
 
@@ -59,7 +59,7 @@
       STR_TURRET_GUIDE: ¿Cómo desplegar una torreta?
       STR_TURRET_GUIDE_UFOPEDIA: Atención, soldado. Preparar una torreta puede ser difícil al principio. Para usar, necesitas arrodillarte frente al arma y hacer un ataque melee (usando la mano desnuda, sin sostener un arma). Esto es una vez por turno. Para desmontar la torreta, necesitas usar la Llave para Torretas y hacer un ataque melee. Puedes cargarla y ponerla en otra posición. Para volver a activarla, debes usar el ataque ENSAMBLAR usando la Llave para Torretas.
 #
-      STR_LEWIS_MG_TURRET: "Torreta Lewis"
+      # STR_LEWIS_MG_TURRET: "Torreta Lewis"
       STR_LEWIS_MG_TURRET_UFOPEDIA: "Emplazamiento fijo usable {NEWLINE} Ametralladora pesada refrigerada por agua, útil para proporcionar apoyo de fuego supresor a las tropas que avanzan. Su montaje fijo permite mantener un fuego continuo sin afectar considerablemente a su precisión."
       STR_LEWIS_MG: "Ametralladora Lewis calibre .303 British"
       STR_LEWIS_MG_DRUM: "Tambor de ametralladora Lewis"
@@ -68,14 +68,14 @@
       STR_TGEWEHR_TURRET_UFOPEDIA: "Emplazamiento fijo usable {NEWLINE}  Pesado, poderoso, difícil de manejar. Se dice que un soldado puede hacer dos disparos con esta arma, uno por cada hombro. Aniquila objetivos ligeramente blindados con poderosos cartuchos de TuF de 13.5mm."
       STR_TGEWEHR: "T-Gewehr 13.5mm TuF"
       STR_TGEWEHR_ROUND: "T-Gewehr Round"
-      STR_LEWIS_MG_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
+      # STR_LEWIS_MG_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
 #
       STR_TURRET_INTERACTION_ITEM: "Llave para torretas"
       STR_ASSEMBLE_TURRET: "Ensamblar"
       STR_DISASSEMBLE_TURRET: "Desmontar"
       STR_LEWIS_MG_TURRET: "Torreta Ametralladora Lewis"
       STR_LEWIS_MG_TURRET_ARMOR: "Emplazamiento fijo"
-#	
+#
 
 #**************************************
 # cutscenes_TGWotW
@@ -144,15 +144,15 @@
       STR_MUTANTTRITURATOR_AUTOPSY: Mutant Crusher Autopsy
       MUTANTTRITURATOR_CORPSE_1: Mutant Crusher Corpse
       STR_MUTANTTRITURATOR_TERRORIST_EXTRACTION: Mutant Crusher Extraction
-      STR_TRIFFID: "Triffid"
-      STR_TRIFFID_SPECIMEN_UFOP: "Their name, coined by one of our soldiers from a horror movie, the Triffid, something from our worst nightmares.{NEWLINE}{NEWLINE}A sentient and mobile hostile plant based life form with a deadly apetite. The Triffids, were planted in the zones of Biomass, to act like guardians of the same one. Its development was very fast, reproducing by spores. Fortunately, these monsters do not survive outside the few areas of Biomass that still survive, otherwise they would have ended with all life on Earth..{NEWLINE}{NEWLINE}The species seems to come in two varieties one that has deadly corrosive projectiles and another which uses its horrifying jaws to eat through armor."
-      STR_TRIFFID_AUTOPSY: "Triffid Autopsy"
-      STR_TRIFFID_AUTOPSY_UFOP: "The autopsy shows that regardless of the variant of the Triffid, their biology is similar, however it would seem that this is not a naturally evolved life-form and has been the subject of extreme mutagenics.{NEWLINE}{NEWLINE}The sensory system is entirely based on sound and we believe uses different forms of clicking noises.{NEWLINE}{NEWLINE}Like most oranic flora it is extremely weak to incendiary based weaponry.{NEWLINE}{NEWLINE}The corrosive glands may provide us another weapon to use against other alien life-forms and should be researched further."
+      # STR_TRIFFID: "Triffid"
+      # STR_TRIFFID_SPECIMEN_UFOP: "Their name, coined by one of our soldiers from a horror movie, the Triffid, something from our worst nightmares.{NEWLINE}{NEWLINE}A sentient and mobile hostile plant based life form with a deadly apetite. The Triffids, were planted in the zones of Biomass, to act like guardians of the same one. Its development was very fast, reproducing by spores. Fortunately, these monsters do not survive outside the few areas of Biomass that still survive, otherwise they would have ended with all life on Earth..{NEWLINE}{NEWLINE}The species seems to come in two varieties one that has deadly corrosive projectiles and another which uses its horrifying jaws to eat through armor."
+      # STR_TRIFFID_AUTOPSY: "Triffid Autopsy"
+      # STR_TRIFFID_AUTOPSY_UFOP: "The autopsy shows that regardless of the variant of the Triffid, their biology is similar, however it would seem that this is not a naturally evolved life-form and has been the subject of extreme mutagenics.{NEWLINE}{NEWLINE}The sensory system is entirely based on sound and we believe uses different forms of clicking noises.{NEWLINE}{NEWLINE}Like most oranic flora it is extremely weak to incendiary based weaponry.{NEWLINE}{NEWLINE}The corrosive glands may provide us another weapon to use against other alien life-forms and should be researched further."
       STR_TRIFFIDA_CORPSE: "Triffid Spit Acid Corpse"
       STR_TRIFFIDA: "Triffid Spit Acid"
       STR_TRIFFIDB: "Triffid Melee"
       STR_TRIFFID: "Triffid"
-      STR_TRIFFIDB: "Triffid"
+      # STR_TRIFFIDB: "Triffid"
       STR_TRIFFID_SPECIMEN_UFOP: "Their name, coined by one of our soldiers from a horror movie, the Triffid, something from our worst nightmares.{NEWLINE}{NEWLINE}A sentient and mobile hostile plant based life form with a deadly apetite. The Trifidds, were planted in the zones of Biomass, to act like guardians of the same one. Its development was very fast, reproducing by spores. Fortunately, these monsters do not survive outside the few areas of Biomass that still survive, otherwise they would have ended with all life on Earth.{NEWLINE}{NEWLINE}The species seems to come in two varieties one that has deadly corrosive projectiles and another which uses its horrifying jaws to eat through armor."
       STR_TRIFFID_AUTOPSY: "Triffid Autopsy"
       STR_TRIFFID_AUTOPSY_UFOP: "The autopsy shows that regardless of the variant of the Triffid, their biology is similar, however it would seem that this is not a naturally evolved life-form and has been the subject of extreme mutagenics.{NEWLINE}{NEWLINE}The sensory system is entirely based on sound and we believe uses different forms of clicking noises.{NEWLINE}{NEWLINE}Like most oranic flora it is extremely weak to incendiary based weaponry.{NEWLINE}{NEWLINE}The corrosive glands may provide us another weapon to use against other alien life-forms and should be researched further."
@@ -179,14 +179,14 @@
 #**************************************
 # GunpowderWeapons_TGWotW
 #**************************************
-      STR_WEBLEY_REVOLVER: Revólver Webley Mk VI 
-      STR_WEBLEY_REVOLVER_CLIP: Cargador de Revólver Webley Mk VI 
+      STR_WEBLEY_REVOLVER: Revólver Webley Mk VI
+      STR_WEBLEY_REVOLVER_CLIP: Cargador de Revólver Webley Mk VI
       STR_WEBLEY_REVOLVER_UFOPEDIA: Revólver moderno, su sistema de gas le da una muy alta cadencia de fuego. Algo delicado de cuidar, pero los soldados británicos le confían su vida. Si mantienes el dedo en el gatillo, puedes disparar las 6 balas en rápida sucesión. Se recarga empleando un cargador rápido 'speedloader' que coloca los 6 cartuchos al mismo tiempo en el tambor del arma.
       STR_SMLE_MKIII: SMLE Mk III
-      STR_SMLE_MKIII_CLIP: Cargador de SMLE Mk III 
+      STR_SMLE_MKIII_CLIP: Cargador de SMLE Mk III
       STR_SMLE_MKIII_UFOPEDIA: La iteración más reciente del rifle Lee-Enfield calibre .303 British. Es el rifle de cerrojo más rápido del mundo y probablemente el mejor, un experto tirador puede disparar tan rápido como una ametralladora. Se recarga empleando dos peines con 5 balas cada uno. Su mira de hierro resulta cómoda y precisa para disparos a largo alcance.
-      STR_FARQHUAR_HILL: Fusil Semiautomático Farqhuar-Hill 
-      STR_FARQHUAR_HILL_CLIP: Cargador de Farqhuar-Hill 
+      STR_FARQHUAR_HILL: Fusil Semiautomático Farqhuar-Hill
+      STR_FARQHUAR_HILL_CLIP: Cargador de Farqhuar-Hill
       STR_FARQHUAR_HILL_UFOPEDIA: Rifle de carga semiautomática de última generación. El cargador de tambor le permite transportar el doble de munición. Tiene una gran velocidad de fuego, aunque mucho retroceso e imprecisión en largas distancias, se recomienda disparar en ráfagas cortas. Usa balas K-MM calibre .303 British.
       STR_HUOT_LMG: Fusil Automático Huot
       STR_HUOT_LMG_DRUM: Tambor de Fusil Automático Huot
@@ -194,11 +194,11 @@
       STR_M1911_COLT: M1911 Colt
       STR_M1911_COLT_CLIP: Cargador de M1911 Colt
       STR_M1911_COLT_UFOPEDIA: Pistola icónica americana. Motivados para reemplazar los revólveres en servicio con las fuerzas armadas, esta novedosa pistola diseñada por John M. Browning emplea el poderoso cartucho .45 ACP de alto poder de parada, similar al usado por los revólveres del Viejo Oeste. Su diseño robusto redituó en un arma semiautomática, confiable y muy resistente.
-      STR_SPRINGFIELD: M1903 Springfield con bayoneta 
-      STR_SPRINGFIELD_CLIP: Peine de M1903 Springfield 
+      STR_SPRINGFIELD: M1903 Springfield con bayoneta
+      STR_SPRINGFIELD_CLIP: Peine de M1903 Springfield
       STR_SPRINGFIELD_UFOPEDIA: Fusil de cerrojo de diseño americano calibre .30-06, basado en el mecanismo de cerrojo del Mauser Gewehr 98 alemán. Reemplazó al viejo fusil Krag y es suministrado en masa a tropas del US Army, así como guerrilleros en Brasil y La Patagonia. Tiene equipada una bayoneta para combate cercano.
       STR_BAR: BAR
-      STR_BAR_CLIP: Cargador de BAR 
+      STR_BAR_CLIP: Cargador de BAR
       STR_BAR_UFOPEDIA: Rifle Automático Browning, la más reciente incorporación al arsenal americano. El As bajo la manga del Ejército de Estados Unidos, el proyecto era secreto hasta su despliegue masivo. Este fusil automático fue diseñado para disparar desde la cadera o desde el hombro, brindando grandes cantidades de fuego al momento de asaltar una posición enemiga, pero no para mantener una taza de fuego sostenido por mucho tiempo. Cuenta con un bípode para mejorar su estabilidad, se despliega al hincarse el artillero. Usa balas K-MM del calibre .30-06.
       STR_TRENCH_GUN: Escopeta de Trinchera
       STR_TRENCH_GUN_SHELLS: Perdigones de Escopeta de Trinchera
@@ -207,22 +207,22 @@
       STR_MONDRAGON_CLIP: Cargador de Mondragón
       STR_MONDRAGON_UFOPEDIA: Rifle semiautomático de diseño mexicano, el primero en ser suministrado a las tropas de un ejército regular, ampliamente utilizado por los regimientos mexicanos del Ejército de los Estados Unidos y la guerrilla de Pancho Villa, aunque también es producido bajo licencia por la firma suiza SIG. Equipado con una bayoneta de Entropium para CQC. Los Mondragón americanos usan balas K-MM del calibre .30-06 y las suizas, a petición alemana, 7.92x57mm Mauser.
       STR_GEWEHR98: Gewehr 98 con mira
-      STR_GEWEHR98_CLIP: Peine de Gewehr 98 
+      STR_GEWEHR98_CLIP: Peine de Gewehr 98
       STR_GEWEHR98_UFOPEDIA: Rifle de cerrojo muy fiable, ha visto combates en todo el mundo, desde la estepa china hasta los desiertos mexicanos. Dispara munición de 7.92x57mm. Siguiendo la tradición de los francotiradores bávaros de finales del siglo XVII, todos los rifles Gewehr 98 están equipados con miras telescópicas fabricadas por Zeiss que permiten el tiro a larga distancia.
       STR_MAUSER: Mauser C96
       STR_MAUSER_CLIP: Peine de Mauser C96
       STR_MAUSER_UFOPEDIA: La pistola C96, construida por Mauser, fue el primer modelo de pistola semiautomática verdaderamente exitoso. Casi todos los civiles y las fuerzas policiales de Europa occidental lo utilizan, por ser considerado muy fiable. Es alimentado por peines extraíbles con balas calibradas en 7,63 mm.
       STR_MG0815: Ametralladora MG-08/15
-      STR_MG0815_DRUM: Tambor de MG-08/15 
+      STR_MG0815_DRUM: Tambor de MG-08/15
       STR_MG0815_UFOPEDIA: Ametralladora pesada alemana, eficaz tanto montada sobre bípodes como en vehículos. Ha sido adaptado para su uso por la infantería, aunque el peso lo hace inexacto si el soldado no está arrodillado en el momento del disparo con el bípode desplegado. Tiene una cadencia de tiro muy alta, gracias a su mecanismo de disparo y a sus cargadores de tambor con gran cantidad de balas. Utiliza balas K-MM de 7,92 mm
       STR_SELBSTLADER_M1916: Selbstlader M1915 con mira
       STR_SELBSTLADER_M1916_CLIP: Cargador de Selbstlader M1915
       STR_SELBSTLADER_M1916_UFOPEDIA: Palabra alemana para 'Autocargador', el modelo más refinado de los rifles semiautomáticos diseñados por Mauser, este arma utiliza un cargador de gran capacidad y gran precisión a medio y largo alcance, pero con una tasa de disparo muy baja y un retroceso considerable. Equipado con una mira Warner & Swasey M1913 Telescopic Musket Scope que permite apuntar con precisión, hacen que este rifle sea terrible en combate cercano, pero excelente para disparar a una distancia segura. Dispara balas K-MM calibre 7.92x57mm Mauser.
       STR_LEBEL: Lebel M1886 con bayoneta
-      STR_LEBEL_CLIP: Peine de Lebel M1886 
+      STR_LEBEL_CLIP: Peine de Lebel M1886
       STR_LEBEL_UFOPEDIA: El rifle modelo de 1886, o rifle Lebel, es ampliamente utilizado como un rifle de infantería. El rifle de calibre 8mm puede contener 8 cartuchos en un cargador interno tubular, lo que hace que recargarlo sea lento. Introdujo la modernidad en el mundo de las armas portátiles sustituyendo por primera vez la pólvora negra por pólvora sin humo a base de nitrocelulosa y balas de plomo totalmente recubiertas de níquel plata.
-      STR_CHAUCHAT_LMG: Ametralladora CSRG Chauchat 
-      STR_CHAUCHAT_LMG_CLIP: Cargador de CSRG Chauchat 
+      STR_CHAUCHAT_LMG: Ametralladora CSRG Chauchat
+      STR_CHAUCHAT_LMG_CLIP: Cargador de CSRG Chauchat
       STR_CHAUCHAT_LMG_UFOPEDIA: La ametralladora Chauchat es el nombre común de la ametralladora Mle 1912 CSRG. Fue comisionado para la infantería francesa en 1912 y también fue ampliamente utilizado por el ejército americano en 1913. Es un arma ligera, de peso y tamaño limitado, el FM Chauchat aumentó significativamente la densidad de fuego de la infantería ofensiva.
       STR_RIBEYROLLES: Carabina Automática Ribeyrolles
       STR_RIBEYROLLES_CLIP: Cargador de Ribeyrolles
@@ -231,62 +231,62 @@
       STR_RSC17_CLIP: Cargador de RSC14
       STR_RSC17_UFOPEDIA: El Rifle Modelo 1914 (también llamado RSC M1914 - para Ribeyrolles, Sutter y Chauchat, los diseñadores del arma). El 1 de abril de 1914 se lanza finalmente la producción de la FA RSC 1914 y el arma es enviada al frente a razón de 16 por compañía, asignada en prioridad a los buenos tiradores. Se eligen cuidadosamente porque el arma es caprichosa y es necesario que los hombres cuiden su arma para limitar los problemas.
       STR_MOSIN_NAGANT:
-      STR_MOSIN_NAGANT_CLIP: 
+      STR_MOSIN_NAGANT_CLIP:
       STR_MOSIN_NAGANT_UFOPEDIA: ...
-      STR_OBREZ: 
-      STR_OBREZ_CLIP: 
+      STR_OBREZ:
+      STR_OBREZ_CLIP:
       STR_OBREZ_UFOPEDIA: ...
-      STR_FEDOROV_AVTOMAT: 
-      STR_FEDOROV_AVTOMAT_CLIP: 
+      STR_FEDOROV_AVTOMAT:
+      STR_FEDOROV_AVTOMAT_CLIP:
       STR_FEDOROV_AVTOMAT_UFOPEDIA: ...
-      STR_SMG0818: 
-      STR_SMG0818_CLIP: 
+      STR_SMG0818:
+      STR_SMG0818_CLIP:
       STR_SMG0818_UFOPEDIA: ...
-      STR_WINCHESTER_1915: 
-      STR_WINCHESTER_1915_CLIP: 
+      STR_WINCHESTER_1915:
+      STR_WINCHESTER_1915_CLIP:
       STR_WINCHESTER_1915_UFOPEDIA: ...
-      STR_COSSACK_SABRE: 
+      STR_COSSACK_SABRE:
       STR_COSSACK_SABRE_UFOPEDIA: ...
-      STR_COSSACK_LANCE: 
+      STR_COSSACK_LANCE:
       STR_COSSACK_LANCE_UFOPEDIA: ...
       STR_RAPID_FIRE: Fuego rápido
       STR_BURST: Ráfaga
-      STR_CARCANO_M91_CARBINE: Carabina Carcano M91 
+      STR_CARCANO_M91_CARBINE: Carabina Carcano M91
       STR_CARCANO_M91_CARBINE_CLIP: Peine de Carcano M91
       STR_CARCANO_M91_CARBINE_UFOPEDIA: Versión especial del rifle Carcano, diseñado para la Caballería. Diseñado en 1890 por el equipo dirigido por el ingeniero del ejército Salvatore Carcano. Calibrado en el cartucho de 6,5x52 mm, no tiene mucho poder de detención ni un alcance particularmente largo, pero es un rifle estable y puede disparar más rápido que la mayoría de los fusiles de cerrjo. Se recomienda su uso a medio alcance, aunque también es ideal para el combate cuerpo a cuerpo. Tiene una bayoneta plegable integrada que se despliega cuando es necesario. Es muy apreciado por su tamaño corto y su peso ligero.
       STR_BERETTA_MAB18: Beretta MAB14
       STR_BERETTA_MAB18_CLIP: Cargador de Beretta MAB14
       STR_BERETTA_MAB18_UFOPEDIA: El primer subfusil que entró en servicio en el Ejército Real Italiano y probablemente el primero en ser usado en masa por una fuerza militar, el Moschetto Automatico Beretta Modello 1914 tiene una impresionante velocidad de disparo de 900 RPM, capaz de vaciar su cargador Glisenti de 9mm de 25 rondas en un abrir y cerrar de ojos. Su mayor problema es su mayor ventaja, ya que la alta tasa la convierte en un arma muy imprecisa. Además, pierde rápidamente la potencia de parada, por lo que se recomienda su uso para disparos a quemarropa a corta distancia. Incluye una bayoneta plegable.
       STR_CEI_RIGOTTI: Fusil Cei-Rigotti
-      STR_CEI_RIGOTTI_CLIP: Peines de Cei-Rigotti 
+      STR_CEI_RIGOTTI_CLIP: Peines de Cei-Rigotti
       STR_CEI_RIGOTTI_UFOPEDIA: Rifle semiautomático de origen italiano diseñado por el Mayor Cei-Rigotti a finales del siglo XIX. Físicamente es similar al Carcano estándar del Regio Esercito aunque internamente es considerablemente diferente. Tiene la peculiar opción de fuego selectivo, que permite seleccionar entre los modos de fuego semiautomático y automático completo. Tiene un cargador fijo y se recarga con peines de 5 balas cada una, calibre 6.5 Carcano K-MM. Su rendimiento no es muy efectivo a largas distancias, aunque su precisión es más que adecuada en el combate de medio alcance.
-      STR_VILLAR_PEROSA: Villar-Perosa 
+      STR_VILLAR_PEROSA: Villar-Perosa
       STR_VILLAR_PEROSA_CLIP: Cargadores de Villar-Perosa
       STR_VILLAR_PEROSA_UFOPEDIA: Ametralladora formada por la unión de dos Berettas MAB14 y la modificación del mecanismo de disparo para operar ambas al mismo tiempo. Este fue el propósito original del arma, de hecho. Se añadió una empuñadura de pistola y una empuñadura delantera para maximizar el manejo del arma. Tiene una velocidad de disparo casi doblada por los dos cañones de las MAB14, pero una precisión considerablemente menor que se compensa en cierta medida por la gran cantidad de munición transportada.
-      STR_GEWEHR_M95: 
-      STR_GEWEHR_M95_CLIP: 
+      STR_GEWEHR_M95:
+      STR_GEWEHR_M95_CLIP:
       STR_GEWEHR_M95_UFOPEDIA: ...
-      STR_MADSEN_MG: 
-      STR_MADSEN_MG_CLIP: 
+      STR_MADSEN_MG:
+      STR_MADSEN_MG_CLIP:
       STR_MADSEN_MG_UFOPEDIA: ...
       STR_HELLRIEGEL:
-      STR_HELLRIEGEL_CLIP: 
+      STR_HELLRIEGEL_CLIP:
       STR_HELLRIEGEL_UFOPEDIA: ...
       STR_INERTIAL_SHOTGUN:
-      STR_INERTIAL_SHOTGUN_CLIP: 
+      STR_INERTIAL_SHOTGUN_CLIP:
       STR_INERTIAL_SHOTGUN_UFOPEDIA: ...
-      STR_ARISAKA: 
-      STR_ARISAKA_CLIP: 
+      STR_ARISAKA:
+      STR_ARISAKA_CLIP:
       STR_ARISAKA_UFOPEDIA: ...
-      STR_GENERAL_LIU: 
-      STR_GENERAL_LIU_CLIP: 
+      STR_GENERAL_LIU:
+      STR_GENERAL_LIU_CLIP:
       STR_GENERAL_LIU_UFOPEDIA: ...
       STR_KATANA:
       STR_KATANA_UFOPEDIA: ...
       STR_KATANA2:
       STR_KATANA2_UFOPEDIA: ...
-      STR_NAMBU: 
-      STR_NAMBU_CLIP: 
+      STR_NAMBU:
+      STR_NAMBU_CLIP:
       STR_NAMBU_UFOPEDIA: ...
       STR_SABRE: Sable de Caballería
       STR_SABRE_UFOPEDIA: Sable distintivo de oficiales y soldados de caballería, empleado con galantería ceremonial en el campo de batalla. Es un gran arma de combate cuerpo a cuerpo, tiene mejor alcance que las armas más improvisadas.
@@ -296,15 +296,15 @@
       STR_TRENCH_SHOVEL_UFOPEDIA: Originalmente concebido para cavar trincheras, su propósito original, algunos soldados filan los bordes de la pala para utilizarlo como un arma rudimentaria y rudimentaria de combate cuerpo a cuerpo. La fuerza del soldado tiene mucho que ver con la efectividad de esta arma.
       STR_TRENCH_MACE: Maza de Trinchera
       STR_TRENCH_MACE_UFOPEDIA: Un mazo de madera adaptado con diversos objetos punzantes encontrados en la zanja, desde púas y clavos hasta alambre de púas. Brutal y vicioso.
-      STR_TRENCH_AXE: 
+      STR_TRENCH_AXE:
       STR_TRENCH_AXE_UFOPEDIA: ...
       STR_TRENCH_PICKAXE:
       STR_TRENCH_PICKAXE_UFOPEDIA: ...
       STR_BOWIE_KNIFE:
       STR_BOWIE_KNIFE_UFOPEDIA: ...
-      STR_BROKEN_VINE_BOTTLE: 
+      STR_BROKEN_VINE_BOTTLE:
       STR_BROKEN_VINE_BOTTLE_UFOPEDIA: ...
-      STR_MEDIC_BONESAW: 
+      STR_MEDIC_BONESAW:
       STR_MEDIC_BONESAW_UFOPEDIA: ...
       STR_MEDIKIT: Kit Médico
       STR_MEDIKIT_UFOPEDIA: Pequeña bolsa portátil, contiene diversos materiales médicos para estabilizar a los heridos en combate. Incluye analgésicos, antibióticos, cloruro de yodo, aceite de ricino y pinzas de corte.
@@ -317,14 +317,14 @@
       STR_LUGER_ARTILLERY: P08 Luger de Artillería
       STR_LUGER_ARTILLERY_DRUM: Tambor de P08 de Artillería
       STR_LUGER_ARTILLERY_UFOPEDIA: Versión modificada de la pistola P08 Luger, tiene un guardamanos y una culata de madera añadida para aumentar la precisión y el alcance. Originalmente se suministraba a los soldados de las baterías de artillería como arma de defensa personal. Utiliza cargadores de tambores para maximizar el almacenamiento de municiones.
-      STR_MP18: Subfusil MP-18 Bergmann 
-      STR_MP18_DRUM: Tambor de MP-18 Bergmann  
+      STR_MP18: Subfusil MP-18 Bergmann
+      STR_MP18_DRUM: Tambor de MP-18 Bergmann
       STR_MP18_UFOPEDIA: Una de las mejores armas del arsenal humano, diseñada para proporcionar la máxima potencia de fuego a corta distancia. Es ligero y fácil de usar, así como precisa en combate cuerpo a cuerpo. No se recomienda su uso de largo alcance, ya que pierde potencia fácilmente. Comparte el diseño de su cargador de tambor con la Luger de Artillería.
       STR_ANTITANK_GRENADE: Granada Anti-Tanque
       STR_ANTITANK_GRENADE_UFOPEDIA: Granada antitanque improvisada hecha de granadas de palo atadas con alambre y con sus mechas juntas, se activan todas al mismo tiempo. Muy práctico, usado por las tropas para desactivar la armadura enemiga.
       STR_TRENCH_CLUB: Bastón de Trinchera
       STR_TRENCH_CLUB_UFOPEDIA: Un palo ligero hecho de acero, con púas añadidas a sus puntas para maximizar el daño. Un arma muy práctica para los cuartos cerrados.
-      STR_STIELHANDGRENADE: Stielhandgrenade 
+      STR_STIELHANDGRENADE: Stielhandgrenade
       STR_STIELHANDGRENADE_UFOPEDIA: También conocido como "granada de palo", este explosivo manual de fabricación alemana tiene una cabeza fragmentada en la punta y un pequeño tubo de madera como base. Su diseño permite que sea lanzado muy lejos.
       STR_MILLS_BOMB: Bomba Mills
       STR_MILLS_BOMB_UFOPEDIA:  Inventada por William Mills, esta granada de fragmentación en forma de piña es muy segura de usar, contiene varias medidas de seguridad para evitar su activación accidental. Su rango de explosión es moderado.
@@ -339,7 +339,7 @@
       STR_GAS_GRENADE_UFOPEDIA: Granada modelo Mk.V CN de manufactura Americana, diseñada para lanzar un potente gas de origen clasificado (aunque se especula que contiene una mezcla de Calysteno y Gas Lacrimógeno), que es particularmente efectiva para saturar un área e incapacitar enemigos atrincherados. Si bien su uso está aún debatible (debido a su hipotético uso en humanos y su toxicidad en el cuerpo), no cabe dudas que es efectivo en contra del enemigo. El gas ataca directamente el sistema nervioso del individuo afectado. Pruebas de campo reportan que los Grises son particularmente afectados por esta arma.
       STR_BREAD: Pan
       STR_BREAD_UFOPEDIA: Una pieza de pan recién horneado, excelente para llenar la panza de un soldado hambriento. Es sorprendente que se mantenga caliente tanto tiempo, es muy apreciado por los soldados. Recupera la energía y la moral en 25 puntos y la salud en 3.
-      STR_ROTTEN_BREAD: Pan podrido 
+      STR_ROTTEN_BREAD: Pan podrido
       STR_ROTTEN_BREAD_UFOPEDIA: Una pieza de pan que ha sido expuesto tanto tiempo al clima que se ha podrido. Aún puede ser consumido por un soldado hambriento, recuperando 20 puntos de energía, 10 de moral, pero ocasionándole 6 puntos de daño al consumir el pan en mal estado.
       STR_CANNED_BEEF: Carne enlatada
       STR_CANNED_BEEF_UFOPEDIA: Llamado 'corned beef' debido al proceso para hacer este tipo de productos, es carne de ternera que ha sido tratada primero en salmuera y posteriormente hervida en vinagre a fuego lento. Pese a su sabor, es una alternativa popular a la carne fresca, tan escasa en tiempos de guerra. Su enlatado evita que se eche a perder el contenido. Al consumirlo, el soldado recupera 30 unidades de energía, 25 de moral y 10 de salud.
@@ -350,13 +350,13 @@
       STR_ROTTEN_BISCUIT_BOX: Caja con Biscuits podridos
       STR_ROTTEN_BISCUIT_BOX_UFOPEDIA: Los pequeños biscuits de esta caja hace tiempo que están descompuestos. Se han tornado correosos y muy duros, pero en tiempos de necesidad, aún pueden ser consumidos. Al alimentarse con estos panecillos, un soldado recupera 15 unidades de energía, 25 de moral, pero su salud se disminuye en 6 unidades
       STR_WINE: Botella de vino
-      STR_WINE_UFOPEDIA: Una verdadera cosecha excelente, este vino, pese a no ser de la mejor calidad, es delicioso. Un alivio necesario para las pesadillas del frente de batalla, al beber un sorbo de este manjar, el soldado recupera 30 unidades de energía, 100 de moral, pero recibe 15 unidades de daño por aturdimiento, debido al estado de embriaguez que se genera al ingerir bebidas alcohólicas 
-      STR_BROKEN_WINE_BOTTLE: Botella rota de vino 
+      STR_WINE_UFOPEDIA: Una verdadera cosecha excelente, este vino, pese a no ser de la mejor calidad, es delicioso. Un alivio necesario para las pesadillas del frente de batalla, al beber un sorbo de este manjar, el soldado recupera 30 unidades de energía, 100 de moral, pero recibe 15 unidades de daño por aturdimiento, debido al estado de embriaguez que se genera al ingerir bebidas alcohólicas
+      STR_BROKEN_WINE_BOTTLE: Botella rota de vino
       STR_BROKEN_WINE_BOTTLE_UFOPEDIA: Es difícil imaginar lo frustrante y desmoralizante que representa para un soldado encontrar rota la botella de un buen vino. Encontrar un vino añejo de calidad es difícil en estos días oscuros y esta botella no es la excepción. Lo único que queda al soldado que empuña esta arma improvisada, es usar toda su ira contra el invasor, provocando un daño impresionante. Los marcianos tienen tan poco respeto por las cosas finas de la vida...
       STR_TEA_FLASK: Cantimplora con té
       STR_TEA_FLASK_UFOPEDIA: Un recipiente con te caliente y suave. No se especifica el sabor del te, aunque el la textura es tenue y frutal, probablemente sea higo o manzanilla. Un sorbo de este frasco ayudará a calmar los nervios de cualquier soldado estresado inmediatamente, recupera 10 puntos de Energía y 50 de Moral.
-#      STR_: 
-#     STR_ _CLIP: 
+#      STR_:
+#     STR_ _CLIP:
 #     STR_ _UFOPEDIA: ...
       STR_CHARGE: CHARGE!
       STR_WHISTLE: Silbato
@@ -379,7 +379,7 @@
 # MartianCrafts_TGWotW
 #**************************************
       STR_SELENITE_FIGHTER: Aeronave Caza Marciana
-      STR_SELENITE_FIGHTER_UFOPEDIA: Reducida en longitud, ágil y rapida nave de caza, similar en funciones a nuestros interceptores. Empleado para establecer supremacía aérea. Usa cañones de Rayos de Calor ligeros y de disparo rápido. 
+      STR_SELENITE_FIGHTER_UFOPEDIA: Reducida en longitud, ágil y rapida nave de caza, similar en funciones a nuestros interceptores. Empleado para establecer supremacía aérea. Usa cañones de Rayos de Calor ligeros y de disparo rápido.
       STR_SELENITE_GUNSHIP: Aeronave Cañonera Marciana
       STR_SELENITE_GUNSHIP_UFOPEDIA: Nave de apoyo a tierra. Los invasores lo emplean como escolta de grupos de combate y para bombardear posiciones humanas. Sus armas son mas lentas que las del Caza, pero mas potentes.
       STR_SELENITE_TRANSPORT: Aeronave de Transporte Marciana
@@ -458,19 +458,16 @@
       STR_PISTOLS: Pistolas
       STR_MACHINE_GUNS: Ametralladoras
       STR_SHOTGUNS: Escopetas
-      STR_CARBINES: Carabinas 
+      STR_CARBINES: Carabinas
       STR_SMGS: Subfusiles
       STR_SNIPER_RIFLES: Fusiles de Precisión
       STR_EXPLOSIVES: Explosivos
-      STR_ARTILLERY: Artillería
-      STR_MEDICAL: Medicamentos 
+      STR_MEDICAL: Medicamentos
       STR_CQC: Equipo Cuerpo-a-cuerpo
       STR_LIGHT_EQUIPMENT: Equipo Ligero
       STR_HEAVY_EQUIPMENT: Equipo Pesado
-      STR_LIGHT_EQUIPMENT: Light Equipment
-      STR_HEAVY_EQUIPMENT: Heavy Equipment
       STR_RIFLEMAN_CLASS: Clase Fusilero
-      STR_ASSAULT_CLASS: Clase Asalto 
+      STR_ASSAULT_CLASS: Clase Asalto
       STR_MEDIC_CLASS: Clase Médico
       STR_SUPPORT_CLASS: Clase Apoyo
       STR_RAIDER_CLASS: Clase Incursor
@@ -480,10 +477,10 @@
       STR_AMERICAN_EQUIPMENT: Equipo Americano
       STR_GERMAN_EQUIPMENT: Equipo Alemán
       STR_FRENCH_EQUIPMENT: Equipo Francés
-      STR_ITALIAN_EQUIPMENT: Equipo Italiano 
-      STR_RUSSIAN_EQUIPMENT: Equipo Ruso 
+      STR_ITALIAN_EQUIPMENT: Equipo Italiano
+      STR_RUSSIAN_EQUIPMENT: Equipo Ruso
       STR_AUSTRO_HUNGARIAN_EQUIPMENT: Equipo Austro-Húngaro
-      STR_JAPANESE_EQUIPMENT: Equipo Japonés 
+      STR_JAPANESE_EQUIPMENT: Equipo Japonés
       STR_ROOKIE: "Soldado"
       STR_SQUADDIE: "Sargento"
       STR_SERGEANT: "Teniente"
@@ -498,7 +495,6 @@
       STR_GO_TO_LAST_KNOWN_UFO_POSITION: "IR A ÚLTIMA POSICIÓN CONOCIDA DEL TRÍPODE "
       STR_UFO_IS_NOT_RECOVERED: "Trípode no recuperado"
       STR_UFO_IS_RECOVERED: "Trípode recuperado"
-      STR_UFO_RECOVERY: "RECUPERACIÓN DE TRÍPODE"
       STR_UFO_DESTROYED: "¡TRÍPODE DESTRUIDO!"
       STR_UFO_: "TRÍPODE-{0}"
       STR_TAILING_UFO: "PERSIGUIENDO A UN TRÍPODE"
@@ -520,7 +516,7 @@
       STR_DAMAGE_ARMOR_PIERCING: "PERFORANTE"
       STR_SHOT_TYPE_AUTO: "Auto"
       STR_SHOT_TYPE_SNAP: "De la cadera"
-      STR_SHOT_TYPE_AIMED: "Apuntando" 
+      STR_SHOT_TYPE_AIMED: "Apuntando"
       STR_UFOPAEDIA: "Códice de Guerra"
       STR_UFOPAEDIA_UC: "CÓDICE DE GUERRA"
       STR_XCOM_CRAFT_ARMAMENT: "AVIONES Y ARMAMENTO DE FEI"
@@ -601,11 +597,6 @@
       STR_MIAMI: Miami
       STR_TORONTO: Toronto
       STR_BOSTON: Boston
-      STR_BERMUDA: Bermuda
-      STR_HAWAII: Hawaii
-      STR_MIDWAY: Midway
-      STR_ANCHORAGE: Anchorage
-      STR_NUUK: Nuuk
 
       STR_SANTIAGO: Santiago
       STR_LIMA: Toronto
@@ -645,7 +636,7 @@
       STR_ANKARA: Ankara
       STR_CALCUTTA: Calcuta
       STR_SRI_LANKA: Sri Lanka
-      STR_SHANGHAI: Shanghai 
+      STR_SHANGHAI: Shanghai
       STR_SINGAPORE: Singapur
       STR_HONG_KONG: Hong Kong
       STR_SEOUL: Seúl
@@ -664,7 +655,7 @@
       STR_HAWAII: Hawaii
       STR_ANCHORAGE: Anchorage
       STR_EASTER_ISLAND: Isla de Pascua
-      STR_GALAPAGOS_ISLAND: Isla Galápagos 
+      STR_GALAPAGOS_ISLAND: Isla Galápagos
       STR_BERMUDA: Bermuda
       STR_NUUK: Nuuk
       STR_AZORES: Azores
@@ -683,7 +674,7 @@
       MAP_IDT_SNOWVILLAGE: Asentamiento Rural Nevado
       MAP_IDT_SNOWFOREST: Bosque Rural Nevado
       MAP_MOUNTSNOW: Alta Montaña
-      MAP_MOUNTGRASS: Baja Montaña 
+      MAP_MOUNTGRASS: Baja Montaña
       MAP_MOUNTSAND: Montaña Desértica
       MAP_MOUNTROCK: Paso Montañoso
       MAP_MOUNTTROP: Montaña Tropical
@@ -698,7 +689,7 @@
 # vehicles_TGWotW
 #**************************************
       STR_CONQUEROR: CONQUEROR
-      STR_CONQUEROR_UFOPEDIA: EL PRIMER MODELO DE BUQUE TERRESTRE, DISEÑADO PARA TRANSPORTAR GRANDES CANTIDADES DE INFANTERÍA CON SEGURIDAD HASTA EL FRENTE DE BATALLA. POSEE UNA TORRETA ESPECIAL CAPAZ DE BRINDAR APOYO CERCANO EN BATALLA Y UN BLINDAJE MUY RESISTENTE QUE PUEDE DETENER ALGUNOS DISPAROS CALÓRICOS. 
+      STR_CONQUEROR_UFOPEDIA: EL PRIMER MODELO DE BUQUE TERRESTRE, DISEÑADO PARA TRANSPORTAR GRANDES CANTIDADES DE INFANTERÍA CON SEGURIDAD HASTA EL FRENTE DE BATALLA. POSEE UNA TORRETA ESPECIAL CAPAZ DE BRINDAR APOYO CERCANO EN BATALLA Y UN BLINDAJE MUY RESISTENTE QUE PUEDE DETENER ALGUNOS DISPAROS CALÓRICOS.
       STR_MARCH: MARCHA
       STR_MARCH_UFOPEDIA: EL MEJOR MÉTODO PARA TRANSPORTAR GRANDES CANTIDADES DE TROPAS A LA BATALLA ES MARCHANDO. LA FORMACIÓN ESTRECHA EN DOS FILAS AYUDA A MANTENER EL ORDEN. UNA UNIDAD MÁS PEQUEÑA ES MÁS RÁPIDA Y TIENE MEJORES CAPACIDADES DE RECONOCIMIENTO.
       STR_MARCH_LARGE: MARCHA LARGA
@@ -709,7 +700,7 @@
       STR_AIRCO_DH2: AIRCO DH2
       STR_AIRCO_DH2_UFOPEDIA: LA RESPUESTA BRITÁNICA AL PROBLEMA DE DISPARAR HACIA EL FRENTE DEL AVIÓN FUE ESTE CURIOSO MODELO TIPO 'PUSHER', QUE TIENE LA HÉLICE Y EL MOTOR DETRÁS. ESTO PERMITE POSICIONAR UNA AMETRALLADORA FRONTAL SIN PELIGRO DE DAÑAR ALGUNA PIEZA MECÁNICA.
       STR_NIEUPORT_17: NIEUPORT 17
-      STR_NIEUPORT_17_UFOPEDIA: ÁGIL CAZA BIPLANO FRANCÉS, MUY POPULAR EN LA FUERZA AÉREA DE LA COALICIÓN. ES USADO POR MUCHOS ASES DE COMBATE. ES ALGO LENTO, PERO PUEDE REALIZAR CUALQUIER MISIÓN DE SUPERIORIDAD AÉREA O APOYO AÉREO CERCANO, EMPLEADO POR FRANCIA, EE.UU, ITALIA Y RUSIA. 
+      STR_NIEUPORT_17_UFOPEDIA: ÁGIL CAZA BIPLANO FRANCÉS, MUY POPULAR EN LA FUERZA AÉREA DE LA COALICIÓN. ES USADO POR MUCHOS ASES DE COMBATE. ES ALGO LENTO, PERO PUEDE REALIZAR CUALQUIER MISIÓN DE SUPERIORIDAD AÉREA O APOYO AÉREO CERCANO, EMPLEADO POR FRANCIA, EE.UU, ITALIA Y RUSIA.
       STR_SOPWITH_CAMEL: SOPWITH CAMEL
       STR_SOPWITH_CAMEL_UFOPEDIA: EL CAZA DE PRIMERA LÍNEA BRITÁNICO, ES EXTREMADAMENTE MANIOBRABLE DEBIDO A SU CONSTRUCCIÓN ROBUSTA, AUNQUE REQUIERE UN MANEJO ADECUADO Y CONSTANTE DEL TIMÓN DE DIRECCIÓN. EL FAVORITO DE LA COMMONWEALTH PARA DEFENDER LOS CIELOS ALIADOS.
       STR_ALBATROS_DIII: ALBATROS D-III
@@ -720,10 +711,10 @@
       STR_HALBERSTADT_CLII: "HALBERSTADT CL.II"
       STR_HALBERSTADT_CLII_UFOPEDIA: AVIÓN DE ATAQUE A TIERRA Y ESCOLTA, ES EXCELENTE PARA ATACAR OBJETIVOS TERRESTRES. CUENTA CON CAÑONES AUTOMÁTICOS Y CON UN ARTILLERO PARA DEFENDER EL AVIÓN. CADA CL.II ESTÁ EQUIPADO CON BOMBAS, ALGUNOS INCLUSO LLEVAN GRANADAS DE MANO, EN CASO QUE SE QUEDEN SIN MUNICIÓN LAS ARMAS PRINCIPALES.
       STR_HANDLEY_PAGE_TYPE_O: HANDLEY-PAGE TYPE O
-      STR_HADNLEY_PAGE_TYPE_O_UFOPEDIA: EL MÁS GRANDE AVIÓN EN SERVICIO BRITÁNICO Y UNO DE LOS MÁS GRANDES DEL MUNDO, ES UN BOMBARDERO PESADO DE LARGO ALCANCE, PERFECTO PARA REALIZAR INCURSIONES TRAS LAS LÍNEAS ENEMIGAS. CUENTA CON VARIOS DEPÓSITOS PARA BOMBAS Y DIVERSAS POSICIONES PARA AMETRALLADORAS DEFENSIVAS. 
+      STR_HADNLEY_PAGE_TYPE_O_UFOPEDIA: EL MÁS GRANDE AVIÓN EN SERVICIO BRITÁNICO Y UNO DE LOS MÁS GRANDES DEL MUNDO, ES UN BOMBARDERO PESADO DE LARGO ALCANCE, PERFECTO PARA REALIZAR INCURSIONES TRAS LAS LÍNEAS ENEMIGAS. CUENTA CON VARIOS DEPÓSITOS PARA BOMBAS Y DIVERSAS POSICIONES PARA AMETRALLADORAS DEFENSIVAS.
 #
       STR_LCLASS_DESTROYER: DESTRUCTOR CLASE-L
-      STR_LCLASS_DESTROYER_UFOPEDIA: ESTE DESTRUCTOR CUMPLE UNA VARIEDAD DE ROLES, DESDE DEFENSA AA HASTA ESCOLTA DE BUQUES MÁS GRANDES. SE EMPLEA CON REGULARIDAD PARA VIGILAR LAS COSTAS O PARA APOYAR A LA INFANTERÍA CON BOMBARDEO COSTERO. SUS ARMAS SON PERFECTAS PARA DERRIBAR AERONAVES ENEMIGAS. 
+      STR_LCLASS_DESTROYER_UFOPEDIA: ESTE DESTRUCTOR CUMPLE UNA VARIEDAD DE ROLES, DESDE DEFENSA AA HASTA ESCOLTA DE BUQUES MÁS GRANDES. SE EMPLEA CON REGULARIDAD PARA VIGILAR LAS COSTAS O PARA APOYAR A LA INFANTERÍA CON BOMBARDEO COSTERO. SUS ARMAS SON PERFECTAS PARA DERRIBAR AERONAVES ENEMIGAS.
       STR_WINDSTORM_CLASS_DESTROYER: DESTRUCTOR CLASE-WINDSTORM
       STR_WINDSTORM_CLASS_DESTROYER_UFOPEDIA: MODERNO DESTRUCTOR DE DESARROLLO BRITÁNICO. TIENE MEJOR BLINDAJE Y CUENTA CON UNA TORRETA EXTRA PARA EQUIPAR MÁS ARMAS DEFENSIVAS U OFENSIVAS. ES EXCELENTE PARA PATRULLAR TANTO EN MAR PROFUNDO COMO CERCA DE LA COSTA Y SU VELOCIDAD Y TAMAÑO LO HACEN ÁGIL EN COMBATE.
 #
@@ -744,9 +735,9 @@
       STR_SPANDAU_HMG_UFOPEDIA: AMETRALLADORAS PESADAS DOBLES SPANDAU IMG-08 REFRIGERADAS POR AIRE, POSEEN UNA GRAN CADENCIA DE FUEGO, AUNQUE SU MUNICIÓN SEA DE CALIBRE RELATIVAMENTE MEDIO, UTILIZA BALAS K-MM PERFORANTES. COMBINANDO ESTAS NUEVAS BALAS CON UNA ALTA CADENCIA DE FUEGO, BRIDA UNA EFICAZ ARMA PARA DERRIBAR MÁQUINAS MARCIANAS LIGERAS. EL USO DE DOS ARMAS DISPARADAS AL MISMO TIEMPO INCREMENTA EL VOLUMEN DE FUEGO.
       STR_SPANDAU_HMG_LAUNCHER: Ametralladoras Spandau
       STR_SPANDAU_HMG_ROUNDS_X250: Cartuchos de Ametralladoras Spandau (x250)
-      STR_BECKER_2CM_CANNON: Cañón M2 Becker de 2cm 
-      STR_BECKER_2CM_CANNON_UFOPEDIA: CAÑÓN AUTOMÁTICO DISEÑADO EN ALEMANIA, EMPLEA CARGADORES CURVOS DE 15 PROYECTILES CADA UNO. SU USO PRINCIPAL ES COMO ARMA OFENSIVA EN AVIONES DE ATAQUE AL SUELO Y POSICIONES ESTÁTICAS, PUEDE SER FÁCILMENTE OPERADO POR UN ARTILLERO. SU MAYOR DESVENTAJA ES LA POCA CANTIDAD DE MUNICIÓN POR CARGADOR, QUE IMPLICA RECARGAR CONSTANTEMENTE NUEVA MUNICIÓN EN COMBATES INTENSOS. 
-      STR_BECKER_2CM_CANNON_LAUNCHER: Cañón M2 Becker de 2cm 
+      STR_BECKER_2CM_CANNON: Cañón M2 Becker de 2cm
+      STR_BECKER_2CM_CANNON_UFOPEDIA: CAÑÓN AUTOMÁTICO DISEÑADO EN ALEMANIA, EMPLEA CARGADORES CURVOS DE 15 PROYECTILES CADA UNO. SU USO PRINCIPAL ES COMO ARMA OFENSIVA EN AVIONES DE ATAQUE AL SUELO Y POSICIONES ESTÁTICAS, PUEDE SER FÁCILMENTE OPERADO POR UN ARTILLERO. SU MAYOR DESVENTAJA ES LA POCA CANTIDAD DE MUNICIÓN POR CARGADOR, QUE IMPLICA RECARGAR CONSTANTEMENTE NUEVA MUNICIÓN EN COMBATES INTENSOS.
+      STR_BECKER_2CM_CANNON_LAUNCHER: Cañón M2 Becker de 2cm
       STR_BECKER_2CM_CANNON_ROUNDS_X15: Cartuchos de M2 Becker de 2cm (x15)
       STR_QF_1_PDR_POMPOM: QF de 1 libra 'Pom Pom'
       STR_QF_1_PDR_POMPOM_UFOPEDIA: CONFIABLE ARMA ANTIAÉREA, PUEDE ENCONTRARSE MONTADA EN TODAS PARTES, DESDE EMPLAZAMIENTOS FIJOS HASTA AVIONES Y BUQUES DE GUERRA. DISPARA RONDAS ESPECIALES DE FRAGMENTACIÓN. SE APODA 'POM POM' POR EL SONIDO QUE HACE AL DISPARAR.
@@ -757,7 +748,7 @@
       STR_QF_6_PDR_57MM_CANNON_LAUNCHER: QF de 6 libras
       STR_QF_6_PDR_57MM_CANNON_X30: Obuses de QF de 6 libras (x30)
       STR_QF_4_INCH_DOUBLE_CANNON: QF de 4 pulgadas
-      STR_QF_4_INCH_DOUBLE_CANNON_UFOPEDIA: UN PODEROSO CAÑÓN NAVAL DE DOBLE PROPÓSITO, PUEDE SER EMPLEADO PARA BOMBARDERO COSTERO, COMBATE CONTRA OTRAS NAVES Y COMO BATERÍA ANTIAÉREA. LOS MODELOS MÁS RECIENTES INCLUYEN UN MONTAJE DOBLE PARA MAXIMIZAR EL DAÑO INFLINGIDO, AUNQUE ESTO INCREMENTA EL TIEMPO DE RECARGA ENTRE RONDA Y RONDA.  
+      STR_QF_4_INCH_DOUBLE_CANNON_UFOPEDIA: UN PODEROSO CAÑÓN NAVAL DE DOBLE PROPÓSITO, PUEDE SER EMPLEADO PARA BOMBARDERO COSTERO, COMBATE CONTRA OTRAS NAVES Y COMO BATERÍA ANTIAÉREA. LOS MODELOS MÁS RECIENTES INCLUYEN UN MONTAJE DOBLE PARA MAXIMIZAR EL DAÑO INFLINGIDO, AUNQUE ESTO INCREMENTA EL TIEMPO DE RECARGA ENTRE RONDA Y RONDA.
       STR_QF_4_INCH_DOUBLE_CANNON_LAUNCHER: QF de 4 pulgadas
       STR_QF_4_INCH_DOUBLE_CANNON_X30: Obuses de QF de 4 pulgadas (x15)
 
@@ -841,18 +832,18 @@
       STR_GERMAN_INTERCEPTOR_OPTION_C: "Interceptor Alemán - Opción C"
       STR_GERMAN_INTERCEPTOR_OPTION_C_UFOPEDIA: "El máximo interceptor construido por Alemania hasta la fecha. Algo pesado con los controles, aunque placentero y fácil de volar, el nuevo modelo creado por Albatros presenta a un avión indiscutiblemente rápido. Al estar enfocado en desarrollar velocidad pura, se han removido ciertos elementos que lo podrían volver más lento y maniobrable, pero es apreciado por ser capaz de interceptar más Máquinas Marcianas que los demás aviones."
 #
-      STR_FRONTAL_MACHINE_GUNS: Ametralladoras 
+      STR_FRONTAL_MACHINE_GUNS: Ametralladoras
       STR_FRONTAL_MACHINE_GUNS_UFOPEDIA: Estas armas automáticas se volvieron famosas a partir del popular modelo creado por Hiram Maxim a finales del Siglo XIX. Han sido usadas numerosamente desde entonces y ahora más que nunca. Muchas de las ametralladoras montadas en los aviones son versiones más grandes y pesadas de armas fijas usadas por la infantería. Desde el milagroso sistema de sincronización de Rolland Garros y Anthony Fokker, las ametralladoras se han convertido en la principal arma de los cazas e interceptores humanos. Se caracterizan por tener alta cadencia, daño bajo, corto alcance.
       STR_DEFENSIVE_MACHINE_GUNS: Armas Defensivas
       STR_DEFENSIVE_MACHINE_GUNS_UFOPEDIA: Antes de la inclusión de las ametralladoras sincronizadas con la hélice, los primeros pilotos de combate llevaban sus armas personales o torretas controladas por un artillero. Con el empleo de bombarderos y aviones de ataque, los artilleros tomaron un papel aún más importante como defensores de su avión. Las armas defensivas suelen ametralladoras dobles montadas en afustes, para permitir que el tripulante utilice un arma más pesada que su variante de infantería sin cansanse o lastimarse. Sus características son muy alta cadencia, daño bajo y poca precisión
       STR_LIGHT_CANNONS: Cañones Ligeros
       STR_LIGHT_CANNONS_UFOPEDIA: Los cañones ligeros suelen ser catalogados como armas de doble propósito, porque pueden atacar objetivos aéreos y de superficie. Poseen un balance entre potencia y tasa de fuego, son pensados para proteger a un buque de amenazas rápidas y ágiles. Dado su cadencia de tiro se pueden emplear como armas antiaéreas. No poseen la capacidad de penetrar el casco de un Buque Marciano con una ronda, pero suficientes disparos concentrados en el mismo lugar pueden causar daños. Cadencia media, daño medio, precisión media son sus características.
       STR_AUTOCANNONS: Cañones Automáticos
-      STR_AUTOCANNONS_UFOPEDIA: Los cañones automáticos son diseñados especialmente para proveer poder de fuego superior a las ametralladoras, dado que usa obuses en lugar de balas, una munición considerablemente más grande y pesada, rellena de explosivos. Sin embargo, para evitar el sobrecalientamiento de los cañones e incrementar la precisión de disparo, su cadencia de fuego es menor a las armas más ligeras. Su mayor desventaja es que cuentan con poca munición, pero su precisión y daño lo compensa. Sus características son baja cadencia de fuego, precisión alta, daño y alcance medio. 
+      STR_AUTOCANNONS_UFOPEDIA: Los cañones automáticos son diseñados especialmente para proveer poder de fuego superior a las ametralladoras, dado que usa obuses en lugar de balas, una munición considerablemente más grande y pesada, rellena de explosivos. Sin embargo, para evitar el sobrecalientamiento de los cañones e incrementar la precisión de disparo, su cadencia de fuego es menor a las armas más ligeras. Su mayor desventaja es que cuentan con poca munición, pero su precisión y daño lo compensa. Sus características son baja cadencia de fuego, precisión alta, daño y alcance medio.
       STR_ARTILLERY: Artillería
       STR_ARTILLERY_UFOPEDIA: La artillería naval es la madre de las todas las armas. Estas armas están montadas exclusivamente en buques de guerra y suelen disparar obuses pesados a muy largo alcance. La potencia de estas armas permite que puedan emplearse para bombardear objetivos costeros sin temor a represalias. Sin embargo, después de cada ronda de disparos, sus cañones deben ser recargados y esta es una labor que require mucho tiempo. Es altamente efectiva contra blancos lentos o inmóviles, pero enemigos rápidos pueden esquivar las rondas fácilmente. Cadencia muy baja, daño muy alto, precisión alta y muy largo alcance son sus características
       STR_BOMBS: Bombas
-      STR_BOMBS_UFOPEDIA: Al principio de la aviación militar, las bombas se limitaban a pequeñas granadas de mano que eran arrojadas fuera de la cabina por los propios pilotos o tripulantes. Con la mejora tecnológica, se acondicionaron bahías de bombas y sistemas de puntería especiales para incrementar la capacidad de bombardear objetivos con precisión. Son bastante potentes, pero para poder destruir un objetivo con ellas, el avión debe acercarse mucho al objetivo, exponiéndose al fuego antiaéreo. Se caracterizan por tener gran daño, baja cadencia de lanzamiento, alcance muy corto y precisión alta. 
+      STR_BOMBS_UFOPEDIA: Al principio de la aviación militar, las bombas se limitaban a pequeñas granadas de mano que eran arrojadas fuera de la cabina por los propios pilotos o tripulantes. Con la mejora tecnológica, se acondicionaron bahías de bombas y sistemas de puntería especiales para incrementar la capacidad de bombardear objetivos con precisión. Son bastante potentes, pero para poder destruir un objetivo con ellas, el avión debe acercarse mucho al objetivo, exponiéndose al fuego antiaéreo. Se caracterizan por tener gran daño, baja cadencia de lanzamiento, alcance muy corto y precisión alta.
       STR_ROCKETS: Cohetes
       STR_ROCKETS_UFOPEDIA: Si bien los cohetes han sido empleados desde la Antigua China, hasta el Siglo XIX se mejoró la calidad de estos y la forma de dispararlos. Con el inicio del Siglo XX, el interés por los cohetes aire-aire creció, así como la calidad de los materiales y su material explosivo. Diseños rudimentarios creados originalmente para derribar dirigibles fueron creador por inventores como Yves Le Prieur y Rudolf Nebel. Su función principal es la de saturar rápidamente con un área con una gran cantidad de proyectiles. Se caracterizan por tener muy alta cadencia de disparo, corto alcance y baja precisión.
 
@@ -873,7 +864,7 @@
       STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3: "Frasco de Cápuslas de Gas x3"
       STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3: "Frasco de Cápuslas Ácidas x3"
 #      STR_HEATRAY_RESEARCH: Investigación de Rayos de Calor
-      STR_HEATRAY_WEAPONS: Tecnología de Armas de Rayos de Calor 
+      STR_HEATRAY_WEAPONS: Tecnología de Armas de Rayos de Calor
       STR_RED_WEED_RESEARCH: Investigación de Maleza Roja
       STR_CHEMICAL_WARFARE_RESEARCH: Investigación de Guerra Química Marciana
       STR_HEATRAY_RESEARCH_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}Desde la aparición de los Trípodes en suelo inglés la humanidad se ha sentido atraída y horrorizada por el arma principal de guerra de los invasores. Utilizan un cristal de Tungunskium-115 como catalizador para un rayo infrarrojo que proyecta un poderoso haz de luz a más de 1500 grados centígrados. Hemos analizado estas armas cuidadosamente y son bastante inútiles sin el poderoso cristal, básicamente una lámpara de gas con baterías alienígenas."

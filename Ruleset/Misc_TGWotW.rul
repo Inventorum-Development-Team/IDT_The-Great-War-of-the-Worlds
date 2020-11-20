@@ -178,8 +178,8 @@ extraSprites:
     files:
       2: Resources/specialWeapons/spicon_brawl.png
 
-specialWeaponInventorySlots:
-  - STR_BELT
+# specialWeaponInventorySlots:
+#   - STR_BELT
 
 crafts:
   - type: STR_SPAD
@@ -284,8 +284,6 @@ extraStrings:
       STR_ELERIUM_115_UFOPEDIA: "This element has the unusual property of generating anti-matter power when bombarded with certain particles. This creates gravity waves and other forms of energy. It seems that Mars has vast mines of this mineral beneath its surface. Called in honor of Tungunska, the first Martian Landing Zone."
       STR_BALLISTIC: Ballistic
       STR_TESLA: Tesla
-      STR_PHLOGISTON: Phlogiston
-      STR_COILGUN: Coilgun
       STR_PULSE_PLASMA: Pulse Plasma
       STR_PHLOGISTON: Phlogiston
       STR_COILGUN: Coilgun
@@ -295,14 +293,13 @@ extraStrings:
       STR_PISTOLS: Pistols
       STR_MACHINE_GUNS: Machine Guns
       STR_SHOTGUNS: Shotguns
-      STR_CARBINES: Carbines 
+      STR_CARBINES: Carbines
       STR_SMGS: Submachine guns
       STR_SNIPER_RIFLES: Sniper Rifles
       STR_EXPLOSIVES: Explosives
       STR_ARTILLERY: Artillery
       STR_MEDICAL: Medical
-      STR_ARTILLERY: Artillery
-      STR_FIREARMS: Firearms 
+      STR_FIREARMS: Firearms
       STR_CLIPS: Ammo
       STR_TURRETS: Turrets
       STR_MILITARY_RATIONS: Military Rations
@@ -460,16 +457,16 @@ itemCategories:
 startingConditions:
   - type: STR_STARTING_FRONTLINES_VERDUN_FORT_VAUX
     defaultArmor:
-      STR_BRITISH_SOLDIER: 
+      STR_BRITISH_SOLDIER:
         STR_FRENCH_FIELD_UNIFORM_UC: 100
       STR_AMERICAN_SOLDIER:
-        STR_FRENCH_FIELD_UNIFORM_UC: 100 
+        STR_FRENCH_FIELD_UNIFORM_UC: 100
       STR_GERMAN_SOLDIER:
         STR_FRENCH_FIELD_UNIFORM_UC: 100
       STR_FRENCH_SOLDIER:
         STR_FRENCH_FIELD_UNIFORM_UC: 100
     allowedArmors:
-      - STR_FRENCH_FIELD_UNIFORM_UC 
+      - STR_FRENCH_FIELD_UNIFORM_UC
       - STR_FRENCH_GASMASK_UC
     allowedItemCategories:
       - STR_FRENCH_EQUIPMENT
@@ -487,16 +484,16 @@ startingConditions:
 
   - type: STR_STARTING_FRONTLINES_MEUSE_ARGONNE
     defaultArmor:
-      STR_BRITISH_SOLDIER: 
+      STR_BRITISH_SOLDIER:
         STR_AMERICAN_FIELD_UNIFORM_UC: 100
       STR_AMERICAN_SOLDIER:
-        STR_AMERICAN_FIELD_UNIFORM_UC: 100 
+        STR_AMERICAN_FIELD_UNIFORM_UC: 100
       STR_GERMAN_SOLDIER:
         STR_AMERICAN_FIELD_UNIFORM_UC: 100
       STR_FRENCH_SOLDIER:
         STR_AMERICAN_FIELD_UNIFORM_UC: 100
     allowedArmors:
-      - STR_AMERICAN_FIELD_UNIFORM_UC 
+      - STR_AMERICAN_FIELD_UNIFORM_UC
       - STR_AMERICAN_GASMASK_UC
     allowedItemCategories:
       - STR_AMERICAN_EQUIPMENT
@@ -514,16 +511,16 @@ startingConditions:
 
   - type: STR_STARTING_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
     defaultArmor:
-      STR_BRITISH_SOLDIER: 
+      STR_BRITISH_SOLDIER:
         STR_GERMAN_FIELD_UNIFORM_UC: 100
       STR_AMERICAN_SOLDIER:
-        STR_GERMAN_FIELD_UNIFORM_UC: 100 
+        STR_GERMAN_FIELD_UNIFORM_UC: 100
       STR_GERMAN_SOLDIER:
         STR_GERMAN_FIELD_UNIFORM_UC: 100
       STR_FRENCH_SOLDIER:
         STR_GERMAN_FIELD_UNIFORM_UC: 100
     allowedArmors:
-      - STR_GERMAN_FIELD_UNIFORM_UC 
+      - STR_GERMAN_FIELD_UNIFORM_UC
       - STR_GERMAN_GASMASK_UC
     allowedItemCategories:
       - STR_GERMAN_EQUIPMENT
@@ -554,7 +551,7 @@ enviroEffects:
 #This is when our team has been under siege by
 #many days and is tired
 
-	
+
 items:
   - type: STR_UNARMED_UNIFORM
     weight: 0
@@ -592,7 +589,7 @@ items:
     specialUseEmptyHand: true
 
   - type: STR_SIEGE_LOW_MORALE_WEAPON
-    damage: 30
+    # damage: 30
     damageType: 6
     damageAlter:
       RandomType: 6
@@ -796,12 +793,12 @@ startingBase:
     STR_LEWIS_MG_DRUM: 4
   scientists: 10
   engineers: 10
- 
+
 alienItemLevels:
   - [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
   - [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
   - [0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
- 
+
 facilities:
   - delete: STR_HANGAR
 

@@ -177,7 +177,7 @@ events:
   - name: STR_FACTORY_MALFUNCTION_EVENT
     description: STR_FACTORY_MALFUNCTION_DESCRIPTION
     background: FACTORY_MALFUNCTION_EVENT_BACKGROUND
-##    music: 
+##    music:
     regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
     city: true
     points: -350
@@ -193,7 +193,7 @@ events:
   - name: STR_CIVILIAN_AIRSHIP_DOWN_EVENT
     description: STR_CIVILIAN_AIRSHIP_DOWN_DESCRIPTION
     background: CIVILIAN_AIRSHIP_DOWN_EVENT_BACKGROUND
-##    music: 
+##    music:
     regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
     city: true
     points: -500
@@ -209,7 +209,7 @@ events:
   - name: STR_MILITARY_AIRSHIP_DOWN_EVENT
     description: STR_MILITARY_AIRSHIP_DOWN_DESCRIPTION
     background: MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND
-##    music: 
+##    music:
     regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
     points: -500
 #    randomItemList: [YYY, XXX]
@@ -302,4 +302,4 @@ extraStrings:
        STR_SUPPLY_SURPLUS_EVENT: "Surplus supplies"
        STR_SUPPLY_SURPLUS_DESCRIPTION: "A supply caravan advancing towards the front line has stopped at our base to refuel and has left us some surplus supplies. Our troops are grateful for the extra rations and medicine!"
        STR_FIELD_KITCHEN_EVENT: "Field kitchen supplies us"
-       STR_FIELD_KITCHEN_DESCRIPTION: "An Allied battalion passing near our headquarters included a field kitchen. They stopped in front of our base and the field kitchen distributed freshly prepared food to our troops. There is no better boost to army morale than a hot meal."	   
+       STR_FIELD_KITCHEN_DESCRIPTION: "An Allied battalion passing near our headquarters included a field kitchen. They stopped in front of our base and the field kitchen distributed freshly prepared food to our troops. There is no better boost to army morale than a hot meal."

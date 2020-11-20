@@ -2,7 +2,7 @@ soldiers:
   - delete: STR_SOLDIER
   - type: STR_ITALIAN_SOLDIER
     flagOffset: 22
-    armorForAvatar: 
+    # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 30000
@@ -46,7 +46,7 @@ soldiers:
     armor: STR_ITALIAN_FIELD_UNIFORM_UC
     standHeight: 22
     kneelHeight: 14
-    allowPiloting: false    
+    allowPiloting: false
     femaleFrequency: 10
     soldierNames:
       - delete
@@ -309,8 +309,8 @@ armors:
 #      - INV_NULL_2X1_RIGHT_LEG
 ##      - INV_NULL_1X1_LEFT_LEG
 #    units:
-#      - STR_ITALIAN_SOLDIER	  
-	  
+#      - STR_ITALIAN_SOLDIER
+
 ufopaedia:
   - id: STR_ITALIAN_SOLDIER_INTRODUCTION
     type_id: 7
@@ -465,7 +465,7 @@ extraSprites:
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/Italian/ITALIAN_OFFICER_UNIFORM.png	  
+#      0: Resources/Italian/ITALIAN_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_27TCF0.SPK
@@ -506,7 +506,7 @@ extraSprites:
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/Italian/ITALIAN_TRENCHCOAT_UNIFORM.png	
+#      0: Resources/Italian/ITALIAN_TRENCHCOAT_UNIFORM.png
 
   - type: BIGOBS.PCK
     files:
@@ -535,8 +535,8 @@ extraStrings:
     strings:
       STR_ITALIAN_SOLDIER: Italian Soldier
       STR_ITALIAN_SOLDIER_INTRODUCTION: The Daring Ones
-      STR_ITALIAN_SOLDIER_UFOPEDIA: Italy, until the beginning of the Great War, has been characterized as a predominantly agricultural and peaceful country. With the arrival of the Martians and the subsequent invasion of Europe, the Italian army has been mobilized. Despite being less equipped and smaller than other armies, it is more than compensated for by the incessant tenacity and courage of Italian soldiers, outstanding for their ingenuity in creating personal armor. 
+      STR_ITALIAN_SOLDIER_UFOPEDIA: Italy, until the beginning of the Great War, has been characterized as a predominantly agricultural and peaceful country. With the arrival of the Martians and the subsequent invasion of Europe, the Italian army has been mobilized. Despite being less equipped and smaller than other armies, it is more than compensated for by the incessant tenacity and courage of Italian soldiers, outstanding for their ingenuity in creating personal armor.
       STR_ITALIAN_FIELD_UNIFORM_UC: ITALIAN ARMY FIELD UNIFORM
-      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments. It includes an Adrian helmet of French origin to protect the head.  
+      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments. It includes an Adrian helmet of French origin to protect the head.
       STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
       STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.

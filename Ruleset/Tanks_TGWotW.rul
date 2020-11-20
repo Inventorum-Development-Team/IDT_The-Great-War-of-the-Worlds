@@ -8,7 +8,7 @@ armors:
     allowsStrafing: false
     allowsKneeling: false
     fearImmune: false
-    corpseBattle: 
+    corpseBattle:
      - STR_SIDECAR_MOTORCYCLE_RECOVER
      - TANK_CORPSE_2
      - TANK_CORPSE_3
@@ -65,7 +65,7 @@ armors:
       - 1.2 #18 Flames
     units: &SECTION_TANK_UNITS
       - STR_PILOT
-    builtInWeapons: 
+    builtInWeapons:
       - NULL_2X1_LS
       - NULL_2X1_RS
       - NULL_2X1_LL
@@ -73,7 +73,7 @@ armors:
       - NULL_2X3
       - NULL_4X2
     loftempsSet: [ 92, 89, 90, 91 ]
- 
+
   - type: STR_SCHNEIDER_CA1_ARMOR_UC
     spriteSheet: SCHNEIDER_CA1.PCK
     spriteInv: SCHNEIDER_INV
@@ -83,7 +83,7 @@ armors:
     allowsStrafing: false
     allowsKneeling: false
     fearImmune: false
-    corpseBattle: 
+    corpseBattle:
      - STR_SCHNEIDER_CA1_RECOVER
      - TANK_CORPSE_2
      - TANK_CORPSE_3
@@ -106,7 +106,7 @@ armors:
     damageModifier: *SECTION_LIGHT_TANK_RESISTANCES
     units: *SECTION_TANK_UNITS
     builtInWeapons:
-      - AUX_COAXIAL_HOTCHKISS_MG    
+      - AUX_COAXIAL_HOTCHKISS_MG
       - NULL_2X1_LS
       - NULL_2X1_RS
       - NULL_2X1_LL
@@ -124,7 +124,7 @@ armors:
     allowsStrafing: false
     allowsKneeling: false
     fearImmune: false
-    corpseBattle: 
+    corpseBattle:
      - STR_MARK_V_RECOVER
      - TANK_CORPSE_2
      - TANK_CORPSE_3
@@ -178,7 +178,7 @@ armors:
     units: *SECTION_TANK_UNITS
     builtInWeapons:
       - AUX_QF_6_PDR_HOTCHKISS_CANNON
-      - AUX_COAXIAL_HOTCHKISS_MG    
+      - AUX_COAXIAL_HOTCHKISS_MG
       - NULL_2X1_LS
       - NULL_2X1_RS
       - NULL_2X1_LL
@@ -196,13 +196,13 @@ armors:
     allowsStrafing: false
     allowsKneeling: false
     fearImmune: false
-    corpseBattle: 
+    corpseBattle:
      - STR_A7V_RECOVER
      - TANK_CORPSE_2
      - TANK_CORPSE_3
      - TANK_CORPSE_4
     corpseGeo: STR_A7V_RECOVER
-    storeItem: STR_A7V_ITEM
+    # storeItem: STR_A7V_ITEM # TODO FIXME, MISSING
     weight: -200
     visibilityAtDark: 10
     frontArmor: 60
@@ -219,7 +219,7 @@ armors:
     units: *SECTION_TANK_UNITS
     builtInWeapons:
       - AUX_5_7CM_MAXIM_NORDENFELT_CANNON
-      - AUX_COAXIAL_MG08_MG    
+      - AUX_COAXIAL_MG08_MG
       - NULL_2X1_LS
       - NULL_2X1_RS
       - NULL_2X1_LL
@@ -237,7 +237,7 @@ armors:
     allowsStrafing: false
     allowsKneeling: false
     fearImmune: false
-    corpseBattle: 
+    corpseBattle:
      - STR_RENAULT_FT_RECOVER
      - TANK_CORPSE_2
      - TANK_CORPSE_3
@@ -260,8 +260,8 @@ armors:
     damageModifier: *SECTION_LIGHT_TANK_RESISTANCES
     units: *SECTION_TANK_UNITS
     builtInWeapons:
-      - AUX_37MM_PUTEAUX_CANNON 
-      - AUX_TANK_SMOKE_LAUNCHER      
+      - AUX_37MM_PUTEAUX_CANNON
+      - AUX_TANK_SMOKE_LAUNCHER
       - NULL_2X1_LS
       - NULL_2X1_RS
       - NULL_2X1_LL
@@ -302,7 +302,7 @@ items:
     weight: 44
     bigSprite: 545
     bulletSprite: 2
-    fireSound: 96  
+    fireSound: 96
     reloadSound: 526
     accuracySnap: 60
     accuracyAuto: 50
@@ -326,7 +326,7 @@ items:
     bulletSpeed: 32
     compatibleAmmo:
       - AUX_COAXIAL_HOTCHKISS_MG_AMMO
-    battleType: 1    
+    battleType: 1
     fixedWeapon: true
     recover: false
     experienceTrainingMode: 5
@@ -360,7 +360,7 @@ items:
     weight: 44
     bigSprite: 545
     bulletSprite: 2
-    fireSound: 96  
+    fireSound: 96
     reloadSound: 526
     accuracySnap: 60
     accuracyAuto: 50
@@ -384,7 +384,7 @@ items:
     bulletSpeed: 32
     compatibleAmmo:
       - STR_MG0815_DRUM
-    battleType: 1    
+    battleType: 1
     fixedWeapon: true
     recover: false
     experienceTrainingMode: 5
@@ -475,7 +475,7 @@ items:
     invWidth: 2
     invHeight: 3
 
-    
+
   - type: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND]
     size: 6
@@ -564,7 +564,7 @@ items:
     invWidth: 2
     invHeight: 3
 
-  - type: AUX_37MM_PUTEAUX_CANNON 
+  - type: AUX_37MM_PUTEAUX_CANNON
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND]
     size: 6
     costBuy: 0
@@ -772,8 +772,8 @@ ufopaedia:
     image_id: TANK_AMMO_TYPES_IMAGE
     text: STR_TANK_AMMO_TYPES_UFOPEDIA
     listOrder: 10221
-    text_width: 150  
-    
+    text_width: 150
+
   - id: AUX_QF_6_PDR_HOTCHKISS_CANNON
     type_id: 4
     section: STR_HEAVY_WEAPONS_PLATFORMS
@@ -829,7 +829,7 @@ ufopaedia:
   - id: AUX_COAXIAL_HOTCHKISS_MG_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
- 
+
   - id: AUX_COAXIAL_MG08_MG
     type_id: 4
     section: STR_HEAVY_WEAPONS_PLATFORMS
@@ -1008,15 +1008,15 @@ extraStrings:
       AUX_COAXIAL_HOTCHKISS_MG: "Coaxial Hotchkiss"
       AUX_COAXIAL_HOTCHKISS_MG_AMMO: "Coaxial Hotchkiss Ammo"
       AUX_COAXIAL_HOTCHKISS_MG_UFOPEDIA: "The Hotchkiss machine gun is a French-made automatic weapon used in fixed emplacements and motorized vehicles. It was chosen to be used on British, American and French tanks due the large number of MGs available on their arsenal. Medium accuracy, medium rate of fire."
-######################################################## 
+########################################################
       STR_MARK_V_ARMOR_UC: Mark V Tank
-      STR_MARK_V_ARMOR_UC_UFOPEDIA: The fifth model in the American/British Mark series, it is the first prototype to be mass-produced. It includes a Hotchkiss QF 6-pound naval gun, specially shortened for this combat vehicle. As a complement for operations against infantry, an M1914 Hotchkiss machine gun. Its firepower is moderate, although soldiers appreciate the support this tank provides. 
+      STR_MARK_V_ARMOR_UC_UFOPEDIA: The fifth model in the American/British Mark series, it is the first prototype to be mass-produced. It includes a Hotchkiss QF 6-pound naval gun, specially shortened for this combat vehicle. As a complement for operations against infantry, an M1914 Hotchkiss machine gun. Its firepower is moderate, although soldiers appreciate the support this tank provides.
       AUX_QF_6_PDR_CANNON: QF 6-Pounder Cannon
       AUX_QF_6_PDR_HOTCHKISS_CANNON_UFOPEDIA: "The First Lord of the Admiralty proposed a specially shortened version of the QF 6-pdr naval gun to be used on the new tanks. Like a shotgun, the barrel was sawed-off and the firing mechanism was modified to fit inside the small chassis, but the overall quality remained. "
       AUX_57MM_AP_CANNON_SHELLS: 57mm AP Shells
       AUX_57MM_HE_CANNON_SHELLS: 57mm HE Shells
       AUX_57MM_INC_CANNON_SHELLS: 57mm INC Shells
-######################################################## 
+########################################################
       STR_A7V_ARMOR_UC: A7V Tank
       STR_A7V_ARMOR_UC_UFOPEDIA: German engineers have put a lot of effort into this battle tank, equipping it with thick armour designed to keep its only crew member alive, as well as to withstand front and rear damage. Its armament consists of a 5.7cm Maxim-Nordenfelt cannon, similar in performance and power to that used by the American-British Mark tanks. Its extra armor makes it very slow.
       AUX_5_7CM_MAXIM_NORDENFELT_CANNON: 5.7cm Maxim-Nordenfelt Cannon
@@ -1024,45 +1024,46 @@ extraStrings:
       AUX_5_7CM_AP_CANNON_SHELLS: 5.7cm AP Shells
       AUX_5_7CM_HE_CANNON_SHELLS: 5.7cm HE Shells
       AUX_5_7CM_CANISTER_CANNON_SHELLS: 5.7cm Canister Shells
-######################################################## 
+########################################################
       STR_RENAULT_FT_ARMOR_UC: Renault FT Tank
       STR_RENAULT_FT_ARMOR_UC_UFOPEDIA: An agile and fast vehicle classified as 'lightweight tank', specially optimized for recon. Its 37mm Puteaux cannon does not allow it to pierce much of the enemy's armor, although its high rate of fire allows it to be fired continuously. It includes a smoke grenade disperser to provide coverage in assaults or retreats.
       AUX_37MM_PUTEAUX_CANNON: 37mm Puteaux Cannon
       AUX_37MM_PUTEAUX_CANNON_UFOPEDIA: "Small infantry cannon, with high rate of fire. As opposed to larger naval guns that had to be severely trimmed to fit inside the small tank chassis, this gun was little moddified. The small and compact size made it perfect. It lacks stopping power, but is useful in combat to supress enemies."
       AUX_37MM_AP_CANNON_SHELLS: 37mm AP Shells
-      AUX_TANK_SMOKE_LAUNCHER: Smoke Screen Launcher 
+      AUX_TANK_SMOKE_LAUNCHER: Smoke Screen Launcher
       AUX_TANK_SMOKE_GRENADE: Smoke Screen Grenade
       AUX_HWP_POP_SMOKE: Smoke Screen!
-######################################################## 
+########################################################
       AUX_75MM_CANNON_HE_SHELLS: 75mm HE Shells
       AUX_75MM_CANNON_AIRBUST_SHELLS: 75mm Airbust Shells
       AUX_75MM_CANNON_GAS_SHELLS: 75mm Cannon Gas Shells
 
 extraSprites:
-  - type: BIGOBS.PCK
-    files:
-      2500: Resources/Tanks/Bigob_MG08.png
-      2501: Resources/Tanks/Bigob_M1914.png
-      2502: Resources/Tanks/Bigob_M1914_Clip.png
-      2503: Resources/Tanks/Bigob_QF-6.png
-      2504: Resources/Tanks/Bigob_QF-6_AP_Clip.png
-      2505: Resources/Tanks/Bigob_QF-6_HE_Clip.png
-      2506: Resources/Tanks/Bigob_QF-6_INC_Clip.png
-      2507: Resources/Tanks/Bigob_5_7CM.png
-      2508: Resources/Tanks/Bigob_5_7CM_AP_Clip.png
-      2509: Resources/Tanks/Bigob_5_7CM_HE_Clip.png
-      2510: Resources/Tanks/Bigob_5_7CM_Canister_Clip.png
-      2511: Resources/Tanks/bigob_37MM.png
-      2512: Resources/Tanks/bigob_37MM_AP_Clip.png
-      2513: Resources/Tanks/Bigob_75MM.png
-      2514: Resources/Tanks/Bigob_75MM_HE_Clip.png
-      2515: Resources/Tanks/Bigob_75MM_AP_Clip.png
-      2516: Resources/Tanks/Bigob_75MM_Gas_Clip.png
-      2517: Resources/Tanks/Bigob_60MM_Mortar.png
-      2518: Resources/Tanks/Bigob_60MM_HE_Mortar_Clip.png
-      2519: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
-      2520: Resources/Tanks/bigob_MG18.png
-      2521: Resources/Tanks/Bigob_MG18_Clip.png
+# TODO uncomment this when the resources are found :D
+#   - type: BIGOBS.PCK
+#     files:
+#       2500: Resources/Tanks/Bigob_MG08.png
+#       2501: Resources/Tanks/Bigob_M1914.png
+#       2502: Resources/Tanks/Bigob_M1914_Clip.png
+#       2503: Resources/Tanks/Bigob_QF-6.png
+#       2504: Resources/Tanks/Bigob_QF-6_AP_Clip.png
+#       2505: Resources/Tanks/Bigob_QF-6_HE_Clip.png
+#       2506: Resources/Tanks/Bigob_QF-6_INC_Clip.png
+#       2507: Resources/Tanks/Bigob_5_7CM.png
+#       2508: Resources/Tanks/Bigob_5_7CM_AP_Clip.png
+#       2509: Resources/Tanks/Bigob_5_7CM_HE_Clip.png
+#       2510: Resources/Tanks/Bigob_5_7CM_Canister_Clip.png
+#       2511: Resources/Tanks/bigob_37MM.png
+#       2512: Resources/Tanks/bigob_37MM_AP_Clip.png
+#       2513: Resources/Tanks/Bigob_75MM.png
+#       2514: Resources/Tanks/Bigob_75MM_HE_Clip.png
+#       2515: Resources/Tanks/Bigob_75MM_AP_Clip.png
+#       2516: Resources/Tanks/Bigob_75MM_Gas_Clip.png
+#       2517: Resources/Tanks/Bigob_60MM_Mortar.png
+#       2518: Resources/Tanks/Bigob_60MM_HE_Mortar_Clip.png
+#       2519: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
+#       2520: Resources/Tanks/bigob_MG18.png
+#       2521: Resources/Tanks/Bigob_MG18_Clip.png
 
   - type: FERRET.PCK
     width: 256
