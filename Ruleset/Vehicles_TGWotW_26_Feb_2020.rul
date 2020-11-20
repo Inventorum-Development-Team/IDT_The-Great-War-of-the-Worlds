@@ -467,7 +467,7 @@ crafts:
 ########################################
   - type: STR_LCLASS_DESTROYER
     requires:
-      - STR_HEAVY_SUPPORT_SHIPS_RESEARCH
+      - STR_HEAVY_SUPPORT_SHIPS # STR_HEAVY_SUPPORT_SHIPS_RESEARCH
     sprite: 201
     fuelMax: 300
     damageMax: 130
@@ -702,6 +702,40 @@ craftWeapons:
 # weaponType 5 = Bombs (Free fall ordnance, close range, good damage)
 # weaponType 6 = Rockets (Rocket propelled projectiles, short range, very fast ROF)
 # weaponType 7 = Auxliary Systems (Fuel tanks, extra shields, etc)
+#Machine Gun
+  - type: STR_TWIN_HMG
+    weaponType: 0
+    sprite: 200
+    sound: 4
+    damage: 15
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 3
+    ammoMax: 200
+    rearmRate: 200
+    launcher: STR_TWIN_HMG_LAUNCHER
+    clip: STR_TWIN_HMG_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 10
+#Cannon
+  - type: STR_AUTOCANNON
+    weaponType: 1
+    sprite: 201
+    sound: 4
+    damage: 30
+    range: 15
+    accuracy: 35
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 100
+    rearmRate: 100
+    launcher: STR_AUTOCANNON_LAUNCHER
+    clip: STR_AUTOCANNON_ROUNDS_X50
+    projectileType: 2
+    projectileSpeed: 7
 #Forward Machine Gun
   - type: STR_VICKERS_MMG
     weaponType: 0
@@ -977,6 +1011,28 @@ items:
 ##################################
 ####### AIRCRAFT WEAPONS #########
 ##################################
+  - type: STR_TWIN_HMG_LAUNCHER
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_TWIN_HMG_ROUNDS_X50
+    size: 0.4
+    costBuy: 6000
+    costSell: 4000
+    transferTime: 48
+    clipSize: 50
+  - type: STR_AUTOCANNON_LAUNCHER
+    size: 1
+    costBuy: 32000
+    costSell: 27000
+    transferTime: 48
+  - type: STR_AUTOCANNON_ROUNDS_X50
+    size: 1.5
+    costBuy: 1750
+    costSell: 1500
+    transferTime: 48
+    clipSize: 50
   - type: STR_VICKERS_MMG_LAUNCHER
     size: 0.8
     costBuy: 21000
