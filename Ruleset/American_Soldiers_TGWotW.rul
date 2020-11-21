@@ -2,7 +2,7 @@ soldiers:
   - delete: STR_SOLDIER
   - type: STR_AMERICAN_SOLDIER
     flagOffset: 7
-    armorForAvatar: 
+    # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 30000
@@ -91,7 +91,7 @@ items:
 #    armor: 30
 #    recover: false
 armors:
-#American 
+#American
   - type: STR_AMERICAN_FIELD_UNIFORM_UC
     spriteSheet: XCOM_23.PCK
     spriteInv: MAN_23
@@ -406,7 +406,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/American/AMERICAN_GASMASK.png
- 
+
 #Officer Uniform
 #  - type: MAN_23OUF0.SPK
 #    singleImage: true
@@ -446,7 +446,7 @@ extraSprites:
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png	  
+#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_23TCF0.SPK
@@ -487,7 +487,7 @@ extraSprites:
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM.png	
+#      0: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM.png
 
   - type: BIGOBS.PCK
     files:

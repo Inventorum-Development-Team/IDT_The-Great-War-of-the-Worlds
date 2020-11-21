@@ -12,20 +12,20 @@ extended:
           var int special;
           var int woundFactor;
           var ptr RuleItem itemRuleset;
-          
+
           # do nothing if no health lost
           if eq to_health 0;
             return;
           end;
-          
+
           damaging_item.getRuleItem itemRuleset;
           itemRuleset.getTag special Tag.SPECIAL_WOUND;
-          
+
           # ignore special weapon type 1
           if eq special 1;
             return;
           end;
-          
+
           # set received wounds to wound factor for special weapon type 2
           if eq special 2;
             itemRuleset.getTag woundFactor Tag.WOUND_FACTOR;
@@ -34,7 +34,7 @@ extended:
             set to_wound wounds;
             return;
           end;
-          
+
           # set received wounds to 1/5 of the lost hp for default weapons
           set wounds to_health;
           div wounds 5;
@@ -44,6 +44,7 @@ extended:
 armors:
   - &HUMAN_ARMOR
     type: HUMAN_ARMOR
+    corpseBattle: [STR_CORPSE] # even the base armor needs a corpse
     scripts:
       damageUnit: |
         var int wounds;

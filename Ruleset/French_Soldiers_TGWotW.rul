@@ -2,7 +2,7 @@ soldiers:
   - delete: STR_SOLDIER
   - type: STR_FRENCH_SOLDIER
     flagOffset: 18
-    armorForAvatar: 
+    # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 35000
@@ -46,7 +46,7 @@ soldiers:
     armor: STR_FRENCH_FIELD_UNIFORM_UC
     standHeight: 22
     kneelHeight: 14
-    allowPiloting: false    
+    allowPiloting: false
     femaleFrequency: 0
     soldierNames:
       - delete
@@ -316,8 +316,8 @@ armors:
 #      - INV_NULL_2X1_RIGHT_LEG
 ##      - INV_NULL_1X1_LEFT_LEG
 #    units:
-#      - STR_FRENCH_SOLDIER	  
-	  
+#      - STR_FRENCH_SOLDIER
+
 ufopaedia:
   - id: STR_FRENCH_SOLDIER_INTRODUCTION
     type_id: 7
@@ -393,7 +393,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/French/FRENCH_FIELD_UNIFORM.png
-#Gas Mask 
+#Gas Mask
   - type: MAN_26GM.SPK
     singleImage: true
     files:
@@ -444,7 +444,7 @@ extraSprites:
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/French/FRENCH_OFFICER_UNIFORM.png	  
+#      0: Resources/French/FRENCH_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_26TCF0.SPK
@@ -485,7 +485,7 @@ extraSprites:
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/French/FRENCH_TRENCHCOAT_UNIFORM.png	
+#      0: Resources/French/FRENCH_TRENCHCOAT_UNIFORM.png
 
   - type: BIGOBS.PCK
     files:
@@ -528,6 +528,6 @@ extraStrings:
       STR_FRENCH_SOLDIER_INTRODUCTION: Le Poilu
       STR_FRENCH_SOLDIER_UFOPEDIA: There is no soldier tougher, coarser and fiercer than a French soldier. Nicknamed 'Poilu', which means 'hairy' because of their abundant moustache or beard, they are experienced in hand to hand combat, using melee weapons when they run out of ammunition. Sometimes they are somewhat insubordinate and do not follow incompetent officers Their honour is very high, they literally fight to the last man for the glory of their homeland.
       STR_FRENCH_FIELD_UNIFORM_UC: FRENCH ARMY FIELD UNIFORM
-      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: Trench Coat and Adrian Helmet introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure. It has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride.	
+      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: Trench Coat and Adrian Helmet introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure. It has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride.
       STR_FRENCH_GASMASK_UC: FRENCH ARMY GAS MASK
       STR_FRENCH_GASMASK_UC_UFOPEDIA: Gas mask modèle M1914, is a licensed version of the successful mask used by the troops of the German Imperial Army. It works exactly the same, which allows to exchange filters for masks, even full gasmasks, with their German brothers in arms. There are rumors that the Adrian M14 helmet has certain vision problems with this gas mask.

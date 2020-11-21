@@ -30,7 +30,7 @@ extended:
 
           unit.getRuleArmor turretArmor;
           turretArmor.getTag checkedTag Tag.ARMOR_IS_CREWED_WEAPON;
-          
+
           if neq 0 checkedTag;
 
             unit.setEnergy 0;
@@ -46,34 +46,34 @@ extended:
           var int unitIsUsingCrewedWeapon;
           var int gameCrewedWeaponExperienceBitCounter;
           var int unitCrewedWeaponExperience;
-          
+
           unit.getTag unitIsUsingCrewedWeapon Tag.UNIT_IS_USING_CREWED_WEAPON;
           if neq 0 unitIsUsingCrewedWeapon;
-          
+
             battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING;
             bit_and unitIsUsingCrewedWeapon gameCrewedWeaponExperienceBitCounter;
             if neq 0 unitIsUsingCrewedWeapon;
-          
+
               unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_FIRING;
               add unitCrewedWeaponExperience 1;
               unit.setTag Tag.UNIT_CREWED_WEAPON_EXPERIENCE_FIRING unitCrewedWeaponExperience;
-          
+
             end;
 
             battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_REACTIONS;
             bit_and unitIsUsingCrewedWeapon gameCrewedWeaponExperienceBitCounter;
             if neq 0 unitIsUsingCrewedWeapon;
-          
+
               unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS;
               add unitCrewedWeaponExperience 1;
               unit.setTag Tag.UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS unitCrewedWeaponExperience;
-          
+
             end;
-          
+
           end;
 
           return;
-      
+
 #*** Handles resetting crewed weapons ***
       - offset: 11
         code: |
@@ -131,10 +131,10 @@ extended:
         code: |
           var int crewedWeaponID;
           var int gameCrewedWeaponExperienceBitCounter;
-          
+
           attacker.getTag crewedWeaponID Tag.UNIT_CREWED_WEAPON_ID;
           battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING;
-          
+
           bit_or gameCrewedWeaponExperienceBitCounter crewedWeaponID;
           battle_game.setTag Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING gameCrewedWeaponExperienceBitCounter;
 
@@ -196,18 +196,18 @@ extended:
             battle_game.getTag crewedWeaponID Tag.GAME_CREWED_WEAPON_CURRENT_ID;
             # Limit to only 31 interactions (max of bitwise operations)
             if gt crewedWeaponID 30;
-              
+
               return 0 part side;
-            
+
             end;
             add crewedWeaponID 1; # increment beforehand since it might be set to 1
             battle_game.setTag Tag.GAME_CREWED_WEAPON_CURRENT_ID crewedWeaponID;
 
             battle_game.getTag crewedWeaponID Tag.GAME_CREWED_WEAPON_CURRENT_BIT_ID;
             if eq 0 crewedWeaponID; # ensure we're setting a bit
-            
+
               set crewedWeaponID 1;
-            
+
             end;
 
             unit.setTag Tag.UNIT_CREWED_WEAPON_ID crewedWeaponID;
@@ -444,7 +444,7 @@ extended:
                 soldier.Stats.setReactions currentStat;
 
               end;
-            
+
             end;
 
           end;
@@ -612,6 +612,42 @@ items:
     attraction: 10
     listOrder: 1104
 
+  # not sure if this should be here, but it was missing so I reinserted it -- pedro
+#   - type: STR_TGEWEHR
+#     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
+#     requires:
+#       - STR_ADVANCED_FIREARMS
+#     size: 0.3
+#     costBuy: 15000
+#     costSell: 8200
+#     weight: 18
+#     bigSprite: 10025
+#     floorSprite: 11025
+#     handSprite: 12096
+#     bulletSprite: 16 #Heavy MM bullet 35*16=560
+#     fireSound: 1013
+#     reloadSound: 1113
+#     compatibleAmmo:
+#       - STR_TGEWEHR_ROUND
+#     accuracyCloseQuarters: 65
+#     accuracyAimed: 90
+#     tuAimed: 75
+#     tuLoad: 20
+#     costThrow:
+#       energy: 20
+#     battleType: 1
+#     twoHanded: true
+#     oneHandedPenalty: 75
+#     invWidth: 2
+#     invHeight: 3
+#     armor: 20
+# #    snapRange: 20
+#     minRange: 10
+#     dropoff: 3
+#     attraction: 10
+#     listOrder: 2024
+
+
   - type: STR_TGEWEHR_ROUND
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT, STR_CLIPS]
     requires:
@@ -627,7 +663,7 @@ items:
     power: 95
     damageBonus:
       firing: 1.2
-      accuracy: 1.5
+      # accuracy: 1.5
     damageAlter:
       ArmorEffectiveness: 0.8
     damageType: 1
@@ -649,7 +685,7 @@ armors:
     spriteSheet: LEWIS_TURRET.PCK
     spriteInv: LEWIS_MG
     allowInv: true
-    corpseGeo:  STR_SMALL_TURRET_CORPSE
+    # corpseGeo:  STR_SMALL_TURRET_CORPSE # TODO FIXME (MISSING)
     corpseBattle:
       - STR_LEWIS_MG_TURRET_CORPSE
     frontArmor: 50
@@ -697,7 +733,7 @@ armors:
     spriteSheet: TGEWEHR_TURRET.PCK
     spriteInv: TGEWEHR
     allowInv: true
-    corpseGeo:  STR_SMALL_TURRET_CORPSE
+    # corpseGeo:  STR_SMALL_TURRET_CORPSE # TODO FIXME (MISSING)
     corpseBattle:
       - STR_TGEWEHR_TURRET_CORPSE
     frontArmor: 50
@@ -758,10 +794,10 @@ units:
     kneelHeight: 14
     deathSound: 23
     livingWeapon: true
-    zombiImmune: true
-    bleedImmune: true
-    stunImmune: true
-    painImmune: true
+    # zombieImmune: true
+    # bleedImmune: true
+    # stunImmune: true
+    # painImmune: true
     energyRecovery: 0
 
   - type: STR_TGEWEHR_TURRET
@@ -783,10 +819,10 @@ units:
     kneelHeight: 14
     deathSound: 23
     livingWeapon: true
-    zombiImmune: true
-    bleedImmune: true
-    stunImmune: true
-    painImmune: true
+    # zombieImmune: true
+    # bleedImmune: true
+    # stunImmune: true
+    # painImmune: true
     energyRecovery: 0
 
 extraSprites:
@@ -850,7 +886,7 @@ extraSprites:
       805: Resources/Turrets/BigConquerorAutocannon.png
 
   - type: FLOOROB.PCK
-    files:   
+    files:
       800: Resources/Turrets/FloorTurretWrench.png
       801: Resources/Turrets/FloorLewisMG.png
       803: Resources/Turrets/FloorTGewehr.png
@@ -889,7 +925,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/TURRET_GUIDE_IMAGE.PNG
-  
+
 extraSounds:
   - type: BATTLE.CAT
     files:
@@ -933,13 +969,12 @@ extraStrings:
       STR_LEWIS_MG_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE} Water cooled MG, useful to provide suppressive fire support to advancing troops. It's fixed mounting allows a continuous fire to be maintained without considerably affecting its accuracy."
       STR_LEWIS_MG: "Lewis .303 British MG"
       STR_LEWIS_MG_DRUM: "Lewis MG Drum"
-      STR_LEWIS_MG_TURRET_ARMOR: "Fixed Lewis MG Emplacement"
-#
+
       STR_TGEWEHR_TURRET: "T-Gewehr Anti-Tank"
       STR_TGEWEHR_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE}  Heavy, powerful, difficult to handle. It is said that a soldier can make two shots with this weapon, one for each shoulder. Annihilates slightly armored targets with powerful 13.5mm TuF rounds."
       STR_TGEWEHR: "T-Gewehr 13.5mm TuF"
       STR_TGEWEHR_ROUND: "T-Gewehr Round"
-      STR_LEWIS_MG_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
+      STR_TGEWEHR_MG_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
 #
       STR_TURRET_INTERACTION_ITEM: "Turret Wrench"
       STR_ASSEMBLE_TURRET: "Assemble"

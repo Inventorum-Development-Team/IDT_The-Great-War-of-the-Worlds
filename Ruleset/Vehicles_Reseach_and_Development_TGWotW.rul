@@ -27,7 +27,7 @@ research:
       - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
     disables:
       - STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
- 
+
 ##############################################
 ########## WAR GOES SERIOUS TECH ############
 ############################################
@@ -69,7 +69,7 @@ research:
     points: 20
     dependencies:
       - STR_MECHANIZED_WARFARE_RESEARCH
- 
+
 #######################################
 ###### TIER 1 FIGHTER RESEARCH #######
 ####################################
@@ -214,7 +214,7 @@ ufopaedia:
     text_width: 150
   - id: STR_LIGHT_CANNONS
     requires:
-      - STR_HEAVY_SUPPORT_SHIPS_RESEARCH
+      - STR_HEAVY_SUPPORT_SHIPS # STR_HEAVY_SUPPORT_SHIPS_RESEARCH
     type_id: 7
     section: STR_ALIEN_RESEARCH_UC
     image_id: LIGHT_CANNONS_IMAGE
@@ -455,7 +455,7 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/ROCKETS_IMAGE.png
-     
+
 extraStrings:
   - type: en-US
     strings:
@@ -499,10 +499,10 @@ extraStrings:
       STR_LIGHT_CANNONS: Light Cannons
       STR_LIGHT_CANNONS_UFOPEDIA: Light cannons are often categorized as dual purpose weapons, because they can attack both surface and airborne targets. They have a balance between power and rate of fire, and are designed to protect a ship from fast and agile threats. Given their rate of fire, they can be used as anti-aircraft weapons. They do not have the ability to penetrate the hull of a Martian ship with one round, but enough concentrated fire in the same place can cause damage. Average rate of fire, average damage, average accuracy are their characteristics.
       STR_AUTOCANNONS: Automatic Cannons
-      STR_AUTOCANNONS_UFOPEDIA: Autocannons are specially designed to provide superior firepower to machine guns, since they use howitzers instead of bullets, a considerably larger and heavier ammunition, filled with explosives. However, to prevent overheating of the guns and increase firing accuracy, their rate of fire is lower than that of lighter weapons. Their major disadvantage is that they have little ammunition, but their accuracy and damage compensate for this. Their characteristics are low fire ROF, high accuracy, damage and medium range. 
+      STR_AUTOCANNONS_UFOPEDIA: Autocannons are specially designed to provide superior firepower to machine guns, since they use howitzers instead of bullets, a considerably larger and heavier ammunition, filled with explosives. However, to prevent overheating of the guns and increase firing accuracy, their rate of fire is lower than that of lighter weapons. Their major disadvantage is that they have little ammunition, but their accuracy and damage compensate for this. Their characteristics are low fire ROF, high accuracy, damage and medium range.
       STR_ARTILLERY: Artillery
       STR_ARTILLERY_UFOPEDIA: Naval artillery is the mother of all weapons. These weapons are mounted exclusively on warships and usually fire heavy shells at very long range. The power of these weapons allows them to be used to bombard coastal targets without fear of reprisals. However, after each round of fire, their guns must be reloaded and this is a time-consuming task. It is highly effective against slow or stationary targets, but fast enemies can easily dodge the rounds. Very low rate of fire, very high damage, high accuracy, and very long range are its characteristics
       STR_BOMBS: Bombs
-      STR_BOMBS_UFOPEDIA: In the beginning of military aviation, bombs were limited to small hand grenades that were thrown out of the cockpit by the pilots or crew members themselves. With improved technology, special bomb bays and targeting systems were developed to increase the ability to accurately bomb targets. They are quite powerful, but in order to destroy a target with them, the aircraft must come very close to the target, exposing itself to anti-aircraft fire. They are characterized by high damage, low drop rate of fire, very short range and high accuracy. 
+      STR_BOMBS_UFOPEDIA: In the beginning of military aviation, bombs were limited to small hand grenades that were thrown out of the cockpit by the pilots or crew members themselves. With improved technology, special bomb bays and targeting systems were developed to increase the ability to accurately bomb targets. They are quite powerful, but in order to destroy a target with them, the aircraft must come very close to the target, exposing itself to anti-aircraft fire. They are characterized by high damage, low drop rate of fire, very short range and high accuracy.
       STR_ROCKETS: Rockets
       STR_ROCKETS_UFOPEDIA: Although rockets have been used since Ancient China, until the 19th century the quality of the rockets and the way to fire them was improved. With the beginning of the 20th century, the interest in air-to-air rockets grew, as well as the quality of the materials and their explosive material. Rudimentary designs originally created to shoot down airships were created by inventors such as Yves Le Prieur and Rudolf Nebel. Their main function is to quickly saturate an area with a large number of projectiles. They are characterized by a very high rate of fire, short range and low precision.
