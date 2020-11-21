@@ -1,7 +1,7 @@
 soldiers:
   - type: STR_PILOT
     flagOffset: 10
-    armorForAvatar: 
+    # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 50000
@@ -67,7 +67,7 @@ items:
     armor: 30
     recover: false
 armors:
-#Pilot 
+#Pilot
   - type: STR_PILOT_UNIFORM_UC
     spriteSheet: XCOM_25.PCK
     spriteInv: MAN_25
@@ -184,7 +184,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Pilot/PILOT_UNIFORM.png 
+      0: Resources/Pilot/PILOT_UNIFORM.png
 
   - type: BIGOBS.PCK
     files:

@@ -1,9 +1,9 @@
 units:
-#A brief explanation: 
-#The "Rifleman" are soldiers who use rifles as their main weapon, they will be the most common you will find in assaults. 
+#A brief explanation:
+#The "Rifleman" are soldiers who use rifles as their main weapon, they will be the most common you will find in assaults.
 #The "Assault" will use short-range weapons, such as pistols, submachine guns. They carry a lot explosives of explosives, more than other soldier classes.
 #The "Support" are soldiers who have heavy weapons, as machine guns will be less common.
-#The "Raider" are soldiers specialized in close quarters combat and posess medical equipment. 
+#The "Raider" are soldiers specialized in close quarters combat and posess medical equipment.
 #The "Officer" are special NPCs, leading an assault. They are armed with pistols, but they also carry moral enhancer equipment and Sabres. Very smart, if they die the moral drops abruptly
 #######################################################
 #British
@@ -33,21 +33,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_SMLE_MKIII
         - STR_SMLE_MKIII_CLIP
         - STR_SMLE_MKIII_CLIP
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_SMLE_MKIII
         - STR_SMLE_MKIII_CLIP
         - STR_SMLE_MKIII_CLIP
         - STR_SMLE_MKIII_CLIP
         - STR_SMLE_MKIII_CLIP
         - STR_BANDAGES
-      - 
+      -
         - STR_SMLE_MKIII
         - STR_SMLE_MKIII_CLIP
         - STR_WEBLEY_REVOLVER
@@ -78,14 +78,14 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_MILLS_BOMB
         - STR_DYNAMITE
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
@@ -93,7 +93,7 @@ units:
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
@@ -126,19 +126,19 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_TRENCH_MACE
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_CHAUCHAT_LMG_CLIP
         - STR_TRENCH_KNIFE
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_CHAUCHAT_LMG_CLIP
@@ -171,21 +171,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_TRENCH_MACE
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_BANDAGES
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_SHOVEL
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_MEDIKIT
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_KNIFE
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
@@ -219,22 +219,22 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_SABRE
         - STR_WHISTLE
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_SABRE
         - STR_BANDAGES
-      - 
+      -
         - STR_SABRE
         - STR_WHISTLE
-        - STR_PAINKILLERS
+        - STR_PAINKILLER
 #####################################
 #Tier II, employs advanced Martian Metal ballistic weapons
   - type: STR_BRITISH_T2_RIFLEMAN_NPC
@@ -262,21 +262,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
-        - STR_FARQUHAR_HILL
-        - STR_FARQUHAR_HILL_CLIP
-        - STR_FARQUHAR_HILL_CLIP
+      -
+        - STR_FARQHUAR_HILL
+        - STR_FARQHUAR_HILL_CLIP
+        - STR_FARQHUAR_HILL_CLIP
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_MILLS_BOMB
-      - 
-        - STR_FARQUHAR_HILL
-        - STR_FARQUHAR_HILL_CLIP
-        - STR_FARQUHAR_HILL_CLIP
+      -
+        - STR_FARQHUAR_HILL
+        - STR_FARQHUAR_HILL_CLIP
+        - STR_FARQHUAR_HILL_CLIP
         - STR_BANDAGES
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_SMLE_MKIII
         - STR_SMLE_MKIII_CLIP
         - STR_WEBLEY_REVOLVER
@@ -308,21 +308,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_TRENCH_GUN
         - STR_TRENCH_GUN_SHELLS
         - STR_TRENCH_GUN_SHELLS
         - STR_TRENCH_MACE
         - STR_DYNAMITE
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_TRENCH_GUN
         - STR_TRENCH_GUN_SHELLS
         - STR_TRENCH_GUN_SHELLS
         - STR_TRENCH_KNIFE
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_TRENCH_SHOVEL
         - STR_DYNAMITE
         - STR_DYNAMITE
@@ -352,17 +352,17 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_HUOT_LMG
         - STR_HUOT_LMG_DRUM
         - STR_TRENCH_MACE
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_HUOT_LMG
         - STR_HUOT_LMG_DRUM
         - STR_HUOT_LMG_DRUM
         - STR_TRENCH_KNIFE
-      - 
+      -
         - STR_HUOT_LMG
         - STR_HUOT_LMG_DRUM
         - STR_HUOT_LMG_DRUM
@@ -395,19 +395,19 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_SPRINGFIELD
         - STR_SPRINGFIELD_CLIP
         - STR_SPRINGFIELD_CLIP
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
-      - 
+      -
         - STR_SPRINGFIELD
         - STR_SPRINGFIELD_CLIP
         - STR_SPRINGFIELD_CLIP
         - STR_BANDAGES
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_SPRINGFIELD
         - STR_SPRINGFIELD_CLIP
         - STR_M1911_COLT
@@ -438,21 +438,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_DYNAMITE
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_TRENCH_KNIFE
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
@@ -484,7 +484,7 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_M1911_COLT
@@ -526,21 +526,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_TRENCH_MACE
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_BANDAGES
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_SHOVEL
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_MEDIKIT
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_KNIFE
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
@@ -574,26 +574,26 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_SABRE
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_WHISTLE
-      - 
+      -
         - STR_SABRE
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_WHISTLE
         - STR_BANDAGES
-      - 
+      -
         - STR_SABRE
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_WHISTLE
-        - STR_PAINKILLERS
+        - STR_PAINKILLER
 #####################################
 #Tier II, employs advanced Martian Metal ballistic weapons
   - type: STR_AMERICAN_T2_RIFLEMAN_NPC
@@ -621,20 +621,20 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_MONDRAGON
         - STR_MONDRAGON_CLIP
         - STR_MONDRAGON_CLIP
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_MONDRAGON
         - STR_MONDRAGON_CLIP
         - STR_MONDRAGON_CLIP
         - STR_BANDAGES
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_SPRINGFIELD
         - STR_SPRINGFIELD_CLIP
         - STR_SPRINGFIELD_CLIP
@@ -666,19 +666,19 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_TRENCH_GUN
         - STR_TRENCH_GUN_SHELLS
         - STR_TRENCH_MACE
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_TRENCH_GUN
         - STR_TRENCH_GUN_SHELLS
         - STR_TRENCH_GUN_SHELLS
         - STR_TRENCH_KNIFE
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
@@ -709,18 +709,18 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_BAR
         - STR_BAR_CLIP
         - STR_BAR_CLIP
         - STR_TRENCH_MACE
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_BAR
         - STR_BAR_CLIP
         - STR_BAR_CLIP
         - STR_TRENCH_KNIFE
-      - 
+      -
         - STR_BAR
         - STR_BAR_CLIP
         - STR_TRENCH_SHOVEL
@@ -755,21 +755,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_GEWEHR98
         - STR_GEWEHR98_CLIP
         - STR_GEWEHR98_CLIP
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_GEWEHR98
         - STR_GEWEHR98_CLIP
         - STR_GEWEHR98_CLIP
         - STR_BANDAGES
         - STR_STIELHANDGRENADE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_GEWEHR98
         - STR_GEWEHR98_CLIP
         - STR_MAUSER
@@ -801,21 +801,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
         - STR_STIELHANDGRENADE
         - STR_DYNAMITE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
         - STR_STIELHANDGRENADE
         - STR_STIELHANDGRENADE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
@@ -848,21 +848,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_TRENCH_MACE
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
         - STR_BANDAGES
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_SHOVEL
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
         - STR_MEDIKIT
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_KNIFE
         - STR_MAUSER
         - STR_MAUSER_CLIP
@@ -896,26 +896,26 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_SABRE
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
         - STR_WHISTLE
-      - 
+      -
         - STR_SABRE
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
         - STR_BANDAGES
         - STR_WHISTLE
-      - 
+      -
         - STR_SABRE
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
         - STR_WHISTLE
-        - STR_PAINKILLERS
+        - STR_PAINKILLER
 #####################################
 #Tier II, employs advanced Martian Metal ballistic weapons
   - type: STR_GERMAN_T2_RIFLEMAN_NPC
@@ -943,27 +943,28 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_GEWEHR98
         - STR_GEWEHR98_CLIP
         - STR_GEWEHR98_CLIP
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_GEWEHR98
         - STR_GEWEHR98_CLIP
         - STR_GEWEHR98_CLIP
         - STR_BANDAGES
         - STR_STIELHANDGRENADE
         - STR_STIELHANDGRENADE
-      - 
-        - STR_TGEWEHR
-        - STR_TGEWEHR_ROUND
-        - STR_TGEWEHR_ROUND
-        - STR_TGEWEHR_ROUND
-        - STR_TGEWEHR_ROUND
-        - STR_TRENCH_KNIFE
+# TODO: disabled as STR_TGEWEHR does not exist!
+      # -
+      #   - STR_TGEWEHR
+      #   - STR_TGEWEHR_ROUND
+      #   - STR_TGEWEHR_ROUND
+      #   - STR_TGEWEHR_ROUND
+      #   - STR_TGEWEHR_ROUND
+      #   - STR_TRENCH_KNIFE
   - type: STR_GERMAN_T2_ASSAULT_NPC
     race: STR_HUMANS
     rank: STR_LIVE_SOLDIER
@@ -989,21 +990,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_LUGER_ARTILLERY
         - STR_LUGER_ARTILLERY_DRUM
         - STR_LUGER_ARTILLERY_DRUM
         - STR_TRENCH_MACE
         - STR_DYNAMITE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_LUGER_ARTILLERY
         - STR_LUGER_ARTILLERY_DRUM
         - STR_LUGER_ARTILLERY_DRUM
         - STR_TRENCH_KNIFE
         - STR_STIELHANDGRENADE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_MAUSER
         - STR_MAUSER_CLIP
         - STR_MAUSER_CLIP
@@ -1035,17 +1036,17 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_MG0815
         - STR_MG0815_DRUM
         - STR_TRENCH_MACE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_MG0815
         - STR_MG0815_DRUM
         - STR_MG0815_DRUM
         - STR_TRENCH_KNIFE
-      - 
+      -
         - STR_MG0815
         - STR_MG0815_DRUM
         - STR_MG0815_DRUM
@@ -1078,21 +1079,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_LEBEL
         - STR_LEBEL_CLIP
         - STR_LEBEL_CLIP
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_LEBEL
         - STR_LEBEL_CLIP
         - STR_LEBEL_CLIP
         - STR_BANDAGES
         - STR_STIELHANDGRENADE
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_LEBEL
         - STR_LEBEL_CLIP
         - STR_LEBEL_CLIP
@@ -1124,7 +1125,7 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
@@ -1132,7 +1133,7 @@ units:
         - STR_DYNAMITE
         - STR_WHISTLE
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
@@ -1140,7 +1141,7 @@ units:
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
         - STR_WHISTLE
-      - 
+      -
         - STR_TRENCH_SHOVEL
         - STR_DYNAMITE
         - STR_DYNAMITE
@@ -1170,17 +1171,17 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_TRENCH_MACE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_CHAUCHAT_LMG_CLIP
         - STR_TRENCH_KNIFE
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_CHAUCHAT_LMG_CLIP
@@ -1211,21 +1212,21 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_TRENCH_MACE
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_BANDAGES
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_SHOVEL
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
         - STR_M1911_COLT_CLIP
         - STR_MEDIKIT
         - STR_BANDAGES
-      - 
+      -
         - STR_TRENCH_KNIFE
         - STR_M1911_COLT
         - STR_M1911_COLT_CLIP
@@ -1259,20 +1260,20 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_SABRE
         - STR_WHISTLE
-      - 
+      -
         - STR_SABRE
         - STR_BANDAGES
         - STR_WHISTLE
-      - 
+      -
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_WEBLEY_REVOLVER_CLIP
         - STR_SABRE
         - STR_WHISTLE
-        - STR_PAINKILLERS
+        - STR_PAINKILLER
 #####################################
 #Tier II, employs advanced Martian Metal ballistic weapons
   - type: STR_FRENCH_T2_RIFLEMAN_NPC
@@ -1300,19 +1301,19 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_RSC17
         - STR_RSC17_CLIP
         - STR_RSC17_CLIP
         - STR_WEBLEY_REVOLVER
         - STR_WEBLEY_REVOLVER_CLIP
-      - 
+      -
         - STR_RSC17
         - STR_RSC17_CLIP
         - STR_RSC17_CLIP
         - STR_BANDAGES
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_LEBEL
         - STR_LEBEL_CLIP
         - STR_LEBEL_CLIP
@@ -1345,19 +1346,19 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_RIBEYROLLES
         - STR_RIBEYROLLES_CLIP
         - STR_RIBEYROLLES_CLIP
         - STR_DYNAMITE
         - STR_STIELHANDGRENADE
-      - 
+      -
         - STR_RIBEYROLLES
         - STR_RIBEYROLLES_CLIP
         - STR_RIBEYROLLES_CLIP
         - STR_MILLS_BOMB
         - STR_MILLS_BOMB
-      - 
+      -
         - STR_RIBEYROLLES
         - STR_RIBEYROLLES_CLIP
         - STR_RIBEYROLLES_CLIP
@@ -1389,17 +1390,17 @@ units:
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_TRENCH_MACE
         - STR_CHAUCHAT_LMG_CLIP
-      - 
+      -
         - STR_CHAUCHAT_LMG
         - STR_CHAUCHAT_LMG_CLIP
         - STR_CHAUCHAT_LMG_CLIP
         - STR_TRENCH_KNIFE
-      - 
+      -
         - STR_RIBEYROLLES
         - STR_RIBEYROLLES_CLIP
         - STR_RIBEYROLLES_CLIP

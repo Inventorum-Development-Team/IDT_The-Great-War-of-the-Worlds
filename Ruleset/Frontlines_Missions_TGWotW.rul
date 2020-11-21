@@ -59,7 +59,7 @@ terrains:
         length: 10
       - name: DEEPTRENCH12
         width: 10
-        length: 10    
+        length: 10
       - name: DEEPTRENCH13
         width: 10
         length: 10
@@ -83,48 +83,48 @@ terrains:
         groups: 2
       - name: DEEPTRENCH19
         width: 10
-        length: 10   
+        length: 10
       - name: DEEPTRENCH20
         width: 10
-        length: 10  
+        length: 10
       - name: DEEPTRENCH20
         width: 10
-        length: 10  
+        length: 10
       - name: DEEPTRENCH21
         width: 10
-        length: 10  
+        length: 10
       # - name: DEEPTRENCH22
       #   width: 20
-      #   length: 20  
+      #   length: 20
       #   groups: 4
       - name: DEEPTRENCH24 #CROSS ROAD
         width: 10
-        length: 10  
+        length: 10
         groups: 4
       - name: DEEPTRENCH25 # Vertical Road
         width: 10
-        length: 10  
+        length: 10
         groups: 3
       - name: DEEPTRENCH26 # Vertical Road
         width: 10
-        length: 10  
+        length: 10
         groups: 3
       - name: DEEPTRENCH27 # Vertical Road
         width: 10
-        length: 10  
+        length: 10
         groups: 3
       - name: DEEPTRENCH28 # Vertical Road
         width: 10
-        length: 10  
+        length: 10
         groups: 3
       - name: DEEPTRENCH29 # Vertical Road
         width: 10
-        length: 10  
+        length: 10
         groups: 3
       - name: DEEPTRENCH30 # Vertical Road
         width: 10
-        length: 10  
-        groups: 3  
+        length: 10
+        groups: 3
     civilianTypes:
       - STR_FRENCH_T1_RIFLEMAN_NPC
       - STR_FRENCH_T1_ASSAULT_NPC
@@ -145,7 +145,7 @@ terrains:
       - STR_GERMAN_T1_ASSAULT_NPC
       - STR_GERMAN_T1_RAIDER_NPC
       - STR_GERMAN_T1_OFFICER_NPC
-      - STR_GERMAN_T1_SUPPORT_NPC
+      # - STR_GERMAN_T1_SUPPORT_NPC # TODO DOES NOT EXIST
     mapBlocks: &AnchorVillage
       - name: VILBAN00
         width: 10
@@ -308,7 +308,7 @@ terrains:
       - STR_AMERICAN_T1_RAIDER_NPC
       - STR_AMERICAN_T1_OFFICER_NPC
       - STR_AMERICAN_T1_SUPPORT_NPC
-    mapBlocks: 
+    mapBlocks:
       - name: FORESTPOLAR00 #RAIL
         width: 10
         length: 10
@@ -371,7 +371,7 @@ terrains:
         length: 10
         groups: 3 # NS RAIL
 
- 
+
 alienDeployments:
 ##############################################
 ######### GRAND BATTLE DEPLOYMENTS ##########
@@ -446,7 +446,7 @@ alienDeployments:
             - STR_LUGER_ARTILLERY_DRUM
             - STR_STIELHANDGRENADE
             - STR_STIELHANDGRENADE
-            - STR_DYNAMITE            
+            - STR_DYNAMITE
           -
             - STR_MP18
             - STR_MP18_DRUM
@@ -538,7 +538,7 @@ alienDeployments:
             - STR_MAUSER_CLIP
             - STR_MAUSER_CLIP
             - STR_WHISTLE
-            
+
           -
             - STR_SABRE
             - STR_MAUSER
@@ -575,7 +575,7 @@ alienDeployments:
             - STR_MAUSER_CLIP
             - STR_MAUSER_CLIP
             - STR_WHISTLE
-            
+
           -
             - STR_SABRE
             - STR_MAUSER
@@ -651,25 +651,25 @@ alienDeployments:
             - STR_FLAMETHROWER
             - STR_MAUSER
             - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP  
+            - STR_MAUSER_CLIP
         extraRandomItems:
           - [STR_TRENCH_SHOVEL, STR_TRENCH_KNIFE, STR_TRENCH_MACE]
           - [STR_DYNAMITE, STR_STIELHANDGRENADE, STR_STIELHANDGRENADE]
-          - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]		
+          - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]
     width: 60
     length: 60
     height: 10
-    turnLimit: 10 
+    turnLimit: 10
     chronoTrigger: 2
     cheatTurn: 5
     civilians: 0 # no random civilians
     civiliansByType:
-      STR_FRENCH_T2_RIFLEMAN_NPC: 4 
+      STR_FRENCH_T2_RIFLEMAN_NPC: 4
       STR_FRENCH_T2_ASSAULT_NPC: 4
       STR_FRENCH_T1_OFFICER_NPC: 2
       STR_FRENCH_T1_RAIDER_NPC: 2
       STR_FRENCH_T2_SUPPORT_NPC: 2
-    terrains:  
+    terrains:
       - STR_FRONTLINES_VERDUN_FORT_VAUX_TERRAIN
 #    music:
 #      - EPIC2
@@ -678,7 +678,7 @@ alienDeployments:
       desc: STR_FRONTLINES_VERDUN_FORT_VAUX_BRIEFING
       palette: 1
       textOffset: -16
-      background: FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND 
+      background: FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND
       showTarget: false
       showCraft: false
 
@@ -752,7 +752,7 @@ alienDeployments:
             - STR_RIBEYROLLES_CLIP
             - STR_MILLS_BOMB
             - STR_MILLS_BOMB
-            - STR_DYNAMITE            
+            - STR_DYNAMITE
           -
             - STR_RIBEYROLLES
             - STR_RIBEYROLLES_CLIP
@@ -957,17 +957,17 @@ alienDeployments:
             - STR_FLAMETHROWER
             - STR_WEBLEY_REVOLVER
             - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP 
+            - STR_WEBLEY_REVOLVER_CLIP
         extraRandomItems:
           - [STR_TRENCH_SHOVEL, STR_TRENCH_KNIFE, STR_TRENCH_MACE]
           - [STR_DYNAMITE, STR_MILLS_BOMB, STR_MILLS_BOMB]
-          - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]		
+          - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]
     width: 60
     length: 60
     height: 10
     civilians: 0 # no random civilians
-    civiliansByType:	  
-      STR_GERMAN_T2_RIFLEMAN_NPC: 4 
+    civiliansByType:
+      STR_GERMAN_T2_RIFLEMAN_NPC: 4
       STR_GERMAN_T2_ASSAULT_NPC: 4
       STR_GERMAN_T1_OFFICER_NPC: 2
       STR_GERMAN_T1_RAIDER_NPC: 4
@@ -990,8 +990,8 @@ alienDeployments:
     length: 60
     height: 10
     civilians: 0 # no random civilians
-    civiliansByType:	  
-      STR_AMERICAN_T2_RIFLEMAN_NPC: 2 
+    civiliansByType:
+      STR_AMERICAN_T2_RIFLEMAN_NPC: 2
       STR_AMERICAN_T2_ASSAULT_NPC: 3
       STR_AMERICAN_T1_OFFICER_NPC: 1
       STR_AMERICAN_T1_RAIDER_NPC: 1
@@ -1045,22 +1045,22 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND.png
-  - type: FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BACKGROUND 
+  - type: FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BACKGROUND.png
-  - type: FRONTLINES_MEUSE_ARGONNE_BACKGROUND 
+  - type: FRONTLINES_MEUSE_ARGONNE_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Backgrounds/FRONTLINES_MEUSE_ARGONNE_BACKGROUND.png
-     
+
 ##########################################
 ######### GRAND BATTLE ENEMIES ##########
-########################################     
+########################################
 alienRaces: # usually in file AlianRaces.rul
   - id: STR_GERMAN_ARMY
     members:

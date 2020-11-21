@@ -3,6 +3,8 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_PISTOLS]
     requires:
       - STR_ALIENS_ONLY
+    compatibleAmmo:
+      - STR_HEATRAY_PISTOL_BATTERY
     size: 0.3
     costSell: 7500
     weight: 15
@@ -52,6 +54,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CARBINES]
     requires:
       - STR_ALIENS_ONLY
+    compatibleAmmo: [STR_HEATRAY_CARBINE_BATTERY]
     size: 0.3
     costSell: 7500
     weight: 20
@@ -100,12 +103,13 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_SELFLOADING_RIFLES]
     requires:
       - STR_ALIENS_ONLY
+    compatibleAmmo: [STR_HEATRAY_RIFLE_BATTERY]
     size: 0.6
     costSell: 20000
     weight: 36
     bigSprite: 752
     floorSprite: 752
-    handSprite: 1016
+    handSprite: 752
     bulletSprite: 30
     fireSound: 601
     accuracyAuto: 38
@@ -152,12 +156,13 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY]
     requires:
       - STR_ALIENS_ONLY
+    compatibleAmmo: [STR_HEATRAY_CANNON_BATTERY]
     size: 0.4
     costSell: 30000
     weight: 43
     bigSprite: 753
     floorSprite: 753
-    handSprite: 1024
+    handSprite: 753
     bulletSprite: 30
     fireSound: 602
     accuracyAimed: 130
@@ -196,12 +201,13 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_BOLT_ACTION_RIFLES]
     requires:
       - STR_ALIENS_ONLY
+    compatibleAmmo: [STR_HEATRAY_SNIPER_BATTERY]
     size: 0.4
     costSell: 30000
     weight: 40
     bigSprite: 754
     floorSprite: 754
-    handSprite: 1032
+    handSprite: 782
     bulletSprite: 30
     fireSound: 603
     accuracySnap: 60
@@ -248,7 +254,7 @@ items:
     weight: 8
     bigSprite: 755
     floorSprite: 755
-    handSprite: 1040
+    handSprite: 790
     bulletSprite: 4
     hitAnimation: 200
     fireSound: 604
@@ -274,6 +280,38 @@ items:
       FTAG_BUFF_VALUE_TIMEUNITS: -10
       FTAG_BUFF_VALUE_STAMINA: -15
   - type: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    size: 0.1
+    costSell: 800
+    weight: 1
+    bigSprite: 756
+    floorSprite: 756
+    hitSound: 0
+    power: 20
+    hitAnimation: 200
+    damageAlter:
+      IgnoreDirection: true
+      IgnorePainImmunity: true
+      ArmorEffectiveness: 0
+      ToStun: 1.5
+      ToTime: 1.5
+      ToEnergy: 3.0
+      ToArmor: 0
+      ToTile: 0
+      ToItem: 0
+      ToWound: 0.1
+      SmokeThreshold: 1
+      FixRadius: 5
+    damageType: 15
+    clipSize: 5
+    battleType: 2
+    armor: 20
+    invWidth: 1
+    invHeight: 2
+    listOrder: 3398
+### ATTENTION!! THIS IS LITERALLY A COPY PASTE OF STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP,
+### TODO        BUT THIS WAS MISSING. RATHER THAN CHANGE ALL THE REFERENCES I ADDED THIS IN FOR NOW
+  - type: STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     size: 0.1
     costSell: 800
@@ -365,7 +403,7 @@ items:
     weight: 8
     bigSprite: 757
     floorSprite: 757
-    handSprite: 1048
+    handSprite: 798
     bulletSprite: 4
     hitAnimation: 66
     fireSound: 605
@@ -420,7 +458,7 @@ items:
     size: 0.1
     costSell: 250
     weight: 3
-    bigSprite: 759
+    bigSprite: 780 # TODO: changed this from 759 to 780, please verify
     floorSprite: 4
     damageType: 1
     damageAlter:
@@ -432,7 +470,7 @@ items:
       RandomWound: true
     hitSound: 22
     hitAnimation: 66
-    blastRadius: 0 
+    blastRadius: 0
     power: 15
     clipSize: 3
     invHeight: 1
@@ -451,7 +489,7 @@ items:
     size: 0.1
     costSell: 250
     weight: 3
-    bigSprite: 1010
+    bigSprite: 759 # TODO please verify
     floorSprite: 4
     power: 20
     damageType: 8

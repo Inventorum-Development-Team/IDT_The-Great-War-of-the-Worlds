@@ -1,7 +1,7 @@
 soldiers:
   - delete: STR_SOLDIER
   - type: STR_BRITISH_SOLDIER
-    armorForAvatar: 
+    # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 50000
@@ -90,7 +90,7 @@ items:
 #    armor: 30
 #    recover: false
 armors:
-#British 
+#British
   - type: STR_BRITISH_FIELD_UNIFORM_UC
     spriteSheet: XCOM_22.PCK
     spriteInv: MAN_22
@@ -443,7 +443,7 @@ extraSprites:
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png	  
+#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_23TCF0.SPK

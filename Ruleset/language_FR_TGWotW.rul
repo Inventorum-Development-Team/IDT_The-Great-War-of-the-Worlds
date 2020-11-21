@@ -68,7 +68,7 @@
       STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA: "Version modifiée de l'uniforme de campagne introduit en 1902, l'uniforme standard du modèle M1912 des troupes britanniques et du Commonwealth comprend une veste et un pantalon avec différentes poches et un casque Brodie M12, pour se protéger des blessures à la tête."
       STR_BRITISH_GASMASK_UC: "MASQUE À GAZ DU COMMONWEALTH"
       STR_BRITISH_GASMASK_UC_UFOPEDIA: "Le masque à gaz modèle Harrison, Lambert & Sadd HLS Mk1 de conception britannique, est une grande amélioration du modèle P utilisé au début de la guerre. Il s'adapte mieux au casque Brodie M12 et ne dépend pas d'un respirateur externe pour fonctionner."
-            
+
 #**************************************
 # Campaign_Story_Missions_TGWotW
 #**************************************
@@ -76,7 +76,7 @@
       STR_CAMPAIGN_SIEGE_OF_VERDUN_BRIEFING: "..."
       STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME: "Le siège de Verdun"
       STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT_DESCRIPTION: "Allez immédiatement défendre Verdun. C'est le seul point de la zone d'occupation du Benelux où les Martiens peuvent briser nos défenses. Le British Black Watch Regiment et le 151e Régiment d'infanterie français sont en route pour soutenir notre assaut."
-  
+
       STR_CAMPAIGN_VERDUN_VOIE_SACREE: "Le siège de Verdun, la Voie Sacrée"
       STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING: "Les Martiens ont lancé une forte attaque sur la place fortifiée de Verdun. Le docteur Nikola Tesla est piégé dans le camp du village de Fleury-devant-Douaumont, en première ligne. Nous devons d'abord reconquérir la Voie Sacrée des mains des Martiens, pour permettre à de nouveaux renforts et ravitaillements alliés d'atteindre la ville assiégée."
 
@@ -95,7 +95,6 @@
       STR_LEWIS_MG_TURRET_UFOPEDIA: "Manipulation de l'arme.{NEWLINE} À GENOUX+MÊLÉE: utiliser l'arme{NEWLINE} DEBOUT+MÊLÉE: pousser l'arme{NEWLINE} CLÉ À MOLETTE 1: démonter (paralyser){NEWLINE} CLÉ À MOLETTE 2: monter (réveiller). MG refroidi à l'eau, fournit un appui-feu aux troupes en progression. Son montage fixe permet un feu continu en affectant peu sa précision."
       STR_LEWIS_MG: "Mitrailleuse Lewis .303"
       STR_LEWIS_MG_DRUM: "Munit. Mitrailleuse Lewis"
-      STR_LEWIS_MG_TURRET_ARMOR: "Emplacement Lewis MG fixe"
 #
       STR_TGEWEHR_TURRET: "T-Gewehr Anti-Tank"
       STR_TGEWEHR_TURRET_UFOPEDIA: "Manipulation de l'arme.{NEWLINE} À GENOUX+MÊLÉE: Utiliser l'arme.{NEWLINE} DEBOUT+MÊLÉE: pousser l'arme.{NEWLINE} CLÉ À MOLETTE 1: démonter (paralyser){NEWLINE} CLÉ À MOLETTE 2: monter (réveiller). Lourd, puissant, difficile à manier. On dit qu'un soldat ne peut faire que deux tirs, un pour chaque épaule. Annihile les cibles peu blindées grâce à ses balles."
@@ -189,11 +188,11 @@
       STR_GERMAN_SOLDIER_INTRODUCTION: "Les Frisés"
       STR_GERMAN_SOLDIER_UFOPEDIA: "Les courageux et héroïques soldats du Kaiser servent vaillamment sur le champ de bataille. L'une des plus grandes armées d'Europe. Ironiquement appelée 'Frisés', dérivé de 'Fritz'. Ils sont parmi les meilleurs tireurs d'élite au monde, depuis l'époque napoléonienne, ils se distinguent par leur précision et leur létalité. Ils ont mis de côté leur rivalité avec les Français pour travailler à leurs côtés."
       STR_GERMAN_FIELD_UNIFORM_UC: "UNIFORME DE L'ARMÉE ALLEMANDE"
-      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: "Uniforme standard de la Deutsches Heer. Entré en service en 1910, l'uniforme feldgrau a remplacé les anciens uniformes colorés. En 1913, le Pickelhaube fut remplacé par le Stalhlhelm gris, mieux protégé et plus facile à fabriquer. L'uniforme allemand est très confortable et son casque permet un grand nombre de modifications telles que boucliers ou camouflage."	
+      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: "Uniforme standard de la Deutsches Heer. Entré en service en 1910, l'uniforme feldgrau a remplacé les anciens uniformes colorés. En 1913, le Pickelhaube fut remplacé par le Stalhlhelm gris, mieux protégé et plus facile à fabriquer. L'uniforme allemand est très confortable et son casque permet un grand nombre de modifications telles que boucliers ou camouflage."
       STR_GERMAN_GASMASK_UC: "MASQUE À GAZ DE L'ARMÉE ALLEMANDE"
       STR_GERMAN_GASMASK_UC_UFOPEDIA: "Le masque à gaz Lederschutzmaske M1914 (masque de protection en cuir) est probablement l'un des meilleurs modèles à ce jour. Il est entré en action peu avant la dernière offensive martienne sur la Marne et a été employé par de nombreux soldats et civils de nombreuses nations. Il protège bien des gaz toxiques, bien qu'il obstrue la vue et assourdisse le soldat."
       STR_GERMAN_TRENCH_COAT_UNIFORM_UC: "MANTEAU DE L'ARMÉE ALLEMANDE"
-      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: "Le manteau en laine utilisé par l'armée allemande est conçu pour garder les troupes au chaud sur le front. Il n'a pas de poches supplémentaires, il est donc utilisé avec une ceinture et un sac à dos. Cet uniforme comprend le traditionnel Pickelhaube orné de l'aigle impérial allemand. Bien qu'il n'ait pas de protection, il est porté avec fierté par les troupes du Kaiser." 
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: "Le manteau en laine utilisé par l'armée allemande est conçu pour garder les troupes au chaud sur le front. Il n'a pas de poches supplémentaires, il est donc utilisé avec une ceinture et un sac à dos. Cet uniforme comprend le traditionnel Pickelhaube orné de l'aigle impérial allemand. Bien qu'il n'ait pas de protection, il est porté avec fierté par les troupes du Kaiser."
 
 #**************************************
 # GunpowderWeapons_TGWotW
@@ -210,7 +209,7 @@
       STR_HUOT_LMG: "Fusil-mitrailleur Huot"
       STR_HUOT_LMG_DRUM: "Charg. Fusil-mitrailleur Huot"
       STR_HUOT_LMG_UFOPEDIA: "Un des fusils-mitrailleurs légers les moins chers produits par le Commonwealth. Fiable et robuste, il n'est pas affecté pas la boue. Conversion des fusils Ross canadiens à l'aide d'un mécanisme à gaz. Utilise des balles.303 British K-MM."
-      STR_M1911_COLT: "Colt M1911" 
+      STR_M1911_COLT: "Colt M1911"
       STR_M1911_COLT_CLIP: "Charg. Colt M1911"
       STR_M1911_COLT_UFOPEDIA: "Une arme de poing américaine emblématique. Destiné à remplacer les revolvers en service dans les forces armées, ce pistolet innovant conçu par John M. Browning utilise la puissante cartouche à haute puissance d'arrêt .45 ACP, similaire à celle utilisée par les revolvers du Farwest. Sa conception robuste en a fait une arme semi-automatique, fiable et très résistante."
       STR_SPRINGFIELD: "M1903 Springfield LP"
@@ -251,25 +250,25 @@
       STR_RSC17_UFOPEDIA: "Le Fusil Modèle 1914 (également appelé RSC M1914 - pour Ribeyrolles, Sutter et Chauchat, les concepteurs de l’arme). Le 1 avril 1914 la production du FA RSC 1914 est enfin lançée et l'arme est envoyée au front à raison de 16 par compagnie, attribués en priorité aux bons tireurs. Ceux-ci sont soigneusement choisit car l'arme est capricieuse et il faut des hommes prenant soin de leur arme afin de limiter les problèmes."
       STR_MOSIN_NAGANT:
       STR_MOSIN_NAGANT_UFOPEDIA: ...
-      STR_OBREZ: 
+      STR_OBREZ:
       STR_OBREZ_UFOPEDIA: ...
-      STR_MOSIN_NAGANT_CLIP: 
+      STR_MOSIN_NAGANT_CLIP:
       STR_MOSIN_NAGANT_CLIP_UFOPEDIA: ...
-      STR_FEDOROV_AVTOMAT: 
-      STR_FEDOROV_AVTOMAT_CLIP: 
+      STR_FEDOROV_AVTOMAT:
+      STR_FEDOROV_AVTOMAT_CLIP:
       STR_FEDOROV_AVTOMAT_UFOPEDIA: ...
-      STR_SMG0818: 
-      STR_SMG0818_CLIP: 
+      STR_SMG0818:
+      STR_SMG0818_CLIP:
       STR_SMG0818_UFOPEDIA: ...
-      STR_WINCHESTER_1915: 
+      STR_WINCHESTER_1915:
       STR_WINCHESTER_1915_UFOPEDIA: ...
-      STR_ARISAKA_TYPE44_CARBINE: 
+      STR_ARISAKA_TYPE44_CARBINE:
       STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA: ...
-      STR_MM_MOSIN_NAGANT_CLIP: 
-      STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP: 
-      STR_COSSACK_SABRE: 
+      STR_MM_MOSIN_NAGANT_CLIP:
+      STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP:
+      STR_COSSACK_SABRE:
       STR_COSSACK_SABRE_UFOPEDIA: ...
-      STR_COSSACK_LANCE: 
+      STR_COSSACK_LANCE:
       STR_COSSACK_LANCE_UFOPEDIA: ...
       STR_CARCANO_M91_CARBINE : "Carabine Carcano M91"
       STR_CARCANO_M91_CARBINE_CLIP : "Charg. Carcano M91"
@@ -280,33 +279,33 @@
       STR_CEI_RIGOTTI : "Cei-Rigotti"
       STR_CEI_RIGOTTI_CLIP : "Charg. Cei-Rigotti"
       STR_CEI_RIGOTTI_UFOPEDIA : "Fusil semi-automatique d'origine italienne conçu par le major Cei-Rigotti à la fin du XIXe siècle. Physiquement, il est similaire au Carcano standard de la Regio Esercito, bien qu'il en soit considérablement différent à l'intérieur. Il possède l'option particulière du tir sélectif, qui permet de choisir entre les modes de tir semi-automatique et automatique. Il possède un magasin fixe et se recharge à l'aide de clips de 5 balles chacun, de calibre 6,5 Carcano K-MM. Ses performances ne sont pas très bonnes à longue distance, bien que sa précision soit plus qu'adéquate en combat à moyenne distance."
-      STR_VILLAR_PEROSA : "Villar-Perosa" 
+      STR_VILLAR_PEROSA : "Villar-Perosa"
       STR_VILLAR_PEROSA_CLIP : "Charg. Villar-Perosa"
       STR_VILLAR_PEROSA_UFOPEDIA : "Mitrailleuse fabriquée en joignant deux Beretta MAB14 et la modification du mécanisme de détente pour faire fonctionner les deux en même temps. C'était en fait la fonction initiale de l'arme. Une poignée pistolet et une poignée avant ont été ajoutées pour maximiser le maniement de l'arme. Elle a une cadence de tir presque doublée par les deux canons des MAB14, mais une précision nettement inférieure qui est compensée dans une certaine mesure par la grande quantité de munitions tirées"
-      STR_GEWEHR_M95: 
-      STR_GEWEHR_M95_CLIP: 
+      STR_GEWEHR_M95:
+      STR_GEWEHR_M95_CLIP:
       STR_GEWEHR_M95_UFOPEDIA: ...
       STR_MADSEN_MG: "Fusil-mitrailleur Madsen"
       STR_MADSEN_MG_CLIP: "Charg. Fusil-mitrailleur Madsen"
       STR_MADSEN_MG_UFOPEDIA: "Le Madsen est la première véritable 'mitrailleuse légère' du service militaire, conçue par le ministre norvégien de la guerre Vilhem Madsen en 1902. Le FM utilise des munitions de calibre 7mm, avec un chargeur de 30 cartouches extractible courbé. Il a été conçu en mettant l'accent sur la mobilité plutôt que sur la cadence de tir. Le tir à genoux, grâce au bipied intégré, augmente considérablement la précision et la stabilité de l'arme."
       STR_HELLRIEGEL:
-      STR_HELLRIEGEL_CLIP: 
+      STR_HELLRIEGEL_CLIP:
       STR_HELLRIEGEL_UFOPEDIA: ...
       STR_INERTIAL_SHOTGUN:
-      STR_INERTIAL_SHOTGUN_CLIP: 
+      STR_INERTIAL_SHOTGUN_CLIP:
       STR_INERTIAL_SHOTGUN_UFOPEDIA: ...
-      STR_ARISAKA_TYPE38: 
-      STR_ARISAKA_TYPE38_CLIP: 
+      STR_ARISAKA_TYPE38:
+      STR_ARISAKA_TYPE38_CLIP:
       STR_ARISAKA_TYPE38_UFOPEDIA: ...
       STR_KYU_GUNTO:
       STR_KYU_GUNTO_UFOPEDIA: ...
-      STR_GENERAL_LIU: 
-      STR_GENERAL_LIU_CLIP: 
+      STR_GENERAL_LIU:
+      STR_GENERAL_LIU_CLIP:
       STR_GENERAL_LIU_UFOPEDIA: ...
       STR_SHIN_GUNTO:
       STR_SHIN_GUNTO_UFOPEDIA: ...
-      STR_NAMBU: 
-      STR_NAMBU_CLIP: 
+      STR_NAMBU:
+      STR_NAMBU_CLIP:
       STR_NAMBU_UFOPEDIA: ...
       STR_SABRE: "Sabre de cavalerie"
       STR_SABRE_UFOPEDIA: "Sabre distinctif d'officiers et de soldats de cavalerie, employés avec galanterie cérémoniale sur le champ de bataille. C'est une grande arme de mêlée, elle a une meilleure portée que les armes plus improvisées."
@@ -316,13 +315,13 @@
       STR_TRENCH_SHOVEL_UFOPEDIA: "Conçu à l'origine pour creuser des tranchées, certains soldats aiguisant les bords de la pelle pour l'utiliser comme une arme rudimentaire et grossière de mêlée. La force du soldat a beaucoup à voir avec l'efficacité de cette arme."
       STR_TRENCH_MACE: "Masse de tranchées"
       STR_TRENCH_MACE_UFOPEDIA: "Un maillet de bois adapté aux divers objets tranchants trouvés dans la tranchée, des pointes et des clous aux fils barbelés. Brutal et vicieux."
-      STR_TRENCH_AXE: 
+      STR_TRENCH_AXE:
       STR_TRENCH_AXE_UFOPEDIA: ...
       STR_TRENCH_PICKAXE:
       STR_TRENCH_PICKAXE_UFOPEDIA: ...
       STR_BOWIE_KNIFE:
       STR_BOWIE_KNIFE_UFOPEDIA: ...
-      STR_MEDIC_BONESAW: 
+      STR_MEDIC_BONESAW:
       STR_MEDIC_BONESAW_UFOPEDIA: ...
       STR_MEDIKIT: "Sac médical"
       STR_MEDIKIT_UFOPEDIA: "Petit sac portatif, contient divers matériaux médicaux pour stabiliser les blessés au combat. Il comprend des analgésiques, des antibiotiques, du chlorure d'iode, de l'huile de ricin et des pinces coupantes."
@@ -344,7 +343,7 @@
       STR_ANTITANK_GRENADE_UFOPEDIA: "Grenade antichar improvisée composée de grenades à manches empaquetées avec du fil de fer et leurs mèches réunies, elles sont toutes activées en même temps. Très pratique, utilisé par les troupes pour neutraliser les blindés ennemis."
       STR_TRENCH_CLUB: "Massue de tranchées"
       STR_TRENCH_CLUB_UFOPEDIA: "Une massue légère en acier, avec des pointes pour maximiser les dommages. Arme très pratique pour les espaces restreints."
-      STR_STIELHANDGRENADE: "Grenade à manche" 
+      STR_STIELHANDGRENADE: "Grenade à manche"
       STR_STIELHANDGRENADE_UFOPEDIA: "Connu sous le nom de 'grenade à manche', cet explosif à main de fabrication allemande a une tête fragmentaire à l'extrémité et un petit tube en bois comme base. Sa conception lui permet d'être projeté très loin."
       STR_MILLS_BOMB: "Grenade Mills"
       STR_MILLS_BOMB_UFOPEDIA: "Inventée par William Mills, cette grenade à fragmentation en forme d'ananas est très sûre à utiliser, elle contient diverses mesures de sécurité pour éviter une activation accidentelle. Sa zone d'explosion est modérée."
@@ -431,7 +430,7 @@
       STR_SELENITE_GUNSHIP_UFOPEDIA: "Chasseur/bombardier, utilisé comme navire de soutien au sol. Les envahisseurs l'utilisent comme escorte pour les groupes de combat et pour bombarder les positions humaines. Leurs armes sont plus lentes que celles des chasseurs, mais plus puissantes."
       STR_SELENITE_TRANSPORT: "Navire de transport Sélénite"
       STR_SELENITE_TRANSPORT_UFOPEDIA: "Navire de transport de troupes, utilisé pour déplacer rapidement des équipes d'assaut d'un endroit à un autre. Il est équipé de ce que nous croyons être des tourelles antiaériennes de courte portée. Il a des boucliers assez résistants, il n'est pas facile de les abattre."
-############################      
+############################
       STR_MARTIAN_ASSAULT_WALKER: "Véhicule d'assault Martien"
       STR_MARTIAN_ASSAULT_WALKER_UFOPEDIA: "Véhicule extraterrestre spécialisé dans les incursions et les combats urbains. Assez agile et avec des armes légères, il peut mettre des unités humaines en difficulté."
       STR_MARTIAN_BATTLE_WALKER: "Véhicule de bataille Martien"
@@ -444,7 +443,7 @@
       STR_MARTIAN_OVERLORD_WALKER_UFOPEDIA: "La chose la plus puissante jamais créée dans l'arsenal martien. Il fonctionne comme un centre de commandement mobile, mène des sièges et des incursions dans les zones humaines. Hautement armé et blindé. Extrêmement dangereux."
       STR_MARTIAN_RECON_WALKER: "Véhicules de reconnaissance Martiens"
       STR_MARTIAN_RECON_WALKER_UFOPEDIA: "Brigade de trois véhicules employés pour reconnaître la zone cible et apporter un soutien léger aux troupes. Ce sont ces ennemis qui ont attaqué Londres lors de la première invasion martienne. Très rapides et mortels, bien qu'ils soient les véhicules les plus faibles de l'ennemi."
-      
+
 #**************************************
 # MartianStaticBases_TGWotW
 #**************************************
@@ -466,13 +465,13 @@
       STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Les centres scientifiques et de recherche martiens, étroitement liés aux usines de récolte. Ils utilisent le matériel génétique obtenu de la boucherie martienne pour créer et augmenter la qualité des clones, à la fois pour augmenter leur armée et pour produire plus de nourriture pour leurs rangs."
       STR_MARTIAN_REDOUBT: "Redoute martienne"
       STR_MARTIAN_REDOUBT_UFOPEDIA: "La forteresse martienne suprême. L'existence de ces gigantesques installations ne peut que préparer l'ennemi à un siège total. Ils disposent des meilleures armes antiaériennes, des meilleurs boucliers et blindages et d'un nombre énorme de personnel militaire et scientifique. L'assaut d'une Redoute peut être un coup dur pour les Martiens, mais c'est une mission presque suicidaire."
-      
+
 #**************************************
 # Misc_TGWotW
 #**************************************
-      
-      
-      
+
+
+
       STR_OPENXCOM: "La Grande Guerre des Mondes"
       STR_NEW_GAME: "Grande campagne"
       STR_NEW_BATTLE: "Escarmouches"
@@ -498,13 +497,13 @@
       STR_PISTOLS: "Pistolets"
       STR_MACHINE_GUNS: "Mitrailleuses"
       STR_SHOTGUNS: "Fusils de chasse"
-      STR_CARBINES: "Carabines" 
+      STR_CARBINES: "Carabines"
       STR_SMGS: "Pistolets-mitrailleurs"
       STR_SNIPER_RIFLES: "Fusils de précision"
       STR_EXPLOSIVES: "Explosifs"
       STR_ARTILLERY: "Artillerie"
       STR_MEDICAL: "Médical"
-      STR_FIREARMS: "Armes à feu" 
+      STR_FIREARMS: "Armes à feu"
       STR_CLIPS: "Munitions"
       STR_TURRETS: "Tourelles"
       STR_MILITARY_RATIONS: "Rations militaires"
@@ -547,7 +546,6 @@
       STR_XCOM_OPERATIVES_KILLED: "SOLDATS MORT DU CEI"
       STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "SOLDATS DU CEI DISPARUS EN ACTION"
       STR_XCOM_CRAFT_LOST: "NAVIRE CEI DÉTRUIT"
-      STR_UFO_RECOVERY: "RÉCUPÉRATION SUR TRÉPIED"
       STR_ALIEN_BASE_: "FORTERESSE MARTIENNE-{0}"
       STR_ALIEN_BASE_STILL_INTACT: "Forteresse martienne intacte"
       STR_ALIEN_BASE_DESTROYED: "Forteresse martienne détruite"
@@ -610,11 +608,6 @@
       STR_MIAMI: Miami
       STR_TORONTO: Toronto
       STR_BOSTON: Boston
-      STR_BERMUDA: Bermuda
-      STR_HAWAII: Hawaii
-      STR_MIDWAY: Midway
-      STR_ANCHORAGE: Anchorage
-      STR_NUUK: Nuuk
 
       STR_SANTIAGO: Santiago
       STR_LIMA: Toronto
@@ -654,7 +647,7 @@
       STR_ANKARA: Ankara
       STR_CALCUTTA: Calcutta
       STR_SRI_LANKA: Sri Lanka
-      STR_SHANGHAI: Shanghai 
+      STR_SHANGHAI: Shanghai
       STR_SINGAPORE: Singapore
       STR_HONG_KONG: Hong Kong
       STR_SEOUL: Seoul
@@ -679,7 +672,7 @@
       STR_AZORES: Azores
       STR_NORTH_PACIFIC: "Pacifique Nord"
       STR_SOUTH_PACIFIC: "Pacifique Sud"
-      STR_TIKSI: Tiksi      
+      STR_TIKSI: Tiksi
       STR_FALKLAND_ISLAND: Falkland Island
       STR_BOZEN: Bozen
       STR_NEWCASTLE: Newcastle
@@ -698,7 +691,7 @@
       MAP_IDT_SNOWVILLAGE: "Village rural enneigé"
       MAP_IDT_SNOWFOREST: "Forêt rurale enneigée"
       MAP_MOUNTSNOW: "Haute montagne"
-      MAP_MOUNTGRASS: "Montagne" 
+      MAP_MOUNTGRASS: "Montagne"
       MAP_MOUNTSAND: "Montagne du désert"
       MAP_MOUNTROCK: "Col de montagne"
       MAP_MOUNTTROP: "Montagne tropicale"
@@ -708,7 +701,7 @@
       MAP_PLAINSSAND: "Steppe"
       MAP_PLAINSROCK: "Plaine rocheuse"
       MAP_PLAINSTROP: "Plaine tropicale"
-      
+
 #**************************************
 # Pilots_TGWotW
 #**************************************
@@ -735,7 +728,7 @@
       STR_AIRCO_DH2: "AIRCO DH2"
       STR_AIRCO_DH2_UFOPEDIA: "LA RÉPONSE BRITANNIQUE AU PROBLÈME DU TIR À L'AVANT DE L'AVION A ÉTÉ CE CURIEUX MODÈLE DE 'POUSSEUR', QUI A L'HÉLICE ET LE MOTEUR DERRIÈRE LUI. CELA PERMET DE POSITIONNER UNE MITRAILLEUSE À L'AVANT SANS RISQUE D'ENDOMMAGER LES PIÈCES MÉCANIQUES."
       STR_NIEUPORT_17: "NIEUPORT 17"
-      STR_NIEUPORT_17_UFOPEDIA: "CHASSEUR BIPLAN FRANÇAIS AGILE, TRÈS POPULAIRE DANS L'ARMÉE DE L'AIR DE LA COALITION. EST UTILISÉ PAR DE NOMBREUX AS DU COMBAT. IL EST UN PEU LENT, MAIS PEUT ACCOMPLIR TOUTE MISSION DE SUPÉRIORITÉ AÉRIENNE OU DE SOUTIEN AÉRIEN RAPPROCHÉ, EMPLOYÉ PAR LA FRANCE, LES USA, L'ITALIE ET LA RUSSIE." 
+      STR_NIEUPORT_17_UFOPEDIA: "CHASSEUR BIPLAN FRANÇAIS AGILE, TRÈS POPULAIRE DANS L'ARMÉE DE L'AIR DE LA COALITION. EST UTILISÉ PAR DE NOMBREUX AS DU COMBAT. IL EST UN PEU LENT, MAIS PEUT ACCOMPLIR TOUTE MISSION DE SUPÉRIORITÉ AÉRIENNE OU DE SOUTIEN AÉRIEN RAPPROCHÉ, EMPLOYÉ PAR LA FRANCE, LES USA, L'ITALIE ET LA RUSSIE."
       STR_SOPWITH_CAMEL: "SOPWITH CAMEL"
       STR_SOPWITH_CAMEL_UFOPEDIA: "LE CHASSEUR BRITANNIQUE DE HAUT NIVEAU, EST EXTRÊMEMENT MANIABLE GRÂCE À SA CONSTRUCTION ROBUSTE, BIEN QU'IL NÉCESSITE UNE MANIPULATION CORRECTE ET CONSTANTE DU MANCHE. LE FAVORI DU COMMONWEALTH POUR DÉFENDRE LES CIEUX ALLIÉS."
       STR_ALBATROS_DIII: "ALBATROS D-III"
@@ -745,7 +738,7 @@
       STR_HALBERSTADT_CLII: "HALBERSTADT CL.II"
       STR_HALBERSTADT_CLII_UFOPEDIA: "AVION D'ATTAQUE AU SOL ET D'ESCORTE, IL EST EXCELLENT POUR ATTAQUER DES CIBLES AU SOL. IL DISPOSE DE CANONS AUTOMATIQUES ET D'UN CANONNIER POUR DÉFENDRE L'AVION. CHAQUE CL.II EST ÉQUIPÉ DE BOMBES, CERTAINS EMPORTENT MÊME DES GRENADES À MAIN, AU CAS OÙ LES ARMES PRINCIPALES MANQUERAIENT DE MUNITIONS."
       STR_HANDLEY_PAGE_TYPE_O: "HANDLEY-PAGE TYPE O"
-      STR_HADNLEY_PAGE_TYPE_O_UFOPEDIA: "LE PLUS GROS AVION AU SERVICE DE LA GRANDE-BRETAGNE ET L'UN DES PLUS GROS AU MONDE, C'EST UN BOMBARDIER LOURD À LONG RAYON D'ACTION, PARFAIT POUR LES RAIDS DERRIÈRE LES LIGNES ENNEMIES. IL DISPOSE DE PLUSIEURS SOUTES POUR LES BOMBES ET DE PLUSIEURS POSITIONS POUR LES MITRAILLEUSES DÉFENSIVES." 
+      STR_HADNLEY_PAGE_TYPE_O_UFOPEDIA: "LE PLUS GROS AVION AU SERVICE DE LA GRANDE-BRETAGNE ET L'UN DES PLUS GROS AU MONDE, C'EST UN BOMBARDIER LOURD À LONG RAYON D'ACTION, PARFAIT POUR LES RAIDS DERRIÈRE LES LIGNES ENNEMIES. IL DISPOSE DE PLUSIEURS SOUTES POUR LES BOMBES ET DE PLUSIEURS POSITIONS POUR LES MITRAILLEUSES DÉFENSIVES."
       STR_LCLASS_DESTROYER: "DESTROYER CLASSE L"
       STR_LCLASS_DESTROYER_UFOPEDIA: "CE DESTROYER JOUE DIFFÉRENTS RÔLES, DE LA DÉFENSE À L'ESCORTE DE PLUS GROS NAVIRES. IL EST RÉGULIÈREMENT UTILISÉ POUR GARDER LES CÔTES OU POUR SOUTENIR L'INFANTERIE LORS DE BOMBARDEMENTS CÔTIERS. SES ARMES SONT PARFAITES POUR ABATTRE LES AVIONS ENNEMIS."
       STR_WINDSTORMCLASS_DESTROYER: "DESTROYER CLASSE WINDSTORM"
@@ -774,7 +767,7 @@
       STR_SPANDAU_HMG_UFOPEDIA: "LES MITRAILLEUSES LOURDES DOUBLES SPANDAU IMG-08 REFROIDIES À L'AIR ONT DES MUNITIONS DE CALIBRE RELATIVEMENT MOYEN, UTILISENT DES BALLES PERFORANTES K-MM. EN COMBINANT CES NOUVELLES BALLES AVEC UNE CADENCE DE TIR ÉLEVÉE, ON OBTIENT UNE ARME EFFICACE POUR ABATTRE LES MACHINES MARTIENNES LÉGÈRES. L'UTILISATION DE DEUX ARMES À FEU TIRÉES EN MÊME TEMPS AUGMENTE LE VOLUME DU TIR."
       STR_SPANDAU_HMG_LAUNCHER: "Mitrailleuses Spandau"
       STR_SPANDAU_HMG_ROUNDS_X250: "Cartouches pour mitrailleuses Spandau (x250)"
-      STR_BECKER_2CM_CANNON: "Canon Becker M2 de 2cm" 
+      STR_BECKER_2CM_CANNON: "Canon Becker M2 de 2cm"
       STR_BECKER_2CM_CANNON_UFOPEDIA: "CANON AUTOMATIQUE CONÇU EN ALLEMAGNE, UTILISE DES MAGASINS COURBES DE 15 PROJECTILES CHACUN. SON PRINCIPAL USAGE EST CELUI D'ARME OFFENSIVE DANS LES AVIONS D'ATTAQUE AU SOL ET LES POSITIONS STATIQUES, IL PEUT FACILEMENT ÊTRE UTILISÉ PAR UN ARTILLEUR. SON PRINCIPAL INCONVÉNIENT EST LA FAIBLE QUANTITÉ DE MUNITIONS PAR CHARGEUR, CE QUI SIGNIFIE QUE DE NOUVELLES MUNITIONS SONT CONSTAMMENT RECHARGÉES EN CAS DE COMBAT INTENSE."
       STR_BECKER_2CM_CANNON_LAUNCHER: "Canon Becker M2 de 2cm"
       STR_BECKER_2CM_CANNON_ROUNDS_X15: "Cartouches Becker M2 de 2cm (x15)"
@@ -832,7 +825,6 @@
       STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3: "Flasque de Calystène x3"
       STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3: "Flasque de gaz x3"
       STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3: "Flasque d'acide x3"
-      STR_HEATRAY_RESEARCH: "Rayons Thermiques"
       STR_HEATRAY_WEAPONS: "Armes à Rayons Thermiques"
       STR_RED_WEED_RESEARCH: "Les herbes rouges"
       STR_CHEMICAL_WARFARE_RESEARCH: "La guerre chimique martienne"

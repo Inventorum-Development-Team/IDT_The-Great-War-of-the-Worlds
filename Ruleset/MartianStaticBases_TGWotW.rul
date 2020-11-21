@@ -11,7 +11,7 @@ ufos:
     reload: 0
     armor: 10
     shieldCapacity: 45
-    shieldRecarge: 150
+    shieldRecharge: 150
     breakOffTime: 1000
     battlescapeTerrainData:
       name: PSCOUT
@@ -67,7 +67,7 @@ ufos:
     reload: 10
     armor: 20
     shieldCapacity: 70
-    shieldRecarge: 100
+    shieldRecharge: 100
     breakOffTime: 1000
     battlescapeTerrainData:
       name: P4_A
@@ -88,7 +88,7 @@ ufos:
           width: 20
           length: 20
   - type: STR_MARTIAN_SUPPLY_DEPOT
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1500
     speedMax: 0
@@ -99,7 +99,7 @@ ufos:
     reload: 15
     armor: 40
     shieldCapacity: 200
-    shieldRecarge: 100
+    shieldRecharge: 100
     breakOffTime: 1000
     battlescapeTerrainData:
       name: P8_A
@@ -117,7 +117,7 @@ ufos:
           width: 20
           length: 20
   - type: STR_MARTIAN_CLONE_LAB
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1000
     speedMax: 0
@@ -129,7 +129,7 @@ ufos:
     breakOffTime: 300
     armor: 10
     shieldCapacity: 60
-    shieldRecarge: 100
+    shieldRecharge: 100
     battlescapeTerrainData:
       name: P7_A
       mapDataSets:
@@ -157,7 +157,7 @@ ufos:
     reload: 10
     armor: 40
     shieldCapacity: 70
-    shieldRecarge: 100
+    shieldRecharge: 100
     breakOffTime: 5000
     battlescapeTerrainData:
       name: P6_A
@@ -175,7 +175,7 @@ ufos:
           width: 30
           length: 20
   - type: STR_MARTIAN_HARVEST_FACILITY
-    size: STR_MEDIUM
+    size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 800
     speedMax: 0
@@ -187,7 +187,7 @@ ufos:
     breakOffTime: 500
     armor: 20
     shieldCapacity: 90
-    shieldRecarge: 100
+    shieldRecharge: 100
     battlescapeTerrainData:
       name: PHARVEST
       mapDataSets:
@@ -214,7 +214,7 @@ ufos:
     reload: 15
     armor: 20
     shieldCapacity: 200
-    shieldRecarge: 100
+    shieldRecharge: 100
     breakOffTime: 200
     battlescapeTerrainData:
       name: PTower
@@ -245,7 +245,7 @@ ufos:
     reload: 15
     armor: 20
     shieldCapacity: 500
-    shieldRecarge: 100
+    shieldRecharge: 100
     breakOffTime: 1000
     battlescapeTerrainData:
       name: PBATTLESHIP
@@ -673,11 +673,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -691,7 +691,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE		
+            - STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -864,11 +864,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -882,7 +882,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE		
+            - STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 1
         highQty: 2
@@ -1061,11 +1061,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -1079,7 +1079,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE		
+            - STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -1258,11 +1258,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -1276,7 +1276,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE		
+            - STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 10
@@ -1409,11 +1409,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -1427,7 +1427,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE		
+            - STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 1
         highQty: 1
@@ -1606,11 +1606,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -1756,11 +1756,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -1774,7 +1774,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE		
+            - STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 2
         highQty: 2
