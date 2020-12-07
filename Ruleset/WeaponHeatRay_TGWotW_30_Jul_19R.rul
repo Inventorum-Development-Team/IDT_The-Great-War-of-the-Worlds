@@ -109,7 +109,7 @@ items:
     weight: 36
     bigSprite: 752
     floorSprite: 752
-    handSprite: 752
+    handSprite: 766
     bulletSprite: 30
     fireSound: 601
     accuracyAuto: 38
@@ -162,7 +162,7 @@ items:
     weight: 43
     bigSprite: 753
     floorSprite: 753
-    handSprite: 753
+    handSprite: 774
     bulletSprite: 30
     fireSound: 602
     accuracyAimed: 130
@@ -559,9 +559,6 @@ research:
     destroyItem: true
     needItem: true
   - name: STR_HEATRAY_SNIPER
-    destroyItem: true
-    needItem: true
-  - name: STR_MARTIAN_LAUNCHER
     destroyItem: true
     needItem: true
   - name: STR_HEATRAY_CARBINE_BATTERY

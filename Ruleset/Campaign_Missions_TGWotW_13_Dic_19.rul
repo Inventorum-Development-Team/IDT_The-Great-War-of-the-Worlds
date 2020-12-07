@@ -269,123 +269,7 @@ alienMissions:
         timer: 3000
 
 
-#Missions that the martians will try everytime.
-# #  - type: STR_ALIEN_RESEARCH
-#     points: 0
-#     raceWeights:
-#       0:
-#         STR_SECTOID: 100
-#       1:
-#         STR_SECTOID: 100
-#       3:
-#         STR_SECTOID: 100
-#       5:
-#         STR_SECTOID: 100
-#       7:
-#         STR_SECTOID: 100
-#       9:
-#         STR_SECTOID: 100
-#     waves:
-#       - ufo: STR_MARTIAN_RECON_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 9000
-#       - ufo: STR_MARTIAN_RECON_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 7800
-#       - ufo: STR_MARTIAN_ASSAULT_WALKER
-#         count: 2
-#         trajectory: GroundUT2
-#         timer: 9000
-# #  - type: STR_ALIEN_HARVEST
-#     points: 30
-#     objective: 0
-#     operationType: 6
-#     raceWeights:
-#       0:
-#         STR_SECTOID: 100
-#       1:
-#         STR_SECTOID: 100
-#       3:
-#         STR_SECTOID: 100
-#       5:
-#         STR_SECTOID: 100
-#       7:
-#         STR_SECTOID: 100
-#       9:
-#         STR_SECTOID: 100
-#     waves:
-#       - ufo: STR_MARTIAN_RECON_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 7800
-#       - ufo: STR_MARTIAN_ASSAULT_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 7800
-#       - ufo: STR_MARTIAN_BATTLE_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 6000
-#       - ufo: STR_MARTIAN_BATTLE_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 7800
-#       - ufo: NIMBLE_FIGHTER
-#         count: 3
-#         trajectory: P3
-#         timer: 9000
-#       - ufo: STR_MARTIAN_HARVESTER_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 3000
-#       - ufo: STR_MARTIAN_HARVESTER_WALKER
-#         count: 1
-#         trajectory: GroundUT2
-#         timer: 750
-#       - ufo: FRIGATE
-#         count: 1
-#         trajectory: P2
-#         timer: 1500
-# #  - type: STR_MARTIAN_SKIRMISH
-#     points: 0
-#     objective: 3
-#     operationType: 6
-#     raceWeights:
-#       0:
-#         STR_SECTOID: 100
-#       1:
-#         STR_SECTOID: 100
-#       3:
-#         STR_SECTOID: 100
-#       5:
-#         STR_SECTOID: 100
-#       7:
-#         STR_SECTOID: 100
-#       9:
-#         STR_SECTOID: 100
-#     waves:
-#       - ufo: STR_SMALL_SCOUT
-#         count: 1
-#         trajectory: P0
-#         timer: 15000
-#       - ufo: STR_MEDIUM_SCOUT
-#         count: 1
-#         trajectory: P1
-#         timer: 18000
-#       - ufo: STR_LARGE_SCOUT
-#         count: 1
-#         trajectory: P3
-#         timer: 9000
-#       - ufo: STR_ABDUCTOR
-#         count: 1
-#         trajectory: P3
-#         timer: 9000
-#       - ufo: STR_ABDUCTOR
-#         count: 2
-#         trajectory: P4
-#         timer: 60
+
   - type: STR_ALIEN_TERROR
     points: 0
     objective: 3
@@ -470,7 +354,7 @@ alienMissions:
         hunterKillerPercentage: 50
         huntMode: 0
         huntBehavior: 0
-        escort: true
+        escort: true  
   - type: STR_MARTIAN_AIR_SUPREMACY_1
     points: 0
     operationType: 6
@@ -502,7 +386,7 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        escort: true
+        escort: true 
       - ufo: NIMBLE_FIGHTER
         count: 1
         trajectory: P1
@@ -510,7 +394,7 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        escort: true
+        escort: true 
   - type: STR_MARTIAN_AIR_SUPREMACY_2
     points: 0
     operationType: 6
@@ -542,7 +426,7 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        escort: true
+        escort: true 
       - ufo: NIMBLE_FIGHTER
         count: 1
         trajectory: P1
@@ -550,7 +434,7 @@ alienMissions:
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
-        escort: true
+        escort: true 
   - type: STR_ALIEN_SUPPLY
     points: 0
     objective: 5
@@ -569,55 +453,7 @@ alienMissions:
         hunterKillerPercentage: 50
         huntMode: 0
         huntBehavior: 0
-        escort: true
-
-
-
-ufoTrajectories:
-  - id: GroundUT1
-#For Martian Tripods - Rez Zone Patrol.
-    groundTimer: 3600
-    waypoints:
-      - [7, 1, 60]
-      - [7, 1, 50]
-      - [7, 1, 30]
-      - [7, 0, 0]
-      - [7, 1, 30]
-      - [7, 1, 60]
-  - id: GroundUT2
-#For Martian Tripods - Frontlines Movement.
-    groundTimer: 3600
-    waypoints:
-      - [7, 1, 100]
-      - [7, 1, 50]
-      - [2, 0, 0]
-      - [2, 1, 30]
-      - [7, 0, 0]
-      - [7, 1, 70]
-  - id: GroundUT3
-#For Martian Tripods - Red Zone Movement.
-    groundTimer: 3600
-    waypoints:
-      - [7, 1, 100]
-      - [7, 1, 50]
-      - [7, 0, 0]
-      - [7, 1, 30]
-      - [7, 0, 0]
-      - [7, 1, 30]
-      - [7, 0, 0]
-      - [7, 1, 100]
-  - id: FlyingUT1
-#For Martian Flying Machines - No-fly zone Patrol.
-    waypoints:
-      - [7, 2, 50]
-      - [7, 2, 60]
-      - [7, 2, 30]
-      - [7, 2, 40]
-      - [7, 2, 50]
-      - [7, 2, 100]
-#################################################################
-#ufos:
-
+        escort: true 
 
 ################################################################
 alienDeployments:
@@ -667,32 +503,19 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_CARBINE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -733,9 +556,15 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
           -
             - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
@@ -743,15 +572,9 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
-            - STR_ALIEN_GRENADE
-          -
-            - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
-            - STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE		
       - alienRank: 1
         lowQty: 2
         highQty: 2
@@ -760,110 +583,73 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE	
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
       - alienRank: 1
         lowQty: 1
         highQty: 3
         dQty: 0
         percentageOutsideUfo: 0
-        itemSets:
+        itemSets: 
           -
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_RIFLE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_RIFLE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE	
       - alienRank: 0
         lowQty: 1
         highQty: 1
         dQty: 0
         percentageOutsideUfo: 0
-        itemSets:
+        itemSets: 
           -
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_RIFLE
             - STR_ALIEN_GRENADE
           -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_RIFLE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE	
       - alienRank: 6
         lowQty: 0
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 50
-        itemSets:
+        itemSets: 
           -
             []
           -
@@ -875,7 +661,7 @@ alienDeployments:
         highQty: 2
         dQty: 1
         percentageOutsideUfo: 50
-        itemSets:
+        itemSets: 
           -
             []
           -

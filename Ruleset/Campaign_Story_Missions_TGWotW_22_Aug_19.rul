@@ -21,7 +21,7 @@ mapScripts:
       groups: 4
       rects:
         - [1, 1, 1, 3]
-    - type: addCraft
+    - type: addCraft 
       executions: 1
       groups: 1
     - type: addUFO
@@ -139,7 +139,7 @@ terrains:
         length: 10
       - name: DEEPTRENCH12
         width: 10
-        length: 10
+        length: 10    
       - name: DEEPTRENCH13
         width: 10
         length: 10
@@ -163,47 +163,47 @@ terrains:
         groups: 2
       - name: DEEPTRENCH19
         width: 10
-        length: 10
+        length: 10   
       - name: DEEPTRENCH20
         width: 10
-        length: 10
+        length: 10  
       - name: DEEPTRENCH20
         width: 10
-        length: 10
+        length: 10  
       - name: DEEPTRENCH21
         width: 10
-        length: 10
+        length: 10  
       # - name: DEEPTRENCH22
       #   width: 20
-      #   length: 20
+      #   length: 20  
       #   groups: 4
       - name: DEEPTRENCH24 #CROSS ROAD
         width: 10
-        length: 10
+        length: 10  
         groups: 4
       - name: DEEPTRENCH25 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH26 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH27 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH28 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH29 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
 #      - name: DEEPTRENCH30 # Vertical Road
 #        width: 10
-#        length: 10
+#        length: 10  
 #        groups: 3
   - name: VERDUN_FLEURY_VILLAGE
     mapDataSets:
@@ -428,7 +428,7 @@ terrains:
         length: 10
       - name: DEEPTRENCH12
         width: 10
-        length: 10
+        length: 10    
       - name: DEEPTRENCH13
         width: 10
         length: 10
@@ -452,48 +452,48 @@ terrains:
         groups: 2
       - name: DEEPTRENCH19
         width: 10
-        length: 10
+        length: 10   
       - name: DEEPTRENCH20
         width: 10
-        length: 10
+        length: 10  
       - name: DEEPTRENCH20
         width: 10
-        length: 10
+        length: 10  
       - name: DEEPTRENCH21
         width: 10
-        length: 10
+        length: 10  
       # - name: DEEPTRENCH22
       #   width: 20
-      #   length: 20
+      #   length: 20  
       #   groups: 4
       - name: DEEPTRENCH24 #CROSS ROAD
         width: 10
-        length: 10
+        length: 10  
         groups: 4
       - name: DEEPTRENCH25 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH26 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH27 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH28 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH29 # Vertical Road
         width: 10
-        length: 10
+        length: 10  
         groups: 3
       - name: DEEPTRENCH30 # Vertical Road
         width: 10
-        length: 10
-        groups: 3
+        length: 10  
+        groups: 3  
     civilianTypes:
       - STR_BRITISH_T2_RIFLEMAN_NPC
       - STR_FRENCH_T2_RIFLEMAN_NPC
@@ -507,7 +507,7 @@ terrains:
 
 ufos:
   - type: STR_BUNKER_SMALL
-    size: STR_SMALL
+    size: STR_SMALL_UC
     sprite: 1
     damageMax: 10
     speedMax: 0
@@ -535,7 +535,7 @@ ufos:
                 itemList: &MedicalItems [STR_MEDIKIT, STR_PAINKILLER, STR_BANDAGES, STR_BANDAGES, STR_MEDIKIT]
 
   - type: STR_BUNKER_SPAWN
-    size: STR_SMALL
+    size: STR_SMALL_UC
     sprite: 1
     damageMax: 10
     speedMax: 0
@@ -561,7 +561,7 @@ ufos:
                 itemList: &MedicalItems [STR_MEDIKIT, STR_PAINKILLER, STR_BANDAGES, STR_BANDAGES, STR_MEDIKIT]
 
   - type: STR_VERDUN_BATTLE_WAVE
-    size: STR_SMALL
+    size: STR_SMALL_UC
     sprite: 1
     damageMax: 10
     speedMax: 0
@@ -579,13 +579,13 @@ ufos:
           width: 10
           length: 10
 
-missionScripts:
+missionScripts: 
   - type: CampaignStoryActOneVerdun
     missionWeights:
       0:
         STR_CAMPAIGN_VERDUN_VOIE_SACREE: 100
     regionWeights:
-      0:
+      0:  
         STR_VERDUN_REGION: 100
     useTable: false
     maxRuns: 1
@@ -593,9 +593,8 @@ missionScripts:
     researchTriggers:
       STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
-    startDelay: 18000
-    randomDelay: 58000
-    executionOdds: 5
+    startDelay: 60
+    executionOdds: 100
 
   - type: recurringTerror
     missionWeights:
@@ -606,51 +605,18 @@ missionScripts:
 
 alienMissions:
   - type: STR_CAMPAIGN_VERDUN_VOIE_SACREE
+    points: 10
     objective: 3
     spawnZone: 0
     siteType: STR_CAMPAIGN_VERDUN_VOIE_SACREE
     raceWeights:
       0:
-          STR_SECTOID: 100
+          STR_SECTOID: 100    
     waves:
-      - ufo: STR_VERDUN_BATTLE_WAVE
+      - ufo: dummy
         count: 1
-        trajectory: P7
-        timer: 100
-        objective: true
-
-  - type: STR_ALIEN_TERROR
-    points: 10
-    objective: 3
-    spawnZone: 3 #Mission zone for terror missions
-    raceWeights:
-      0:
-        STR_SECTOID: 100
-      1:
-        STR_SECTOID: 100
-      3:
-        STR_SECTOID: 100
-      6:
-        STR_SECTOID: 100
-      9:
-        STR_SECTOID: 100
-    waves:
-      - ufo: NIMBLE_FIGHTER
-        count: 1
-        trajectory: P1
-        timer: 15000
-      - ufo: STR_MARTIAN_RECON_WALKER
-        count: 1
-        trajectory: P1
-        timer: 9600
-      - ufo: STR_MARTIAN_ASSAULT_WALKER
-        count: 1
-        trajectory: P0
-        timer: 12000
-      - ufo: STR_MARTIAN_SIEGE_WALKER
-        count: 1
-        trajectory: P7
-        timer: 9000
+        trajectory: XCOMISH
+        timer: 0
         objective: true
 
 alienDeployments:
@@ -670,30 +636,20 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -704,32 +660,19 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
+            - STR_ALIEN_GRENADE
+          -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL
+          -
+            - STR_HEATRAY_CARBINE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -773,11 +716,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -791,7 +734,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE		
       - alienRank: 1
         lowQty: 2
         highQty: 2
@@ -800,59 +743,47 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE	
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
     width: 50
     length: 50
     height: 9
+    finalDestination: true
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     race: STR_SECTOID
     civilians: 0 # no random civilians
     civiliansByType:
-      STR_BRITISH_T2_RIFLEMAN_NPC: 4
-      STR_FRENCH_T2_RIFLEMAN_NPC: 4
-      STR_BRITISH_T2_ASSAULT_NPC: 2
-      STR_FRENCH_T2_ASSAULT_NPC: 2
+      STR_BRITISH_T2_RIFLEMAN_NPC: 4 
+      STR_FRENCH_T2_RIFLEMAN_NPC: 4 
+      STR_BRITISH_T2_ASSAULT_NPC: 2	  
+      STR_FRENCH_T2_ASSAULT_NPC: 2	  
       STR_BRITISH_T1_OFFICER_NPC: 1
       STR_FRENCH_T1_OFFICER_NPC: 1
       STR_BRITISH_T2_SUPPORT_NPC: 2
       STR_FRENCH_T2_SUPPORT_NPC: 2
-    terrains:
+    terrains:  
       - VERDUN_VOIE_SACREE
     alert: STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT
     alertBackground: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
     alertDescription: STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT_DESCRIPTION
-#    music:
-#      - EPIC2
     briefing:
       title: STR_CAMPAIGN_VERDUN_VOIE_SACREE
       desc: STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING
       palette: 1
       textOffset: -16
-      background: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
+      background: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND 
       showTarget: false
       showCraft: false
     markerName: STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME
@@ -878,32 +809,20 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -914,30 +833,19 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -986,7 +894,7 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -1016,50 +924,39 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_ALIEN_GRENADE
-            - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 60
     length: 60
-    height: 9
+    height: 9 
     shade: 3
     race: STR_SECTOID
     civilians: 0 # no random civilians
     civiliansByType:
       STR_BRITISH_T2_RIFLEMAN_NPC: 4
       STR_FRENCH_T2_RIFLEMAN_NPC: 4
-      STR_BRITISH_T2_ASSAULT_NPC: 2
-      STR_FRENCH_T2_ASSAULT_NPC: 2
+      STR_BRITISH_T2_ASSAULT_NPC: 2  
+      STR_FRENCH_T2_ASSAULT_NPC: 2  
       STR_BRITISH_T1_OFFICER_NPC: 1
       STR_FRENCH_T1_OFFICER_NPC: 1
       STR_BRITISH_T2_SUPPORT_NPC: 1
       STR_FRENCH_T2_SUPPORT_NPC: 1
       MALE_CIVILIAN: 8
       FEMALE_CIVILIAN: 8
-    terrains:
+    terrains:  
       - VERDUN_FLEURY_VILLAGE
 #    music:
 #      - EPIC2
@@ -1091,32 +988,20 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1127,30 +1012,19 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1195,11 +1069,11 @@ alienDeployments:
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP   
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
@@ -1213,7 +1087,7 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE		
       - alienRank: 1
         lowQty: 3
         highQty: 5
@@ -1222,50 +1096,40 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_ALIEN_GRENADE
-          -
-            - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
             - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
             - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_ALIEN_GRENADE	
     width: 50
     length: 50
     height: 9
     shade: 6
+    winCutscene: winGame
+    loseCutscene: loseGame
+    abortCutscene: loseGame
     race: STR_SECTOID
     civilians: 0 # no random civilians
     civiliansByType:
-      STR_BRITISH_T2_RIFLEMAN_NPC: 4
-      STR_FRENCH_T2_RIFLEMAN_NPC: 4
-      STR_BRITISH_T2_ASSAULT_NPC: 4
+      STR_BRITISH_T2_RIFLEMAN_NPC: 4 
+      STR_FRENCH_T2_RIFLEMAN_NPC: 4 
+      STR_BRITISH_T2_ASSAULT_NPC: 4	
       STR_FRENCH_T2_ASSAULT_NPC: 4
       STR_BRITISH_T1_OFFICER_NPC: 2
       STR_FRENCH_T1_OFFICER_NPC: 2
       STR_BRITISH_T2_SUPPORT_NPC: 2
       STR_FRENCH_T2_SUPPORT_NPC: 2
-    terrains:
+    terrains:  
       - VERDUN_FORT_DOUAUMONT
-    turnLimit: 10
+    turnLimit: 10 
     chronoTrigger: 2
     cheatTurn: 3
 #    music:
@@ -1274,11 +1138,11 @@ alienDeployments:
       desc: STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT_BRIEFING
       palette: 1
       textOffset: -16
-      background: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
+      background: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND 
       showTarget: false
       showCraft: false
     points: 200
-
+   
 extraStrings:
   - type: en-US
     strings:
@@ -1286,9 +1150,9 @@ extraStrings:
       STR_CAMPAIGN_SIEGE_OF_VERDUN_BRIEFING: "..."
       STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME: "The Siege of Verdun"
       STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT_DESCRIPTION: "Go immediately to defend Verdun. It is the only point in the Benelux Occupation Zone where the Martians can break our defenses. The British Black Watch Regiment and the 151st French Infantry Regiment are on their way to support our assault."
-
+  
       STR_CAMPAIGN_VERDUN_VOIE_SACREE: "Siege of Verdun, Voie Sacrée"
-      STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING: "The Martians have launched a strong attack on the Fortified Square of Verdun. Doctor Nikola Tesla is trapped in the camp in the village of Fleury-devant-Douaumont, right on the front line. We must first reconquer the Voie Sacrée from the hands of the Martians, to allow new allied reinforcements and supplies to reach the besieged city."
+      STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING: "The Martians have launched a strong attack on the Fortified Square of Verdun. Civilians are trapped in the camp near the village of Fleury-devant-Douaumont, right on the front line. We must first reconquer the Voie Sacrée from the hands of the Martians, to allow new allied reinforcements and supplies to reach the besieged city."
 
       STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE: "Siege of Verdun, Fleury Village"
       STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE_BRIEFING: "We have successfully broken the attack on the Voie Sacrée, our reinforcements are on their way. We have reached the centre of Fleury-devant-Douaumont, but the area is still full of civilians. Reports inform that Martian assault teams have managed to break through our defenses at some points on the front and have managed to sneak into Fleury. We must stop them to avoid a massacre."
@@ -1296,7 +1160,7 @@ extraStrings:
       STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT: "Siege of Verdun, Fort Doaumont"
       STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT_BRIEFING: "Allied recon reports that the bulk of Martian forces have concentrated in front of Fort Doaumont for a final attack. Our British and French allies remain with us, we must resist the position for 10 turns, to give Falkenhayn's German army time to get to us and push Verdun's enemy once and for all. ON NE PASSE PAS!"
 
-      STR_ENVIRO_UNIT_UNDER_SIEGE: The morale of your besieged troops is getting low
+      STR_ENVIRO_UNIT_UNDER_SIEGE: The morale of your besieged troops is getting low 
 extraSprites:
   - type: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
     singleImage: true
