@@ -30,7 +30,7 @@ extended:
 
           unit.getRuleArmor turretArmor;
           turretArmor.getTag checkedTag Tag.ARMOR_IS_CREWED_WEAPON;
-          
+
           if neq 0 checkedTag;
 
             unit.setEnergy 0;
@@ -46,34 +46,34 @@ extended:
           var int unitIsUsingCrewedWeapon;
           var int gameCrewedWeaponExperienceBitCounter;
           var int unitCrewedWeaponExperience;
-          
+
           unit.getTag unitIsUsingCrewedWeapon Tag.UNIT_IS_USING_CREWED_WEAPON;
           if neq 0 unitIsUsingCrewedWeapon;
-          
+
             battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING;
             bit_and unitIsUsingCrewedWeapon gameCrewedWeaponExperienceBitCounter;
             if neq 0 unitIsUsingCrewedWeapon;
-          
+
               unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_FIRING;
               add unitCrewedWeaponExperience 1;
               unit.setTag Tag.UNIT_CREWED_WEAPON_EXPERIENCE_FIRING unitCrewedWeaponExperience;
-          
+
             end;
 
             battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_REACTIONS;
             bit_and unitIsUsingCrewedWeapon gameCrewedWeaponExperienceBitCounter;
             if neq 0 unitIsUsingCrewedWeapon;
-          
+
               unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS;
               add unitCrewedWeaponExperience 1;
               unit.setTag Tag.UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS unitCrewedWeaponExperience;
-          
+
             end;
-          
+
           end;
 
           return;
-      
+
 #*** Handles resetting crewed weapons ***
       - offset: 11
         code: |
@@ -131,10 +131,10 @@ extended:
         code: |
           var int crewedWeaponID;
           var int gameCrewedWeaponExperienceBitCounter;
-          
+
           attacker.getTag crewedWeaponID Tag.UNIT_CREWED_WEAPON_ID;
           battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING;
-          
+
           bit_or gameCrewedWeaponExperienceBitCounter crewedWeaponID;
           battle_game.setTag Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING gameCrewedWeaponExperienceBitCounter;
 
@@ -196,18 +196,18 @@ extended:
             battle_game.getTag crewedWeaponID Tag.GAME_CREWED_WEAPON_CURRENT_ID;
             # Limit to only 31 interactions (max of bitwise operations)
             if gt crewedWeaponID 30;
-              
+
               return 0 part side;
-            
+
             end;
             add crewedWeaponID 1; # increment beforehand since it might be set to 1
             battle_game.setTag Tag.GAME_CREWED_WEAPON_CURRENT_ID crewedWeaponID;
 
             battle_game.getTag crewedWeaponID Tag.GAME_CREWED_WEAPON_CURRENT_BIT_ID;
             if eq 0 crewedWeaponID; # ensure we're setting a bit
-            
+
               set crewedWeaponID 1;
-            
+
             end;
 
             unit.setTag Tag.UNIT_CREWED_WEAPON_ID crewedWeaponID;
@@ -444,7 +444,7 @@ extended:
                 soldier.Stats.setReactions currentStat;
 
               end;
-            
+
             end;
 
           end;
@@ -512,9 +512,9 @@ items:
     experienceTrainingMode: 32
     listOrder: 1101
 #######################################
-######### LEWIS MG TURRET ############
+######### MAXIM MG TURRET ############
 #####################################
-  - type: STR_LEWIS_MG_TURRET_CORPSE
+  - type: STR_MAXIM_MG_TURRET_CORPSE
     weight: 45
     bigSprite: 801
     floorSprite: 801
@@ -522,7 +522,7 @@ items:
     invHeight: 3
     recover: false
 
-  - type: STR_LEWIS_MG_TURRET
+  - type: STR_MAXIM_MG_TURRET
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT]
     size: 1.0
     costBuy: 24000
@@ -536,7 +536,7 @@ items:
     reloadSound: 1002
     bulletSpeed: 20
     compatibleAmmo:
-      - STR_LEWIS_MG_DRUM
+      - STR_MAXIM_MG_DRUM
     clipSize: 48
     accuracySnap: 150
     accuracyAuto: 125
@@ -553,7 +553,7 @@ items:
     invHeight: 3
     listOrder: 1102
 
-  - type: STR_LEWIS_MG_DRUM
+  - type: STR_MAXIM_MG_DRUM
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT, STR_CLIPS]
     size: 0.3
     weight: 5
@@ -565,10 +565,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     damageType: 1
-    clipSize: 48
+    clipSize: 100
     battleType: 2
-    invWidth: 1
-    invHeight: 1
+    invWidth: 3
+    invHeight: 2
     listOrder: 1102
 #######################################
 ########## T-GEWEHR TURRET ###########
@@ -641,16 +641,16 @@ items:
 
 
 armors:
-  - type: STR_LEWIS_MG_TURRET_ARMOR
+  - type: STR_MAXIM_MG_TURRET_ARMOR
     tags:
       ARMOR_IS_CREWED_WEAPON: 1
       ARMOR_CREWED_WEAPON_CAN_BE_DISASSEMBLED: 1
       ARMOR_CREWED_WEAPON_CAN_BE_PUSHED: 1
-    spriteSheet: LEWIS_TURRET.PCK
-    spriteInv: LEWIS_MG
+    spriteSheet: MAXIM_TURRET.PCK
+    spriteInv: MAXIM_MG
     allowInv: true
     corpseBattle:
-      - STR_LEWIS_MG_TURRET_CORPSE
+      - STR_MAXIM_MG_TURRET_CORPSE
     frontArmor: 50
     sideArmor: 50
     rearArmor: 50
@@ -737,8 +737,8 @@ armors:
 
 
 units:
-  - type: STR_LEWIS_MG_TURRET
-    race: STR_LEWIS_MG_TURRET
+  - type: STR_MAXIM_MG_TURRET
+    race: STR_MAXIM_MG_TURRET
     stats:
       tu: 100
       stamina: 50
@@ -751,7 +751,7 @@ units:
       psiStrength: 250
       psiSkill: 0
       melee: 0
-    armor: STR_LEWIS_MG_TURRET_ARMOR
+    armor: STR_MAXIM_MG_TURRET_ARMOR
     standHeight: 14
     kneelHeight: 14
     deathSound: 23
@@ -788,13 +788,13 @@ units:
     energyRecovery: 0
 
 extraSprites:
-  - type: LEWIS_TURRET.PCK
+  - type: MAXIM_TURRET.PCK
     width: 256
     height: 120
     subX: 32
     subY: 40
     files:
-      0: Resources/Turrets/crewed_Lewis_MG_Turret.png
+      0: Resources/Turrets/crewed_MAXIM_MG_Turret.png
   - type: TGEWEHR_TURRET.PCK
     width: 256
     height: 120
@@ -812,12 +812,12 @@ extraSprites:
     files:
       0: Resources/UnitSprites/conqueror_turret.png
 
-  - type: LEWIS_MG_BACKGROUND
+  - type: MAXIM_MG_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Turrets/Background/LEWIS_MG_BACKGROUND.png
+      0: Resources/Turrets/Background/MAXIM_MG_BACKGROUND.png
 
   - type: TGEWEHR_BACKGROUND
     singleImage: true
@@ -826,10 +826,10 @@ extraSprites:
     files:
       0: Resources/Turrets/Background/TGEWEHR_BACKGROUND.png
 
-  - type: LEWIS_MGM0.SPK
+  - type: MAXIM_MGM0.SPK
     singleImage: true
     files:
-      0: Resources/Turrets/Inventory/LEWIS_MG_INVENTORY.png
+      0: Resources/Turrets/Inventory/MAXIM_MG_INVENTORY.png
 
   - type: TGEWEHRM0.SPK
     singleImage: true
@@ -841,16 +841,16 @@ extraSprites:
     height: 48
     files:
       800: Resources/Turrets/BigTurretWrench.png
-      801: Resources/Turrets/BigLewisMGLarge.png
-      802: Resources/Turrets/BigLewisMGDrum.png
+      801: Resources/Turrets/BigMaximMG.png
+      802: Resources/Turrets/BigMaximMGAmmo.png
       803: Resources/Turrets/BigTGewehrLarge.png
       804: Resources/Turrets/BigTGewehrRound.png
       805: Resources/Turrets/BigConquerorAutocannon.png
 
   - type: FLOOROB.PCK
-    files:   
+    files:
       800: Resources/Turrets/FloorTurretWrench.png
-      801: Resources/Turrets/FloorLewisMG.png
+      801: Resources/Turrets/FloorMaximMG.png
       803: Resources/Turrets/FloorTGewehr.png
       804: Resources/Turrets/floorob_conqueror_turret_0.png
       805: Resources/Turrets/floorob_conqueror_turret_1.png
@@ -887,13 +887,13 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/TURRET_GUIDE_IMAGE.PNG
-  
+
 extraSounds:
   - type: BATTLE.CAT
     files:
       1000: Resources/Turrets/Sounds/Repair.wav
-      1001: Resources/Turrets/Sounds/lewis_fire.wav
-      1002: Resources/Turrets/Sounds/lewis_reload.wav
+      1001: Resources/Turrets/Sounds/maxim_fire.wav
+      1002: Resources/Turrets/Sounds/maxim_reload.wav
       1003: Resources/Turrets/Sounds/tgewehr_fire.wav
       1004: Resources/Turrets/Sounds/tgewehr_reload.wav
 
@@ -905,12 +905,12 @@ ufopaedia:
     text: STR_TURRET_GUIDE_UFOPEDIA
     text_width: 150
 
-  - id: STR_LEWIS_MG_TURRET
+  - id: STR_MAXIM_MG_TURRET
     type_id: 3
-    image_id: LEWIS_MG_BACKGROUND
+    image_id: MAXIM_MG_BACKGROUND
     section: STR_HEAVY_WEAPONS_PLATFORMS
-    text: STR_LEWIS_MG_TURRET_UFOPEDIA
-    weapon: STR_LEWIS_MG
+    text: STR_MAXIM_MG_TURRET_UFOPEDIA
+    weapon: STR_MAXIM_MG
 
   - id: STR_TGEWEHR_TURRET
     requires:
@@ -927,17 +927,17 @@ extraStrings:
       STR_TURRET_GUIDE: How to deploy a Turret?
       STR_TURRET_GUIDE_UFOPEDIA: Attention, soldier. Deploying a turret can be difficult at first. To use it, you need to kneel in front of the weapon and make a melee attack (using your bare hand, without holding a weapon). This is once per turn. To disassemble the turret, you need to use the Turret Wrench and make a melee attack. You can carry it and put it in another position. To reactivate it, you must use the ASSEMBLE attack using the Turret Wrench.
 #
-      STR_LEWIS_MG_TURRET: "Lewis MG Turret"
-      STR_LEWIS_MG_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE} Water cooled MG, useful to provide suppressive fire support to advancing troops. It's fixed mounting allows a continuous fire to be maintained without considerably affecting its accuracy."
-      STR_LEWIS_MG: "Lewis .303 British MG"
-      STR_LEWIS_MG_DRUM: "Lewis MG Drum"
-      STR_LEWIS_MG_TURRET_ARMOR: "Fixed Lewis MG Emplacement"
+      STR_MAXIM_MG_TURRET: "Maxim MG Turret"
+      STR_MAXIM_MG_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE} Water cooled MG, useful to provide suppressive fire support to advancing troops. It's fixed mounting allows a continuous fire to be maintained without considerably affecting its accuracy."
+      STR_MAXIM_MG: "Maxim MG"
+      STR_MAXIM_MG_DRUM: "Maxim MG Ammo"
+      STR_MAXIM_MG_TURRET_ARMOR: "Fixed Maxim MG Emplacement"
 #
       STR_TGEWEHR_TURRET: "T-Gewehr Anti-Tank"
       STR_TGEWEHR_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE}  Heavy, powerful, difficult to handle. It is said that a soldier can make two shots with this weapon, one for each shoulder. Annihilates slightly armored targets with powerful 13.5mm TuF rounds."
       STR_TGEWEHR: "T-Gewehr 13.5mm TuF"
       STR_TGEWEHR_ROUND: "T-Gewehr Round"
-      STR_LEWIS_MG_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
+      STR_TGEWEHR_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
 #
       STR_TURRET_INTERACTION_ITEM: "Turret Wrench"
       STR_ASSEMBLE_TURRET: "Assemble"

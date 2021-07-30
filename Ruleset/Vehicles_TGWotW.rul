@@ -70,7 +70,7 @@ crafts:
       - [4, 15, 0, 0]
       - [3, 16, 0, 0]
       - [4, 16, 0, 0]
-    listOrder: 800 
+    listOrder: 800
 ###################################
 ######### AIRCRAFT ###############
 #################################
@@ -82,9 +82,9 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 2
-    weaponTypes: 
+    weaponTypes:
       - 0
-      - [3, 4] 
+      - [3, 4]
     weaponStrings:
       - STR_CRAFT_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_ONE
@@ -110,8 +110,8 @@ crafts:
     speedMax: 300
     accel: 1
     weapons: 4
-    weaponTypes: 
-      - [0, 1] 
+    weaponTypes:
+      - [0, 1]
       - [0, 1]
       - [0, 1]
       - [0, 1, 4, 5]
@@ -154,26 +154,26 @@ crafts:
               - position: [3, 14, 6]
                 amount: 5
                 mixed: true
-                itemList: [STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_LEWIS_MG_DRUM, STR_TURRET_INTERACTION_ITEM] 
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [4, 2, 6]
     deployment:
 # Frontal gondola
 # Captain's Helm
       - [4, 15, 6, 4]
 # Turret Gunners
-      - [5, 15, 6, 2] 
+      - [5, 15, 6, 2]
       - [3, 15, 6, 6]
 # Crew staff
-      - [4, 14, 6, 2] 
+      - [4, 14, 6, 2]
       - [5, 14, 6, 2]
       - [4, 13, 6, 2]
       - [5, 13, 6, 2]
 # Rear gondola
 # Passengers
       - [4, 3, 6, 2]
-      - [5, 3, 6, 2] 
+      - [5, 3, 6, 2]
       - [3, 3, 6, 2]
-      - [5, 4, 6, 2] 
+      - [5, 4, 6, 2]
       - [3, 4, 6, 2]
 # unit facing
 # 6 7 0
@@ -191,7 +191,7 @@ craftWeapons:
 # weaponType 2 = Artillery (Naval cannons, super powerful, low ammo, low reload times)
 # weaponType 3 = Rockets (Rocket propelled projectiles, short range)
 # weaponType 4 = Bombs (Free fall ordnance, close range, good damage)
-# weaponType 5 = Auxliary Systems (Fuel tanks, extra shields, etc) 
+# weaponType 5 = Auxliary Systems (Fuel tanks, extra shields, etc)
 #Machine Gun
   - type: STR_TWIN_HMG
     weaponType: 0
@@ -282,7 +282,7 @@ units:
     energyRecovery: 0
     livingWeapon: true
     builtInWeaponSets:
-      - 
+      -
         - STR_CONQUEROR_AUTOCANNON
     specab: 1
 armors:
@@ -358,7 +358,7 @@ items:
     recover: false
 
   - type: STR_ZEPPELIN_TURRET_SPAWNER
-    spawnUnit: STR_LEWIS_MG_TURRET
+    spawnUnit: STR_MAXIM_MG_TURRET
     spawnUnitFaction: 0
     invWidth: 0
     invHeight: 0
@@ -526,9 +526,9 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_FRAGMENTATION_BOMB_UFOPEDIA
     listOrder: 803
-extraSprites: 
+extraSprites:
 # "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
-# INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33	  
+# INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33
 # Craft Weapons: file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
   - type: BASEBITS.PCK
     files:
@@ -542,7 +542,7 @@ extraSprites:
       202: Resources/Crafts/RClassAirship_minimised.png
       211: Resources/Crafts/Conqueror_dogfight.png
       212: Resources/Crafts/Spad_dogfight.png
-      213: Resources/Crafts/RClassAirship_dogfight.png 
+      213: Resources/Crafts/RClassAirship_dogfight.png
 
 #Craft weapons
   - type: BASEBITS.PCK
@@ -617,7 +617,7 @@ extraStrings:
       STR_CONQUEROR_UFOPEDIA: LARGE LANDSHIP ADAPTED TO COMBAT IN DIFFICULT TERRAIN, WITH TROOP TRANSPORT CAPACITY. EQUIPPED WITH A 20MM AUTOMATIC CANNON TO PROVIDE FIRE SUPPORT TO THE INFANTRY
       STR_CONQUEROR_TURRET: 20mm Conqueror AC
       STR_SPAD: SPAD XIII
-      STR_SPAD_UFOPEDIA: NIMBLE BIPLANE AIRCRAFT, VERY POPULAR IN THE COALITION AIR FORCE. IT'S USED BY MANY FIGHTER ACES. IS RATHER SLOW, BUT CAN PERFORM ANY MISSION OF AIR SUPREMACY OR CLOSE AIR SUPPORT. 
+      STR_SPAD_UFOPEDIA: NIMBLE BIPLANE AIRCRAFT, VERY POPULAR IN THE COALITION AIR FORCE. IT'S USED BY MANY FIGHTER ACES. IS RATHER SLOW, BUT CAN PERFORM ANY MISSION OF AIR SUPREMACY OR CLOSE AIR SUPPORT.
       STR_RCLASS_AIRSHIP: R-CLASS AIRSHIP
       STR_RCLASS_AIRSHIP_UFOPEDIA: POWERFUL WAR AIRSHIP, THE LARGEST IN THE GERMAN NAVY. POSESES MULTIPLE TURRET HARDPOINTS, ADAPTABLE TO ANY MISSION. CAN CARRY A COMBINATION OF CANNONS AND MG.
       STR_TWIN_HMG: Twin HMG
