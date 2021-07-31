@@ -537,7 +537,7 @@ items:
     bulletSpeed: 20
     compatibleAmmo:
       - STR_MAXIM_MG_DRUM
-    clipSize: 48
+    clipSize: 100
     accuracySnap: 150
     accuracyAuto: 125
     tuSnap: 25
