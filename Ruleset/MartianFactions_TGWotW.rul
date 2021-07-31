@@ -1,0 +1,594 @@
+﻿items:
+  - type: STR_MARTIAN_LINE_INFANTRY_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 20
+    bigSprite: 3050
+    floorSprite: 3050
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+  - type: STR_MARTIAN_MARINE_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 20
+    bigSprite: 3051
+    floorSprite: 3051
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+  - type: STR_MARTIAN_SHOCK_GUARD_CORPSE
+    size: 0.4
+    costSell: 2000
+    weight: 20
+    bigSprite: 3052
+    floorSprite: 3052
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+  - type: STR_MARTIAN_SKIRMISHER_CORPSE
+    size: 0.4
+    costSell: 3000
+    weight: 20
+    bigSprite: 3053
+    floorSprite: 3053
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+  - type: STR_MARTIAN_ROYAL_GUARD_CORPSE
+    size: 0.4
+    costSell: 7000
+    weight: 50
+    bigSprite: 3054
+    floorSprite: 3054
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 27
+
+  - type: STR_MARTIAN_SCIENTIST_CORPSE
+    size: 0.4
+    costSell: 3000
+    weight: 20
+    bigSprite: 3055
+    floorSprite: 3055
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+
+
+  - type: STR_MARTIAN_LINE_INFANTRY
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 14401
+
+  - type: STR_MARTIAN_MARINE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14402
+
+  - type: STR_MARTIAN_SHOCK_GUARD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+
+  - type: STR_MARTIAN_SKIRMISHER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14404
+
+  - type: STR_MARTIAN_ROYAL_GUARD
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14405
+
+  - type: STR_MARTIAN_SCIENTIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+
+
+armors:
+  - type: STR_MARTIAN_LINE_INFANTRY_ARMOR
+    spriteSheet: MARTIAN_LINE_INFANTRY_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_MARTIAN_LINE_INFANTRY_CORPSE
+    spriteInv: MARTIAN_LINE_INFANTRY_INVENTORY
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 5
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_MARTIAN_MARINE_ARMOR
+    spriteSheet: MARTIAN_MARINE_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_MARTIAN_MARINE_CORPSE
+    spriteInv: MARTIAN_MARINE_INVENTORY
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 5
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_MARTIAN_SHOCK_GUARD_ARMOR
+    spriteSheet: MARTIAN_SHOCK_GUARD_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_MARTIAN_SHOCK_GUARD_CORPSE
+    spriteInv: MARTIAN_SHOCK_GUARD_INVENTORY
+    frontArmor: 12
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 5
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 0.5
+      - 1.0
+      - 1.0
+      - 0.1
+    loftempsSet: [ 3 ]
+
+  - type: STR_MARTIAN_SKIRMISHER_ARMOR
+    spriteSheet: MARTIAN_SKIRMISHER_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_MARTIAN_SKIRMISHER_CORPSE
+    spriteInv: MARTIAN_SKIRMISHER_INVENTORY
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_MARTIAN_POWER_ARMOR
+    spriteSheet: MARTIAN_ROYAL_GUARD_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_MARTIAN_ROYAL_GUARD_CORPSE
+    spriteInv: MARTIAN_ROYAL_GUARD_INVENTORY
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+  - type: STR_MARTIAN_SCIENTIST_ARMOR
+    spriteSheet: MARTIAN_SCIENCE_TEAM_SPRITESHEET.PCK
+    corpseBattle:
+      - STR_MARTIAN_SCIENTIST_CORPSE
+    spriteInv: MARTIAN_SCIENTIST_INVENTORY
+    frontArmor: 10
+    sideArmor: 10
+    rearArmor: 10
+    underArmor: 10
+    visibilityAtDark: 9
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+    loftempsSet: [ 3 ]
+
+units:
+  - type: STR_MARTIAN_LINE_INFANTRY
+    race: STR_MARTIAN_LINE_INFANTRY
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_LINE_INFANTRY_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: [41, 42, 43]
+    intelligence: 5
+    aggression: 2
+    canSurrender: true
+
+  - type: STR_MARTIAN_SHOCK_GUARD
+    race: STR_MARTIAN_SHOCK_GUARDS
+    rank: STR_LIVE_ENGINEER
+    stats:
+      tu: 60
+      stamina: 100
+      health: 35
+      bravery: 60
+      reactions: 50
+      firing: 40
+      throwing: 40
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_SHOCK_GUARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 14
+    deathSound: [41, 42, 43]
+    intelligence: 7
+    aggression: 2
+    canSurrender: true
+
+  - type: STR_MARTIAN_MARINE
+    race: STR_MARTIAN_MARINES
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 70
+      stamina: 100
+      health: 35
+      bravery: 80
+      reactions: 64
+      firing: 30
+      throwing: 30
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_MARINE_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+
+  - type: STR_MARTIAN_SKIRMISHER
+    race: STR_MARTIAN_SKIRMISHERS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_SKIRMISHER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+
+  - type: STR_MARTIAN_ROYAL_GUARD
+    race: STR_MARTIAN_ROYAL_GUARD
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_POWER_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+
+  - type: STR_MARTIAN_SCIENTIST
+    race: STR_MARTIAN_SCIENCE_TEAM
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 45
+      stamina: 100
+      health: 40
+      bravery: 60
+      reactions: 50
+      firing: 20
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_SCIENTIST_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 14
+    deathSound: [44, 45, 46]
+    intelligence: 6
+    aggression: 1
+    canSurrender: true
+
+
+alienRaces:
+#Race Rank Reference
+#alienRank: 6 - Terror unit 1
+#alienRank: 7 - Terror unit 2
+#alienRank: 5 - Soldier
+#alienRank: 4 - Navigator
+#alienRank: 3 - Medic
+#alienRank: 2 - Engineer
+#alienRank: 1 - Leader
+#alienRank: 0 - Commander
+
+  - id: STR_MARTIAN_LINE_INFANTRY
+    members:
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+
+  - id: STR_MARTIAN_MARINES
+    members:
+      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE
+
+  - id: STR_MARTIAN_SHOCK_GUARDS
+    members:
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+
+  - id: STR_MARTIAN_SKIRMISHERS
+    members:
+      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER
+
+  - id: STR_MARTIAN_ROYAL_GUARD
+    members:
+      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD
+
+  - id: STR_MARTIAN_SCIENCE_TEAM
+    members:
+      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_SCIENTIST
+
+extraSprites:
+  - type: MARTIAN_LINE_INFANTRY_SPRITESHEET.PCK
+    width: 1024
+    height: 360
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_SPRITESHEET.png
+
+  - type: MARTIAN_MARINE_SPRITESHEET.PCK
+    width: 1024
+    height: 360
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Martians/Marines/MARINE_BATTLESUIT_SPRITESHEET.png
+
+  - type: MARTIAN_SHOCK_GUARD_SPRITESHEET.PCK
+    width: 1024
+    height: 360
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_SPRITESHEET.png
+
+  - type: MARTIAN_SKIRMISHER_SPRITESHEET.PCK
+    width: 320
+    height: 1080
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Martians/Skirmishers/Sectoid_Skirmisher.png
+
+  - type: MARTIAN_ROYAL_GUARD_SPRITESHEET.PCK
+    width: 320
+    height: 1080
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Martians/RoyalGuards/SpriteSheet_SectoidPowerSkeleton.png
+
+  - type: MARTIAN_SCIENCE_TEAM_SPRITESHEET.PCK
+    width: 320
+    height: 1080
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Martians/ScienceTeam/WHITE_SECTOID_SPRITESHEET.png
+
+  - type: BIGOBS.PCK
+    files:
+      3050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_BIGOB.png
+      3051: Resources/Martians/Marines/MARINE_BATTLESUIT_CORPSE_BIGOB.png
+      3052: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_CORPSE_FLOOROB.png
+      3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
+      3054: Resources/Martians/RoyalGuards/BigOb_SectoidPowerSkeleton.png
+      3055: Resources/Martians/ScienceTeam/BigOb_Sectoid_White.png
+  - type: FLOOROB.PCK
+    files:
+      3050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_FLOOROB.png
+      3051: Resources/Martians/Marines/MARINE_BATTLESUIT_CORPSE_FLOOROB.png
+      3052: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_CORPSE_FLOOROB.png
+      3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
+      3054: Resources/Martians/RoyalGuards/FloorOb_SectoidPowerSkeleton.png
+      3055: Resources/Martians/ScienceTeam/FloorOb_Sectoid_White.png
+
+  - type: MARTIAN_LINE_INFANTRY_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_INVENTORY.png
+
+  - type: MARTIAN_MARINE_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/Marines/MARINE_BATTLESUIT_INVENTORY.png
+
+  - type: MARTIAN_SHOCK_GUARD_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_INVENTORY.png
+
+#Note: Scientist doesn't actually have an inventory file, likely to produce error -Rclipse
+
+  - type: MARTIAN_SCIENTIST_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/ScienceTeam/WHITE_SECTOID_INVENTORY.png
+
+  - type: MARTIAN_SKIRMISHER_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/Skirmishers/Inv_Skirmisher.png
+
+  - type: MARTIAN_ROYAL_GUARD_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/RoyalGuards/Inventory_SectoidPowerSkeleton.png
+
+extraStrings:
+  - type: en-US
+    strings:
+      STR_CRAFT_GATLING_ONE: "GATLING-1>{ALT}{0}"

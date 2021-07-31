@@ -1,0 +1,11 @@
+Unit Name: Sentinel
+Author: The Martian
+Released: Jan 29 2021
+
+This archive contains the sprite set of a unit for use with OpenXcom.
+
+You will need to use drawingRoutine: 1 (Floater) for this unit to animate correctly.
+
+Additional Credits:
+. The Unit Sheet uses the metallic arms from Duke_Falcon's "Starwolf" unit.
+. The BigOb image uses the metallic arms from Robin's "Waspite" unit.

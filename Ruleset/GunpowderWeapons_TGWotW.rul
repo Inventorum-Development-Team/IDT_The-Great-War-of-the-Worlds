@@ -1,4 +1,4 @@
-#Close quarters: defined by default on 1 tile 
+#Close quarters: defined by default on 1 tile
 #Close combat: 5-10 tiles
 #Mid-range combat: 11-20 tiles
 #Long range combat: 21-40 tiles
@@ -170,6 +170,7 @@ items:
     requires:
       - STR_ADVANCED_FIREARMS
     size: 0.3
+    costBuy: 4000
     costSell: 3500
     weight: 6
     bigSprite: 205
@@ -463,7 +464,7 @@ items:
     armor: 30
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds    
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 45
@@ -897,7 +898,7 @@ items:
     autoRange: 11
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds    
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 45
@@ -1177,7 +1178,7 @@ items:
     invHeight: 3
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds    
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 40
@@ -1248,7 +1249,7 @@ items:
     kneelBonus: 130
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds    
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 40
@@ -1664,7 +1665,7 @@ items:
 #    listOrder: 2078
 ####################################
 ####### MEDICAL EQUIPMENT #########
-################################# 
+#################################
   - type: STR_MEDIKIT
     medikitBackground: WW1_MEDIKIT
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
@@ -1777,11 +1778,11 @@ items:
 #    floorSprite: 8586
 #    bulletSprite: 31
 #    fireSound: 15
-#    power: 5 #there must be a hit event to act the script 
+#    power: 5 #there must be a hit event to act the script
 #    damageType: 3
 #    damageAlter:
-#      ToHealth: -1.0   
-#      ToStun: -3.0  	  
+#      ToHealth: -1.0
+#      ToStun: -3.0
 #    clipSize: 2
 #    accuracyAimed: 110
 #    confAimed:
@@ -1798,7 +1799,7 @@ items:
 #    tags: #here buff values can be set
 #      FTAG_BUFF_VALUE_TIMEUNITS: 20 #remember add renewable resources to damage alter if positive. this will only affect maximum value, not current
 #      FTAG_BUFF_VALUE_STAMINA: 20
-#      FTAG_BUFF_VALUE_HEALTH: 5 
+#      FTAG_BUFF_VALUE_HEALTH: 5
 #      FTAG_BUFF_VALUE_BRAVERY: -20 #negative means debuff
 #      FTAG_BUFF_VALUE_REACTIONS: 20
 #      FTAG_BUFF_VALUE_FIRING: -5
@@ -1836,7 +1837,7 @@ items:
       ToHealth: 0.0
       ToWound: 0.0
       RadiusReduction: 0.0
-      FixRadius: 3.0
+      FixRadius: 3
     confAimed:
       name: STR_CHARGE
     costAimed:
@@ -1874,10 +1875,10 @@ items:
       FTAG_BUFF_VALUE_TIMEUNITS: 20
       FTAG_BUFF_VALUE_BRAVERY: 10
       FTAG_BUFF_VALUE_REACTIONS: 5
- 
+
 #  - type: STR_BAGPIPE
 #    categories: [STR_LIGHT_EQUIPMENT]
-#    size: 0.2	
+#    size: 0.2
 #    costSell: 3750
 #    weight: 7
 #    bigSprite: 121
@@ -1936,7 +1937,7 @@ items:
 #    tags: #here buff values can be set
 #      FTAG_BUFF_VALUE_TIMEUNITS: 3
 #      FTAG_BUFF_VALUE_STAMINA: 5
-#      FTAG_BUFF_VALUE_BRAVERY: 15 
+#      FTAG_BUFF_VALUE_BRAVERY: 15
 #      FTAG_BUFF_VALUE_MELEE: 4
 #      FTAG_BUFF_VALUE_STRENGTH: 3
 #################################
@@ -2082,7 +2083,7 @@ items:
     floorSprite: 292
     handSprite: 648
     power: 80
-    explosionHitSound: 149 
+    explosionHitSound: 149
     damageAlter:
       IgnoreOverKill: false
       ToTile: 0.75
@@ -2309,7 +2310,7 @@ items:
       SmokeThreshold: 1000
     clipSize: 30
     autoShots: 5
-    sprayWaypoints: 2    
+    sprayWaypoints: 2
 #    bulletSpeed: 8
     experienceTrainingMode: 7
     attraction: 7
@@ -2402,7 +2403,7 @@ items:
     damageType: 2
     damageAlter:
       RandomType: 6
-      FireBlastCalc: false 
+      FireBlastCalc: false
       FixRadius: 1
       FireThreshold: 1
       SmokeThreshold: 50
@@ -2427,7 +2428,7 @@ items:
     battleType: 6
     isConsumable: true
     medikitTargetSelf: true
-    medikitActionName: STR_EAT    
+    medikitActionName: STR_EAT
     medikitType: 3
     painKiller: 1
     costUse:
@@ -2641,7 +2642,7 @@ items:
     meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178] #Punch sounds
     meleeAnimation: 4
     accuracyMelee: 70
-    clipSize: 2    
+    clipSize: 2
     meleeMultiplier:
       flatHundred: 0.65
       melee: 0.34
@@ -2919,7 +2920,7 @@ ufopaedia:
   - id: STR_MONDRAGON_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-    
+
   - id: STR_MAUSER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -3000,7 +3001,7 @@ ufopaedia:
 #    text: STR_MOSIN_NAGANT_UFOPEDIA
 #    listOrder: 2017
 #  - id: STR_OBREZ
-#    type_id: 4 
+#    type_id: 4
 #    section: STR_WEAPONS_AND_EQUIPMENT
 #    text: STR_OBREZ_UFOPEDIA
 #    listOrder: 2018
@@ -3317,7 +3318,7 @@ ufopaedia:
 #  - id: STR_C93_CARBINE_CLIP
 #    type_id: 4
 #    section: STR_NOT_AVAILABLE
-  
+
   - id: STR_STIELHANDGRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -3561,7 +3562,7 @@ extraSprites:
       271: Resources/GunpowderWeapons/BigSabre.png
       272: Resources/GunpowderWeapons/BigTrenchKnife.png
       273: Resources/GunpowderWeapons/BigTrenchShovel.png
-      274: Resources/GunpowderWeapons/BigTrenchMace.png 
+      274: Resources/GunpowderWeapons/BigTrenchMace.png
 #      275: Resources/GunpowderWeapons/BigTrenchAxe.png
 #      276: Resources/GunpowderWeapons/BigTrenchPickaxe.png
 #      277: Resources/GunpowderWeapons/BigBowieKnife.png
@@ -3576,18 +3577,18 @@ extraSprites:
 #      285: Resources/GunpowderWeapons/BigCombatStimulant.png
       286: Resources/GunpowderWeapons/BigWhistle.png
 #      287: Resources/GunpowderWeapons/BigBagpipe.png
-      
+
       288: Resources/GunpowderWeapons/BigLugerArtillery.png
       289: Resources/GunpowderWeapons/BigLugerArtilleryDrum.png
       290: Resources/GunpowderWeapons/BigMP18.png
       291: Resources/GunpowderWeapons/BigMP18Drum.png
       292: Resources/GunpowderWeapons/BigATGrenade.png
       293: Resources/GunpowderWeapons/BigTrenchClub.png
-      
+
 #      294: Resources/GunpowderWeapons/BigM1917TrenchCarbine.png
 #      295: Resources/GunpowderWeapons/BigM1917TrenchCarbineClip.png
 #      296: Resources/GunpowderWeapons/BigSawedOff.png
-#      297: Resources/GunpowderWeapons/BigSawedOffShells.png 
+#      297: Resources/GunpowderWeapons/BigSawedOffShells.png
 #      298: Resources/GunpowderWeapons/BigRSCCarbine.png
 #      299: Resources/GunpowderWeapons/BigRSCCarbineClip.png
 #      300: Resources/GunpowderWeapons/BigBAC.png
@@ -3622,7 +3623,7 @@ extraSprites:
       327: Resources/GunpowderWeapons/BigTeaFlask.png
 
   - type: FLOOROB.PCK
-    files:   
+    files:
       201: Resources/GunpowderWeapons/FloorWebley.png
 #      202: Resources/GunpowderWeapons/FloorWebleyClip.png
       203: Resources/GunpowderWeapons/FloorSMLE.png
@@ -3693,7 +3694,7 @@ extraSprites:
       271: Resources/GunpowderWeapons/FloorSabre.png
       272: Resources/GunpowderWeapons/FloorTrenchKnife.png
       273: Resources/GunpowderWeapons/FloorTrenchShovel.png
-      274: Resources/GunpowderWeapons/FloorTrenchMace.png 
+      274: Resources/GunpowderWeapons/FloorTrenchMace.png
 #      275: Resources/GunpowderWeapons/FloorTrenchAxe.png
 #      276: Resources/GunpowderWeapons/FloorTrenchPickaxe.png
 #      277: Resources/GunpowderWeapons/FloorBowieKnife.png
@@ -3708,18 +3709,18 @@ extraSprites:
 #      285: Resources/GunpowderWeapons/FloorCombatStimulant.png
       286: Resources/GunpowderWeapons/FloorWhistle.png
 #      287: Resources/GunpowderWeapons/FloorBagpipes.png
-      
+
       288: Resources/GunpowderWeapons/FloorLugerArtillery.png
 #      289: Resources/GunpowderWeapons/FloorLugerArtilleryDrum.png
       290: Resources/GunpowderWeapons/FloorMP18.png
 #      291: Resources/GunpowderWeapons/FloorMP18Drum.png
       292: Resources/GunpowderWeapons/FloorATGrenade.png
       293: Resources/GunpowderWeapons/FloorTrenchClub.png
-      
+
 #      294: Resources/GunpowderWeapons/FloorM1917TrenchCarbine.png
 #      295: Resources/GunpowderWeapons/FloorM1917TrenchCarbineClip.png
 #      296: Resources/GunpowderWeapons/FloorSawedOff.png
-#      297: Resources/GunpowderWeapons/FloorSawedOffShells.png 
+#      297: Resources/GunpowderWeapons/FloorSawedOffShells.png
 #      298: Resources/GunpowderWeapons/FloorRSCCarbine.png
 #      299: Resources/GunpowderWeapons/FloorRSCCarbineClip.png
 #      300: Resources/GunpowderWeapons/FloorBAC.png
@@ -3800,7 +3801,7 @@ extraSprites:
       496: Resources/GunpowderWeapons/HandSabre.png
       504: Resources/GunpowderWeapons/HandTrenchKnife.png
       512: Resources/GunpowderWeapons/HandTrenchShovel.png
-      520: Resources/GunpowderWeapons/HandTrenchMace.png 
+      520: Resources/GunpowderWeapons/HandTrenchMace.png
 #      528: Resources/GunpowderWeapons/HandTrenchAxe.png
 #      536: Resources/GunpowderWeapons/HandTrenchPickaxe.png
 #      544: Resources/GunpowderWeapons/HandBowieKnife.png
@@ -3815,12 +3816,12 @@ extraSprites:
 #      608: Resources/GunpowderWeapons/HandCombatStimulant.png
       616: Resources/GunpowderWeapons/HandWhistle.png
 #      624: Resources/GunpowderWeapons/HandBagpipes.png
-      
+
       632: Resources/GunpowderWeapons/HandLugerArtillery.png
       640: Resources/GunpowderWeapons/HandMP18.png
       648: Resources/GunpowderWeapons/HandATGrenade.png
       656: Resources/GunpowderWeapons/HandTrenchClub.png
-      
+
 #      664: Resources/GunpowderWeapons/HandM1917TrenchCarbine.png
 #      672: Resources/GunpowderWeapons/HandSawedOff.png
 #      680: Resources/GunpowderWeapons/HandRSCCarbine.png
@@ -3979,25 +3980,25 @@ extraStrings:
       STR_RSC17_UFOPEDIA: The Model 1914 Rifle (also called RSC M1914 - for Ribeyrolles, Sutter and Chauchat, the gun designers). On April 1, 1914 the production of the FA RSC 1914 is finally launched and the gun is sent to the front at the rate of 16 per company, assigned in priority to the good shooters. They are carefully chosen because the weapon is capricious and it is necessary for men to take care of their weapon to limit the problems.
       STR_MOSIN_NAGANT:
       STR_MOSIN_NAGANT_UFOPEDIA: ...
-      STR_OBREZ: 
+      STR_OBREZ:
       STR_OBREZ_UFOPEDIA: ...
-      STR_MOSIN_NAGANT_CLIP: 
+      STR_MOSIN_NAGANT_CLIP:
       STR_MOSIN_NAGANT_CLIP_UFOPEDIA: ...
-      STR_FEDOROV_AVTOMAT: 
-      STR_FEDOROV_AVTOMAT_CLIP: 
+      STR_FEDOROV_AVTOMAT:
+      STR_FEDOROV_AVTOMAT_CLIP:
       STR_FEDOROV_AVTOMAT_UFOPEDIA: ...
-      STR_SMG0818: 
-      STR_SMG0818_CLIP: 
+      STR_SMG0818:
+      STR_SMG0818_CLIP:
       STR_SMG0818_UFOPEDIA: ...
-      STR_WINCHESTER_1915: 
+      STR_WINCHESTER_1915:
       STR_WINCHESTER_1915_UFOPEDIA: ...
-      STR_ARISAKA_TYPE44_CARBINE: 
+      STR_ARISAKA_TYPE44_CARBINE:
       STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA: ...
-      STR_MM_MOSIN_NAGANT_CLIP: 
-      STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP: 
-      STR_COSSACK_SABRE: 
+      STR_MM_MOSIN_NAGANT_CLIP:
+      STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP:
+      STR_COSSACK_SABRE:
       STR_COSSACK_SABRE_UFOPEDIA: ...
-      STR_COSSACK_LANCE: 
+      STR_COSSACK_LANCE:
       STR_COSSACK_LANCE_UFOPEDIA: ...
       STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
       STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip
@@ -4007,34 +4008,34 @@ extraStrings:
       STR_BERETTA_MAB18_UFOPEDIA: The first SMG to enter service with the Italian Royal Army and probably the first to be used en masse by a military force, the Moschetto Automatico Beretta Modello 1914 has an impressive firing rate of 900 RPM, capable of emptying its 25-rounds 9mm Glisenti magazine in the blink of an eye. Its biggest problem is its biggest advantage, since the high rate makes it a very imprecise weapon. In addition, it loses stopping power quickly, so its use is recommended for point-blank shooting at short distances. Includes a folding bayonet.
       STR_CEI_RIGOTTI: Cei-Rigotti
       STR_CEI_RIGOTTI_CLIP: Cei-Rigotti Clips
-      STR_CEI_RIGOTTI_UFOPEDIA: Semi-automatic rifle of Italian origin designed by Major Cei-Rigotti at the end of the 19th century. Physically it is similar to the standard Carcano of the Regio Esercito although internally it is considerably different. It has the peculiar option of selective fire, which allows to select between semiauto and full auto fire modes. It has a fixed magazine and is reloaded using stripper clips of 5 bullets each one, caliber 6.5 Carcano K-MM. 
-      STR_VILLAR_PEROSA: Villar-Perosa 
+      STR_CEI_RIGOTTI_UFOPEDIA: Semi-automatic rifle of Italian origin designed by Major Cei-Rigotti at the end of the 19th century. Physically it is similar to the standard Carcano of the Regio Esercito although internally it is considerably different. It has the peculiar option of selective fire, which allows to select between semiauto and full auto fire modes. It has a fixed magazine and is reloaded using stripper clips of 5 bullets each one, caliber 6.5 Carcano K-MM.
+      STR_VILLAR_PEROSA: Villar-Perosa
       STR_VILLAR_PEROSA_CLIP: Villar-Perosa Magazines
       STR_VILLAR_PEROSA_UFOPEDIA: Machine gun formed by joining two MAB14 Berettas and modifying the trigger mechanism to operate both at the same time. This was the original purpose of the weapon, in fact. A pistol grip and a front grip were added to maximize the weapons handling. It has a shooting rate almost doubled by the two barrels of the MAB14s, but a considerably lower accuracy which is compensated to some extent by the large amount of carried ammunition
-      STR_GEWEHR_M95: 
-      STR_GEWEHR_M95_CLIP: 
+      STR_GEWEHR_M95:
+      STR_GEWEHR_M95_CLIP:
       STR_GEWEHR_M95_UFOPEDIA: ...
       STR_MADSEN_MG: Madsen LMG
       STR_MADSEN_MG_CLIP: Madsen LMG Mag
       STR_MADSEN_MG_UFOPEDIA: The Madsen is the first truly 'Light Machine Gun' in military service, designed by by Norwegian war minister Vilhem Madsen in 1902. The LMG uses 7mm calibre rifle ammunition, with a curved extractable 30 rounds magazine. It was designed emphasizing mobility over fire cadence. Kneeling firing, using the integrated bipod, considerably increases the accuracy and stability of the weapon.
       STR_HELLRIEGEL:
-      STR_HELLRIEGEL_CLIP: 
+      STR_HELLRIEGEL_CLIP:
       STR_HELLRIEGEL_UFOPEDIA: ...
       STR_INERTIAL_SHOTGUN:
-      STR_INERTIAL_SHOTGUN_CLIP: 
+      STR_INERTIAL_SHOTGUN_CLIP:
       STR_INERTIAL_SHOTGUN_UFOPEDIA: ...
-      STR_ARISAKA_TYPE38: 
-      STR_ARISAKA_TYPE38_CLIP: 
+      STR_ARISAKA_TYPE38:
+      STR_ARISAKA_TYPE38_CLIP:
       STR_ARISAKA_TYPE38_UFOPEDIA: ...
       STR_KYU_GUNTO:
       STR_KYU_GUNTO_UFOPEDIA: ...
-      STR_GENERAL_LIU: 
-      STR_GENERAL_LIU_CLIP: 
+      STR_GENERAL_LIU:
+      STR_GENERAL_LIU_CLIP:
       STR_GENERAL_LIU_UFOPEDIA: ...
       STR_SHIN_GUNTO:
       STR_SHIN_GUNTO_UFOPEDIA: ...
-      STR_NAMBU: 
-      STR_NAMBU_CLIP: 
+      STR_NAMBU:
+      STR_NAMBU_CLIP:
       STR_NAMBU_UFOPEDIA: ...
       STR_SABRE: Cavalry Sabre
       STR_SABRE_UFOPEDIA: Distinctive saber of officers and cavalry soldiers, employed with ceremonial gallantry on the battlefield. It is a great melee weapon, it has better range than more improvised weapons.
@@ -4044,13 +4045,13 @@ extraStrings:
       STR_TRENCH_SHOVEL_UFOPEDIA: Originally conceived to dig trenches, its original purpose, some soldiers filan the edges of the shovel to use it as a crude and rudimentary weapon of melee. The strength of the soldier has a lot to do with the effectiveness of this weapon.
       STR_TRENCH_MACE: Trench Mace
       STR_TRENCH_MACE_UFOPEDIA: A wooden mallet adapted with various sharp objects found in the trench, from spikes and nails to barbed wire. Brutal and vicious.
-      STR_TRENCH_AXE: 
+      STR_TRENCH_AXE:
       STR_TRENCH_AXE_UFOPEDIA: ...
       STR_TRENCH_PICKAXE:
       STR_TRENCH_PICKAXE_UFOPEDIA: ...
       STR_BOWIE_KNIFE:
       STR_BOWIE_KNIFE_UFOPEDIA: ...
-      STR_MEDIC_BONESAW: 
+      STR_MEDIC_BONESAW:
       STR_MEDIC_BONESAW_UFOPEDIA: ...
       STR_MEDIKIT: Medikit
       STR_MEDIKIT_UFOPEDIA: Small portable bag, contains various medical materials to stabilize wounded in battle. It includes analgesics, antibiotics, iodine chlorido, castor oil and cutting forceps.
@@ -4064,13 +4065,13 @@ extraStrings:
       STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
       STR_LUGER_ARTILLERY_UFOPEDIA: Modified version of the P08 Luger handgun, has a handguard and a wooden stock added to increase accuracy and range. Originally it was supplied to artillery battery soldiers as a personal defense weapon. Use drum magazines to maximize its ammunition storage.
       STR_MP18: MP-18 Bergmann SMG
-      STR_MP18_DRUM: MP-18 Bergmann Drum 
+      STR_MP18_DRUM: MP-18 Bergmann Drum
       STR_MP18_UFOPEDIA: One of the best weapons in the human arsenal, designed to provide maximum firepower at close range. It is light and easy to use, as well as accurate in close combat. Its long-range use is not recommended, it loses power easily. Share the design of its drum magazine with the Artillery Luger.
       STR_ANTITANK_GRENADE: Anti-Tank Grenade
       STR_ANTITANK_GRENADE_UFOPEDIA: improvised anti-tank grenade made of stick grenades bundled with wire and with their wicks together, they are activated all at the same time. Very practical, used by the troops to disable enemy armor.
       STR_TRENCH_CLUB: Trench Club
       STR_TRENCH_CLUB_UFOPEDIA: A light club made of steel, with spikes added to its tips to maximize damage. Very practical close quarters weapon.
-      STR_STIELHANDGRENADE: Stielhandgrenade 
+      STR_STIELHANDGRENADE: Stielhandgrenade
       STR_STIELHANDGRENADE_UFOPEDIA: Also known as "stick grenade", this German-made hand explosive has a fragmentary head at the tip and a small wooden tube as a base. Its design allows it to be thrown very far.
       STR_MILLS_BOMB: Mills Bomb
       STR_MILLS_BOMB_UFOPEDIA: Invented by William Mills, this fragmentation grenade in the shape of a pineapple is very safe to use, it contains various measures of safety to avoid accidental activation. Its explosion range is moderate.
@@ -4083,12 +4084,12 @@ extraStrings:
       STR_FLARE_GUN_UFOPEDIA: Handgun model Webley & Scott No. 1 Mk. III* Signal Pistol. Used by reconnaissance units to mark positions for artillery attacks, as well as to quickly illuminate an area in the dark. Its ammunition is an incendiary flare that can cause light damage. Its offensive use is not recommended, although it may serve as an emergency weapon.
       STR_GAS_GRENADE: Gas Grenade
       STR_GAS_GRENADE_UFOPEDIA: "American-made Mk.V CN grenade, designed to launch a powerful gas of classified origin (although it is speculated that it contains a mixture of Calystene and Tear Gas), which is particularly effective in saturating an area and incapacitating entrenched enemies. While its use is still debatable (due to its hypothetical use on humans and its toxicity on the body), there is no doubt that it is effective against the enemy. The gas directly attacks the affected individual's nervous system. Field tests report that Greys are particularly affected by this weapon."
-#      STR_: 
-#      STR_ _CLIP: 
+#      STR_:
+#      STR_ _CLIP:
 #      STR_ _UFOPEDIA: ...
       STR_BREAD: Bread
       STR_BREAD_UFOPEDIA: A piece of freshly baked bread, excellent for filling the belly of a hungry soldier. It is surprising that it is kept hot for so long, it is much appreciated by soldiers. It recovers energy and morale in 25 points.
-      STR_ROTTEN_BREAD: Rotten Bread 
+      STR_ROTTEN_BREAD: Rotten Bread
       STR_ROTTEN_BREAD_UFOPEDIA: A piece of bread that has been exposed to the weather so long that it has rotted. It can still be consumed by a hungry soldier, recovering 20 points of energy, 10 points of morale, but causing 6 points of damage when consuming the bread in bad condition.
       STR_CANNED_BEEF: Corned Beef
       STR_CANNED_BEEF_UFOPEDIA: Corned beef is a salt-cured beef product. The term comes from the treatment of the meat with large-grained rock salt, also called "corns" of salt. Despite its taste, it is a popular alternative to fresh meat, so scarce in wartime. Its canning prevents the contents from spoiling. When consumed, the soldier recovers 30 units of energy and 25 of morale.
@@ -4128,7 +4129,7 @@ extraStrings:
       STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA: "We've figured out a way to create our own chemical weapons using Martian and native Earth materials. We believe that the enemy has no resistance to our chemical weapons (just as we had no resistance to their weapons), so we expect maximum effectiveness on the battlefield. We warn that their application may affect our troops as well, so use them with caution."
       STR_KMM_BULLETS: K-MM Bullets
       STR_KMM_BULLETS_UFOPEDIA: The new bullets, forged entirely from the new Martian Metal (called Entropium by scientists), have greater penetration capacity than the armor used by the Martians. The new ore is melted and forged again to form the core of the new armour-piercing rounds and more powerful fulminations are added, creating the so-called 'K-MM bullets'. Because Martian Metal is very meltable, bullets of various types can be formed, from pistols to cannons, machine guns and rifles.
- 
+
 ##########################################
 ####### FINNIK'S BUFFING SCRIPTS #########
 ##########################################
