@@ -71,6 +71,18 @@
     battleType: 11
     armor: 26
 
+  - type: STR_CEREBREAL_CORPSE
+    size: 0.4
+    costSell: 20000
+    weight: 20
+    bigSprite: 3056
+    floorSprite: 3056
+    invWidth: 2
+    invHeight: 3
+    recoveryPoints: 5
+    battleType: 11
+    armor: 26
+    listOrder: 6715
 
   - type: STR_MARTIAN_LINE_INFANTRY
     size: 0.0
@@ -114,17 +126,69 @@
     costSell: 60000
     listOrder: 14403
 
+  - type: STR_CEREBREAL_COMMANDER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14406
+
+  - type: CEREBREAL_WEAPON
+    weight: 3
+    bigSprite: 100
+    floorSprite: 31
+    handSprite: 104
+    bulletSprite: 11
+    fireSound: 112
+    hitSound: 19
+    hitAnimation: 57
+    power: 110
+    damageType: 5
+    accuracySnap: 50
+    accuracyAimed: 90
+    tuSnap: 55
+    tuAimed: 80
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+
+
 
 armors:
+  - type: SECTOID_ARMOR0
+    spriteSheet: SECTOID.PCK
+    corpseBattle:
+      - STR_SECTOID_CORPSE
+    spriteInv: CONSCRIPT_INVENTORY
+    frontArmor: 4
+    sideArmor: 3
+    rearArmor: 2
+    underArmor: 2
+    damageModifier:
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.0
+      - 1.2
+      - 1.6
+      - 0.0
+    loftempsSet: [ 2 ]
+
   - type: STR_MARTIAN_LINE_INFANTRY_ARMOR
     spriteSheet: MARTIAN_LINE_INFANTRY_SPRITESHEET.PCK
     corpseBattle:
       - STR_MARTIAN_LINE_INFANTRY_CORPSE
     spriteInv: MARTIAN_LINE_INFANTRY_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 5
+    frontArmor: 70
+    sideArmor: 40
+    rearArmor: 30
+    underArmor: 30
     visibilityAtDark: 9
     damageModifier:
       - 1.0
@@ -144,10 +208,10 @@ armors:
     corpseBattle:
       - STR_MARTIAN_MARINE_CORPSE
     spriteInv: MARTIAN_MARINE_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 5
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 20
     visibilityAtDark: 9
     damageModifier:
       - 1.0
@@ -167,10 +231,10 @@ armors:
     corpseBattle:
       - STR_MARTIAN_SHOCK_GUARD_CORPSE
     spriteInv: MARTIAN_SHOCK_GUARD_INVENTORY
-    frontArmor: 12
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 5
+    frontArmor: 110
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 70
     visibilityAtDark: 9
     damageModifier:
       - 1.0
@@ -208,15 +272,15 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
 
-  - type: STR_MARTIAN_POWER_ARMOR
+  - type: STR_MARTIAN_ROYAL_POWER_ARMOR
     spriteSheet: MARTIAN_ROYAL_GUARD_SPRITESHEET.PCK
     corpseBattle:
       - STR_MARTIAN_ROYAL_GUARD_CORPSE
     spriteInv: MARTIAN_ROYAL_GUARD_INVENTORY
-    frontArmor: 10
-    sideArmor: 10
-    rearArmor: 10
-    underArmor: 10
+    frontArmor: 70
+    sideArmor: 70
+    rearArmor: 50
+    underArmor: 50
     visibilityAtDark: 9
     damageModifier:
       - 1.0
@@ -254,17 +318,65 @@ armors:
       - 1.0
     loftempsSet: [ 3 ]
 
+  - type: CEREBREAL_ARMOR
+    spriteSheet: CEREBREAL.PCK
+    spriteInv: inventory_CEREBREAL
+    corpseBattle:
+      - STR_CEREBREAL_CORPSE
+    frontArmor: 35
+    sideArmor: 35
+    rearArmor: 35
+    underArmor: 35
+    drawingRoutine: 4
+    movementType: 1
+    damageModifier:
+      - 1.0
+      - 1.2
+      - 1.0
+      - 1.1
+      - 1.0
+      - 0.8
+      - 1.1
+      - 1.1
+      - 1.4
+      - 0.0
+    loftempsSet: [ 3 ]
+
 units:
+  - type: STR_SECTOID_SOLDIER
+    race: STR_SECTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 50
+      stamina: 90
+      health: 30
+      bravery: 60
+      reactions: 60
+      firing: 40
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 10
+    deathSound: 10
+    intelligence: 3
+    aggression: 3
+    canSurrender: true
+
   - type: STR_MARTIAN_LINE_INFANTRY
     race: STR_MARTIAN_LINE_INFANTRY
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
+      tu: 60
       stamina: 100
       health: 40
-      bravery: 60
+      bravery: 100
       reactions: 50
-      firing: 20
+      firing: 50
       throwing: 40
       strength: 40
       psiStrength: 50
@@ -273,22 +385,22 @@ units:
     armor: STR_MARTIAN_LINE_INFANTRY_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
-    deathSound: [41, 42, 43]
+    value: 15
+    deathSound: 10
     intelligence: 5
-    aggression: 2
+    aggression: 5
     canSurrender: true
 
   - type: STR_MARTIAN_SHOCK_GUARD
     race: STR_MARTIAN_SHOCK_GUARDS
     rank: STR_LIVE_ENGINEER
     stats:
-      tu: 60
+      tu: 100
       stamina: 100
-      health: 35
-      bravery: 60
+      health: 50
+      bravery: 100
       reactions: 50
-      firing: 40
+      firing: 60
       throwing: 40
       strength: 70
       psiStrength: 50
@@ -298,11 +410,11 @@ units:
     standHeight: 21
     kneelHeight: 16
     floatHeight: 2
-    value: 14
-    deathSound: [41, 42, 43]
+    value: 20
+    deathSound: 10
     intelligence: 7
-    aggression: 2
-    canSurrender: true
+    aggression: 4
+    canSurrender: false
 
   - type: STR_MARTIAN_MARINE
     race: STR_MARTIAN_MARINES
@@ -310,7 +422,7 @@ units:
     stats:
       tu: 70
       stamina: 100
-      health: 35
+      health: 40
       bravery: 80
       reactions: 64
       firing: 30
@@ -322,59 +434,59 @@ units:
     armor: STR_MARTIAN_MARINE_ARMOR
     standHeight: 21
     kneelHeight: 16
-    value: 14
-    deathSound: [44, 45, 46]
+    value: 15
+    deathSound: 10
     intelligence: 6
-    aggression: 1
+    aggression: 3
     canSurrender: true
 
   - type: STR_MARTIAN_SKIRMISHER
     race: STR_MARTIAN_SKIRMISHERS
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
+      tu: 100
       stamina: 100
       health: 40
       bravery: 60
-      reactions: 50
+      reactions: 90
       firing: 20
-      throwing: 40
+      throwing: 60
       strength: 40
       psiStrength: 50
       psiSkill: 0
-      melee: 70
+      melee: 90
     armor: STR_MARTIAN_SKIRMISHER_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 14
-    deathSound: [44, 45, 46]
+    standHeight: 16
+    kneelHeight: 12
+    value: 16
+    deathSound: 10
     intelligence: 6
-    aggression: 1
+    aggression: 2
     canSurrender: true
 
   - type: STR_MARTIAN_ROYAL_GUARD
     race: STR_MARTIAN_ROYAL_GUARD
     rank: STR_LIVE_SOLDIER
     stats:
-      tu: 45
+      tu: 80
       stamina: 100
       health: 40
-      bravery: 60
+      bravery: 100
       reactions: 50
-      firing: 20
+      firing: 60
       throwing: 40
       strength: 40
       psiStrength: 50
       psiSkill: 0
       melee: 70
-    armor: STR_MARTIAN_POWER_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 14
-    deathSound: [44, 45, 46]
-    intelligence: 6
-    aggression: 1
-    canSurrender: true
+    armor: STR_MARTIAN_ROYAL_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 30
+    deathSound: 10
+    intelligence: 8
+    aggression: 2
+    canSurrender: false
 
   - type: STR_MARTIAN_SCIENTIST
     race: STR_MARTIAN_SCIENCE_TEAM
@@ -392,36 +504,80 @@ units:
       psiSkill: 0
       melee: 70
     armor: STR_MARTIAN_SCIENTIST_ARMOR
-    standHeight: 21
-    kneelHeight: 16
-    value: 14
-    deathSound: [44, 45, 46]
-    intelligence: 6
+    standHeight: 16
+    kneelHeight: 12
+    value: 30
+    deathSound: 10
+    intelligence: 10
     aggression: 1
     canSurrender: true
 
+  - type: STR_CEREBREAL_COMMANDER
+    race: STR_CEREBREAL
+    rank: STR_LIVE_COMMANDER
+    stats:
+      tu: 60
+      stamina: 100
+      health: 20
+      bravery: 80
+      reactions: 65
+      firing: 75
+      throwing: 0
+      strength: 20
+      psiStrength: 50
+      psiSkill: 50
+      melee: 10
+    armor: CEREBREAL_ARMOR
+    moveSound: 40
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 50
+    deathSound: 8
+    intelligence: 10
+    aggression: 0
+    livingWeapon: true
 
 alienRaces:
+  - delete: STR_SECTOID
+  - delete: STR_FLOATER
+  - delete: STR_SNAKEMAN
+  - delete: STR_MUTON
+  - delete: STR_ETHEREAL
+  - delete: STR_MIXED
 #Race Rank Reference
+#alienRank: 0 - Commander
+#alienRank: 1 - Leader
+#alienRank: 2 - Engineer
+#alienRank: 3 - Medic
+#alienRank: 4 - Navigator
+#alienRank: 5 - Soldier
 #alienRank: 6 - Terror unit 1
 #alienRank: 7 - Terror unit 2
-#alienRank: 5 - Soldier
-#alienRank: 4 - Navigator
-#alienRank: 3 - Medic
-#alienRank: 2 - Engineer
-#alienRank: 1 - Leader
-#alienRank: 0 - Commander
 
-  - id: STR_MARTIAN_LINE_INFANTRY
+
+  - id: STR_SECTOIDS
+    members:
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_SOLDIER
+      - STR_MARTIAN_MARINE
+      - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
+
+
+  - id: STR_MARTIAN_LINE_INFANTRIES
     members:
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_MARINE
       - STR_MARTIAN_LINE_INFANTRY
-      - STR_MARTIAN_LINE_INFANTRY
-      - STR_MARTIAN_LINE_INFANTRY
-      - STR_MARTIAN_LINE_INFANTRY
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
 
   - id: STR_MARTIAN_MARINES
     members:
@@ -431,8 +587,8 @@ alienRaces:
       - STR_MARTIAN_MARINE
       - STR_MARTIAN_MARINE
       - STR_MARTIAN_MARINE
-      - STR_MARTIAN_MARINE
-      - STR_MARTIAN_MARINE
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
 
   - id: STR_MARTIAN_SHOCK_GUARDS
     members:
@@ -440,10 +596,10 @@ alienRaces:
       - STR_MARTIAN_SHOCK_GUARD
       - STR_MARTIAN_SHOCK_GUARD
       - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_MARINE
       - STR_MARTIAN_SHOCK_GUARD
-      - STR_MARTIAN_SHOCK_GUARD
-      - STR_MARTIAN_SHOCK_GUARD
-      - STR_MARTIAN_SHOCK_GUARD
+      - STR_CYBERDISC_TERRORIST
+      - STR_SECTOPOD_TERRORIST
 
   - id: STR_MARTIAN_SKIRMISHERS
     members:
@@ -451,29 +607,29 @@ alienRaces:
       - STR_MARTIAN_SKIRMISHER
       - STR_MARTIAN_SKIRMISHER
       - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_MARINE
       - STR_MARTIAN_SKIRMISHER
-      - STR_MARTIAN_SKIRMISHER
-      - STR_MARTIAN_SKIRMISHER
-      - STR_MARTIAN_SKIRMISHER
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
 
-  - id: STR_MARTIAN_ROYAL_GUARD
+  - id: STR_MARTIAN_ROYAL_GUARDS
     members:
+      - STR_CEREBREAL_COMMANDER
+      - STR_CEREBREAL_COMMANDER
       - STR_MARTIAN_ROYAL_GUARD
       - STR_MARTIAN_ROYAL_GUARD
       - STR_MARTIAN_ROYAL_GUARD
       - STR_MARTIAN_ROYAL_GUARD
-      - STR_MARTIAN_ROYAL_GUARD
-      - STR_MARTIAN_ROYAL_GUARD
-      - STR_MARTIAN_ROYAL_GUARD
-      - STR_MARTIAN_ROYAL_GUARD
+      - STR_SECTOPOD_TERRORIST
+      - STR_SECTOPOD_TERRORIST
 
   - id: STR_MARTIAN_SCIENCE_TEAM
     members:
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
       - STR_MARTIAN_SCIENTIST
       - STR_MARTIAN_SCIENTIST
-      - STR_MARTIAN_SCIENTIST
-      - STR_MARTIAN_SCIENTIST
-      - STR_MARTIAN_SCIENTIST
+      - STR_MARTIAN_MARINE
       - STR_MARTIAN_SCIENTIST
       - STR_MARTIAN_SCIENTIST
       - STR_MARTIAN_SCIENTIST
@@ -512,8 +668,8 @@ extraSprites:
       0: Resources/Martians/Skirmishers/Sectoid_Skirmisher.png
 
   - type: MARTIAN_ROYAL_GUARD_SPRITESHEET.PCK
-    width: 320
-    height: 1080
+    width: 256
+    height: 1440
     subX: 32
     subY: 40
     files:
@@ -527,6 +683,14 @@ extraSprites:
     files:
       0: Resources/Martians/ScienceTeam/WHITE_SECTOID_SPRITESHEET.png
 
+  - type: CEREBREAL.PCK
+    subX: 32
+    subY: 40
+    width: 512
+    height: 200
+    files:
+      0: Resources/Martians/CerebrealRace/CEREBREAL.png
+
   - type: BIGOBS.PCK
     files:
       3050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_BIGOB.png
@@ -535,6 +699,7 @@ extraSprites:
       3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
       3054: Resources/Martians/RoyalGuards/BigOb_SectoidPowerSkeleton.png
       3055: Resources/Martians/ScienceTeam/BigOb_Sectoid_White.png
+      3056: Resources/Martians/CerebrealRace/bigobs_CEREBREAL_CORPSE.gif
   - type: FLOOROB.PCK
     files:
       3050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_FLOOROB.png
@@ -543,6 +708,14 @@ extraSprites:
       3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
       3054: Resources/Martians/RoyalGuards/FloorOb_SectoidPowerSkeleton.png
       3055: Resources/Martians/ScienceTeam/FloorOb_Sectoid_White.png
+      3056: Resources/Martians/CerebrealRace/floorob_CEREBREAL_CORPSE.gif
+
+  - type: CONSCRIPT_INVENTORY.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/Conscripts/CONSCRIPT_INVENTORY.png
 
   - type: MARTIAN_LINE_INFANTRY_INVENTORY.SPK
     singleImage: true
@@ -588,7 +761,62 @@ extraSprites:
     files:
       0: Resources/Martians/RoyalGuards/Inventory_SectoidPowerSkeleton.png
 
+  - type: inventory_CEREBREAL
+    singleImage: true
+    files:
+      0: Resources/Martians/CerebrealRace/inventory_CEREBREAL.gif
+
+# Inventory
+
+  - type: UFOPAEDIA_IMG_CEREBREAL_AUTOPSY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/CerebrealRace/ufopaedia_CEREBREAL_AUTOPSY.gif
+  - type: UFOPAEDIA_IMG_CEREBREAL
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Martians/CerebrealRace/ufopaedia_CEREBREAL.gif
+
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      112: Resources/Martians/CerebrealRace/CerebrealBlast.wav
+
 extraStrings:
   - type: en-US
     strings:
-      STR_CRAFT_GATLING_ONE: "GATLING-1>{ALT}{0}"
+      STR_SECTOID: "Martian Conscript"
+      STR_SECTOIDS: "Martian Conscript Platoon"
+      SECTOID_ARMOR0: "Martian Conscript Skin"
+      STR_MARTIAN_LINE_INFANTRY: "Martian Line Infantry"
+      STR_MARTIAN_LINE_INFANTRIES: "Martian Line Infantry Platoon"
+      STR_MARTIAN_LINE_INFANTRY_ARMOR: "Martian Line Infantry Battle-Caparace"
+      STR_MARTIAN_LINE_INFANTRY_CORPSE: "Martian Line Infantry Corpse"
+      STR_MARTIAN_MARINE: "Martian Marine"
+      STR_MARTIAN_MARINES: "Martian Marines Team"
+      STR_MARTIAN_MARINE_ARMOR: "Martian Marine Battle-Caparace"
+      STR_MARTIAN_MARINE_CORPSE: "Martian Marine Corpse"
+      STR_MARTIAN_SHOCK_GUARD: "Martian Shock Guard"
+      STR_MARTIAN_SHOCK_GUARDS: "Martian Shock Guard Team"
+      STR_MARTIAN_SHOCK_GUARD_ARMOR: "Martian Shock Guard Battle-Caparace"
+      STR_MARTIAN_SHOCK_GUARD_CORPSE: "Martian Shock Guard Corpse"
+      STR_MARTIAN_SKIRMISHER: "Martian Skirmisher"
+      STR_MARTIAN_SKIRMISHERS: "Martian Skirmisher Formation"
+      STR_MARTIAN_SKIRMISHER_ARMOR: "Martian Skirmisher Body Suit"
+      STR_MARTIAN_SKIRMISHER_CORPSE: "Martian Skirmisher Corpse"
+      STR_MARTIAN_SCIENCE_TEAM: "Martian Science Team"
+      STR_MARTIAN_SCIENTIST: "Martian Scientist"
+      STR_MARTIAN_SCIENTIST_ARMOR: "Martian Scientist Body Suit"
+      STR_MARTIAN_SCIENTIST_CORPSE: "Martian Scientist Corpse"
+      STR_MARTIAN_ROYAL_GUARD: "Martian Royal Guard"
+      STR_MARTIAN_ROYAL_GUARDS: "Martian Royal Guard Formation"
+      STR_MARTIAN_ROYAL_GUARD_CORPSE: "Martian Royal Guard Corpse"
+      STR_MARTIAN_ROYAL_POWER_ARMOR: "Martian Royal Guard Battle-Caparace"
+      STR_CEREBREAL: "Overseer"
+      STR_CEREBREAL_COMMANDER: "Overseer Commander"
+      STR_CEREBREAL_UFOPAEDIA: "..."
+      CEREBREAL_ARMOR: "Overseer Skin"
