@@ -146,7 +146,7 @@ globe:
           weight: 30
         - name: JUNGLE
           area: [0, 360, 0, 90]
-    - id: 11 # Frontline Forest Zone 
+    - id: 11 # Frontline Forest Zone
       terrain:
         - name: FOREST
           area: [0, 360, -90, 0]
@@ -868,7 +868,7 @@ terrains:
         groups: 1 #Landable for UFOs/Crafts
       - name: ALIENFOREST03  #Partially Clear area
         width: 10
-        length: 10 
+        length: 10
         # groups: 3
       - name: ALIENFOREST04 # Hill
         width: 10
@@ -930,7 +930,7 @@ terrains:
             - [6, 4, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
       - name: ALIENFOREST18 # Partially Clear Block
         width: 10
-        length: 10 
+        length: 10
         # groups: 3
       - name: ALIENFOREST19 # Large Farm estate
         width: 20
@@ -946,11 +946,11 @@ terrains:
         # groups: 3
       - name: ALIENFOREST22 # Large Blocks
         width: 20
-        length: 20 
+        length: 20
         groups: 2
       - name: ALIENFOREST23 # Large Blocks
         width: 20
-        length: 20 
+        length: 20
         groups: 2
       - name: ALIENFOREST24 # Partially Clear Block
         width: 10
@@ -995,7 +995,7 @@ terrains:
         width: 10
         length: 10
         # groups: 3
-  - name: RUINED_URBAN 
+  - name: RUINED_URBAN
     script: RUINED_URBAN
     mapDataSets:
       - BLANKS
@@ -1010,27 +1010,27 @@ terrains:
       - name: RUINED_URBAN01
         width: 10
         length: 10
-      - name: RUINED_URBAN02  
+      - name: RUINED_URBAN02
         width: 10
-        length: 10 
+        length: 10
       - name: RUINED_URBAN03
         width: 10
         length: 10
       - name: RUINED_URBAN04
         width: 10
         length: 10
-      - name: RUINED_URBAN05  
+      - name: RUINED_URBAN05
         width: 10
-        length: 10 
+        length: 10
       - name: RUINED_URBAN06
         width: 10
         length: 10
       - name: RUINED_URBAN07
         width: 10
         length: 10
-      - name: RUINED_URBAN08  
+      - name: RUINED_URBAN08
         width: 20
-        length: 20 
+        length: 20
       - name: RUINED_URBAN10 # Infection Barrel
         width: 10
         length: 10
@@ -1064,7 +1064,7 @@ terrains:
         groups: 2 #was 4
       - name: RUINED_URBAN_B02  #EW
         width: 10
-        length: 10 
+        length: 10
         groups: 2 #was 4
       - name: RUINED_URBAN_B03 #NS
         width: 10
@@ -1076,7 +1076,7 @@ terrains:
         groups: 3
       - name: RUINED_URBAN_B05   #X
         width: 10
-        length: 10 
+        length: 10
         groups: 4  #was 2
       - name: RUINED_URBAN_B06 #EW
         width: 10
@@ -1409,7 +1409,7 @@ terrains:
         groups: 3 # NS RAIL
 ########################################
 mapScripts:
-  - type: ALIEN_FOREST                     #Luke83 Mapscript - 
+  - type: ALIEN_FOREST                     #Luke83 Mapscript -
     commands:
     - type: addCraft
     - type: addUFO
@@ -1421,7 +1421,7 @@ mapScripts:
     # - type: addBlock  # Infected Barrels
     #   groups: 2
     #   maxUses: 1
-    - type: addBlock 
+    - type: addBlock
       groups: 4
       executionChances: 70
       maxUses: 4
@@ -1430,11 +1430,11 @@ mapScripts:
     #   executionChances: 40
     #   maxUses: 4
     - type: fillArea
-      # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]        
-      # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3] 
+      # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+      # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
   - type: RUINED_URBAN                    #Luke83 Mapscript - Ruined Urban
     commands:
-    - type: addCraft 
+    - type: addCraft
       terrain: INFESTED
       executions: 1
       groups: 1
@@ -1469,7 +1469,6 @@ mapScripts:
     - type: addCraft
     - type: addUFO
     - type: addBlock
-      groups: 2
       executions: 2
     - type: addBlock
       terrain: INFESTED
@@ -1493,7 +1492,7 @@ mapScripts:
     - type: addBlock
       terrain: INFESTED
       size: 2
-      executions: 1  
+      executions: 1
     - type: fillArea
   - type: VILLAGE
     commands:
@@ -1643,7 +1642,7 @@ mapScripts:
 #####################################
 ####### RAILROAD MAPSCRIPTS ########
 ###################################
-  - type: FOREST_RAIL           
+  - type: FOREST_RAIL
     commands:
     - type: addLine  # Trying to add Roads to map
       groups: 3
@@ -1652,11 +1651,10 @@ mapScripts:
       executionChances: 99
       rects:
         - [1, 1, 4, 1]
-    - type: addCraft 
+    - type: addCraft
       executions: 1
       groups: 1
     - type: addUFO
-      groups: 2
       executions: 1
     - type: fillArea
 #####################################
@@ -1701,8 +1699,6 @@ extraStrings:
       STR_MIAMI: Miami
       STR_TORONTO: Toronto
       STR_BOSTON: Boston
-      STR_BERMUDA: Bermuda
-      STR_HAWAII: Hawaii
       STR_MIDWAY: Midway
       STR_ANCHORAGE: Anchorage
       STR_NUUK: Nuuk
@@ -1745,7 +1741,7 @@ extraStrings:
       STR_ANKARA: Ankara
       STR_CALCUTTA: Calcutta
       STR_SRI_LANKA: Sri Lanka
-      STR_SHANGHAI: Shanghai 
+      STR_SHANGHAI: Shanghai
       STR_SINGAPORE: Singapore
       STR_HONG_KONG: Hong Kong
       STR_SEOUL: Seoul
@@ -1762,15 +1758,13 @@ extraStrings:
       STR_PORTMORESBY: Port Moresby
       STR_KURIL_ISLANDS: Kuril Islands
       STR_HAWAII: Hawaii
-      STR_ANCHORAGE: Anchorage
       STR_EASTER_ISLAND: Easter Island
       STR_GALAPAGOS_ISLAND: Galapagos Island
       STR_BERMUDA: Bermuda
-      STR_NUUK: Nuuk
       STR_AZORES: Azores
       STR_NORTH_PACIFIC: North Pacific
       STR_SOUTH_PACIFIC: South Pacific
-      STR_TIKSI: Tiksi      
+      STR_TIKSI: Tiksi
       STR_FALKLAND_ISLAND: Falkland Island
       STR_BOZEN: Bozen
       STR_NEWCASTLE: Newcastle

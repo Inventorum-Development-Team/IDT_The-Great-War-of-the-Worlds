@@ -269,21 +269,21 @@ extraStrings:
       STR_MISSION_GENERATOR: "THE WAR TO END ALL WARS"
       STR_UFOPAEDIA_UC: "WAR CODEX"
       STR_DAMAGE_10: SUPER AP
-      STR_DAMAGE_11: TESLA
-      STR_DAMAGE_12: ELECTROMAGNETIC
-      STR_DAMAGE_13: HEAT RAY
+      STR_DAMAGE_11: ELECTRIC
+      STR_DAMAGE_12: HYPER AP
+      STR_DAMAGE_13: THERMAL
       STR_DAMAGE_14: BLACK SMOKE
-      STR_DAMAGE_15: PHLOGISTON
+      STR_DAMAGE_15: BEAM ENERGY
       STR_DAMAGE_16: COLD
       STR_DAMAGE_17: TOXIC
       STR_DAMAGE_18: FLAMES
       STR_DAMAGE_PLASMA_BEAM: PULSE PLASMA
-      STR_ALIEN_ALLOYS: Entropium
-      STR_ALIEN_ALLOYS_UFOPEDIA: "Exotic alien mineral used by the Martians to build everything, from small weapons to ship armor. Extremely light and durable, but requieres high pressure and heat to be able to mold. Named after the themodynamic principle and the greek word, Entropy. It means 'evolution' or 'transformation'."
+      STR_ALIEN_ALLOYS: Martian Metal
+      STR_ALIEN_ALLOYS_UFOPEDIA: "Exotic alien mineral used by the Martians to build everything, from small weapons to ship armor. Extremely light and durable, but requieres high pressure and heat to be able to mold."
       STR_ELERIUM_115: Tungunskium
       STR_ELERIUM_115_UFOPEDIA: "This element has the unusual property of generating anti-matter power when bombarded with certain particles. This creates gravity waves and other forms of energy. It seems that Mars has vast mines of this mineral beneath its surface. Called in honor of Tungunska, the first Martian Landing Zone."
       STR_BALLISTIC: Ballistic
-      STR_TESLA: Tesla
+      STR_TESLA: Electric
       STR_PULSE_PLASMA: Pulse Plasma
       STR_PHLOGISTON: Phlogiston
       STR_COILGUN: Coilgun

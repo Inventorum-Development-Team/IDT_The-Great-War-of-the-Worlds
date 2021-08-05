@@ -4,13 +4,14 @@ items:
     requires:
       - STR_ALIENS_ONLY
     compatibleAmmo:
-      - STR_HEATRAY_PISTOL_BATTERY
+      - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+      - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
     size: 0.3
     costSell: 7500
     weight: 15
-    bigSprite: 750
-    floorSprite: 750
-    handSprite: 750
+    bigSprite: 3080
+    floorSprite: 3080
+    handSprite: 3080
     bulletSprite: 30
     fireSound: 600
     accuracyAuto: 48
@@ -31,15 +32,15 @@ items:
     flatRate: true
     twoHanded: false
     listOrder: 3387
-  - type: STR_HEATRAY_PISTOL_BATTERY
+  - type: STR_HEATRAY_PISTOL_BATTERY_PHOTON
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_PISTOLS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
     size: 0.1
     costSell: 9500
     weight: 3
-    bigSprite: 781
-    floorSprite: 4
+    bigSprite: 3104
+    floorSprite: 3104
     hitSound: 19
     hitAnimation: 66
     power: 65
@@ -49,18 +50,40 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3388
+  - type: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_PISTOLS, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costSell: 9500
+    weight: 3
+    bigSprite: 3112
+    floorSprite: 3112
+    hitSound: 19
+    hitAnimation: 77
+    power: 85
+    damageType: 14
+    clipSize: 15
+    shotgunBehavior: 1
+    shotgunPellets: 3
+    shotgunSpread: 50
+    battleType: 2
+    armor: 12
+    listOrder: 3388
 
   - type: STR_HEATRAY_CARBINE
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CARBINES]
     requires:
       - STR_ALIENS_ONLY
-    compatibleAmmo: [STR_HEATRAY_CARBINE_BATTERY]
+    compatibleAmmo:
+      - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+      - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
     size: 0.3
     costSell: 7500
     weight: 20
-    bigSprite: 751
-    floorSprite: 751
-    handSprite: 758
+    bigSprite: 3120
+    floorSprite: 3120
+    handSprite: 3120
     bulletSprite: 30
     fireSound: 600
     accuracyAuto: 45
@@ -80,7 +103,7 @@ items:
     flatRate: true
     twoHanded: false
     listOrder: 3389
-  - type: STR_HEATRAY_CARBINE_BATTERY
+  - type: STR_HEATRAY_CARBINE_BATTERY_PHOTON
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CARBINES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
@@ -88,8 +111,8 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 782
-    floorSprite: 4
+    bigSprite: 3144
+    floorSprite: 3144
     hitSound: 19
     hitAnimation: 66
     power: 48
@@ -98,18 +121,41 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3390
+  - type: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CARBINES, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 3152
+    floorSprite: 3152
+    hitSound: 19
+    hitAnimation: 77
+    power: 68
+    damageType: 14
+    clipSize: 22
+    shotgunBehavior: 1
+    shotgunPellets: 3
+    shotgunSpread: 50
+    battleType: 2
+    armor: 12
+    listOrder: 3390
 
   - type: STR_HEATRAY_RIFLE
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_SELFLOADING_RIFLES]
     requires:
       - STR_ALIENS_ONLY
-    compatibleAmmo: [STR_HEATRAY_RIFLE_BATTERY]
+    compatibleAmmo:
+      - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+      - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
     size: 0.6
     costSell: 20000
     weight: 36
-    bigSprite: 752
-    floorSprite: 752
-    handSprite: 766
+    bigSprite: 3160
+    floorSprite: 3160
+    handSprite: 3160
     bulletSprite: 30
     fireSound: 601
     accuracyAuto: 38
@@ -132,7 +178,7 @@ items:
     armor: 20
     flatRate: true
     listOrder: 3391
-  - type: STR_HEATRAY_RIFLE_BATTERY
+  - type: STR_HEATRAY_RIFLE_BATTERY_PHOTON
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
@@ -140,8 +186,8 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 783
-    floorSprite: 4
+    bigSprite: 3184
+    floorSprite: 3184
     hitSound: 19
     hitAnimation: 66
     power: 42
@@ -151,18 +197,42 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3392
+  - type: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 3192
+    floorSprite: 3192
+    hitSound: 19
+    hitAnimation: 77
+    power: 62
+    damageType: 14
+    blastRadius: 0
+    clipSize: 30
+    shotgunBehavior: 1
+    shotgunPellets: 3
+    shotgunSpread: 50
+    battleType: 2
+    armor: 12
+    listOrder: 3392
 
   - type: STR_HEATRAY_CANNON
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY]
     requires:
       - STR_ALIENS_ONLY
-    compatibleAmmo: [STR_HEATRAY_CANNON_BATTERY]
+    compatibleAmmo:
+      - STR_HEATRAY_CANNON_BATTERY_PHOTON
+      - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
     size: 0.4
     costSell: 30000
     weight: 43
-    bigSprite: 753
-    floorSprite: 753
-    handSprite: 774
+    bigSprite: 3200
+    floorSprite: 3200
+    handSprite: 3200
     bulletSprite: 30
     fireSound: 602
     accuracyAimed: 130
@@ -178,7 +248,7 @@ items:
     blastRadius: 0
     attraction: 14
     listOrder: 3393
-  - type: STR_HEATRAY_CANNON_BATTERY
+  - type: STR_HEATRAY_CANNON_BATTERY_PHOTON
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
@@ -186,8 +256,8 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 784
-    floorSprite: 4
+    bigSprite: 3224
+    floorSprite: 3224
     hitAnimation: 66
     hitSound: 19
     damageType: 14
@@ -196,18 +266,41 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3394
+  - type: STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 3232
+    floorSprite: 3232
+    hitAnimation: 77
+    hitSound: 19
+    damageType: 14
+    clipSize: 10
+    power: 125
+    shotgunBehavior: 1
+    shotgunPellets: 3
+    shotgunSpread: 50
+    battleType: 2
+    armor: 12
+    listOrder: 3394
 
   - type: STR_HEATRAY_SNIPER
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_BOLT_ACTION_RIFLES]
     requires:
       - STR_ALIENS_ONLY
-    compatibleAmmo: [STR_HEATRAY_SNIPER_BATTERY]
+    compatibleAmmo:
+      - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+      - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
     size: 0.4
     costSell: 30000
     weight: 40
-    bigSprite: 754
-    floorSprite: 754
-    handSprite: 782
+    bigSprite: 3240
+    floorSprite: 3240
+    handSprite: 3240
     bulletSprite: 30
     fireSound: 603
     accuracySnap: 60
@@ -228,7 +321,7 @@ items:
     aimRange: 30
     attraction: 12
     listOrder: 3395
-  - type: STR_HEATRAY_SNIPER_BATTERY
+  - type: STR_HEATRAY_SNIPER_BATTERY_PHOTON
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_BOLT_ACTION_RIFLES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
@@ -236,13 +329,34 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 785
-    floorSprite: 4
+    bigSprite: 3264
+    floorSprite: 3264
     hitAnimation: 66
     hitSound: 19
     damageType: 14
     power: 68
     clipSize: 20
+    battleType: 2
+    armor: 12
+    listOrder: 3396
+  - type: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_BOLT_ACTION_RIFLES, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 3272
+    floorSprite: 3272
+    hitAnimation: 77
+    hitSound: 19
+    damageType: 14
+    power: 88
+    clipSize: 10
+    shotgunBehavior: 1
+    shotgunPellets: 3
+    shotgunSpread: 50
     battleType: 2
     armor: 12
     listOrder: 3396
@@ -252,15 +366,15 @@ items:
     size: 0.2
     costSell: 2250
     weight: 8
-    bigSprite: 755
-    floorSprite: 755
-    handSprite: 790
+    bigSprite: 3280
+    floorSprite: 3280
+    handSprite: 3280
     bulletSprite: 4
     hitAnimation: 200
     fireSound: 604
     compatibleAmmo:
       - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-#      - STR_MARTIAN_LAUNCHER_GREEN_GAS_CLIP
+      - STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
     accuracySnap: 60
     accuracyAimed: 80
     tuSnap: 33
@@ -272,9 +386,9 @@ items:
     armor: 20
     explosionSpeed: 2
     arcingShot: true
-    vaporColor: 6
-    vaporDensity: 20
-    vaporProbability: 75
+    vaporColorSurface: 1
+    vaporDensitySurface: 75
+    vaporProbabilitySurface: 100
     listOrder: 3397
     tags: #here buff values can be set - Finnik's scripts
       FTAG_BUFF_VALUE_TIMEUNITS: -10
@@ -282,10 +396,10 @@ items:
   - type: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     size: 0.1
-    costSell: 800
-    weight: 1
-    bigSprite: 756
-    floorSprite: 756
+    costSell: 80000
+    weight: 5
+    bigSprite: 3304
+    floorSprite: 3304
     hitSound: 0
     power: 20
     hitAnimation: 200
@@ -311,99 +425,37 @@ items:
     listOrder: 3398
 ### ATTENTION!! THIS IS LITERALLY A COPY PASTE OF STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP,
 ### TODO        BUT THIS WAS MISSING. RATHER THAN CHANGE ALL THE REFERENCES I ADDED THIS IN FOR NOW
-  - type: STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
+  - type: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     size: 0.1
-    costSell: 800
-    weight: 1
-    bigSprite: 756
-    floorSprite: 756
+    costSell: 85000
+    weight: 5
+    bigSprite: 3312
+    floorSprite: 3312
     hitSound: 0
-    power: 20
+    power: 100
     hitAnimation: 200
     damageAlter:
       IgnoreDirection: true
       IgnorePainImmunity: true
       ArmorEffectiveness: 0
-      ToStun: 1.5
-      ToTime: 1.5
-      ToEnergy: 3.0
-      ToArmor: 0
-      ToTile: 0
-      ToItem: 0
-      ToWound: 0.1
       SmokeThreshold: 1
-      FixRadius: 5
-    damageType: 15
+      FixRadius: 3
+    damageType: 3
     clipSize: 5
     battleType: 2
     armor: 20
     invWidth: 1
     invHeight: 2
     listOrder: 3398
-#  - type: STR_MARTIAN_LAUNCHER_GREEN_GAS_CLIP
-#    size: 0.1
-#    costBuy: 1500
-#    costSell: 800
-#    weight: 1
-#    bigSprite: 40007
-#    floorSprite: 4757
-#    hitSound: 0
-#    hitAnimation: 201
-#    power: 50
-#    damageAlter:
-#      ResistType: 10
-#      IgnoreDirection: true
-#      IgnorePainImmunity: true
-#      ArmorEffectiveness: 0
-#      ToStun: 0.2
-#      ToArmor: 0
-#      ToTile: 0
-#      ToItem: 0
-#      ToWound: 0.5
-#      SmokeThreshold: 1
-#      FixRadius: 2
-#    damageType: 16
-#    clipSize: 5
-#    battleType: 2
-#    armor: 20
-#    invWidth: 1
-#    invHeight: 2
-#   listOrder: 2018
-#  - type: STR_MARTIAN_STEALTHGUN
-#    requires:
-#      - STR_ALIENS_ONLY
-#    size: 0.2
-#    costSell: 150000
-#    weight: 5
-#    bigSprite: 31
-#    floorSprite: 30
-#    handSprite: 754
-#    bulletSprite: 8
-#    fireSound: 18
-#    power: 70
-#    damageType: 14
-#    clipSize: 20
-#    accuracyAuto: 50
-#    accuracySnap: 81
-#    accuracyAimed: 95
-#    tuAuto: 36
-#    tuSnap: 30
-#    tuAimed: 60
-#    battleType: 1
-#    twoHanded: true
-#    invWidth: 1
-#    invHeight: 3
-#    recoveryPoints: 4
-#    armor: 50
   - type: STR_MARTIAN_ROCK_THROWER
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS]
     size: 0.2
     costSell: 9050
     weight: 8
-    bigSprite: 757
-    floorSprite: 757
-    handSprite: 798
+    bigSprite: 3320
+    floorSprite: 3320
+    handSprite: 3320
     bulletSprite: 4
     hitAnimation: 66
     fireSound: 605
@@ -432,8 +484,8 @@ items:
     size: 0.1
     costSell: 250
     weight: 3
-    bigSprite: 758
-    floorSprite: 4
+    bigSprite: 3328
+    floorSprite: 3328
     power: 20
     damageType: 19
     damageAlter:
@@ -458,8 +510,8 @@ items:
     size: 0.1
     costSell: 250
     weight: 3
-    bigSprite: 780 # TODO: changed this from 759 to 780, please verify
-    floorSprite: 4
+    bigSprite: 3336 # TODO: changed this from 780 to 3336, please verify
+    floorSprite: 3336
     damageType: 1
     damageAlter:
       RandomType: 7
@@ -489,8 +541,8 @@ items:
     size: 0.1
     costSell: 250
     weight: 3
-    bigSprite: 759 # TODO please verify
-    floorSprite: 4
+    bigSprite: 3344 # TODO please verify
+    floorSprite: 3344
     power: 20
     damageType: 8
     damageAlter:
@@ -510,10 +562,56 @@ items:
     battleType: 2
     armor: 250
     listOrder: 3401
+
+  - type: STR_MARTIAN_BLADE
+    categories: [STR_CQC, STR_ALIEN_TECH]
+    size: 0.15
+    costSell: 20000
+    weight: 5
+    bigSprite: 3376
+    floorSprite: 3376
+    handSprite: 3376
+    meleeSound: 39
+    meleeHitSound: -1
+    meleeAnimation: 4
+    meleeMultiplier:
+      flatHundred: 0.65
+      melee: 1.20
+    costMelee:
+      time: 25
+      energy: 5
+    power: 50
+    damageType: 7
+    damageBonus:
+      strength: 0.35
+      melee: 1.1
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.1
+      ToHealth: 0.40
+      ToMorale: 5.0
+      ToWound: 1.5
+    accuracyMelee: 85
+    costThrow:
+      energy: 6
+      time: 30
+    flatThrow:
+      time: true
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    armor: 100
+    invWidth: 1
+    invHeight: 2
+    attraction: 8
+
 research:
   - name: STR_ALIENS_ONLY
     cost: 7500
-    points: 0
+    points: 10
     dependencies:
       - STR_ALIENS_ONLY
   - name: STR_RED_WEED_RESEARCH
@@ -534,11 +632,11 @@ research:
       - STR_HEATRAY_CANNON
       - STR_HEATRAY_SNIPER
       - STR_HEATRAY_CARBINE
-      - STR_HEATRAY_RIFLE_BATTERY
-      - STR_HEATRAY_PISTOL_BATTERY
-      - STR_HEATRAY_CANNON_BATTERY
-      - STR_HEATRAY_SNIPER_BATTERY
-      - STR_HEATRAY_CARBINE_BATTERY
+      - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+      - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+      - STR_HEATRAY_CANNON_BATTERY_PHOTON
+      - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+      - STR_HEATRAY_CARBINE_BATTERY_PHOTON
   - name: STR_CHEMICAL_WARFARE_RESEARCH
     cost: 600
     points: 10
@@ -561,19 +659,19 @@ research:
   - name: STR_HEATRAY_SNIPER
     destroyItem: true
     needItem: true
-  - name: STR_HEATRAY_CARBINE_BATTERY
+  - name: STR_HEATRAY_CARBINE_BATTERY_PHOTON
     destroyItem: true
     needItem: true
-  - name: STR_HEATRAY_RIFLE_BATTERY
+  - name: STR_HEATRAY_RIFLE_BATTERY_PHOTON
     destroyItem: true
     needItem: true
-  - name: STR_HEATRAY_PISTOL_BATTERY
+  - name: STR_HEATRAY_PISTOL_BATTERY_PHOTON
     destroyItem: true
     needItem: true
-  - name: STR_HEATRAY_CANNON_BATTERY
+  - name: STR_HEATRAY_CANNON_BATTERY_PHOTON
     destroyItem: true
     needItem: true
-  - name: STR_HEATRAY_SNIPER_BATTERY
+  - name: STR_HEATRAY_SNIPER_BATTERY_PHOTON
     destroyItem: true
     needItem: true
   - name: STR_MARTIAN_LAUNCHER
@@ -601,17 +699,7 @@ research:
   - name: STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
     destroyItem: true
     needItem: true
-#manufacture:
-#  - name: STR_HUMAN_HEATRAY_GUN
-#    category: STR_WEAPON
-#    requires:
-#      - STR_HEATRAY_RESEARCH
-#    space: 4
-#    time: 800
-#    cost: 30000
-#    requiredItems:
-#      STR_ALIEN_ALLOYS: 25
-#      STR_ELERIUM_115: 25
+
 ufopaedia:
   - id: STR_HEATRAY_RESEARCH
     requires:
@@ -649,7 +737,9 @@ ufopaedia:
     text: STR_CHEMICAL_WARFARE_RESEARCH_UFOPEDIA
     text_width: 300
     listOrder: 10304
-
+####################################
+######### WEAPONS ###############
+###############################
   - id: STR_HEATRAY_PISTOL
     type_id: 4
     section: STR_ALIEN_RESEARCH_UC
@@ -657,7 +747,7 @@ ufopaedia:
     requires:
       - STR_HEATRAY_PISTOL
     listOrder: 10305
-  - id: STR_HEATRAY_PISTOL_BATTERY
+  - id: STR_HEATRAY_PISTOL_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -668,7 +758,7 @@ ufopaedia:
     requires:
       - STR_HEATRAY_CARBINE
     listOrder: 10305
-  - id: STR_HEATRAY_CARBINE_BATTERY
+  - id: STR_HEATRAY_CARBINE_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -679,7 +769,7 @@ ufopaedia:
     requires:
       - STR_HEATRAY_RIFLE
     listOrder: 10306
-  - id: STR_HEATRAY_RIFLE_BATTERY
+  - id: STR_HEATRAY_RIFLE_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -690,7 +780,7 @@ ufopaedia:
     requires:
       - STR_HEATRAY_CANNON
     listOrder: 10307
-  - id: STR_HEATRAY_CANNON_BATTERY
+  - id: STR_HEATRAY_CANNON_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -701,55 +791,119 @@ ufopaedia:
     requires:
       - STR_HEATRAY_SNIPER
     listOrder: 10308
-  - id: STR_HEATRAY_SNIPER_BATTERY
+  - id: STR_HEATRAY_SNIPER_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
 
 extraSprites:
   - type: BIGOBS.PCK
     files:
-      750: Resources/HeatRay/BigHeatRayPistol.png
-      751: Resources/HeatRay/BigHeatRayCarbine.png
-      752: Resources/HeatRay/BigHeatRayRifle.png
-      753: Resources/HeatRay/BigHeatRayCannon.png
-      754: Resources/HeatRay/BigHeatRaySniper.png
-      755: Resources/HeatRay/BigMartianLauncher.png
-      756: Resources/HeatRay/BigMartianLauncherBlackSmokeClip.png
-      757: Resources/HeatRay/BigMartianRockThrower.png
-      758: Resources/HeatRay/BigMartianRockThrowerCalystenClip.png
-      759: Resources/HeatRay/BigMartianRockThrowerAcidClip.png
-      780: Resources/HeatRay/BigMartianRockThrowerToxicClip.png
-      781: Resources/HeatRay/bigob_Heat_Ray_battery_Pistol.png
-      782: Resources/HeatRay/bigob_Heat_Ray_battery_Carbine.png
-      783: Resources/HeatRay/bigob_Heat_Ray_battery_Rifle.png
-      784: Resources/HeatRay/bigob_Heat_Ray_battery_Cannon.png
-      785: Resources/HeatRay/bigob_Heat_Ray_battery_Sniper.png
+      3080: Resources/HeatRay/BigHeatRayPistol_nomag.png
+      3088: Resources/HeatRay/BigHeatRayPistol_photon.png
+      3096: Resources/HeatRay/BigHeatRayPistol_microwave.png
+      3104: Resources/HeatRay/bigob_Heat_Ray_battery_Pistol.png
+      3112: Resources/HeatRay/bigob_Heat_Ray_battery_Pistol_MW.png
+      3120: Resources/HeatRay/BigHeatRayCarbine_nomag.png
+      3128: Resources/HeatRay/BigHeatRayCarbine_photon.png
+      3136: Resources/HeatRay/BigHeatRayCarbine_microwave.png
+      3144: Resources/HeatRay/bigob_Heat_Ray_battery_Carbine.png
+      3152: Resources/HeatRay/bigob_Heat_Ray_battery_Carbine_MW.png
+      3160: Resources/HeatRay/BigHeatRayRifle_nomag.png
+      3168: Resources/HeatRay/BigHeatRayRifle_photon.png
+      3176: Resources/HeatRay/BigHeatRayRifle_microwave.png
+      3184: Resources/HeatRay/bigob_Heat_Ray_battery_Rifle.png
+      3192: Resources/HeatRay/bigob_Heat_Ray_battery_Rifle_MW.png
+      3200: Resources/HeatRay/BigHeatRayCannon_nomag.png
+      3208: Resources/HeatRay/BigHeatRayCannon_photon.png
+      3216: Resources/HeatRay/BigHeatRayCannon_microwave.png
+      3224: Resources/HeatRay/bigob_Heat_Ray_battery_Cannon.png
+      3232: Resources/HeatRay/bigob_Heat_Ray_battery_Cannon_MW.png
+      3240: Resources/HeatRay/BigHeatRaySniper_nomag.png
+      3248: Resources/HeatRay/BigHeatRaySniper_photon.png
+      3256: Resources/HeatRay/BigHeatRaySniper_microwave.png
+      3264: Resources/HeatRay/bigob_Heat_Ray_battery_Sniper.png
+      3272: Resources/HeatRay/bigob_Heat_Ray_battery_Sniper_MW.png
+      3280: Resources/HeatRay/BigMartianLauncher.png
+      3288: Resources/HeatRay/BigMartianLauncher.png
+      3296: Resources/HeatRay/BigMartianLauncher.png
+      3304: Resources/HeatRay/BigMartianLauncherBlackSmokeClip.png
+      3312: Resources/HeatRay/BigMartianLauncherConcussionClip.png
+      3320: Resources/HeatRay/BigMartianRockThrower.png
+      3328: Resources/HeatRay/BigMartianRockThrowerCalystenClip.png
+      3336: Resources/HeatRay/BigMartianRockThrowerAcidClip.png
+      3344: Resources/HeatRay/BigMartianRockThrowerToxicClip.png
+#      3352: Resources/HeatRay/BigMartianBulletThrower.png
+#      3360: Resources/HeatRay/BigMartianBulletThrower.png
+#      3368: Resources/HeatRay/BigMartianBulletThrowerMag.png
+      3376: Resources/HeatRay/BigMartianBlade.png
   - type: FLOOROB.PCK
     files:
-      750: Resources/HeatRay/FloorHeatRayPistol.png
-      751: Resources/HeatRay/FloorHeatRayCarbine.png
-      752: Resources/HeatRay/FloorHeatRayRifle.png
-      753: Resources/HeatRay/FloorHeatrayCannon.png
-      754: Resources/HeatRay/FloorHeatRaySniper.png
-      755: Resources/HeatRay/FloorMartianLauncher.png
-      756: Resources/HeatRay/FloorMartianLauncherBlackSmokeClip.png
-      757: Resources/HeatRay/FloorMartianRockThrower.png
-#      758: Resources/HeatRay/FloorMartianRockThrowerCalystenClip.png
-#      759: Resources/HeatRay/FloorMartianRockThrowerAcidClip.png
-#      1010: Resources/HeatRay/FloorMartianRockThrowerToxicClip.png
+      3080: Resources/HeatRay/FloorHeatRayPistol_nomag.png
+      3088: Resources/HeatRay/FloorHeatRayPistol_photon.png
+      3096: Resources/HeatRay/FloorHeatRayPistol_microwave.png
+      3104: Resources/HeatRay/floorob_Heat_Ray_battery_Pistol.png
+      3112: Resources/HeatRay/floorob_Heat_Ray_battery_Pistol.png
+      3120: Resources/HeatRay/FloorHeatRayCarbine_nomag.png
+      3128: Resources/HeatRay/FloorHeatRayCarbine_photon.png
+      3136: Resources/HeatRay/FloorHeatRayCarbine_microwave.png
+      3144: Resources/HeatRay/floorob_Heat_Ray_battery_Carbine.png
+      3152: Resources/HeatRay/floorob_Heat_Ray_battery_Carbine.png
+      3160: Resources/HeatRay/FloorHeatRayRifle_nomag.png
+      3168: Resources/HeatRay/FloorHeatRayRifle_photon.png
+      3176: Resources/HeatRay/FloorHeatRayRifle_microwave.png
+      3184: Resources/HeatRay/floorob_Heat_Ray_battery_Rifle.png
+      3192: Resources/HeatRay/floorob_Heat_Ray_battery_Rifle.png
+      3200: Resources/HeatRay/FloorHeatRayCannon_nomag.png
+      3208: Resources/HeatRay/FloorHeatRayCannon_photon.png
+      3216: Resources/HeatRay/FloorHeatRayCannon_microwave.png
+      3224: Resources/HeatRay/floorob_Heat_Ray_battery_Cannon.png
+      3232: Resources/HeatRay/floorob_Heat_Ray_battery_Cannon.png
+      3240: Resources/HeatRay/FloorHeatRaySniper_nomag.png
+      3248: Resources/HeatRay/FloorHeatRaySniper_photon.png
+      3256: Resources/HeatRay/FloorHeatRaySniper_microwave.png
+      3264: Resources/HeatRay/floorob_Heat_Ray_battery_Sniper.png
+      3272: Resources/HeatRay/floorob_Heat_Ray_battery_Sniper.png
+      3280: Resources/HeatRay/FloorMartianLauncher.png
+      3288: Resources/HeatRay/FloorMartianLauncher.png
+      3296: Resources/HeatRay/FloorMartianLauncher.png
+      3304: Resources/HeatRay/FloorMartianLauncherBlackSmokeClip.png
+      3312: Resources/HeatRay/FloorMartianLauncherConcussionClip.png
+      3320: Resources/HeatRay/FloorMartianRockThrower.png
+      3328: Resources/HeatRay/FloorMartianRockThrowerCalystenClip.png
+      3336: Resources/HeatRay/FloorMartianRockThrowerAcidClip.png
+      3344: Resources/HeatRay/FloorMartianRockThrowerToxicClip.png
+#      3352: Resources/HeatRay/FloorMartianBulletThrower.png
+#      3360: Resources/HeatRay/FloorMartianBulletThrower.png
+#      3368: Resources/HeatRay/FloorMartianBulletThrowerMag.png
+      3376: Resources/HeatRay/FloorMartianBlade.png
   - type: HANDOB.PCK
-    files:
-      750: Resources/HeatRay/HandHeatRayPistol.png
-      758: Resources/HeatRay/HandHeatRayCarbine.png
-      766: Resources/HeatRay/HandHeatRayRifle.png
-      774: Resources/HeatRay/HandHeatRayCannon.png
-      782: Resources/HeatRay/HandHeatRaySniper.png
-      790: Resources/HeatRay/HandMLauncher.png
-      798: Resources/HeatRay/HandMartianRockThrower.png
-    width: 256
     height: 40
+    width: 256
     subX: 32
     subY: 40
+    files:
+      3080: Resources/HeatRay/HandHeatRayPistol_nomag.png
+      3088: Resources/HeatRay/HandHeatRayPistol_photon.png
+      3096: Resources/HeatRay/HandHeatRayPistol_microwave.png
+      3120: Resources/HeatRay/HandHeatRayCarbine_nomag.png
+      3128: Resources/HeatRay/HandHeatRayCarbine_photon.png
+      3136: Resources/HeatRay/HandHeatRayCarbine_microwave.png
+      3160: Resources/HeatRay/HandHeatRayRifle_nomag.png
+      3168: Resources/HeatRay/HandHeatRayRifle_photon.png
+      3176: Resources/HeatRay/HandHeatRayRifle_microwave.png
+      3200: Resources/HeatRay/HandHeatRayCannon_nomag.png
+      3208: Resources/HeatRay/HandHeatRayCannon_photon.png
+      3216: Resources/HeatRay/HandHeatRayCannon_microwave.png
+      3240: Resources/HeatRay/HandHeatRaySniper_nomag.png
+      3248: Resources/HeatRay/HandHeatRaySniper_photon.png
+      3256: Resources/HeatRay/HandHeatRaySniper_microwave.png
+      3280: Resources/HeatRay/HandMartianLauncher.png
+      3288: Resources/HeatRay/HandMartianLauncher.png
+      3296: Resources/HeatRay/HandMartianLauncher.png
+      3320: Resources/HeatRay/HandMartianRockThrower.png
+#      3352: Resources/HeatRay/HandMartianBulletThrower.png
+#      3360: Resources/HeatRay/HandMartianBulletThrower.png
+      3376: Resources/HeatRay/HandMartianBlade.png
   - type: Projectiles
     width: 105
     height: 3
@@ -773,6 +927,7 @@ extraSprites:
     files:
       8:  Resources/HeatRay/smoke_cloud_dark.png
       66: Resources/HeatRay/HeatRayHit.png
+      77: Resources/HeatRay/HeatRayHitMicrowave.png
   - type: HEAT_RAY_WEAPONS
     singleImage: true
     width: 320
@@ -802,15 +957,15 @@ extraStrings:
     strings:
       STR_HEATRAY_RESEARCH: Heat-Ray Full Research
       STR_HEATRAY_RIFLE: Heat-Ray Rifle
-      STR_HEATRAY_RIFLE_BATTERY: Heat-Ray Rifle Battery
+      STR_HEATRAY_RIFLE_BATTERY_PHOTON: Heat-Ray Rifle Battery
       STR_HEATRAY_CARBINE: Heat-Ray Carbine
-      STR_HEATRAY_CARBINE_BATTERY: Heat-Ray Carbine Battery
+      STR_HEATRAY_CARBINE_BATTERY_PHOTON: Heat-Ray Carbine Battery
       STR_HEATRAY_PISTOL: Heat-Ray Pistol
-      STR_HEATRAY_PISTOL_BATTERY: Heat-Ray Pistol Battery
+      STR_HEATRAY_PISTOL_BATTERY_PHOTON: Heat-Ray Pistol Battery
       STR_HEATRAY_CANNON: Heat-Ray Hand Cannon
-      STR_HEATRAY_CANNON_BATTERY: Heat-Ray Hand Cannon Battery
+      STR_HEATRAY_CANNON_BATTERY_PHOTON: Heat-Ray Hand Cannon Battery
       STR_HEATRAY_SNIPER: Heat-Ray Sniper
-      STR_HEATRAY_SNIPER_BATTERY: Heat-Ray Sniper Battery
+      STR_HEATRAY_SNIPER_BATTERY_PHOTON: Heat-Ray Sniper Battery
       STR_MARTIAN_LAUNCHER: Martian Launcher
       STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP: Launcher Black Smoke Clip
       STR_MARTIAN_LAUNCHER_GREEN_GAS_CLIP: Launcher Green Gas Clip
