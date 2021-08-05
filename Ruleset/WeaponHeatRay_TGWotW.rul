@@ -44,7 +44,7 @@ items:
     hitSound: 19
     hitAnimation: 66
     power: 65
-    damageType: 14
+    damageType: 13
     blastRadius: 0
     clipSize: 30
     battleType: 2
@@ -62,7 +62,7 @@ items:
     hitSound: 19
     hitAnimation: 77
     power: 85
-    damageType: 14
+    damageType: 13
     clipSize: 15
     shotgunBehavior: 1
     shotgunPellets: 3
@@ -116,7 +116,7 @@ items:
     hitSound: 19
     hitAnimation: 66
     power: 48
-    damageType: 14
+    damageType: 13
     clipSize: 45
     battleType: 2
     armor: 12
@@ -134,7 +134,7 @@ items:
     hitSound: 19
     hitAnimation: 77
     power: 68
-    damageType: 14
+    damageType: 13
     clipSize: 22
     shotgunBehavior: 1
     shotgunPellets: 3
@@ -191,7 +191,7 @@ items:
     hitSound: 19
     hitAnimation: 66
     power: 42
-    damageType: 14
+    damageType: 13
     blastRadius: 0
     clipSize: 60
     battleType: 2
@@ -210,7 +210,7 @@ items:
     hitSound: 19
     hitAnimation: 77
     power: 62
-    damageType: 14
+    damageType: 13
     blastRadius: 0
     clipSize: 30
     shotgunBehavior: 1
@@ -260,7 +260,7 @@ items:
     floorSprite: 3224
     hitAnimation: 66
     hitSound: 19
-    damageType: 14
+    damageType: 13
     clipSize: 20
     power: 85
     battleType: 2
@@ -278,7 +278,7 @@ items:
     floorSprite: 3232
     hitAnimation: 77
     hitSound: 19
-    damageType: 14
+    damageType: 13
     clipSize: 10
     power: 125
     shotgunBehavior: 1
@@ -333,7 +333,7 @@ items:
     floorSprite: 3264
     hitAnimation: 66
     hitSound: 19
-    damageType: 14
+    damageType: 13
     power: 68
     clipSize: 20
     battleType: 2
@@ -351,7 +351,7 @@ items:
     floorSprite: 3272
     hitAnimation: 77
     hitSound: 19
-    damageType: 14
+    damageType: 13
     power: 88
     clipSize: 10
     shotgunBehavior: 1
@@ -401,7 +401,7 @@ items:
     bigSprite: 3304
     floorSprite: 3304
     hitSound: 0
-    power: 20
+    power: 50
     hitAnimation: 200
     damageAlter:
       IgnoreDirection: true
@@ -416,12 +416,12 @@ items:
       ToWound: 0.1
       SmokeThreshold: 1
       FixRadius: 5
-    damageType: 15
+    damageType: 14
     clipSize: 5
     battleType: 2
     armor: 20
     invWidth: 1
-    invHeight: 2
+    invHeight: 1
     listOrder: 3398
 ### ATTENTION!! THIS IS LITERALLY A COPY PASTE OF STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP,
 ### TODO        BUT THIS WAS MISSING. RATHER THAN CHANGE ALL THE REFERENCES I ADDED THIS IN FOR NOW
@@ -446,7 +446,7 @@ items:
     battleType: 2
     armor: 20
     invWidth: 1
-    invHeight: 2
+    invHeight: 1
     listOrder: 3398
   - type: STR_MARTIAN_ROCK_THROWER
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS]
@@ -478,7 +478,7 @@ items:
 #    explosionSpeed: 2
     arcingShot: false
     autoShots: 3
-    listOrder: 3394
+    listOrder: 3399
   - type: STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
     size: 0.1
@@ -487,7 +487,7 @@ items:
     bigSprite: 3328
     floorSprite: 3328
     power: 20
-    damageType: 19
+    damageType: 13
     damageAlter:
       RandomType: 7
       IgnoreOverKill: false
@@ -504,7 +504,7 @@ items:
     shotgunSpread: 50
     battleType: 2
     armor: 250
-    listOrder: 3399
+    listOrder: 3400
   - type: STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
     size: 0.1
@@ -535,7 +535,7 @@ items:
     tags:
       SPECIAL_WOUND: 2
       WOUND_FACTOR: 1
-    listOrder: 3400
+    listOrder: 3401
   - type: STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
     size: 0.1
@@ -561,7 +561,7 @@ items:
     shotgunSpread: 75
     battleType: 2
     armor: 250
-    listOrder: 3401
+    listOrder: 3402
 
   - type: STR_MARTIAN_BLADE
     categories: [STR_CQC, STR_ALIEN_TECH]
@@ -581,7 +581,7 @@ items:
       time: 25
       energy: 5
     power: 50
-    damageType: 7
+    damageType: 13
     damageBonus:
       strength: 0.35
       melee: 1.1
@@ -605,8 +605,9 @@ items:
     experienceTrainingMode: 13
     armor: 100
     invWidth: 1
-    invHeight: 2
+    invHeight: 3
     attraction: 8
+    listOrder: 3405
 
 research:
   - name: STR_ALIENS_ONLY
@@ -647,6 +648,9 @@ research:
       - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
       - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
       - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+#########################
+###### ITEMS ###########
+#######################
   - name: STR_HEATRAY_RIFLE
     destroyItem: true
     needItem: true
@@ -659,19 +663,34 @@ research:
   - name: STR_HEATRAY_SNIPER
     destroyItem: true
     needItem: true
+  - name: STR_HEATRAY_PISTOL_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+    destroyItem: true
+    needItem: true
   - name: STR_HEATRAY_CARBINE_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
     destroyItem: true
     needItem: true
   - name: STR_HEATRAY_RIFLE_BATTERY_PHOTON
     destroyItem: true
     needItem: true
-  - name: STR_HEATRAY_PISTOL_BATTERY_PHOTON
+  - name: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
     destroyItem: true
     needItem: true
   - name: STR_HEATRAY_CANNON_BATTERY_PHOTON
     destroyItem: true
     needItem: true
+  - name: STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+    destroyItem: true
+    needItem: true
   - name: STR_HEATRAY_SNIPER_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
     destroyItem: true
     needItem: true
   - name: STR_MARTIAN_LAUNCHER
@@ -683,10 +702,8 @@ research:
   - name: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
     destroyItem: true
     needItem: true
-#  - name: STR_MARTIAN_LAUNCHER_GREEN_GAS_CLIP
-#    destroyItem: true
-#  - name: STR_MARTIAN_STEALTHGUN
-#    destroyItem: true
+  - name: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+    destroyItem: true
   - name: STR_MARTIAN_ROCK_THROWER
     destroyItem: true
     needItem: true
@@ -697,6 +714,9 @@ research:
     destroyItem: true
     needItem: true
   - name: STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_BLADE
     destroyItem: true
     needItem: true
 
@@ -750,6 +770,9 @@ ufopaedia:
   - id: STR_HEATRAY_PISTOL_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
   - id: STR_HEATRAY_CARBINE
     type_id: 4
@@ -759,6 +782,9 @@ ufopaedia:
       - STR_HEATRAY_CARBINE
     listOrder: 10305
   - id: STR_HEATRAY_CARBINE_BATTERY_PHOTON
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -772,6 +798,9 @@ ufopaedia:
   - id: STR_HEATRAY_RIFLE_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
   - id: STR_HEATRAY_CANNON
     type_id: 4
@@ -781,6 +810,9 @@ ufopaedia:
       - STR_HEATRAY_CANNON
     listOrder: 10307
   - id: STR_HEATRAY_CANNON_BATTERY_PHOTON
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_CANNON_BATTERY_MICROWAVE
     type_id: 4
     section: STR_NOT_AVAILABLE
 
@@ -794,6 +826,48 @@ ufopaedia:
   - id: STR_HEATRAY_SNIPER_BATTERY_PHOTON
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MARTIAN_LAUNCHER
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MARTIAN_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_MARTIAN_LAUNCHER
+    listOrder: 10308
+  - id: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MARTIAN_ROCK_THROWER
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MARTIAN_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_MARTIAN_ROCK_THROWER
+    listOrder: 10308
+  - id: STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MARTIAN_BLADE
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MARTIAN_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_MARTIAN_BLADE
+    listOrder: 10308
 
 extraSprites:
   - type: BIGOBS.PCK
@@ -957,22 +1031,29 @@ extraStrings:
     strings:
       STR_HEATRAY_RESEARCH: Heat-Ray Full Research
       STR_HEATRAY_RIFLE: Heat-Ray Rifle
-      STR_HEATRAY_RIFLE_BATTERY_PHOTON: Heat-Ray Rifle Battery
+      STR_HEATRAY_RIFLE_BATTERY_PHOTON: Heat-Ray Rifle Photon Battery
+      STR_HEATRAY_RIFLE_BATTERY_MICROWAVE: Heat-Ray Rifle Microwave Battery
       STR_HEATRAY_CARBINE: Heat-Ray Carbine
-      STR_HEATRAY_CARBINE_BATTERY_PHOTON: Heat-Ray Carbine Battery
+      STR_HEATRAY_CARBINE_BATTERY_PHOTON: Heat-Ray Carbine Photon Battery
+      STR_HEATRAY_CARBINE_BATTERY_MICROWAVE: Heat-Ray Carbine Microwave Battery
       STR_HEATRAY_PISTOL: Heat-Ray Pistol
-      STR_HEATRAY_PISTOL_BATTERY_PHOTON: Heat-Ray Pistol Battery
+      STR_HEATRAY_PISTOL_BATTERY_PHOTON: Heat-Ray Pistol Photon Battery
+      STR_HEATRAY_PISTOL_BATTERY_MICROWAVE: Heat-Ray Pistol Microwave Battery
       STR_HEATRAY_CANNON: Heat-Ray Hand Cannon
-      STR_HEATRAY_CANNON_BATTERY_PHOTON: Heat-Ray Hand Cannon Battery
+      STR_HEATRAY_CANNON_BATTERY_PHOTON: Heat-Ray HC Photon Battery
+      STR_HEATRAY_CANNON_BATTERY_MICROWAVE: Heat-Ray HC Microwave Battery
       STR_HEATRAY_SNIPER: Heat-Ray Sniper
-      STR_HEATRAY_SNIPER_BATTERY_PHOTON: Heat-Ray Sniper Battery
+      STR_HEATRAY_SNIPER_BATTERY_PHOTON: Heat-Ray Sniper Photon Battery
+      STR_HEATRAY_SNIPER_BATTERY_MICROWAVE: Heat-Ray Sniper Microwave Battery
       STR_MARTIAN_LAUNCHER: Martian Launcher
       STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP: Launcher Black Smoke Clip
-      STR_MARTIAN_LAUNCHER_GREEN_GAS_CLIP: Launcher Green Gas Clip
+      STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP: Launcher Concussion Clip
       STR_MARTIAN_ROCK_THROWER: "Martian Rock Thrower"
       STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3: "Calystene Mineral Flask x3"
       STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3: "Gas Capsule Flask x3"
       STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3: "Acid Capsule Flask x3"
+      STR_MARTIAN_BLADE: Martian Blade
+      STR_MARTIAN_BLADE_UFOPEDIA: "The Martian Blade is an unique melee energy weapon used by elite troopers. It seems each blade is handmade and belongs to a family, passed from warrior to warrior. Powerful and brutal."
       STR_HEATRAY_WEAPONS_ANALYSIS: Heat-Ray Weapons Research
       STR_RED_WEED_RESEARCH: Red Weed Research
       STR_CHEMICAL_WARFARE_RESEARCH: Martian Chemical Warfare Research
