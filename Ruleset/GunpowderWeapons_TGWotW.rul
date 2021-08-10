@@ -78,8 +78,8 @@ items:
     accuracyAuto: 45
     accuracyCloseQuarters: 130
     tuSnap: 15
-    tuAimed: 25
-    tuAuto: 20
+    tuAimed: 20
+    tuAuto: 18
     invHeight: 2
     invWidth: 1
     battleType: 1
