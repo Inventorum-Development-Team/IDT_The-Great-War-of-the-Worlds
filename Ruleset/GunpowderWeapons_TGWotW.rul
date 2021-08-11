@@ -236,6 +236,24 @@ items:
     clipSize: 5
     battleType: 2
     armor: 12
+  - type: STR_SPRINGFIELD_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 212
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+
 
   - type: STR_GEWEHR98
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
@@ -304,6 +322,192 @@ items:
     clipSize: 5
     battleType: 2
     armor: 12
+
+  - type: STR_LEBEL
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 227
+    floorSprite: 2
+    handSprite: 304
+    bulletSprite: 2
+    fireSound: 113
+    bulletSpeed: 20
+    reloadSound: 313
+    compatibleAmmo:
+      - STR_LEBEL_CLIP
+    accuracyCloseQuarters: 75
+    accuracySnap: 56
+    accuracyAimed: 75
+    tuSnap: 36
+    tuAimed: 68
+    tuLoad: 20
+    minRange: 16
+    snapRange: 22
+    aimRange: 28
+    dropoff: 4
+    damageBonus:
+      firing: 1.3
+      reactions: 1.5
+    accuracyMultiplier:
+      firing: 1.4
+      reactions: 1.9
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+# Bayonet segment
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    meleeAnimation: 0
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 1.5
+      melee: 0.9
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.9
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+# Bayonet segment end
+    attraction: 8
+    listOrder: 2026
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+
+  - type: STR_LEBEL_CLIP
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 228
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    armor: 12
+
+  - type: STR_LEBEL_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 228
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 8
+    battleType: 2
+    armor: 12
+
+  - type: STR_MOSIN_NAGANT
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 211
+    floorSprite: 211
+    handSprite: 240
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 105
+    bulletSpeed: 20
+    reloadSound: 305
+    compatibleAmmo:
+      - STR_MOSIN_NAGANT_CLIP
+      - STR_MOSIN_NAGANT_CLIP_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    tuLoad: 17
+    minRange: 15
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
+    powerRangeThreshold: 24
+    powerRangeReduction: 1
+    battleType: 1
+    twoHanded: true
+# Bayonet segment
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      meleeAnimation: 4
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.5
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+# Bayonet segment end
+    oneHandedPenalty: 50
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2010
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_MOSIN_NAGANT_CLIP
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 212
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+  - type: STR_MOSIN_NAGANT_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 212
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+
+
 #####################################
   - type: STR_WEBLEY_REVOLVER
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
@@ -915,82 +1119,7 @@ items:
 #####################################
 ######### FRENCH WEAPONS ###########
 ###################################
-  - type: STR_LEBEL
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 227
-    floorSprite: 2
-    handSprite: 304
-    bulletSprite: 2
-    fireSound: 113
-    bulletSpeed: 20
-    reloadSound: 313
-    compatibleAmmo:
-      - STR_LEBEL_CLIP
-    accuracyCloseQuarters: 75
-    accuracySnap: 56
-    accuracyAimed: 75
-    tuSnap: 36
-    tuAimed: 68
-    tuLoad: 20
-    minRange: 16
-    snapRange: 22
-    aimRange: 28
-    dropoff: 4
-    damageBonus:
-      firing: 1.3
-      reactions: 1.5
-    accuracyMultiplier:
-      firing: 1.4
-      reactions: 1.9
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-# Bayonet segment
-    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
-    meleeAnimation: 0
-    meleeType: 7
-    meleePower: 45
-    meleeBonus:
-      strength: 1.5
-      melee: 0.9
-    accuracyMelee: 100
-    meleeMultiplier:
-      flatHundred: 0.5
-      melee: 0.9
-    costMelee:
-      time: 20
-      energy: 8
-    flatMelee:
-      time: true
-# Bayonet segment end
-    attraction: 8
-    listOrder: 2026
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_LEBEL_CLIP
-    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 228
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 28
-    damageType: 1
-    clipSize: 8
-    battleType: 2
-    armor: 12
-    listOrder: 2027
+
   - type: STR_CHAUCHAT_LMG
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT]
     size: 0.4
