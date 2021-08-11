@@ -56,7 +56,254 @@ items:
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
 ########################################
-######### BRITISH WEAPONS #############
+######### BALLISTIC RIFLES #############
+#####################################
+  - type: STR_SMLE_MKIII
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 203
+    floorSprite: 203
+    handSprite: 208
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 101
+    bulletSpeed: 16
+    reloadSound: 301
+    compatibleAmmo:
+      - STR_SMLE_MKIII_CLIP
+      - STR_SMLE_MKIII_CLIP_KMM
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2002
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_SMLE_MKIII_CLIP
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 204
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 12
+      - type: STR_SMLE_MKIII_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 204
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 12
+
+  - type: STR_P14_ENFIELD
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 211
+    floorSprite: 211
+    handSprite: 240
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 105
+    bulletSpeed: 20
+    reloadSound: 305
+    compatibleAmmo:
+      - STR_SPRINGFIELD_CLIP
+      - STR_SPRINGFIELD_CLIP_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    tuLoad: 17
+    minRange: 15
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
+    powerRangeThreshold: 24
+    powerRangeReduction: 1
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2010
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_SPRINGFIELD
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 211
+    floorSprite: 211
+    handSprite: 240
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 105
+    bulletSpeed: 20
+    reloadSound: 305
+    compatibleAmmo:
+      - STR_SPRINGFIELD_CLIP
+      - STR_SPRINGFIELD_CLIP_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    tuLoad: 17
+    minRange: 15
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
+    powerRangeThreshold: 24
+    powerRangeReduction: 1
+    battleType: 1
+    twoHanded: true
+# Bayonet segment
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      meleeAnimation: 4
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.5
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+# Bayonet segment end
+    oneHandedPenalty: 50
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2010
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_SPRINGFIELD_CLIP
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 212
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+
+  - type: STR_GEWEHR98
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 221
+    floorSprite: 221
+    handSprite: 280
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 110
+    bulletSpeed: 20
+    reloadSound: 310
+    compatibleAmmo:
+      - STR_GEWEHR98_CLIP
+      - STR_GEWEHR98_CLIP_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 90
+    accuracyAimed: 140
+    tuSnap: 40
+    tuAimed: 70
+    minRange: 16
+    snapRange: 22
+    aimRange: 36
+    dropoff: 5
+    powerRangeThreshold: 28
+    powerRangeReduction: 1
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2020
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_GEWEHR98_CLIP
+    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 222
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
+  - type: STR_GEWEHR98_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 222
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 32
+    damageType: 1
+    clipSize: 5
+    battleType: 2
+    armor: 12
 #####################################
   - type: STR_WEBLEY_REVOLVER
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
@@ -105,63 +352,7 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2001
-  - type: STR_SMLE_MKIII
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 203
-    floorSprite: 203
-    handSprite: 208
-    bulletSprite: 12 #Rifle bullet 35*112=420
-    fireSound: 101
-    bulletSpeed: 16
-    reloadSound: 301
-    compatibleAmmo:
-      - STR_SMLE_MKIII_CLIP
-    accuracyCloseQuarters: 65
-    accuracySnap: 75
-    accuracyAimed: 90
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
-    damageBonus:
-      firing: 1.6
-      reactions: 1.3
-    accuracyMultiplier:
-      firing: 1.8
-      reactions: 1.5
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_SMLE_MKIII_CLIP
-    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 204
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 30
-    damageType: 1
-    clipSize: 10
-    battleType: 2
-    armor: 12
-    listOrder: 2003
+
 #####################################
 ####### BRITISH ADVANCED ###########
 ###################################
@@ -340,85 +531,7 @@ items:
     invHeight: 1
     armor: 35
     listOrder: 2009
-  - type: STR_SPRINGFIELD
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 211
-    floorSprite: 211
-    handSprite: 240
-    bulletSprite: 12 #Rifle bullet 35*112=420
-    fireSound: 105
-    bulletSpeed: 20
-    reloadSound: 305
-    compatibleAmmo:
-      - STR_SPRINGFIELD_CLIP
-    accuracyCloseQuarters: 50
-    accuracySnap: 60
-    accuracyAimed: 80
-    tuSnap: 30
-    tuAimed: 60
-    tuLoad: 17
-    minRange: 15
-    snapRange: 18
-    aimRange: 28
-    dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
-    damageBonus:
-      firing: 1.2
-      reactions: 1.5
-    accuracyMultiplier:
-      firing: 1.5
-      reactions: 1.2
-    battleType: 1
-    twoHanded: true
-# Bayonet segment
-    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      meleeAnimation: 4
-    meleeType: 7
-    meleePower: 45
-    meleeBonus:
-      strength: 0.5
-      melee: 0.3
-    accuracyMelee: 100
-    meleeMultiplier:
-      flatHundred: 0.5
-      melee: 0.5
-    costMelee:
-      time: 20
-      energy: 8
-    flatMelee:
-      time: true
-# Bayonet segment end
-    oneHandedPenalty: 50
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    listOrder: 2010
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_SPRINGFIELD_CLIP
-    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 212
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 30
-    damageType: 1
-    invWidth: 1
-    invHeight: 1
-    clipSize: 5
-    battleType: 2
-    armor: 12
-    listOrder: 2011
+
 ###################################
 ###### AMERICAN ADVANCED ##########
 #################################
@@ -668,64 +781,7 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2019
-  - type: STR_GEWEHR98
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 221
-    floorSprite: 221
-    handSprite: 280
-    bulletSprite: 12 #Rifle bullet 35*112=420
-    fireSound: 110
-    bulletSpeed: 20
-    reloadSound: 310
-    compatibleAmmo:
-      - STR_GEWEHR98_CLIP
-    accuracyCloseQuarters: 50
-    accuracySnap: 90
-    accuracyAimed: 140
-    tuSnap: 40
-    tuAimed: 70
-    minRange: 16
-    snapRange: 22
-    aimRange: 36
-    dropoff: 5
-    powerRangeThreshold: 28
-    powerRangeReduction: 1
-    damageBonus:
-      firing: 1.3
-      reactions: 1.2
-    accuracyMultiplier:
-      firing: 2.1
-      reactions: 1.2
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    listOrder: 2020
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_GEWEHR98_CLIP
-    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 222
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 32
-    damageType: 1
-    clipSize: 5
-    battleType: 2
-    armor: 12
-    listOrder: 2021
+
 ##############################
 ###### GERMAN ADVANCED #######
 ##############################
@@ -2359,6 +2415,31 @@ items:
     listOrder: 2115
     tags:
       WEAPON_TYPE: 64 # Explosives
+      
+  - type: STR_RIFLE_GRENADE
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 500
+    costSell: 470
+    weight: 1
+    bigSprite: 123
+    floorSprite: 123
+    hitSound: 0
+    hitAnimation: 0
+    power: 70
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 3
+    bulletSprite: 14
+    listOrder: 200630
 
   - type: STR_FLARE_GUN
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT]
