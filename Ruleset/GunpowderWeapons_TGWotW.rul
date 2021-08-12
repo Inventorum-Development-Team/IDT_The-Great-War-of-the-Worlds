@@ -109,7 +109,7 @@ items:
     clipSize: 10
     battleType: 2
     armor: 12
-      - type: STR_SMLE_MKIII_CLIP_KMM
+  - type: STR_SMLE_MKIII_CLIP_KMM
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 150
@@ -399,7 +399,6 @@ items:
     clipSize: 8
     battleType: 2
     armor: 12
-
   - type: STR_LEBEL_CLIP_KMM
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -507,6 +506,145 @@ items:
     battleType: 2
     armor: 12
 
+  - type: STR_BERDAN_II
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 211
+    floorSprite: 211
+    handSprite: 240
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 105
+    bulletSpeed: 20
+    reloadSound: 305
+    compatibleAmmo:
+      - STR_BERDAN_II_AMMO
+      - STR_BERDAN_II_AMMO_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    tuLoad: 17
+    minRange: 15
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
+    powerRangeThreshold: 24
+    powerRangeReduction: 1
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 50
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2010
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_BERDAN_II_AMMO
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 212
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 1
+    battleType: 2
+    armor: 12
+  - type: STR_BERDAN_II_AMMO_KMM
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 212
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 1
+    battleType: 2
+    armor: 12
+
+  - type: STR_GEWEHR_M95
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 203
+    floorSprite: 203
+    handSprite: 208
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 101
+    bulletSpeed: 16
+    reloadSound: 301
+    compatibleAmmo:
+      - STR_GEWEHR_M95_CLIP
+      - STR_GEWEHR_M95_CLIP_KMM
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2002
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_GEWEHR_M95_CLIP
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 204
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 12
+  - type: STR_GEWEHR_M95_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 204
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 30
+    damageType: 1
+    clipSize: 10
+    battleType: 2
+    armor: 12
 
 #####################################
   - type: STR_WEBLEY_REVOLVER
