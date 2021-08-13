@@ -579,72 +579,72 @@ items:
     battleType: 2
     armor: 12
 
-  - type: STR_GEWEHR_M95
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 5
-    bigSprite: 203
-    floorSprite: 203
-    handSprite: 208
-    bulletSprite: 12 #Rifle bullet 35*112=420
-    fireSound: 101
-    bulletSpeed: 16
-    reloadSound: 301
-    compatibleAmmo:
-      - STR_GEWEHR_M95_CLIP
-      - STR_GEWEHR_M95_CLIP_KMM
-    accuracyCloseQuarters: 65
-    accuracySnap: 75
-    accuracyAimed: 90
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 11
-    attraction: 8
-    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_GEWEHR_M95_CLIP
-    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 204
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 30
-    damageType: 1
-    clipSize: 10
-    battleType: 2
-    armor: 12
-  - type: STR_GEWEHR_M95_CLIP_KMM
-    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 204
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 30
-    damageType: 1
-    clipSize: 10
-    battleType: 2
-    armor: 12
+#  - type: STR_GEWEHR_M95
+#    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT]
+#    size: 0.2
+#    costBuy: 1500
+#    costSell: 1150
+#    weight: 5
+#    bigSprite: 203
+#    floorSprite: 203
+#    handSprite: 208
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+#    fireSound: 101
+#    bulletSpeed: 16
+#    reloadSound: 301
+#    compatibleAmmo:
+#      - STR_GEWEHR_M95_CLIP
+#      - STR_GEWEHR_M95_CLIP_KMM
+#    accuracyCloseQuarters: 65
+#    accuracySnap: 75
+#    accuracyAimed: 90
+#    tuSnap: 20
+#    tuAimed: 35
+#    tuLoad: 15
+#    minRange: 15
+#    snapRange: 24
+#    aimRange: 34
+#    dropoff: 5
+#    battleType: 1
+#    twoHanded: true
+#    oneHandedPenalty: 40
+#    invWidth: 1
+#    invHeight: 3
+#    autoRange: 11
+#    attraction: 8
+#    listOrder: 2002
+#    tags:
+#      WEAPON_TYPE: 1 # Rifles
+#  - type: STR_GEWEHR_M95_CLIP
+#    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
+#    size: 0.1
+#    costBuy: 150
+#    costSell: 90
+#    weight: 3
+#    bigSprite: 204
+#    floorSprite: 4
+#    hitSound: 22
+#    hitAnimation: 26
+#    power: 30
+#    damageType: 1
+#    clipSize: 10
+#    battleType: 2
+#    armor: 12
+#  - type: STR_GEWEHR_M95_CLIP_KMM
+#    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
+#    size: 0.1
+#    costBuy: 150
+#    costSell: 90
+#    weight: 3
+#    bigSprite: 204
+#    floorSprite: 4
+#    hitSound: 22
+#    hitAnimation: 26
+#    power: 30
+#    damageType: 1
+#    clipSize: 10
+#    battleType: 2
+#    armor: 12
 
 #####################################
   - type: STR_WEBLEY_REVOLVER
@@ -2682,7 +2682,7 @@ items:
     listOrder: 2115
     tags:
       WEAPON_TYPE: 64 # Explosives
-      
+
   - type: STR_RIFLE_GRENADE
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
     size: 0.1
@@ -4211,18 +4211,6 @@ extraSprites:
       3032: Resources/HumanWeapons/Medical/BigRottenBiscuitBox.png
       3040: Resources/HumanWeapons/Medical/BigWine.png
       3048: Resources/HumanWeapons/Medical/BigTeaFlask.png
-#
-#
-#
-#
-#
-#
-#3056
-#3064
-#3072
-
-
-
 
 
   - type: FLOOROB.PCK
@@ -4598,15 +4586,6 @@ extraSprites:
       3032: Resources/HumanWeapons/Medical/FloorRottenBiscuitBox.png
       3040: Resources/HumanWeapons/Medical/FloorWine.png
       3048: Resources/HumanWeapons/Medical/FloorTeaFlask.png
-#
-#
-#
-#
-#
-#
-#3056
-#3064
-#3072
 
   - type: HANDOB.PCK
     height: 40
@@ -4664,7 +4643,6 @@ extraSprites:
       648: Resources/HumanWeapons/SelfLoading/HandFarqhuarHill_nomag.png
       656: Resources/HumanWeapons/SelfLoading/HandFarqhuarHill_ammo1.png
       664: Resources/HumanWeapons/SelfLoading/HandFarqhuarHill_ammo2.png
-      672: Resources/HumanWeapons/SelfLoading/HandFarqhuarHill_Drum.png
       672: Resources/HumanWeapons/SelfLoading/HandAmmo_Mag.png
       680: Resources/HumanWeapons/SelfLoading/HandAmmo_Mag_KMM.png
       688: Resources/HumanWeapons/SelfLoading/HandMondragon_nomag.png
@@ -4915,15 +4893,7 @@ extraSprites:
       3032: Resources/HumanWeapons/Medical/HandRottenBiscuitBox.png
       3040: Resources/HumanWeapons/Medical/HandWine.png
       3048: Resources/HumanWeapons/Medical/HandTeaFlask.png
-#
-#
-#
-#
-#
-#
-#3056
-#3064
-#3072
+
 
 #############################
 
@@ -5018,13 +4988,13 @@ extraStrings:
       STR_FARQHUAR_HILL_UFOPEDIA: Next-generation autoloader rifle. Your drum charger allows you to charge twice as much ammunition. It has a great rate of fire, although much backwardness and inaccuracy over long distances, it is recommended to shoot in short bursts. Uses .303 British K-MM bullets.
       STR_HUOT_LMG: Huot Automatic Rifle
       STR_HUOT_LMG_DRUM: Huot Automatic Drum
-      STR_HUOT_LMG_UFOPEDIA: One of the cheapest light machine guns produced by the Commonwealth. Extremely reliable and durable, it is not affected by mud. Conversion of Canadian Ross rifles using a gas mechanism designed by engineer Joseph Huot, replacing the Lewis machine gun as a "fire on the move" weapon. He uses K-MM .303 British caliber bullets.
+      STR_HUOT_LMG_UFOPEDIA: One of the cheapest light machine guns produced by the Commonwealth. Extremely reliable and durable, it is not affected by mud. All the Ross rifles in the Canadian arsenal were converted into this new automatic weapon. Employs a gas mechanism designed by engineer Joseph Huot, replacing the Lewis machine gun as a "fire on the move" weapon. He uses .303 British caliber bullets.
       STR_M1911_COLT: M1911 Colt
       STR_M1911_COLT_CLIP: M1911 Colt
       STR_M1911_COLT_UFOPEDIA: Iconic American handgun. Motivated to replace revolvers in service with the armed forces, this innovative gun designed by John M. Browning uses the powerful .45 ACP high stopping power cartridge, similar to that used by Old West revolvers. Its robust design resulted in a semiautomatic, reliable and very resistant weapon.
       STR_SPRINGFIELD: M1903 Springfield Bayoneted
       STR_SPRINGFIELD_CLIP: M1903 Springfield Clip
-      STR_SPRINGFIELD_UFOPEDIA: Bolt-action rifle of American design, caliber .30-06, based on the bolt-action mechanism of the German Mauser Gewehr 98. It replaced the old Krag rifle and is supplied en masse to troops of the US Army, as well as guerrillas in Brazil and Patagonia. It is equipped with a bayonet for close combat.
+      STR_SPRINGFIELD_UFOPEDIA: Bolt-action rifle of American design, caliber .30-06, based on the bolt-action mechanism of the German Mauser Gewehr 98. It replaced the old Krag rifle and is supplied en masse to troops of the US Army. It is equipped with a bayonet for close combat.
       STR_BAR: BAR
       STR_BAR_CLIP: BAR Clip
       STR_BAR_UFOPEDIA: Browning Automatic Rifle, the most recent addition to the American arsenal. The Ace under the sleeve of U.S. Army, the project was secret until its massive deployment. This automatic rifle was designed to being fired from the hip or shoulder, providing large amounts of fire when assaulting an enemy position, but not to hold a sustained fire rate for a long time. Uses .30-06 K-MM rounds.
@@ -5034,9 +5004,9 @@ extraStrings:
       STR_MONDRAGON: Mondragon Bayoneted
       STR_MONDRAGON_CLIP: Mondragon Clip
       STR_MONDRAGON_UFOPEDIA: Semi-automatic rifle of Mexican design, the first to be supplied to the troops of a regular army, widely used by the Mexican regiments of the U.S. Army and the guerrilla of Pancho Villa, although it is also produced under license by the Swiss firm SIG. Equipped with an Entropium bayonet for CQC. The American Mondragons use K-MM .30-06 caliber bullets and the Swiss, at German request, 7.92x57mm Mauser.
-      STR_GEWEHR98: Gewehr 98 Sniper
-      STR_GEWEHR98_CLIP: Gewehr 98 Clip
-      STR_GEWEHR98_UFOPEDIA: Very reliable bolt-action rifle, he has seen combat all over the world, from the Chinese steppe to the Mexican deserts. It shoots 7.92x57mm ammunition. Following the tradition of the Bavarian sharpshooters of late XVIII century, all Gewehr 98 rifles are equipped with telescopic sights manufactured by Zeiss that allow long-distance shooting.
+      STR_GEWEHR98: Mauser 'Standard' Rifle
+      STR_GEWEHR98_CLIP: 7.92x57mm Clip (x5)
+      STR_GEWEHR98_UFOPEDIA: Very reliable bolt-action rifle of German, has seen combat all over the world. From the European forests and the Asian steppes to the Mexican deserts and the South American jungles, it's the standard bolt-action rifle of several armies of the Coalition and the minor powers (hence the nickname of 'The Standard' given by the Allied soldiers). It shoots 7.92x57mm ammunition, widely copied and reproduced by local armories outside Germany.
       STR_MAUSER: Mauser C96
       STR_MAUSER_CLIP: Mauser C96 Clip
       STR_MAUSER_UFOPEDIA: The C96 pistol, built by Mauser, was the first truly successful semiautomatic pistol model. Almost all civilians and police forces in Western Europe use it, as reliable as it is. It is fed by stripper clips with bullets calibrated in 7.63 mm
