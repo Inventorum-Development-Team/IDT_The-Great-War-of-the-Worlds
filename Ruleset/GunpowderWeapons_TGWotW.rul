@@ -55,9 +55,9 @@ items:
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
-########################################
-######### BALLISTIC RIFLES #############
-#####################################
+#################################################
+######### BALLISTIC BOLT-ACTION RIFLES #########
+###############################################
   - type: STR_SMLE_MKIII
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT]
     size: 0.2
@@ -646,6 +646,347 @@ items:
 #    battleType: 2
 #    armor: 12
 
+###########################################
+##### PHLOGISTON BOLT-ACTION RIFLES ######
+#########################################
+  - type: STR_PHLOGISTON_HEAVY_RIFLE
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 500
+    floorSprite: 500
+    handSprite: 1000
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 5
+    fireSound: 4
+    bulletSpeed: 16
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_PHLOGISTON_RUBY_CLIP
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+#    listOrder: 2002
+#    tags:
+#      WEAPON_TYPE: 1 # Rifles
+  - type: STR_PHLOGISTON_RUBY_CLIP
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 501
+    floorSprite: 4
+    fireSound: 11
+    hitSound: 19
+    power: 30
+    damageType: 4
+    clipSize: 10
+    battleType: 2
+    armor: 12
+#    listOrder: 2003
+
+###########################################
+######## GAUSS BOLT-ACTION RIFLES ########
+#########################################
+
+
+#################################################
+######### BALLISTIC SELF-LOADING RIFLES ########
+###############################################
+
+  - type: STR_FARQHUAR_HILL
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 4000
+    costSell: 3500
+    weight: 6
+    bigSprite: 205
+    floorSprite: 205
+    handSprite: 216
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 102
+    bulletSpeed: 17
+    reloadSound: 302
+    compatibleAmmo:
+      - STR_FARQHUAR_HILL_CLIP
+    accuracyCloseQuarters: 70
+    accuracySnap: 55
+    accuracyAimed: 65
+    tuSnap: 18
+    tuAimed: 35
+    tuLoad: 13
+    snapRange: 16
+    aimRange: 24
+    dropoff: 6
+    powerRangeThreshold: 20
+    powerRangeReduction: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    attraction: 8
+    listOrder: 2004
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_FARQHUAR_HILL_CLIP
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costSell: 200
+    weight: 3
+    bigSprite: 206
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    clipSize: 19
+    battleType: 2
+    armor: 12
+    invWidth: 1
+    invHeight: 1
+    listOrder: 2005
+
+  - type: STR_MONDRAGON
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.2
+    costBuy: 800
+    costSell: 650
+    weight: 9
+    bigSprite: 213
+    floorSprite: 213
+    handSprite: 248
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 106
+    reloadSound: 306
+    compatibleAmmo:
+      - STR_MONDRAGON_CLIP
+    accuracyCloseQuarters: 60
+    accuracySnap: 60
+    accuracyAimed: 85
+    tuSnap: 25
+    tuAimed: 60
+    tuLoad: 12
+    costThrow:
+      energy: 18
+    battleType: 1
+    snapRange: 16
+    aimRange: 24
+    dropoff: 5
+    damageBonus:
+      firing: 1.5
+      reactions: 1.1
+    accuracyMultiplier:
+      firing: 1.9
+      reactions: 1.2
+    twoHanded: true
+    oneHandedPenalty: 40
+    bulletSpeed: 17
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+# Bayonet segment
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    meleeAnimation: 0
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.8
+      melee: 1.2
+    accuracyMelee: 110
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 14
+      energy: 8
+    flatMelee:
+      time: true
+# Bayonet segment end
+    attraction: 7
+    listOrder: 2012
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_MONDRAGON_CLIP
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 214
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2013
+
+  - type: STR_SELBSTLADER_M1916
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.2
+    costBuy: 800
+    costSell: 650
+    weight: 9
+    bigSprite: 225
+    floorSprite: 225
+    handSprite: 296
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 112
+    reloadSound: 312
+    compatibleAmmo:
+      - STR_SELBSTLADER_M1916_CLIP
+    accuracyCloseQuarters: 60
+    accuracySnap: 70
+    accuracyAimed: 105
+    tuSnap: 35
+    tuAimed: 75
+    tuLoad: 10
+    minRange: 14
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
+    powerRangeThreshold: 24
+    powerRangeReduction: 1
+    damageBonus:
+      firing: 1.6
+      reactions: 1.3
+    accuracyMultiplier:
+      firing: 1.4
+      reactions: 2.0
+    costThrow:
+      energy: 18
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    attraction: 10
+    listOrder: 2024
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_SELBSTLADER_M1916_CLIP
+    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 226
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 44
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2025    
+
+  - type: STR_RSC17
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 4500
+    costSell: 3500
+    weight: 6
+    bigSprite: 233
+    floorSprite: 233
+    handSprite: 328
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 116
+    bulletSpeed: 17
+    reloadSound: 316
+    compatibleAmmo:
+      - STR_RSC17_CLIP
+    accuracyCloseQuarters: 70
+    accuracySnap: 55
+    accuracyAimed: 65
+    accuracyAuto: 40
+    tuSnap: 25
+    tuAimed: 45
+    tuAuto: 30
+    tuLoad: 14
+    minRange: 12
+    snapRange: 16
+    aimRange: 25
+    dropoff: 3
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    attraction: 8
+    listOrder: 2032
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_RSC17_CLIP
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 400
+    costSell: 200
+    weight: 3
+    bigSprite: 234
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 48
+    damageType: 10
+    clipSize: 5
+    battleType: 2
+    armor: 12
+    invWidth: 1
+    invHeight: 1
+    listOrder: 2033
+
+#################################################
+######### PHLOGISTON SELF-LOADING RIFLES ########
+###############################################
+
+
+
+#################################################
+######### GAUSS SELF-LOADING RIFLES ########
+###############################################
+
+
 #####################################
   - type: STR_WEBLEY_REVOLVER
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
@@ -698,66 +1039,7 @@ items:
 #####################################
 ####### BRITISH ADVANCED ###########
 ###################################
-  - type: STR_FARQHUAR_HILL
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.3
-    costBuy: 4000
-    costSell: 3500
-    weight: 6
-    bigSprite: 205
-    floorSprite: 205
-    handSprite: 216
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
-    fireSound: 102
-    bulletSpeed: 17
-    reloadSound: 302
-    compatibleAmmo:
-      - STR_FARQHUAR_HILL_CLIP
-    accuracyCloseQuarters: 70
-    accuracySnap: 55
-    accuracyAimed: 65
-    tuSnap: 18
-    tuAimed: 35
-    tuLoad: 13
-    snapRange: 16
-    aimRange: 24
-    dropoff: 6
-    powerRangeThreshold: 20
-    powerRangeReduction: 1
-    damageBonus:
-      firing: 1.3
-      reactions: 1.4
-    accuracyMultiplier:
-      firing: 1.2
-      reactions: 1.6
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 15
-    attraction: 8
-    listOrder: 2004
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_FARQHUAR_HILL_CLIP
-    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costSell: 200
-    weight: 3
-    bigSprite: 206
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 45
-    damageType: 10
-    clipSize: 19
-    battleType: 2
-    armor: 12
-    invWidth: 1
-    invHeight: 1
-    listOrder: 2005
+
   - type: STR_HUOT_LMG
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
     requires:
@@ -877,88 +1159,7 @@ items:
 ###################################
 ###### AMERICAN ADVANCED ##########
 #################################
-  - type: STR_MONDRAGON
-    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.2
-    costBuy: 800
-    costSell: 650
-    weight: 9
-    bigSprite: 213
-    floorSprite: 213
-    handSprite: 248
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
-    fireSound: 106
-    reloadSound: 306
-    compatibleAmmo:
-      - STR_MONDRAGON_CLIP
-    accuracyCloseQuarters: 60
-    accuracySnap: 60
-    accuracyAimed: 85
-    tuSnap: 25
-    tuAimed: 60
-    tuLoad: 12
-    costThrow:
-      energy: 18
-    battleType: 1
-    snapRange: 16
-    aimRange: 24
-    dropoff: 5
-    damageBonus:
-      firing: 1.5
-      reactions: 1.1
-    accuracyMultiplier:
-      firing: 1.9
-      reactions: 1.2
-    twoHanded: true
-    oneHandedPenalty: 40
-    bulletSpeed: 17
-    invWidth: 1
-    invHeight: 3
-    armor: 30
-# Bayonet segment
-    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
-    meleeAnimation: 0
-    meleeType: 7
-    meleePower: 45
-    meleeBonus:
-      strength: 0.8
-      melee: 1.2
-    accuracyMelee: 110
-    meleeMultiplier:
-      flatHundred: 0.5
-      melee: 0.5
-    costMelee:
-      time: 14
-      energy: 8
-    flatMelee:
-      time: true
-# Bayonet segment end
-    attraction: 7
-    listOrder: 2012
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_MONDRAGON_CLIP
-    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.04
-    costBuy: 70
-    costSell: 50
-    weight: 3
-    bigSprite: 214
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 45
-    damageType: 10
-    clipSize: 20
-    battleType: 2
-    armor: 30
-    attraction: 7
-    listOrder: 2013
+
   - type: STR_BAR
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT]
     requires:
@@ -1188,72 +1389,7 @@ items:
     invHeight: 1
     attraction: 9
     listOrder: 2023
-  - type: STR_SELBSTLADER_M1916
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.2
-    costBuy: 800
-    costSell: 650
-    weight: 9
-    bigSprite: 225
-    floorSprite: 225
-    handSprite: 296
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
-    fireSound: 112
-    reloadSound: 312
-    compatibleAmmo:
-      - STR_SELBSTLADER_M1916_CLIP
-    accuracyCloseQuarters: 60
-    accuracySnap: 70
-    accuracyAimed: 105
-    tuSnap: 35
-    tuAimed: 75
-    tuLoad: 10
-    minRange: 14
-    snapRange: 18
-    aimRange: 28
-    dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
-    damageBonus:
-      firing: 1.6
-      reactions: 1.3
-    accuracyMultiplier:
-      firing: 1.4
-      reactions: 2.0
-    costThrow:
-      energy: 18
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    bulletSpeed: 10
-    invWidth: 1
-    invHeight: 3
-    armor: 30
-    attraction: 10
-    listOrder: 2024
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_SELBSTLADER_M1916_CLIP
-    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.04
-    costBuy: 70
-    costSell: 50
-    weight: 3
-    bigSprite: 226
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 44
-    damageType: 10
-    clipSize: 25
-    battleType: 2
-    armor: 30
-    attraction: 7
-    listOrder: 2025
+
 #####################################
 ######### FRENCH WEAPONS ###########
 ###################################
@@ -1379,72 +1515,8 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2031
-
-  - type: STR_RSC17
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.3
-    costBuy: 4500
-    costSell: 3500
-    weight: 6
-    bigSprite: 233
-    floorSprite: 233
-    handSprite: 328
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
-    fireSound: 116
-    bulletSpeed: 17
-    reloadSound: 316
-    compatibleAmmo:
-      - STR_RSC17_CLIP
-    accuracyCloseQuarters: 70
-    accuracySnap: 55
-    accuracyAimed: 65
-    accuracyAuto: 40
-    tuSnap: 25
-    tuAimed: 45
-    tuAuto: 30
-    tuLoad: 14
-    minRange: 12
-    snapRange: 16
-    aimRange: 25
-    dropoff: 3
-    damageBonus:
-      firing: 1.4
-      reactions: 1.6
-    accuracyMultiplier:
-      firing: 1.8
-      reactions: 1.4
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 15
-    attraction: 8
-    listOrder: 2032
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-  - type: STR_RSC17_CLIP
-    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.1
-    costBuy: 400
-    costSell: 200
-    weight: 3
-    bigSprite: 234
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 48
-    damageType: 10
-    clipSize: 5
-    battleType: 2
-    armor: 12
-    invWidth: 1
-    invHeight: 1
-    listOrder: 2033
+    
+    
 
 #  - STR_MOSIN_NAGANT
 #    listOrder: 2034
