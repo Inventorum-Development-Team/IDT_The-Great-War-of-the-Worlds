@@ -914,7 +914,7 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2025    
+    listOrder: 2025
 
   - type: STR_RSC17
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
@@ -976,20 +976,241 @@ items:
     invHeight: 1
     listOrder: 2033
 
+  - type: STR_FEDOROV_AVTOMAT
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.2
+    costBuy: 800
+    costSell: 650
+    weight: 7
+    bigSprite: 251
+    floorSprite: 251
+    handSprite: 416
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 124
+    reloadSound: 324
+    compatibleAmmo:
+      - STR_FEDOROV_AVTOMAT_MAG
+      - STR_FEDOROV_AVTOMAT_MAG_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 65
+    accuracyAimed: 70
+    accuracyAuto: 50
+    tuSnap: 30
+    tuAimed: 45
+    tuAuto: 45
+    tuLoad: 25
+    autoRange: 12
+    snapRange: 15
+    aimRange: 18
+    dropoff: 3
+    powerRangeThreshold: 15
+    powerRangeReduction: 5
+    costThrow:
+      energy: 18
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    attraction: 10
+    listOrder: 2050
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+
+  - type: STR_FEDOROV_AVTOMAT_MAG
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 252
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 10
+    clipSize: 10
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2051
+  - type: STR_FEDOROV_AVTOMAT_MAG_KMM
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 252
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 10
+    clipSize: 10
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2051
+
+  - type: STR_CEI_RIGOTTI
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.2
+    costBuy: 800
+    costSell: 650
+    weight: 7
+    bigSprite: 251
+    floorSprite: 251
+    handSprite: 416
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 124
+    reloadSound: 324
+    compatibleAmmo:
+      - STR_CEI_RIGOTTI_CLIP
+      - STR_CEI_RIGOTTI_CLIP_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 65
+    accuracyAimed: 70
+    accuracyAuto: 50
+    tuSnap: 30
+    tuAimed: 45
+    tuAuto: 45
+    tuLoad: 25
+    autoRange: 12
+    snapRange: 15
+    aimRange: 18
+    dropoff: 3
+    powerRangeThreshold: 15
+    powerRangeReduction: 5
+    costThrow:
+      energy: 18
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    bulletSpeed: 10
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    attraction: 10
+    listOrder: 2050
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+
+  - type: STR_CEI_RIGOTTI_CLIP
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 252
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 10
+    clipSize: 10
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2051
+  - type: STR_CEI_RIGOTTI_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 252
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 40
+    damageType: 10
+    clipSize: 10
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2051
+
 #################################################
 ######### PHLOGISTON SELF-LOADING RIFLES ########
 ###############################################
 
-
+  - type: STR_PHLOGISTON_BATTLE_RIFLE
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 500
+    floorSprite: 500
+    handSprite: 1000
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 5
+    fireSound: 4
+    bulletSpeed: 16
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_PHLOGISTON_MEDIUM_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+#    listOrder: 2002
+#    tags:
+#      WEAPON_TYPE: 1 # Rifles
+  - type: STR_PHLOGISTON_MEDIUM_BATTERY
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 501
+    floorSprite: 4
+    fireSound: 11
+    hitSound: 19
+    power: 30
+    damageType: 4
+    clipSize: 10
+    battleType: 2
+    armor: 12
+#    listOrder: 2003
 
 #################################################
-######### GAUSS SELF-LOADING RIFLES ########
+######### GAUSS SELF-LOADING RIFLES ############
 ###############################################
 
 
-#####################################
-  - type: STR_WEBLEY_REVOLVER
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
+##########################################
+######### BALLISTIC SIDEARMS ############
+########################################
+  - type: STR_AUTOMATIC_REVOLVER
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_BRITISH_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -1002,7 +1223,9 @@ items:
     fireSound: 100
     reloadSound: 300
     compatibleAmmo:
-      - STR_WEBLEY_REVOLVER_CLIP
+      - STR_REVOLVER_CLIP
+      - STR_REVOLVER_CLIP_KMM
+      - STR_REVOLVER_CLIP_DUMDUM
     accuracySnap: 60
     accuracyAimed: 65
     accuracyAuto: 45
@@ -1017,8 +1240,70 @@ items:
     listOrder: 2000
     tags:
       WEAPON_TYPE: 32 # Pistols
-  - type: STR_WEBLEY_REVOLVER_CLIP
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+  - type: STR_HEAVY_REVOLVER
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_BRITISH_EQUIPMENT]
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 201
+    floorSprite: 201
+    handSprite: 200
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    bulletSpeed: 17
+    fireSound: 100
+    reloadSound: 300
+    compatibleAmmo:
+      - STR_REVOLVER_CLIP
+      - STR_REVOLVER_CLIP_KMM
+      - STR_REVOLVER_CLIP_DUMDUM
+    accuracySnap: 60
+    accuracyAimed: 65
+    accuracyAuto: 45
+    accuracyCloseQuarters: 130
+    tuSnap: 15
+    tuAimed: 25
+    tuAuto: 15
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 2000
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+  - type: STR_SERVICE_REVOLVER
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_BRITISH_EQUIPMENT]
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 201
+    floorSprite: 201
+    handSprite: 200
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    bulletSpeed: 17
+    fireSound: 100
+    reloadSound: 300
+    compatibleAmmo:
+      - STR_REVOLVER_CLIP
+      - STR_REVOLVER_CLIP_KMM
+      - STR_REVOLVER_CLIP_DUMDUM
+    accuracySnap: 60
+    accuracyAimed: 65
+    accuracyAuto: 45
+    accuracyCloseQuarters: 130
+    tuSnap: 15
+    tuAimed: 25
+    tuAuto: 15
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 2000
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+  - type: STR_REVOLVER_CLIP
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -1035,6 +1320,98 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2001
+  - type: STR_REVOLVER_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 500
+    costSell: 150
+    weight: 2
+    bigSprite: 202
+    floorSprite: 2
+    power: 32
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    armor: 250
+    listOrder: 2001
+  - type: STR_REVOLVER_CLIP_DUMDUM
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 500
+    costSell: 150
+    weight: 2
+    bigSprite: 202
+    floorSprite: 2
+    power: 32
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    armor: 250
+    listOrder: 2001
+  - type: STR_M1911_COLT
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT]
+    size: 0.1
+    costBuy: 750
+    costSell: 600
+    weight: 5
+    bigSprite: 209
+    floorSprite: 209
+    handSprite: 232
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    fireSound: 104
+    reloadSound: 304
+    compatibleAmmo:
+      - STR_M1911_COLT_MAG
+      - STR_M1911_COLT_MAG_KMM
+    accuracyCloseQuarters: 130
+    accuracySnap: 75
+    accuracyAimed: 80
+    tuSnap: 18
+    tuAimed: 32
+    tuLoad: 15
+    aimRange: 20
+    kneelBonus: 105
+    costThrow:
+      energy: 10
+    battleType: 1
+    invWidth: 1
+    invHeight: 2
+    armor: 35
+    attraction: 12
+    bulletSpeed: 15
+    listOrder: 2008
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+  - type: STR_M1911_COLT_MAG
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    size: 0.025
+    costBuy: 75
+    costSell: 55
+    weight: 2
+    bigSprite: 210
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.3
+    clipSize: 7
+    costThrow:
+      energy: 4
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+    listOrder: 2009
 
 #####################################
 ####### BRITISH ADVANCED ###########
@@ -1100,61 +1477,7 @@ items:
 ###################################
 ######## AMERICAN WEAPONS ########
 #################################
-  - type: STR_M1911_COLT
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
-    size: 0.1
-    costBuy: 750
-    costSell: 600
-    weight: 5
-    bigSprite: 209
-    floorSprite: 209
-    handSprite: 232
-    bulletSprite: 11 #Pistol bullet 35*11=385
-    fireSound: 104
-    reloadSound: 304
-    compatibleAmmo:
-      - STR_M1911_COLT_CLIP
-    accuracyCloseQuarters: 130
-    accuracySnap: 75
-    accuracyAimed: 80
-    tuSnap: 18
-    tuAimed: 32
-    tuLoad: 15
-    aimRange: 20
-    kneelBonus: 105
-    costThrow:
-      energy: 10
-    battleType: 1
-    invWidth: 1
-    invHeight: 2
-    armor: 35
-    attraction: 12
-    bulletSpeed: 15
-    listOrder: 2008
-    tags:
-      WEAPON_TYPE: 32 # Pistols
-  - type: STR_M1911_COLT_CLIP
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    size: 0.025
-    costBuy: 75
-    costSell: 55
-    weight: 2
-    bigSprite: 210
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 35
-    damageType: 1
-    damageAlter:
-      ArmorEffectiveness: 0.3
-    clipSize: 7
-    costThrow:
-      energy: 4
-    battleType: 2
-    invWidth: 1
-    invHeight: 1
-    armor: 35
-    listOrder: 2009
+
 
 ###################################
 ###### AMERICAN ADVANCED ##########
@@ -1280,7 +1603,7 @@ items:
 ######### GERMAN WEAPONS #########
 #################################
   - type: STR_MAUSER
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_GERMAN_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -1307,7 +1630,7 @@ items:
     tags:
       WEAPON_TYPE: 32 # Pistols
   - type: STR_MAUSER_CLIP
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -1515,8 +1838,8 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2031
-    
-    
+
+
 
 #  - STR_MOSIN_NAGANT
 #    listOrder: 2034
@@ -1693,69 +2016,7 @@ items:
     armor: 35
     listOrder: 2049
 
-  - type: STR_CEI_RIGOTTI
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.2
-    costBuy: 800
-    costSell: 650
-    weight: 7
-    bigSprite: 251
-    floorSprite: 251
-    handSprite: 416
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
-    fireSound: 124
-    reloadSound: 324
-    compatibleAmmo:
-      - STR_CEI_RIGOTTI_CLIP
-    accuracyCloseQuarters: 50
-    accuracySnap: 65
-    accuracyAimed: 70
-    accuracyAuto: 50
-    tuSnap: 30
-    tuAimed: 45
-    tuAuto: 45
-    tuLoad: 25
-    autoRange: 12
-    snapRange: 15
-    aimRange: 18
-    dropoff: 3
-    powerRangeThreshold: 15
-    powerRangeReduction: 5
-    costThrow:
-      energy: 18
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    bulletSpeed: 10
-    invWidth: 1
-    invHeight: 3
-    armor: 30
-    attraction: 10
-    listOrder: 2050
-    tags:
-      WEAPON_TYPE: 1 # Rifles
 
-  - type: STR_CEI_RIGOTTI_CLIP
-    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.04
-    costBuy: 70
-    costSell: 50
-    weight: 3
-    bigSprite: 252
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 40
-    damageType: 10
-    clipSize: 10
-    battleType: 2
-    armor: 30
-    attraction: 7
-    listOrder: 2051
 
   - type: STR_VILLAR_PEROSA
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_ASSAULT_CLASS]
@@ -2781,7 +3042,7 @@ items:
     listOrder: 200630
 
   - type: STR_FLARE_GUN
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 3000
     costSell: 2000
@@ -2810,7 +3071,7 @@ items:
       WEAPON_TYPE: 32 # Pistols
 
   - type: STR_FLARE_ROUND
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 100
     costSell: 85
@@ -3257,12 +3518,12 @@ ufopaedia:
   - delete: STR_HWP_CANNON_SHELLS
   - delete: STR_HWP_FUSION_BOMB
 ###########################################
-  - id: STR_WEBLEY_REVOLVER
+  - id: STR_AUTOMATIC_REVOLVER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_WEBLEY_REVOLVER_UFOPEDIA
+    text: STR_AUTOMATIC_REVOLVER_UFOPEDIA
     listOrder: 2000
-  - id: STR_WEBLEY_REVOLVER_CLIP
+  - id: STR_AUTOMATIC_REVOLVER_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_SMLE_MKIII
@@ -3299,7 +3560,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_M1911_COLT_UFOPEDIA
     listOrder: 2004
-  - id: STR_M1911_COLT_CLIP
+  - id: STR_M1911_COLT_MAG
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_SPRINGFIELD
@@ -5049,9 +5310,9 @@ extraStrings:
       STR_UNPRIME_GRENADE: Unprime Grenade
       STR_BURST: Burst
       STR_RAPID_FIRE: Rapid Fire
-      STR_WEBLEY_REVOLVER: Webley Mk VI Revolver
-      STR_WEBLEY_REVOLVER_CLIP: Webley Mk VI Revolver Clip
-      STR_WEBLEY_REVOLVER_UFOPEDIA: Modern revolver, its gas system gives it a very high rate of fire. Something delicate to take care of, but British soldiers entrust it their life. If you keep your finger on the trigger, you can shoot the 6 bullets in rapid succession. It is recharged using a 'speedloader' which places the 6 cartridges at the same time on the weapon drum.
+      STR_AUTOMATIC_REVOLVER: Webley Mk VI Revolver
+      STR_AUTOMATIC_REVOLVER_CLIP: Webley Mk VI Revolver Clip
+      STR_AUTOMATIC_REVOLVER_UFOPEDIA: Modern revolver, its gas system gives it a very high rate of fire. Something delicate to take care of, but British soldiers entrust it their life. If you keep your finger on the trigger, you can shoot the 6 bullets in rapid succession. It is recharged using a 'speedloader' which places the 6 cartridges at the same time on the weapon drum.
       STR_SMLE_MKIII: SMLE Mk III
       STR_SMLE_MKIII_CLIP: SMLE Mk III Clip
       STR_SMLE_MKIII_UFOPEDIA: The most recent iteration of the Lee-Enfield rifle caliber .303 British. It's the fastest bolt-action rifle in the world and probably the best, an expert rifleman can shoot as fast as a machine gun. It is recharged using two stripper clips with 5 bullets each one. Its iron sight is comfortable and precise for long range shooting.
@@ -5062,7 +5323,7 @@ extraStrings:
       STR_HUOT_LMG_DRUM: Huot Automatic Drum
       STR_HUOT_LMG_UFOPEDIA: One of the cheapest light machine guns produced by the Commonwealth. Extremely reliable and durable, it is not affected by mud. All the Ross rifles in the Canadian arsenal were converted into this new automatic weapon. Employs a gas mechanism designed by engineer Joseph Huot, replacing the Lewis machine gun as a "fire on the move" weapon. He uses .303 British caliber bullets.
       STR_M1911_COLT: M1911 Colt
-      STR_M1911_COLT_CLIP: M1911 Colt
+      STR_M1911_COLT_MAG: M1911 Colt
       STR_M1911_COLT_UFOPEDIA: Iconic American handgun. Motivated to replace revolvers in service with the armed forces, this innovative gun designed by John M. Browning uses the powerful .45 ACP high stopping power cartridge, similar to that used by Old West revolvers. Its robust design resulted in a semiautomatic, reliable and very resistant weapon.
       STR_SPRINGFIELD: M1903 Springfield Bayoneted
       STR_SPRINGFIELD_CLIP: M1903 Springfield Clip
