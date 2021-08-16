@@ -338,6 +338,7 @@ items:
     reloadSound: 313
     compatibleAmmo:
       - STR_LEBEL_CLIP
+      - STR_LEBEL_CLIP_KMM
     accuracyCloseQuarters: 75
     accuracySnap: 56
     accuracyAimed: 75
@@ -727,7 +728,8 @@ items:
     bulletSpeed: 17
     reloadSound: 302
     compatibleAmmo:
-      - STR_FARQHUAR_HILL_CLIP
+      - STR_FARQHUAR_HILL_DRUM
+      - STR_FARQHUAR_HILL_DRUM_KMM
     accuracyCloseQuarters: 70
     accuracySnap: 55
     accuracyAimed: 65
@@ -748,7 +750,24 @@ items:
     listOrder: 2004
     tags:
       WEAPON_TYPE: 1 # Rifles
-  - type: STR_FARQHUAR_HILL_CLIP
+  - type: STR_FARQHUAR_HILL_DRUM
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costSell: 200
+    weight: 3
+    bigSprite: 206
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    clipSize: 19
+    battleType: 2
+    armor: 12
+    invWidth: 1
+    invHeight: 1
+    listOrder: 2005
+  - type: STR_FARQHUAR_HILL_DRUM_KMM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costSell: 200
@@ -781,7 +800,8 @@ items:
     fireSound: 106
     reloadSound: 306
     compatibleAmmo:
-      - STR_MONDRAGON_CLIP
+      - STR_MONDRAGON_MAG
+      - STR_MONDRAGON_MAG_KMM
     accuracyCloseQuarters: 60
     accuracySnap: 60
     accuracyAimed: 85
@@ -794,12 +814,6 @@ items:
     snapRange: 16
     aimRange: 24
     dropoff: 5
-    damageBonus:
-      firing: 1.5
-      reactions: 1.1
-    accuracyMultiplier:
-      firing: 1.9
-      reactions: 1.2
     twoHanded: true
     oneHandedPenalty: 40
     bulletSpeed: 17
@@ -829,7 +843,26 @@ items:
     listOrder: 2012
     tags:
       WEAPON_TYPE: 1 # Rifles
-  - type: STR_MONDRAGON_CLIP
+  - type: STR_MONDRAGON_MAG
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 214
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2013
+  - type: STR_MONDRAGON_MAG_KMM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -864,7 +897,8 @@ items:
     fireSound: 112
     reloadSound: 312
     compatibleAmmo:
-      - STR_SELBSTLADER_M1916_CLIP
+      - STR_SELBSTLADER_M1916_MAG
+      - STR_SELBSTLADER_M1916_MAG_KMM
     accuracyCloseQuarters: 60
     accuracySnap: 70
     accuracyAimed: 105
@@ -877,14 +911,6 @@ items:
     dropoff: 4
     powerRangeThreshold: 24
     powerRangeReduction: 1
-    damageBonus:
-      firing: 1.6
-      reactions: 1.3
-    accuracyMultiplier:
-      firing: 1.4
-      reactions: 2.0
-    costThrow:
-      energy: 18
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
@@ -896,7 +922,26 @@ items:
     listOrder: 2024
     tags:
       WEAPON_TYPE: 1 # Rifles
-  - type: STR_SELBSTLADER_M1916_CLIP
+  - type: STR_SELBSTLADER_M1916_MAG
+    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.04
+    costBuy: 70
+    costSell: 50
+    weight: 3
+    bigSprite: 226
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 44
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    attraction: 7
+    listOrder: 2025
+  - type: STR_SELBSTLADER_M1916_MAG_KMM
     categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -933,6 +978,7 @@ items:
     reloadSound: 316
     compatibleAmmo:
       - STR_RSC17_CLIP
+      - STR_RSC17_CLIP_KMM
     accuracyCloseQuarters: 70
     accuracySnap: 55
     accuracyAimed: 65
@@ -975,6 +1021,27 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2033
+  - type: STR_RSC17_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 400
+    costSell: 200
+    weight: 3
+    bigSprite: 234
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 48
+    damageType: 10
+    clipSize: 5
+    battleType: 2
+    armor: 12
+    invWidth: 1
+    invHeight: 1
+    listOrder: 2033
+
 
   - type: STR_FEDOROV_AVTOMAT
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
@@ -1391,6 +1458,28 @@ items:
     tags:
       WEAPON_TYPE: 32 # Pistols
   - type: STR_M1911_COLT_MAG
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    size: 0.025
+    costBuy: 75
+    costSell: 55
+    weight: 2
+    bigSprite: 210
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 35
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.3
+    clipSize: 7
+    costThrow:
+      energy: 4
+    battleType: 2
+    invWidth: 1
+    invHeight: 1
+    armor: 35
+    listOrder: 2009
+  - type: STR_M1911_COLT_MAG_KMM
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     size: 0.025
     costBuy: 75
