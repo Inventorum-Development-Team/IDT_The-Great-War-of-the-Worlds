@@ -1044,7 +1044,7 @@ items:
 
 
   - type: STR_FEDOROV_AVTOMAT
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
     requires:
       - STR_ADVANCED_FIREARMS
     size: 0.2
@@ -1089,7 +1089,7 @@ items:
       WEAPON_TYPE: 1 # Rifles
 
   - type: STR_FEDOROV_AVTOMAT_MAG
-    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
     requires:
       - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1108,7 +1108,7 @@ items:
     attraction: 7
     listOrder: 2051
   - type: STR_FEDOROV_AVTOMAT_MAG_KMM
-    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
     requires:
       - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1633,7 +1633,7 @@ items:
     listOrder: 2019
 
   - type: STR_OBREZ_PISTOL
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_GERMAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_RUSSIAN_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -1775,6 +1775,1128 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2031
+  - type: STR_M1907_SL_CARBINE_MAG__KMM
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 50
+    costSell: 40
+    weight: 2
+    bigSprite: 232
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2031
+    
+  - type: STR_REVOLVER_CARBINE
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_BRITISH_EQUIPMENT]
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 3
+    bigSprite: 201
+    floorSprite: 201
+    handSprite: 200
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    bulletSpeed: 17
+    fireSound: 100
+    reloadSound: 300
+    compatibleAmmo:
+      - STR_REVOLVER_CLIP
+      - STR_REVOLVER_CLIP_KMM
+      - STR_REVOLVER_CLIP_DUMDUM
+    accuracySnap: 60
+    accuracyAimed: 65
+    accuracyAuto: 45
+    accuracyCloseQuarters: 130
+    tuSnap: 15
+    tuAimed: 25
+    tuAuto: 15
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    twoHanded: false
+    armor: 250
+    listOrder: 2000
+    tags:
+      WEAPON_TYPE: 8 # Carbin
+
+  - type: STR_MAUSER_C96_CARBINE
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 6
+    bigSprite: 219
+    floorSprite: 219
+    handSprite: 272
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    bulletSpeed: 15
+    fireSound: 109
+    reloadSound: 309
+    compatibleAmmo:
+      - STR_MAUSER_C96_MAG
+      - STR_MAUSER_C96_MAG_KMM
+    accuracyCloseQuarters: 140
+    accuracySnap: 50
+    accuracyAimed: 75
+    tuSnap: 18
+    tuAimed: 28
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 2018
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+  - type: STR_MAUSER_C96_MAG
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 500
+    costSell: 150
+    weight: 2
+    bigSprite: 220
+    floorSprite: 4
+    power: 33
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 30
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    armor: 250
+    listOrder: 2019
+  - type: STR_MAUSER_C96_MAG_KMM
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 500
+    costSell: 150
+    weight: 2
+    bigSprite: 220
+    floorSprite: 4
+    power: 33
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 20
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    armor: 250
+    listOrder: 2019
+
+  - type: STR_LUGER_ARTILLERY
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 6
+    bigSprite: 219
+    floorSprite: 219
+    handSprite: 272
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    bulletSpeed: 15
+    fireSound: 109
+    reloadSound: 309
+    compatibleAmmo:
+      - STR_LUGER_ARTILLERY_DRUM
+      - STR_LUGER_ARTILLERY_DRUM_KMM
+    accuracyCloseQuarters: 140
+    accuracySnap: 50
+    accuracyAimed: 75
+    tuSnap: 18
+    tuAimed: 28
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 2018
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+  - type: STR_LUGER_ARTILLERY_DRUM
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 500
+    costSell: 150
+    weight: 2
+    bigSprite: 220
+    floorSprite: 4
+    power: 33
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 32
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    armor: 250
+    listOrder: 2019
+  - type: STR_LUGER_ARTILLERY_DRUM_KMM
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 500
+    costSell: 150
+    weight: 2
+    bigSprite: 220
+    floorSprite: 4
+    power: 33
+    damageType: 1
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 22
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    armor: 250
+    listOrder: 2019
+
+  - type: STR_RSC_CARBINE
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 4500
+    costSell: 3500
+    weight: 6
+    bigSprite: 233
+    floorSprite: 233
+    handSprite: 328
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 116
+    bulletSpeed: 17
+    reloadSound: 316
+    compatibleAmmo:
+      - STR_RSC17_CLIP
+      - STR_RSC17_CLIP_KMM
+    accuracyCloseQuarters: 70
+    accuracySnap: 55
+    accuracyAimed: 65
+    accuracyAuto: 40
+    tuSnap: 25
+    tuAimed: 45
+    tuAuto: 30
+    tuLoad: 14
+    minRange: 12
+    snapRange: 16
+    aimRange: 25
+    dropoff: 3
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    attraction: 8
+    listOrder: 2032
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+      
+  - type: STR_CARCANO_M91_CARBINE
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 4
+    bigSprite: 247
+    floorSprite: 247
+    handSprite: 400
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    fireSound: 122
+    bulletSpeed: 16
+    reloadSound: 322
+    compatibleAmmo:
+      - STR_CARCANO_M91_CARBINE_CLIP
+      - STR_CARCANO_M91_CARBINE_CLIP_KMM
+    accuracyCloseQuarters: 75
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 15
+    tuAimed: 20
+    tuLoad: 15
+    snapRange: 18
+    aimRange: 22
+    dropoff: 4
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+# Bayonet segment
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    meleeAnimation: 0
+    meleeType: 7
+    meleePower: 40
+    meleeBonus:
+      strength: 1.5
+      melee: 1.6
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.9
+    costMelee:
+      time: 15
+      energy: 4
+    flatMelee:
+      time: true
+# Bayonet segment end
+    attraction: 8
+    listOrder: 2046
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+
+  - type: STR_CARCANO_M91_CARBINE_CLIP
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 248
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    armor: 12
+    listOrder: 2047
+ 
+  - type: STR_CARCANO_M91_CARBINE_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 248
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 28
+    damageType: 1
+    clipSize: 6
+    battleType: 2
+    armor: 12
+    listOrder: 2047
+
+##############################################
+############ PHLOGISTON CARBINES ############
+############################################
+
+##############################################
+############# GAUSS CARBINES ################
+############################################
+
+##########################################
+############# BALLISTIC SMGS ############
+########################################
+  - type: STR_ANNIHILATOR_SMG
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 4000
+    costSell: 3000
+    weight: 6
+    bigSprite: 290
+    floorSprite: 290
+    handSprite: 640
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bulletSpeed: 20
+    fireSound: 138
+    reloadSound: 138
+    compatibleAmmo:
+      - STR_ANNIHILATOR_SMG_MAG
+      - STR_ANNIHILATOR_SMG_MAG_KMM
+    accuracyCloseQuarters: 150
+    accuracySnap: 60
+    accuracyAuto: 50
+    accuracyAimed: 70
+    tuSnap: 17
+    tuAuto: 24
+    tuAimed: 28
+    tuLoad: 15
+    snapRange: 10
+    aimRange: 15
+    twoHanded: true
+    oneHandedPenalty: 15
+    kneelBonus: 100
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2089
+    tags:
+      WEAPON_TYPE: 16 # SMGs
+
+  - type: STR_ANNIHILATOR_SMG_MAG
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 291
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2090
+  - type: STR_ANNIHILATOR_SMG_MAG_KMM
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 291
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2090
+
+  - type: STR_MP18
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 4000
+    costSell: 3000
+    weight: 6
+    bigSprite: 290
+    floorSprite: 290
+    handSprite: 640
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bulletSpeed: 20
+    fireSound: 138
+    reloadSound: 138
+    compatibleAmmo:
+      - STR_MP18_DRUM
+      - STR_MP18_DRUM_KMM
+    accuracyCloseQuarters: 150
+    accuracySnap: 60
+    accuracyAuto: 50
+    accuracyAimed: 70
+    tuSnap: 17
+    tuAuto: 24
+    tuAimed: 28
+    tuLoad: 15
+    snapRange: 10
+    aimRange: 15
+    twoHanded: true
+    oneHandedPenalty: 15
+    kneelBonus: 100
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2089
+    tags:
+      WEAPON_TYPE: 16 # SMGs
+
+  - type: STR_MP18_DRUM
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 291
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2090
+  - type: STR_MP18_DRUM_KMM
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 291
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2090
+
+  - type: STR_SMG_0818
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 4000
+    costSell: 3000
+    weight: 6
+    bigSprite: 290
+    floorSprite: 290
+    handSprite: 640
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bulletSpeed: 20
+    fireSound: 138
+    reloadSound: 138
+    compatibleAmmo:
+      - STR_SMG_0818_BOX
+      - STR_SMG_0818_BOX_KMM
+    accuracyCloseQuarters: 150
+    accuracySnap: 60
+    accuracyAuto: 50
+    accuracyAimed: 70
+    tuSnap: 17
+    tuAuto: 24
+    tuAimed: 28
+    tuLoad: 15
+    snapRange: 10
+    aimRange: 15
+    twoHanded: true
+    oneHandedPenalty: 15
+    kneelBonus: 100
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2089
+    tags:
+      WEAPON_TYPE: 16 # SMGs
+
+  - type: STR_SMG_0818_BOX
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 291
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2090
+  - type: STR_SMG_0818_BOX_KMM
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 250
+    costSell: 300
+    weight: 2
+    bigSprite: 291
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 45
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 32
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2090
+
+  - type: STR_BERETTA_MAB18
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_ASSAULT_CLASS]
+    size: 0.1
+    costBuy: 600
+    costSell: 500
+    weight: 4
+    bigSprite: 249
+    floorSprite: 249
+    handSprite: 408
+    bulletSprite: 11 #Pistol bullet 35*11=385
+    bulletSpeed: 20
+    fireSound: 123
+    reloadSound: 323
+    compatibleAmmo:
+      - STR_BERETTA_MAB18_MAG
+      - STR_BERETTA_MAB18_MAG_KMM
+    accuracyCloseQuarters: 120
+    accuracySnap: 40
+    accuracyAuto: 30
+    tuSnap: 10
+    tuAuto: 15
+    tuLoad: 10
+    powerRangeThreshold: 10
+    powerRangeReduction: 2
+    snapRange: 12
+    autoRange: 10
+    autoShots: 5
+    dropoff: 3
+    twoHanded: true
+    oneHandedPenalty: 15
+    kneelBonus: 130
+# Bayonet segment
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    meleeAnimation: 0
+    meleeType: 7
+    meleePower: 40
+    meleeBonus:
+      strength: 1.5
+      melee: 1.6
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.9
+    costMelee:
+      time: 15
+      energy: 4
+    flatMelee:
+      time: true
+# Bayonet segment end
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2048
+    tags:
+      WEAPON_TYPE: 16 # SMGs
+
+  - type: STR_BERETTA_MAB18_MAG
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 100
+    costSell: 90
+    weight: 3
+    bigSprite: 250
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 26
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 25
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2049
+  - type: STR_BERETTA_MAB18_MAG_KMM
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 100
+    costSell: 90
+    weight: 3
+    bigSprite: 250
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 26
+    damageType: 1
+    invWidth: 1
+    invHeight: 1
+    clipSize: 25
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2049
+
+
+  - type: STR_VILLAR_PEROSA
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_ASSAULT_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 2000
+    costSell: 1500
+    weight: 7
+    bigSprite: 253
+    floorSprite: 253
+    handSprite: 424
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bulletSpeed: 10
+    fireSound: 125
+    reloadSound: 325
+    ammo:
+      0:
+        compatibleAmmo: [ STR_VILLAR_PEROSA_MAGS, STR_VILLAR_PEROSA_MAGS_KMM ]
+    confSnap:
+      shots: 4
+      name: STR_BURST
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 8
+      name: STR_RAPID_FIRE
+      ammoSlot: 0
+      arcing: false
+    accuracyCloseQuarters: 150
+    accuracySnap: 55
+    accuracyAuto: 40
+    tuSnap: 10
+    tuAuto: 15
+    tuLoad: 30
+    autoRange: 10
+    snapRange: 15
+    dropoff: 3
+    powerRangeThreshold: 12
+    powerRangeReduction: 6
+    twoHanded: true
+    oneHandedPenalty: 60
+    kneelBonus: 100
+    battleType: 1
+    invWidth: 2
+    invHeight: 2
+    armor: 35
+    attraction: 10
+    listOrder: 2052
+    tags:
+      WEAPON_TYPE: 16 # SMGs
+
+  - type: STR_VILLAR_PEROSA_MAGS
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 100
+    costSell: 80
+    weight: 6
+    bigSprite: 254
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 36
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 50
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2053
+  - type: STR_VILLAR_PEROSA_MAGS_KMM
+    categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.025
+    costBuy: 100
+    costSell: 80
+    weight: 6
+    bigSprite: 254
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 36
+    damageType: 10
+    invWidth: 1
+    invHeight: 1
+    clipSize: 50
+    costThrow:
+      energy: 4
+    battleType: 2
+    armor: 35
+    listOrder: 2053
+
+##########################################
+############# TESLA SMGS ################
+########################################
+
+##########################################
+############# PLASMA SMGS ###############
+########################################
+
+##########################################
+############ BALLISTIC LMGS #############
+########################################
+
+  - type: STR_HUOT_LMG
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 11000
+    costSell: 9000
+    weight: 13
+    bigSprite: 207
+    floorSprite: 207
+    handSprite: 224
+    bulletSprite: 16 #Rifle MM bullet 35*16=560
+    fireSound: 103
+    reloadSound: 303
+    compatibleAmmo:
+      - STR_HUOT_LMG_DRUM
+      - STR_HUOT_LMG_DRUM_KMM
+    accuracyCloseQuarters: 55
+    accuracySnap: 52
+    accuracyAuto: 37
+    tuSnap: 25
+    tuAuto: 40
+    tuLoad: 20
+    snapRange: 18
+    autoRange: 18
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    autoShots: 6
+    sprayWaypoints: 2
+    bulletSpeed: 15
+    attraction: 10
+    listOrder: 2006
+    tags:
+      WEAPON_TYPE: 2 # LMGs
+ 
+  - type: STR_HUOT_LMG_DRUM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 208
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 43
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2007
+  - type: STR_HUOT_LMG_DRUM_KMM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 208
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 43
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2007
+
+  - type: STR_BAR
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.2
+    costSell: 2250
+    weight: 12
+    bigSprite: 215
+    floorSprite: 215
+    handSprite: 256
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    fireSound: 107
+    reloadSound: 307
+    compatibleAmmo:
+      - STR_BAR_MAG
+      - STR_BAR_MAG_KMM
+    accuracyCloseQuarters: 75
+    accuracyAuto: 45
+    accuracySnap: 60
+    tuAuto: 36
+    tuSnap: 25
+    kneelBonus: 200
+    autoShots: 4
+    sprayWaypoints: 2
+    battleType: 1
+    twoHanded: true
+    invWidth: 2
+    invHeight: 3
+    listOrder: 2014
+    bulletSpeed: 17
+    tags:
+      WEAPON_TYPE: 2 # LMGs
+      
+  - type: STR_BAR_CLIP
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costSell: 150
+    weight: 3
+    bigSprite: 216
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 47
+    damageAlter:
+      ArmorEffectiveness: 1.5
+    damageType: 10
+    clipSize: 20
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    listOrder: 2015
+  - type: STR_BAR_CLIP_KMM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costSell: 150
+    weight: 3
+    bigSprite: 216
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 47
+    damageAlter:
+      ArmorEffectiveness: 1.5
+    damageType: 10
+    clipSize: 20
+    invHeight: 1
+    invWidth: 1
+    battleType: 2
+    listOrder: 2015
+    
+  - type: STR_MG0815
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 9000
+    costSell: 8000
+    weight: 15
+    bigSprite: 223
+    floorSprite: 223
+    handSprite: 288
+    bulletSprite: 16 #Heavy MM bullet 35*16=560
+    fireSound: 111
+    reloadSound: 311
+    compatibleAmmo:
+      - STR_MG0815_DRUM
+    accuracyCloseQuarters: 60
+    accuracySnap: 56
+    accuracyAuto: 50
+    tuSnap: 25
+    tuAuto: 40
+    tuLoad: 25
+    snapRange: 30
+    autoRange: 30
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    autoShots: 6
+    sprayWaypoints: 2
+    kneelBonus: 200
+    bulletSpeed: 17
+    attraction: 9
+    listOrder: 2022
+    tags:
+      WEAPON_TYPE: 2 # LMGs
+
+  - type: STR_MG0815_DRUM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 224
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 50
+    damageType: 10
+    damageAlter:
+      ArmorEffectiveness: 1.5
+    clipSize: 100
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+  - type: STR_MG0815_DRUM_KMM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 224
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 50
+    damageType: 10
+    damageAlter:
+      ArmorEffectiveness: 1.5
+    clipSize: 100
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+    
+
+  - type: STR_CHAUCHAT_LMG
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT]
+    size: 0.4
+    costBuy: 12500
+    costSell: 10000
+    weight: 10
+    bigSprite: 229
+    floorSprite: 229
+    handSprite: 312
+    bulletSprite: 11
+    bulletSpeed: 25
+    fireSound: 114
+    reloadSound: 314
+    compatibleAmmo:
+      - STR_CHAUCHAT_LMG_MAG
+      - STR_CHAUCHAT_LMG_MAG_KMM
+    accuracyCloseQuarters: 70
+    accuracySnap: 48
+    accuracyAuto: 32
+    tuSnap: 20
+    tuAuto: 45
+    tuLoad: 30
+    snapRange: 32
+    autoRange: 32
+    battleType: 1
+    twoHanded: true
+    blockBothHands: true
+    kneelBonus: 200
+    invWidth: 2
+    invHeight: 3
+    armor: 40
+    autoShots: 5
+    sprayWaypoints: 3
+    attraction: 10
+    listOrder: 2028
+    tags:
+      WEAPON_TYPE: 2 # LMGs
+      
+  - type: STR_CHAUCHAT_LMG_MAG
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 1500
+    costSell: 1250
+    weight: 12
+    bigSprite: 230
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 36
+    damageAlter:
+      ArmorEffectiveness: 1.00
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 34
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2029
+  - type: STR_CHAUCHAT_LMG_MAG_KMM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 1500
+    costSell: 1250
+    weight: 12
+    bigSprite: 230
+    floorSprite: 2
+    hitSound: 22
+    hitAnimation: 26
+    power: 36
+    damageAlter:
+      ArmorEffectiveness: 1.00
+    damageType: 1
+    clipSize: 20
+    battleType: 2
+    armor: 34
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2029
 
   - type: STR_RIBEYROLLES
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT, STR_FRENCH_EQUIPMENT]
@@ -1792,7 +2914,8 @@ items:
     fireSound: 115
     reloadSound: 315
     compatibleAmmo:
-      - STR_RIBEYROLLES_CLIP
+      - STR_RIBEYROLLES_MAG
+      - STR_RIBEYROLLES_MAG_KMM
     accuracyCloseQuarters: 120
     accuracySnap: 60
     accuracyAuto: 50
@@ -1817,7 +2940,7 @@ items:
     tags:
       WEAPON_TYPE: 8 # Carbines
     listOrder: 2030
-  - type: STR_RIBEYROLLES_CLIP
+  - type: STR_RIBEYROLLES_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -1839,61 +2962,15 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2031
-
-##########################################
-############# BALLISTIC SMGS ############
-########################################
-  - type: STR_MP18
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.1
-    costBuy: 4000
-    costSell: 3000
-    weight: 6
-    bigSprite: 290
-    floorSprite: 290
-    handSprite: 640
-    bulletSprite: 14 #Pistol MM bullet 35*14=490
-    bulletSpeed: 20
-    fireSound: 138
-    reloadSound: 138
-    compatibleAmmo:
-      - STR_MP18_DRUM
-    accuracyCloseQuarters: 150
-    accuracySnap: 60
-    accuracyAuto: 50
-    accuracyAimed: 70
-    tuSnap: 17
-    tuAuto: 24
-    tuAimed: 28
-    tuLoad: 15
-    snapRange: 10
-    aimRange: 15
-    twoHanded: true
-    oneHandedPenalty: 15
-    kneelBonus: 100
-    costThrow:
-      energy: 12
-    battleType: 1
-    invWidth: 1
-    invHeight: 3
-    armor: 35
-    attraction: 10
-    listOrder: 2089
-    tags:
-      WEAPON_TYPE: 16 # SMGs
-  - type: STR_MP18_DRUM
-    categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-#    requires:
-#      - STR_STORMTROOPER_TRAINING
+  - type: STR_RIBEYROLLES_MAG_KMM
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
     size: 0.025
-    costBuy: 250
-    costSell: 300
+    costBuy: 50
+    costSell: 40
     weight: 2
-    bigSprite: 291
+    bigSprite: 232
     floorSprite: 4
     hitSound: 22
     hitAnimation: 26
@@ -1906,129 +2983,9 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2090
+    listOrder: 2031    
 
-#####################################
-####### BRITISH ADVANCED ###########
-###################################
-
-  - type: STR_HUOT_LMG
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.3
-    costBuy: 11000
-    costSell: 9000
-    weight: 13
-    bigSprite: 207
-    floorSprite: 207
-    handSprite: 224
-    bulletSprite: 16 #Rifle MM bullet 35*16=560
-    fireSound: 103
-    reloadSound: 303
-    compatibleAmmo:
-      - STR_HUOT_LMG_DRUM
-    accuracyCloseQuarters: 55
-    accuracySnap: 52
-    accuracyAuto: 37
-    tuSnap: 25
-    tuAuto: 40
-    tuLoad: 20
-    snapRange: 18
-    autoRange: 18
-    battleType: 1
-    twoHanded: true
-    invWidth: 1
-    invHeight: 3
-    armor: 30
-    autoShots: 6
-    sprayWaypoints: 2
-    bulletSpeed: 15
-    attraction: 10
-    listOrder: 2006
-    tags:
-      WEAPON_TYPE: 2 # LMGs
-  - type: STR_HUOT_LMG_DRUM
-    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.1
-    costBuy: 600
-    costSell: 450
-    weight: 7
-    bigSprite: 208
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 43
-    damageType: 10
-    clipSize: 25
-    battleType: 2
-    armor: 30
-    invWidth: 1
-    invHeight: 1
-    attraction: 10
-    listOrder: 2007
-###################################
-######## AMERICAN WEAPONS ########
-#################################
-
-
-###################################
-###### AMERICAN ADVANCED ##########
-#################################
-
-  - type: STR_BAR
-    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.2
-    costSell: 2250
-    weight: 12
-    bigSprite: 215
-    floorSprite: 215
-    handSprite: 256
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
-    fireSound: 107
-    reloadSound: 307
-    compatibleAmmo:
-      - STR_BAR_CLIP
-    accuracyCloseQuarters: 75
-    accuracyAuto: 45
-    accuracySnap: 60
-    tuAuto: 36
-    tuSnap: 25
-    kneelBonus: 200
-    autoShots: 4
-    sprayWaypoints: 2
-    battleType: 1
-    twoHanded: true
-    invWidth: 2
-    invHeight: 3
-    listOrder: 2014
-    bulletSpeed: 17
-    tags:
-      WEAPON_TYPE: 2 # LMGs
-  - type: STR_BAR_CLIP
-    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.3
-    costSell: 150
-    weight: 3
-    bigSprite: 216
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 47
-    damageAlter:
-      ArmorEffectiveness: 1.5
-    damageType: 10
-    clipSize: 20
-    invHeight: 1
-    invWidth: 1
-    battleType: 2
-    listOrder: 2015
+#########################################
   - type: STR_TRENCH_GUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
     requires:
@@ -2099,132 +3056,6 @@ items:
 #################################
 
 
-##############################
-###### GERMAN ADVANCED #######
-##############################
-  - type: STR_MG0815
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.3
-    costBuy: 9000
-    costSell: 8000
-    weight: 15
-    bigSprite: 223
-    floorSprite: 223
-    handSprite: 288
-    bulletSprite: 16 #Heavy MM bullet 35*16=560
-    fireSound: 111
-    reloadSound: 311
-    compatibleAmmo:
-      - STR_MG0815_DRUM
-    accuracyCloseQuarters: 60
-    accuracySnap: 56
-    accuracyAuto: 50
-    tuSnap: 25
-    tuAuto: 40
-    tuLoad: 25
-    snapRange: 30
-    autoRange: 30
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 2
-    invHeight: 3
-    armor: 30
-    autoShots: 6
-    sprayWaypoints: 2
-    kneelBonus: 200
-    bulletSpeed: 17
-    attraction: 9
-    listOrder: 2022
-    tags:
-      WEAPON_TYPE: 2 # LMGs
-  - type: STR_MG0815_DRUM
-    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
-    size: 0.1
-    costBuy: 1000
-    costSell: 750
-    weight: 9
-    bigSprite: 224
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 50
-    damageType: 10
-    damageAlter:
-      ArmorEffectiveness: 1.5
-    clipSize: 100
-    battleType: 2
-    armor: 30
-    invWidth: 1
-    invHeight: 1
-    attraction: 9
-    listOrder: 2023
-
-#####################################
-######### FRENCH WEAPONS ###########
-###################################
-
-  - type: STR_CHAUCHAT_LMG
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT]
-    size: 0.4
-    costBuy: 12500
-    costSell: 10000
-    weight: 10
-    bigSprite: 229
-    floorSprite: 229
-    handSprite: 312
-    bulletSprite: 11
-    bulletSpeed: 25
-    fireSound: 114
-    reloadSound: 314
-    compatibleAmmo:
-      - STR_CHAUCHAT_LMG_CLIP
-    accuracyCloseQuarters: 70
-    accuracySnap: 48
-    accuracyAuto: 32
-    tuSnap: 20
-    tuAuto: 45
-    tuLoad: 30
-    snapRange: 32
-    autoRange: 32
-    battleType: 1
-    twoHanded: true
-    blockBothHands: true
-    kneelBonus: 200
-    invWidth: 2
-    invHeight: 3
-    armor: 40
-    autoShots: 5
-    sprayWaypoints: 3
-    attraction: 10
-    listOrder: 2028
-    tags:
-      WEAPON_TYPE: 2 # LMGs
-  - type: STR_CHAUCHAT_LMG_CLIP
-    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 1500
-    costSell: 1250
-    weight: 12
-    bigSprite: 230
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 36
-    damageAlter:
-      ArmorEffectiveness: 1.00
-    damageType: 1
-    clipSize: 20
-    battleType: 2
-    armor: 34
-    invWidth: 1
-    invHeight: 1
-    attraction: 10
-    listOrder: 2029
 
 
 
@@ -2253,234 +3084,7 @@ items:
 #  - STR_COSSACK_SABRE
 #    listOrder: 2044
 #  - STR_COSSACK_LANCE
-#    listOrder: 2045
-  - type: STR_CARCANO_M91_CARBINE
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
-    size: 0.2
-    costBuy: 1500
-    costSell: 1150
-    weight: 4
-    bigSprite: 247
-    floorSprite: 247
-    handSprite: 400
-    bulletSprite: 12 #Rifle bullet 35*112=420
-    fireSound: 122
-    bulletSpeed: 16
-    reloadSound: 322
-    compatibleAmmo:
-      - STR_CARCANO_M91_CARBINE_CLIP
-    accuracyCloseQuarters: 75
-    accuracySnap: 60
-    accuracyAimed: 80
-    tuSnap: 15
-    tuAimed: 20
-    tuLoad: 15
-    snapRange: 18
-    aimRange: 22
-    dropoff: 4
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-# Bayonet segment
-    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
-    meleeAnimation: 0
-    meleeType: 7
-    meleePower: 40
-    meleeBonus:
-      strength: 1.5
-      melee: 1.6
-    accuracyMelee: 100
-    meleeMultiplier:
-      flatHundred: 0.5
-      melee: 0.9
-    costMelee:
-      time: 15
-      energy: 4
-    flatMelee:
-      time: true
-# Bayonet segment end
-    attraction: 8
-    listOrder: 2046
-    tags:
-      WEAPON_TYPE: 1 # Rifles
-
-  - type: STR_CARCANO_M91_CARBINE_CLIP
-    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
-    size: 0.1
-    costBuy: 150
-    costSell: 90
-    weight: 3
-    bigSprite: 248
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 28
-    damageType: 1
-    clipSize: 6
-    battleType: 2
-    armor: 12
-    listOrder: 2047
-
-  - type: STR_BERETTA_MAB18
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_ASSAULT_CLASS]
-    size: 0.1
-    costBuy: 600
-    costSell: 500
-    weight: 4
-    bigSprite: 249
-    floorSprite: 249
-    handSprite: 408
-    bulletSprite: 11 #Pistol bullet 35*11=385
-    bulletSpeed: 20
-    fireSound: 123
-    reloadSound: 323
-    compatibleAmmo:
-      - STR_BERETTA_MAB18_CLIP
-    accuracyCloseQuarters: 120
-    accuracySnap: 40
-    accuracyAuto: 30
-    tuSnap: 10
-    tuAuto: 15
-    tuLoad: 10
-    powerRangeThreshold: 10
-    powerRangeReduction: 2
-    snapRange: 12
-    autoRange: 10
-    autoShots: 5
-    dropoff: 3
-    twoHanded: true
-    oneHandedPenalty: 15
-    kneelBonus: 130
-# Bayonet segment
-    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
-    meleeAnimation: 0
-    meleeType: 7
-    meleePower: 40
-    meleeBonus:
-      strength: 1.5
-      melee: 1.6
-    accuracyMelee: 100
-    meleeMultiplier:
-      flatHundred: 0.5
-      melee: 0.9
-    costMelee:
-      time: 15
-      energy: 4
-    flatMelee:
-      time: true
-# Bayonet segment end
-    battleType: 1
-    invWidth: 2
-    invHeight: 3
-    armor: 35
-    attraction: 10
-    listOrder: 2048
-    tags:
-      WEAPON_TYPE: 16 # SMGs
-
-  - type: STR_BERETTA_MAB18_CLIP
-    categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.025
-    costBuy: 100
-    costSell: 90
-    weight: 3
-    bigSprite: 250
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 26
-    damageType: 1
-    invWidth: 1
-    invHeight: 1
-    clipSize: 25
-    costThrow:
-      energy: 4
-    battleType: 2
-    armor: 35
-    listOrder: 2049
-
-
-
-  - type: STR_VILLAR_PEROSA
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_ASSAULT_CLASS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.1
-    costBuy: 2000
-    costSell: 1500
-    weight: 7
-    bigSprite: 253
-    floorSprite: 253
-    handSprite: 424
-    bulletSprite: 14 #Pistol MM bullet 35*14=490
-    bulletSpeed: 10
-    fireSound: 125
-    reloadSound: 325
-    ammo:
-      0:
-        compatibleAmmo: [ STR_VILLAR_PEROSA_CLIP ]
-    confSnap:
-      shots: 4
-      name: STR_BURST
-      ammoSlot: 0
-      arcing: false
-    confAuto:
-      shots: 8
-      name: STR_RAPID_FIRE
-      ammoSlot: 0
-      arcing: false
-    accuracyCloseQuarters: 150
-    accuracySnap: 55
-    accuracyAuto: 40
-    tuSnap: 10
-    tuAuto: 15
-    tuLoad: 30
-    autoRange: 10
-    snapRange: 15
-    dropoff: 3
-    powerRangeThreshold: 12
-    powerRangeReduction: 6
-    twoHanded: true
-    oneHandedPenalty: 60
-    kneelBonus: 100
-    battleType: 1
-    invWidth: 2
-    invHeight: 2
-    armor: 35
-    attraction: 10
-    listOrder: 2052
-    tags:
-      WEAPON_TYPE: 16 # SMGs
-
-  - type: STR_VILLAR_PEROSA_CLIP
-    categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.025
-    costBuy: 100
-    costSell: 80
-    weight: 6
-    bigSprite: 254
-    floorSprite: 4
-    hitSound: 22
-    hitAnimation: 26
-    power: 36
-    damageType: 10
-    invWidth: 1
-    invHeight: 1
-    clipSize: 50
-    costThrow:
-      energy: 4
-    battleType: 2
-    armor: 35
-    listOrder: 2053
-
+#    listOrder: 204
 #  - STR_GEWEHR_M95
 #    listOrder: 2054
 #  - STR_GEWEHR_M95_CLIP
