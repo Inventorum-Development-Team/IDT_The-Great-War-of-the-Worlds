@@ -2983,10 +2983,182 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2031    
+    listOrder: 2031
 
-#########################################
-  - type: STR_TRENCH_GUN
+  - type: STR_LEWIS_GUN
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 11000
+    costSell: 9000
+    weight: 13
+    bigSprite: 207
+    floorSprite: 207
+    handSprite: 224
+    bulletSprite: 16 #Rifle MM bullet 35*16=560
+    fireSound: 103
+    reloadSound: 303
+    compatibleAmmo:
+      - STR_LEWIS_GUN_PAN
+      - STR_LEWIS_GUN_PAN_KMM
+    accuracyCloseQuarters: 55
+    accuracySnap: 52
+    accuracyAuto: 37
+    tuSnap: 25
+    tuAuto: 40
+    tuLoad: 20
+    snapRange: 18
+    autoRange: 18
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    autoShots: 6
+    sprayWaypoints: 2
+    bulletSpeed: 15
+    attraction: 10
+    listOrder: 2006
+    tags:
+      WEAPON_TYPE: 2 # LMGs
+ 
+  - type: STR_LEWIS_GUN_PAN
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 208
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 43
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2007
+  - type: STR_LEWIS_GUN_PAN_KMM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 208
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 43
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2007
+
+  - type: STR_MADSEN_LMG
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 11000
+    costSell: 9000
+    weight: 13
+    bigSprite: 207
+    floorSprite: 207
+    handSprite: 224
+    bulletSprite: 16 #Rifle MM bullet 35*16=560
+    fireSound: 103
+    reloadSound: 303
+    compatibleAmmo:
+      - STR_MADSEN_LMG_MAG
+      - STR_MADSEN_LMG_MAG_KMM
+    accuracyCloseQuarters: 55
+    accuracySnap: 52
+    accuracyAuto: 37
+    tuSnap: 25
+    tuAuto: 40
+    tuLoad: 20
+    snapRange: 18
+    autoRange: 18
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 30
+    autoShots: 6
+    sprayWaypoints: 2
+    bulletSpeed: 15
+    attraction: 10
+    listOrder: 2006
+    tags:
+      WEAPON_TYPE: 2 # LMGs
+ 
+  - type: STR_HUOT_LMG_DRUM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 208
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 43
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2007
+  - type: STR_HUOT_LMG_DRUM_KMM
+    categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 600
+    costSell: 450
+    weight: 7
+    bigSprite: 208
+    floorSprite: 4
+    hitSound: 22
+    hitAnimation: 26
+    power: 43
+    damageType: 10
+    clipSize: 25
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 10
+    listOrder: 2007
+
+##########################################
+############# TESLA LMGS ################
+########################################
+
+##########################################
+############# PLASMA LMGS ###############
+########################################
+
+##########################################
+########## BALLISTIC SHOTGUNS ###########
+########################################
+  - type: STR_WINCHESTER_TRENCH_GUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -3001,7 +3173,7 @@ items:
     fireSound: 108
     reloadSound: 308
     compatibleAmmo:
-      - STR_TRENCH_GUN_SHELLS
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5
     accuracySnap: 45
     accuracyAimed: 60
     accuracyAuto: 40
@@ -3028,7 +3200,7 @@ items:
     listOrder: 2016
     tags:
       WEAPON_TYPE: 4 # Shotguns
-  - type: STR_TRENCH_GUN_SHELLS
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -4499,14 +4671,14 @@ ufopaedia:
   - id: STR_SPRINGFIELD_CLIP
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: STR_TRENCH_GUN
+  - id: STR_WINCHESTER_TRENCH_GUN
     requires:
       - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TRENCH_GUN_UFOPEDIA
+    text: STR_WINCHESTER_TRENCH_GUN_UFOPEDIA
     listOrder: 2006
-  - id: STR_TRENCH_GUN_SHELLS
+  - id: STR_SHOTGUN_BUCKSHOT_SHELLS_5
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: STR_BAR
@@ -6259,9 +6431,9 @@ extraStrings:
       STR_BAR: BAR
       STR_BAR_CLIP: BAR Clip
       STR_BAR_UFOPEDIA: Browning Automatic Rifle, the most recent addition to the American arsenal. The Ace under the sleeve of U.S. Army, the project was secret until its massive deployment. This automatic rifle was designed to being fired from the hip or shoulder, providing large amounts of fire when assaulting an enemy position, but not to hold a sustained fire rate for a long time. Uses .30-06 K-MM rounds.
-      STR_TRENCH_GUN: Trench Gun
-      STR_TRENCH_GUN_SHELLS: Trench Gun Shells
-      STR_TRENCH_GUN_UFOPEDIA: Winchester shotgun Model 1897, designed by gun genius John M. Browning. It is a pump-action shotgun, which allows you to shoot without releasing the trigger. It fires .12 Gauge ammunition and is so powerful that it was initially banned for use against humans. It is the weapon of choice for many infantry soldiers, perfect for clearing trenches and enemy positions.
+      STR_WINCHESTER_TRENCH_GUN: Trench Gun
+      STR_SHOTGUN_BUCKSHOT_SHELLS_5: Trench Gun Shells
+      STR_WINCHESTER_TRENCH_GUN_UFOPEDIA: Winchester shotgun Model 1897, designed by gun genius John M. Browning. It is a pump-action shotgun, which allows you to shoot without releasing the trigger. It fires .12 Gauge ammunition and is so powerful that it was initially banned for use against humans. It is the weapon of choice for many infantry soldiers, perfect for clearing trenches and enemy positions.
       STR_MONDRAGON: Mondragon Bayoneted
       STR_MONDRAGON_CLIP: Mondragon Clip
       STR_MONDRAGON_UFOPEDIA: Semi-automatic rifle of Mexican design, the first to be supplied to the troops of a regular army, widely used by the Mexican regiments of the U.S. Army and the guerrilla of Pancho Villa, although it is also produced under license by the Swiss firm SIG. Equipped with an Entropium bayonet for CQC. The American Mondragons use K-MM .30-06 caliber bullets and the Swiss, at German request, 7.92x57mm Mauser.
