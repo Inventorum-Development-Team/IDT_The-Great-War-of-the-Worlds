@@ -3104,7 +3104,7 @@ items:
     tags:
       WEAPON_TYPE: 2 # LMGs
  
-  - type: STR_HUOT_LMG_DRUM
+  - type: STR_MADSEN_LMG_MAG
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -3125,7 +3125,7 @@ items:
     invHeight: 1
     attraction: 10
     listOrder: 2007
-  - type: STR_HUOT_LMG_DRUM_KMM
+  - type: STR_MADSEN_LMG_MAG_KMM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -3578,7 +3578,7 @@ items:
 #  - STR_FLAMETHROWER_TANK
 #    listOrder: 2109
 
-  - type: STR_FLAMETHROWER
+  - type: STR_FLAMETHROWER_MK1
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
     requires:
       - STR_HUMAN_CHEMICAL_WEAPONS
@@ -3623,16 +3623,30 @@ items:
     tags:
       WEAPON_TYPE: 64 # Explosives
 
-#  - STR_BURTON
-#    listOrder: 2110
-#  - STR_BURTON_CLIP_AP
-#    listOrder: 2111
-#  - STR_BURTON_CLIP_INC
-#    listOrder: 2112
-#  - STR_RIFLE_GRENADE
-#    listOrder: 2113
-#  - STR_INCENDIARY_GRENADE
-#    listOrder: 2114
+  - type: STR_RIFLE_GRENADE
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 500
+    costSell: 470
+    weight: 1
+    bigSprite: 123
+    floorSprite: 123
+    hitSound: 0
+    hitAnimation: 0
+    power: 70
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 3
+    bulletSprite: 14
+    listOrder: 200630
 
   - type: STR_GAS_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
@@ -3664,31 +3678,6 @@ items:
     listOrder: 2115
     tags:
       WEAPON_TYPE: 64 # Explosives
-
-  - type: STR_RIFLE_GRENADE
-    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
-    size: 0.1
-    costBuy: 500
-    costSell: 470
-    weight: 1
-    bigSprite: 123
-    floorSprite: 123
-    hitSound: 0
-    hitAnimation: 0
-    power: 70
-    damageAlter:
-      RandomType: 6
-      IgnoreSelfDestruct: true
-      ToTile: 0.8
-      ToWound: 0.3
-      RandomWound: true
-    damageType: 3
-    clipSize: 1
-    battleType: 2
-    armor: 20
-    blastRadius: 3
-    bulletSprite: 14
-    listOrder: 200630
 
   - type: STR_FLARE_GUN
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT]
@@ -3743,69 +3732,88 @@ items:
     attraction: 1
     listOrder: 2117
 
+  - type: STR_HANDHELD_MORTAR
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
+    size: 0.2
+    costBuy: 5500
+    costSell: 2250
+    weight: 15
+    bigSprite: 142
+    floorSprite: 142
+    handSprite: 436
+    fireSound: 142
+    compatibleAmmo:
+      - STR_MORTAR_SHELL
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 33
+    tuAimed: 50
+    battleType: 1
+    twoHanded: true
+    invWidth: 1
+    invHeight: 3
+    armor: 20
+    arcingShot: true
+    listOrder: 200520
 
+  - type: STR_MORTAR_SHELL
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 500
+    costSell: 470
+    weight: 1
+    bigSprite: 123
+    floorSprite: 123
+    hitSound: 0
+    hitAnimation: 0
+    power: 70
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 3
+    bulletSprite: 14
+    listOrder: 200630
 
+  - type: STR_HEAVY_GRENADE
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 3
+    bigSprite: 304
+#    floorSprite: 11102
+#    handSprite: 12504
+    floorSprite: 19
+    explosionHitSound: [144, 145, 146, 147]
+    power: 50
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 3
+    costThrow:
+      energy: 6
+    costPrime:
+      time: 30
+    costUnprime:
+      time: 25
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    invWidth: 1
+    invHeight: 1
+    blastRadius: 5
+    listOrder: 2103
+    tags:
+      WEAPON_TYPE: 64 # Explosives
 
-
-#  - STR_MOSIN_NAGANT
-#    listOrder: 2034
-#  - STR_OBREZ
-#    listOrder: 2035
-#  - STR_MOSIN_NAGANT_CLIP
-#    listOrder: 2036
-#  - STR_FEDOROV_AVTOMAT
-#    listOrder: 2037
-#  - STR_FEDOROV_AVTOMAT_CLIP
-#    listOrder: 2038
-#  - STR_SMG0818
-#    listOrder: 2039
-#  - STR_SMG0818_CLIP
-#    listOrder: 2040
-#  - STR_WINCHESTER_1915
-#    listOrder: 2041
-#  - STR_ARISAKA_TYPE44_CARBINE
-#    listOrder: 2042
-#  - STR_MM_MOSIN_NAGANT_CLIP
-#    listOrder: 2043
-#  - STR_COSSACK_SABRE
-#    listOrder: 2044
-#  - STR_COSSACK_LANCE
-#    listOrder: 204
-#  - STR_GEWEHR_M95
-#    listOrder: 2054
-#  - STR_GEWEHR_M95_CLIP
-#    listOrder: 2055
-#  - STR_MADSEN_MG
-#    listOrder: 2056
-#  - STR_MADSEN_MG_CLIP
-#    listOrder: 2057
-#  - STR_HELLRIEGEL
-#    listOrder: 2058
-#  - STR_HELLRIEGEL_DRUM
-#    listOrder: 2059
-#  - STR_INERTIAL_SHOTGUN
-#    listOrder: 2060
-#  - STR_INERTIAL_SHOTGUN_SHELLS
-#    listOrder: 2061
-#  - STR_ARISAKA_TYPE38
-#    listOrder: 2062
-#  - STR_ARISAKA_TYPE38_CLIP
-#    listOrder: 2063
-#  - STR_KYU_GUNTO
-#    listOrder: 2064
-#  - STR_GENERAL_LIU
-#    listOrder: 2065
-#  - STR_GENERAL_LIU_CLIP
-#    listOrder: 2066
-#  - STR_SHIN_GUNTO
-#    listOrder: 2067
-#  - STR_NAMBU
-#    listOrder: 2068
-#  - STR_NAMBU_CLIP
-#    listOrder: 2069
-##############################
-####### CQC EQUIPMENT ########
-#############################
+######################################
+######### MELEE EQUIPMENT ###########
+####################################
   - type: STR_SABRE
     categories: [STR_CQC, STR_RAIDER_CLASS]
     size: 0.2
@@ -3846,6 +3854,7 @@ items:
     tags:
       WEAPON_TYPE: 128 # Melee
     listOrder: 2070
+
   - type: STR_TRENCH_KNIFE
     categories: [STR_CQC, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.15
@@ -3894,6 +3903,7 @@ items:
     tags:
       WEAPON_TYPE: 128 # Melee
     listOrder: 2071
+
   - type: STR_TRENCH_SHOVEL
     categories: [STR_CQC, STR_RAIDER_CLASS]
     size: 0.3
@@ -3941,6 +3951,7 @@ items:
     tags:
       WEAPON_TYPE: 128 # Melee
     listOrder: 2072
+
   - type: STR_TRENCH_MACE
     categories: [STR_CQC, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.3
@@ -3988,19 +3999,179 @@ items:
     tags:
       WEAPON_TYPE: 128 # Melee
     listOrder: 2073
-#  - STR_TRENCH_AXE
-#    listOrder: 2074
-#  - STR_TRENCH_PICKAXE
-#    listOrder: 2075
-#  - STR_BOWIE_KNIFE
-#    listOrder: 2076
-#  - STR_CAVALRY_SABRE
-#    listOrder: 2077
-#  - STR_MEDIC_BONESAW
-#    listOrder: 2078
-####################################
-####### MEDICAL EQUIPMENT #########
-#################################
+
+  - type: STR_TRENCH_CLUB
+    categories: [STR_CQC, STR_RAIDER_CLASS, STR_STORMTROOPER_EQUIPMEMT]
+#    requires:
+#      - STR_STORMTROOPER_TRAINING
+    size: 0.1
+    costBuy: 450
+    costSell: 500
+    weight: 3
+    bigSprite: 293
+    floorSprite: 293
+    handSprite: 656
+    meleeAnimation: 0
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178] #Punch sounds
+    power: 40
+    damageType: 7
+    damageBonus:
+      strength: 1.0
+      bravery: 0.9
+    damageAlter:
+      RandomType: 2
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.0
+      ToHealth: 0.15
+      ToWound: 1.05
+    accuracyMelee: 80
+    meleeMultiplier:
+      flatHundred: 0.65
+      melee: 0.54
+    costMelee:
+      time: 18
+      energy: 4
+    costThrow:
+      energy: 6
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 3
+    armor: 60
+    experienceTrainingMode: 13
+    attraction: 6
+    tags:
+      WEAPON_TYPE: 128 # Melee
+    listOrder: 2092
+ 
+   - type: STR_SHASHKA
+    categories: [STR_CQC, STR_RAIDER_CLASS]
+    size: 0.2
+    costBuy: 4000
+    costSell: 3500
+    weight: 5
+    bigSprite: 271
+    floorSprite: 271
+    handSprite: 496
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    power: 70
+    meleeAnimation: 4
+    damageType: 7
+    damageBonus:
+      strength: 0.6
+      bravery: 3.2
+    damageAlter:
+      RandomType: 2
+      ArmorEffectiveness: 1.35
+      ToWound: 1.9
+    accuracyMelee: 80
+    meleeMultiplier:
+      melee: 1.2
+      flatHundred: 0.5
+    costMelee:
+      time: 20
+      energy: 5
+    costThrow:
+      energy: 14
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    attraction: 8
+    tags:
+      WEAPON_TYPE: 128 # Melee
+    listOrder: 2070
+    
+   - type: STR_MM_DAGGER
+    categories: [STR_CQC, STR_RAIDER_CLASS]
+    size: 0.2
+    costBuy: 4000
+    costSell: 3500
+    weight: 5
+    bigSprite: 271
+    floorSprite: 271
+    handSprite: 496
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    power: 70
+    meleeAnimation: 4
+    damageType: 7
+    damageBonus:
+      strength: 0.6
+      bravery: 3.2
+    damageAlter:
+      RandomType: 2
+      ArmorEffectiveness: 1.35
+      ToWound: 1.9
+    accuracyMelee: 80
+    meleeMultiplier:
+      melee: 1.2
+      flatHundred: 0.5
+    costMelee:
+      time: 20
+      energy: 5
+    costThrow:
+      energy: 14
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    attraction: 8
+    tags:
+      WEAPON_TYPE: 128 # Melee
+    listOrder: 2070    
+    
+   - type: STR_MM_SHASHKA
+    categories: [STR_CQC, STR_RAIDER_CLASS]
+    size: 0.2
+    costBuy: 4000
+    costSell: 3500
+    weight: 5
+    bigSprite: 271
+    floorSprite: 271
+    handSprite: 496
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    power: 70
+    meleeAnimation: 4
+    damageType: 7
+    damageBonus:
+      strength: 0.6
+      bravery: 3.2
+    damageAlter:
+      RandomType: 2
+      ArmorEffectiveness: 1.35
+      ToWound: 1.9
+    accuracyMelee: 80
+    meleeMultiplier:
+      melee: 1.2
+      flatHundred: 0.5
+    costMelee:
+      time: 20
+      energy: 5
+    costThrow:
+      energy: 14
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    attraction: 8
+    tags:
+      WEAPON_TYPE: 128 # Melee
+    listOrder: 2070    
+########################################
+########## MEDICAL EQUIPMENT ##########
+######################################
   - type: STR_MEDIKIT
     medikitBackground: WW1_MEDIKIT
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4055,6 +4226,29 @@ items:
 #    attraction: 5
 #    experienceTrainingMode: 19
 #    listOrder: 2080
+
+  - type: STR_MEDICAL_SYRINGE
+    categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
+    size: 0.1
+    costBuy: 500
+    costSell: 400
+    weight: 2
+    bigSprite: 283
+    floorSprite: 283
+    handSprite: 592
+    battleType: 6
+    medikitType: 3 #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
+    isConsumable: true
+    medikitTargetSelf: true
+    medikitActionName: STR_APPLY_PAINKILLER
+    painKiller: 2
+    costUse:
+      time: 10
+      morale: -5
+    invWidth: 1
+    invHeight: 1
+    listOrder: 2082
+
   - type: STR_BANDAGES
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.1
@@ -4080,6 +4274,7 @@ items:
     attraction: 6
     experienceTrainingMode: 19
     listOrder: 2081
+
   - type: STR_PAINKILLER
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.1
@@ -4101,6 +4296,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2082
+
 #  - STR_ADRENALINE
 #    listOrder: 2083
 #  - type: STR_COMBAT_STIMULANT
@@ -4275,146 +4471,12 @@ items:
 #      FTAG_BUFF_VALUE_BRAVERY: 15
 #      FTAG_BUFF_VALUE_MELEE: 4
 #      FTAG_BUFF_VALUE_STRENGTH: 3
-#################################
-##### STORM TROOPER KIT ########
-###############################
-  - type: STR_LUGER_ARTILLERY
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_STORMTROOPER_EQUIPMENT, STR_LIGHT_EQUIPMENT]
-#    requires:
-#      - STR_STORMTROOPER_TRAINING
-    size: 0.1
-    costBuy: 2500
-    costSell: 2000
-    weight: 6
-    bigSprite: 288
-    floorSprite: 288
-    handSprite: 632
-    bulletSprite: 11 #Pistol bullet 35*11=385
-    bulletSpeed: 20
-    fireSound: 137
-    reloadSound: 137
-    compatibleAmmo:
-      - STR_LUGER_ARTILLERY_DRUM
-    accuracyCloseQuarters: 150
-    accuracySnap: 60
-    accuracyAimed: 70
-    tuSnap: 17
-    tuAimed: 28
-    tuLoad: 15
-    snapRange: 8
-    aimRange: 15
-    kneelBonus: 100
-    twoHanded: true
-    oneHandedPenalty: 10
-    costThrow:
-      energy: 12
-    battleType: 1
-    invWidth: 1
-    invHeight: 3
-    armor: 35
-    attraction: 10
-    listOrder: 2087
-    tags:
-      WEAPON_TYPE: 8 # Carbines
-  - type: STR_LUGER_ARTILLERY_DRUM
-    categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_STORMTROOPER_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-#    requires:
-#      - STR_STORMTROOPER_TRAINING
-    size: 0.025
-    costBuy: 100
-    costSell: 80
-    weight: 2
-    bigSprite: 289
-    floorSprite: 2
-    hitSound: 22
-    hitAnimation: 26
-    power: 28
-    damageType: 1
-    invWidth: 1
-    invHeight: 1
-    clipSize: 32
-    costThrow:
-      energy: 4
-    battleType: 2
-    armor: 35
-    listOrder: 2088
 
 
-  - type: STR_TRENCH_CLUB
-    categories: [STR_CQC, STR_RAIDER_CLASS, STR_STORMTROOPER_EQUIPMEMT]
-#    requires:
-#      - STR_STORMTROOPER_TRAINING
-    size: 0.1
-    costBuy: 450
-    costSell: 500
-    weight: 3
-    bigSprite: 293
-    floorSprite: 293
-    handSprite: 656
-    meleeAnimation: 0
-    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178] #Punch sounds
-    power: 40
-    damageType: 7
-    damageBonus:
-      strength: 1.0
-      bravery: 0.9
-    damageAlter:
-      RandomType: 2
-      FixRadius: 0
-      IgnoreDirection: false
-      ArmorEffectiveness: 1.0
-      ToHealth: 0.15
-      ToWound: 1.05
-    accuracyMelee: 80
-    meleeMultiplier:
-      flatHundred: 0.65
-      melee: 0.54
-    costMelee:
-      time: 18
-      energy: 4
-    costThrow:
-      energy: 6
-    flatRate: true
-    battleType: 3
-    clipSize: -1
-    invWidth: 1
-    invHeight: 3
-    armor: 60
-    experienceTrainingMode: 13
-    attraction: 6
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2092
-#####################################
-####### AIRBORNE/PILOT EQUIPMENT ######
-###################################
-#  - STR_M1917_TRENCH_CARBINE
-#    listOrder: 2093
-#  - STR_M1917_TRENCH_CARBINE_CLIP
-#    listOrder: 2094
-#  - STR_SAWED_OFF
-#    listOrder: 2095
-#  - STR_SAWED_OFF_SHELLS
-#    listOrder: 2096
-#  - STR_RSC_CARBINE
-#    listOrder: 2097
-#  - STR_RSC_CARBINE_CLIP
-#    listOrder: 2098
-#  - STR_BAC #Browning Automatic Carbine
-#    listOrder: 2099
-#  - STR_C93_CARBINE
-#    listOrder: 2100
-#  - STR_C93_CARBINE_CLIP
-#    listOrder: 2101
+
+########################################
+########## MILITARY RATIONS ###########
 ######################################
-########## EXPLOSIVES ###############
-####################################
-
-
-######################################
-######### MILITARY RATIONS ##########
-##################################
   - type: STR_BREAD
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
