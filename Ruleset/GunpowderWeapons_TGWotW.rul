@@ -1665,14 +1665,49 @@ items:
 ############# TESLA SIDEARMS ############
 ########################################
 
-
+  - type: STR_TESLA_PISTOL
+    categories: [STR_TESLA, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 500
+    floorSprite: 500
+    handSprite: 1000
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 17
+    hitAnimation: 99
+    fireSound: 4
+    bulletSpeed: 16
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_TESLA_LIGHT_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+#    listOrder: 2002
+    tags:
+      WEAPON_TYPE: 32 # Pistols
 
 ##########################################
 ######### PHLOGISTON SIDEARMS ###########
 ########################################
 
   - type: STR_PHLOGISTON_PISTOL
-    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS]
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -2567,6 +2602,80 @@ items:
 ############# TESLA SMGS ################
 ########################################
 
+  - type: STR_TESLA_PROTOTYPE
+    categories: [STR_TESLA, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 500
+    floorSprite: 500
+    handSprite: 1000
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 17
+    hitAnimation: 99
+    fireSound: 4
+    bulletSpeed: 16
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_TESLA_LIGHT_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+#    listOrder: 2002
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+
+  - type: STR_TESLA_SMG
+    categories: [STR_TESLA, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 500
+    floorSprite: 500
+    handSprite: 1000
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 17
+    hitAnimation: 99
+    fireSound: 4
+    bulletSpeed: 16
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_TESLA_LIGHT_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+#    listOrder: 2002
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+
 ##########################################
 ############# PLASMA SMGS ###############
 ########################################
@@ -3151,6 +3260,43 @@ items:
 ############# TESLA LMGS ################
 ########################################
 
+  - type: STR_TESLA_AUTOCANNON
+    categories: [STR_TESLA, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 500
+    floorSprite: 500
+    handSprite: 1000
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 17
+    hitAnimation: 99
+    fireSound: 4
+    bulletSpeed: 16
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_TESLA_HEAVY_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+#    listOrder: 2002
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+
 ##########################################
 ############# PLASMA LMGS ###############
 ########################################
@@ -3439,6 +3585,68 @@ items:
     armor: 250
     listOrder: 2017
 
+##########################################
+########### TESLA SHOTGUNS ##############
+########################################
+
+  - type: STR_TESLA_TRENCH_BROOM
+    categories: [STR_TESLA, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 500
+    floorSprite: 500
+    handSprite: 1000
+#    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 17
+    hitAnimation: 99
+    fireSound: 4
+    bulletSpeed: 16
+#    reloadSound: 301
+    compatibleAmmo:
+      - STR_TESLA_EXTENDED_BATTERY
+    accuracyCloseQuarters: 65
+    accuracySnap: 75
+    accuracyAimed: 90
+    tuSnap: 20
+    tuAimed: 35
+    tuLoad: 15
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    battleType: 1
+    twoHanded: false
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+#    listOrder: 2002
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+ 
+   - type: STR_TESLA_EXTENDED_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    size: 0.1
+    costSell: 15000
+    weight: 3
+    bigSprite: 712
+    floorSprite: 712
+    handSprite: 712
+    bulletSprite: 30
+    hitAnimation: 102
+    power: 40
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 50
+    damageAlter:
+      ToStun: 1.25
+    damageType: 6
+    clipSize: 10
+    battleType: 2
+    armor: 200
+    listOrder: 238
 
 ######################################
 ######### EXPLOSIVE DEVICES #########
