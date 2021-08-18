@@ -3174,6 +3174,7 @@ items:
     reloadSound: 308
     compatibleAmmo:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_5
+      - STR_SHOTGUN_DUMDUM_SHELLS_5
     accuracySnap: 45
     accuracyAimed: 60
     accuracyAuto: 40
@@ -3186,12 +3187,6 @@ items:
     snapRange: 24
     aimRange: 34
     dropoff: 5
-    damageBonus:
-      firing: 1.6
-      reactions: 1.3
-    accuracyMultiplier:
-      firing: 1.8
-      reactions: 1.5
     invHeight: 3
     invWidth: 1
     battleType: 1
@@ -3200,6 +3195,81 @@ items:
     listOrder: 2016
     tags:
       WEAPON_TYPE: 4 # Shotguns
+  - type: STR_REMINGTON_MODEL_11
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 217
+    floorSprite: 217
+    handSprite: 264
+    bulletSprite: 2
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5
+      - STR_SHOTGUN_DUMDUM_SHELLS_5
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyAuto: 40
+    accuracyCloseQuarters: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuAuto: 30
+    tuLoad: 25
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 2016
+    tags:
+      WEAPON_TYPE: 4 # Shotguns
+  - type: STR_INERTIA_SHOTGUN
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 217
+    floorSprite: 217
+    handSprite: 264
+    bulletSprite: 2
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_5
+      - STR_SHOTGUN_DUMDUM_SHELLS_5
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyAuto: 40
+    accuracyCloseQuarters: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuAuto: 30
+    tuLoad: 25
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 2016
+    tags:
+      WEAPON_TYPE: 4 # Shotguns
+
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     requires:
@@ -3223,11 +3293,455 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2017
-###################################
-######### GERMAN WEAPONS #########
-#################################
+  - type: STR_SHOTGUN_DUMDUM_SHELLS_5
+    categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 218
+    floorSprite: 5
+    power: 45
+    damageType: 10
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    listOrder: 2017
+
+  - type: STR_MODEL_1900
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 217
+    floorSprite: 217
+    handSprite: 264
+    bulletSprite: 2
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_2
+      - STR_SHOTGUN_DUMDUM_SHELLS_2
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyAuto: 40
+    accuracyCloseQuarters: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuAuto: 30
+    tuLoad: 25
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 2016
+    tags:
+      WEAPON_TYPE: 4 # Shotguns
+  - type: STR_MODEL_1900_SAWEDOFF
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 217
+    floorSprite: 217
+    handSprite: 264
+    bulletSprite: 2
+    fireSound: 108
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_2
+      - STR_SHOTGUN_DUMDUM_SHELLS_2
+    accuracySnap: 45
+    accuracyAimed: 60
+    accuracyAuto: 40
+    accuracyCloseQuarters: 200
+    tuSnap: 45
+    tuAimed: 60
+    tuAuto: 30
+    tuLoad: 25
+    minRange: 15
+    snapRange: 24
+    aimRange: 34
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 2016
+    tags:
+      WEAPON_TYPE: 4 # Shotguns
+
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_2
+    categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 218
+    floorSprite: 5
+    power: 45
+    damageType: 10
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    listOrder: 2017
+  - type: STR_SHOTGUN_DUMDUM_SHELLS_2
+    categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 218
+    floorSprite: 5
+    power: 45
+    damageType: 10
+    hitSound: 22
+    hitAnimation: 26
+    clipSize: 6
+    invHeight: 1
+    invWidth: 1
+    shotgunBehavior: 1
+    shotgunPellets: 8
+    shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    listOrder: 2017
 
 
+######################################
+######### EXPLOSIVE DEVICES #########
+####################################
+
+  - type: STR_ANTITANK_GRENADE
+    categories: [STR_STORMTROOPER_EQUIPMENT, STR_EXPLOSIVES, STR_ASSAULT_CLASS, STR_RAIDER_CLASS]
+#    requires:
+#      - STR_STORMTROOPER_TRAINING
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 600
+    costSell: 500
+    weight: 6
+    bigSprite: 292
+    floorSprite: 292
+    handSprite: 648
+    power: 80
+    explosionHitSound: 149
+    damageAlter:
+      IgnoreOverKill: false
+      ToTile: 0.75
+      ToArmorPre: 0.05
+      ToArmor: 1.9
+    damageType: 3
+    costThrow:
+      energy: 5
+    costPrime:
+      time: 50
+    costUnprime:
+      time: 35
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    invWidth: 1
+    invHeight: 2
+    blastRadius: 3
+    attraction: 6
+    listOrder: 2091
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_STICK_GRENADE
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 3
+    bigSprite: 303
+    floorSprite: 303
+    handSprite: 704
+    explosionHitSound: [144, 145, 146, 147]
+    power: 40
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 3
+    costThrow:
+      energy: 2
+    costPrime:
+      time: 30
+    costUnprime:
+      time: 25
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    invWidth: 1
+    invHeight: 2
+    blastRadius: 5
+    listOrder: 2102
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+
+  - type: STR_FRAG_GRENADE
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
+    size: 0.1
+    costBuy: 300
+    costSell: 240
+    weight: 3
+    bigSprite: 304
+#    floorSprite: 11102
+#    handSprite: 12504
+    floorSprite: 19
+    explosionHitSound: [144, 145, 146, 147]
+    power: 50
+    damageAlter:
+      IgnoreOverKill: false
+    damageType: 3
+    costThrow:
+      energy: 6
+    costPrime:
+      time: 30
+    costUnprime:
+      time: 25
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    invWidth: 1
+    invHeight: 1
+    blastRadius: 5
+    listOrder: 2103
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+
+  - type: STR_DYNAMITE
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
+    size: 0.1
+    costBuy: 450
+    costSell: 300
+    weight: 6
+    bigSprite: 305
+    floorSprite: 305
+    handSprite: 720
+    explosionHitSound: 150
+    power: 80
+    damageAlter:
+      IgnoreOverKill: false
+      ToTile: 0.75
+    damageType: 3
+    costThrow:
+      energy: 12
+    costPrime:
+      time: 50
+    costUnprime:
+      time: 35
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    invWidth: 2
+    invHeight: 1
+    blastRadius: 2
+    attraction: 6
+    listOrder: 2104
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+#  - STR_GRENADE_LAUNCHER
+#    listOrder: 2105
+#  - STR_GRENADE_LAUNCHER_MUSTARD
+#    listOrder: 2106
+#  - STR_GRENADE_LAUNCHER_STUN
+#    listOrder: 2107
+#  - STR_FLAMETHROWER_TANK
+#    listOrder: 2109
+
+  - type: STR_FLAMETHROWER
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
+    requires:
+      - STR_HUMAN_CHEMICAL_WEAPONS
+    size: 0.2
+    costBuy: 8000
+    costSell: 6500
+    weight: 10
+    bigSprite: 309
+    floorSprite: 309
+    handSprite: 736
+    bulletSprite: 20
+    fireSound: 148
+#    compatibleAmmo:
+#      - STR_FLAMETHROWER_CLIP
+    accuracyCloseQuarters: 75
+    accuracyAuto: 75
+    tuAuto: 35
+    costThrow:
+      energy: 20
+    battleType: 1
+    twoHanded: true
+    arcingShot: true
+    autoRange: 15
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+#    explosionHitSound: 113
+    hitAnimation: 8
+    power: 30
+    damageType: 18
+    damageAlter:
+      ToMorale: 30.0
+      FireThreshold: 1
+      SmokeThreshold: 1000
+    clipSize: 30
+    autoShots: 5
+    sprayWaypoints: 2
+#    bulletSpeed: 8
+    experienceTrainingMode: 7
+    attraction: 7
+    listOrder: 2108
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+
+#  - STR_BURTON
+#    listOrder: 2110
+#  - STR_BURTON_CLIP_AP
+#    listOrder: 2111
+#  - STR_BURTON_CLIP_INC
+#    listOrder: 2112
+#  - STR_RIFLE_GRENADE
+#    listOrder: 2113
+#  - STR_INCENDIARY_GRENADE
+#    listOrder: 2114
+
+  - type: STR_GAS_GRENADE
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
+    requires:
+      - STR_HUMAN_CHEMICAL_WEAPONS
+    size: 0.1
+    costBuy: 6500
+    costSell: 5000
+    weight: 4
+    bigSprite: 316
+    floorSprite: 316
+    handSprite: 760
+    hitAnimation: 208
+    power: 60
+    damageType: 17
+    damageAlter:
+      FixRadius: 3
+      ToMorale: 1.2
+      ToStun: 0.5
+    costThrow:
+      energy: 8
+    costPrime:
+      time: 30
+    costUnprime:
+      time: 25
+    unprimeActionName: STR_UNPRIME_GRENADE
+    battleType: 4
+    armor: 20
+    listOrder: 2115
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+
+  - type: STR_RIFLE_GRENADE
+    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    size: 0.1
+    costBuy: 500
+    costSell: 470
+    weight: 1
+    bigSprite: 123
+    floorSprite: 123
+    hitSound: 0
+    hitAnimation: 0
+    power: 70
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+    damageType: 3
+    clipSize: 1
+    battleType: 2
+    armor: 20
+    blastRadius: 3
+    bulletSprite: 14
+    listOrder: 200630
+
+  - type: STR_FLARE_GUN
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT]
+    size: 0.1
+    costBuy: 3000
+    costSell: 2000
+    weight: 4
+    bigSprite: 325
+    floorSprite: 325
+    handSprite: 832
+    bulletSprite: 2
+    fireSound: 151
+    compatibleAmmo:
+      - STR_FLARE_ROUND
+    accuracyCloseQuarters: 100
+    accuracyAimed: 35
+    tuAimed: 30
+    tuLoad: 10
+    battleType: 1
+    arcingShot: true
+    invWidth: 1
+    invHeight: 2
+    armor: 25
+    aimRange: 20
+    snapRange: 12
+    attraction: 1
+    listOrder: 2116
+    tags:
+      WEAPON_TYPE: 32 # Pistols
+
+  - type: STR_FLARE_ROUND
+    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
+    size: 0.1
+    costBuy: 100
+    costSell: 85
+    weight: 2
+    bigSprite: 326
+    floorSprite: 326
+    hitSound: 12
+    hitAnimation: 0
+    power: 25
+    damageType: 2
+    damageAlter:
+      RandomType: 6
+      FireBlastCalc: false
+      FixRadius: 1
+      FireThreshold: 1
+      SmokeThreshold: 50
+    clipSize: 1
+    battleType: 2
+    armor: 50
+    attraction: 1
+    listOrder: 2117
 
 
 
@@ -3825,42 +4339,7 @@ items:
     armor: 35
     listOrder: 2088
 
-  - type: STR_ANTITANK_GRENADE
-    categories: [STR_STORMTROOPER_EQUIPMENT, STR_EXPLOSIVES, STR_ASSAULT_CLASS, STR_RAIDER_CLASS]
-#    requires:
-#      - STR_STORMTROOPER_TRAINING
-    requires:
-      - STR_ADVANCED_FIREARMS
-    size: 0.1
-    costBuy: 600
-    costSell: 500
-    weight: 6
-    bigSprite: 292
-    floorSprite: 292
-    handSprite: 648
-    power: 80
-    explosionHitSound: 149
-    damageAlter:
-      IgnoreOverKill: false
-      ToTile: 0.75
-      ToArmorPre: 0.05
-      ToArmor: 1.9
-    damageType: 3
-    costThrow:
-      energy: 5
-    costPrime:
-      time: 50
-    costUnprime:
-      time: 35
-    unprimeActionName: STR_UNPRIME_GRENADE
-    battleType: 4
-    invWidth: 1
-    invHeight: 2
-    blastRadius: 3
-    attraction: 6
-    listOrder: 2091
-    tags:
-      WEAPON_TYPE: 64 # Explosives
+
   - type: STR_TRENCH_CLUB
     categories: [STR_CQC, STR_RAIDER_CLASS, STR_STORMTROOPER_EQUIPMEMT]
 #    requires:
@@ -3930,269 +4409,9 @@ items:
 #    listOrder: 2101
 ######################################
 ########## EXPLOSIVES ###############
-##################################
-  - type: STR_STIELHANDGRENADE
-    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
-    size: 0.1
-    costBuy: 300
-    costSell: 240
-    weight: 3
-    bigSprite: 303
-    floorSprite: 303
-    handSprite: 704
-    explosionHitSound: [144, 145, 146, 147]
-    power: 40
-    damageAlter:
-      IgnoreOverKill: false
-    damageType: 3
-    costThrow:
-      energy: 2
-    costPrime:
-      time: 30
-    costUnprime:
-      time: 25
-    unprimeActionName: STR_UNPRIME_GRENADE
-    battleType: 4
-    invWidth: 1
-    invHeight: 2
-    blastRadius: 5
-    listOrder: 2102
-    tags:
-      WEAPON_TYPE: 64 # Explosives
+####################################
 
-  - type: STR_MILLS_BOMB
-    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
-    size: 0.1
-    costBuy: 300
-    costSell: 240
-    weight: 3
-    bigSprite: 304
-#    floorSprite: 11102
-#    handSprite: 12504
-    floorSprite: 19
-    explosionHitSound: [144, 145, 146, 147]
-    power: 50
-    damageAlter:
-      IgnoreOverKill: false
-    damageType: 3
-    costThrow:
-      energy: 6
-    costPrime:
-      time: 30
-    costUnprime:
-      time: 25
-    unprimeActionName: STR_UNPRIME_GRENADE
-    battleType: 4
-    invWidth: 1
-    invHeight: 1
-    blastRadius: 5
-    listOrder: 2103
-    tags:
-      WEAPON_TYPE: 64 # Explosives
 
-  - type: STR_DYNAMITE
-    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
-    size: 0.1
-    costBuy: 450
-    costSell: 300
-    weight: 6
-    bigSprite: 305
-    floorSprite: 305
-    handSprite: 720
-    explosionHitSound: 150
-    power: 80
-    damageAlter:
-      IgnoreOverKill: false
-      ToTile: 0.75
-    damageType: 3
-    costThrow:
-      energy: 12
-    costPrime:
-      time: 50
-    costUnprime:
-      time: 35
-    unprimeActionName: STR_UNPRIME_GRENADE
-    battleType: 4
-    invWidth: 2
-    invHeight: 1
-    blastRadius: 2
-    attraction: 6
-    listOrder: 2104
-    tags:
-      WEAPON_TYPE: 64 # Explosives
-#  - STR_GRENADE_LAUNCHER
-#    listOrder: 2105
-#  - STR_GRENADE_LAUNCHER_MUSTARD
-#    listOrder: 2106
-#  - STR_GRENADE_LAUNCHER_STUN
-#    listOrder: 2107
-#  - STR_FLAMETHROWER_TANK
-#    listOrder: 2109
-
-  - type: STR_FLAMETHROWER
-    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
-    requires:
-      - STR_HUMAN_CHEMICAL_WEAPONS
-    size: 0.2
-    costBuy: 8000
-    costSell: 6500
-    weight: 10
-    bigSprite: 309
-    floorSprite: 309
-    handSprite: 736
-    bulletSprite: 20
-    fireSound: 148
-#    compatibleAmmo:
-#      - STR_FLAMETHROWER_CLIP
-    accuracyCloseQuarters: 75
-    accuracyAuto: 75
-    tuAuto: 35
-    costThrow:
-      energy: 20
-    battleType: 1
-    twoHanded: true
-    arcingShot: true
-    autoRange: 15
-    invWidth: 2
-    invHeight: 3
-    armor: 30
-#    explosionHitSound: 113
-    hitAnimation: 8
-    power: 30
-    damageType: 18
-    damageAlter:
-      ToMorale: 30.0
-      FireThreshold: 1
-      SmokeThreshold: 1000
-    clipSize: 30
-    autoShots: 5
-    sprayWaypoints: 2
-#    bulletSpeed: 8
-    experienceTrainingMode: 7
-    attraction: 7
-    listOrder: 2108
-    tags:
-      WEAPON_TYPE: 64 # Explosives
-
-#  - STR_BURTON
-#    listOrder: 2110
-#  - STR_BURTON_CLIP_AP
-#    listOrder: 2111
-#  - STR_BURTON_CLIP_INC
-#    listOrder: 2112
-#  - STR_RIFLE_GRENADE
-#    listOrder: 2113
-#  - STR_INCENDIARY_GRENADE
-#    listOrder: 2114
-
-  - type: STR_GAS_GRENADE
-    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
-    requires:
-      - STR_HUMAN_CHEMICAL_WEAPONS
-    size: 0.1
-    costBuy: 6500
-    costSell: 5000
-    weight: 4
-    bigSprite: 316
-    floorSprite: 316
-    handSprite: 760
-    hitAnimation: 208
-    power: 60
-    damageType: 17
-    damageAlter:
-      FixRadius: 3
-      ToMorale: 1.2
-      ToStun: 0.5
-    costThrow:
-      energy: 8
-    costPrime:
-      time: 30
-    costUnprime:
-      time: 25
-    unprimeActionName: STR_UNPRIME_GRENADE
-    battleType: 4
-    armor: 20
-    listOrder: 2115
-    tags:
-      WEAPON_TYPE: 64 # Explosives
-
-  - type: STR_RIFLE_GRENADE
-    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
-    size: 0.1
-    costBuy: 500
-    costSell: 470
-    weight: 1
-    bigSprite: 123
-    floorSprite: 123
-    hitSound: 0
-    hitAnimation: 0
-    power: 70
-    damageAlter:
-      RandomType: 6
-      IgnoreSelfDestruct: true
-      ToTile: 0.8
-      ToWound: 0.3
-      RandomWound: true
-    damageType: 3
-    clipSize: 1
-    battleType: 2
-    armor: 20
-    blastRadius: 3
-    bulletSprite: 14
-    listOrder: 200630
-
-  - type: STR_FLARE_GUN
-    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
-    costBuy: 3000
-    costSell: 2000
-    weight: 4
-    bigSprite: 325
-    floorSprite: 325
-    handSprite: 832
-    bulletSprite: 2
-    fireSound: 151
-    compatibleAmmo:
-      - STR_FLARE_ROUND
-    accuracyCloseQuarters: 100
-    accuracyAimed: 35
-    tuAimed: 30
-    tuLoad: 10
-    battleType: 1
-    arcingShot: true
-    invWidth: 1
-    invHeight: 2
-    armor: 25
-    aimRange: 20
-    snapRange: 12
-    attraction: 1
-    listOrder: 2116
-    tags:
-      WEAPON_TYPE: 32 # Pistols
-
-  - type: STR_FLARE_ROUND
-    categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    size: 0.1
-    costBuy: 100
-    costSell: 85
-    weight: 2
-    bigSprite: 326
-    floorSprite: 326
-    hitSound: 12
-    hitAnimation: 0
-    power: 25
-    damageType: 2
-    damageAlter:
-      RandomType: 6
-      FireBlastCalc: false
-      FixRadius: 1
-      FireThreshold: 1
-      SmokeThreshold: 50
-    clipSize: 1
-    battleType: 2
-    armor: 50
-    attraction: 1
-    listOrder: 2117
 ######################################
 ######### MILITARY RATIONS ##########
 ##################################
@@ -5100,15 +5319,15 @@ ufopaedia:
 #    type_id: 4
 #    section: STR_NOT_AVAILABLE
 
-  - id: STR_STIELHANDGRENADE
+  - id: STR_STICK_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_STIELHANDGRENADE_UFOPEDIA
+    text: STR_STICK_GRENADE_UFOPEDIA
     listOrder: 2066
-  - id: STR_MILLS_BOMB
+  - id: STR_FRAG_GRENADE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MILLS_BOMB_UFOPEDIA
+    text: STR_FRAG_GRENADE_UFOPEDIA
     listOrder: 2067
   - id: STR_DYNAMITE
     type_id: 4
@@ -6554,10 +6773,10 @@ extraStrings:
       STR_ANTITANK_GRENADE_UFOPEDIA: improvised anti-tank grenade made of stick grenades bundled with wire and with their wicks together, they are activated all at the same time. Very practical, used by the troops to disable enemy armor.
       STR_TRENCH_CLUB: Trench Club
       STR_TRENCH_CLUB_UFOPEDIA: A light club made of steel, with spikes added to its tips to maximize damage. Very practical close quarters weapon.
-      STR_STIELHANDGRENADE: Stielhandgrenade
-      STR_STIELHANDGRENADE_UFOPEDIA: Also known as "stick grenade", this German-made hand explosive has a fragmentary head at the tip and a small wooden tube as a base. Its design allows it to be thrown very far.
-      STR_MILLS_BOMB: Mills Bomb
-      STR_MILLS_BOMB_UFOPEDIA: Invented by William Mills, this fragmentation grenade in the shape of a pineapple is very safe to use, it contains various measures of safety to avoid accidental activation. Its explosion range is moderate.
+      STR_STICK_GRENADE: Stielhandgrenade
+      STR_STICK_GRENADE_UFOPEDIA: Also known as "stick grenade", this German-made hand explosive has a fragmentary head at the tip and a small wooden tube as a base. Its design allows it to be thrown very far.
+      STR_FRAG_GRENADE: Mills Bomb
+      STR_FRAG_GRENADE_UFOPEDIA: Invented by William Mills, this fragmentation grenade in the shape of a pineapple is very safe to use, it contains various measures of safety to avoid accidental activation. Its explosion range is moderate.
       STR_DYNAMITE: Dynamite
       STR_DYNAMITE_UFOPEDIA: Package of explosive tubes with a delay wick, very powerful. It can be used to set traps for the enemy, because the wick can be activated with delay.
       STR_FLAMETHROWER: Flamethrower
