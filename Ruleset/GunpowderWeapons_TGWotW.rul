@@ -6,11 +6,11 @@
 
 # weapon proficicency system - by memmaker
 # Type 1 -> WEAPON_TYPE: 1 Rifles
-# Type 2 -> WEAPON_TYPE: 2 LMGs
-# Type 3 -> WEAPON_TYPE: 4 Shotguns
-# Type 4 -> WEAPON_TYPE: 8 Carbines
-# Type 5 -> WEAPON_TYPE: 16 SMGs
-# Type 6 -> WEAPON_TYPE: 32 Pistols
+# Type 2 -> WEAPON_TYPE: 2 Sidearms
+# Type 3 -> WEAPON_TYPE: 4 Carbines
+# Type 4 -> WEAPON_TYPE: 8 SMGs
+# Type 5 -> WEAPON_TYPE: 16 LMGs
+# Type 6 -> WEAPON_TYPE: 32 Shotguns
 # Type 7 -> WEAPON_TYPE: 64 Explosives
 # Type 8 -> WEAPON_TYPE: 128 Melee
 
@@ -92,8 +92,7 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2002
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_SMLE_MKIII_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -543,8 +542,7 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2010
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_BERDAN_II_AMMO
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -683,9 +681,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
-#    tags:
-#      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_PHLOGISTON_RUBY_CLIP
     categories: [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_CLIPS]
     size: 0.1
@@ -999,8 +995,6 @@ items:
     autoRange: 15
     attraction: 8
     listOrder: 2032
-    tags:
-      WEAPON_TYPE: 1 # Rifles
   - type: STR_RSC17_CLIP
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
     requires:
@@ -1169,8 +1163,6 @@ items:
     armor: 30
     attraction: 10
     listOrder: 2050
-    tags:
-      WEAPON_TYPE: 1 # Rifles
 
   - type: STR_CEI_RIGOTTI_CLIP
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
@@ -1305,8 +1297,7 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2000
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_HEAVY_REVOLVER
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_BRITISH_EQUIPMENT]
     size: 0.1
@@ -1336,8 +1327,7 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2000
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_SERVICE_REVOLVER
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_BRITISH_EQUIPMENT]
     size: 0.1
@@ -1367,8 +1357,7 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2000
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_REVOLVER_CLIP
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1423,6 +1412,7 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2001
+    
   - type: STR_M1911_COLT
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT]
     size: 0.1
@@ -1528,8 +1518,7 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2018
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_MAUSER_C96_CLIP
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1593,8 +1582,7 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2018
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_LUGER_P08_MAG
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1658,8 +1646,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2018
-    tags:
-      WEAPON_TYPE: 32 # Pistols
 
 ##########################################
 ############# TESLA SIDEARMS ############
@@ -1674,7 +1660,6 @@ items:
     bigSprite: 500
     floorSprite: 500
     handSprite: 1000
-#    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 99
     fireSound: 4
@@ -1699,8 +1684,6 @@ items:
     autoRange: 11
     attraction: 8
 #    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 32 # Pistols
 
 ##########################################
 ######### PHLOGISTON SIDEARMS ###########
@@ -1739,8 +1722,6 @@ items:
     autoRange: 11
     attraction: 8
 #    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 32 # Pistols
 
 ##############################################
 ############# BALLISTIC CARBINES ############
@@ -1785,9 +1766,8 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    tags:
-      WEAPON_TYPE: 8 # Carbines
     listOrder: 2030
+
   - type: STR_M1907_SL_CARBINE_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     requires:
@@ -1863,8 +1843,6 @@ items:
     twoHanded: false
     armor: 250
     listOrder: 2000
-    tags:
-      WEAPON_TYPE: 8 # Carbin
 
   - type: STR_MAUSER_C96_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
@@ -1892,8 +1870,7 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2018
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_MAUSER_C96_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1957,8 +1934,7 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2018
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_LUGER_ARTILLERY_DRUM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -2034,8 +2010,6 @@ items:
     autoRange: 15
     attraction: 8
     listOrder: 2032
-    tags:
-      WEAPON_TYPE: 1 # Rifles
       
   - type: STR_CARCANO_M91_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
@@ -2088,8 +2062,6 @@ items:
 # Bayonet segment end
     attraction: 8
     listOrder: 2046
-    tags:
-      WEAPON_TYPE: 1 # Rifles
 
   - type: STR_CARCANO_M91_CARBINE_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
@@ -2106,8 +2078,7 @@ items:
     clipSize: 6
     battleType: 2
     armor: 12
-    listOrder: 2047
- 
+    listOrder: 204
   - type: STR_CARCANO_M91_CARBINE_CLIP_KMM
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
     size: 0.1
@@ -2128,6 +2099,46 @@ items:
 ##############################################
 ############ PHLOGISTON CARBINES ############
 ############################################
+
+  - type: STR_PHLOGISTON_AUTOMATIC_CARBINE
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT, STR_FRENCH_EQUIPMENT]
+    requires:
+      - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 4000
+    costSell: 3200
+    weight: 6
+    bigSprite: 231
+    floorSprite: 231
+    handSprite: 320
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bulletSpeed: 20
+    fireSound: 115
+    reloadSound: 315
+    compatibleAmmo:
+      - STR_PHLOGISTON_MEDIUM_BATTERY
+    accuracyCloseQuarters: 120
+    accuracySnap: 60
+    accuracyAuto: 50
+    accuracyAimed: 70
+    tuSnap: 17
+    tuAuto: 24
+    tuAimed: 28
+    tuLoad: 15
+    snapRange: 10
+    aimRange: 15
+    twoHanded: true
+    oneHandedPenalty: 15
+    kneelBonus: 200
+    sprayWaypoints: 2
+    costThrow:
+      energy: 12
+    battleType: 1
+    invWidth: 1
+    invHeight: 3
+    armor: 35
+    attraction: 10
+    listOrder: 2030
 
 ##############################################
 ############# GAUSS CARBINES ################
@@ -2175,8 +2186,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2089
-    tags:
-      WEAPON_TYPE: 16 # SMGs
 
   - type: STR_ANNIHILATOR_SMG_MAG
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
@@ -2262,8 +2271,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2089
-    tags:
-      WEAPON_TYPE: 16 # SMGs
 
   - type: STR_MP18_DRUM
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
@@ -2349,8 +2356,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2089
-    tags:
-      WEAPON_TYPE: 16 # SMGs
 
   - type: STR_SMG_0818_BOX
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
@@ -2453,8 +2458,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2048
-    tags:
-      WEAPON_TYPE: 16 # SMGs
 
   - type: STR_BERETTA_MAB18_MAG
     categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
@@ -2550,8 +2553,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2052
-    tags:
-      WEAPON_TYPE: 16 # SMGs
 
   - type: STR_VILLAR_PEROSA_MAGS
     categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
@@ -2636,8 +2637,6 @@ items:
     autoRange: 11
     attraction: 8
 #    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 32 # Pistols
 
   - type: STR_TESLA_SMG
     categories: [STR_TESLA, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
@@ -2675,6 +2674,23 @@ items:
 #    listOrder: 2002
     tags:
       WEAPON_TYPE: 32 # Pistols
+  
+  - type: STR_TESLA_LIGHT_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    size: 0.1
+    costSell: 15000
+    weight: 3
+    bigSprite: 712
+    floorSprite: 712
+    handSprite: 712
+    bulletSprite: 17
+    hitAnimation: 99
+    power: 40
+    damageType: 11
+    clipSize: 10
+    battleType: 2
+    armor: 200
+    listOrder: 238 
 
 ##########################################
 ############# PLASMA SMGS ###############
@@ -2719,8 +2735,6 @@ items:
     bulletSpeed: 15
     attraction: 10
     listOrder: 2006
-    tags:
-      WEAPON_TYPE: 2 # LMGs
  
   - type: STR_HUOT_LMG_DRUM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
@@ -2795,8 +2809,6 @@ items:
     invHeight: 3
     listOrder: 2014
     bulletSpeed: 17
-    tags:
-      WEAPON_TYPE: 2 # LMGs
       
   - type: STR_BAR_CLIP
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
@@ -2875,8 +2887,6 @@ items:
     bulletSpeed: 17
     attraction: 9
     listOrder: 2022
-    tags:
-      WEAPON_TYPE: 2 # LMGs
 
   - type: STR_MG0815_DRUM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -2961,8 +2971,6 @@ items:
     sprayWaypoints: 3
     attraction: 10
     listOrder: 2028
-    tags:
-      WEAPON_TYPE: 2 # LMGs
       
   - type: STR_CHAUCHAT_LMG_MAG
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS]
@@ -3046,9 +3054,8 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    tags:
-      WEAPON_TYPE: 8 # Carbines
     listOrder: 2030
+
   - type: STR_RIBEYROLLES_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     requires:
@@ -3210,8 +3217,6 @@ items:
     bulletSpeed: 15
     attraction: 10
     listOrder: 2006
-    tags:
-      WEAPON_TYPE: 2 # LMGs
  
   - type: STR_MADSEN_LMG_MAG
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
@@ -3294,8 +3299,23 @@ items:
     autoRange: 11
     attraction: 8
 #    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
+  - type: STR_TESLA_HEAVY_BATTERY
+    categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    size: 0.1
+    costSell: 15000
+    weight: 3
+    bigSprite: 712
+    floorSprite: 712
+    handSprite: 712
+    bulletSprite: 17
+    hitAnimation: 99
+    power: 40
+    damageType: 11
+    clipSize: 10
+    battleType: 2
+    armor: 200
+    listOrder: 238
 
 ##########################################
 ############# PLASMA LMGS ###############
@@ -3339,8 +3359,7 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 2016
-    tags:
-      WEAPON_TYPE: 4 # Shotguns
+
   - type: STR_REMINGTON_MODEL_11
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
     requires:
@@ -3376,8 +3395,7 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 2016
-    tags:
-      WEAPON_TYPE: 4 # Shotguns
+    
   - type: STR_INERTIA_SHOTGUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
     requires:
@@ -3413,8 +3431,6 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 2016
-    tags:
-      WEAPON_TYPE: 4 # Shotguns
 
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
@@ -3498,8 +3514,7 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 2016
-    tags:
-      WEAPON_TYPE: 4 # Shotguns
+
   - type: STR_MODEL_1900_SAWEDOFF
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
     requires:
@@ -3535,8 +3550,6 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 2016
-    tags:
-      WEAPON_TYPE: 4 # Shotguns
 
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_2
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
@@ -3626,7 +3639,7 @@ items:
     tags:
       WEAPON_TYPE: 32 # Pistols
  
-   - type: STR_TESLA_EXTENDED_BATTERY
+  - type: STR_TESLA_EXTENDED_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 15000
@@ -3634,15 +3647,15 @@ items:
     bigSprite: 712
     floorSprite: 712
     handSprite: 712
-    bulletSprite: 30
-    hitAnimation: 102
+    bulletSprite: 17
+    hitAnimation: 99
     power: 40
     shotgunBehavior: 1
     shotgunPellets: 8
     shotgunSpread: 50
     damageAlter:
       ToStun: 1.25
-    damageType: 6
+    damageType: 11
     clipSize: 10
     battleType: 2
     armor: 200
@@ -3686,8 +3699,7 @@ items:
     blastRadius: 3
     attraction: 6
     listOrder: 2091
-    tags:
-      WEAPON_TYPE: 64 # Explosives
+
   - type: STR_STICK_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     size: 0.1
@@ -3714,8 +3726,6 @@ items:
     invHeight: 2
     blastRadius: 5
     listOrder: 2102
-    tags:
-      WEAPON_TYPE: 64 # Explosives
 
   - type: STR_FRAG_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
@@ -3744,8 +3754,6 @@ items:
     invHeight: 1
     blastRadius: 5
     listOrder: 2103
-    tags:
-      WEAPON_TYPE: 64 # Explosives
 
   - type: STR_DYNAMITE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
@@ -3775,16 +3783,6 @@ items:
     blastRadius: 2
     attraction: 6
     listOrder: 2104
-    tags:
-      WEAPON_TYPE: 64 # Explosives
-#  - STR_GRENADE_LAUNCHER
-#    listOrder: 2105
-#  - STR_GRENADE_LAUNCHER_MUSTARD
-#    listOrder: 2106
-#  - STR_GRENADE_LAUNCHER_STUN
-#    listOrder: 2107
-#  - STR_FLAMETHROWER_TANK
-#    listOrder: 2109
 
   - type: STR_FLAMETHROWER_MK1
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
@@ -3828,8 +3826,6 @@ items:
     experienceTrainingMode: 7
     attraction: 7
     listOrder: 2108
-    tags:
-      WEAPON_TYPE: 64 # Explosives
 
   - type: STR_RIFLE_GRENADE
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
@@ -3884,8 +3880,6 @@ items:
     battleType: 4
     armor: 20
     listOrder: 2115
-    tags:
-      WEAPON_TYPE: 64 # Explosives
 
   - type: STR_FLARE_GUN
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT]
@@ -3913,8 +3907,6 @@ items:
     snapRange: 12
     attraction: 1
     listOrder: 2116
-    tags:
-      WEAPON_TYPE: 32 # Pistols
 
   - type: STR_FLARE_ROUND
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
@@ -4016,8 +4008,6 @@ items:
     invHeight: 1
     blastRadius: 5
     listOrder: 2103
-    tags:
-      WEAPON_TYPE: 64 # Explosives
 
 ######################################
 ######### MELEE EQUIPMENT ###########
@@ -4059,8 +4049,6 @@ items:
     invHeight: 3
     armor: 75
     attraction: 8
-    tags:
-      WEAPON_TYPE: 128 # Melee
     listOrder: 2070
 
   - type: STR_TRENCH_KNIFE
@@ -4108,9 +4096,6 @@ items:
     invWidth: 1
     invHeight: 2
     attraction: 8
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2071
 
   - type: STR_TRENCH_SHOVEL
     categories: [STR_CQC, STR_RAIDER_CLASS]
@@ -4156,9 +4141,6 @@ items:
     maxRange: 2
     experienceTrainingMode: 1
     attraction: 6
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2072
 
   - type: STR_TRENCH_MACE
     categories: [STR_CQC, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4204,9 +4186,6 @@ items:
     maxRange: 1
     experienceTrainingMode: 1
     attraction: 6
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2073
 
   - type: STR_TRENCH_CLUB
     categories: [STR_CQC, STR_RAIDER_CLASS, STR_STORMTROOPER_EQUIPMEMT]
@@ -4251,11 +4230,8 @@ items:
     armor: 60
     experienceTrainingMode: 13
     attraction: 6
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2092
  
-   - type: STR_SHASHKA
+  - type: STR_SHASHKA
     categories: [STR_CQC, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
@@ -4292,11 +4268,8 @@ items:
     invHeight: 3
     armor: 75
     attraction: 8
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2070
     
-   - type: STR_MM_DAGGER
+  - type: STR_MM_DAGGER
     categories: [STR_CQC, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
@@ -4332,10 +4305,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 75
-    attraction: 8
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2070    
+    attraction: 8  
     
    - type: STR_MM_SHASHKA
     categories: [STR_CQC, STR_RAIDER_CLASS]
@@ -4373,10 +4343,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 75
-    attraction: 8
-    tags:
-      WEAPON_TYPE: 128 # Melee
-    listOrder: 2070    
+    attraction: 8  
 ########################################
 ########## MEDICAL EQUIPMENT ##########
 ######################################
