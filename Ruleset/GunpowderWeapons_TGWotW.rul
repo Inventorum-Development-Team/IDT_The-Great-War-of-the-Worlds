@@ -160,8 +160,7 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2010
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_SPRINGFIELD
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT]
     size: 0.2
@@ -216,8 +215,7 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2010
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_SPRINGFIELD_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -289,8 +287,7 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2020
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_GEWEHR98_CLIP
     categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -381,8 +378,6 @@ items:
 # Bayonet segment end
     attraction: 8
     listOrder: 2026
-    tags:
-      WEAPON_TYPE: 1 # Rifles
 
   - type: STR_LEBEL_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
@@ -469,8 +464,7 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2010
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_MOSIN_NAGANT_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -612,8 +606,7 @@ items:
 #    autoRange: 11
 #    attraction: 8
 #    listOrder: 2002
-#    tags:
-#      WEAPON_TYPE: 1 # Rifles
+
 #  - type: STR_GEWEHR_M95_CLIP
 #    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
 #    size: 0.1
@@ -744,8 +737,7 @@ items:
     autoRange: 15
     attraction: 8
     listOrder: 2004
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_FARQHUAR_HILL_DRUM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -837,8 +829,7 @@ items:
 # Bayonet segment end
     attraction: 7
     listOrder: 2012
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_MONDRAGON_MAG
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     requires:
@@ -916,8 +907,7 @@ items:
     armor: 30
     attraction: 10
     listOrder: 2024
-    tags:
-      WEAPON_TYPE: 1 # Rifles
+
   - type: STR_SELBSTLADER_M1916_MAG
     categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requires:
@@ -1079,8 +1069,6 @@ items:
     armor: 30
     attraction: 10
     listOrder: 2050
-    tags:
-      WEAPON_TYPE: 1 # Rifles
 
   - type: STR_FEDOROV_AVTOMAT_MAG
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
