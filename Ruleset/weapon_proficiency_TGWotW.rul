@@ -34,17 +34,283 @@
 #            Also, having a proficient weapon equipped also boosts PSI accuracy, since the bonus is not bound
 #            to a specific action.
 
+# weapon proficicency system - by memmaker
+# Type 1 -> WEAPON_TYPE: 1 # Rifles
+# Type 2 -> WEAPON_TYPE: 2 # Sidearms
+# Type 3 -> WEAPON_TYPE: 4 # Carbines
+# Type 4 -> WEAPON_TYPE: 8 # SMGs
+# Type 5 -> WEAPON_TYPE: 16 # LMGs
+# Type 6 -> WEAPON_TYPE: 32 # Shotguns
+# Type 7 -> WEAPON_TYPE: 64 # Explosives
+# Type 8 -> WEAPON_TYPE: 128 # Melee
+
+items:
+###############################
+########### RIFLES ###########
+#############################
+  - type: STR_SMLE_MKIII
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_P14_ENFIELD
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_SPRINGFIELD
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_GEWEHR98
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_LEBEL
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_MOSIN_NAGANT
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_BERDAN_II
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_PHLOGISTON_HEAVY_RIFLE
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_FARQHUAR_HILL
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_MONDRAGON
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_SELBSTLADER_M1916
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_RSC17
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_FEDOROV_AVTOMAT
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_CEI_RIGOTTI
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+  - type: STR_PHLOGISTON_BATTLE_RIFLE
+    tags:
+      WEAPON_TYPE: 1 # Rifles
+###############################
+########## SIDEARMS ##########
+#############################      
+  - type: STR_AUTOMATIC_REVOLVER
+    tags:
+      WEAPON_TYPE: 2 # Sidearms
+  - type: STR_HEAVY_REVOLVER
+    tags:
+      WEAPON_TYPE: 2 # Sidearms
+  - type: STR_SERVICE_REVOLVER
+    tags:
+      WEAPON_TYPE: 2 # Sidearms
+  - type: STR_M1911_COLT
+    tags:
+      WEAPON_TYPE: 2 # Sidearms      
+  - type: STR_MAUSER_C96
+    tags:
+      WEAPON_TYPE: 2 # Sidearms
+  - type: STR_LUGER_P08
+    tags:
+      WEAPON_TYPE: 2 # Sidearms
+  - type: STR_OBREZ_PISTOL
+    tags:
+      WEAPON_TYPE: 2 # Sidearms
+  - type: STR_TESLA_PISTOL
+    tags:
+      WEAPON_TYPE: 2 # Sidearms
+  - type: STR_PHLOGISTON_PISTOL
+    tags:
+      WEAPON_TYPE: 2 # Sidearms      
+
+###############################
+########## CARBINES ##########
+#############################      
+  - type: STR_M1907_SL_CARBINE
+    tags:
+      WEAPON_TYPE: 4 # Carbines
+  - type: STR_REVOLVER_CARBINE
+    tags:
+      WEAPON_TYPE: 4 # Carbines
+  - type: STR_MAUSER_C96_CARBINE
+    tags:
+      WEAPON_TYPE: 4 # Carbines
+  - type: STR_LUGER_ARTILLERY
+    tags:
+      WEAPON_TYPE: 4 # Carbines
+  - type: STR_RSC_CARBINE
+    tags:
+      WEAPON_TYPE: 4 # Carbines
+  - type: STR_CARCANO_M91_CARBINE
+    tags:
+      WEAPON_TYPE: 4 # Carbines
+  - type: STR_PHLOGISTON_AUTOMATIC_CARBINE
+    tags:
+      WEAPON_TYPE: 4 # Carbines
+#  - type: STR_CARBINE
+#    tags:
+#      WEAPON_TYPE: 4 # Carbines
+
+###############################
+########### SMGS #############
+#############################      
+  - type: STR_ANNIHILATOR_SMG
+    tags:
+      WEAPON_TYPE: 8 # SMGs 
+  - type: STR_MP18
+    tags:
+      WEAPON_TYPE: 8 # SMGs
+  - type: STR_SMG_0818
+    tags:
+      WEAPON_TYPE: 8 # SMGs
+  - type: STR_BERETTA_MAB18
+    tags:
+      WEAPON_TYPE: 8 # SMGs
+  - type: STR_VILLAR_PEROSA
+    tags:
+      WEAPON_TYPE: 8 # SMGs
+  - type: STR_TESLA_PROTOTYPE
+    tags:
+      WEAPON_TYPE: 8 # SMGs
+  - type: STR_TESLA_SMG
+    tags:
+      WEAPON_TYPE: 8 # SMGs
+#  - type: STR_SMG
+#    tags:
+#      WEAPON_TYPE: 8 # SMGs
+
+###############################
+########### LMGS #############
+#############################      
+  - type: STR_HUOT_LMG
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+  - type: STR_BAR
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+  - type: STR_MG0815
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+  - type: STR_CHAUCHAT_LMG
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+  - type: STR_RIBEYROLLES
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+  - type: STR_LEWIS_GUN
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+  - type: STR_MADSEN_LMG
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+  - type: STR_TESLA_AUTOCANNON
+    tags:
+      WEAPON_TYPE: 16 # LMGs
+#  - type: STR_LMG
+#    tags:
+#      WEAPON_TYPE: 16 # LMGs
+
+
+###############################
+########## SHOTGUNS ##########
+#############################      
+  - type: STR_WINCHESTER_TRENCH_GUN
+    tags:
+      WEAPON_TYPE: 32 # Shotguns
+  - type: STR_REMINGTON_MODEL_11
+    tags:
+      WEAPON_TYPE: 32 # Shotguns
+  - type: STR_INERTIA_SHOTGUN
+    tags:
+      WEAPON_TYPE: 32 # Shotguns
+  - type: STR_MODEL_1900
+    tags:
+      WEAPON_TYPE: 32 # Shotguns
+  - type: STR_MODEL_1900_SAWEDOFF
+    tags:
+      WEAPON_TYPE: 32 # Shotguns
+  - type: STR_TESLA_TRENCH_BROOM
+    tags:
+      WEAPON_TYPE: 32 # Shotguns
+
+
+###############################
+######### EXPLOSIVES #########
+#############################      
+  - type: STR_ANTITANK_GRENADE
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_STICK_GRENADE
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_FRAG_GRENADE
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_DYNAMITE
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_FLAMETHROWER_MK1
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_GAS_GRENADE
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_FLARE_GUN
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_HANDHELD_MORTAR
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+  - type: STR_HEAVY_GRENADE
+    tags:
+      WEAPON_TYPE: 64 # Explosives
+
+
+###############################
+########### MELEE ############
+#############################      
+  - type: STR_SABRE
+    tags:
+      WEAPON_TYPE: 128 # Melee
+  - type: STR_TRENCH_KNIFE
+    tags:
+      WEAPON_TYPE: 128 # Melee
+  - type: STR_TRENCH_SHOVEL
+    tags:
+      WEAPON_TYPE: 128 # Melee
+  - type: STR_TRENCH_MACE
+    tags:
+      WEAPON_TYPE: 128 # Melee
+  - type: STR_TRENCH_CLUB
+    tags:
+      WEAPON_TYPE: 128 # Melee
+  - type: STR_SHASHKA
+    tags:
+      WEAPON_TYPE: 128 # Melee
+  - type: STR_MM_DAGGER
+    tags:
+      WEAPON_TYPE: 128 # Melee
+  - type: STR_MM_SHASHKA
+    tags:
+      WEAPON_TYPE: 128 # Melee
+#  - type: STR_MELEE
+#    tags:
+#      WEAPON_TYPE: 128 # Melee
+
+
+
 extraStrings:
   - type: en-US
     strings:
-      STR_PROFICIENT_MESSAGE_TYPE1: "Soldier became proficient with TYPE1"
-      STR_PROFICIENT_MESSAGE_TYPE2: "Soldier became proficient with TYPE2"
-      STR_PROFICIENT_MESSAGE_TYPE3: "Soldier became proficient with TYPE3"
-      STR_PROFICIENT_MESSAGE_TYPE4: "Soldier became proficient with TYPE4"
-      STR_PROFICIENT_MESSAGE_TYPE5: "Soldier became proficient with TYPE5"
-      STR_PROFICIENT_MESSAGE_TYPE6: "Soldier became proficient with TYPE6"
-      STR_PROFICIENT_MESSAGE_TYPE7: "Soldier became proficient with TYPE7"
-      STR_PROFICIENT_MESSAGE_TYPE8: "Soldier became proficient with TYPE8"
+      STR_PROFICIENT_MESSAGE_TYPE1: "Soldier became proficient with Rifles"
+      STR_PROFICIENT_MESSAGE_TYPE2: "Soldier became proficient with Sidearms"
+      STR_PROFICIENT_MESSAGE_TYPE3: "Soldier became proficient with Carbines"
+      STR_PROFICIENT_MESSAGE_TYPE4: "Soldier became proficient with SMGs"
+      STR_PROFICIENT_MESSAGE_TYPE5: "Soldier became proficient with LMGs"
+      STR_PROFICIENT_MESSAGE_TYPE6: "Soldier became proficient with Shotgun"
+      STR_PROFICIENT_MESSAGE_TYPE7: "Soldier became proficient with Explosives"
+      STR_PROFICIENT_MESSAGE_TYPE8: "Soldier became proficient with Melee"
     
 extended:
   tags:
