@@ -64,12 +64,10 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 203
-    floorSprite: 203
-    handSprite: 208
-    bulletSprite: 12 #Rifle bullet 35*112=420
+    bigSprite: 168
+    floorSprite: 168
+    handSprite: 168
     fireSound: 101
-    bulletSpeed: 16
     reloadSound: 301
     compatibleAmmo:
       - STR_SMLE_MKIII_CLIP
@@ -99,10 +97,12 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 204
-    floorSprite: 4
+    bigSprite: 200
+    floorSprite: 200
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSpeed: 16
     power: 30
     damageType: 1
     clipSize: 10
@@ -118,6 +118,7 @@ items:
     floorSprite: 4
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525     
     power: 30
     damageType: 1
     clipSize: 10
@@ -130,10 +131,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 211
-    floorSprite: 211
-    handSprite: 240
-    bulletSprite: 12 #Rifle bullet 35*112=420
+    bigSprite: 216
+    floorSprite: 216
+    handSprite: 216
     fireSound: 105
     bulletSpeed: 20
     reloadSound: 305
@@ -167,10 +167,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 211
-    floorSprite: 211
-    handSprite: 240
-    bulletSprite: 12 #Rifle bullet 35*112=420
+    bigSprite: 248
+    floorSprite: 248
+    handSprite: 248
     fireSound: 105
     bulletSpeed: 20
     reloadSound: 305
@@ -222,10 +221,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 212
-    floorSprite: 4
+    bigSprite: 280
+    floorSprite: 280
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*112=420
     power: 30
     damageType: 1
     invWidth: 1
@@ -239,10 +239,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 212
-    floorSprite: 4
+    bigSprite: 288
+    floorSprite: 288
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525 
     power: 30
     damageType: 1
     invWidth: 1
@@ -258,10 +259,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 221
-    floorSprite: 221
-    handSprite: 280
-    bulletSprite: 12 #Rifle bullet 35*112=420
+    bigSprite: 296
+    floorSprite: 296
+    handSprite: 296
     fireSound: 110
     bulletSpeed: 20
     reloadSound: 310
@@ -294,10 +294,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 222
-    floorSprite: 4
+    bigSprite: 328
+    floorSprite: 328
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*112=420
     power: 32
     damageType: 1
     clipSize: 5
@@ -309,10 +310,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 222
-    floorSprite: 4
+    bigSprite: 336
+    floorSprite: 336
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525 
     power: 32
     damageType: 1
     clipSize: 5
@@ -325,10 +327,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 227
-    floorSprite: 2
-    handSprite: 304
-    bulletSprite: 2
+    bigSprite: 344
+    floorSprite: 344
+    handSprite: 344
     fireSound: 113
     bulletSpeed: 20
     reloadSound: 313
@@ -385,10 +386,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 228
-    floorSprite: 4
+    bigSprite: 376
+    floorSprite: 376
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*112=420
     power: 28
     damageType: 1
     clipSize: 8
@@ -400,10 +402,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 228
-    floorSprite: 4
+    bigSprite: 384
+    floorSprite: 384
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 28
     damageType: 1
     clipSize: 8
@@ -416,10 +419,63 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 211
-    floorSprite: 211
-    handSprite: 240
-    bulletSprite: 12 #Rifle bullet 35*112=420
+    bigSprite: 392
+    floorSprite: 392
+    handSprite: 382
+    fireSound: 105
+    bulletSpeed: 20
+    reloadSound: 305
+    compatibleAmmo:
+      - STR_MOSIN_NAGANT_CLIP
+      - STR_MOSIN_NAGANT_CLIP_KMM
+    accuracyCloseQuarters: 50
+    accuracySnap: 60
+    accuracyAimed: 80
+    tuSnap: 30
+    tuAimed: 60
+    tuLoad: 17
+    minRange: 15
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
+    powerRangeThreshold: 24
+    powerRangeReduction: 1
+    battleType: 1
+    twoHanded: true
+# Bayonet segment
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      meleeAnimation: 4
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.5
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+# Bayonet segment end
+    oneHandedPenalty: 50
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2010
+
+  - type: STR_WINCHESTER_M1915
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT]
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 424
+    floorSprite: 424
+    handSprite: 424
     fireSound: 105
     bulletSpeed: 20
     reloadSound: 305
@@ -471,10 +527,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 212
-    floorSprite: 4
+    bigSprite: 448
+    floorSprite: 448
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*112=420
     power: 30
     damageType: 1
     invWidth: 1
@@ -492,6 +549,7 @@ items:
     floorSprite: 4
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 30
     damageType: 1
     invWidth: 1
@@ -499,6 +557,10 @@ items:
     clipSize: 5
     battleType: 2
     armor: 12
+
+    hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*112=420
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
 
   - type: STR_BERDAN_II
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT]
