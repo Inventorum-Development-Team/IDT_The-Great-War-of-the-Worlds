@@ -558,20 +558,15 @@ items:
     battleType: 2
     armor: 12
 
-    hitAnimation: 26
-    bulletSprite: 12 #Rifle bullet 35*112=420
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
-
   - type: STR_BERDAN_II
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 211
-    floorSprite: 211
-    handSprite: 240
-    bulletSprite: 12 #Rifle bullet 35*112=420
+    bigSprite: 464
+    floorSprite: 464
+    handSprite: 464
     fireSound: 105
     bulletSpeed: 20
     reloadSound: 305
@@ -605,10 +600,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 212
-    floorSprite: 4
+    bigSprite: 488
+    floorSprite: 488
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*112=420
     power: 30
     damageType: 1
     invWidth: 1
@@ -622,10 +618,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 212
-    floorSprite: 4
+    bigSprite: 496
+    floorSprite: 496
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 30
     damageType: 1
     invWidth: 1
@@ -709,11 +706,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
-#    bulletSprite: 12 #Rifle bullet 35*112=420
-    bulletSprite: 5
+    bigSprite: 600
+    floorSprite: 600
+    handSprite: 600
     fireSound: 4
     bulletSpeed: 16
 #    reloadSound: 301
@@ -743,16 +738,16 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 501
-    floorSprite: 4
-    fireSound: 11
+    bigSprite: 608
+    floorSprite: 608
     hitSound: 19
+    hitAnimation: 109 #Red laser hit
+    bulletSprite: 18 #Red laser beam 35*18=630
     power: 30
     damageType: 4
     clipSize: 10
     battleType: 2
     armor: 12
-#    listOrder: 2003
 
 ###########################################
 ######## GAUSS BOLT-ACTION RIFLES ########
@@ -771,10 +766,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 6
-    bigSprite: 205
-    floorSprite: 205
-    handSprite: 216
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 648
+    floorSprite: 648
+    handSprite: 648
     fireSound: 102
     bulletSpeed: 17
     reloadSound: 302
@@ -805,10 +799,11 @@ items:
     size: 0.1
     costSell: 200
     weight: 3
-    bigSprite: 206
-    floorSprite: 4
+    bigSprite: 672
+    floorSprite: 672
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420 
     power: 45
     damageType: 10
     clipSize: 19
@@ -822,10 +817,11 @@ items:
     size: 0.1
     costSell: 200
     weight: 3
-    bigSprite: 206
-    floorSprite: 4
+    bigSprite: 680
+    floorSprite: 680
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     damageType: 10
     clipSize: 19
@@ -843,10 +839,9 @@ items:
     costBuy: 800
     costSell: 650
     weight: 9
-    bigSprite: 213
-    floorSprite: 213
-    handSprite: 248
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 688
+    floorSprite: 688
+    handSprite: 688
     fireSound: 106
     reloadSound: 306
     compatibleAmmo:
@@ -900,10 +895,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 214
-    floorSprite: 2
+    bigSprite: 712
+    floorSprite: 712
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420    
     power: 45
     damageType: 10
     clipSize: 20
@@ -919,10 +915,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 214
-    floorSprite: 2
+    bigSprite: 720
+    floorSprite: 720
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525    
     power: 45
     damageType: 10
     clipSize: 20
@@ -939,10 +936,9 @@ items:
     costBuy: 800
     costSell: 650
     weight: 9
-    bigSprite: 225
-    floorSprite: 225
-    handSprite: 296
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 728
+    floorSprite: 728
+    handSprite: 728
     fireSound: 112
     reloadSound: 312
     compatibleAmmo:
@@ -978,10 +974,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 226
-    floorSprite: 2
+    bigSprite: 752
+    floorSprite: 752
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 44
     damageType: 10
     clipSize: 25
@@ -997,10 +994,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 226
-    floorSprite: 2
+    bigSprite: 760
+    floorSprite: 760
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525    
     power: 44
     damageType: 10
     clipSize: 25
@@ -1017,10 +1015,9 @@ items:
     costBuy: 4500
     costSell: 3500
     weight: 6
-    bigSprite: 233
-    floorSprite: 233
-    handSprite: 328
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 768
+    floorSprite: 768
+    handSprite: 768
     fireSound: 116
     bulletSpeed: 17
     reloadSound: 316
@@ -1055,10 +1052,11 @@ items:
     costBuy: 400
     costSell: 200
     weight: 3
-    bigSprite: 234
-    floorSprite: 4
+    bigSprite: 792
+    floorSprite: 792
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420    
     power: 48
     damageType: 10
     clipSize: 5
@@ -1075,10 +1073,11 @@ items:
     costBuy: 400
     costSell: 200
     weight: 3
-    bigSprite: 234
-    floorSprite: 4
+    bigSprite: 800
+    floorSprite: 800
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525    
     power: 48
     damageType: 10
     clipSize: 5
@@ -1097,10 +1096,9 @@ items:
     costBuy: 800
     costSell: 650
     weight: 7
-    bigSprite: 251
-    floorSprite: 251
-    handSprite: 416
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 808
+    floorSprite: 808
+    handSprite: 808
     fireSound: 124
     reloadSound: 324
     compatibleAmmo:
@@ -1140,10 +1138,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 252
-    floorSprite: 2
+    bigSprite: 832
+    floorSprite: 832
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420    
     power: 40
     damageType: 10
     clipSize: 10
@@ -1159,10 +1158,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 252
-    floorSprite: 2
+    bigSprite: 840
+    floorSprite: 840
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525    
     power: 40
     damageType: 10
     clipSize: 10
@@ -1179,10 +1179,9 @@ items:
     costBuy: 800
     costSell: 650
     weight: 7
-    bigSprite: 251
-    floorSprite: 251
-    handSprite: 416
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 848
+    floorSprite: 848
+    handSprite: 848
     fireSound: 124
     reloadSound: 324
     compatibleAmmo:
@@ -1222,10 +1221,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 252
-    floorSprite: 2
+    bigSprite: 872
+    floorSprite: 872
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420    
     power: 40
     damageType: 10
     clipSize: 10
@@ -1241,10 +1241,11 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
-    bigSprite: 252
-    floorSprite: 2
+    bigSprite: 880
+    floorSprite: 880
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 40
     damageType: 10
     clipSize: 10
@@ -1263,11 +1264,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
-#    bulletSprite: 12 #Rifle bullet 35*112=420
-    bulletSprite: 5
+    bigSprite: 928
+    floorSprite: 928
+    handSprite: 928
     fireSound: 4
     bulletSpeed: 16
 #    reloadSound: 301
@@ -1299,9 +1298,10 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 501
-    floorSprite: 4
-    fireSound: 11
+    bigSprite: 944
+    floorSprite: 944
+    hitAnimation: 109 #Red laser hit
+    bulletSprite: 18 #Red laser beam #18*35=630  
     hitSound: 19
     power: 30
     damageType: 4
@@ -1495,8 +1495,7 @@ items:
     attraction: 12
     bulletSpeed: 15
     listOrder: 2008
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+
   - type: STR_M1911_COLT_MAG
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     size: 0.025
@@ -1785,10 +1784,9 @@ items:
     costBuy: 4000
     costSell: 3200
     weight: 6
-    bigSprite: 231
-    floorSprite: 231
-    handSprite: 320
-    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bigSprite: 1400
+    floorSprite: 1400
+    handSprite: 1400
     bulletSpeed: 20
     fireSound: 115
     reloadSound: 315
@@ -1826,10 +1824,11 @@ items:
     costBuy: 50
     costSell: 40
     weight: 2
-    bigSprite: 232
-    floorSprite: 4
+    bigSprite: 1424
+    floorSprite: 1424
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 45
     damageType: 10
     invWidth: 1
@@ -1848,10 +1847,11 @@ items:
     costBuy: 50
     costSell: 40
     weight: 2
-    bigSprite: 232
-    floorSprite: 4
+    bigSprite: 1432
+    floorSprite: 1432
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     damageType: 10
     invWidth: 1
@@ -2030,10 +2030,9 @@ items:
     costBuy: 4500
     costSell: 3500
     weight: 6
-    bigSprite: 233
-    floorSprite: 233
-    handSprite: 328
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 1672
+    floorSprite: 1672
+    handSprite: 1672
     fireSound: 116
     bulletSpeed: 17
     reloadSound: 316
@@ -2067,10 +2066,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 4
-    bigSprite: 247
-    floorSprite: 247
-    handSprite: 400
-    bulletSprite: 12 #Rifle bullet 35*112=420
+    bigSprite: 1696
+    floorSprite: 1696
+    handSprite: 1696
     fireSound: 122
     bulletSpeed: 16
     reloadSound: 322
@@ -2119,10 +2117,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 248
-    floorSprite: 4
+    bigSprite: 1720
+    floorSprite: 1720
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 28
     damageType: 1
     clipSize: 6
@@ -2135,10 +2134,11 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 248
-    floorSprite: 4
+    bigSprite: 1728
+    floorSprite: 1728
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 28
     damageType: 1
     clipSize: 6
@@ -2758,10 +2758,9 @@ items:
     costBuy: 11000
     costSell: 9000
     weight: 13
-    bigSprite: 207
-    floorSprite: 207
-    handSprite: 224
-    bulletSprite: 16 #Rifle MM bullet 35*16=560
+    bigSprite: 2112
+    floorSprite: 2112
+    handSprite: 2112
     fireSound: 103
     reloadSound: 303
     compatibleAmmo:
@@ -2794,10 +2793,11 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 208
-    floorSprite: 4
+    bigSprite: 2136
+    floorSprite: 2136
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 43
     damageType: 10
     clipSize: 25
@@ -2815,10 +2815,11 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 208
-    floorSprite: 4
+    bigSprite: 2144
+    floorSprite: 2144
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
     damageType: 10
     clipSize: 25
@@ -2836,10 +2837,9 @@ items:
     size: 0.2
     costSell: 2250
     weight: 12
-    bigSprite: 215
-    floorSprite: 215
-    handSprite: 256
-    bulletSprite: 15 #Rifle MM bullet 35*15=525
+    bigSprite: 2152
+    floorSprite: 2152
+    handSprite: 2152
     fireSound: 107
     reloadSound: 307
     compatibleAmmo:
@@ -2867,10 +2867,11 @@ items:
     size: 0.3
     costSell: 150
     weight: 3
-    bigSprite: 216
-    floorSprite: 2
+    bigSprite: 2176
+    floorSprite: 2176
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 47
     damageAlter:
       ArmorEffectiveness: 1.5
@@ -2887,10 +2888,11 @@ items:
     size: 0.3
     costSell: 150
     weight: 3
-    bigSprite: 216
-    floorSprite: 2
+    bigSprite: 2184
+    floorSprite: 2184
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     damageAlter:
       ArmorEffectiveness: 1.5
@@ -2909,10 +2911,9 @@ items:
     costBuy: 9000
     costSell: 8000
     weight: 15
-    bigSprite: 223
-    floorSprite: 223
-    handSprite: 288
-    bulletSprite: 16 #Heavy MM bullet 35*16=560
+    bigSprite: 2192
+    floorSprite: 2192
+    handSprite: 2192
     fireSound: 111
     reloadSound: 311
     compatibleAmmo:
@@ -2946,10 +2947,11 @@ items:
     costBuy: 1000
     costSell: 750
     weight: 9
-    bigSprite: 224
-    floorSprite: 2
+    bigSprite: 2216
+    floorSprite: 2216
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 50
     damageType: 10
     damageAlter:
@@ -2969,10 +2971,11 @@ items:
     costBuy: 1000
     costSell: 750
     weight: 9
-    bigSprite: 224
-    floorSprite: 2
+    bigSprite: 2224
+    floorSprite: 2224
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 50
     damageType: 10
     damageAlter:
@@ -2992,9 +2995,9 @@ items:
     costBuy: 12500
     costSell: 10000
     weight: 10
-    bigSprite: 229
-    floorSprite: 229
-    handSprite: 312
+    bigSprite: 2232
+    floorSprite: 2232
+    handSprite: 2232
     bulletSprite: 11
     bulletSpeed: 25
     fireSound: 114
@@ -3028,10 +3031,11 @@ items:
     costBuy: 1500
     costSell: 1250
     weight: 12
-    bigSprite: 230
-    floorSprite: 2
+    bigSprite: 2256
+    floorSprite: 2256
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420  
     power: 36
     damageAlter:
       ArmorEffectiveness: 1.00
@@ -3049,10 +3053,11 @@ items:
     costBuy: 1500
     costSell: 1250
     weight: 12
-    bigSprite: 230
-    floorSprite: 2
+    bigSprite: 2264
+    floorSprite: 2264
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 36
     damageAlter:
       ArmorEffectiveness: 1.00
@@ -3073,10 +3078,9 @@ items:
     costBuy: 4000
     costSell: 3200
     weight: 6
-    bigSprite: 231
-    floorSprite: 231
-    handSprite: 320
-    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bigSprite: 2272
+    floorSprite: 2272
+    handSprite: 2272
     bulletSpeed: 20
     fireSound: 115
     reloadSound: 315
@@ -3114,10 +3118,11 @@ items:
     costBuy: 50
     costSell: 40
     weight: 2
-    bigSprite: 232
-    floorSprite: 4
+    bigSprite: 2296
+    floorSprite: 2296
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 45
     damageType: 10
     invWidth: 1
@@ -3136,10 +3141,11 @@ items:
     costBuy: 50
     costSell: 40
     weight: 2
-    bigSprite: 232
-    floorSprite: 4
+    bigSprite: 2304
+    floorSprite: 2304
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525    
     power: 45
     damageType: 10
     invWidth: 1
@@ -3159,10 +3165,9 @@ items:
     costBuy: 11000
     costSell: 9000
     weight: 13
-    bigSprite: 207
-    floorSprite: 207
-    handSprite: 224
-    bulletSprite: 16 #Rifle MM bullet 35*16=560
+    bigSprite: 2312
+    floorSprite: 2312
+    handSprite: 2312
     fireSound: 103
     reloadSound: 303
     compatibleAmmo:
@@ -3186,8 +3191,6 @@ items:
     bulletSpeed: 15
     attraction: 10
     listOrder: 2006
-    tags:
-      WEAPON_TYPE: 2 # LMGs
  
   - type: STR_LEWIS_GUN_PAN
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
@@ -3197,10 +3200,11 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 208
-    floorSprite: 4
+    bigSprite: 2336
+    floorSprite: 2336
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 43
     damageType: 10
     clipSize: 25
@@ -3218,10 +3222,11 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 208
-    floorSprite: 4
+    bigSprite: 2344
+    floorSprite: 2344
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
     damageType: 10
     clipSize: 25
@@ -3240,10 +3245,9 @@ items:
     costBuy: 11000
     costSell: 9000
     weight: 13
-    bigSprite: 207
-    floorSprite: 207
-    handSprite: 224
-    bulletSprite: 16 #Rifle MM bullet 35*16=560
+    bigSprite: 2352
+    floorSprite: 2352
+    handSprite: 2352
     fireSound: 103
     reloadSound: 303
     compatibleAmmo:
@@ -3276,10 +3280,11 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 208
-    floorSprite: 4
+    bigSprite: 2376
+    floorSprite: 2376
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 43
     damageType: 10
     clipSize: 25
@@ -3297,10 +3302,11 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
-    bigSprite: 208
-    floorSprite: 4
+    bigSprite: 2384
+    floorSprite: 2384
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
     damageType: 10
     clipSize: 25
