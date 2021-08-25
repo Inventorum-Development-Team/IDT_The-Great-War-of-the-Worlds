@@ -1324,10 +1324,9 @@ items:
     costBuy: 2500
     costSell: 900
     weight: 3
-    bigSprite: 201
-    floorSprite: 201
-    handSprite: 200
-    bulletSprite: 11 #Pistol bullet 35*11=385
+    bigSprite: 976
+    floorSprite: 976
+    handSprite: 976
     bulletSpeed: 17
     fireSound: 100
     reloadSound: 300
@@ -1354,10 +1353,9 @@ items:
     costBuy: 2500
     costSell: 900
     weight: 3
-    bigSprite: 201
-    floorSprite: 201
-    handSprite: 200
-    bulletSprite: 11 #Pistol bullet 35*11=385
+    bigSprite: 1008
+    floorSprite: 1008
+    handSprite: 1008
     bulletSpeed: 17
     fireSound: 100
     reloadSound: 300
@@ -1384,10 +1382,9 @@ items:
     costBuy: 2500
     costSell: 900
     weight: 3
-    bigSprite: 201
-    floorSprite: 201
-    handSprite: 200
-    bulletSprite: 11 #Pistol bullet 35*11=385
+    bigSprite: 1040
+    floorSprite: 1040
+    handSprite: 1040
     bulletSpeed: 17
     fireSound: 100
     reloadSound: 300
@@ -1414,12 +1411,13 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
-    bigSprite: 202
-    floorSprite: 2
+    bigSprite: 1072
+    floorSprite: 1072
     power: 32
     damageType: 1
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 11 #Pistol bullet 35*11=385    
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -1432,12 +1430,13 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
-    bigSprite: 202
-    floorSprite: 2
+    bigSprite: 1080
+    floorSprite: 1080
     power: 32
     damageType: 1
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -1450,12 +1449,13 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
-    bigSprite: 202
-    floorSprite: 2
+    bigSprite: 1088
+    floorSprite: 1088
     power: 32
     damageType: 1
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -1469,10 +1469,9 @@ items:
     costBuy: 750
     costSell: 600
     weight: 5
-    bigSprite: 209
-    floorSprite: 209
-    handSprite: 232
-    bulletSprite: 11 #Pistol bullet 35*11=385
+    bigSprite: 1096
+    floorSprite: 1096
+    handSprite: 1096
     fireSound: 104
     reloadSound: 304
     compatibleAmmo:
@@ -1502,10 +1501,11 @@ items:
     costBuy: 75
     costSell: 55
     weight: 2
-    bigSprite: 210
-    floorSprite: 2
+    bigSprite: 1120
+    floorSprite: 1120
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 11 #Pistol bullet 35*11=385
     power: 35
     damageType: 1
     damageAlter:
@@ -1524,10 +1524,11 @@ items:
     costBuy: 75
     costSell: 55
     weight: 2
-    bigSprite: 210
-    floorSprite: 2
+    bigSprite: 1128
+    floorSprite: 1128
     hitSound: 22
     hitAnimation: 26
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 35
     damageType: 1
     damageAlter:
@@ -1540,6 +1541,10 @@ items:
     invHeight: 1
     armor: 35
     listOrder: 2009
+
+    hitAnimation: 26
+    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    bulletSprite: 11 #Pistol bullet 35*11=385
 
   - type: STR_MAUSER_C96
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_GERMAN_EQUIPMENT]
@@ -2160,8 +2165,7 @@ items:
     weight: 6
     bigSprite: 231
     floorSprite: 231
-    handSprite: 320
-    bulletSprite: 14 #Pistol MM bullet 35*14=490
+    handSprite: 320    
     bulletSpeed: 20
     fireSound: 115
     reloadSound: 315
