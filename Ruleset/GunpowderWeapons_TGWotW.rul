@@ -118,7 +118,7 @@ items:
     floorSprite: 4
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525     
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 30
     damageType: 1
     clipSize: 10
@@ -243,7 +243,7 @@ items:
     floorSprite: 288
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525 
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 30
     damageType: 1
     invWidth: 1
@@ -314,7 +314,7 @@ items:
     floorSprite: 336
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525 
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 32
     damageType: 1
     clipSize: 5
@@ -803,7 +803,7 @@ items:
     floorSprite: 672
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 12 #Rifle bullet 35*12=420 
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 45
     damageType: 10
     clipSize: 19
@@ -899,7 +899,7 @@ items:
     floorSprite: 712
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 12 #Rifle bullet 35*12=420    
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 45
     damageType: 10
     clipSize: 20
@@ -919,7 +919,7 @@ items:
     floorSprite: 720
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525    
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     damageType: 10
     clipSize: 20
@@ -998,7 +998,7 @@ items:
     floorSprite: 760
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525    
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 44
     damageType: 10
     clipSize: 25
@@ -1056,7 +1056,7 @@ items:
     floorSprite: 792
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 12 #Rifle bullet 35*12=420    
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 48
     damageType: 10
     clipSize: 5
@@ -1077,7 +1077,7 @@ items:
     floorSprite: 800
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525    
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     damageType: 10
     clipSize: 5
@@ -1142,7 +1142,7 @@ items:
     floorSprite: 832
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 12 #Rifle bullet 35*12=420    
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 40
     damageType: 10
     clipSize: 10
@@ -1162,7 +1162,7 @@ items:
     floorSprite: 840
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525    
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 40
     damageType: 10
     clipSize: 10
@@ -1225,7 +1225,7 @@ items:
     floorSprite: 872
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 12 #Rifle bullet 35*12=420    
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 40
     damageType: 10
     clipSize: 10
@@ -1301,7 +1301,7 @@ items:
     bigSprite: 944
     floorSprite: 944
     hitAnimation: 109 #Red laser hit
-    bulletSprite: 18 #Red laser beam #18*35=630  
+    bulletSprite: 18 #Red laser beam #18*35=630
     hitSound: 19
     power: 30
     damageType: 4
@@ -1417,7 +1417,7 @@ items:
     damageType: 1
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 11 #Pistol bullet 35*11=385    
+    bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -1462,7 +1462,7 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2001
-    
+
   - type: STR_M1911_COLT
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT]
     size: 0.1
@@ -1542,9 +1542,9 @@ items:
     armor: 35
     listOrder: 2009
 
-    hitAnimation: 26
-    bulletSprite: 14 #Pistol MM bullet 35*14=490
-    bulletSprite: 11 #Pistol bullet 35*11=385
+#    hitAnimation: 26
+#    bulletSprite: 14 #Pistol MM bullet 35*14=490
+#    bulletSprite: 11 #Pistol bullet 35*11=385
 
   - type: STR_MAUSER_C96
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_GERMAN_EQUIPMENT]
@@ -1867,7 +1867,7 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2031
-    
+
   - type: STR_REVOLVER_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_BRITISH_EQUIPMENT]
     size: 0.1
@@ -2064,7 +2064,7 @@ items:
     autoRange: 15
     attraction: 8
     listOrder: 2032
-      
+
   - type: STR_CARCANO_M91_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
     size: 0.2
@@ -2165,7 +2165,7 @@ items:
     weight: 6
     bigSprite: 231
     floorSprite: 231
-    handSprite: 320    
+    handSprite: 320
     bulletSpeed: 20
     fireSound: 115
     reloadSound: 315
@@ -2728,7 +2728,7 @@ items:
 #    listOrder: 2002
     tags:
       WEAPON_TYPE: 32 # Pistols
-  
+
   - type: STR_TESLA_LIGHT_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
@@ -2744,7 +2744,7 @@ items:
     clipSize: 10
     battleType: 2
     armor: 200
-    listOrder: 238 
+    listOrder: 238
 
 ##########################################
 ############# PLASMA SMGS ###############
@@ -2788,7 +2788,7 @@ items:
     bulletSpeed: 15
     attraction: 10
     listOrder: 2006
- 
+
   - type: STR_HUOT_LMG_DRUM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     requires:
@@ -2863,7 +2863,7 @@ items:
     invHeight: 3
     listOrder: 2014
     bulletSpeed: 17
-      
+
   - type: STR_BAR_CLIP
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     requires:
@@ -2906,7 +2906,7 @@ items:
     invWidth: 1
     battleType: 2
     listOrder: 2015
-    
+
   - type: STR_MG0815
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
     requires:
@@ -2991,7 +2991,7 @@ items:
     invHeight: 1
     attraction: 9
     listOrder: 2023
-    
+
 
   - type: STR_CHAUCHAT_LMG
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT]
@@ -3028,7 +3028,7 @@ items:
     sprayWaypoints: 3
     attraction: 10
     listOrder: 2028
-      
+
   - type: STR_CHAUCHAT_LMG_MAG
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -3039,7 +3039,7 @@ items:
     floorSprite: 2256
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 12 #Rifle bullet 35*12=420  
+    bulletSprite: 12 #Rifle bullet 35*12=420
     power: 36
     damageAlter:
       ArmorEffectiveness: 1.00
@@ -3149,7 +3149,7 @@ items:
     floorSprite: 2304
     hitSound: 22
     hitAnimation: 26
-    bulletSprite: 15 #Rifle MM bullet 35*15=525    
+    bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     damageType: 10
     invWidth: 1
@@ -3195,7 +3195,7 @@ items:
     bulletSpeed: 15
     attraction: 10
     listOrder: 2006
- 
+
   - type: STR_LEWIS_GUN_PAN
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     requires:
@@ -3275,7 +3275,7 @@ items:
     bulletSpeed: 15
     attraction: 10
     listOrder: 2006
- 
+
   - type: STR_MADSEN_LMG_MAG
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     requires:
@@ -3455,7 +3455,7 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 2016
-    
+
   - type: STR_INERTIA_SHOTGUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
     requires:
@@ -3698,7 +3698,7 @@ items:
 #    listOrder: 2002
     tags:
       WEAPON_TYPE: 32 # Pistols
- 
+
   - type: STR_TESLA_EXTENDED_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
@@ -4290,7 +4290,7 @@ items:
     armor: 60
     experienceTrainingMode: 13
     attraction: 6
- 
+
   - type: STR_SHASHKA
     categories: [STR_CQC, STR_RAIDER_CLASS]
     size: 0.2
@@ -4328,7 +4328,7 @@ items:
     invHeight: 3
     armor: 75
     attraction: 8
-    
+
   - type: STR_MM_DAGGER
     categories: [STR_CQC, STR_RAIDER_CLASS]
     size: 0.2
@@ -4365,9 +4365,9 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 75
-    attraction: 8  
-    
-   - type: STR_MM_SHASHKA
+    attraction: 8
+
+  - type: STR_MM_SHASHKA
     categories: [STR_CQC, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
@@ -4403,7 +4403,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 75
-    attraction: 8  
+    attraction: 8
 ########################################
 ########## MEDICAL EQUIPMENT ##########
 ######################################
@@ -5085,703 +5085,6 @@ research:
       - STR_ADVANCED_FIREARMS
       - STR_CHEMICAL_WARFARE_RESEARCH
 
-ufopaedia:
-  - delete: STR_PISTOL
-  - delete: STR_PISTOL_CLIP
-  - delete: STR_RIFLE
-  - delete: STR_RIFLE_CLIP
-  - delete: STR_HEAVY_CANNON
-  - delete: STR_HC_AP_AMMO
-  - delete: STR_HC_I_AMMO
-  - delete: STR_HC_HE_AMMO
-  - delete: STR_AUTO_CANNON
-  - delete: STR_AC_AP_AMMO
-  - delete: STR_AC_I_AMMO
-  - delete: STR_AC_HE_AMMO
-  - delete: STR_ROCKET_LAUNCHER
-  - delete: STR_SMALL_ROCKET
-  - delete: STR_LARGE_ROCKET
-  - delete: STR_INCENDIARY_ROCKET
-  - delete: STR_GRENADE
-  - delete: STR_SMOKE_GRENADE
-  - delete: STR_PROXIMITY_GRENADE
-  - delete: STR_HIGH_EXPLOSIVE
-  - delete: STR_ELECTRO_FLARE
-  - delete: STR_MOTION_SCANNER
-  - delete: STR_STUN_ROD
-  - delete: STR_PSI_AMP
-  - delete: STR_MEDI_KIT
-  - delete: STR_LASER_PISTOL
-  - delete: STR_LASER_RIFLE
-  - delete: STR_HEAVY_LASER
-  - delete: STR_PLASMA_PISTOL
-  - delete: STR_PLASMA_PISTOL_CLIP
-  - delete: STR_PLASMA_RIFLE
-  - delete: STR_PLASMA_RIFLE_CLIP
-  - delete: STR_HEAVY_PLASMA
-  - delete: STR_HEAVY_PLASMA_CLIP
-  - delete: STR_BLASTER_LAUNCHER
-  - delete: STR_BLASTER_BOMB
-  - delete: STR_SMALL_LAUNCHER
-  - delete: STR_CANNON
-  - delete: STR_CANNON_ROUNDS_X50
-  - delete: STR_TANK_CANNON
-  - delete: STR_TANK_ROCKET_LAUNCHER
-  - delete: STR_TANK_LASER_CANNON
-  - delete: STR_HOVERTANK_PLASMA
-  - delete: STR_HOVERTANK_LAUNCHER
-  - delete: STR_HWP_ROCKETS
-  - delete: STR_HWP_CANNON_SHELLS
-  - delete: STR_HWP_FUSION_BOMB
-###########################################
-  - id: STR_AUTOMATIC_REVOLVER
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_AUTOMATIC_REVOLVER_UFOPEDIA
-    listOrder: 2000
-  - id: STR_AUTOMATIC_REVOLVER_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SMLE_MKIII
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SMLE_MKIII_UFOPEDIA
-    listOrder: 2001
-  - id: STR_SMLE_MKIII_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_FARQHUAR_HILL
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_FARQHUAR_HILL_UFOPEDIA
-    listOrder: 2002
-  - id: STR_FARQHUAR_HILL_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_HUOT_LMG
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_HUOT_LMG_UFOPEDIA
-    listOrder: 2003
-  - id: STR_HUOT_LMG_DRUM
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-
-  - id: STR_M1911_COLT
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_M1911_COLT_UFOPEDIA
-    listOrder: 2004
-  - id: STR_M1911_COLT_MAG
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SPRINGFIELD
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SPRINGFIELD_UFOPEDIA
-    listOrder: 2005
-  - id: STR_SPRINGFIELD_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_WINCHESTER_TRENCH_GUN
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_WINCHESTER_TRENCH_GUN_UFOPEDIA
-    listOrder: 2006
-  - id: STR_SHOTGUN_BUCKSHOT_SHELLS_5
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_BAR
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BAR_UFOPEDIA
-    listOrder: 2007
-  - id: STR_BAR_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_MONDRAGON
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MONDRAGON_UFOPEDIA
-    listOrder: 2008
-  - id: STR_MONDRAGON_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-
-  - id: STR_MAUSER_C96
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MAUSER_C96_UFOPEDIA
-    listOrder: 2009
-  - id: STR_MAUSER_C96_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_GEWEHR98
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_GEWEHR98_UFOPEDIA
-    listOrder: 2010
-  - id: STR_GEWEHR98_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_MG0815
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MG0815_UFOPEDIA
-    listOrder: 2011
-  - id: STR_MG0815_DRUM
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_SELBSTLADER_M1916
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SELBSTLADER_M1916_UFOPEDIA
-    listOrder: 2012
-  - id: STR_SELBSTLADER_M1916_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-
-  - id: STR_LEBEL
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LEBEL_UFOPEDIA
-    listOrder: 2013
-  - id: STR_LEBEL_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_CHAUCHAT_LMG
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_CHAUCHAT_LMG_UFOPEDIA
-    listOrder: 2014
-  - id: STR_CHAUCHAT_LMG_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_RIBEYROLLES
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_RIBEYROLLES_UFOPEDIA
-    listOrder: 2015
-  - id: STR_RIBEYROLLES_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_RSC17
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_RSC17_UFOPEDIA
-    listOrder: 2016
-  - id: STR_RSC17_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-
-#  - id: STR_MOSIN_NAGANT
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_MOSIN_NAGANT_UFOPEDIA
-#    listOrder: 2017
-#  - id: STR_OBREZ
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_OBREZ_UFOPEDIA
-#    listOrder: 2018
-#  - id: STR_MOSIN_NAGANT_CLIP
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_MOSIN_NAGANT_CLIP_UFOPEDIA
-#    listOrder: 2019
-
-#  - id: STR_FEDOROV_AVTOMAT
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_FEDOROV_AVTOMAT_UFOPEDIA
-#    listOrder: 2020
-#  - id: STR_FEDOROV_AVTOMAT_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_SMG_0818
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_SMG_0818_UFOPEDIA
-#    listOrder: 2021
-#  - id: STR_SMG_0818_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_WINCHESTER_1915
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_WINCHESTER_1915_UFOPEDIA
-#    listOrder: 2022
-#  - id: STR_ARISAKA_TYPE44_CARBINE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA
-#    listOrder: 2023
-#  - id: STR_MM_MOSIN_NAGANT_CLIP
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_MM_MOSIN_NAGANT_CLIP_UFOPEDIA
-#    listOrder: 2024
-#  - id: STR_COSSACK_SABRE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_COSSACK_SABRE_UFOPEDIA
-#    listOrder: 2025
-#  - id: STT_COSSACK_LANCE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_COSSACK_LANCE_UFOPEDIA
-#    listOrder: 2026
-
-  - id: STR_CARCANO_M91_CARBINE
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_CARCANO_M91_CARBINE_UFOPEDIA
-    listOrder: 2027
-  - id: STR_CARCANO_M91_CARBINE_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_BERETTA_MAB18
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BERETTA_MAB18_UFOPEDIA
-    listOrder: 2028
-  - id: STR_BERETTA_MAB18_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_CEI_RIGOTTI
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_CEI_RIGOTTI_UFOPEDIA
-    listOrder: 2029
-  - id: STR_CEI_RIGOTTI_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_VILLAR_PEROSA
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_VILLAR_PEROSA_UFOPEDIA
-    listOrder: 2030
-  - id: STR_VILLAR_PEROSA_CLIP
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-
-#  - id: STR_GEWEHR_M95
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_GEWEHR_M95_UFOPEDIA
-#    listOrder: 2031
-#  - id: STR_GEWEHR_M95_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_MADSEN_MG
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_MADSEN_MG_UFOPEDIA
-#    listOrder: 2032
-#  - id: STR_MADSEN_MG_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_HELLREIGEL
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_HELLREIGEL_UFOPEDIA
-#    listOrder: 2033
-#  - id: STR_HELLREIGEL_DRUM
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_INERTIAL_SHOTGUN
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_INERTIAL_SHOTGUN_UFOPEDIA
-#    listOrder: 2034
-#  - id: STR_INERTIAL_SHOTGUN_SHELLS
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-
-#  - id: STR_ARISAKA_TYPE38
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_ARISAKA_TYPE38_UFOPEDIA
-#    listOrder: 2035
-#  - id: STR_ARISAKA_TYPE38_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_KYU_GUNTO
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_KYU_GUNTO_UFOPEDIA
-#    listOrder: 2036
-#  - id: STR_GENERAL_LIU
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_GENERAL_LIU_UFOPEDIA
-#    listOrder: 2037
-#  - id: STR_GENERAL_LIU_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_SHIN_GUNTO
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_SHIN_GUNTO_UFOPEDIA
-#    listOrder: 2038
-#  - id: STR_NAMBU
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_NAMBU_UFOPEDIA
-#    listOrder: 2039
-#  - id: STR_NAMBU_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-
-
-  - id: STR_SABRE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_SABRE_UFOPEDIA
-    listOrder: 2040
-  - id: STR_TRENCH_KNIFE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TRENCH_KNIFE_UFOPEDIA
-    listOrder: 2041
-  - id: STR_TRENCH_SHOVEL
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TRENCH_SHOVEL_UFOPEDIA
-    listOrder: 2042
-  - id: STR_TRENCH_MACE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TRENCH_MACE_UFOPEDIA
-    listOrder: 2043
-#  - id: STR_TRENCH_AXE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_TRENCH_AXE_UFOPEDIA
-#    listOrder: 2044
-#  - id: STR_TRENCH_PICKAXE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_TRENCH_PICKAXE_UFOPEDIA
-#    listOrder: 2045
-#  - id: STR_BOWIE_KNIFE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_BOWIE_KNIFE_UFOPEDIA
-#    listOrder: 2046
-#  - id: STR_MM_CAVALRY_SABRE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_MM_CAVALRY_SABRE_UFOPEDIA
-#    listOrder: 2047
-#  - id: STR_MEDIC_BONESAW
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_MEDIC_BONESAW_UFOPEDIA
-#    listOrder: 2048
-
-
-  - id: STR_MEDIKIT
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MEDIKIT_UFOPEDIA
-    listOrder: 2049
-#  - id: STR_SURGERYKIT
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_SURGERYKIT_UFOPEDIA
-#    listOrder: 2050
-  - id: STR_BANDAGES
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BANDAGES_UFOPEDIA
-    listOrder: 2051
-  - id: STR_PAINKILLER
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_PAINKILLER_UFOPEDIA
-    listOrder: 2052
-#  - id: STR_ADRENALINE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_ADRENALINE_UFOPEDIA
-#    listOrder: 2053
-#  - id: STR_COMBAT_STIMULANT
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_COMBAT_STIMULANT_UFOPEDIA
-#    listOrder: 2054
-  - id: STR_WHISTLE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_WHISTLE_UFOPEDIA
-    listOrder: 2055
-#  - id: STR_BAGPIPE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_BAGPIPE_UFOPEDIA
-#    listOrder: 2056
-
-
-  - id: STR_LUGER_ARTILLERY
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_LUGER_ARTILLERY_UFOPEDIA
-    listOrder: 2057
-  - id: STR_LUGER_ARTILLERY_DRUM
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_MP18
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_MP18_UFOPEDIA
-    listOrder: 2058
-  - id: STR_MP18_DRUM
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-  - id: STR_ANTITANK_GRENADE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ANTITANK_GRENADE_UFOPEDIA
-    listOrder: 2059
-  - id: STR_TRENCH_CLUB
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TRENCH_CLUB_UFOPEDIA
-    listOrder: 2060
-
-#  - id: STR_M1917_TRENCH_CARBINE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_M1917_TRENCH_CARBINE_UFOPEDIA
-#    listOrder: 2061
-#  - id: STR_M1917_TRENCH_CARBINE_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_SAWED_OFF
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_SAWED_OFF_UFOPEDIA
-#    listOrder: 2062
-#  - id: STR_SAWED_OFF_SHELLS
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_RSC_CARBINE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_RSC_CARBINE_UFOPEDIA
-#    listOrder: 2063
-#  - id: STR_RSC_CARBINE_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_BAC
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_BAC_UFOPEDIA
-#    listOrder: 2064
-#  - id: STR_C93_CARBINE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_C93_CARBINE_UFOPEDIA
-#    listOrder: 2065
-#  - id: STR_C93_CARBINE_CLIP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-
-  - id: STR_STICK_GRENADE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_STICK_GRENADE_UFOPEDIA
-    listOrder: 2066
-  - id: STR_FRAG_GRENADE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_FRAG_GRENADE_UFOPEDIA
-    listOrder: 2067
-  - id: STR_DYNAMITE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_DYNAMITE_UFOPEDIA
-    listOrder: 2068
-#  - id: STR_GRENADE_LAUNCHER
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_GRENADE_LAUNCHER_UFOPEDIA
-#    listOrder: 2069
-#  - id: STR_GRENADE_LAUNCHER_MUSTARD
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_GRENADE_LAUNCHER_STUN
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-  - id: STR_FLAMETHROWER
-    requires:
-      - STR_HUMAN_CHEMICAL_WEAPONS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_FLAMETHROWER_UFOPEDIA
-    listOrder: 2070
-#  - id: STR_BURTON
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_BURTON_UFOPEDIA
-#    listOrder: 2071
-#  - id: STR_BURTON_CLIP_INC
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_BURTON_CLIP_AP
-#    type_id: 4
-#    section: STR_NOT_AVAILABLE
-#  - id: STR_RIFLE_GRENADE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_RIFLE_GRENADE_UFOPEDIA
-#    listOrder: 2072
-#  - id: STR_INCENDIARY_GRENADE
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_INCENDIARY_GRENADE_UFOPEDIA
-#    listOrder: 2073
-  - id: STR_GAS_GRENADE
-    requires:
-      - STR_HUMAN_CHEMICAL_WEAPONS
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_GAS_GRENADE_UFOPEDIA
-    listOrder: 2074
-  - id: STR_FLARE_GUN
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_FLARE_GUN_UFOPEDIA
-    listOrder: 2075
-  - id: STR_FLARE_ROUND
-    type_id: 4
-    section: STR_NOT_AVAILABLE
-
-  - id: STR_BREAD
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BREAD_UFOPEDIA
-    listOrder: 2076
-  - id: STR_ROTTEN_BREAD
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ROTTEN_BREAD_UFOPEDIA
-    listOrder: 2077
-  - id: STR_CANNED_BEEF
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_CANNED_BEEF_UFOPEDIA
-    listOrder: 2078
-  - id: STR_ROTTEN_CANNED_BEEF
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ROTTEN_CANNED_BEEF_UFOPEDIA
-    listOrder: 2079
-  - id: STR_BISCUIT_BOX
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BISCUIT_BOX_UFOPEDIA
-    listOrder: 2080
-  - id: STR_ROTTEN_BISCUIT_BOX
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_ROTTEN_BISCUIT_BOX_UFOPEDIA
-    listOrder: 2081
-  - id: STR_WINE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_WINE_UFOPEDIA
-    listOrder: 2082
-  - id: STR_BROKEN_WINE_BOTTLE
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_BROKEN_WINE_BOTTLE_UFOPEDIA
-    listOrder: 2083
-  - id: STR_TEA_FLASK
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_TEA_FLASK_UFOPEDIA
-    listOrder: 2084
-#  - id: STR_TRENCH_CLUB
-#    type_id: 4
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    text: STR_TRENCH_CLUB_UFOPEDIA
-#    listOrder: 2083
-######################################
-######### UFOPEDIA IMAGES ############
-######################################
-  - id: STR_IMPROVED_METALURGIC_TECHNIQUES
-    requires:
-      - STR_IMPROVED_METALURGIC_TECHNIQUES
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: IMPROVED_METALURGIC_TECHNIQUES_IMAGE
-    text: STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA
-    listOrder: 10201
-    text_width: 316
-  - id: STR_ADVANCED_FIREARMS
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: ADVANCED_FIREARMS_IMAGE
-    text: STR_ADVANCED_FIREARMS_UFOPEDIA
-    listOrder: 10202
-    text_width: 150
-  - id: STR_KMM_BULLETS
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: KMM_BULLETS_IMAGE
-    text: STR_KMM_BULLETS_UFOPEDIA
-    listOrder: 10203
-    text_width: 150
-  - id: STR_GASMASKS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: GASMASKS_IMAGE
-    text: STR_GASMASKS_UFOPEDIA
-    listOrder: 10204
-    text_width: 150
-  - id: STR_HUMAN_CHEMICAL_WEAPONS
-    requires:
-      - STR_HUMAN_CHEMICAL_WEAPONS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: HUMAN_CHEMICAL_WEAPONS_IMAGE
-    text: STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA
-    listOrder: 10205
-    text_width: 150
 
 extraSprites:
 
