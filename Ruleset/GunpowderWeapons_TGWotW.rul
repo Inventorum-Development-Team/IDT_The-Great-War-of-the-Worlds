@@ -55,6 +55,97 @@ items:
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
+  ######################################
+  ##### ARMOR PENETRATION REFNODES #####
+  ######################################
+
+  - &BasicRifleRoundAntiArmor
+    type: STR_BASIC_RIFLE_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.15
+      RandomWound: false
+  - &KMMRifleRoundAntiArmor
+    type: STR_KMM_RIFLE_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.25
+      RandomWound: false
+  - &BasicPistolRoundAntiArmor
+    type: STR_BASIC_PISTOL_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      RandomWound: false
+  - &KMMPistolRoundAntiArmor
+    type: STR_KMM_PISTOL_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
+  - &LightPhlogistonAntiArmor
+    type: STR_LIGHT_PHLOGISTON_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.25
+      RandomWound: false
+  - &MediumPhlogistonAntiArmor
+    type: STR_MEDIUM_PHLOGISTON_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      RandomWound: false
+  - &HeavyPhlogistonAntiArmor
+    type: STR_HEAVY_PHLOGISTON_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      RandomWound: false
+  - &LightTeslaAntiArmor
+    type: STR_LIGHT_TESLA_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToWound: 0.3
+      FireThreshold: 50
+      RandomWound: true
+  - &MediumTeslaAntiArmor
+    type: STR_MEDIUM_TESLA_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToWound: 0.4
+      FireThreshold: 50
+      RandomWound: true
+  - &HeavyTeslaAntiArmor
+    type: STR_HEAVY_TESLA_ANTIARMOR_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToWound: 0.5
+      FireThreshold: 40
+      RandomWound: true
+  - &DumDumWoundingRound
+    type: STR_DUMDUM_WOUNDING_NODE
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToWound: 0.35
+      ToMorale: 0.3
+      ToStun: 0.2
+      RandomWound: true  
+  
 #################################################
 ######### BALLISTIC BOLT-ACTION RIFLES #########
 ###############################################
@@ -69,6 +160,7 @@ items:
     handSprite: 168
     fireSound: 101
     reloadSound: 301
+    bulletSpeed: 16
     compatibleAmmo:
       - STR_SMLE_MKIII_CLIP
       - STR_SMLE_MKIII_CLIP_KMM
@@ -102,7 +194,6 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    bulletSpeed: 16
     power: 30
     damageType: 1
     clipSize: 10
@@ -119,9 +210,14 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 30
+    damageAlter: &KMMRifleRoundAntiArmor
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.3
+      RandomWound: false
+    power: 45
     damageType: 1
-    clipSize: 10
+    clipSize: 5
     battleType: 2
     armor: 12
 
@@ -226,7 +322,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 30
+    power: 32
+    
     damageType: 1
     invWidth: 1
     invHeight: 1
