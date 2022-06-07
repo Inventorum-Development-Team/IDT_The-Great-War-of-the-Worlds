@@ -195,6 +195,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 30
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     clipSize: 10
     battleType: 2
@@ -210,12 +211,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    damageAlter: &KMMRifleRoundAntiArmor
-      RandomType: 2
-      IgnoreOverKill: true
-      ToArmorPre: 0.3
-      RandomWound: false
     power: 45
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
     clipSize: 5
     battleType: 2
@@ -288,7 +285,8 @@ items:
     twoHanded: true
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      meleeAnimation: 4
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      
+    meleeAnimation: 4
     meleeType: 7
     meleePower: 45
     meleeBonus:
@@ -323,7 +321,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 32
-    
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
@@ -341,11 +339,12 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 30
+    power: 47
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
-    clipSize: 5
+    clipSize: 3
     battleType: 2
     armor: 12
 
@@ -397,6 +396,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 32
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     clipSize: 5
     battleType: 2
@@ -412,9 +412,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 32
+    power: 47
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
-    clipSize: 5
+    clipSize: 3
     battleType: 2
     armor: 12
 
@@ -489,6 +490,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 28
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     clipSize: 8
     battleType: 2
@@ -504,9 +506,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 28
+    power: 48
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
-    clipSize: 8
+    clipSize: 4
     battleType: 2
     armor: 12
 
@@ -541,7 +544,8 @@ items:
     twoHanded: true
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      meleeAnimation: 4
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      
+    meleeAnimation: 4
     meleeType: 7
     meleePower: 45
     meleeBonus:
@@ -595,7 +599,8 @@ items:
     twoHanded: true
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      meleeAnimation: 4
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      
+    meleeAnimation: 4
     meleeType: 7
     meleePower: 45
     meleeBonus:
@@ -629,7 +634,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 30
+    power: 32
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
@@ -647,7 +653,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 30
+    power: 47
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
@@ -702,7 +709,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 30
+    power: 35
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
@@ -720,7 +728,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 30
+    power: 50
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
@@ -773,7 +782,8 @@ items:
 #    floorSprite: 4
 #    hitSound: 22
 #    hitAnimation: 26
-#    power: 30
+#    power: 33
+#    refNode: *BasicRifleRoundAntiArmor
 #    damageType: 1
 #    clipSize: 10
 #    battleType: 2
@@ -788,9 +798,10 @@ items:
 #    floorSprite: 4
 #    hitSound: 22
 #    hitAnimation: 26
-#    power: 30
+#    power: 48
+#    refNode: *KMMRifleRoundAntiArmor
 #    damageType: 1
-#    clipSize: 10
+#    clipSize: 5
 #    battleType: 2
 #    armor: 12
 
@@ -840,9 +851,10 @@ items:
     hitSound: 19
     hitAnimation: 109 #Red laser hit
     bulletSprite: 18 #Red laser beam 35*18=630
-    power: 30
+    power: 50
+    refNode: *HeavyPhlogistonAntiArmor
     damageType: 4
-    clipSize: 10
+    clipSize: 8
     battleType: 2
     armor: 12
 
@@ -901,8 +913,9 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 45
-    damageType: 10
+    power: 30
+    refNode: *BasicRifleRoundAntiArmor
+    damageType: 1
     clipSize: 19
     battleType: 2
     armor: 12
@@ -920,8 +933,9 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
-    damageType: 10
-    clipSize: 19
+    refNode: *KMMRifleRoundAntiArmor
+    damageType: 1
+    clipSize: 10
     battleType: 2
     armor: 12
     invWidth: 1
@@ -997,7 +1011,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 45
+    power: 31
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
     clipSize: 20
     battleType: 2
@@ -1017,9 +1032,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 45
+    power: 46
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
-    clipSize: 20
+    clipSize: 10
     battleType: 2
     armor: 30
     attraction: 7
@@ -1076,8 +1092,9 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 44
-    damageType: 10
+    power: 32
+    damageType: 1
+    refNode: *BasicRifleRoundAntiArmor
     clipSize: 25
     battleType: 2
     armor: 30
@@ -1096,9 +1113,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 44
-    damageType: 10
-    clipSize: 25
+    power: 47
+    refNode: *KMMRifleRoundAntiArmor
+    damageType: 1
+    clipSize: 12
     battleType: 2
     armor: 30
     attraction: 7
@@ -1154,9 +1172,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 48
-    damageType: 10
-    clipSize: 5
+    power: 33
+    refNode: *BasicRifleRoundAntiArmor
+    damageType: 1
+    clipSize: 8
     battleType: 2
     armor: 12
     invWidth: 1
@@ -1176,7 +1195,8 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
-    damageType: 10
+    refNode: *KMMRifleRoundAntiArmor
+    damageType: 1
     clipSize: 5
     battleType: 2
     armor: 12
@@ -1240,9 +1260,9 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 40
-    damageType: 10
-    clipSize: 10
+    power: 29
+    damageType: 1
+    clipSize: 20
     battleType: 2
     armor: 30
     attraction: 7
@@ -1260,8 +1280,9 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 40
-    damageType: 10
+    power: 44
+    refNode: *KMMRifleRoundAntiArmor
+    damageType: 1
     clipSize: 10
     battleType: 2
     armor: 30
@@ -1323,8 +1344,9 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 40
-    damageType: 10
+    power: 31
+    refNode: *BasicRifleRoundAntiArmor
+    damageType: 1
     clipSize: 10
     battleType: 2
     armor: 30
@@ -1343,9 +1365,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 40
-    damageType: 10
-    clipSize: 10
+    power: 46
+    refNode: *KMMRifleRoundAntiArmor
+    damageType: 1
+    clipSize: 6
     battleType: 2
     armor: 30
     attraction: 7
@@ -1400,9 +1423,10 @@ items:
     hitAnimation: 109 #Red laser hit
     bulletSprite: 18 #Red laser beam #18*35=630
     hitSound: 19
-    power: 30
+    power: 45
+    refNode: *MediumPhlogistonAntiArmor
     damageType: 4
-    clipSize: 10
+    clipSize: 50
     battleType: 2
     armor: 12
 #    listOrder: 2003
@@ -1511,6 +1535,7 @@ items:
     bigSprite: 1072
     floorSprite: 1072
     power: 32
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -1529,7 +1554,8 @@ items:
     weight: 2
     bigSprite: 1080
     floorSprite: 1080
-    power: 32
+    power: 48
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -1548,7 +1574,8 @@ items:
     weight: 2
     bigSprite: 1088
     floorSprite: 1088
-    power: 32
+    power: 40
+    refNode: *DumDumWoundingRound
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -1604,9 +1631,8 @@ items:
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 35
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 1
-    damageAlter:
-      ArmorEffectiveness: 0.3
     clipSize: 7
     costThrow:
       energy: 4
@@ -1626,10 +1652,9 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
-    power: 35
+    power: 45
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 1
-    damageAlter:
-      ArmorEffectiveness: 0.3
     clipSize: 7
     costThrow:
       energy: 4
@@ -1674,6 +1699,7 @@ items:
     bigSprite: 1160
     floorSprite: 1160
     power: 33
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -1692,12 +1718,13 @@ items:
     weight: 2
     bigSprite: 1168
     floorSprite: 1168
-    power: 33
+    power: 43
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
-    clipSize: 10
+    clipSize: 5
     invHeight: 1
     invWidth: 1
     battleType: 2
@@ -1739,6 +1766,7 @@ items:
     bigSprite: 1240
     floorSprite: 1240
     power: 33
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -1758,6 +1786,7 @@ items:
     bigSprite: 1248
     floorSprite: 1248
     power: 33
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -1929,6 +1958,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 45
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -1938,7 +1968,7 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2031
-  - type: STR_M1907_SL_CARBINE_MAG__KMM
+  - type: STR_M1907_SL_CARBINE_MAG_KMM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     requires:
       - STR_ADVANCED_FIREARMS
@@ -1952,6 +1982,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2092,6 +2123,7 @@ items:
     bigSprite: 1616
     floorSprite: 1616
     power: 33
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -2111,6 +2143,7 @@ items:
     bigSprite: 1624
     floorSprite: 1624
     power: 33
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -2223,6 +2256,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 28
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     clipSize: 6
     battleType: 2
@@ -2240,6 +2274,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 28
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
     clipSize: 6
     battleType: 2
@@ -2350,6 +2385,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 45
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2373,6 +2409,7 @@ items:
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2436,6 +2473,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 45
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2459,6 +2497,7 @@ items:
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2522,6 +2561,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 45
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2545,6 +2585,7 @@ items:
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2625,6 +2666,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 26
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
@@ -2648,6 +2690,7 @@ items:
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 26
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 1
     invWidth: 1
     invHeight: 1
@@ -2721,6 +2764,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 36
+    refNode: *BasicPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2744,6 +2788,7 @@ items:
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 36
+    refNode: *KMMPistolRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -2827,8 +2872,6 @@ items:
     autoRange: 11
     attraction: 8
 #    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 32 # Pistols
 
   - type: STR_TESLA_LIGHT_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
@@ -2841,6 +2884,7 @@ items:
     bulletSprite: 17
     hitAnimation: 99
     power: 40
+    refNode: *LightTeslaAntiArmor
     damageType: 11
     clipSize: 10
     battleType: 2
@@ -2904,6 +2948,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 43
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
     clipSize: 25
     battleType: 2
@@ -2926,6 +2971,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
     clipSize: 25
     battleType: 2
@@ -2978,8 +3024,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 47
-    damageAlter:
-      ArmorEffectiveness: 1.5
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
     clipSize: 20
     invHeight: 1
@@ -2999,8 +3044,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
-    damageAlter:
-      ArmorEffectiveness: 1.5
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
     clipSize: 20
     invHeight: 1
@@ -3023,6 +3067,7 @@ items:
     reloadSound: 311
     compatibleAmmo:
       - STR_MG0815_DRUM
+      - STR_MG0815_DRUM_KMM
     accuracyCloseQuarters: 60
     accuracySnap: 56
     accuracyAuto: 50
@@ -3058,9 +3103,8 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 50
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
-    damageAlter:
-      ArmorEffectiveness: 1.5
     clipSize: 100
     battleType: 2
     armor: 30
@@ -3082,9 +3126,8 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 50
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
-    damageAlter:
-      ArmorEffectiveness: 1.5
     clipSize: 100
     battleType: 2
     armor: 30
@@ -3142,8 +3185,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 36
-    damageAlter:
-      ArmorEffectiveness: 1.00
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     clipSize: 20
     battleType: 2
@@ -3164,8 +3206,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 36
-    damageAlter:
-      ArmorEffectiveness: 1.00
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 1
     clipSize: 20
     battleType: 2
@@ -3229,6 +3270,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 45
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -3252,6 +3294,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
     invWidth: 1
     invHeight: 1
@@ -3311,6 +3354,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 43
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
     clipSize: 25
     battleType: 2
@@ -3333,6 +3377,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
     clipSize: 25
     battleType: 2
@@ -3391,6 +3436,7 @@ items:
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 43
+    refNode: *BasicRifleRoundAntiArmor
     damageType: 10
     clipSize: 25
     battleType: 2
@@ -3413,6 +3459,7 @@ items:
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
+    refNode: *KMMRifleRoundAntiArmor
     damageType: 10
     clipSize: 25
     battleType: 2
@@ -3472,6 +3519,7 @@ items:
     bulletSprite: 17
     hitAnimation: 99
     power: 40
+    refNode: *HeavyTeslaAntiArmor
     damageType: 11
     clipSize: 10
     battleType: 2
@@ -3627,6 +3675,7 @@ items:
     bigSprite: 2520
     floorSprite: 2520
     power: 45
+    refNode: *DumDumWoundingRound
     damageType: 10
     hitSound: 22
     hitAnimation: 26
@@ -3746,6 +3795,7 @@ items:
     bigSprite: 2544
     floorSprite: 2544
     power: 45
+    refNode: *DumDumWoundingRound
     damageType: 10
     hitSound: 22
     hitAnimation: 26
@@ -3814,8 +3864,7 @@ items:
     shotgunBehavior: 1
     shotgunPellets: 8
     shotgunSpread: 50
-    damageAlter:
-      ToStun: 1.25
+    refNode: *MediumTeslaAntiArmor
     damageType: 11
     clipSize: 10
     battleType: 2
