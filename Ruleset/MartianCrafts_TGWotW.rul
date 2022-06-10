@@ -1014,7 +1014,7 @@ alienDeployments:
     height: 10
     briefing:
       palette: 4
-      music: GMISPOSH
+      #music: GMISPOSH
   - type: FRIGATE
     data:
       - alienRank: 5

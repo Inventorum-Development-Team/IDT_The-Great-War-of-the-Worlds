@@ -627,7 +627,6 @@ items:
     power: 95
     damageBonus:
       firing: 1.2
-      accuracy: 1.5
     damageAlter:
       ArmorEffectiveness: 0.8
     damageType: 1
