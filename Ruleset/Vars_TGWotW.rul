@@ -43,7 +43,6 @@ pilotBraveryThresholds: [90, 80, 40] #Very bold, Bold, Normal
 ufoBeamWidthParameter: 1000
 hunterKillerFastRetarget: true
 operationNamesFirst:
-  - ""
   - Allied
   - Banished
   - Black
