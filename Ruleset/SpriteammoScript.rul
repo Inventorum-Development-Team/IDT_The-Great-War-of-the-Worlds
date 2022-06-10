@@ -63,58 +63,58 @@ items:
 #################################
 ###### Heat Ray Weapons ########
 ###############################
-  - type: STR_HEATRAY_PISTOL
+  - type: STR_HEATRAY_PISTOL # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_HEATRAY_PISTOL_BATTERY_PHOTON
+  - type: STR_HEATRAY_PISTOL_BATTERY_PHOTON # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+  - type: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_HEATRAY_CARBINE
+  - type: STR_HEATRAY_CARBINE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_HEATRAY_CARBINE_BATTERY_PHOTON
+  - type: STR_HEATRAY_CARBINE_BATTERY_PHOTON # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+  - type: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_HEATRAY_RIFLE
+  - type: STR_HEATRAY_RIFLE # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_HEATRAY_RIFLE_BATTERY_PHOTON
+  - type: STR_HEATRAY_RIFLE_BATTERY_PHOTON # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+  - type: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_HEATRAY_CANNON
+  - type: STR_HEATRAY_CANNON # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_HEATRAY_CANNON_BATTERY_PHOTON
+  - type: STR_HEATRAY_CANNON_BATTERY_PHOTON # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+  - type: STR_HEATRAY_CANNON_BATTERY_MICROWAVE # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_HEATRAY_SNIPER
+  - type: STR_HEATRAY_SNIPER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_HEATRAY_SNIPER_BATTERY_PHOTON
+  - type: STR_HEATRAY_SNIPER_BATTERY_PHOTON # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+  - type: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE # ignoreDuplicate
     tags:
       AmmoNo: 2
-  - type: STR_MARTIAN_LAUNCHER
+  - type: STR_MARTIAN_LAUNCHER # ignoreDuplicate
     tags:
       AmmoReSprite: 1
-  - type: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+  - type: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+  - type: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 2
 
