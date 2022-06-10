@@ -144,8 +144,8 @@ items:
       ToWound: 0.35
       ToMorale: 0.3
       ToStun: 0.2
-      RandomWound: true  
-  
+      RandomWound: true
+
 #################################################
 ######### BALLISTIC BOLT-ACTION RIFLES #########
 ###############################################
@@ -181,7 +181,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2002
+    #listOrder: 2002
 
   - type: STR_SMLE_MKIII_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
@@ -191,6 +191,7 @@ items:
     weight: 3
     bigSprite: 200
     floorSprite: 200
+    handSprite: 200
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
@@ -208,6 +209,7 @@ items:
     weight: 3
     bigSprite: 204
     floorSprite: 4
+    handSprite: 208
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -252,7 +254,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2010
+    #listOrder: 2010
 
   - type: STR_SPRINGFIELD
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT]
@@ -285,7 +287,7 @@ items:
     twoHanded: true
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 4
     meleeType: 7
     meleePower: 45
@@ -307,7 +309,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2010
+    #listOrder: 2010
 
   - type: STR_SPRINGFIELD_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
@@ -317,6 +319,7 @@ items:
     weight: 3
     bigSprite: 280
     floorSprite: 280
+    handSprite: 200
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
@@ -336,6 +339,7 @@ items:
     weight: 3
     bigSprite: 288
     floorSprite: 288
+    handSprite: 208
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -382,7 +386,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2020
+    #listOrder: 2020
 
   - type: STR_GEWEHR98_CLIP
     categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -392,6 +396,7 @@ items:
     weight: 3
     bigSprite: 328
     floorSprite: 328
+    handSprite: 200
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
@@ -409,6 +414,7 @@ items:
     weight: 3
     bigSprite: 336
     floorSprite: 336
+    handSprite: 208
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -476,7 +482,7 @@ items:
       time: true
 # Bayonet segment end
     attraction: 8
-    listOrder: 2026
+    #listOrder: 2026
 
   - type: STR_LEBEL_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
@@ -486,6 +492,7 @@ items:
     weight: 3
     bigSprite: 376
     floorSprite: 376
+    handSprite: 200
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
@@ -503,6 +510,7 @@ items:
     weight: 3
     bigSprite: 384
     floorSprite: 384
+    handSprite: 208
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -544,7 +552,7 @@ items:
     twoHanded: true
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 4
     meleeType: 7
     meleePower: 45
@@ -566,7 +574,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2010
+    #listOrder: 2010
 
   - type: STR_WINCHESTER_M1915
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT]
@@ -599,7 +607,7 @@ items:
     twoHanded: true
 # Bayonet segment
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
-    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds      
+    meleeHitSound: [152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 4
     meleeType: 7
     meleePower: 45
@@ -621,7 +629,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2010
+    #listOrder: 2010
 
   - type: STR_MOSIN_NAGANT_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
@@ -631,6 +639,7 @@ items:
     weight: 3
     bigSprite: 448
     floorSprite: 448
+    handSprite: 200
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
@@ -648,8 +657,9 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
-    bigSprite: 212
-    floorSprite: 4
+    bigSprite: 456
+    floorSprite: 456
+    handSprite: 208
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -696,7 +706,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2010
+    #listOrder: 2010
 
   - type: STR_BERDAN_II_AMMO
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS]
@@ -706,6 +716,7 @@ items:
     weight: 3
     bigSprite: 488
     floorSprite: 488
+    handSprite: 200
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
@@ -725,6 +736,7 @@ items:
     weight: 3
     bigSprite: 496
     floorSprite: 496
+    handSprite: 208
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -770,7 +782,7 @@ items:
 #    invHeight: 3
 #    autoRange: 11
 #    attraction: 8
-#    listOrder: 2002
+#    #listOrder: 2002
 
 #  - type: STR_GEWEHR_M95_CLIP
 #    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AH_EQUIPMENT, STR_CLIPS]
@@ -848,6 +860,7 @@ items:
     weight: 3
     bigSprite: 608
     floorSprite: 608
+    handSprite: 616
     hitSound: 19
     hitAnimation: 109 #Red laser hit
     bulletSprite: 18 #Red laser beam 35*18=630
@@ -869,7 +882,7 @@ items:
 
   - type: STR_FARQHUAR_HILL
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 4000
@@ -901,7 +914,7 @@ items:
     invHeight: 3
     autoRange: 15
     attraction: 8
-    listOrder: 2004
+    #listOrder: 2004
 
   - type: STR_FARQHUAR_HILL_DRUM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
@@ -910,6 +923,7 @@ items:
     weight: 3
     bigSprite: 672
     floorSprite: 672
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -921,7 +935,7 @@ items:
     armor: 12
     invWidth: 1
     invHeight: 1
-    listOrder: 2005
+    #listOrder: 2005
   - type: STR_FARQHUAR_HILL_DRUM_KMM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -929,6 +943,7 @@ items:
     weight: 3
     bigSprite: 680
     floorSprite: 680
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -940,11 +955,11 @@ items:
     armor: 12
     invWidth: 1
     invHeight: 1
-    listOrder: 2005
+    #listOrder: 2005
 
   - type: STR_MONDRAGON
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
@@ -996,11 +1011,11 @@ items:
       time: true
 # Bayonet segment end
     attraction: 7
-    listOrder: 2012
+    #listOrder: 2012
 
   - type: STR_MONDRAGON_MAG
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1008,6 +1023,7 @@ items:
     weight: 3
     bigSprite: 712
     floorSprite: 712
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -1018,10 +1034,10 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2013
+    #listOrder: 2013
   - type: STR_MONDRAGON_MAG_KMM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1029,6 +1045,7 @@ items:
     weight: 3
     bigSprite: 720
     floorSprite: 720
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -1039,11 +1056,11 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2013
+    #listOrder: 2013
 
   - type: STR_SELBSTLADER_M1916
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
@@ -1077,11 +1094,11 @@ items:
     invHeight: 3
     armor: 30
     attraction: 10
-    listOrder: 2024
+    #listOrder: 2024
 
   - type: STR_SELBSTLADER_M1916_MAG
     categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1089,6 +1106,7 @@ items:
     weight: 3
     bigSprite: 752
     floorSprite: 752
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -1099,10 +1117,10 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2025
+    #listOrder: 2025
   - type: STR_SELBSTLADER_M1916_MAG_KMM
     categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1110,6 +1128,7 @@ items:
     weight: 3
     bigSprite: 760
     floorSprite: 760
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -1120,11 +1139,11 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2025
+    #listOrder: 2025
 
   - type: STR_RSC17
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 4500
@@ -1158,10 +1177,10 @@ items:
     invHeight: 3
     autoRange: 15
     attraction: 8
-    listOrder: 2032
+    #listOrder: 2032
   - type: STR_RSC17_CLIP
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 400
@@ -1169,6 +1188,7 @@ items:
     weight: 3
     bigSprite: 792
     floorSprite: 792
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -1180,10 +1200,10 @@ items:
     armor: 12
     invWidth: 1
     invHeight: 1
-    listOrder: 2033
+    #listOrder: 2033
   - type: STR_RSC17_CLIP_KMM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 400
@@ -1191,6 +1211,7 @@ items:
     weight: 3
     bigSprite: 800
     floorSprite: 800
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -1202,12 +1223,12 @@ items:
     armor: 12
     invWidth: 1
     invHeight: 1
-    listOrder: 2033
+    #listOrder: 2033
 
 
   - type: STR_FEDOROV_AVTOMAT
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
@@ -1245,11 +1266,11 @@ items:
     invHeight: 3
     armor: 30
     attraction: 10
-    listOrder: 2050
+    #listOrder: 2050
 
   - type: STR_FEDOROV_AVTOMAT_MAG
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1257,6 +1278,7 @@ items:
     weight: 3
     bigSprite: 832
     floorSprite: 832
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -1266,10 +1288,10 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2051
+    #listOrder: 2051
   - type: STR_FEDOROV_AVTOMAT_MAG_KMM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1277,6 +1299,7 @@ items:
     weight: 3
     bigSprite: 840
     floorSprite: 840
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -1287,11 +1310,11 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2051
+    #listOrder: 2051
 
   - type: STR_CEI_RIGOTTI
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
@@ -1329,11 +1352,11 @@ items:
     invHeight: 3
     armor: 30
     attraction: 10
-    listOrder: 2050
+    #listOrder: 2050
 
   - type: STR_CEI_RIGOTTI_CLIP
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1341,6 +1364,7 @@ items:
     weight: 3
     bigSprite: 872
     floorSprite: 872
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -1351,10 +1375,10 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2051
+    #listOrder: 2051
   - type: STR_CEI_RIGOTTI_CLIP_KMM
     categories: [STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
@@ -1362,6 +1386,7 @@ items:
     weight: 3
     bigSprite: 880
     floorSprite: 880
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -1372,7 +1397,7 @@ items:
     battleType: 2
     armor: 30
     attraction: 7
-    listOrder: 2051
+    #listOrder: 2051
 
 #################################################
 ######### PHLOGISTON SELF-LOADING RIFLES ########
@@ -1393,6 +1418,14 @@ items:
     compatibleAmmo:
       - STR_PHLOGISTON_MEDIUM_BATTERY
     accuracyCloseQuarters: 65
+    confAimed:
+      spendPerShot: 20        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 10
+      name: STR_LOW_POWER
+    tags:
+      AIMED_5X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 90
     tuSnap: 20
@@ -1409,7 +1442,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
+#    #listOrder: 2002
 #    tags:
 #      WEAPON_TYPE: 1 # Rifles
   - type: STR_PHLOGISTON_MEDIUM_BATTERY
@@ -1420,6 +1453,7 @@ items:
     weight: 3
     bigSprite: 944
     floorSprite: 944
+    handSprite: 944
     hitAnimation: 109 #Red laser hit
     bulletSprite: 18 #Red laser beam #18*35=630
     hitSound: 19
@@ -1429,7 +1463,7 @@ items:
     clipSize: 50
     battleType: 2
     armor: 12
-#    listOrder: 2003
+#    #listOrder: 2003
 
 #################################################
 ######### GAUSS SELF-LOADING RIFLES ############
@@ -1466,7 +1500,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2000
+    #listOrder: 2000
 
   - type: STR_HEAVY_REVOLVER
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_BRITISH_EQUIPMENT]
@@ -1495,7 +1529,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2000
+    #listOrder: 2000
 
   - type: STR_SERVICE_REVOLVER
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_BRITISH_EQUIPMENT]
@@ -1524,7 +1558,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2000
+    #listOrder: 2000
 
   - type: STR_REVOLVER_CLIP
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
@@ -1534,6 +1568,7 @@ items:
     weight: 2
     bigSprite: 1072
     floorSprite: 1072
+    handSprite: 1072
     power: 32
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
@@ -1545,7 +1580,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2001
+    #listOrder: 2001
   - type: STR_REVOLVER_CLIP_KMM
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1554,6 +1589,7 @@ items:
     weight: 2
     bigSprite: 1080
     floorSprite: 1080
+    handSprite: 1080
     power: 48
     refNode: *KMMPistolRoundAntiArmor
     damageType: 1
@@ -1565,7 +1601,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2001
+    #listOrder: 2001
   - type: STR_REVOLVER_CLIP_DUMDUM
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1574,6 +1610,7 @@ items:
     weight: 2
     bigSprite: 1088
     floorSprite: 1088
+    handSprite: 1088
     power: 40
     refNode: *DumDumWoundingRound
     damageType: 1
@@ -1585,7 +1622,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2001
+    #listOrder: 2001
 
   - type: STR_M1911_COLT
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT]
@@ -1617,7 +1654,7 @@ items:
     armor: 35
     attraction: 12
     bulletSpeed: 15
-    listOrder: 2008
+    #listOrder: 2008
 
   - type: STR_M1911_COLT_MAG
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
@@ -1627,6 +1664,7 @@ items:
     weight: 2
     bigSprite: 1120
     floorSprite: 1120
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -1640,7 +1678,7 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 35
-    listOrder: 2009
+    #listOrder: 2009
   - type: STR_M1911_COLT_MAG_KMM
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     size: 0.025
@@ -1649,6 +1687,7 @@ items:
     weight: 2
     bigSprite: 1128
     floorSprite: 1128
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
@@ -1662,7 +1701,7 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 35
-    listOrder: 2009
+    #listOrder: 2009
 
   - type: STR_MAUSER_C96
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_GERMAN_EQUIPMENT]
@@ -1688,7 +1727,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2018
+    #listOrder: 2018
 
   - type: STR_MAUSER_C96_CLIP
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -1698,6 +1737,7 @@ items:
     weight: 2
     bigSprite: 1160
     floorSprite: 1160
+    handSprite: 200
     power: 33
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
@@ -1709,7 +1749,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
   - type: STR_MAUSER_C96_CLIP_KMM
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1718,6 +1758,7 @@ items:
     weight: 2
     bigSprite: 1168
     floorSprite: 1168
+    handSprite: 208
     power: 43
     refNode: *KMMPistolRoundAntiArmor
     damageType: 1
@@ -1729,7 +1770,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
 
   - type: STR_LUGER_P08
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_GERMAN_EQUIPMENT]
@@ -1755,7 +1796,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2018
+    #listOrder: 2018
 
   - type: STR_LUGER_P08_MAG
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -1765,6 +1806,7 @@ items:
     weight: 2
     bigSprite: 1240
     floorSprite: 1240
+    handSprite: 672
     power: 33
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
@@ -1776,7 +1818,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
   - type: STR_LUGER_P08_MAG_KMM
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -1785,6 +1827,7 @@ items:
     weight: 2
     bigSprite: 1248
     floorSprite: 1248
+    handSprite: 680
     power: 33
     refNode: *KMMPistolRoundAntiArmor
     damageType: 1
@@ -1796,7 +1839,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
 
   - type: STR_OBREZ_PISTOL
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_HANDGUNS, STR_RUSSIAN_EQUIPMENT]
@@ -1822,7 +1865,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2018
+    #listOrder: 2018
 
 ##########################################
 ############# TESLA SIDEARMS ############
@@ -1834,9 +1877,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
+    bigSprite: 1368
+    floorSprite: 1368
+    handSprite: 1368
     bulletSprite: 17
     hitAnimation: 99
     fireSound: 4
@@ -1845,6 +1888,14 @@ items:
     compatibleAmmo:
       - STR_TESLA_LIGHT_BATTERY
     accuracyCloseQuarters: 65
+    confAimed:
+      spendPerShot: 10        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 5
+      name: STR_LOW_POWER
+    tags:
+      AIMED_2X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 90
     tuSnap: 20
@@ -1860,7 +1911,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
+#    #listOrder: 2002
 
 ##########################################
 ######### PHLOGISTON SIDEARMS ###########
@@ -1872,9 +1923,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
+    bigSprite: 1384
+    floorSprite: 1384
+    handSprite: 1384
 #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 5
     fireSound: 4
@@ -1883,6 +1934,14 @@ items:
     compatibleAmmo:
       - STR_PHLOGISTON_SMALL_BATTERY
     accuracyCloseQuarters: 65
+    confAimed:
+      spendPerShot: 8        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 4
+      name: STR_LOW_POWER
+    tags:
+      AIMED_2X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 90
     tuSnap: 20
@@ -1898,7 +1957,26 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
+#    #listOrder: 2002
+  - type: STR_PHLOGISTON_SMALL_BATTERY
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS, STR_CLIPS]
+    size: 0.1
+    costBuy: 150
+    costSell: 90
+    weight: 3
+    bigSprite: 1776
+    floorSprite: 1776
+    handSprite: 1776
+    hitAnimation: 109 #Red laser hit
+    bulletSprite: 18 #Red laser beam #18*35=630
+    hitSound: 19
+    power: 45
+    refNode: *LightPhlogistonAntiArmor
+    damageType: 4
+    clipSize: 40
+    battleType: 2
+    armor: 12
+#    #listOrder: 2003
 
 ##############################################
 ############# BALLISTIC CARBINES ############
@@ -1906,7 +1984,7 @@ items:
 
   - type: STR_M1907_SL_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT, STR_FRENCH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
@@ -1942,11 +2020,11 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2030
+    #listOrder: 2030
 
   - type: STR_M1907_SL_CARBINE_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
@@ -1954,6 +2032,7 @@ items:
     weight: 2
     bigSprite: 1424
     floorSprite: 1424
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -1967,10 +2046,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2031
+    #listOrder: 2031
   - type: STR_M1907_SL_CARBINE_MAG_KMM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
@@ -1978,6 +2057,7 @@ items:
     weight: 2
     bigSprite: 1432
     floorSprite: 1432
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -1991,7 +2071,7 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2031
+    #listOrder: 2031
 
   - type: STR_REVOLVER_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_BRITISH_EQUIPMENT]
@@ -2021,7 +2101,7 @@ items:
     battleType: 1
     twoHanded: false
     armor: 250
-    listOrder: 2000
+    #listOrder: 2000
 
   - type: STR_MAUSER_C96_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
@@ -2047,7 +2127,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2018
+    #listOrder: 2018
 
   - type: STR_MAUSER_C96_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -2057,6 +2137,7 @@ items:
     weight: 2
     bigSprite: 1536
     floorSprite: 1536
+    handSprite: 672
     power: 33
     damageType: 1
     hitSound: 22
@@ -2067,7 +2148,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
   - type: STR_MAUSER_C96_MAG_KMM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -2076,6 +2157,7 @@ items:
     weight: 2
     bigSprite: 1544
     floorSprite: 1544
+    handSprite: 680
     power: 33
     damageType: 1
     hitSound: 22
@@ -2086,7 +2168,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
 
   - type: STR_LUGER_ARTILLERY
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
@@ -2112,7 +2194,7 @@ items:
     invWidth: 1
     battleType: 1
     armor: 250
-    listOrder: 2018
+    #listOrder: 2018
 
   - type: STR_LUGER_ARTILLERY_DRUM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -2122,6 +2204,7 @@ items:
     weight: 2
     bigSprite: 1616
     floorSprite: 1616
+    handSprite: 1616
     power: 33
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
@@ -2133,7 +2216,7 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
   - type: STR_LUGER_ARTILLERY_DRUM_KMM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -2142,6 +2225,7 @@ items:
     weight: 2
     bigSprite: 1624
     floorSprite: 1624
+    handSprite: 1624
     power: 33
     refNode: *KMMPistolRoundAntiArmor
     damageType: 1
@@ -2153,11 +2237,11 @@ items:
     invWidth: 1
     battleType: 2
     armor: 250
-    listOrder: 2019
+    #listOrder: 2019
 
   - type: STR_RSC_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 4500
@@ -2191,7 +2275,7 @@ items:
     invHeight: 3
     autoRange: 15
     attraction: 8
-    listOrder: 2032
+    #listOrder: 2032
 
   - type: STR_CARCANO_M91_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS]
@@ -2242,7 +2326,7 @@ items:
       time: true
 # Bayonet segment end
     attraction: 8
-    listOrder: 2046
+    #listOrder: 2046
 
   - type: STR_CARCANO_M91_CARBINE_CLIP
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
@@ -2252,6 +2336,7 @@ items:
     weight: 3
     bigSprite: 1720
     floorSprite: 1720
+    handSprite: 200
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -2261,7 +2346,7 @@ items:
     clipSize: 6
     battleType: 2
     armor: 12
-    listOrder: 204
+    #listOrder: 204
   - type: STR_CARCANO_M91_CARBINE_CLIP_KMM
     categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS]
     size: 0.1
@@ -2270,6 +2355,7 @@ items:
     weight: 3
     bigSprite: 1728
     floorSprite: 1728
+    handSprite: 208
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -2279,7 +2365,7 @@ items:
     clipSize: 6
     battleType: 2
     armor: 12
-    listOrder: 2047
+    #listOrder: 2047
 
 ##############################################
 ############ PHLOGISTON CARBINES ############
@@ -2287,26 +2373,32 @@ items:
 
   - type: STR_PHLOGISTON_AUTOMATIC_CARBINE
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT, STR_FRENCH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3200
     weight: 6
-    bigSprite: 231
-    floorSprite: 231
-    handSprite: 320
+    bigSprite: 1760
+    floorSprite: 1760
+    handSprite: 1760
     bulletSpeed: 20
     fireSound: 115
     reloadSound: 315
     compatibleAmmo:
       - STR_PHLOGISTON_MEDIUM_BATTERY
     accuracyCloseQuarters: 120
+    confAimed:
+      spendPerShot: 10        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 5
+      name: STR_LOW_POWER
+    tags:
+      AIMED_2X_POWER: 1
     accuracySnap: 60
-    accuracyAuto: 50
     accuracyAimed: 70
     tuSnap: 17
-    tuAuto: 24
     tuAimed: 28
     tuLoad: 15
     snapRange: 10
@@ -2322,7 +2414,7 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2030
+    #listOrder: 2030
 
 ##############################################
 ############# GAUSS CARBINES ################
@@ -2334,7 +2426,7 @@ items:
 ########################################
   - type: STR_ANNIHILATOR_SMG
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
@@ -2369,11 +2461,11 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2089
+    #listOrder: 2089
 
   - type: STR_ANNIHILATOR_SMG_MAG
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
@@ -2381,6 +2473,7 @@ items:
     weight: 2
     bigSprite: 1832
     floorSprite: 1832
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2394,10 +2487,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2090
+    #listOrder: 2090
   - type: STR_ANNIHILATOR_SMG_MAG_KMM
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
@@ -2405,6 +2498,7 @@ items:
     weight: 2
     bigSprite: 1840
     floorSprite: 1840
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
@@ -2418,11 +2512,11 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2090
+    #listOrder: 2090
 
   - type: STR_MP18
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
@@ -2457,11 +2551,11 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2089
+    #listOrder: 2089
 
   - type: STR_MP18_DRUM
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
@@ -2469,6 +2563,7 @@ items:
     weight: 2
     bigSprite: 1872
     floorSprite: 1872
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2482,10 +2577,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2090
+    #listOrder: 2090
   - type: STR_MP18_DRUM_KMM
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
@@ -2493,6 +2588,7 @@ items:
     weight: 2
     bigSprite: 1880
     floorSprite: 1880
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
@@ -2506,11 +2602,11 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2090
+    #listOrder: 2090
 
   - type: STR_SMG_0818
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
@@ -2545,11 +2641,11 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2089
+    #listOrder: 2089
 
   - type: STR_SMG_0818_BOX
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
@@ -2557,6 +2653,7 @@ items:
     weight: 2
     bigSprite: 1912
     floorSprite: 1912
+    handSprite: 1912
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2570,10 +2667,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2090
+    #listOrder: 2090
   - type: STR_SMG_0818_BOX_KMM
     categories: [STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
@@ -2581,6 +2678,7 @@ items:
     weight: 2
     bigSprite: 1920
     floorSprite: 1920
+    handSprite: 1920
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
@@ -2594,7 +2692,7 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2090
+    #listOrder: 2090
 
   - type: STR_BERETTA_MAB18
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_ASSAULT_CLASS]
@@ -2650,11 +2748,11 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2048
+    #listOrder: 2048
 
   - type: STR_BERETTA_MAB18_MAG
     categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
@@ -2662,6 +2760,7 @@ items:
     weight: 3
     bigSprite: 1952
     floorSprite: 1952
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2675,10 +2774,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2049
+    #listOrder: 2049
   - type: STR_BERETTA_MAB18_MAG_KMM
     categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
@@ -2686,6 +2785,7 @@ items:
     weight: 3
     bigSprite: 1960
     floorSprite: 1960
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
@@ -2699,12 +2799,12 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2049
+    #listOrder: 2049
 
 
   - type: STR_VILLAR_PEROSA
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_ASSAULT_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 2000
@@ -2748,11 +2848,11 @@ items:
     invHeight: 2
     armor: 35
     attraction: 10
-    listOrder: 2052
+    #listOrder: 2052
 
   - type: STR_VILLAR_PEROSA_MAGS
     categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
@@ -2760,6 +2860,7 @@ items:
     weight: 6
     bigSprite: 1992
     floorSprite: 1992
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2773,10 +2874,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2053
+    #listOrder: 2053
   - type: STR_VILLAR_PEROSA_MAGS_KMM
     categories: [STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
@@ -2784,6 +2885,7 @@ items:
     weight: 6
     bigSprite: 2000
     floorSprite: 2000
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2797,7 +2899,7 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2053
+    #listOrder: 2053
 
 ##########################################
 ############# TESLA SMGS ################
@@ -2809,9 +2911,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
+    bigSprite: 2048
+    floorSprite: 2048
+    handSprite: 2048
 #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 99
@@ -2821,6 +2923,14 @@ items:
     compatibleAmmo:
       - STR_TESLA_LIGHT_BATTERY
     accuracyCloseQuarters: 65
+    confAimed:
+      spendPerShot: 50        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 5
+      name: STR_LOW_POWER
+    tags:
+      AIMED_10X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 90
     tuSnap: 20
@@ -2836,7 +2946,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
+#    #listOrder: 2002
 
   - type: STR_TESLA_SMG
     categories: [STR_TESLA, STR_FIREARMS, STR_HANDGUNS, STR_RIFLEMAN_CLASS]
@@ -2844,9 +2954,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
+    bigSprite: 2064
+    floorSprite: 2064
+    handSprite: 2064
 #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 99
@@ -2856,6 +2966,14 @@ items:
     compatibleAmmo:
       - STR_TESLA_LIGHT_BATTERY
     accuracyCloseQuarters: 65
+    confAimed:
+      spendPerShot: 20        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 10
+      name: STR_LOW_POWER
+    tags:
+      AIMED_2X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 90
     tuSnap: 20
@@ -2871,25 +2989,25 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
+#    #listOrder: 2002
 
   - type: STR_TESLA_LIGHT_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 15000
     weight: 3
-    bigSprite: 712
-    floorSprite: 712
-    handSprite: 712
+    bigSprite: 2080
+    floorSprite: 2080
+    handSprite: 2080
     bulletSprite: 17
     hitAnimation: 99
     power: 40
     refNode: *LightTeslaAntiArmor
     damageType: 11
-    clipSize: 10
+    clipSize: 100
     battleType: 2
     armor: 200
-    listOrder: 238
+    #listOrder: 238
 
 ##########################################
 ############# PLASMA SMGS ###############
@@ -2901,7 +3019,7 @@ items:
 
   - type: STR_HUOT_LMG
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 11000
@@ -2932,11 +3050,11 @@ items:
     sprayWaypoints: 2
     bulletSpeed: 15
     attraction: 10
-    listOrder: 2006
+    #listOrder: 2006
 
   - type: STR_HUOT_LMG_DRUM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
@@ -2944,6 +3062,7 @@ items:
     weight: 7
     bigSprite: 2136
     floorSprite: 2136
+    handSprite: 2136
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -2956,10 +3075,10 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2007
+    #listOrder: 2007
   - type: STR_HUOT_LMG_DRUM_KMM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
@@ -2967,6 +3086,7 @@ items:
     weight: 7
     bigSprite: 2144
     floorSprite: 2144
+    handSprite: 2144
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -2979,11 +3099,11 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2007
+    #listOrder: 2007
 
   - type: STR_BAR
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.2
     costSell: 2250
@@ -3008,18 +3128,19 @@ items:
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    listOrder: 2014
+    #listOrder: 2014
     bulletSpeed: 17
 
   - type: STR_BAR_CLIP
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costSell: 150
     weight: 3
     bigSprite: 2176
     floorSprite: 2176
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -3030,16 +3151,17 @@ items:
     invHeight: 1
     invWidth: 1
     battleType: 2
-    listOrder: 2015
+    #listOrder: 2015
   - type: STR_BAR_CLIP_KMM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costSell: 150
     weight: 3
     bigSprite: 2184
     floorSprite: 2184
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -3050,11 +3172,11 @@ items:
     invHeight: 1
     invWidth: 1
     battleType: 2
-    listOrder: 2015
+    #listOrder: 2015
 
   - type: STR_MG0815
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 9000
@@ -3087,7 +3209,7 @@ items:
     kneelBonus: 200
     bulletSpeed: 17
     attraction: 9
-    listOrder: 2022
+    #listOrder: 2022
 
   - type: STR_MG0815_DRUM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -3099,6 +3221,7 @@ items:
     weight: 9
     bigSprite: 2216
     floorSprite: 2216
+    handSprite: 2136
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -3111,7 +3234,7 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 9
-    listOrder: 2023
+    #listOrder: 2023
   - type: STR_MG0815_DRUM_KMM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -3122,6 +3245,7 @@ items:
     weight: 9
     bigSprite: 2224
     floorSprite: 2224
+    handSprite: 2144
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -3134,7 +3258,7 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 9
-    listOrder: 2023
+    #listOrder: 2023
 
 
   - type: STR_CHAUCHAT_LMG
@@ -3171,7 +3295,7 @@ items:
     autoShots: 5
     sprayWaypoints: 3
     attraction: 10
-    listOrder: 2028
+    #listOrder: 2028
 
   - type: STR_CHAUCHAT_LMG_MAG
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS]
@@ -3181,6 +3305,7 @@ items:
     weight: 12
     bigSprite: 2256
     floorSprite: 2256
+    handSprite: 2256
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -3193,7 +3318,7 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2029
+    #listOrder: 2029
   - type: STR_CHAUCHAT_LMG_MAG_KMM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS]
     size: 0.1
@@ -3202,6 +3327,7 @@ items:
     weight: 12
     bigSprite: 2264
     floorSprite: 2264
+    handSprite: 2264
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -3214,11 +3340,11 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2029
+    #listOrder: 2029
 
   - type: STR_RIBEYROLLES
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT, STR_FRENCH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
@@ -3254,11 +3380,11 @@ items:
     invHeight: 3
     armor: 35
     attraction: 10
-    listOrder: 2030
+    #listOrder: 2030
 
   - type: STR_RIBEYROLLES_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
@@ -3266,6 +3392,7 @@ items:
     weight: 2
     bigSprite: 2296
     floorSprite: 2296
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -3279,10 +3406,10 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2031
+    #listOrder: 2031
   - type: STR_RIBEYROLLES_MAG_KMM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
@@ -3290,6 +3417,7 @@ items:
     weight: 2
     bigSprite: 2304
     floorSprite: 2304
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -3303,11 +3431,11 @@ items:
       energy: 4
     battleType: 2
     armor: 35
-    listOrder: 2031
+    #listOrder: 2031
 
   - type: STR_LEWIS_GUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 11000
@@ -3338,11 +3466,11 @@ items:
     sprayWaypoints: 2
     bulletSpeed: 15
     attraction: 10
-    listOrder: 2006
+    #listOrder: 2006
 
   - type: STR_LEWIS_GUN_PAN
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
@@ -3350,6 +3478,7 @@ items:
     weight: 7
     bigSprite: 2336
     floorSprite: 2336
+    handSprite: 2336
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -3362,10 +3491,10 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2007
+    #listOrder: 2007
   - type: STR_LEWIS_GUN_PAN_KMM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
@@ -3373,6 +3502,7 @@ items:
     weight: 7
     bigSprite: 2344
     floorSprite: 2344
+    handSprite: 2344
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -3385,11 +3515,11 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2007
+    #listOrder: 2007
 
   - type: STR_MADSEN_LMG
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 11000
@@ -3420,11 +3550,11 @@ items:
     sprayWaypoints: 2
     bulletSpeed: 15
     attraction: 10
-    listOrder: 2006
+    #listOrder: 2006
 
   - type: STR_MADSEN_LMG_MAG
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
@@ -3432,6 +3562,7 @@ items:
     weight: 7
     bigSprite: 2376
     floorSprite: 2376
+    handSprite: 672
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
@@ -3444,10 +3575,10 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2007
+    #listOrder: 2007
   - type: STR_MADSEN_LMG_MAG_KMM
     categories: [STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
@@ -3455,6 +3586,7 @@ items:
     weight: 7
     bigSprite: 2384
     floorSprite: 2384
+    handSprite: 680
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
@@ -3467,7 +3599,7 @@ items:
     invWidth: 1
     invHeight: 1
     attraction: 10
-    listOrder: 2007
+    #listOrder: 2007
 
 ##########################################
 ############# TESLA LMGS ################
@@ -3479,9 +3611,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
+    bigSprite: 2392
+    floorSprite: 2392
+    handSprite: 2392
 #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 99
@@ -3491,6 +3623,14 @@ items:
     compatibleAmmo:
       - STR_TESLA_HEAVY_BATTERY
     accuracyCloseQuarters: 65
+    confAimed:
+      spendPerShot: 30        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 10
+      name: STR_LOW_POWER
+    tags:
+      AIMED_5X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 90
     tuSnap: 20
@@ -3506,25 +3646,25 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
+#    #listOrder: 2002
 
   - type: STR_TESLA_HEAVY_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 15000
     weight: 3
-    bigSprite: 712
-    floorSprite: 712
-    handSprite: 712
+    bigSprite: 2408
+    floorSprite: 2408
+    handSprite: 2408
     bulletSprite: 17
     hitAnimation: 99
     power: 40
     refNode: *HeavyTeslaAntiArmor
     damageType: 11
-    clipSize: 10
+    clipSize: 100
     battleType: 2
     armor: 200
-    listOrder: 238
+    #listOrder: 238
 
 ##########################################
 ############# PLASMA LMGS ###############
@@ -3535,7 +3675,7 @@ items:
 ########################################
   - type: STR_WINCHESTER_TRENCH_GUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
@@ -3567,11 +3707,11 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 2016
+    #listOrder: 2016
 
   - type: STR_REMINGTON_MODEL_11
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
@@ -3603,11 +3743,11 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 2016
+    #listOrder: 2016
 
   - type: STR_INERTIA_SHOTGUN
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
@@ -3639,11 +3779,11 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 2016
+    #listOrder: 2016
 
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
@@ -3651,6 +3791,7 @@ items:
     weight: 3
     bigSprite: 2512
     floorSprite: 2512
+    handSprite: 2512
     power: 45
     damageType: 10
     hitSound: 22
@@ -3663,10 +3804,10 @@ items:
     shotgunSpread: 45
     battleType: 2
     armor: 250
-    listOrder: 2017
+    #listOrder: 2017
   - type: STR_SHOTGUN_DUMDUM_SHELLS_5
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
@@ -3674,6 +3815,7 @@ items:
     weight: 3
     bigSprite: 2520
     floorSprite: 2520
+    handSprite: 2520
     power: 45
     refNode: *DumDumWoundingRound
     damageType: 10
@@ -3682,16 +3824,16 @@ items:
     clipSize: 6
     invHeight: 1
     invWidth: 1
-    shotgunBehavior: 1
-    shotgunPellets: 8
-    shotgunSpread: 45
+    #shotgunBehavior: 1
+    #shotgunPellets: 8
+    #shotgunSpread: 45
     battleType: 2
     armor: 250
-    listOrder: 2017
+    #listOrder: 2017
 
   - type: STR_MODEL_1900
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
@@ -3723,11 +3865,11 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 2016
+    #listOrder: 2016
 
   - type: STR_MODEL_1900_SAWEDOFF
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
@@ -3759,11 +3901,11 @@ items:
     battleType: 1
     twoHanded: true
     armor: 250
-    listOrder: 2016
+    #listOrder: 2016
 
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_2
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
@@ -3771,11 +3913,12 @@ items:
     weight: 3
     bigSprite: 2536
     floorSprite: 2536
+    handSprite: 2536
     power: 45
     damageType: 10
     hitSound: 22
     hitAnimation: 26
-    clipSize: 6
+    clipSize: 2
     invHeight: 1
     invWidth: 1
     shotgunBehavior: 1
@@ -3783,10 +3926,10 @@ items:
     shotgunSpread: 45
     battleType: 2
     armor: 250
-    listOrder: 2017
+    #listOrder: 2017
   - type: STR_SHOTGUN_DUMDUM_SHELLS_2
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
-    requires:
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
@@ -3794,20 +3937,21 @@ items:
     weight: 3
     bigSprite: 2544
     floorSprite: 2544
+    handSprite: 2544
     power: 45
     refNode: *DumDumWoundingRound
     damageType: 10
     hitSound: 22
     hitAnimation: 26
-    clipSize: 6
+    clipSize: 2
     invHeight: 1
     invWidth: 1
-    shotgunBehavior: 1
-    shotgunPellets: 8
-    shotgunSpread: 45
+    #shotgunBehavior: 1
+    #shotgunPellets: 8
+    #shotgunSpread: 45
     battleType: 2
     armor: 250
-    listOrder: 2017
+    #listOrder: 2017
 
 ##########################################
 ########### TESLA SHOTGUNS ##############
@@ -3819,9 +3963,9 @@ items:
     costBuy: 1500
     costSell: 1150
     weight: 5
-    bigSprite: 500
-    floorSprite: 500
-    handSprite: 1000
+    bigSprite: 2552
+    floorSprite: 2552
+    handSprite: 2552
 #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 99
@@ -3831,6 +3975,14 @@ items:
     compatibleAmmo:
       - STR_TESLA_EXTENDED_BATTERY
     accuracyCloseQuarters: 65
+    confAimed:
+      spendPerShot: 20        # 10x battery consumption for 2x power
+      name: STR_HIGH_POWER
+    confSnap:
+      spendPerShot: 10
+      name: STR_LOW_POWER
+    tags:
+      AIMED_2X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 90
     tuSnap: 20
@@ -3846,40 +3998,36 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-#    listOrder: 2002
-    tags:
-      WEAPON_TYPE: 32 # Pistols
+#    #listOrder: 2002
 
   - type: STR_TESLA_EXTENDED_BATTERY
     categories: [STR_WEAPONS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 15000
     weight: 3
-    bigSprite: 712
-    floorSprite: 712
-    handSprite: 712
+    bigSprite: 2568
+    floorSprite: 2568
+    handSprite: 2568
     bulletSprite: 17
     hitAnimation: 99
     power: 40
     shotgunBehavior: 1
-    shotgunPellets: 8
+    shotgunPellets: 10
     shotgunSpread: 50
     refNode: *MediumTeslaAntiArmor
     damageType: 11
     clipSize: 10
     battleType: 2
     armor: 200
-    listOrder: 238
+    #listOrder: 238
 
 ######################################
 ######### EXPLOSIVE DEVICES #########
 ####################################
 
   - type: STR_ANTITANK_GRENADE
-    categories: [STR_STORMTROOPER_EQUIPMENT, STR_EXPLOSIVES, STR_ASSAULT_CLASS, STR_RAIDER_CLASS]
-#    requires:
-#      - STR_STORMTROOPER_TRAINING
-    requires:
+    categories: [STR_EXPLOSIVES, STR_ASSAULT_CLASS, STR_RAIDER_CLASS]
+    requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
@@ -3908,7 +4056,7 @@ items:
     invHeight: 2
     blastRadius: 3
     attraction: 6
-    listOrder: 2091
+    #listOrder: 2091
 
   - type: STR_STICK_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
@@ -3935,7 +4083,7 @@ items:
     invWidth: 1
     invHeight: 2
     blastRadius: 5
-    listOrder: 2102
+    #listOrder: 2102
 
   - type: STR_FRAG_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
@@ -3943,10 +4091,9 @@ items:
     costBuy: 300
     costSell: 240
     weight: 3
-    bigSprite: 304
-#    floorSprite: 11102
-#    handSprite: 12504
-    floorSprite: 19
+    bigSprite: 2592
+    floorSprite: 2592
+    handSprite: 2592
     explosionHitSound: [144, 145, 146, 147]
     power: 50
     damageAlter:
@@ -3963,7 +4110,7 @@ items:
     invWidth: 1
     invHeight: 1
     blastRadius: 5
-    listOrder: 2103
+    #listOrder: 2103
 
   - type: STR_DYNAMITE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
@@ -3971,9 +4118,9 @@ items:
     costBuy: 450
     costSell: 300
     weight: 6
-    bigSprite: 305
-    floorSprite: 305
-    handSprite: 720
+    bigSprite: 2608
+    floorSprite: 2608
+    handSprite: 2608
     explosionHitSound: 150
     power: 80
     damageAlter:
@@ -3992,7 +4139,7 @@ items:
     invHeight: 1
     blastRadius: 2
     attraction: 6
-    listOrder: 2104
+    #listOrder: 2104
 
   - type: STR_FLAMETHROWER_MK1
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
@@ -4002,9 +4149,9 @@ items:
     costBuy: 8000
     costSell: 6500
     weight: 10
-    bigSprite: 309
-    floorSprite: 309
-    handSprite: 736
+    bigSprite: 2640
+    floorSprite: 2640
+    handSprite: 2640
     bulletSprite: 20
     fireSound: 148
 #    compatibleAmmo:
@@ -4035,7 +4182,7 @@ items:
 #    bulletSpeed: 8
     experienceTrainingMode: 7
     attraction: 7
-    listOrder: 2108
+    #listOrder: 2108
 
   - type: STR_RIFLE_GRENADE
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
@@ -4043,8 +4190,9 @@ items:
     costBuy: 500
     costSell: 470
     weight: 1
-    bigSprite: 123
-    floorSprite: 123
+    bigSprite: 2656
+    floorSprite: 2656
+    handSprite: 2656
     hitSound: 0
     hitAnimation: 0
     power: 70
@@ -4060,7 +4208,7 @@ items:
     armor: 20
     blastRadius: 3
     bulletSprite: 14
-    listOrder: 200630
+    #listOrder: 200630
 
   - type: STR_GAS_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4070,9 +4218,9 @@ items:
     costBuy: 6500
     costSell: 5000
     weight: 4
-    bigSprite: 316
-    floorSprite: 316
-    handSprite: 760
+    bigSprite: 2664
+    floorSprite: 2664
+    handSprite: 2664
     hitAnimation: 208
     power: 60
     damageType: 17
@@ -4089,7 +4237,7 @@ items:
     unprimeActionName: STR_UNPRIME_GRENADE
     battleType: 4
     armor: 20
-    listOrder: 2115
+    #listOrder: 2115
 
   - type: STR_FLARE_GUN
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT]
@@ -4097,9 +4245,9 @@ items:
     costBuy: 3000
     costSell: 2000
     weight: 4
-    bigSprite: 325
-    floorSprite: 325
-    handSprite: 832
+    bigSprite: 2672
+    floorSprite: 2672
+    handSprite: 2672
     bulletSprite: 2
     fireSound: 151
     compatibleAmmo:
@@ -4116,7 +4264,7 @@ items:
     aimRange: 20
     snapRange: 12
     attraction: 1
-    listOrder: 2116
+    #listOrder: 2116
 
   - type: STR_FLARE_ROUND
     categories: [STR_BALLISTIC, STR_HANDGUNS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
@@ -4124,8 +4272,9 @@ items:
     costBuy: 100
     costSell: 85
     weight: 2
-    bigSprite: 326
-    floorSprite: 326
+    bigSprite: 2688
+    floorSprite: 2688
+    handSprite: 2688
     hitSound: 12
     hitAnimation: 0
     power: 25
@@ -4140,7 +4289,7 @@ items:
     battleType: 2
     armor: 50
     attraction: 1
-    listOrder: 2117
+    #listOrder: 2117
 
   - type: STR_HANDHELD_MORTAR
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4148,9 +4297,9 @@ items:
     costBuy: 5500
     costSell: 2250
     weight: 15
-    bigSprite: 142
-    floorSprite: 142
-    handSprite: 436
+    bigSprite: 2696
+    floorSprite: 2696
+    handSprite: 2696
     fireSound: 142
     compatibleAmmo:
       - STR_MORTAR_SHELL
@@ -4164,7 +4313,7 @@ items:
     invHeight: 3
     armor: 20
     arcingShot: true
-    listOrder: 200520
+    #listOrder: 200520
 
   - type: STR_MORTAR_SHELL
     categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
@@ -4172,8 +4321,9 @@ items:
     costBuy: 500
     costSell: 470
     weight: 1
-    bigSprite: 123
-    floorSprite: 123
+    bigSprite: 2704
+    floorSprite: 2704
+    handSprite: 2704
     hitSound: 0
     hitAnimation: 0
     power: 70
@@ -4189,7 +4339,7 @@ items:
     armor: 20
     blastRadius: 3
     bulletSprite: 14
-    listOrder: 200630
+    #listOrder: 200630
 
   - type: STR_HEAVY_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
@@ -4197,10 +4347,9 @@ items:
     costBuy: 300
     costSell: 240
     weight: 3
-    bigSprite: 304
-#    floorSprite: 11102
-#    handSprite: 12504
-    floorSprite: 19
+    bigSprite: 2712
+    floorSprite: 2712
+    handSprite: 2712
     explosionHitSound: [144, 145, 146, 147]
     power: 50
     damageAlter:
@@ -4217,7 +4366,7 @@ items:
     invWidth: 1
     invHeight: 1
     blastRadius: 5
-    listOrder: 2103
+    #listOrder: 2103
 
 ######################################
 ######### MELEE EQUIPMENT ###########
@@ -4228,9 +4377,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 5
-    bigSprite: 271
-    floorSprite: 271
-    handSprite: 496
+    bigSprite: 2736
+    floorSprite: 2736
+    handSprite: 2736
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     power: 70
@@ -4259,7 +4408,46 @@ items:
     invHeight: 3
     armor: 75
     attraction: 8
-    listOrder: 2070
+    #listOrder: 2070
+
+  - type: STR_MM_SABRE
+    categories: [STR_CQC, STR_RAIDER_CLASS]
+    size: 0.2
+    costBuy: 4000
+    costSell: 3500
+    weight: 5
+    bigSprite: 2848
+    floorSprite: 2848
+    handSprite: 2848
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    power: 70
+    meleeAnimation: 4
+    damageType: 7
+    damageBonus:
+      strength: 0.6
+      bravery: 3.2
+    damageAlter:
+      RandomType: 2
+      ArmorEffectiveness: 1.35
+      ToWound: 1.9
+    accuracyMelee: 80
+    meleeMultiplier:
+      melee: 1.2
+      flatHundred: 0.5
+    costMelee:
+      time: 20
+      energy: 5
+    costThrow:
+      energy: 14
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    invWidth: 1
+    invHeight: 3
+    armor: 75
+    attraction: 8
+    #listOrder: 2070
 
   - type: STR_TRENCH_KNIFE
     categories: [STR_CQC, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4267,9 +4455,9 @@ items:
     costBuy: 300
     costSell: 200
     weight: 5
-    bigSprite: 272
-    floorSprite: 272
-    handSprite: 504
+    bigSprite: 2744
+    floorSprite: 2744
+    handSprite: 2744
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 4
@@ -4313,9 +4501,54 @@ items:
     costBuy: 250
     costSell: 190
     weight: 15
-    bigSprite: 273
-    floorSprite: 273
-    handSprite: 512
+    bigSprite: 2752
+    floorSprite: 2752
+    handSprite: 2752
+    meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+    meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
+    meleeAnimation: 4
+    power: 60
+    damageType: 7
+    accuracyMelee: 70
+    meleeMultiplier:
+      flatHundred: 0.65
+      melee: 0.45
+    costMelee:
+      time: 20
+      energy: 7
+    damageBonus:
+      strength: 1.2
+      melee: 0.9
+    damageAlter:
+      RandomType: 2
+      ToStun: 1.5
+      FixRadius: 0
+      ToArmorPre: 0.1
+      ToWound: 1.3
+    accuracyMultiplier:
+      firing: 0.0
+      flatHundred: 0.5
+      melee: 0.5
+    costThrow:
+      energy: 20
+    flatRate: true
+    clipSize: -1
+    battleType: 3
+    invWidth: 1
+    invHeight: 3
+    maxRange: 2
+    experienceTrainingMode: 1
+    attraction: 6
+
+  - type: STR_SHOVEL
+    categories: [STR_CQC, STR_RAIDER_CLASS]
+    size: 0.3
+    costBuy: 250
+    costSell: 190
+    weight: 15
+    bigSprite: 2760
+    floorSprite: 2760
+    handSprite: 2760
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     meleeAnimation: 4
@@ -4358,9 +4591,9 @@ items:
     costBuy: 250
     costSell: 190
     weight: 6
-    bigSprite: 274
-    floorSprite: 274
-    handSprite: 520
+    bigSprite: 2768
+    floorSprite: 2768
+    handSprite: 2768
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178] #Punch sounds
     meleeAnimation: 4
@@ -4405,9 +4638,9 @@ items:
     costBuy: 450
     costSell: 500
     weight: 3
-    bigSprite: 293
-    floorSprite: 293
-    handSprite: 656
+    bigSprite: 2792
+    floorSprite: 2792
+    handSprite: 2792
     meleeAnimation: 0
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178] #Punch sounds
@@ -4447,9 +4680,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 5
-    bigSprite: 271
-    floorSprite: 271
-    handSprite: 496
+    bigSprite: 2888
+    floorSprite: 2888
+    handSprite: 2888
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     power: 70
@@ -4485,9 +4718,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 5
-    bigSprite: 271
-    floorSprite: 271
-    handSprite: 496
+    bigSprite: 2896
+    floorSprite: 2896
+    handSprite: 2896
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     power: 70
@@ -4523,9 +4756,9 @@ items:
     costBuy: 4000
     costSell: 3500
     weight: 5
-    bigSprite: 271
-    floorSprite: 271
-    handSprite: 496
+    bigSprite: 2904
+    floorSprite: 2904
+    handSprite: 2904
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [152, 153, 104, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168] #Stab sounds
     power: 70
@@ -4564,9 +4797,9 @@ items:
     costBuy: 10000
     costSell: 5000
     weight: 15
-    bigSprite: 280
-    floorSprite: 280
-    handSprite: 568
+    bigSprite: 2912
+    floorSprite: 2912
+    handSprite: 2912
     battleType: 6
     invWidth: 2
     invHeight: 2
@@ -4584,7 +4817,7 @@ items:
     flatRate: false
     attraction: 5
     experienceTrainingMode: 19
-    listOrder: 2079
+    #listOrder: 2079
 #  - type: STR_SURGERYKIT
 #    medikitBackground: WW1_SURGERYKIT
 #    size: 0.9
@@ -4610,7 +4843,7 @@ items:
 #    flatRate: false
 #    attraction: 5
 #    experienceTrainingMode: 19
-#    listOrder: 2080
+#    #listOrder: 2080
 
   - type: STR_MEDICAL_SYRINGE
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4618,9 +4851,9 @@ items:
     costBuy: 500
     costSell: 400
     weight: 2
-    bigSprite: 283
-    floorSprite: 283
-    handSprite: 592
+    bigSprite: 2928
+    floorSprite: 2928
+    handSprite: 2928
     battleType: 6
     medikitType: 3 #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     isConsumable: true
@@ -4632,7 +4865,7 @@ items:
       morale: -5
     invWidth: 1
     invHeight: 1
-    listOrder: 2082
+    #listOrder: 2082
 
   - type: STR_BANDAGES
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4640,9 +4873,9 @@ items:
     costBuy: 150
     costSell: 100
     weight: 4
-    bigSprite: 282
-    floorSprite: 282
-    handSprite: 584
+    bigSprite: 2960
+    floorSprite: 2960
+    handSprite: 2960
     battleType: 6
     invWidth: 2
     invHeight: 1
@@ -4658,7 +4891,7 @@ items:
     flatRate: true
     attraction: 6
     experienceTrainingMode: 19
-    listOrder: 2081
+    #listOrder: 2081
 
   - type: STR_PAINKILLER
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
@@ -4666,9 +4899,9 @@ items:
     costBuy: 500
     costSell: 400
     weight: 2
-    bigSprite: 283
-    floorSprite: 283
-    handSprite: 592
+    bigSprite: 2968
+    floorSprite: 2968
+    handSprite: 2968
     battleType: 6
     medikitType: 3 #change how medikit wroks, `0` default with UI, `1` fast heal, `2` fast stimulant, `3` fast pain killer.
     isConsumable: true
@@ -4680,10 +4913,10 @@ items:
       morale: -5
     invWidth: 1
     invHeight: 1
-    listOrder: 2082
+    #listOrder: 2082
 
 #  - STR_ADRENALINE
-#    listOrder: 2083
+#    #listOrder: 2083
 #  - type: STR_COMBAT_STIMULANT
 #    categories: [STR_EQUIPMENT, STR_MEDICAL, STR_MEDIC_CLASS]
 #    size: 0.1
@@ -4711,7 +4944,7 @@ items:
 #    recoveryPoints: 2
 #    armor: 10
 #    attraction: 4
-#    listOrder: 2084
+#    #listOrder: 2084
 #    tags: #here buff values can be set
 #      FTAG_BUFF_VALUE_TIMEUNITS: 20 #remember add renewable resources to damage alter if positive. this will only affect maximum value, not current
 #      FTAG_BUFF_VALUE_STAMINA: 20
@@ -4733,9 +4966,9 @@ items:
     costBuy: 4000
     costSell: 3750
     weight: 2
-    bigSprite: 286
-    floorSprite: 286
-    handSprite: 616
+    bigSprite: 2976
+    floorSprite: 2976
+    handSprite: 2976
     explosionHitSound: 133
     hitAnimation: 0
     power: 0
@@ -4786,7 +5019,7 @@ items:
     invWidth: 1
     invHeight: 1
     armor: 30
-    listOrder: 2085
+    #listOrder: 2085
     tags: #here buff values can be set
       FTAG_BUFF_VALUE_TIMEUNITS: 20
       FTAG_BUFF_VALUE_BRAVERY: 10
@@ -4849,7 +5082,7 @@ items:
 #    invWidth: 1
 #    invHeight: 3
 #    armor: 30
-#    listOrder: 2086
+#    #listOrder: 2086
 #    tags: #here buff values can be set
 #      FTAG_BUFF_VALUE_TIMEUNITS: 3
 #      FTAG_BUFF_VALUE_STAMINA: 5
@@ -4868,9 +5101,9 @@ items:
     costBuy: 120
     costSell: 50
     weight: 4
-    bigSprite: 317
-    floorSprite: 317
-    handSprite: 768
+    bigSprite: 2992
+    floorSprite: 2992
+    handSprite: 2992
     hitSound: [203, 204]
     battleType: 6
     isConsumable: true
@@ -4890,15 +5123,15 @@ items:
     invHeight: 1
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2120
+    #listOrder: 2120
   - type: STR_ROTTEN_BREAD
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costSell: 120
     weight: 4
-    bigSprite: 318
-    floorSprite: 318
-    handSprite: 768
+    bigSprite: 3000
+    floorSprite: 3000
+    handSprite: 3000
     hitSound: [203, 204]
     battleType: 6
     isConsumable: true
@@ -4920,7 +5153,7 @@ items:
     invHeight: 1
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2121
+    #listOrder: 2121
 
   - type: STR_CANNED_BEEF
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
@@ -4928,9 +5161,9 @@ items:
     costBuy: 300
     costSell: 120
     weight: 4
-    bigSprite: 319
-    floorSprite: 319
-    handSprite: 784
+    bigSprite: 3008
+    floorSprite: 3008
+    handSprite: 3008
     hitSound: [194, 195, 196, 197, 198, 199, 200]
     battleType: 6
     isConsumable: true
@@ -4951,15 +5184,15 @@ items:
     invHeight: 1
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2122
+    #listOrder: 2122
   - type: STR_ROTTEN_CANNED_BEEF
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costSell: 120
     weight: 4
-    bigSprite: 320
-    floorSprite: 320
-    handSprite: 784
+    bigSprite: 3016
+    floorSprite: 3016
+    handSprite: 3016
     hitSound: [194, 195, 196, 197, 198, 199, 200]
     battleType: 6
     isConsumable: true
@@ -4981,7 +5214,7 @@ items:
     invHeight: 1
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2123
+    #listOrder: 2123
 
   - type: STR_BISCUIT_BOX
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
@@ -4989,9 +5222,9 @@ items:
     costBuy: 200
     costSell: 120
     weight: 4
-    bigSprite: 321
-    floorSprite: 321
-    handSprite: 800
+    bigSprite: 3024
+    floorSprite: 3024
+    handSprite: 3024
     hitSound: [203, 204]
     battleType: 6
     isConsumable: true
@@ -5012,15 +5245,15 @@ items:
     invHeight: 1
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2124
+    #listOrder: 2124
   - type: STR_ROTTEN_BISCUIT_BOX
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costSell: 12000
     weight: 4
-    bigSprite: 322
-    floorSprite: 322
-    handSprite: 800
+    bigSprite: 3032
+    floorSprite: 3032
+    handSprite: 3032
     hitSound: [203, 204]
     battleType: 6
     isConsumable: true
@@ -5042,7 +5275,7 @@ items:
     invHeight: 1
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2125
+    #listOrder: 2125
 
   - type: STR_WINE
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
@@ -5050,9 +5283,9 @@ items:
     costBuy: 1500
     costSell: 1500
     weight: 4
-    bigSprite: 323
-    floorSprite: 323
-    handSprite: 816
+    bigSprite: 3040
+    floorSprite: 3040
+    handSprite: 3040
     hitSound: 201
     battleType: 6
     isConsumable: true
@@ -5074,17 +5307,17 @@ items:
     invHeight: 2
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2126
+    #listOrder: 2126
   - type: STR_BROKEN_WINE_BOTTLE
     categories: [STR_CQC, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.3
     costSell: 25000
     weight: 3
-    bigSprite: 324
-    floorSprite: 324
+    bigSprite: 2920
+    floorSprite: 2920
     confMelee:
       name: STR_BROKEN_WINE_BOTTLE_RAGE
-    handSprite: 824
+    handSprite: 2920
     meleeSound: [179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
     meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178] #Punch sounds
     meleeAnimation: 4
@@ -5123,7 +5356,7 @@ items:
     attraction: 6
     tags:
       WEAPON_TYPE: 128 # Melee
-    listOrder: 2073
+    #listOrder: 2073
 
   - type: STR_TEA_FLASK
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
@@ -5131,9 +5364,9 @@ items:
     costBuy: 450
     costSell: 200
     weight: 4
-    bigSprite: 327
-    floorSprite: 327
-    handSprite: 840
+    bigSprite: 3048
+    floorSprite: 3048
+    handSprite: 3048
     hitSound: 201
     battleType: 6
     isConsumable: true
@@ -5149,20 +5382,20 @@ items:
     invHeight: 2
     experienceTrainingMode: 21
     recoveryPoints: 10
-    listOrder: 2127
+    #listOrder: 2127
 
 #  - STR_CANNED_SPAGUETTI
-#    listOrder: 20
+#    #listOrder: 20
 #  - STR_
-#    listOrder: 20
+#    #listOrder: 20
 #  - STR_
-#    listOrder: 20
+#    #listOrder: 20
 #  - STR_
-#    listOrder: 20
+#    #listOrder: 20
 #  - STR_
-#    listOrder: 20
+#    #listOrder: 20
 #  - STR_
-#    listOrder: 20
+#    #listOrder: 20
 
 manufacture:
   - delete: STR_FUSION_BALL_LAUNCHER
@@ -5222,13 +5455,13 @@ research:
     dependencies:
       - STR_ALIEN_ALLOYS
   - name: STR_ADVANCED_FIREARMS
-#    listOrder: 902
+#    #listOrder: 902
     cost: 900
     points: 70
     dependencies:
       - STR_IMPROVED_METALURGIC_TECHNIQUES
   - name: STR_HUMAN_CHEMICAL_WEAPONS
-#    listOrder: 902
+#    #listOrder: 902
     cost: 600
     points: 70
     dependencies:
@@ -5362,7 +5595,7 @@ extraSprites:
       1088: Resources/HumanWeapons/Handgun/BigRevolver_Clip_DumDum.png
       1096: Resources/HumanWeapons/Handgun/BigColtM1911_nomag.png
       1104: Resources/HumanWeapons/Handgun/BigColtM1911_ammo1.png
-      1112: Resources/HumanWeapons/Handgun/BigColtM1911_ammo2.png
+      1112: Resources/HumanWeapons/Handgun/BigColtM1911_ammo1.png
       1120: Resources/HumanWeapons/Handgun/BigColtM1911_Mag.png
       1128: Resources/HumanWeapons/Handgun/BigColtM1911_Mag_KMM.png
       1136: Resources/HumanWeapons/Handgun/BigMauserC96_nomag.png
@@ -5426,8 +5659,8 @@ extraSprites:
       1592: Resources/HumanWeapons/Carbine/BigLugerArtillery_nomag.png
       1600: Resources/HumanWeapons/Carbine/BigLugerArtillery_ammo1.png
       1608: Resources/HumanWeapons/Carbine/BigLugerArtillery_ammo2.png
-      1616: Resources/HumanWeapons/Carbine/BigLugerArtillery_Mag.png
-      1624: Resources/HumanWeapons/Carbine/BigLugerArtillery_Mag_KMM.png
+      1616: Resources/HumanWeapons/Carbine/BigLugerArtillery_Drum.png
+      1624: Resources/HumanWeapons/Carbine/BigLugerArtillery_Drum_KMM.png
 #      1632: Resources/HumanWeapons/Carbine/BigNambuCarbine_nomag.png
 #      1640: Resources/HumanWeapons/Carbine/BigNambuCarbine_ammo1.png
 #      1648: Resources/HumanWeapons/Carbine/BigNambuCarbine_ammo2.png
@@ -5556,11 +5789,11 @@ extraSprites:
       2592: Resources/HumanWeapons/Explosives/BigFragGrenade.png
 #      2600: Resources/HumanWeapons/Explosives/BigSmokeBomb.png
       2608: Resources/HumanWeapons/Explosives/BigDynamite.png
-      2616: Resources/HumanWeapons/Explosives/BigGrenadeLauncher.png
-      2624: Resources/HumanWeapons/Explosives/BigGrenadeLauncherMustard.png
-      2632: Resources/HumanWeapons/Explosives/BigGrenadeLauncherStun.png
+      #2616: Resources/HumanWeapons/Explosives/BigGrenadeLauncher.png
+      #2624: Resources/HumanWeapons/Explosives/BigGrenadeLauncherMustard.png
+      #2632: Resources/HumanWeapons/Explosives/BigGrenadeLauncherStun.png
       2640: Resources/HumanWeapons/Explosives/BigFlamethrowerMk1.png
-      2648: Resources/HumanWeapons/Explosives/BigFlamethrowerMk2.png
+      #2648: Resources/HumanWeapons/Explosives/BigFlamethrowerMk2.png
       2656: Resources/HumanWeapons/Explosives/BigRifleGrenade.png
       2664: Resources/HumanWeapons/Explosives/BigGasGrenade.png
       2672: Resources/HumanWeapons/Explosives/BigFlareGun_nomag.png
@@ -5570,7 +5803,7 @@ extraSprites:
       2704: Resources/HumanWeapons/Explosives/BigLikhoninMortarShell.png
       2712: Resources/HumanWeapons/Explosives/BigNovitskiGrenade.png
 #      2720: Resources/HumanWeapons/Explosives/BigToxicGrenade.png
-#      2728: Resources/HumanWeapons/Explosives/BigIncendiaryGrenade.png
+      2728: Resources/HumanWeapons/Explosives/BigIncendiaryGrenade.png
 
       2736: Resources/HumanWeapons/Melee/BigSabre.png
       2744: Resources/HumanWeapons/Melee/BigTrenchKnife.png
@@ -5586,7 +5819,7 @@ extraSprites:
 #      2824: Resources/HumanWeapons/Melee/BigArditiKnife.png
 #      2832: Resources/HumanWeapons/Melee/BigFrenchNail.png
 #      2840: Resources/HumanWeapons/Melee/BigBoloMachete.png
-      2848: Resources/HumanWeapons/Melee/BigCavalryLance.png
+      2848: Resources/HumanWeapons/Melee/BigMMSabre.png
 #      2856: Resources/HumanWeapons/Melee/BigCavalrySabre.png
 #      2864: Resources/HumanWeapons/Melee/BigMedicBonesaw.png
 #      2872: Resources/HumanWeapons/Melee/BigKyuGunto.png
@@ -5600,7 +5833,7 @@ extraSprites:
       2928: Resources/HumanWeapons/Medical/BigMedicalSyringe.png
 #      2936: Resources/HumanWeapons/Medical/BigSurgeryKit.png
 #      2944: Resources/HumanWeapons/Medical/BigDeployableAidStation.png
-      2952: Resources/HumanWeapons/Medical/BigAidStationDispenser.png
+      #2952: Resources/HumanWeapons/Medical/BigAidStationDispenser.png
       2960: Resources/HumanWeapons/Medical/BigBandages.png
       2968: Resources/HumanWeapons/Medical/BigPainkiller.png
       2976: Resources/HumanWeapons/Medical/BigWhistle.png
@@ -5737,7 +5970,7 @@ extraSprites:
       1088: Resources/HumanWeapons/Handgun/FloorRevolver_Clip_DumDum.png
       1096: Resources/HumanWeapons/Handgun/FloorColtM1911_nomag.png
       1104: Resources/HumanWeapons/Handgun/FloorColtM1911_ammo1.png
-      1112: Resources/HumanWeapons/Handgun/FloorColtM1911_ammo2.png
+      1112: Resources/HumanWeapons/Handgun/FloorColtM1911_ammo1.png
       1120: Resources/HumanWeapons/Handgun/FloorColtM1911_Mag.png
       1128: Resources/HumanWeapons/Handgun/FloorColtM1911_Mag_KMM.png
       1136: Resources/HumanWeapons/Handgun/FloorMauserC96_nomag.png
@@ -5801,8 +6034,8 @@ extraSprites:
       1592: Resources/HumanWeapons/Carbine/FloorLugerArtillery_nomag.png
       1600: Resources/HumanWeapons/Carbine/FloorLugerArtillery_ammo1.png
       1608: Resources/HumanWeapons/Carbine/FloorLugerArtillery_ammo2.png
-      1616: Resources/HumanWeapons/Carbine/FloorLugerArtillery_Mag.png
-      1624: Resources/HumanWeapons/Carbine/FloorLugerArtillery_Mag_KMM.png
+      1616: Resources/HumanWeapons/Carbine/FloorLugerArtillery_Drum.png
+      1624: Resources/HumanWeapons/Carbine/FloorLugerArtillery_Drum_KMM.png
 #      1632: Resources/HumanWeapons/Carbine/FloorNambuCarbine_nomag.png
 #      1640: Resources/HumanWeapons/Carbine/FloorNambuCarbine_ammo1.png
 #      1648: Resources/HumanWeapons/Carbine/FloorNambuCarbine_ammo2.png
@@ -5931,11 +6164,11 @@ extraSprites:
       2592: Resources/HumanWeapons/Explosives/FloorFragGrenade.png
 #      2600: Resources/HumanWeapons/Explosives/FloorSmokeBomb.png
       2608: Resources/HumanWeapons/Explosives/FloorDynamite.png
-      2616: Resources/HumanWeapons/Explosives/FloorGrenadeLauncher.png
-      2624: Resources/HumanWeapons/Explosives/FloorGrenadeLauncherMustard.png
-      2632: Resources/HumanWeapons/Explosives/FloorGrenadeLauncherStun.png
+      #2616: Resources/HumanWeapons/Explosives/FloorGrenadeLauncher.png
+      #2624: Resources/HumanWeapons/Explosives/FloorGrenadeLauncherMustard.png
+      #2632: Resources/HumanWeapons/Explosives/FloorGrenadeLauncherStun.png
       2640: Resources/HumanWeapons/Explosives/FloorFlamethrowerMk1.png
-      2648: Resources/HumanWeapons/Explosives/FloorFlamethrowerMk2.png
+      #2648: Resources/HumanWeapons/Explosives/FloorFlamethrowerMk2.png
       2656: Resources/HumanWeapons/Explosives/FloorRifleGrenade.png
       2664: Resources/HumanWeapons/Explosives/FloorGasGrenade.png
       2672: Resources/HumanWeapons/Explosives/FloorFlareGun_nomag.png
@@ -5945,7 +6178,7 @@ extraSprites:
       2704: Resources/HumanWeapons/Explosives/FloorLikhoninMortarShell.png
       2712: Resources/HumanWeapons/Explosives/FloorNovitskiGrenade.png
 #      2720: Resources/HumanWeapons/Explosives/FloorToxicGrenade.png
-#      2728: Resources/HumanWeapons/Explosives/FloorIncendiaryGrenade.png
+      2728: Resources/HumanWeapons/Explosives/FloorIncendiaryGrenade.png
 
       2736: Resources/HumanWeapons/Melee/FloorSabre.png
       2744: Resources/HumanWeapons/Melee/FloorTrenchKnife.png
@@ -5961,7 +6194,7 @@ extraSprites:
 #      2824: Resources/HumanWeapons/Melee/FloorArditiKnife.png
 #      2832: Resources/HumanWeapons/Melee/FloorFrenchNail.png
 #      2840: Resources/HumanWeapons/Melee/FloorBoloMachete.png
-      2848: Resources/HumanWeapons/Melee/FloorCavalryLance.png
+      2848: Resources/HumanWeapons/Melee/FloorMMSabre.png
 #      2856: Resources/HumanWeapons/Melee/FloorCavalrySabre.png
 #      2864: Resources/HumanWeapons/Melee/FloorMedicBonesaw.png
 #      2872: Resources/HumanWeapons/Melee/FloorKyuGunto.png
@@ -5975,7 +6208,7 @@ extraSprites:
       2928: Resources/HumanWeapons/Medical/FloorMedicalSyringe.png
 #      2936: Resources/HumanWeapons/Medical/FloorSurgeryKit.png
 #      2944: Resources/HumanWeapons/Medical/FloorDeployableAidStation.png
-      2952: Resources/HumanWeapons/Medical/FloorAidStationDispenser.png
+      #2952: Resources/HumanWeapons/Medical/FloorAidStationDispenser.png
       2960: Resources/HumanWeapons/Medical/FloorBandages.png
       2968: Resources/HumanWeapons/Medical/FloorPainkiller.png
       2976: Resources/HumanWeapons/Medical/FloorWhistle.png
@@ -6089,7 +6322,7 @@ extraSprites:
       1088: Resources/HumanWeapons/Handgun/HandRevolver_Clip_DumDum.png
       1096: Resources/HumanWeapons/Handgun/HandColtM1911_nomag.png
       1104: Resources/HumanWeapons/Handgun/HandColtM1911_ammo1.png
-      1112: Resources/HumanWeapons/Handgun/HandColtM1911_ammo2.png
+      1112: Resources/HumanWeapons/Handgun/HandColtM1911_ammo1.png
       1136: Resources/HumanWeapons/Handgun/HandMauserC96_nomag.png
       1144: Resources/HumanWeapons/Handgun/HandMauserC96_ammo1.png
       1152: Resources/HumanWeapons/Handgun/HandMauserC96_ammo1.png
@@ -6133,6 +6366,8 @@ extraSprites:
       1592: Resources/HumanWeapons/Carbine/HandLugerArtillery_nomag.png
       1600: Resources/HumanWeapons/Carbine/HandLugerArtillery_ammo1.png
       1608: Resources/HumanWeapons/Carbine/HandLugerArtillery_ammo2.png
+      1616: Resources/HumanWeapons/Carbine/HandLugerArtillery_Drum.png
+      1624: Resources/HumanWeapons/Carbine/HandLugerArtillery_Drum_KMM.png
 #      1632: Resources/HumanWeapons/Carbine/HandNambuCarbine_nomag.png
 #      1640: Resources/HumanWeapons/Carbine/HandNambuCarbine_ammo1.png
 #      1648: Resources/HumanWeapons/Carbine/HandNambuCarbine_ammo2.png
@@ -6238,11 +6473,11 @@ extraSprites:
       2592: Resources/HumanWeapons/Explosives/HandFragGrenade.png
 #      2600: Resources/HumanWeapons/Explosives/HandSmokeBomb.png
       2608: Resources/HumanWeapons/Explosives/HandDynamite.png
-      2616: Resources/HumanWeapons/Explosives/HandGrenadeLauncher.png
-      2624: Resources/HumanWeapons/Explosives/HandGrenadeLauncherMustard.png
-      2632: Resources/HumanWeapons/Explosives/HandGrenadeLauncherStun.png
+      #2616: Resources/HumanWeapons/Explosives/HandGrenadeLauncher.png
+      #2624: Resources/HumanWeapons/Explosives/HandGrenadeLauncherMustard.png
+      #2632: Resources/HumanWeapons/Explosives/HandGrenadeLauncherStun.png
       2640: Resources/HumanWeapons/Explosives/HandFlamethrowerMk1.png
-      2648: Resources/HumanWeapons/Explosives/HandFlamethrowerMk2.png
+      #2648: Resources/HumanWeapons/Explosives/HandFlamethrowerMk2.png
       2656: Resources/HumanWeapons/Explosives/HandRifleGrenade.png
       2664: Resources/HumanWeapons/Explosives/HandGasGrenade.png
       2672: Resources/HumanWeapons/Explosives/HandFlareGun_nomag.png
@@ -6252,7 +6487,7 @@ extraSprites:
       2704: Resources/HumanWeapons/Explosives/HandLikhoninMortarShell.png
       2712: Resources/HumanWeapons/Explosives/HandNovitskiGrenade.png
 #      2720: Resources/HumanWeapons/Explosives/HandToxicGrenade.png
-#      2728: Resources/HumanWeapons/Explosives/HandIncendiaryGrenade.png
+      2728: Resources/HumanWeapons/Explosives/HandIncendiaryGrenade.png
 
       2736: Resources/HumanWeapons/Melee/HandSabre.png
       2744: Resources/HumanWeapons/Melee/HandTrenchKnife.png
@@ -6268,7 +6503,7 @@ extraSprites:
 #      2824: Resources/HumanWeapons/Melee/HandArditiKnife.png
 #      2832: Resources/HumanWeapons/Melee/HandFrenchNail.png
 #      2840: Resources/HumanWeapons/Melee/HandBoloMachete.png
-      2848: Resources/HumanWeapons/Melee/HandCavalryLance.png
+      2848: Resources/HumanWeapons/Melee/HandMMSabre.png
 #      2856: Resources/HumanWeapons/Melee/HandCavalrySabre.png
 #      2864: Resources/HumanWeapons/Melee/HandMedicBonesaw.png
 #      2872: Resources/HumanWeapons/Melee/HandKyuGunto.png
@@ -6282,7 +6517,7 @@ extraSprites:
       2928: Resources/HumanWeapons/Medical/HandMedicalSyringe.png
 #      2936: Resources/HumanWeapons/Medical/HandSurgeryKit.png
 #      2944: Resources/HumanWeapons/Medical/HandDeployableAidStation.png
-      2952: Resources/HumanWeapons/Medical/HandAidStationDispenser.png
+      #2952: Resources/HumanWeapons/Medical/HandAidStationDispenser.png
       2960: Resources/HumanWeapons/Medical/HandBandages.png
       2968: Resources/HumanWeapons/Medical/HandPainkiller.png
       2976: Resources/HumanWeapons/Medical/HandWhistle.png
@@ -6304,22 +6539,22 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/GunpowderWeapons/WW1_MEDIKIT.png
+      0: Resources/HumanWeapons/Medical/WW1_MEDIKIT.png
 #  - type: WW1_SURGERYKIT
 #    singleImage: true
 #    width: 320
 #    height: 200
 #    files:
-#      0: Resources/GunpowderWeapons/WW1_SURGERYKIT.png
+#      0: Resources/HumanWeapons/Medical/WW1_SURGERYKIT.png
   - type: Projectiles
     width: 105
     height: 9
     subX: 3
     subY: 3
     files:
-      385: Resources/GunpowderWeapons/BulletSprites/Ballistic_Bullet.png
-      490: Resources/GunpowderWeapons/BulletSprites/Ballistic_Bullet_MM.png
-      700: Resources/GunpowderWeapons/BulletSprites/FlameProjectile.png # 18x35
+      385: Resources/BulletSprites/Ballistic_Bullet.png
+      490: Resources/BulletSprites/Ballistic_Bullet_MM.png
+      700: Resources/BulletSprites/FlameProjectile.png # 18x35
 
   - type: HIT.PCK
     height: 40
@@ -6327,8 +6562,8 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      4: Resources/GunpowderWeapons/BulletSprites/CuttingHit.png
-      8: Resources/GunpowderWeapons/BulletSprites/FireHit.png
+      4: Resources/BulletSprites/CuttingHit.png
+      8: Resources/BulletSprites/FireHit.png
 
   - type: X1.PCK
     width: 1024
@@ -6336,8 +6571,8 @@ extraSprites:
     subX: 128
     subY: 64
     files:
-      208: Resources/GunpowderWeapons/BulletSprites/Green_Skull_Explosion.png
-      216: Resources/GunpowderWeapons/BulletSprites/Grey_Skull_Explosion.png
+      208: Resources/BulletSprites/Green_Skull_Explosion.png
+      216: Resources/BulletSprites/Grey_Skull_Explosion.png
 
 #########################################
 ######### UFOPEDIA IMAGES ###############
@@ -6599,9 +6834,12 @@ extended:
       FTAG_BUFF_VALUE_STRENGTH: int
       FTAG_BUFF_VALUE_PSISTRENGTH: int
       FTAG_BUFF_VALUE_PSISKILL: int
+      AIMED_2X_POWER: int
+      AIMED_5X_POWER: int
+      AIMED_10X_POWER: int
   scripts:
     hitUnit:
-      - offset: 3
+      - offset: 1
         code: |
           var ptr RuleItem itemRuleset;
           var int buffValueTimeUnits;
@@ -6708,4 +6946,37 @@ extended:
             clear newValue;
           end;
 
+          return power part side;
+      - offset: 2 #X2 POWER
+        code: |
+          var int temp;
+          if eq battle_action battle_action_aimshoot;
+            weapon_item.getTag temp Tag.AIMED_2X_POWER;
+            if neq temp 0;
+              # debug_log "hitUnit: yo, double up!";
+              mul power 2;
+            end;
+          end;
+          return power part side;
+      - offset: 3 #X5 POWER
+        code: |
+          var int temp;
+          if eq battle_action battle_action_aimshoot;
+            weapon_item.getTag temp Tag.AIMED_5X_POWER;
+            if neq temp 0;
+              # debug_log "hitUnit: yo, high five!";
+              mul power 5;
+            end;
+          end;
+          return power part side;
+      - offset: 4 #X10 POWER
+        code: |
+          var int temp;
+          if eq battle_action battle_action_aimshoot;
+            weapon_item.getTag temp Tag.AIMED_5X_POWER;
+            if neq temp 0;
+              # debug_log "hitUnit: yo, Ben 10!";
+              mul power 10;
+            end;
+          end;
           return power part side;
