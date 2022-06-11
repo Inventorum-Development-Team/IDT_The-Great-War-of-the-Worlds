@@ -53,6 +53,7 @@ soldiers:
 items:
   - type: STR_GERMAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 108
     floorSprite: 108
@@ -62,6 +63,7 @@ items:
     recover: false
   - type: STR_GERMAN_GASMASK_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 109
     floorSprite: 109
@@ -71,6 +73,7 @@ items:
     recover: false
 #  - type: STR_GERMAN_OFFICER_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 110
 #    floorSprite: 110
@@ -80,6 +83,7 @@ items:
 #    recover: false
   - type: STR_GERMAN_TRENCH_COAT_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 111
     floorSprite: 111
