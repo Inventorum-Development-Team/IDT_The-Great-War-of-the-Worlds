@@ -2073,34 +2073,34 @@ items:
     armor: 35
     #listOrder: 2031
 
-  - type: STR_REVOLVER_CARBINE
-    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_BRITISH_EQUIPMENT]
-    size: 0.1
-    costBuy: 2500
-    costSell: 900
-    weight: 3
-    bigSprite: 1440
-    floorSprite: 1440
-    handSprite: 1440
-    bulletSpeed: 17
-    fireSound: 100
-    reloadSound: 300
-    compatibleAmmo:
-      - STR_REVOLVER_CLIP
-      - STR_REVOLVER_CLIP_KMM
-      - STR_REVOLVER_CLIP_DUMDUM
-    accuracySnap: 60
-    accuracyAimed: 65
-    accuracyAuto: 45
-    accuracyCloseQuarters: 130
-    tuSnap: 15
-    tuAimed: 25
-    tuAuto: 15
-    invHeight: 2
-    invWidth: 1
-    battleType: 1
-    twoHanded: false
-    armor: 250
+  #- type: STR_REVOLVER_CARBINE
+  #  categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_BRITISH_EQUIPMENT]
+  #  size: 0.1
+  #  costBuy: 2500
+  #  costSell: 900
+  #  weight: 3
+  #  bigSprite: 1440
+  #  floorSprite: 1440
+  #  handSprite: 1440
+  #  bulletSpeed: 17
+  #  fireSound: 100
+  #  reloadSound: 300
+  #  compatibleAmmo:
+  #    - STR_REVOLVER_CLIP
+  #    - STR_REVOLVER_CLIP_KMM
+  #    - STR_REVOLVER_CLIP_DUMDUM
+  #  accuracySnap: 60
+  #  accuracyAimed: 65
+  #  accuracyAuto: 45
+  #  accuracyCloseQuarters: 130
+  #  tuSnap: 15
+  #  tuAimed: 25
+  #  tuAuto: 15
+  #  invHeight: 2
+  #  invWidth: 1
+  #  battleType: 1
+  #  twoHanded: false
+  #  armor: 250
     #listOrder: 2000
 
   - type: STR_MAUSER_C96_CARBINE
@@ -2121,6 +2121,7 @@ items:
     accuracyCloseQuarters: 140
     accuracySnap: 50
     accuracyAimed: 75
+    twoHanded: true
     tuSnap: 18
     tuAimed: 28
     invHeight: 2
@@ -5470,10 +5471,7 @@ research:
 
 
 extraSprites:
-
-
-
-  - type: BIGOB.PCK
+  - type: BIGOBS.PCK
     files:
       168: Resources/HumanWeapons/BoltAction/BigSMLE_nomag.png
       176: Resources/HumanWeapons/BoltAction/BigSMLE_ammo1.png
@@ -5553,7 +5551,7 @@ extraSprites:
       760: Resources/HumanWeapons/SelfLoading/BigSelbstladerM1916_Mag_KMM.png
       768: Resources/HumanWeapons/SelfLoading/BigRSC17_nomag.png
       776: Resources/HumanWeapons/SelfLoading/BigRSC17_ammo1.png
-      784: Resources/HumanWeapons/SelfLoading/BigRSC17_ammo2.png
+      784: Resources/HumanWeapons/SelfLoading/BigRSC17_ammo1.png
       792: Resources/HumanWeapons/SelfLoading/BigRSC17_Mag.png
       800: Resources/HumanWeapons/SelfLoading/BigRSC17_Mag_KMM.png
       808: Resources/HumanWeapons/SelfLoading/BigFedorovAvtomat_nomag.png
@@ -5637,10 +5635,10 @@ extraSprites:
       1416: Resources/HumanWeapons/Carbine/BigM1907SLCarbine_ammo2.png
       1424: Resources/HumanWeapons/Carbine/BigM1907SLCarbine_Mag.png
       1432: Resources/HumanWeapons/Carbine/BigM1907SLCarbine_Mag_KMM.png
-      1440: Resources/HumanWeapons/Carbine/BigRevolverCarbine_nomag.png
-      1448: Resources/HumanWeapons/Carbine/BigRevolverCarbine_ammo1.png
-      1456: Resources/HumanWeapons/Carbine/BigRevolverCarbine_ammo2.png
-      1464: Resources/HumanWeapons/Carbine/BigRevolverCarbine_ammo3.png
+      #1440: Resources/HumanWeapons/Carbine/BigRevolverCarbine_nomag.png
+      #1448: Resources/HumanWeapons/Carbine/BigRevolverCarbine_ammo1.png
+      #1456: Resources/HumanWeapons/Carbine/BigRevolverCarbine_ammo2.png
+      #1464: Resources/HumanWeapons/Carbine/BigRevolverCarbine_ammo3.png
       1472: Resources/HumanWeapons/Carbine/BigColtM1911Extended_nomag.png
       1480: Resources/HumanWeapons/Carbine/BigColtM1911Extended_ammo1.png
       1488: Resources/HumanWeapons/Carbine/BigColtM1911Extended_ammo2.png
@@ -5677,8 +5675,8 @@ extraSprites:
       1736: Resources/HumanWeapons/Carbine/BigArisakaType44Carbine_nomag.png
       1744: Resources/HumanWeapons/Carbine/BigArisakaType44Carbine_ammo1.png
       1752: Resources/HumanWeapons/Carbine/BigArisakaType44Carbine_ammo1.png
-      1760: Resources/HumanWeapons/Carbine/BigPhlogistonAutomaticCarbine_nomag.png
-      1768: Resources/HumanWeapons/Carbine/BigPhlogistonAutomaticCarbine_ammo1.png
+      1760: Resources/HumanWeapons/Carbine/BigPhlogistonPulseCarbine_nomag.png
+      1768: Resources/HumanWeapons/Carbine/BigPhlogistonPulseCarbine_ammo1.png
       1776: Resources/HumanWeapons/Carbine/BigPhlogistonSmallBattery.png
 #      1784: Resources/HumanWeapons/Carbine/BigGaussCarbine_nomag.png
 #      1792: Resources/HumanWeapons/Carbine/BigGaussCarbine_ammo1.png
@@ -5835,7 +5833,7 @@ extraSprites:
 #      2944: Resources/HumanWeapons/Medical/BigDeployableAidStation.png
       #2952: Resources/HumanWeapons/Medical/BigAidStationDispenser.png
       2960: Resources/HumanWeapons/Medical/BigBandages.png
-      2968: Resources/HumanWeapons/Medical/BigPainkiller.png
+      2968: Resources/HumanWeapons/Medical/BigPainkillers.png
       2976: Resources/HumanWeapons/Medical/BigWhistle.png
 #      2984: Resources/HumanWeapons/Medical/BigBagpipe.png
       2992: Resources/HumanWeapons/Medical/BigBread.png
@@ -5844,7 +5842,7 @@ extraSprites:
       3016: Resources/HumanWeapons/Medical/BigRottenCannedBeef.png
       3024: Resources/HumanWeapons/Medical/BigBiscuitBox.png
       3032: Resources/HumanWeapons/Medical/BigRottenBiscuitBox.png
-      3040: Resources/HumanWeapons/Medical/BigWine.png
+      3040: Resources/HumanWeapons/Medical/BigWineBottle.png
       3048: Resources/HumanWeapons/Medical/BigTeaFlask.png
 
 
@@ -5928,7 +5926,7 @@ extraSprites:
       760: Resources/HumanWeapons/SelfLoading/FloorSelbstladerM1916_Mag_KMM.png
       768: Resources/HumanWeapons/SelfLoading/FloorRSC17_nomag.png
       776: Resources/HumanWeapons/SelfLoading/FloorRSC17_ammo1.png
-      784: Resources/HumanWeapons/SelfLoading/FloorRSC17_ammo2.png
+      784: Resources/HumanWeapons/SelfLoading/FloorRSC17_ammo1.png
       792: Resources/HumanWeapons/SelfLoading/FloorRSC17_Mag.png
       800: Resources/HumanWeapons/SelfLoading/FloorRSC17_Mag_KMM.png
       808: Resources/HumanWeapons/SelfLoading/FloorFedorovAvtomat_nomag.png
@@ -6012,10 +6010,10 @@ extraSprites:
       1416: Resources/HumanWeapons/Carbine/FloorM1907SLCarbine_ammo2.png
       1424: Resources/HumanWeapons/Carbine/FloorM1907SLCarbine_Mag.png
       1432: Resources/HumanWeapons/Carbine/FloorM1907SLCarbine_Mag_KMM.png
-      1440: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_nomag.png
-      1448: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_ammo1.png
-      1456: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_ammo2.png
-      1464: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_ammo3.png
+      #1440: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_nomag.png
+      #1448: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_ammo1.png
+      #1456: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_ammo2.png
+      #1464: Resources/HumanWeapons/Carbine/FloorRevolverCarbine_ammo3.png
       1472: Resources/HumanWeapons/Carbine/FloorColtM1911Extended_nomag.png
       1480: Resources/HumanWeapons/Carbine/FloorColtM1911Extended_ammo1.png
       1488: Resources/HumanWeapons/Carbine/FloorColtM1911Extended_ammo2.png
@@ -6052,8 +6050,8 @@ extraSprites:
       1736: Resources/HumanWeapons/Carbine/FloorArisakaType44Carbine_nomag.png
       1744: Resources/HumanWeapons/Carbine/FloorArisakaType44Carbine_ammo1.png
       1752: Resources/HumanWeapons/Carbine/FloorArisakaType44Carbine_ammo1.png
-      1760: Resources/HumanWeapons/Carbine/FloorPhlogistonAutomaticCarbine_nomag.png
-      1768: Resources/HumanWeapons/Carbine/FloorPhlogistonAutomaticCarbine_ammo1.png
+      1760: Resources/HumanWeapons/Carbine/FloorPhlogistonPulseCarbine_nomag.png
+      1768: Resources/HumanWeapons/Carbine/FloorPhlogistonPulseCarbine_ammo1.png
       1776: Resources/HumanWeapons/Carbine/FloorPhlogistonSmallBattery.png
 #      1784: Resources/HumanWeapons/Carbine/FloorGaussCarbine_nomag.png
 #      1792: Resources/HumanWeapons/Carbine/FloorGaussCarbine_ammo1.png
@@ -6210,7 +6208,7 @@ extraSprites:
 #      2944: Resources/HumanWeapons/Medical/FloorDeployableAidStation.png
       #2952: Resources/HumanWeapons/Medical/FloorAidStationDispenser.png
       2960: Resources/HumanWeapons/Medical/FloorBandages.png
-      2968: Resources/HumanWeapons/Medical/FloorPainkiller.png
+      2968: Resources/HumanWeapons/Medical/FloorPainkillers.png
       2976: Resources/HumanWeapons/Medical/FloorWhistle.png
 #      2984: Resources/HumanWeapons/Medical/FloorBagpipe.png
       2992: Resources/HumanWeapons/Medical/FloorBread.png
@@ -6219,7 +6217,7 @@ extraSprites:
       3016: Resources/HumanWeapons/Medical/FloorRottenCannedBeef.png
       3024: Resources/HumanWeapons/Medical/FloorBiscuitBox.png
       3032: Resources/HumanWeapons/Medical/FloorRottenBiscuitBox.png
-      3040: Resources/HumanWeapons/Medical/FloorWine.png
+      3040: Resources/HumanWeapons/Medical/FloorWineBottle.png
       3048: Resources/HumanWeapons/Medical/FloorTeaFlask.png
 
   - type: HANDOB.PCK
@@ -6288,7 +6286,7 @@ extraSprites:
       744: Resources/HumanWeapons/SelfLoading/HandSelbstladerM1916_ammo2.png
       768: Resources/HumanWeapons/SelfLoading/HandRSC17_nomag.png
       776: Resources/HumanWeapons/SelfLoading/HandRSC17_ammo1.png
-      784: Resources/HumanWeapons/SelfLoading/HandRSC17_ammo2.png
+      784: Resources/HumanWeapons/SelfLoading/HandRSC17_ammo1.png
       808: Resources/HumanWeapons/SelfLoading/HandFedorovAvtomat_nomag.png
       816: Resources/HumanWeapons/SelfLoading/HandFedorovAvtomat_ammo1.png
       824: Resources/HumanWeapons/SelfLoading/HandFedorovAvtomat_ammo2.png
@@ -6350,10 +6348,10 @@ extraSprites:
       1400: Resources/HumanWeapons/Carbine/HandM1907SLCarbine_nomag.png
       1408: Resources/HumanWeapons/Carbine/HandM1907SLCarbine_ammo1.png
       1416: Resources/HumanWeapons/Carbine/HandM1907SLCarbine_ammo2.png
-      1440: Resources/HumanWeapons/Carbine/HandRevolverCarbine_nomag.png
-      1448: Resources/HumanWeapons/Carbine/HandRevolverCarbine_ammo1.png
-      1456: Resources/HumanWeapons/Carbine/HandRevolverCarbine_ammo2.png
-      1464: Resources/HumanWeapons/Carbine/HandRevolverCarbine_ammo3.png
+      #1440: Resources/HumanWeapons/Carbine/HandRevolverCarbine_nomag.png
+      #1448: Resources/HumanWeapons/Carbine/HandRevolverCarbine_ammo1.png
+      #1456: Resources/HumanWeapons/Carbine/HandRevolverCarbine_ammo2.png
+      #1464: Resources/HumanWeapons/Carbine/HandRevolverCarbine_ammo3.png
       1472: Resources/HumanWeapons/Carbine/HandColtM1911Extended_nomag.png
       1480: Resources/HumanWeapons/Carbine/HandColtM1911Extended_ammo1.png
       1488: Resources/HumanWeapons/Carbine/HandColtM1911Extended_ammo2.png
@@ -6380,8 +6378,8 @@ extraSprites:
       1736: Resources/HumanWeapons/Carbine/HandArisakaType44Carbine_nomag.png
       1744: Resources/HumanWeapons/Carbine/HandArisakaType44Carbine_ammo1.png
       1752: Resources/HumanWeapons/Carbine/HandArisakaType44Carbine_ammo1.png
-      1760: Resources/HumanWeapons/Carbine/HandPhlogistonAutomaticCarbine_nomag.png
-      1768: Resources/HumanWeapons/Carbine/HandPhlogistonAutomaticCarbine_ammo1.png
+      1760: Resources/HumanWeapons/Carbine/HandPhlogistonPulseCarbine_nomag.png
+      1768: Resources/HumanWeapons/Carbine/HandPhlogistonPulseCarbine_ammo1.png
       1776: Resources/HumanWeapons/Carbine/HandPhlogistonSmallBattery.png
 #      1784: Resources/HumanWeapons/Carbine/HandGaussCarbine_nomag.png
 #      1792: Resources/HumanWeapons/Carbine/HandGaussCarbine_ammo1.png
@@ -6519,7 +6517,7 @@ extraSprites:
 #      2944: Resources/HumanWeapons/Medical/HandDeployableAidStation.png
       #2952: Resources/HumanWeapons/Medical/HandAidStationDispenser.png
       2960: Resources/HumanWeapons/Medical/HandBandages.png
-      2968: Resources/HumanWeapons/Medical/HandPainkiller.png
+      2968: Resources/HumanWeapons/Medical/HandPainkillers.png
       2976: Resources/HumanWeapons/Medical/HandWhistle.png
 #      2984: Resources/HumanWeapons/Medical/HandBagpipe.png
       2992: Resources/HumanWeapons/Medical/HandBread.png
@@ -6528,7 +6526,7 @@ extraSprites:
       3016: Resources/HumanWeapons/Medical/HandRottenCannedBeef.png
       3024: Resources/HumanWeapons/Medical/HandBiscuitBox.png
       3032: Resources/HumanWeapons/Medical/HandRottenBiscuitBox.png
-      3040: Resources/HumanWeapons/Medical/HandWine.png
+      3040: Resources/HumanWeapons/Medical/HandWineBottle.png
       3048: Resources/HumanWeapons/Medical/HandTeaFlask.png
 
 
@@ -6802,7 +6800,7 @@ extraStrings:
       STR_DRINK: Drink!
       STR_PATCHING_WOUND: Patching!
       STR_APPLY_PAINKILLER: Painkiller!
-      
+
       STR_TESLA_PROTOTYPE: "Tesla 'Thunder' Prototype"
       STR_TESLA_PROTOTYPE_UFOPEDIA: "The very first successful application of electrical weaponry made by Nikola Tesla. It's hard to classify this piece of machinery, as it could fit a variety of roles. The Low Powered shot consumes less Battery than other Electric weapons and the High Powered shot greatly amplifies the damage output. The range and accuracy are decent."
       STR_TESLA_TRENCH_BROOM: "Tesla 'Hurricane' Trench Broom"
@@ -6812,7 +6810,7 @@ extraStrings:
       STR_TESLA_SMG: "Tesla 'Typhoon' SMG"
       STR_TESLA_SMG_UFOPEDIA:
       STR_TESLA_AUTOCANNON: "Tesla 'Hailstorm' Cannon"
-      STR_TESLA_AUTOCANNON_UFOPEDIA: 
+      STR_TESLA_AUTOCANNON_UFOPEDIA:
 ##########################################
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
