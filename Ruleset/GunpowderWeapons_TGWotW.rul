@@ -6802,6 +6802,17 @@ extraStrings:
       STR_DRINK: Drink!
       STR_PATCHING_WOUND: Patching!
       STR_APPLY_PAINKILLER: Painkiller!
+      
+      STR_TESLA_PROTOTYPE: "Tesla 'Thunder' Prototype"
+      STR_TESLA_PROTOTYPE_UFOPEDIA: "The very first successful application of electrical weaponry made by Nikola Tesla. It's hard to classify this piece of machinery, as it could fit a variety of roles. The Low Powered shot consumes less Battery than other Electric weapons and the High Powered shot greatly amplifies the damage output. The range and accuracy are decent."
+      STR_TESLA_TRENCH_BROOM: "Tesla 'Hurricane' Trench Broom"
+      STR_TESLA_TRENCH_BROOM_UFOPEDIA: "A devastating Electric weapon meant to maximize lethal damage at close range. A heavy coil and the removal of the rails makes itn highly impredecible and powerful."
+      STR_TESLA_PISTOL: "Tesla 'Lightning' Pistol"
+      STR_TESLA_PISTOL_UFOPEDIA:
+      STR_TESLA_SMG: "Tesla 'Typhoon' SMG"
+      STR_TESLA_SMG_UFOPEDIA:
+      STR_TESLA_AUTOCANNON: "Tesla 'Hailstorm' Cannon"
+      STR_TESLA_AUTOCANNON_UFOPEDIA: 
 ##########################################
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
