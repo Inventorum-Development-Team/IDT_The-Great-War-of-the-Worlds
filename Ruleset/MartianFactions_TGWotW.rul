@@ -139,7 +139,7 @@
     floorSprite: 31
     handSprite: 104
     bulletSprite: 11
-    fireSound: 112
+    fireSound: 500
     hitSound: 19
     hitAnimation: 57
     power: 110
@@ -780,11 +780,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Martians/CerebrealRace/ufopaedia_CEREBREAL.gif
-
-extraSounds:
-  - type: BATTLE.CAT
-    files:
-      112: Resources/Martians/CerebrealRace/CerebrealBlast.wav
 
 extraStrings:
   - type: en-US

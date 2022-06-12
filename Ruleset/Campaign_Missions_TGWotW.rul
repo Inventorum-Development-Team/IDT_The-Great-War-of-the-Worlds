@@ -43,17 +43,17 @@ alienMissions:
     points: 0
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
       1:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
       3:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
     waves:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 1
@@ -71,17 +71,20 @@ alienMissions:
     points: 0
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_SECTOIDS: 50
+        STR_MARTIAN_SCIENCE_TEAM: 50
       1:
-        STR_SECTOIDS: 100
+        STR_SECTOIDS: 50
+        STR_MARTIAN_SCIENCE_TEAM: 50
       3:
-        STR_SECTOIDS: 100
+        STR_SECTOIDS: 50
+        STR_MARTIAN_SCIENCE_TEAM: 50
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
     waves:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 3
@@ -122,15 +125,19 @@ alienMissions:
       0:
         STR_SECTOIDS: 100
       1:
-        STR_SECTOIDS: 100
+        STR_SECTOIDS: 50
+        STR_MARTIAN_SKIRMISHERS: 50
       3:
-        STR_SECTOIDS: 100
+        STR_SECTOIDS: 25
+        STR_MARTIAN_LINE_INFANTRIES: 50
+        STR_MARTIAN_SKIRMISHERS: 25
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SKIRMISHERS: 50
+        STR_MARTIAN_LINE_INFANTRIES: 50
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_LINE_INFANTRIES: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_LINE_INFANTRIES: 100
     waves:
       - ufo: NIMBLE_FIGHTER
         count: 1
@@ -159,17 +166,17 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SKIRMISHERS: 100
       1:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SKIRMISHERS: 100
       3:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SKIRMISHERS: 100
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SHOCK_GUARDS: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SHOCK_GUARDS: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SHOCK_GUARDS: 100
     waves:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 1
@@ -210,17 +217,17 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       1:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       3:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_ROYAL_GUARDS: 100
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_ROYAL_GUARDS: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_ROYAL_GUARDS: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_ROYAL_GUARDS: 100
     waves:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 1
@@ -249,7 +256,7 @@ alienMissions:
     spawnUfo: STR_MARTIAN_SIEGE_WALKER # Spawned for the final retaliation run
     raceWeights: # In the case of a shootdown, race comes from the UFO that triggered the mission.
       0:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SHOCK_GUARDS: 100
     waves:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 1
@@ -279,15 +286,15 @@ alienMissions:
       0:
         STR_SECTOIDS: 100
       1:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SKIRMISHERS: 100
       3:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_LINE_INFANTRIES: 100
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_LINE_INFANTRIES: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_SHOCK_GUARDS: 100
     waves:
       - ufo: SUPPORT_BOAT
         count: 1
@@ -328,17 +335,17 @@ alienMissions:
     operationType: 6
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       1:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       3:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
     waves:
       - ufo: NIMBLE_FIGHTER
         count: 1
@@ -360,17 +367,17 @@ alienMissions:
     operationType: 6
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       1:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       3:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
     waves:
       - ufo: NIMBLE_FIGHTER
         count: 1
@@ -400,17 +407,17 @@ alienMissions:
     operationType: 6
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       1:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       3:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       5:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       7:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
       9:
-        STR_SECTOIDS: 100
+        STR_MARTIAN_MARINES: 100
     waves:
       - ufo: NIMBLE_FIGHTER
         count: 1
