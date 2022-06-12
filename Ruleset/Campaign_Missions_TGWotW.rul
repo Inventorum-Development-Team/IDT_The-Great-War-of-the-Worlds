@@ -71,13 +71,13 @@ alienMissions:
     points: 0
     raceWeights:
       0:
-        STR_SECTOIDS: 50
+        STR_SECTOID: 50
         STR_MARTIAN_SCIENCE_TEAM: 50
       1:
-        STR_SECTOIDS: 50
+        STR_SECTOID: 50
         STR_MARTIAN_SCIENCE_TEAM: 50
       3:
-        STR_SECTOIDS: 50
+        STR_SECTOID: 50
         STR_MARTIAN_SCIENCE_TEAM: 50
       5:
         STR_MARTIAN_SCIENCE_TEAM: 100
@@ -123,12 +123,12 @@ alienMissions:
     points: 0
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_SECTOID: 100
       1:
-        STR_SECTOIDS: 50
+        STR_SECTOID: 50
         STR_MARTIAN_SKIRMISHERS: 50
       3:
-        STR_SECTOIDS: 25
+        STR_SECTOID: 25
         STR_MARTIAN_LINE_INFANTRIES: 50
         STR_MARTIAN_SKIRMISHERS: 25
       5:
@@ -284,7 +284,7 @@ alienMissions:
     spawnZone: 3 #Mission zone for terror missions
     raceWeights:
       0:
-        STR_SECTOIDS: 100
+        STR_SECTOID: 100
       1:
         STR_MARTIAN_SKIRMISHERS: 100
       3:

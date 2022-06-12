@@ -556,7 +556,7 @@ alienRaces:
 #alienRank: 7 - Terror unit 2
 
 
-  - id: STR_SECTOIDS
+  - id: STR_SECTOID
     members:
       - STR_SECTOID_SOLDIER
       - STR_SECTOID_SOLDIER
