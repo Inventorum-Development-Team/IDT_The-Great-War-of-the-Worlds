@@ -66,6 +66,9 @@ items:
   - type: STR_MOSIN_NAGANT #ignoreDuplicate
     tags:
       WEAPON_TYPE: 1 # Rifles
+  - type: STR_WINCHESTER_M1915 #ignoreDuplicate
+    tags:
+      WEAPON_TYPE: 1 # Rifles
   - type: STR_BERDAN_II #ignoreDuplicate
     tags:
       WEAPON_TYPE: 1 # Rifles
@@ -130,9 +133,9 @@ items:
   - type: STR_M1907_SL_CARBINE #ignoreDuplicate
     tags:
       WEAPON_TYPE: 4 # Carbines
-  - type: STR_REVOLVER_CARBINE #ignoreDuplicate
-    tags:
-      WEAPON_TYPE: 4 # Carbines
+  #- type: STR_REVOLVER_CARBINE #ignoreDuplicate
+  #  tags:
+  #    WEAPON_TYPE: 4 # Carbines
   - type: STR_MAUSER_C96_CARBINE #ignoreDuplicate
     tags:
       WEAPON_TYPE: 4 # Carbines
