@@ -126,6 +126,51 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/TACTICBACK08.PNG
+
+##########################################
+########### USER INTERFACE ###############
+##########################################
+
+  - type: InvCopy
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy.png
+  - type: InvCopyActive
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy_active.png
+  - type: InvPaste
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste.png
+  - type: InvPasteEmpty
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste_empty.png
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: Resources/UI/TAC01.png
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: Resources/UI/ui.png
+  - type: KneelButton
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/UI/kneelButton.png
+
 ##########################################
 ############ GLOBE MARKERS ###############
 ##########################################
@@ -182,11 +227,11 @@ extraSprites:
 #   - STR_BELT
 
 crafts:
-  - type: STR_SPAD
+  - type: STR_SPAD # ignoreDuplicate
     marker: 9
-  - type: STR_RCLASS_AIRSHIP
+  - type: STR_RCLASS_AIRSHIP # ignoreDuplicate
     marker: 10
-  - type: STR_CONQUEROR
+  - type: STR_CONQUEROR # ignoreDuplicate
     marker: 11
 
 ufos:
