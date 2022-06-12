@@ -4,5 +4,5 @@ author: "Andr, efrenespartano, Hans Woofington, Luke83, The Reaver of Darkness, 
 description: "Defend the planet from the Martians on this alternate WW1!"
 id: tgwotw
 master: xcom1
-reservedSpace: 4
+reservedSpace: 5
 requiredExtendedVersion: "7.0"
