@@ -427,6 +427,7 @@ items:
     invWidth: 0
     invHeight: 0
     recover: false
+    battleType: 11
   - type: STR_CONQUEROR_TURRET_CORPSE_2
     floorSprite: 805
     armor: 255
