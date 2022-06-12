@@ -60,6 +60,442 @@
 # Example of a mod where the script is used: https://github.com/Inventorum-Development-Team/CTO
 
 items:
+###############################
+########### RIFLES ###########
+#############################
+  - type: STR_SMLE_MKIII #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SMLE_MKIII_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SMLE_MKIII_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_P14_ENFIELD #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SPRINGFIELD #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SPRINGFIELD_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SPRINGFIELD_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_GEWEHR98 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_GEWEHR98_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_GEWEHR98_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_LEBEL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_LEBEL_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LEBEL_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_MOSIN_NAGANT #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_MOSIN_NAGANT_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MOSIN_NAGANT_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_WINCHESTER_M1915 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_BERDAN_II #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_BERDAN_II_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_BERDAN_II_AMMO_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PHLOGISTON_HEAVY_RIFLE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_PHLOGISTON_RUBY_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_FARQHUAR_HILL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_FARQHUAR_HILL_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_FARQHUAR_HILL_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MONDRAGON #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_MONDRAGON_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MONDRAGON_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_SELBSTLADER_M1916 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SELBSTLADER_M1916_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SELBSTLADER_M1916_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RSC17 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_RSC17_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RSC17_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_FEDOROV_AVTOMAT #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_FEDOROV_AVTOMAT_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_FEDOROV_AVTOMAT_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_CEI_RIGOTTI #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_CEI_RIGOTTI_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_CEI_RIGOTTI_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PHLOGISTON_BATTLE_RIFLE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_PHLOGISTON_MEDIUM_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+###############################
+########## SIDEARMS ##########
+#############################
+  - type: STR_AUTOMATIC_REVOLVER #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_REVOLVER_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_REVOLVER_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_REVOLVER_CLIP_DUMDUM # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_HEAVY_REVOLVER #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+
+  - type: STR_SERVICE_REVOLVER #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+
+  - type: STR_M1911_COLT #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_M1911_COLT_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_M1911_COLT_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MAUSER_C96 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_MAUSER_C96_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MAUSER_C96_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LUGER_P08 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_LUGER_P08_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LUGER_P08_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_OBREZ_PISTOL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_TESLA_PISTOL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_PHLOGISTON_PISTOL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_PHLOGISTON_SMALL_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+###############################
+########## CARBINES ##########
+#############################
+  - type: STR_M1907_SL_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_M1907_SL_CARBINE_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_M1907_SL_CARBINE_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  #- type: STR_REVOLVER_CARBINE #ignoreDuplicate
+  #  tags:
+  #    AmmoReSprite: 1 # Carbines
+  - type: STR_MAUSER_C96_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_MAUSER_C96_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MAUSER_C96_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LUGER_ARTILLERY #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_LUGER_ARTILLERY_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LUGER_ARTILLERY_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RSC_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+
+  - type: STR_CARCANO_M91_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_CARCANO_M91_CARBINE_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_CARCANO_M91_CARBINE_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PHLOGISTON_AUTOMATIC_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+
+#  - type: STR_CARBINE
+#    tags:
+#      AmmoReSprite: 1 # Carbines
+
+###############################
+########### SMGS #############
+#############################
+  - type: STR_ANNIHILATOR_SMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_ANNIHILATOR_SMG_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_ANNIHILATOR_SMG_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MP18 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_MP18_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MP18_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_SMG_0818 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_SMG_0818_BOX # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SMG_0818_BOX_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_BERETTA_MAB18 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_BERETTA_MAB18_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_BERETTA_MAB18_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_VILLAR_PEROSA #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_VILLAR_PEROSA_MAGS # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_VILLAR_PEROSA_MAGS_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_TESLA_PROTOTYPE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_TESLA_LIGHT_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_TESLA_SMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+#  - type: STR_SMG
+#    tags:
+#      AmmoReSprite: 1 # SMGs
+
+###############################
+########### LMGS #############
+#############################
+  - type: STR_HUOT_LMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_HUOT_LMG_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HUOT_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_BAR #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_BAR_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_BAR_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MG0815 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_MG0815_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MG0815_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_CHAUCHAT_LMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_CHAUCHAT_LMG_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_CHAUCHAT_LMG_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIBEYROLLES #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_RIBEYROLLES_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RIBEYROLLES_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LEWIS_GUN #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_LEWIS_GUN_PAN # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LEWIS_GUN_PAN_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MADSEN_LMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_MADSEN_LMG_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MADSEN_LMG_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_TESLA_AUTOCANNON #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_TESLA_HEAVY_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+#  - type: STR_LMG
+#    tags:
+#      AmmoReSprite: 1 # LMGs
+
+
+###############################
+########## SHOTGUNS ##########
+#############################
+  - type: STR_WINCHESTER_TRENCH_GUN #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SHOTGUN_DUMDUM_SHELLS_5 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_REMINGTON_MODEL_11 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_INERTIA_SHOTGUN #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_MODEL_1900 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_2 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SHOTGUN_DUMDUM_SHELLS_2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MODEL_1900_SAWEDOFF #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_TESLA_TRENCH_BROOM #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_TESLA_EXTENDED_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+
 #################################
 ###### Heat Ray Weapons ########
 ###############################
