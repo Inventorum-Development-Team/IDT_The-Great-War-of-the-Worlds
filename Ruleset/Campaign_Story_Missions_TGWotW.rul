@@ -580,6 +580,78 @@ ufos:
           length: 10
 
 missionScripts:
+  - delete: gameStart
+  - delete: recon
+  - delete: invasion
+  - delete: researchRetaliation
+  - delete: beginnerRetaliation
+  - delete: experiencedRetaliation
+  - delete: veteranRetaliation
+  - delete: geniusRetaliation
+  - delete: superhumanRetaliation
+  - delete: recurringTerror
+##############################
+
+  - type: recurringTerrorNormal
+#    label: 1
+    varName: recurringTerrorNormal
+    firstMonth: 4
+    executionOdds: 100
+    missionWeights:
+      0:
+        STR_ALIEN_TERROR: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 15
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 15
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 10
+        STR_CENTRAL_ASIA: 10
+        STR_SOUTH_EAST_ASIA: 10
+        STR_SIBERIA: 10
+        STR_AUSTRALASIA: 10
+    useTable: false
+    #researchTriggers:
+    # STR_UNITED_WE_STAND_RESEARCH: false
+    startDelay: 30
+    randomDelay: 43500
+
+  - type: alienResearch
+    missionWeights:
+      0:
+        STR_ALIEN_HARVEST: 50
+        STR_ALIEN_ABDUCTION: 50
+    firstMonth: 3
+    startDelay: 150
+    #researchTriggers:
+    #  STR_DEVASTATION_COMPLETED: false
+
+
+  - type: Retaliation
+    missionWeights:
+      0:
+        STR_ALIEN_RETALIATION: 100
+    startDelay: 20
+    randomDelay: 43500
+    targetBaseOdds: 100
+    minScore: 1000
+    firstMonth: 5
+    useTable: false
+
+  - type: alienConstruction
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 50
+        STR_ALIEN_BASE: 50
+    firstMonth: 6
+    startDelay: 1000
+    randomDelay: 43500
+    maxRuns: 6
+    varName: alienConstruction
+    executionOdds: 80
+
+###################################
   - type: CampaignStoryActOneVerdun
     missionWeights:
       0:
