@@ -8247,6 +8247,14 @@ extraStrings:
       STR_UNPRIME_GRENADE: Unprime Grenade
       STR_BURST: Burst
       STR_RAPID_FIRE: Rapid Fire
+      STR_SLAM_FIRE: Slam Fire
+      STR_SLAM_FIRE_SHORT: Slam Fire
+      STR_SUPPRESSION: Suppression
+      STR_SUPPRESSION_SHORT: Suppression
+      STR_BURST: Burst 
+      STR_BURST_SHORT: Burst 
+      STR_PRAY_N_SPRAY: Pray n' Spray 
+      STR_PRAY_N_SPRAY_SHORT: Spray
       STR_AUTOMATIC_REVOLVER: Automatic Revolver
       STR_REVOLVER_CLIP: Revolver Speedloader
       STR_REVOLVER_CLIP_KMM: Revolver K-MM Speedloader
@@ -8256,7 +8264,11 @@ extraStrings:
         soldiers entrust it their life. If you keep your finger on the trigger,
         you can shoot the 6 bullets in rapid succession. It is recharged using a
         'speedloader' which places the 6 cartridges at the same time on the
-        weapon drum.
+        weapon drum. 
+      STR_SERVICE_REVOLVER: Service Revolver 
+      STR_SERVICE_REVOLVER_UFOPEDIA: Single-action revolver, trustworthy sidegun used in several armies and law enforcement forces. Its sturdy design is designed to endure even in the worst conditions. 
+      STR_HEAVY_REVOLVER: Heavy Revolver
+      STR_HEAVY_REVOLVER_UFOPEDIA: A bit cumbersome and difficult sidearm, most preferred by Central European troops. Being single-action, it's rate of fire is limited. This is compensated ny the better accuracy, compared to other revolvers.
       STR_SMLE_MKIII: SMLE Mk III
       STR_SMLE_MKIII_CLIP: SMLE Mk III Clip
       STR_SMLE_MKIII_CLIP_KMM: SMLE Mk III K-MM Clip
@@ -8266,42 +8278,50 @@ extraStrings:
         gun. It is recharged using two stripper clips with 5 bullets each one.
         Its iron sight is comfortable and precise for long range shooting.
       STR_FARQHUAR_HILL: Farqhuar-Hill SLR
-      STR_FARQHUAR_HILL_DRUM: Farqhuar-Hill Drum
+      STR_FARQHUAR_HILL_DRUM: Farqhuar-Hill Drum 
+      STR_FARQHUAR_HILL_DRUM_KMM: Farqhuar-Hill K-MM Drum 
       STR_FARQHUAR_HILL_UFOPEDIA: Next-generation British autoloader rifle. Its drum magazine
         allows you to charge twice as much ammunition. It has a great rate of
         fire, although it has awkard recoild and inaccuracy over long distances, it
-        is recommended to shoot in short bursts. Uses .303 British K-MM bullets.
+        is recommended to shoot in short bursts. Calibered in .303 British.
       STR_HUOT_LMG: Huot Automatic Rifle
-      STR_HUOT_LMG_DRUM: Huot Automatic Drum
+      STR_HUOT_LMG_DRUM: Huot Automatic Drum 
+      STR_HUOT_LMG_DRUM_KMM: Huot Automatic K-MM Drum
       STR_HUOT_LMG_UFOPEDIA: One of the cheapest light machine guns produced by the
         Commonwealth. Extremely reliable and durable, it is not affected by mud.
         All the Ross rifles in the Canadian arsenal were converted into this new
         automatic weapon. Employs a gas mechanism designed by engineer Joseph
-        Huot, replacing the Lewis machine gun as a "fire on the move" weapon. He
+        Huot, replacing the Lewis machine gun as a 'fire on the move' weapon. It
         uses .303 British caliber bullets.
       STR_M1911_COLT: M1911 Colt
-      STR_M1911_COLT_MAG: M1911 Colt
+      STR_M1911_COLT_MAG: M1911 Colt Mag 
+      STR_M1911_COLT_MAG_KMM: M1911 Colt K-MM Mag
       STR_M1911_COLT_UFOPEDIA: Iconic American handgun. Motivated to replace revolvers
         in service with the armed forces, this innovative gun designed by John
         M. Browning uses the powerful .45 ACP high stopping power cartridge,
         similar to that used by Old West revolvers. Its robust design resulted
         in a semiautomatic, reliable and very resistant weapon.
       STR_SPRINGFIELD: M1903 Springfield Bayoneted
-      STR_SPRINGFIELD_CLIP: M1903 Springfield Clip
+      STR_SPRINGFIELD_CLIP: M1903 Springfield Clip 
+      STR_SPRINGFIELD_CLIP_KMM: M1903 Springfield K-MM Clip
       STR_SPRINGFIELD_UFOPEDIA: Bolt-action rifle of American design, caliber .30-06,
         based on the bolt-action mechanism of the German Mauser Gewehr 98. It
         replaced the old Krag rifle and is supplied en masse to troops of the US
         Army. It is equipped with a bayonet for close combat.
       STR_BAR: BAR
-      STR_BAR_MAG: BAR Clip
+      STR_BAR_MAG: BAR Mag 
+      STR_BAR_MAG_KMM: BAR K-MM Mag
       STR_BAR_UFOPEDIA: Browning Automatic Rifle, the most recent addition to the
         American arsenal. The Ace under the sleeve of U.S. Army, the project was
         secret until its massive deployment. This automatic rifle was designed
         to being fired from the hip or shoulder, providing large amounts of fire
         when assaulting an enemy position, but not to hold a sustained fire rate
-        for a long time. Uses .30-06 K-MM rounds.
-      STR_WINCHESTER_TRENCH_GUN: Trench Gun
-      STR_SHOTGUN_BUCKSHOT_SHELLS_5: Trench Gun Shells
+        for a long time. Uses .30-06 rounds.
+      STR_WINCHESTER_TRENCH_GUN: Winchester M97 'Trench Gun'
+      STR_SHOTGUN_BUCKSHOT_SHELLS_5: .12 Gauge Buckshot Shells (x5)
+      STR_SHOTGUN_DUMDUM_SHELLS_5: .12 Gauge 'Dum-dum' Slugs (x5)
+      STR_SHOTGUN_BUCKSHOT_SHELLS_2: .12 Gauge Buckshot Shells (x2)
+      STR_SHOTGUN_DUMDUM_SHELLS_2: .12 Gauge 'Dum-dum' Slugs (x2)
       STR_WINCHESTER_TRENCH_GUN_UFOPEDIA: Winchester shotgun Model 1897, designed by
         gun genius John M. Browning. It is a pump-action shotgun, which allows
         you to shoot without releasing the trigger. It fires .12 Gauge
@@ -8309,15 +8329,16 @@ extraStrings:
         against humans. It is the weapon of choice for many infantry soldiers,
         perfect for clearing trenches and enemy positions.
       STR_MONDRAGON: Mondragon Bayoneted
-      STR_MONDRAGON_CLIP: Mondragon Clip
+      STR_MONDRAGON_MAG: Mondragon Mag 
+      STR_MONDRAGON_MAG_KMM: Mondragon K-MM Mag
       STR_MONDRAGON_UFOPEDIA: Semi-automatic rifle of Mexican design, the first to be
         supplied to the troops of a regular army, widely used by the Mexican
         regiments of the U.S. Army and the guerrilla of Pancho Villa, although
         it is also produced under license by the Swiss firm SIG. Equipped with
-        an Entropium bayonet for CQC. The American Mondragons use K-MM .30-06
+        an Entropium bayonet for CQC. The American Mondragons use .30-06
         caliber bullets and the Swiss, at German request, 7.92x57mm Mauser.
       STR_GEWEHR98: Mauser 'Standard' Rifle
-      STR_GEWEHR98_CLIP: 7.92x57mm Clip (x5)
+      STR_GEWEHR98_CLIP: Mauser 'Standard' Clip
       STR_GEWEHR98_UFOPEDIA: Very reliable bolt-action rifle of German, has seen
         combat all over the world. From the European forests and the Asian
         steppes to the Mexican deserts and the South American jungles, it's the
@@ -8327,27 +8348,30 @@ extraStrings:
         by local armories outside Germany.
       STR_MAUSER_C96: Mauser C96
       STR_MAUSER_C96_CLIP: Mauser C96 Clip
+      STR_MAUSER_C96_CLIP_KMM: Mauser C96 K-MM Clip
       STR_MAUSER_C96_UFOPEDIA: The C96 pistol, built by Mauser, was the first truly
         successful semiautomatic pistol model. Almost all civilians and police
         forces in Western Europe use it, as reliable as it is. It is fed by
         stripper clips with bullets calibrated in 7.63 mm
-      STR_MG0815: MG-08/15
-      STR_MG0815_DRUM: MG-08/15 Drum
+      STR_MG0815: MG-08/14
+      STR_MG0815_DRUM: MG-08/14 Drum 
+      STR_MG0815_DRUM_KMM: MG-08/14 K-MM Drum
       STR_MG0815_UFOPEDIA: German heavy machine gun, effective both mounted on bipods
         and in vehicles. It has been adapted for use by the infantry, although
-        the weight makes it inaccurate if the soldier is not driven at the time
-        of firing. It has a very high rate of fire. Uses 7.92 mm K-MM bullets
-      STR_SELBSTLADER_M1916: Selbstlader M1915 Scoped
-      STR_SELBSTLADER_M1916_CLIP: Selbstlader M1915 Clip
+        the weight makes it inaccurate if the soldier is not kneeling when firing. It has a very high rate of fire. Uses 7.92mm bullets
+      STR_SELBSTLADER_M1916: Selbstlader M1913 Scoped
+      STR_SELBSTLADER_M1916_MAG: Selbstlader M1913 Mag 
+      STR_SELBSTLADER_M1916_MAG_KMM: Selbstlader M1913 K-MM Mag
       STR_SELBSTLADER_M1916_UFOPEDIA: German word for 'Selfloading', the most refined
         model of the semi-automatic rifles designed by Mauser, this weapon
         employs high-capacity magazine and great precision at medium and long
         range, but a very low fire rate and considerable recoil. Equipped with a
-        Warner & Swasey sight that allows to aim with precision, they make this
+        Warner & Swasey sight that allows to aim with precision, making this
         rifle terrible in close combat, but excellent for shooting at a safe
         distance.
       STR_LEBEL: Lebel M1886 Bayoneted
-      STR_LEBEL_CLIP: Lebel M1886 Clip
+      STR_LEBEL_CLIP: Lebel M1886 Clip 
+      STR_LEBEL_CLIP_KMM: Lebel M1886 K-MM Clip
       STR_LEBEL_UFOPEDIA: The Rifle Model 1886, better known as Lebel rifle. The 8mm
         caliber rifle can hold 8 cartridges in an internal tubular magazine,
         making it slow to reload. It introduced modernity into the world of
@@ -8355,7 +8379,8 @@ extraStrings:
         smoke-free gunpowder based on nitrocellulose and lead bullets fully
         coated with nickel silver.
       STR_CHAUCHAT_LMG: CSRG Chauchat LMG
-      STR_CHAUCHAT_LMG_CLIP: CSRG Chauchat Mag
+      STR_CHAUCHAT_LMG_MAG: CSRG Chauchat Mag 
+      STR_CHAUCHAT_LMG_MAG_KMM: CSRG Chauchat K-MM Mag
       STR_CHAUCHAT_LMG_UFOPEDIA: The Chauchat machine gun is the common name for the
         Mle 1912 CSRG machine gun. It was commissioned in the French infantry in
         1912 and was also widely used by the American army in 1913. It is a
@@ -8368,7 +8393,7 @@ extraStrings:
         French tank crews. It was the first weapon used from the tank's firing
         position. It was also used as a defense weapon if the crew had to leave
         the aircraft. The curiosity of the weapon consisted in the presence of a
-        bipod (unusual for such a small weapon) and a bayonet.
+        bipod, unusual for such a small weapon.
       STR_RSC17: RSC14
       STR_RSC17_CLIP: RSC14 Clip
       STR_RSC17_UFOPEDIA: The Model 1914 Rifle (also called RSC M1914 - for
