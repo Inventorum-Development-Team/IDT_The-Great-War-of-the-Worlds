@@ -90,21 +90,21 @@ items:
     damageAlter:
       RandomType: 2
       IgnoreOverKill: true
-      ToArmorPre: 0.25
+      ToArmorPre: 0.3
       RandomWound: false
   - &MediumPhlogistonAntiArmor
     type: STR_MEDIUM_PHLOGISTON_ANTIARMOR_NODE
     damageAlter:
       RandomType: 2
       IgnoreOverKill: true
-      ToArmorPre: 0.3
+      ToArmorPre: 0.4
       RandomWound: false
   - &HeavyPhlogistonAntiArmor
     type: STR_HEAVY_PHLOGISTON_ANTIARMOR_NODE
     damageAlter:
       RandomType: 2
       IgnoreOverKill: true
-      ToArmorPre: 0.4
+      ToArmorPre: 0.5
       RandomWound: false
   - &LightTeslaAntiArmor
     type: STR_LIGHT_TESLA_ANTIARMOR_NODE
@@ -154,7 +154,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT
+        STR_BRITISH_EQUIPMENT,
       ]
     size: 0.2
     costBuy: 1500
@@ -196,7 +196,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -222,7 +222,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -250,7 +250,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT
+        STR_BRITISH_EQUIPMENT,
       ]
     size: 0.2
     costBuy: 1500
@@ -294,7 +294,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     size: 0.2
     costBuy: 1500
@@ -341,7 +341,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -361,9 +361,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 4
     meleeType: 7
     meleePower: 45
@@ -394,7 +394,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -422,7 +422,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -446,12 +446,7 @@ items:
 
   - type: STR_GEWEHR98
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SNIPER_RIFLES,
-        STR_GERMAN_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -488,12 +483,7 @@ items:
 
   - type: STR_GEWEHR98_CLIP
     categories:
-      [
-        STR_BALLISTIC,
-        STR_SNIPER_RIFLES,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+      [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -513,12 +503,7 @@ items:
     listOrder: 2080
   - type: STR_GEWEHR98_CLIP_KMM
     categories:
-      [
-        STR_BALLISTIC,
-        STR_SNIPER_RIFLES,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+      [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -544,7 +529,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT
+        STR_FRENCH_EQUIPMENT,
       ]
     size: 0.2
     costBuy: 1500
@@ -599,7 +584,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -619,9 +604,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 45
@@ -648,7 +633,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -674,7 +659,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -701,7 +686,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT
+        STR_RUSSIAN_EQUIPMENT,
       ]
     size: 0.2
     costBuy: 1500
@@ -748,7 +733,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -768,9 +753,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 4
     meleeType: 7
     meleePower: 45
@@ -801,7 +786,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT
+        STR_RUSSIAN_EQUIPMENT,
       ]
     size: 0.2
     costBuy: 1500
@@ -847,7 +832,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -867,9 +852,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 4
     meleeType: 7
     meleePower: 45
@@ -900,7 +885,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -928,7 +913,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -957,7 +942,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT
+        STR_RUSSIAN_EQUIPMENT,
       ]
     size: 0.2
     costBuy: 1500
@@ -1000,7 +985,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -1028,7 +1013,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -1121,12 +1106,7 @@ items:
   #########################################
   - type: STR_PHLOGISTON_HEAVY_RIFLE
     categories:
-      [
-        STR_PHLOGISTON,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS
-      ]
+      [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -1166,7 +1146,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -1199,7 +1179,7 @@ items:
         STR_FIREARMS,
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT
+        STR_BRITISH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1242,7 +1222,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costSell: 200
@@ -1262,6 +1242,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2230
+    costBuy: 1000
   - type: STR_FARQHUAR_HILL_DRUM_KMM
     categories:
       [
@@ -1269,7 +1250,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costSell: 200
@@ -1289,6 +1270,7 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2240
+    costBuy: 1000
 
   - type: STR_MONDRAGON
     categories:
@@ -1296,7 +1278,7 @@ items:
         STR_BALLISTIC,
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1347,7 +1329,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -1367,9 +1349,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 45
@@ -1396,7 +1378,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1425,7 +1407,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1455,7 +1437,7 @@ items:
         STR_FIREARMS,
         STR_SNIPER_RIFLES,
         STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT
+        STR_GERMAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1500,7 +1482,7 @@ items:
         STR_SNIPER_RIFLES,
         STR_HEAVY_EQUIPMENT,
         STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1529,7 +1511,7 @@ items:
         STR_SNIPER_RIFLES,
         STR_HEAVY_EQUIPMENT,
         STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1559,7 +1541,7 @@ items:
         STR_FIREARMS,
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT
+        STR_FRENCH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1603,7 +1585,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1633,7 +1615,7 @@ items:
         STR_FIREARMS,
         STR_CARBINES,
         STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT
+        STR_FRENCH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1677,7 +1659,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1708,7 +1690,7 @@ items:
         STR_FIREARMS,
         STR_SELFLOADING_RIFLES,
         STR_RUSSIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1757,7 +1739,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1785,7 +1767,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1815,7 +1797,7 @@ items:
         STR_FIREARMS,
         STR_SELFLOADING_RIFLES,
         STR_ITALIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1864,7 +1846,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_ITALIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1893,7 +1875,7 @@ items:
         STR_SELFLOADING_RIFLES,
         STR_ITALIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -1921,12 +1903,7 @@ items:
   ###############################################
   - type: STR_PHLOGISTON_BATTLE_RIFLE
     categories:
-      [
-        STR_PHLOGISTON,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS
-      ]
+      [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -1976,7 +1953,7 @@ items:
         STR_FIREARMS,
         STR_SELFLOADING_RIFLES,
         STR_RIFLEMAN_CLASS,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 150
@@ -2004,12 +1981,7 @@ items:
   ########################################
   - type: STR_AUTOMATIC_REVOLVER
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_BRITISH_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2039,12 +2011,7 @@ items:
 
   - type: STR_HEAVY_REVOLVER
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_BRITISH_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2074,12 +2041,7 @@ items:
 
   - type: STR_SERVICE_REVOLVER
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_BRITISH_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2108,13 +2070,7 @@ items:
     listOrder: 2440
 
   - type: STR_REVOLVER_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2135,13 +2091,7 @@ items:
     armor: 250
     listOrder: 2450
   - type: STR_REVOLVER_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2162,13 +2112,7 @@ items:
     armor: 250
     listOrder: 2460
   - type: STR_REVOLVER_CLIP_DUMDUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2191,12 +2135,7 @@ items:
 
   - type: STR_M1911_COLT
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_AMERICAN_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
     size: 0.1
     costBuy: 750
     costSell: 600
@@ -2228,13 +2167,7 @@ items:
     listOrder: 2480
 
   - type: STR_M1911_COLT_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     size: 0.025
     costBuy: 75
     costSell: 55
@@ -2257,13 +2190,7 @@ items:
     armor: 35
     listOrder: 2490
   - type: STR_M1911_COLT_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     size: 0.025
     costBuy: 75
     costSell: 55
@@ -2287,13 +2214,7 @@ items:
     listOrder: 2500
 
   - type: STR_MAUSER_C96
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_GERMAN_EQUIPMENT
-      ]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2319,13 +2240,7 @@ items:
     listOrder: 2510
 
   - type: STR_MAUSER_C96_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2346,13 +2261,7 @@ items:
     armor: 250
     listOrder: 2520
   - type: STR_MAUSER_C96_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2374,13 +2283,7 @@ items:
     listOrder: 2530
 
   - type: STR_LUGER_P08
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_GERMAN_EQUIPMENT
-      ]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2406,13 +2309,7 @@ items:
     listOrder: 2540
 
   - type: STR_LUGER_P08_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2433,13 +2330,7 @@ items:
     armor: 250
     listOrder: 2550
   - type: STR_LUGER_P08_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2462,12 +2353,7 @@ items:
 
   - type: STR_OBREZ_PISTOL
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RUSSIAN_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2496,13 +2382,7 @@ items:
   ############# TESLA SIDEARMS ############
   ########################################
   - type: STR_TESLA_PISTOL
-    categories:
-      [
-        STR_TESLA,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RIFLEMAN_CLASS
-      ]
+    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -2547,13 +2427,7 @@ items:
   ######### PHLOGISTON SIDEARMS ###########
   ########################################
   - type: STR_PHLOGISTON_PISTOL
-    categories:
-      [
-        STR_PHLOGISTON,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RIFLEMAN_CLASS
-      ]
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -2597,13 +2471,7 @@ items:
   #    listOrder: 2002
   - type: STR_PHLOGISTON_SMALL_BATTERY
     categories:
-      [
-        STR_PHLOGISTON,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RIFLEMAN_CLASS,
-        STR_CLIPS
-      ]
+      [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS, STR_CLIPS]
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -2633,7 +2501,7 @@ items:
         STR_CARBINES,
         STR_MEDIC_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT
+        STR_FRENCH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -2681,7 +2549,7 @@ items:
         STR_MEDIC_CLASS,
         STR_FRENCH_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -2714,7 +2582,7 @@ items:
         STR_MEDIC_CLASS,
         STR_FRENCH_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -2771,12 +2639,7 @@ items:
   #  listOrder: 2000
   - type: STR_MAUSER_C96_CARBINE
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_GERMAN_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2803,13 +2666,7 @@ items:
     listOrder: 2640
 
   - type: STR_MAUSER_C96_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2829,13 +2686,7 @@ items:
     armor: 250
     listOrder: 2650
   - type: STR_MAUSER_C96_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2857,12 +2708,7 @@ items:
 
   - type: STR_LUGER_ARTILLERY
     categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_GERMAN_EQUIPMENT
-      ]
+      [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2888,13 +2734,7 @@ items:
     listOrder: 2670
 
   - type: STR_LUGER_ARTILLERY_DRUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2915,13 +2755,7 @@ items:
     armor: 250
     listOrder: 2680
   - type: STR_LUGER_ARTILLERY_DRUM_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2949,7 +2783,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
         STR_ITALIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     size: 0.2
     costBuy: 1500
@@ -2995,7 +2829,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -3015,9 +2849,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 40
@@ -3044,7 +2878,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_ITALIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     size: 0.1
     costBuy: 150
@@ -3070,7 +2904,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_ITALIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS
+        STR_RIFLEMAN_CLASS,
       ]
     size: 0.1
     costBuy: 150
@@ -3101,7 +2935,7 @@ items:
         STR_CARBINES,
         STR_MEDIC_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT
+        STR_FRENCH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3159,7 +2993,7 @@ items:
         STR_FIREARMS,
         STR_SMGS,
         STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT
+        STR_LIGHT_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3217,7 +3051,7 @@ items:
         STR_SMGS,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3249,7 +3083,7 @@ items:
         STR_SMGS,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3282,7 +3116,7 @@ items:
         STR_FIREARMS,
         STR_SMGS,
         STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT
+        STR_LIGHT_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3339,7 +3173,7 @@ items:
         STR_SMGS,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3371,7 +3205,7 @@ items:
         STR_SMGS,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3404,7 +3238,7 @@ items:
         STR_FIREARMS,
         STR_SMGS,
         STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT
+        STR_LIGHT_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3461,7 +3295,7 @@ items:
         STR_SMGS,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3493,7 +3327,7 @@ items:
         STR_SMGS,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3527,7 +3361,7 @@ items:
         STR_SMGS,
         STR_ITALIAN_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
-        STR_ASSAULT_CLASS
+        STR_ASSAULT_CLASS,
       ]
     size: 0.1
     costBuy: 600
@@ -3585,7 +3419,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -3605,9 +3439,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 0
     meleeType: 7
     meleePower: 40
@@ -3639,7 +3473,7 @@ items:
         STR_ITALIAN_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
-        STR_ASSAULT_CLASS
+        STR_ASSAULT_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3672,7 +3506,7 @@ items:
         STR_ITALIAN_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
-        STR_ASSAULT_CLASS
+        STR_ASSAULT_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3705,7 +3539,7 @@ items:
         STR_FIREARMS,
         STR_SMGS,
         STR_ITALIAN_EQUIPMENT,
-        STR_ASSAULT_CLASS
+        STR_ASSAULT_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3721,7 +3555,7 @@ items:
     reloadSound: 325
     ammo:
       0:
-        compatibleAmmo: [ STR_VILLAR_PEROSA_MAGS, STR_VILLAR_PEROSA_MAGS_KMM ]
+        compatibleAmmo: [STR_VILLAR_PEROSA_MAGS, STR_VILLAR_PEROSA_MAGS_KMM]
     confSnap:
       shots: 4
       name: STR_BURST
@@ -3761,7 +3595,7 @@ items:
         STR_ITALIAN_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
-        STR_ASSAULT_CLASS
+        STR_ASSAULT_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3794,7 +3628,7 @@ items:
         STR_ITALIAN_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
-        STR_ASSAULT_CLASS
+        STR_ASSAULT_CLASS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -3824,13 +3658,7 @@ items:
   ############# TESLA SMGS ################
   ########################################
   - type: STR_TESLA_PROTOTYPE
-    categories:
-      [
-        STR_TESLA,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RIFLEMAN_CLASS
-      ]
+    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -3874,13 +3702,7 @@ items:
     listOrder: 2900
   #    listOrder: 2002
   - type: STR_TESLA_SMG
-    categories:
-      [
-        STR_TESLA,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RIFLEMAN_CLASS
-      ]
+    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -3924,7 +3746,7 @@ items:
     listOrder: 2910
   #    listOrder: 2002
   - type: STR_TESLA_LIGHT_BATTERY
-    categories: [ STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS ]
+    categories: [STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 15000
     weight: 3
@@ -3940,6 +3762,7 @@ items:
     battleType: 2
     armor: 200
     listOrder: 2920
+    costBuy: 1000
 
   ##########################################
   ############# PLASMA SMGS ###############
@@ -3955,7 +3778,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT
+        STR_BRITISH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4010,7 +3833,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4042,7 +3865,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4073,7 +3896,7 @@ items:
         STR_BALLISTIC,
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4114,6 +3937,7 @@ items:
     invHeight: 3
     listOrder: 2960
     bulletSpeed: 17
+    costBuy: 1000
 
   - type: STR_BAR_MAG
     categories:
@@ -4122,7 +3946,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4143,6 +3967,7 @@ items:
     invWidth: 1
     battleType: 2
     listOrder: 2970
+    costBuy: 1000
   - type: STR_BAR_MAG_KMM
     categories:
       [
@@ -4150,7 +3975,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4171,6 +3996,7 @@ items:
     invWidth: 1
     battleType: 2
     listOrder: 2980
+    costBuy: 1000
 
   - type: STR_MG0815
     categories:
@@ -4180,7 +4006,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT
+        STR_GERMAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4237,7 +4063,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4269,7 +4095,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_GERMAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4302,7 +4128,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT
+        STR_FRENCH_EQUIPMENT,
       ]
     size: 0.4
     costBuy: 12500
@@ -4358,7 +4184,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_FRENCH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 1500
@@ -4388,7 +4214,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_FRENCH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     size: 0.1
     costBuy: 1500
@@ -4419,7 +4245,7 @@ items:
         STR_CARBINES,
         STR_MEDIC_CLASS,
         STR_LIGHT_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT
+        STR_FRENCH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4479,7 +4305,7 @@ items:
         STR_MEDIC_CLASS,
         STR_FRENCH_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4512,7 +4338,7 @@ items:
         STR_MEDIC_CLASS,
         STR_FRENCH_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4546,7 +4372,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT
+        STR_BRITISH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4601,7 +4427,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4633,7 +4459,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4666,7 +4492,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT
+        STR_BRITISH_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4721,7 +4547,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4753,7 +4579,7 @@ items:
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4782,13 +4608,7 @@ items:
   ############# TESLA LMGS ################
   ########################################
   - type: STR_TESLA_AUTOCANNON
-    categories:
-      [
-        STR_TESLA,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RIFLEMAN_CLASS
-      ]
+    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -4825,15 +4645,16 @@ items:
     dropoff: 5
     battleType: 1
     twoHanded: false
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     autoRange: 11
     attraction: 8
     listOrder: 3140
   #    listOrder: 2002
   - type: STR_TESLA_HEAVY_BATTERY
-    categories: [ STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS ]
+    categories: [STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
+    costBuy: 20000
     costSell: 15000
     weight: 3
     bigSprite: 2408
@@ -4862,7 +4683,7 @@ items:
         STR_FIREARMS,
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4911,7 +4732,7 @@ items:
         STR_FIREARMS,
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4954,7 +4775,7 @@ items:
         STR_FIREARMS,
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -4997,7 +4818,7 @@ items:
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -5028,7 +4849,7 @@ items:
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -5061,7 +4882,7 @@ items:
         STR_FIREARMS,
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -5104,7 +4925,7 @@ items:
         STR_FIREARMS,
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT
+        STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -5147,7 +4968,7 @@ items:
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -5178,7 +4999,7 @@ items:
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS
+        STR_CLIPS,
       ]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
@@ -5208,13 +5029,7 @@ items:
   ########### TESLA SHOTGUNS ##############
   ########################################
   - type: STR_TESLA_TRENCH_BROOM
-    categories:
-      [
-        STR_TESLA,
-        STR_FIREARMS,
-        STR_PISTOLS,
-        STR_RIFLEMAN_CLASS
-      ]
+    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -5258,8 +5073,9 @@ items:
     listOrder: 3250
   #    listOrder: 2002
   - type: STR_TESLA_EXTENDED_BATTERY
-    categories: [ STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS ]
+    categories: [STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
+    costBuy: 10000
     costSell: 15000
     weight: 3
     bigSprite: 2568
@@ -5282,7 +5098,7 @@ items:
   ######### EXPLOSIVE DEVICES #########
   ####################################
   - type: STR_ANTITANK_GRENADE
-    categories: [ STR_EXPLOSIVES, STR_ASSAULT_CLASS, STR_RAIDER_CLASS ]
+    categories: [STR_EXPLOSIVES, STR_ASSAULT_CLASS, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_ADVANCED_FIREARMS
     size: 0.1
@@ -5315,7 +5131,7 @@ items:
     listOrder: 3270
 
   - type: STR_STICK_GRENADE
-    categories: [ STR_EXPLOSIVES, STR_RAIDER_CLASS ]
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     size: 0.1
     costBuy: 300
     costSell: 240
@@ -5323,7 +5139,7 @@ items:
     bigSprite: 2584
     floorSprite: 2584
     handSprite: 2584
-    explosionHitSound: [ 144, 145, 146, 147 ]
+    explosionHitSound: [144, 145, 146, 147]
     power: 40
     damageAlter:
       IgnoreOverKill: false
@@ -5342,7 +5158,7 @@ items:
     listOrder: 3280
 
   - type: STR_FRAG_GRENADE
-    categories: [ STR_EXPLOSIVES, STR_RAIDER_CLASS ]
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     size: 0.1
     costBuy: 300
     costSell: 240
@@ -5350,7 +5166,7 @@ items:
     bigSprite: 2592
     floorSprite: 2592
     handSprite: 2592
-    explosionHitSound: [ 144, 145, 146, 147 ]
+    explosionHitSound: [144, 145, 146, 147]
     power: 50
     damageAlter:
       IgnoreOverKill: false
@@ -5369,7 +5185,7 @@ items:
     listOrder: 3290
 
   - type: STR_DYNAMITE
-    categories: [ STR_EXPLOSIVES, STR_RAIDER_CLASS ]
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     size: 0.1
     costBuy: 450
     costSell: 300
@@ -5398,7 +5214,7 @@ items:
     listOrder: 3300
 
   - type: STR_FLAMETHROWER_MK1
-    categories: [ STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT ]
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
     requires:
       - STR_HUMAN_CHEMICAL_WEAPONS
     size: 0.2
@@ -5441,7 +5257,7 @@ items:
     listOrder: 3310
 
   - type: STR_RIFLE_GRENADE
-    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 470
@@ -5468,7 +5284,7 @@ items:
     listOrder: 3320
 
   - type: STR_GAS_GRENADE
-    categories: [ STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     requires:
       - STR_HUMAN_CHEMICAL_WEAPONS
     size: 0.1
@@ -5497,7 +5313,7 @@ items:
     listOrder: 3330
 
   - type: STR_FLARE_GUN
-    categories: [ STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 3000
     costSell: 2000
@@ -5524,13 +5340,7 @@ items:
     listOrder: 3340
 
   - type: STR_FLARE_ROUND
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_PISTOLS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS
-      ]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     size: 0.1
     costBuy: 100
     costSell: 85
@@ -5555,7 +5365,7 @@ items:
     listOrder: 3350
 
   - type: STR_HANDHELD_MORTAR
-    categories: [ STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.2
     costBuy: 5500
     costSell: 2250
@@ -5580,7 +5390,7 @@ items:
     listOrder: 3360
 
   - type: STR_MORTAR_SHELL
-    categories: [ STR_FIREARMS, STR_ARTILLERY, STR_CLIPS ]
+    categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 470
@@ -5608,7 +5418,7 @@ items:
     listOrder: 3370
 
   - type: STR_HEAVY_GRENADE
-    categories: [ STR_EXPLOSIVES, STR_RAIDER_CLASS ]
+    categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     size: 0.1
     costBuy: 300
     costSell: 240
@@ -5616,7 +5426,7 @@ items:
     bigSprite: 2712
     floorSprite: 2712
     handSprite: 2712
-    explosionHitSound: [ 144, 145, 146, 147 ]
+    explosionHitSound: [144, 145, 146, 147]
     power: 50
     damageAlter:
       IgnoreOverKill: false
@@ -5638,7 +5448,7 @@ items:
   ######### MELEE EQUIPMENT ###########
   ####################################
   - type: STR_SABRE
-    categories: [ STR_CQB, STR_RAIDER_CLASS ]
+    categories: [STR_CQB, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
     costSell: 3500
@@ -5662,7 +5472,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -5682,9 +5492,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     power: 70
     meleeAnimation: 4
     damageType: 7
@@ -5714,7 +5524,7 @@ items:
     listOrder: 3390
 
   - type: STR_MM_SABRE
-    categories: [ STR_CQB, STR_RAIDER_CLASS ]
+    categories: [STR_CQB, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
     costSell: 3500
@@ -5738,7 +5548,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -5758,9 +5568,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     power: 70
     meleeAnimation: 4
     damageType: 7
@@ -5790,7 +5600,7 @@ items:
     listOrder: 3400
 
   - type: STR_TRENCH_KNIFE
-    categories: [ STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.15
     costBuy: 300
     costSell: 200
@@ -5814,7 +5624,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -5834,9 +5644,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 4
     meleeMultiplier:
       flatHundred: 0.65
@@ -5874,7 +5684,7 @@ items:
     listOrder: 3410
 
   - type: STR_TRENCH_SHOVEL
-    categories: [ STR_CQB, STR_RAIDER_CLASS ]
+    categories: [STR_CQB, STR_RAIDER_CLASS]
     size: 0.3
     costBuy: 250
     costSell: 190
@@ -5898,7 +5708,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -5918,9 +5728,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 4
     power: 60
     damageType: 7
@@ -5957,7 +5767,7 @@ items:
     listOrder: 3420
 
   - type: STR_SHOVEL
-    categories: [ STR_CQB, STR_RAIDER_CLASS ]
+    categories: [STR_CQB, STR_RAIDER_CLASS]
     size: 0.3
     costBuy: 250
     costSell: 190
@@ -5981,7 +5791,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -6001,9 +5811,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     meleeAnimation: 4
     power: 60
     damageType: 7
@@ -6040,7 +5850,7 @@ items:
     listOrder: 3430
 
   - type: STR_TRENCH_MACE
-    categories: [ STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.3
     costBuy: 250
     costSell: 190
@@ -6064,22 +5874,10 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
-    meleeHitSound:
-      [
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178
-      ]
-      #Punch sounds
+    meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178]
+    #Punch sounds
     meleeAnimation: 4
     accuracyMelee: 70
     meleeMultiplier:
@@ -6116,7 +5914,7 @@ items:
     listOrder: 3440
 
   - type: STR_TRENCH_CLUB
-    categories: [ STR_CQB, STR_RAIDER_CLASS, STR_STORMTROOPER_EQUIPMEMT ]
+    categories: [STR_CQB, STR_RAIDER_CLASS, STR_STORMTROOPER_EQUIPMEMT]
     #    requires:
     #- STR_STORMTROOPER_TRAINING
     size: 0.1
@@ -6143,22 +5941,10 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
-    meleeHitSound:
-      [
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178
-      ]
-      #Punch sounds
+    meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178]
+    #Punch sounds
     power: 40
     damageType: 7
     damageBonus:
@@ -6191,7 +5977,7 @@ items:
     listOrder: 3450
 
   - type: STR_SHASHKA
-    categories: [ STR_CQB, STR_RAIDER_CLASS ]
+    categories: [STR_CQB, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
     costSell: 3500
@@ -6215,7 +6001,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -6235,9 +6021,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     power: 70
     meleeAnimation: 4
     damageType: 7
@@ -6267,7 +6053,7 @@ items:
     listOrder: 3460
 
   - type: STR_MM_DAGGER
-    categories: [ STR_CQB, STR_RAIDER_CLASS ]
+    categories: [STR_CQB, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
     costSell: 3500
@@ -6291,7 +6077,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -6311,9 +6097,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     power: 70
     meleeAnimation: 4
     damageType: 7
@@ -6343,7 +6129,7 @@ items:
     listOrder: 3470
 
   - type: STR_MM_SHASHKA
-    categories: [ STR_CQB, STR_RAIDER_CLASS ]
+    categories: [STR_CQB, STR_RAIDER_CLASS]
     size: 0.2
     costBuy: 4000
     costSell: 3500
@@ -6367,7 +6153,7 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
     meleeHitSound:
       [
@@ -6387,9 +6173,9 @@ items:
         165,
         166,
         167,
-        168
+        168,
       ]
-      #Stab sounds
+    #Stab sounds
     power: 70
     meleeAnimation: 4
     damageType: 7
@@ -6422,7 +6208,7 @@ items:
   ######################################
   - type: STR_MEDIKIT
     medikitBackground: WW1_MEDIKIT
-    categories: [ STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.5
     costBuy: 10000
     costSell: 5000
@@ -6475,7 +6261,7 @@ items:
   #    experienceTrainingMode: 19
   #    listOrder: 2080
   - type: STR_MEDICAL_SYRINGE
-    categories: [ STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 500
     costSell: 400
@@ -6497,7 +6283,7 @@ items:
     listOrder: 3500
 
   - type: STR_BANDAGES
-    categories: [ STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 150
     costSell: 100
@@ -6523,7 +6309,7 @@ items:
     listOrder: 3510
 
   - type: STR_PAINKILLER
-    categories: [ STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 500
     costSell: 400
@@ -6590,7 +6376,7 @@ items:
   ####### MORALE ENHANCER #########
   ################################
   - type: STR_WHISTLE
-    categories: [ STR_LIGHT_EQUIPMENT ]
+    categories: [STR_LIGHT_EQUIPMENT]
     size: 0.2
     costBuy: 4000
     costSell: 3750
@@ -6722,7 +6508,7 @@ items:
   ########## MILITARY RATIONS ###########
   ######################################
   - type: STR_BREAD
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 120
     costSell: 50
@@ -6730,7 +6516,7 @@ items:
     bigSprite: 2992
     floorSprite: 2992
     handSprite: 2992
-    hitSound: [ 203, 204 ]
+    hitSound: [203, 204]
     battleType: 6
     isConsumable: true
     medikitTargetSelf: true
@@ -6751,14 +6537,14 @@ items:
     recoveryPoints: 10
     listOrder: 3540
   - type: STR_ROTTEN_BREAD
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costSell: 120
     weight: 4
     bigSprite: 3000
     floorSprite: 3000
     handSprite: 3000
-    hitSound: [ 203, 204 ]
+    hitSound: [203, 204]
     battleType: 6
     isConsumable: true
     medikitTargetSelf: true
@@ -6780,9 +6566,10 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3560
+    costBuy: 1000
 
   - type: STR_CANNED_BEEF
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 300
     costSell: 120
@@ -6790,7 +6577,7 @@ items:
     bigSprite: 3008
     floorSprite: 3008
     handSprite: 3008
-    hitSound: [ 194, 195, 196, 197, 198, 199, 200 ]
+    hitSound: [194, 195, 196, 197, 198, 199, 200]
     battleType: 6
     isConsumable: true
     medikitTargetSelf: true
@@ -6812,14 +6599,14 @@ items:
     recoveryPoints: 10
     listOrder: 3570
   - type: STR_ROTTEN_CANNED_BEEF
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costSell: 120
     weight: 4
     bigSprite: 3016
     floorSprite: 3016
     handSprite: 3016
-    hitSound: [ 194, 195, 196, 197, 198, 199, 200 ]
+    hitSound: [194, 195, 196, 197, 198, 199, 200]
     battleType: 6
     isConsumable: true
     medikitTargetSelf: true
@@ -6841,9 +6628,10 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3580
+    costBuy: 1000
 
   - type: STR_BISCUIT_BOX
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 200
     costSell: 120
@@ -6851,7 +6639,7 @@ items:
     bigSprite: 3024
     floorSprite: 3024
     handSprite: 3024
-    hitSound: [ 203, 204 ]
+    hitSound: [203, 204]
     battleType: 6
     isConsumable: true
     medikitTargetSelf: true
@@ -6873,14 +6661,14 @@ items:
     recoveryPoints: 10
     listOrder: 3590
   - type: STR_ROTTEN_BISCUIT_BOX
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costSell: 12000
     weight: 4
     bigSprite: 3032
     floorSprite: 3032
     handSprite: 3032
-    hitSound: [ 203, 204 ]
+    hitSound: [203, 204]
     battleType: 6
     isConsumable: true
     medikitTargetSelf: true
@@ -6902,9 +6690,10 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3600
+    costBuy: 1000
 
   - type: STR_WINE
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 1500
     costSell: 1500
@@ -6935,7 +6724,7 @@ items:
     recoveryPoints: 10
     listOrder: 3610
   - type: STR_BROKEN_WINE_BOTTLE
-    categories: [ STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.3
     costSell: 25000
     weight: 3
@@ -6960,22 +6749,10 @@ items:
         190,
         191,
         192,
-        193
+        193,
       ]
-    meleeHitSound:
-      [
-        169,
-        170,
-        171,
-        172,
-        173,
-        174,
-        175,
-        176,
-        177,
-        178
-      ]
-      #Punch sounds
+    meleeHitSound: [169, 170, 171, 172, 173, 174, 175, 176, 177, 178]
+    #Punch sounds
     meleeAnimation: 4
     accuracyMelee: 70
     clipSize: 2
@@ -7013,9 +6790,10 @@ items:
     tags:
       WEAPON_TYPE: 128 # Melee
     listOrder: 3620
+    costBuy: 1000
 
   - type: STR_TEA_FLASK
-    categories: [ STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT ]
+    categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
     costBuy: 450
     costSell: 200
@@ -8271,20 +8049,28 @@ extraStrings:
       STR_REVOLVER_CLIP: Revolver Speedloader
       STR_REVOLVER_CLIP_KMM: Revolver K-MM Speedloader
       STR_REVOLVER_CLIP_DUMDUM: Revolver 'Dum-dum' Speedloader
-      STR_AUTOMATIC_REVOLVER_UFOPEDIA: Modern revolver, its gas system gives it a very
+      STR_AUTOMATIC_REVOLVER_UFOPEDIA:
+        Modern revolver, its gas system gives it a very
         high rate of fire. Something delicate to take care of, but British
         soldiers entrust it their life. If you keep your finger on the trigger,
         you can shoot the 6 bullets in rapid succession. It is recharged using a
         'speedloader' which places the 6 cartridges at the same time on the
         weapon drum.
       STR_SERVICE_REVOLVER: Service Revolver
-      STR_SERVICE_REVOLVER_UFOPEDIA: Single-action revolver, trustworthy sidegun used in several armies and law enforcement forces. Its sturdy design is designed to endure even in the worst conditions.
+      STR_SERVICE_REVOLVER_UFOPEDIA:
+        Single-action revolver, trustworthy sidegun used
+        in several armies and law enforcement forces. Its sturdy design is
+        designed to endure even in the worst conditions.
       STR_HEAVY_REVOLVER: Heavy Revolver
-      STR_HEAVY_REVOLVER_UFOPEDIA: A bit cumbersome and difficult sidearm, most preferred by Central European troops. Being single-action, it's rate of fire is limited. This is compensated ny the better accuracy, compared to other revolvers.
+      STR_HEAVY_REVOLVER_UFOPEDIA: A bit cumbersome and difficult sidearm, most
+        preferred by Central European troops. Being single-action, it's rate of
+        fire is limited. This is compensated ny the better accuracy, compared to
+        other revolvers.
       STR_SMLE_MKIII: SMLE Mk III Rifle
       STR_SMLE_MKIII_CLIP: SMLE Mk III Clip
       STR_SMLE_MKIII_CLIP_KMM: SMLE Mk III K-MM Clip
-      STR_SMLE_MKIII_UFOPEDIA: The most recent iteration of the Lee-Enfield rifle
+      STR_SMLE_MKIII_UFOPEDIA:
+        The most recent iteration of the Lee-Enfield rifle
         caliber .303 British. It's the fastest bolt-action rifle in the world
         and probably the best, an expert rifleman can shoot as fast as a machine
         gun. It is recharged using two stripper clips with 5 bullets each one.
@@ -8292,14 +8078,17 @@ extraStrings:
       STR_FARQHUAR_HILL: Farqhuar-Hill SLR
       STR_FARQHUAR_HILL_DRUM: Farqhuar-Hill Drum
       STR_FARQHUAR_HILL_DRUM_KMM: Farqhuar-Hill K-MM Drum
-      STR_FARQHUAR_HILL_UFOPEDIA: Next-generation British autoloader rifle. Its drum magazine
-        allows you to charge twice as much ammunition. It has a great rate of
-        fire, although it has awkard recoild and inaccuracy over long distances, it
-        is recommended to shoot in short bursts. Calibered in .303 British.
+      STR_FARQHUAR_HILL_UFOPEDIA:
+        Next-generation British autoloader rifle. Its drum
+        magazine allows you to charge twice as much ammunition. It has a great
+        rate of fire, although it has awkard recoild and inaccuracy over long
+        distances, it is recommended to shoot in short bursts. Calibered in .303
+        British.
       STR_HUOT_LMG: Huot Automatic Rifle
       STR_HUOT_LMG_DRUM: Huot Automatic Drum
       STR_HUOT_LMG_DRUM_KMM: Huot Automatic K-MM Drum
-      STR_HUOT_LMG_UFOPEDIA: One of the cheapest light machine guns produced by the
+      STR_HUOT_LMG_UFOPEDIA:
+        One of the cheapest light machine guns produced by the
         Commonwealth. Extremely reliable and durable, it is not affected by mud.
         All the Ross rifles in the Canadian arsenal were converted into this new
         automatic weapon. Employs a gas mechanism designed by engineer Joseph
@@ -8308,7 +8097,8 @@ extraStrings:
       STR_M1911_COLT: M1911 Colt Pistol
       STR_M1911_COLT_MAG: M1911 Colt Mag
       STR_M1911_COLT_MAG_KMM: M1911 Colt K-MM Mag
-      STR_M1911_COLT_UFOPEDIA: Iconic American handgun. Motivated to replace revolvers
+      STR_M1911_COLT_UFOPEDIA:
+        Iconic American handgun. Motivated to replace revolvers
         in service with the armed forces, this innovative gun designed by John
         M. Browning uses the powerful .45 ACP high stopping power cartridge,
         similar to that used by Old West revolvers. Its robust design resulted
@@ -8316,14 +8106,16 @@ extraStrings:
       STR_SPRINGFIELD: M1903 Springfield Bayoneted
       STR_SPRINGFIELD_CLIP: M1903 Springfield Clip
       STR_SPRINGFIELD_CLIP_KMM: M1903 Springfield K-MM Clip
-      STR_SPRINGFIELD_UFOPEDIA: Bolt-action rifle of American design, caliber .30-06,
+      STR_SPRINGFIELD_UFOPEDIA:
+        Bolt-action rifle of American design, caliber .30-06,
         based on the bolt-action mechanism of the German Mauser Gewehr 98. It
         replaced the old Krag rifle and is supplied en masse to troops of the US
         Army. It is equipped with a bayonet for close combat.
       STR_BAR: BAR LMG
       STR_BAR_MAG: BAR Mag
       STR_BAR_MAG_KMM: BAR K-MM Mag
-      STR_BAR_UFOPEDIA: Browning Automatic Rifle, the most recent addition to the
+      STR_BAR_UFOPEDIA:
+        Browning Automatic Rifle, the most recent addition to the
         American arsenal. The Ace under the sleeve of U.S. Army, the project was
         secret until its massive deployment. This automatic rifle was designed
         to being fired from the hip or shoulder, providing large amounts of fire
@@ -8334,7 +8126,8 @@ extraStrings:
       STR_SHOTGUN_DUMDUM_SHELLS_5: .12 Gauge 'Dum-dum' Slugs (x5)
       STR_SHOTGUN_BUCKSHOT_SHELLS_2: .12 Gauge Buckshot Shells (x2)
       STR_SHOTGUN_DUMDUM_SHELLS_2: .12 Gauge 'Dum-dum' Slugs (x2)
-      STR_WINCHESTER_TRENCH_GUN_UFOPEDIA: Winchester shotgun Model 1897, designed by
+      STR_WINCHESTER_TRENCH_GUN_UFOPEDIA:
+        Winchester shotgun Model 1897, designed by
         gun genius John M. Browning. It is a pump-action shotgun, which allows
         you to shoot without releasing the trigger. It fires .12 Gauge
         ammunition and is so powerful that it was initially banned for use
@@ -8343,12 +8136,13 @@ extraStrings:
       STR_MONDRAGON: Mondragon SLR Bayoneted
       STR_MONDRAGON_MAG: Mondragon Mag
       STR_MONDRAGON_MAG_KMM: Mondragon K-MM Mag
-      STR_MONDRAGON_UFOPEDIA: Semi-automatic rifle of Mexican design, the first to be
+      STR_MONDRAGON_UFOPEDIA:
+        Semi-automatic rifle of Mexican design, the first to be
         supplied to the troops of a regular army, widely used by the Mexican
         regiments of the U.S. Army and the guerrilla of Pancho Villa, although
         it is also produced under license by the Swiss firm SIG. Equipped with
-        an Entropium bayonet for CQC. The American Mondragons use .30-06
-        caliber bullets and the Swiss, at German request, 7.92x57mm Mauser.
+        an Entropium bayonet for CQC. The American Mondragons use .30-06 caliber
+        bullets and the Swiss, at German request, 7.92x57mm Mauser.
       STR_GEWEHR98: Mauser 'Standard' Rifle
       STR_GEWEHR98_CLIP: Mauser 'Standard' Clip
       STR_GEWEHR98_CLIP_KMM: Mauser 'Standard' K-MM Clip
@@ -8362,20 +8156,24 @@ extraStrings:
       STR_MAUSER_C96: Mauser C96 Handgun
       STR_MAUSER_C96_CLIP: Mauser C96 Clip
       STR_MAUSER_C96_CLIP_KMM: Mauser C96 K-MM Clip
-      STR_MAUSER_C96_UFOPEDIA: The C96 pistol, built by Mauser, was the first truly
+      STR_MAUSER_C96_UFOPEDIA:
+        The C96 pistol, built by Mauser, was the first truly
         successful semiautomatic pistol model. Almost all civilians and police
         forces in Western Europe use it, as reliable as it is. It is fed by
         stripper clips with bullets calibrated in 7.63 mm
       STR_MG0815: MG-08/14 LMG
       STR_MG0815_DRUM: MG-08/14 Drum
       STR_MG0815_DRUM_KMM: MG-08/14 K-MM Drum
-      STR_MG0815_UFOPEDIA: German heavy machine gun, effective both mounted on bipods
+      STR_MG0815_UFOPEDIA:
+        German heavy machine gun, effective both mounted on bipods
         and in vehicles. It has been adapted for use by the infantry, although
-        the weight makes it inaccurate if the soldier is not kneeling when firing. It has a very high rate of fire. Uses 7.92mm bullets
+        the weight makes it inaccurate if the soldier is not kneeling when
+        firing. It has a very high rate of fire. Uses 7.92mm bullets
       STR_SELBSTLADER_M1916: Selbstlader M1913 Scoped SLR
       STR_SELBSTLADER_M1916_MAG: Selbstlader M1913 Mag
       STR_SELBSTLADER_M1916_MAG_KMM: Selbstlader M1913 K-MM Mag
-      STR_SELBSTLADER_M1916_UFOPEDIA: German word for 'Selfloading', the most refined
+      STR_SELBSTLADER_M1916_UFOPEDIA:
+        German word for 'Selfloading', the most refined
         model of the semi-automatic rifles designed by Mauser, this weapon
         employs high-capacity magazine and great precision at medium and long
         range, but a very low fire rate and considerable recoil. Equipped with a
@@ -8385,7 +8183,8 @@ extraStrings:
       STR_LEBEL: Lebel M1886 Bayoneted
       STR_LEBEL_CLIP: Lebel M1886 Clip
       STR_LEBEL_CLIP_KMM: Lebel M1886 K-MM Clip
-      STR_LEBEL_UFOPEDIA: The Rifle Model 1886, better known as Lebel rifle. The 8mm
+      STR_LEBEL_UFOPEDIA:
+        The Rifle Model 1886, better known as Lebel rifle. The 8mm
         caliber rifle can hold 8 cartridges in an internal tubular magazine,
         making it slow to reload. It introduced modernity into the world of
         portable weapons by replacing black gunpowder for the first time with
@@ -8394,7 +8193,8 @@ extraStrings:
       STR_CHAUCHAT_LMG: CSRG Chauchat LMG
       STR_CHAUCHAT_LMG_MAG: CSRG Chauchat Mag
       STR_CHAUCHAT_LMG_MAG_KMM: CSRG Chauchat K-MM Mag
-      STR_CHAUCHAT_LMG_UFOPEDIA: The Chauchat machine gun is the common name for the
+      STR_CHAUCHAT_LMG_UFOPEDIA:
+        The Chauchat machine gun is the common name for the
         Mle 1912 CSRG machine gun. It was commissioned in the French infantry in
         1912 and was also widely used by the American army in 1913. It is a
         light weapon, of limited weight and size, the Chauchat significantly
@@ -8402,7 +8202,8 @@ extraStrings:
       STR_RIBEYROLLES: Ribeyrolles Automatic Carbine
       STR_RIBEYROLLES_MAG: Ribeyrolles Mag
       STR_RIBEYROLLES_MAG_KMM: Ribeyrolles K-MM Mag
-      STR_RIBEYROLLES_UFOPEDIA: In 1914, Ribeyrolles, Sutter and Chauchat, the trio
+      STR_RIBEYROLLES_UFOPEDIA:
+        In 1914, Ribeyrolles, Sutter and Chauchat, the trio
         behind many French weapons, introduced a compact weapon for U.S. and
         French tank crews. It was the first weapon used from the tank's firing
         position. It was also used as a defense weapon if the crew had to leave
@@ -8421,21 +8222,42 @@ extraStrings:
       STR_RSC_CARBINE: RSC Carbine
       STR_RSC_CARBINE_UFOPEDIA: WIP
       STR_MOSIN_NAGANT: Mosin-Nagant Rifle
-      STR_MOSIN_NAGANT_UFOPEDIA: Service rifle of the Russian Imperial Army, designed by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the 7.62x54mmR round, it was a great improvement over the old single -shot rifles.
+      STR_MOSIN_NAGANT_UFOPEDIA:
+        Service rifle of the Russian Imperial Army, designed
+        by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the
+        7.62x54mmR round, it was a great improvement over the old single -shot
+        rifles.
       STR_OBREZ_PISTOL: Obrez Pistol
-      STR_OBREZ_PISTOL_UFOPEDIA: Makeshift handgun made with the bolt mechanism of a Mosin-Nagant. The rifle caliber gives it a great firepower advantage compared to standard pistols, but the handling it's a bit awkward. Obrez means 'sawed-off' in Russian.
+      STR_OBREZ_PISTOL_UFOPEDIA:
+        Makeshift handgun made with the bolt mechanism of a
+        Mosin-Nagant. The rifle caliber gives it a great firepower advantage
+        compared to standard pistols, but the handling it's a bit awkward. Obrez
+        means 'sawed-off' in Russian.
       STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
       STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
       STR_FEDOROV_AVTOMAT: Fedorov Avtomat SLR
       STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag
       STR_FEDOROV_AVTOMAT_MAG_KMM: Fedorov Avtomat K-MM Mag
-      STR_FEDOROV_AVTOMAT_UFOPEDIA: One of the first operational automatic rifles made in the world, chambered in 6.5mm Fedorov. Designed as an intermediate between the rifle and the light machine gun, but with mobility comparable to a rifle.
+      STR_FEDOROV_AVTOMAT_UFOPEDIA:
+        One of the first operational automatic rifles made
+        in the world, chambered in 6.5mm Fedorov. Designed as an intermediate
+        between the rifle and the light machine gun, but with mobility
+        comparable to a rifle.
       STR_SMG_0818: SMG-08/13 SMG
       STR_SMG_0818_BOX: SMG-08/14 Ammo Box
       STR_SMG_0818_BOX_KMM: SMG-08/14 K-MM Ammo Box
-      STR_SMG_0818_UFOPEDIA: This makeshift submachine gun is made using parts of a Maxim MG-08 machine gun, feed with a fixed magazine by using large ammo box clips. The Czech Legion gunsmiths adapted it to fill their need of a light automatic weapon with large ammunition capacity.
+      STR_SMG_0818_UFOPEDIA:
+        This makeshift submachine gun is made using parts of a
+        Maxim MG-08 machine gun, feed with a fixed magazine by using large ammo
+        box clips. The Czech Legion gunsmiths adapted it to fill their need of a
+        light automatic weapon with large ammunition capacity.
       STR_WINCHESTER_M1915: Winchester M1912 Bayoneted
-      STR_WINCHESTER_M1915_UFOPEDIA: Build by the American firm Winchester at request of the Russian High Command as complementary to the Mosin-Nagant bolt-action rifles using the same ammunition. The  majority were diverted to the elite Imperial Guard, becoming a staple of their riflemen.
+      STR_WINCHESTER_M1915_UFOPEDIA:
+        Build by the American firm Winchester at request
+        of the Russian High Command as complementary to the Mosin-Nagant
+        bolt-action rifles using the same ammunition. The  majority were
+        diverted to the elite Imperial Guard, becoming a staple of their
+        riflemen.
       STR_ARISAKA_TYPE44_CARBINE: null
       STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA: ...
       STR_MM_MOSIN_NAGANT_CLIP: null
@@ -8449,18 +8271,20 @@ extraStrings:
       STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
       STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip
       STR_CARCANO_M91_CARBINE_CLIP_KMM: Carcano M91 K-MM Clip
-      STR_CARCANO_M91_CARBINE_UFOPEDIA: Special version of the Carcano rifle, designed
+      STR_CARCANO_M91_CARBINE_UFOPEDIA:
+        Special version of the Carcano rifle, designed
         for the Cavalry. Designed in 1890 by the team led by Army Engineer
         Salvatore Carcano. Calibrated on the rimless 6.5x52 mm cartridge, it
         does not have much stopping power or a particularly long range, but it
-        is a stable rifle and can shoot faster than most bolt-action weapons. It is
-        recommended for use at medium range, although it is also ideal for close
-        combat. It has an integrated folding bayonet that unfolds when required.
-        It is highly appreciated for its short size and light weight.
+        is a stable rifle and can shoot faster than most bolt-action weapons. It
+        is recommended for use at medium range, although it is also ideal for
+        close combat. It has an integrated folding bayonet that unfolds when
+        required. It is highly appreciated for its short size and light weight.
       STR_BERETTA_MAB18: Beretta MAB14 SMG
       STR_BERETTA_MAB18_MAG: Beretta MAB14 Magazine
       STR_BERETTA_MAB18_MAG_KMM: Beretta MAB14 K-MM Magazine
-      STR_BERETTA_MAB18_UFOPEDIA: The first SMG to enter service with the Italian
+      STR_BERETTA_MAB18_UFOPEDIA:
+        The first SMG to enter service with the Italian
         Royal Army and probably the first to be used en masse by a military
         force, the Moschetto Automatico Beretta Modello 1914 has an impressive
         firing rate of 900 RPM, capable of emptying its 25-rounds 9mm Glisenti
@@ -8471,7 +8295,8 @@ extraStrings:
       STR_CEI_RIGOTTI: Cei-Rigotti SLR
       STR_CEI_RIGOTTI_CLIP: Cei-Rigotti Clips
       STR_CEI_RIGOTTI_CLIP_KMM: Cei-Rigotti K-MM Clip
-      STR_CEI_RIGOTTI_UFOPEDIA: Semi-automatic rifle of Italian origin designed by
+      STR_CEI_RIGOTTI_UFOPEDIA:
+        Semi-automatic rifle of Italian origin designed by
         Major Cei-Rigotti at the end of the 19th century. Physically it is
         similar to the standard Carcano of the Regio Esercito although
         internally it is considerably different. It has the peculiar option of
@@ -8481,7 +8306,8 @@ extraStrings:
       STR_VILLAR_PEROSA: Villar-Perosa SMG
       STR_VILLAR_PEROSA_MAGS: Villar-Perosa Magazines
       STR_VILLAR_PEROSA_MAGS_KMM: Villar-Perosa K-MM Magazines
-      STR_VILLAR_PEROSA_UFOPEDIA: Machine gun formed by joining two MAB14 Berettas and
+      STR_VILLAR_PEROSA_UFOPEDIA:
+        Machine gun formed by joining two MAB14 Berettas and
         modifying the trigger mechanism to operate both at the same time. This
         was the original purpose of the weapon, in fact. A pistol grip and a
         front grip were added to maximize the weapons handling. It has a
@@ -8494,7 +8320,8 @@ extraStrings:
       STR_MADSEN_LMG: Madsen LMG
       STR_MADSEN_LMG_MAG: Madsen LMG Mag
       STR_MADSEN_LMG_MAG_KMM: Madsen LMG K-MM Mag
-      STR_MADSEN_MG_UFOPEDIA: The Madsen is the first truly 'Light Machine Gun' in
+      STR_MADSEN_MG_UFOPEDIA:
+        The Madsen is the first truly 'Light Machine Gun' in
         military service, designed by by Norwegian war minister Vilhem Madsen in
         1902. The LMG uses 7mm calibre rifle ammunition, with a curved
         extractable 30 rounds magazine. It was designed emphasizing mobility
@@ -8504,10 +8331,14 @@ extraStrings:
       STR_HELLRIEGEL_CLIP: null
       STR_HELLRIEGEL_UFOPEDIA: ...
       STR_REMINGTON_MODEL_11: Browning Auto-5
-      STR_REMINGTON_MODEL_11_UFOPEDIA:
+      STR_REMINGTON_MODEL_11_UFOPEDIA: null
       STR_INERTIA_SHOTGUN: Sjögren Inertia Shotgun
       STR_INERTIAL_SHOTGUN_CLIP: null
-      STR_INERTIA_SHOTGUN_UFOPEDIA: Semi-automatic shotgun designed by Swedish inventor Carl Axel Theodor Sjögren, it features a special fire mechanism where the recoil of the weapon lifts the shell from the internal magazine into the barrel. Very reliable, it requires few maintenance and could be operated in extreme conditions.
+      STR_INERTIA_SHOTGUN_UFOPEDIA: Semi-automatic shotgun designed by Swedish
+        inventor Carl Axel Theodor Sjögren, it features a special fire mechanism
+        where the recoil of the weapon lifts the shell from the internal
+        magazine into the barrel. Very reliable, it requires few maintenance and
+        could be operated in extreme conditions.
       STR_ARISAKA_TYPE38: null
       STR_ARISAKA_TYPE38_CLIP: null
       STR_ARISAKA_TYPE38_UFOPEDIA: ...
@@ -8522,25 +8353,31 @@ extraStrings:
       STR_NAMBU_CLIP: null
       STR_NAMBU_UFOPEDIA: ...
       STR_SABRE: Cavalry Sabre
-      STR_SABRE_UFOPEDIA: Distinctive saber of officers and cavalry soldiers, employed
+      STR_SABRE_UFOPEDIA:
+        Distinctive saber of officers and cavalry soldiers, employed
         with ceremonial gallantry on the battlefield. It is a great melee
         weapon, it has better range than more improvised weapons.
       STR_MM_SABRE: Martian Metal Sabre
-      STR_MM_SABRE_UFOPEDIA: Distinctive saber of officers and cavalry soldiers, employed
-        with ceremonial gallantry on the battlefield. It is a great melee
-        weapon, it has better range than more improvised weapons.
+      STR_MM_SABRE_UFOPEDIA: Distinctive saber of officers and cavalry soldiers,
+        employed with ceremonial gallantry on the battlefield. It is a great
+        melee weapon, it has better range than more improvised weapons.
       STR_TRENCH_KNIFE: Trench Knife
-      STR_TRENCH_KNIFE_UFOPEDIA: Knife adapted with an 'American fist' on its hilt,
+      STR_TRENCH_KNIFE_UFOPEDIA:
+        Knife adapted with an 'American fist' on its hilt,
         can save the life of a soldier with rifle jammed. Fast and accurate.
       STR_TRENCH_SHOVEL: Trench Shovel
-      STR_TRENCH_SHOVEL_UFOPEDIA: Originally conceived to dig trenches, its original
+      STR_TRENCH_SHOVEL_UFOPEDIA:
+        Originally conceived to dig trenches, its original
         purpose, some soldiers filan the edges of the shovel to use it as a
         crude and rudimentary weapon of melee. The strength of the soldier has a
         lot to do with the effectiveness of this weapon.
       STR_SHOVEL: Shovel
-      STR_SHOVEL_UFOPEDIA: Just a simple shovel, used to dig trenches. But it could be used to break the head of a Martian too, ig used with enough strength!
+      STR_SHOVEL_UFOPEDIA:
+        Just a simple shovel, used to dig trenches. But it could be
+        used to break the head of a Martian too, ig used with enough strength!
       STR_TRENCH_MACE: Trench Mace
-      STR_TRENCH_MACE_UFOPEDIA: A wooden mallet adapted with various sharp objects
+      STR_TRENCH_MACE_UFOPEDIA:
+        A wooden mallet adapted with various sharp objects
         found in the trench, from spikes and nails to barbed wire. Brutal and
         vicious.
       STR_TRENCH_AXE: null
@@ -8552,40 +8389,46 @@ extraStrings:
       STR_MEDIC_BONESAW: null
       STR_MEDIC_BONESAW_UFOPEDIA: ...
       STR_MEDICAL_SYRINGE: Medical Syringe
-      STR_MEDICAL_SYRINGE_UFOPEDIA:
+      STR_MEDICAL_SYRINGE_UFOPEDIA: null
       STR_MEDIKIT: Medikit
-      STR_MEDIKIT_UFOPEDIA: Small portable bag, contains various medical materials to
+      STR_MEDIKIT_UFOPEDIA:
+        Small portable bag, contains various medical materials to
         stabilize wounded in battle. It includes analgesics, antibiotics, iodine
         chlorido, castor oil and cutting forceps.
       STR_SURGERY_KIT: Kit de cirugía de campaña
-      STR_SURGERY_KIT_UFOPEDIA: Most complete version of the Medical Kit, includes
+      STR_SURGERY_KIT_UFOPEDIA:
+        Most complete version of the Medical Kit, includes
         surgical instruments to remove pieces of shrapnel. You can load more
         medicine for more injured.
       STR_BANDAGES: Bandage
-      STR_BANDAGES_UFOPEDIA: Sterile gauze bandages, used to stop bleeding quickly and
+      STR_BANDAGES_UFOPEDIA:
+        Sterile gauze bandages, used to stop bleeding quickly and
         treat the wound, to receive better medical care.
       STR_PAINKILLER: Painkiller
-      STR_PAINKILLER_UFOPEDIA: Small morphine injection stored for use in a practical
+      STR_PAINKILLER_UFOPEDIA:
+        Small morphine injection stored for use in a practical
         cardboard box. Relieves the pain of the injured instantly.
       STR_MAUSER_C96_CARBINE: Mauser C96/M14 Trench Carbine
       STR_MAUSER_C96_CARBINE_UFOPEDIA: WIP
       STR_MAUSER_C96_CARBINE_MAG: Mauser C96/M14 Mag
       STR_MAUSER_C96_CARBINE_MAG_KMM: Mauser C96/M14 KMM Mag
       STR_LUGER_P08: P08 Luger
-      STR_LUGER_P08_UFOPEDIA:
+      STR_LUGER_P08_UFOPEDIA: null
       STR_LUGER_P08_MAG: P08 Luger Mag
       STR_LUGER_P08_MAG_KMM: P08 Luger K-MM Mag
       STR_LUGER_ARTILLERY: P08 Artillery Luger
       STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
-      STR_LUGER_ARTILLERY_DRUM_KMM:
-      STR_LUGER_ARTILLERY_UFOPEDIA: Modified version of the P08 Luger handgun, has a
+      STR_LUGER_ARTILLERY_DRUM_KMM: null
+      STR_LUGER_ARTILLERY_UFOPEDIA:
+        Modified version of the P08 Luger handgun, has a
         handguard and a wooden stock added to increase accuracy and range.
         Originally it was supplied to artillery battery soldiers as a personal
         defense weapon. Use drum magazines to maximize its ammunition storage.
       STR_MP18: MP-18 Bergmann SMG
       STR_MP18_DRUM: MP-18 Drum
       STR_MP18_DRUM_KMM: MP-18 K-MM Drum
-      STR_MP18_UFOPEDIA: One of the best weapons in the human arsenal, designed to
+      STR_MP18_UFOPEDIA:
+        One of the best weapons in the human arsenal, designed to
         provide maximum firepower at close range. It is light and easy to use,
         as well as accurate in close combat. Its long-range use is not
         recommended, it loses power easily. Share the design of its drum
@@ -8596,14 +8439,17 @@ extraStrings:
         activated all at the same time. Very practical, used by the troops to
         disable enemy armor.
       STR_TRENCH_CLUB: Trench Club
-      STR_TRENCH_CLUB_UFOPEDIA: A light club made of steel, with spikes added to its
+      STR_TRENCH_CLUB_UFOPEDIA:
+        A light club made of steel, with spikes added to its
         tips to maximize damage. Very practical close quarters weapon.
       STR_STICK_GRENADE: Stick Grenade
-      STR_STICK_GRENADE_UFOPEDIA: Also known as 'Stielhandgrenade', this German-made hand
-        explosive has a fragmentary head at the tip and a small wooden tube as a
-        base. Its design allows it to be thrown very far.
+      STR_STICK_GRENADE_UFOPEDIA:
+        Also known as 'Stielhandgrenade', this German-made
+        hand explosive has a fragmentary head at the tip and a small wooden tube
+        as a base. Its design allows it to be thrown very far.
       STR_FRAG_GRENADE: Frag Grenade
-      STR_FRAG_GRENADE_UFOPEDIA: Invented by William Mills, this fragmentation grenade
+      STR_FRAG_GRENADE_UFOPEDIA:
+        Invented by William Mills, this fragmentation grenade
         in the shape of a pineapple is very safe to use, it contains various
         measures of safety to avoid accidental activation. Its explosion range
         is moderate.
@@ -8612,7 +8458,8 @@ extraStrings:
         powerful. It can be used to set traps for the enemy, because the wick
         can be activated with delay.
       STR_FLAMETHROWER: Flamethrower
-      STR_FLAMETHROWER_UFOPEDIA: Our first model flame thrower is small, light and
+      STR_FLAMETHROWER_UFOPEDIA:
+        Our first model flame thrower is small, light and
         portable enough to be carried by a single soldier. It throws its jet of
         gasoline added with calystene (a highly flammable Martian mineral) into
         an arc that makes it possible to overcome a few minor obstacles.
@@ -8628,7 +8475,8 @@ extraStrings:
         offensive use is not recommended, although it may serve as an emergency
         weapon.
       STR_GAS_GRENADE: Gas Grenade
-      STR_GAS_GRENADE_UFOPEDIA: "American-made Mk.V CN grenade, designed to launch a
+      STR_GAS_GRENADE_UFOPEDIA:
+        "American-made Mk.V CN grenade, designed to launch a
         powerful gas of classified origin (although it is speculated that it
         contains a mixture of Calystene and Tear Gas), which is particularly
         effective in saturating an area and incapacitating entrenched enemies.
@@ -8638,9 +8486,15 @@ extraStrings:
         nervous system. Field tests report that Greys are particularly affected
         by this weapon."
       STR_HEAVY_GRENADE: Heavy Grenade
-      STR_HEAVY_GRENADE_UFOPEDIA: Also known as 'Novitski Grenade', this large grenade of Russian origin has a large amount of explosives within. Cumbersome to throw, it packs a punch.
+      STR_HEAVY_GRENADE_UFOPEDIA:
+        Also known as 'Novitski Grenade', this large grenade
+        of Russian origin has a large amount of explosives within. Cumbersome to
+        throw, it packs a punch.
       STR_HANDHELD_MORTAR: Handheld Mortar
-      STR_HANDHELD_MORTAR_UFOPEDIA: The Likhonin mortar is a small, indirect fire weapon. Small enough to fit a soldier's backpack, it could fire more accurately if the user knees down.
+      STR_HANDHELD_MORTAR_UFOPEDIA:
+        The Likhonin mortar is a small, indirect fire
+        weapon. Small enough to fit a soldier's backpack, it could fire more
+        accurately if the user knees down.
       STR_MORTAR_SHELL: Mortar Shell
       STR_M1907_SL_CARBINE: Winchester M1907 SL Carbine
       STR_M1907_SL_CARBINE_MAG: M1907 SL Carbine Mag
@@ -8665,43 +8519,50 @@ extraStrings:
       #STR_ _CLIP:
       #STR_ _UFOPEDIA: ...
       STR_BREAD: Bread
-      STR_BREAD_UFOPEDIA: A piece of freshly baked bread, excellent for filling the
+      STR_BREAD_UFOPEDIA:
+        A piece of freshly baked bread, excellent for filling the
         belly of a hungry soldier. It is surprising that it is kept hot for so
         long, it is much appreciated by soldiers. It recovers energy and morale
         in 25 points.
       STR_ROTTEN_BREAD: Rotten Bread
-      STR_ROTTEN_BREAD_UFOPEDIA: A piece of bread that has been exposed to the weather
+      STR_ROTTEN_BREAD_UFOPEDIA:
+        A piece of bread that has been exposed to the weather
         so long that it has rotted. It can still be consumed by a hungry
         soldier, recovering 20 points of energy, 10 points of morale, but
         causing 6 points of damage when consuming the bread in bad condition.
       STR_CANNED_BEEF: Corned Beef
-      STR_CANNED_BEEF_UFOPEDIA: Corned beef is a salt-cured beef product. The term
+      STR_CANNED_BEEF_UFOPEDIA:
+        Corned beef is a salt-cured beef product. The term
         comes from the treatment of the meat with large-grained rock salt, also
         called "corns" of salt. Despite its taste, it is a popular alternative
         to fresh meat, so scarce in wartime. Its canning prevents the contents
         from spoiling. When consumed, the soldier recovers 30 units of energy
         and 25 of morale.
       STR_ROTTEN_CANNED_BEEF: Rotten Corned Beef
-      STR_ROTTEN_CANNED_BEEF_UFOPEDIA: This is a Corned Beef can that has suffered
+      STR_ROTTEN_CANNED_BEEF_UFOPEDIA:
+        This is a Corned Beef can that has suffered
         damage due to the passage of time. The previous user of this can has
         opened it a little and its contents have been spoiled, but it is still a
         little edible. By feeding on this, a soldier recovers 30 moral points,
         25 energy points, but loses 15 health units, due to stomach discomfort
         caused by this decomposing food.
       STR_BISCUIT_BOX: Biscuit Box
-      STR_BISCUIT_BOX_UFOPEDIA: A small bread roll baked with a flour base, the way it
+      STR_BISCUIT_BOX_UFOPEDIA:
+        A small bread roll baked with a flour base, the way it
         is prepared varies from country to country. In this case, the packaged
         biscuits are British style, small dry and crunchy biscuits. They are
         perfect as a snack to alleviate hunger. The contents of this small box
         recovers a hungry soldier 15 points of energy and 25 of morale.
       STR_ROTTEN_BISCUIT_BOX: Rotten Biscuit Box
-      STR_ROTTEN_BISCUIT_BOX_UFOPEDIA: The little biscuits in this box have long been
+      STR_ROTTEN_BISCUIT_BOX_UFOPEDIA:
+        The little biscuits in this box have long been
         decomposed.  They have become leathery and very hard, but in times of
         need, they can still be consumed.  By feeding on these muffins, a
         soldier recovers 15 units of energy, 25 units of morale, but suffers 6
         units of damage due to eating rotting food.
       STR_WINE: Wine Bottle
-      STR_WINE_UFOPEDIA: A truly excellent vintage, this wine, although not of the
+      STR_WINE_UFOPEDIA:
+        A truly excellent vintage, this wine, although not of the
         best quality, is delicious. A necessary relief for the nightmares of the
         battle front, when drinking a sip of this delicacy, the soldier recovers
         30 units of energy, 100 of morale, but receives 15 units of damage by
@@ -8717,14 +8578,16 @@ extraStrings:
         things in life...
       STR_BROKEN_WINE_BOTTLE_RAGE: RAGE!
       STR_TEA_FLASK: Tea Flask
-      STR_TEA_FLASK_UFOPEDIA: A container with hot and mild tea. The taste of the tea
+      STR_TEA_FLASK_UFOPEDIA:
+        A container with hot and mild tea. The taste of the tea
         is not specified, although the texture is soft and fruity, it is
         probably fig. A sip of this bottle will help calm the nerves of any
         stressed soldier immediately, it recovers 10 points of Energy and 50 of
         Moral.
       STR_CHARGE: CHARGE!
       STR_WHISTLE: Whistle
-      STR_WHISTLE_UFOPEDIA: Small device designed to emit a loud, high-pitched sound.
+      STR_WHISTLE_UFOPEDIA:
+        Small device designed to emit a loud, high-pitched sound.
         It is used by officers to indicate an attack or an infantry charge. If
         used directly on a soldier, increase the TUs by 20, courage by 10 and
         reactions by 5, as a result of the morale rise. However, it can tire the
@@ -8758,7 +8621,8 @@ extraStrings:
       ##########################################
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
-      STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}Analyz\
+      STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA:
+        "{NEWLINE}{NEWLINE}{NEWLINE}Analyz\
         ing the new type of metal from which weapons and enemy vehicles are
         made, we have found that it is a very easy-to-plow ore if a large amount
         of electricity is applied. Using this knowledge, we have adapted some
@@ -8776,20 +8640,23 @@ extraStrings:
         Entropium will be better at penetrating the armor of the Martians."
       STR_GASMASKS: "Gasmasks"
       GASMASKS: "Gasmasks"
-      STR_GASMASKS_UFOPEDIA: "Martian enemies enjoy using chemical attacks against our
+      STR_GASMASKS_UFOPEDIA:
+        "Martian enemies enjoy using chemical attacks against our
         troops and civilians. The only way we can repel these attacks is by
         means of rudimentary gas masks. They block vision, stun the user and
         make it difficult to aim, but it's better than dying suffocated with
         lungs full of black smoke."
       STR_HUMAN_CHEMICAL_WEAPONS: "Human Chemical Weapons"
-      STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA: "We've figured out a way to create our own
+      STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA:
+        "We've figured out a way to create our own
         chemical weapons using Martian and native Earth materials. We believe
         that the enemy has no resistance to our chemical weapons (just as we had
         no resistance to their weapons), so we expect maximum effectiveness on
         the battlefield. We warn that their application may affect our troops as
         well, so use them with caution."
       STR_KMM_BULLETS: K-MM Bullets
-      STR_KMM_BULLETS_UFOPEDIA: The new bullets, forged entirely from the new Martian
+      STR_KMM_BULLETS_UFOPEDIA:
+        The new bullets, forged entirely from the new Martian
         Metal (called Entropium by scientists), have greater penetration
         capacity than the armor used by the Martians. The new ore is melted and
         forged again to form the core of the new armour-piercing rounds and more
