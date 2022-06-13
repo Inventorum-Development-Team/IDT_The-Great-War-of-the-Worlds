@@ -1181,8 +1181,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_BRITISH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 4000
     costSell: 3500
@@ -1280,8 +1280,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
     costSell: 650
@@ -1380,8 +1380,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -1409,8 +1409,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -1439,8 +1439,8 @@ items:
         STR_HEAVY_EQUIPMENT,
         STR_GERMAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
     costSell: 650
@@ -1484,8 +1484,8 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -1513,8 +1513,8 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -1543,8 +1543,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 4500
     costSell: 3500
@@ -1587,8 +1587,8 @@ items:
         STR_FRENCH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 400
     costSell: 200
@@ -1617,8 +1617,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 4500
     costSell: 3500
@@ -1661,8 +1661,8 @@ items:
         STR_FRENCH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 400
     costSell: 200
@@ -1692,8 +1692,8 @@ items:
         STR_RUSSIAN_EQUIPMENT,
         STR_RIFLEMAN_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
     costSell: 650
@@ -1741,8 +1741,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -1769,8 +1769,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -1799,8 +1799,8 @@ items:
         STR_ITALIAN_EQUIPMENT,
         STR_RIFLEMAN_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.2
     costBuy: 800
     costSell: 650
@@ -1848,8 +1848,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -1877,8 +1877,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.04
     costBuy: 70
     costSell: 50
@@ -2503,8 +2503,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_FRENCH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3200
@@ -2551,8 +2551,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
     costSell: 40
@@ -2584,8 +2584,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
     costSell: 40
@@ -2937,8 +2937,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_FRENCH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3200
@@ -2995,8 +2995,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3000
@@ -3053,8 +3053,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
@@ -3085,8 +3085,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
@@ -3118,8 +3118,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3000
@@ -3175,8 +3175,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
@@ -3207,8 +3207,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
@@ -3240,8 +3240,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3000
@@ -3297,8 +3297,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
@@ -3329,8 +3329,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 250
     costSell: 300
@@ -3475,8 +3475,8 @@ items:
         STR_CLIPS,
         STR_ASSAULT_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
     costSell: 90
@@ -3508,8 +3508,8 @@ items:
         STR_CLIPS,
         STR_ASSAULT_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
     costSell: 90
@@ -3541,8 +3541,8 @@ items:
         STR_ITALIAN_EQUIPMENT,
         STR_ASSAULT_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 2000
     costSell: 1500
@@ -3597,8 +3597,8 @@ items:
         STR_CLIPS,
         STR_ASSAULT_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
     costSell: 80
@@ -3630,8 +3630,8 @@ items:
         STR_CLIPS,
         STR_ASSAULT_CLASS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 100
     costSell: 80
@@ -3746,7 +3746,7 @@ items:
     listOrder: 2910
   #    listOrder: 2002
   - type: STR_TESLA_LIGHT_BATTERY
-    categories: [STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costSell: 15000
     weight: 3
@@ -3780,8 +3780,8 @@ items:
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 11000
     costSell: 9000
@@ -3835,8 +3835,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -3867,8 +3867,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -3898,8 +3898,8 @@ items:
         STR_SUPPORT_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.2
     costSell: 2250
     weight: 12
@@ -3948,8 +3948,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costSell: 150
     weight: 3
@@ -3977,8 +3977,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costSell: 150
     weight: 3
@@ -4008,8 +4008,8 @@ items:
         STR_HEAVY_EQUIPMENT,
         STR_GERMAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 9000
     costSell: 8000
@@ -4065,8 +4065,8 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 1000
     costSell: 750
@@ -4097,8 +4097,8 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 1000
     costSell: 750
@@ -4247,8 +4247,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_FRENCH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3200
@@ -4307,8 +4307,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
     costSell: 40
@@ -4340,8 +4340,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.025
     costBuy: 50
     costSell: 40
@@ -4374,8 +4374,8 @@ items:
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 11000
     costSell: 9000
@@ -4429,8 +4429,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -4461,8 +4461,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -4494,8 +4494,8 @@ items:
         STR_HEAVY_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 11000
     costSell: 9000
@@ -4549,8 +4549,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -4581,8 +4581,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -4652,7 +4652,7 @@ items:
     listOrder: 3140
   #    listOrder: 2002
   - type: STR_TESLA_HEAVY_BATTERY
-    categories: [STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costBuy: 20000
     costSell: 15000
@@ -4667,6 +4667,8 @@ items:
     damageType: 11
     clipSize: 100
     battleType: 2
+    invHeight: 2
+    invWidth: 2
     armor: 200
     listOrder: 3150
 
@@ -4685,8 +4687,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
     costSell: 520
@@ -4734,8 +4736,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
     costSell: 520
@@ -4777,8 +4779,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
     costSell: 520
@@ -4820,8 +4822,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
     costSell: 250
@@ -4851,8 +4853,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
     costSell: 250
@@ -4884,8 +4886,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
     costSell: 520
@@ -4927,8 +4929,8 @@ items:
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 1700
     costSell: 520
@@ -4970,8 +4972,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
     costSell: 250
@@ -5001,8 +5003,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 900
     costSell: 250
@@ -5073,7 +5075,7 @@ items:
     listOrder: 3250
   #    listOrder: 2002
   - type: STR_TESLA_EXTENDED_BATTERY
-    categories: [STR_FIREARMS, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     size: 0.1
     costBuy: 10000
     costSell: 15000
@@ -5091,6 +5093,8 @@ items:
     damageType: 11
     clipSize: 10
     battleType: 2
+    invHeight: 2
+    invWidth: 1
     armor: 200
     listOrder: 3260
 
@@ -5099,8 +5103,8 @@ items:
   ####################################
   - type: STR_ANTITANK_GRENADE
     categories: [STR_EXPLOSIVES, STR_ASSAULT_CLASS, STR_RAIDER_CLASS]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 600
     costSell: 500
@@ -8111,6 +8115,8 @@ extraStrings:
         based on the bolt-action mechanism of the German Mauser Gewehr 98. It
         replaced the old Krag rifle and is supplied en masse to troops of the US
         Army. It is equipped with a bayonet for close combat.
+      STR_P14_ENFIELD: P14 Enfield
+      STR_P14_ENFIELD_UFOPEDIA: Starting as a response to the Boer's Mauser rifles, then a improved license-produced version of the SMLE and eventually a joint American-British effort, the Pattern 1914 Enfield is an accurate sniper rifle used by both US and Commonwealth marksmen, using .30-06 rounds.
       STR_BAR: BAR LMG
       STR_BAR_MAG: BAR Mag
       STR_BAR_MAG_KMM: BAR K-MM Mag
@@ -8235,6 +8241,8 @@ extraStrings:
         means 'sawed-off' in Russian.
       STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
       STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
+      STR_BERDAN_II: Berdan II Rifle
+      STR_BERDAN_II_UFOPEDIA: Old single-shot service rifle, used from 1870 till replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
       STR_FEDOROV_AVTOMAT: Fedorov Avtomat SLR
       STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag
       STR_FEDOROV_AVTOMAT_MAG_KMM: Fedorov Avtomat K-MM Mag
