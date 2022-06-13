@@ -71,8 +71,8 @@ alienMissions:
     points: 0
     raceWeights:
       0:
-        STR_SECTOID: 50
-        STR_MARTIAN_SCIENCE_TEAM: 50
+        STR_SECTOID: 80
+        STR_MARTIAN_SCIENCE_TEAM: 20
       1:
         STR_SECTOID: 50
         STR_MARTIAN_SCIENCE_TEAM: 50

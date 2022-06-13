@@ -590,27 +590,30 @@ missionScripts:
   - delete: geniusRetaliation
   - delete: superhumanRetaliation
   - delete: recurringTerror
+  - delete: recurringTerrorNormal
 ##############################
 
   - type: recurringTerrorNormal
 #    label: 1
     varName: recurringTerrorNormal
-    firstMonth: 4
+    firstMonth: 0
     executionOdds: 100
+    #raceWeights:
+
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 15
+        STR_NORTH_AMERICA: 20
         STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 15
+        STR_EUROPE: 20
         STR_NORTH_AFRICA: 10
         STR_SOUTHERN_AFRICA: 10
-        STR_CENTRAL_ASIA: 10
-        STR_SOUTH_EAST_ASIA: 10
+        STR_CENTRAL_ASIA: 5
+        STR_SOUTH_EAST_ASIA: 20
         STR_SIBERIA: 10
-        STR_AUSTRALASIA: 10
+        STR_AUSTRALASIA: 0
     useTable: false
     #researchTriggers:
     # STR_UNITED_WE_STAND_RESEARCH: false
@@ -622,8 +625,9 @@ missionScripts:
       0:
         STR_ALIEN_HARVEST: 50
         STR_ALIEN_ABDUCTION: 50
-    firstMonth: 3
+    firstMonth: 0
     startDelay: 150
+    targetBaseOdds: 100
     #researchTriggers:
     #  STR_DEVASTATION_COMPLETED: false
 
@@ -636,7 +640,7 @@ missionScripts:
     randomDelay: 43500
     targetBaseOdds: 100
     minScore: 1000
-    firstMonth: 5
+    firstMonth: 3
     useTable: false
 
   - type: alienConstruction
@@ -644,12 +648,44 @@ missionScripts:
       0:
         STR_ALIEN_INFILTRATION: 50
         STR_ALIEN_BASE: 50
-    firstMonth: 6
+    firstMonth: 3
     startDelay: 1000
     randomDelay: 43500
     maxRuns: 6
     varName: alienConstruction
     executionOdds: 80
+
+  - type: AirPatrol1
+    missionWeights:
+      0:
+        STR_MARTIAN_AIR_PATROL_1: 100
+    firstMonth: 2
+    targetBaseOdds: 100
+    startDelay: 1000
+    #minScore: 800
+    #maxScore: 1299
+    randomDelay: 20000
+
+  - type: AirSuperiority1
+    missionWeights:
+      0:
+        STR_MARTIAN_AIR_SUPREMACY_1: 100
+    firstMonth: 2
+    startDelay: 1000
+    minScore: 800
+    maxScore: 1299
+    randomDelay: 20000
+
+  - type: AirSuperiority2
+    missionWeights:
+      0:
+        STR_MARTIAN_AIR_SUPREMACY_2: 100
+    firstMonth: 8
+    startDelay: 1000
+    minScore: 1300
+    maxScore: 1799
+    randomDelay: 20000
+
 
 ###################################
   - type: CampaignStoryActOneVerdun
@@ -870,8 +906,8 @@ alienDeployments:
             - STR_HEATRAY_SNIPER_BATTERY_PHOTON
             - STR_HEATRAY_SNIPER_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     height: 10
     finalDestination: true
     loseCutscene: loseGame
@@ -1101,7 +1137,7 @@ alienDeployments:
     length: 40
     height: 10
     shade: 3
-    race: STR_SECTOID
+    race: STR_MARTIAN_LINE_INFANTRIES
     civilians: 0 # no random civilians
     civiliansByType:
       STR_BRITISH_T2_RIFLEMAN_NPC: 4
