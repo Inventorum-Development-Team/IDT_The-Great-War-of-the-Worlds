@@ -2466,9 +2466,9 @@ items:
     handSprite: 1368
     bulletSprite: 17
     hitAnimation: 90
-    fireSound: 4
+    fireSound: 250
+    reloadSound: 255
     bulletSpeed: 16
-    #    reloadSound: 301
     compatibleAmmo:
       - STR_TESLA_LIGHT_BATTERY
     accuracyCloseQuarters: 65
@@ -3170,7 +3170,7 @@ items:
     handSprite: 1808
     bulletSpeed: 20
     fireSound: 138
-    reloadSound: 138
+    reloadSound: 338
     sprayWaypoints: 2
     confAuto:
       shots: 7
@@ -3293,7 +3293,7 @@ items:
     handSprite: 1848
     bulletSpeed: 20
     fireSound: 138
-    reloadSound: 138
+    reloadSound: 338
     confAuto:
       shots: 5
       name: STR_FULL_AUTO
@@ -3354,7 +3354,7 @@ items:
     power: 45
     refNode: *BasicPistolRoundAntiArmor
     damageType: 10
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     clipSize: 32
     costThrow:
@@ -3386,7 +3386,7 @@ items:
     power: 45
     refNode: *KMMPistolRoundAntiArmor
     damageType: 10
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     clipSize: 32
     costThrow:
@@ -3415,7 +3415,7 @@ items:
     handSprite: 1888
     bulletSpeed: 20
     fireSound: 138
-    reloadSound: 138
+    reloadSound: 338
     confAuto:
       shots: 10
       name: STR_FULL_AUTO
@@ -3839,7 +3839,8 @@ items:
     #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 90
-    fireSound: 4
+    fireSound: 251
+    reloadSound: 255
     bulletSpeed: 16
     #    reloadSound: 301
     compatibleAmmo:
@@ -3888,7 +3889,8 @@ items:
     #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 90
-    fireSound: 4
+    fireSound: 252
+    reloadSound: 255
     bulletSpeed: 16
     #    reloadSound: 301
     compatibleAmmo:
@@ -4795,7 +4797,8 @@ items:
     #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 90
-    fireSound: 4
+    fireSound: 253
+    reloadSound: 255
     bulletSpeed: 16
     #    reloadSound: 301
     compatibleAmmo:
@@ -5220,7 +5223,8 @@ items:
     #    bulletSprite: 12 #Rifle bullet 35*112=420
     bulletSprite: 17
     hitAnimation: 90
-    fireSound: 4
+    fireSound: 254
+    reloadSound: 255
     bulletSpeed: 16
     #    reloadSound: 301
     compatibleAmmo:
@@ -5453,6 +5457,7 @@ items:
       ToWound: 0.3
       RandomWound: true
     damageType: 3
+    arcingShot: true
     clipSize: 1
     battleType: 2
     armor: 20
@@ -5563,6 +5568,7 @@ items:
     accuracyAimed: 80
     tuSnap: 33
     tuAimed: 50
+    kneelBonus: 200
     battleType: 1
     twoHanded: true
     invWidth: 2
@@ -8251,9 +8257,11 @@ extraStrings:
       STR_SLAM_FIRE_SHORT: Slam Fire
       STR_SUPPRESSION: Suppression
       STR_SUPPRESSION_SHORT: Suppression
-      STR_BURST: Burst 
-      STR_BURST_SHORT: Burst 
-      STR_PRAY_N_SPRAY: Pray n' Spray 
+      STR_FULL_AUTO: Full Auto
+      STR_FULL_AUTO_SHORT: Full Auto
+      #STR_BURST: Burst
+      STR_BURST_SHORT: Burst
+      STR_PRAY_N_SPRAY: Pray n' Spray
       STR_PRAY_N_SPRAY_SHORT: Spray
       STR_AUTOMATIC_REVOLVER: Automatic Revolver
       STR_REVOLVER_CLIP: Revolver Speedloader
@@ -8264,12 +8272,12 @@ extraStrings:
         soldiers entrust it their life. If you keep your finger on the trigger,
         you can shoot the 6 bullets in rapid succession. It is recharged using a
         'speedloader' which places the 6 cartridges at the same time on the
-        weapon drum. 
-      STR_SERVICE_REVOLVER: Service Revolver 
-      STR_SERVICE_REVOLVER_UFOPEDIA: Single-action revolver, trustworthy sidegun used in several armies and law enforcement forces. Its sturdy design is designed to endure even in the worst conditions. 
+        weapon drum.
+      STR_SERVICE_REVOLVER: Service Revolver
+      STR_SERVICE_REVOLVER_UFOPEDIA: Single-action revolver, trustworthy sidegun used in several armies and law enforcement forces. Its sturdy design is designed to endure even in the worst conditions.
       STR_HEAVY_REVOLVER: Heavy Revolver
       STR_HEAVY_REVOLVER_UFOPEDIA: A bit cumbersome and difficult sidearm, most preferred by Central European troops. Being single-action, it's rate of fire is limited. This is compensated ny the better accuracy, compared to other revolvers.
-      STR_SMLE_MKIII: SMLE Mk III
+      STR_SMLE_MKIII: SMLE Mk III Rifle
       STR_SMLE_MKIII_CLIP: SMLE Mk III Clip
       STR_SMLE_MKIII_CLIP_KMM: SMLE Mk III K-MM Clip
       STR_SMLE_MKIII_UFOPEDIA: The most recent iteration of the Lee-Enfield rifle
@@ -8278,14 +8286,14 @@ extraStrings:
         gun. It is recharged using two stripper clips with 5 bullets each one.
         Its iron sight is comfortable and precise for long range shooting.
       STR_FARQHUAR_HILL: Farqhuar-Hill SLR
-      STR_FARQHUAR_HILL_DRUM: Farqhuar-Hill Drum 
-      STR_FARQHUAR_HILL_DRUM_KMM: Farqhuar-Hill K-MM Drum 
+      STR_FARQHUAR_HILL_DRUM: Farqhuar-Hill Drum
+      STR_FARQHUAR_HILL_DRUM_KMM: Farqhuar-Hill K-MM Drum
       STR_FARQHUAR_HILL_UFOPEDIA: Next-generation British autoloader rifle. Its drum magazine
         allows you to charge twice as much ammunition. It has a great rate of
         fire, although it has awkard recoild and inaccuracy over long distances, it
         is recommended to shoot in short bursts. Calibered in .303 British.
       STR_HUOT_LMG: Huot Automatic Rifle
-      STR_HUOT_LMG_DRUM: Huot Automatic Drum 
+      STR_HUOT_LMG_DRUM: Huot Automatic Drum
       STR_HUOT_LMG_DRUM_KMM: Huot Automatic K-MM Drum
       STR_HUOT_LMG_UFOPEDIA: One of the cheapest light machine guns produced by the
         Commonwealth. Extremely reliable and durable, it is not affected by mud.
@@ -8293,8 +8301,8 @@ extraStrings:
         automatic weapon. Employs a gas mechanism designed by engineer Joseph
         Huot, replacing the Lewis machine gun as a 'fire on the move' weapon. It
         uses .303 British caliber bullets.
-      STR_M1911_COLT: M1911 Colt
-      STR_M1911_COLT_MAG: M1911 Colt Mag 
+      STR_M1911_COLT: M1911 Colt Pistol
+      STR_M1911_COLT_MAG: M1911 Colt Mag
       STR_M1911_COLT_MAG_KMM: M1911 Colt K-MM Mag
       STR_M1911_COLT_UFOPEDIA: Iconic American handgun. Motivated to replace revolvers
         in service with the armed forces, this innovative gun designed by John
@@ -8302,14 +8310,14 @@ extraStrings:
         similar to that used by Old West revolvers. Its robust design resulted
         in a semiautomatic, reliable and very resistant weapon.
       STR_SPRINGFIELD: M1903 Springfield Bayoneted
-      STR_SPRINGFIELD_CLIP: M1903 Springfield Clip 
+      STR_SPRINGFIELD_CLIP: M1903 Springfield Clip
       STR_SPRINGFIELD_CLIP_KMM: M1903 Springfield K-MM Clip
       STR_SPRINGFIELD_UFOPEDIA: Bolt-action rifle of American design, caliber .30-06,
         based on the bolt-action mechanism of the German Mauser Gewehr 98. It
         replaced the old Krag rifle and is supplied en masse to troops of the US
         Army. It is equipped with a bayonet for close combat.
-      STR_BAR: BAR
-      STR_BAR_MAG: BAR Mag 
+      STR_BAR: BAR LMG
+      STR_BAR_MAG: BAR Mag
       STR_BAR_MAG_KMM: BAR K-MM Mag
       STR_BAR_UFOPEDIA: Browning Automatic Rifle, the most recent addition to the
         American arsenal. The Ace under the sleeve of U.S. Army, the project was
@@ -8328,8 +8336,8 @@ extraStrings:
         ammunition and is so powerful that it was initially banned for use
         against humans. It is the weapon of choice for many infantry soldiers,
         perfect for clearing trenches and enemy positions.
-      STR_MONDRAGON: Mondragon Bayoneted
-      STR_MONDRAGON_MAG: Mondragon Mag 
+      STR_MONDRAGON: Mondragon SLR Bayoneted
+      STR_MONDRAGON_MAG: Mondragon Mag
       STR_MONDRAGON_MAG_KMM: Mondragon K-MM Mag
       STR_MONDRAGON_UFOPEDIA: Semi-automatic rifle of Mexican design, the first to be
         supplied to the troops of a regular army, widely used by the Mexican
@@ -8346,21 +8354,21 @@ extraStrings:
         minor powers (hence the nickname of 'The Standard' given by the Allied
         soldiers). It shoots 7.92x57mm ammunition, widely copied and reproduced
         by local armories outside Germany.
-      STR_MAUSER_C96: Mauser C96
+      STR_MAUSER_C96: Mauser C96 Handgun
       STR_MAUSER_C96_CLIP: Mauser C96 Clip
       STR_MAUSER_C96_CLIP_KMM: Mauser C96 K-MM Clip
       STR_MAUSER_C96_UFOPEDIA: The C96 pistol, built by Mauser, was the first truly
         successful semiautomatic pistol model. Almost all civilians and police
         forces in Western Europe use it, as reliable as it is. It is fed by
         stripper clips with bullets calibrated in 7.63 mm
-      STR_MG0815: MG-08/14
-      STR_MG0815_DRUM: MG-08/14 Drum 
+      STR_MG0815: MG-08/14 LMG
+      STR_MG0815_DRUM: MG-08/14 Drum
       STR_MG0815_DRUM_KMM: MG-08/14 K-MM Drum
       STR_MG0815_UFOPEDIA: German heavy machine gun, effective both mounted on bipods
         and in vehicles. It has been adapted for use by the infantry, although
         the weight makes it inaccurate if the soldier is not kneeling when firing. It has a very high rate of fire. Uses 7.92mm bullets
-      STR_SELBSTLADER_M1916: Selbstlader M1913 Scoped
-      STR_SELBSTLADER_M1916_MAG: Selbstlader M1913 Mag 
+      STR_SELBSTLADER_M1916: Selbstlader M1913 Scoped SLR
+      STR_SELBSTLADER_M1916_MAG: Selbstlader M1913 Mag
       STR_SELBSTLADER_M1916_MAG_KMM: Selbstlader M1913 K-MM Mag
       STR_SELBSTLADER_M1916_UFOPEDIA: German word for 'Selfloading', the most refined
         model of the semi-automatic rifles designed by Mauser, this weapon
@@ -8370,7 +8378,7 @@ extraStrings:
         rifle terrible in close combat, but excellent for shooting at a safe
         distance.
       STR_LEBEL: Lebel M1886 Bayoneted
-      STR_LEBEL_CLIP: Lebel M1886 Clip 
+      STR_LEBEL_CLIP: Lebel M1886 Clip
       STR_LEBEL_CLIP_KMM: Lebel M1886 K-MM Clip
       STR_LEBEL_UFOPEDIA: The Rifle Model 1886, better known as Lebel rifle. The 8mm
         caliber rifle can hold 8 cartridges in an internal tubular magazine,
@@ -8379,7 +8387,7 @@ extraStrings:
         smoke-free gunpowder based on nitrocellulose and lead bullets fully
         coated with nickel silver.
       STR_CHAUCHAT_LMG: CSRG Chauchat LMG
-      STR_CHAUCHAT_LMG_MAG: CSRG Chauchat Mag 
+      STR_CHAUCHAT_LMG_MAG: CSRG Chauchat Mag
       STR_CHAUCHAT_LMG_MAG_KMM: CSRG Chauchat K-MM Mag
       STR_CHAUCHAT_LMG_UFOPEDIA: The Chauchat machine gun is the common name for the
         Mle 1912 CSRG machine gun. It was commissioned in the French infantry in
@@ -8395,9 +8403,9 @@ extraStrings:
         position. It was also used as a defense weapon if the crew had to leave
         the aircraft. The curiosity of the weapon consisted in the presence of a
         bipod, unusual for such a small weapon.
-      STR_RSC17: RSC14
-      STR_RSC17_CLIP: RSC14 Clip 
-      STR_RSC17_CLIP_KMM: RSC14 K-MM Clip 
+      STR_RSC17: RSC14 SLR
+      STR_RSC17_CLIP: RSC14 Clip
+      STR_RSC17_CLIP_KMM: RSC14 K-MM Clip
       STR_RSC17_UFOPEDIA: The Model 1914 Rifle (also called RSC M1914 - for
         Ribeyrolles, Sutter and Chauchat, the gun designers). On April 1, 1914
         the production of the FA RSC 1914 is finally launched and the gun is
@@ -8405,22 +8413,22 @@ extraStrings:
         the good shooters. They are carefully chosen because the weapon is
         capricious and it is necessary for men to take care of their weapon to
         limit the problems.
-      STR_MOSIN_NAGANT: Mosin-Nagant 
+      STR_MOSIN_NAGANT: Mosin-Nagant Rifle
       STR_MOSIN_NAGANT_UFOPEDIA: Service rifle of the Russian Imperial Army, designed by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the 7.62x54mmR round, it was a great improvement over the old single -shot rifles.
-      STR_OBREZ: Obrez 
-      STR_OBREZ_UFOPEDIA: Makeshift handgun made with the bolt mechanism of a Mosin-Nagant. The rifle caliber gives it a great firepower advantage compared to standard pistols, but the handling it's a bit awkward. Obrez means 'sawed-off' in Russian.
-      STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip 
+      STR_OBREZ_PISTOL: Obrez Pistol
+      STR_OBREZ_PISTOL_UFOPEDIA: Makeshift handgun made with the bolt mechanism of a Mosin-Nagant. The rifle caliber gives it a great firepower advantage compared to standard pistols, but the handling it's a bit awkward. Obrez means 'sawed-off' in Russian.
+      STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
       STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
-      STR_FEDOROV_AVTOMAT: Fedorov Avtomat
-      STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag 
+      STR_FEDOROV_AVTOMAT: Fedorov Avtomat SLR
+      STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag
       STR_FEDOROV_AVTOMAT_MAG_KMM: Fedorov Avtomat K-MM Mag
       STR_FEDOROV_AVTOMAT_UFOPEDIA: One of the first operational automatic rifles made in the world, chambered in 6.5mm Fedorov. Designed as an intermediate between the rifle and the light machine gun, but with mobility comparable to a rifle.
-      STR_SMG0818: SMG-08/13
-      STR_SMG0818_BOX: SMG-08/14 Ammo Box
+      STR_SMG_0818: SMG-08/13 SMG
+      STR_SMG_0818_BOX: SMG-08/14 Ammo Box
       STR_SMG_0818_BOX_KMM: SMG-08/14 K-MM Ammo Box
-      STR_SMG0818_UFOPEDIA: This makeshift submachine gun is made using parts of a Maxim MG-08 machine gun, feed with a fixed magazine by using large ammo box clips. The Czech Legion gunsmiths adapted it to fill their need of a light automatic weapon with large ammunition capacity.
-      STR_WINCHESTER_1915: Winchester M1912 Bayoneted 
-      STR_WINCHESTER_1915_UFOPEDIA: Build by the American firm Winchester at request of the Russian High Command as complementary to the Mosin-Nagant bolt-action rifles using the same ammunition. The  majority were diverted to the elite Imperial Guard, becoming a staple of their riflemen.
+      STR_SMG_0818_UFOPEDIA: This makeshift submachine gun is made using parts of a Maxim MG-08 machine gun, feed with a fixed magazine by using large ammo box clips. The Czech Legion gunsmiths adapted it to fill their need of a light automatic weapon with large ammunition capacity.
+      STR_WINCHESTER_M1915: Winchester M1912 Bayoneted
+      STR_WINCHESTER_M1915_UFOPEDIA: Build by the American firm Winchester at request of the Russian High Command as complementary to the Mosin-Nagant bolt-action rifles using the same ammunition. The  majority were diverted to the elite Imperial Guard, becoming a staple of their riflemen.
       STR_ARISAKA_TYPE44_CARBINE: null
       STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA: ...
       STR_MM_MOSIN_NAGANT_CLIP: null
@@ -8430,8 +8438,8 @@ extraStrings:
       STR_COSSACK_LANCE: null
       STR_COSSACK_LANCE_UFOPEDIA: ...
       STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
-      STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip 
-      STR_CARCANO_M91_CARBINE_CLIP_KMM: Carcano M91 K-MM Clip 
+      STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip
+      STR_CARCANO_M91_CARBINE_CLIP_KMM: Carcano M91 K-MM Clip
       STR_CARCANO_M91_CARBINE_UFOPEDIA: Special version of the Carcano rifle, designed
         for the Cavalry. Designed in 1890 by the team led by Army Engineer
         Salvatore Carcano. Calibrated on the rimless 6.5x52 mm cartridge, it
@@ -8440,9 +8448,9 @@ extraStrings:
         recommended for use at medium range, although it is also ideal for close
         combat. It has an integrated folding bayonet that unfolds when required.
         It is highly appreciated for its short size and light weight.
-      STR_BERETTA_MAB18: Beretta MAB14
-      STR_BERETTA_MAB18_MAG: Beretta MAB14 Magazine 
-      STR_BERETTA_MAB18_MAG_KMM: Beretta MAB14 K-MM Magazine 
+      STR_BERETTA_MAB18: Beretta MAB14 SMG
+      STR_BERETTA_MAB18_MAG: Beretta MAB14 Magazine
+      STR_BERETTA_MAB18_MAG_KMM: Beretta MAB14 K-MM Magazine
       STR_BERETTA_MAB18_UFOPEDIA: The first SMG to enter service with the Italian
         Royal Army and probably the first to be used en masse by a military
         force, the Moschetto Automatico Beretta Modello 1914 has an impressive
@@ -8451,8 +8459,8 @@ extraStrings:
         advantage, since the high rate makes it a very imprecise weapon. In
         addition, it loses stopping power quickly, so its use is recommended for
         point-blank shooting at short distances. Includes a folding bayonet.
-      STR_CEI_RIGOTTI: Cei-Rigotti
-      STR_CEI_RIGOTTI_CLIP: Cei-Rigotti Clips 
+      STR_CEI_RIGOTTI: Cei-Rigotti SLR
+      STR_CEI_RIGOTTI_CLIP: Cei-Rigotti Clips
       STR_CEI_RIGOTTI_CLIP_KMM: Cei-Rigotti K-MM Clip
       STR_CEI_RIGOTTI_UFOPEDIA: Semi-automatic rifle of Italian origin designed by
         Major Cei-Rigotti at the end of the 19th century. Physically it is
@@ -8461,9 +8469,9 @@ extraStrings:
         selective fire, which allows to select between semiauto and full auto
         fire modes. It has a fixed magazine and is reloaded using stripper clips
         of 5 bullets each one, caliber 6.5 Carcano.
-      STR_VILLAR_PEROSA: Villar-Perosa
-      STR_VILLAR_PEROSA_MAGS: Villar-Perosa Magazines 
-      STR_VILLAR_PEROSA_MAGS_KMM: Villar-Perosa K-MM Magazines 
+      STR_VILLAR_PEROSA: Villar-Perosa SMG
+      STR_VILLAR_PEROSA_MAGS: Villar-Perosa Magazines
+      STR_VILLAR_PEROSA_MAGS_KMM: Villar-Perosa K-MM Magazines
       STR_VILLAR_PEROSA_UFOPEDIA: Machine gun formed by joining two MAB14 Berettas and
         modifying the trigger mechanism to operate both at the same time. This
         was the original purpose of the weapon, in fact. A pistol grip and a
@@ -8475,7 +8483,7 @@ extraStrings:
       STR_GEWEHR_M95_CLIP: null
       STR_GEWEHR_M95_UFOPEDIA: ...
       STR_MADSEN_MG: Madsen LMG
-      STR_MADSEN_MG_MAG: Madsen LMG Mag 
+      STR_MADSEN_MG_MAG: Madsen LMG Mag
       STR_MADSEN_LMG_MAG_KMM: Madsen LMG K-MM Mag
       STR_MADSEN_MG_UFOPEDIA: The Madsen is the first truly 'Light Machine Gun' in
         military service, designed by by Norwegian war minister Vilhem Madsen in
@@ -8543,14 +8551,15 @@ extraStrings:
       STR_PAINKILLER_UFOPEDIA: Small morphine injection stored for use in a practical
         cardboard box. Relieves the pain of the injured instantly.
       STR_LUGER_ARTILLERY: P08 Artillery Luger
-      STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum 
-      STR_LUGER_ARTILLERY_DRUM_KMM: 
+      STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
+      STR_LUGER_ARTILLERY_DRUM_KMM:
       STR_LUGER_ARTILLERY_UFOPEDIA: Modified version of the P08 Luger handgun, has a
         handguard and a wooden stock added to increase accuracy and range.
         Originally it was supplied to artillery battery soldiers as a personal
         defense weapon. Use drum magazines to maximize its ammunition storage.
       STR_MP18: MP-18 Bergmann SMG
-      STR_MP18_DRUM: MP-18 Bergmann Drum
+      STR_MP18_DRUM: MP-18 Drum
+      STR_MP18_DRUM_KMM: MP-18 K-MM Drum
       STR_MP18_UFOPEDIA: One of the best weapons in the human arsenal, designed to
         provide maximum firepower at close range. It is light and easy to use,
         as well as accurate in close combat. Its long-range use is not
@@ -8564,11 +8573,11 @@ extraStrings:
       STR_TRENCH_CLUB: Trench Club
       STR_TRENCH_CLUB_UFOPEDIA: A light club made of steel, with spikes added to its
         tips to maximize damage. Very practical close quarters weapon.
-      STR_STICK_GRENADE: Stielhandgrenade
-      STR_STICK_GRENADE_UFOPEDIA: Also known as "stick grenade", this German-made hand
+      STR_STICK_GRENADE: Stick Grenade
+      STR_STICK_GRENADE_UFOPEDIA: Also known as 'Stielhandgrenade', this German-made hand
         explosive has a fragmentary head at the tip and a small wooden tube as a
         base. Its design allows it to be thrown very far.
-      STR_FRAG_GRENADE: Mills Bomb
+      STR_FRAG_GRENADE: Frag Grenade
       STR_FRAG_GRENADE_UFOPEDIA: Invented by William Mills, this fragmentation grenade
         in the shape of a pineapple is very safe to use, it contains various
         measures of safety to avoid accidental activation. Its explosion range
@@ -8603,6 +8612,27 @@ extraStrings:
         against the enemy. The gas directly attacks the affected individual's
         nervous system. Field tests report that Greys are particularly affected
         by this weapon."
+      STR_HEAVY_GRENADE: Heavy Grenade
+      STR_HEAVY_GRENADE_UFOPEDIA: Also known as 'Novitski Grenade', this large grenade of Russian origin has a large amount of explosives within. Cumbersome to throw, it packs a punch.
+      STR_HANDHELD_MORTAR: Handheld Mortar
+      STR_HANDHELD_MORTAR_UFOPEDIA: The Likhonin mortar is a small, indirect fire weapon. Small enough to fit a soldier's backpack, it could fire more accurately if the user knees down.
+      STR_MORTAR_SHELL: Mortar Shell
+      STR_ANNIHILATOR_SMG: Annihilator SMG
+      STR_ANNIHILATOR_SMG_UFOPEDIA: wip
+      STR_ANNIHILATOR_SMG_MAG: Annihilator Mag
+      STR_ANNIHILATOR_SMG_MAG_KMM: Annihilator K-MM Mag
+      STR_PHLOGISTON_HEAVY_RIFLE: Phlogiston Heavy Rifle
+      STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA: Wip
+      STR_PHLOGISTON_RUBY_CLIP: Phlogiston Ruby Rod Clip
+      STR_PHLOGISTON_BATTLE_RIFLE: Phlogiston Battle Rifle
+      STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA: WIP
+      STR_PHLOGISTON_MEDIUM_BATTERY: Phlogiston Medium Battery
+      STR_PHLOGISTON_AUTOMATIC_CARBINE: Phlogiston Automatic Carbine
+      STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA: WIP
+      STR_PHLOGISTON_PISTOL: Phlogiston Pistol
+      STR_PHLOGISTON_PISTOL_UFOPEDIA: WIP
+      STR_PHLOGISTON_SMALL_BATTERY: Phlogiston Small Battery
+
       #STR_:
       #STR_ _CLIP:
       #STR_ _UFOPEDIA: ...
