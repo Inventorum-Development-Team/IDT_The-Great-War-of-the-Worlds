@@ -3563,7 +3563,7 @@ items:
     powerRangeReduction: 2
     snapRange: 12
     autoRange: 10
-    autoShots: 5
+    #autoShots: 5
     dropoff: 3
     twoHanded: true
     oneHandedPenalty: 15
@@ -3996,7 +3996,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 30
-    autoShots: 6
+    #autoShots: 6
     sprayWaypoints: 2
     bulletSpeed: 15
     attraction: 10
@@ -4106,7 +4106,7 @@ items:
     tuAuto: 36
     tuSnap: 25
     kneelBonus: 200
-    autoShots: 4
+    #autoShots: 4
     sprayWaypoints: 2
     battleType: 1
     twoHanded: true
@@ -4222,7 +4222,7 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 30
-    autoShots: 6
+    #autoShots: 6
     sprayWaypoints: 2
     kneelBonus: 200
     bulletSpeed: 17
@@ -4345,7 +4345,7 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 40
-    autoShots: 5
+    #autoShots: 5
     sprayWaypoints: 3
     attraction: 10
     listOrder: 3020
@@ -4587,7 +4587,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 30
-    autoShots: 6
+    #autoShots: 6
     sprayWaypoints: 2
     bulletSpeed: 15
     attraction: 10
@@ -4707,7 +4707,7 @@ items:
     invWidth: 1
     invHeight: 3
     armor: 30
-    autoShots: 6
+    #autoShots: 6
     sprayWaypoints: 2
     bulletSpeed: 15
     attraction: 10
@@ -8418,6 +8418,8 @@ extraStrings:
         the good shooters. They are carefully chosen because the weapon is
         capricious and it is necessary for men to take care of their weapon to
         limit the problems.
+      STR_RSC_CARBINE: RSC Carbine
+      STR_RSC_CARBINE_UFOPEDIA: WIP
       STR_MOSIN_NAGANT: Mosin-Nagant Rifle
       STR_MOSIN_NAGANT_UFOPEDIA: Service rifle of the Russian Imperial Army, designed by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the 7.62x54mmR round, it was a great improvement over the old single -shot rifles.
       STR_OBREZ_PISTOL: Obrez Pistol
@@ -8489,8 +8491,8 @@ extraStrings:
       STR_GEWEHR_M95: null
       STR_GEWEHR_M95_CLIP: null
       STR_GEWEHR_M95_UFOPEDIA: ...
-      STR_MADSEN_MG: Madsen LMG
-      STR_MADSEN_MG_MAG: Madsen LMG Mag
+      STR_MADSEN_LMG: Madsen LMG
+      STR_MADSEN_LMG_MAG: Madsen LMG Mag
       STR_MADSEN_LMG_MAG_KMM: Madsen LMG K-MM Mag
       STR_MADSEN_MG_UFOPEDIA: The Madsen is the first truly 'Light Machine Gun' in
         military service, designed by by Norwegian war minister Vilhem Madsen in
@@ -8501,6 +8503,8 @@ extraStrings:
       STR_HELLRIEGEL: null
       STR_HELLRIEGEL_CLIP: null
       STR_HELLRIEGEL_UFOPEDIA: ...
+      STR_REMINGTON_MODEL_11: Browning Auto-5
+      STR_REMINGTON_MODEL_11_UFOPEDIA:
       STR_INERTIA_SHOTGUN: Sjögren Inertia Shotgun
       STR_INERTIAL_SHOTGUN_CLIP: null
       STR_INERTIA_SHOTGUN_UFOPEDIA: Semi-automatic shotgun designed by Swedish inventor Carl Axel Theodor Sjögren, it features a special fire mechanism where the recoil of the weapon lifts the shell from the internal magazine into the barrel. Very reliable, it requires few maintenance and could be operated in extreme conditions.
@@ -8563,6 +8567,14 @@ extraStrings:
       STR_PAINKILLER: Painkiller
       STR_PAINKILLER_UFOPEDIA: Small morphine injection stored for use in a practical
         cardboard box. Relieves the pain of the injured instantly.
+      STR_MAUSER_C96_CARBINE: Mauser C96/M14 Trench Carbine
+      STR_MAUSER_C96_CARBINE_UFOPEDIA: WIP
+      STR_MAUSER_C96_CARBINE_MAG: Mauser C96/M14 Mag
+      STR_MAUSER_C96_CARBINE_MAG_KMM: Mauser C96/M14 KMM Mag
+      STR_LUGER_P08: P08 Luger
+      STR_LUGER_P08_UFOPEDIA:
+      STR_LUGER_P08_MAG: P08 Luger Mag
+      STR_LUGER_P08_MAG_KMM: P08 Luger K-MM Mag
       STR_LUGER_ARTILLERY: P08 Artillery Luger
       STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
       STR_LUGER_ARTILLERY_DRUM_KMM:
@@ -8630,6 +8642,9 @@ extraStrings:
       STR_HANDHELD_MORTAR: Handheld Mortar
       STR_HANDHELD_MORTAR_UFOPEDIA: The Likhonin mortar is a small, indirect fire weapon. Small enough to fit a soldier's backpack, it could fire more accurately if the user knees down.
       STR_MORTAR_SHELL: Mortar Shell
+      STR_M1907_SL_CARBINE: Winchester M1907 SL Carbine
+      STR_M1907_SL_CARBINE_MAG: M1907 SL Carbine Mag
+      STR_M1907_SL_CARBINE_MAG_KMM: M1907 SL Carbine K-MM Mag
       STR_ANNIHILATOR_SMG: Annihilator SMG
       STR_ANNIHILATOR_SMG_UFOPEDIA: wip
       STR_ANNIHILATOR_SMG_MAG: Annihilator Mag
@@ -8737,6 +8752,7 @@ extraStrings:
       STR_TESLA_PISTOL_UFOPEDIA: null
       STR_TESLA_SMG: "Tesla 'Typhoon' SMG"
       STR_TESLA_SMG_UFOPEDIA: null
+      STR_TESLA_LIGHT_BATTERY: Tesla Light Battery
       STR_TESLA_AUTOCANNON: "Tesla 'Hailstorm' Cannon"
       STR_TESLA_AUTOCANNON_UFOPEDIA: null
       ##########################################
