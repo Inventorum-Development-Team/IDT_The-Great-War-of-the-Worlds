@@ -201,6 +201,26 @@
       254: Resources/HumanWeapons/Sounds/Tesla_Heavy.wav
       255: Resources/HumanWeapons/Sounds/Reload_Tesla.wav
 
+      260: Resources/HumanWeapons/Sounds/PlasmaCannon0.wav
+      261: Resources/HumanWeapons/Sounds/PlasmaCannon1.wav
+      262: Resources/HumanWeapons/Sounds/PlasmaCannon2.wav
+      263: Resources/HumanWeapons/Sounds/PlasmaCannon3.wav
+      264: Resources/HumanWeapons/Sounds/Lascannon0.wav
+      265: Resources/HumanWeapons/Sounds/Lascannon1.wav
+      266: Resources/HumanWeapons/Sounds/Lascannon2.wav
+      267: Resources/HumanWeapons/Sounds/Lascannon3.wav
+      268: Resources/HumanWeapons/Sounds/Lascannon4.wav
+      269: Resources/HumanWeapons/Sounds/Lascannon5.wav
+      270: Resources/HumanWeapons/Sounds/Lasgun0.wav
+      271: Resources/HumanWeapons/Sounds/Lasgun1.wav
+      272: Resources/HumanWeapons/Sounds/Lasgun2.wav
+      273: Resources/HumanWeapons/Sounds/Lasgun3.wav
+      274: Resources/HumanWeapons/Sounds/Lasgun4.wav
+      275: Resources/HumanWeapons/Sounds/Lasgun5.wav
+      276: Resources/HumanWeapons/Sounds/Laspistol1.wav
+      277: Resources/HumanWeapons/Sounds/Laspistol2.wav
+      278: Resources/HumanWeapons/Sounds/Laspistol3.wav
+
       300: Resources/HumanWeapons/Sounds/webley_reload.wav
       301: Resources/HumanWeapons/Sounds/smle_reload.wav
       302: Resources/HumanWeapons/Sounds/farqhuarhill_reload.wav

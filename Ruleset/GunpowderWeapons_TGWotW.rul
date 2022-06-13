@@ -1134,7 +1134,8 @@ items:
     bigSprite: 600
     floorSprite: 600
     handSprite: 600
-    fireSound: 4
+    fireSound: [260, 261, 262, 263]
+    reloadSound: 307
     bulletSpeed: 16
     #    reloadSound: 301
     compatibleAmmo:
@@ -1625,6 +1626,50 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2320
+  - type: STR_RSC_CARBINE
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_CARBINES,
+        STR_RIFLEMAN_CLASS,
+        STR_FRENCH_EQUIPMENT
+      ]
+    requiresBuy:
+      - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 4500
+    costSell: 3500
+    weight: 6
+    bigSprite: 1672
+    floorSprite: 1672
+    handSprite: 1672
+    fireSound: 116
+    bulletSpeed: 17
+    reloadSound: 316
+    compatibleAmmo:
+      - STR_RSC17_CLIP
+      - STR_RSC17_CLIP_KMM
+    accuracyCloseQuarters: 70
+    accuracySnap: 55
+    accuracyAimed: 65
+    accuracyAuto: 40
+    tuSnap: 25
+    tuAimed: 45
+    tuAuto: 30
+    tuLoad: 14
+    minRange: 12
+    snapRange: 16
+    aimRange: 25
+    dropoff: 3
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    invWidth: 1
+    invHeight: 3
+    autoRange: 15
+    attraction: 8
+    listOrder: 2325
   - type: STR_RSC17_CLIP_KMM
     categories:
       [
@@ -1889,7 +1934,8 @@ items:
     bigSprite: 928
     floorSprite: 928
     handSprite: 928
-    fireSound: 4
+    fireSound: [264, 265, 266, 267, 268, 269]
+    reloadSound: 307
     bulletSpeed: 16
     #    reloadSound: 301
     compatibleAmmo:
@@ -2517,7 +2563,8 @@ items:
     handSprite: 1384
     #    bulletSprite: 12 #Rifle bullet 35*112=420
     #bulletSprite: 18
-    fireSound: 4
+    fireSound: [276, 277, 278]
+    reloadSound: 307
     bulletSpeed: 16
     #    reloadSound: 301
     compatibleAmmo:
@@ -2598,7 +2645,7 @@ items:
     floorSprite: 1400
     handSprite: 1400
     bulletSpeed: 20
-    fireSound: 115
+    fireSound: 116
     reloadSound: 315
     compatibleAmmo:
       - STR_M1907_SL_CARBINE_MAG
@@ -2895,51 +2942,6 @@ items:
     armor: 250
     listOrder: 2690
 
-  - type: STR_RSC_CARBINE
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT
-      ]
-    requiresBuy:
-      - STR_ADVANCED_FIREARMS
-    size: 0.3
-    costBuy: 4500
-    costSell: 3500
-    weight: 6
-    bigSprite: 1672
-    floorSprite: 1672
-    handSprite: 1672
-    fireSound: 116
-    bulletSpeed: 17
-    reloadSound: 316
-    compatibleAmmo:
-      - STR_RSC17_CLIP
-      - STR_RSC17_CLIP_KMM
-    accuracyCloseQuarters: 70
-    accuracySnap: 55
-    accuracyAimed: 65
-    accuracyAuto: 40
-    tuSnap: 25
-    tuAimed: 45
-    tuAuto: 30
-    tuLoad: 14
-    minRange: 12
-    snapRange: 16
-    aimRange: 25
-    dropoff: 3
-    battleType: 1
-    twoHanded: true
-    oneHandedPenalty: 40
-    invWidth: 1
-    invHeight: 3
-    autoRange: 15
-    attraction: 8
-    listOrder: 2700
-
   - type: STR_CARCANO_M91_CARBINE
     categories:
       [
@@ -3111,7 +3113,7 @@ items:
     floorSprite: 1760
     handSprite: 1760
     bulletSpeed: 20
-    fireSound: 115
+    fireSound: [270, 271, 272, 273, 274, 275]
     reloadSound: 315
     compatibleAmmo:
       - STR_PHLOGISTON_MEDIUM_BATTERY
@@ -8259,6 +8261,8 @@ extraStrings:
       STR_SUPPRESSION_SHORT: Suppression
       STR_FULL_AUTO: Full Auto
       STR_FULL_AUTO_SHORT: Full Auto
+      STR_HIGH_POWER: High Power Shot
+      STR_LOW_POWER: Low Power Shot
       #STR_BURST: Burst
       STR_BURST_SHORT: Burst
       STR_PRAY_N_SPRAY: Pray n' Spray
@@ -8347,6 +8351,7 @@ extraStrings:
         caliber bullets and the Swiss, at German request, 7.92x57mm Mauser.
       STR_GEWEHR98: Mauser 'Standard' Rifle
       STR_GEWEHR98_CLIP: Mauser 'Standard' Clip
+      STR_GEWEHR98_CLIP_KMM: Mauser 'Standard' K-MM Clip
       STR_GEWEHR98_UFOPEDIA: Very reliable bolt-action rifle of German, has seen
         combat all over the world. From the European forests and the Asian
         steppes to the Mexican deserts and the South American jungles, it's the
@@ -8433,10 +8438,12 @@ extraStrings:
       STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA: ...
       STR_MM_MOSIN_NAGANT_CLIP: null
       STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP: null
-      STR_COSSACK_SABRE: null
-      STR_COSSACK_SABRE_UFOPEDIA: ...
-      STR_COSSACK_LANCE: null
-      STR_COSSACK_LANCE_UFOPEDIA: ...
+      STR_SHASHKA: Shashka
+      STR_SHASHKA_UFOPEDIA: ...
+      STR_MM_SHASHKA: MM Shashka
+      STR_MM_SHASHKA_UFOPEDIA: ...
+      STR_MM_DAGGER: MM Dagger
+      STR_MM_DAGGER_UFOPEDIA: ...
       STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
       STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip
       STR_CARCANO_M91_CARBINE_CLIP_KMM: Carcano M91 K-MM Clip
@@ -8514,6 +8521,10 @@ extraStrings:
       STR_SABRE_UFOPEDIA: Distinctive saber of officers and cavalry soldiers, employed
         with ceremonial gallantry on the battlefield. It is a great melee
         weapon, it has better range than more improvised weapons.
+      STR_MM_SABRE: Martian Metal Sabre
+      STR_MM_SABRE_UFOPEDIA: Distinctive saber of officers and cavalry soldiers, employed
+        with ceremonial gallantry on the battlefield. It is a great melee
+        weapon, it has better range than more improvised weapons.
       STR_TRENCH_KNIFE: Trench Knife
       STR_TRENCH_KNIFE_UFOPEDIA: Knife adapted with an 'American fist' on its hilt,
         can save the life of a soldier with rifle jammed. Fast and accurate.
@@ -8536,6 +8547,8 @@ extraStrings:
       STR_BOWIE_KNIFE_UFOPEDIA: ...
       STR_MEDIC_BONESAW: null
       STR_MEDIC_BONESAW_UFOPEDIA: ...
+      STR_MEDICAL_SYRINGE: Medical Syringe
+      STR_MEDICAL_SYRINGE_UFOPEDIA:
       STR_MEDIKIT: Medikit
       STR_MEDIKIT_UFOPEDIA: Small portable bag, contains various medical materials to
         stabilize wounded in battle. It includes analgesics, antibiotics, iodine
