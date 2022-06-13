@@ -8384,10 +8384,11 @@ extraStrings:
       STR_CHAUCHAT_LMG_UFOPEDIA: The Chauchat machine gun is the common name for the
         Mle 1912 CSRG machine gun. It was commissioned in the French infantry in
         1912 and was also widely used by the American army in 1913. It is a
-        light weapon, of limited weight and size, the FM Chauchat significantly
+        light weapon, of limited weight and size, the Chauchat significantly
         increased the fire power of the offensive infantry.
       STR_RIBEYROLLES: Ribeyrolles Automatic Carbine
-      STR_RIBEYROLLES_CLIP: Ribeyrolles Clip
+      STR_RIBEYROLLES_MAG: Ribeyrolles Mag
+      STR_RIBEYROLLES_MAG_KMM: Ribeyrolles K-MM Mag
       STR_RIBEYROLLES_UFOPEDIA: In 1914, Ribeyrolles, Sutter and Chauchat, the trio
         behind many French weapons, introduced a compact weapon for U.S. and
         French tank crews. It was the first weapon used from the tank's firing
@@ -8395,7 +8396,8 @@ extraStrings:
         the aircraft. The curiosity of the weapon consisted in the presence of a
         bipod, unusual for such a small weapon.
       STR_RSC17: RSC14
-      STR_RSC17_CLIP: RSC14 Clip
+      STR_RSC17_CLIP: RSC14 Clip 
+      STR_RSC17_CLIP_KMM: RSC14 K-MM Clip 
       STR_RSC17_UFOPEDIA: The Model 1914 Rifle (also called RSC M1914 - for
         Ribeyrolles, Sutter and Chauchat, the gun designers). On April 1, 1914
         the production of the FA RSC 1914 is finally launched and the gun is
@@ -8403,20 +8405,22 @@ extraStrings:
         the good shooters. They are carefully chosen because the weapon is
         capricious and it is necessary for men to take care of their weapon to
         limit the problems.
-      STR_MOSIN_NAGANT: null
-      STR_MOSIN_NAGANT_UFOPEDIA: ...
-      STR_OBREZ: null
-      STR_OBREZ_UFOPEDIA: ...
-      STR_MOSIN_NAGANT_CLIP: null
-      STR_MOSIN_NAGANT_CLIP_UFOPEDIA: ...
-      STR_FEDOROV_AVTOMAT: null
-      STR_FEDOROV_AVTOMAT_CLIP: null
-      STR_FEDOROV_AVTOMAT_UFOPEDIA: ...
-      STR_SMG0818: null
-      STR_SMG0818_CLIP: null
-      STR_SMG0818_UFOPEDIA: ...
-      STR_WINCHESTER_1915: null
-      STR_WINCHESTER_1915_UFOPEDIA: ...
+      STR_MOSIN_NAGANT: Mosin-Nagant 
+      STR_MOSIN_NAGANT_UFOPEDIA: Service rifle of the Russian Imperial Army, designed by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the 7.62x54mmR round, it was a great improvement over the old single -shot rifles.
+      STR_OBREZ: Obrez 
+      STR_OBREZ_UFOPEDIA: Makeshift handgun made with the bolt mechanism of a Mosin-Nagant. The rifle caliber gives it a great firepower advantage compared to standard pistols, but the handling it's a bit awkward. Obrez means 'sawed-off' in Russian.
+      STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip 
+      STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
+      STR_FEDOROV_AVTOMAT: Fedorov Avtomat
+      STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag 
+      STR_FEDOROV_AVTOMAT_MAG_KMM: Fedorov Avtomat K-MM Mag
+      STR_FEDOROV_AVTOMAT_UFOPEDIA: One of the first operational automatic rifles made in the world, chambered in 6.5mm Fedorov. Designed as an intermediate between the rifle and the light machine gun, but with mobility comparable to a rifle.
+      STR_SMG0818: SMG-08/13
+      STR_SMG0818_BOX: SMG-08/14 Ammo Box
+      STR_SMG_0818_BOX_KMM: SMG-08/14 K-MM Ammo Box
+      STR_SMG0818_UFOPEDIA: This makeshift submachine gun is made using parts of a Maxim MG-08 machine gun, feed with a fixed magazine by using large ammo box clips. The Czech Legion gunsmiths adapted it to fill their need of a light automatic weapon with large ammunition capacity.
+      STR_WINCHESTER_1915: Winchester M1912 Bayoneted 
+      STR_WINCHESTER_1915_UFOPEDIA: Build by the American firm Winchester at request of the Russian High Command as complementary to the Mosin-Nagant bolt-action rifles using the same ammunition. The  majority were diverted to the elite Imperial Guard, becoming a staple of their riflemen.
       STR_ARISAKA_TYPE44_CARBINE: null
       STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA: ...
       STR_MM_MOSIN_NAGANT_CLIP: null
@@ -8426,17 +8430,19 @@ extraStrings:
       STR_COSSACK_LANCE: null
       STR_COSSACK_LANCE_UFOPEDIA: ...
       STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
-      STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip
+      STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip 
+      STR_CARCANO_M91_CARBINE_CLIP_KMM: Carcano M91 K-MM Clip 
       STR_CARCANO_M91_CARBINE_UFOPEDIA: Special version of the Carcano rifle, designed
         for the Cavalry. Designed in 1890 by the team led by Army Engineer
         Salvatore Carcano. Calibrated on the rimless 6.5x52 mm cartridge, it
         does not have much stopping power or a particularly long range, but it
-        is a stable rifle and can shoot faster than most bolt guns. It is
+        is a stable rifle and can shoot faster than most bolt-action weapons. It is
         recommended for use at medium range, although it is also ideal for close
         combat. It has an integrated folding bayonet that unfolds when required.
         It is highly appreciated for its short size and light weight.
       STR_BERETTA_MAB18: Beretta MAB14
-      STR_BERETTA_MAB18_CLIP: Beretta MAB14 Magazine
+      STR_BERETTA_MAB18_MAG: Beretta MAB14 Magazine 
+      STR_BERETTA_MAB18_MAG_KMM: Beretta MAB14 K-MM Magazine 
       STR_BERETTA_MAB18_UFOPEDIA: The first SMG to enter service with the Italian
         Royal Army and probably the first to be used en masse by a military
         force, the Moschetto Automatico Beretta Modello 1914 has an impressive
@@ -8446,16 +8452,18 @@ extraStrings:
         addition, it loses stopping power quickly, so its use is recommended for
         point-blank shooting at short distances. Includes a folding bayonet.
       STR_CEI_RIGOTTI: Cei-Rigotti
-      STR_CEI_RIGOTTI_CLIP: Cei-Rigotti Clips
+      STR_CEI_RIGOTTI_CLIP: Cei-Rigotti Clips 
+      STR_CEI_RIGOTTI_CLIP_KMM: Cei-Rigotti K-MM Clip
       STR_CEI_RIGOTTI_UFOPEDIA: Semi-automatic rifle of Italian origin designed by
         Major Cei-Rigotti at the end of the 19th century. Physically it is
         similar to the standard Carcano of the Regio Esercito although
         internally it is considerably different. It has the peculiar option of
         selective fire, which allows to select between semiauto and full auto
         fire modes. It has a fixed magazine and is reloaded using stripper clips
-        of 5 bullets each one, caliber 6.5 Carcano K-MM.
+        of 5 bullets each one, caliber 6.5 Carcano.
       STR_VILLAR_PEROSA: Villar-Perosa
-      STR_VILLAR_PEROSA_CLIP: Villar-Perosa Magazines
+      STR_VILLAR_PEROSA_MAGS: Villar-Perosa Magazines 
+      STR_VILLAR_PEROSA_MAGS_KMM: Villar-Perosa K-MM Magazines 
       STR_VILLAR_PEROSA_UFOPEDIA: Machine gun formed by joining two MAB14 Berettas and
         modifying the trigger mechanism to operate both at the same time. This
         was the original purpose of the weapon, in fact. A pistol grip and a
@@ -8467,7 +8475,8 @@ extraStrings:
       STR_GEWEHR_M95_CLIP: null
       STR_GEWEHR_M95_UFOPEDIA: ...
       STR_MADSEN_MG: Madsen LMG
-      STR_MADSEN_MG_CLIP: Madsen LMG Mag
+      STR_MADSEN_MG_MAG: Madsen LMG Mag 
+      STR_MADSEN_LMG_MAG_KMM: Madsen LMG K-MM Mag
       STR_MADSEN_MG_UFOPEDIA: The Madsen is the first truly 'Light Machine Gun' in
         military service, designed by by Norwegian war minister Vilhem Madsen in
         1902. The LMG uses 7mm calibre rifle ammunition, with a curved
@@ -8477,9 +8486,9 @@ extraStrings:
       STR_HELLRIEGEL: null
       STR_HELLRIEGEL_CLIP: null
       STR_HELLRIEGEL_UFOPEDIA: ...
-      STR_INERTIAL_SHOTGUN: null
+      STR_INERTIA_SHOTGUN: Sjögren Inertia Shotgun
       STR_INERTIAL_SHOTGUN_CLIP: null
-      STR_INERTIAL_SHOTGUN_UFOPEDIA: ...
+      STR_INERTIA_SHOTGUN_UFOPEDIA: Semi-automatic shotgun designed by Swedish inventor Carl Axel Theodor Sjögren, it features a special fire mechanism where the recoil of the weapon lifts the shell from the internal magazine into the barrel. Very reliable, it requires few maintenance and could be operated in extreme conditions.
       STR_ARISAKA_TYPE38: null
       STR_ARISAKA_TYPE38_CLIP: null
       STR_ARISAKA_TYPE38_UFOPEDIA: ...
@@ -8505,6 +8514,8 @@ extraStrings:
         purpose, some soldiers filan the edges of the shovel to use it as a
         crude and rudimentary weapon of melee. The strength of the soldier has a
         lot to do with the effectiveness of this weapon.
+      STR_SHOVEL: Shovel
+      STR_SHOVEL_UFOPEDIA: Just a simple shovel, used to dig trenches. But it could be used to break the head of a Martian too, ig used with enough strength!
       STR_TRENCH_MACE: Trench Mace
       STR_TRENCH_MACE_UFOPEDIA: A wooden mallet adapted with various sharp objects
         found in the trench, from spikes and nails to barbed wire. Brutal and
@@ -8532,7 +8543,8 @@ extraStrings:
       STR_PAINKILLER_UFOPEDIA: Small morphine injection stored for use in a practical
         cardboard box. Relieves the pain of the injured instantly.
       STR_LUGER_ARTILLERY: P08 Artillery Luger
-      STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
+      STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum 
+      STR_LUGER_ARTILLERY_DRUM_KMM: 
       STR_LUGER_ARTILLERY_UFOPEDIA: Modified version of the P08 Luger handgun, has a
         handguard and a wooden stock added to increase accuracy and range.
         Originally it was supplied to artillery battery soldiers as a personal
