@@ -427,6 +427,7 @@ items:
     invWidth: 0
     invHeight: 0
     recover: false
+    battleType: 11
   - type: STR_CONQUEROR_TURRET_CORPSE_2
     floorSprite: 805
     armor: 255
@@ -446,86 +447,7 @@ items:
     invHeight: 0
     recover: false
 
-ufopaedia:
-  - delete: STR_STINGRAY
-  - delete: STR_AVALANCHE
-  - delete: STR_CANNON_UC
-  - delete: STR_SKYRANGER
-  - delete: STR_INTERCEPTOR
-############################
-  - id: STR_CONQUEROR
-    section: STR_XCOM_CRAFT_ARMAMENT
-    text: STR_CONQUEROR_UFOPEDIA
-    listOrder: 111
-    image_id: CONQUEROR.SPK
-    type_id: 1
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-  - id: STR_SPAD
-    type_id: 1
-    section: STR_XCOM_CRAFT_ARMAMENT
-    text: STR_SPAD_UFOPEDIA
-    listOrder: 112
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 18
-      width: 205
-      height: 80
-    image_id: SPAD.SPK
-  - id: STR_RCLASS_AIRSHIP
-    type_id: 1
-    section: STR_XCOM_CRAFT_ARMAMENT
-    text: STR_RCLASS_AIRSHIP_UFOPEDIA
-    listOrder: 113
-    rect_stats:
-      x: 5
-      y: 125
-      width: 130
-      height: 80
-    rect_text:
-      x: 110
-      y: 38
-      width: 205
-      height: 80
-    image_id: RCLASS_AIRSHIP.SPK
-##################################
-  - id: STR_TWIN_HMG
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    image_id: TWIN_HMG
-    text: STR_TWIN_HMG_UFOPEDIA
-    listOrder: 801
-  - id: STR_AUTOCANNON
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    image_id: AUTOCANNON
-    text: STR_AUTOCANNON_UFOPEDIA
-    listOrder: 802
-  - id: STR_QF_1_PDR_POMPOM
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    image_id: POMPOM
-    text: STR_QF_1_PDR_POMPOM_UFOPEDIA
-    listOrder: 803
-  - id: STR_FRAGMENTATION_BOMB
-    type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
-    image_id: FRAG_BOMB
-    text: STR_FRAGMENTATION_BOMB_UFOPEDIA
-    listOrder: 803
+
 extraSprites:
 # "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
 # INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33

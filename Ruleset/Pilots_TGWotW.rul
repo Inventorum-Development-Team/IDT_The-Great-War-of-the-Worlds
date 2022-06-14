@@ -59,6 +59,7 @@ soldiers:
 items:
   - type: STR_PILOT_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 112
     floorSprite: 112

@@ -579,29 +579,6 @@ ufos:
           width: 10
           length: 10
 
-missionScripts:
-  - type: CampaignStoryActOneVerdun
-    missionWeights:
-      0:
-        STR_CAMPAIGN_VERDUN_VOIE_SACREE: 100
-    regionWeights:
-      0:
-        STR_VERDUN_REGION: 100
-    useTable: false
-    maxRuns: 1
-    varName: VerdunMission
-    researchTriggers:
-      STR_ADVANCED_FIREARMS: true
-#      STR_CONTACT_WITH_NIKOLA_TESLA: true
-    startDelay: 60
-    executionOdds: 100
-
-  - type: recurringTerror
-    missionWeights:
-      0:
-        STR_ALIEN_TERROR: 100
-    useTable: false
-    startDelay: 150
 
 alienMissions:
   - type: STR_CAMPAIGN_VERDUN_VOIE_SACREE
@@ -798,8 +775,8 @@ alienDeployments:
             - STR_HEATRAY_SNIPER_BATTERY_PHOTON
             - STR_HEATRAY_SNIPER_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
-    width: 50
-    length: 50
+    width: 60
+    length: 60
     height: 10
     finalDestination: true
     loseCutscene: loseGame
@@ -1029,7 +1006,7 @@ alienDeployments:
     length: 40
     height: 10
     shade: 3
-    race: STR_SECTOID
+    race: STR_MARTIAN_LINE_INFANTRIES
     civilians: 0 # no random civilians
     civiliansByType:
       STR_BRITISH_T2_RIFLEMAN_NPC: 4

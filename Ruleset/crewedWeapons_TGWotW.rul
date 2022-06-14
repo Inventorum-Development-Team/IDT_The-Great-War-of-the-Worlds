@@ -459,8 +459,8 @@ items:
     costBuy: 500
     costSell: 400
     weight: 6
-    bigSprite: 800
-    floorSprite: 800
+    bigSprite: 4000
+    floorSprite: 4000
     handSprite: 900
     #*** Ranged section: assemble the turret
     fireSound: 27
@@ -516,8 +516,9 @@ items:
 #####################################
   - type: STR_MAXIM_MG_TURRET_CORPSE
     weight: 45
-    bigSprite: 801
-    floorSprite: 801
+    bigSprite: 4001
+    floorSprite: 4001
+    battleType: 11
     invWidth: 2
     invHeight: 3
     recover: false
@@ -529,8 +530,8 @@ items:
     costSell: 19200
     #dropoff: 5
     weight: 25
-    bigSprite: 801
-    floorSprite: 801
+    bigSprite: 4001
+    floorSprite: 4001
     bulletSprite: 16 #Heavy MM bullet 35*16=560
     fireSound: 1001
     reloadSound: 1002
@@ -559,7 +560,7 @@ items:
     weight: 5
     costBuy: 2400
     costSell: 1920
-    bigSprite: 802
+    bigSprite: 4002
     floorSprite: 13
     power: 52
     hitSound: 22
@@ -575,11 +576,12 @@ items:
 #####################################
   - type: STR_TGEWEHR_TURRET_CORPSE
     weight: 45
-    bigSprite: 803
-    floorSprite: 803
+    bigSprite: 4003
+    floorSprite: 4003
     invWidth: 2
     invHeight: 3
     recover: false
+    battleType: 11
 
   - type: STR_TGEWEHR_TURRET
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT]
@@ -589,8 +591,8 @@ items:
     costBuy: 15000
     costSell: 8200
     weight: 35
-    bigSprite: 803
-    floorSprite: 803
+    bigSprite: 4003
+    floorSprite: 4003
     bulletSprite: 16 #Heavy MM bullet 35*16=560
     fireSound: 1003
     reloadSound: 1004
@@ -620,14 +622,13 @@ items:
     costBuy: 700
     costSell: 550
     weight: 3
-    bigSprite: 804
+    bigSprite: 4004
     floorSprite: 4
     hitSound: 22
     hitAnimation: 26
     power: 95
     damageBonus:
       firing: 1.2
-      accuracy: 1.5
     damageAlter:
       ArmorEffectiveness: 0.8
     damageType: 1
@@ -840,22 +841,22 @@ extraSprites:
     width: 32
     height: 48
     files:
-      800: Resources/Turrets/BigTurretWrench.png
-      801: Resources/Turrets/BigMaximMG.png
-      802: Resources/Turrets/BigMaximMGAmmo.png
-      803: Resources/Turrets/BigTGewehrLarge.png
-      804: Resources/Turrets/BigTGewehrRound.png
-      805: Resources/Turrets/BigConquerorAutocannon.png
+      4000: Resources/Turrets/BigTurretWrench.png
+      4001: Resources/Turrets/BigMaximMG.png
+      4002: Resources/Turrets/BigMaximMGAmmo.png
+      4003: Resources/Turrets/BigTGewehrLarge.png
+      4004: Resources/Turrets/BigTGewehrRound.png
+      4005: Resources/Turrets/BigConquerorAutocannon.png
 
   - type: FLOOROB.PCK
     files:
-      800: Resources/Turrets/FloorTurretWrench.png
-      801: Resources/Turrets/FloorMaximMG.png
-      803: Resources/Turrets/FloorTGewehr.png
-      804: Resources/Turrets/floorob_conqueror_turret_0.png
-      805: Resources/Turrets/floorob_conqueror_turret_1.png
-      806: Resources/Turrets/floorob_conqueror_turret_2.png
-      807: Resources/Turrets/floorob_conqueror_turret_3.png
+      4000: Resources/Turrets/FloorTurretWrench.png
+      4001: Resources/Turrets/FloorMaximMG.png
+      4003: Resources/Turrets/FloorTGewehr.png
+      4004: Resources/Turrets/floorob_conqueror_turret_0.png
+      4005: Resources/Turrets/floorob_conqueror_turret_1.png
+      4006: Resources/Turrets/floorob_conqueror_turret_2.png
+      4007: Resources/Turrets/floorob_conqueror_turret_3.png
 
   - type: HANDOB.PCK
     height: 40

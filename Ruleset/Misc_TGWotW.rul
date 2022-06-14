@@ -126,6 +126,51 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/TACTICBACK08.PNG
+
+##########################################
+########### USER INTERFACE ###############
+##########################################
+
+  - type: InvCopy
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy.png
+  - type: InvCopyActive
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invcopy_active.png
+  - type: InvPaste
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste.png
+  - type: InvPasteEmpty
+    width: 32
+    height: 22
+    singleImage: true
+    files:
+      0: Resources/UI/invpaste_empty.png
+  - type: TAC01.SCR
+    singleImage: true
+    files:
+      0: Resources/UI/TAC01.png
+  - type: ICONS.PCK
+    singleImage: true
+    files:
+      0: Resources/UI/ui.png
+  - type: KneelButton
+    width: 32
+    height: 32
+    subX: 32
+    subY: 16
+    files:
+      0: Resources/UI/kneelButton.png
+
 ##########################################
 ############ GLOBE MARKERS ###############
 ##########################################
@@ -182,11 +227,11 @@ extraSprites:
 #   - STR_BELT
 
 crafts:
-  - type: STR_SPAD
+  - type: STR_SPAD # ignoreDuplicate
     marker: 9
-  - type: STR_RCLASS_AIRSHIP
+  - type: STR_RCLASS_AIRSHIP # ignoreDuplicate
     marker: 10
-  - type: STR_CONQUEROR
+  - type: STR_CONQUEROR # ignoreDuplicate
     marker: 11
 
 ufos:
@@ -740,6 +785,17 @@ startingBase:
           ammo: 30
         - type: STR_TWIN_HMG
           ammo: 200
+      items:
+        STR_FRAG_GRENADE: 8
+        STR_SERVICE_REVOLVER: 2
+        STR_REVOLVER_CLIP: 4
+        STR_SMLE_MKIII: 1
+        STR_SMLE_MKIII_CLIP: 4
+        STR_M1907_SL_CARBINE: 4
+        STR_M1907_SL_CARBINE_MAG: 10
+        STR_GEWEHR98: 2
+        STR_GEWEHR98_CLIP: 5
+        STR_SABRE: 8
       status: STR_READY
     - type: STR_CONQUEROR
       id: 1
@@ -749,15 +805,13 @@ startingBase:
         - type: STR_AUTOCANNON
           ammo: 100
       items:
-        STR_MILLS_BOMB: 8
-        STR_WEBLEY_REVOLVER: 1
-        STR_WEBLEY_REVOLVER_CLIP: 2
+        STR_FRAG_GRENADE: 8
+        STR_SERVICE_REVOLVER: 2
+        STR_REVOLVER_CLIP: 4
         STR_SMLE_MKIII: 5
         STR_SMLE_MKIII_CLIP: 5
-        STR_M1911_COLT: 1
-        STR_M1911_COLT_CLIP: 3
-        STR_SPRINGFIELD: 1
-        STR_SPRINGFIELD_CLIP: 3
+        STR_M1907_SL_CARBINE: 1
+        STR_M1907_SL_CARBINE_MAG: 3
         STR_GEWEHR98: 2
         STR_GEWEHR98_CLIP: 5
         STR_SABRE: 8
@@ -771,18 +825,14 @@ startingBase:
     STR_QF_1_PDR_POMPOM_X30: 10
     STR_FRAGMENTATION_BOMB_LAUNCHER: 1
     STR_FRAGMENTATION_BOMB_X3: 10
-    STR_WEBLEY_REVOLVER: 2
-    STR_WEBLEY_REVOLVER_CLIP: 10
+    STR_SERVICE_REVOLVER: 4
+    STR_REVOLVER_CLIP: 20
     STR_SMLE_MKIII: 2
     STR_SMLE_MKIII_CLIP: 10
-    STR_M1911_COLT: 2
-    STR_M1911_COLT_CLIP: 10
-    STR_SPRINGFIELD: 1
-    STR_SPRINGFIELD_CLIP: 10
-    STR_GEWEHR98: 1
-    STR_GEWEHR98_CLIP: 10
-    STR_MAUSER: 2
-    STR_MAUSER_CLIP: 10
+    STR_M1907_SL_CARBINE: 4
+    STR_M1907_SL_CARBINE_MAG: 20
+    STR_GEWEHR98: 5
+    STR_GEWEHR98_CLIP: 20
     STR_SABRE: 8
     STR_TRENCH_KNIFE: 5
     STR_MEDIKIT: 5
@@ -814,3 +864,13 @@ facilities:
     mapName: XBASE_16
   - type: STR_GENERAL_STORES
     storage: 100
+  - type: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 500000
+    buildTime: 12
+    monthlyCost: 10000
+    radarRange: 2759
+    radarChance: 100
+    hyper: true
+    mapName: XBASE_04

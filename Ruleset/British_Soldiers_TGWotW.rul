@@ -55,6 +55,7 @@ soldiers:
 items:
   - type: STR_BRITISH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 100
     floorSprite: 100
@@ -64,6 +65,7 @@ items:
     recover: false
   - type: STR_BRITISH_GASMASK_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 101
     floorSprite: 101
@@ -73,6 +75,7 @@ items:
     recover: false
 #  - type: STR_BRITISH_OFFICER_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 102
 #    floorSprite: 102
@@ -82,6 +85,7 @@ items:
 #    recover: false
 #  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 103
 #    floorSprite: 103

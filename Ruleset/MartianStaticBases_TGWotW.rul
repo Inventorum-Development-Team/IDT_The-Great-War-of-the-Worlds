@@ -3,16 +3,15 @@ ufos:
     size: STR_VERY_SMALL
     modSprite: PlaceHolder
     damageMax: 250
-    speedMax: 0
-    accel: 0
-    power: 0
-    range: 0
-    score: 50
-    reload: 0
-    armor: 10
+    speedMax: 10
+    accel: 1
+    power: 10
+    range: 8
+    score: 75
+    reload: 56
     shieldCapacity: 45
     shieldRecharge: 150
-    breakOffTime: 1000
+    breakOffTime: 9000
     battlescapeTerrainData:
       name: PSCOUT
       mapDataSets:
@@ -34,13 +33,13 @@ ufos:
     size: STR_SMALL
     modSprite: PlaceHolder
     damageMax: 400
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 10
     range: 8
     score: 75
     reload: 56
-    breakOffTime: 1000
+    breakOffTime: 9000
     battlescapeTerrainData:
       name: PABDUCT
       mapDataSets:
@@ -59,8 +58,8 @@ ufos:
     size: STR_SMALL
     modSprite: PlaceHolder
     damageMax: 750
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 10
     range: 10
     score: 125
@@ -91,8 +90,8 @@ ufos:
     size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1500
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 10
     range: 15
     score: 125
@@ -120,8 +119,8 @@ ufos:
     size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1000
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 8
     range: 10
     score: 125
@@ -149,8 +148,8 @@ ufos:
     size: STR_LARGE
     modSprite: PlaceHolder
     damageMax: 2500
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 25
     range: 20
     score: 250
@@ -286,55 +285,11 @@ extraStrings:
       STR_MARTIAN_SUPPLY_DEPOT: "Martian Supply Depot" # Storage Facility
       STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA: "A support facility, the purpose of which is to store the various war materials, such as weaponry, food, supplies and tools necessary for the enemy's total war machine. They are extremely hard, but they are poorly armed."
       STR_MARTIAN_CLONE_LAB: "Martian Clone Lab" # Cloning Lab
-      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones, both to increase their army and to generate more food for their ranks."
+      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones to generate more food for their ranks and make replacement limbs for their wounded."
       STR_MARTIAN_REDOUBT: "Martian Redoubt"
       STR_MARTIAN_REDOUBT_UFOPEDIA: "The supreme Martian fortress. The existence of these gigantic facilities can only mean that the enemy is prepared for a total siege. They have the best anti-aircraft weapons, the best shields and armour and an enormous number of military and scientific personnel. Assaulting a Redoubt can be a hard blow for the Martians, but it is an almost suicidal mission."
-ufopaedia:
-  - id: STR_MARTIAN_CAMP
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_CAMP_UFOPEDIA
-    listOrder: 12800
-  - id: STR_MARTIAN_OUTPOST
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_OUTPOST_UFOPEDIA
-    listOrder: 12900
-  - id: STR_MARTIAN_TROOP_BARRACKS
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_TROOP_BARRACKS_UFOPEDIA
-    listOrder: 13000
-  - id: STR_MARTIAN_HARVEST_FACILITY
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_HARVEST_FACILITY_UFOPEDIA
-    listOrder: 13100
-  - id: STR_MARTIAN_WATCHTOWER
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_WATCHTOWER_UFOPEDIA
-    listOrder: 13200
-  - id: STR_MARTIAN_HIGH_COMMAND
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_HIGH_COMMAND_UFOPEDIA
-    listOrder: 13400
-  - id: STR_MARTIAN_SUPPLY_DEPOT
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA
-    listOrder: 13600
-  - id: STR_MARTIAN_CLONE_LAB
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_CLONE_LAB_UFOPEDIA
-    listOrder: 13700
-  - id: STR_MARTIAN_REDOUBT
-    type_id: 9
-    section: STR_UFOS
-    text: STR_MARTIAN_REDOUBT_UFOPEDIA
-    listOrder: 13800
+
+
 
 alienDeployments:
 #Race
@@ -353,30 +308,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -387,30 +342,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -448,6 +403,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_OUTPOST
     data:
@@ -483,30 +440,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -544,6 +501,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_TROOP_BARRACKS
     data:
@@ -555,35 +514,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -594,30 +553,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -700,47 +659,49 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_HIGH_COMMAND
     data:
@@ -752,35 +713,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -791,30 +752,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -891,47 +852,49 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_HARVEST_FACILITY
     data:
@@ -943,35 +906,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -982,30 +945,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1088,47 +1051,49 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_WATCHTOWER
     data:
@@ -1140,35 +1105,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1179,30 +1144,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1280,6 +1245,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_CLONE_LAB
     data:
@@ -1291,35 +1258,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1330,30 +1297,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1436,47 +1403,49 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_SUPPLY_DEPOT
     data:
@@ -1488,35 +1457,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1527,30 +1496,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1628,6 +1597,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
   - type: STR_MARTIAN_REDOUBT
     data:
       - alienRank: 5
@@ -1638,35 +1609,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -1677,30 +1648,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
-            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+            - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -1783,41 +1754,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -1829,44 +1800,46 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
-            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+            - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
-            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
-            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+            - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
-            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+            - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200

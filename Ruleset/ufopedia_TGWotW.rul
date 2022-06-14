@@ -1,0 +1,1386 @@
+ufopaedia:
+  - delete: STR_PISTOL
+  - delete: STR_PISTOL_CLIP
+  - delete: STR_RIFLE
+  - delete: STR_RIFLE_CLIP
+  - delete: STR_HEAVY_CANNON
+  - delete: STR_HC_AP_AMMO
+  - delete: STR_HC_I_AMMO
+  - delete: STR_HC_HE_AMMO
+  - delete: STR_AUTO_CANNON
+  - delete: STR_AC_AP_AMMO
+  - delete: STR_AC_I_AMMO
+  - delete: STR_AC_HE_AMMO
+  - delete: STR_ROCKET_LAUNCHER
+  - delete: STR_SMALL_ROCKET
+  - delete: STR_LARGE_ROCKET
+  - delete: STR_INCENDIARY_ROCKET
+  - delete: STR_GRENADE
+  - delete: STR_SMOKE_GRENADE
+  - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_HIGH_EXPLOSIVE
+  - delete: STR_ELECTRO_FLARE
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_PSI_AMP
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_PLASMA_PISTOL
+  - delete: STR_PLASMA_PISTOL_CLIP
+  - delete: STR_PLASMA_RIFLE
+  - delete: STR_PLASMA_RIFLE_CLIP
+  - delete: STR_HEAVY_PLASMA
+  - delete: STR_HEAVY_PLASMA_CLIP
+  - delete: STR_BLASTER_LAUNCHER
+  - delete: STR_BLASTER_BOMB
+  - delete: STR_SMALL_LAUNCHER
+  - delete: STR_CANNON
+  - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_TANK_CANNON
+  - delete: STR_TANK_ROCKET_LAUNCHER
+  - delete: STR_TANK_LASER_CANNON
+  - delete: STR_HOVERTANK_PLASMA
+  - delete: STR_HOVERTANK_LAUNCHER
+  - delete: STR_HWP_ROCKETS
+  - delete: STR_HWP_CANNON_SHELLS
+  - delete: STR_HWP_FUSION_BOMB
+###########################################
+
+  #################################################
+  ######### BALLISTIC BOLT-ACTION RIFLES #########
+  ###############################################
+  - id: STR_SMLE_MKIII
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SMLE_MKIII_UFOPEDIA
+    #listOrder: 2001
+  - id: STR_SMLE_MKIII_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SMLE_MKIII_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_P14_ENFIELD
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_P14_ENFIELD_UFOPEDIA
+    #listOrder: 2001
+  - id: STR_SPRINGFIELD
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SPRINGFIELD_UFOPEDIA
+    #listOrder: 2005
+  - id: STR_SPRINGFIELD_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SPRINGFIELD_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_GEWEHR98
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_GEWEHR98_UFOPEDIA
+    #listOrder: 2010
+  - id: STR_GEWEHR98_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_GEWEHR98_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LEBEL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_LEBEL_UFOPEDIA
+    #listOrder: 2013
+  - id: STR_LEBEL_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LEBEL_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MOSIN_NAGANT
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MOSIN_NAGANT_UFOPEDIA
+    #listOrder: 2001
+  - id: STR_WINCHESTER_M1915
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_WINCHESTER_M1915_UFOPEDIA
+    #listOrder: 2005
+  - id: STR_MOSIN_NAGANT_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MOSIN_NAGANT_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BERDAN_II
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BERDAN_II_UFOPEDIA
+    #listOrder: 2005
+  - id: STR_BERDAN_II_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BERDAN_II_AMMO_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  ###########################################
+  ##### PHLOGISTON BOLT-ACTION RIFLES ######
+  #########################################
+  - id: STR_PHLOGISTON_HEAVY_RIFLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA
+    #listOrder: 2005
+  - id: STR_PHLOGISTON_RUBY_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ###########################################
+  ######## GAUSS BOLT-ACTION RIFLES ########
+  #########################################
+
+  #################################################
+  ######### BALLISTIC SELF-LOADING RIFLES ########
+  ###############################################
+
+  - id: STR_FARQHUAR_HILL
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FARQHUAR_HILL_UFOPEDIA
+    #listOrder: 2002
+  - id: STR_FARQHUAR_HILL_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_FARQHUAR_HILL_DRUM_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MONDRAGON
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MONDRAGON_UFOPEDIA
+    #listOrder: 2008
+  - id: STR_MONDRAGON_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MONDRAGON_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SELBSTLADER_M1916
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SELBSTLADER_M1916_UFOPEDIA
+    #listOrder: 2012
+  - id: STR_SELBSTLADER_M1916_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SELBSTLADER_M1916_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_RSC17
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_RSC17_UFOPEDIA
+    #listOrder: 2016
+  - id: STR_RSC17_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_RSC17_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_FEDOROV_AVTOMAT
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FEDOROV_AVTOMAT_UFOPEDIA
+    #listOrder: 2016
+  - id: STR_FEDOROV_AVTOMAT_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_FEDOROV_AVTOMAT_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_CEI_RIGOTTI
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CEI_RIGOTTI_UFOPEDIA
+    #listOrder: 2029
+  - id: STR_CEI_RIGOTTI_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_CEI_RIGOTTI_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  #################################################
+  ######### PHLOGISTON SELF-LOADING RIFLES #######
+  ###############################################
+
+  - id: STR_PHLOGISTON_BATTLE_RIFLE
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA
+    #listOrder: 2029
+  - id: STR_PHLOGISTON_MEDIUM_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  #################################################
+  ######### GAUSS SELF-LOADING RIFLES ############
+  ###############################################
+
+  ##########################################
+  ######### BALLISTIC SIDEARMS ############
+  ########################################
+
+  - id: STR_SERVICE_REVOLVER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SERVICE_REVOLVER_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_REVOLVER_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_REVOLVER_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_REVOLVER_CLIP_DUMDUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_AUTOMATIC_REVOLVER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_AUTOMATIC_REVOLVER_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_HEAVY_REVOLVER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_HEAVY_REVOLVER_UFOPEDIA
+    #listOrder: 2000
+  - id: STR_M1911_COLT
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M1911_COLT_UFOPEDIA
+    #listOrder: 2004
+  - id: STR_M1911_COLT_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M1911_COLT_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MAUSER_C96
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MAUSER_C96_UFOPEDIA
+    #listOrder: 2009
+  - id: STR_MAUSER_C96_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MAUSER_C96_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LUGER_P08
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_LUGER_P08_UFOPEDIA
+    #listOrder: 2009
+  - id: STR_LUGER_P08_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LUGER_P08_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_OBREZ_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_OBREZ_PISTOL_UFOPEDIA
+    #listOrder: 2009
+
+
+  ##########################################
+  ############# TESLA SIDEARMS ############
+  ########################################
+
+  - id: STR_TESLA_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TESLA_PISTOL_UFOPEDIA
+    #listOrder: 2009
+  - id: STR_TESLA_LIGHT_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ##########################################
+  ######### PHLOGISTON SIDEARMS ###########
+  ########################################
+
+  - id: STR_PHLOGISTON_PISTOL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_PHLOGISTON_PISTOL_UFOPEDIA
+    #listOrder: 2009
+  - id: STR_PHLOGISTON_SMALL_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ##############################################
+  ############# BALLISTIC CARBINES ############
+  ############################################
+
+  - id: STR_M1907_SL_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_M1907_SL_CARBINE_UFOPEDIA
+    #listOrder: 2009
+  - id: STR_M1907_SL_CARBINE_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_M1907_SL_CARBINE_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MAUSER_C96_CARBINE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MAUSER_C96_CARBINE_UFOPEDIA
+    #listOrder: 2009
+  - id: STR_MAUSER_C96_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MAUSER_C96_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_LUGER_ARTILLERY
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_LUGER_ARTILLERY_UFOPEDIA
+    #listOrder: 2057
+  - id: STR_LUGER_ARTILLERY_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LUGER_ARTILLERY_DRUM_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_CARCANO_M91_CARBINE
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CARCANO_M91_CARBINE_UFOPEDIA
+    #listOrder: 2027
+  - id: STR_CARCANO_M91_CARBINE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_CARCANO_M91_CARBINE_CLIP_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_RSC_CARBINE
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_RSC_CARBINE_UFOPEDIA
+    #listOrder: 2016
+
+  ##############################################
+  ############ PHLOGISTON CARBINES ############
+  ############################################
+
+  - id: STR_PHLOGISTON_AUTOMATIC_CARBINE
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CARCANO_M91_CARBINE_UFOPEDIA
+    #listOrder: 2027
+
+  ##############################################
+  ############# GAUSS CARBINES ################
+  ############################################
+
+  ##########################################
+  ############# BALLISTIC SMGS ############
+  ########################################
+
+  - id: STR_ANNIHILATOR_SMG
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ANNIHILATOR_SMG_MAG_UFOPEDIA
+    #listOrder: 2009
+  - id: STR_ANNIHILATOR_SMG_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_ANNIHILATOR_SMG_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MP18
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MP18_UFOPEDIA
+    #listOrder: 2058
+  - id: STR_MP18_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MP18_DRUM_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_SMG_0818
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SMG_0818_UFOPEDIA
+    #listOrder: 2058
+  - id: STR_SMG_0818_BOX
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SMG_0818_BOX_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+
+  - id: STR_BERETTA_MAB18
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BERETTA_MAB18_UFOPEDIA
+    #listOrder: 2028
+  - id: STR_BERETTA_MAB18_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BERETTA_MAB18_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_VILLAR_PEROSA
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_VILLAR_PEROSA_UFOPEDIA
+    #listOrder: 2030
+  - id: STR_VILLAR_PEROSA_MAGS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_VILLAR_PEROSA_MAGS_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ##########################################
+  ############# TESLA SMGS ################
+  ########################################
+
+  - id: STR_TESLA_PROTOTYPE
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TESLA_PROTOTYPE_UFOPEDIA
+    #listOrder: 2030
+  - id: STR_TESLA_SMG
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TESLA_SMG_UFOPEDIA
+    #listOrder: 2030
+
+  ##########################################
+  ############ BALLISTIC LMGS #############
+  ########################################
+
+  - id: STR_HUOT_LMG
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_HUOT_LMG_UFOPEDIA
+    #listOrder: 2003
+  - id: STR_HUOT_LMG_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HUOT_LMG_DRUM_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_BAR
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BAR_UFOPEDIA
+    #listOrder: 2007
+  - id: STR_BAR_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_BAR_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MG0815
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MG0815_UFOPEDIA
+    #listOrder: 2011
+  - id: STR_MG0815_DRUM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MG0815_DRUM_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+
+  - id: STR_CHAUCHAT_LMG
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CHAUCHAT_LMG_UFOPEDIA
+    #listOrder: 2014
+  - id: STR_CHAUCHAT_LMG_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_CHAUCHAT_LMG_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_RIBEYROLLES
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_RIBEYROLLES_UFOPEDIA
+    #listOrder: 2015
+  - id: STR_RIBEYROLLES_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_RIBEYROLLES_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LEWIS_GUN
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_LEWIS_GUN_UFOPEDIA
+    #listOrder: 2015
+  - id: STR_LEWIS_GUN_PAN
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_LEWIS_GUN_PAN_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MADSEN_LMG
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MADSEN_LMG_UFOPEDIA
+    #listOrder: 2015
+  - id: STR_MADSEN_LMG_MAG
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MADSEN_LMG_MAG_KMM
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ##########################################
+  ############# TESLA LMGS ################
+  ########################################
+
+  - id: STR_TESLA_AUTOCANNON
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TESLA_AUTOCANNON_UFOPEDIA
+    #listOrder: 2015
+  - id: STR_TESLA_HEAVY_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ##########################################
+  ############# PLASMA LMGS ###############
+  ########################################
+
+  ##########################################
+  ########## BALLISTIC SHOTGUNS ###########
+  ########################################
+
+  - id: STR_WINCHESTER_TRENCH_GUN
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_WINCHESTER_TRENCH_GUN_UFOPEDIA
+    #listOrder: 2006
+  - id: STR_SHOTGUN_BUCKSHOT_SHELLS_5
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SHOTGUN_DUMDUM_SHELLS_5
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_REMINGTON_MODEL_11
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_REMINGTON_MODEL_11_UFOPEDIA
+  - id: STR_INERTIA_SHOTGUN
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_REMINGTON_MODEL_11_UFOPEDIA
+  - id: STR_MODEL_1900
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MODEL_1900_UFOPEDIA
+    #listOrder: 2006
+  - id: STR_SHOTGUN_BUCKSHOT_SHELLS_2
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_SHOTGUN_DUMDUM_SHELLS_2
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ##########################################
+  ########### TESLA SHOTGUNS ##############
+  ########################################
+
+  - id: STR_TESLA_TRENCH_BROOM
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TESLA_TRENCH_BROOM_UFOPEDIA
+    #listOrder: 2006
+  - id: STR_TESLA_EXTENDED_BATTERY
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  ######################################
+  ######### EXPLOSIVE DEVICES #########
+  ####################################
+
+  - id: STR_ANTITANK_GRENADE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ANTITANK_GRENADE_UFOPEDIA
+    #listOrder: 2059
+  - id: STR_STICK_GRENADE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_STICK_GRENADE_UFOPEDIA
+    #listOrder: 2066
+  - id: STR_FRAG_GRENADE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FRAG_GRENADE_UFOPEDIA
+    #listOrder: 2067
+  - id: STR_DYNAMITE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_DYNAMITE_UFOPEDIA
+    #listOrder: 2068
+#  - id: STR_GRENADE_LAUNCHER
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_GRENADE_LAUNCHER_UFOPEDIA
+#    #listOrder: 2069
+#  - id: STR_GRENADE_LAUNCHER_MUSTARD
+#    type_id: 4
+#    section: STR_NOT_AVAILABLE
+#  - id: STR_GRENADE_LAUNCHER_STUN
+#    type_id: 4
+#    section: STR_NOT_AVAILABLE
+  - id: STR_FLAMETHROWER
+    requires:
+      - STR_HUMAN_CHEMICAL_WEAPONS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FLAMETHROWER_UFOPEDIA
+    #listOrder: 2070
+#  - id: STR_BURTON
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_BURTON_UFOPEDIA
+#    #listOrder: 2071
+#  - id: STR_BURTON_CLIP_INC
+#    type_id: 4
+#    section: STR_NOT_AVAILABLE
+#  - id: STR_BURTON_CLIP_AP
+#    type_id: 4
+#    section: STR_NOT_AVAILABLE
+  - id: STR_RIFLE_GRENADE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_RIFLE_GRENADE_UFOPEDIA
+#    #listOrder: 2072
+#  - id: STR_INCENDIARY_GRENADE
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_INCENDIARY_GRENADE_UFOPEDIA
+#    #listOrder: 2073
+  - id: STR_GAS_GRENADE
+    requires:
+      - STR_HUMAN_CHEMICAL_WEAPONS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_GAS_GRENADE_UFOPEDIA
+    #listOrder: 2074
+  - id: STR_FLARE_GUN
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_FLARE_GUN_UFOPEDIA
+    #listOrder: 2075
+  - id: STR_FLARE_ROUND
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+
+  ######################################
+  ######### MELEE EQUIPMENT ###########
+  ####################################
+
+  - id: STR_SABRE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SABRE_UFOPEDIA
+    #listOrder: 2040
+  - id: STR_MM_SABRE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MM_SABRE_UFOPEDIA
+    #listOrder: 2040
+  - id: STR_TRENCH_KNIFE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TRENCH_KNIFE_UFOPEDIA
+    #listOrder: 2041
+  - id: STR_TRENCH_SHOVEL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TRENCH_SHOVEL_UFOPEDIA
+    #listOrder: 2042
+  - id: STR_SHOVEL
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SHOVEL_UFOPEDIA
+    #listOrder: 2042
+  - id: STR_TRENCH_MACE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TRENCH_MACE_UFOPEDIA
+  - id: STR_TRENCH_CLUB
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TRENCH_CLUB_UFOPEDIA
+    #listOrder: 2060
+  - id: STR_SHASHKA
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_SHASHKA_UFOPEDIA
+    #listOrder: 2060
+  - id: STR_MM_SHASHKA
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MM_SHASHKA_UFOPEDIA
+    #listOrder: 2060
+  - id: STR_MM_DAGGER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MM_DAGGER_UFOPEDIA
+
+    #listOrder: 2043
+#  - id: STR_TRENCH_AXE
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_TRENCH_AXE_UFOPEDIA
+#    #listOrder: 2044
+#  - id: STR_TRENCH_PICKAXE
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_TRENCH_PICKAXE_UFOPEDIA
+#    #listOrder: 2045
+#  - id: STR_BOWIE_KNIFE
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_BOWIE_KNIFE_UFOPEDIA
+#    #listOrder: 2046
+#  - id: STR_MM_CAVALRY_SABRE
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_MM_CAVALRY_SABRE_UFOPEDIA
+#    #listOrder: 2047
+#  - id: STR_MEDIC_BONESAW
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_MEDIC_BONESAW_UFOPEDIA
+#    #listOrder: 2048
+
+  ########################################
+  ########## MEDICAL EQUIPMENT ##########
+  ######################################
+
+  - id: STR_MEDIKIT
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_MEDIKIT_UFOPEDIA
+    #listOrder: 2049
+#  - id: STR_SURGERYKIT
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_SURGERYKIT_UFOPEDIA
+#    #listOrder: 2050
+  - id: STR_BANDAGES
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BANDAGES_UFOPEDIA
+    #listOrder: 2051
+  - id: STR_PAINKILLER
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_PAINKILLER_UFOPEDIA
+    #listOrder: 2052
+#  - id: STR_ADRENALINE
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_ADRENALINE_UFOPEDIA
+#    #listOrder: 2053
+#  - id: STR_COMBAT_STIMULANT
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_COMBAT_STIMULANT_UFOPEDIA
+#    #listOrder: 2054
+  - id: STR_WHISTLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_WHISTLE_UFOPEDIA
+    #listOrder: 2055
+#  - id: STR_BAGPIPE
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_BAGPIPE_UFOPEDIA
+#    #listOrder: 2056
+
+  ########################################
+  ########## MILITARY RATIONS ###########
+  ######################################
+
+  - id: STR_BREAD
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BREAD_UFOPEDIA
+    #listOrder: 2076
+  - id: STR_ROTTEN_BREAD
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ROTTEN_BREAD_UFOPEDIA
+    #listOrder: 2077
+  - id: STR_CANNED_BEEF
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_CANNED_BEEF_UFOPEDIA
+    #listOrder: 2078
+  - id: STR_ROTTEN_CANNED_BEEF
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ROTTEN_CANNED_BEEF_UFOPEDIA
+    #listOrder: 2079
+  - id: STR_BISCUIT_BOX
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BISCUIT_BOX_UFOPEDIA
+    #listOrder: 2080
+  - id: STR_ROTTEN_BISCUIT_BOX
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_ROTTEN_BISCUIT_BOX_UFOPEDIA
+    #listOrder: 2081
+  - id: STR_WINE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_WINE_UFOPEDIA
+    #listOrder: 2082
+  - id: STR_BROKEN_WINE_BOTTLE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_BROKEN_WINE_BOTTLE_UFOPEDIA
+    #listOrder: 2083
+  - id: STR_TEA_FLASK
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TEA_FLASK_UFOPEDIA
+    #listOrder: 2084
+#  - id: STR_TRENCH_CLUB
+#    type_id: 4
+#    section: STR_WEAPONS
+#    text: STR_TRENCH_CLUB_UFOPEDIA
+#    #listOrder: 2083
+
+
+  - id: STR_HEATRAY_RESEARCH
+    requires:
+      - STR_HEATRAY_RESEARCH
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: HEAT_RAY_RESEARCH
+    text: STR_HEATRAY_RESEARCH_UFOPEDIA
+    text_width: 316
+    #listOrder: 10301
+  - id: STR_HEATRAY_WEAPONS_ANALYSIS
+    requires:
+      - STR_HEATRAY_WEAPONS_ANALYSIS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: HEAT_RAY_WEAPONS
+    text: STR_HEATRAY_WEAPONS_ANALYSIS_UFOPEDIA
+    text_width: 150
+    #listOrder: 10302
+  - id: STR_RED_WEED_RESEARCH
+    requires:
+      - STR_RED_WEED_RESEARCH
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: RED_WEED_RESEARCH
+    text: STR_RED_WEED_RESEARCH_UFOPEDIA
+    text_width: 160
+    #listOrder: 10303
+  - id: STR_CHEMICAL_WARFARE_RESEARCH
+    requires:
+      - STR_CHEMICAL_WARFARE_RESEARCH
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: CHEMICAL_WARFARE_RESEARCH
+    text: STR_CHEMICAL_WARFARE_RESEARCH_UFOPEDIA
+    text_width: 300
+    #listOrder: 10304
+####################################
+######### WEAPONS ###############
+###############################
+  - id: STR_HEATRAY_PISTOL
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_HEATRAY_PISTOL_UFOPEDIA
+    requires:
+      - STR_HEATRAY_PISTOL
+    #listOrder: 10305
+  - id: STR_HEATRAY_PISTOL_BATTERY_PHOTON
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HEATRAY_CARBINE
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_HEATRAY_CARBINE_UFOPEDIA
+    requires:
+      - STR_HEATRAY_CARBINE
+    #listOrder: 10305
+  - id: STR_HEATRAY_CARBINE_BATTERY_PHOTON
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HEATRAY_RIFLE
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_HEATRAY_RIFLE_UFOPEDIA
+    requires:
+      - STR_HEATRAY_RIFLE
+    #listOrder: 10306
+  - id: STR_HEATRAY_RIFLE_BATTERY_PHOTON
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HEATRAY_CANNON
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_HEATRAY_CANNON_UFOPEDIA
+    requires:
+      - STR_HEATRAY_CANNON
+    #listOrder: 10307
+  - id: STR_HEATRAY_CANNON_BATTERY_PHOTON
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_HEATRAY_SNIPER
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_HEATRAY_SNIPER_UFOPEDIA
+    requires:
+      - STR_HEATRAY_SNIPER
+    #listOrder: 10308
+  - id: STR_HEATRAY_SNIPER_BATTERY_PHOTON
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MARTIAN_LAUNCHER
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MARTIAN_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_MARTIAN_LAUNCHER
+    #listOrder: 10308
+  - id: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MARTIAN_ROCK_THROWER
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MARTIAN_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_MARTIAN_ROCK_THROWER
+    #listOrder: 10308
+  - id: STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
+  - id: STR_MARTIAN_BLADE
+    type_id: 4
+    section: STR_ALIEN_RESEARCH_UC
+    text: STR_MARTIAN_LAUNCHER_UFOPEDIA
+    requires:
+      - STR_MARTIAN_BLADE
+    #listOrder: 10308
+
+
+
+######################################
+######### UFOPEDIA IMAGES ############
+######################################
+  - id: STR_IMPROVED_METALURGIC_TECHNIQUES
+    requires:
+      - STR_IMPROVED_METALURGIC_TECHNIQUES
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: IMPROVED_METALURGIC_TECHNIQUES_IMAGE
+    text: STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA
+    #listOrder: 10201
+    text_width: 316
+  - id: STR_ADVANCED_FIREARMS
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: ADVANCED_FIREARMS_IMAGE
+    text: STR_ADVANCED_FIREARMS_UFOPEDIA
+    #listOrder: 10202
+    text_width: 150
+  - id: STR_KMM_BULLETS
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: KMM_BULLETS_IMAGE
+    text: STR_KMM_BULLETS_UFOPEDIA
+    #listOrder: 10203
+    text_width: 150
+  - id: STR_GASMASKS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: GASMASKS_IMAGE
+    text: STR_GASMASKS_UFOPEDIA
+    #listOrder: 10204
+    text_width: 150
+  - id: STR_HUMAN_CHEMICAL_WEAPONS
+    requires:
+      - STR_HUMAN_CHEMICAL_WEAPONS
+    type_id: 7
+    section: STR_ALIEN_RESEARCH_UC
+    image_id: HUMAN_CHEMICAL_WEAPONS_IMAGE
+    text: STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA
+    #listOrder: 10205
+    text_width: 150
+###############################
+######## MARTIAN BASES #######
+#############################
+
+  - id: STR_MARTIAN_CAMP
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_CAMP_UFOPEDIA
+    #listOrder: 12800
+  - id: STR_MARTIAN_OUTPOST
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_OUTPOST_UFOPEDIA
+    #listOrder: 12900
+  - id: STR_MARTIAN_TROOP_BARRACKS
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_TROOP_BARRACKS_UFOPEDIA
+    #listOrder: 13000
+  - id: STR_MARTIAN_HARVEST_FACILITY
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_HARVEST_FACILITY_UFOPEDIA
+    #listOrder: 13100
+  - id: STR_MARTIAN_WATCHTOWER
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_WATCHTOWER_UFOPEDIA
+    #listOrder: 13200
+  - id: STR_MARTIAN_HIGH_COMMAND
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_HIGH_COMMAND_UFOPEDIA
+    #listOrder: 13400
+  - id: STR_MARTIAN_SUPPLY_DEPOT
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA
+    #listOrder: 13600
+  - id: STR_MARTIAN_CLONE_LAB
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_CLONE_LAB_UFOPEDIA
+    #listOrder: 13700
+  - id: STR_MARTIAN_REDOUBT
+    type_id: 9
+    section: STR_UFOS
+    text: STR_MARTIAN_REDOUBT_UFOPEDIA
+    #listOrder: 13800
+
+############################
+######## VEHICLES #########
+##########################
+
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_SKYRANGER
+  - delete: STR_INTERCEPTOR
+############################
+  - id: STR_CONQUEROR
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_CONQUEROR_UFOPEDIA
+    #listOrder: 111
+    image_id: CONQUEROR.SPK
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+  - id: STR_SPAD
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_SPAD_UFOPEDIA
+    #listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SPAD.SPK
+  - id: STR_RCLASS_AIRSHIP
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    text: STR_RCLASS_AIRSHIP_UFOPEDIA
+    #listOrder: 113
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 38
+      width: 205
+      height: 80
+    image_id: RCLASS_AIRSHIP.SPK
+##################################
+  - id: STR_TWIN_HMG
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: TWIN_HMG
+    text: STR_TWIN_HMG_UFOPEDIA
+    #listOrder: 801
+  - id: STR_AUTOCANNON
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: AUTOCANNON
+    text: STR_AUTOCANNON_UFOPEDIA
+    #listOrder: 802
+  - id: STR_QF_1_PDR_POMPOM
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: POMPOM
+    text: STR_QF_1_PDR_POMPOM_UFOPEDIA
+    #listOrder: 803
+  - id: STR_FRAGMENTATION_BOMB
+    type_id: 2
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: FRAG_BOMB
+    text: STR_FRAGMENTATION_BOMB_UFOPEDIA
+    #listOrder: 803
+
+################################
+####### MARTIAN VEHICLES ######
+##############################
+
+
+#Flying Machines
+################################
+###### MARTIAN CRAFTS #########
+##############################
+  - id: NIMBLE_FIGHTER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - NIMBLE_FIGHTER
+    text: NIMBLE_FIGHTER_UFOPEDIA
+  - id: TRANSPORT_BARGE
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - TRANSPORT_BARGE
+    text: TRANSPORT_BARGE_UFOPEDIA
+  - id: BLOCKADE_RUNNER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - BLOCKADE_RUNNER
+    text: BLOCKADE_RUNNER_UFOPEDIA
+  - id: SUPPORT_BOAT
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - SUPPORT_BOAT
+    text: SUPPORT_BOAT_UFOPEDIA
+  - id: FRIGATE
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - FRIGATE
+    text: FRIGATE_UFOPEDIA
+  - id: DESTROYER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - DESTROYER
+    text: DESTROYER_UFOPEDIA
+  - id: CRUISER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - CRUISER
+    text: CRUISER_UFOPEDIA
+#################################
+###### SELENITE CRAFTS #########
+###############################
+  - id: STR_SELENITE_FIGHTER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_SELENITE_FIGHTER
+    text: STR_SELENITE_FIGHTER_UFOPEDIA
+  - id: STR_SELENITE_GUNSHIP
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_SELENITE_GUNSHIP
+    text: STR_SELENITE_GUNSHIP_UFOPEDIA
+  - id: STR_SELENITE_TRANSPORT
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_SELENITE_TRANSPORT
+    text: STR_SELENITE_TRANSPORT_UFOPEDIA
+#Fighting Machines
+########################
+  - id: STR_MARTIAN_ASSAULT_WALKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_MARTIAN_ASSAULT_WALKER
+    text: STR_MARTIAN_ASSAULT_WALKER_UFOPEDIA
+  - id: STR_MARTIAN_BATTLE_WALKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_MARTIAN_BATTLE_WALKER
+    text: STR_MARTIAN_BATTLE_WALKER_UFOPEDIA
+  - id: STR_MARTIAN_SIEGE_WALKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_MARTIAN_SIEGE_WALKER
+    text: STR_MARTIAN_SIEGE_WALKER_UFOPEDIA
+  - id: STR_MARTIAN_HARVESTER_WALKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_MARTIAN_HARVESTER_WALKER
+    text: STR_MARTIAN_HARVESTER_WALKER_UFOPEDIA
+  - id: STR_MARTIAN_OVERLORD_WALKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_MARTIAN_OVERLORD_WALKER
+    text: STR_MARTIAN_OVERLORD_WALKER_UFOPEDIA
+  - id: STR_MARTIAN_RECON_WALKER
+    type_id: 9
+    section: STR_UFOS
+    requires:
+      - STR_MARTIAN_RECON_WALKER
+    text: STR_MARTIAN_RECON_WALKER_UFOPEDIA

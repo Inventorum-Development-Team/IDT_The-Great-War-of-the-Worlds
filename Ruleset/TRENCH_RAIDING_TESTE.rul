@@ -6,7 +6,7 @@ terrains:
       - BON3
       - RUINED_FOREST
       - U_EXT01B
-    mapBlocks: 
+    mapBlocks:
       - name: TRENCH_RAID00
         width: 10
         length: 30
@@ -19,7 +19,7 @@ terrains:
 mapScripts:
   - type: TRENCH_RAID_MS
     commands:
-#    - type: addCraft 
+#    - type: addCraft
 #      executions: 1
 #      groups: 1
 #    - type: addUFO
@@ -39,35 +39,35 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 4
@@ -78,30 +78,30 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CARBINE
-            - STR_HEATRAY_CARBINE_BATTERY
-            - STR_HEATRAY_CARBINE_BATTERY
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
       - alienRank: 3
@@ -158,14 +158,14 @@ alienDeployments:
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
           -
             - STR_MARTIAN_LAUNCHER
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
-            - STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
-            - STR_MARTIAN_LAUNCHER_CONCUSSION_GRENADE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
             - STR_ALIEN_GRENADE
       - alienRank: 1
         lowQty: 2
@@ -175,41 +175,41 @@ alienDeployments:
         itemSets:
           -
             - STR_HEATRAY_PISTOL
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
-            - STR_HEATRAY_PISTOL_BATTERY
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_RIFLE
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
-            - STR_HEATRAY_RIFLE_BATTERY
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_CANNON
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
-            - STR_HEATRAY_CANNON_BATTERY
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
           -
             - STR_HEATRAY_SNIPER
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
-            - STR_HEATRAY_SNIPER_BATTERY
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
             - STR_ALIEN_GRENADE
@@ -218,12 +218,12 @@ alienDeployments:
     height: 10
     civilians: 0 # no random civilians
     civiliansByType:
-      STR_BRITISH_T2_RIFLEMAN_NPC: 2 
-      STR_BRITISH_T2_ASSAULT_NPC: 2	   
+      STR_BRITISH_T2_RIFLEMAN_NPC: 2
+      STR_BRITISH_T2_ASSAULT_NPC: 2
       STR_BRITISH_T1_OFFICER_NPC: 1
       STR_BRITISH_T2_SUPPORT_NPC: 2
     civilianSpawnNodeRank: 1 # xcom node
-    terrains:  
+    terrains:
       - TRENCH_RAID00
     briefing:
       palette: 4
