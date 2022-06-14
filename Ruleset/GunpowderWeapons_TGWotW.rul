@@ -8536,11 +8536,12 @@ extraStrings:
         weapon. Small enough to fit a soldier's backpack, it could fire more
         accurately if the user knees down.
       STR_MORTAR_SHELL: Mortar Shell
-      STR_M1907_SL_CARBINE: Winchester M1907 SL Carbine
+      STR_M1907_SL_CARBINE: Winchester M1907 SL Carbine 
+      STR_M1907_SL_CARBINE_UFOPEDIA: Carbine variant of the self-loading rifle calibrated in .351SL. Used by several Coalition armies, it became prevalent thanks to its good handling and above average damage output.
       STR_M1907_SL_CARBINE_MAG: M1907 SL Carbine Mag
       STR_M1907_SL_CARBINE_MAG_KMM: M1907 SL Carbine K-MM Mag
       STR_ANNIHILATOR_SMG: Annihilator SMG
-      STR_ANNIHILATOR_SMG_UFOPEDIA: wip
+      STR_ANNIHILATOR_SMG_UFOPEDIA: Conceived by US Army General John Thompson as a powerful compact machine gun, its primary function is to deliver a hailstorm of lead in tight trenches, obliterating everything in its path. Well, it lives up its name after all.
       STR_ANNIHILATOR_SMG_MAG: Annihilator Mag
       STR_ANNIHILATOR_SMG_MAG_KMM: Annihilator K-MM Mag
       STR_PHLOGISTON_HEAVY_RIFLE: Phlogiston Heavy Rifle
@@ -8550,9 +8551,9 @@ extraStrings:
       STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA: WIP
       STR_PHLOGISTON_MEDIUM_BATTERY: Phlogiston Medium Battery
       STR_PHLOGISTON_AUTOMATIC_CARBINE: Phlogiston Automatic Carbine
-      STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA: WIP
+      STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA: One of the most successful applications of Phlogiston tech, the ruby rod chamber was mounted over the frame of a Winchester M1907 SL carbine, with the barrel adapted to fit the magnification lenses. A forward grip was added as reference. The result is a relatively light weapon with superior handling.
       STR_PHLOGISTON_PISTOL: Phlogiston Pistol
-      STR_PHLOGISTON_PISTOL_UFOPEDIA: WIP
+      STR_PHLOGISTON_PISTOL_UFOPEDIA: Built as a light and effective sidearm based around the ruby rod beam tech. After several tries, it was found the energy mechanisms fitted inside a large handgun like the Colt M1911. Subsequent models used the blueprints of the handgun as basis. The barrel slits gets illuminated once the battery charges the beam emitter.
       STR_PHLOGISTON_SMALL_BATTERY: Phlogiston Small Battery
 
       #STR_:
