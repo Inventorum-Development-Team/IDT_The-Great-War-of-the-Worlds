@@ -878,6 +878,33 @@ items:
     attraction: 8
     listOrder: 2140
 
+  - type: STR_OBREZ_PISTOL
+    categories:
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
+    size: 0.1
+    costBuy: 2500
+    costSell: 900
+    weight: 6
+    bigSprite: 1256
+    floorSprite: 1256
+    handSprite: 1256
+    bulletSpeed: 15
+    fireSound: 109
+    reloadSound: 309
+    compatibleAmmo:
+      - STR_MOSIN_NAGANT_CLIP
+      - STR_MOSIN_NAGANT_CLIP_KMM
+    accuracyCloseQuarters: 140
+    accuracySnap: 50
+    accuracyAimed: 75
+    tuSnap: 18
+    tuAimed: 28
+    invHeight: 2
+    invWidth: 1
+    battleType: 1
+    armor: 250
+    listOrder: 2145
+
   - type: STR_MOSIN_NAGANT_CLIP
     categories:
       [
@@ -1899,7 +1926,7 @@ items:
     listOrder: 2390
 
   #################################################
-  ######### PHLOGISTON SELF-LOADING RIFLES ########
+  ######### PHLOGISTON SELF-LOADING RIFLES #######
   ###############################################
   - type: STR_PHLOGISTON_BATTLE_RIFLE
     categories:
@@ -1976,6 +2003,9 @@ items:
   #################################################
   ######### GAUSS SELF-LOADING RIFLES ############
   ###############################################
+
+
+
   ##########################################
   ######### BALLISTIC SIDEARMS ############
   ########################################
@@ -2351,32 +2381,7 @@ items:
     armor: 250
     listOrder: 2560
 
-  - type: STR_OBREZ_PISTOL
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
-    size: 0.1
-    costBuy: 2500
-    costSell: 900
-    weight: 6
-    bigSprite: 1256
-    floorSprite: 1256
-    handSprite: 1256
-    bulletSpeed: 15
-    fireSound: 109
-    reloadSound: 309
-    compatibleAmmo:
-      - STR_MOSIN_NAGANT_CLIP
-      - STR_MOSIN_NAGANT_CLIP_KMM
-    accuracyCloseQuarters: 140
-    accuracySnap: 50
-    accuracyAimed: 75
-    tuSnap: 18
-    tuAimed: 28
-    invHeight: 2
-    invWidth: 1
-    battleType: 1
-    armor: 250
-    listOrder: 2570
+
 
   ##########################################
   ############# TESLA SIDEARMS ############
@@ -2983,6 +2988,7 @@ items:
   ##############################################
   ############# GAUSS CARBINES ################
   ############################################
+
   ##########################################
   ############# BALLISTIC SMGS ############
   ########################################
@@ -3017,6 +3023,7 @@ items:
     confAimed:
       shots: 10
       name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
@@ -3139,6 +3146,7 @@ items:
     confAimed:
       shots: 10
       name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
@@ -3261,6 +3269,7 @@ items:
     confAimed:
       shots: 15
       name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
@@ -3382,6 +3391,7 @@ items:
     confAimed:
       shots: 12
       name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
       ammoSlot: 0
       arcing: false
     compatibleAmmo:
@@ -3767,6 +3777,9 @@ items:
   ##########################################
   ############# PLASMA SMGS ###############
   ########################################
+
+
+
   ##########################################
   ############ BALLISTIC LMGS #############
   ########################################
@@ -4675,6 +4688,7 @@ items:
   ##########################################
   ############# PLASMA LMGS ###############
   ########################################
+
   ##########################################
   ########## BALLISTIC SHOTGUNS ###########
   ########################################
@@ -4734,7 +4748,8 @@ items:
         STR_FIREARMS,
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
+        STR_BRITISH_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
@@ -4777,7 +4792,8 @@ items:
         STR_FIREARMS,
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
+        STR_GERMAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
@@ -4885,6 +4901,9 @@ items:
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT,
+        STR_ITALIAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
@@ -5217,7 +5236,7 @@ items:
     attraction: 6
     listOrder: 3300
 
-  - type: STR_FLAMETHROWER_MK1
+  - type: STR_FLAMETHROWER
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
     requires:
       - STR_HUMAN_CHEMICAL_WEAPONS
@@ -5258,6 +5277,9 @@ items:
     #    bulletSpeed: 8
     experienceTrainingMode: 7
     attraction: 7
+    vaporColorSurface: 1
+    vaporDensitySurface: 10
+    vaporProbabilitySurface: 100
     listOrder: 3310
 
   - type: STR_RIFLE_GRENADE
@@ -8043,8 +8065,8 @@ extraStrings:
       STR_SUPPRESSION_SHORT: Suppression
       STR_FULL_AUTO: Full Auto
       STR_FULL_AUTO_SHORT: Full Auto
-      STR_HIGH_POWER: High Power Shot
-      STR_LOW_POWER: Low Power Shot
+      STR_HIGH_POWER: High Power
+      STR_LOW_POWER: Low Power
       #STR_BURST: Burst
       STR_BURST_SHORT: Burst
       STR_PRAY_N_SPRAY: Pray n' Spray
@@ -8098,6 +8120,10 @@ extraStrings:
         automatic weapon. Employs a gas mechanism designed by engineer Joseph
         Huot, replacing the Lewis machine gun as a 'fire on the move' weapon. It
         uses .303 British caliber bullets.
+      STR_LEWIS_GUN: Lewis Gun
+      STR_LEWIS_GUN_UFOPEDIA: Originally concieved by US Army Colonel Isaac N. Lewis, but manufactured en masse in the UK, this machine gun has the particularity of having a barrel cooling shroud and top mounted 'pan' magazine. Very popular weapon in the Commonwealth ranks.
+      STR_LEWIS_GUN_PAN: Lewis Gun Pan
+      STR_LEWIS_GUN_PAN_KMM: Lewis Gun K-MM Pan
       STR_M1911_COLT: M1911 Colt Pistol
       STR_M1911_COLT_MAG: M1911 Colt Mag
       STR_M1911_COLT_MAG_KMM: M1911 Colt K-MM Mag
@@ -8139,6 +8165,10 @@ extraStrings:
         ammunition and is so powerful that it was initially banned for use
         against humans. It is the weapon of choice for many infantry soldiers,
         perfect for clearing trenches and enemy positions.
+      STR_MODEL_1900: Winchester Model 1900 Shotgun
+      STR_MODEL_1900_UFOPEDIA: Double-shot, break-action shotgun. Very popular as hunting weapon for small and big game, it was sold all around the world in very affortable prices.
+      STR_MODEL_1900_SAWEDOFF: Model 1900 Sawed-off Shotgun
+      STR_MODEL_1900_SAWEDOFF_UFOPEDIA: Shortened version of the popular Model 1900 break-action shotgun. The reduced size of the barrel and the lack of wooden stock helps to carry it on any pistol holster, even hidden within the coat. Very easy to use.
       STR_MONDRAGON: Mondragon SLR Bayoneted
       STR_MONDRAGON_MAG: Mondragon Mag
       STR_MONDRAGON_MAG_KMM: Mondragon K-MM Mag
@@ -8493,6 +8523,8 @@ extraStrings:
         against the enemy. The gas directly attacks the affected individual's
         nervous system. Field tests report that Greys are particularly affected
         by this weapon."
+      STR_RIFLE_GRENADE: Rifle Grenade
+      STR_RIFLE_GRENADE_UFOPEDIA: A powerful explosive device meant to be launched from the barrel of any regular bolt-action rifle. In order to use, the soldier must remove the conventional rounds from the weapon and insert the Rifle Grenade in the barrel. Then, a blank cartridge is used to propel the grenade outside the rifle.
       STR_HEAVY_GRENADE: Heavy Grenade
       STR_HEAVY_GRENADE_UFOPEDIA:
         Also known as 'Novitski Grenade', this large grenade
