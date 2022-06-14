@@ -275,7 +275,325 @@ alienMissions:
         trajectory: P8
         timer: 3000
 
+########################################
+####### STATIC MARTIAN BASES ##########
+######################################
 
+  - type: STR_MARTIAN_STATIC_CAMP
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_SECTOID: 100
+      3:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      5:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      7:
+        STR_SECTOID: 25
+        STR_MARTIAN_SHOCK_GUARDS: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+      9:
+        STR_SECTOID: 25
+        STR_MARTIAN_SHOCK_GUARDS: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+    waves:
+      - ufo: STR_MARTIAN_CAMP
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_RECON_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+  - type: STR_MARTIAN_STATIC_OUTPOST
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      1:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      3:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      5:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      7:
+        STR_MARTIAN_SHOCK_GUARDS: 25
+        STR_MARTIAN_LINE_INFANTRIES: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+      9:
+        STR_MARTIAN_SHOCK_GUARDS: 25
+        STR_MARTIAN_LINE_INFANTRIES: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+    waves:
+      - ufo: STR_MARTIAN_OUTPOST
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_BATTLE_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+  - type: STR_MARTIAN_STATIC_TROOP_BARRACKS
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      1:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      3:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      5:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      7:
+        STR_MARTIAN_SHOCK_GUARDS: 25
+        STR_MARTIAN_LINE_INFANTRIES: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+      9:
+        STR_MARTIAN_SHOCK_GUARDS: 25
+        STR_MARTIAN_LINE_INFANTRIES: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+    waves:
+      - ufo: STR_MARTIAN_TROOP_BARRACKS
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_BATTLE_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+  - type: STR_MARTIAN_STATIC_HIGH_COMMAND
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      1:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      3:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      5:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      7:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      9:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+    waves:
+      - ufo: STR_MARTIAN_HIGH_COMMAND
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_BATTLE_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+
+  - type: STR_MARTIAN_STATIC_HARVEST_FACILITY
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      1:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      3:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      5:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      7:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      9:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+    waves:
+      - ufo: STR_MARTIAN_HARVEST_FACILITY
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_HARVESTER_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+
+  - type: STR_MARTIAN_STATIC_WATCHTOWER
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+      3:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      5:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      7:
+        STR_SECTOID: 25
+        STR_MARTIAN_SHOCK_GUARDS: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+      9:
+        STR_SECTOID: 25
+        STR_MARTIAN_SHOCK_GUARDS: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+    waves:
+      - ufo: STR_MARTIAN_WATCHTOWER
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_BATTLE_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+
+  - type: STR_MARTIAN_STATIC_CLONE_LAB
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      1:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      3:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      5:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      7:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+      9:
+        STR_MARTIAN_SCIENCE_TEAM: 100
+    waves:
+      - ufo: STR_MARTIAN_CLONE_LAB
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_HARVESTER_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+
+  - type: STR_MARTIAN_STATIC_SUPPLY_DEPOT
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_SECTOID: 100
+      1:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+      3:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      5:
+        STR_SECTOID: 50
+        STR_MARTIAN_LINE_INFANTRIES: 25
+        STR_MARTIAN_SKIRMISHERS: 25
+      7:
+        STR_SECTOID: 25
+        STR_MARTIAN_SHOCK_GUARDS: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+      9:
+        STR_SECTOID: 25
+        STR_MARTIAN_SHOCK_GUARDS: 50
+        STR_MARTIAN_SKIRMISHERS: 25
+    waves:
+      - ufo: STR_MARTIAN_SUPPLY_DEPOT
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_SIEGE_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+
+  - type: STR_MARTIAN_STATIC_REDOUBT
+    points: 0
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      1:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      3:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      5:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      7:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+      9:
+        STR_MARTIAN_ROYAL_GUARDS: 100
+    waves:
+      - ufo: STR_MARTIAN_REDOUBT
+        count: 1
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+      - ufo: STR_MARTIAN_OVERLORD_WALKER
+        count: 2
+        trajectory: STATIC_TRAJECTORY_BASE
+        timer: 7800
+        escort: true
+        hunterKillerPercentage: 100
+        huntMode: 2
+        huntBehavior: 1
+############################################
 
   - type: STR_ALIEN_TERROR
     points: 0
@@ -751,3 +1069,18 @@ alienDeployments:
     markerName: STR_TERROR_SITE
     duration: [4, 10]
     despawnPenalty: 1000
+
+ufoTrajectories:
+  - id: STATIC_TRAJECTORY
+    groundTimer: 0
+    waypoints:
+      - [0, 0, 0]
+
+  - id: STATIC_TRAJECTORY_BASE
+    groundTimer: 0
+    waypoints:
+      - [4, 1, 0]
+      - [4, 2, 0]
+      - [4, 1, 0]
+      - [4, 2, 0]
+      - [4, 1, 0]

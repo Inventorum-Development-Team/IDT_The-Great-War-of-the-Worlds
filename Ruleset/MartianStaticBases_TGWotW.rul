@@ -3,16 +3,15 @@ ufos:
     size: STR_VERY_SMALL
     modSprite: PlaceHolder
     damageMax: 250
-    speedMax: 0
-    accel: 0
-    power: 0
-    range: 0
-    score: 50
-    reload: 0
-    armor: 10
+    speedMax: 10
+    accel: 1
+    power: 10
+    range: 8
+    score: 75
+    reload: 56
     shieldCapacity: 45
     shieldRecharge: 150
-    breakOffTime: 1000
+    breakOffTime: 9000
     battlescapeTerrainData:
       name: PSCOUT
       mapDataSets:
@@ -34,13 +33,13 @@ ufos:
     size: STR_SMALL
     modSprite: PlaceHolder
     damageMax: 400
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 10
     range: 8
     score: 75
     reload: 56
-    breakOffTime: 1000
+    breakOffTime: 9000
     battlescapeTerrainData:
       name: PABDUCT
       mapDataSets:
@@ -59,8 +58,8 @@ ufos:
     size: STR_SMALL
     modSprite: PlaceHolder
     damageMax: 750
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 10
     range: 10
     score: 125
@@ -91,8 +90,8 @@ ufos:
     size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1500
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 10
     range: 15
     score: 125
@@ -120,8 +119,8 @@ ufos:
     size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1000
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 8
     range: 10
     score: 125
@@ -149,8 +148,8 @@ ufos:
     size: STR_LARGE
     modSprite: PlaceHolder
     damageMax: 2500
-    speedMax: 0
-    accel: 0
+    speedMax: 10
+    accel: 1
     power: 25
     range: 20
     score: 250
@@ -286,7 +285,7 @@ extraStrings:
       STR_MARTIAN_SUPPLY_DEPOT: "Martian Supply Depot" # Storage Facility
       STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA: "A support facility, the purpose of which is to store the various war materials, such as weaponry, food, supplies and tools necessary for the enemy's total war machine. They are extremely hard, but they are poorly armed."
       STR_MARTIAN_CLONE_LAB: "Martian Clone Lab" # Cloning Lab
-      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones, both to increase their army and to generate more food for their ranks."
+      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones to generate more food for their ranks and make replacement limbs for their wounded."
       STR_MARTIAN_REDOUBT: "Martian Redoubt"
       STR_MARTIAN_REDOUBT_UFOPEDIA: "The supreme Martian fortress. The existence of these gigantic facilities can only mean that the enemy is prepared for a total siege. They have the best anti-aircraft weapons, the best shields and armour and an enormous number of military and scientific personnel. Assaulting a Redoubt can be a hard blow for the Martians, but it is an almost suicidal mission."
 
@@ -404,6 +403,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_OUTPOST
     data:
@@ -500,6 +501,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_TROOP_BARRACKS
     data:
@@ -697,6 +700,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_HIGH_COMMAND
     data:
@@ -888,6 +893,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_HARVEST_FACILITY
     data:
@@ -1085,6 +1092,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_WATCHTOWER
     data:
@@ -1236,6 +1245,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_CLONE_LAB
     data:
@@ -1433,6 +1444,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
 
   - type: STR_MARTIAN_SUPPLY_DEPOT
     data:
@@ -1584,6 +1597,8 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200
   - type: STR_MARTIAN_REDOUBT
     data:
       - alienRank: 5
@@ -1826,3 +1841,5 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+    #duration: [360, 720]
+    #despawnPenalty: 200

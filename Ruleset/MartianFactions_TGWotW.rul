@@ -567,6 +567,16 @@ alienRaces:
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
 
+  - id: STR_FLOATER
+    members:
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_SKIRMISHER
+      - STR_SECTOID_SOLDIER
+      - STR_MARTIAN_MARINE
+      - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
 
   - id: STR_MARTIAN_LINE_INFANTRIES
     members:
@@ -784,6 +794,7 @@ extraSprites:
 extraStrings:
   - type: en-US
     strings:
+      STR_FLOATER: "Mixed Martian Platoon"
       STR_SECTOID: "Martian Conscript"
       STR_SECTOIDS: "Martian Conscript Platoon"
       SECTOID_ARMOR0: "Martian Conscript Skin"

@@ -826,7 +826,7 @@ startingBase:
     STR_FRAGMENTATION_BOMB_LAUNCHER: 1
     STR_FRAGMENTATION_BOMB_X3: 10
     STR_SERVICE_REVOLVER: 4
-    STR_SERVICE_REVOLVER_CLIP: 20
+    STR_REVOLVER_CLIP: 20
     STR_SMLE_MKIII: 2
     STR_SMLE_MKIII_CLIP: 10
     STR_M1907_SL_CARBINE: 4
@@ -864,3 +864,13 @@ facilities:
     mapName: XBASE_16
   - type: STR_GENERAL_STORES
     storage: 100
+  - type: STR_SMALL_RADAR_SYSTEM
+    spriteShape: 2
+    spriteFacility: 21
+    buildCost: 500000
+    buildTime: 12
+    monthlyCost: 10000
+    radarRange: 2759
+    radarChance: 100
+    hyper: true
+    mapName: XBASE_04
