@@ -332,7 +332,7 @@ items:
   - type: STR_CONQUEROR_AUTOCANNON
     size: 1.0
     weight: 100
-    bigSprite: 805
+    bigSprite: 4005
     bulletSprite: 12
     fireSound: 4
     hitSound: 19
