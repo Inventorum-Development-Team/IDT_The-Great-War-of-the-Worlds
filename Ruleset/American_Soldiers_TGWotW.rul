@@ -519,13 +519,3 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/avatar-background.png
-extraStrings:
-  - type: en-US
-    strings:
-      STR_AMERICAN_SOLDIER: American Soldier
-      STR_AMERICAN_SOLDIER_INTRODUCTION: The Doughboys
-      STR_AMERICAN_SOLDIER_UFOPEDIA: The American soldiers called "doughtboys" are intelligent, experts in guerrilla tactics. Since their country is divided in half by the Martians, they fight fiercely every battle. Each fallen enemy brings them a little closer to reuniting the country. Together with them they fight what remains of the Mexican Army, which also fights to liberate North America, as well as the guerrilla of Pancho Villa.
-      STR_AMERICAN_FIELD_UNIFORM_UC: US ARMY FIELD UNIFORM
-      STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA: Uniform olive green color, very characteristic of the new American army that fights against the Martians. Includes multiple cartridges to transport supplies or additional ammunition, as well as the same M12 Brodie helmet of the British, but in gray. The Mexicans also wear it, although Pancho Villa's guerrilla prefers a variant of the British uniform.
-      STR_AMERICAN_GASMASK_UC: US ARMY GAS MASK
-      STR_AMERICAN_GASMASK_UC_UFOPEDIA: Improved version of the British HLS Mk1 gas mask, with better visors that avoid clouding the eyes as much as other gas masks. Other than this, it is the same model used by the Commonwealth. Very important to avoid the lethal gases employed on the battlefront.

@@ -534,13 +534,3 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/avatar-background.png
-extraStrings:
-  - type: en-US
-    strings:
-      STR_ITALIAN_SOLDIER: Italian Soldier
-      STR_ITALIAN_SOLDIER_INTRODUCTION: The Daring Ones
-      STR_ITALIAN_SOLDIER_UFOPEDIA: Italy, until the beginning of the Great War, has been characterized as a predominantly agricultural and peaceful country. With the arrival of the Martians and the subsequent invasion of Europe, the Italian army has been mobilized. Despite being less equipped and smaller than other armies, it is more than compensated for by the incessant tenacity and courage of Italian soldiers, outstanding for their ingenuity in creating personal armor.
-      STR_ITALIAN_FIELD_UNIFORM_UC: ITALIAN ARMY FIELD UNIFORM
-      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments. It includes an Adrian helmet of French origin to protect the head.
-      STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
-      STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.

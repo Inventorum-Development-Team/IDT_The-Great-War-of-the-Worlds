@@ -1,0 +1,1261 @@
+en-US:
+############################
+######## MISC #############
+##########################
+
+      STR_OPENXCOM: "The Great War of the Worlds"
+      STR_NEW_GAME: "Grand Campaign"
+      STR_NEW_BATTLE: "Skirmirshes"
+      STR_MISSION_GENERATOR: "THE WAR TO END ALL WARS"
+      STR_UFOPAEDIA_UC: "WAR CODEX"
+      STR_DAMAGE_10: SUPER AP
+      STR_DAMAGE_11: ELECTRIC
+      STR_DAMAGE_12: HYPER AP
+      STR_DAMAGE_13: THERMAL
+      STR_DAMAGE_14: BLACK SMOKE
+      STR_DAMAGE_15: BEAM ENERGY
+      STR_DAMAGE_16: COLD
+      STR_DAMAGE_17: TOXIC
+      STR_DAMAGE_18: FLAMES
+      STR_DAMAGE_PLASMA_BEAM: PULSE PLASMA
+      STR_ALIEN_ALLOYS: Martian Metal
+      STR_ALIEN_ALLOYS_UFOPEDIA: "Exotic alien mineral used by the Martians to build everything, from small weapons to ship armor. Extremely light and durable, but requieres high pressure and heat to be able to mold."
+      STR_ELERIUM_115: Tungunskium
+      STR_ELERIUM_115_UFOPEDIA: "This element has the unusual property of generating anti-matter power when bombarded with certain particles. This creates gravity waves and other forms of energy. It seems that Mars has vast mines of this mineral beneath its surface. Called in honor of Tungunska, the first Martian Landing Zone."
+      STR_BALLISTIC: Ballistic
+      STR_TESLA: Electric
+      STR_PULSE_PLASMA: Pulse Plasma
+      STR_PHLOGISTON: Phlogiston
+      STR_COILGUN: Coilgun
+      STR_ALIEN_TECH: Alien Tech
+      STR_BOLT_ACTION_RIFLES: Bolt Action Rifles
+      STR_SELFLOADING_RIFLES: Self-Loading Rifles
+      STR_PISTOLS: Pistols
+      STR_MACHINE_GUNS: Machine Guns
+      STR_SHOTGUNS: Shotguns
+      STR_CARBINES: Carbines
+      STR_SMGS: Submachine guns
+      STR_SNIPER_RIFLES: Sniper Rifles
+      STR_EXPLOSIVES: Explosives
+      STR_ARTILLERY: Artillery
+      STR_MEDICAL: Medical
+      STR_FIREARMS: Firearms
+      STR_CLIPS: Ammo
+      STR_TURRETS: Turrets
+      STR_MILITARY_RATIONS: Military Rations
+      STR_LIGHT_EQUIPMENT: Light Equipment
+      STR_HEAVY_EQUIPMENT: Heavy Equipment
+      STR_RIFLEMAN_CLASS: Rifleman Class
+      STR_ASSAULT_CLASS: Assault Class
+      STR_MEDIC_CLASS: Medic Class
+      STR_SUPPORT_CLASS: Support Class
+      STR_RAIDER_CLASS: Raider Class
+      STR_AIRBORNE_EQUIPMENT: Airborne Equipment
+      STR_BRITISH_EQUIPMENT: British Equipment
+      STR_AMERICAN_EQUIPMENT: American Equipment
+      STR_GERMAN_EQUIPMENT: German Equipment
+      STR_FRENCH_EQUIPMENT: French Equipment
+      STR_ITALIAN_EQUIPMENT: Italian Equipment
+      STR_RUSSIAN_EQUIPMENT: Russian Equipment
+      STR_AUSTRO_HUNGARIAN_EQUIPMENT: Austro-Hungarian Equipment
+      STR_JAPANESE_EQUIPMENT: Japanese Equipment
+      STR_ROOKIE: "Soldier"
+      STR_SQUADDIE: "Sergeant"
+      STR_SERGEANT: "Lieutenant"
+      STR_CAPTAIN: "Captain"
+      STR_COLONEL: "Colonel"
+      STR_COMMANDER: "General"
+      STR_PUNCH: "Punch!"
+      STR_UNARMED_UNIFORM: "Unarmed Melee Attack"
+      STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements."
+      STR_DETECTED: "Sighted"
+      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON TRIPOD-TIME=5 Secs"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE TRIPOD "
+      STR_UFO_IS_NOT_RECOVERED: "Tripod not recovered"
+      STR_UFO_IS_RECOVERED: "Tripod recovered"
+      STR_UFO_RECOVERY: "TRIPOD RECOVERY"
+      STR_UFO_DESTROYED: "TRIPOD DESTROYED!"
+      STR_UFO_: "TRIPOD-{0}"
+      STR_TAILING_UFO: "CHASING A TRIPOD"
+      STR_INTERCEPTING_UFO: "INTERCEPTING TRIPOD-{0}"
+      STR_XCOM_OPERATIVES_KILLED: "IEF LOSSES"
+      STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "IEF SOLDIERS MISSING IN ACTION"
+      STR_XCOM_CRAFT_LOST: "IEF SHIP LOST"
+      STR_ALIEN_BASE_: "MARTIAN FORTRESS-{0}"
+      STR_ALIEN_BASE_STILL_INTACT: "Martian Fortress still intact"
+      STR_ALIEN_BASE_DESTROYED: "Martian Fortress detroyed"
+      STR_ALIEN_BASE_RECOVERY: "RECOVERY OF MARTIAN FORTRESS"
+      STR_ALIEN_BASE_ASSAULT: "ASSAULT ON MARTIAN FORTRESS"
+      STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a Martian Fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
+      STR_UFO_CRASH_RECOVERY: "DOWNED TRIPOD RECOVERY"
+      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the Tripod or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of Tripod remains, artifacts and Martian corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_GROUND_ASSAULT: "TRIPOD GROUND ASSAULT"
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the Tripod. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Tripod remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a Martian base in {0}"
+      STR_XCOM_PERFORMANCE_ROSTER: "IEF Performance Roster"
+      STR_UFOPAEDIA: "War Codex"
+      STR_XCOM_CRAFT_ARMAMENT: "IEF CRAFT & ARMAMENT"
+      STR_HEAVY_WEAPONS_PLATFORMS: "HEAVY WEAPONS PLATFORMS"
+      STR_UNIFORM_AND_ARMOR: "UNIFORMS AND ARMORS"
+      STR_WEAPONS: "WEAPONS"
+      STR_ALIEN_ARTIFACTS: "MARTIAN ARTIFACTS"
+      STR_BASE_FACILITIES: "BASE FACILITIES"
+      STR_ALIEN_LIFE_FORMS: "MARS LIFE FORMS"
+      STR_ALIEN_RESEARCH_UC: "MARTIAN RESEARCH"
+      STR_UFO_COMPONENTS: "MARTIAN MACHINES COMPONENTS"
+      STR_UFOS: "MARTIAN MACHINES"
+      STR_BESIEGED_TROOPS_LOW_MORALE: "The morale of your besieged troops is getting low!"
+
+      STR_AUSTRIA_HUNGARY: AUSTRIA-HUNGARY
+      STR_CALIFORNIA_REPUBLIC: CALIFORNIA REPUBLIC
+      STR_TEXAS_FRONT: TEXAN FRONT
+      STR_SEATTLE_FRONT: SEATTLE FRONT
+      STR_MEXICAN_RESISTANCE: MEXICAN RESISTANCE
+      STR_PATAGONIA_RESISTANCE: PATAGONIA RESISTANCE
+      STR_USA: "UNITED STATES"
+      STR_RUSSIA: "RUSSIAN EMPIRE"
+      STR_UK: "UNITED KNIGDOM"
+      STR_FRANCE: "FRENCH REPUBLIC"
+      STR_GERMANY: "GERMAN EMPIRE"
+      STR_ITALY: "KINGDOM OF ITALY"
+      STR_SPAIN: "SPAIN"
+      STR_CHINA: "CHINESE REMNANT"
+      STR_JAPAN: "EMPIRE OF JAPAN"
+      STR_INDIA: "BRITSH INDIA"
+      STR_BRAZIL: "BRAZIL"
+      STR_AUSTRALIA: "AUSTRALIA"
+      STR_NIGERIA: "MEDITERREAN FRONT"
+      STR_SOUTH_AFRICA: "SOUTH AFRICA"
+      STR_EGYPT: "BRITISH EGYPT"
+      STR_CANADA: "CANADA"
+      STR_SEATTLE: Seattle
+      STR_SANFRANCISCO: San Francisco
+      STR_CHIHUAHUA: Chihuahua
+      STR_SALTILLO: Saltillo
+      STR_NEW_ORLEANS: New Orleans
+      STR_MIAMI: Miami
+      STR_TORONTO: Toronto
+      STR_BOSTON: Boston
+      STR_MIDWAY: Midway
+      STR_ANCHORAGE: Anchorage
+      STR_NUUK: Nuuk
+
+      STR_SANTIAGO: Santiago
+      STR_LIMA: Lima
+      STR_BUENOS_AIRES: Buenos Aires
+      STR_BRASILIA: Brasilia
+      STR_RIO_DE_JANEIRO: Rio de Janeiro
+      STR_LONDON: London
+      STR_OSLO: Oslo
+      STR_WARSAW: Warsaw
+      STR_REYKJAVIK: Reykjavik
+      STR_ATHENS: Athens
+      STR_ROME: Rome
+      STR_MADRID: Madrid
+      STR_BUDAPEST: Budapest
+      STR_BERLIN: Berlin
+      STR_LISBON: Lisbon
+      STR_MOSCOW: Moscow
+      STR_BAKU: Baku
+      STR_PARIS: Paris
+      STR_VERDUN: Verdun
+      STR_ST_PETERSBURG: St Petersburg
+      STR_ARCHANGEL: Archangelsk
+      STR_GENEVA: Geneva
+      STR_SVALBARD: Svalbard
+      STR_ALGIERS: Algiers
+      STR_TUNIS: Tunis
+      STR_CASABLANCA: Casablanca
+      STR_TRIPOLI: Tripoli
+      STR_CAIRO: El Cairo
+      STR_BEIRUT: Beirut
+      STR_CAPE_TOWN: Cape Town
+      STR_PRETORIA: Pretoria
+      STR_FREETOWN: Freetown
+      STR_BOMBAY: Bombay
+      STR_RIYADH: Riyadh
+      STR_DUBAI: Dubai
+      STR_ANKARA: Ankara
+      STR_CALCUTTA: Calcutta
+      STR_SRI_LANKA: Sri Lanka
+      STR_SHANGHAI: Shanghai
+      STR_SINGAPORE: Singapore
+      STR_HONG_KONG: Hong Kong
+      STR_SEOUL: Seoul
+      STR_TOKYO: Tokyo
+      STR_MANILA: Manila
+      STR_VLADIVOSTOK: Vladivostok
+      STR_YEKATERINBURG: Yekateringburg
+      STR_PETROPAVLOVSK: Petropavlovsk
+      STR_KHABAROVSK: Khabarovsk
+      STR_TASMANIA: Tasmania
+      STR_WELLINGTON: Wellington
+      STR_CANBERRA: Canberra
+      STR_MELBOURNE: Melbourne
+      STR_PORTMORESBY: Port Moresby
+      STR_KURIL_ISLANDS: Kuril Islands
+      STR_HAWAII: Hawaii
+      STR_EASTER_ISLAND: Easter Island
+      STR_GALAPAGOS_ISLAND: Galapagos Island
+      STR_BERMUDA: Bermuda
+      STR_AZORES: Azores
+      STR_NORTH_PACIFIC: North Pacific
+      STR_SOUTH_PACIFIC: South Pacific
+      STR_TIKSI: Tiksi
+      STR_FALKLAND_ISLAND: Falkland Island
+      STR_BOZEN: Bozen
+      STR_NEWCASTLE: Newcastle
+###############################################
+      MAP_VILLAGE: Village
+      MAP_VILLAGE_INFESTED: Infested Village
+      MAP_FARM_INFESTED: Infested Farm
+      MAP_TRENCH_FARM: Frontline Farm
+      MAP_FOREST_TRENCH: Frontline Forest
+      MAP_INFESTED: Infested Land
+      MAP_RUINED_URBAN: Infested Urban
+      MAP_DEEPTRENCH: No Man's Land
+      MAP_FORESTRAIL: Forest Railroad
+      MAP_IDT_VILLAGE: Rural Settlement
+      MAP_IDT_FOREST: Rural Forest
+      MAP_IDT_SNOWVILLAGE:  Snow Rural Settlement
+      MAP_IDT_SNOWFOREST: Snow Rural Forest
+      MAP_MOUNTSNOW: High Mountain
+      MAP_MOUNTGRASS: Low Mountain
+      MAP_MOUNTSAND: Desert Mountain
+      MAP_MOUNTROCK: Mountain Pass
+      MAP_MOUNTTROP: Tropical Mountain
+      MAP_PLAINS: Mountain Plateau
+      MAP_PLAINSSNOW: Snow Plains
+      MAP_PLAINSGRASS: Plains
+      MAP_PLAINSSAND: Steppe
+      MAP_PLAINSROCK: Rocky Plain
+      MAP_PLAINSTROP: Tropical Plain
+
+###############################
+####### HUMAN WEAPONS ########
+############################
+
+      STR_UNPRIME_GRENADE: Unprime Grenade
+      STR_BURST: Burst
+      STR_RAPID_FIRE: Rapid Fire
+      STR_SLAM_FIRE: Slam Fire
+      STR_SLAM_FIRE_SHORT: Slam Fire
+      STR_SUPPRESSION: Suppression
+      STR_SUPPRESSION_SHORT: Suppression
+      STR_FULL_AUTO: Full Auto
+      STR_FULL_AUTO_SHORT: Full Auto
+      STR_HIGH_POWER: High Power
+      STR_LOW_POWER: Low Power
+      #STR_BURST: Burst
+      STR_BURST_SHORT: Burst
+      STR_PRAY_N_SPRAY: Pray n' Spray
+      STR_PRAY_N_SPRAY_SHORT: Spray
+      STR_AUTOMATIC_REVOLVER: Automatic Revolver
+      STR_REVOLVER_CLIP: Revolver Speedloader
+      STR_REVOLVER_CLIP_KMM: Revolver K-MM Speedloader
+      STR_REVOLVER_CLIP_DUMDUM: Revolver 'Dum-dum' Speedloader
+      STR_AUTOMATIC_REVOLVER_UFOPEDIA:
+        Modern revolver, its gas system gives it a very
+        high rate of fire. Something delicate to take care of, but British
+        soldiers entrust it their life. If you keep your finger on the trigger,
+        you can shoot the 6 bullets in rapid succession. It is recharged using a
+        'speedloader' which places the 6 cartridges at the same time on the
+        weapon drum.
+      STR_SERVICE_REVOLVER: Service Revolver
+      STR_SERVICE_REVOLVER_UFOPEDIA:
+        Single-action revolver, trustworthy sidegun used
+        in several armies and law enforcement forces. Its sturdy design is
+        designed to endure even in the worst conditions.
+      STR_HEAVY_REVOLVER: Heavy Revolver
+      STR_HEAVY_REVOLVER_UFOPEDIA: A bit cumbersome and difficult sidearm, most
+        preferred by Central European troops. Being single-action, it's rate of
+        fire is limited. This is compensated ny the better accuracy, compared to
+        other revolvers.
+      STR_SMLE_MKIII: SMLE Mk III Rifle
+      STR_SMLE_MKIII_CLIP: SMLE Mk III Clip
+      STR_SMLE_MKIII_CLIP_KMM: SMLE Mk III K-MM Clip
+      STR_SMLE_MKIII_UFOPEDIA:
+        The most recent iteration of the Lee-Enfield rifle
+        caliber .303 British. It's the fastest bolt-action rifle in the world
+        and probably the best, an expert rifleman can shoot as fast as a machine
+        gun. It is recharged using two stripper clips with 5 bullets each one.
+        Its iron sight is comfortable and precise for long range shooting.
+      STR_FARQHUAR_HILL: Farqhuar-Hill SLR
+      STR_FARQHUAR_HILL_DRUM: Farqhuar-Hill Drum
+      STR_FARQHUAR_HILL_DRUM_KMM: Farqhuar-Hill K-MM Drum
+      STR_FARQHUAR_HILL_UFOPEDIA:
+        Next-generation British autoloader rifle. Its drum
+        magazine allows you to charge twice as much ammunition. It has a great
+        rate of fire, although it has awkard recoild and inaccuracy over long
+        distances, it is recommended to shoot in short bursts. Calibered in .303
+        British.
+      STR_HUOT_LMG: Huot Automatic Rifle
+      STR_HUOT_LMG_DRUM: Huot Automatic Drum
+      STR_HUOT_LMG_DRUM_KMM: Huot Automatic K-MM Drum
+      STR_HUOT_LMG_UFOPEDIA:
+        One of the cheapest light machine guns produced by the
+        Commonwealth. Extremely reliable and durable, it is not affected by mud.
+        All the Ross rifles in the Canadian arsenal were converted into this new
+        automatic weapon. Employs a gas mechanism designed by engineer Joseph
+        Huot, replacing the Lewis machine gun as a 'fire on the move' weapon. It
+        uses .303 British caliber bullets.
+      STR_LEWIS_GUN: Lewis Gun
+      STR_LEWIS_GUN_UFOPEDIA: Originally concieved by US Army Colonel Isaac N. Lewis, but manufactured en masse in the UK, this machine gun has the particularity of having a barrel cooling shroud and top mounted 'pan' magazine. Very popular weapon in the Commonwealth ranks.
+      STR_LEWIS_GUN_PAN: Lewis Gun Pan
+      STR_LEWIS_GUN_PAN_KMM: Lewis Gun K-MM Pan
+      STR_M1911_COLT: M1911 Colt Pistol
+      STR_M1911_COLT_MAG: M1911 Colt Mag
+      STR_M1911_COLT_MAG_KMM: M1911 Colt K-MM Mag
+      STR_M1911_COLT_UFOPEDIA:
+        Iconic American handgun. Motivated to replace revolvers
+        in service with the armed forces, this innovative gun designed by John
+        M. Browning uses the powerful .45 ACP high stopping power cartridge,
+        similar to that used by Old West revolvers. Its robust design resulted
+        in a semiautomatic, reliable and very resistant weapon.
+      STR_SPRINGFIELD: M1903 Springfield Bayoneted
+      STR_SPRINGFIELD_CLIP: M1903 Springfield Clip
+      STR_SPRINGFIELD_CLIP_KMM: M1903 Springfield K-MM Clip
+      STR_SPRINGFIELD_UFOPEDIA:
+        Bolt-action rifle of American design, caliber .30-06,
+        based on the bolt-action mechanism of the German Mauser Gewehr 98. It
+        replaced the old Krag rifle and is supplied en masse to troops of the US
+        Army. It is equipped with a bayonet for close combat.
+      STR_P14_ENFIELD: P14 Enfield
+      STR_P14_ENFIELD_UFOPEDIA: Starting as a response to the Boer's Mauser rifles, then a improved license-produced version of the SMLE and eventually a joint American-British effort, the Pattern 1914 Enfield is an accurate sniper rifle used by both US and Commonwealth marksmen, using .30-06 rounds.
+      STR_BAR: BAR LMG
+      STR_BAR_MAG: BAR Mag
+      STR_BAR_MAG_KMM: BAR K-MM Mag
+      STR_BAR_UFOPEDIA:
+        Browning Automatic Rifle, the most recent addition to the
+        American arsenal. The Ace under the sleeve of U.S. Army, the project was
+        secret until its massive deployment. This automatic rifle was designed
+        to being fired from the hip or shoulder, providing large amounts of fire
+        when assaulting an enemy position, but not to hold a sustained fire rate
+        for a long time. Uses .30-06 rounds.
+      STR_WINCHESTER_TRENCH_GUN: Winchester M97 'Trench Gun'
+      STR_SHOTGUN_BUCKSHOT_SHELLS_5: .12 Gauge Buckshot Shells (x5)
+      STR_SHOTGUN_DUMDUM_SHELLS_5: .12 Gauge 'Dum-dum' Slugs (x5)
+      STR_SHOTGUN_BUCKSHOT_SHELLS_2: .12 Gauge Buckshot Shells (x2)
+      STR_SHOTGUN_DUMDUM_SHELLS_2: .12 Gauge 'Dum-dum' Slugs (x2)
+      STR_WINCHESTER_TRENCH_GUN_UFOPEDIA:
+        Winchester shotgun Model 1897, designed by
+        gun genius John M. Browning. It is a pump-action shotgun, which allows
+        you to shoot without releasing the trigger. It fires .12 Gauge
+        ammunition and is so powerful that it was initially banned for use
+        against humans. It is the weapon of choice for many infantry soldiers,
+        perfect for clearing trenches and enemy positions.
+      STR_MODEL_1900: Winchester Model 1900 Shotgun
+      STR_MODEL_1900_UFOPEDIA: Double-shot, break-action shotgun. Very popular as hunting weapon for small and big game, it was sold all around the world in very affortable prices.
+      STR_MODEL_1900_SAWEDOFF: Model 1900 Sawed-off Shotgun
+      STR_MODEL_1900_SAWEDOFF_UFOPEDIA: Shortened version of the popular Model 1900 break-action shotgun. The reduced size of the barrel and the lack of wooden stock helps to carry it on any pistol holster, even hidden within the coat. Very easy to use.
+      STR_MONDRAGON: Mondragon SLR Bayoneted
+      STR_MONDRAGON_MAG: Mondragon Mag
+      STR_MONDRAGON_MAG_KMM: Mondragon K-MM Mag
+      STR_MONDRAGON_UFOPEDIA:
+        Semi-automatic rifle of Mexican design, the first to be
+        supplied to the troops of a regular army, widely used by the Mexican
+        regiments of the U.S. Army and the guerrilla of Pancho Villa, although
+        it is also produced under license by the Swiss firm SIG. Equipped with
+        an Entropium bayonet for CQC. The American Mondragons use .30-06 caliber
+        bullets and the Swiss, at German request, 7.92x57mm Mauser.
+      STR_GEWEHR98: Mauser 'Standard' Rifle
+      STR_GEWEHR98_CLIP: Mauser 'Standard' Clip
+      STR_GEWEHR98_CLIP_KMM: Mauser 'Standard' K-MM Clip
+      STR_GEWEHR98_UFOPEDIA: Very reliable bolt-action rifle of German, has seen
+        combat all over the world. From the European forests and the Asian
+        steppes to the Mexican deserts and the South American jungles, it's the
+        standard bolt-action rifle of several armies of the Coalition and the
+        minor powers (hence the nickname of 'The Standard' given by the Allied
+        soldiers). It shoots 7.92x57mm ammunition, widely copied and reproduced
+        by local armories outside Germany.
+      STR_MAUSER_C96: Mauser C96 Handgun
+      STR_MAUSER_C96_CLIP: Mauser C96 Clip
+      STR_MAUSER_C96_CLIP_KMM: Mauser C96 K-MM Clip
+      STR_MAUSER_C96_UFOPEDIA:
+        The C96 pistol, built by Mauser, was the first truly
+        successful semiautomatic pistol model. Almost all civilians and police
+        forces in Western Europe use it, as reliable as it is. It is fed by
+        stripper clips with bullets calibrated in 7.63 mm
+      STR_MG0815: MG-08/14 LMG
+      STR_MG0815_DRUM: MG-08/14 Drum
+      STR_MG0815_DRUM_KMM: MG-08/14 K-MM Drum
+      STR_MG0815_UFOPEDIA:
+        German heavy machine gun, effective both mounted on bipods
+        and in vehicles. It has been adapted for use by the infantry, although
+        the weight makes it inaccurate if the soldier is not kneeling when
+        firing. It has a very high rate of fire. Uses 7.92mm bullets
+      STR_SELBSTLADER_M1916: Selbstlader M1913 Scoped SLR
+      STR_SELBSTLADER_M1916_MAG: Selbstlader M1913 Mag
+      STR_SELBSTLADER_M1916_MAG_KMM: Selbstlader M1913 K-MM Mag
+      STR_SELBSTLADER_M1916_UFOPEDIA:
+        German word for 'Selfloading', the most refined
+        model of the semi-automatic rifles designed by Mauser, this weapon
+        employs high-capacity magazine and great precision at medium and long
+        range, but a very low fire rate and considerable recoil. Equipped with a
+        Warner & Swasey sight that allows to aim with precision, making this
+        rifle terrible in close combat, but excellent for shooting at a safe
+        distance.
+      STR_LEBEL: Lebel M1886 Bayoneted
+      STR_LEBEL_CLIP: Lebel M1886 Clip
+      STR_LEBEL_CLIP_KMM: Lebel M1886 K-MM Clip
+      STR_LEBEL_UFOPEDIA:
+        The Rifle Model 1886, better known as Lebel rifle. The 8mm
+        caliber rifle can hold 8 cartridges in an internal tubular magazine,
+        making it slow to reload. It introduced modernity into the world of
+        portable weapons by replacing black gunpowder for the first time with
+        smoke-free gunpowder based on nitrocellulose and lead bullets fully
+        coated with nickel silver.
+      STR_CHAUCHAT_LMG: CSRG Chauchat LMG
+      STR_CHAUCHAT_LMG_MAG: CSRG Chauchat Mag
+      STR_CHAUCHAT_LMG_MAG_KMM: CSRG Chauchat K-MM Mag
+      STR_CHAUCHAT_LMG_UFOPEDIA:
+        The Chauchat machine gun is the common name for the
+        Mle 1912 CSRG machine gun. It was commissioned in the French infantry in
+        1912 and was also widely used by the American army in 1913. It is a
+        light weapon, of limited weight and size, the Chauchat significantly
+        increased the fire power of the offensive infantry.
+      STR_RIBEYROLLES: Ribeyrolles Automatic Carbine
+      STR_RIBEYROLLES_MAG: Ribeyrolles Mag
+      STR_RIBEYROLLES_MAG_KMM: Ribeyrolles K-MM Mag
+      STR_RIBEYROLLES_UFOPEDIA:
+        In 1914, Ribeyrolles, Sutter and Chauchat, the trio
+        behind many French weapons, introduced a compact weapon for U.S. and
+        French tank crews. It was the first weapon used from the tank's firing
+        position. It was also used as a defense weapon if the crew had to leave
+        the aircraft. The curiosity of the weapon consisted in the presence of a
+        bipod, unusual for such a small weapon.
+      STR_RSC17: RSC14 SLR
+      STR_RSC17_CLIP: RSC14 Clip
+      STR_RSC17_CLIP_KMM: RSC14 K-MM Clip
+      STR_RSC17_UFOPEDIA: The Model 1914 Rifle (also called RSC M1914 - for
+        Ribeyrolles, Sutter and Chauchat, the gun designers). On April 1, 1914
+        the production of the FA RSC 1914 is finally launched and the gun is
+        sent to the front at the rate of 16 per company, assigned in priority to
+        the good shooters. They are carefully chosen because the weapon is
+        capricious and it is necessary for men to take care of their weapon to
+        limit the problems.
+      STR_RSC_CARBINE: RSC Carbine
+      STR_RSC_CARBINE_UFOPEDIA: WIP
+      STR_MOSIN_NAGANT: Mosin-Nagant Rifle
+      STR_MOSIN_NAGANT_UFOPEDIA:
+        Service rifle of the Russian Imperial Army, designed
+        by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the
+        7.62x54mmR round, it was a great improvement over the old single -shot
+        rifles.
+      STR_OBREZ_PISTOL: Obrez Pistol
+      STR_OBREZ_PISTOL_UFOPEDIA:
+        Makeshift handgun made with the bolt mechanism of a
+        Mosin-Nagant. The rifle caliber gives it a great firepower advantage
+        compared to standard pistols, but the handling it's a bit awkward. Obrez
+        means 'sawed-off' in Russian.
+      STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
+      STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
+      STR_BERDAN_II: Berdan II Rifle
+      STR_BERDAN_II_UFOPEDIA: Old single-shot service rifle, used from 1870 till replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
+      STR_FEDOROV_AVTOMAT: Fedorov Avtomat SLR
+      STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag
+      STR_FEDOROV_AVTOMAT_MAG_KMM: Fedorov Avtomat K-MM Mag
+      STR_FEDOROV_AVTOMAT_UFOPEDIA:
+        One of the first operational automatic rifles made
+        in the world, chambered in 6.5mm Fedorov. Designed as an intermediate
+        between the rifle and the light machine gun, but with mobility
+        comparable to a rifle.
+      STR_SMG_0818: SMG-08/13 SMG
+      STR_SMG_0818_BOX: SMG-08/14 Ammo Box
+      STR_SMG_0818_BOX_KMM: SMG-08/14 K-MM Ammo Box
+      STR_SMG_0818_UFOPEDIA:
+        This makeshift submachine gun is made using parts of a
+        Maxim MG-08 machine gun, feed with a fixed magazine by using large ammo
+        box clips. The Czech Legion gunsmiths adapted it to fill their need of a
+        light automatic weapon with large ammunition capacity.
+      STR_WINCHESTER_M1915: Winchester M1912 Bayoneted
+      STR_WINCHESTER_M1915_UFOPEDIA:
+        Build by the American firm Winchester at request
+        of the Russian High Command as complementary to the Mosin-Nagant
+        bolt-action rifles using the same ammunition. The  majority were
+        diverted to the elite Imperial Guard, becoming a staple of their
+        riflemen.
+      STR_ARISAKA_TYPE44_CARBINE: null
+      STR_ARISAKA_TYPE44_CARBINE_UFOPEDIA: ...
+      STR_MM_MOSIN_NAGANT_CLIP: null
+      STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP: null
+      STR_SHASHKA: Shashka
+      STR_SHASHKA_UFOPEDIA: ...
+      STR_MM_SHASHKA: MM Shashka
+      STR_MM_SHASHKA_UFOPEDIA: ...
+      STR_MM_DAGGER: MM Dagger
+      STR_MM_DAGGER_UFOPEDIA: ...
+      STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
+      STR_CARCANO_M91_CARBINE_CLIP: Carcano M91 Clip
+      STR_CARCANO_M91_CARBINE_CLIP_KMM: Carcano M91 K-MM Clip
+      STR_CARCANO_M91_CARBINE_UFOPEDIA:
+        Special version of the Carcano rifle, designed
+        for the Cavalry. Designed in 1890 by the team led by Army Engineer
+        Salvatore Carcano. Calibrated on the rimless 6.5x52 mm cartridge, it
+        does not have much stopping power or a particularly long range, but it
+        is a stable rifle and can shoot faster than most bolt-action weapons. It
+        is recommended for use at medium range, although it is also ideal for
+        close combat. It has an integrated folding bayonet that unfolds when
+        required. It is highly appreciated for its short size and light weight.
+      STR_BERETTA_MAB18: Beretta MAB14 SMG
+      STR_BERETTA_MAB18_MAG: Beretta MAB14 Magazine
+      STR_BERETTA_MAB18_MAG_KMM: Beretta MAB14 K-MM Magazine
+      STR_BERETTA_MAB18_UFOPEDIA:
+        The first SMG to enter service with the Italian
+        Royal Army and probably the first to be used en masse by a military
+        force, the Moschetto Automatico Beretta Modello 1914 has an impressive
+        firing rate of 900 RPM, capable of emptying its 25-rounds 9mm Glisenti
+        magazine in the blink of an eye. Its biggest problem is its biggest
+        advantage, since the high rate makes it a very imprecise weapon. In
+        addition, it loses stopping power quickly, so its use is recommended for
+        point-blank shooting at short distances. Includes a folding bayonet.
+      STR_CEI_RIGOTTI: Cei-Rigotti SLR
+      STR_CEI_RIGOTTI_CLIP: Cei-Rigotti Clips
+      STR_CEI_RIGOTTI_CLIP_KMM: Cei-Rigotti K-MM Clip
+      STR_CEI_RIGOTTI_UFOPEDIA:
+        Semi-automatic rifle of Italian origin designed by
+        Major Cei-Rigotti at the end of the 19th century. Physically it is
+        similar to the standard Carcano of the Regio Esercito although
+        internally it is considerably different. It has the peculiar option of
+        selective fire, which allows to select between semiauto and full auto
+        fire modes. It has a fixed magazine and is reloaded using stripper clips
+        of 5 bullets each one, caliber 6.5 Carcano.
+      STR_VILLAR_PEROSA: Villar-Perosa SMG
+      STR_VILLAR_PEROSA_MAGS: Villar-Perosa Magazines
+      STR_VILLAR_PEROSA_MAGS_KMM: Villar-Perosa K-MM Magazines
+      STR_VILLAR_PEROSA_UFOPEDIA:
+        Machine gun formed by joining two MAB14 Berettas and
+        modifying the trigger mechanism to operate both at the same time. This
+        was the original purpose of the weapon, in fact. A pistol grip and a
+        front grip were added to maximize the weapons handling. It has a
+        shooting rate almost doubled by the two barrels of the MAB14s, but a
+        considerably lower accuracy which is compensated to some extent by the
+        large amount of carried ammunition
+      STR_GEWEHR_M95: null
+      STR_GEWEHR_M95_CLIP: null
+      STR_GEWEHR_M95_UFOPEDIA: ...
+      STR_MADSEN_LMG: Madsen LMG
+      STR_MADSEN_LMG_MAG: Madsen LMG Mag
+      STR_MADSEN_LMG_MAG_KMM: Madsen LMG K-MM Mag
+      STR_MADSEN_MG_UFOPEDIA:
+        The Madsen is the first truly 'Light Machine Gun' in
+        military service, designed by by Norwegian war minister Vilhem Madsen in
+        1902. The LMG uses 7mm calibre rifle ammunition, with a curved
+        extractable 30 rounds magazine. It was designed emphasizing mobility
+        over fire cadence. Kneeling firing, using the integrated bipod,
+        considerably increases the accuracy and stability of the weapon.
+      STR_HELLRIEGEL: null
+      STR_HELLRIEGEL_CLIP: null
+      STR_HELLRIEGEL_UFOPEDIA: ...
+      STR_REMINGTON_MODEL_11: Browning Auto-5
+      STR_REMINGTON_MODEL_11_UFOPEDIA: null
+      STR_INERTIA_SHOTGUN: Sjögren Inertia Shotgun
+      STR_INERTIAL_SHOTGUN_CLIP: null
+      STR_INERTIA_SHOTGUN_UFOPEDIA: Semi-automatic shotgun designed by Swedish
+        inventor Carl Axel Theodor Sjögren, it features a special fire mechanism
+        where the recoil of the weapon lifts the shell from the internal
+        magazine into the barrel. Very reliable, it requires few maintenance and
+        could be operated in extreme conditions.
+      STR_ARISAKA_TYPE38: null
+      STR_ARISAKA_TYPE38_CLIP: null
+      STR_ARISAKA_TYPE38_UFOPEDIA: ...
+      STR_KYU_GUNTO: null
+      STR_KYU_GUNTO_UFOPEDIA: ...
+      STR_GENERAL_LIU: null
+      STR_GENERAL_LIU_CLIP: null
+      STR_GENERAL_LIU_UFOPEDIA: ...
+      STR_SHIN_GUNTO: null
+      STR_SHIN_GUNTO_UFOPEDIA: ...
+      STR_NAMBU: null
+      STR_NAMBU_CLIP: null
+      STR_NAMBU_UFOPEDIA: ...
+      STR_SABRE: Cavalry Sabre
+      STR_SABRE_UFOPEDIA:
+        Distinctive saber of officers and cavalry soldiers, employed
+        with ceremonial gallantry on the battlefield. It is a great melee
+        weapon, it has better range than more improvised weapons.
+      STR_MM_SABRE: Martian Metal Sabre
+      STR_MM_SABRE_UFOPEDIA: Distinctive saber of officers and cavalry soldiers,
+        employed with ceremonial gallantry on the battlefield. It is a great
+        melee weapon, it has better range than more improvised weapons.
+      STR_TRENCH_KNIFE: Trench Knife
+      STR_TRENCH_KNIFE_UFOPEDIA:
+        Knife adapted with an 'American fist' on its hilt,
+        can save the life of a soldier with rifle jammed. Fast and accurate.
+      STR_TRENCH_SHOVEL: Trench Shovel
+      STR_TRENCH_SHOVEL_UFOPEDIA:
+        Originally conceived to dig trenches, its original
+        purpose, some soldiers filan the edges of the shovel to use it as a
+        crude and rudimentary weapon of melee. The strength of the soldier has a
+        lot to do with the effectiveness of this weapon.
+      STR_SHOVEL: Shovel
+      STR_SHOVEL_UFOPEDIA:
+        Just a simple shovel, used to dig trenches. But it could be
+        used to break the head of a Martian too, ig used with enough strength!
+      STR_TRENCH_MACE: Trench Mace
+      STR_TRENCH_MACE_UFOPEDIA:
+        A wooden mallet adapted with various sharp objects
+        found in the trench, from spikes and nails to barbed wire. Brutal and
+        vicious.
+      STR_TRENCH_AXE: null
+      STR_TRENCH_AXE_UFOPEDIA: ...
+      STR_TRENCH_PICKAXE: null
+      STR_TRENCH_PICKAXE_UFOPEDIA: ...
+      STR_BOWIE_KNIFE: null
+      STR_BOWIE_KNIFE_UFOPEDIA: ...
+      STR_MEDIC_BONESAW: null
+      STR_MEDIC_BONESAW_UFOPEDIA: ...
+      STR_MEDICAL_SYRINGE: Medical Syringe
+      STR_MEDICAL_SYRINGE_UFOPEDIA: null
+      STR_MEDIKIT: Medikit
+      STR_MEDIKIT_UFOPEDIA:
+        Small portable bag, contains various medical materials to
+        stabilize wounded in battle. It includes analgesics, antibiotics, iodine
+        chlorido, castor oil and cutting forceps.
+      STR_SURGERY_KIT: Kit de cirugía de campaña
+      STR_SURGERY_KIT_UFOPEDIA:
+        Most complete version of the Medical Kit, includes
+        surgical instruments to remove pieces of shrapnel. You can load more
+        medicine for more injured.
+      STR_BANDAGES: Bandage
+      STR_BANDAGES_UFOPEDIA:
+        Sterile gauze bandages, used to stop bleeding quickly and
+        treat the wound, to receive better medical care.
+      STR_PAINKILLER: Painkiller
+      STR_PAINKILLER_UFOPEDIA:
+        Small morphine injection stored for use in a practical
+        cardboard box. Relieves the pain of the injured instantly.
+      STR_MAUSER_C96_CARBINE: Mauser C96/M14 Trench Carbine
+      STR_MAUSER_C96_CARBINE_UFOPEDIA: WIP
+      STR_MAUSER_C96_CARBINE_MAG: Mauser C96/M14 Mag
+      STR_MAUSER_C96_CARBINE_MAG_KMM: Mauser C96/M14 KMM Mag
+      STR_LUGER_P08: P08 Luger
+      STR_LUGER_P08_UFOPEDIA: null
+      STR_LUGER_P08_MAG: P08 Luger Mag
+      STR_LUGER_P08_MAG_KMM: P08 Luger K-MM Mag
+      STR_LUGER_ARTILLERY: P08 Artillery Luger
+      STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
+      STR_LUGER_ARTILLERY_DRUM_KMM: null
+      STR_LUGER_ARTILLERY_UFOPEDIA:
+        Modified version of the P08 Luger handgun, has a
+        handguard and a wooden stock added to increase accuracy and range.
+        Originally it was supplied to artillery battery soldiers as a personal
+        defense weapon. Use drum magazines to maximize its ammunition storage.
+      STR_MP18: MP-18 Bergmann SMG
+      STR_MP18_DRUM: MP-18 Drum
+      STR_MP18_DRUM_KMM: MP-18 K-MM Drum
+      STR_MP18_UFOPEDIA:
+        One of the best weapons in the human arsenal, designed to
+        provide maximum firepower at close range. It is light and easy to use,
+        as well as accurate in close combat. Its long-range use is not
+        recommended, it loses power easily. Share the design of its drum
+        magazine with the Artillery Luger.
+      STR_ANTITANK_GRENADE: Anti-Tank Grenade
+      STR_ANTITANK_GRENADE_UFOPEDIA: improvised anti-tank grenade made of stick
+        grenades bundled with wire and with their wicks together, they are
+        activated all at the same time. Very practical, used by the troops to
+        disable enemy armor.
+      STR_TRENCH_CLUB: Trench Club
+      STR_TRENCH_CLUB_UFOPEDIA:
+        A light club made of steel, with spikes added to its
+        tips to maximize damage. Very practical close quarters weapon.
+      STR_STICK_GRENADE: Stick Grenade
+      STR_STICK_GRENADE_UFOPEDIA:
+        Also known as 'Stielhandgrenade', this German-made
+        hand explosive has a fragmentary head at the tip and a small wooden tube
+        as a base. Its design allows it to be thrown very far.
+      STR_FRAG_GRENADE: Frag Grenade
+      STR_FRAG_GRENADE_UFOPEDIA:
+        Invented by William Mills, this fragmentation grenade
+        in the shape of a pineapple is very safe to use, it contains various
+        measures of safety to avoid accidental activation. Its explosion range
+        is moderate.
+      STR_DYNAMITE: Dynamite
+      STR_DYNAMITE_UFOPEDIA: Package of explosive tubes with a delay wick, very
+        powerful. It can be used to set traps for the enemy, because the wick
+        can be activated with delay.
+      STR_FLAMETHROWER: Flamethrower
+      STR_FLAMETHROWER_UFOPEDIA:
+        Our first model flame thrower is small, light and
+        portable enough to be carried by a single soldier. It throws its jet of
+        gasoline added with calystene (a highly flammable Martian mineral) into
+        an arc that makes it possible to overcome a few minor obstacles.
+        However, as the contents of the fuel can are consumed, the calystene
+        gases almost completely melt the weapon. It is recommended not to use it
+        completely, to reload the fuel in the base and not to lose the weapon.
+      STR_FLARE_GUN: Signal Pistol
+      STR_FLARE_ROUND: Signal Pistol Flare
+      STR_FLARE_GUN_UFOPEDIA: Handgun model Webley & Scott No. 1 Mk. III* Signal
+        Pistol. Used by reconnaissance units to mark positions for artillery
+        attacks, as well as to quickly illuminate an area in the dark. Its
+        ammunition is an incendiary flare that can cause light damage. Its
+        offensive use is not recommended, although it may serve as an emergency
+        weapon.
+      STR_GAS_GRENADE: Gas Grenade
+      STR_GAS_GRENADE_UFOPEDIA:
+        "American-made Mk.V CN grenade, designed to launch a
+        powerful gas of classified origin (although it is speculated that it
+        contains a mixture of Calystene and Tear Gas), which is particularly
+        effective in saturating an area and incapacitating entrenched enemies.
+        While its use is still debatable (due to its hypothetical use on humans
+        and its toxicity on the body), there is no doubt that it is effective
+        against the enemy. The gas directly attacks the affected individual's
+        nervous system. Field tests report that Greys are particularly affected
+        by this weapon."
+      STR_RIFLE_GRENADE: Rifle Grenade
+      STR_RIFLE_GRENADE_UFOPEDIA: A powerful explosive device meant to be launched from the barrel of any regular bolt-action rifle. In order to use, the soldier must remove the conventional rounds from the weapon and insert the Rifle Grenade in the barrel. Then, a blank cartridge is used to propel the grenade outside the rifle.
+      STR_HEAVY_GRENADE: Heavy Grenade
+      STR_HEAVY_GRENADE_UFOPEDIA:
+        Also known as 'Novitski Grenade', this large grenade
+        of Russian origin has a large amount of explosives within. Cumbersome to
+        throw, it packs a punch.
+      STR_HANDHELD_MORTAR: Handheld Mortar
+      STR_HANDHELD_MORTAR_UFOPEDIA:
+        The Likhonin mortar is a small, indirect fire
+        weapon. Small enough to fit a soldier's backpack, it could fire more
+        accurately if the user knees down.
+      STR_MORTAR_SHELL: Mortar Shell
+      STR_M1907_SL_CARBINE: Winchester M1907 SL Carbine
+      STR_M1907_SL_CARBINE_UFOPEDIA: Carbine variant of the self-loading rifle calibrated in .351SL. Used by several Coalition armies, it became prevalent thanks to its good handling and above average damage output.
+      STR_M1907_SL_CARBINE_MAG: M1907 SL Carbine Mag
+      STR_M1907_SL_CARBINE_MAG_KMM: M1907 SL Carbine K-MM Mag
+      STR_ANNIHILATOR_SMG: Annihilator SMG
+      STR_ANNIHILATOR_SMG_UFOPEDIA: Conceived by US Army General John Thompson as a powerful compact machine gun, its primary function is to deliver a hailstorm of lead in tight trenches, obliterating everything in its path. Well, it lives up its name after all.
+      STR_ANNIHILATOR_SMG_MAG: Annihilator Mag
+      STR_ANNIHILATOR_SMG_MAG_KMM: Annihilator K-MM Mag
+      STR_PHLOGISTON_HEAVY_RIFLE: Phlogiston Heavy Rifle
+      STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA: Wip
+      STR_PHLOGISTON_RUBY_CLIP: Phlogiston Ruby Rod Clip
+      STR_PHLOGISTON_BATTLE_RIFLE: Phlogiston Battle Rifle
+      STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA: WIP
+      STR_PHLOGISTON_MEDIUM_BATTERY: Phlogiston Medium Battery
+      STR_PHLOGISTON_AUTOMATIC_CARBINE: Phlogiston Automatic Carbine
+      STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA: One of the most successful applications of Phlogiston tech, the ruby rod chamber was mounted over the frame of a Winchester M1907 SL carbine, with the barrel adapted to fit the magnification lenses. A forward grip was added as reference. The result is a relatively light weapon with superior handling.
+      STR_PHLOGISTON_PISTOL: Phlogiston Pistol
+      STR_PHLOGISTON_PISTOL_UFOPEDIA: Built as a light and effective sidearm based around the ruby rod beam tech. After several tries, it was found the energy mechanisms fitted inside a large handgun like the Colt M1911. Subsequent models used the blueprints of the handgun as basis. The barrel slits gets illuminated once the battery charges the beam emitter.
+      STR_PHLOGISTON_SMALL_BATTERY: Phlogiston Small Battery
+
+      #STR_:
+      #STR_ _CLIP:
+      #STR_ _UFOPEDIA: ...
+      STR_BREAD: Bread
+      STR_BREAD_UFOPEDIA:
+        A piece of freshly baked bread, excellent for filling the
+        belly of a hungry soldier. It is surprising that it is kept hot for so
+        long, it is much appreciated by soldiers. It recovers energy and morale
+        in 25 points.
+      STR_ROTTEN_BREAD: Rotten Bread
+      STR_ROTTEN_BREAD_UFOPEDIA:
+        A piece of bread that has been exposed to the weather
+        so long that it has rotted. It can still be consumed by a hungry
+        soldier, recovering 20 points of energy, 10 points of morale, but
+        causing 6 points of damage when consuming the bread in bad condition.
+      STR_CANNED_BEEF: Corned Beef
+      STR_CANNED_BEEF_UFOPEDIA:
+        Corned beef is a salt-cured beef product. The term
+        comes from the treatment of the meat with large-grained rock salt, also
+        called "corns" of salt. Despite its taste, it is a popular alternative
+        to fresh meat, so scarce in wartime. Its canning prevents the contents
+        from spoiling. When consumed, the soldier recovers 30 units of energy
+        and 25 of morale.
+      STR_ROTTEN_CANNED_BEEF: Rotten Corned Beef
+      STR_ROTTEN_CANNED_BEEF_UFOPEDIA:
+        This is a Corned Beef can that has suffered
+        damage due to the passage of time. The previous user of this can has
+        opened it a little and its contents have been spoiled, but it is still a
+        little edible. By feeding on this, a soldier recovers 30 moral points,
+        25 energy points, but loses 15 health units, due to stomach discomfort
+        caused by this decomposing food.
+      STR_BISCUIT_BOX: Biscuit Box
+      STR_BISCUIT_BOX_UFOPEDIA:
+        A small bread roll baked with a flour base, the way it
+        is prepared varies from country to country. In this case, the packaged
+        biscuits are British style, small dry and crunchy biscuits. They are
+        perfect as a snack to alleviate hunger. The contents of this small box
+        recovers a hungry soldier 15 points of energy and 25 of morale.
+      STR_ROTTEN_BISCUIT_BOX: Rotten Biscuit Box
+      STR_ROTTEN_BISCUIT_BOX_UFOPEDIA:
+        The little biscuits in this box have long been
+        decomposed.  They have become leathery and very hard, but in times of
+        need, they can still be consumed.  By feeding on these muffins, a
+        soldier recovers 15 units of energy, 25 units of morale, but suffers 6
+        units of damage due to eating rotting food.
+      STR_WINE: Wine Bottle
+      STR_WINE_UFOPEDIA:
+        A truly excellent vintage, this wine, although not of the
+        best quality, is delicious. A necessary relief for the nightmares of the
+        battle front, when drinking a sip of this delicacy, the soldier recovers
+        30 units of energy, 100 of morale, but receives 15 units of damage by
+        stunning, due to the state of drunkenness that is generated when
+        ingesting alcoholic beverages.
+      STR_BROKEN_WINE_BOTTLE: Broken Wine Bottle
+      STR_BROKEN_WINE_BOTTLE_UFOPEDIA: It is hard to imagine how frustrating and
+        demoralizing it is for a soldier to find a broken bottle of a good wine.
+        Finding a quality aged wine is difficult in these dark days and this
+        bottle is no exception. The only thing left for the soldier who wields
+        this improvised weapon is to use all his anger against the invader,
+        causing impressive damage. Martians have so little respect for the fine
+        things in life...
+      STR_BROKEN_WINE_BOTTLE_RAGE: RAGE!
+      STR_TEA_FLASK: Tea Flask
+      STR_TEA_FLASK_UFOPEDIA:
+        A container with hot and mild tea. The taste of the tea
+        is not specified, although the texture is soft and fruity, it is
+        probably fig. A sip of this bottle will help calm the nerves of any
+        stressed soldier immediately, it recovers 10 points of Energy and 50 of
+        Moral.
+      STR_CHARGE: CHARGE!
+      STR_WHISTLE: Whistle
+      STR_WHISTLE_UFOPEDIA:
+        Small device designed to emit a loud, high-pitched sound.
+        It is used by officers to indicate an attack or an infantry charge. If
+        used directly on a soldier, increase the TUs by 20, courage by 10 and
+        reactions by 5, as a result of the morale rise. However, it can tire the
+        soldier who uses the whistle, because he loses his breath when using it
+        with all his strength.
+      STR_STIMPACK: Ah! That's the stuff!
+      STR_DEPLOY_MEDIKIT: Medikit!
+      STR_EAT: Eat!
+      STR_DRINK: Drink!
+      STR_PATCHING_WOUND: Patching!
+      STR_APPLY_PAINKILLER: Painkiller!
+
+      STR_TESLA_PROTOTYPE: "Tesla 'Thunder' Prototype"
+      STR_TESLA_PROTOTYPE_UFOPEDIA: "The very first successful application of
+        electrical weaponry made by Nikola Tesla. It's hard to classify this
+        piece of machinery, as it could fit a variety of roles. The Low Powered
+        shot consumes less Battery than other Electric weapons and the High
+        Powered shot greatly amplifies the damage output. The range and accuracy
+        are decent."
+      STR_TESLA_TRENCH_BROOM: "Tesla 'Hurricane' Trench Broom"
+      STR_TESLA_TRENCH_BROOM_UFOPEDIA: "A devastating Electric weapon meant to
+        maximize lethal damage at close range. A heavy coil and the removal of
+        the rails makes itn highly impredecible and powerful."
+      STR_TESLA_PISTOL: "Tesla 'Lightning' Pistol"
+      STR_TESLA_PISTOL_UFOPEDIA: null
+      STR_TESLA_SMG: "Tesla 'Typhoon' SMG"
+      STR_TESLA_SMG_UFOPEDIA: null
+      STR_TESLA_LIGHT_BATTERY: Tesla Light Battery
+      STR_TESLA_AUTOCANNON: "Tesla 'Hailstorm' Cannon"
+      STR_TESLA_AUTOCANNON_UFOPEDIA: null
+      ##########################################
+      STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
+      IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
+      STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA:
+        "{NEWLINE}{NEWLINE}{NEWLINE}Analyz\
+        ing the new type of metal from which weapons and enemy vehicles are
+        made, we have found that it is a very easy-to-plow ore if a large amount
+        of electricity is applied. Using this knowledge, we have adapted some
+        allied factories to begin reconditioning the metal plates we have found
+        to produce new weapons, armor and vehicles, based on prototypes.  To
+        facilitate our work, we have asked our allies to build weapons and sell
+        them to us. We must investigate the plans as soon as possible, to send
+        them to the armorers around the world."
+      STR_ADVANCED_FIREARMS: "Advanced Firearms"
+      ADVANCED_FIREARMS: "Advanced Firearms"
+      STR_ADVANCED_FIREARMS_UFOPEDIA: "We have sent the modified plans of the
+        prototypes we have found and our allies have at our disposal a batch of
+        new weapons. Each faction has supplied us with two weapons to equip both
+        its troops and ours. We trust that the bullets forged with the new
+        Entropium will be better at penetrating the armor of the Martians."
+      STR_GASMASKS: "Gasmasks"
+      GASMASKS: "Gasmasks"
+      STR_GASMASKS_UFOPEDIA:
+        "Martian enemies enjoy using chemical attacks against our
+        troops and civilians. The only way we can repel these attacks is by
+        means of rudimentary gas masks. They block vision, stun the user and
+        make it difficult to aim, but it's better than dying suffocated with
+        lungs full of black smoke."
+      STR_HUMAN_CHEMICAL_WEAPONS: "Human Chemical Weapons"
+      STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA:
+        "We've figured out a way to create our own
+        chemical weapons using Martian and native Earth materials. We believe
+        that the enemy has no resistance to our chemical weapons (just as we had
+        no resistance to their weapons), so we expect maximum effectiveness on
+        the battlefield. We warn that their application may affect our troops as
+        well, so use them with caution."
+      STR_KMM_BULLETS: K-MM Bullets
+      STR_KMM_BULLETS_UFOPEDIA:
+        The new bullets, forged entirely from the new Martian
+        Metal (called Entropium by scientists), have greater penetration
+        capacity than the armor used by the Martians. The new ore is melted and
+        forged again to form the core of the new armour-piercing rounds and more
+        powerful fulminations are added, creating the so-called 'K-MM bullets'.
+        Because Martian Metal is very meltable, bullets of various types can be
+        formed, from pistols to cannons, machine guns and rifles.
+
+
+
+############################
+####### Allied_NPCs #######
+##########################
+
+      STR_BRITISH_T1_RIFLEMAN_NPC: Commonwealth Rifleman T1
+      STR_BRITISH_T1_ASSAULT_NPC: Commonwealth Assault T1
+      STR_BRITISH_T1_SUPPORT_NPC: Commonwealth Support T1
+      STR_BRITISH_T1_RAIDER_NPC: Commonwealth Raider T1
+      STR_BRITISH_T1_OFFICER_NPC: Commonwealth Officer T1
+      STR_BRITISH_T2_RIFLEMAN_NPC: Commonwealth Rifleman T2
+      STR_BRITISH_T2_ASSAULT_NPC: Commonwealth Assault T2
+      STR_BRITISH_T2_SUPPORT_NPC: Commonwealth Support T2
+      STR_BRITISH_T2_OFFICER_NPC: Commonwealth Officer T2
+#
+      STR_AMERICAN_T1_RIFLEMAN_NPC: US Army Rifleman T1
+      STR_AMERICAN_T1_ASSAULT_NPC: US Army Assault T1
+      STR_AMERICAN_T1_SUPPORT_NPC: US Army Support T1
+      STR_AMERICAN_T1_RAIDER_NPC: US Army Raider T1
+      STR_AMERICAN_T1_OFFICER_NPC: US Army Officer T1
+      STR_AMERICAN_T2_RIFLEMAN_NPC: US Army Rifleman T2
+      STR_AMERICAN_T2_ASSAULT_NPC: US Army Assault T2
+      STR_AMERICAN_T2_SUPPORT_NPC: US Army Support T2
+      STR_AMERICAN_T2_OFFICER_NPC: US Army Officer T2
+#
+      STR_GERMAN_T1_RIFLEMAN_NPC: Deutsches Heer Rifleman T1
+      STR_GERMAN_T1_ASSAULT_NPC: Deutsches Heer Assault T1
+      STR_GERMAN_T1_SUPPORT_NPC: Deutsches Heer Support T1
+      STR_GERMAN_T1_RAIDER_NPC: Deutsches Heer Raider T1
+      STR_GERMAN_T1_OFFICER_NPC: Deutsches Heer Officer T1
+      STR_GERMAN_T2_RIFLEMAN_NPC: Deutsches Heer Rifleman T2
+      STR_GERMAN_T2_ASSAULT_NPC: Deutsches Heer Assault T2
+      STR_GERMAN_T2_SUPPORT_NPC: Deutsches Heer Support T2
+      STR_GERMAN_T2_OFFICER_NPC: Deutsches Heer Officer T2
+#
+      STR_PILOT_T1_NPC: Pilot T1
+      STR_PILOT_T2_NPC: Pilot T2
+#
+      STR_FRENCH_T1_RIFLEMAN_NPC: French Army Rifleman T1
+      STR_FRENCH_T1_ASSAULT_NPC: French Army Assault T1
+      STR_FRENCH_T1_SUPPORT_NPC: French Army Support T1
+      STR_FRENCH_T1_RAIDER_NPC: French Army Raider T1
+      STR_FRENCH_T1_OFFICER_NPC: French Army Officer T1
+      STR_FRENCH_T2_RIFLEMAN_NPC: French Army Rifleman T2
+      STR_FRENCH_T2_ASSAULT_NPC: French Army Assault T2
+      STR_FRENCH_T2_SUPPORT_NPC: French Army Support T2
+      STR_FRENCH_T2_OFFICER_NPC: French Army Officer T2
+#############################
+######## SOLDIERS ##########
+###########################
+      STR_AMERICAN_SOLDIER: American Soldier
+      STR_AMERICAN_SOLDIER_INTRODUCTION: The Doughboys
+      STR_AMERICAN_SOLDIER_UFOPEDIA: The American soldiers called "doughtboys" are intelligent, experts in guerrilla tactics. Since their country is divided in half by the Martians, they fight fiercely every battle. Each fallen enemy brings them a little closer to reuniting the country. Together with them they fight what remains of the Mexican Army, which also fights to liberate North America, as well as the guerrilla of Pancho Villa.
+      STR_AMERICAN_FIELD_UNIFORM_UC: US ARMY FIELD UNIFORM
+      STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA: Uniform olive green color, very characteristic of the new American army that fights against the Martians. Includes multiple cartridges to transport supplies or additional ammunition, as well as the same M12 Brodie helmet of the British, but in gray. The Mexicans also wear it, although Pancho Villa's guerrilla prefers a variant of the British uniform.
+      STR_AMERICAN_GASMASK_UC: US ARMY GAS MASK
+      STR_AMERICAN_GASMASK_UC_UFOPEDIA: Improved version of the British HLS Mk1 gas mask, with better visors that avoid clouding the eyes as much as other gas masks. Other than this, it is the same model used by the Commonwealth. Very important to avoid the lethal gases employed on the battlefront.
+
+      STR_BRITISH_SOLDIER: British Soldier
+      STR_BRITISH_SOLDIER_INTRODUCTION: The Tommies
+      STR_BRITISH_SOLDIER_UFOPEDIA: The Commonwealth soldiers, nicknamed "Tommies" by the rest of the Coalition soldiers, are strong and brave. Most of the soldiers are quite professional, hardened by the years of colonial wars and the First Martian Invasion.  More than half of the men in the Commonwealth troops are volunteers from their countries, very few are recruited. Unlike the continental leva armies, the Tommies are grouped into highly mobile Expeditionary Forces, with no more than 150,000 soldiers.
+      STR_BRITISH_FIELD_UNIFORM_UC: COMMONWEALTH FIELD UNIFORM
+      STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA: Modified version of the campaign uniform introduced in 1902, the standard uniform of the British and Commonwealth troops model M1912 includes a jacket and pants with different pockets and a Brodie M12 helmet, to protect from head injuries.
+      STR_BRITISH_GASMASK_UC: COMMONWEALTH GAS MASK
+      STR_BRITISH_GASMASK_UC_UFOPEDIA: Gas mask model Harrison, Lambert & Sadd HLS Mk1 of British design, is a great improvement to the antiquated model P Helmet used at the beginning of the war. It adapts better to the Brodie M12 helmet and does not depend on an external respirator to function.
+
+      STR_FRENCH_SOLDIER: French Soldier
+      STR_FRENCH_SOLDIER_INTRODUCTION: Le Poilu
+      STR_FRENCH_SOLDIER_UFOPEDIA: There is no soldier tougher, coarser and fiercer than a French soldier. Nicknamed 'Poilu', which means 'hairy' because of their abundant moustache or beard, they are experienced in hand to hand combat, using melee weapons when they run out of ammunition. Sometimes they are somewhat insubordinate and do not follow incompetent officers Their honour is very high, they literally fight to the last man for the glory of their homeland.
+      STR_FRENCH_FIELD_UNIFORM_UC: FRENCH ARMY FIELD UNIFORM
+      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: Trench Coat and Adrian Helmet introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure. It has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride.
+      STR_FRENCH_GASMASK_UC: FRENCH ARMY GAS MASK
+      STR_FRENCH_GASMASK_UC_UFOPEDIA: Gas mask modèle M1914, is a licensed version of the successful mask used by the troops of the German Imperial Army. It works exactly the same, which allows to exchange filters for masks, even full gasmasks, with their German brothers in arms. There are rumors that the Adrian M14 helmet has certain vision problems with this gas mask.
+
+      STR_GERMAN_SOLDIER: German Soldier
+      STR_GERMAN_SOLDIER_INTRODUCTION: The Jerry
+      STR_GERMAN_SOLDIER_UFOPEDIA: The brave and heroic soldiers of the Kaiser serve gallantly on the battlefield. One of Europe's largest armies is affectionately called 'Jerry,' derived from 'German'. They are one of the best snipers in the world, since Napoleonic times they have stood out for their precision and lethality. They have put aside their rivalry with the French to work alongside them.
+      STR_GERMAN_FIELD_UNIFORM_UC: GERMAN ARMY FIELD UNIFORM
+      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: Standard Field Combat Uniform, part of the equipment of the soldiers of the Deutsches Heer. Entering service in 1910, the feldgrau uniform replaced the colorful colorful uniforms of the Germanic states. In 1913 the iconic Pickelhaube was reemplaced for the grey Stalhlhelm, better protected and easier to manufacture.
+      STR_GERMAN_GASMASK_UC: GERMAN ARMY GAS MASK
+      STR_GERMAN_GASMASK_UC_UFOPEDIA: The Lederschutzmaske M1914 gas mask (leather protection mask) is probably one of the best designs to date. It went into action shortly before the last Martian offensive on the Marne and has been employed by numerous soldiers and civilians alike, from many nations. It protects well from toxic gases, although it obstructs the view and deafens the soldier.
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC: GERMAN ARMY TRENCH COAT
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: The wool coat used by the German Army is designed to keep troops warm at the front. It does not have any additional pockets, so it is used together with a belt and a backpack. This uniform includes the traditional Pickelhaube adorned with the German imperial eagle. Although it has no protection, it is worn with pride by the Kaiser's troops.
+
+      STR_ITALIAN_SOLDIER: Italian Soldier
+      STR_ITALIAN_SOLDIER_INTRODUCTION: The Daring Ones
+      STR_ITALIAN_SOLDIER_UFOPEDIA: Italy, until the beginning of the Great War, has been characterized as a predominantly agricultural and peaceful country. With the arrival of the Martians and the subsequent invasion of Europe, the Italian army has been mobilized. Despite being less equipped and smaller than other armies, it is more than compensated for by the incessant tenacity and courage of Italian soldiers, outstanding for their ingenuity in creating personal armor.
+      STR_ITALIAN_FIELD_UNIFORM_UC: ITALIAN ARMY FIELD UNIFORM
+      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments. It includes an Adrian helmet of French origin to protect the head.
+      STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
+      STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.
+
+      STR_PILOT: Pilot
+      STR_PILOT_INTRODUCTION: The Knights of the Sky
+      STR_PILOT_UFOPEDIA: The flight of the Wright brothers in 1905 and the Second Martian Invasion resulted in the full adoption of combat from the air and hundreds of volunteers enlisted in the newly formed military air forces. The knights of the air ride on their powerful air mounts of wood and cloth, defending the human skies.
+      STR_PILOT_UNIFORM_UC: PILOT JUMPSUIT
+      STR_PILOT_UNIFORM_UC_UFOPEDIA: Soft and confortable jump suit made of light cottom clothes, keeps the user warm at high-attitiude and prevents overheating inside landships and other ground vehicles. Includes a brand new parachute made in the USA, using a design of Stefan Banic. This allows the pilot to eject if it's vehicle becomes too damage to return base. Our war machine can reemplace a lost vehicle easily, not a veteran pilot.
+########################
+
+
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT: "THEY SHALL NOT PASS!"
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_BRIEFING: "..."
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME: "The Siege of Verdun"
+      STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT_DESCRIPTION: "Go immediately to defend Verdun. It is the only point in the Benelux Occupation Zone where the Martians can break our defenses. The British Black Watch Regiment and the 151st French Infantry Regiment are on their way to support our assault."
+
+      STR_CAMPAIGN_VERDUN_VOIE_SACREE: "Siege of Verdun, Voie Sacrée"
+      STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING: "The Martians have launched a strong attack on the Fortified Square of Verdun. Civilians are trapped in the camp near the village of Fleury-devant-Douaumont, right on the front line. We must first reconquer the Voie Sacrée from the hands of the Martians, to allow new allied reinforcements and supplies to reach the besieged city."
+
+      STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE: "Siege of Verdun, Fleury Village"
+      STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE_BRIEFING: "We have successfully broken the attack on the Voie Sacrée, our reinforcements are on their way. We have reached the centre of Fleury-devant-Douaumont, but the area is still full of civilians. Reports inform that Martian assault teams have managed to break through our defenses at some points on the front and have managed to sneak into Fleury. We must stop them to avoid a massacre."
+
+      STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT: "Siege of Verdun, Fort Doaumont"
+      STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT_BRIEFING: "Allied recon reports that the bulk of Martian forces have concentrated in front of Fort Doaumont for a final attack. Our British and French allies remain with us, we must resist the position for 10 turns, to give the Coalition army time to get to us and push Verdun's enemy once and for all. ON NE PASSE PAS!"
+
+      STR_ENVIRO_UNIT_UNDER_SIEGE: The morale of your besieged troops is getting low
+
+      STR_TURRET_GUIDE: How to deploy a Turret?
+      STR_TURRET_GUIDE_UFOPEDIA: Attention, soldier. Deploying a turret can be difficult at first. To use it, you need to kneel in front of the weapon and make a melee attack (using your bare hand, without holding a weapon). This is once per turn. To disassemble the turret, you need to use the Turret Wrench and make a melee attack. You can carry it and put it in another position. To reactivate it, you must use the ASSEMBLE attack using the Turret Wrench.
+#
+      STR_MAXIM_MG_TURRET: "Maxim MG Turret"
+      STR_MAXIM_MG_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE} Water cooled MG, useful to provide suppressive fire support to advancing troops. It's fixed mounting allows a continuous fire to be maintained without considerably affecting its accuracy."
+      STR_MAXIM_MG: "Maxim MG"
+      STR_MAXIM_MG_DRUM: "Maxim MG Ammo"
+      STR_MAXIM_MG_TURRET_ARMOR: "Fixed Maxim MG Emplacement"
+#
+      STR_TGEWEHR_TURRET: "T-Gewehr Anti-Tank"
+      STR_TGEWEHR_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE}  Heavy, powerful, difficult to handle. It is said that a soldier can make two shots with this weapon, one for each shoulder. Annihilates slightly armored targets with powerful 13.5mm TuF rounds."
+      STR_TGEWEHR: "T-Gewehr 13.5mm TuF"
+      STR_TGEWEHR_ROUND: "T-Gewehr Round"
+      STR_TGEWEHR_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
+#
+      STR_TURRET_INTERACTION_ITEM: "Turret Wrench"
+      STR_ASSEMBLE_TURRET: "Assemble"
+      STR_DISASSEMBLE_TURRET: "Disassemble"
+#########################
+      STR_INTRO_TGWOTW_1: "In the summer of 1896, an unexpected arrival of disturbing cylinders throughout England attracted the curiosity and fear of people. Once open, those cylinders gushed extraterrestrial beings and their machines of mass destruction."
+      STR_INTRO_TGWOTW_2: "In less than a month, the Martians wiped out all the British resistance. London fell and with it, the hope of stopping the invader. The rest of the world prepared for the worst."
+      STR_INTRO_TGWOTW_3: "In a twist of fate, the smallest beings on the planet annihilate the invader... the terrestrial bacteria. USA and France actively participate to rebuild London, leaving aside their old rivalry."
+      STR_INTRO_TGWOTW_4: "Humanity soon forgets what happened. On July 30, 1908, a huge explosion occurred in Tungunska, deep in Siberia. The Russian expedition sent to investigate never returns. The enemy has learned the lesson and the next two years, incontable cylinders fall far away from the human's sight."
+      STR_INTRO_TGWOTW_5: "On August 20, 1911, the Martians launch a general attack around the world. Humans are caught unprepared. In less than two years, half of the world belongs to them, corrupting the earth with their Red Weed."
+      STR_INTRO_TGWOTW_6: "1913. A series of desperate counterattacks manages to slow down part of the enemy's advance. Brave human soldiers perish defending the front, fighting to their last dying breath. The war of attrition slowly decimates the enemy, but the human casualities are counted by millions."
+      STR_INTRO_TGWOTW_7: "What remains of the humanity united under the banner of the Coalition of Nations and have gone on the offensive. Your unit is one of elite, formed with the best that the armies of the world have, the International Expeditionary Force. The year is 1914. This is the War to End All Wars. TOGETHER WE STAND"
+
+#####################################33
+      STR_FRONTLINES_VERDUN_FORT_VAUX: "FRONTLINES: Verdun, Defense of Fort Vaux"
+      STR_FRONTLINES_VERDUN_FORT_VAUX_TERRAIN: "Trenches outside Fort Vaux"
+      STR_FRONTLINES_VERDUN_FORT_VAUX_BRIEFING: "1916. German forces have besieged the fortress of Verdun. Fort Douaumont has fallen and now the enemy assaults Fort Vaux. Our company was assigned to defend the trenches in the frontline of Vaux. General Nivelle has given the order 'They shall not pass!' And we will make the Germans pay dearly for their daring."
+      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT: "FRONTLINES: Assault on Fleury-devant-Douaumont Village"
+      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_TERRAIN: "Small town near Verdun"
+      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BRIEFING: "1916. The siege of Verdun is proving more successful than expected. The High Command has ordered our platoon to capture the important village of Fleury-devant-Douamont, near the line of fortresses of Verdun. We have recaptured the position of French hands many times, this time it will be the definitive one."
+      STR_FRONTLINES_MEUSE_ARGONNE: "FRONTLINES: Meuse-Argonne Offensive"
+      STR_FRONTLINES_MEUSE_ARGONNE_TERRAIN: "Railroad in the Argonne Forest"
+      STR_FRONTLINES_MEUSE_ARGONNE_BRIEFING: "1918. It is the Hundred Days Offensive and the US Army will finally participate in operations on the Western Front. Our squadron will attack a German position near the Hinderburg Line deep in the Argonne forest. Strong opposition is expected. It is time to end the German menance once and for all!"
+#
+      STR_GERMAN_ARMY: "German Army"
+      STR_GERMAN_ARMY_OFFICER: "German Army Officer"
+      STR_GERMAN_ARMY_SUPPORT: "German Army Support"
+      STR_GERMAN_ARMY_MEDIC: "German Army Medic"
+      STR_GERMAN_ARMY_ASSAULT: "German Army Assault"
+      STR_GERMAN_ARMY_RIFLEMAN: "German Army Rifleman"
+      STR_GERMAN_ARMY_RAIDER: "German Army Raider"
+      STR_GERMAN_ARMY_FLAME_TROOPER: "German Army Flame Trooper"
+#
+      STR_FRENCH_ARMY: "French Army"
+      STR_FRENCH_ARMY_OFFICER: "French Army Officer"
+      STR_FRENCH_ARMY_SUPPORT: "French Army Support"
+      STR_FRENCH_ARMY_MEDIC: "French Army Medic"
+      STR_FRENCH_ARMY_ASSAULT: "French Army Assault"
+      STR_FRENCH_ARMY_RIFLEMAN: "French Army Rifleman"
+      STR_FRENCH_ARMY_RAIDER: "French Army Raider"
+      STR_FRENCH_ARMY_FLAME_TROOPER: "French Army Flame Trooper"
+
+
+####################################
+####### EVENT DESCRIPTIONS ########
+##################################
+
+      STR_CIVILIAN_AIRSHIP_DOWN_EVENT: "Civilian airship shot down in {0}"
+      STR_CIVILIAN_AIRSHIP_DOWN_DESCRIPTION: "A civilian airship ferring passengers and supplies exploded in mysterious circumstances as it approached its destination in {0}. The human and material losses are substantial. The local government ordered increased escorts for civilian airships to avoid another tragedy."
+      STR_MILITARY_AIRSHIP_DOWN_EVENT: "Military airship shot down"
+      STR_MILITARY_AIRSHIP_DOWN_DESCRIPTION: "On a patrol near the front lines, a swarm of Martian Flying Machines ambushed an allied airship in {0}. Despite the valiant efforts of the crew, the airship could not resist any longer and was shot down. The Navy mourns the loss of the crew and the ship."
+      STR_FACTORY_MALFUNCTION_EVENT: "Factory disaster in {0}"
+      STR_FACTORY_MALFUNCTION_DESCRIPTION: "Local authority reports that an accident has occurred in a major industry in the region, paralyzing production for an undetermined time. The origins of the incident are unknown, although enemy agents are suspected."
+      STR_SUCCESSFUL_TROOP_ADVANCE_EVENT: "Troop advance on the front line"
+      STR_SUCCESSFUL_TROOP_ADVANCE_DESCRIPTION: "A new offensive in {0} has been launched in the enemy occupied sectors. Several casualties are reported among the allied units, but it is confirmed that the enemy retreated and abandoned the position. Reinforcements have been deployed to the position."
+      STR_WAR_TROPHIES_EVENT: "War trophies recovered"
+      STR_WAR_TROPHIES_DESCRIPTION: "After a successful skirmish in {0}, Allied troops have recovered the fragments of a Martian Machine, as a war trophy. The Allied High Command in the area has forwarded the finding to our base for study."
+      STR_MECHANIZED_SKIRMISH_EVENT: "Mechanized skirmish in {0}"
+      STR_MECHANIZED_SKIRMISH_DESCRIPTION: "Early this morning, a column of mechanized units consisting of tanks and infantry managed to ambush a group of Martian infantry, inflicting heavy casualties. There are reports of some wounded allies and few tank losses."
+      STR_SUCCESSFUL_BOMBING_RUN_EVENT: "Allied bomber successful!"
+      STR_SUCCESSFUL_BOMBING_RUN_DESCRIPTION: "Our heavy bombers, accompanied by fighter escorts, have devastated a key Martian Fortress for the enemy's war effort located at {0}. Light casualties are reported in the squadron in charge of the mission. It is hoped that this will help disable the Martian war effort in the region."
+      STR_SUPPLY_SURPLUS_EVENT: "Surplus supplies"
+      STR_SUPPLY_SURPLUS_DESCRIPTION: "A supply caravan advancing towards the front line has stopped at our base to refuel and has left us some surplus supplies. Our troops are grateful for the extra rations and medicine!"
+      STR_FIELD_KITCHEN_EVENT: "Field kitchen supplies us"
+      STR_FIELD_KITCHEN_DESCRIPTION: "An Allied battalion passing near our headquarters included a field kitchen. They stopped in front of our base and the field kitchen distributed freshly prepared food to our troops. There is no better boost to army morale than a hot meal."
+
+###########################
+      NIMBLE_FIGHTER: Nimble Fighter
+      NIMBLE_FIGHTER_UFOPEDIA: Small and fast interceptor fighter, is a very difficult target to shoot down. However, its armour and shields are limited by its size, making it a fragile target. They are often used in large numbers to establish air supremacy in a war zone.
+      TRANSPORT_BARGE: Transport Barge
+      TRANSPORT_BARGE_UFOPEDIA: One of the most abundant ships in the fleet, it is used in a variety of missions. It is poorly armed, only has point defense cannons, but its armor is formidable. It is usually escorted by ships better prepared for combat.
+      BLOCKADE_RUNNER: Blockade Runner
+      BLOCKADE_RUNNER_UFOPEDIA: Ultra fast and maneuverable ship, designed to break blockades and supply garrisons and fortresses under siege. Because of its slim silhouette is very difficult to track and shoot, uses stealth to complete their objectives.
+      SUPPORT_BOAT: Support Boat
+      SUPPORT_BOAT_UFOPEDIA: This ship is widely used for various tasks, from supplying bases to building fortresses. It has a large team of engineers and a large armor to resist enemy fire in battle zones. It is very slow and its weapons are very weak.
+      FRIGATE: Frigate
+      FRIGATE_UFOPEDIA: One of the most powerful and feared ships in the enemy fleet, has high-powered cannons and long range, but slow firing. It has additional shields and armor that gives it unprecedented resistance. It is the alien equivalent of our Battleships.
+      DESTROYER: Destroyer
+      DESTROYER_UFOPEDIA: This combat vessel is equipped with excellent short range AA cannons. Its function in the fleet is to provide anti-aircraft support and deter hostile fighters from approaching slower and less armed ships.
+      CRUISER: Cruiser
+      CRUISER_UFOPEDIA: A better armored version of the Frigate, it is used as the flagship of enemy fleets. Its extended hull allows to add another high-powered cannon, as well as more armor. It usually represents the most important ship in a battle group, leading the assault or retreat.
+###########################
+      STR_SELENITE_FIGHTER: Selenite Fighter Craft
+      STR_SELENITE_FIGHTER_UFOPEDIA: Very small, agile and fast fighter ship, similar in functions to our interceptors. Employee to establish aerial supremacy. Uses light, fast-firing heat rays.
+      STR_SELENITE_GUNSHIP: Selenite Gunship Craft
+      STR_SELENITE_GUNSHIP_UFOPEDIA: Fighter/bomber, used as ground support ship. The invaders use it as an escort for combat groups and to bombard human positions. Their weapons are slower than those of the Fighter, but more powerful.
+      STR_SELENITE_TRANSPORT: Selenite Transport Craft
+      STR_SELENITE_TRANSPORT_UFOPEDIA: Troop transport plane, used to move assault teams from one place to another quickly. It is equipped with what we believe are short range anti-aircraft turrets. It has quite resistant shields, it is not easy to shoot them down.
+############################
+      STR_MARTIAN_ASSAULT_WALKER: Martian Assault Walker
+      STR_MARTIAN_ASSAULT_WALKER_UFOPEDIA: Alien vehicle specialized in incursions and urban combat. Quite agile and with light weapons, it can put human units in trouble.
+      STR_MARTIAN_BATTLE_WALKER: Martian Battle Walker
+      STR_MARTIAN_BATTLE_WALKER_UFOPEDIA: This is the main alien walker. It has been present since the beginning of the war and represents the majority of the enemy forces. It is balanced in regards to armor and armament, Equal deadly and strong.
+      STR_MARTIAN_SIEGE_WALKER: Martian Siege Walker
+      STR_MARTIAN_SIEGE_WALKER_UFOPEDIA: Powerful siege tripod, designed to besiege cities and human strengths. It has Heat Ray Heavy Projectors, very long range, but with very slow recharge. Inside it carries a large contingent of Martian troops. Very difficult to destroy.
+      STR_MARTIAN_HARVESTER_WALKER: Martian Harvester Walker
+      STR_MARTIAN_HARVESTER_WALKER_UFOPEDIA: Terrible Martian scientific machine. Used exclusively in human harvest missions and scientific exploration, it uses tractor beams to abduct its victims. Large, well armored, but not so well armed.
+      STR_MARTIAN_OVERLORD_WALKER: Martian Overlord Walker
+      STR_MARTIAN_OVERLORD_WALKER_UFOPEDIA: The most powerful beast ever created in the Martian arsenal. It functions as a mobile command center, leads sieges and incursions into human zones. Highly armed and armored. Extremely dangerous.
+      STR_MARTIAN_RECON_WALKER: Martian Recon Walker Squad
+      STR_MARTIAN_RECON_WALKER_UFOPEDIA: Brigade of three Walkers employed to recon the target area and give light support to the troops. These were the enemies that assaulted London in the first Martian invasion. Very fast and lethal, although they are the enemy's weakest walkers.
+
+      STR_FLOATER: "Mixed Martian Platoon"
+      STR_SECTOID: "Martian Conscript"
+      STR_SECTOIDS: "Martian Conscript Platoon"
+      SECTOID_ARMOR0: "Martian Conscript Skin"
+      STR_MARTIAN_LINE_INFANTRY: "Martian Line Infantry"
+      STR_MARTIAN_LINE_INFANTRIES: "Martian Line Infantry Platoon"
+      STR_MARTIAN_LINE_INFANTRY_ARMOR: "Martian Line Infantry Battle-Caparace"
+      STR_MARTIAN_LINE_INFANTRY_CORPSE: "Martian Line Infantry Corpse"
+      STR_MARTIAN_MARINE: "Martian Marine"
+      STR_MARTIAN_MARINES: "Martian Marines Team"
+      STR_MARTIAN_MARINE_ARMOR: "Martian Marine Battle-Caparace"
+      STR_MARTIAN_MARINE_CORPSE: "Martian Marine Corpse"
+      STR_MARTIAN_SHOCK_GUARD: "Martian Shock Guard"
+      STR_MARTIAN_SHOCK_GUARDS: "Martian Shock Guard Team"
+      STR_MARTIAN_SHOCK_GUARD_ARMOR: "Martian Shock Guard Battle-Caparace"
+      STR_MARTIAN_SHOCK_GUARD_CORPSE: "Martian Shock Guard Corpse"
+      STR_MARTIAN_SKIRMISHER: "Martian Skirmisher"
+      STR_MARTIAN_SKIRMISHERS: "Martian Skirmisher Formation"
+      STR_MARTIAN_SKIRMISHER_ARMOR: "Martian Skirmisher Body Suit"
+      STR_MARTIAN_SKIRMISHER_CORPSE: "Martian Skirmisher Corpse"
+      STR_MARTIAN_SCIENCE_TEAM: "Martian Science Team"
+      STR_MARTIAN_SCIENTIST: "Martian Scientist"
+      STR_MARTIAN_SCIENTIST_ARMOR: "Martian Scientist Body Suit"
+      STR_MARTIAN_SCIENTIST_CORPSE: "Martian Scientist Corpse"
+      STR_MARTIAN_ROYAL_GUARD: "Martian Royal Guard"
+      STR_MARTIAN_ROYAL_GUARDS: "Martian Royal Guard Formation"
+      STR_MARTIAN_ROYAL_GUARD_CORPSE: "Martian Royal Guard Corpse"
+      STR_MARTIAN_ROYAL_POWER_ARMOR: "Martian Royal Guard Battle-Caparace"
+      STR_CEREBREAL: "Overseer"
+      STR_CEREBREAL_COMMANDER: "Overseer Commander"
+      STR_CEREBREAL_UFOPAEDIA: "..."
+      CEREBREAL_ARMOR: "Overseer Skin"
+
+      STR_MARTIAN_CAMP: "Martian Camp"
+      STR_MARTIAN_CAMP_UFOPEDIA: "These camps serve the same function as ours: to house a group of troops as they march towards their target. They are easy to assemble and dismantle, although they can withstand bullets and light projectiles."
+      STR_MARTIAN_OUTPOST: "Martian Outpost"
+      STR_MARTIAN_OUTPOST_UFOPEDIA: "This outpost is a small base set up to monitor the movement of humans and spy on them. It also serves to protect and warn the most important installations in the event of an attack. It has a small garrison."
+      STR_MARTIAN_TROOP_BARRACKS: "Martian Troop Barracks" # Troop Facility
+      STR_MARTIAN_TROOP_BARRACKS_UFOPEDIA: "This fortress houses a large number of soldiers, has 4 defensive AA cannons, an armory, infirmary and a strong armor. It is usually the most abundant Martian facility, used to guard large portions of land and deploy assault groups, as well as secure key positions."
+      STR_MARTIAN_HARVEST_FACILITY: "Martian Harvesting Facility"
+      STR_MARTIAN_HARVEST_FACILITY_UFOPEDIA: "A sinister Martian facility used to dissect living beings, such as animals and humans, to create food and conduct research on terrestrial species. All abducted humans end up in one way or another in centers like these"
+      STR_MARTIAN_WATCHTOWER: "Martian Watchtower"
+      STR_MARTIAN_WATCHTOWER_UFOPEDIA: "An important bastion, used both to defend important sectors and to dissuade human troops from launching offensives in Martian territory. Its anti-aircraft batteries are quite powerful, capable of destroying human planes over long distances."
+      STR_MARTIAN_HIGH_COMMAND: "Martian High Command" # Alien High Command
+      STR_MARTIAN_HIGH_COMMAND_UFOPEDIA: "The brain of the Martian operation on land, from here are coordinated various attacks and offensives against human targets. The highest leaders of the enemy take refuge in these gigantic structures, with hundreds of soldiers. Their anti-aircraft batteries are quite efficient and their armour is extremely hard."
+      STR_MARTIAN_SUPPLY_DEPOT: "Martian Supply Depot" # Storage Facility
+      STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA: "A support facility, the purpose of which is to store the various war materials, such as weaponry, food, supplies and tools necessary for the enemy's total war machine. They are extremely hard, but they are poorly armed."
+      STR_MARTIAN_CLONE_LAB: "Martian Clone Lab" # Cloning Lab
+      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones to generate more food for their ranks and make replacement limbs for their wounded."
+      STR_MARTIAN_REDOUBT: "Martian Redoubt"
+      STR_MARTIAN_REDOUBT_UFOPEDIA: "The supreme Martian fortress. The existence of these gigantic facilities can only mean that the enemy is prepared for a total siege. They have the best anti-aircraft weapons, the best shields and armour and an enormous number of military and scientific personnel. Assaulting a Redoubt can be a hard blow for the Martians, but it is an almost suicidal mission."
+
+      STR_HEATRAY_RESEARCH: Heat-Ray Full Research
+      STR_HEATRAY_RIFLE: Heat-Ray Rifle
+      STR_HEATRAY_RIFLE_BATTERY_PHOTON: Heat-Ray Rifle Photon Battery
+      STR_HEATRAY_RIFLE_BATTERY_MICROWAVE: Heat-Ray Rifle Microwave Battery
+      STR_HEATRAY_CARBINE: Heat-Ray Carbine
+      STR_HEATRAY_CARBINE_BATTERY_PHOTON: Heat-Ray Carbine Photon Battery
+      STR_HEATRAY_CARBINE_BATTERY_MICROWAVE: Heat-Ray Carbine Microwave Battery
+      STR_HEATRAY_PISTOL: Heat-Ray Pistol
+      STR_HEATRAY_PISTOL_BATTERY_PHOTON: Heat-Ray Pistol Photon Battery
+      STR_HEATRAY_PISTOL_BATTERY_MICROWAVE: Heat-Ray Pistol Microwave Battery
+      STR_HEATRAY_CANNON: Heat-Ray Hand Cannon
+      STR_HEATRAY_CANNON_BATTERY_PHOTON: Heat-Ray HC Photon Battery
+      STR_HEATRAY_CANNON_BATTERY_MICROWAVE: Heat-Ray HC Microwave Battery
+      STR_HEATRAY_SNIPER: Heat-Ray Sniper
+      STR_HEATRAY_SNIPER_BATTERY_PHOTON: Heat-Ray Sniper Photon Battery
+      STR_HEATRAY_SNIPER_BATTERY_MICROWAVE: Heat-Ray Sniper Microwave Battery
+      STR_MARTIAN_LAUNCHER: Martian Launcher
+      STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP: Launcher Black Smoke Clip
+      STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP: Launcher Concussion Clip
+      STR_MARTIAN_ROCK_THROWER: "Martian Rock Thrower"
+      STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3: "Calystene Mineral Flask x3"
+      STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3: "Gas Capsule Flask x3"
+      STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3: "Acid Capsule Flask x3"
+      STR_MARTIAN_BLADE: Martian Blade
+      STR_MARTIAN_BLADE_UFOPEDIA: "The Martian Blade is an unique melee energy weapon used by elite troopers. It seems each blade is handmade and belongs to a family, passed from warrior to warrior. Powerful and brutal."
+      STR_HEATRAY_WEAPONS_ANALYSIS: Heat-Ray Weapons Research
+      STR_RED_WEED_RESEARCH: Red Weed Research
+      STR_CHEMICAL_WARFARE_RESEARCH: Martian Chemical Warfare Research
+      STR_HEATRAY_RESEARCH_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}Since the first appearance of the Tripods on English soil, humanity has been attracted and horrified by the main war weapon of the invaders. They use a Tungunskium-115 crystal as a catalyst for an infrared ray that projects a powerful beam of light at more than 1500 degrees centigrade. We have analyzed these weapons carefully and are quite useless without the powerful crystal, basically a gas lamp with alien batteries."
+      STR_HEATRAY_WEAPONS_ANALYSIS_UFOPEDIA: The enemy armament evolved from the first invasion. Now they have designed and used smaller weapons and use them massively. Considerably weaker than those used by Fighting Machines, they are still very lethal for unprotected humans. Our scientist confirmed that handguns are simply impossible to replicate or use by our soldiers. We can sell them to our allies to try to recycle their components.
+      STR_RED_WEED_RESEARCH_UFOPEDIA: "The martian indigenous crop, better known as 'Red Weed' is a highly invasive root species, capable of covering all types of terrestrial terrain with relative ease. This generates the perfect habit for the Martians, which suggests that they are terraforming our planet to make it more like Mars. It seems that the blood of mammals serves as fertilizer for this ominous plant. It is said to give off a highly fetid stench, similar to decaying cattle."
+      STR_CHEMICAL_WARFARE_RESEARCH_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}The chemical weaponry has been used since the First Martian Invasion in 1898 in the form of the Black Smoke. In this war it has also been used with ferocity, decimating our armies and cities. A detailed analysis of the chemical containers of the Martians reveal a mixture of Tungunskium-115 powder with what appears to be dehydrated Red Weed, which gives it its dark color. It is the maximum weapon of enemy siege, although we can investigate the way to use it against them."
+      STR_HEATRAY_RIFLE_UFOPEDIA: The Heat-Ray Rifle fires an intense infrared beam and uses a large and heavy Tungunskium battery. This weapon has a limited shot capacity, so this weapon needs to be reloaded often. It is balanced in terms of damage, range and accuracy. Based on our analysis, the extended use of this weapon without proper maintaining may damage the internal components and explode in the hands of it's operators.
+      STR_HEATRAY_CARBINE_UFOPEDIA: Smaller version of the Heat-Ray Rifle, this weapon is more like an human Carbine, although it is light enough to be used with one hand. Best used by the enemy at close range. It's batery has the larger energy capacity of all of the Martian hand weapons.
+      STR_HEATRAY_PISTOL_UFOPEDIA: Short handgun made by the Martians, it is often used as a support weapon, but some troops seems to have a preference on its use. It uses a large battery with many energy capacity and it is light enough to be used with just one hand.
+      STR_HEATRAY_CANNON_UFOPEDIA: This Heat-Ray Hand Cannon is used as a heavy weapon for the Martian infantry. Sufficiently powerful to melt several layers of steel with a concentrated beam at medium-short range. We believe that the batteries of these weapons last a short time.
+      STR_HEATRAY_SNIPER_UFOPEDIA: The Heat-Ray Sniper is the most powerful portable weapon in the arsenal of the invader infantry. Maybe it is not as powerful as the Hand Cannon, but it has much more accuracy and effective range. The sight seems to be synchronized with the eyes of the Martian soldiers, it is useless to try to look through it.
+      STR_MARTIAN_LAUNCHER_UFOPEDIA: Powerful grenade launcher type weapon, used by the Martians to provoke fear and loathing between the humans, civilians and soldiers alike. The Black Smoke grenade, used in the First Invasion, suffocates and chokes a human when enters the respiratoy system, slowly rendering inmobile, but it's spread is low. The technology of this weapon seems to be different from that of the rest of the Martian weapons, perhaps of a design of another extraterrestrial race.
+      STR_MARTIAN_ROCK_THROWER_UFOPEDIA: "This interesting weapon looks more like a tool than a weapon. It has 3 barrels in vertical position, connected to 3 flasks with 3 small projectiles inside. It seems that each projectile exits at the same time through each barrel. It works similar to a human shotgun, with projectiles from a mineral that burns quickly with oxygen called Calystene, in honor of its discoverer. It also has small capsules of toxic sleeping pill gas and an acidic material that melts organic tissue. It seems that this tool is designed to cleanse from flora and fauna on their newly reclamed land"
+#################################
+######### VEHICLES #############
+###############################
+
+      STR_CONQUEROR: CONQUEROR
+      STR_CONQUEROR_UFOPEDIA: LARGE LANDSHIP ADAPTED TO COMBAT IN DIFFICULT TERRAIN, WITH TROOP TRANSPORT CAPACITY. EQUIPPED WITH A 20MM AUTOMATIC CANNON TO PROVIDE FIRE SUPPORT TO THE INFANTRY
+      STR_CONQUEROR_TURRET: 20mm Conqueror AC
+      STR_SPAD: SPAD XIII
+      STR_SPAD_UFOPEDIA: NIMBLE BIPLANE AIRCRAFT, VERY POPULAR IN THE COALITION AIR FORCE. IT'S USED BY MANY FIGHTER ACES. IS RATHER SLOW, BUT CAN PERFORM ANY MISSION OF AIR SUPREMACY OR CLOSE AIR SUPPORT.
+      STR_RCLASS_AIRSHIP: R-CLASS AIRSHIP
+      STR_RCLASS_AIRSHIP_UFOPEDIA: POWERFUL WAR AIRSHIP, THE LARGEST IN THE GERMAN NAVY. POSESES MULTIPLE TURRET HARDPOINTS, ADAPTABLE TO ANY MISSION. CAN CARRY A COMBINATION OF CANNONS AND MG.
+      STR_TWIN_HMG: Twin HMG
+      STR_TWIN_HMG_UFOPEDIA: DUAL MOUNTED AIR-COOLED SPANDAU IMG-08 MACHINE GUNS, FEATURES A VERY HIGH RATE OF FIRE, ALTHOUGH THE AMMO USED IS RATHER WEAK.
+      STR_TWIN_HMG_LAUNCHER: Twin HMG
+      STR_TWIN_HMG_ROUNDS_X50: Twin HMG Rounds (x50)
+      STR_AUTOCANNON: 20mm Autocannon
+      STR_AUTOCANNON_UFOPEDIA: TWIN AUTOMATIC CANNONS, IT'S 20MM AMMUNATION CAN PENETRATE THICK LAYERS OF STEEL. USEFUL AGAINST LIGHTLY ARMORED ENEMIES.
+      STR_AUTOCANNON_LAUNCHER: 20mm Autocannon
+      STR_AUTOCANNON_ROUNDS_X50: 20MM Autocannon Rounds (x50)
+      STR_QF_1_PDR_POMPOM: QF 1-pdr 'Pom Pom'
+      STR_QF_1_PDR_POMPOM_UFOPEDIA: RELIABLE ANTI-AIR GUN, COULD BE FOUND MOUNTED EVERYWHERE, FROM AIRCRAFTS TO GUN EMPLACEMENTS AND WARSHIPS. FIRES SPECIAL SHARPNEL ROUNDS.
+      STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
+      STR_QF_1_PDR_POMPOM_X30: QF 1-pdr Shells (x30)
+      STR_FRAGMENTATION_BOMB: Frag Bombs
+      STR_FRAGMENTATION_BOMB_UFOPEDIA: FREE FALL 10 KG FRAGMENTATION BOMB. BASICALLY A BIGGER GRENADE, CAN SHRED LIGHT ARMOR.
+      STR_FRAGMENTATION_BOMB_LAUNCHER: Fragmentation Bombs
+      STR_FRAGMENTATION_BOMB_X3: Fragmentation Bomb Rack (x3)
+      STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
+      STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
+      STR_CRAFT_MACHINE_GUN_THREE: "MACHINE GUN-3>{ALT}{0}"
+      STR_CRAFT_MACHINE_GUN_FOUR: "MACHINE GUN-4>{ALT}{0}"
+      STR_CRAFT_CANNON_ONE: "LIGHT CANNON-1>{ALT}{0}"
+      STR_CRAFT_CANNON_TWO: "LIGHT CANNON-2>{ALT}{0}"
+      STR_CRAFT_CANNON_THREE: "LIGHT CANNON-3>{ALT}{0}"
+      STR_CRAFT_CANNON_FOUR: "LIGHT CANNON-4>{ALT}{0}"
+      STR_CRAFT_ARTILLERY_ONE: "ARTILLERY-1>{ALT}{0}"
+      STR_CRAFT_ARTILLERY_TWO: "ARTILLERY-2>{ALT}{0}"
+      STR_CRAFT_ARTILLERY_THREE: "ARTILLERY-3>{ALT}{0}"
+      STR_CRAFT_ARTILLERY_FOUR: "ARTILLERY-4>{ALT}{0}"
+      STR_CRAFT_ROCKET_ONE: "ROCKET-1>{ALT}{0}"
+      STR_CRAFT_ROCKET_TWO: "ROCKET-2>{ALT}{0}"
+      STR_CRAFT_ROCKET_THREE: "ROCKET-3>{{ALT}{0}"
+      STR_CRAFT_ROCKET_FOUR: "ROCKET-4>{ALT}{0}"
+      STR_CRAFT_BOMB_ONE: "BOMBS-1>{ALT}{0}"
+      STR_CRAFT_BOMB_TWO: "BOMBS-2>{ALT}{0}"
+      STR_CRAFT_BOMB_THREE: "BOMBS-3>{{ALT}{0}"
+      STR_CRAFT_BOMB_FOUR: "BOMBS-4>{ALT}{0}"
+      STR_CRAFT_AUX_ONE: "AUX-1>{ALT}{0}"
+      STR_CRAFT_AUX_TWO: "AUX-2>{ALT}{0}"
+      STR_CRAFT_AUX_THREE: "AUX-3>{ALT}{0}"
+      STR_CRAFT_AUX_FOUR: "AUX-4>{ALT}{0}"

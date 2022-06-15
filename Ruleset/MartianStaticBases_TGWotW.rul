@@ -267,29 +267,6 @@ extraSprites:
     height: 102
     files:
       0: Resources/Pyramids/Test.gif
-extraStrings:
-  - type: en-US
-    strings:
-      STR_MARTIAN_CAMP: "Martian Camp"
-      STR_MARTIAN_CAMP_UFOPEDIA: "These camps serve the same function as ours: to house a group of troops as they march towards their target. They are easy to assemble and dismantle, although they can withstand bullets and light projectiles."
-      STR_MARTIAN_OUTPOST: "Martian Outpost"
-      STR_MARTIAN_OUTPOST_UFOPEDIA: "This outpost is a small base set up to monitor the movement of humans and spy on them. It also serves to protect and warn the most important installations in the event of an attack. It has a small garrison."
-      STR_MARTIAN_TROOP_BARRACKS: "Martian Troop Barracks" # Troop Facility
-      STR_MARTIAN_TROOP_BARRACKS_UFOPEDIA: "This fortress houses a large number of soldiers, has 4 defensive AA cannons, an armory, infirmary and a strong armor. It is usually the most abundant Martian facility, used to guard large portions of land and deploy assault groups, as well as secure key positions."
-      STR_MARTIAN_HARVEST_FACILITY: "Martian Harvesting Facility"
-      STR_MARTIAN_HARVEST_FACILITY_UFOPEDIA: "A sinister Martian facility used to dissect living beings, such as animals and humans, to create food and conduct research on terrestrial species. All abducted humans end up in one way or another in centers like these"
-      STR_MARTIAN_WATCHTOWER: "Martian Watchtower"
-      STR_MARTIAN_WATCHTOWER_UFOPEDIA: "An important bastion, used both to defend important sectors and to dissuade human troops from launching offensives in Martian territory. Its anti-aircraft batteries are quite powerful, capable of destroying human planes over long distances."
-      STR_MARTIAN_HIGH_COMMAND: "Martian High Command" # Alien High Command
-      STR_MARTIAN_HIGH_COMMAND_UFOPEDIA: "The brain of the Martian operation on land, from here are coordinated various attacks and offensives against human targets. The highest leaders of the enemy take refuge in these gigantic structures, with hundreds of soldiers. Their anti-aircraft batteries are quite efficient and their armour is extremely hard."
-      STR_MARTIAN_SUPPLY_DEPOT: "Martian Supply Depot" # Storage Facility
-      STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA: "A support facility, the purpose of which is to store the various war materials, such as weaponry, food, supplies and tools necessary for the enemy's total war machine. They are extremely hard, but they are poorly armed."
-      STR_MARTIAN_CLONE_LAB: "Martian Clone Lab" # Cloning Lab
-      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones to generate more food for their ranks and make replacement limbs for their wounded."
-      STR_MARTIAN_REDOUBT: "Martian Redoubt"
-      STR_MARTIAN_REDOUBT_UFOPEDIA: "The supreme Martian fortress. The existence of these gigantic facilities can only mean that the enemy is prepared for a total siege. They have the best anti-aircraft weapons, the best shields and armour and an enormous number of military and scientific personnel. Assaulting a Redoubt can be a hard blow for the Martians, but it is an almost suicidal mission."
-
-
 
 alienDeployments:
 #Race

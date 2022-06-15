@@ -1247,24 +1247,6 @@ alienDeployments:
       showCraft: false
     points: 200
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT: "THEY SHALL NOT PASS!"
-      STR_CAMPAIGN_SIEGE_OF_VERDUN_BRIEFING: "..."
-      STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME: "The Siege of Verdun"
-      STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT_DESCRIPTION: "Go immediately to defend Verdun. It is the only point in the Benelux Occupation Zone where the Martians can break our defenses. The British Black Watch Regiment and the 151st French Infantry Regiment are on their way to support our assault."
-
-      STR_CAMPAIGN_VERDUN_VOIE_SACREE: "Siege of Verdun, Voie Sacrée"
-      STR_CAMPAIGN_VERDUN_VOIE_SACREE_BRIEFING: "The Martians have launched a strong attack on the Fortified Square of Verdun. Civilians are trapped in the camp near the village of Fleury-devant-Douaumont, right on the front line. We must first reconquer the Voie Sacrée from the hands of the Martians, to allow new allied reinforcements and supplies to reach the besieged city."
-
-      STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE: "Siege of Verdun, Fleury Village"
-      STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE_BRIEFING: "We have successfully broken the attack on the Voie Sacrée, our reinforcements are on their way. We have reached the centre of Fleury-devant-Douaumont, but the area is still full of civilians. Reports inform that Martian assault teams have managed to break through our defenses at some points on the front and have managed to sneak into Fleury. We must stop them to avoid a massacre."
-
-      STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT: "Siege of Verdun, Fort Doaumont"
-      STR_CAMPAIGN_VERDUN_FORT_DOUAUMONT_BRIEFING: "Allied recon reports that the bulk of Martian forces have concentrated in front of Fort Doaumont for a final attack. Our British and French allies remain with us, we must resist the position for 10 turns, to give the Coalition army time to get to us and push Verdun's enemy once and for all. ON NE PASSE PAS!"
-
-      STR_ENVIRO_UNIT_UNDER_SIEGE: The morale of your besieged troops is getting low
 extraSprites:
   - type: CAMPAIGN_SIEGE_OF_VERDUN_BACKGROUND
     singleImage: true

@@ -791,38 +791,3 @@ extraSprites:
     files:
       0: Resources/Martians/CerebrealRace/ufopaedia_CEREBREAL.gif
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_FLOATER: "Mixed Martian Platoon"
-      STR_SECTOID: "Martian Conscript"
-      STR_SECTOIDS: "Martian Conscript Platoon"
-      SECTOID_ARMOR0: "Martian Conscript Skin"
-      STR_MARTIAN_LINE_INFANTRY: "Martian Line Infantry"
-      STR_MARTIAN_LINE_INFANTRIES: "Martian Line Infantry Platoon"
-      STR_MARTIAN_LINE_INFANTRY_ARMOR: "Martian Line Infantry Battle-Caparace"
-      STR_MARTIAN_LINE_INFANTRY_CORPSE: "Martian Line Infantry Corpse"
-      STR_MARTIAN_MARINE: "Martian Marine"
-      STR_MARTIAN_MARINES: "Martian Marines Team"
-      STR_MARTIAN_MARINE_ARMOR: "Martian Marine Battle-Caparace"
-      STR_MARTIAN_MARINE_CORPSE: "Martian Marine Corpse"
-      STR_MARTIAN_SHOCK_GUARD: "Martian Shock Guard"
-      STR_MARTIAN_SHOCK_GUARDS: "Martian Shock Guard Team"
-      STR_MARTIAN_SHOCK_GUARD_ARMOR: "Martian Shock Guard Battle-Caparace"
-      STR_MARTIAN_SHOCK_GUARD_CORPSE: "Martian Shock Guard Corpse"
-      STR_MARTIAN_SKIRMISHER: "Martian Skirmisher"
-      STR_MARTIAN_SKIRMISHERS: "Martian Skirmisher Formation"
-      STR_MARTIAN_SKIRMISHER_ARMOR: "Martian Skirmisher Body Suit"
-      STR_MARTIAN_SKIRMISHER_CORPSE: "Martian Skirmisher Corpse"
-      STR_MARTIAN_SCIENCE_TEAM: "Martian Science Team"
-      STR_MARTIAN_SCIENTIST: "Martian Scientist"
-      STR_MARTIAN_SCIENTIST_ARMOR: "Martian Scientist Body Suit"
-      STR_MARTIAN_SCIENTIST_CORPSE: "Martian Scientist Corpse"
-      STR_MARTIAN_ROYAL_GUARD: "Martian Royal Guard"
-      STR_MARTIAN_ROYAL_GUARDS: "Martian Royal Guard Formation"
-      STR_MARTIAN_ROYAL_GUARD_CORPSE: "Martian Royal Guard Corpse"
-      STR_MARTIAN_ROYAL_POWER_ARMOR: "Martian Royal Guard Battle-Caparace"
-      STR_CEREBREAL: "Overseer"
-      STR_CEREBREAL_COMMANDER: "Overseer Commander"
-      STR_CEREBREAL_UFOPAEDIA: "..."
-      CEREBREAL_ARMOR: "Overseer Skin"

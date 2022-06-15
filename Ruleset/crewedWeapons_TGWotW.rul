@@ -921,25 +921,3 @@ ufopaedia:
     section: STR_HEAVY_WEAPONS_PLATFORMS
     text: STR_TGEWEHR_TURRET_UFOPEDIA
     weapon: STR_TGEWEHR
-
-extraStrings:
-  - type: en-US
-    strings:
-      STR_TURRET_GUIDE: How to deploy a Turret?
-      STR_TURRET_GUIDE_UFOPEDIA: Attention, soldier. Deploying a turret can be difficult at first. To use it, you need to kneel in front of the weapon and make a melee attack (using your bare hand, without holding a weapon). This is once per turn. To disassemble the turret, you need to use the Turret Wrench and make a melee attack. You can carry it and put it in another position. To reactivate it, you must use the ASSEMBLE attack using the Turret Wrench.
-#
-      STR_MAXIM_MG_TURRET: "Maxim MG Turret"
-      STR_MAXIM_MG_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE} Water cooled MG, useful to provide suppressive fire support to advancing troops. It's fixed mounting allows a continuous fire to be maintained without considerably affecting its accuracy."
-      STR_MAXIM_MG: "Maxim MG"
-      STR_MAXIM_MG_DRUM: "Maxim MG Ammo"
-      STR_MAXIM_MG_TURRET_ARMOR: "Fixed Maxim MG Emplacement"
-#
-      STR_TGEWEHR_TURRET: "T-Gewehr Anti-Tank"
-      STR_TGEWEHR_TURRET_UFOPEDIA: "Crewed Weapon Emplacement. {NEWLINE}  Heavy, powerful, difficult to handle. It is said that a soldier can make two shots with this weapon, one for each shoulder. Annihilates slightly armored targets with powerful 13.5mm TuF rounds."
-      STR_TGEWEHR: "T-Gewehr 13.5mm TuF"
-      STR_TGEWEHR_ROUND: "T-Gewehr Round"
-      STR_TGEWEHR_TURRET_ARMOR: "Deployed T-Gewehr Emplacement"
-#
-      STR_TURRET_INTERACTION_ITEM: "Turret Wrench"
-      STR_ASSEMBLE_TURRET: "Assemble"
-      STR_DISASSEMBLE_TURRET: "Disassemble"
