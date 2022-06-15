@@ -41,18 +41,18 @@ units:
         - STR_REVOLVER_CLIP
         - STR_FRAG_GRENADE
       -
-        - STR_SMLE_MKIII
-        - STR_SMLE_MKIII_CLIP
-        - STR_SMLE_MKIII_CLIP
-        - STR_SMLE_MKIII_CLIP
-        - STR_SMLE_MKIII_CLIP
+        - STR_P14_ENFIELD
+        - STR_SPRINGFIELD_CLIP
+        - STR_SPRINGFIELD_CLIP
+        - STR_SPRINGFIELD_CLIP
+        - STR_RIFLE_GRENADE
         - STR_BANDAGES
       -
         - STR_SMLE_MKIII
         - STR_SMLE_MKIII_CLIP
-        - STR_AUTOMATIC_REVOLVER
-        - STR_REVOLVER_CLIP
-        - STR_REVOLVER_CLIP
+        - STR_SMLE_MKIII_CLIP
+        - STR_RIFLE_GRENADE
+        - STR_RIFLE_GRENADE
   - type: STR_BRITISH_T1_ASSAULT_NPC
     race: STR_HUMANS
     rank: STR_LIVE_SOLDIER
@@ -86,9 +86,9 @@ units:
         - STR_DYNAMITE
         - STR_FRAG_GRENADE
       -
-        - STR_AUTOMATIC_REVOLVER
-        - STR_REVOLVER_CLIP
-        - STR_REVOLVER_CLIP
+        - STR_REMINGTON_MODEL_11
+        - STR_SHOTGUN_BUCKSHOT_SHELLS_5
+        - STR_SHOTGUN_BUCKSHOT_SHELLS_5
         - STR_FRAG_GRENADE
         - STR_FRAG_GRENADE
         - STR_FRAG_GRENADE
@@ -127,21 +127,17 @@ units:
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
       -
-        - STR_CHAUCHAT_LMG
-        - STR_CHAUCHAT_LMG_MAG
-        - STR_TRENCH_MACE
-        - STR_AUTOMATIC_REVOLVER
-        - STR_REVOLVER_CLIP
-        - STR_REVOLVER_CLIP
+        - STR_LEWIS_GUN
+        - STR_LEWIS_GUN_PAN
+        - STR_LEWIS_GUN_PAN
       -
-        - STR_CHAUCHAT_LMG
-        - STR_CHAUCHAT_LMG_MAG
-        - STR_CHAUCHAT_LMG_MAG
-        - STR_TRENCH_KNIFE
+        - STR_LEWIS_GUN
+        - STR_LEWIS_GUN_PAN
+        - STR_LEWIS_GUN_PAN
       -
-        - STR_CHAUCHAT_LMG
-        - STR_CHAUCHAT_LMG_MAG
-        - STR_CHAUCHAT_LMG_MAG
+        - STR_LEWIS_GUN
+        - STR_LEWIS_GUN_PAN
+        - STR_LEWIS_GUN_PAN
         - STR_AUTOMATIC_REVOLVER
         - STR_REVOLVER_CLIP
         - STR_REVOLVER_CLIP
@@ -180,7 +176,7 @@ units:
         - STR_BANDAGES
       -
         - STR_TRENCH_SHOVEL
-        - STR_AUTOMATIC_REVOLVER
+        - STR_SERVICE_REVOLVER
         - STR_REVOLVER_CLIP
         - STR_REVOLVER_CLIP
         - STR_MEDIKIT
@@ -236,7 +232,7 @@ units:
         - STR_WHISTLE
         - STR_PAINKILLER
 #####################################
-#Tier II, employs advanced Martian Metal ballistic weapons
+#Tier II, employs advanced ballistic weapons and one Martian Metal ammo 
   - type: STR_BRITISH_T2_RIFLEMAN_NPC
     race: STR_HUMANS
     rank: STR_LIVE_SOLDIER
@@ -264,24 +260,24 @@ units:
     builtInWeaponSets:
       -
         - STR_FARQHUAR_HILL
-        - STR_FARQHUAR_HILL_DRUM
+        - STR_FARQHUAR_HILL_DRUM_KMM
         - STR_FARQHUAR_HILL_DRUM
         - STR_AUTOMATIC_REVOLVER
         - STR_REVOLVER_CLIP
         - STR_FRAG_GRENADE
       -
         - STR_FARQHUAR_HILL
-        - STR_FARQHUAR_HILL_DRUM
+        - STR_FARQHUAR_HILL_DRUM_KMM
         - STR_FARQHUAR_HILL_DRUM
         - STR_BANDAGES
         - STR_FRAG_GRENADE
         - STR_FRAG_GRENADE
       -
         - STR_SMLE_MKIII
+        - STR_SMLE_MKIII_CLIP_KMM
         - STR_SMLE_MKIII_CLIP
-        - STR_AUTOMATIC_REVOLVER
-        - STR_REVOLVER_CLIP
-        - STR_REVOLVER_CLIP
+        - STR_RIFLE_GRENADE
+        - STR_RIFLE_GRENADE
         - STR_FRAG_GRENADE
   - type: STR_BRITISH_T2_ASSAULT_NPC
     race: STR_HUMANS
@@ -309,7 +305,7 @@ units:
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
       -
-        - STR_WINCHESTER_TRENCH_GUN
+        - STR_REMINGTON_MODEL_11
         - STR_SHOTGUN_BUCKSHOT_SHELLS_5
         - STR_SHOTGUN_BUCKSHOT_SHELLS_5
         - STR_TRENCH_MACE
@@ -353,18 +349,18 @@ units:
     pickUpWeaponsMoreActively: 1
     builtInWeaponSets:
       -
+        - STR_HUOT_LMG
+        - STR_HUOT_LMG_DRUM_KMM
+        - STR_HUOT_LMG_DRUM
+        - STR_TRENCH_KNIFE
+      -
         - STR_LEWIS_GUN
-        - STR_LEWIS_GUN_PAN
+        - STR_LEWIS_GUN_PAN_KMM
         - STR_LEWIS_GUN_PAN
         - STR_FRAG_GRENADE
       -
         - STR_HUOT_LMG
-        - STR_HUOT_LMG_DRUM
-        - STR_HUOT_LMG_DRUM
-        - STR_TRENCH_KNIFE
-      -
-        - STR_HUOT_LMG
-        - STR_HUOT_LMG_DRUM
+        - STR_HUOT_LMG_DRUM_KMM
         - STR_HUOT_LMG_DRUM
         - STR_TRENCH_SHOVEL
 #########################################
