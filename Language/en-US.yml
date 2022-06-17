@@ -47,8 +47,10 @@ en-US:
       STR_HEAVY_EQUIPMENT: Heavy Equipment
       STR_RIFLEMAN_CLASS: Rifleman Class
       STR_ASSAULT_CLASS: Assault Class
+      STR_SHOCK_CLASS: Shock Class
       STR_MEDIC_CLASS: Medic Class
-      STR_SUPPORT_CLASS: Support Class
+      STR_SUPPORT_CLASS: Support Class 
+      STR_HEAVY_CLASS: Heavy Class 
       STR_RAIDER_CLASS: Raider Class
       STR_AIRBORNE_EQUIPMENT: Airborne Equipment
       STR_BRITISH_EQUIPMENT: British Equipment
@@ -977,11 +979,37 @@ en-US:
       STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
       STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.
 
+      STR_SOLDIER_CLASSES_INTRODUCTION: "Soldier Classes"
+      STR_SOLDIER_CLASSES_INTRODUCTION_UFOPEDIA: "The advent of the large scale conflicts meant a focus in the specialization of the training given to the military units. And in this industrialized war, this was further pushed by the members of the Coalition. The result is a series of 'Soldier Classes', each one with a particular set of skills. These soldiers are often assigned to special support regiments, complementing the larger armies fighting the invaders. Also, in separate combat teams like our Force. The IEF is given professional soldiers from each one of the Coalition military special forces, both to bolster our offensive capabilities and a show of unity among nations."
+      STR_INFANTRY_CLASS_INTRODUCTION: "Infantry Class Introduction"
+      STR_INFANTRY_CLASS_INTRODUCTION_UFOPEDIA: "While not exactly a class per se, the vast majority of enlisted men and women serving in the Coalition armed forces fall under this group. The Infantry is cheap, adaptable and can fullfil any kind of role or task, from machine gun fire support to trench raiding. However, they aren't really really capable of carrying special operations. Keep this on mind when using them in combat."
+      STR_RIFLEMAN_CLASS_SOLDIER: "Rifleman"
+      STR_RIFLEMAN_CLASS_INTRODUCTION: "Rifleman Class Introduction"
+      STR_RIFLEMAN_CLASS_INTRODUCTION_UFOPEDIA: "The best sharpshooters come from the Commonwealth. Their quick fire with superb precision characterize the Riflemen. Even without scoped sights, the accurate volleys of lead break the enemy assaults. The maximum exponent of the Riflemen cadre is Francis Pegahmagabow, hero of Canada.{NEWLINE}Best stats: {ALT} Firing accuracy{ALT}. {NEWLINE} Worst stats: {ALT} Melee{ALT}"
+      STR_ASSAULT_CLASS_SOLDIER: "Assault Trooper"
+      STR_ASSAULT_CLASS_INTRODUCTION: "Assault Class Introduction"
+      STR_ASSAULT_CLASS_INTRODUCTION_UFOPEDIA: "The American combat doctrine changed a lot after all of these years of fighting in their homeland. Eventually, they realized the enemy couldn't use their artillery if the Doughboys went up close and personal. Overwhelming the Martians with fixed bayonets become a practical solution. The US Army Rangers were born from a long tradition of brave frontiersmen, specialized in unconventional warfare. Fast attacks with submachine guns and shotguns overrun the enemy forces in the blink of an eye."
+      STR_SHOCK_CLASS_SOLDIER: "Shock Trooper"
+      STR_SHOCK_CLASS_INTRODUCTION: "Shock Class Introduction"
+      STR_SHOCK_CLASS_INTRODUCTION_UFOPEDIA: "In the clogged trenches of the Benelux Front, the war came to a stalemate. Human and Martian fortifications became more complex and difficult to assault by normal infantry. "
+      STR_MEDIC_CLASS_SOLDIER:
+      STR_MEDIC_CLASS_INTRODUCTION:
+      STR_MEDIC_CLASS_INTRODUCTION_UFOPEDIA:
+      STR_SUPPORT_CLASS_SOLDIER:
+      STR_SUPPORT_CLASS_INTRODUCTION:
+      STR_SUPPORT_CLASS_INTRODUCTION_UFOPEDIA:
+      STR_HEAVY_CLASS_SOLDIER:
+      STR_HEAVY_CLASS_INTRODUCTION:
+      STR_HEAVY_CLASS_INTRODUCTION_UFOPEDIA:
+      STR_RAIDER_CLASS_SOLDIER:
+      STR_RAIDER_CLASS_INTRODUCTION:
+      STR_RAIDER_CLASS_INTRODUCTION_UFOPEDIA: "First used by General Brusilov in his Counteroffensive of 1913, the Raider became something close to a mythological hero. The image of a soldier with sable in one hand and grenades in the other was imprinted in the mind of the Russian population."
       STR_PILOT: Pilot
       STR_PILOT_INTRODUCTION: The Knights of the Sky
       STR_PILOT_UFOPEDIA: The flight of the Wright brothers in 1905 and the Second Martian Invasion resulted in the full adoption of combat from the air and hundreds of volunteers enlisted in the newly formed military air forces. The knights of the air ride on their powerful air mounts of wood and cloth, defending the human skies.
       STR_PILOT_UNIFORM_UC: PILOT JUMPSUIT
       STR_PILOT_UNIFORM_UC_UFOPEDIA: Soft and confortable jump suit made of light cottom clothes, keeps the user warm at high-attitiude and prevents overheating inside landships and other ground vehicles. Includes a brand new parachute made in the USA, using a design of Stefan Banic. This allows the pilot to eject if it's vehicle becomes too damage to return base. Our war machine can reemplace a lost vehicle easily, not a veteran pilot.
+      
 ########################
 
 
