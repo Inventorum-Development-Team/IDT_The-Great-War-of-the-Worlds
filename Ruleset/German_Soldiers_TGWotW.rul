@@ -320,34 +320,6 @@ armors:
     units:
       - STR_GERMAN_SOLDIER
 
-ufopaedia:
-  - id: STR_GERMAN_SOLDIER_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: GERMAN_SOLDIER_IMAGE
-    text: STR_GERMAN_SOLDIER_UFOPEDIA
-    text_width: 150
-    listOrder: 1710
-  - id: STR_GERMAN_FIELD_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1711
-    text: STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA
-  - id: STR_GERMAN_GASMASK_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1712
-    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
-#  - id: STR_GERMAN_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1713
-#    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
-  - id: STR_GERMAN_TRENCH_COAT_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1714
-    text: STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA
 extraSprites:
   - type: GERMAN_SOLDIER_IMAGE
     singleImage: true

@@ -322,34 +322,7 @@ armors:
 #    units:
 #      - STR_BRITISH_SOLDIER
 
-ufopaedia:
-  - id: STR_AMERICAN_SOLDIER_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: AMERICAN_SOLDIER_IMAGE
-    text: STR_AMERICAN_SOLDIER_UFOPEDIA
-    text_width: 150
-    listOrder: 1705
-  - id: STR_AMERICAN_FIELD_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1706
-    text: STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA
-  - id: STR_AMERICAN_GASMASK_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1707
-    text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
-#  - id: STR_AMERICAN_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1708
-#    text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
-#  - id: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1709
-#    text: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+
 extraSprites:
   - type: AMERICAN_SOLDIER_IMAGE
     singleImage: true

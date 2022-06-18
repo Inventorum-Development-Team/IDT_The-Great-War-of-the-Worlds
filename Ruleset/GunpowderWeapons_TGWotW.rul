@@ -1239,6 +1239,7 @@ items:
     invWidth: 1
     invHeight: 3
     autoRange: 15
+    battleType: 1
     attraction: 8
     listOrder: 2220
 
@@ -4768,11 +4769,9 @@ items:
       - STR_SHOTGUN_DUMDUM_SHELLS_5
     accuracySnap: 45
     accuracyAimed: 60
-    accuracyAuto: 40
     accuracyCloseQuarters: 200
     tuSnap: 45
     tuAimed: 60
-    tuAuto: 30
     tuLoad: 25
     minRange: 15
     snapRange: 24
@@ -4812,11 +4811,9 @@ items:
       - STR_SHOTGUN_DUMDUM_SHELLS_5
     accuracySnap: 45
     accuracyAimed: 60
-    accuracyAuto: 40
     accuracyCloseQuarters: 200
     tuSnap: 45
     tuAimed: 60
-    tuAuto: 30
     tuLoad: 25
     minRange: 15
     snapRange: 24
@@ -4922,11 +4919,9 @@ items:
       - STR_SHOTGUN_DUMDUM_SHELLS_2
     accuracySnap: 45
     accuracyAimed: 60
-    accuracyAuto: 40
     accuracyCloseQuarters: 200
     tuSnap: 45
     tuAimed: 60
-    tuAuto: 30
     tuLoad: 25
     minRange: 15
     snapRange: 24
@@ -4965,17 +4960,15 @@ items:
       - STR_SHOTGUN_DUMDUM_SHELLS_2
     accuracySnap: 45
     accuracyAimed: 60
-    accuracyAuto: 40
     accuracyCloseQuarters: 200
     tuSnap: 45
     tuAimed: 60
-    tuAuto: 30
     tuLoad: 25
     minRange: 15
     snapRange: 24
     aimRange: 34
     dropoff: 5
-    invHeight: 3
+    invHeight: 2
     invWidth: 1
     battleType: 1
     twoHanded: true

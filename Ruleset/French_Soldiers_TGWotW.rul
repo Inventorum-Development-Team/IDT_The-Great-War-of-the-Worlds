@@ -322,34 +322,7 @@ armors:
 #    units:
 #      - STR_FRENCH_SOLDIER
 
-ufopaedia:
-  - id: STR_FRENCH_SOLDIER_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: FRENCH_SOLDIER_IMAGE
-    text: STR_FRENCH_SOLDIER_UFOPEDIA
-    text_width: 150
-    listOrder: 1717
-  - id: STR_FRENCH_FIELD_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1718
-    text: STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA
-  - id: STR_FRENCH_GASMASK_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1719
-    text: STR_FRENCH_GASMASK_UC_UFOPEDIA
-#  - id: STR_FRENCH_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1718
-#    text: STR_FRENCH_GASMASK_UC_UFOPEDIA
-#  - id: STR_FRENCH_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1718
-#    text: STR_FRENCH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+
 extraSprites:
   - type: FRENCH_SOLDIER_IMAGE
     singleImage: true

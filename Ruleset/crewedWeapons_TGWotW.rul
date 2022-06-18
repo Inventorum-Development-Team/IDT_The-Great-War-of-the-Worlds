@@ -898,26 +898,3 @@ extraSounds:
       1003: Resources/Turrets/Sounds/tgewehr_fire.wav
       1004: Resources/Turrets/Sounds/tgewehr_reload.wav
 
-ufopaedia:
-  - id: STR_TURRET_GUIDE
-    type_id: 7
-    section: STR_HEAVY_WEAPONS_PLATFORMS
-    image_id: TURRET_GUIDE_IMAGE
-    text: STR_TURRET_GUIDE_UFOPEDIA
-    text_width: 150
-
-  - id: STR_MAXIM_MG_TURRET
-    type_id: 3
-    image_id: MAXIM_MG_BACKGROUND
-    section: STR_HEAVY_WEAPONS_PLATFORMS
-    text: STR_MAXIM_MG_TURRET_UFOPEDIA
-    weapon: STR_MAXIM_MG
-
-  - id: STR_TGEWEHR_TURRET
-    requires:
-      - STR_ADVANCED_FIREARMS
-    type_id: 3
-    image_id: TGEWEHR_BACKGROUND
-    section: STR_HEAVY_WEAPONS_PLATFORMS
-    text: STR_TGEWEHR_TURRET_UFOPEDIA
-    weapon: STR_TGEWEHR

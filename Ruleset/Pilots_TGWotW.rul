@@ -126,19 +126,8 @@ armors:
       - INV_PARACHUTE_C_3X3
     units:
       - STR_PILOT
-ufopaedia:
-  - id: STR_PILOT_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: PILOT_IMAGE
-    text: STR_PILOT_UFOPEDIA
-    text_width: 150
-    listOrder: 1715
-  - id: STR_PILOT_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1716
-    text: STR_PILOT_UNIFORM_UC_UFOPEDIA
+
+
 extraSprites:
   - type: PILOT_IMAGE
     singleImage: true

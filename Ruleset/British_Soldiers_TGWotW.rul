@@ -321,34 +321,6 @@ armors:
 #    units:
 #      - STR_BRITISH_SOLDIER
 
-ufopaedia:
-  - id: STR_BRITISH_SOLDIER_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: BRITISH_SOLDIER_IMAGE
-    text: STR_BRITISH_SOLDIER_UFOPEDIA
-    text_width: 150
-    listOrder: 1700
-  - id: STR_BRITISH_FIELD_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1701
-    text: STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA
-  - id: STR_BRITISH_GASMASK_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1702
-    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
-#  - id: STR_BRITISH_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1703
-#    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
-#  - id: STR_BRITISH_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1704
-#    text: STR_BRITISH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
 extraSprites:
   - type: BRITISH_SOLDIER_IMAGE
     singleImage: true
