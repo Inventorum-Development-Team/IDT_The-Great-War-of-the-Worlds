@@ -363,12 +363,9 @@ en-US:
       STR_GEWEHR98: Mauser 'Standard' Rifle
       STR_GEWEHR98_CLIP: Mauser 'Standard' Clip
       STR_GEWEHR98_CLIP_KMM: Mauser 'Standard' K-MM Clip
-      STR_GEWEHR98_UFOPEDIA: Very reliable bolt-action rifle of German, has seen
-        combat all over the world. From the European forests and the Asian
+      STR_GEWEHR98_UFOPEDIA: From the European forests and the Asian
         steppes to the Mexican deserts and the South American jungles, it's the
-        standard bolt-action rifle of several armies of the Coalition and the
-        minor powers (hence the nickname of 'The Standard' given by the Allied
-        soldiers). It shoots 7.92x57mm ammunition, widely copied and reproduced
+        standard bolt-action rifle of several armies of the Coalition (hence the nickname of 'The Standard'). It shoots 7.92x57mm ammunition, widely copied and reproduced
         by local armories outside Germany.
       STR_MAUSER_C96: Mauser C96 Handgun
       STR_MAUSER_C96_CLIP: Mauser C96 Clip
@@ -482,9 +479,9 @@ en-US:
       STR_MM_MOSIN_NAGANT_CLIP: null
       STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP: null
       STR_SHASHKA: Shashka
-      STR_SHASHKA_UFOPEDIA: ...
+      STR_SHASHKA_UFOPEDIA: A traditional Cossack sabre crafted by the most skilled artisans. The razor-sharp blade can cut through a regular human with ease. And the Martian bodies aren't that difficult neither.
       STR_MM_SHASHKA: MM Shashka
-      STR_MM_SHASHKA_UFOPEDIA: ...
+      STR_MM_SHASHKA_UFOPEDIA: The Cossack craftsmen reforged the iconic sabre with a the alien minerals. A steel core with Tungunskium blade makes it a balanced and hardened melee weapon.
       STR_MM_DAGGER: MM Dagger
       STR_MM_DAGGER_UFOPEDIA: ...
       STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
@@ -539,10 +536,10 @@ en-US:
       STR_MADSEN_LMG: Madsen LMG
       STR_MADSEN_LMG_MAG: Madsen LMG Mag
       STR_MADSEN_LMG_MAG_KMM: Madsen LMG K-MM Mag
-      STR_MADSEN_MG_UFOPEDIA:
+      STR_MADSEN_LMG_UFOPEDIA:
         The Madsen is the first truly 'Light Machine Gun' in
         military service, designed by by Norwegian war minister Vilhem Madsen in
-        1902. The LMG uses 7mm calibre rifle ammunition, with a curved
+        1902. The LMG uses 7mm caliber rifle ammunition, with a curved
         extractable 30 rounds magazine. It was designed emphasizing mobility
         over fire cadence. Kneeling firing, using the integrated bipod,
         considerably increases the accuracy and stability of the weapon.
@@ -550,7 +547,7 @@ en-US:
       STR_HELLRIEGEL_CLIP: null
       STR_HELLRIEGEL_UFOPEDIA: ...
       STR_REMINGTON_MODEL_11: Browning Auto-5
-      STR_REMINGTON_MODEL_11_UFOPEDIA: null
+      STR_REMINGTON_MODEL_11_UFOPEDIA: "Considered by it's creator, John M. Browning as 'his greatest creation', the Automatic-5 is a quick-fire, semi-automatic shotgun. This particular variant, one of the most popular among the Coalition, has a shortened barrel."
       STR_INERTIA_SHOTGUN: Sjögren Inertia Shotgun
       STR_INERTIAL_SHOTGUN_CLIP: null
       STR_INERTIA_SHOTGUN_UFOPEDIA: Semi-automatic shotgun designed by Swedish
@@ -583,7 +580,7 @@ en-US:
       STR_TRENCH_KNIFE: Trench Knife
       STR_TRENCH_KNIFE_UFOPEDIA:
         Knife adapted with an 'American fist' on its hilt,
-        can save the life of a soldier with rifle jammed. Fast and accurate.
+        can save the life of a soldier with a jammed rifle. Fast and accurate.
       STR_TRENCH_SHOVEL: Trench Shovel
       STR_TRENCH_SHOVEL_UFOPEDIA:
         Originally conceived to dig trenches, its original
@@ -593,7 +590,7 @@ en-US:
       STR_SHOVEL: Shovel
       STR_SHOVEL_UFOPEDIA:
         Just a simple shovel, used to dig trenches. But it could be
-        used to break the head of a Martian too, ig used with enough strength!
+        used to break the head of a Martian too, if used with enough strength!
       STR_TRENCH_MACE: Trench Mace
       STR_TRENCH_MACE_UFOPEDIA:
         A wooden mallet adapted with various sharp objects
@@ -608,12 +605,12 @@ en-US:
       STR_MEDIC_BONESAW: null
       STR_MEDIC_BONESAW_UFOPEDIA: ...
       STR_MEDICAL_SYRINGE: Medical Syringe
-      STR_MEDICAL_SYRINGE_UFOPEDIA: null
+      STR_MEDICAL_SYRINGE_UFOPEDIA: A highly classified cocktail of stimulants and painkillers (and other substances) is administered in each shot. One is powerful enough to bring back a regular human from nearly dead state. Only the highest medical officers know its true composition.
       STR_MEDIKIT: Medikit
       STR_MEDIKIT_UFOPEDIA:
         Small portable bag, contains various medical materials to
         stabilize wounded in battle. It includes analgesics, antibiotics, iodine
-        chlorido, castor oil and cutting forceps.
+        chloride, castor oil and cutting forceps.
       STR_SURGERY_KIT: Kit de cirugía de campaña
       STR_SURGERY_KIT_UFOPEDIA:
         Most complete version of the Medical Kit, includes
@@ -628,11 +625,11 @@ en-US:
         Small morphine injection stored for use in a practical
         cardboard box. Relieves the pain of the injured instantly.
       STR_MAUSER_C96_CARBINE: Mauser C96/M14 Trench Carbine
-      STR_MAUSER_C96_CARBINE_UFOPEDIA: WIP
+      STR_MAUSER_C96_CARBINE_UFOPEDIA: A specially modified C96 pistol, adapted as an effective support weapon for trench raiding. With a longer barrel and wood stock and handguard, an already good weapon became even better. 
       STR_MAUSER_C96_CARBINE_MAG: Mauser C96/M14 Mag
       STR_MAUSER_C96_CARBINE_MAG_KMM: Mauser C96/M14 KMM Mag
       STR_LUGER_P08: P08 Luger
-      STR_LUGER_P08_UFOPEDIA: null
+      STR_LUGER_P08_UFOPEDIA: Elegant handgun, most identified by its angled grip and magazines. A very valuable pistol, often seek by the soldiers as war trophies. Calibered in 9x19mm Parabellum.
       STR_LUGER_P08_MAG: P08 Luger Mag
       STR_LUGER_P08_MAG_KMM: P08 Luger K-MM Mag
       STR_LUGER_ARTILLERY: P08 Artillery Luger
@@ -642,7 +639,7 @@ en-US:
         Modified version of the P08 Luger handgun, has a
         handguard and a wooden stock added to increase accuracy and range.
         Originally it was supplied to artillery battery soldiers as a personal
-        defense weapon. Use drum magazines to maximize its ammunition storage.
+        defense weapon. Uses drum magazines to maximize its ammunition storage.
       STR_MP18: MP-18 Bergmann SMG
       STR_MP18_DRUM: MP-18 Drum
       STR_MP18_DRUM_KMM: MP-18 K-MM Drum
@@ -650,8 +647,7 @@ en-US:
         One of the best weapons in the human arsenal, designed to
         provide maximum firepower at close range. It is light and easy to use,
         as well as accurate in close combat. Its long-range use is not
-        recommended, it loses power easily. Share the design of its drum
-        magazine with the Artillery Luger.
+        recommended, it loses power easily.
       STR_ANTITANK_GRENADE: Anti-Tank Grenade
       STR_ANTITANK_GRENADE_UFOPEDIA: improvised anti-tank grenade made of stick
         grenades bundled with wire and with their wicks together, they are
@@ -673,10 +669,10 @@ en-US:
         measures of safety to avoid accidental activation. Its explosion range
         is moderate.
       STR_DYNAMITE: Dynamite
-      STR_DYNAMITE_UFOPEDIA: Package of explosive tubes with a delay wick, very
+      STR_DYNAMITE_UFOPEDIA: Package of explosive tubes with timer, very
         powerful. It can be used to set traps for the enemy, because the wick
         can be activated with delay.
-      STR_FLAMETHROWER: Flamethrower
+      STR_FLAMETHROWER: Disposable Flamethrower
       STR_FLAMETHROWER_UFOPEDIA:
         Our first model flame thrower is small, light and
         portable enough to be carried by a single soldier. It throws its jet of
@@ -726,13 +722,13 @@ en-US:
       STR_ANNIHILATOR_SMG_MAG: Annihilator Mag
       STR_ANNIHILATOR_SMG_MAG_KMM: Annihilator K-MM Mag
       STR_PHLOGISTON_HEAVY_RIFLE: Phlogiston Heavy Rifle
-      STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA: Wip
+      STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA: A heavy frame houses the largest handheld application of Phlogiston technology. The Ruby Rod Emitter is so powerful that needs a new ruby crystal with each use. The excess heat is vented after replacing the rod, in a mechanism similar to a bolt-action rifle. The bipod is meant to increase the handling, as the beam weapons have no recoil.
       STR_PHLOGISTON_RUBY_CLIP: Phlogiston Ruby Rod Clip
       STR_PHLOGISTON_BATTLE_RIFLE: Phlogiston Battle Rifle
-      STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA: WIP
+      STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA: The weapon designed to change the battlefield. A sturdy structure with a specially adapted Ruby Rod Emitter to ease heat dissipation, the Battle Rifle is expected to be the next main weapon of the infantryman. The only drawback is the lack of a bayonet lug (as the refraction lenses could break if hit too much).
       STR_PHLOGISTON_MEDIUM_BATTERY: Phlogiston Medium Battery
       STR_PHLOGISTON_AUTOMATIC_CARBINE: Phlogiston Automatic Carbine
-      STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA: One of the most successful applications of Phlogiston tech, the ruby rod chamber was mounted over the frame of a Winchester M1907 SL carbine, with the barrel adapted to fit the magnification lenses. A forward grip was added as reference. The result is a relatively light weapon with superior handling.
+      STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA: One of the most successful applications of Phlogiston tech, the ruby rod chamber was mounted over the frame of a Winchester M1907 SL carbine, with the barrel adapted to fit the magnification lenses. A forward grip was added to increase the stability when aiming down the sights. The result is a relatively light weapon with superior handling.
       STR_PHLOGISTON_PISTOL: Phlogiston Pistol
       STR_PHLOGISTON_PISTOL_UFOPEDIA: Built as a light and effective sidearm based around the ruby rod beam tech. After several tries, it was found the energy mechanisms fitted inside a large handgun like the Colt M1911. Subsequent models used the blueprints of the handgun as basis. The barrel slits gets illuminated once the battery charges the beam emitter.
       STR_PHLOGISTON_SMALL_BATTERY: Phlogiston Small Battery
@@ -832,13 +828,14 @@ en-US:
       STR_TESLA_TRENCH_BROOM: "Tesla 'Hurricane' Trench Broom"
       STR_TESLA_TRENCH_BROOM_UFOPEDIA: "A devastating Electric weapon meant to
         maximize lethal damage at close range. A heavy coil and the removal of
-        the rails makes itn highly impredecible and powerful."
+        the rails makes it highly impredecible and powerful."
       STR_TESLA_PISTOL: "Tesla 'Lightning' Pistol"
-      STR_TESLA_PISTOL_UFOPEDIA: null
+      STR_TESLA_PISTOL_UFOPEDIA: Compacting the Electric coils to a size small enough to be used with one hand was a challenge for Tesla's team. The result wasn't exactly small, but at least it fits on one hand... barely 
       STR_TESLA_SMG: "Tesla 'Typhoon' SMG"
       STR_TESLA_SMG_UFOPEDIA: null
       STR_TESLA_LIGHT_BATTERY: Tesla Light Battery
       STR_TESLA_AUTOCANNON: "Tesla 'Hailstorm' Cannon"
+      STR_TESLA_HEAVY_BATTERY: "Tesla Heavy Battery"
       STR_TESLA_AUTOCANNON_UFOPEDIA: null
       ##########################################
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
