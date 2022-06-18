@@ -35,7 +35,7 @@
     useTable: false
     #researchTriggers:
     # STR_UNITED_WE_STAND_RESEARCH: false
-    startDelay: 30
+    startDelay: 43500
     randomDelay: 43500
 
   - type: alienResearch
@@ -47,7 +47,7 @@
       0:
        STR_MARTIAN_SCIENCE_TEAM: 100
     firstMonth: 0
-    startDelay: 150
+    startDelay: 43500
     targetBaseOdds: 100
     #researchTriggers:
     #  STR_DEVASTATION_COMPLETED: false
@@ -57,7 +57,7 @@
     missionWeights:
       0:
         STR_ALIEN_RETALIATION: 100
-    startDelay: 20
+    startDelay: 43500
     randomDelay: 43500
     targetBaseOdds: 100
     minScore: 1000
