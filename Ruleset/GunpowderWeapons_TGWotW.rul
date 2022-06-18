@@ -3748,7 +3748,7 @@ items:
     aimRange: 34
     dropoff: 5
     battleType: 1
-    twoHanded: false
+    twoHanded: true
     invWidth: 1
     invHeight: 3
     autoRange: 11
@@ -4657,7 +4657,7 @@ items:
     aimRange: 34
     dropoff: 5
     battleType: 1
-    twoHanded: false
+    twoHanded: true
     invWidth: 2
     invHeight: 3
     autoRange: 11
@@ -5086,7 +5086,7 @@ items:
     aimRange: 34
     dropoff: 5
     battleType: 1
-    twoHanded: false
+    twoHanded: true
     invWidth: 1
     invHeight: 3
     autoRange: 11
