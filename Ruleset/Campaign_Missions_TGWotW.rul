@@ -307,7 +307,7 @@ alienMissions:
       - ufo: STR_MARTIAN_CAMP
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
@@ -348,7 +348,7 @@ alienMissions:
       - ufo: STR_MARTIAN_OUTPOST
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
       - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
@@ -389,11 +389,11 @@ alienMissions:
       - ufo: STR_MARTIAN_TROOP_BARRACKS
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 21600
       - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -418,11 +418,11 @@ alienMissions:
       - ufo: STR_MARTIAN_HIGH_COMMAND
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 28800
       - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -448,7 +448,7 @@ alienMissions:
       - ufo: STR_MARTIAN_HARVEST_FACILITY
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 28800
       - ufo: STR_MARTIAN_HARVESTER_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
@@ -486,11 +486,11 @@ alienMissions:
       - ufo: STR_MARTIAN_WATCHTOWER
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 14400
       - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -516,7 +516,7 @@ alienMissions:
       - ufo: STR_MARTIAN_CLONE_LAB
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 14400
       - ufo: STR_MARTIAN_HARVESTER_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
@@ -554,11 +554,11 @@ alienMissions:
       - ufo: STR_MARTIAN_SUPPLY_DEPOT
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 25920
       - ufo: STR_MARTIAN_SIEGE_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -584,11 +584,11 @@ alienMissions:
       - ufo: STR_MARTIAN_REDOUBT
         count: 1
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 43200
       - ufo: STR_MARTIAN_OVERLORD_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -794,6 +794,276 @@ alienDeployments:
 #  - delete: STR_ALIEN_BASE_ASSAULT
   - delete: STR_BASE_DEFENSE
 #################################################
+  - type: STR_BASE_DEFENSE
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 1
+        highQty: 3
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+      - alienRank: 0
+        lowQty: 1
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 0
+        itemSets:
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+      - alienRank: 6
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+      - alienRank: 7
+        lowQty: 0
+        highQty: 2
+        dQty: 1
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            []
+          -
+            []
+          -
+            []
+    width: 60
+    length: 60
+    height: 2
+    terrains:
+      - XBASE
+    shade: 5
+    briefing:
+      palette: 0
+      background: BACK01.SCR
+      music: GMENBASE
+
   - type: STR_TERROR_MISSION
     data:
       - alienRank: 5

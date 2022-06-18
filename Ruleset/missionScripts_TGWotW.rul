@@ -61,26 +61,14 @@
     randomDelay: 43500
     targetBaseOdds: 100
     minScore: 1000
-    firstMonth: 3
+    firstMonth: 12
     useTable: false
-
-  - type: alienConstruction
-    missionWeights:
-      0:
-        STR_ALIEN_INFILTRATION: 50
-        STR_ALIEN_BASE: 50
-    firstMonth: 3
-    startDelay: 1000
-    randomDelay: 43500
-    maxRuns: 6
-    varName: alienConstruction
-    executionOdds: 80
 
   - type: AirPatrol1
     missionWeights:
       0:
         STR_MARTIAN_AIR_PATROL_1: 100
-    firstMonth: 2
+    firstMonth: 4
     targetBaseOdds: 100
     startDelay: 1000
     #minScore: 800
@@ -91,7 +79,7 @@
     missionWeights:
       0:
         STR_MARTIAN_AIR_SUPREMACY_1: 100
-    firstMonth: 2
+    firstMonth: 10
     startDelay: 1000
     minScore: 800
     maxScore: 1299
@@ -101,7 +89,7 @@
     missionWeights:
       0:
         STR_MARTIAN_AIR_SUPREMACY_2: 100
-    firstMonth: 8
+    firstMonth: 16
     startDelay: 1000
     minScore: 1300
     maxScore: 1799
@@ -125,7 +113,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 0
     varName: MartianStaticCamp
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -164,7 +152,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 1
     varName: MartianStaticOutpost
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -189,7 +177,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 2
     varName: MartianStaticTroopBarracks
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -213,7 +201,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 6
     varName: MartianStaticHighCommand
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -237,7 +225,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 4
     varName: MartianStaticHarvestFacility
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -261,7 +249,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 5
     varName: MartianStaticWatchtower
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -285,7 +273,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 12
     varName: MartianStaticCloneLab
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -309,7 +297,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 8
     varName: MartianStatiCloneLab
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
@@ -333,7 +321,7 @@
         STR_SIBERIA: 0
         STR_AUSTRALASIA: 0
     useTable: false
-    #maxRuns: 1
+    firstMonth: 14
     varName: MartianStaticRedoubt
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
