@@ -8,12 +8,12 @@ en-US:
       STR_NEW_BATTLE: "Skirmirshes"
       STR_MISSION_GENERATOR: "THE WAR TO END ALL WARS"
       STR_UFOPAEDIA_UC: "WAR CODEX"
-      STR_DAMAGE_10: SUPER AP
+      STR_DAMAGE_10: K-MM BALLISTIC
       STR_DAMAGE_11: ELECTRIC
-      STR_DAMAGE_12: HYPER AP
+      STR_DAMAGE_12: COILGUN BALLISTIC
       STR_DAMAGE_13: THERMAL
       STR_DAMAGE_14: BLACK SMOKE
-      STR_DAMAGE_15: BEAM ENERGY
+      STR_DAMAGE_15: SHRAPNEL
       STR_DAMAGE_16: COLD
       STR_DAMAGE_17: TOXIC
       STR_DAMAGE_18: FLAMES
@@ -449,8 +449,10 @@ en-US:
         means 'sawed-off' in Russian.
       STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
       STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
-      STR_BERDAN_II: Berdan II Rifle
-      STR_BERDAN_II_UFOPEDIA: Old single-shot service rifle, used from 1870 till replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
+      STR_BERDAN_II: Berdan II Rifle 
+      STR_BERDAN_II_AMMO: Berdan II Ammo 
+      STR_BERDAN_II_AMMO_KMM: Berdan II K-MM Ammo
+      STR_BERDAN_II_UFOPEDIA: Old single-shot service rifle, used from 1870 until replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
       STR_FEDOROV_AVTOMAT: Fedorov Avtomat SLR
       STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag
       STR_FEDOROV_AVTOMAT_MAG_KMM: Fedorov Avtomat K-MM Mag
@@ -829,14 +831,15 @@ en-US:
       STR_TESLA_TRENCH_BROOM_UFOPEDIA: "A devastating Electric weapon meant to
         maximize lethal damage at close range. A heavy coil and the removal of
         the rails makes it highly impredecible and powerful."
+      STR_TESLA_EXTENDED_BATTERY: "Tesla Extended Battery"
       STR_TESLA_PISTOL: "Tesla 'Lightning' Pistol"
-      STR_TESLA_PISTOL_UFOPEDIA: Compacting the Electric coils to a size small enough to be used with one hand was a challenge for Tesla's team. The result wasn't exactly small, but at least it fits on one hand... barely 
+      STR_TESLA_PISTOL_UFOPEDIA: "Compacting the Electric coils to a size small enough to be used with one hand was a challenge for Tesla's team. The result wasn't exactly small, but at least it fits on one hand... barely"
       STR_TESLA_SMG: "Tesla 'Typhoon' SMG"
-      STR_TESLA_SMG_UFOPEDIA: null
-      STR_TESLA_LIGHT_BATTERY: Tesla Light Battery
+      STR_TESLA_SMG_UFOPEDIA: "Created by Tesla's team employing as basis a prototype frame of General Thompson's SMG called 'Persuader', the 'Typhoon' is a fast and powerful close range weapon used to clear enemy buildings and fortifications."
+      STR_TESLA_LIGHT_BATTERY: "Tesla Light Battery"
       STR_TESLA_AUTOCANNON: "Tesla 'Hailstorm' Cannon"
       STR_TESLA_HEAVY_BATTERY: "Tesla Heavy Battery"
-      STR_TESLA_AUTOCANNON_UFOPEDIA: null
+      STR_TESLA_AUTOCANNON_UFOPEDIA: "The most powerful infantry Electric weapon, planned to be used as a heavy support weapon. The highly powerful discharge can fry armored enemies with ease. The major drawback is the limited range.""
       ##########################################
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
