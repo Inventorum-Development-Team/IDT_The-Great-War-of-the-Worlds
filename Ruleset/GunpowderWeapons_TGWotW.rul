@@ -165,18 +165,18 @@ items:
     handSprite: 168
     fireSound: 101
     reloadSound: 301
-    bulletSpeed: 16
     compatibleAmmo:
       - STR_SMLE_MKIII_CLIP
       - STR_SMLE_MKIII_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 65
+    kneelBonus: 120
     accuracySnap: 75
-    accuracyAimed: 90
-    tuSnap: 20
-    tuAimed: 35
-    tuLoad: 15
-    minRange: 15
+    accuracyAimed: 100
+    tuSnap: 30
+    tuAimed: 45
+    tuLoad: 20
+    minRange: 14
     snapRange: 24
     aimRange: 34
     dropoff: 5
@@ -185,7 +185,6 @@ items:
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2000
 
@@ -208,9 +207,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 30
+    power: 40
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 10
     battleType: 2
     armor: 12
@@ -234,9 +234,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 45
+    power: 55
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     clipSize: 5
     battleType: 2
     armor: 12
@@ -248,6 +249,7 @@ items:
         STR_BALLISTIC,
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
+        STR_SNIPER_RIFLES,
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
@@ -260,30 +262,27 @@ items:
     floorSprite: 216
     handSprite: 216
     fireSound: 105
-    bulletSpeed: 20
     reloadSound: 305
     compatibleAmmo:
       - STR_SPRINGFIELD_CLIP
       - STR_SPRINGFIELD_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 50
-    accuracySnap: 60
-    accuracyAimed: 80
-    tuSnap: 30
+    kneelBonus: 130
+    accuracySnap: 95
+    accuracyAimed: 120
+    tuSnap: 40
     tuAimed: 60
-    tuLoad: 17
+    tuLoad: 20
     minRange: 15
-    snapRange: 18
-    aimRange: 28
-    dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
+    snapRange: 25
+    aimRange: 35
+    dropoff: 5
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 50
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2030
 
@@ -304,7 +303,6 @@ items:
     floorSprite: 248
     handSprite: 248
     fireSound: 105
-    bulletSpeed: 20
     reloadSound: 305
     compatibleAmmo:
       - STR_SPRINGFIELD_CLIP
@@ -316,12 +314,10 @@ items:
     tuSnap: 30
     tuAimed: 60
     tuLoad: 17
-    minRange: 15
-    snapRange: 18
-    aimRange: 28
-    dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
+    minRange: 11
+    snapRange: 21
+    aimRange: 31
+    dropoff: 5
     battleType: 1
     twoHanded: true
     # Bayonet segment
@@ -383,7 +379,6 @@ items:
     oneHandedPenalty: 50
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2040
 
@@ -406,7 +401,8 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 32
+    power: 42
+    bulletSpeed: 10
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
     invWidth: 1
@@ -434,9 +430,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 47
+    power: 57
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     invWidth: 1
     invHeight: 1
     clipSize: 3
@@ -455,29 +452,26 @@ items:
     floorSprite: 296
     handSprite: 296
     fireSound: 110
-    bulletSpeed: 20
     reloadSound: 310
     compatibleAmmo:
       - STR_GEWEHR98_CLIP
       - STR_GEWEHR98_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 50
-    accuracySnap: 90
-    accuracyAimed: 140
+    kneelBonus: 120
+    accuracySnap: 85
+    accuracyAimed: 100
     tuSnap: 40
     tuAimed: 70
-    minRange: 16
+    minRange: 12
     snapRange: 22
-    aimRange: 36
+    aimRange: 32
     dropoff: 5
-    powerRangeThreshold: 28
-    powerRangeReduction: 1
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2070
 
@@ -494,9 +488,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 32
+    power: 42
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 5
     battleType: 2
     armor: 12
@@ -514,9 +509,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 47
+    power: 57
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     clipSize: 3
     battleType: 2
     armor: 12
@@ -539,34 +535,27 @@ items:
     floorSprite: 344
     handSprite: 344
     fireSound: 113
-    bulletSpeed: 20
     reloadSound: 313
     compatibleAmmo:
       - STR_LEBEL_CLIP
       - STR_LEBEL_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 75
+    kneelBonus: 120
     accuracySnap: 56
     accuracyAimed: 75
     tuSnap: 36
     tuAimed: 68
-    tuLoad: 20
-    minRange: 16
+    tuLoad: 25
+    minRange: 12
     snapRange: 22
-    aimRange: 28
+    aimRange: 32
     dropoff: 4
-    damageBonus:
-      firing: 1.3
-      reactions: 1.5
-    accuracyMultiplier:
-      firing: 1.4
-      reactions: 1.9
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     # Bayonet segment
     meleeSound:
       [
@@ -645,9 +634,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 28
+    power: 38
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 8
     battleType: 2
     armor: 12
@@ -671,9 +661,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 48
+    power: 58
     refNode: *KMMRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 15
     clipSize: 4
     battleType: 2
     armor: 12
@@ -696,24 +687,22 @@ items:
     floorSprite: 392
     handSprite: 392
     fireSound: 105
-    bulletSpeed: 20
     reloadSound: 305
     compatibleAmmo:
       - STR_MOSIN_NAGANT_CLIP
       - STR_MOSIN_NAGANT_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 50
+    kneelBonus: 120
     accuracySnap: 60
     accuracyAimed: 80
     tuSnap: 30
     tuAimed: 60
     tuLoad: 17
-    minRange: 15
-    snapRange: 18
-    aimRange: 28
+    minRange: 13
+    snapRange: 23
+    aimRange: 33
     dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
     battleType: 1
     twoHanded: true
     # Bayonet segment
@@ -775,7 +764,6 @@ items:
     oneHandedPenalty: 50
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2130
 
@@ -796,23 +784,21 @@ items:
     floorSprite: 424
     handSprite: 424
     fireSound: 105
-    bulletSpeed: 20
     reloadSound: 305
     compatibleAmmo:
       - STR_MOSIN_NAGANT_CLIP
       - STR_MOSIN_NAGANT_CLIP_KMM
     accuracyCloseQuarters: 50
-    accuracySnap: 60
-    accuracyAimed: 80
+    kneelBonus: 130
+    accuracySnap: 70
+    accuracyAimed: 90
     tuSnap: 30
-    tuAimed: 60
+    tuAimed: 50
     tuLoad: 17
-    minRange: 15
-    snapRange: 18
-    aimRange: 28
+    minRange: 14
+    snapRange: 22
+    aimRange: 32
     dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
     battleType: 1
     twoHanded: true
     # Bayonet segment
@@ -874,7 +860,6 @@ items:
     oneHandedPenalty: 50
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2140
 
@@ -888,7 +873,6 @@ items:
     bigSprite: 1256
     floorSprite: 1256
     handSprite: 1256
-    bulletSpeed: 15
     fireSound: 109
     reloadSound: 309
     compatibleAmmo:
@@ -896,9 +880,10 @@ items:
       - STR_MOSIN_NAGANT_CLIP_KMM
     accuracyCloseQuarters: 140
     accuracySnap: 50
-    accuracyAimed: 75
-    tuSnap: 18
-    tuAimed: 28
+    accuracyAimed: 65
+    minRange: 4
+    tuSnap: 30
+    tuAimed: 45
     invHeight: 2
     invWidth: 1
     battleType: 1
@@ -909,7 +894,7 @@ items:
     categories:
       [
         STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
+        STR_BOLT_ACTION_RIFLES, STR_PISTOLS,
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
@@ -924,9 +909,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 32
+    power: 42
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     invWidth: 1
     invHeight: 1
     clipSize: 5
@@ -937,7 +923,7 @@ items:
     categories:
       [
         STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
+        STR_BOLT_ACTION_RIFLES, STR_PISTOLS,
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
@@ -952,12 +938,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 47
+    power: 57
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     invWidth: 1
     invHeight: 1
-    clipSize: 5
+    clipSize: 3
     battleType: 2
     armor: 12
     listOrder: 2160
@@ -972,14 +959,13 @@ items:
         STR_RUSSIAN_EQUIPMENT,
       ]
     size: 0.2
-    costBuy: 1500
-    costSell: 1150
+    costBuy: 500
+    costSell: 450
     weight: 5
     bigSprite: 464
     floorSprite: 464
     handSprite: 464
     fireSound: 105
-    bulletSpeed: 20
     reloadSound: 305
     compatibleAmmo:
       - STR_BERDAN_II_AMMO
@@ -991,17 +977,14 @@ items:
     tuAimed: 60
     tuLoad: 17
     minRange: 15
-    snapRange: 18
-    aimRange: 28
-    dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
+    snapRange: 25
+    aimRange: 35
+    dropoff: 5
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 50
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2170
 
@@ -1024,9 +1007,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*112=420
-    power: 35
+    power: 50
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     invWidth: 1
     invHeight: 1
     clipSize: 1
@@ -1052,9 +1036,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 50
+    power: 65
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     invWidth: 1
     invHeight: 1
     clipSize: 1
@@ -1073,7 +1058,6 @@ items:
   #    handSprite: 208
   #    bulletSprite: 12 #Rifle bullet 35*112=420
   #    fireSound: 101
-  #    bulletSpeed: 16
   #    reloadSound: 301
   #    compatibleAmmo:
   #- STR_GEWEHR_M95_CLIP
@@ -1084,7 +1068,7 @@ items:
   #    tuSnap: 20
   #    tuAimed: 35
   #    tuLoad: 15
-  #    minRange: 15
+  #    minRange: 14
   #    snapRange: 24
   #    aimRange: 34
   #    dropoff: 5
@@ -1109,6 +1093,7 @@ items:
   #    power: 33
   #    refNode: *BasicRifleRoundAntiArmor
   #    damageType: 1
+  #    bulletSpeed: 10
   #    clipSize: 10
   #    battleType: 2
   #    armor: 12
@@ -1124,7 +1109,8 @@ items:
   #    hitAnimation: 26
   #    power: 48
   #    refNode: *KMMRifleRoundAntiArmor
-  #    damageType: 1
+  #    damageType: 10
+  #    bulletSpeed: 15
   #    clipSize: 5
   #    battleType: 2
   #    armor: 12
@@ -1148,10 +1134,11 @@ items:
     compatibleAmmo:
       - STR_PHLOGISTON_RUBY_CLIP
     accuracyCloseQuarters: 65
-    accuracySnap: 75
-    accuracyAimed: 90
-    tuSnap: 20
-    tuAimed: 35
+    kneelBonus: 130
+    accuracySnap: 80
+    accuracyAimed: 110
+    tuSnap: 40
+    tuAimed: 50
     tuLoad: 15
     minRange: 15
     snapRange: 24
@@ -1185,7 +1172,7 @@ items:
     hitSound: 19
     hitAnimation: 100 #Red laser hit
     bulletSprite: 18 #Red laser beam 35*18=630
-    power: 50
+    power: 65
     refNode: *HeavyPhlogistonAntiArmor
     damageType: 4
     clipSize: 8
@@ -1218,7 +1205,6 @@ items:
     floorSprite: 648
     handSprite: 648
     fireSound: 102
-    bulletSpeed: 17
     reloadSound: 302
     compatibleAmmo:
       - STR_FARQHUAR_HILL_DRUM
@@ -1226,19 +1212,17 @@ items:
     accuracyCloseQuarters: 70
     accuracySnap: 55
     accuracyAimed: 65
+    minRange: 14
     tuSnap: 18
     tuAimed: 35
     tuLoad: 13
-    snapRange: 16
-    aimRange: 24
-    dropoff: 6
-    powerRangeThreshold: 20
-    powerRangeReduction: 1
+    snapRange: 24
+    aimRange: 34
+    dropoff: 4
     twoHanded: true
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 15
     battleType: 1
     attraction: 8
     listOrder: 2220
@@ -1264,6 +1248,7 @@ items:
     power: 30
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 19
     battleType: 2
     armor: 12
@@ -1291,7 +1276,8 @@ items:
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     clipSize: 10
     battleType: 2
     armor: 12
@@ -1322,7 +1308,7 @@ items:
     compatibleAmmo:
       - STR_MONDRAGON_MAG
       - STR_MONDRAGON_MAG_KMM
-    accuracyCloseQuarters: 60
+    accuracyCloseQuarters: 75
     accuracySnap: 60
     accuracyAimed: 85
     tuSnap: 25
@@ -1331,12 +1317,12 @@ items:
     costThrow:
       energy: 18
     battleType: 1
-    snapRange: 16
-    aimRange: 24
-    dropoff: 5
+    minRange: 8
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
     twoHanded: true
     oneHandedPenalty: 40
-    bulletSpeed: 17
     invWidth: 1
     invHeight: 3
     armor: 30
@@ -1422,7 +1408,8 @@ items:
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 31
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     clipSize: 20
     battleType: 2
     armor: 30
@@ -1452,6 +1439,7 @@ items:
     power: 46
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
+    bulletSpeed: 15
     clipSize: 10
     battleType: 2
     armor: 30
@@ -1464,7 +1452,7 @@ items:
         STR_BALLISTIC,
         STR_FIREARMS,
         STR_SNIPER_RIFLES,
-        STR_HEAVY_EQUIPMENT,
+        STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS,
         STR_GERMAN_EQUIPMENT,
       ]
     #requiresBuy:
@@ -1488,15 +1476,12 @@ items:
     tuAimed: 75
     tuLoad: 10
     minRange: 14
-    snapRange: 18
-    aimRange: 28
+    snapRange: 24
+    aimRange: 34
     dropoff: 4
-    powerRangeThreshold: 24
-    powerRangeReduction: 1
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
-    bulletSpeed: 10
     invWidth: 1
     invHeight: 3
     armor: 30
@@ -1508,7 +1493,7 @@ items:
       [
         STR_BALLISTIC,
         STR_SNIPER_RIFLES,
-        STR_HEAVY_EQUIPMENT,
+        STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS,
         STR_GERMAN_EQUIPMENT,
         STR_CLIPS,
       ]
@@ -1526,6 +1511,7 @@ items:
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 32
     damageType: 1
+    bulletSpeed: 10
     refNode: *BasicRifleRoundAntiArmor
     clipSize: 25
     battleType: 2
@@ -1555,7 +1541,8 @@ items:
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     clipSize: 12
     battleType: 2
     armor: 30
@@ -1581,7 +1568,6 @@ items:
     floorSprite: 768
     handSprite: 768
     fireSound: 116
-    bulletSpeed: 17
     reloadSound: 316
     compatibleAmmo:
       - STR_RSC17_CLIP
@@ -1595,15 +1581,14 @@ items:
     tuAuto: 30
     tuLoad: 14
     minRange: 12
-    snapRange: 16
-    aimRange: 25
-    dropoff: 3
+    snapRange: 22
+    aimRange: 32
+    dropoff: 4
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 15
     attraction: 8
     listOrder: 2310
   - type: STR_RSC17_CLIP
@@ -1630,6 +1615,7 @@ items:
     power: 33
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 8
     battleType: 2
     armor: 12
@@ -1655,7 +1641,6 @@ items:
     floorSprite: 1672
     handSprite: 1672
     fireSound: 116
-    bulletSpeed: 17
     reloadSound: 316
     compatibleAmmo:
       - STR_RSC17_CLIP
@@ -1668,16 +1653,15 @@ items:
     tuAimed: 45
     tuAuto: 30
     tuLoad: 14
-    minRange: 12
-    snapRange: 16
-    aimRange: 25
+    minRange: 10
+    snapRange: 20
+    aimRange: 30
     dropoff: 3
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 15
     attraction: 8
     listOrder: 2325
   - type: STR_RSC17_CLIP_KMM
@@ -1703,7 +1687,8 @@ items:
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     clipSize: 5
     battleType: 2
     armor: 12
@@ -1741,19 +1726,17 @@ items:
     tuSnap: 30
     tuAimed: 45
     tuAuto: 45
-    tuLoad: 25
-    autoRange: 12
-    snapRange: 15
-    aimRange: 18
+    tuLoad: 15
+    minRange: 8
+    autoRange: 18
+    snapRange: 26
+    aimRange: 30
     dropoff: 3
-    powerRangeThreshold: 15
-    powerRangeReduction: 5
     costThrow:
       energy: 18
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
-    bulletSpeed: 10
     invWidth: 1
     invHeight: 3
     armor: 30
@@ -1783,6 +1766,7 @@ items:
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 29
     damageType: 1
+    bulletSpeed: 10
     clipSize: 20
     battleType: 2
     armor: 30
@@ -1811,7 +1795,8 @@ items:
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 44
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     clipSize: 10
     battleType: 2
     armor: 30
@@ -1842,25 +1827,23 @@ items:
       - STR_CEI_RIGOTTI_CLIP
       - STR_CEI_RIGOTTI_CLIP_KMM
     accuracyCloseQuarters: 50
-    accuracySnap: 65
-    accuracyAimed: 70
-    accuracyAuto: 50
-    tuSnap: 30
+    accuracySnap: 75
+    accuracyAimed: 80
+    accuracyAuto: 55
+    tuSnap: 35
     tuAimed: 45
-    tuAuto: 45
+    tuAuto: 40
     tuLoad: 25
-    autoRange: 12
-    snapRange: 15
-    aimRange: 18
-    dropoff: 3
-    powerRangeThreshold: 15
-    powerRangeReduction: 5
+    autoRange: 15
+    minRange: 10
+    snapRange: 20
+    aimRange: 30
+    dropoff: 4
     costThrow:
       energy: 18
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
-    bulletSpeed: 10
     invWidth: 1
     invHeight: 3
     armor: 30
@@ -1891,6 +1874,7 @@ items:
     power: 31
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 10
     battleType: 2
     armor: 30
@@ -1919,7 +1903,8 @@ items:
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 46
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     clipSize: 6
     battleType: 2
     armor: 30
@@ -1960,15 +1945,14 @@ items:
     tuAimed: 35
     tuLoad: 15
     minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
+    snapRange: 25
+    aimRange: 35
+    dropoff: 3
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2400
   #    listOrder: 2002
@@ -1993,7 +1977,7 @@ items:
     hitAnimation: 100 #Red laser hit
     bulletSprite: 18 #Red laser beam #18*35=630
     hitSound: 19
-    power: 45
+    power: 55
     refNode: *MediumPhlogistonAntiArmor
     damageType: 4
     clipSize: 50
@@ -2020,7 +2004,6 @@ items:
     bigSprite: 976
     floorSprite: 976
     handSprite: 976
-    bulletSpeed: 17
     fireSound: 100
     reloadSound: 300
     compatibleAmmo:
@@ -2028,12 +2011,16 @@ items:
       - STR_REVOLVER_CLIP_KMM
       - STR_REVOLVER_CLIP_DUMDUM
     accuracySnap: 60
-    accuracyAimed: 65
-    accuracyAuto: 45
-    accuracyCloseQuarters: 130
+    accuracyAimed: 75
+    accuracyAuto: 50
+    accuracyCloseQuarters: 140
     tuSnap: 15
-    tuAimed: 25
-    tuAuto: 15
+    tuAimed: 20
+    tuAuto: 20
+    minRange: 1
+    snapRange: 10
+    aimRange: 20
+    autoRange: 15
     invHeight: 2
     invWidth: 1
     battleType: 1
@@ -2050,20 +2037,20 @@ items:
     bigSprite: 1008
     floorSprite: 1008
     handSprite: 1008
-    bulletSpeed: 17
     fireSound: 100
     reloadSound: 300
     compatibleAmmo:
       - STR_REVOLVER_CLIP
       - STR_REVOLVER_CLIP_KMM
       - STR_REVOLVER_CLIP_DUMDUM
-    accuracySnap: 60
-    accuracyAimed: 65
-    accuracyAuto: 45
-    accuracyCloseQuarters: 130
-    tuSnap: 15
-    tuAimed: 25
-    tuAuto: 15
+    accuracySnap: 70
+    accuracyAimed: 80
+    accuracyCloseQuarters: 110
+    tuSnap: 30
+    tuAimed: 40
+    minRange: 3
+    snapRange: 13
+    aimRange: 23
     invHeight: 2
     invWidth: 1
     battleType: 1
@@ -2080,20 +2067,20 @@ items:
     bigSprite: 1040
     floorSprite: 1040
     handSprite: 1040
-    bulletSpeed: 17
     fireSound: 100
     reloadSound: 300
     compatibleAmmo:
       - STR_REVOLVER_CLIP
       - STR_REVOLVER_CLIP_KMM
       - STR_REVOLVER_CLIP_DUMDUM
-    accuracySnap: 60
-    accuracyAimed: 65
-    accuracyAuto: 45
-    accuracyCloseQuarters: 130
-    tuSnap: 15
-    tuAimed: 25
-    tuAuto: 15
+    accuracySnap: 55
+    accuracyAimed: 75
+    accuracyCloseQuarters: 120
+    tuSnap: 10
+    tuAimed: 20
+    minRange: 2
+    snapRange: 12
+    aimRange: 22
     invHeight: 2
     invWidth: 1
     battleType: 1
@@ -2112,6 +2099,7 @@ items:
     power: 32
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2132,7 +2120,8 @@ items:
     handSprite: 1080
     power: 48
     refNode: *KMMPistolRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
@@ -2153,7 +2142,8 @@ items:
     handSprite: 1088
     power: 40
     refNode: *DumDumWoundingRound
-    damageType: 1
+    damageType: 15
+    bulletSpeed: 8
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2185,7 +2175,9 @@ items:
     tuSnap: 18
     tuAimed: 32
     tuLoad: 15
-    aimRange: 20
+    minRange: 1
+    snapRange: 11
+    aimRange: 21
     kneelBonus: 105
     costThrow:
       energy: 10
@@ -2194,7 +2186,6 @@ items:
     invHeight: 2
     armor: 35
     attraction: 12
-    bulletSpeed: 15
     listOrder: 2480
 
   - type: STR_M1911_COLT_MAG
@@ -2209,9 +2200,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
-    power: 35
+    power: 30
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 7
     costThrow:
       energy: 4
@@ -2234,8 +2226,9 @@ items:
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
     refNode: *KMMPistolRoundAntiArmor
-    damageType: 1
-    clipSize: 7
+    damageType: 10
+    clipSize: 4
+    bulletSpeed: 15
     costThrow:
       energy: 4
     battleType: 2
@@ -2253,7 +2246,6 @@ items:
     bigSprite: 1136
     floorSprite: 1136
     handSprite: 1136
-    bulletSpeed: 15
     fireSound: 109
     reloadSound: 309
     compatibleAmmo:
@@ -2262,8 +2254,12 @@ items:
     accuracyCloseQuarters: 140
     accuracySnap: 50
     accuracyAimed: 75
-    tuSnap: 18
-    tuAimed: 28
+    tuSnap: 15
+    tuAimed: 20
+    tuLoad: 15
+    minRange: 3
+    snapRange: 13
+    aimRange: 23
     invHeight: 2
     invWidth: 1
     battleType: 1
@@ -2279,9 +2275,10 @@ items:
     bigSprite: 1160
     floorSprite: 1160
     handSprite: 200
-    power: 33
+    power: 28
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2302,7 +2299,8 @@ items:
     handSprite: 208
     power: 43
     refNode: *KMMPistolRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
@@ -2318,11 +2316,10 @@ items:
     size: 0.1
     costBuy: 2500
     costSell: 900
-    weight: 6
+    weight: 4
     bigSprite: 1216
     floorSprite: 1216
     handSprite: 1216
-    bulletSpeed: 15
     fireSound: 109
     reloadSound: 309
     compatibleAmmo:
@@ -2333,6 +2330,9 @@ items:
     accuracyAimed: 75
     tuSnap: 18
     tuAimed: 28
+    minRange: 4
+    snapRange: 14
+    aimRange: 24
     invHeight: 2
     invWidth: 1
     battleType: 1
@@ -2348,13 +2348,14 @@ items:
     bigSprite: 1240
     floorSprite: 1240
     handSprite: 672
-    power: 33
+    power: 29
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
-    clipSize: 10
+    clipSize: 8
     invHeight: 1
     invWidth: 1
     battleType: 2
@@ -2369,13 +2370,14 @@ items:
     bigSprite: 1248
     floorSprite: 1248
     handSprite: 680
-    power: 33
+    power: 44
     refNode: *KMMPistolRoundAntiArmor
     damageType: 1
+    bulletSpeed: 15
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
-    clipSize: 10
+    clipSize: 5
     invHeight: 1
     invWidth: 1
     battleType: 2
@@ -2403,29 +2405,30 @@ items:
     bulletSpeed: 16
     compatibleAmmo:
       - STR_TESLA_LIGHT_BATTERY
-    accuracyCloseQuarters: 65
+    accuracyCloseQuarters: 120
     confAimed:
       spendPerShot: 10 # 10x battery consumption for 2x power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER
     confSnap:
       spendPerShot: 5
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER
     tags:
       AIMED_2X_POWER: 1
-    accuracySnap: 75
-    accuracyAimed: 90
+    accuracySnap: 60
+    accuracyAimed: 120
     tuSnap: 20
     tuAimed: 35
-    tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
+    tuLoad: 20
+    minRange: 2
+    snapRange: 12
+    aimRange: 24
+    dropoff: 2
     battleType: 1
     twoHanded: false
     invWidth: 1
     invHeight: 2
-    autoRange: 11
     attraction: 8
     listOrder: 2580
   #    listOrder: 2002
@@ -2453,25 +2456,26 @@ items:
     confAimed:
       spendPerShot: 8 # 10x battery consumption for 2x power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER
     confSnap:
       spendPerShot: 4
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER
     tags:
       AIMED_2X_POWER: 1
     accuracySnap: 75
-    accuracyAimed: 90
+    accuracyAimed: 130
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
+    minRange: 4
+    snapRange: 15
+    aimRange: 25
+    dropoff: 3
     battleType: 1
     twoHanded: false
     invWidth: 1
     invHeight: 2
-    autoRange: 11
     attraction: 8
     listOrder: 2590
   #    listOrder: 2002
@@ -2508,17 +2512,17 @@ items:
         STR_MEDIC_CLASS,
         STR_LIGHT_EQUIPMENT,
         STR_FRENCH_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.1
     costBuy: 4000
     costSell: 3200
-    weight: 6
+    weight: 5
     bigSprite: 1400
     floorSprite: 1400
     handSprite: 1400
-    bulletSpeed: 20
     fireSound: 116
     reloadSound: 315
     compatibleAmmo:
@@ -2532,11 +2536,14 @@ items:
     tuAuto: 24
     tuAimed: 28
     tuLoad: 15
-    snapRange: 10
-    aimRange: 15
+    minRange: 10
+    snapRange: 20
+    autoRange: 25
+    aimRange: 20
+    dropoff: 4
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 200
+    kneelBonus: 150
     sprayWaypoints: 2
     costThrow:
       energy: 12
@@ -2554,6 +2561,7 @@ items:
         STR_CARBINES,
         STR_MEDIC_CLASS,
         STR_FRENCH_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT,
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
@@ -2569,9 +2577,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 45
+    power: 35
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     invWidth: 1
     invHeight: 1
     clipSize: 32
@@ -2602,12 +2611,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 45
+    power: 50
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
+    bulletSpeed: 15
     invWidth: 1
     invHeight: 1
-    clipSize: 32
+    clipSize: 16
     costThrow:
       energy: 4
     battleType: 2
@@ -2649,22 +2659,28 @@ items:
     size: 0.1
     costBuy: 2500
     costSell: 900
-    weight: 6
+    weight: 5
     bigSprite: 1512
     floorSprite: 1512
     handSprite: 1512
-    bulletSpeed: 15
     fireSound: 109
     reloadSound: 309
     compatibleAmmo:
       - STR_MAUSER_C96_MAG
       - STR_MAUSER_C96_MAG_KMM
     accuracyCloseQuarters: 140
-    accuracySnap: 50
+    accuracySnap: 65
     accuracyAimed: 75
-    twoHanded: true
+    accuracyAuto: 50
+    twoHanded: true 
+    dropoff: 3
     tuSnap: 18
     tuAimed: 28
+    tuAuto: 24
+    minRange: 8
+    snapRange: 15
+    autoRange: 12
+    aimRange: 25
     invHeight: 3
     invWidth: 2
     battleType: 1
@@ -2680,8 +2696,9 @@ items:
     bigSprite: 1536
     floorSprite: 1536
     handSprite: 672
-    power: 33
+    power: 29
     damageType: 1
+    bulletSpeed: 10
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2700,7 +2717,7 @@ items:
     bigSprite: 1544
     floorSprite: 1544
     handSprite: 680
-    power: 33
+    power: 44
     damageType: 1
     hitSound: 22
     hitAnimation: 26
@@ -2722,17 +2739,19 @@ items:
     bigSprite: 1592
     floorSprite: 1592
     handSprite: 1592
-    bulletSpeed: 15
     fireSound: 109
     reloadSound: 309
     compatibleAmmo:
       - STR_LUGER_ARTILLERY_DRUM
       - STR_LUGER_ARTILLERY_DRUM_KMM
     accuracyCloseQuarters: 140
-    accuracySnap: 50
-    accuracyAimed: 75
+    accuracySnap: 65
+    accuracyAimed: 80
     tuSnap: 18
     tuAimed: 28
+    minRange: 12
+    snapRange: 16
+    aimRange: 26
     invHeight: 3
     invWidth: 2
     battleType: 1
@@ -2748,9 +2767,10 @@ items:
     bigSprite: 1616
     floorSprite: 1616
     handSprite: 1616
-    power: 33
+    power: 29
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
@@ -2769,13 +2789,14 @@ items:
     bigSprite: 1624
     floorSprite: 1624
     handSprite: 1624
-    power: 33
+    power: 45
     refNode: *KMMPistolRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
-    clipSize: 22
+    clipSize: 16
     invHeight: 1
     invWidth: 2
     battleType: 2
@@ -2787,9 +2808,9 @@ items:
       [
         STR_BALLISTIC,
         STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
+        STR_CARBINES,
         STR_ITALIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS,
+        STR_MEDIC_CLASS,
       ]
     size: 0.2
     costBuy: 1500
@@ -2799,7 +2820,6 @@ items:
     floorSprite: 1696
     handSprite: 1696
     fireSound: 122
-    bulletSpeed: 16
     reloadSound: 322
     compatibleAmmo:
       - STR_CARCANO_M91_CARBINE_CLIP
@@ -2810,8 +2830,9 @@ items:
     tuSnap: 15
     tuAimed: 20
     tuLoad: 15
-    snapRange: 18
-    aimRange: 22
+    minRange: 9
+    snapRange: 20
+    aimRange: 30
     dropoff: 4
     battleType: 1
     twoHanded: true
@@ -2881,10 +2902,10 @@ items:
     categories:
       [
         STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
+        STR_CARBINES,
         STR_ITALIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS,
+        STR_MEDIC_CLASS,
       ]
     size: 0.1
     costBuy: 150
@@ -2899,6 +2920,7 @@ items:
     power: 28
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 6
     battleType: 2
     armor: 12
@@ -2907,10 +2929,10 @@ items:
     categories:
       [
         STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
+        STR_CARBINES,
         STR_ITALIAN_EQUIPMENT,
         STR_CLIPS,
-        STR_RIFLEMAN_CLASS,
+        STR_MEDIC_CLASS,
       ]
     size: 0.1
     costBuy: 150
@@ -2922,10 +2944,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 28
+    power: 43
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
-    clipSize: 6
+    damageType: 10
+    clipSize: 4
     battleType: 2
     armor: 12
     listOrder: 2730
@@ -2936,12 +2958,10 @@ items:
   - type: STR_PHLOGISTON_AUTOMATIC_CARBINE
     categories:
       [
-        STR_BALLISTIC,
+        STR_PHLOGISTON,
         STR_FIREARMS,
         STR_CARBINES,
         STR_MEDIC_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
@@ -2952,7 +2972,7 @@ items:
     bigSprite: 1760
     floorSprite: 1760
     handSprite: 1760
-    bulletSpeed: 20
+    bulletSpeed: 16
     fireSound: [270, 271, 272, 273, 274, 275]
     reloadSound: 315
     compatibleAmmo:
@@ -2967,18 +2987,18 @@ items:
     tags:
       AIMED_2X_POWER: 1
     accuracySnap: 60
-    accuracyAimed: 70
-    tuSnap: 17
-    tuAimed: 28
-    tuLoad: 15
-    snapRange: 10
-    aimRange: 15
+    accuracyAimed: 90
+    tuSnap: 15
+    tuAimed: 35
+    tuLoad: 20
+    minRange: 12
+    snapRange: 22
+    aimRange: 32
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 200
-    sprayWaypoints: 2
+    kneelBonus: 150
     costThrow:
-      energy: 12
+      energy: 8
     battleType: 1
     invWidth: 1
     invHeight: 3
@@ -3007,11 +3027,10 @@ items:
     size: 0.1
     costBuy: 4000
     costSell: 3000
-    weight: 6
+    weight: 5
     bigSprite: 1808
     floorSprite: 1808
     handSprite: 1808
-    bulletSpeed: 20
     fireSound: 138
     reloadSound: 338
     sprayWaypoints: 2
@@ -3031,18 +3050,22 @@ items:
       - STR_ANNIHILATOR_SMG_MAG
       - STR_ANNIHILATOR_SMG_MAG_KMM
     accuracyCloseQuarters: 150
-    accuracySnap: 60
+    accuracySnap: 70
     accuracyAuto: 50
-    accuracyAimed: 70
-    tuSnap: 17
+    accuracyAimed: 40
+    tuSnap: 28
     tuAuto: 24
-    tuAimed: 28
+    tuAimed: 20
     tuLoad: 15
-    snapRange: 10
-    aimRange: 15
+    minRange: 2
+    snapRange: 16
+    aimRange: 10
+    autoRange: 14
+    dropoff: 4
     twoHanded: true
     oneHandedPenalty: 15
     kneelBonus: 100
+    sprayWaypoints: 2
     costThrow:
       energy: 12
     battleType: 1
@@ -3073,12 +3096,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
-    power: 45
+    power: 30
     refNode: *BasicPistolRoundAntiArmor
-    damageType: 10
-    invWidth: 1
+    damageType: 1
+    bulletSpeed: 10
+    invWidth: 2
     invHeight: 1
-    clipSize: 32
+    clipSize: 30
     costThrow:
       energy: 4
     battleType: 2
@@ -3108,9 +3132,10 @@ items:
     power: 45
     refNode: *KMMPistolRoundAntiArmor
     damageType: 10
+    bulletSpeed: 15
     invWidth: 1
     invHeight: 1
-    clipSize: 32
+    clipSize: 20
     costThrow:
       energy: 4
     battleType: 2
@@ -3135,7 +3160,6 @@ items:
     bigSprite: 1848
     floorSprite: 1848
     handSprite: 1848
-    bulletSpeed: 20
     fireSound: 138
     reloadSound: 338
     confAuto:
@@ -3154,18 +3178,22 @@ items:
       - STR_MP18_DRUM
       - STR_MP18_DRUM_KMM
     accuracyCloseQuarters: 150
-    accuracySnap: 60
-    accuracyAuto: 50
-    accuracyAimed: 70
-    tuSnap: 17
+    accuracySnap: 70
+    accuracyAuto: 65
+    accuracyAimed: 50
+    tuSnap: 30
     tuAuto: 24
-    tuAimed: 28
-    tuLoad: 15
-    snapRange: 10
-    aimRange: 15
-    twoHanded: true
+    tuAimed: 18
+    tuLoad: 16
+    minRange: 4
+    snapRange: 20
+    aimRange: 12
+    autoRange: 16
+    dropoff: 4
+    twoHanded: true 
+    sprayWaypoints: 2
     oneHandedPenalty: 15
-    kneelBonus: 100
+    kneelBonus: 120
     costThrow:
       energy: 12
     battleType: 1
@@ -3196,9 +3224,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
-    power: 45
+    power: 29
     refNode: *BasicPistolRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     invWidth: 2
     invHeight: 1
     clipSize: 32
@@ -3231,9 +3260,10 @@ items:
     power: 45
     refNode: *KMMPistolRoundAntiArmor
     damageType: 10
+    bulletSpeed: 15
     invWidth: 2
     invHeight: 1
-    clipSize: 32
+    clipSize: 20
     costThrow:
       energy: 4
     battleType: 2
@@ -3246,6 +3276,7 @@ items:
         STR_BALLISTIC,
         STR_FIREARMS,
         STR_SMGS,
+        STR_RUSSIAN_EQUIPMENT,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
       ]
@@ -3258,7 +3289,6 @@ items:
     bigSprite: 1888
     floorSprite: 1888
     handSprite: 1888
-    bulletSpeed: 20
     fireSound: 138
     reloadSound: 338
     confAuto:
@@ -3277,18 +3307,21 @@ items:
       - STR_SMG_0818_BOX
       - STR_SMG_0818_BOX_KMM
     accuracyCloseQuarters: 150
-    accuracySnap: 60
+    accuracySnap: 75
     accuracyAuto: 50
-    accuracyAimed: 70
-    tuSnap: 17
-    tuAuto: 24
-    tuAimed: 28
-    tuLoad: 15
-    snapRange: 10
-    aimRange: 15
+    accuracyAimed: 45
+    tuSnap: 30
+    tuAuto: 25
+    tuAimed: 20
+    tuLoad: 35
+    minRange: 3
+    snapRange: 16
+    aimRange: 10
+    autoRange: 14
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 100
+    kneelBonus: 120
+    sprayWaypoints: 2
     costThrow:
       energy: 12
     battleType: 1
@@ -3303,6 +3336,7 @@ items:
       [
         STR_BALLISTIC,
         STR_SMGS,
+        STR_RUSSIAN_EQUIPMENT,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
@@ -3319,9 +3353,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
-    power: 45
+    power: 28
     refNode: *BasicPistolRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     invWidth: 2
     invHeight: 1
     clipSize: 60
@@ -3334,7 +3369,7 @@ items:
     categories:
       [
         STR_BALLISTIC,
-        STR_SMGS,
+        STR_SMGS, STR_RUSSIAN_EQUIPMENT,
         STR_ASSAULT_CLASS,
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
@@ -3351,14 +3386,15 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
-    power: 45
+    power: 44
     refNode: *KMMPistolRoundAntiArmor
     damageType: 10
+    bulletSpeed: 15
     invWidth: 2
     invHeight: 1
-    clipSize: 32
+    clipSize: 30
     costThrow:
-      energy: 4
+      energy: 8
     battleType: 2
     armor: 35
     listOrder: 2830
@@ -3398,20 +3434,23 @@ items:
     compatibleAmmo:
       - STR_BERETTA_MAB18_MAG
       - STR_BERETTA_MAB18_MAG_KMM
-    accuracyCloseQuarters: 120
-    accuracySnap: 40
-    accuracyAuto: 30
+    accuracyCloseQuarters: 130
+    accuracySnap: 50
+    accuracyAuto: 45
+    accuracyAimed: 35
     tuSnap: 10
     tuAuto: 15
+    tuAimed: 8
     tuLoad: 10
-    powerRangeThreshold: 10
-    powerRangeReduction: 2
-    snapRange: 12
-    autoRange: 10
+    minRange: 2
+    snapRange: 16
+    aimRange: 8
+    autoRange: 12
     #autoShots: 5
     dropoff: 3
     twoHanded: true
     oneHandedPenalty: 15
+    sprayWaypoints: 2
     kneelBonus: 130
     # Bayonet segment
     meleeSound:
@@ -3501,8 +3540,9 @@ items:
     power: 26
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     invWidth: 1
-    invHeight: 1
+    invHeight: 2
     clipSize: 25
     costThrow:
       energy: 4
@@ -3531,12 +3571,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 14 #Pistol MM bullet 35*14=490
-    power: 26
+    power: 42
     refNode: *KMMPistolRoundAntiArmor
-    damageType: 1
+    damageType: 10
+    bulletSpeed: 15
     invWidth: 1
-    invHeight: 1
-    clipSize: 25
+    invHeight: 2
+    clipSize: 20
     costThrow:
       energy: 4
     battleType: 2
@@ -3561,7 +3602,6 @@ items:
     bigSprite: 1968
     floorSprite: 1968
     handSprite: 1968
-    bulletSpeed: 10
     fireSound: 125
     reloadSound: 325
     ammo:
@@ -3570,27 +3610,38 @@ items:
     confSnap:
       shots: 4
       name: STR_BURST
+      shortName: STR_BURST_SHORT
       ammoSlot: 0
       arcing: false
     confAuto:
       shots: 8
-      name: STR_RAPID_FIRE
+      name: STR_FULL_AUTO
+      shortName: STR_FULL_AUTO_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAimed:
+      shots: 12
+      name: STR_PRAY_N_SPRAY
+      shortName: STR_PRAY_N_SPRAY_SHORT
       ammoSlot: 0
       arcing: false
     accuracyCloseQuarters: 150
     accuracySnap: 55
     accuracyAuto: 40
-    tuSnap: 10
+    accuracyAimed: 35
+    tuSnap: 12
     tuAuto: 15
+    tuAimed: 10
     tuLoad: 30
+    minRange: 2
     autoRange: 10
     snapRange: 15
+    aimRange: 8
     dropoff: 3
-    powerRangeThreshold: 12
-    powerRangeReduction: 6
     twoHanded: true
     oneHandedPenalty: 60
-    kneelBonus: 100
+    kneelBonus: 120
+    sprayWaypoints: 2
     battleType: 1
     invWidth: 2
     invHeight: 2
@@ -3620,11 +3671,12 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 11 #Pistol bullet 35*11=385
-    power: 36
+    power: 26
     refNode: *BasicPistolRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     invWidth: 1
-    invHeight: 1
+    invHeight: 2
     clipSize: 50
     costThrow:
       energy: 4
@@ -3656,8 +3708,9 @@ items:
     power: 36
     refNode: *KMMPistolRoundAntiArmor
     damageType: 10
+    bulletSpeed: 15
     invWidth: 1
-    invHeight: 1
+    invHeight: 2
     clipSize: 50
     costThrow:
       energy: 4
@@ -3669,7 +3722,7 @@ items:
   ############# TESLA SMGS ################
   ########################################
   - type: STR_TESLA_PROTOTYPE
-    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
+    categories: [STR_TESLA, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -3686,9 +3739,9 @@ items:
     #    reloadSound: 301
     compatibleAmmo:
       - STR_TESLA_LIGHT_BATTERY
-    accuracyCloseQuarters: 65
+    accuracyCloseQuarters: 140
     confAimed:
-      spendPerShot: 50 # 10x battery consumption for 2x power
+      spendPerShot: 50 # x50 battery consumption for x10 power
       name: STR_HIGH_POWER
     confSnap:
       spendPerShot: 5
@@ -3696,19 +3749,18 @@ items:
     tags:
       AIMED_10X_POWER: 1
     accuracySnap: 75
-    accuracyAimed: 90
+    accuracyAimed: 120
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
-    dropoff: 5
+    minRange: 4
+    snapRange: 18
+    aimRange: 28
+    dropoff: 4
     battleType: 1
     twoHanded: false
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2900
   #    listOrder: 2002
@@ -3732,7 +3784,7 @@ items:
       - STR_TESLA_LIGHT_BATTERY
     accuracyCloseQuarters: 65
     confAimed:
-      spendPerShot: 20 # 10x battery consumption for 2x power
+      spendPerShot: 20 # 20x battery consumption for 2x power
       name: STR_HIGH_POWER
     confSnap:
       spendPerShot: 10
@@ -3740,19 +3792,18 @@ items:
     tags:
       AIMED_2X_POWER: 1
     accuracySnap: 75
-    accuracyAimed: 90
+    accuracyAimed: 120
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 3
+    snapRange: 15
+    aimRange: 25
     dropoff: 5
     battleType: 1
     twoHanded: true
     invWidth: 1
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 2910
   #    listOrder: 2002
@@ -3766,7 +3817,7 @@ items:
     handSprite: 2080
     bulletSprite: 17
     hitAnimation: 90
-    power: 40
+    power: 50
     refNode: *LightTeslaAntiArmor
     damageType: 11
     clipSize: 100
@@ -3821,13 +3872,15 @@ items:
       - STR_HUOT_LMG_DRUM
       - STR_HUOT_LMG_DRUM_KMM
     accuracyCloseQuarters: 55
-    accuracySnap: 52
+    kneelBonus: 200
+    accuracySnap: 42
     accuracyAuto: 37
     tuSnap: 25
     tuAuto: 40
     tuLoad: 20
-    snapRange: 18
-    autoRange: 18
+    minRange: 12
+    snapRange: 25
+    autoRange: 20
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -3835,7 +3888,6 @@ items:
     armor: 30
     #autoShots: 6
     sprayWaypoints: 2
-    bulletSpeed: 15
     attraction: 10
     listOrder: 2930
 
@@ -3861,9 +3913,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 43
+    power: 33
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     clipSize: 25
     battleType: 2
     armor: 30
@@ -3893,10 +3946,11 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 43
+    power: 48
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
-    clipSize: 25
+    bulletSpeed: 15
+    clipSize: 14
     battleType: 2
     armor: 30
     invWidth: 1
@@ -3938,12 +3992,15 @@ items:
       - STR_BAR_MAG
       - STR_BAR_MAG_KMM
     accuracyCloseQuarters: 75
-    accuracyAuto: 45
-    accuracySnap: 60
-    tuAuto: 36
-    tuSnap: 25
     kneelBonus: 200
+    accuracyAuto: 35
+    accuracySnap: 40
+    tuAuto: 30
+    tuSnap: 25
     #autoShots: 4
+    minRange: 7
+    snapRange: 15
+    autoRange: 12
     sprayWaypoints: 2
     battleType: 1
     twoHanded: true
@@ -3973,9 +4030,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 47
+    power: 32
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     clipSize: 20
     invHeight: 1
     invWidth: 1
@@ -4005,7 +4063,8 @@ items:
     power: 47
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
-    clipSize: 20
+    bulletSpeed: 15
+    clipSize: 15
     invHeight: 1
     invWidth: 1
     battleType: 2
@@ -4049,13 +4108,14 @@ items:
       - STR_MG0815_DRUM
       - STR_MG0815_DRUM_KMM
     accuracyCloseQuarters: 60
-    accuracySnap: 56
-    accuracyAuto: 50
+    accuracySnap: 46
+    accuracyAuto: 40
     tuSnap: 25
     tuAuto: 40
     tuLoad: 25
-    snapRange: 30
-    autoRange: 30
+    minRange: 10
+    snapRange: 20
+    autoRange: 15
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
@@ -4091,9 +4151,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 50
+    power: 35
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     clipSize: 100
     battleType: 2
     armor: 30
@@ -4126,7 +4187,8 @@ items:
     power: 50
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
-    clipSize: 100
+    bulletSpeed: 15
+    clipSize: 50
     battleType: 2
     armor: 30
     invWidth: 1
@@ -4151,8 +4213,6 @@ items:
     bigSprite: 2232
     floorSprite: 2232
     handSprite: 2232
-    bulletSprite: 11
-    bulletSpeed: 25
     fireSound: 114
     reloadSound: 314
     confSnap:
@@ -4171,13 +4231,15 @@ items:
       - STR_CHAUCHAT_LMG_MAG
       - STR_CHAUCHAT_LMG_MAG_KMM
     accuracyCloseQuarters: 70
-    accuracySnap: 48
+    accuracySnap: 38
     accuracyAuto: 32
     tuSnap: 20
     tuAuto: 45
-    tuLoad: 30
-    snapRange: 32
-    autoRange: 32
+    tuLoad: 20
+    minRange: 9
+    snapRange: 24
+    autoRange: 19
+    dropoff: 4
     battleType: 1
     twoHanded: true
     blockBothHands: true
@@ -4186,7 +4248,7 @@ items:
     invHeight: 3
     armor: 40
     #autoShots: 5
-    sprayWaypoints: 3
+    sprayWaypoints: 2
     attraction: 10
     listOrder: 3020
 
@@ -4203,7 +4265,7 @@ items:
     size: 0.1
     costBuy: 1500
     costSell: 1250
-    weight: 12
+    weight: 8
     bigSprite: 2256
     floorSprite: 2256
     handSprite: 2256
@@ -4213,6 +4275,7 @@ items:
     power: 36
     refNode: *BasicRifleRoundAntiArmor
     damageType: 1
+    bulletSpeed: 10
     clipSize: 20
     battleType: 2
     armor: 34
@@ -4233,17 +4296,18 @@ items:
     size: 0.1
     costBuy: 1500
     costSell: 1250
-    weight: 12
+    weight: 8
     bigSprite: 2264
     floorSprite: 2264
     handSprite: 2264
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 36
+    power: 48
     refNode: *KMMRifleRoundAntiArmor
-    damageType: 1
-    clipSize: 20
+    damageType: 10
+    bulletSpeed: 10
+    clipSize: 15
     battleType: 2
     armor: 34
     invWidth: 1
@@ -4270,7 +4334,6 @@ items:
     bigSprite: 2272
     floorSprite: 2272
     handSprite: 2272
-    bulletSpeed: 20
     fireSound: 115
     reloadSound: 315
     confSnap:
@@ -4280,7 +4343,7 @@ items:
       ammoSlot: 0
       arcing: false
     confAuto:
-      shots: 15
+      shots: 10
       name: STR_SUPPRESSION
       shortName: STR_SUPPRESSION_SHORT
       ammoSlot: 0
@@ -4289,15 +4352,15 @@ items:
       - STR_RIBEYROLLES_MAG
       - STR_RIBEYROLLES_MAG_KMM
     accuracyCloseQuarters: 120
-    accuracySnap: 60
-    accuracyAuto: 50
-    accuracyAimed: 70
+    accuracySnap: 50
+    accuracyAuto: 40
     tuSnap: 17
     tuAuto: 24
-    tuAimed: 28
     tuLoad: 15
-    snapRange: 10
-    aimRange: 15
+    minRange: 11
+    snapRange: 22
+    autoRange: 18
+    dropoff: 5
     twoHanded: true
     oneHandedPenalty: 15
     kneelBonus: 200
@@ -4333,12 +4396,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 45
+    power: 32
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     invWidth: 1
     invHeight: 1
-    clipSize: 32
+    clipSize: 30
     costThrow:
       energy: 4
     battleType: 2
@@ -4366,12 +4430,13 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 45
+    power: 47
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
+    bulletSpeed: 15
     invWidth: 1
     invHeight: 1
-    clipSize: 32
+    clipSize: 20
     costThrow:
       energy: 4
     battleType: 2
@@ -4415,13 +4480,16 @@ items:
       - STR_LEWIS_GUN_PAN
       - STR_LEWIS_GUN_PAN_KMM
     accuracyCloseQuarters: 55
-    accuracySnap: 52
+    kneelBonus: 200
+    accuracySnap: 42
     accuracyAuto: 37
-    tuSnap: 25
+    tuSnap: 30
     tuAuto: 40
     tuLoad: 20
-    snapRange: 18
+    minRange: 10
+    snapRange: 20
     autoRange: 18
+    dropoff: 4
     battleType: 1
     twoHanded: true
     invWidth: 1
@@ -4429,7 +4497,6 @@ items:
     armor: 30
     #autoShots: 6
     sprayWaypoints: 2
-    bulletSpeed: 15
     attraction: 10
     listOrder: 3080
 
@@ -4455,13 +4522,14 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 43
+    power: 33
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
-    clipSize: 25
+    damageType: 1
+    bulletSpeed: 10
+    clipSize: 48
     battleType: 2
     armor: 30
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     attraction: 10
     listOrder: 3090
@@ -4487,13 +4555,14 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 43
+    power: 48
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
-    clipSize: 25
+    bulletSpeed: 15
+    clipSize: 36
     battleType: 2
     armor: 30
-    invWidth: 1
+    invWidth: 2
     invHeight: 1
     attraction: 10
     listOrder: 3100
@@ -4506,14 +4575,15 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
+        STR_GERMAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.3
     costBuy: 11000
     costSell: 9000
-    weight: 13
+    weight: 10
     bigSprite: 2352
     floorSprite: 2352
     handSprite: 2352
@@ -4535,12 +4605,14 @@ items:
       - STR_MADSEN_LMG_MAG
       - STR_MADSEN_LMG_MAG_KMM
     accuracyCloseQuarters: 55
-    accuracySnap: 52
+    kneelBonus: 200
+    accuracySnap: 42
     accuracyAuto: 37
     tuSnap: 25
     tuAuto: 40
     tuLoad: 20
-    snapRange: 18
+    minRange: 10
+    snapRange: 24
     autoRange: 18
     battleType: 1
     twoHanded: true
@@ -4549,7 +4621,6 @@ items:
     armor: 30
     #autoShots: 6
     sprayWaypoints: 2
-    bulletSpeed: 15
     attraction: 10
     listOrder: 3110
 
@@ -4560,7 +4631,7 @@ items:
         STR_MACHINE_GUNS,
         STR_SUPPORT_CLASS,
         STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
+        STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
     #requiresBuy:
@@ -4575,9 +4646,10 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 12 #Rifle bullet 35*12=420
-    power: 43
+    power: 30
     refNode: *BasicRifleRoundAntiArmor
-    damageType: 10
+    damageType: 1
+    bulletSpeed: 10
     clipSize: 25
     battleType: 2
     armor: 30
@@ -4607,10 +4679,11 @@ items:
     hitSound: 22
     hitAnimation: 26
     bulletSprite: 15 #Rifle MM bullet 35*15=525
-    power: 43
+    power: 45
     refNode: *KMMRifleRoundAntiArmor
     damageType: 10
-    clipSize: 25
+    bulletSpeed: 15
+    clipSize: 15
     battleType: 2
     armor: 30
     invWidth: 1
@@ -4641,27 +4714,26 @@ items:
       - STR_TESLA_HEAVY_BATTERY
     accuracyCloseQuarters: 65
     confAimed:
-      spendPerShot: 30 # 10x battery consumption for 2x power
+      spendPerShot: 30 # 10x battery consumption for 5x power
       name: STR_HIGH_POWER
     confSnap:
       spendPerShot: 10
       name: STR_LOW_POWER
     tags:
       AIMED_5X_POWER: 1
-    accuracySnap: 75
-    accuracyAimed: 90
+    accuracySnap: 90
+    accuracyAimed: 120
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 7
+    snapRange: 12
+    aimRange: 24
     dropoff: 5
     battleType: 1
     twoHanded: true
     invWidth: 2
     invHeight: 3
-    autoRange: 11
     attraction: 8
     listOrder: 3140
   #    listOrder: 2002
@@ -4676,7 +4748,7 @@ items:
     handSprite: 2408
     bulletSprite: 17
     hitAnimation: 90
-    power: 40
+    power: 70
     refNode: *HeavyTeslaAntiArmor
     damageType: 11
     clipSize: 100
@@ -4711,7 +4783,6 @@ items:
     bigSprite: 2440
     floorSprite: 2440
     handSprite: 2440
-    bulletSprite: 2
     fireSound: 108
     reloadSound: 308
     confAuto:
@@ -4731,9 +4802,10 @@ items:
     tuAimed: 60
     tuAuto: 30
     tuLoad: 25
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 2
+    snapRange: 12
+    aimRange: 16
+    autoRange: 14
     dropoff: 5
     invHeight: 3
     invWidth: 1
@@ -4770,12 +4842,12 @@ items:
     accuracySnap: 45
     accuracyAimed: 60
     accuracyCloseQuarters: 200
-    tuSnap: 45
-    tuAimed: 60
+    tuSnap: 40
+    tuAimed: 50
     tuLoad: 25
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 1
+    snapRange: 10
+    aimRange: 14
     dropoff: 5
     invHeight: 3
     invWidth: 1
@@ -4803,21 +4875,20 @@ items:
     bigSprite: 2488
     floorSprite: 2488
     handSprite: 2488
-    bulletSprite: 2
     fireSound: 108
     reloadSound: 308
     compatibleAmmo:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_5
       - STR_SHOTGUN_DUMDUM_SHELLS_5
-    accuracySnap: 45
-    accuracyAimed: 60
+    accuracySnap: 55
+    accuracyAimed: 65
     accuracyCloseQuarters: 200
     tuSnap: 45
     tuAimed: 60
     tuLoad: 25
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 3
+    snapRange: 15
+    aimRange: 20
     dropoff: 5
     invHeight: 3
     invWidth: 1
@@ -4845,7 +4916,7 @@ items:
     floorSprite: 2512
     handSprite: 2512
     power: 45
-    damageType: 10
+    damageType: 1
     hitSound: 22
     hitAnimation: 26
     clipSize: 6
@@ -4875,9 +4946,9 @@ items:
     bigSprite: 2520
     floorSprite: 2520
     handSprite: 2520
-    power: 45
+    power: 60
     refNode: *DumDumWoundingRound
-    damageType: 10
+    damageType: 15
     hitSound: 22
     hitAnimation: 26
     clipSize: 6
@@ -4917,15 +4988,15 @@ items:
     compatibleAmmo:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_2
       - STR_SHOTGUN_DUMDUM_SHELLS_2
-    accuracySnap: 45
-    accuracyAimed: 60
+    accuracySnap: 60
+    accuracyAimed: 70
     accuracyCloseQuarters: 200
-    tuSnap: 45
-    tuAimed: 60
-    tuLoad: 25
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    tuSnap: 20
+    tuAimed: 40
+    tuLoad: 10
+    minRange: 3
+    snapRange: 14
+    aimRange: 18
     dropoff: 5
     invHeight: 3
     invWidth: 1
@@ -4940,8 +5011,10 @@ items:
         STR_BALLISTIC,
         STR_FIREARMS,
         STR_SHOTGUNS,
-        STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
+        STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT,
+        STR_ITALIAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
@@ -4958,15 +5031,15 @@ items:
     compatibleAmmo:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_2
       - STR_SHOTGUN_DUMDUM_SHELLS_2
-    accuracySnap: 45
+    accuracySnap: 50
     accuracyAimed: 60
     accuracyCloseQuarters: 200
-    tuSnap: 45
-    tuAimed: 60
+    tuSnap: 20
+    tuAimed: 30
     tuLoad: 25
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 3
+    snapRange: 12
+    aimRange: 16
     dropoff: 5
     invHeight: 2
     invWidth: 1
@@ -4982,6 +5055,9 @@ items:
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT,
+        STR_ITALIAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
     #requiresBuy:
@@ -4994,7 +5070,7 @@ items:
     floorSprite: 2536
     handSprite: 2536
     power: 45
-    damageType: 10
+    damageType: 1
     hitSound: 22
     hitAnimation: 26
     clipSize: 2
@@ -5013,6 +5089,9 @@ items:
         STR_SHOTGUNS,
         STR_ASSAULT_CLASS,
         STR_AMERICAN_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT,
+        STR_ITALIAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
     #requiresBuy:
@@ -5024,9 +5103,9 @@ items:
     bigSprite: 2544
     floorSprite: 2544
     handSprite: 2544
-    power: 45
+    power: 60
     refNode: *DumDumWoundingRound
-    damageType: 10
+    damageType: 15
     hitSound: 22
     hitAnimation: 26
     clipSize: 2
@@ -5043,7 +5122,7 @@ items:
   ########### TESLA SHOTGUNS ##############
   ########################################
   - type: STR_TESLA_TRENCH_BROOM
-    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
+    categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -5069,14 +5148,14 @@ items:
       name: STR_LOW_POWER
     tags:
       AIMED_2X_POWER: 1
-    accuracySnap: 75
-    accuracyAimed: 90
+    accuracySnap: 80
+    accuracyAimed: 100
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
-    minRange: 15
-    snapRange: 24
-    aimRange: 34
+    minRange: 1
+    snapRange: 14
+    aimRange: 18
     dropoff: 5
     battleType: 1
     twoHanded: true
@@ -5097,13 +5176,13 @@ items:
     handSprite: 2568
     bulletSprite: 17
     hitAnimation: 90
-    power: 40
+    power: 50
     shotgunBehavior: 1
     shotgunPellets: 10
     shotgunSpread: 50
     refNode: *MediumTeslaAntiArmor
     damageType: 11
-    clipSize: 10
+    clipSize: 100
     battleType: 2
     invHeight: 2
     invWidth: 1
@@ -5186,7 +5265,7 @@ items:
     power: 50
     damageAlter:
       IgnoreOverKill: false
-    damageType: 3
+    damageType: 15
     costThrow:
       energy: 6
     costPrime:
@@ -5276,7 +5355,7 @@ items:
     listOrder: 3310
 
   - type: STR_RIFLE_GRENADE
-    categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    categories: [STR_FIREARMS, STR_EXPLOSIVES, STR_RIFLEMAN_CLASS, STR_CLIPS]
     size: 0.1
     costBuy: 500
     costSell: 470
@@ -5293,8 +5372,9 @@ items:
       ToTile: 0.8
       ToWound: 0.3
       RandomWound: true
-    damageType: 3
-    arcingShot: true
+    damageType: 15
+    arcingShot: true 
+    bulletSpeed: 8
     clipSize: 1
     battleType: 2
     armor: 20
@@ -5449,7 +5529,7 @@ items:
     power: 50
     damageAlter:
       IgnoreOverKill: false
-    damageType: 3
+    damageType: 15
     costThrow:
       energy: 6
     costPrime:
