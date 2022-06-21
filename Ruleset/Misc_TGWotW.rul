@@ -170,7 +170,38 @@ extraSprites:
     subY: 16
     files:
       0: Resources/UI/kneelButton.png
-
+  - type: BigBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: BigStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: BigWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: BigShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
+  - type: FloorBurnIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/burning.png
+  - type: FloorStunIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Zzz.png
+  - type: FloorWoundIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Bleed.png
+  - type: FloorShockIndicator
+    singleImage: true
+    files:
+      0: Resources/UI/Shock.png
 ##########################################
 ############ GLOBE MARKERS ###############
 ##########################################
@@ -768,3 +799,74 @@ facilities:
     radarChance: 100
     hyper: true
     mapName: XBASE_04
+
+interfaces:
+  - type: inventory
+    elements: #color is the color index of the PAL_BATTLESCAPE palette
+      - id: textName
+        color: 144 # 64
+      - id: textTUs
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textWeight
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine1
+        custom: 11 # 1
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine2
+        custom: 12 # 2
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine3
+        custom: 13 # 3
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine4
+        custom: 14 # 4
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textItem
+        color: 112 # 48
+        color2: 16 # 16
+      - id: textAmmo
+        color: 144 # 144
+        color2: 16 # 16
+      - id: textSlots
+        color: 96
+  - type: geoscapeMenu
+    elements:
+      - id: text
+        color: 90   # yellow
+      - id: button
+        color: 39   # bright green
+  - type: geoscape
+    backgroundImage: BACK01.SCR
+    elements:
+      - id: textLoad
+        color: 184   # minty green
+      - id: button
+        color: 184   # main button color
+        color2: 161  # letter color
+      - id: text # Clock and date, requires to have 5 colors in the shade
+        color: 170   # 244
+      - id: slackingIndicator
+        color: 184   # even lighter blue
+        color2: 184  # minty green
+        custom: -12  # above Intercept button
+      - id: genericWindow
+        color: 245   # bright green
+      - id: genericText
+        color: 176   # bright green
+        color2: 239  # 138
+        border: 182  # 22
+      - id: genericButton1
+        color: 147   # minty green
+      - id: genericButton2
+        color: 245   # bright green
+      - id: errorPalette
+        color: 6     # brown
+      - id: errorMessage
+        color: 245   # bright green
+
