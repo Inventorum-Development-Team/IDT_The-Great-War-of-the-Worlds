@@ -170,7 +170,7 @@ items:
       - STR_SMLE_MKIII_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 65
-    kneelBonus: 120
+    kneelBonus: 200
     accuracySnap: 75
     accuracyAimed: 100
     tuSnap: 30
@@ -268,7 +268,7 @@ items:
       - STR_SPRINGFIELD_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 50
-    kneelBonus: 130
+    kneelBonus: 200
     accuracySnap: 95
     accuracyAimed: 120
     tuSnap: 40
@@ -458,7 +458,7 @@ items:
       - STR_GEWEHR98_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 50
-    kneelBonus: 120
+    kneelBonus: 200
     accuracySnap: 85
     accuracyAimed: 100
     tuSnap: 40
@@ -541,7 +541,7 @@ items:
       - STR_LEBEL_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 75
-    kneelBonus: 120
+    kneelBonus: 200
     accuracySnap: 56
     accuracyAimed: 75
     tuSnap: 36
@@ -693,7 +693,7 @@ items:
       - STR_MOSIN_NAGANT_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 50
-    kneelBonus: 120
+    kneelBonus: 200
     accuracySnap: 60
     accuracyAimed: 80
     tuSnap: 30
@@ -789,7 +789,7 @@ items:
       - STR_MOSIN_NAGANT_CLIP
       - STR_MOSIN_NAGANT_CLIP_KMM
     accuracyCloseQuarters: 50
-    kneelBonus: 130
+    kneelBonus: 200
     accuracySnap: 70
     accuracyAimed: 90
     tuSnap: 30
@@ -879,6 +879,7 @@ items:
       - STR_MOSIN_NAGANT_CLIP
       - STR_MOSIN_NAGANT_CLIP_KMM
     accuracyCloseQuarters: 140
+    kneelBonus: 200
     accuracySnap: 50
     accuracyAimed: 65
     minRange: 4
@@ -971,6 +972,7 @@ items:
       - STR_BERDAN_II_AMMO
       - STR_BERDAN_II_AMMO_KMM
     accuracyCloseQuarters: 50
+    kneelBonus: 200
     accuracySnap: 60
     accuracyAimed: 80
     tuSnap: 30
@@ -1063,6 +1065,7 @@ items:
   #- STR_GEWEHR_M95_CLIP
   #- STR_GEWEHR_M95_CLIP_KMM
   #    accuracyCloseQuarters: 65
+  #    kneelBonus: 200
   #    accuracySnap: 75
   #    accuracyAimed: 90
   #    tuSnap: 20
@@ -1134,7 +1137,7 @@ items:
     compatibleAmmo:
       - STR_PHLOGISTON_RUBY_CLIP
     accuracyCloseQuarters: 65
-    kneelBonus: 130
+    kneelBonus: 200
     accuracySnap: 80
     accuracyAimed: 110
     tuSnap: 40
@@ -1210,6 +1213,7 @@ items:
       - STR_FARQHUAR_HILL_DRUM
       - STR_FARQHUAR_HILL_DRUM_KMM
     accuracyCloseQuarters: 70
+    kneelBonus: 200
     accuracySnap: 55
     accuracyAimed: 65
     minRange: 14
@@ -1309,6 +1313,7 @@ items:
       - STR_MONDRAGON_MAG
       - STR_MONDRAGON_MAG_KMM
     accuracyCloseQuarters: 75
+    kneelBonus: 200
     accuracySnap: 60
     accuracyAimed: 85
     tuSnap: 25
@@ -1470,6 +1475,7 @@ items:
       - STR_SELBSTLADER_M1916_MAG
       - STR_SELBSTLADER_M1916_MAG_KMM
     accuracyCloseQuarters: 60
+    kneelBonus: 200
     accuracySnap: 70
     accuracyAimed: 105
     tuSnap: 35
@@ -1573,6 +1579,7 @@ items:
       - STR_RSC17_CLIP
       - STR_RSC17_CLIP_KMM
     accuracyCloseQuarters: 70
+    kneelBonus: 200
     accuracySnap: 55
     accuracyAimed: 65
     accuracyAuto: 40
@@ -1646,6 +1653,7 @@ items:
       - STR_RSC17_CLIP
       - STR_RSC17_CLIP_KMM
     accuracyCloseQuarters: 70
+    kneelBonus: 200
     accuracySnap: 55
     accuracyAimed: 65
     accuracyAuto: 40
@@ -1663,7 +1671,7 @@ items:
     invWidth: 1
     invHeight: 3
     attraction: 8
-    listOrder: 2325
+    listOrder: 2315
   - type: STR_RSC17_CLIP_KMM
     categories:
       [
@@ -1719,7 +1727,8 @@ items:
     compatibleAmmo:
       - STR_FEDOROV_AVTOMAT_MAG
       - STR_FEDOROV_AVTOMAT_MAG_KMM
-    accuracyCloseQuarters: 50
+    accuracyCloseQuarters: 80
+    kneelBonus: 200
     accuracySnap: 65
     accuracyAimed: 70
     accuracyAuto: 50
@@ -1827,6 +1836,7 @@ items:
       - STR_CEI_RIGOTTI_CLIP
       - STR_CEI_RIGOTTI_CLIP_KMM
     accuracyCloseQuarters: 50
+    kneelBonus: 200
     accuracySnap: 75
     accuracyAimed: 80
     accuracyAuto: 55
@@ -1948,6 +1958,7 @@ items:
     snapRange: 25
     aimRange: 35
     dropoff: 3
+    kneelBonus: 200
     battleType: 1
     twoHanded: true
     oneHandedPenalty: 40
@@ -2014,6 +2025,7 @@ items:
     accuracyAimed: 75
     accuracyAuto: 50
     accuracyCloseQuarters: 140
+    kneelBonus: 200
     tuSnap: 15
     tuAimed: 20
     tuAuto: 20
@@ -2046,6 +2058,7 @@ items:
     accuracySnap: 70
     accuracyAimed: 80
     accuracyCloseQuarters: 110
+    kneelBonus: 200
     tuSnap: 30
     tuAimed: 40
     minRange: 3
@@ -2076,6 +2089,7 @@ items:
     accuracySnap: 55
     accuracyAimed: 75
     accuracyCloseQuarters: 120
+    kneelBonus: 200
     tuSnap: 10
     tuAimed: 20
     minRange: 2
@@ -2170,6 +2184,7 @@ items:
       - STR_M1911_COLT_MAG
       - STR_M1911_COLT_MAG_KMM
     accuracyCloseQuarters: 130
+    kneelBonus: 200
     accuracySnap: 75
     accuracyAimed: 80
     tuSnap: 18
@@ -3872,7 +3887,7 @@ items:
       - STR_HUOT_LMG_DRUM
       - STR_HUOT_LMG_DRUM_KMM
     accuracyCloseQuarters: 55
-    kneelBonus: 200
+    kneelBonus: 300
     accuracySnap: 42
     accuracyAuto: 37
     tuSnap: 25
@@ -3992,7 +4007,7 @@ items:
       - STR_BAR_MAG
       - STR_BAR_MAG_KMM
     accuracyCloseQuarters: 75
-    kneelBonus: 200
+    kneelBonus: 300
     accuracyAuto: 35
     accuracySnap: 40
     tuAuto: 30
@@ -4124,7 +4139,7 @@ items:
     armor: 30
     #autoShots: 6
     sprayWaypoints: 2
-    kneelBonus: 200
+    kneelBonus: 300
     bulletSpeed: 17
     attraction: 9
     listOrder: 2990
@@ -4243,7 +4258,7 @@ items:
     battleType: 1
     twoHanded: true
     blockBothHands: true
-    kneelBonus: 200
+    kneelBonus: 300
     invWidth: 2
     invHeight: 3
     armor: 40
@@ -4363,7 +4378,7 @@ items:
     dropoff: 5
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 200
+    kneelBonus: 300
     sprayWaypoints: 2
     costThrow:
       energy: 12
@@ -4480,7 +4495,7 @@ items:
       - STR_LEWIS_GUN_PAN
       - STR_LEWIS_GUN_PAN_KMM
     accuracyCloseQuarters: 55
-    kneelBonus: 200
+    kneelBonus: 300
     accuracySnap: 42
     accuracyAuto: 37
     tuSnap: 30
@@ -4605,7 +4620,7 @@ items:
       - STR_MADSEN_LMG_MAG
       - STR_MADSEN_LMG_MAG_KMM
     accuracyCloseQuarters: 55
-    kneelBonus: 200
+    kneelBonus: 300
     accuracySnap: 42
     accuracyAuto: 37
     tuSnap: 25
@@ -5479,7 +5494,7 @@ items:
     accuracyAimed: 80
     tuSnap: 33
     tuAimed: 50
-    kneelBonus: 200
+    kneelBonus: 300
     battleType: 1
     twoHanded: true
     invWidth: 2
