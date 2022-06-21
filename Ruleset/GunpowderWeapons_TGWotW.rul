@@ -1776,7 +1776,7 @@ items:
     power: 29
     damageType: 1
     bulletSpeed: 10
-    clipSize: 20
+    clipSize: 25
     battleType: 2
     armor: 30
     attraction: 7
@@ -1944,9 +1944,11 @@ items:
     confAimed:
       spendPerShot: 20 # 10x battery consumption for 2x power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER_SHORT
     confSnap:
       spendPerShot: 10
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER_SHORT
     tags:
       AIMED_5X_POWER: 1
     accuracySnap: 75
@@ -2193,7 +2195,6 @@ items:
     minRange: 1
     snapRange: 11
     aimRange: 21
-    kneelBonus: 105
     costThrow:
       energy: 10
     battleType: 1
@@ -2267,6 +2268,7 @@ items:
       - STR_MAUSER_C96_CLIP
       - STR_MAUSER_C96_CLIP_KMM
     accuracyCloseQuarters: 140
+    kneelBonus: 200
     accuracySnap: 50
     accuracyAimed: 75
     tuSnap: 15
@@ -2341,6 +2343,7 @@ items:
       - STR_LUGER_P08_MAG
       - STR_LUGER_P08_MAG_KMM
     accuracyCloseQuarters: 140
+    kneelBonus: 200
     accuracySnap: 50
     accuracyAimed: 75
     tuSnap: 18
@@ -2433,6 +2436,7 @@ items:
       AIMED_2X_POWER: 1
     accuracySnap: 60
     accuracyAimed: 120
+    kneelBonus: 200
     tuSnap: 20
     tuAimed: 35
     tuLoad: 20
@@ -2480,6 +2484,7 @@ items:
       AIMED_2X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 130
+    kneelBonus: 200
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
@@ -2544,6 +2549,7 @@ items:
       - STR_M1907_SL_CARBINE_MAG
       - STR_M1907_SL_CARBINE_MAG_KMM
     accuracyCloseQuarters: 120
+    kneelBonus: 200
     accuracySnap: 60
     accuracyAuto: 50
     accuracyAimed: 70
@@ -2558,7 +2564,6 @@ items:
     dropoff: 4
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 150
     sprayWaypoints: 2
     costThrow:
       energy: 12
@@ -2684,10 +2689,11 @@ items:
       - STR_MAUSER_C96_MAG
       - STR_MAUSER_C96_MAG_KMM
     accuracyCloseQuarters: 140
+    kneelBonus: 200
     accuracySnap: 65
     accuracyAimed: 75
     accuracyAuto: 50
-    twoHanded: true 
+    twoHanded: true
     dropoff: 3
     tuSnap: 18
     tuAimed: 28
@@ -2760,6 +2766,7 @@ items:
       - STR_LUGER_ARTILLERY_DRUM
       - STR_LUGER_ARTILLERY_DRUM_KMM
     accuracyCloseQuarters: 140
+    kneelBonus: 200
     accuracySnap: 65
     accuracyAimed: 80
     tuSnap: 18
@@ -2840,6 +2847,7 @@ items:
       - STR_CARCANO_M91_CARBINE_CLIP
       - STR_CARCANO_M91_CARBINE_CLIP_KMM
     accuracyCloseQuarters: 75
+    kneelBonus: 200
     accuracySnap: 60
     accuracyAimed: 80
     tuSnap: 15
@@ -2996,13 +3004,16 @@ items:
     confAimed:
       spendPerShot: 10 # 10x battery consumption for 2x power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER_SHORT
     confSnap:
       spendPerShot: 5
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER_SHORT
     tags:
       AIMED_2X_POWER: 1
     accuracySnap: 60
     accuracyAimed: 90
+    kneelBonus: 200
     tuSnap: 15
     tuAimed: 35
     tuLoad: 20
@@ -3011,7 +3022,6 @@ items:
     aimRange: 32
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 150
     costThrow:
       energy: 8
     battleType: 1
@@ -3065,6 +3075,7 @@ items:
       - STR_ANNIHILATOR_SMG_MAG
       - STR_ANNIHILATOR_SMG_MAG_KMM
     accuracyCloseQuarters: 150
+    kneelBonus: 200
     accuracySnap: 70
     accuracyAuto: 50
     accuracyAimed: 40
@@ -3079,8 +3090,6 @@ items:
     dropoff: 4
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 100
-    sprayWaypoints: 2
     costThrow:
       energy: 12
     battleType: 1
@@ -3193,6 +3202,7 @@ items:
       - STR_MP18_DRUM
       - STR_MP18_DRUM_KMM
     accuracyCloseQuarters: 150
+    kneelBonus: 200
     accuracySnap: 70
     accuracyAuto: 65
     accuracyAimed: 50
@@ -3205,10 +3215,9 @@ items:
     aimRange: 12
     autoRange: 16
     dropoff: 4
-    twoHanded: true 
+    twoHanded: true
     sprayWaypoints: 2
     oneHandedPenalty: 15
-    kneelBonus: 120
     costThrow:
       energy: 12
     battleType: 1
@@ -3335,7 +3344,7 @@ items:
     autoRange: 14
     twoHanded: true
     oneHandedPenalty: 15
-    kneelBonus: 120
+    kneelBonus: 200
     sprayWaypoints: 2
     costThrow:
       energy: 12
@@ -3466,7 +3475,7 @@ items:
     twoHanded: true
     oneHandedPenalty: 15
     sprayWaypoints: 2
-    kneelBonus: 130
+    kneelBonus: 200
     # Bayonet segment
     meleeSound:
       [
@@ -3641,6 +3650,7 @@ items:
       ammoSlot: 0
       arcing: false
     accuracyCloseQuarters: 150
+    kneelBonus: 200
     accuracySnap: 55
     accuracyAuto: 40
     accuracyAimed: 35
@@ -3655,7 +3665,6 @@ items:
     dropoff: 3
     twoHanded: true
     oneHandedPenalty: 60
-    kneelBonus: 120
     sprayWaypoints: 2
     battleType: 1
     invWidth: 2
@@ -3758,11 +3767,14 @@ items:
     confAimed:
       spendPerShot: 50 # x50 battery consumption for x10 power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER_SHORT
     confSnap:
       spendPerShot: 5
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER_SHORT
     tags:
       AIMED_10X_POWER: 1
+    kneelBonus: 200
     accuracySnap: 75
     accuracyAimed: 120
     tuSnap: 20
@@ -3780,7 +3792,7 @@ items:
     listOrder: 2900
   #    listOrder: 2002
   - type: STR_TESLA_SMG
-    categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
+    categories: [STR_TESLA, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS]
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -3801,13 +3813,16 @@ items:
     confAimed:
       spendPerShot: 20 # 20x battery consumption for 2x power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER_SHORT
     confSnap:
       spendPerShot: 10
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER_SHORT
     tags:
       AIMED_2X_POWER: 1
     accuracySnap: 75
     accuracyAimed: 120
+    kneelBonus: 200
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
@@ -4731,13 +4746,16 @@ items:
     confAimed:
       spendPerShot: 30 # 10x battery consumption for 5x power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER_SHORT
     confSnap:
       spendPerShot: 10
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER_SHORT
     tags:
       AIMED_5X_POWER: 1
     accuracySnap: 90
     accuracyAimed: 120
+    kneelBonus: 200
     tuSnap: 20
     tuAimed: 35
     tuLoad: 15
@@ -4813,6 +4831,7 @@ items:
     accuracyAimed: 60
     accuracyAuto: 40
     accuracyCloseQuarters: 200
+    kneelBonus: 200
     tuSnap: 45
     tuAimed: 60
     tuAuto: 30
@@ -4857,6 +4876,7 @@ items:
     accuracySnap: 45
     accuracyAimed: 60
     accuracyCloseQuarters: 200
+    kneelBonus: 200
     tuSnap: 40
     tuAimed: 50
     tuLoad: 25
@@ -4898,6 +4918,7 @@ items:
     accuracySnap: 55
     accuracyAimed: 65
     accuracyCloseQuarters: 200
+    kneelBonus: 200
     tuSnap: 45
     tuAimed: 60
     tuLoad: 25
@@ -5006,6 +5027,7 @@ items:
     accuracySnap: 60
     accuracyAimed: 70
     accuracyCloseQuarters: 200
+    kneelBonus: 200
     tuSnap: 20
     tuAimed: 40
     tuLoad: 10
@@ -5049,6 +5071,7 @@ items:
     accuracySnap: 50
     accuracyAimed: 60
     accuracyCloseQuarters: 200
+    kneelBonus: 200
     tuSnap: 20
     tuAimed: 30
     tuLoad: 25
@@ -5154,13 +5177,16 @@ items:
     #    reloadSound: 301
     compatibleAmmo:
       - STR_TESLA_EXTENDED_BATTERY
-    accuracyCloseQuarters: 65
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
     confAimed:
       spendPerShot: 20 # 10x battery consumption for 2x power
       name: STR_HIGH_POWER
+      shortName: STR_HIGH_POWER_SHORT
     confSnap:
       spendPerShot: 10
       name: STR_LOW_POWER
+      shortName: STR_LOW_POWER_SHORT
     tags:
       AIMED_2X_POWER: 1
     accuracySnap: 80
@@ -5388,7 +5414,7 @@ items:
       ToWound: 0.3
       RandomWound: true
     damageType: 15
-    arcingShot: true 
+    arcingShot: true
     bulletSpeed: 8
     clipSize: 1
     battleType: 2
@@ -7916,6 +7942,7 @@ extraSprites:
       #1800: Resources/HumanWeapons/Carbine/HandGaussLightFlechetteMag.png
       1808: Resources/HumanWeapons/SMG/HandAnnihilator_nomag.png
       1816: Resources/HumanWeapons/SMG/HandAnnihilator_ammo1.png
+      1824: Resources/HumanWeapons/SMG/HandAnnihilator_ammo2.png
       1848: Resources/HumanWeapons/SMG/HandMP18_nomag.png
       1856: Resources/HumanWeapons/SMG/HandMP18_ammo1.png
       1864: Resources/HumanWeapons/SMG/HandMP18_ammo2.png
