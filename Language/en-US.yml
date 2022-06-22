@@ -8,6 +8,8 @@ en-US:
       STR_NEW_BATTLE: "Skirmirshes"
       STR_MISSION_GENERATOR: "THE WAR TO END ALL WARS"
       STR_UFOPAEDIA_UC: "WAR CODEX"
+      STR_DAMAGE_ARMOR_PIERCING: "BALLISTIC"
+      STR_DAMAGE_LASER_BEAM: "ENERGY BEAM"
       STR_DAMAGE_10: K-MM BALLISTIC
       STR_DAMAGE_11: ELECTRIC
       STR_DAMAGE_12: COILGUN BALLISTIC
@@ -49,8 +51,8 @@ en-US:
       STR_ASSAULT_CLASS: Assault Class
       STR_SHOCK_CLASS: Shock Class
       STR_MEDIC_CLASS: Medic Class
-      STR_SUPPORT_CLASS: Support Class 
-      STR_HEAVY_CLASS: Heavy Class 
+      STR_SUPPORT_CLASS: Support Class
+      STR_HEAVY_CLASS: Heavy Class
       STR_RAIDER_CLASS: Raider Class
       STR_AIRBORNE_EQUIPMENT: Airborne Equipment
       STR_BRITISH_EQUIPMENT: British Equipment
@@ -107,6 +109,25 @@ en-US:
       STR_UFO_COMPONENTS: "MARTIAN MACHINES COMPONENTS"
       STR_UFOS: "MARTIAN MACHINES"
       STR_BESIEGED_TROOPS_LOW_MORALE: "The morale of your besieged troops is getting low!"
+
+      STR_XCOM_PROJECT_MONTHLY_REPORT: "IEF MONTHLY REPORT"
+      STR_MONTH: "Month> {ALT}{0} {1}"
+      STR_COUNCIL_IS_GENERALLY_SATISFIED: "The Coalition is generally satisfied with your progress so far."
+      STR_COUNCIL_IS_VERY_PLEASED: "The Coalition is very pleased with your excellent progress. Keep up the good work."
+      STR_COUNCIL_IS_DISSATISFIED: "The Coalition is dissatisfied with your performance. You must improve your effectiveness in dealing with the alien menace or risk termination of the project."
+      STR_YOU_HAVE_NOT_SUCCEEDED: "You have not succeeded in dealing with the alien invasion and the Coalition has regrettably decided to terminate the project. Each nation shall deal with the problem as they see fit. We can only hope that we can come to some accommodation with these apparently hostile forces, and that the general population will come to terms with the alien visitors."
+      STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the localized threat and has agreed to increase its funding."
+      STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local alien incursion and have agreed to increase their funding."
+      STR_COUNTRIES_COMMA: "{0}, {1}"
+      STR_COUNTRIES_AND: "{0} and {1}"
+      STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} is unhappy with your ability to deal with alien activity in its territory and has decided to reduce its financial commitment."
+      STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} are unhappy with your ability to deal with alien activity in their territory and have decided to reduce their funding."
+      STR_KNOTS: "{0} knots"
+      STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} was overrrun after a Martian breakthrough and we have lost contact with their military and civilian command."
+      STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} were overrrun after a Martian breakthrough and we have lost contact with their military and civilian command."
+      STR_MONTHLY_RATING: "Monthly Rating> {ALT}{0}{ALT} {1}"
+      STR_FUNDING_CHANGE: "Funding change> {ALT}{0}"
+      STR_COUNCIL_REDUCE_DEBTS: "The Coalition is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."
 
       STR_AUSTRIA_HUNGARY: AUSTRIA-HUNGARY
       STR_CALIFORNIA_REPUBLIC: CALIFORNIA REPUBLIC
@@ -241,17 +262,19 @@ en-US:
       STR_BURST: Burst
       STR_RAPID_FIRE: Rapid Fire
       STR_SLAM_FIRE: Slam Fire
-      STR_SLAM_FIRE_SHORT: Slam Fire
+      STR_SLAM_FIRE_SHORT: Slam Fire {0}
       STR_SUPPRESSION: Suppression
-      STR_SUPPRESSION_SHORT: Suppression
+      STR_SUPPRESSION_SHORT: Suppression {0}
       STR_FULL_AUTO: Full Auto
-      STR_FULL_AUTO_SHORT: Full Auto
+      STR_FULL_AUTO_SHORT: Full Auto {0}
       STR_HIGH_POWER: High Power
       STR_LOW_POWER: Low Power
+      STR_HIGH_POWER_SHORT: High Power
+      STR_LOW_POWER_SHORT: Low Power
       #STR_BURST: Burst
-      STR_BURST_SHORT: Burst
+      STR_BURST_SHORT: Burst {0}
       STR_PRAY_N_SPRAY: Pray n' Spray
-      STR_PRAY_N_SPRAY_SHORT: Spray
+      STR_PRAY_N_SPRAY_SHORT: Spray {0}
       STR_AUTOMATIC_REVOLVER: Automatic Revolver
       STR_REVOLVER_CLIP: Revolver Speedloader
       STR_REVOLVER_CLIP_KMM: Revolver K-MM Speedloader
@@ -434,7 +457,7 @@ en-US:
         capricious and it is necessary for men to take care of their weapon to
         limit the problems.
       STR_RSC_CARBINE: RSC Carbine
-      STR_RSC_CARBINE_UFOPEDIA: WIP
+      STR_RSC_CARBINE_UFOPEDIA: A special adaptation of the RSC self-loading rifle meant to be used by vehicle and artillery crews. Limited by the short barrel, it best used in close quarters. It's main drawback is the small magazine capacity, compared to other personal defense weapons.
       STR_MOSIN_NAGANT: Mosin-Nagant Rifle
       STR_MOSIN_NAGANT_UFOPEDIA:
         Service rifle of the Russian Imperial Army, designed
@@ -449,8 +472,8 @@ en-US:
         means 'sawed-off' in Russian.
       STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
       STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
-      STR_BERDAN_II: Berdan II Rifle 
-      STR_BERDAN_II_AMMO: Berdan II Ammo 
+      STR_BERDAN_II: Berdan II Rifle
+      STR_BERDAN_II_AMMO: Berdan II Ammo
       STR_BERDAN_II_AMMO_KMM: Berdan II K-MM Ammo
       STR_BERDAN_II_UFOPEDIA: Old single-shot service rifle, used from 1870 until replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
       STR_FEDOROV_AVTOMAT: Fedorov Avtomat SLR
@@ -627,16 +650,16 @@ en-US:
         Small morphine injection stored for use in a practical
         cardboard box. Relieves the pain of the injured instantly.
       STR_MAUSER_C96_CARBINE: Mauser C96/M14 Trench Carbine
-      STR_MAUSER_C96_CARBINE_UFOPEDIA: A specially modified C96 pistol, adapted as an effective support weapon for trench raiding. With a longer barrel and wood stock and handguard, an already good weapon became even better. 
-      STR_MAUSER_C96_CARBINE_MAG: Mauser C96/M14 Mag
-      STR_MAUSER_C96_CARBINE_MAG_KMM: Mauser C96/M14 KMM Mag
+      STR_MAUSER_C96_CARBINE_UFOPEDIA: A specially modified C96 pistol, adapted as an effective support weapon for trench raiding. With a longer barrel and wood stock and handguard, an already good weapon became even better.
+      STR_MAUSER_C96_MAG: Mauser C96/M14 Mag
+      STR_MAUSER_C96_MAG_KMM: Mauser C96/M14 KMM Mag
       STR_LUGER_P08: P08 Luger
       STR_LUGER_P08_UFOPEDIA: Elegant handgun, most identified by its angled grip and magazines. A very valuable pistol, often seek by the soldiers as war trophies. Calibered in 9x19mm Parabellum.
       STR_LUGER_P08_MAG: P08 Luger Mag
       STR_LUGER_P08_MAG_KMM: P08 Luger K-MM Mag
       STR_LUGER_ARTILLERY: P08 Artillery Luger
       STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
-      STR_LUGER_ARTILLERY_DRUM_KMM: null
+      STR_LUGER_ARTILLERY_DRUM_KMM: P08 Artillery Luger Drum
       STR_LUGER_ARTILLERY_UFOPEDIA:
         Modified version of the P08 Luger handgun, has a
         handguard and a wooden stock added to increase accuracy and range.
@@ -644,7 +667,7 @@ en-US:
         defense weapon. Uses drum magazines to maximize its ammunition storage.
       STR_MP18: MP-18 Bergmann SMG
       STR_MP18_DRUM: MP-18 Drum
-      STR_MP18_DRUM_KMM: MP-18 K-MM Drum
+      STR_MP18_DRUM_KMM: MP-18 K-MM Mag
       STR_MP18_UFOPEDIA:
         One of the best weapons in the human arsenal, designed to
         provide maximum firepower at close range. It is light and easy to use,
@@ -1009,7 +1032,7 @@ en-US:
       STR_PILOT_UFOPEDIA: The flight of the Wright brothers in 1905 and the Second Martian Invasion resulted in the full adoption of combat from the air and hundreds of volunteers enlisted in the newly formed military air forces. The knights of the air ride on their powerful air mounts of wood and cloth, defending the human skies.
       STR_PILOT_UNIFORM_UC: PILOT JUMPSUIT
       STR_PILOT_UNIFORM_UC_UFOPEDIA: Soft and confortable jump suit made of light cottom clothes, keeps the user warm at high-attitiude and prevents overheating inside landships and other ground vehicles. Includes a brand new parachute made in the USA, using a design of Stefan Banic. This allows the pilot to eject if it's vehicle becomes too damage to return base. Our war machine can reemplace a lost vehicle easily, not a veteran pilot.
-      
+
 ########################
 
 
