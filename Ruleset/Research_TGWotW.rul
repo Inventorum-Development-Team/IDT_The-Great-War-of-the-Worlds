@@ -1,0 +1,147 @@
+﻿research:
+  - delete: STR_MOTION_SCANNER
+  - delete: STR_STUN_ROD
+  - delete: STR_LASER_WEAPONS
+  - delete: STR_MEDI_KIT
+  - delete: STR_LASER_PISTOL
+  - delete: STR_LASER_RIFLE
+  - delete: STR_HEAVY_LASER
+  - delete: STR_LASER_CANNON
+  - delete: STR_LASER_DEFENSE
+
+##############################
+  - name: STR_ALIENS_ONLY
+    cost: 7500
+    points: 10
+    dependencies:
+      - STR_ALIENS_ONLY
+###############################
+
+  ##################################
+  - name: STR_ALIEN_ALLOYS
+    cost: 600
+    points: 60
+    needItem: true
+  - name: STR_IMPROVED_METALURGIC_TECHNIQUES
+    cost: 700
+    points: 20
+    dependencies:
+      - STR_ALIEN_ALLOYS
+  - name: STR_ADVANCED_FIREARMS
+    #    listOrder: 902
+    cost: 900
+    points: 70
+    dependencies:
+      - STR_IMPROVED_METALURGIC_TECHNIQUES
+  - name: STR_HUMAN_CHEMICAL_WEAPONS
+    #    listOrder: 902
+    cost: 600
+    points: 70
+    dependencies:
+      - STR_ADVANCED_FIREARMS
+      - STR_CHEMICAL_WARFARE_RESEARCH
+
+  - name: STR_RED_WEED_RESEARCH
+    cost: 600
+    points: 10
+  - name: STR_HEATRAY_RESEARCH
+    cost: 600
+    points: 10
+    dependencies:
+      - STR_HEATRAY_WEAPONS_ANALYSIS
+      - STR_SECTOID_ENGINEER
+  - name: STR_HEATRAY_WEAPONS_ANALYSIS
+    cost: 600
+    points: 10
+    dependencies:
+      - STR_HEATRAY_RIFLE
+      - STR_HEATRAY_PISTOL
+      - STR_HEATRAY_CANNON
+      - STR_HEATRAY_SNIPER
+      - STR_HEATRAY_CARBINE
+      - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+      - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+      - STR_HEATRAY_CANNON_BATTERY_PHOTON
+      - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+      - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+  - name: STR_CHEMICAL_WARFARE_RESEARCH
+    cost: 600
+    points: 10
+    dependencies:
+      - STR_MARTIAN_LAUNCHER
+      - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+      - STR_MARTIAN_ROCK_THROWER
+      - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+      - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+      - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+#################################
+###### MARTIAN ITEMS ###########
+##############################
+  - name: STR_HEATRAY_RIFLE
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_PISTOL
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_CANNON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_SNIPER
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_PISTOL_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_CARBINE_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_RIFLE_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_CANNON_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_CANNON_BATTERY_MICROWAVE
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_SNIPER_BATTERY_PHOTON
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_LAUNCHER
+    destroyItem: true
+    needItem: true
+  - name: STR_HEATRAY_CARBINE
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+    destroyItem: true
+  - name: STR_MARTIAN_ROCK_THROWER
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_BLADE
+    destroyItem: true
+    needItem: true
