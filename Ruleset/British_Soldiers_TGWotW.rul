@@ -55,6 +55,7 @@ soldiers:
 items:
   - type: STR_BRITISH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 100
     floorSprite: 100
@@ -64,6 +65,7 @@ items:
     recover: false
   - type: STR_BRITISH_GASMASK_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 101
     floorSprite: 101
@@ -73,6 +75,7 @@ items:
     recover: false
 #  - type: STR_BRITISH_OFFICER_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 102
 #    floorSprite: 102
@@ -82,6 +85,7 @@ items:
 #    recover: false
 #  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 103
 #    floorSprite: 103
@@ -317,34 +321,6 @@ armors:
 #    units:
 #      - STR_BRITISH_SOLDIER
 
-ufopaedia:
-  - id: STR_BRITISH_SOLDIER_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: BRITISH_SOLDIER_IMAGE
-    text: STR_BRITISH_SOLDIER_UFOPEDIA
-    text_width: 150
-    listOrder: 1700
-  - id: STR_BRITISH_FIELD_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1701
-    text: STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA
-  - id: STR_BRITISH_GASMASK_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1702
-    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
-#  - id: STR_BRITISH_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1703
-#    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
-#  - id: STR_BRITISH_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1704
-#    text: STR_BRITISH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
 extraSprites:
   - type: BRITISH_SOLDIER_IMAGE
     singleImage: true
@@ -527,13 +503,3 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/avatar-background.png
-extraStrings:
-  - type: en-US
-    strings:
-      STR_BRITISH_SOLDIER: British Soldier
-      STR_BRITISH_SOLDIER_INTRODUCTION: The Tommies
-      STR_BRITISH_SOLDIER_UFOPEDIA: The Commonwealth soldiers, nicknamed "Tommies" by the rest of the Coalition soldiers, are strong and brave. Most of the soldiers are quite professional, hardened by the years of colonial wars and the First Martian Invasion.  More than half of the men in the Commonwealth troops are volunteers from their countries, very few are recruited. Unlike the continental leva armies, the Tommies are grouped into highly mobile Expeditionary Forces, with no more than 150,000 soldiers.
-      STR_BRITISH_FIELD_UNIFORM_UC: COMMONWEALTH FIELD UNIFORM
-      STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA: Modified version of the campaign uniform introduced in 1902, the standard uniform of the British and Commonwealth troops model M1912 includes a jacket and pants with different pockets and a Brodie M12 helmet, to protect from head injuries.
-      STR_BRITISH_GASMASK_UC: COMMONWEALTH GAS MASK
-      STR_BRITISH_GASMASK_UC_UFOPEDIA: Gas mask model Harrison, Lambert & Sadd HLS Mk1 of British design, is a great improvement to the antiquated model P Helmet used at the beginning of the war. It adapts better to the Brodie M12 helmet and does not depend on an external respirator to function.

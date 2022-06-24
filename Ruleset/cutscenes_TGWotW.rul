@@ -42,13 +42,3 @@ cutscenes:
           captionSize: [250, 60]
           captionPos: [32, 0]
           captionColor: 244
-extraStrings:
-  - type: en-US
-    strings:
-      STR_INTRO_TGWOTW_1: "In the summer of 1896, an unexpected arrival of disturbing cylinders throughout England attracted the curiosity and fear of people. Once open, those cylinders gushed extraterrestrial beings and their machines of mass destruction."
-      STR_INTRO_TGWOTW_2: "In less than a month, the Martians wiped out all the British resistance. London fell and with it, the hope of stopping the invader. The rest of the world prepared for the worst."
-      STR_INTRO_TGWOTW_3: "In a twist of fate, the smallest beings on the planet annihilate the invader... the terrestrial bacteria. USA and France actively participate to rebuild London, leaving aside their old rivalry."
-      STR_INTRO_TGWOTW_4: "Humanity soon forgets what happened. On July 30, 1908, a huge explosion occurred in Tungunska, deep in Siberia. The Russian expedition sent to investigate never returns. The enemy has learned the lesson and the next two years, incontable cylinders fall far away from the human's sight."
-      STR_INTRO_TGWOTW_5: "On August 20, 1911, the Martians launch a general attack around the world. Humans are caught unprepared. In less than two years, half of the world belongs to them, corrupting the earth with their Red Weed."
-      STR_INTRO_TGWOTW_6: "1913. A series of desperate counterattacks manages to slow down part of the enemy's advance. Brave human soldiers perish defending the front, fighting to their last dying breath. The war of attrition slowly decimates the enemy, but the human casualities are counted by millions."
-      STR_INTRO_TGWOTW_7: "What remains of the humanity united under the banner of the Coalition of Nations and have gone on the offensive. Your unit is one of elite, formed with the best that the armies of the world have, the International Expeditionary Force. The year is 1914. This is the War to End All Wars. TOGETHER WE STAND"

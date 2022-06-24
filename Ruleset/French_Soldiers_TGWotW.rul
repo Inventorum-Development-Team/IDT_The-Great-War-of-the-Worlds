@@ -56,6 +56,7 @@ soldiers:
 items:
   - type: STR_FRENCH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 113
     floorSprite: 113
@@ -65,6 +66,7 @@ items:
     recover: false
   - type: STR_FRENCH_GASMASK_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 114
     floorSprite: 114
@@ -74,6 +76,7 @@ items:
     recover: false
 #  - type: STR_FRENCH_OFFICER_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 115
 #    floorSprite: 115
@@ -83,6 +86,7 @@ items:
 #    recover: false
 #  - type: STR_FRENCH_TRENCHCOAT_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 116
 #    floorSprite: 116
@@ -318,34 +322,7 @@ armors:
 #    units:
 #      - STR_FRENCH_SOLDIER
 
-ufopaedia:
-  - id: STR_FRENCH_SOLDIER_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: FRENCH_SOLDIER_IMAGE
-    text: STR_FRENCH_SOLDIER_UFOPEDIA
-    text_width: 150
-    listOrder: 1717
-  - id: STR_FRENCH_FIELD_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1718
-    text: STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA
-  - id: STR_FRENCH_GASMASK_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1719
-    text: STR_FRENCH_GASMASK_UC_UFOPEDIA
-#  - id: STR_FRENCH_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1718
-#    text: STR_FRENCH_GASMASK_UC_UFOPEDIA
-#  - id: STR_FRENCH_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1718
-#    text: STR_FRENCH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+
 extraSprites:
   - type: FRENCH_SOLDIER_IMAGE
     singleImage: true
@@ -521,13 +498,3 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/avatar-background.png
-extraStrings:
-  - type: en-US
-    strings:
-      STR_FRENCH_SOLDIER: French Soldier
-      STR_FRENCH_SOLDIER_INTRODUCTION: Le Poilu
-      STR_FRENCH_SOLDIER_UFOPEDIA: There is no soldier tougher, coarser and fiercer than a French soldier. Nicknamed 'Poilu', which means 'hairy' because of their abundant moustache or beard, they are experienced in hand to hand combat, using melee weapons when they run out of ammunition. Sometimes they are somewhat insubordinate and do not follow incompetent officers Their honour is very high, they literally fight to the last man for the glory of their homeland.
-      STR_FRENCH_FIELD_UNIFORM_UC: FRENCH ARMY FIELD UNIFORM
-      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: Trench Coat and Adrian Helmet introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure. It has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride.
-      STR_FRENCH_GASMASK_UC: FRENCH ARMY GAS MASK
-      STR_FRENCH_GASMASK_UC_UFOPEDIA: Gas mask modèle M1914, is a licensed version of the successful mask used by the troops of the German Imperial Army. It works exactly the same, which allows to exchange filters for masks, even full gasmasks, with their German brothers in arms. There are rumors that the Adrian M14 helmet has certain vision problems with this gas mask.

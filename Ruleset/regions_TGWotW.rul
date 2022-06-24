@@ -34,7 +34,7 @@ regions:
       -
         - [200, 220, -65, -60] #MissionZone 0
       -
-        - [200, 225, -63.75, -60.75] #MissionZone 1 
+        - [200, 225, -63.75, -60.75] #MissionZone 1
 # MissionZone 2 - Active frontlines - White
       -
         - [236, 240, -50, -45] # Seattle Front
@@ -46,7 +46,7 @@ regions:
         - [259.526, 271.652, -52.449, -29.1174] # Central Canada Front
       -
 # MissionZone 3 - Alien terror - Green dots
-        - [284.25, 284.25, -45.5, -45.5, -1, STR_MONTREAL] 
+        - [284.25, 284.25, -45.5, -45.5, -1, STR_MONTREAL]
         - [234.75, 234.75, -49.375, -49.375, -1, STR_VANCOUVER]
         - [279.733, 279.733, -26.08, -26.08, -1, STR_MIAMI]
         - [282.875, 282.875, -38.75, -38.75, -1, STR_WASHINGTON]
@@ -71,10 +71,10 @@ regions:
         - [280, 284, -40, -43] # Between New York and Vancouver
         - [256, 261, -29, -27] # Between Texas and Coahuila
         - [238, 244, -38, -35] # California Desert
-        - [234, 239, -52, -50] # Inside Seattle Front 
+        - [234, 239, -52, -50] # Inside Seattle Front
       -
 # MissionZone 5 - Old Atmosphere entry/exit points - Yellow
-        - [0, 359.875, -90, -80] 
+        - [0, 359.875, -90, -80]
       -
 # MissionZone 6 - Martian Ocupation Zone, no-fly/no-go zone - Red
         - [245.711, 268.565, -40.9463, -34.7545] # South-Central USA
@@ -85,8 +85,8 @@ regions:
         - [259.551, 269.068, -34.734, -33.3805] # North of Dallas
         - [246.341, 259.609, -35.0249, -31.5121] # Mexico Border
         - [246.552, 255.061, -31.2045, -27.4787] # Northern Mexico
-        - [249.372, 254.996, -27.2746, -24.8517] # North-eastern Mexico 
-        - [251.461, 271.133, -24.9112, -13.4631] # Central Mexico 
+        - [249.372, 254.996, -27.2746, -24.8517] # North-eastern Mexico
+        - [251.461, 271.133, -24.9112, -13.4631] # Central Mexico
 
   - type: STR_SOUTH_AMERICA
     cost: 600000
@@ -210,7 +210,7 @@ regions:
       -
         - [291.125, 296.25, 68.25, 70.5]
       -
-        - [291.125, 296.25, 68.25, 70.5, -40, -110]
+        - [291.125, 296.25, 68.25, 70.5]
       -
         - [121.625, 176.125, -46.25, -21.75]
       -
@@ -298,7 +298,7 @@ regions:
         - [32.75, 32.75, -39.875, -39.875, -1, STR_ANKARA]
         - [88.375, 88.375, -22.625, -22.625, -1, STR_CALCUTTA]
         - [79.88, 79.88, -7.37, -7.37, -1, STR_SRI_LANKA]
-        
+
       -
         - [42.375, 52.125, -23.5, -18.375, -110]
       -
@@ -376,9 +376,9 @@ regions:
         - [115.75, 123.125, 30.375, 33.125]
       -
 # MissionZone 2 - Active frontlines - White
-        - [139.438, 139.656, 17.1252, 21.8859] # Queensland Front 
-        - [135.012, 135.685, 20.8392, 28.0759] # Central Australia Front 
-        - [129.921, 131.134, 28.8212, 32.3163] # South Australia Front 		
+        - [139.438, 139.656, 17.1252, 21.8859] # Queensland Front
+        - [135.012, 135.685, 20.8392, 28.0759] # Central Australia Front
+        - [129.921, 131.134, 28.8212, 32.3163] # South Australia Front
 # MissionZone 3 - Alien terror - Green dots
       -
         - [147.36, 147.36, 42.78, 42.78, -1, STR_TASMANIA]
@@ -395,7 +395,7 @@ regions:
         - [0, 359.875, -90, -80]
       -
 # MissionZone 6 - Martian Ocupation Zone, no-fly/no-go zone - Red
-        - [113.649, 129.123, 21.9433, 31.6768] # Western Australia 
+        - [113.649, 129.123, 21.9433, 31.6768] # Western Australia
         - [126.708, 139.768, 13.9269, 21.7654] # Northern Territory
 
   - type: STR_NORTH_PACIFIC
@@ -418,7 +418,7 @@ regions:
         - [203.9, 204.7, -19.92, -19.24]
       -
         - [203.9, 204.7, -19.92, -19.24]
-      - 
+      -
         - [209.25, 209.25, -60.72, -60.72, -1, STR_ANCHORAGE]
         - [204.39, 204.39, -19.64, -19.64, -1, STR_HAWAII]
         - [151.5, 151.5, -46.5, -46.5, -1, STR_KURIL_ISLANDS]
@@ -443,7 +443,7 @@ regions:
         - [203.9, 204.7, -19.92, -19.24]
       -
         - [203.9, 204.7, -19.92, -19.24]
-      - 
+      -
         - [241, 241, 26.5, 26.5, -5, STR_EASTER_ISLAND]
         - [269, 269, 1, 1, -5, STR_GALAPAGOS_ISLAND]
       -
@@ -452,7 +452,7 @@ regions:
         - [0, 359.875, -90, -80]
       -
         - [0, 359.875, -90, -80]
-  - type: STR_NORTH_ATLANTIC 
+  - type: STR_NORTH_ATLANTIC
     cost: 500000
     areas:
       - [305, 335, -70, -30]
@@ -469,7 +469,7 @@ regions:
         - [265.75, 266.25, -62, -61.5]
       -
         - [293.4, 296.5, -57.7, -54.264]
-      - 
+      -
         - [294.76, 294.76, -32.509, -32.509, -1, STR_BERMUDA]
         - [308.8, 308.8, -64.07, -64.07, -1, STR_NUUK]
         - [334.16, 334.16, -37, -37, -1, STR_AZORES]
@@ -504,7 +504,7 @@ regions:
         - [79.5, 81.5, -16, -13.625]
       -
         - [79.5, 81.5, -16, -13.625]
-  - type: STR_INDIAN_OCEAN 
+  - type: STR_INDIAN_OCEAN
     cost: 500000
     areas:
       - [55, 70, -15, 10]

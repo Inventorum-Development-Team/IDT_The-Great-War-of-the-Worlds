@@ -1,0 +1,644 @@
+# Made by Filip H
+# Script to make the BigOB (and if needed hand and floor) sprite of a weapon to reflect if ammo is loaded, and what kind of ammo is loaded
+# Supports up to 4 different ammo types per weapon (plus empty weapon), foldable stocks (i.e. weapons that change sprite depending if they're in the soldiers hand or not, only 3 ammotypes per weapon supported) and weapons with 2 ammo slots (only one ammotype per slot supported)
+# Works also for multiple weapons sharing the same ammo type(s)
+# Note: weapons with this script only show the default (or no magazine) sprite in the Ufopaedia and hen middle-mouse clicking enemies
+# How to use:
+# To use the script sprite indexes need to be ordered in a very specific way, with each sprite being 8 indexes apart (like handObs normally)
+# The weapon itself should have the first index number in its ruleset
+# Example weapon: a MP5 that can hold magazines of 4 different sizes
+#      752: Resources/BallisticWeapons/SMGs/BigMP5SDnomag.png  # Sprite for empty weapon
+#      760: Resources/BallisticWeapons/SMGs/BigMP5SD10.png # Sprite for smallest magazine/ammo type 1
+#      768: Resources/BallisticWeapons/SMGs/BigMP5SD20.png # Sprite for second smallest magazine/ammo type 2
+#      776: Resources/BallisticWeapons/SMGs/BigMP5SD.png # Sprite for third smallest magazine/ammo type 3
+#      784: Resources/BallisticWeapons/SMGs/BigMP5SD40.png # Sprite for largest magazine/ ammo type 4
+# the MP5 item should have bigSprite: 752
+# Floor and Hand sprites must be spaced in the same way (though they are not required to have the same index number) and each sprite must have a corresponding floor and hand sprite
+# Note: if you want to have the same sprite for all ammo states for floor and hand sprites, you can assign the same sprite to multiple index numbers
+# You Need to add tags (consisting of a number between 1 and 4) to every ammo type
+# Example:
+#  - type: STR_9MM_PARABELLUM_X10 # Smallest magazine/ammo type 1
+#    tags:
+#     AmmoNo: 1
+#  - type: STR_9MM_PARABELLUM_X20 # Second smallest magazine/ammo type 2
+#    tags:
+#     AmmoNo: 2
+#  - type: STR_9MM_PARABELLUM_X30
+#    tags:
+#     AmmoNo: 3 # Third smallest magazine/ammo type 3
+#  - type: STR_9MM_PARABELLUM_X40
+#    tags:
+#     AmmoNo: 4 # Largest magazine/ ammo type 4
+# Lastly you need to attach a tag to every weapon that you want affected by this script
+#  - type: STR_MP5
+#    tags:
+#     AmmoReSprite: 1
+# Note: if multiple weapons share the same ammo, but some cannot use the smallest ammo type, when assigning index numbers there still needs to be a sprite for the smallest ammo type, even if it is just a placeholder.
+# Example: The Glock 18 shares ammo with the MP5, but can only use the second and third smallest magazines, the index looks like this:
+#      2160: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png # Sprite for empty weapon
+#      2168: Resources/BallisticWeapons/Pistols/BigGlock18nomag.png # placeholder sprite that never appears ingame
+#      2176: Resources/BallisticWeapons/Pistols/BigGlock18.png # Sprite for second smallest magazine/ammo type 2
+#      2184: Resources/BallisticWeapons/Pistols/BigGlock1830.png # Sprite for third smallest magazine/ammo type 3
+# If a weapon is folding/ has a different sprite depending if it is in a hand or not it needs the tag FoldStock: 1
+# Such a weapon should have the sprite for when the weapon is held in a hand ordered first and the inventory sprites should be 32 numbers higher
+# Example of a index order for such a weapon
+#      792: Resources/BallisticWeapons/SMGs/BigMPXnomag.png # This sprite should be the unfolded ones/ones in the hand
+#      800: Resources/BallisticWeapons/SMGs/BigMPX10.png
+#      808: Resources/BallisticWeapons/SMGs/BigMPX20.png
+#      816: Resources/BallisticWeapons/SMGs/BigMPX.png
+#      824: Resources/BallisticWeapons/SMGs/BigMPXFoldednomag.png # This sprite and below should be the folded ones/ones iin the inventory
+#      832: Resources/BallisticWeapons/SMGs/BigMPXFolded10.png
+#      840: Resources/BallisticWeapons/SMGs/BigMPXFolded20.png
+#      848: Resources/BallisticWeapons/SMGs/BigMPXFolded.png
+# If a weapon has 2 ammo slots it needs the tag UBS: 1
+# Note: each ammo slot can only use ammo items that have the tag AmmoNo: 1, otherwise the script won't work
+# Example of how the sprites need to be ordered
+#      1064: Resources/BallisticWeapons/Rifles/BigM4MASSnomag3.png #both ammo slots empty
+#      1072: Resources/BallisticWeapons/Rifles/BigM4MASSnomag2.png # slot 0 filled, slot 1 empty
+#      1080: Resources/BallisticWeapons/Rifles/BigM4MASSnomag.png # slot 0 empty, slot 1 filled
+#      1088: Resources/BallisticWeapons/Rifles/BigM4MASS.png # both slots filled
+# Example of a mod where the script is used: https://github.com/Inventorum-Development-Team/CTO
+
+items:
+###############################
+########### RIFLES ###########
+#############################
+  - type: STR_SMLE_MKIII #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SMLE_MKIII_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SMLE_MKIII_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_P14_ENFIELD #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SPRINGFIELD #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SPRINGFIELD_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SPRINGFIELD_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_GEWEHR98 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_GEWEHR98_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_GEWEHR98_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_LEBEL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_LEBEL_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LEBEL_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_MOSIN_NAGANT #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_MOSIN_NAGANT_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MOSIN_NAGANT_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIFLE_GRENADE # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_WINCHESTER_M1915 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_BERDAN_II #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_BERDAN_II_AMMO # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_BERDAN_II_AMMO_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PHLOGISTON_HEAVY_RIFLE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_PHLOGISTON_RUBY_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_FARQHUAR_HILL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_FARQHUAR_HILL_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_FARQHUAR_HILL_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MONDRAGON #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_MONDRAGON_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MONDRAGON_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_SELBSTLADER_M1916 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_SELBSTLADER_M1916_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SELBSTLADER_M1916_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RSC17 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_RSC17_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RSC17_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_FEDOROV_AVTOMAT #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_FEDOROV_AVTOMAT_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_FEDOROV_AVTOMAT_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_CEI_RIGOTTI #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_CEI_RIGOTTI_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_CEI_RIGOTTI_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PHLOGISTON_BATTLE_RIFLE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
+  - type: STR_PHLOGISTON_MEDIUM_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+###############################
+########## SIDEARMS ##########
+#############################
+  - type: STR_AUTOMATIC_REVOLVER #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_REVOLVER_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_REVOLVER_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_REVOLVER_CLIP_DUMDUM # ignoreDuplicate
+    tags:
+      AmmoNo: 3
+  - type: STR_HEAVY_REVOLVER #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+
+  - type: STR_SERVICE_REVOLVER #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+
+  - type: STR_M1911_COLT #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_M1911_COLT_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_M1911_COLT_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MAUSER_C96 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_MAUSER_C96_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MAUSER_C96_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LUGER_P08 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_LUGER_P08_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LUGER_P08_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_OBREZ_PISTOL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_TESLA_PISTOL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_PHLOGISTON_PISTOL #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Sidearms
+  - type: STR_PHLOGISTON_SMALL_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+###############################
+########## CARBINES ##########
+#############################
+  - type: STR_M1907_SL_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_M1907_SL_CARBINE_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_M1907_SL_CARBINE_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  #- type: STR_REVOLVER_CARBINE #ignoreDuplicate
+  #  tags:
+  #    AmmoReSprite: 1 # Carbines
+  - type: STR_MAUSER_C96_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_MAUSER_C96_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MAUSER_C96_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LUGER_ARTILLERY #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_LUGER_ARTILLERY_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LUGER_ARTILLERY_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RSC_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+
+  - type: STR_CARCANO_M91_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+  - type: STR_CARCANO_M91_CARBINE_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_CARCANO_M91_CARBINE_CLIP_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_PHLOGISTON_AUTOMATIC_CARBINE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Carbines
+
+#  - type: STR_CARBINE
+#    tags:
+#      AmmoReSprite: 1 # Carbines
+
+###############################
+########### SMGS #############
+#############################
+  - type: STR_ANNIHILATOR_SMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_ANNIHILATOR_SMG_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_ANNIHILATOR_SMG_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MP18 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_MP18_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MP18_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_SMG_0818 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_SMG_0818_BOX # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SMG_0818_BOX_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_BERETTA_MAB18 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_BERETTA_MAB18_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_BERETTA_MAB18_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_VILLAR_PEROSA #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_VILLAR_PEROSA_MAGS # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_VILLAR_PEROSA_MAGS_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_TESLA_PROTOTYPE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+  - type: STR_TESLA_LIGHT_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_TESLA_SMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # SMGs
+#  - type: STR_SMG
+#    tags:
+#      AmmoReSprite: 1 # SMGs
+
+###############################
+########### LMGS #############
+#############################
+  - type: STR_HUOT_LMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_HUOT_LMG_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HUOT_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_BAR #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_BAR_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_BAR_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MG0815 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_MG0815_DRUM # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MG0815_DRUM_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_CHAUCHAT_LMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_CHAUCHAT_LMG_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_CHAUCHAT_LMG_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_RIBEYROLLES #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_RIBEYROLLES_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_RIBEYROLLES_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_LEWIS_GUN #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_LEWIS_GUN_PAN # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_LEWIS_GUN_PAN_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MADSEN_LMG #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_MADSEN_LMG_MAG # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MADSEN_LMG_MAG_KMM # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_TESLA_AUTOCANNON #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # LMGs
+  - type: STR_TESLA_HEAVY_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+#  - type: STR_LMG
+#    tags:
+#      AmmoReSprite: 1 # LMGs
+
+
+###############################
+########## SHOTGUNS ##########
+#############################
+  - type: STR_WINCHESTER_TRENCH_GUN #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SHOTGUN_DUMDUM_SHELLS_5 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_REMINGTON_MODEL_11 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_INERTIA_SHOTGUN #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_MODEL_1900 #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_SHOTGUN_BUCKSHOT_SHELLS_2 # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_SHOTGUN_DUMDUM_SHELLS_2 # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MODEL_1900_SAWEDOFF #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_TESLA_TRENCH_BROOM #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Shotguns
+  - type: STR_TESLA_EXTENDED_BATTERY # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+
+
+#################################
+###### Heat Ray Weapons ########
+###############################
+  - type: STR_HEATRAY_PISTOL # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEATRAY_PISTOL_BATTERY_PHOTON # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HEATRAY_PISTOL_BATTERY_MICROWAVE # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HEATRAY_CARBINE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEATRAY_CARBINE_BATTERY_PHOTON # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HEATRAY_CARBINE_BATTERY_MICROWAVE # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HEATRAY_RIFLE # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEATRAY_RIFLE_BATTERY_PHOTON # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HEATRAY_RIFLE_BATTERY_MICROWAVE # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HEATRAY_CANNON # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEATRAY_CANNON_BATTERY_PHOTON # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HEATRAY_CANNON_BATTERY_MICROWAVE # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_HEATRAY_SNIPER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_HEATRAY_SNIPER_BATTERY_PHOTON # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_HEATRAY_SNIPER_BATTERY_MICROWAVE # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+  - type: STR_MARTIAN_LAUNCHER # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 1
+  - type: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP # ignoreDuplicate
+    tags:
+      AmmoNo: 2
+
+extended:
+  tags:
+   RuleItem:
+      AmmoReSprite: int
+      AmmoNo: int
+      FoldStock: int
+      UBS: int
+
+
+  scripts:
+
+    selectItemSprite: #Switches between weapon sprites depending on ammo
+       - offset: 1
+         code: |
+          var int x;
+          var int y;
+          var ptr BattleItem ammoptr;
+          var ptr BattleItem UBSammoptr;
+          var ptr RuleInventory invptr;
+          var int left;
+          var int right;
+          var int ammono;
+          var int UBSammono;
+          var int z;
+          var int a;
+          BattleItem.getTag item x Tag.AmmoReSprite;
+          if eq x 1;
+           item.getAmmoItem ammoptr;
+           BattleItem.getTag  ammoptr ammono Tag.AmmoNo;
+           BattleItem.getTag item y Tag.FoldStock;
+           if eq y 1;
+            item.getSlot invptr;
+            RuleInventory.isLeftHand invptr left;
+            RuleInventory.isRightHand invptr right;
+            if and eq left 0 eq right 0;
+             set z 1;
+             end;
+            end;
+           if eq z 1;
+            add sprite_index 32;
+            if eq ammono 1;
+             add sprite_index 8;
+             end;
+            if eq ammono 2;
+             add sprite_index 16;
+             end;
+            if eq ammono 3;
+             add sprite_index 24;
+             end;
+            if eq ammono 4;
+             add sprite_index 32;
+            end;
+           end;
+           if neq z 1;
+            if eq ammono 1;
+             add sprite_index 8;
+             end;
+            if eq ammono 2;
+             add sprite_index 16;
+             end;
+            if eq ammono 3;
+             add sprite_index 24;
+             end;
+            if eq ammono 4;
+             add sprite_index 32;
+             end;
+            end;
+           BattleItem.getTag item a Tag.UBS;
+           if eq a 1;
+             item.getAmmoForSlot UBSammoptr 1;
+             BattleItem.getTag  UBSammoptr UBSammono Tag.AmmoNo;
+             if eq UBSammono 1;
+              add sprite_index 16;
+              end;
+            end;
+           end;
+          return sprite_index;
+
+# Explanation on how the script is supposed to function, does not include explanations for multi slot or folding weapons
+# First, every weapon that will be affected by sprite changing depending on what ammo is loaded will have a tag with the value of 1, if they don't the script will not affect them.
+# Every ammotype will get a tag, i.e a number attached to them, currently only the 9mm types do. Currently the 30x has a tag with the value of 3, the 20x has 2 and the 10x has 1.
+# The script will first check the ammos tag and see what value it has, if there is no ammo loaded, the script does nothing and the sprite is the one defined in the weapons ruleset (which should be the sprite that has no mag).
+# If the value of the tag is 1, the script will add 8 to every sprite index of a weapon, e.g. if a weapon had the bigsprite of 10 it will now have 18, a floorsprite of 10 would be 18 and a handsprite of 492 would be 500.
+# If the value of the tag is 2, the script will add 16 to every sprite index instead of 8. if the value of the tag is 3, it will add 24.
+# This is why there needs to be a specific order of sprite indexes, because a weapons bigob, floorob and handob might be any of 4 different indexes depending on what weapon is loaded.
+# The reason of why the script is this way is because it can easily be extended to different sets of ammo, just by adding tags to them with the value of 1-3. the script can be easily extended to support more ammotypes per weapon (infact i just did that in 20 seconds, you can now have tags with values 4 and 5 which add 32 and 40 to the indexes).
+# The main drawback of the script is that it wastes indexes, as some floorobs and handobs are defined to multiple indexes. Also the way i'm going to arrange the indexes is going to leave a lot of empty ones, as i don't have the will of doing it the efficient but more convoluted way.
+

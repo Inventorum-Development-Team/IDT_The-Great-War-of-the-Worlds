@@ -1007,37 +1007,6 @@ alienDeployments:
       showTarget: false
       showCraft: false
 
-extraStrings:
-  - type: en-US
-    strings:
-      STR_FRONTLINES_VERDUN_FORT_VAUX: "FRONTLINES: Verdun, Defense of Fort Vaux"
-      STR_FRONTLINES_VERDUN_FORT_VAUX_TERRAIN: "Trenches outside Fort Vaux"
-      STR_FRONTLINES_VERDUN_FORT_VAUX_BRIEFING: "1916. German forces have besieged the fortress of Verdun. Fort Douaumont has fallen and now the enemy assaults Fort Vaux. Our company was assigned to defend the trenches in the frontline of Vaux. General Nivelle has given the order 'They shall not pass!' And we will make the Germans pay dearly for their daring."
-      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT: "FRONTLINES: Assault on Fleury-devant-Douaumont Village"
-      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_TERRAIN: "Small town near Verdun"
-      STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BRIEFING: "1916. The siege of Verdun is proving more successful than expected. The High Command has ordered our platoon to capture the important village of Fleury-devant-Douamont, near the line of fortresses of Verdun. We have recaptured the position of French hands many times, this time it will be the definitive one."
-      STR_FRONTLINES_MEUSE_ARGONNE: "FRONTLINES: Meuse-Argonne Offensive"
-      STR_FRONTLINES_MEUSE_ARGONNE_TERRAIN: "Railroad in the Argonne Forest"
-      STR_FRONTLINES_MEUSE_ARGONNE_BRIEFING: "1918. It is the Hundred Days Offensive and the US Army will finally participate in operations on the Western Front. Our squadron will attack a German position near the Hinderburg Line deep in the Argonne forest. Strong opposition is expected. It is time to end the German menance once and for all!"
-#
-      STR_GERMAN_ARMY: "German Army"
-      STR_GERMAN_ARMY_OFFICER: "German Army Officer"
-      STR_GERMAN_ARMY_SUPPORT: "German Army Support"
-      STR_GERMAN_ARMY_MEDIC: "German Army Medic"
-      STR_GERMAN_ARMY_ASSAULT: "German Army Assault"
-      STR_GERMAN_ARMY_RIFLEMAN: "German Army Rifleman"
-      STR_GERMAN_ARMY_RAIDER: "German Army Raider"
-      STR_GERMAN_ARMY_FLAME_TROOPER: "German Army Flame Trooper"
-#
-      STR_FRENCH_ARMY: "French Army"
-      STR_FRENCH_ARMY_OFFICER: "French Army Officer"
-      STR_FRENCH_ARMY_SUPPORT: "French Army Support"
-      STR_FRENCH_ARMY_MEDIC: "French Army Medic"
-      STR_FRENCH_ARMY_ASSAULT: "French Army Assault"
-      STR_FRENCH_ARMY_RIFLEMAN: "French Army Rifleman"
-      STR_FRENCH_ARMY_RAIDER: "French Army Raider"
-      STR_FRENCH_ARMY_FLAME_TROOPER: "French Army Flame Trooper"
-
 extraSprites:
   - type: FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND
     singleImage: true

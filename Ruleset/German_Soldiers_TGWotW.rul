@@ -53,6 +53,7 @@ soldiers:
 items:
   - type: STR_GERMAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 108
     floorSprite: 108
@@ -62,6 +63,7 @@ items:
     recover: false
   - type: STR_GERMAN_GASMASK_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 109
     floorSprite: 109
@@ -71,6 +73,7 @@ items:
     recover: false
 #  - type: STR_GERMAN_OFFICER_UNIFORM_CORPSE
 #    name: STR_CORPSE
+#    battleType: 11
 #    weight: 24
 #    bigSprite: 110
 #    floorSprite: 110
@@ -80,6 +83,7 @@ items:
 #    recover: false
   - type: STR_GERMAN_TRENCH_COAT_UNIFORM_CORPSE
     name: STR_CORPSE
+    battleType: 11
     weight: 24
     bigSprite: 111
     floorSprite: 111
@@ -316,34 +320,6 @@ armors:
     units:
       - STR_GERMAN_SOLDIER
 
-ufopaedia:
-  - id: STR_GERMAN_SOLDIER_INTRODUCTION
-    type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
-    image_id: GERMAN_SOLDIER_IMAGE
-    text: STR_GERMAN_SOLDIER_UFOPEDIA
-    text_width: 150
-    listOrder: 1710
-  - id: STR_GERMAN_FIELD_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1711
-    text: STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA
-  - id: STR_GERMAN_GASMASK_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1712
-    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
-#  - id: STR_GERMAN_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
-#    listOrder: 1713
-#    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
-  - id: STR_GERMAN_TRENCH_COAT_UNIFORM_UC
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    listOrder: 1714
-    text: STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA
 extraSprites:
   - type: GERMAN_SOLDIER_IMAGE
     singleImage: true
@@ -508,15 +484,3 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/avatar-background.png
-extraStrings:
-  - type: en-US
-    strings:
-      STR_GERMAN_SOLDIER: German Soldier
-      STR_GERMAN_SOLDIER_INTRODUCTION: The Jerry
-      STR_GERMAN_SOLDIER_UFOPEDIA: The brave and heroic soldiers of the Kaiser serve gallantly on the battlefield. One of Europe's largest armies is affectionately called 'Jerry,' derived from 'German'. They are one of the best snipers in the world, since Napoleonic times they have stood out for their precision and lethality. They have put aside their rivalry with the French to work alongside them.
-      STR_GERMAN_FIELD_UNIFORM_UC: GERMAN ARMY FIELD UNIFORM
-      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: Standard Field Combat Uniform, part of the equipment of the soldiers of the Deutsches Heer. Entering service in 1910, the feldgrau uniform replaced the colorful colorful uniforms of the Germanic states. In 1913 the iconic Pickelhaube was reemplaced for the grey Stalhlhelm, better protected and easier to manufacture.
-      STR_GERMAN_GASMASK_UC: GERMAN ARMY GAS MASK
-      STR_GERMAN_GASMASK_UC_UFOPEDIA: The Lederschutzmaske M1914 gas mask (leather protection mask) is probably one of the best designs to date. It went into action shortly before the last Martian offensive on the Marne and has been employed by numerous soldiers and civilians alike, from many nations. It protects well from toxic gases, although it obstructs the view and deafens the soldier.
-      STR_GERMAN_TRENCH_COAT_UNIFORM_UC: GERMAN ARMY TRENCH COAT
-      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: The wool coat used by the German Army is designed to keep troops warm at the front. It does not have any additional pockets, so it is used together with a belt and a backpack. This uniform includes the traditional Pickelhaube adorned with the German imperial eagle. Although it has no protection, it is worn with pride by the Kaiser's troops.

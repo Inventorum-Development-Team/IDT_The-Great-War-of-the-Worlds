@@ -281,25 +281,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND.PNG
-
-extraStrings:
-   - type: en-US
-     strings:
-       STR_CIVILIAN_AIRSHIP_DOWN_EVENT: "Civilian airship shot down in {0}"
-       STR_CIVILIAN_AIRSHIP_DOWN_DESCRIPTION: "A civilian airship ferring passengers and supplies exploded in mysterious circumstances as it approached its destination in {0}. The human and material losses are substantial. The local government ordered increased escorts for civilian airships to avoid another tragedy."
-       STR_MILITARY_AIRSHIP_DOWN_EVENT: "Military airship shot down"
-       STR_MILITARY_AIRSHIP_DOWN_DESCRIPTION: "On a patrol near the front lines, a swarm of Martian Flying Machines ambushed an allied airship in {0}. Despite the valiant efforts of the crew, the airship could not resist any longer and was shot down. The Navy mourns the loss of the crew and the ship."
-       STR_FACTORY_MALFUNCTION_EVENT: "Factory disaster in {0}"
-       STR_FACTORY_MALFUNCTION_DESCRIPTION: "Local authority reports that an accident has occurred in a major industry in the region, paralyzing production for an undetermined time. The origins of the incident are unknown, although enemy agents are suspected."
-       STR_SUCCESSFUL_TROOP_ADVANCE_EVENT: "Troop advance on the front line"
-       STR_SUCCESSFUL_TROOP_ADVANCE_DESCRIPTION: "A new offensive in {0} has been launched in the enemy occupied sectors. Several casualties are reported among the allied units, but it is confirmed that the enemy retreated and abandoned the position. Reinforcements have been deployed to the position."
-       STR_WAR_TROPHIES_EVENT: "War trophies recovered"
-       STR_WAR_TROPHIES_DESCRIPTION: "After a successful skirmish in {0}, Allied troops have recovered the fragments of a Martian Machine, as a war trophy. The Allied High Command in the area has forwarded the finding to our base for study."
-       STR_MECHANIZED_SKIRMISH_EVENT: "Mechanized skirmish in {0}"
-       STR_MECHANIZED_SKIRMISH_DESCRIPTION: "Early this morning, a column of mechanized units consisting of tanks and infantry managed to ambush a group of Martian infantry, inflicting heavy casualties. There are reports of some wounded allies and few tank losses."
-       STR_SUCCESSFUL_BOMBING_RUN_EVENT: "Allied bomber successful!"
-       STR_SUCCESSFUL_BOMBING_RUN_DESCRIPTION: "Our heavy bombers, accompanied by fighter escorts, have devastated a key Martian Fortress for the enemy's war effort located at {0}. Light casualties are reported in the squadron in charge of the mission. It is hoped that this will help disable the Martian war effort in the region."
-       STR_SUPPLY_SURPLUS_EVENT: "Surplus supplies"
-       STR_SUPPLY_SURPLUS_DESCRIPTION: "A supply caravan advancing towards the front line has stopped at our base to refuel and has left us some surplus supplies. Our troops are grateful for the extra rations and medicine!"
-       STR_FIELD_KITCHEN_EVENT: "Field kitchen supplies us"
-       STR_FIELD_KITCHEN_DESCRIPTION: "An Allied battalion passing near our headquarters included a field kitchen. They stopped in front of our base and the field kitchen distributed freshly prepared food to our troops. There is no better boost to army morale than a hot meal."

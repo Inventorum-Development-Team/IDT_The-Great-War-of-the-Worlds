@@ -1,0 +1,229 @@
+terrains:
+  - name: TRENCH_RAID00
+    mapDataSets:
+      - BLANKS
+      - BON1
+      - BON3
+      - RUINED_FOREST
+      - U_EXT01B
+    mapBlocks:
+      - name: TRENCH_RAID00
+        width: 10
+        length: 30
+#      - name: TRENCH_RAIDLZ
+#        width: 10
+#        length: 10
+#        groups: 1
+    script: TRENCH_RAID_MS
+
+mapScripts:
+  - type: TRENCH_RAID_MS
+    commands:
+#    - type: addCraft
+#      executions: 1
+#      groups: 1
+#    - type: addUFO
+#      groups: 1
+#      executions: 1
+    - type: addBlock
+      size: [1,3]
+
+alienDeployments:
+  - type: TRENCH_RAID_REDWEED
+    data:
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 10
+    length: 30
+    height: 10
+    civilians: 0 # no random civilians
+    civiliansByType:
+      STR_BRITISH_T2_RIFLEMAN_NPC: 2
+      STR_BRITISH_T2_ASSAULT_NPC: 2
+      STR_BRITISH_T1_OFFICER_NPC: 1
+      STR_BRITISH_T2_SUPPORT_NPC: 2
+    civilianSpawnNodeRank: 1 # xcom node
+    terrains:
+      - TRENCH_RAID00
+    briefing:
+      palette: 4
