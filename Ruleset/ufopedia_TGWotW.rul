@@ -1500,6 +1500,36 @@ ufopaedia:
   - delete: STR_SKYRANGER
   - delete: STR_INTERCEPTOR
 ############################
+  - id: STR_MARCH
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: MARCH_IMAGE
+    rect_stats:
+      x: 200
+      y: 130
+      width: 160
+      height: 80
+    rect_text:
+      x: 5
+      y: 40
+      width: 100
+      height: 160
+    text: STR_MARCH_UFOPEDIA
+  - id: STR_MARCH_LARGE
+    type_id: 1
+    section: STR_XCOM_CRAFT_ARMAMENT
+    image_id: MARCH_LARGE_IMAGE
+    rect_stats:
+      x: 200
+      y: 130
+      width: 160
+      height: 80
+    rect_text:
+      x: 5
+      y: 40
+      width: 100
+      height: 160
+    text: STR_MARCH_LARGE_UFOPEDIA
   - id: STR_CONQUEROR
     section: STR_XCOM_CRAFT_ARMAMENT
     text: STR_CONQUEROR_UFOPEDIA

@@ -403,18 +403,18 @@ alienDeployments:
             - STR_GEWEHR98_CLIP
           -
             - STR_SELBSTLADER_M1916
-            - STR_SELBSTLADER_M1916_CLIP
-            - STR_SELBSTLADER_M1916_CLIP
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_SELBSTLADER_M1916_MAG
+            - STR_SELBSTLADER_M1916_MAG
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
           -
             - STR_SELBSTLADER_M1916
-            - STR_SELBSTLADER_M1916_CLIP
-            - STR_SELBSTLADER_M1916_CLIP
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_SELBSTLADER_M1916_MAG
+            - STR_SELBSTLADER_M1916_MAG
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
       - alienRank: 4 # Assault
         lowQty: 3
         highQty: 4
@@ -422,37 +422,37 @@ alienDeployments:
         percentageOutsideUfo: 50
         itemSets:
           -
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
-            - STR_STIELHANDGRENADE
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
+            - STR_STICK_GRENADE
           -
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
-            - STR_STIELHANDGRENADE
-            - STR_STIELHANDGRENADE
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
+            - STR_STICK_GRENADE
+            - STR_STICK_GRENADE
             - STR_DYNAMITE
           -
             - STR_LUGER_ARTILLERY
             - STR_LUGER_ARTILLERY_DRUM
             - STR_LUGER_ARTILLERY_DRUM
-            - STR_STIELHANDGRENADE
-            - STR_STIELHANDGRENADE
+            - STR_STICK_GRENADE
+            - STR_STICK_GRENADE
             - STR_DYNAMITE
           -
             - STR_LUGER_ARTILLERY
             - STR_LUGER_ARTILLERY_DRUM
             - STR_LUGER_ARTILLERY_DRUM
-            - STR_STIELHANDGRENADE
-            - STR_STIELHANDGRENADE
+            - STR_STICK_GRENADE
+            - STR_STICK_GRENADE
             - STR_DYNAMITE
           -
             - STR_MP18
             - STR_MP18_DRUM
             - STR_MP18_DRUM
-            - STR_STIELHANDGRENADE
-            - STR_STIELHANDGRENADE
+            - STR_STICK_GRENADE
+            - STR_STICK_GRENADE
             - STR_DYNAMITE
       - alienRank: 3 # Medic
         lowQty: 1
@@ -461,22 +461,22 @@ alienDeployments:
         percentageOutsideUfo: 20
         itemSets:
           -
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_MEDIKIT
           -
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_BANDAGES
             - STR_MEDIKIT
             - STR_BANDAGES
           -
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_MEDIKIT
             - STR_BANDAGES
           -
@@ -519,13 +519,13 @@ alienDeployments:
             - STR_MG0815_DRUM
             - STR_MG0815_DRUM
             - STR_TRENCH_SHOVEL
-            - STR_STIELHANDGRENADE
+            - STR_STICK_GRENADE
           -
             - STR_MG0815
             - STR_MG0815_DRUM
             - STR_MG0815_DRUM
             - STR_TRENCH_SHOVEL
-            - STR_STIELHANDGRENADE
+            - STR_STICK_GRENADE
       - alienRank: 1 # Officer
         lowQty: 1
         highQty: 2
@@ -534,34 +534,34 @@ alienDeployments:
         itemSets:
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
 
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
       - alienRank: 0 # Officer
         lowQty: 1
@@ -571,34 +571,34 @@ alienDeployments:
         itemSets:
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
 
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
       - alienRank: 6 # Melee Trooper
         lowQty: 2
@@ -608,10 +608,10 @@ alienDeployments:
         itemSets:
           -
             - STR_TRENCH_KNIFE
-            - STR_STIELHANDGRENADE
+            - STR_STICK_GRENADE
           -
             - STR_TRENCH_MACE
-            - STR_STIELHANDGRENADE
+            - STR_STICK_GRENADE
             - STR_BANDAGES
           -
             - STR_TRENCH_SHOVEL
@@ -640,21 +640,21 @@ alienDeployments:
             - STR_FLAMETHROWER
           -
             - STR_FLAMETHROWER
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
           -
             - STR_FLAMETHROWER
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
           -
             - STR_FLAMETHROWER
-            - STR_MAUSER
-            - STR_MAUSER_CLIP
-            - STR_MAUSER_CLIP
+            - STR_MAUSER_C96
+            - STR_MAUSER_C96_CLIP
+            - STR_MAUSER_C96_CLIP
         extraRandomItems:
           - [STR_TRENCH_SHOVEL, STR_TRENCH_KNIFE, STR_TRENCH_MACE]
-          - [STR_DYNAMITE, STR_STIELHANDGRENADE, STR_STIELHANDGRENADE]
+          - [STR_DYNAMITE, STR_STICK_GRENADE, STR_STICK_GRENADE]
           - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]
     width: 60
     length: 60
@@ -711,16 +711,16 @@ alienDeployments:
             - STR_RSC17_CLIP
             - STR_RSC17_CLIP
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
           -
             - STR_RSC17
             - STR_RSC17_CLIP
             - STR_RSC17_CLIP
             - STR_RSC17_CLIP
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
       - alienRank: 4 # Assault
         lowQty: 3
         highQty: 4
@@ -729,36 +729,36 @@ alienDeployments:
         itemSets:
           -
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
-            - STR_MILLS_BOMB
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
+            - STR_FRAG_GRENADE
           -
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
-            - STR_STIELHANDGRENADE
-            - STR_STIELHANDGRENADE
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
+            - STR_STICK_GRENADE
+            - STR_STICK_GRENADE
             - STR_DYNAMITE
           -
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
-            - STR_MILLS_BOMB
-            - STR_MILLS_BOMB
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
+            - STR_FRAG_GRENADE
+            - STR_FRAG_GRENADE
             - STR_DYNAMITE
           -
             - STR_RIBEYROLLES
-            - STR_RIBEYROLLES_CLIP
-            - STR_RIBEYROLLES_CLIP
-            - STR_MILLS_BOMB
-            - STR_MILLS_BOMB
+            - STR_RIBEYROLLES_MAG
+            - STR_RIBEYROLLES_MAG
+            - STR_FRAG_GRENADE
+            - STR_FRAG_GRENADE
             - STR_DYNAMITE
           -
             - STR_RIBEYROLLES
-            - STR_RIBEYROLLES_CLIP
-            - STR_RIBEYROLLES_CLIP
-            - STR_MILLS_BOMB
-            - STR_MILLS_BOMB
+            - STR_RIBEYROLLES_MAG
+            - STR_RIBEYROLLES_MAG
+            - STR_FRAG_GRENADE
+            - STR_FRAG_GRENADE
             - STR_DYNAMITE
       - alienRank: 3 # Medic
         lowQty: 1
@@ -768,33 +768,33 @@ alienDeployments:
         itemSets:
           -
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
             - STR_MEDIKIT
           -
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
             - STR_BANDAGES
             - STR_MEDIKIT
             - STR_BANDAGES
           -
             - STR_M1911_COLT
-            - STR_M1911_COLT_CLIP
-            - STR_M1911_COLT_CLIP
+            - STR_M1911_COLT_MAG
+            - STR_M1911_COLT_MAG
             - STR_MEDIKIT
             - STR_BANDAGES
           -
             - STR_RIBEYROLLES
-            - STR_RIBEYROLLES_CLIP
-            - STR_RIBEYROLLES_CLIP
+            - STR_RIBEYROLLES_MAG
+            - STR_RIBEYROLLES_MAG
             - STR_MEDIKIT
             - STR_BANDAGES
             - STR_PAINKILLER
           -
             - STR_RIBEYROLLES
-            - STR_RIBEYROLLES_CLIP
-            - STR_RIBEYROLLES_CLIP
+            - STR_RIBEYROLLES_MAG
+            - STR_RIBEYROLLES_MAG
             - STR_MEDIKIT
             - STR_BANDAGES
             - STR_PAINKILLER
@@ -806,32 +806,32 @@ alienDeployments:
         itemSets:
           -
             - STR_CHAUCHAT_LMG
-            - STR_CHAUCHAT_LMG_CLIP
-            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_MAG
+            - STR_CHAUCHAT_LMG_MAG
             - STR_TRENCH_MACE
           -
             - STR_CHAUCHAT_LMG
-            - STR_CHAUCHAT_LMG_CLIP
-            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_MAG
+            - STR_CHAUCHAT_LMG_MAG
             - STR_TRENCH_MACE
           -
             - STR_CHAUCHAT_LMG
-            - STR_CHAUCHAT_LMG_CLIP
-            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_MAG
+            - STR_CHAUCHAT_LMG_MAG
             - STR_TRENCH_KNIFE
           -
             - STR_CHAUCHAT_LMG
-            - STR_CHAUCHAT_LMG_CLIP
-            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_MAG
+            - STR_CHAUCHAT_LMG_MAG
             - STR_TRENCH_SHOVEL
-            - STR_MILLS_BOMB
+            - STR_FRAG_GRENADE
           -
             - STR_CHAUCHAT_LMG
-            - STR_CHAUCHAT_LMG_CLIP
-            - STR_CHAUCHAT_LMG_CLIP
+            - STR_CHAUCHAT_LMG_MAG
+            - STR_CHAUCHAT_LMG_MAG
             - STR_TRENCH_SHOVEL
-            - STR_MILLS_BOMB
-            - STR_MILLS_BOMB
+            - STR_FRAG_GRENADE
+            - STR_FRAG_GRENADE
       - alienRank: 1 # Officer
         lowQty: 1
         highQty: 2
@@ -840,33 +840,33 @@ alienDeployments:
         itemSets:
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
       - alienRank: 0 # Officer
         lowQty: 1
@@ -876,33 +876,33 @@ alienDeployments:
         itemSets:
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
           -
             - STR_SABRE
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
             - STR_WHISTLE
       - alienRank: 6 # Melee Trooper
         lowQty: 2
@@ -912,26 +912,26 @@ alienDeployments:
         itemSets:
           -
             - STR_TRENCH_KNIFE
-            - STR_MILLS_BOMB
+            - STR_FRAG_GRENADE
           -
             - STR_TRENCH_MACE
-            - STR_MILLS_BOMB
+            - STR_FRAG_GRENADE
             - STR_BANDAGES
           -
             - STR_TRENCH_SHOVEL
             - STR_DYNAMITE
-            - STR_MILLS_BOMB
+            - STR_FRAG_GRENADE
             - STR_BANDAGES
           -
             - STR_TRENCH_SHOVEL
             - STR_DYNAMITE
-            - STR_MILLS_BOMB
+            - STR_FRAG_GRENADE
             - STR_BANDAGES
             - STR_BANDAGES
           -
             - STR_SABRE
             - STR_DYNAMITE
-            - STR_MILLS_BOMB
+            - STR_FRAG_GRENADE
             - STR_BANDAGES
             - STR_BANDAGES
       - alienRank: 7 # Flame Trooper
@@ -946,21 +946,21 @@ alienDeployments:
             - STR_FLAMETHROWER
           -
             - STR_FLAMETHROWER
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
           -
             - STR_FLAMETHROWER
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
           -
             - STR_FLAMETHROWER
-            - STR_WEBLEY_REVOLVER
-            - STR_WEBLEY_REVOLVER_CLIP
-            - STR_WEBLEY_REVOLVER_CLIP
+            - STR_AUTOMATIC_REVOLVER
+            - STR_REVOLVER_CLIP
+            - STR_REVOLVER_CLIP
         extraRandomItems:
           - [STR_TRENCH_SHOVEL, STR_TRENCH_KNIFE, STR_TRENCH_MACE]
-          - [STR_DYNAMITE, STR_MILLS_BOMB, STR_MILLS_BOMB]
+          - [STR_DYNAMITE, STR_FRAG_GRENADE, STR_FRAG_GRENADE]
           - [STR_BREAD, STR_ROTTEN_BREAD, STR_CANNED_BEEF, STR_ROTTEN_CANNED_BEEF, STR_BISCUIT_BOX, STR_ROTTEN_BISCUIT_BOX, STR_WINE]
     width: 60
     length: 60

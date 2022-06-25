@@ -1,0 +1,1724 @@
+terrains:
+######################################
+########## STORY MISSIONS ###########
+####################################
+  - name: VERDUN
+    mapDataSets:
+      - BLANKS
+      - BARN
+      - BON1
+      - BON2
+      - BON3
+      - CULTIVAT
+    script: VERDUN_SCRIPT
+    mapBlocks:
+      - name: DEEPTRENCH00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DEEPTRENCH01
+        width: 10
+        length: 10
+        groups: 2 # TRENCH BLOCKS
+      - name: DEEPTRENCH02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH07
+        width: 10
+        length: 10
+      - name: DEEPTRENCH08
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH09
+        width: 10
+        length: 10
+      - name: DEEPTRENCH10
+        width: 10
+        length: 10
+      - name: DEEPTRENCH11
+        width: 10
+        length: 10
+      - name: DEEPTRENCH12
+        width: 10
+        length: 10
+      - name: DEEPTRENCH13
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH14
+        width: 10
+        length: 10
+      - name: DEEPTRENCH15
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH16
+        width: 10
+        length: 10
+      - name: DEEPTRENCH17
+        width: 10
+        length: 10
+      - name: DEEPTRENCH18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH19
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH21
+        width: 10
+        length: 10
+      # - name: DEEPTRENCH22
+      #   width: 20
+      #   length: 20
+      #   groups: 4
+      - name: DEEPTRENCH24 #CROSS ROAD
+        width: 10
+        length: 10
+        groups: 4
+      - name: DEEPTRENCH25 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH26 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH27 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH28 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH29 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH30 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+
+  - name: VERDUN_VOIE_SACREE
+    mapDataSets:
+      - BLANKS
+      - BARN
+      - BON1
+      - BON2
+      - BON3
+      - CULTIVAT
+    script: VERDUN_SCRIPT
+    civilianTypes:
+      - STR_BRITISH_T2_RIFLEMAN_NPC
+      - STR_FRENCH_T2_RIFLEMAN_NPC
+      - STR_BRITISH_T2_ASSAULT_NPC
+      - STR_FRENCH_T2_ASSAULT_NPC
+      - STR_BRITISH_T1_OFFICER_NPC
+      - STR_FRENCH_T1_OFFICER_NPC
+      - STR_BRITISH_T2_SUPPORT_NPC
+      - STR_FRENCH_T2_SUPPORT_NPC
+    mapBlocks:
+      - name: DEEPTRENCH00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DEEPTRENCH01
+        width: 10
+        length: 10
+        groups: 2 # TRENCH BLOCKS
+      - name: DEEPTRENCH02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH07
+        width: 10
+        length: 10
+      - name: DEEPTRENCH08
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH09
+        width: 10
+        length: 10
+      - name: DEEPTRENCH10
+        width: 10
+        length: 10
+      - name: DEEPTRENCH11
+        width: 10
+        length: 10
+      - name: DEEPTRENCH12
+        width: 10
+        length: 10
+      - name: DEEPTRENCH13
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH14
+        width: 10
+        length: 10
+      - name: DEEPTRENCH15
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH16
+        width: 10
+        length: 10
+      - name: DEEPTRENCH17
+        width: 10
+        length: 10
+      - name: DEEPTRENCH18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH19
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH21
+        width: 10
+        length: 10
+      # - name: DEEPTRENCH22
+      #   width: 20
+      #   length: 20
+      #   groups: 4
+      - name: DEEPTRENCH24 #CROSS ROAD
+        width: 10
+        length: 10
+        groups: 4
+      - name: DEEPTRENCH25 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH26 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH27 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH28 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH29 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+#      - name: DEEPTRENCH30 # Vertical Road
+#        width: 10
+#        length: 10
+#        groups: 3
+  - name: VERDUN_FLEURY_VILLAGE
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: VILLAGE_VERDUN
+    mapBlocks: &AnchorVillage
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+    civilianTypes:
+      - STR_BRITISH_T2_RIFLEMAN_NPC
+      - STR_FRENCH_T2_RIFLEMAN_NPC
+      - STR_BRITISH_T2_ASSAULT_NPC
+      - STR_FRENCH_T2_ASSAULT_NPC
+      - STR_BRITISH_T1_OFFICER_NPC
+      - STR_FRENCH_T1_OFFICER_NPC
+      - STR_BRITISH_T2_SUPPORT_NPC
+      - STR_FRENCH_T2_SUPPORT_NPC
+      - MALE_CIVILIAN
+      - FEMALE_CIVILIAN
+  - name: VERDUN_FORT_DOUAUMONT
+    mapDataSets:
+      - BLANKS
+      - BARN
+      - BON1
+      - BON2
+      - BON3
+      - CULTIVAT
+    script: TRENCH_FORTS_VERDUN
+    mapBlocks: &AnchorDeepTrench
+      - name: DEEPTRENCH00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DEEPTRENCH01
+        width: 10
+        length: 10
+        groups: 2 # TRENCH BLOCKS
+      - name: DEEPTRENCH02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH07
+        width: 10
+        length: 10
+      - name: DEEPTRENCH08
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH09
+        width: 10
+        length: 10
+      - name: DEEPTRENCH10
+        width: 10
+        length: 10
+      - name: DEEPTRENCH11
+        width: 10
+        length: 10
+      - name: DEEPTRENCH12
+        width: 10
+        length: 10
+      - name: DEEPTRENCH13
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH14
+        width: 10
+        length: 10
+      - name: DEEPTRENCH15
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH16
+        width: 10
+        length: 10
+      - name: DEEPTRENCH17
+        width: 10
+        length: 10
+      - name: DEEPTRENCH18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH19
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH21
+        width: 10
+        length: 10
+      # - name: DEEPTRENCH22
+      #   width: 20
+      #   length: 20
+      #   groups: 4
+      - name: DEEPTRENCH24 #CROSS ROAD
+        width: 10
+        length: 10
+        groups: 4
+      - name: DEEPTRENCH25 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH26 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH27 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH28 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH29 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH30 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+    civilianTypes:
+      - STR_BRITISH_T2_RIFLEMAN_NPC
+      - STR_FRENCH_T2_RIFLEMAN_NPC
+      - STR_BRITISH_T2_ASSAULT_NPC
+      - STR_FRENCH_T2_ASSAULT_NPC
+      - STR_BRITISH_T1_OFFICER_NPC
+      - STR_FRENCH_T1_OFFICER_NPC
+      - STR_BRITISH_T2_SUPPORT_NPC
+      - STR_FRENCH_T2_SUPPORT_NPC
+
+#######################################
+  - name: IDT_FOREST
+    mapDataSets:
+      - BLANKS
+      - IDT_FOREST
+      - IDT_BARN
+      - IDT_ROOF
+      - FRNITURE
+    mapBlocks:
+      - name: IDT_FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_FOREST02
+        width: 10
+        length: 10
+      - name: IDT_FOREST03
+        width: 10
+        length: 10
+      - name: IDT_FOREST04
+        width: 10
+        length: 10
+      - name: IDT_FOREST05
+        width: 10
+        length: 10
+      - name: IDT_FOREST06
+        width: 10
+        length: 10
+      - name: IDT_FOREST07
+        width: 10
+        length: 10
+      - name: IDT_FOREST08
+        width: 10
+        length: 10
+      - name: IDT_FOREST09
+        width: 10
+        length: 10
+      - name: IDT_FOREST10
+        width: 20
+        length: 20
+      - name: IDT_FOREST11
+        width: 20
+        length: 20
+      - name: IDT_FOREST12 #swamp
+        width: 10
+        length: 10
+      - name: IDT_FOREST13 # house
+        width: 10
+        length: 10
+      - name: IDT_FOREST14 #house
+        width: 10
+        length: 10
+      - name: IDT_FOREST15 #hut
+        width: 10
+        length: 10
+
+  - name: IDT_VILLAGE
+    mapDataSets:
+      - BLANKS
+      - IDT_BARN
+      - IDT_ROOF
+      - IDT_CULTIVAT
+      - IDT_VILBAN
+      - FRNITURE
+    # civilianTypes:
+    #   - MALE_CIVILIAN
+    #   - FEMALE_CIVILIAN
+    script: S_IDT_VILLAGE
+    mapBlocks:
+      - name: IDT_VILLAGE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_VILLAGE01
+        width: 10
+        length: 10
+        groups: 1
+        # groups: [0, 1]
+      - name: IDT_VILLAGE02
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE03
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE04
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE05
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE06
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE07  # lookout tower
+        width: 10
+        length: 10
+        groups: 5
+      - name: IDT_VILLAGE08
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE09
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE10
+        width: 20
+        length: 20
+      - name: IDT_VILLAGE11
+        width: 20
+        length: 20
+        # groups: 6
+      - name: IDT_VILLAGE12
+        width: 20
+        length: 20
+        # groups: 6
+      - name: IDT_VILLAGE13
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_VILLAGE14
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_VILLAGE15
+        width: 10
+        length: 10
+      - name: IDT_VILLAGE16 # N-S Road
+        width: 10
+        length: 10
+        groups: 2
+      - name: IDT_VILLAGE17 # W-E Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: IDT_VILLAGE18 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
+
+  - name: IDT_SNOWFOREST
+    mapDataSets:
+      - BLANKS
+      - IDT_SNOWFOREST
+      - IDT_SNOWBARN
+      - IDT_SNOWROOF
+      - FRNITURE
+    mapBlocks:
+      - name: IDT_SNOWFOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_SNOWFOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_SNOWFOREST02
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST03
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST04
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST05
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST06
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST07
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST08
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST09
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST10
+        width: 20
+        length: 20
+      - name: IDT_SNOWFOREST11
+        width: 20
+        length: 20
+      - name: IDT_SNOWFOREST12 #swamp
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST13 # house
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST14 #house
+        width: 10
+        length: 10
+      - name: IDT_SNOWFOREST15 #hut
+        width: 10
+        length: 10
+
+  - name: IDT_SNOWVILLAGE
+    mapDataSets:
+      - BLANKS
+      - IDT_SNOWBARN
+      - IDT_SNOWROOF
+      - IDT_SNOWCULTIVAT
+      - IDT_SNOWVILBAN
+      - FRNITURE
+    # civilianTypes:
+    #   - MALE_CIVILIAN
+    #   - FEMALE_CIVILIAN
+    script: S_IDT_VILLAGE
+    mapBlocks:
+      - name: IDT_SNOWVILLAGE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_SNOWVILLAGE01
+        width: 10
+        length: 10
+        groups: 1
+        # groups: [0, 1]
+      - name: IDT_SNOWVILLAGE02
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE03
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE04
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE05
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE06
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE07  # lookout tower
+        width: 10
+        length: 10
+        groups: 5
+      - name: IDT_SNOWVILLAGE08
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE09
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE10
+        width: 20
+        length: 20
+      - name: IDT_SNOWVILLAGE11
+        width: 20
+        length: 20
+        # groups: 6
+      - name: IDT_SNOWVILLAGE12
+        width: 20
+        length: 20
+        # groups: 6
+      - name: IDT_SNOWVILLAGE13
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_SNOWVILLAGE14
+        width: 10
+        length: 10
+        groups: 1
+      - name: IDT_SNOWVILLAGE15
+        width: 10
+        length: 10
+      - name: IDT_SNOWVILLAGE16 # N-S Road
+        width: 10
+        length: 10
+        groups: 2
+      - name: IDT_SNOWVILLAGE17 # W-E Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: IDT_SNOWVILLAGE18 # Crossroads
+        width: 10
+        length: 10
+        groups: 4
+########################################
+##### BULLETDESIGNER'S TERRAINS #######
+######################################
+
+  - name: POLAR #   NEW POLARHR
+    mapDataSets:
+      - BLANKS
+      - POLARHR
+    script: POLAR
+    mapBlocks:
+      - name: POLAR00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR01
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR02
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: POLAR03
+        width: 10
+        length: 10
+      - name: POLAR04
+        width: 10
+        length: 10
+      - name: POLAR05
+        width: 10
+        length: 10
+      - name: POLAR06
+        width: 10
+        length: 10
+      - name: POLAR07
+        width: 10
+        length: 10
+      - name: POLAR08
+        width: 10
+        length: 10
+      - name: POLAR09
+        width: 10
+        length: 10
+      - name: POLAR10
+        width: 10
+        length: 10
+      - name: POLAR11
+        width: 10
+        length: 10
+      - name: POLAR12
+        width: 20
+        length: 20
+      - name: POLAR13
+        width: 20
+        length: 20
+  - name: MOUNT # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTWASTE
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+  - name: MOUNTSNOW # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTSNOW
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+
+  - name: MOUNTGRASS # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTGRASS
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+
+  - name: MOUNTSAND # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+
+  - name: MOUNTROCK # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTROCK
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+
+  - name: MOUNTTROP # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    mapBlocks:
+      - name: MOUNT00
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT01
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT02
+        width: 10
+        length: 10
+        groups: 1
+      - name: MOUNT03
+        width: 10
+        length: 10
+      - name: MOUNT04
+        width: 10
+        length: 10
+      - name: MOUNT05
+        width: 10
+        length: 10
+      - name: MOUNT06
+        width: 10
+        length: 10
+      - name: MOUNT07
+        width: 10
+        length: 10
+      - name: MOUNT08
+        width: 10
+        length: 10
+      - name: MOUNT09
+        width: 10
+        length: 10
+      - name: MOUNT10
+        width: 10
+        length: 10
+      - name: MOUNT11
+        width: 20
+        length: 20
+      - name: MOUNT12
+        width: 20
+        length: 20
+
+  - name: PLAINS #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTWASTE
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+
+  - name: PLAINSSNOW #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTSNOW
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+
+  - name: PLAINSGRASS #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTGRASS
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+
+  - name: PLAINSSAND #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTSAND
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+
+  - name: PLAINSROCK #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTROCK
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+
+  - name: PLAINSTROP #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
+    mapDataSets:
+      - BLANKS
+      - MOUNTTROP
+    mapBlocks:
+      - name: PLAINS00
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS01
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS02
+        width: 10
+        length: 10
+        groups: 1
+      - name: PLAINS03
+        width: 10
+        length: 10
+      - name: PLAINS04
+        width: 10
+        length: 10
+      - name: PLAINS05
+        width: 10
+        length: 10
+      - name: PLAINS06
+        width: 10
+        length: 10
+      - name: PLAINS07
+        width: 10
+        length: 10
+      - name: PLAINS08
+        width: 10
+        length: 10
+      - name: PLAINS09
+        width: 10
+        length: 10
+      - name: PLAINS10
+        width: 10
+        length: 10
+      - name: PLAINS11
+        width: 20
+        length: 20
+      - name: PLAINS12
+        width: 20
+        length: 20
+
+
+##############################################
+##### TRENCHES AND RED WEED ZONES ###########
+############################################
+  - name: DEEPTRENCH
+    mapDataSets:
+      - BLANKS
+      - BARN_TRENCH
+      - BON1
+      - BON2
+      - BON3
+    script: TRENCH
+    mapBlocks: &AnchorDeepTrench
+      - name: DEEPTRENCH00
+        width: 10
+        length: 10
+        groups: 1
+      - name: DEEPTRENCH01
+        width: 10
+        length: 10
+        groups: 2 # TRENCH BLOCKS
+      - name: DEEPTRENCH02
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH03
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH04
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH05
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH06
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH07
+        width: 10
+        length: 10
+      - name: DEEPTRENCH08
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH09
+        width: 10
+        length: 10
+      - name: DEEPTRENCH10
+        width: 10
+        length: 10
+      - name: DEEPTRENCH11
+        width: 10
+        length: 10
+      - name: DEEPTRENCH12
+        width: 10
+        length: 10
+      - name: DEEPTRENCH13
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH14
+        width: 10
+        length: 10
+      - name: DEEPTRENCH15
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH16
+        width: 10
+        length: 10
+      - name: DEEPTRENCH17
+        width: 10
+        length: 10
+      - name: DEEPTRENCH18
+        width: 10
+        length: 10
+        groups: 2
+      - name: DEEPTRENCH19
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH20
+        width: 10
+        length: 10
+      - name: DEEPTRENCH21
+        width: 10
+        length: 10
+      # - name: DEEPTRENCH22
+      #   width: 20
+      #   length: 20
+      #   groups: 4
+      - name: DEEPTRENCH24 #CROSS ROAD
+        width: 10
+        length: 10
+        groups: 4
+      - name: DEEPTRENCH25 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH26 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH27 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH28 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH29 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+      - name: DEEPTRENCH30 # Vertical Road
+        width: 10
+        length: 10
+        groups: 3
+
+  - name: TRENCH_FARM
+    script: FARM_MIX
+    mapDataSets:
+      - BLANKS
+      - CULTIVAT
+      - BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+
+  - name: DIRT
+    mapDataSets:
+      - BLANKS
+      - DIRT
+    mapBlocks:
+      - name: DIRT10X10
+        width: 10
+        length: 10
+        height: 1
+      - name: DIRT20X20
+        width: 20
+        length: 20
+        height: 1
+
+  - name: FOREST_TRENCH
+    mapDataSets:
+      - BLANKS
+      - FOREST
+    script: DEFAULT_TRENCH
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+
+
+

@@ -1,132 +1,85 @@
-terrains:
-  - name: TRENCH_FARM
-    script: FARM_MIX
-    mapDataSets:
-      - BLANKS
-      - CULTIVAT
-      - BARN
-    mapBlocks:
-      - name: CULTA00
-        width: 10
-        length: 10
-        groups: 1
-      - name: CULTA01
-        width: 10
-        length: 10
-      - name: CULTA02
-        width: 10
-        length: 10
-      - name: CULTA03
-        width: 10
-        length: 10
-      - name: CULTA04
-        width: 10
-        length: 10
-      - name: CULTA05
-        width: 10
-        length: 10
-      - name: CULTA06
-        width: 10
-        length: 10
-      - name: CULTA07
-        width: 10
-        length: 10
-        groups: 1
-      - name: CULTA08
-        width: 10
-        length: 10
-      - name: CULTA09
-        width: 10
-        length: 10
-      - name: CULTA10
-        width: 10
-        length: 10
-      - name: CULTA11
-        width: 10
-        length: 10
-        groups: 1
-      - name: CULTA12
-        width: 10
-        length: 10
-      - name: CULTA13
-        width: 10
-        length: 10
-      - name: CULTA14
-        width: 10
-        length: 10
-      - name: CULTA15
-        width: 10
-        length: 10
-      - name: CULTA16
-        width: 10
-        length: 10
-      - name: CULTA17
-        width: 10
-        length: 10
-      - name: CULTA18
-        width: 10
-        length: 10
-
-  - name: DIRT
-    mapDataSets:
-      - BLANKS
-      - DIRT
-    mapBlocks:
-      - name: DIRT10X10
-        width: 10
-        length: 10
-        height: 1
-      - name: DIRT20X20
-        width: 20
-        length: 20
-        height: 1
-
-  - name: FOREST_TRENCH
-    mapDataSets:
-      - BLANKS
-      - FOREST
-    script: DEFAULT_TRENCH
-    mapBlocks:
-      - name: FOREST00
-        width: 10
-        length: 10
-        groups: 1
-      - name: FOREST01
-        width: 10
-        length: 10
-        groups: 1
-      - name: FOREST02
-        width: 10
-        length: 10
-      - name: FOREST03
-        width: 10
-        length: 10
-      - name: FOREST04
-        width: 10
-        length: 10
-      - name: FOREST05
-        width: 10
-        length: 10
-      - name: FOREST06
-        width: 10
-        length: 10
-      - name: FOREST07
-        width: 10
-        length: 10
-      - name: FOREST08
-        width: 10
-        length: 10
-      - name: FOREST09
-        width: 10
-        length: 10
-      - name: FOREST10
-        width: 20
-        length: 20
-      - name: FOREST11
-        width: 20
-        length: 20
-
 mapScripts:
+####################################
+########## STORY MISSIONS #########
+##################################
+
+
+  - type: VERDUN_SCRIPT                                    # trenches - test
+    commands:
+    - type: addLine # adds the row of trenches
+      label: 1
+      conditionals: -1
+      # executionChances: 100
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      direction: vertical
+      # executionChances: 100
+      groups: 3
+      rects:
+        - [1, 1, 1, 3]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      executionChances: 100
+      groups: 4
+      rects:
+        - [1, 1, 1, 3]
+    - type: addCraft
+      executions: 1
+      groups: 1
+    - type: addUFO
+      groups: 1
+      executions: 1
+    - type: addUFO
+      UFOName: STR_BUNKER_SMALL
+    - type: addUFO
+      UFOName: STR_BUNKER_SMALL
+    - type: fillArea
+  - type: TRENCH_FORTS_VERDUN                                 # trenches - test
+    commands:
+    - type: addUFO
+      UFOName: STR_BUNKER_SPAWN
+      executions: 1
+    - type: addLine # adds the row of trenches
+      label: 1
+      conditionals: -1
+      executionChances: 100
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addBlock # test - large block
+      groups: 4
+      executionChances: 99
+      size: 2
+      maxUses: 1
+    - type: fillArea
+  - type: VILLAGE_VERDUN
+    commands:
+#    - type: addCraft
+#    - type: addCraft
+#      craftName: STR_BUNKER_SPAWN
+#      executions: 1
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+
+########################################
+
   - type: DEFAULT_TRENCH # forest, mountain
     commands:
     - type: addUFO
@@ -270,7 +223,7 @@ mapScripts:
 
   - type: TRENCH                                    # trenches - test
     commands:
-    - type: addCraft 
+    - type: addCraft
       executions: 1
       groups: 1
     - type: addUFO
@@ -292,7 +245,7 @@ mapScripts:
 
   - type: TRENCH_FORTS                                    # trenches - test
     commands:
-    - type: addCraft 
+    - type: addCraft
       executions: 1
       groups: 1
     - type: addUFO
@@ -315,3 +268,44 @@ mapScripts:
       size: 2
       maxUses: 1
     - type: fillArea
+
+  - type: S_IDT_VILLAGE
+    commands:
+    - type: addCraft
+      groups: 1
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addUFO
+      groups: 1
+    - type: addBlock
+      size: 2
+      executions: 2
+    - type: addBlock
+      executions: 1
+      executionChances: 80
+      groups: 5
+    - type: addBlock
+      executions: 1
+      executionChances: 40
+      groups: 5
+    - type: fillArea
+      # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
+      # because these are references to the block numbers within the sets, not the file names.
+      # blocks: [3, 4, 10, 11, 12, 13, 14]
+      # freqs: [3, 3, 2, 2, 2, 2, 2]

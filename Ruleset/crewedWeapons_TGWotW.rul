@@ -866,7 +866,7 @@ extraSprites:
     files:
       900: Resources/Turrets/HandTurretWrench.png
 
-  - type: HIT.PCK
+  - type: HIT.PCK # ignoreDuplicate
     width: 128
     height: 40
     subX: 32

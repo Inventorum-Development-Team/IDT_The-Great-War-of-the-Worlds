@@ -158,26 +158,36 @@
 
 
 armors:
-  - type: SECTOID_ARMOR0
+  - type: SECTOID_ARMOR0  # ignoreDuplicate
     spriteSheet: SECTOID.PCK
     corpseBattle:
       - STR_SECTOID_CORPSE
+    allowInv: true
     spriteInv: CONSCRIPT_INVENTORY
     frontArmor: 4
     sideArmor: 3
     rearArmor: 2
     underArmor: 2
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.2
-      - 1.6
-      - 0.0
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 1.0 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.2 #7 Melee
+      - 1.6 #8 Acid
+      - 0.1 #9 Smoke
+      - 1.2 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.2 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.8 #17 Toxic
+      - 1.8 #18 Flames
     loftempsSet: [ 2 ]
 
   - type: STR_MARTIAN_LINE_INFANTRY_ARMOR

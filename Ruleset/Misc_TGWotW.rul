@@ -213,7 +213,7 @@ extraSprites:
     subY: 7
     files:
       0: Resources/BaseGlobeMarkers.png
-  - type: GlobeMarkers
+  - type: GlobeMarkers # ignoreDuplicate
     width: 140
     height: 7
     subX: 7
@@ -311,27 +311,27 @@ ufos:
     marker: 14
     markerLand: 19
     markerCrash: 24
-  - type: STR_MARTIAN_ASSAULT_WALKER
+  - type: STR_MARTIAN_ASSAULT_WALKER  # ignoreDuplicate
     marker: 14
     markerLand: 19
     markerCrash: 24
-  - type: STR_MARTIAN_BATTLE_WALKER
+  - type: STR_MARTIAN_BATTLE_WALKER  # ignoreDuplicate
     marker: 15
     markerLand: 20
     markerCrash: 25
-  - type: STR_MARTIAN_SIEGE_WALKER
+  - type: STR_MARTIAN_SIEGE_WALKER  # ignoreDuplicate
     marker: 16
     markerLand: 21
     markerCrash: 26
-  - type: STR_MARTIAN_HARVESTER_WALKER
+  - type: STR_MARTIAN_HARVESTER_WALKER  # ignoreDuplicate
     marker: 15
     markerLand: 20
     markerCrash: 25
-  - type: STR_MARTIAN_OVERLORD_WALKER
+  - type: STR_MARTIAN_OVERLORD_WALKER # ignoreDuplicate
     marker: 16
     markerLand: 21
     markerCrash: 26
-  - type: STR_MARTIAN_RECON_WALKER
+  - type: STR_MARTIAN_RECON_WALKER # ignoreDuplicate
     marker: 12
     markerLand: 17
     markerCrash: 22
@@ -392,35 +392,39 @@ itemCategories:
   - type: STR_RIFLEMAN_CLASS
     listOrder: 220
   - type: STR_ASSAULT_CLASS
-    listOrder: 220
+    listOrder: 230
+  - type: STR_SHOCK_CLASS
+    listOrder: 240
   - type: STR_MEDIC_CLASS
-    listOrder: 220
+    listOrder: 250
   - type: STR_SUPPORT_CLASS
-    listOrder: 220
-  - type: STR_RAIDER_CLASS
-    listOrder: 220
-  - type: STR_AIRBORNE_EQUIPMENT
-    listOrder: 230
-  - type: STR_BRITISH_EQUIPMENT
-    listOrder: 240
-  - type: STR_AMERICAN_EQUIPMENT
-    listOrder: 230
-  - type: STR_GERMAN_EQUIPMENT
-    listOrder: 240
-  - type: STR_FRENCH_EQUIPMENT
-    listOrder: 250
-  - type: STR_ITALIAN_EQUIPMENT
-    listOrder: 240
-  - type: STR_RUSSIAN_EQUIPMENT
-    listOrder: 230
-  - type: STR_AUSTRO_HUNGARIAN_EQUIPMENT
-    listOrder: 240
-  - type: STR_JAPANESE_EQUIPMENT
-    listOrder: 250
-  - type: STR_TURRETS
     listOrder: 260
-  - type: STR_BLANKS
+  - type: STR_HEAVY_CLASS
+    listOrder: 270
+  - type: STR_RAIDER_CLASS
+    listOrder: 280
+  - type: STR_AIRBORNE_EQUIPMENT
+    listOrder: 290
+  - type: STR_BRITISH_EQUIPMENT
     listOrder: 300
+  - type: STR_AMERICAN_EQUIPMENT
+    listOrder: 310
+  - type: STR_GERMAN_EQUIPMENT
+    listOrder: 320
+  - type: STR_FRENCH_EQUIPMENT
+    listOrder: 330
+  - type: STR_ITALIAN_EQUIPMENT
+    listOrder: 340
+  - type: STR_RUSSIAN_EQUIPMENT
+    listOrder: 350
+  - type: STR_AUSTRO_HUNGARIAN_EQUIPMENT
+    listOrder: 360
+  - type: STR_JAPANESE_EQUIPMENT
+    listOrder: 370
+  - type: STR_TURRETS
+    listOrder: 380
+  - type: STR_BLANKS
+    listOrder: 400
     hidden: true
 
 
@@ -567,68 +571,40 @@ items:
       ToMorale: 3.0
 
 armors:
-  - type: STR_BRITISH_FIELD_UNIFORM_UC
+  - type: STR_BRITISH_FIELD_UNIFORM_UC # ignoreDuplicate
     specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_BRITISH_GASMASK_UC
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_AMERICAN_FIELD_UNIFORM_UC
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_AMERICAN_GASMASK_UC
+  - type: STR_BRITISH_GASMASK_UC  # ignoreDuplicate
     specialWeapon: STR_UNARMED_UNIFORM
 
-  - type: STR_GERMAN_FIELD_UNIFORM_UC
+  - type: STR_AMERICAN_FIELD_UNIFORM_UC  # ignoreDuplicate
     specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_GERMAN_GASMASK_UC
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_PILOT_UNIFORM_UC
+  - type: STR_AMERICAN_GASMASK_UC  # ignoreDuplicate
     specialWeapon: STR_UNARMED_UNIFORM
 
-  - type: STR_FRENCH_FIELD_UNIFORM_UC
+  - type: STR_GERMAN_FIELD_UNIFORM_UC  # ignoreDuplicate
     specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_FRENCH_GASMASK_UC
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_FRENCH_FIELD_UNIFORM_UC
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_FRENCH_GASMASK_UC
+  - type: STR_GERMAN_GASMASK_UC  # ignoreDuplicate
     specialWeapon: STR_UNARMED_UNIFORM
 
-  - type: STR_ITALIAN_FIELD_UNIFORM_UC
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_ITALIAN_ALPINI_UNIFORM_UC
+  - type: STR_PILOT_UNIFORM_UC  # ignoreDuplicate
     specialWeapon: STR_UNARMED_UNIFORM
 
-  - type: SECTOID_ARMOR0
-    spriteSheet: SECTOID.PCK
-    corpseBattle:
-      - STR_SECTOID_CORPSE
-    frontArmor: 4
-    sideArmor: 3
-    rearArmor: 2
-    underArmor: 2
-    damageModifier:
-      - 1.0 #0 None
-      - 0.8 #1 Armor Piercing
-      - 1.0 #2 Incendiary
-      - 1.0 #3 High Explosive
-      - 1.0 #4 Laser
-      - 1.0 #5 Plasma
-      - 1.0 #6 Stun
-      - 1.2 #7 Melee
-      - 1.6 #8 Acid
-      - 0.1 #9 Smoke
-      - 1.2 #10 Super AP
-#      - 1.0 #11 Tesla
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
-      - 1.2 #14 Black Smoke
-#      - 1.0 #15 Green Gas
-#      - 1.0 #16 Cold
-      - 1.8 #17 Toxic
-      - 1.8 #18 Flames
-    loftempsSet: [ 2 ]
+  - type: STR_FRENCH_FIELD_UNIFORM_UC  # ignoreDuplicate
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_FRENCH_GASMASK_UC  # ignoreDuplicate
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_FRENCH_FIELD_UNIFORM_UC  # ignoreDuplicate
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_FRENCH_GASMASK_UC  # ignoreDuplicate
+    specialWeapon: STR_UNARMED_UNIFORM
+
+  - type: STR_ITALIAN_FIELD_UNIFORM_UC  # ignoreDuplicate
+    specialWeapon: STR_UNARMED_UNIFORM
+  - type: STR_ITALIAN_ALPINI_UNIFORM_UC  # ignoreDuplicate
+    specialWeapon: STR_UNARMED_UNIFORM
+
+
 
 
 ufopaedia:
@@ -764,8 +740,8 @@ startingBase:
     STR_BANDAGES: 10
     STR_PAINKILLER: 10
     STR_TURRET_INTERACTION_ITEM: 4
-    STR_LEWIS_MG_TURRET: 1
-    STR_LEWIS_MG_DRUM: 4
+    STR_MAXIM_MG_TURRET: 1
+    STR_MAXIM_MG_DRUM: 4
   scientists: 10
   engineers: 10
 

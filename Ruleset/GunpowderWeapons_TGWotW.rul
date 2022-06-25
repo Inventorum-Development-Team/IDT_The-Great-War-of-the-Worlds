@@ -205,7 +205,7 @@ items:
     floorSprite: 200
     handSprite: 200
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 40
     refNode: *BasicRifleRoundAntiArmor
@@ -232,7 +232,7 @@ items:
     floorSprite: 208
     handSprite: 208
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 55
     refNode: *KMMRifleRoundAntiArmor
@@ -399,7 +399,7 @@ items:
     floorSprite: 280
     handSprite: 200
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 42
     bulletSpeed: 10
@@ -428,7 +428,7 @@ items:
     floorSprite: 288
     handSprite: 208
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 57
     refNode: *KMMRifleRoundAntiArmor
@@ -486,7 +486,7 @@ items:
     floorSprite: 328
     handSprite: 200
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 42
     refNode: *BasicRifleRoundAntiArmor
@@ -507,7 +507,7 @@ items:
     floorSprite: 336
     handSprite: 208
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 57
     refNode: *KMMRifleRoundAntiArmor
@@ -632,7 +632,7 @@ items:
     floorSprite: 376
     handSprite: 200
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 38
     refNode: *BasicRifleRoundAntiArmor
@@ -659,7 +659,7 @@ items:
     floorSprite: 384
     handSprite: 208
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 58
     refNode: *KMMRifleRoundAntiArmor
@@ -908,7 +908,7 @@ items:
     floorSprite: 448
     handSprite: 200
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 42
     refNode: *BasicRifleRoundAntiArmor
@@ -937,7 +937,7 @@ items:
     floorSprite: 456
     handSprite: 208
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 57
     refNode: *KMMRifleRoundAntiArmor
@@ -1007,7 +1007,7 @@ items:
     floorSprite: 488
     handSprite: 200
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 50
     refNode: *BasicRifleRoundAntiArmor
@@ -1036,7 +1036,7 @@ items:
     floorSprite: 496
     handSprite: 208
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 65
     refNode: *KMMRifleRoundAntiArmor
@@ -1092,7 +1092,7 @@ items:
   #    bigSprite: 204
   #    floorSprite: 4
   #    hitSound: 22
-  #    hitAnimation: 26
+  #    hitAnimation: -1
   #    power: 33
   #    refNode: *BasicRifleRoundAntiArmor
   #    damageType: 1
@@ -1109,7 +1109,7 @@ items:
   #    bigSprite: 204
   #    floorSprite: 4
   #    hitSound: 22
-  #    hitAnimation: 26
+  #    hitAnimation: -1
   #    power: 48
   #    refNode: *KMMRifleRoundAntiArmor
   #    damageType: 10
@@ -1247,7 +1247,7 @@ items:
     floorSprite: 672
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 30
     refNode: *BasicRifleRoundAntiArmor
@@ -1276,7 +1276,7 @@ items:
     floorSprite: 680
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     refNode: *KMMRifleRoundAntiArmor
@@ -1409,7 +1409,7 @@ items:
     floorSprite: 712
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 31
     refNode: *BasicRifleRoundAntiArmor
@@ -1439,7 +1439,7 @@ items:
     floorSprite: 720
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 46
     refNode: *KMMRifleRoundAntiArmor
@@ -1513,7 +1513,7 @@ items:
     floorSprite: 752
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 32
     damageType: 1
@@ -1543,7 +1543,7 @@ items:
     floorSprite: 760
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     refNode: *KMMRifleRoundAntiArmor
@@ -1617,7 +1617,7 @@ items:
     floorSprite: 792
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 33
     refNode: *BasicRifleRoundAntiArmor
@@ -1691,7 +1691,7 @@ items:
     floorSprite: 800
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     refNode: *KMMRifleRoundAntiArmor
@@ -1771,7 +1771,7 @@ items:
     floorSprite: 832
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 29
     damageType: 1
@@ -1800,7 +1800,7 @@ items:
     floorSprite: 840
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 44
     refNode: *KMMRifleRoundAntiArmor
@@ -1879,7 +1879,7 @@ items:
     floorSprite: 872
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 31
     refNode: *BasicRifleRoundAntiArmor
@@ -1909,7 +1909,7 @@ items:
     floorSprite: 880
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 46
     refNode: *KMMRifleRoundAntiArmor
@@ -2117,7 +2117,7 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 6
     invHeight: 1
@@ -2139,7 +2139,7 @@ items:
     damageType: 10
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 6
     invHeight: 1
@@ -2161,7 +2161,7 @@ items:
     damageType: 15
     bulletSpeed: 8
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 6
     invHeight: 1
@@ -2214,7 +2214,7 @@ items:
     floorSprite: 1120
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 30
     refNode: *BasicPistolRoundAntiArmor
@@ -2238,7 +2238,7 @@ items:
     floorSprite: 1128
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
     refNode: *KMMPistolRoundAntiArmor
@@ -2297,7 +2297,7 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 10
     invHeight: 1
@@ -2319,7 +2319,7 @@ items:
     damageType: 10
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 5
     invHeight: 1
@@ -2371,7 +2371,7 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 8
     invHeight: 1
@@ -2393,7 +2393,7 @@ items:
     damageType: 1
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 5
     invHeight: 1
@@ -2595,7 +2595,7 @@ items:
     floorSprite: 1424
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 35
     refNode: *BasicRifleRoundAntiArmor
@@ -2629,7 +2629,7 @@ items:
     floorSprite: 1432
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 50
     refNode: *KMMRifleRoundAntiArmor
@@ -2721,7 +2721,7 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 30
     invHeight: 1
@@ -2741,7 +2741,7 @@ items:
     power: 44
     damageType: 1
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 20
     invHeight: 1
@@ -2794,7 +2794,7 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 32
     invHeight: 1
@@ -2816,7 +2816,7 @@ items:
     damageType: 10
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 16
     invHeight: 1
@@ -2938,7 +2938,7 @@ items:
     floorSprite: 1720
     handSprite: 200
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 28
     refNode: *BasicRifleRoundAntiArmor
@@ -2965,7 +2965,7 @@ items:
     floorSprite: 1728
     handSprite: 208
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
     refNode: *KMMRifleRoundAntiArmor
@@ -3118,7 +3118,7 @@ items:
     floorSprite: 1832
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 30
     refNode: *BasicPistolRoundAntiArmor
@@ -3151,7 +3151,7 @@ items:
     floorSprite: 1840
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
     refNode: *KMMPistolRoundAntiArmor
@@ -3246,7 +3246,7 @@ items:
     floorSprite: 1872
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 29
     refNode: *BasicPistolRoundAntiArmor
@@ -3279,7 +3279,7 @@ items:
     floorSprite: 1880
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
     refNode: *KMMPistolRoundAntiArmor
@@ -3375,7 +3375,7 @@ items:
     floorSprite: 1912
     handSprite: 1912
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 28
     refNode: *BasicPistolRoundAntiArmor
@@ -3408,7 +3408,7 @@ items:
     floorSprite: 1920
     handSprite: 1920
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 44
     refNode: *KMMPistolRoundAntiArmor
@@ -3559,7 +3559,7 @@ items:
     floorSprite: 1952
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 26
     refNode: *BasicPistolRoundAntiArmor
@@ -3593,7 +3593,7 @@ items:
     floorSprite: 1960
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 42
     refNode: *KMMPistolRoundAntiArmor
@@ -3693,7 +3693,7 @@ items:
     floorSprite: 1992
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 26
     refNode: *BasicPistolRoundAntiArmor
@@ -3727,7 +3727,7 @@ items:
     floorSprite: 2000
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 36
     refNode: *KMMPistolRoundAntiArmor
@@ -3941,7 +3941,7 @@ items:
     floorSprite: 2136
     handSprite: 2136
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 33
     refNode: *BasicRifleRoundAntiArmor
@@ -3974,7 +3974,7 @@ items:
     floorSprite: 2144
     handSprite: 2144
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     refNode: *KMMRifleRoundAntiArmor
@@ -4058,7 +4058,7 @@ items:
     floorSprite: 2176
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 32
     refNode: *BasicRifleRoundAntiArmor
@@ -4088,7 +4088,7 @@ items:
     floorSprite: 2184
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     refNode: *KMMRifleRoundAntiArmor
@@ -4179,7 +4179,7 @@ items:
     floorSprite: 2216
     handSprite: 2136
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 35
     refNode: *BasicRifleRoundAntiArmor
@@ -4212,7 +4212,7 @@ items:
     floorSprite: 2224
     handSprite: 2144
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 50
     refNode: *KMMRifleRoundAntiArmor
@@ -4300,7 +4300,7 @@ items:
     floorSprite: 2256
     handSprite: 2256
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 36
     refNode: *BasicRifleRoundAntiArmor
@@ -4331,7 +4331,7 @@ items:
     floorSprite: 2264
     handSprite: 2264
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     refNode: *KMMRifleRoundAntiArmor
@@ -4398,7 +4398,7 @@ items:
     costThrow:
       energy: 12
     battleType: 1
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     armor: 35
     attraction: 10
@@ -4424,7 +4424,7 @@ items:
     floorSprite: 2296
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 32
     refNode: *BasicRifleRoundAntiArmor
@@ -4458,7 +4458,7 @@ items:
     floorSprite: 2304
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     refNode: *KMMRifleRoundAntiArmor
@@ -4550,7 +4550,7 @@ items:
     floorSprite: 2336
     handSprite: 2336
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 33
     refNode: *BasicRifleRoundAntiArmor
@@ -4583,7 +4583,7 @@ items:
     floorSprite: 2344
     handSprite: 2344
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     refNode: *KMMRifleRoundAntiArmor
@@ -4646,7 +4646,7 @@ items:
     autoRange: 18
     battleType: 1
     twoHanded: true
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     armor: 30
     #autoShots: 6
@@ -4674,7 +4674,7 @@ items:
     floorSprite: 2376
     handSprite: 672
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 30
     refNode: *BasicRifleRoundAntiArmor
@@ -4707,7 +4707,7 @@ items:
     floorSprite: 2384
     handSprite: 680
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     refNode: *KMMRifleRoundAntiArmor
@@ -4954,7 +4954,7 @@ items:
     power: 45
     damageType: 1
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -4986,7 +4986,7 @@ items:
     refNode: *DumDumWoundingRound
     damageType: 15
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -5110,7 +5110,7 @@ items:
     power: 45
     damageType: 1
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     clipSize: 2
     invHeight: 1
     invWidth: 1
@@ -5145,7 +5145,7 @@ items:
     refNode: *DumDumWoundingRound
     damageType: 15
     hitSound: 22
-    hitAnimation: 26
+    hitAnimation: -1
     clipSize: 2
     invHeight: 1
     invWidth: 1
@@ -6054,7 +6054,7 @@ items:
     listOrder: 3440
 
   - type: STR_TRENCH_CLUB
-    categories: [STR_CQB, STR_RAIDER_CLASS, STR_STORMTROOPER_EQUIPMEMT]
+    categories: [STR_CQB, STR_RAIDER_CLASS, STR_ASSAULT_CLASS]
     #    requires:
     #- STR_STORMTROOPER_TRAINING
     size: 0.1
@@ -6927,8 +6927,6 @@ items:
     maxRange: 1
     experienceTrainingMode: 1
     attraction: 6
-    tags:
-      WEAPON_TYPE: 128 # Melee
     listOrder: 3620
     costBuy: 1000
 
@@ -8083,7 +8081,7 @@ extraSprites:
       4: Resources/BulletSprites/CuttingHit.png
       8: Resources/BulletSprites/FireHit.png
 
-  - type: X1.PCK
+  - type: X1.PCK # ignoreDuplicate
     width: 1024
     height: 64
     subX: 128

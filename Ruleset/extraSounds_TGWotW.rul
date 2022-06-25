@@ -15,6 +15,10 @@
       11: Resources/HQSounds/Geo/geo_ufodestroyed.ogg	#ufo destroyed
       12: Resources/HQSounds/Geo/geo_planehit.ogg	#xcom craft hit
     #  13: Resources/HQSounds/Geo/sample.ogg  #xcom craft destroy
+      60: Resources/Crafts/Sounds/bomb_launch.wav
+#      61: Resources/Craft/Sounds/light_cannon_launch.wav
+#      62: Resources/Craft/Sounds/pompom_launch.wav
+#      63: Resources/Craft/Sounds/naval_artillery_launch.wav
 
   - type: BATTLE.CAT
     files:

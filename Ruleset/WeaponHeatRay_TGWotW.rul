@@ -532,9 +532,7 @@ items:
     shotgunSpread: 45
     battleType: 2
     armor: 250
-    tags:
-      SPECIAL_WOUND: 2
-      WOUND_FACTOR: 1
+
     listOrder: 3401
   - type: STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
@@ -727,7 +725,7 @@ extraSprites:
     subY: 3
     files:
       1050: Resources/HeatRay/HeatRayFire.png
-  - type: X1.PCK
+  - type: X1.PCK # ignoreDuplicate
     width: 1024
     height: 128
     subX: 128

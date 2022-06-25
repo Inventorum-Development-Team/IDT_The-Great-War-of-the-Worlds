@@ -1166,6 +1166,7 @@ en-US:
       STR_FLOATER: "Mixed Martian Platoon"
       STR_SECTOID: "Martian Conscript"
       STR_SECTOIDS: "Martian Conscript Platoon"
+      STR_SECTOID_CORPSE: "Martian Conscript Corpse"
       SECTOID_ARMOR0: "Martian Conscript Skin"
       STR_MARTIAN_LINE_INFANTRY: "Martian Line Infantry"
       STR_MARTIAN_LINE_INFANTRIES: "Martian Line Infantry Platoon"
@@ -1258,15 +1259,15 @@ en-US:
       STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3: "Acid Capsule Flask x3"
       STR_MARTIAN_BLADE: Martian Blade
       STR_MARTIAN_BLADE_UFOPEDIA: "The Martian Blade is an unique melee energy weapon used by elite troopers. It seems each blade is handmade and belongs to a family, passed from warrior to warrior. Powerful and brutal."
-      
+
       STR_RED_WEED_RESEARCH: Red Weed Research
       STR_CHEMICAL_WARFARE_RESEARCH: Martian Chemical Warfare Research
-      
+
       STR_HEATRAY_PHOTON_ANALYSIS: "Heat-Ray Photon Batteries"
       STR_HEATRAY_PHOTON_ANALYSIS_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}Since the first appearance of the Tripods on English soil, humanity has been attracted and horrified by the main war weapon of the invaders. They use an unknown crystal as a catalyst for the energy emitted by a miniature Hydrogen Engine that projects a powerful infrared ray (called 'Photon Beam' by most people) at more than 1500 degrees centigrade. We have analyzed these weapons carefully and are quite useless without the crystal, basically a gas lamp with alien batteries."
-      STR_HEATRAY_MICROWAVE_ANALYSIS: "Heat-Ray Microwave Analysis" 
+      STR_HEATRAY_MICROWAVE_ANALYSIS: "Heat-Ray Microwave Analysis"
       STR_HEATRAY_MICROWAVE_ANALYSIS_UFOPEDIA: "The enemy is learning from us, pretty much as we learn from they. It's something we cannot stop. The shock troop tactics so widely used by the Coalition troop and extremely effective in stopping the enemy advance in 1913 may have inspired the Martians on doing the same. This new set of Microwave emitters is focused towards maximum damage spread in close range. Essentially an energy shotgun! Our theories about the modularity of the weapons were confirmed, however. We need to continue developing further research to keep up the pace of the technological war. "
-      
+
       STR_HEATRAY_WEAPONS_ANALYSIS: "Heat-Ray Preliminary Analysis"
       STR_HEATRAY_WEAPONS_ANALYSIS_UFOPEDIA: "The enemy armament evolved from the first invasion. Now they have designed and used smaller weapons and use them massively. Considerably weaker than those used by Fighting Machines, they are still very lethal for unprotected humans. One important feature seems to be the possibility of getting modular upgrades, as we noticed that the weapons have a thread similar to a screw, which could be used to adapt new types of attachments still unknown. Our scientist confirmed that handguns are simply impossible to replicate or use by our soldiers. We can sell them to our allies to try to recycle their components."
       STR_RED_WEED_RESEARCH_UFOPEDIA: "The martian indigenous crop, better known as 'Red Weed' is a highly invasive root species, capable of covering all types of terrestrial terrain with relative ease. This generates the perfect habit for the Martians, which suggests that they are terraforming our planet to make it more like Mars. It seems that the blood of mammals serves as fertilizer for this ominous plant. It is said to give off a highly fetid stench, similar to decaying cattle."
@@ -1281,7 +1282,10 @@ en-US:
 #################################
 ######### VEHICLES #############
 ###############################
-
+      STR_MARCH: MARCH
+      STR_MARCH_UFOPEDIA: THE BEST METHOD OF TRANSPORTING LARGE NUMBERS OF TROOPS INTO BATTLE IS BY MARCHING. NARROW FORMATION IN TWO ROWS HELPS MAINTAIN ORDER. A SMALLER UNIT IS FASTER AND HAS BETTER RECON CAPABILITIES.
+      STR_MARCH_LARGE: LARGER MARCH
+      STR_MARCH_LARGE_UFOPEDIA: A LARGER GROUP OF TROOPS ARE TRANSPORTED SLOWER THAN A SMALLER GROUP, BUT BRING MORE FIRE AT THE TIME OF ATTACK OR DEFENSE. THE GREATER THE NUMBER OF SOLDIERS, THE SLOWER AND MORE CONCISE THE MARCH.
       STR_CONQUEROR: CONQUEROR
       STR_CONQUEROR_UFOPEDIA: LARGE LANDSHIP ADAPTED TO COMBAT IN DIFFICULT TERRAIN, WITH TROOP TRANSPORT CAPACITY. EQUIPPED WITH A 20MM AUTOMATIC CANNON TO PROVIDE FIRE SUPPORT TO THE INFANTRY
       STR_CONQUEROR_TURRET: 20mm Conqueror AC

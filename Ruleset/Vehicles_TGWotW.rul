@@ -8,6 +8,120 @@ crafts:
 ###################################
 ######### LANDSHIPS ##############
 #################################
+  - type: STR_MARCH
+    sprite: 99
+    fuelMax: 9000
+    damageMax: 50
+    speedMax: 80
+    accel: 1
+    soldiers: 20
+    vehicles: 0
+    costBuy: 10
+    refuelRate: 900
+    repairRate: 10
+    radarRange: 35
+    radarChance: 75
+    sightRange: 35
+    transferTime: 72
+    score: 100
+    battlescapeTerrainData:
+      name: MARCH
+      mapDataSets:
+        - BLANKS
+        - BARN
+      mapBlocks:
+        - name: MARCH
+          width: 10
+          length: 20
+    craftInventoryTile: [3, 18, 0]
+    deployment:
+      - [3, 18, 0, 4]
+      - [5, 18, 0, 4]
+      - [3, 16, 0, 4]
+      - [5, 16, 0, 4]
+      - [3, 14, 0, 4]
+      - [5, 14, 0, 4]
+      - [3, 12, 0, 4]
+      - [5, 12, 0, 4]
+      - [3, 10, 0, 4]
+      - [5, 10, 0, 4]
+      - [3, 8, 0, 4]
+      - [5, 8, 0, 4]
+      - [3, 6, 0, 4]
+      - [5, 6, 0, 4]
+      - [3, 4, 0, 4]
+      - [5, 4, 0, 4]
+      - [3, 2, 0, 4]
+      - [5, 2, 0, 4]
+      - [3, 0, 0, 4]
+      - [5, 0, 0, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+  - type: STR_MARCH_LARGE
+    sprite: 100
+    fuelMax: 9000
+    damageMax: 50
+    speedMax: 50
+    accel: 1
+    soldiers: 30
+    vehicles: 0
+    costBuy: 10
+    refuelRate: 900
+    repairRate: 10
+    radarRange: 30
+    radarChance: 55
+    sightRange: 30
+    transferTime: 72
+    score: 100
+    battlescapeTerrainData:
+      name: MARCH_LARGE
+      mapDataSets:
+        - BLANKS
+        - BARN
+      mapBlocks:
+        - name: MARCH_LARGE
+          width: 10
+          length: 20
+    craftInventoryTile: [4, 19, 0]
+    deployment:
+#First platoon
+      - [4, 19, 0, 4]
+      - [2, 19, 0, 4]
+      - [6, 19, 0, 4]
+      - [2, 17, 0, 4]
+      - [4, 17, 0, 4]
+      - [6, 17, 0, 4]
+      - [2, 15, 0, 4]
+      - [4, 15, 0, 4]
+      - [6, 15, 0, 4]
+      - [2, 13, 0, 4]
+      - [4, 13, 0, 4]
+      - [6, 13, 0, 4]
+      - [2, 11, 0, 4]
+      - [4, 11, 0, 4]
+      - [6, 11, 0, 4]
+#Second platoon
+      - [2, 8, 0, 4]
+      - [4, 8, 0, 4]
+      - [6, 8, 0, 4]
+      - [2, 6, 0, 4]
+      - [4, 6, 0, 4]
+      - [6, 6, 0, 4]
+      - [2, 4, 0, 4]
+      - [4, 4, 0, 4]
+      - [6, 4, 0, 4]
+      - [2, 2, 0, 4]
+      - [4, 2, 0, 4]
+      - [6, 2, 0, 4]
+      - [2, 0, 0, 4]
+      - [4, 0, 0, 4]
+      - [6, 0, 0, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
   - type: STR_CONQUEROR
     sprite: 200
     fuelMax: 1000
@@ -411,37 +525,32 @@ items:
     transferTime: 48
     clipSize: 3
 ####################################
-  - type: STR_CONQUEROR_TURRET_SPAWNER
-    spawnUnit: STR_CONQUEROR_TURRET
-    spawnUnitFaction: 0
-    invWidth: 0
-    invHeight: 0
-    battleType: 4
+
   - type: STR_CONQUEROR_TURRET_CORPSE
     battleType: 11
     power: 60
     blastRadius: 2
   - type: STR_CONQUEROR_TURRET_CORPSE_1
-    floorSprite: 804
+    floorSprite: 4004
     armor: 255
     invWidth: 0
     invHeight: 0
     recover: false
     battleType: 11
   - type: STR_CONQUEROR_TURRET_CORPSE_2
-    floorSprite: 805
+    floorSprite: 4005
     armor: 255
     invWidth: 0
     invHeight: 0
     recover: false
   - type: STR_CONQUEROR_TURRET_CORPSE_3
-    floorSprite: 806
+    floorSprite: 4006
     armor: 255
     invWidth: 0
     invHeight: 0
     recover: false
   - type: STR_CONQUEROR_TURRET_CORPSE_4
-    floorSprite: 807
+    floorSprite: 4007
     armor: 255
     invWidth: 0
     invHeight: 0
@@ -454,14 +563,20 @@ extraSprites:
 # Craft Weapons: file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
   - type: BASEBITS.PCK
     files:
+      132: Resources/Crafts/March_base.png
+      133: Resources/Crafts/March_Large_base.png
       233: Resources/Crafts/Conqueror_base.png
       234: Resources/Crafts/Spad_base.png
       235: Resources/Crafts/RClassAirship_base.png
   - type: INTICON.PCK
     files:
+      99: Resources/Crafts/March_minimised.png
+      100: Resources/Crafts/March_Large_minimised.png
       200: Resources/Crafts/Conqueror_minimised.png
       201: Resources/Crafts/Spad_minimised.png
       202: Resources/Crafts/RClassAirship_minimised.png
+      110: Resources/Crafts/March_dogfight.png
+      111: Resources/Crafts/March_Large_dogfight.png
       211: Resources/Crafts/Conqueror_dogfight.png
       212: Resources/Crafts/Spad_dogfight.png
       213: Resources/Crafts/RClassAirship_dogfight.png
@@ -482,6 +597,18 @@ extraSprites:
 
 
 #UFOpedia
+  - type: MARCH_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/MARCH_UFOPEDIA.png
+  - type: MARCH_LARGE_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/MARCH_LARGE_UFOPEDIA.png
   - type: CONQUEROR.SPK
     singleImage: true
     width: 320
@@ -525,11 +652,4 @@ extraSprites:
     files:
       0: Resources/Crafts/FRAG_BOMB.png
 
-extraSounds:
-  - type: GEO.CAT
-    files:
-      60: Resources/Crafts/Sounds/bomb_launch.wav
-#      61: Resources/Craft/Sounds/light_cannon_launch.wav
-#      62: Resources/Craft/Sounds/pompom_launch.wav
-#      63: Resources/Craft/Sounds/naval_artillery_launch.wav
 
