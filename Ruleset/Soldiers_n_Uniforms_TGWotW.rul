@@ -1,0 +1,2764 @@
+soldiers:
+  - delete: STR_SOLDIER
+###############################
+# AMERICAN
+##############################
+  - type: STR_AMERICAN_SOLDIER
+    flagOffset: 7
+    # armorForAvatar:
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 30000
+    costSalary: 20000
+    minStats:
+      tu: 40
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 10
+    maxStats:
+      tu: 50
+      stamina: 70
+      health: 40
+      bravery: 70
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 50
+    statCaps:
+      tu: 70
+      stamina: 120
+      health: 70
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 60
+      psiStrength: 100
+      psiSkill: 100
+      melee: 110
+    armor: STR_AMERICAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 30
+    soldierNames:
+      - delete
+      - AmericanNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+###########################
+# BRITISH
+###########################
+  - type: STR_BRITISH_SOLDIER
+    # armorForAvatar:
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 50000
+    costSalary: 30000
+    minStats:
+      tu: 60
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 40
+      firing: 50
+      throwing: 40
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 70
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 70
+      firing: 80
+      throwing: 70
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 90
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 100
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_BRITISH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 50
+    soldierNames:
+      - delete
+      - BritishNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+####################
+# GERMANS
+####################
+  - type: STR_GERMAN_SOLDIER
+    costBuy: 50000
+    costSalary: 40000
+    flagOffset: 9
+    minStats:
+      tu: 60
+      stamina: 60
+      health: 40
+      bravery: 20
+      reactions: 30
+      firing: 50
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 80
+      stamina: 70
+      health: 45
+      bravery: 50
+      reactions: 60
+      firing: 90
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 90
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 130
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_GERMAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 20
+    soldierNames:
+      - delete
+      - GermanNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: false
+#####################
+# PILOT
+#####################
+  - type: STR_PILOT
+    flagOffset: 10
+    # armorForAvatar:
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 50000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 10
+      reactions: 50
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 20
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 60
+      reactions: 80
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 40
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 120
+    armor: STR_PILOT_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    femaleFrequency: 45
+    soldierNames:
+      - delete
+      - PilotNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+    allowPiloting: true
+    dogfightExperience:
+      bravery: 30
+      reactions: 100
+      firing: 75
+#####################
+# FRENCH
+#####################
+  - type: STR_FRENCH_SOLDIER
+    flagOffset: 18
+    # armorForAvatar:
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 35000
+    costSalary: 30000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 40
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 40
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 60
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 150
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 150
+    armor: STR_FRENCH_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    allowPiloting: false
+    femaleFrequency: 0
+    soldierNames:
+      - delete
+      - FrenchNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+##################
+# ITALIAN
+##################
+  - type: STR_ITALIAN_SOLDIER
+    flagOffset: 22
+    # armorForAvatar:
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 30000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 45
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 60
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 200
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 150
+    armor: STR_ITALIAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    allowPiloting: false
+    femaleFrequency: 10
+    soldierNames:
+      - delete
+      - ItalianNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+
+items:
+#####################
+# AMERICANS
+#####################
+  - type: STR_AMERICAN_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 104
+    floorSprite: 104
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_AMERICAN_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 105
+    floorSprite: 105
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_BRITISH_OFFICER_UNIFORM_CORPSE
+#    name: STR_CORPSE
+    #battleType: 11
+#    weight: 24
+#    bigSprite: 106
+#    floorSprite: 106
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_CORPSE
+#    name: STR_CORPSE
+    #battleType: 11
+#    weight: 24
+#    bigSprite: 107
+#    floorSprite: 107
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+#############################
+# BRITISH
+#############################
+  - type: STR_BRITISH_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 100
+    floorSprite: 100
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_BRITISH_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 101
+    floorSprite: 101
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_BRITISH_OFFICER_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 102
+#    floorSprite: 102
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 103
+#    floorSprite: 103
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+#########################
+# GERMANS
+#########################
+  - type: STR_GERMAN_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 108
+    floorSprite: 108
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_GERMAN_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 109
+    floorSprite: 109
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_GERMAN_OFFICER_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 110
+#    floorSprite: 110
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+  - type: STR_GERMAN_TRENCH_COAT_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 111
+    floorSprite: 111
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+###################
+# PILOT
+###################
+  - type: STR_PILOT_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 112
+    floorSprite: 112
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+###################
+# FRENCH
+####################
+  - type: STR_FRENCH_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 113
+    floorSprite: 113
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_FRENCH_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 114
+    floorSprite: 114
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_FRENCH_OFFICER_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 115
+#    floorSprite: 115
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+#  - type: STR_FRENCH_TRENCHCOAT_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 116
+#    floorSprite: 116
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+####################
+# ITALIAN
+#####################
+  - type: STR_ITALIAN_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 160
+    floorSprite: 160
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_ITALIAN_ALPINI_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 161
+    floorSprite: 161
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_ITALIAN_OFFICER_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 115
+#    floorSprite: 115
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+#  - type: STR_ITALIAN_TRENCHCOAT_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 116
+#    floorSprite: 116
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
+
+armors:
+#####################
+# AMERICAN
+######################
+  - type: STR_AMERICAN_FIELD_UNIFORM_UC
+    spriteSheet: XCOM_23.PCK
+    spriteInv: MAN_23
+    corpseBattle:
+      - STR_AMERICAN_FIELD_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_AMERICAN_SOLDIER
+#Gasmask
+  - type: STR_AMERICAN_GASMASK_UC
+    spriteSheet: XCOM_23GM.PCK
+    spriteInv: MAN_23GM
+    corpseBattle:
+      - STR_AMERICAN_GASMASK_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 0.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.4 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_AMERICAN_SOLDIER
+#Officer
+#  - type: STR_BRITISH_OFFICER_UNIFORM_UC
+#    spriteSheet: XCOM_22OU.PCK
+#    spriteInv: MAN_22OU
+#    corpseItem: STR_BRITISH_OFFICER_UNIFORM_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_BRITISH_SOLDIER
+
+#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_UC
+#    spriteSheet: XCOM_22TC.PCK
+#    spriteInv: MAN_22TC
+#    corpseItem: STR_BRITISH_TRENCHCOATCORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_BRITISH_SOLDIER
+
+###########################
+# BRITISH
+##########################
+
+  - type: STR_BRITISH_FIELD_UNIFORM_UC
+    spriteSheet: XCOM_22.PCK
+    spriteInv: MAN_22
+    corpseBattle:
+      - STR_BRITISH_FIELD_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+#      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_BRITISH_SOLDIER
+
+  - type: STR_BRITISH_GASMASK_UC
+    spriteSheet: XCOM_22GM.PCK
+    spriteInv: MAN_22GM
+    corpseBattle:
+      - STR_BRITISH_GASMASK_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 0.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.4 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+#      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_BRITISH_SOLDIER
+
+#  - type: STR_BRITISH_OFFICER_UNIFORM_UC
+#    spriteSheet: XCOM_22OU.PCK
+#    spriteInv: MAN_22OU
+#    corpseItem: STR_BRITISH_OFFICER_UNIFORM_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_BRITISH_SOLDIER
+
+#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_UC
+#    spriteSheet: XCOM_22TC.PCK
+#    spriteInv: MAN_22TC
+#    corpseItem: STR_BRITISH_TRENCHCOATCORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_BRITISH_SOLDIER
+#########################
+# GERMANS
+#########################
+#GERMAN
+  - type: STR_GERMAN_FIELD_UNIFORM_UC
+    spriteSheet: XCOM_24.PCK
+    spriteInv: MAN_24
+    corpseBattle:
+      - STR_GERMAN_FIELD_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_GERMAN_SOLDIER
+#Gasmask
+  - type: STR_GERMAN_GASMASK_UC
+    spriteSheet: XCOM_24GM.PCK
+    spriteInv: MAN_24GM
+    corpseBattle:
+      - STR_GERMAN_GASMASK_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 0.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.4 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_GERMAN_SOLDIER
+
+#Officer
+#  - type: STR_GERMAN_OFFICER_UNIFORM_UC
+#    spriteSheet: XCOM_24OU.PCK
+#    spriteInv: MAN_24OU
+#    corpseItem: STR_GERMAN_OFFICER_UNIFORM_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_GERMAN_SOLDIER
+
+  - type: STR_GERMAN_TRENCH_COAT_UNIFORM_UC
+    spriteSheet: XCOM_24TC.PCK
+    spriteInv: MAN_24TC
+    corpseBattle: [STR_GERMAN_TRENCH_COAT_UNIFORM_CORPSE] # TODO check this
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+      - 1.0 #11 Tesla
+      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.0 #14 Black Smoke
+      - 1.0 #15 Pulse Energy
+      - 1.0 #16 Cold
+      - 1.0 #17 Toxic
+      - 1.0 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_GERMAN_SOLDIER
+####################
+# PILOT
+###################
+#Pilot
+  - type: STR_PILOT_UNIFORM_UC
+    spriteSheet: XCOM_25.PCK
+    spriteInv: MAN_25
+    corpseBattle:
+      - STR_PILOT_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 5
+      stamina: 10
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 0.9 #18 Flames
+    builtInWeapons:
+      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+#      - INV_NULL_1X1_LEFT_LEG
+      - INV_PARACHUTE_C_3X3
+    units:
+      - STR_PILOT
+####################
+# FRENCH
+#####################
+#French
+  - type: STR_FRENCH_FIELD_UNIFORM_UC
+    spriteSheet: XCOM_26.PCK
+    spriteInv: MAN_26
+    corpseBattle:
+      - STR_FRENCH_FIELD_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 5
+      stamina: 10
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_FRENCH_SOLDIER
+  - type: STR_FRENCH_GASMASK_UC
+    spriteSheet: XCOM_26GM.PCK
+    spriteInv: MAN_26GM
+    corpseBattle:
+      - STR_FRENCH_GASMASK_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 3
+      stamina: -10
+      health: 0
+      bravery: 10
+      reactions: -15
+      firing: -10
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: -3
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 0.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.4 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_FRENCH_SOLDIER
+
+#Officer
+#  - type: STR_FRENCH_OFFICER_UNIFORM_UC
+#    spriteSheet: XCOM_26OU.PCK
+#    spriteInv: MAN_26OU
+#    corpseItem: STR_FRENCH_OFFICER_UNIFORM_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_FRENCH_SOLDIER
+
+#  - type: STR_FRENCH_TRENCHCOAT_UNIFORM_UC
+#    spriteSheet: XCOM_26TC.PCK
+#    spriteInv: MAN_26TC
+#    corpseItem: STR_FRENCH_TRENCHCOAT_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_FRENCH_SOLDIER
+####################
+# ITALIAN
+####################
+#ITALIAN
+  - type: STR_ITALIAN_FIELD_UNIFORM_UC
+    spriteSheet: XCOM_27.PCK
+    spriteInv: MAN_27
+    corpseBattle:
+      - STR_ITALIAN_FIELD_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 5
+      stamina: 10
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.3 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.8 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_ITALIAN_SOLDIER
+  - type: STR_ITALIAN_ALPINI_UNIFORM_UC
+    spriteSheet: XCOM_27AU.PCK
+    spriteInv: MAN_27AU
+    corpseBattle:
+      - STR_ITALIAN_ALPINI_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    spriteFaceGroup: 6
+    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+    stats:
+      tu: 5
+      stamina: 5
+      health: 0
+      bravery: 20
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.5 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 0.2 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.4 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_ITALIAN_SOLDIER
+
+#Officer
+#  - type: STR_ITALIAN_OFFICER_UNIFORM_UC
+#    spriteSheet: XCOM_27OU.PCK
+#    spriteInv: MAN_27OU
+#    corpseItem: STR_ITALIAN_OFFICER_UNIFORM_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_ITALIAN_SOLDIER
+
+#  - type: STR_ITALIAN_TRENCHCOAT_UNIFORM_UC
+#    spriteSheet: XCOM_27TC.PCK
+#    spriteInv: MAN_27TC
+#    corpseItem: STR_ITALIAN_TRENCHCOAT_CORPSE
+#    storeItem: STR_NONE
+#    loftempsSet: [ 3 ]
+#    frontArmor: 14
+#    sideArmor: 10
+#    rearArmor: 8
+#    underArmor: 2
+#    spriteFaceGroup: 6
+#    spriteFaceColor: [96, 96, 96, 96, 160, 160, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+#    spriteHairGroup: 9
+#    spriteHairColor: [144, 144, 164, 164, 245, 245, 166, 166] #M0 F0 M1 F1 M2 F2 M3 F3
+#    stats:
+#      tu: 3
+#      stamina: -10
+#      health: 0
+#      bravery: 10
+#      reactions: -15
+#      firing: -10
+#      throwing: 0
+#      strength: 0
+#      psiStrength: 0
+#      psiSkill: 0
+#      melee: -3
+#    damageModifier:
+#      - 1.0 #0 None
+#      - 1.0 #1 Armor Piercing
+#      - 1.1 #2 Incendiary
+#      - 1.0 #3 High Explosive
+#      - 1.0 #4 Laser
+#      - 1.0 #5 Plasma
+#      - 1.2 #6 Stun
+#      - 1.0 #7 Melee
+#      - 1.6 #8 Acid
+#      - 1.1 #9 Smoke
+#      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+#      - 1.0 #13 Heat-Ray
+#      - 1.0 #14 Black Smoke
+#      - 1.0 #15 Pulse Energy
+#      - 1.0 #16 Cold
+#      - 1.0 #17 Toxic
+#      - 1.0 #18 Flames
+#    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+##      - INV_NULL_1X2_QD_SLOT
+#      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+##      - INV_NULL_1X1_LEFT_LEG
+#    units:
+#      - STR_ITALIAN_SOLDIER
+
+
+
+extraSprites:
+####################
+# AMERICAN
+####################
+  - type: AMERICAN_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/AMERICAN_SOLDIER_IMAGE.PNG
+#Field Uniform
+  - type: MAN_23F0.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F0.png
+  - type: MAN_23F1.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F1.png
+  - type: MAN_23F2.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F2.png
+  - type: MAN_23F3.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23F3.png
+  - type: MAN_23M0.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M0.png
+  - type: MAN_23M1.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M1.png
+  - type: MAN_23M2.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M2.png
+  - type: MAN_23M3.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23M3.png
+  - type: XCOM_23.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/American/AMERICAN_FIELD_UNIFORM.png
+
+#Gas Mask
+  - type: MAN_23GM.SPK
+    singleImage: true
+    files:
+      0: Resources/American/Inventory/MAN_23GM.png
+  - type: XCOM_23GM.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/American/AMERICAN_GASMASK.png
+
+#Officer Uniform
+#  - type: MAN_23OUF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF0.png
+#  - type: MAN_23OUF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF1.png
+#  - type: MAN_23OUF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF2.png
+#  - type: MAN_23OUF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF3.png
+#  - type: MAN_23OUM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM0.png
+#  - type: MAN_23OUM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM1.png
+#  - type: MAN_23OUM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM2.png
+#  - type: MAN_23OUM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM3.png
+#  - type: XCOM_23OU.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png
+
+#Trench Coat Uniform
+#  - type: MAN_23TCF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF0.png
+#  - type: MAN_23TCF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF1.png
+#  - type: MAN_23TCF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF2.png
+#  - type: MAN_23TCF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF3.png
+#  - type: MAN_23TCM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM0.png
+#  - type: MAN_23TCM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM1.png
+#  - type: MAN_23TCM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM2.png
+#  - type: MAN_23TCM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM3.png
+#  - type: XCOM_23TC.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM.png
+
+  - type: BRITISH_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/BRITISH_SOLDIER_IMAGE.PNG
+#Field Uniform
+  - type: MAN_22F0.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22F0.png
+  - type: MAN_22F1.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22F1.png
+  - type: MAN_22F2.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22F2.png
+  - type: MAN_22F3.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22F3.png
+  - type: MAN_22M0.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22M0.png
+  - type: MAN_22M1.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22M1.png
+  - type: MAN_22M2.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22M2.png
+  - type: MAN_22M3.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22M3.png
+  - type: XCOM_22.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/British/BRITISH_FIELD_UNIFORM.png
+#Gasmask
+  - type: MAN_22GM.SPK
+    singleImage: true
+    files:
+      0: Resources/British/Inventory/MAN_22GM.png
+  - type: XCOM_22GM.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/British/BRITISH_GASMASK.png
+#Officer Uniform
+#  - type: MAN_23OUF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF0.png
+#  - type: MAN_23OUF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF1.png
+#  - type: MAN_23OUF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF2.png
+#  - type: MAN_23OUF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUF3.png
+#  - type: MAN_23OUM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM0.png
+#  - type: MAN_23OUM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM1.png
+#  - type: MAN_23OUM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM2.png
+#  - type: MAN_23OUM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23OUM3.png
+#  - type: XCOM_23OU.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png
+
+#Trench Coat Uniform
+#  - type: MAN_23TCF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF0.png
+#  - type: MAN_23TCF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF1.png
+#  - type: MAN_23TCF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF2.png
+#  - type: MAN_23TCF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCF3.png
+#  - type: MAN_23TCM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM0.png
+#  - type: MAN_23TCM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM1.png
+#  - type: MAN_23TCM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM2.png
+#  - type: MAN_23TCM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/American/Inventory/MAN_23TCM3.png
+#  - type: XCOM_23TC.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM.png
+###################
+# GERMANS
+###################
+  - type: GERMAN_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/GERMAN_SOLDIER_IMAGE.PNG
+#Field Uniform
+  - type: MAN_24F0.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F0.png
+  - type: MAN_24F1.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F1.png
+  - type: MAN_24F2.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F2.png
+  - type: MAN_24F3.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24F3.png
+  - type: MAN_24M0.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M0.png
+  - type: MAN_24M1.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M1.png
+  - type: MAN_24M2.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M2.png
+  - type: MAN_24M3.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24M3.png
+  - type: XCOM_24.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/German/GERMAN_FIELD_UNIFORM.png
+#Gas Mask
+  - type: MAN_24GM.SPK
+    singleImage: true
+    files:
+      0: Resources/German/Inventory/MAN_24GM.png
+  - type: XCOM_24GM.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/German/GERMAN_GASMASK.png
+
+#Officer Uniform
+#  - type: MAN_24OUF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF0.png
+#  - type: MAN_24OUF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF1.png
+#  - type: MAN_24OUF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF2.png
+#  - type: MAN_24OUF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUF3.png
+#  - type: MAN_24OUM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM0.png
+#  - type: MAN_24OUM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM1.png
+#  - type: MAN_24OUM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM2.png
+#  - type: MAN_24OUM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/GERMAN/Inventory/MAN_24OUM3.png
+#  - type: XCOM_24OU.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/GERMAN/GERMAN_OFFICER_UNIFORM.png
+
+#Trench Coat Uniform
+  - type: MAN_24TCF0.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF0.png
+  - type: MAN_24TCF1.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF1.png
+  - type: MAN_24TCF2.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF2.png
+  - type: MAN_24TCF3.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCF3.png
+  - type: MAN_24TCM0.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM0.png
+  - type: MAN_24TCM1.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM1.png
+  - type: MAN_24TCM2.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM2.png
+  - type: MAN_24TCM3.SPK
+    singleImage: true
+    files:
+      0: Resources/GERMAN/Inventory/MAN_24TCM3.png
+  - type: XCOM_24TC.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/German/GERMAN_TRENCH_COAT.png
+####################
+# PILOT
+####################
+  - type: PILOT_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/PILOT_IMAGE.PNG
+  - type: MAN_25F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F0.png
+  - type: MAN_25F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F1.png
+  - type: MAN_25F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F2.png
+  - type: MAN_25F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25F3.png
+  - type: MAN_25M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M0.png
+  - type: MAN_25M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M1.png
+  - type: MAN_25M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M2.png
+  - type: MAN_25M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Pilot/Inventory/MAN_25M3.png
+
+  - type: XCOM_25.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Pilot/PILOT_UNIFORM.png
+
+
+###################
+# FRENCH
+####################
+
+  - type: FRENCH_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/FRENCH_SOLDIER_IMAGE.PNG
+#Field Uniform
+  - type: MAN_26F0.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26F0.png
+  - type: MAN_26F1.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26F1.png
+  - type: MAN_26F2.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26F2.png
+  - type: MAN_26F3.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26F3.png
+  - type: MAN_26M0.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26M0.png
+  - type: MAN_26M1.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26M1.png
+  - type: MAN_26M2.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26M2.png
+  - type: MAN_26M3.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26M3.png
+  - type: XCOM_26.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/French/FRENCH_FIELD_UNIFORM.png
+#Gas Mask
+  - type: MAN_26GM.SPK
+    singleImage: true
+    files:
+      0: Resources/French/Inventory/MAN_26GM.png
+  - type: XCOM_26GM.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/French/FRENCH_GASMASK.png
+#Officer Uniform
+#  - type: MAN_26OUF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUF0.png
+#  - type: MAN_26OUF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUF1.png
+#  - type: MAN_26OUF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUF2.png
+#  - type: MAN_26OUF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUF3.png
+#  - type: MAN_26OUM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUM0.png
+#  - type: MAN_26OUM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUM1.png
+#  - type: MAN_26OUM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUM2.png
+#  - type: MAN_26OUM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26OUM3.png
+#  - type: XCOM_26OU.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/French/FRENCH_OFFICER_UNIFORM.png
+
+#Trench Coat Uniform
+#  - type: MAN_26TCF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCF0.png
+#  - type: MAN_26TCF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCF1.png
+#  - type: MAN_26TCF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCF2.png
+#  - type: MAN_26TCF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCF3.png
+#  - type: MAN_26TCM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCM0.png
+#  - type: MAN_26TCM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCM1.png
+#  - type: MAN_26TCM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCM2.png
+#  - type: MAN_26TCM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/French/Inventory/MAN_26TCM3.png
+#  - type: XCOM_26TC.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/French/FRENCH_TRENCHCOAT_UNIFORM.png
+####################
+# ITALIAN
+####################
+  - type: ITALIAN_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ITALIAN_SOLDIER_IMAGE.PNG
+#Field Uniform
+  - type: MAN_27F0.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27F0.png
+  - type: MAN_27F1.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27F1.png
+  - type: MAN_27F2.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27F2.png
+  - type: MAN_27F3.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27F3.png
+  - type: MAN_27M0.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27M0.png
+  - type: MAN_27M1.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27M1.png
+  - type: MAN_27M2.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27M2.png
+  - type: MAN_27M3.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27M3.png
+  - type: XCOM_27.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Italian/ITALIAN_FIELD_UNIFORM.png
+#Alpini Uniform
+  - type: MAN_27AUF0.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUF0.png
+  - type: MAN_27AUF1.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUF1.png
+  - type: MAN_27AUF2.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUF2.png
+  - type: MAN_27AUF3.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUF3.png
+  - type: MAN_27AUM0.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUM0.png
+  - type: MAN_27AUM1.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUM1.png
+  - type: MAN_27AUM2.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUM2.png
+  - type: MAN_27AUM3.SPK
+    singleImage: true
+    files:
+      0: Resources/Italian/Inventory/MAN_27AUM3.png
+  - type: XCOM_27AU.PCK
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Italian/ITALIAN_ALPINI_UNIFORM.png
+#Officer Uniform
+#  - type: MAN_27OUF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUF0.png
+#  - type: MAN_27OUF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUF1.png
+#  - type: MAN_27OUF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUF2.png
+#  - type: MAN_27OUF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUF3.png
+#  - type: MAN_27OUM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUM0.png
+#  - type: MAN_27OUM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUM1.png
+#  - type: MAN_27OUM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUM2.png
+#  - type: MAN_27OUM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27OUM3.png
+#  - type: XCOM_27OU.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/Italian/ITALIAN_OFFICER_UNIFORM.png
+
+#Trench Coat Uniform
+#  - type: MAN_27TCF0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCF0.png
+#  - type: MAN_27TCF1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCF1.png
+#  - type: MAN_27TCF2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCF2.png
+#  - type: MAN_27TCF3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCF3.png
+#  - type: MAN_27TCM0.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCM0.png
+#  - type: MAN_27TCM1.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCM1.png
+#  - type: MAN_27TCM2.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCM2.png
+#  - type: MAN_27TCM3.SPK
+#    singleImage: true
+#    files:
+#      0: Resources/Italian/Inventory/MAN_27TCM3.png
+#  - type: XCOM_27TC.PCK
+#    width: 512
+#    height: 720
+#    subX: 32
+#    subY: 40
+#    files:
+#      0: Resources/Italian/ITALIAN_TRENCHCOAT_UNIFORM.png
+
+
+  - type: BIGOBS.PCK
+    files:
+#############
+# BRITISH
+#############
+      100: Resources/British/BRITISH_FIELD_UNIFORM_CORPSE_BIGOB.png
+      101: Resources/British/BRITISH_GASMASK_CORPSE_BIGOB.png
+#      102: Resources/British/BRITISH_OFFICER_UNIFORM_CORPSE_BIGOB.png
+#      103: Resources/British/BRITISH_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+#############
+# AMERICAN
+#############
+      104: Resources/American/AMERICAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      105: Resources/American/AMERICAN_GASMASK_CORPSE_BIGOB.png
+#      106: Resources/American/AMERICAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
+#      107: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+#############
+# GERMAN
+#############
+      108: Resources/German/GERMAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      109: Resources/German/GERMAN_GASMASK_CORPSE_BIGOB.png
+#      110: Resources/German/GERMAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
+      111: Resources/German/GERMAN_TRENCH_COAT_CORPSE_BIGOB.png
+#############
+# PILOT
+#############
+      112: Resources/Pilot/PILOT_UNIFORM_CORPSE_BIGOB.png
+#############
+# FRENCH
+#############
+      113: Resources/French/FRENCH_FIELD_UNIFORM_CORPSE_BIGOB.png
+      114: Resources/French/FRENCH_GASMASK_CORPSE_BIGOB.png
+#      115: Resources/French/FRENCH_OFFICER_UNIFORM_CORPSE_BIGOB.png
+#      116: Resources/French/FRENCH_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+#############
+# ITALIAN
+#############
+      160: Resources/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      161: Resources/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_BIGOB.png
+#      162: Resources/Italian/ITALIAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
+#      163: Resources/Italian/ITALIAN_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+
+
+  - type: FLOOROB.PCK
+    files:
+#############
+# BRITISH
+#############
+      100: Resources/British/BRITISH_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      101: Resources/British/BRITISH_GASMASK_CORPSE_FLOOROB.png
+#      102: Resources/British/BRITISH_OFFICER_UNIFORM_CORPSE_FLOOROB.png
+#      103: Resources/British/BRITISH_TRENCHCOAT_UNIFORM_CORPSE_FLOOROB.png
+#############
+# AMERICAN
+#############
+      104: Resources/American/AMERICAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      105: Resources/American/AMERICAN_GASMASK_CORPSE_FLOOROB.png
+#      106: Resources/American/AMERICAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
+#      107: Resources/American/AMERICAN_TRENCHCOAT_CORPSE_FLOOROB.png
+#############
+# GERMAN
+#############
+      108: Resources/German/GERMAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      109: Resources/German/GERMAN_GASMASK_CORPSE_FLOOROB.png
+#      110: Resources/German/GERMAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
+      111: Resources/German/GERMAN_TRENCH_COAT_CORPSE_FLOOROB.png
+#############
+# PILOT
+#############
+      112: Resources/Pilot/PILOT_UNIFORM_CORPSE_FLOOROB.png
+#############
+# FRENCH
+#############
+      113: Resources/French/FRENCH_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      114: Resources/French/FRENCH_GASMASK_CORPSE_FLOOROB.png
+#      115: Resources/French/FRENCH_OFFICER_UNIFORM_CORPSE_FLOOROB.png
+#      116: Resources/French/FRENCH_TRENCHCOAT_CORPSE_FLOOROB.png
+#############
+# ITALIAN
+#############
+      160: Resources/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      161: Resources/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_FLOOROB.png
+#      162: Resources/Italian/ITALIAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
+#      163: Resources/Italian/ITALIAN_TRENCHCOAT_CORPSE_FLOOROB.png
+
+
+
+
+
+
+
+
+
+#####################
+# BRITISH
+#####################
+  - type: Flag0
+    singleImage: true
+    files:
+      0: Resources/Flags/00-British.png
+  - type: Flag1
+    singleImage: true
+    files:
+      0: Resources/Flags/01-Canadian.png
+  - type: Flag2
+    singleImage: true
+    files:
+      0: Resources/Flags/02-Hindi.png
+  - type: Flag3
+    singleImage: true
+    files:
+      0: Resources/Flags/03-Irish.png
+  - type: Flag4
+    singleImage: true
+    files:
+      0: Resources/Flags/04-Scottish.png
+  - type: Flag5
+    singleImage: true
+    files:
+      0: Resources/Flags/05-Australian.png
+
+######################
+# AMERICAN
+#####################
+  - type: Flag7
+    singleImage: true
+    files:
+      0: Resources/Flags/07-American.png
+  - type: Flag8
+    singleImage: true
+    files:
+      0: Resources/Flags/08-Mexican.png
+######################
+# GERMAN
+######################
+  - type: Flag9
+    singleImage: true
+    files:
+      0: Resources/Flags/09-German.png
+#####################
+# PILOT
+#####################
+  - type: Flag10
+    singleImage: true
+    files:
+      0: Resources/Flags/10-BritishPilot.png
+  - type: Flag11
+    singleImage: true
+    files:
+      0: Resources/Flags/11-AmericanPilot.png
+  - type: Flag12
+    singleImage: true
+    files:
+      0: Resources/Flags/12-GermanPilot.png
+  - type: Flag13
+    singleImage: true
+    files:
+      0: Resources/Flags/13-FrenchPilot.png
+  - type: Flag15
+    singleImage: true
+    files:
+      0: Resources/Flags/15-ItalianPilot.png
+#####################
+# FRENCH
+#####################
+  - type: Flag18
+    singleImage: true
+    files:
+      0: Resources/Flags/18-French.png
+  - type: Flag19
+    singleImage: true
+    files:
+      0: Resources/Flags/19-ForeignLegionnaire.png
+  - type: Flag20
+    singleImage: true
+    files:
+      0: Resources/Flags/20-Algerian.png
+  - type: Flag21
+    singleImage: true
+    files:
+      0: Resources/Flags/21-Senegalese.png
+###################
+# ITALIAN
+###################
+  - type: Flag22
+    singleImage: true
+    files:
+      0: Resources/Flags/22-Italian.png
+
+
+####################
+# AVATAR BACKGROUND
+####################
+  - type: AvatarBackground
+    singleImage: true
+    files:
+      0: Resources/UI/avatar-background.png
