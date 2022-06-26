@@ -353,16 +353,39 @@ armors:
     loftempsSet: [ 3 ]
 
 units:
-  - type: STR_SECTOID_SOLDIER
+  - type: STR_SECTOID_LEADER
     race: STR_SECTOID
     rank: STR_LIVE_SOLDIER
     stats:
       tu: 50
       stamina: 90
+      health: 40
+      bravery: 80
+      reactions: 65
+      firing: 40
+      throwing: 58
+      strength: 30
+      psiStrength: 40
+      psiSkill: 0
+      melee: 40
+    armor: SECTOID_ARMOR0
+    standHeight: 16
+    kneelHeight: 12
+    value: 20
+    deathSound: 10
+    intelligence: 5
+    aggression: 1
+    canSurrender: true
+  - type: STR_SECTOID_SOLDIER
+    race: STR_SECTOID
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 40
+      stamina: 80
       health: 30
       bravery: 60
       reactions: 60
-      firing: 40
+      firing: 30
       throwing: 58
       strength: 30
       psiStrength: 40
@@ -377,6 +400,29 @@ units:
     aggression: 3
     canSurrender: true
 
+  - type: STR_MARTIAN_LINE_INFANTRY_LEADER
+    race: STR_MARTIAN_LINE_INFANTRY
+    rank: STR_LIVE_LEADER
+    stats:
+      tu: 70
+      stamina: 100
+      health: 40
+      bravery: 100
+      reactions: 60
+      firing: 60
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_LINE_INFANTRY_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 20
+    deathSound: 10
+    intelligence: 6
+    aggression: 5
+    canSurrender: true
   - type: STR_MARTIAN_LINE_INFANTRY
     race: STR_MARTIAN_LINE_INFANTRY
     rank: STR_LIVE_SOLDIER
@@ -401,9 +447,33 @@ units:
     aggression: 5
     canSurrender: true
 
+  - type: STR_MARTIAN_SHOCK_GUARD_LEADER
+    race: STR_MARTIAN_SHOCK_GUARDS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 100
+      stamina: 100
+      health: 60
+      bravery: 100
+      reactions: 60
+      firing: 60
+      throwing: 40
+      strength: 70
+      psiStrength: 50
+      psiSkill: 0
+      melee: 80
+    armor: STR_MARTIAN_SHOCK_GUARD_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    floatHeight: 2
+    value: 30
+    deathSound: 10
+    intelligence: 8
+    aggression: 4
+    canSurrender: false
   - type: STR_MARTIAN_SHOCK_GUARD
     race: STR_MARTIAN_SHOCK_GUARDS
-    rank: STR_LIVE_ENGINEER
+    rank: STR_LIVE_SOLDIER
     stats:
       tu: 100
       stamina: 100
@@ -426,9 +496,32 @@ units:
     aggression: 4
     canSurrender: false
 
+  - type: STR_MARTIAN_MARINE_LEADER
+    race: STR_MARTIAN_MARINES
+    rank: STR_LIVE_NAVIGATOR
+    stats:
+      tu: 80
+      stamina: 100
+      health: 40
+      bravery: 90
+      reactions: 74
+      firing: 40
+      throwing: 30
+      strength: 50
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_MARINE_ARMOR
+    standHeight: 21
+    kneelHeight: 16
+    value: 15
+    deathSound: 10
+    intelligence: 6
+    aggression: 3
+    canSurrender: true
   - type: STR_MARTIAN_MARINE
     race: STR_MARTIAN_MARINES
-    rank: STR_LIVE_MEDIC
+    rank: STR_LIVE_NAVIGATOR
     stats:
       tu: 70
       stamina: 100
@@ -450,6 +543,29 @@ units:
     aggression: 3
     canSurrender: true
 
+  - type: STR_MARTIAN_SKIRMISHER_LEADER
+    race: STR_MARTIAN_SKIRMISHERS
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 100
+      stamina: 110
+      health: 45
+      bravery: 60
+      reactions: 100
+      firing: 30
+      throwing: 60
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 90
+    armor: STR_MARTIAN_SKIRMISHER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 16
+    deathSound: 20
+    intelligence: 6
+    aggression: 2
+    canSurrender: true
   - type: STR_MARTIAN_SKIRMISHER
     race: STR_MARTIAN_SKIRMISHERS
     rank: STR_LIVE_SOLDIER
@@ -497,7 +613,53 @@ units:
     intelligence: 8
     aggression: 2
     canSurrender: false
+  - type: STR_MARTIAN_ROYAL_GUARD_LEADER
+    race: STR_MARTIAN_ROYAL_GUARD
+    rank: STR_LIVE_SOLDIER
+    stats:
+      tu: 90
+      stamina: 100
+      health: 40
+      bravery: 120
+      reactions: 69
+      firing: 70
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 70
+    armor: STR_MARTIAN_ROYAL_POWER_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 40
+    deathSound: 10
+    intelligence: 9
+    aggression: 1
+    canSurrender: false
 
+  - type: STR_MARTIAN_SCIENTIST_LEADER
+    race: STR_MARTIAN_SCIENCE_TEAM
+    rank: STR_LIVE_MEDIC
+    stats:
+      tu: 55
+      stamina: 100
+      health: 50
+      bravery: 60
+      reactions: 50
+      firing: 25
+      throwing: 40
+      strength: 40
+      psiStrength: 50
+      psiSkill: 0
+      melee: 40
+    armor: STR_MARTIAN_SCIENTIST_ARMOR
+    standHeight: 16
+    kneelHeight: 12
+    value: 30
+    deathSound: 10
+    intelligence: 10
+    aggression: 1
+    canSurrender: true
   - type: STR_MARTIAN_SCIENTIST
     race: STR_MARTIAN_SCIENCE_TEAM
     rank: STR_LIVE_MEDIC
@@ -512,7 +674,7 @@ units:
       strength: 40
       psiStrength: 50
       psiSkill: 0
-      melee: 70
+      melee: 30
     armor: STR_MARTIAN_SCIENTIST_ARMOR
     standHeight: 16
     kneelHeight: 12
@@ -568,7 +730,7 @@ alienRaces:
 
   - id: STR_SECTOID
     members:
-      - STR_SECTOID_SOLDIER
+      - STR_SECTOID_LEADER
       - STR_SECTOID_SOLDIER
       - STR_SECTOID_SOLDIER
       - STR_SECTOID_SOLDIER
@@ -579,7 +741,7 @@ alienRaces:
 
   - id: STR_FLOATER
     members:
-      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_SKIRMISHER
       - STR_SECTOID_SOLDIER
@@ -590,8 +752,8 @@ alienRaces:
 
   - id: STR_MARTIAN_LINE_INFANTRIES
     members:
-      - STR_MARTIAN_LINE_INFANTRY
-      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_MARINE
@@ -601,7 +763,7 @@ alienRaces:
 
   - id: STR_MARTIAN_MARINES
     members:
-      - STR_MARTIAN_MARINE
+      - STR_MARTIAN_MARINE_LEADER
       - STR_MARTIAN_MARINE
       - STR_MARTIAN_MARINE
       - STR_MARTIAN_MARINE
@@ -612,7 +774,7 @@ alienRaces:
 
   - id: STR_MARTIAN_SHOCK_GUARDS
     members:
-      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD_LEADER
       - STR_MARTIAN_SHOCK_GUARD
       - STR_MARTIAN_SHOCK_GUARD
       - STR_MARTIAN_SHOCK_GUARD
@@ -623,7 +785,7 @@ alienRaces:
 
   - id: STR_MARTIAN_SKIRMISHERS
     members:
-      - STR_MARTIAN_SKIRMISHER
+      - STR_MARTIAN_SKIRMISHER_LEADER
       - STR_MARTIAN_SKIRMISHER
       - STR_MARTIAN_SKIRMISHER
       - STR_MARTIAN_SKIRMISHER
@@ -636,7 +798,7 @@ alienRaces:
     members:
       - STR_CEREBREAL_COMMANDER
       - STR_CEREBREAL_COMMANDER
-      - STR_MARTIAN_ROYAL_GUARD
+      - STR_MARTIAN_ROYAL_GUARD_LEADER
       - STR_MARTIAN_ROYAL_GUARD
       - STR_MARTIAN_ROYAL_GUARD
       - STR_MARTIAN_ROYAL_GUARD
@@ -645,7 +807,7 @@ alienRaces:
 
   - id: STR_MARTIAN_SCIENCE_TEAM
     members:
-      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD_LEADER
       - STR_MARTIAN_SHOCK_GUARD
       - STR_MARTIAN_SCIENTIST
       - STR_MARTIAN_SCIENTIST
@@ -656,7 +818,7 @@ alienRaces:
 
   - id: STR_MIXED
     members:
-      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_SKIRMISHER
       - STR_SECTOID_SOLDIER
