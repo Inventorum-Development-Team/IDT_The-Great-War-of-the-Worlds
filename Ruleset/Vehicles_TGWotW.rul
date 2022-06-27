@@ -14,9 +14,15 @@ crafts:
     damageMax: 50
     speedMax: 80
     accel: 1
+    avoidBonus: 60
     soldiers: 20
-    vehicles: 0
+    vehicles: 5
     costBuy: 10
+    weapons: 1
+    weaponTypes:
+      - 1
+    weaponStrings:
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
     refuelRate: 900
     repairRate: 10
     radarRange: 35
@@ -62,9 +68,17 @@ crafts:
   - type: STR_MARCH_LARGE
     sprite: 100
     fuelMax: 9000
-    damageMax: 50
+    damageMax: 100
     speedMax: 50
+    avoidBonus: 40
     accel: 1
+    weapons: 2
+    weaponTypes:
+      - 1
+      - [2, 3]
+    weaponStrings:
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
+      - STR_CRAFT_LIGHT_CANNON_TWO
     soldiers: 30
     vehicles: 0
     costBuy: 10
@@ -130,80 +144,85 @@ crafts:
 #TIER 0
   - type: STR_FOKKER_EINDECKER
     sprite: 101
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
+    fuelMax: 250
+    damageMax: 150
+    speedMax: 250
+    avoidBonus: 65
     accel: 4
     weapons: 2
     weaponTypes:
       - 0
-      - [3, 4]
+      - 7
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_TWO
+      - STR_CRAFT_AUX_TWO
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 10000
+    costSell: 8500
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
     sightRange: 0
     radarRange: 100
-    radarChance: 10
-    score: 400
+    radarChance: 15
+    score: 40
     #listOrder: 850
 
   - type: STR_AIRCO_DH2
     sprite: 102
     fuelMax: 300
     damageMax: 130
-    speedMax: 500
+    speedMax: 200
     accel: 4
+    avoidBonus: 60
     weapons: 2
     weaponTypes:
       - 0
-      - [3, 4]
+      - 7
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_TWO
+      - STR_CRAFT_AUX_TWO
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 12000
+    costSell: 9000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    sightRange: 0
+    sightRange: 100
     radarRange: 100
-    radarChance: 10
-    score: 400
+    radarChance: 20
+    score: 40
     #listOrder: 850
 #################################
 # TIER 1
   - type: STR_NIEUPORT_17
     sprite: 103
     fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
-    weapons: 2
+    damageMax: 260
+    speedMax: 350
+    accel: 5
+    avoidBonus: 55
+    weapons: 3
     weaponTypes:
       - 0
-      - [3, 4]
+      - 6
+      - 6
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
+      - STR_CRAFT_ROCKET_TWO
+      - STR_CRAFT_ROCKET_THREE
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 15000
+    costSell: 12000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -215,58 +234,65 @@ crafts:
 
   - type: STR_SOPWITH_PUP
     sprite: 104
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
-    weapons: 2
+    fuelMax: 400
+    damageMax: 250
+    speedMax: 300
+    accel: 3
+    avoidBonus: 45
+    hitBonus: 15
+    weapons: 3
     weaponTypes:
       - 0
-      - [3, 4]
+      - 7
+      - 7
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
+      - STR_CRAFT_AUX_TWO
+      - STR_CRAFT_AUX_THREE
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 18000
+    costSell: 16000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    sightRange: 0
-    radarRange: 100
-    radarChance: 10
+    sightRange: 250
+    radarRange: 250
+    radarChance: 25
     score: 400
     #listOrder: 850
 
   - type: STR_ALBATROS_DIII
     sprite: 105
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
+    fuelMax: 350
+    damageMax: 270
+    speedMax: 340
     accel: 4
-    weapons: 2
+    avoidBonus: 50
+    weapons: 3
     weaponTypes:
       - 0
-      - [3, 4]
+      - 6
+      - 7
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
+      - STR_CRAFT_ROCKET_TWO
+      - STR_CRAFT_AUX_THREE
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 16000
+    costSell: 14000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
     sightRange: 0
     radarRange: 100
     radarChance: 10
-    score: 400
+    score: 40
     #listOrder: 850
 
 #################################
@@ -274,85 +300,96 @@ crafts:
 
   - type: STR_SPAD
     sprite: 106
-    fuelMax: 300
-    damageMax: 130
+    fuelMax: 500
+    damageMax: 350
     speedMax: 500
-    accel: 4
+    accel: 5
     weapons: 2
+    avoidBonus: 40
+    weapons: 3
     weaponTypes:
       - 0
-      - [3, 4]
+      - 7
+      - 7
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
+      - STR_CRAFT_ROCKET_TWO
+      - STR_CRAFT_AUX_THREE
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 25000
+    costSell: 20000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
     sightRange: 0
-    radarRange: 100
-    radarChance: 10
+    radarRange: 250
+    radarChance: 20
     score: 400
     #listOrder: 850
 
   - type: STR_ROYAL_AIRCRAFT_SE5A
     sprite: 107
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
-    weapons: 2
+    fuelMax: 600
+    damageMax: 400
+    speedMax: 600
+    accel: 6
+    avoidBonus: 30
+    hitBonus: 15
+    weapons: 3
     weaponTypes:
       - 0
-      - [3, 4]
+      - 0
+      - 7
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_TWO
+      - STR_CRAFT_AUX_THREE
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 33000
+    costSell: 30000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    sightRange: 0
-    radarRange: 100
-    radarChance: 10
-    score: 400
+    sightRange: 300
+    radarRange: 300
+    radarChance: 30
+    score: 40
     #listOrder: 850
 
   - type: STR_FOKKER_DR1
     sprite: 108
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
-    weapons: 2
+    fuelMax: 350
+    damageMax: 460
+    speedMax: 350
+    accel: 5
+    avoidBonus: 60
+    weapons: 3
     weaponTypes:
       - 0
-      - [3, 4]
+      - 7
+      - 7
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
+      - STR_CRAFT_FORWARD_MACHINE_GUN_ONE
+      - STR_CRAFT_AUX_TWO
+      - STR_CRAFT_AUX_THREE
     soldiers: 1
     vehicles: 0
     pilots: 1
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 30000
+    costSell: 28000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
     sightRange: 0
-    radarRange: 100
-    radarChance: 10
+    radarRange: 250
+    radarChance: 20
     score: 400
     #listOrder: 850
 #########################################
@@ -363,32 +400,34 @@ crafts:
 # TIER 1
   - type: STR_SIKORSKI_ILYA_MUROMETS
     sprite: 124
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
+    fuelMax: 500
+    damageMax: 200
+    speedMax: 150
+    avoidBonus: 10
+    hitBonus: 15
+    accel: 2
     weapons: 4
     weaponTypes:
-      - 0
-      - [3, 4]
-      - [3, 4]
-      - [3, 4]
+      - 1
+      - [1, 5]
+      - 5
+      - 5
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
-    soldiers: 2
+    soldiers: 5
     vehicles: 0
-    pilots: 2
+    pilots: 5
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 30000
+    costSell: 28000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
     sightRange: 0
-    radarRange: 100
+    radarRange: 200
     radarChance: 10
     score: 400
     #listOrder: 850
@@ -398,15 +437,17 @@ crafts:
     fuelMax: 300
     damageMax: 130
     speedMax: 500
-    accel: 4
+    avoidBonus: 20
+    hitBonus: 15
+    accel: 3
     weapons: 4
     weaponTypes:
-      - 0
-      - [3, 4]
-      - [3, 4]
-      - [3, 4]
+      - 1
+      - [1, 5]
+      - 5
+      - 5
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
@@ -427,10 +468,10 @@ crafts:
 
   - type: STR_HANDLEY_PAGE_TYPE_O
     sprite: 126
-    fuelMax: 300
+    fuelMax: 500
     damageMax: 130
-    speedMax: 500
-    accel: 4
+    speedMax: 400
+    accel: 3
     weapons: 4
     weaponTypes:
       - 0
@@ -442,9 +483,9 @@ crafts:
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
-    soldiers: 2
+    soldiers: 5
     vehicles: 0
-    pilots: 2
+    pilots: 5
     allowLanding: false
     costBuy: 50000
     costSell: 35000
@@ -465,7 +506,7 @@ crafts:
     fuelMax: 300
     damageMax: 130
     speedMax: 500
-    accel: 4
+    accel: 3
     weapons: 4
     weaponTypes:
       - 0
@@ -477,9 +518,9 @@ crafts:
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
-    soldiers: 2
+    soldiers: 10
     vehicles: 0
-    pilots: 2
+    pilots: 10
     allowLanding: false
     costBuy: 50000
     costSell: 35000
@@ -789,12 +830,16 @@ craftWeapons:
   - delete: STR_AVALANCHE
   - delete: STR_CANNON_UC
 #modders: the corresponding extrasprites file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
-# weaponType 0 = Machine Guns (Fast but weak, a lot of ammo)
-# weaponType 1 = Cannons (Slow but powerful, medium range cannon)
-# weaponType 2 = Artillery (Naval cannons, super powerful, low ammo, low reload times)
-# weaponType 3 = Rockets (Rocket propelled projectiles, short range)
-# weaponType 4 = Bombs (Free fall ordnance, close range, good damage)
-# weaponType 5 = Auxliary Systems (Fuel tanks, extra shields, etc)
+
+# weaponType 0 = Forward Machine Guns (Fast but weak, a lot of ammo, close range)
+# weaponType 1 = Defensive Machine Guns (Very Fast but weak, a lot of ammo, closer range)
+# weaponType 2 = Light Cannons (Medium ROF, average power, medium range cannon)
+# weaponType 3 = Autocannons (Medium-fast ROF, average power, high accuracy, low ammo)
+# weaponType 4 = Artillery (Naval guns, super powerful, low ammo, very low reload times)
+# weaponType 5 = Bombs (Free fall ordnance, close range, good damage)
+# weaponType 6 = Rockets (Rocket propelled projectiles, short range, very fast ROF)
+# weaponType 7 = Auxliary Systems (Fuel tanks, extra shields, etc)
+
 #Machine Gun
   - type: STR_TWIN_HMG
     weaponType: 0
