@@ -1424,11 +1424,11 @@ en-US:
       STR_ALBATROS_DIII: "ALBATROS D-III"
       STR_ALBATROS_DIII_UFOPEDIA: "Hunter - Known for its sesquiplane wing arrangement (the lower being smaller), it is widely acclaimed for its excellent maneuverability and climb rate. The backborne of the German Air Service. "
 
-      STR_SPAD: SPAD XIII
-      STR_SPAD_UFOPEDIA: "Scout - Excellent long-range biplane aircraft, very popular in the Coalition Air Forces. It's used by many fighter aces. Is rather slow, but can perform any mission of air supremacy or close air support at long distances."
+      STR_SPAD: "SPAD XIII"
+      STR_SPAD_UFOPEDIA: "Hunter - Excellent nimble biplane aircraft, very popular in the Coalition Air Forces. It's used by many fighter aces. It can perform any mission of air supremacy or long-range reconnaissance."
 
       STR_ROYAL_AIRCRAFT_SE5A: "ROYAL AIRCRAFT SE-5a"
-      STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA: WIP
+      STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA: "Scout - The fastest biplane in combat service. It's also a very stable gun platform, with easy controls - a staple of British aircrafts."
 
       STR_FOKKER_DR1: "FOKKER DR-1"
       STR_FOKKER_DR1_UFOPEDIA: "Hunter - Designed with maximum maneuverability in mind, this German inteceptor lacks a long range and speed, but its unmatched in dogfights. It became famous for being the plane of choice of the German ace Manfred von Richthofen"
@@ -1437,39 +1437,37 @@ en-US:
       STR_SIKORSKI_ILYA_MUROMETS_UFOPEDIA: "Strategic bomber - The first strategic bomber in the world, named after a Slavic folklore hero. Originally meant as luxury passenger plane, it quickly became an unrivaled war machine."
 
       STR_HALBERSTADT_CLII: "HALBERSTADT CLII"
-      STR_HALBERSTADT_CLII_UFOPEDIA: WIP
-
+      STR_HALBERSTADT_CLII_UFOPEDIA: "Attack Plane - Escort and ground-support, two-seater German craft. Really successful, is among the first airplanes used directly to support the infantry in ground operations. Has a single gunner behind the pilot."
       STR_HANDLEY_PAGE_TYPE_O: "HANDLEY-PAGE TYPE O"
-      STR_HANDLEY_PAGE_TYPE_O_UFOPEDIA:
-
+      STR_HANDLEY_PAGE_TYPE_O_UFOPEDIA: "Tactical Bomber - The most famous British craft made so far, it's so popular it became a common word for 'large aircraft'. Commonly used in tactical bomb runs near the frontlines, its also capable of strategic bombing."
       STR_ZEPPELIN_STAAKEN_RVI: "ZEPPELIN-STAAKEN R.VI"
-      STR_ZEPPELIN_STAAKEN_RVI_UFOPEDIA:
+      STR_ZEPPELIN_STAAKEN_RVI_UFOPEDIA: "Strategic Bomber - The largest biplane ever made, also the most successful 'giant aircraft' used for combat. Its enclosed cabin allows it to reach higher altitudes than most bombers."
 
-      STR_CAPRIONI_CA5: "CAPRIONI CA5"
-      STR_CAPRIONI_CA5_UFOPEDIA:
+      STR_CAPRIONI_CA5: "CAPRONI CA.5"
+      STR_CAPRIONI_CA5_UFOPEDIA: "Tactical Bomber - Heavy trimotor biplane aircraft of Italian origin, the last in a long line of bombers. Its improved power cell helps to evade Martian interceptors."
 
-      STR_BRISTOL_F2B: "BRISTOL F.2B"
-      STR_BRISTOL_F2B_UFOPEDIA:
+      STR_BRISTOL_F2B: "BRISTOL F.2B FIGHTER"
+      STR_BRISTOL_F2B_UFOPEDIA: "Attack Plane - The Fighter is a biplane, two-seater recon and close-support plane. Fast enough and sturdy to be paired with Hunter craft units, it is well received by Allied air squadrons."
 
       STR_CCLASS_AIRSHIP: "C-CLASS AIRSHIP"
-      STR_CCLASS_AIRSHIP_UFOPEDIA:
+      STR_CCLASS_AIRSHIP_UFOPEDIA: "Light recon and scout blimp, used to conduct search and rescue missions inside Red Zones and near the frontlines. Moderately armed with a couple of turrets."
 
       STR_RCLASS_AIRSHIP: R-CLASS AIRSHIP
-      STR_RCLASS_AIRSHIP_UFOPEDIA: Powerful war airship, the largest in the german navy. Poseses multiple turret hardpoints, adaptable to any mission. Can carry a combination of cannons and mg.
+      STR_RCLASS_AIRSHIP_UFOPEDIA: Powerful war airship, the largest in the German navy. Poseses multiple turret hardpoints, adaptable to any mission. Can carry a combination of cannons and mg.
 
-      STR_LEGIONNAIRE_MECH: “LEGIONNAIRE”
+      STR_LEGIONNAIRE_MECH: "LEGIONNAIRE"
       STR_LEGIONNAIRE_MECH_UFOPEDIA: "Light walker. Nicknamed 'Mechanized Chicken' for its appearance, it is fast and light. Perfect for ambushing."
 
-      STR_PHALANX_MECH: “PHALANX”
+      STR_PHALANX_MECH: "PHALANX"
       STR_PHALANX_MECH_UFOPEDIA: "Medium walker, focused on transporting troops and supplies. His powerful legs allow him to traverse all types of terrain."
 
-      STR_CENTURION_MECH: “CENTURION”
+      STR_CENTURION_MECH: "CENTURION"
       STR_CENTURION_MECH_UFOPEDIA: "Heavy walker, designed to fight against medium and light Tripods. Features additional frontal armor."
 
-      STR_TESTUDO_MECH: “TESTUDO”
+      STR_TESTUDO_MECH: "TESTUDO"
       STR_TESTUDO_MECH_UFOPEDIA: "Medium walker. Armored troop carrier, heavily armed. Its height gives it an advantage in difficult terrain."
 
-      STR_PRAETORIAN_MECH: “PRAETORIAN”
+      STR_PRAETORIAN_MECH: "PRAETORIAN"
       STR_PRAETORIAN_MECH_UFOPEDIA: "Heavy Walker. Designed to take on heavy Tripods and win the duel. Its legs are impossible to destroy by conventional means."
 
 
@@ -1484,10 +1482,14 @@ en-US:
 ######### VEHICLE WEAPONS ###########
 ####################################
 
-      STR_AUTOCANNON: 20mm Autocannon
-      STR_AUTOCANNON_UFOPEDIA: Twin automatic cannons, it's 20mm ammunation can penetrate thick layers of steel. Useful against lightly armored enemies.
-      STR_AUTOCANNON_LAUNCHER: 20mm Autocannon
+      STR_BECKER_2CM_CANNON: "BECKER 2CM AC"
+      STR_BECKER_2CM_CANNON_UFOPEDIA: "Light single-barreled, magazine-fed German automatic cannon. Usually mounted in turrets onboard vehicles, its easy to use by any soldier."
+      STR_BECKER_2CM_CANNON_LAUNCHER: "Becker 2cm Cannon"
+      STR_AUTOCANNON: "TWIN OERLIKON 20MM AC"
+      STR_AUTOCANNON_UFOPEDIA: Twin automatic cannons, its AP ammunition can penetrate thick layers of steel. Useful against lightly armored enemies.
+      STR_AUTOCANNON_LAUNCHER: Oerlikon 20mm Autocannon
       STR_AUTOCANNON_ROUNDS_X50: 20MM Autocannon Rounds (x50)
+      STR_VICKERS_S_40MM_AUTOCANNON: ""
       STR_QF_1_PDR_POMPOM: QF 1-pdr 'Pom Pom'
       STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, could be found mounted everywhere, from aircrafts to gun emplacements and warships. Fires special sharpnel rounds.
       STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
@@ -1543,30 +1545,30 @@ en-US:
       STR_TIER_3_AIRCRAFTS_DATA: "Tier 3 Aircraft Data"
       STR_TIER_3_AIRCRAFTS_DATA_UFOPEDIA: "The latest advances in metallurgy allow the complete construction of an aircraft fuselage using Tunguskium. Enclosed canopies and improved breathing systems allow pilots to fight at altitudes previously impossible. Most modern models are monoplanes, making it easier to achieve higher speeds and reduce drag."
 
-      STR_WALKER_DATA: “Walker Data”
+      STR_WALKER_DATA: "Walker Data"
       STR_WALKER_DATA_UFOPEDIA: "Since the initial enemy attack in '96, the image of towering walking machines has been imprinted in the minds and hearts of the world. Our technology has come a long way thanks to the reverse engineering we have applied. However, mechanized walking vehicles (called interchangeably 'walkers' or 'mechs') are more complex to build and maintain than wheeled and tracked vehicles. Their advantage lies in their flexibility in all types of terrain, because they are not limited to roads and flat areas. Mountains, swamps, jungles? There's nothing a mech can't traverse."
 
-      STR_LANDSHIP_DATA: “Landship Data”
+      STR_LANDSHIP_DATA: "Landship Data"
       STR_LANDSHIP_DATA_UFOPEDIA: "Land vessels are easily recognizable by their elongated chassis and tracks that run the length of the chassis. Their greatest advantage is their low profile and strength. Compared to Walkers, they are mechanically easier and cheaper to maintain. They are limited to fighting on plains and deserts, since their mobility is very limited in difficult terrain."
 
-      STR_WALKER_HISTORY_1: “Walker History I”
+      STR_WALKER_HISTORY_1: "Walker History I"
       STR_WALKER_HISTORY_1_UFOPEDIA: "The first prototypes were built using scrap and leftover parts from the Martian Tripods used in the 1896 Attack. For 10 years, the United Kingdom and Germany were the countries most focused on adapting the enemy's technology, with varying results. The first working model was presented to the world in London in 1907. The Geneva Convention forbade the production of 'Walkers' for war purposes, so most were used as a means of transportation."
 
-      STR_WALKER_HISTORY_2: “Walker History II”
+      STR_WALKER_HISTORY_2: "Walker History II"
       STR_WALKER_HISTORY_2_UFOPEDIA: "The impossibility of replicating the triple mechanism of the Martians, together with the unnatural way of moving of their Tripods derived in the abandonment of this design in favor of biped and quadruped units. Centuries of animal locomotion studies were of great help. The leg mechanisms are a hybrid design between an internal diesel and Martian hydrogen reactor combination. The shortage of reactors in optimal condition limits their mass employment."
 
-      STR_WALKER_HISTORY_3: “Walker History III”
+      STR_WALKER_HISTORY_3: "Walker History III"
       STR_WALKER_HISTORY_3_UFOPEDIA: "The most successful and widely distributed Walker model until the resumption of hostilities in 1911 was the TW-1C (Truck/Walker-1) 'Elephant'. Artillery versions known as MTW-7 Phalanx (Medium Transport Walker) are employed by all Coalition countries, although their combat performance against Tripods is insufficient."
 
-      STR_WALKER_HISTORY_4: “Walker History IV”
+      STR_WALKER_HISTORY_4: "Walker History IV"
       STR_WALKER_HISTORY_4_UFOPEDIA: "Until the General Counteroffensive of 1913, the employment of purely offensive Walkers was limited to small units that added guns and howitzers on an improvised basis. Developed since late 1912, the LCW-10 'Legionnaire' helped slow down the Martian hosts on all fronts. Nicknamed 'Mechanized Chicken' for its peculiar chassis and leg arrangement, the 'Legionnaires' are fast and agile enough to flank light and medium Tripods."
 
-      STR_WALKER_HISTORY_5: “Walker History V”
+      STR_WALKER_HISTORY_5: "Walker History V"
       STR_WALKER_HISTORY_5_UFOPEDIA: "The need to transport more troops to the front lines, as well as support them, led to the creation of the 'Testudo'. The original design featured a chassis close to the ground, but improvements to the leg servo motors made it a tall quadruped. Ironically named 'Hannibal's Elephant', we are pretty sure it can also cross the Alps."
 
-      STR_WALKER_HISTORY_6: “Walker History VI”
+      STR_WALKER_HISTORY_6: "Walker History VI"
       STR_WALKER_HISTORY_6_UFOPEDIA: "The high incidence of 'Legionnaires' in prolonged engagement situations against enemy mechanized units prompted the creation of the 'Centurion', a combat unit with more powerful weapons and reinforced leg armor. Most Coalition armored regiments are expected to equip this mech."
 
-      STR_WALKER_HISTORY_7: “Walker History VII”
+      STR_WALKER_HISTORY_7: "Walker History VII"
       STR_WALKER_HISTORY_7_UFOPEDIA: "This walker is the largest we have built to date. It combines incredible endurance, excellent firepower and some extra space to transport troops directly to the battlefield. Initially it was the armament upgrade of the 'Centurion', but the weight increased so much that it was necessary to redesign and expand the legs, adopting a quadruped design."
 
