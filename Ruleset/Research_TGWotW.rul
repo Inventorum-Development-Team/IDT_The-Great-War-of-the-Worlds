@@ -17,6 +17,16 @@
       - STR_ALIENS_ONLY
 ###############################
 
+##########################################
+######### VEHICLES REPORTS ##############
+#########################################
+
+  - name: STR_FRONTLINES_FIELD_REPORT
+    cost: 1000
+    points: 50
+    #needItem: true
+
+
   ##################################
   - name: STR_ALIEN_ALLOYS
     cost: 600
@@ -144,4 +154,478 @@
     needItem: true
   - name: STR_MARTIAN_BLADE
     destroyItem: true
+    needItem: true
+
+
+########################################
+######### INTERROGATIONS ##############
+######################################
+
+  - name: STR_UNIVERSAL_TRANSLATION_DEVICE
+    cost: 250
+    points: 50
+  - name: STR_ALIEN_CONTAINMENT
+    cost: 670
+    points: 25
+    dependencies:
+      - STR_UNIVERSAL_TRANSLATION_DEVICE
+
+#################################################
+###### OVERLORDS AND COLLABORATION FINALE ######
+###############################################
+
+  - name: STR_CEREBREAL_COMMANDER
+    cost: 800
+    points: 50
+    getOneFree:
+      - STR_OVERLORD_INTEL_1
+      - STR_OVERLORD_INTEL_2
+      - STR_OVERLORD_INTEL_3
+      - STR_OVERLORD_INTEL_4
+      - STR_OVERLORD_INTEL_5
+      - STR_OVERLORD_INTEL_6
+      - STR_OVERLORD_INTEL_7
+      - STR_OVERLORD_INTEL_8
+      - STR_OVERLORD_INTEL_9
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+
+  - name: STR_OVERLORD_INTEL_1
+    requires:
+      - STR_CEREBREAL_COMMANDER
+  - name: STR_OVERLORD_INTEL_2
+    requires:
+      - STR_OVERLORD_INTEL_1
+  - name: STR_OVERLORD_INTEL_3
+    requires:
+      - STR_OVERLORD_INTEL_2
+    unlocks:
+      - STR_MARTIAN_METAL_REPLICATION
+
+  - name: STR_MARTIAN_METAL_REPLICATION
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_OVERLORD_INTEL_3
+
+  - name: STR_OVERLORD_INTEL_4
+    requires:
+      - STR_OVERLORD_INTEL_3
+  - name: STR_OVERLORD_INTEL_5
+    requires:
+      - STR_OVERLORD_INTEL_4
+  - name: STR_OVERLORD_INTEL_6
+    requires:
+      - STR_OVERLORD_INTEL_5
+  - name: STR_OVERLORD_INTEL_7
+    requires:
+      - STR_OVERLORD_INTEL_6
+  - name: STR_OVERLORD_INTEL_8
+    requires:
+      - STR_OVERLORD_INTEL_7
+  - name: STR_OVERLORD_INTEL_9
+    requires:
+      - STR_OVERLORD_INTEL_8
+    unlocks:
+      - STR_MARTIAN_OVERSEER_DIPLOMACY
+
+  - name: STR_MARTIAN_OVERSEER_DIPLOMACY
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_OVERLORD_INTEL_9
+
+#################################################
+######### LEADERS AND MISC KNOWLEDGE ###########
+###############################################
+
+  - name: STR_SECTOID_LEADER
+    cost: 800
+    points: 50
+    unlocks:
+      - STR_LEADER_1
+    getOneFree:
+      - STR_LEADER_INTEL_1
+      - STR_LEADER_INTEL_2
+      - STR_LEADER_INTEL_3
+      - STR_LEADER_INTEL_4
+      - STR_LEADER_INTEL_5
+      - STR_LEADER_INTEL_6
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+  - name: STR_MARTIAN_LINE_INFANTRY_LEADER
+    cost: 800
+    points: 50
+    unlocks:
+      - STR_LEADER_1
+    getOneFree:
+      - STR_LEADER_INTEL_1
+      - STR_LEADER_INTEL_2
+      - STR_LEADER_INTEL_3
+      - STR_LEADER_INTEL_4
+      - STR_LEADER_INTEL_5
+      - STR_LEADER_INTEL_6
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+  - name: STR_MARTIAN_MARINE_LEADER
+    cost: 800
+    points: 50
+    unlocks:
+      - STR_LEADER_1
+    getOneFree:
+      - STR_LEADER_INTEL_1
+      - STR_LEADER_INTEL_2
+      - STR_LEADER_INTEL_3
+      - STR_LEADER_INTEL_4
+      - STR_LEADER_INTEL_5
+      - STR_LEADER_INTEL_6
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+  - name: STR_MARTIAN_SHOCK_GUARD_LEADER
+    cost: 800
+    points: 50
+    unlocks:
+      - STR_LEADER_1
+    getOneFree:
+      - STR_LEADER_INTEL_1
+      - STR_LEADER_INTEL_2
+      - STR_LEADER_INTEL_3
+      - STR_LEADER_INTEL_4
+      - STR_LEADER_INTEL_5
+      - STR_LEADER_INTEL_6
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+  - name: STR_MARTIAN_SKIRMISHER_LEADER
+    cost: 800
+    points: 50
+    unlocks:
+      - STR_LEADER_1
+    getOneFree:
+      - STR_LEADER_INTEL_1
+      - STR_LEADER_INTEL_2
+      - STR_LEADER_INTEL_3
+      - STR_LEADER_INTEL_4
+      - STR_LEADER_INTEL_5
+      - STR_LEADER_INTEL_6
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+  - name: STR_MARTIAN_ROYAL_GUARD_LEADER
+    cost: 800
+    points: 50
+    unlocks:
+      - STR_LEADER_1
+    getOneFree:
+      - STR_LEADER_INTEL_1
+      - STR_LEADER_INTEL_2
+      - STR_LEADER_INTEL_3
+      - STR_LEADER_INTEL_4
+      - STR_LEADER_INTEL_5
+      - STR_LEADER_INTEL_6
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+
+  - name: STR_LEADER_1
+    requires:
+      - STR_SECTOID_LEADER
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
+      - STR_MARTIAN_MARINE_LEADER
+      - STR_MARTIAN_SKIRMISHER_LEADER
+      - STR_MARTIAN_SHOCK_GUARD_LEADER
+
+  - name: STR_LEADER_INTEL_1
+    requires:
+      - STR_LEADER_1
+  - name: STR_LEADER_INTEL_2
+    requires:
+      - STR_LEADER_INTEL_1
+  - name: STR_LEADER_INTEL_3
+    requires:
+      - STR_LEADER_INTEL_2
+  - name: STR_LEADER_INTEL_4
+    requires:
+      - STR_LEADER_INTEL_3
+  - name: STR_LEADER_INTEL_5
+    requires:
+      - STR_LEADER_INTEL_4
+  - name: STR_LEADER_INTEL_6
+    requires:
+      - STR_LEADER_INTEL_5
+###################################################
+###### SCIENTISTS AND PYRRIC VICTORY FINALE ######
+#################################################
+
+  - name: STR_MARTIAN_SCIENTIST
+    cost: 600
+    points: 50
+    unlocks:
+      - STR_SCIENTIST_1
+    getOneFree:
+      - STR_HEAT_RAY_TECH_PHOTON
+      - STR_HEAT_RAY_TECH_MICROWAVE
+      - STR_HUMAN_HARVEST_1
+      - STR_HUMAN_HARVEST_2
+      - STR_MARTIAN_TERRAFORMATION
+      - STR_ORGANIC_FLYING_MACHINES
+    sequentialGetOneFree: true
+    needItem: true
+    destroyItem: true
+
+  - name: STR_SCIENTIST_1
+    requires:
+      - STR_MARTIAN_SCIENTIST
+
+  - name: STR_HEAT_RAY_TECH_PHOTON
+    requires:
+      - STR_SCIENTIST_1
+  - name: STR_HEAT_RAY_TECH_MICROWAVE
+    requires:
+      - STR_HEAT_RAY_TECH_PHOTON
+  - name: STR_HUMAN_HARVEST_1
+    requires:
+      - STR_HEAT_RAY_TECH_MICROWAVE
+  - name: STR_HUMAN_HARVEST_2
+    requires:
+      - STR_HUMAN_HARVEST_1
+  - name: STR_MARTIAN_TERRAFORMATION
+    requires:
+      - STR_HUMAN_HARVEST_2
+  - name: STR_ORGANIC_FLYING_MACHINES
+    requires:
+      - STR_MARTIAN_TERRAFORMATION
+
+
+  - name: STR_GENEVA_CONVENTION_APPEAL
+    cost: 400
+    points: -50
+
+  - name: STR_BIOLOGICAL_WARFARE
+    cost: 300
+    points: 80
+    dependencies:
+      - STR_GENEVA_CONVENTION_APPEAL
+  - name: STR_OPERATION_FIRESTORM
+    cost: 500
+    points: 100
+    dependencies:
+      - STR_BIOLOGICAL_WARFARE
+
+  - name: STR_SECTOID
+    points: 50
+    needItem: true
+  - name: STR_SECTOID_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_SECTOID_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_SECTOID_AUTOPSY
+    needItem: true
+
+
+  - name: STR_SECTOID_SOLDIER
+    cost: 192
+    points: 50
+    lookup: STR_SECTOID
+    unlocks:
+      - STR_ALIEN_ORIGINS
+    needItem: true
+    destroyItem: true
+
+  - name: STR_SECTOID_SOLDIER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    getOneFree:
+      - STR_MARTIAN_ASSAULT_WALKER
+      - STR_MARTIAN_BATTLE_WALKER
+      - STR_MARTIAN_SIEGE_WALKER
+      - STR_MARTIAN_RECON_WALKER
+      - STR_MARTIAN_CAMP
+      - STR_MARTIAN_OUTPOST
+      - STR_MARTIAN_TROOP_BARRACKS
+      - STR_MARTIAN_WATCHTOWER
+  - name: STR_MARTIAN_LINE_INFANTRY
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    getOneFree:
+      - STR_MARTIAN_ASSAULT_WALKER
+      - STR_MARTIAN_BATTLE_WALKER
+      - STR_MARTIAN_SIEGE_WALKER
+      - STR_MARTIAN_HARVESTER_WALKER
+      - STR_MARTIAN_OVERLORD_WALKER
+      - STR_MARTIAN_RECON_WALKER
+      - STR_MARTIAN_CAMP
+      - STR_MARTIAN_OUTPOST
+      - STR_MARTIAN_TROOP_BARRACKS
+      - STR_MARTIAN_HARVEST_FACILITY
+      - STR_MARTIAN_WATCHTOWER
+      - STR_MARTIAN_HIGH_COMMAND
+      - STR_MARTIAN_SUPPLY_DEPOT
+      - STR_MARTIAN_CLONE_LAB
+      - STR_MARTIAN_REDOUBT
+  - name: STR_MARTIAN_MARINE
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    getOneFree:
+      - STR_MARTIAN_ASSAULT_WALKER
+      - STR_MARTIAN_BATTLE_WALKER
+      - STR_MARTIAN_SIEGE_WALKER
+      - STR_MARTIAN_HARVESTER_WALKER
+      - STR_MARTIAN_OVERLORD_WALKER
+      - STR_MARTIAN_RECON_WALKER
+      - STR_MARTIAN_CAMP
+      - STR_MARTIAN_OUTPOST
+      - STR_MARTIAN_TROOP_BARRACKS
+      - NIMBLE_FIGHTER
+      - TRANSPORT_BARGE
+      - BLOCKADE_RUNNER
+      - SUPPORT_BOAT
+      - FRIGATE
+      - DESTROYER
+      - CRUISER
+  - name: STR_MARTIAN_SKIRMISHER
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    getOneFree:
+      - STR_MARTIAN_ASSAULT_WALKER
+      - STR_MARTIAN_BATTLE_WALKER
+      - STR_MARTIAN_SIEGE_WALKER
+      - STR_MARTIAN_HARVESTER_WALKER
+      - STR_MARTIAN_OVERLORD_WALKER
+      - STR_MARTIAN_RECON_WALKER
+      - STR_MARTIAN_CAMP
+      - STR_MARTIAN_OUTPOST
+      - STR_MARTIAN_TROOP_BARRACKS
+      - STR_MARTIAN_HARVEST_FACILITY
+      - STR_MARTIAN_WATCHTOWER
+      - STR_MARTIAN_HIGH_COMMAND
+      - STR_MARTIAN_SUPPLY_DEPOT
+      - STR_MARTIAN_CLONE_LAB
+      - STR_MARTIAN_REDOUBT
+  - name: STR_MARTIAN_SHOCK_GUARD
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    getOneFree:
+      - NIMBLE_FIGHTER
+      - TRANSPORT_BARGE
+      - BLOCKADE_RUNNER
+      - SUPPORT_BOAT
+      - FRIGATE
+      - DESTROYER
+      - CRUISER
+  - name: STR_MARTIAN_ROYAL_GUARD
+    cost: 192
+    points: 50
+    needItem: true
+    destroyItem: true
+    lookup: STR_SECTOID
+    getOneFree:
+      - STR_MARTIAN_ASSAULT_WALKER
+      - STR_MARTIAN_BATTLE_WALKER
+      - STR_MARTIAN_SIEGE_WALKER
+      - STR_MARTIAN_HARVESTER_WALKER
+      - STR_MARTIAN_OVERLORD_WALKER
+      - STR_MARTIAN_TROOP_BARRACKS
+      - STR_MARTIAN_HARVEST_FACILITY
+      - STR_MARTIAN_HIGH_COMMAND
+      - STR_MARTIAN_SUPPLY_DEPOT
+      - STR_MARTIAN_CLONE_LAB
+      - STR_MARTIAN_REDOUBT
+      - NIMBLE_FIGHTER
+      - TRANSPORT_BARGE
+      - BLOCKADE_RUNNER
+      - SUPPORT_BOAT
+      - FRIGATE
+      - DESTROYER
+      - CRUISER
+
+##############################
+##### SHIPS AND BASES #######
+############################
+  - name: NIMBLE_FIGHTER
+    points: 50
+    needItem: true
+  - name: TRANSPORT_BARGE
+    points: 50
+    needItem: true
+  - name: BLOCKADE_RUNNER
+    points: 50
+    needItem: true
+  - name: SUPPORT_BOAT
+    points: 50
+    needItem: true
+  - name: FRIGATE
+    points: 50
+    needItem: true
+  - name: DESTROYER
+    points: 50
+    needItem: true
+  - name: CRUISER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_ASSAULT_WALKER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_BATTLE_WALKER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_SIEGE_WALKER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_HARVESTER_WALKER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_OVERLORD_WALKER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_RECON_WALKER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_CAMP
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_OUTPOST
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_TROOP_BARRACKS
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_HARVEST_FACILITY
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_WATCHTOWER
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_HIGH_COMMAND
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_SUPPLY_DEPOT
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_CLONE_LAB
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_REDOUBT
+    points: 50
     needItem: true

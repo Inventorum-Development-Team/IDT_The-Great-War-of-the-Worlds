@@ -126,6 +126,15 @@ en-US:
       STR_FUNDING_CHANGE: "Funding change> {ALT}{0}"
       STR_COUNCIL_REDUCE_DEBTS: "The Coalition is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."
 
+      STR_VEHICLES: VEHICLES
+      STR_VEHICLE_WEAPONS: VEHICLE WEAPONS
+      STR_UNIFORMS_AND_ARMORS: UNIFORMS AND ARMORS
+      STR_MARTIAN_WEAPONS: MARTIAN WEAPONS
+      STR_ENEMY_INTELLIGENCE: ENEMY INTELLIGENCE
+      STR_NEW_TECHNOLOGIES: NEW TECHNOLOGIES
+      STR_MARTIAN_VEHICLES: MARTIAN VEHICLES
+      STR_MARTIAN_BUILDINGS: MARTIAN FACILITIES
+
       STR_AUSTRIA_HUNGARY: AUSTRIA-HUNGARY
       STR_CALIFORNIA_REPUBLIC: CALIFORNIA REPUBLIC
       STR_TEXAS_FRONT: TEXAN FRONT
@@ -503,7 +512,7 @@ en-US:
       STR_SHASHKA: Shashka
       STR_SHASHKA_UFOPEDIA: A traditional Cossack sabre crafted by the most skilled artisans. The razor-sharp blade can cut through a regular human with ease. And the Martian bodies aren't that difficult neither.
       STR_MM_SHASHKA: MM Shashka
-      STR_MM_SHASHKA_UFOPEDIA: The Cossack craftsmen reforged the iconic sabre with a the alien minerals. A steel core with Tungunskium blade makes it a balanced and hardened melee weapon.
+      STR_MM_SHASHKA_UFOPEDIA: The Cossack craftsmen reforged the iconic sabre with a the alien minerals. A steel core with Tunguskium blade makes it a balanced and hardened melee weapon.
       STR_MM_DAGGER: MM Dagger
       STR_MM_DAGGER_UFOPEDIA: ...
       STR_CARCANO_M91_CARBINE: Carcano M91 Carbine
@@ -877,7 +886,7 @@ en-US:
         prototypes we have found and our allies have at our disposal a batch of
         new weapons. Each faction has supplied us with two weapons to equip both
         its troops and ours. We trust that the bullets forged with the new
-        Entropium will be better at penetrating the armor of the Martians."
+        Martian Metal will be better at penetrating the armor of the Martians."
       STR_GASMASKS: "Gasmasks"
       GASMASKS: "Gasmasks"
       STR_GASMASKS_UFOPEDIA:
@@ -896,14 +905,14 @@ en-US:
         well, so use them with caution."
       STR_KMM_BULLETS: K-MM Bullets
       STR_KMM_BULLETS_UFOPEDIA:
-        The new bullets, forged entirely from the new Martian
-        Metal (called Entropium by scientists), have greater penetration
-        capacity than the armor used by the Martians. The new ore is melted and
+        The new bullets, forged from normal steel and lead, but have a core of the Martian
+        Metal, have greater penetration capacity than the armor used by the Martians. The new ore is melted and
         forged again to form the core of the new armour-piercing rounds and more
         powerful fulminations are added, creating the so-called 'K-MM bullets'.
         Because Martian Metal is very meltable, bullets of various types can be
         formed, from pistols to cannons, machine guns and rifles.
-
+      STR_FRONTLINES_FIELD_REPORT: "Frontline Performance Report"
+      STR_FRONTLINES_FIELD_REPORT_UFOPEDIA: For 3 years we have been engaged in a war of attrition, mostly on the defensive. The information we have gathered, together with that reported by other allied troops has enabled us to develop new war tactics, more powerful machines and better weapons. Specially the new infantry weapons, which are adapted to the peculiar characteristics of trench fighting. Mud and difficulty in maintaining weapons and equipment is the norm in our battles. Upgraded weapons will be made available to us as soon as possible.
 
 
 ############################
@@ -1165,30 +1174,37 @@ en-US:
 
       STR_FLOATER: "Mixed Martian Platoon"
       STR_SECTOID: "Martian Conscript"
+      STR_SECTOID_LEADER: "Martian Conscript Leader"
       STR_SECTOIDS: "Martian Conscript Platoon"
       STR_SECTOID_CORPSE: "Martian Conscript Corpse"
       SECTOID_ARMOR0: "Martian Conscript Skin"
       STR_MARTIAN_LINE_INFANTRY: "Martian Line Infantry"
+      STR_MARTIAN_LINE_INFANTRY_LEADER: "Martian Line Infantry NCO"
       STR_MARTIAN_LINE_INFANTRIES: "Martian Line Infantry Platoon"
       STR_MARTIAN_LINE_INFANTRY_ARMOR: "Martian Line Infantry Battle-Caparace"
       STR_MARTIAN_LINE_INFANTRY_CORPSE: "Martian Line Infantry Corpse"
       STR_MARTIAN_MARINE: "Martian Marine"
+      STR_MARTIAN_MARINE_LEADER: "Martian Marine Ship Leader"
       STR_MARTIAN_MARINES: "Martian Marines Team"
       STR_MARTIAN_MARINE_ARMOR: "Martian Marine Battle-Caparace"
       STR_MARTIAN_MARINE_CORPSE: "Martian Marine Corpse"
       STR_MARTIAN_SHOCK_GUARD: "Martian Shock Guard"
+      STR_MARTIAN_SHOCK_GUARD_LEADER: "Martian Shock Guard Leader"
       STR_MARTIAN_SHOCK_GUARDS: "Martian Shock Guard Team"
       STR_MARTIAN_SHOCK_GUARD_ARMOR: "Martian Shock Guard Battle-Caparace"
       STR_MARTIAN_SHOCK_GUARD_CORPSE: "Martian Shock Guard Corpse"
       STR_MARTIAN_SKIRMISHER: "Martian Skirmisher"
+      STR_MARTIAN_SKIRMISHER_LEADER: "Martian Skirmisher Formation Leader"
       STR_MARTIAN_SKIRMISHERS: "Martian Skirmisher Formation"
       STR_MARTIAN_SKIRMISHER_ARMOR: "Martian Skirmisher Body Suit"
       STR_MARTIAN_SKIRMISHER_CORPSE: "Martian Skirmisher Corpse"
       STR_MARTIAN_SCIENCE_TEAM: "Martian Science Team"
       STR_MARTIAN_SCIENTIST: "Martian Scientist"
+      STR_MARTIAN_SCIENTIST_LEADER: "Martian Lead Scientist"
       STR_MARTIAN_SCIENTIST_ARMOR: "Martian Scientist Body Suit"
       STR_MARTIAN_SCIENTIST_CORPSE: "Martian Scientist Corpse"
       STR_MARTIAN_ROYAL_GUARD: "Martian Royal Guard"
+      STR_MARTIAN_ROYAL_GUARD_LEADER: "Martian Royal Guard Officer"
       STR_MARTIAN_ROYAL_GUARDS: "Martian Royal Guard Formation"
       STR_MARTIAN_ROYAL_GUARD_CORPSE: "Martian Royal Guard Corpse"
       STR_MARTIAN_ROYAL_POWER_ARMOR: "Martian Royal Guard Battle-Caparace"
@@ -1197,27 +1213,12 @@ en-US:
       STR_CEREBREAL_UFOPAEDIA: "..."
       CEREBREAL_ARMOR: "Overseer Skin"
 
-      STR_MARTIAN_CAMP: "Martian Camp"
-      STR_MARTIAN_CAMP_UFOPEDIA: "These camps serve the same function as ours: to house a group of troops as they march towards their target. They are easy to assemble and dismantle, although they can withstand bullets and light projectiles."
-      STR_MARTIAN_OUTPOST: "Martian Outpost"
-      STR_MARTIAN_OUTPOST_UFOPEDIA: "This outpost is a small base set up to monitor the movement of humans and spy on them. It also serves to protect and warn the most important installations in the event of an attack. It has a small garrison."
-      STR_MARTIAN_TROOP_BARRACKS: "Martian Troop Barracks" # Troop Facility
-      STR_MARTIAN_TROOP_BARRACKS_UFOPEDIA: "This fortress houses a large number of soldiers, has 4 defensive AA cannons, an armory, infirmary and a strong armor. It is usually the most abundant Martian facility, used to guard large portions of land and deploy assault groups, as well as secure key positions."
-      STR_MARTIAN_HARVEST_FACILITY: "Martian Harvesting Facility"
-      STR_MARTIAN_HARVEST_FACILITY_UFOPEDIA: "A sinister Martian facility used to dissect living beings, such as animals and humans, to create food and conduct research on terrestrial species. All abducted humans end up in one way or another in centers like these"
-      STR_MARTIAN_WATCHTOWER: "Martian Watchtower"
-      STR_MARTIAN_WATCHTOWER_UFOPEDIA: "An important bastion, used both to defend important sectors and to dissuade human troops from launching offensives in Martian territory. Its anti-aircraft batteries are quite powerful, capable of destroying human planes over long distances."
-      STR_MARTIAN_HIGH_COMMAND: "Martian High Command" # Alien High Command
-      STR_MARTIAN_HIGH_COMMAND_UFOPEDIA: "The brain of the Martian operation on land, from here are coordinated various attacks and offensives against human targets. The highest leaders of the enemy take refuge in these gigantic structures, with hundreds of soldiers. Their anti-aircraft batteries are quite efficient and their armour is extremely hard."
-      STR_MARTIAN_SUPPLY_DEPOT: "Martian Supply Depot" # Storage Facility
-      STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA: "A support facility, the purpose of which is to store the various war materials, such as weaponry, food, supplies and tools necessary for the enemy's total war machine. They are extremely hard, but they are poorly armed."
-      STR_MARTIAN_CLONE_LAB: "Martian Clone Lab" # Cloning Lab
-      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones to generate more food for their ranks and make replacement limbs for their wounded."
-      STR_MARTIAN_REDOUBT: "Martian Redoubt"
-      STR_MARTIAN_REDOUBT_UFOPEDIA: "The supreme Martian fortress. The existence of these gigantic facilities can only mean that the enemy is prepared for a total siege. They have the best anti-aircraft weapons, the best shields and armour and an enormous number of military and scientific personnel. Assaulting a Redoubt can be a hard blow for the Martians, but it is an almost suicidal mission."
-#####################
-      STR_ALIEN_ALLOYS: "Tungunskium"
-      STR_ALIEN_ALLOYS_UFOPEDIA: "Also called 'Martian Metal', this is an exotic mineral alloy used by the Martians to build everything, from small weapons to ship armor. Chemically speaking, most of the components are already found in Earth, but our attempts at reproducing haven't been successful... Yet. Slightly lighter than steel, but considerably denser and durable, it requieres high pressure and heat to be able to be mold.  Named after Tungunska, the first recorded Martian Landing Zone"
+
+#################################################
+####### MARTIAN TECHNOLOGY AND WEAPONS #########
+###############################################
+      STR_ALIEN_ALLOYS: "Tunguskium"
+      STR_ALIEN_ALLOYS_UFOPEDIA: "Also called 'Martian Metal', this is an exotic mineral alloy used by the Martians to build everything, from small weapons to ship armor. Chemically speaking, most of the components are already found in Earth, but our attempts at reproducing haven't been successful... Yet. Slightly lighter than steel, but considerably denser and durable, it requieres high pressure and heat to be able to be mold.  Named after Tunguska, the first recorded Martian Landing Zone"
       STR_ELERIUM_115: "Hydrogen Fuel Cell"
       STR_ELERIUM_115_UFOPEDIA: "Hydrogen was first recognized as a distinct element by Henry Cavendish in 1766. Our scientists theorize its the most abundant element in the universe. It's also the fuel that burns inside the Sun. The Martians employ said Fuel Cells to harness great amounts of electrical power using a source of hydrogen gas. Cheap and clean energy."
       STR_UFO_POWER_SOURCE: "Hydrogen Acceleration Engine"
@@ -1279,36 +1280,223 @@ en-US:
       STR_HEATRAY_SNIPER_UFOPEDIA: The Heat-Ray Sniper is the most dangerous portable weapon in the arsenal of the invader infantry. Maybe it is not as powerful as the Hand Cannon, but it has much more accuracy and effective range. The sight seems to be synchronized with the eyes of the Martian soldiers, it is useless to try to look through it.
       STR_MARTIAN_LAUNCHER_UFOPEDIA: Powerful grenade launcher type weapon, used by the Martians to provoke fear and loathing between the humans, civilians and soldiers alike. The Black Smoke grenade, used in the First Invasion, suffocates and chokes a human when enters the respiratoy system, slowly rendering inmobile, but it's spread is low. The technology of this weapon seems to be different from that of the rest of the Martian weapons, perhaps of a design of another extraterrestrial race.
       STR_MARTIAN_ROCK_THROWER_UFOPEDIA: "This interesting weapon looks more like a tool than a weapon. It has 3 barrels in vertical position, connected to 3 flasks with 3 small projectiles inside. It seems that each projectile exits at the same time through each barrel. It works similar to a human shotgun, with projectiles from a mineral that burns quickly with oxygen called Calystene, in honor of its discoverer. It also has small capsules of toxic sleeping pill gas and an acidic material that melts organic tissue. It seems that this tool is designed to cleanse from flora and fauna on their newly reclamed land"
+
+########################################
+######### INTERROGATIONS ##############
+######################################
+      STR_UNIVERSAL_TRANSLATION_DEVICE: "Universal Translation Device"
+      STR_UNIVERSAL_TRANSLATION_DEVICE_UFOPEDIA: "The deceased crew members of the unidentified ship managed to communicate with the human soldiers in their native language until before their death. Our scientists and engineers believe it is possible to repair this device using similar parts found on Fighting-Machines, which will allow us to communicate with the enemy and any other aliens we encounter. If this works, it will perhaps be the most important breakthrough of the entire war."
+      STR_ALIEN_CONTAINMENT: "Contention Chamber"
+      STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special chamber prepared to interrogate Martian prisoners of war. At the center of the room is a universal translation device that allows converting human languages into the various guttural sounds emitted by extraterrestrials and vice versa."
+#################################################
+###### OVERLORDS AND COLLABORATION FINALE ######
+###############################################
+      STR_OVERLORD_INTEL_1: "Overlord Intel I - Our enemy"
+      STR_OVERLORD_INTEL_1_UFOPEDIA: "This type of Martian is a widely identified caste since the First Invasion. Very little is known about them, however. Their resemblance to brain-like cephalopods is unnerving, with a major characteristic of them is a 'beak' in the middle of the 'eyes'. Something similar to 'mental powers' have been identified in specimens found in combat. This 'Overlord' is too deteriorated to get information out of it, although it is the first one we have had face to face... alive, at least."
+      STR_OVERLORD_INTEL_2: "Overlord Intel II - Hierarchy"
+      STR_OVERLORD_INTEL_2_UFOPEDIA: "The enemy rank hierarchy is different from ours, but this Martian seems to be the direct equivalent of a Commander, in charge of a large group of troops. Invaders operate in social castes and these are the top of the pyramid. Perhaps this comparative is appropriate, considering their affinity for such a geometric shape. Our interrogations are progressing, we suggest we continue with the capture of these Martian leaders."
+      STR_OVERLORD_INTEL_3: "Overlord Intel III - Metalurgy"
+      STR_OVERLORD_INTEL_3_UFOPEDIA: "We find the conversational fluency of this 'Overlord' highly unusual. The translator recovered from the crash on British soil seems to be perfectly in sync with the prisoner's language. We have obtained vital information concerning the chemical composition of the Martian Metal and have distributed it to the scientific community for replication."
+      STR_MARTIAN_METAL_REPLICATION: "Tunguskium Replication"
+      STR_MARTIAN_METAL_REPLICATION_UFOPEDIA: The recently captured leader was more... cooperative. They revealed to us that they are running out of resources to build new Tripods and war machines. In fact, the Walkers that ravaged London in 1896 and those used between 1911 and 1912 were almost twice as tough as the ones we face. The reason is that the reserves of Martian Metal carried by the Cylinders were exhausted and they have had to manufacture more. We have most of the minerals that exist on Mars, but the invaders do not have their modern manufacturing systems to replicate them accurately. This causes their machines and armor to use lower quality metal. We now know that we can replicate Tunguskium almost exactly and use it to our advantage. The formula has been sent to steel mills all over the world.
+      STR_OVERLORD_INTEL_4: "Overlord Intel IV - Menacing message"
+      STR_OVERLORD_INTEL_4_UFOPEDIA: "The most recent interrogation did not go well. Our agents were incapacitated after reporting hallucinations and loss of consciousness. The prisoner attempted to escape, but stopped outside the lab. They made a series of noises and was shot by base guards. The translator caught a glimpse of their words before they died: 'We are intrigued. We are watching.'' Our scientific staff recommends continuing to capture and interrogate individuals of this caste."
+      STR_OVERLORD_INTEL_5: "Overlord Intel V - They're different"
+      STR_OVERLORD_INTEL_5_UFOPEDIA: "This prisoner has been more cooperative. They has explained to us that their species is different from the infantry we have faced since 1911. Grey humanoids are the most abundant caste, but it seems that their intelligence is rather limited. The interview was abruptly interrupted when an armed guard burst into the room and shot the prisoner at point blank range. Our scientists agree that the minds of 'Overlords' emit an inaudible frequency that literally drives insane certain particularly sensitive higher mammals. That could explain sudden bursts of hysteria on the front lines. The information we get is invaluable, we suggest continuing the interrogations."
+      STR_OVERLORD_INTEL_6: "Overlord Intel VI - Civil war"
+      STR_OVERLORD_INTEL_6_UFOPEDIA: "Keeping with the previous objective of digging further into the hierarchical structure of the enemy, we have obtained from this POW more information on its history. Mars was plunged into a civil war between various castes. It nearly wiped out all life on the red planet until the Overlord caste gained control. And it seems that they mentally subdued the others. We believe that the purpose of their genocidal campaign on our planet is to hold the other castes together for a common purpose."
+      STR_OVERLORD_INTEL_7: "Overlord Intel VII - Lesser beings"
+      STR_OVERLORD_INTEL_7_UFOPEDIA: "We continue to get information from the Overlords. They are becoming more and more cooperative, much to our surprise. The Overlords are able to exert their telepathic 'powers' on weak minds, but capable of rational thought. They cannot control plants, insects or bacteria. At least, not terrestrial ones. Much of their brain capacity is devoted to subduing others. This leads us to believe that eliminating or capturing one greatly reduces the enemy's military coordination."
+      STR_OVERLORD_INTEL_8: "Overlord Intel VIII - Ancient visitors"
+      STR_OVERLORD_INTEL_8_UFOPEDIA: "Martians, both of the leading caste as well as warriors and workers, have visited our planet on numerous occasions. This confirms the relationship of the pyramids of the ancient world with extraterrestrial beings. Although it seems that we inspired them to create pyramids. The Martians are an ancient species, although their rise began about the same time as the Roman Empire reached its peak."
+      STR_OVERLORD_INTEL_9: "Overlord Intel XI - Truth unveiled"
+      STR_OVERLORD_INTEL_9_UFOPEDIA: "The latest interrogation has unveiled a half-hidden 'truth'. Life exists on other planets in the Solar System, not just Earth and Mars. Venus, the Jovian and Saturnian moons… We are one more house in a long neighborhood. And it seems that the war has affected everyone. The Mars-led faction fights against the Jovian faction. Apparently the front lines are in the asteroid belt and right on the moons of Jupiter. This Overlord has expressed to us their race's interest in our planet and now in ourselves. And they informs us that their leaders want to contact ours."
+      STR_MARTIANS_SEEKS_DIPLOMACY_EVENT: "Martians seeks diplomacy"
+      STR_MARTIANS_SEEKS_DIPLOMACY_EVENT_DESCRIPTION: "A Flying-Machine has landed near our base undetected. A group of Overlords and their escorts are approaching our base commander. Their intention is to negotiate a truce and offer an alliance. They have entered the complex and we will begin talks shortly."
+      STR_MARTIAN_OVERSEER_DIPLOMACY: "Emergency diplomatic meeting at our base"
+      STR_MARTIAN_OVERSEER_DIPLOMACY_UFOPEDIA: "Representatives of all Coalition nations are present, as well as the Martian leaders. The makeshift meeting room hosts our translator. The leader of the alien retinue informs us that their planet is at war with the Outer Planets and they need our help. We have proven to be a formidable opponent. Losing an Overlord is a tragedy for them, but we are the first planet that has managed to capture nive. Not even the 'Jovians', their worst enemies, have managed it. If we accept the proposal of a truce and join them in their war, they will immediately cease attacks against Earth and help us create ships capable of traveling to Jupiter and beyond. If we refuse, they will continue their genocidal campaign and wipe us off the face of the planet to seize its resources and keep their war machine running. The Coalition leaders cast their votes and it looks like the final decision rests with us."
+
+# COLLABORATION FINALE
+
+      STR_COLLABORATION_FINALE_1: "We accepted the proposal of the invader. Immediately, all Martian attacks stopped and in many places, the Grey infantry laid down their arms."
+      STR_COLLABORATION_FINALE_2: "Earth's population received the news mixed. Many people and important political figures accepted the change and were grateful that the carnage on the front lines was stopped."
+      STR_COLLABORATION_FINALE_3: "Others, however, saw this as a stab in the back. The whole war had been futile. The enemy was still on our planet. The Red Weed still covered large tracts of land and is not going away. There are protests in several cities."
+      STR_COLLABORATION_FINALE_4: "Martian engineers have been allowed to learn in detail the inner workings of our weapons and vehicles. Most have been adapted for space combat. Our armor now includes special respirators for operating in alien atmospheres."
+      STR_COLLABORATION_FINALE_5: "Gigantic cannons have been built all over the equator, similar to those used to launch invasion Cylinders."
+      STR_COLLABORATION_FINALE_6: "Our men and women now float in space, bound for a war we do not understand.	Against an enemy we do not know. Only time will tell if we make the right decision."
+
+# REFUSE COLLABORATION
+      STR_TRUCE_REJECTED_EVENT: "Truce Rejected"
+      STR_TRUCE_REJECTED_EVENT_DESCRIPTION: "The answer was resounding. No. Humanity will not negotiate with the enemy that has slaughtered millions and poisoned the planet. As a courtesy, we have allowed the Martian representatives to withdraw without firing a shot. But we can expect the fighting to get worse. However, the news has been well received by the populace and more volunteers have shown up at the recruiting offices."
+
+#################################################
+######### LEADERS AND MISC KNOWLEDGE ###########
+###############################################
+
+      STR_LEADER_INTEL_1: "Leader Intel I - Martian Army"
+      STR_LEADER_INTEL_1_UFOPEDIA: "The Tripods that attacked England at the turn of the last century turned out to be simple exploration machines. By the time the enemy launched the global attack in 1911, we realized that there were far worse Martian machines. However, unlike the First Invasion, there is a significant reduction of armored elements in the enemy armies. And on the contrary, there are more infantry deployed. The captured leader didn't gave us any more information, but it seems that Tripods are expensive and difficult to maintain."
+      STR_LEADER_INTEL_2: "Leader Intel II - Operational thinking"
+      STR_LEADER_INTEL_2_UFOPEDIA: "'Special diplomacy' is particularly effective in obtaining information. The enemy leader revealed information from the Martian war formations. The walkers are powerful machines, but like us humans, the enemy army's forte is based on infantry. Apparently, the vanguard in a major operation is always composed of several squads of reconnaissance Tripods. It is similar to our operations, they always carry a powerful artillery barrage prior to the assault. And once the occupation zone is cemented, infantry is deployed for control and stabilization. Apparently, the Martians feel confident on our planet and have underestimated our troops. Serious mistake that they will pay dearly for."
+      STR_LEADER_INTEL_3: "Leader Intel III - Civilization"
+      STR_LEADER_INTEL_3_UFOPEDIA: "Martians are a species that inhabits pyramid-like structures. They live their entire lives in such 'Hive cities.' They have a caste system but each Martian is an individual. There are warrior castes, workers' houses, scientists' houses, miners' houses. Apparently, Martians have a caste defined by their family. This means that many times the warrior Martians are descendants of long military families."
+      STR_LEADER_INTEL_4: "Leader Intel IV - Sheer numbers"
+      STR_LEADER_INTEL_4_UFOPEDIA: "The war-focused castes are less numerous than the worker castes. Although the warriors belonging to the armed forces are numerous, our estimate on the knowledge collected by the interrogations indicates that the non-warrior castes outnumber the military castes 10 to 1. That is why we have seen that the so-called 'Conscripts' are so abundant. We do not know if the fact that they are employed on the front line indicates that the Martian military reserves are short of soldiers."
+      STR_LEADER_INTEL_5: "Leader Intel V - Civil war"
+      STR_LEADER_INTEL_5_UFOPEDIA: "The Invaders are Conquerors by nature, based on knowledge gained from interrogations we have understood that they are in a state of perpetual warfare. It seems that an indeterminate amount of time ago, there was a bloody Civil War between the various castes. Apparently, a superior caste unified the planet and organized it against other civilizations. Which ones? When? It is not known. Apparently, this is all the caste leaders know. Further information seems to be restricted for most castes, which leads us to believe that their ignorance is planned."
+      STR_LEADER_INTEL_6: "Leader Intel VI - Other enemy"
+      STR_LEADER_INTEL_6_UFOPEDIA: "Apparently, there is every reason to believe that we are not the only enemies of the Martians. Whoever they were, they are very old. The war has been going on for a long time, no one remembers how it started anymore. According to what we are told by the Martian leaders questioned, the technology employed by Mars (i.e. Heat Rays) are particularly effective against this ancient enemy of unknown origin, beings that seem to bear a resemblance to Earth's sea species. Interestingly, they are susceptible to temperature changes. We have no way of knowing their origin or location."
+      STR_LEADER_1: "Leader Unlock 1"
+      STR_LEADER_2: "Leader Unlock 2"
+      STR_LEADER_3: "Leader Unlock 3"
+      STR_LEADER_4: "Leader Unlock 4"
+      STR_LEADER_5: "Leader Unlock 5"
+      STR_LEADER_6: "Leader Unlock 6"
+
+
+      STR_MARTIAN_CAMP: "Martian Camp"
+      STR_MARTIAN_CAMP_UFOPEDIA: "These camps serve the same function as ours: to house a group of troops as they march towards their target. They are easy to assemble and dismantle, although they can withstand bullets and light projectiles."
+      STR_MARTIAN_OUTPOST: "Martian Outpost"
+      STR_MARTIAN_OUTPOST_UFOPEDIA: "This outpost is a small base set up to monitor the movement of humans and spy on them. It also serves to protect and warn the most important installations in the event of an attack. It has a small garrison."
+      STR_MARTIAN_TROOP_BARRACKS: "Martian Troop Barracks" # Troop Facility
+      STR_MARTIAN_TROOP_BARRACKS_UFOPEDIA: "This fortress houses a large number of soldiers, has 4 defensive AA cannons, an armory, infirmary and a strong armor. It is usually the most abundant Martian facility, used to guard large portions of land and deploy assault groups, as well as secure key positions."
+      STR_MARTIAN_HARVEST_FACILITY: "Martian Harvesting Facility"
+      STR_MARTIAN_HARVEST_FACILITY_UFOPEDIA: "A sinister Martian facility used to dissect living beings, such as animals and humans, to create food and conduct research on terrestrial species. All abducted humans end up in one way or another in centers like these"
+      STR_MARTIAN_WATCHTOWER: "Martian Watchtower"
+      STR_MARTIAN_WATCHTOWER_UFOPEDIA: "An important bastion, used both to defend important sectors and to dissuade human troops from launching offensives in Martian territory. Its anti-aircraft batteries are quite powerful, capable of destroying human planes over long distances."
+      STR_MARTIAN_HIGH_COMMAND: "Martian High Command" # Alien High Command
+      STR_MARTIAN_HIGH_COMMAND_UFOPEDIA: "The brain of the Martian operation on land, from here are coordinated various attacks and offensives against human targets. The highest leaders of the enemy take refuge in these gigantic structures, with hundreds of soldiers. Their anti-aircraft batteries are quite efficient and their armour is extremely hard."
+      STR_MARTIAN_SUPPLY_DEPOT: "Martian Supply Depot" # Storage Facility
+      STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA: "A support facility, the purpose of which is to store the various war materials, such as weaponry, food, supplies and tools necessary for the enemy's total war machine. They are extremely hard, but they are poorly armed."
+      STR_MARTIAN_CLONE_LAB: "Martian Clone Lab" # Cloning Lab
+      STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones to generate more food for their ranks and make replacement limbs for their wounded. They also make organic tissue plates made of Red Weed to build warships and other Flying-Machines."
+      STR_MARTIAN_REDOUBT: "Martian Redoubt"
+      STR_MARTIAN_REDOUBT_UFOPEDIA: "The supreme Martian fortress. The existence of these gigantic facilities can only mean that the enemy is prepared for a total siege. They have the best anti-aircraft weapons, the best shields and armour and an enormous number of military and scientific personnel. Assaulting a Redoubt can be a hard blow for the Martians, but it is an almost suicidal mission."
+
+###################################################
+###### SCIENTISTS AND PYRRIC VICTORY FINALE ######
+#################################################
+
+      STR_HEAT_RAY_TECH_PHOTON: "Scientist Intel I - Heat-Ray Photon"
+      STR_HEAT_RAY_TECH_PHOTON_UFOPEDIA: The captured scientists have defined that their weapons are powered by the "energy of the central star". That is, our Sun. There are certain studies that refer to the splitting of the atom and its subsequent release of electromagnetic energy (which can be channeled as thermal energy). The research team led by Lord Rutherford confirm this to be an indication of the existence of artificial nuclear fusion. Further proof of the enemy's enormous technological advantage, but one that we can use to our advantage.
+      STR_HEAT_RAY_TECH_MICROWAVE: "Scientist Intel II - Heat-Ray Microwave"
+      STR_HEAT_RAY_TECH_MICROWAVE_UFOPEDIA: The enemy tries to adapt their technology as the war progresses, much like us. Martian scientists work tirelessly to stay ahead of the curve, and one of their greatest advances is the use of new weapons technologies. Instead of using concentrated photons, they are switching to microwave radiation. More dangerous and with a larger scattering angle. Their weapons can modify their emitters with the ease of changing batteries.
+      STR_HUMAN_HARVEST_1: "Scientist Intel III - Human harvest"
+      STR_HUMAN_HARVEST_1_UFOPEDIA: "It is not clear to us how it is possible for the Martians to extract any sustenance from terrestrial organisms or whether this dependence began from the Second Invasion of 1911, the First Invasion of 1896 or earlier. The captured scientist has told us that the aliens' acquired immunity comes from the constant infusion of human and cattle blood into their bodies. Apparently it is some kind of vaccine to fit them to our ecosystem and without it, they would quickly perish."
+      STR_HUMAN_HARVEST_2: "Scientist Intel VI - Bloody obsession"
+      STR_HUMAN_HARVEST_2_UFOPEDIA: "This imprisoned scientist has given us more details about the apparent Martian obsession with blood. The blood of mammals contains hemoglobin in large quantities, which is composed of iron. Iron plays an important role in Martian metabolism and is very abundant on Mars, so blood is a good source of nutrients. Combined with the fact that they are better immunized against terrestrial diseases, many Martian soldiers travel with vials of blood."
+      STR_MARTIAN_TERRAFORMATION: "Scientist Intel V - Symbiotic relationship"
+      STR_MARTIAN_TERRAFORMATION_UFOPEDIA: "Mars is a dying world. Although it has numerous mineral deposits, organic and food production is very limited because of the difficult climate. It seems that Earth's climate is more suitable for the flourishing of its flora, the well-known Red Weed. The symbiotic relationship it has with the inhabitants of the red planet is more important than we think... it provides food for the Martians and gives them vitality."
+      STR_ORGANIC_FLYING_MACHINES: "Scientist Intel VI - Organic horrors"
+      STR_ORGANIC_FLYING_MACHINES_UFOPEDIA: "The enemy scientist has revealed that their civilization considers it 'an aberration' that we have adapted their technology to create our own machines. That is why they have devoted great efforts to create new machines that we can never replicate: 'living mechanisms'. We can't figure out if they are breeding space beasts or using their tissues to build ships. Either way, the result sounds terrifying."
+      STR_BIOLOGICAL_WARFARE: "Biological Warfare"
+      STR_BIOLOGICAL_WARFARE_UFOPEDIA: "Now we have the Geneva Convention restricitons lifted, we can conduct a yet-to-be-approved series of biological and chemical studies focused on studying the enemy's weakness and more importantly, how to kill them quickly. After we have identified their symbiotic relationship with the Red Weed, we can explore new ways to weaponize viral or bacterial agents on our favor. An allied science team has proposed a new bio-weapon codenamed 'Firestorm', we could help them with their studies using our knowledge of the Martian biology."
+      STR_OPERATION_FIRESTORM: "Operation Firestorm"
+      STR_OPERATION_FIRESTORM_UFOPEDIA: "A highly experimental strain of the hepatitis virus was created, aimed to disrup the inmune system of the infected and their liver. This is transmitted through blood and other body fluids. After capturing the infected mammals, the Martians will caught the sickness and develop it. Eventually, their inmune systems will be compromised again and they'll die even with the lightest flu. This may have a chance of infecting humans as well, because we are one of the vectors of the infection. While a large portion of the international medical community has their concerns, we don't have any choice. The war does not seems to have an end soon. This may be our last chance of winning it. As a safety measure, we have developed a vaccine too. Just in case. "
+
+      STR_PYRRIC_VICTORY_FINALE_1: "Our most secretive biological weapon was released, widely distributed over the Martian Occupation Zones using specially modified airplanes. Several of them were shot down, but most managed to accomplish their task."
+      STR_PYRRIC_VICTORY_FINALE_2: "The result was expected... the enemy didn't noticed they were collecting infected bodies and directly feeding with the Firestorm virus. In a matter of weeks, most of them became sick and fell. The activity in the frontlines ceased."
+      STR_PYRRIC_VICTORY_FINALE_3: "However, the virus mutated. We couldn't prevent it, as our vaccines were ineffective of this new strain. Combined with a sudden outbreak of influenza, the mortality rate was increased among both Martian and Human populations. Dead are counted by hundreds of thousands."
+      STR_PYRRIC_VICTORY_FINALE_4: "The year's 1920. The last remaining outbreaks of Firestorm virus ended almost a year ago. A third of the whole mankind perished with the sickness or the influenza. But so do our enemy. There's not a single trace of any living Martian left. Our planet will be forever scarred and it is all our fault. No enemy, local or outsider, will ever dare to attack us... as we are more than capable to sacrifice ourselves in order to achieve victory."
+
 #################################
 ######### VEHICLES #############
 ###############################
       STR_MARCH: MARCH
-      STR_MARCH_UFOPEDIA: THE BEST METHOD OF TRANSPORTING LARGE NUMBERS OF TROOPS INTO BATTLE IS BY MARCHING. NARROW FORMATION IN TWO ROWS HELPS MAINTAIN ORDER. A SMALLER UNIT IS FASTER AND HAS BETTER RECON CAPABILITIES.
+      STR_MARCH_UFOPEDIA: The best method of transporting large numbers of troops into battle is by marching. narrow formation in two rows helps maintain order. a smaller unit is faster and has better recon capabilities.
       STR_MARCH_LARGE: LARGER MARCH
-      STR_MARCH_LARGE_UFOPEDIA: A LARGER GROUP OF TROOPS ARE TRANSPORTED SLOWER THAN A SMALLER GROUP, BUT BRING MORE FIRE AT THE TIME OF ATTACK OR DEFENSE. THE GREATER THE NUMBER OF SOLDIERS, THE SLOWER AND MORE CONCISE THE MARCH.
+      STR_MARCH_LARGE_UFOPEDIA: A larger group of troops are transported slower than a smaller group, but bring more fire at the time of attack or defense. The greater the number of soldiers, the slower and more concise the march.
       STR_CONQUEROR: CONQUEROR
-      STR_CONQUEROR_UFOPEDIA: LARGE LANDSHIP ADAPTED TO COMBAT IN DIFFICULT TERRAIN, WITH TROOP TRANSPORT CAPACITY. EQUIPPED WITH A 20MM AUTOMATIC CANNON TO PROVIDE FIRE SUPPORT TO THE INFANTRY
+      STR_CONQUEROR_UFOPEDIA: Large landship adapted to combat in difficult terrain, with troop transport capacity. Equipped with a 20mm automatic cannon to provide fire support to the infantry
       STR_CONQUEROR_TURRET: 20mm Conqueror AC
+
+      STR_FOKKER_EINDECKER: "FOKKER EINDECKER"
+      STR_FOKKER_EINDECKER_UFOPEDIA: "Hunter - First purpose-build German combat aircraft, it's also the first aircraft fitted with a synchronization gear, that allows to shoot through the propeller."
+
+      STR_AIRCO_DH2: "AIRCO DH2"
+      STR_AIRCO_DH2_UFOPEDIA: "Scout - Pusher, single-seat combat and recon British aircraft. It's the first effectively armed aircraft used by the RCF to counter the Martian Scourge, as it has a forward-mounted MG."
+
+      STR_NIEUPORT_17: "NIEUPORT 17"
+      STR_NIEUPORT_17_UFOPEDIA: "Hunter - French fighting plane, it has an outstanding manoeuvrability and rate of climb thanks to its sesquiplane wing arrangement, giving a necessary advantage to Allied pilots as it could quickly engage Martian machines. Widey used by the Coalition."
+
+      STR_SOPWITH_PUP: "SOPWITH PUP"
+      STR_SOPWITH_PUP_UFOPEDIA: "Scout - Widely known for its pleasant flying characteristics and superb agility. It's light weight contributes to making it nimble and easy to use, matched to a decent operational range."
+
+      STR_ALBATROS_DIII: "ALBATROS D-III"
+      STR_ALBATROS_DIII_UFOPEDIA: "Hunter - Known for its sesquiplane wing arrangement (the lower being smaller), it is widely acclaimed for its excellent maneuverability and climb rate. The backborne of the German Air Service. "
+
       STR_SPAD: SPAD XIII
-      STR_SPAD_UFOPEDIA: NIMBLE BIPLANE AIRCRAFT, VERY POPULAR IN THE COALITION AIR FORCE. IT'S USED BY MANY FIGHTER ACES. IS RATHER SLOW, BUT CAN PERFORM ANY MISSION OF AIR SUPREMACY OR CLOSE AIR SUPPORT.
+      STR_SPAD_UFOPEDIA: "Scout - Excellent long-range biplane aircraft, very popular in the Coalition Air Forces. It's used by many fighter aces. Is rather slow, but can perform any mission of air supremacy or close air support at long distances."
+
+      STR_ROYAL_AIRCRAFT_SE5A: "ROYAL AIRCRAFT SE-5a"
+      STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA:
+
+      STR_FOKKER_DR1: "FOKKER DR-1"
+      STR_FOKKER_DR1_UFOPEDIA: "Hunter - Designed with maximum maneuverability in mind, this German inteceptor lacks a long range nor speed, but its unmatched in dogfights. It became famous for being the plane of choice of the German ace Manfred von Richthofen"
+
+      STR_SIKORSKI_ILYA_MUROMETS: "SIKORSKI ILYA MUROMETS"
+      STR_SIKORSKI_ILYA_MUROMETS_UFOPEDIA: "Strategic bomber - The first strategic bomber in the world, named after a Slavic folklore hero. Originally meant as luxury passenger plane, it quickly became an unrivaled war machine."
+
+      STR_HALBERSTADT_CLII: "HALBERSTADT CLII"
+      STR_HALBERSTADT_CLII_UFOPEDIA:
+
+      STR_HANDLEY_PAGE_TYPE_O: "HANDLEY-PAGE TYPE O"
+      STR_HANDLEY_PAGE_TYPE_O_UFOPEDIA:
+
+      STR_ZEPPELIN_STAAKEN_RVI: "ZEPPELIN-STAAKEN R.VI"
+      STR_ZEPPELIN_STAAKEN_RVI_UFOPEDIA:
+
+      STR_CAPRIONI_CA5: "CAPRIONI CA5"
+      STR_CAPRIONI_CA5_UFOPEDIA:
+
+      STR_BRISTOL_F2B: "BRISTOL F.2B"
+      STR_BRISTOL_F2B_UFOPEDIA:
+
+      STR_CCLASS_AIRSHIP: "C-CLASS AIRSHIP"
+      STR_CCLASS_AIRSHIP_UFOPEDIA:
+
       STR_RCLASS_AIRSHIP: R-CLASS AIRSHIP
-      STR_RCLASS_AIRSHIP_UFOPEDIA: POWERFUL WAR AIRSHIP, THE LARGEST IN THE GERMAN NAVY. POSESES MULTIPLE TURRET HARDPOINTS, ADAPTABLE TO ANY MISSION. CAN CARRY A COMBINATION OF CANNONS AND MG.
+      STR_RCLASS_AIRSHIP_UFOPEDIA: Powerful war airship, the largest in the german navy. Poseses multiple turret hardpoints, adaptable to any mission. Can carry a combination of cannons and mg.
+
+      STR_LEGIONNAIRE_MECH: “LEGIONNAIRE”
+      STR_LEGIONNAIRE_MECH_UFOPEDIA: "Light walker. Nicknamed 'Mechanized Chicken' for its appearance, it is fast and light. Perfect for ambushing."
+
+      STR_PHALANX_MECH: “PHALANX”
+      STR_PHALANX_MECH_UFOPEDIA: "Medium walker, focused on transporting troops and supplies. His powerful legs allow him to traverse all types of terrain."
+
+      STR_CENTURION_MECH: “CENTURION”
+      STR_CENTURION_MECH_UFOPEDIA: "Heavy walker, designed to fight against medium and light Tripods. Features additional frontal armor."
+
+      STR_TESTUDO_MECH: “TESTUDO”
+      STR_TESTUDO_MECH_UFOPEDIA: "Medium walker. Armored troop carrier, heavily armed. Its height gives it an advantage in difficult terrain."
+
+      STR_PRAETORIAN_MECH: “PRAETORIAN”
+      STR_PRAETORIAN_MECH_UFOPEDIA: "Heavy Walker. Designed to take on heavy Tripods and win the duel. Its legs are impossible to destroy by conventional means."
+
+
+
       STR_TWIN_HMG: Twin HMG
       STR_TWIN_HMG_UFOPEDIA: DUAL MOUNTED AIR-COOLED SPANDAU IMG-08 MACHINE GUNS, FEATURES A VERY HIGH RATE OF FIRE, ALTHOUGH THE AMMO USED IS RATHER WEAK.
       STR_TWIN_HMG_LAUNCHER: Twin HMG
       STR_TWIN_HMG_ROUNDS_X50: Twin HMG Rounds (x50)
+
+
+######################################
+######### VEHICLE WEAPONS ###########
+####################################
+
       STR_AUTOCANNON: 20mm Autocannon
-      STR_AUTOCANNON_UFOPEDIA: TWIN AUTOMATIC CANNONS, IT'S 20MM AMMUNATION CAN PENETRATE THICK LAYERS OF STEEL. USEFUL AGAINST LIGHTLY ARMORED ENEMIES.
+      STR_AUTOCANNON_UFOPEDIA: Twin automatic cannons, it's 20mm ammunation can penetrate thick layers of steel. Useful against lightly armored enemies.
       STR_AUTOCANNON_LAUNCHER: 20mm Autocannon
       STR_AUTOCANNON_ROUNDS_X50: 20MM Autocannon Rounds (x50)
       STR_QF_1_PDR_POMPOM: QF 1-pdr 'Pom Pom'
-      STR_QF_1_PDR_POMPOM_UFOPEDIA: RELIABLE ANTI-AIR GUN, COULD BE FOUND MOUNTED EVERYWHERE, FROM AIRCRAFTS TO GUN EMPLACEMENTS AND WARSHIPS. FIRES SPECIAL SHARPNEL ROUNDS.
+      STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, could be found mounted everywhere, from aircrafts to gun emplacements and warships. Fires special sharpnel rounds.
       STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
       STR_QF_1_PDR_POMPOM_X30: QF 1-pdr Shells (x30)
       STR_FRAGMENTATION_BOMB: Frag Bombs
-      STR_FRAGMENTATION_BOMB_UFOPEDIA: FREE FALL 10 KG FRAGMENTATION BOMB. BASICALLY A BIGGER GRENADE, CAN SHRED LIGHT ARMOR.
+      STR_FRAGMENTATION_BOMB_UFOPEDIA: Free fall 10 kg fragmentation bomb. Basically a bigger grenade, can shred light armor.
       STR_FRAGMENTATION_BOMB_LAUNCHER: Fragmentation Bombs
       STR_FRAGMENTATION_BOMB_X3: Fragmentation Bomb Rack (x3)
+
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_THREE: "MACHINE GUN-3>{ALT}{0}"
@@ -1333,3 +1521,52 @@ en-US:
       STR_CRAFT_AUX_TWO: "AUX-2>{ALT}{0}"
       STR_CRAFT_AUX_THREE: "AUX-3>{ALT}{0}"
       STR_CRAFT_AUX_FOUR: "AUX-4>{ALT}{0}"
+
+##########################################
+######### VEHICLES REPORTS ##############
+#########################################
+
+      STR_FIGHTING_AIRPLANES_DATA: "Fighting Airplanes Data"
+      STR_FIGHTING_AIRPLANES_DATA_UFOPEDIA: "The Wright Brothers' flight changed the way humans viewed the sky. It was no longer a limit. Unlike airships, airplanes are more agile and maneuverable. Their disadvantage is the fragility of their structure and limited operational range. Technological improvements will make them more resilient and faster."
+      STR_FIGHTING_AIRPLANES_ROLES: "Fighting Airplane Roles"
+      STR_FIGHTING_AIRPLANES_ROLES_UFOPEDIA: "There are several types of aircraft designed for air-to-air combat:{NEWLINE}{NEWLINE} The British call rugged, long-range aircraft {ALT}'Scout'{ALT}. These can conduct raids inside enemy airspace, as well as escort bombers and airships. {NEWLINE}The French and Germans call agile, maneuverable, short-range aircraft {ALT}'Hunters'{ALT}. They are recommended for use as defenders for bases and cities, including other aircraft."
+      STR_BOMBER_AIRPLANES_DATA: "Bomber Airplanes Data"
+      STR_BOMBER_AIRPLANES_DATA_UFOPEDIA: "The possibility of dropping explosives from aircraft began with their military use. Specialized bomb-carrying aircraft are long and heavy, most carry defensive machine guns. Despite the fact that they are slow and unmaneuverable, the possibility of attacking static ground targets beyond artillery range represents a great advantage."
+      STR_BOMBER_AIRPLANES_ROLES: "Bomber Airplane Roles"
+      STR_BOMBER_AIRPLANES_ROLES_UFOPEDIA: "There are three main types of bombers, each with its advantages: {NEWLINE}{NEWLINE}{ALT}Strategic bombers{ALT} can carry an enormous amount of bombs to a great height, thanks to their enclosed cockpits. They are the slowest of all. {NEWLINE}Then there are the {ALT}tactical bombers{ALT}, which have less cargo space, but are considerably more agile. {NEWLINE}And finally, the {ALT}attack aircraft{ALT}, which are similar in performance to fighter aircraft, with the benefit of carrying bombs and automatic cannons."
+      STR_TIER_0_AIRCRAFTS_DATA: "Tier 0 Aircraft Data"
+      STR_TIER_0_AIRCRAFTS_DATA_UFOPEDIA: "The new frontal-armed aircraft make it possible to balance the fight for dominance of the sky. Aircraft of this technological level are very fragile but extremely agile. Their wooden structure and canvas covering make them very cheap and easy to use, although they burn easily if hit by a Heat Ray."
+      STR_TIER_1_AIRCRAFTS_DATA: "Tier 1 Aircraft Data"
+      STR_TIER_1_AIRCRAFTS_DATA_UFOPEDIA: "Improvements in aircraft design allow the variety of models and roles to expand. Steel-reinforced internal structures allow for more aggressive maneuvering, although to maintain power-to-weight balance, they are used to a limited extent. Asbestos plates installed in parts of the fuselage can absorb some of the infernal heat of Martian energy weapons and allow the vehicle to withstand a hit or two."
+      STR_TIER_2_AIRCRAFTS_DATA: "Tier 2 Aircraft Data"
+      STR_TIER_2_AIRCRAFTS_DATA_UFOPEDIA: "New studies carried out on Martian Metal allow its implementation in the structure of aircraft of this technological level. A strong internal frame resists more. Asbestos is now more abundant and more powerful engines make it possible to coat the fuselage with them. This greatly increases the strength of aircraft in combat."
+      STR_TIER_3_AIRCRAFTS_DATA: "Tier 3 Aircraft Data"
+      STR_TIER_3_AIRCRAFTS_DATA_UFOPEDIA: "The latest advances in metallurgy allow the complete construction of an aircraft fuselage using Tunguskium. Enclosed canopies and improved breathing systems allow pilots to fight at altitudes previously impossible. Most modern models are monoplanes, making it easier to achieve higher speeds and reduce drag."
+
+      STR_WALKER_DATA: “Walker Data”
+      STR_WALKER_DATA_UFOPEDIA: "Since the initial enemy attack in '96, the image of towering walking machines has been imprinted in the minds and hearts of the world. Our technology has come a long way thanks to the reverse engineering we have applied. However, mechanized walking vehicles (called interchangeably 'walkers' or 'mechs') are more complex to build and maintain than wheeled and tracked vehicles. Their advantage lies in their flexibility in all types of terrain, because they are not limited to roads and flat areas. Mountains, swamps, jungles? There's nothing a mech can't traverse."
+
+      STR_LANDSHIP_DATA: “Landship Data”
+      STR_LANDSHIP_DATA_UFOPEDIA: "Land vessels are easily recognizable by their elongated chassis and tracks that run the length of the chassis. Their greatest advantage is their low profile and strength. Compared to Walkers, they are mechanically easier and cheaper to maintain. They are limited to fighting on plains and deserts, since their mobility is very limited in difficult terrain."
+
+      STR_WALKER_HISTORY_1: “Walker History I”
+      STR_WALKER_HISTORY_1_UFOPEDIA: "The first prototypes were built using scrap and leftover parts from the Martian Tripods used in the 1896 Attack. For 10 years, the United Kingdom and Germany were the countries most focused on adapting the enemy's technology, with varying results. The first working model was presented to the world in London in 1907. The Geneva Convention forbade the production of 'Walkers' for war purposes, so most were used as a means of transportation."
+
+      STR_WALKER_HISTORY_2: “Walker History II”
+      STR_WALKER_HISTORY_2_UFOPEDIA: "The impossibility of replicating the triple mechanism of the Martians, together with the unnatural way of moving of their Tripods derived in the abandonment of this design in favor of biped and quadruped units. Centuries of animal locomotion studies were of great help. The leg mechanisms are a hybrid design between an internal diesel and Martian hydrogen reactor combination. The shortage of reactors in optimal condition limits their mass employment."
+
+      STR_WALKER_HISTORY_3: “Walker History III”
+      STR_WALKER_HISTORY_3_UFOPEDIA: "The most successful and widely distributed Walker model until the resumption of hostilities in 1911 was the TW-1C (Truck/Walker-1) 'Elephant'. Artillery versions known as MTW-7 Phalanx (Medium Transport Walker) are employed by all Coalition countries, although their combat performance against Tripods is insufficient."
+
+      STR_WALKER_HISTORY_4: “Walker History IV”
+      STR_WALKER_HISTORY_4_UFOPEDIA: "Until the General Counteroffensive of 1913, the employment of purely offensive Walkers was limited to small units that added guns and howitzers on an improvised basis. Developed since late 1912, the LCW-10 'Legionnaire' helped slow down the Martian hosts on all fronts. Nicknamed 'Mechanized Chicken' for its peculiar chassis and leg arrangement, the 'Legionnaires' are fast and agile enough to flank light and medium Tripods."
+
+      STR_WALKER_HISTORY_5: “Walker History V”
+      STR_WALKER_HISTORY_5_UFOPEDIA: "The need to transport more troops to the front lines, as well as support them, led to the creation of the 'Testudo'. The original design featured a chassis close to the ground, but improvements to the leg servo motors made it a tall quadruped. Ironically named 'Hannibal's Elephant', we are pretty sure it can also cross the Alps."
+
+      STR_WALKER_HISTORY_6: “Walker History VI”
+      STR_WALKER_HISTORY_6_UFOPEDIA: "The high incidence of 'Legionnaires' in prolonged engagement situations against enemy mechanized units prompted the creation of the 'Centurion', a combat unit with more powerful weapons and reinforced leg armor. Most Coalition armored regiments are expected to equip this mech."
+
+      STR_WALKER_HISTORY_7: “Walker History VII”
+      STR_WALKER_HISTORY_7_UFOPEDIA: "This walker is the largest we have built to date. It combines incredible endurance, excellent firepower and some extra space to transport troops directly to the battlefield. Initially it was the armament upgrade of the 'Centurion', but the weight increased so much that it was necessary to redesign and expand the legs, adopting a quadruped design."
+
