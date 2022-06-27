@@ -1905,7 +1905,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
     image_id: FOKKER_EINDECKER_UFOPEDIA
@@ -1970,7 +1970,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
     image_id: ALBATROS_DIII_UFOPEDIA
@@ -2022,11 +2022,11 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: ROYAL_AIRCRAFT_SE5A_UFOPEDIA
-  - id: STR_STR_FOKKER_DR1
+    image_id: SE5A_UFOPEDIA
+  - id: STR_FOKKER_DR1
     type_id: 1
     section: STR_VEHICLES
-    text: STR_STR_FOKKER_DR1_UFOPEDIA
+    text: STR_FOKKER_DR1_UFOPEDIA
     ##listOrder: 112
     rect_stats:
       x: 5
@@ -2038,7 +2038,7 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
-    image_id: STR_FOKKER_DR1_UFOPEDIA
+    image_id: FOKKER_DR1_UFOPEDIA
 #######################################
   - id: STR_SIKORSKI_ILYA_MUROMETS
     type_id: 1
@@ -2052,10 +2052,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
-    image_id: SIKORSKI_ILYA_MUROMETS_UFOPEDIA
+    image_id: ILYA_MUROMETS_UFOPEDIA
   - id: STR_HALBERSTADT_CLII
     type_id: 1
     section: STR_VEHICLES
@@ -2068,10 +2068,10 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
-    image_id: HALBERSTADT_CLII_UFOPEDIA
+    image_id: HALBERSTADT_UFOPEDIA
   - id: STR_HANDLEY_PAGE_TYPE_O
     type_id: 1
     section: STR_VEHICLES
@@ -2084,7 +2084,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
     image_id: HANDLEY_PAGE_TYPE_O_UFOPEDIA
@@ -2101,7 +2101,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
     image_id: ZEPPELIN_STAAKEN_RVI_UFOPEDIA
@@ -2117,7 +2117,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
     image_id: CAPRIONI_CA5_UFOPEDIA
@@ -2133,7 +2133,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 38
       width: 205
       height: 80
     image_id: BRISTOL_F2B_UFOPEDIA

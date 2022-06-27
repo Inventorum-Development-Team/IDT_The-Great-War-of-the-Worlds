@@ -1428,16 +1428,16 @@ en-US:
       STR_SPAD_UFOPEDIA: "Scout - Excellent long-range biplane aircraft, very popular in the Coalition Air Forces. It's used by many fighter aces. Is rather slow, but can perform any mission of air supremacy or close air support at long distances."
 
       STR_ROYAL_AIRCRAFT_SE5A: "ROYAL AIRCRAFT SE-5a"
-      STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA:
+      STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA: WIP
 
       STR_FOKKER_DR1: "FOKKER DR-1"
-      STR_FOKKER_DR1_UFOPEDIA: "Hunter - Designed with maximum maneuverability in mind, this German inteceptor lacks a long range nor speed, but its unmatched in dogfights. It became famous for being the plane of choice of the German ace Manfred von Richthofen"
+      STR_FOKKER_DR1_UFOPEDIA: "Hunter - Designed with maximum maneuverability in mind, this German inteceptor lacks a long range and speed, but its unmatched in dogfights. It became famous for being the plane of choice of the German ace Manfred von Richthofen"
 
       STR_SIKORSKI_ILYA_MUROMETS: "SIKORSKI ILYA MUROMETS"
       STR_SIKORSKI_ILYA_MUROMETS_UFOPEDIA: "Strategic bomber - The first strategic bomber in the world, named after a Slavic folklore hero. Originally meant as luxury passenger plane, it quickly became an unrivaled war machine."
 
       STR_HALBERSTADT_CLII: "HALBERSTADT CLII"
-      STR_HALBERSTADT_CLII_UFOPEDIA:
+      STR_HALBERSTADT_CLII_UFOPEDIA: WIP
 
       STR_HANDLEY_PAGE_TYPE_O: "HANDLEY-PAGE TYPE O"
       STR_HANDLEY_PAGE_TYPE_O_UFOPEDIA:
