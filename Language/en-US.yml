@@ -1472,33 +1472,60 @@ en-US:
 
 
 
-      STR_TWIN_HMG: Twin HMG
-      STR_TWIN_HMG_UFOPEDIA: DUAL MOUNTED AIR-COOLED SPANDAU IMG-08 MACHINE GUNS, FEATURES A VERY HIGH RATE OF FIRE, ALTHOUGH THE AMMO USED IS RATHER WEAK.
-      STR_TWIN_HMG_LAUNCHER: Twin HMG
-      STR_TWIN_HMG_ROUNDS_X50: Twin HMG Rounds (x50)
+
 
 
 ######################################
 ######### VEHICLE WEAPONS ###########
 ####################################
+      STR_VICKERS_MMG: "VICKERS MMG"
+      STR_VICKERS_MMG_UFOPEDIA: 
+      STR_VICKERS_MMG_LAUNCHER: "Vickers MMG"
+      STR_TWIN_HMG: "TWIN SPANDAU HMG"
+      STR_TWIN_HMG_UFOPEDIA: "DUAL MOUNTED AIR-COOLED SPANDAU IMG-08 MACHINE GUNS, FEATURES A VERY HIGH RATE OF FIRE, ALTHOUGH THE AMMO USED IS RATHER WEAK."
+      STR_TWIN_HMG_LAUNCHER: "Twin Spandau HMG"
+      STR_TWIN_HMG_ROUNDS_X50: "Twin HMG Rounds (x50)"
+      STR_50CAL_BROWNING_HMG: "TWIN .50 CAL BROWNING HMG"
+      STR_50CAL_BROWNING_HMG_UFOPEDIA: "Larger and more powerful version of the .30 MMG also concieved by John M. Browning. Fires 12.7mm high-powered rounds at longer range than other machine guns. "
+      
+      STR_303_LEWIS_TURRET: ".303 LEWIS TURRET"
+      STR_303_LEWIS_TURRET_UFOPEDIA: "Vehicle-mounted version of the Lewis Gun, it has the wooden stock replaced with a handle, and a larger ammo pan."
+      STR_303_LEWIS_TURRET_LAUNCHER: ".303 Lewis Turret"
+      STR_30CAL_BROWNING_TURRET: "TWIN .30 CAL BROWNING TURRET"
+      STR_30CAL_BROWNING_TURRET_UFOPEDIA: "A modern American air-cooled medium machine gun firing .30-06 rounds, it has a large rate of fire."
+      STR_30CAL_BROWNING_TURRET_LAUNCHER: "Twin .30cal Browning Turret"
+      STR_303_VICKERS_K_TURRET: "TWIN .303 VICKERS K TURRET"
+      STR_303_VICKERS_K_TURRET_UFOPEDIA: "Also known as the 'Vickers Gas Operated', this .303 air-cooled machine gun has a really high ROF, meant to maximize the amount of bullets fired in brief time"
+      STR_303_VICKERS_K_TURRET_LAUNCHER: "Twin Vickers K Turret"
 
       STR_BECKER_2CM_CANNON: "BECKER 2CM AC"
       STR_BECKER_2CM_CANNON_UFOPEDIA: "Light single-barreled, magazine-fed German automatic cannon. Usually mounted in turrets onboard vehicles, its easy to use by any soldier."
       STR_BECKER_2CM_CANNON_LAUNCHER: "Becker 2cm Cannon"
-      STR_AUTOCANNON: "TWIN OERLIKON 20MM AC"
-      STR_AUTOCANNON_UFOPEDIA: Twin automatic cannons, its AP ammunition can penetrate thick layers of steel. Useful against lightly armored enemies.
-      STR_AUTOCANNON_LAUNCHER: Oerlikon 20mm Autocannon
-      STR_AUTOCANNON_ROUNDS_X50: 20MM Autocannon Rounds (x50)
-      STR_VICKERS_S_40MM_AUTOCANNON: ""
-      STR_QF_1_PDR_POMPOM: QF 1-pdr 'Pom Pom'
+      STR_AUTOCANNON: "OERLIKON 20MM AC"
+      STR_AUTOCANNON_UFOPEDIA: "Belt-fed automatic cannon, its AP ammunition can penetrate several thick layers of steel. Useful against lightly armored enemies."
+      STR_AUTOCANNON_LAUNCHER: "Oerlikon 20mm Autocannon"
+      STR_AUTOCANNON_ROUNDS_X50: "20MM Autocannon Rounds (x50)"
+      STR_VICKERS_S_40MM_AUTOCANNON: "VICKERS 'S' 40MM AC"
+      STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, belt-fed automatic cannon, fires large APHE 40mm rounds. Its so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted."
+      STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER: "Vickers 'S' 40mm AC"
+      STR_QF_1_PDR_POMPOM: "QF 1-pdr 'Pom Pom'"
       STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, could be found mounted everywhere, from aircrafts to gun emplacements and warships. Fires special sharpnel rounds.
       STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
       STR_QF_1_PDR_POMPOM_X30: QF 1-pdr Shells (x30)
-      STR_FRAGMENTATION_BOMB: Frag Bombs
-      STR_FRAGMENTATION_BOMB_UFOPEDIA: Free fall 10 kg fragmentation bomb. Basically a bigger grenade, can shred light armor.
-      STR_FRAGMENTATION_BOMB_LAUNCHER: Fragmentation Bombs
+      
+      
+      
+      STR_FRAGMENTATION_BOMB: "FRAG BOMBS"
+      STR_FRAGMENTATION_BOMB_UFOPEDIA: "Free fall 20lb (a bit more than 9 kg) fragmentation bomb. Basically a big grenade, can shred light armor and infantry. Mounted below the frame of the plane, sometimes even thrown manually by the aircrew."
+      STR_FRAGMENTATION_BOMB_LAUNCHER: "Fragmentation Bombs Rack (x5)"
       STR_FRAGMENTATION_BOMB_X3: Fragmentation Bomb Rack (x3)
-
+      STR_HE_BOMB: "HIGH EXPLOSIVE BOMBS"
+      STR_HE_BOMB_UFOPEDIA: "Free fall, 500lb (226.7kg) large explosive bomb. The back of the bomb has a squared fin to help targeting with accuracy. Mounted below the airplane."
+      STR_HE_BOMB_LAUNCHER: "High Explosive Bombs Rack (x3)"
+      STR_CLUSTER_BOMB: "CLUSTER BOMBS"
+      STR_CLUSTER_BOMB_UFOPEDIA: "A large group of free fall medium-sized 260lb bombs meant to saturate an extensive area with explosions very quickly."
+      STR_CLUSTER_BOMB_LAUNCHER: "Cluster Bombs Rack (x10)"
+      
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_THREE: "MACHINE GUN-3>{ALT}{0}"
