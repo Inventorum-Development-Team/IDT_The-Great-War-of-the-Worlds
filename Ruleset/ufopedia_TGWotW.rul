@@ -46,6 +46,12 @@ ufopaedia:
   - delete: STR_HWP_ROCKETS
   - delete: STR_HWP_CANNON_SHELLS
   - delete: STR_HWP_FUSION_BOMB
+  - delete: STR_ALIEN_RESEARCH_UC
+  - delete: STR_UFO_COMPONENTS
+  - delete: STR_ALIEN_ARTIFACTS
+  - delete: STR_WEAPONS_AND_EQUIPMENT
+  - delete: STR_XCOM_CRAFT_ARMAMENT
+  - delete: STR_ALIEN_LIFE_FORMS
 ###########################################
 
   #################################################
@@ -955,154 +961,154 @@ ufopaedia:
 ################################
   - id: STR_PILOT_INTRODUCTION
     type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     image_id: PILOT_IMAGE
     text: STR_PILOT_UFOPEDIA
     text_width: 150
     #listOrder: 1715
   - id: STR_PILOT_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1716
     text: STR_PILOT_UNIFORM_UC_UFOPEDIA
 
   - id: STR_BRITISH_SOLDIER_INTRODUCTION
     type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     image_id: BRITISH_SOLDIER_IMAGE
     text: STR_BRITISH_SOLDIER_UFOPEDIA
     text_width: 150
     #listOrder: 1700
   - id: STR_BRITISH_FIELD_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1701
     text: STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA
   - id: STR_BRITISH_GASMASK_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1702
     text: STR_BRITISH_GASMASK_UC_UFOPEDIA
 #  - id: STR_BRITISH_OFFICER_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1703
 #    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
 #  - id: STR_BRITISH_TRENCHCOAT_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1704
 #    text: STR_BRITISH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
 
   - id: STR_AMERICAN_SOLDIER_INTRODUCTION
     type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     image_id: AMERICAN_SOLDIER_IMAGE
     text: STR_AMERICAN_SOLDIER_UFOPEDIA
     text_width: 150
     #listOrder: 1705
   - id: STR_AMERICAN_FIELD_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1706
     text: STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA
   - id: STR_AMERICAN_GASMASK_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1707
     text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
 #  - id: STR_AMERICAN_OFFICER_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1708
 #    text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
 #  - id: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1709
 #    text: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
 
   - id: STR_GERMAN_SOLDIER_INTRODUCTION
     type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     image_id: GERMAN_SOLDIER_IMAGE
     text: STR_GERMAN_SOLDIER_UFOPEDIA
     text_width: 150
     #listOrder: 1710
   - id: STR_GERMAN_FIELD_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1711
     text: STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA
   - id: STR_GERMAN_GASMASK_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1712
     text: STR_GERMAN_GASMASK_UC_UFOPEDIA
 #  - id: STR_GERMAN_OFFICER_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1713
 #    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
   - id: STR_GERMAN_TRENCH_COAT_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1714
     text: STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA
 
   - id: STR_FRENCH_SOLDIER_INTRODUCTION
     type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     image_id: FRENCH_SOLDIER_IMAGE
     text: STR_FRENCH_SOLDIER_UFOPEDIA
     text_width: 150
     #listOrder: 1717
   - id: STR_FRENCH_FIELD_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1718
     text: STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA
   - id: STR_FRENCH_GASMASK_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1719
     text: STR_FRENCH_GASMASK_UC_UFOPEDIA
 #  - id: STR_FRENCH_OFFICER_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1718
 #    text: STR_FRENCH_GASMASK_UC_UFOPEDIA
 #  - id: STR_FRENCH_TRENCHCOAT_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1718
 #    text: STR_FRENCH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
 
   - id: STR_ITALIAN_SOLDIER_INTRODUCTION
     type_id: 7
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     image_id: ITALIAN_SOLDIER_IMAGE
     text: STR_ITALIAN_SOLDIER_UFOPEDIA
     text_width: 150
     #listOrder: 1730
   - id: STR_ITALIAN_FIELD_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1731
     text: STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA
   - id: STR_ITALIAN_ALPINI_UNIFORM_UC
     type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
+    section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1732
     text: STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA
 #  - id: STR_ITALIAN_OFFICER_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1733
 #    text: STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA
 #  - id: STR_ITALIAN_TRENCHCOAT_UNIFORM_UC
 #    type_id: 5
-#    section: STR_WEAPONS_AND_EQUIPMENT
+#    section: STR_UNIFORMS_AND_ARMORS
 #    #listOrder: 1734
 #    text: STR_ITALIAN_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
 
@@ -1134,6 +1140,141 @@ ufopaedia:
     weapon: STR_TGEWEHR
 
 #####################################
+######### NEW TECHNOLOGIES #########
+###################################
+  - id: STR_FIGHTING_AIRPLANES_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_FIGHTING_AIRPLANES_DATA_UFOPEDIA
+  - id: STR_FIGHTING_AIRPLANES_ROLES
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_FIGHTING_AIRPLANES_ROLES_UFOPEDIA
+  - id: STR_BOMBER_AIRPLANES_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_BOMBER_AIRPLANES_DATA_UFOPEDIA
+  - id: STR_BOMBER_AIRPLANES_ROLES
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_BOMBER_AIRPLANES_ROLES_UFOPEDIA
+
+  - id: STR_TIER_0_AIRCRAFTS_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TIER_0_AIRCRAFTS_DATA_UFOPEDIA
+  - id: STR_TIER_1_AIRCRAFTS_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TIER_1_AIRCRAFTS_DATA_UFOPEDIA
+  - id: STR_TIER_2_AIRCRAFTS_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TIER_2_AIRCRAFTS_DATA_UFOPEDIA
+  - id: STR_TIER_3_AIRCRAFTS_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TIER_3_AIRCRAFTS_DATA_UFOPEDIA
+
+  - id: STR_WALKER_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_DATA_UFOPEDIA
+  - id: STR_LANDSHIP_DATA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_LANDSHIP_DATA_UFOPEDIA
+
+  - id: STR_WALKER_HISTORY_1
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_HISTORY_1_UFOPEDIA
+  - id: STR_WALKER_HISTORY_2
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_HISTORY_2_UFOPEDIA
+  - id: STR_WALKER_HISTORY_3
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_HISTORY_3_UFOPEDIA
+  - id: STR_WALKER_HISTORY_4
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_HISTORY_4_UFOPEDI
+
+  - id: STR_WALKER_HISTORY_5
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_HISTORY_5_UFOPEDIA
+  - id: STR_WALKER_HISTORY_6
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_HISTORY_6_UFOPEDIA
+  - id: STR_WALKER_HISTORY_7
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_WALKER_HISTORY_7_UFOPEDIA
+
+
+  - id: STR_FRONTLINES_FIELD_REPORT
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_FRONTLINES_FIELD_REPORT
+    text: STR_FRONTLINES_FIELD_REPORT_UFOPEDIA
+
+  - id: STR_IMPROVED_METALURGIC_TECHNIQUES
+    requires:
+      - STR_IMPROVED_METALURGIC_TECHNIQUES
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: IMPROVED_METALURGIC_TECHNIQUES_IMAGE
+    text: STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA
+    ##listOrder: 10201
+    text_width: 316
+  - id: STR_MARTIAN_METAL_REPLICATION
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_OVERLORD_INTEL_1
+    text: STR_OVERLORD_INTEL_1_UFOPEDIA
+  - id: STR_ADVANCED_FIREARMS
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: ADVANCED_FIREARMS_IMAGE
+    text: STR_ADVANCED_FIREARMS_UFOPEDIA
+    ##listOrder: 10202
+    text_width: 150
+  - id: STR_KMM_BULLETS
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: KMM_BULLETS_IMAGE
+    text: STR_KMM_BULLETS_UFOPEDIA
+    ##listOrder: 10203
+    text_width: 150
+  - id: STR_GASMASKS
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: GASMASKS_IMAGE
+    text: STR_GASMASKS_UFOPEDIA
+    ##listOrder: 10204
+    text_width: 150
+  - id: STR_HUMAN_CHEMICAL_WEAPONS
+    requires:
+      - STR_HUMAN_CHEMICAL_WEAPONS
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: HUMAN_CHEMICAL_WEAPONS_IMAGE
+    text: STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA
+    ##listOrder: 10205
+    text_width: 150
+
+
+#####################################
 ######### MARTIAN RESEARCH #########
 ###################################
 
@@ -1141,7 +1282,7 @@ ufopaedia:
     requires:
       - STR_HEATRAY_RESEARCH
     type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     image_id: HEAT_RAY_RESEARCH
     text: STR_HEATRAY_RESEARCH_UFOPEDIA
     text_width: 316
@@ -1150,7 +1291,7 @@ ufopaedia:
     requires:
       - STR_HEATRAY_WEAPONS_ANALYSIS
     type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     image_id: HEAT_RAY_WEAPONS
     text: STR_HEATRAY_WEAPONS_ANALYSIS_UFOPEDIA
     text_width: 150
@@ -1159,7 +1300,7 @@ ufopaedia:
     requires:
       - STR_RED_WEED_RESEARCH
     type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     image_id: RED_WEED_RESEARCH
     text: STR_RED_WEED_RESEARCH_UFOPEDIA
     text_width: 160
@@ -1168,17 +1309,91 @@ ufopaedia:
     requires:
       - STR_CHEMICAL_WARFARE_RESEARCH
     type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     image_id: CHEMICAL_WARFARE_RESEARCH
     text: STR_CHEMICAL_WARFARE_RESEARCH_UFOPEDIA
     text_width: 300
     ##listOrder: 10304
+
+  - id: STR_UFO_POWER_SOURCE
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_UFO_POWER_SOURCE
+    image_id: UP032.SPK
+    text: STR_UFO_POWER_SOURCE_UFOPEDIA
+    text_width: 163
+  - id: STR_UFO_NAVIGATION
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_UFO_NAVIGATION
+    image_id: UP033.SPK
+    text: STR_UFO_NAVIGATION_UFOPEDIA
+    text_width: 147
+  - id: STR_UFO_CONSTRUCTION
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_UFO_CONSTRUCTION
+    image_id: UP034.SPK
+    text: STR_UFO_CONSTRUCTION_UFOPEDIA
+    text_width: 148
+  - id: STR_ALIEN_FOOD
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_FOOD
+    image_id: UP035.SPK
+    text: STR_ALIEN_FOOD_UFOPEDIA
+    text_width: 173
+  - id: STR_ALIEN_REPRODUCTION
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_REPRODUCTION
+    image_id: UP036.SPK
+    text: STR_ALIEN_REPRODUCTION_UFOPEDIA
+    text_width: 167
+  - id: STR_ALIEN_ENTERTAINMENT
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_ENTERTAINMENT
+    image_id: UP037.SPK
+    text: STR_ALIEN_ENTERTAINMENT_UFOPEDIA
+    text_width: 146
+  - id: STR_ALIEN_SURGERY
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_SURGERY
+    image_id: UP038.SPK
+    text: STR_ALIEN_SURGERY_UFOPEDIA
+    text_width: 108
+  - id: STR_EXAMINATION_ROOM
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_EXAMINATION_ROOM
+    image_id: UP039.SPK
+    text: STR_EXAMINATION_ROOM_UFOPEDIA
+    text_width: 150
+  - id: STR_ALIEN_ALLOYS
+    type_id: 7
+    section: STR_UFO_COMPONENTS
+    requires:
+      - STR_ALIEN_ALLOYS
+    image_id: UP040.SPK
+    text: STR_ALIEN_ALLOYS_UFOPEDIA
+    text_width: 145
+
 ####################################
 ######### WEAPONS ###############
 ###############################
   - id: STR_HEATRAY_PISTOL
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_HEATRAY_PISTOL_UFOPEDIA
     requires:
       - STR_HEATRAY_PISTOL
@@ -1192,7 +1407,7 @@ ufopaedia:
 
   - id: STR_HEATRAY_CARBINE
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_HEATRAY_CARBINE_UFOPEDIA
     requires:
       - STR_HEATRAY_CARBINE
@@ -1206,7 +1421,7 @@ ufopaedia:
 
   - id: STR_HEATRAY_RIFLE
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_HEATRAY_RIFLE_UFOPEDIA
     requires:
       - STR_HEATRAY_RIFLE
@@ -1220,7 +1435,7 @@ ufopaedia:
 
   - id: STR_HEATRAY_CANNON
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_HEATRAY_CANNON_UFOPEDIA
     requires:
       - STR_HEATRAY_CANNON
@@ -1234,7 +1449,7 @@ ufopaedia:
 
   - id: STR_HEATRAY_SNIPER
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_HEATRAY_SNIPER_UFOPEDIA
     requires:
       - STR_HEATRAY_SNIPER
@@ -1248,7 +1463,7 @@ ufopaedia:
 
   - id: STR_MARTIAN_LAUNCHER
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_MARTIAN_LAUNCHER_UFOPEDIA
     requires:
       - STR_MARTIAN_LAUNCHER
@@ -1262,7 +1477,7 @@ ufopaedia:
 
   - id: STR_MARTIAN_ROCK_THROWER
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_MARTIAN_LAUNCHER_UFOPEDIA
     requires:
       - STR_MARTIAN_ROCK_THROWER
@@ -1279,125 +1494,238 @@ ufopaedia:
 
   - id: STR_MARTIAN_BLADE
     type_id: 4
-    section: STR_ALIEN_RESEARCH_UC
+    section: STR_MARTIAN_WEAPONS
     text: STR_MARTIAN_LAUNCHER_UFOPEDIA
     requires:
       - STR_MARTIAN_BLADE
     ##listOrder: 10308
 
-
-
+########################################
+######### INTERROGATIONS ##############
 ######################################
-######### UFOPEDIA IMAGES ############
-######################################
-  - id: STR_IMPROVED_METALURGIC_TECHNIQUES
-    requires:
-      - STR_IMPROVED_METALURGIC_TECHNIQUES
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: IMPROVED_METALURGIC_TECHNIQUES_IMAGE
-    text: STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA
-    ##listOrder: 10201
-    text_width: 316
-  - id: STR_ADVANCED_FIREARMS
-    #requires:
-     # - STR_ADVANCED_FIREARMS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: ADVANCED_FIREARMS_IMAGE
-    text: STR_ADVANCED_FIREARMS_UFOPEDIA
-    ##listOrder: 10202
-    text_width: 150
-  - id: STR_KMM_BULLETS
-    #requires:
-     # - STR_ADVANCED_FIREARMS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: KMM_BULLETS_IMAGE
-    text: STR_KMM_BULLETS_UFOPEDIA
-    ##listOrder: 10203
-    text_width: 150
-  - id: STR_GASMASKS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: GASMASKS_IMAGE
-    text: STR_GASMASKS_UFOPEDIA
-    ##listOrder: 10204
-    text_width: 150
-  - id: STR_HUMAN_CHEMICAL_WEAPONS
-    requires:
-      - STR_HUMAN_CHEMICAL_WEAPONS
-    type_id: 7
-    section: STR_ALIEN_RESEARCH_UC
-    image_id: HUMAN_CHEMICAL_WEAPONS_IMAGE
-    text: STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA
-    ##listOrder: 10205
-    text_width: 150
 
+#################################################
+###### OVERLORDS AND COLLABORATION FINALE ######
+###############################################
+
+  - id: STR_OVERLORD_INTEL_1
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_1
+    text: STR_OVERLORD_INTEL_1_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_2
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_2
+    text: STR_OVERLORD_INTEL_2_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_3
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_3
+    text: STR_OVERLORD_INTEL_3_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_4
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_4
+    text: STR_OVERLORD_INTEL_4_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_5
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_5
+    text: STR_OVERLORD_INTEL_5_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_6
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_6
+    text: STR_OVERLORD_INTEL_6_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_7
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_7
+    text: STR_OVERLORD_INTEL_7_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_8
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_8
+    text: STR_OVERLORD_INTEL_8_UFOPEDIA
+  - id: STR_OVERLORD_INTEL_9
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OVERLORD_INTEL_9
+    text: STR_OVERLORD_INTEL_9_UFOPEDIA
+  - id: STR_MARTIAN_OVERSEER_DIPLOMACY
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_MARTIAN_OVERSEER_DIPLOMACY
+    text: STR_MARTIAN_OVERSEER_DIPLOMACY_UFOPEDIA
+
+#################################################
+######### LEADERS AND MISC KNOWLEDGE ###########
+###############################################
+
+  - id: STR_LEADER_INTEL_1
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_LEADER_INTEL_1
+    text: STR_LEADER_INTEL_1_UFOPEDIA
+  - id: STR_LEADER_INTEL_2
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_LEADER_INTEL_2
+    text: STR_LEADER_INTEL_2_UFOPEDIA
+  - id: STR_LEADER_INTEL_3
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_LEADER_INTEL_3
+    text: STR_LEADER_INTEL_3_UFOPEDIA
+  - id: STR_LEADER_INTEL_4
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_LEADER_INTEL_4
+    text: STR_LEADER_INTEL_4_UFOPEDIA
+  - id: STR_LEADER_INTEL_5
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_LEADER_INTEL_5
+    text: STR_LEADER_INTEL_5_UFOPEDIA
+  - id: STR_LEADER_INTEL_6
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_LEADER_INTEL_6
+    text: STR_LEADER_INTEL_6_UFOPEDIA
+
+###################################################
+###### SCIENTISTS AND PYRRIC VICTORY FINALE ######
+#################################################
+
+  - id: STR_HEAT_RAY_TECH_PHOTON
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_HEAT_RAY_TECH_PHOTON
+    text: STR_HEAT_RAY_TECH_PHOTON_UFOPEDIA
+  - id: STR_HEAT_RAY_TECH_MICROWAVE
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_HEAT_RAY_TECH_MICROWAVE
+    text: STR_HEAT_RAY_TECH_MICROWAVE_UFOPEDIA
+  - id: STR_HUMAN_HARVEST_1
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_HUMAN_HARVEST_1
+    text: STR_HUMAN_HARVEST_1_UFOPEDIA
+  - id: STR_HUMAN_HARVEST_2
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_HUMAN_HARVEST_2
+    text: STR_HUMAN_HARVEST_2_UFOPEDIA
+  - id: STR_MARTIAN_TERRAFORMATION
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_MARTIAN_TERRAFORMATION
+    text: STR_MARTIAN_TERRAFORMATION_UFOPEDIA
+  - id: STR_ORGANIC_FLYING_MACHINES
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_ORGANIC_FLYING_MACHINES
+    text: STR_ORGANIC_FLYING_MACHINES_UFOPEDIA
+  - id: STR_BIOLOGICAL_WARFARE
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_BIOLOGICAL_WARFARE
+    text: STR_BIOLOGICAL_WARFARE_UFOPEDIA
+  - id: STR_OPERATION_FIRESTORM
+    type_id: 8
+    section: STR_ENEMY_INTELLIGENCE
+    requires:
+      - STR_OPERATION_FIRESTORM
+    text: STR_OPERATION_FIRESTORM_UFOPEDIA
 #Flying Machines
 ################################
 ###### MARTIAN CRAFTS #########
 ##############################
   - id: NIMBLE_FIGHTER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - NIMBLE_FIGHTER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - NIMBLE_FIGHTER
     text: NIMBLE_FIGHTER_UFOPEDIA
   - id: TRANSPORT_BARGE
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - TRANSPORT_BARGE
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - TRANSPORT_BARGE
     text: TRANSPORT_BARGE_UFOPEDIA
   - id: BLOCKADE_RUNNER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - BLOCKADE_RUNNER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - BLOCKADE_RUNNER
     text: BLOCKADE_RUNNER_UFOPEDIA
   - id: SUPPORT_BOAT
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - SUPPORT_BOAT
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - SUPPORT_BOAT
     text: SUPPORT_BOAT_UFOPEDIA
   - id: FRIGATE
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - FRIGATE
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - FRIGATE
     text: FRIGATE_UFOPEDIA
   - id: DESTROYER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - DESTROYER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - DESTROYER
     text: DESTROYER_UFOPEDIA
   - id: CRUISER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - CRUISER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - CRUISER
     text: CRUISER_UFOPEDIA
 #################################
 ###### SELENITE CRAFTS #########
 ###############################
   - id: STR_SELENITE_FIGHTER
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_VEHICLES
     #requires:
     #  - STR_SELENITE_FIGHTER
     text: STR_SELENITE_FIGHTER_UFOPEDIA
   - id: STR_SELENITE_GUNSHIP
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_VEHICLES
     #requires:
     #  - STR_SELENITE_GUNSHIP
     text: STR_SELENITE_GUNSHIP_UFOPEDIA
   - id: STR_SELENITE_TRANSPORT
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_VEHICLES
     #requires:
     #  - STR_SELENITE_TRANSPORT
     text: STR_SELENITE_TRANSPORT_UFOPEDIA
@@ -1405,39 +1733,39 @@ ufopaedia:
 ########################
   - id: STR_MARTIAN_ASSAULT_WALKER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - STR_MARTIAN_ASSAULT_WALKER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - STR_MARTIAN_ASSAULT_WALKER
     text: STR_MARTIAN_ASSAULT_WALKER_UFOPEDIA
   - id: STR_MARTIAN_BATTLE_WALKER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - STR_MARTIAN_BATTLE_WALKER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - STR_MARTIAN_BATTLE_WALKER
     text: STR_MARTIAN_BATTLE_WALKER_UFOPEDIA
   - id: STR_MARTIAN_SIEGE_WALKER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - STR_MARTIAN_SIEGE_WALKER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - STR_MARTIAN_SIEGE_WALKER
     text: STR_MARTIAN_SIEGE_WALKER_UFOPEDIA
   - id: STR_MARTIAN_HARVESTER_WALKER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - STR_MARTIAN_HARVESTER_WALKER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - STR_MARTIAN_HARVESTER_WALKER
     text: STR_MARTIAN_HARVESTER_WALKER_UFOPEDIA
   - id: STR_MARTIAN_OVERLORD_WALKER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - STR_MARTIAN_OVERLORD_WALKER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - STR_MARTIAN_OVERLORD_WALKER
     text: STR_MARTIAN_OVERLORD_WALKER_UFOPEDIA
   - id: STR_MARTIAN_RECON_WALKER
     type_id: 9
-    section: STR_UFOS
-    #requires:
-    #  - STR_MARTIAN_RECON_WALKER
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - STR_MARTIAN_RECON_WALKER
     text: STR_MARTIAN_RECON_WALKER_UFOPEDIA
 
 ###############################
@@ -1446,47 +1774,65 @@ ufopaedia:
 
   - id: STR_MARTIAN_CAMP
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_CAMP
     text: STR_MARTIAN_CAMP_UFOPEDIA
     ##listOrder: 12800
   - id: STR_MARTIAN_OUTPOST
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_OUTPOST
     text: STR_MARTIAN_OUTPOST_UFOPEDIA
     ##listOrder: 12900
   - id: STR_MARTIAN_TROOP_BARRACKS
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_TROOP_BARRACKS
     text: STR_MARTIAN_TROOP_BARRACKS_UFOPEDIA
     ##listOrder: 13000
   - id: STR_MARTIAN_HARVEST_FACILITY
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_HARVEST_FACILITY
     text: STR_MARTIAN_HARVEST_FACILITY_UFOPEDIA
     ##listOrder: 13100
   - id: STR_MARTIAN_WATCHTOWER
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_WATCHTOWER
     text: STR_MARTIAN_WATCHTOWER_UFOPEDIA
     ##listOrder: 13200
   - id: STR_MARTIAN_HIGH_COMMAND
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_HIGH_COMMAND
     text: STR_MARTIAN_HIGH_COMMAND_UFOPEDIA
     ##listOrder: 13400
   - id: STR_MARTIAN_SUPPLY_DEPOT
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_SUPPLY_DEPOT
     text: STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA
     ##listOrder: 13600
   - id: STR_MARTIAN_CLONE_LAB
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_CLONE_LAB
     text: STR_MARTIAN_CLONE_LAB_UFOPEDIA
     ##listOrder: 13700
   - id: STR_MARTIAN_REDOUBT
     type_id: 9
-    section: STR_UFOS
+    section: STR_MARTIAN_BUILDINGS
+    requires:
+      - STR_MARTIAN_REDOUBT
     text: STR_MARTIAN_REDOUBT_UFOPEDIA
     ##listOrder: 13800
 
@@ -1502,7 +1848,7 @@ ufopaedia:
 ############################
   - id: STR_MARCH
     type_id: 1
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLES
     image_id: MARCH_IMAGE
     rect_stats:
       x: 200
@@ -1517,7 +1863,7 @@ ufopaedia:
     text: STR_MARCH_UFOPEDIA
   - id: STR_MARCH_LARGE
     type_id: 1
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLES
     image_id: MARCH_LARGE_IMAGE
     rect_stats:
       x: 200
@@ -1531,7 +1877,7 @@ ufopaedia:
       height: 160
     text: STR_MARCH_LARGE_UFOPEDIA
   - id: STR_CONQUEROR
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLES
     text: STR_CONQUEROR_UFOPEDIA
     ##listOrder: 111
     image_id: CONQUEROR.SPK
@@ -1546,9 +1892,92 @@ ufopaedia:
       y: 18
       width: 205
       height: 80
+
+  - id: STR_FOKKER_EINDECKER
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_FOKKER_EINDECKER_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: FOKKER_EINDECKER_UFOPEDIA
+  - id: STR_AIRCO_DH2
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_AIRCO_DH2_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: AIRCO_DH2_UFOPEDIA
+
+  - id: STR_NIEUPORT_17
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_NIEUPORT_17_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: NIEUPORT_17_UFOPEDIA
+  - id: STR_SOPWITH_PUP
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_SOPWITH_PUP_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SOPWITH_PUP_UFOPEDIA
+  - id: STR_ALBATROS_DIII
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_ALBATROS_DIII_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: ALBATROS_DIII_UFOPEDIA
+
   - id: STR_SPAD
     type_id: 1
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLES
     text: STR_SPAD_UFOPEDIA
     ##listOrder: 112
     rect_stats:
@@ -1562,9 +1991,156 @@ ufopaedia:
       width: 205
       height: 80
     image_id: SPAD.SPK
+  - id: STR_SPAD
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_SPAD_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SPAD.SPK
+  - id: STR_ROYAL_AIRCRAFT_SE5A
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: ROYAL_AIRCRAFT_SE5A_UFOPEDIA
+  - id: STR_STR_FOKKER_DR1
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_STR_FOKKER_DR1_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: STR_FOKKER_DR1_UFOPEDIA
+#######################################
+  - id: STR_SIKORSKI_ILYA_MUROMETS
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_SIKORSKI_ILYA_MUROMETS_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: SIKORSKI_ILYA_MUROMETS_UFOPEDIA
+  - id: STR_HALBERSTADT_CLII
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_HALBERSTADT_CLII_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: HALBERSTADT_CLII_UFOPEDIA
+  - id: STR_HANDLEY_PAGE_TYPE_O
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_HANDLEY_PAGE_TYPE_O_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: HANDLEY_PAGE_TYPE_O_UFOPEDIA
+
+  - id: STR_ZEPPELIN_STAAKEN_RVI
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_ZEPPELIN_STAAKEN_RVI_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: ZEPPELIN_STAAKEN_RVI_UFOPEDIA
+  - id: STR_CAPRIONI_CA5
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_CAPRIONI_CA5_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: CAPRIONI_CA5_UFOPEDIA
+  - id: STR_BRISTOL_F2B
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_BRISTOL_F2B_UFOPEDIA
+    ##listOrder: 112
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 18
+      width: 205
+      height: 80
+    image_id: BRISTOL_F2B_UFOPEDIA
+####################################
   - id: STR_RCLASS_AIRSHIP
     type_id: 1
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLES
     text: STR_RCLASS_AIRSHIP_UFOPEDIA
     ##listOrder: 113
     rect_stats:
@@ -1578,28 +2154,44 @@ ufopaedia:
       width: 205
       height: 80
     image_id: RCLASS_AIRSHIP.SPK
+  - id: STR_CCLASS_AIRSHIP
+    type_id: 1
+    section: STR_VEHICLES
+    text: STR_CCLASS_AIRSHIP_UFOPEDIA
+    ##listOrder: 113
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 38
+      width: 205
+      height: 80
+    image_id: CCLASS_AIRSHIP_UFOPEDIA
 ##################################
   - id: STR_TWIN_HMG
     type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLE_WEAPONS
     image_id: TWIN_HMG
     text: STR_TWIN_HMG_UFOPEDIA
     ##listOrder: 801
   - id: STR_AUTOCANNON
     type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLE_WEAPONS
     image_id: AUTOCANNON
     text: STR_AUTOCANNON_UFOPEDIA
     ##listOrder: 802
   - id: STR_QF_1_PDR_POMPOM
     type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLE_WEAPONS
     image_id: POMPOM
     text: STR_QF_1_PDR_POMPOM_UFOPEDIA
     ##listOrder: 803
   - id: STR_FRAGMENTATION_BOMB
     type_id: 2
-    section: STR_XCOM_CRAFT_ARMAMENT
+    section: STR_VEHICLE_WEAPONS
     image_id: FRAG_BOMB
     text: STR_FRAGMENTATION_BOMB_UFOPEDIA
     ##listOrder: 803

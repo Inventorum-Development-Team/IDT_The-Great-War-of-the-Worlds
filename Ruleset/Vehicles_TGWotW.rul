@@ -122,8 +122,446 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
+
+###################################
+######### AIRCRAFT ###############
+#################################
+
+#TIER 0
+  - type: STR_FOKKER_EINDECKER
+    sprite: 101
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_AIRCO_DH2
+    sprite: 102
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+#################################
+# TIER 1
+  - type: STR_NIEUPORT_17
+    sprite: 103
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_SOPWITH_PUP
+    sprite: 104
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_ALBATROS_DIII
+    sprite: 105
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+#################################
+# TIER 2
+
+  - type: STR_SPAD
+    sprite: 106
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_ROYAL_AIRCRAFT_SE5A
+    sprite: 107
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_FOKKER_DR1
+    sprite: 108
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 2
+    weaponTypes:
+      - 0
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_ONE
+    soldiers: 1
+    vehicles: 0
+    pilots: 1
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+#########################################
+
+#############################
+######## BOMBERS ###########
+###########################
+# TIER 1
+  - type: STR_SIKORSKI_ILYA_MUROMETS
+    sprite: 124
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 0
+      - [3, 4]
+      - [3, 4]
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_BOMB_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_HALBERSTADT_CLII
+    sprite: 125
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 0
+      - [3, 4]
+      - [3, 4]
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_BOMB_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_HANDLEY_PAGE_TYPE_O
+    sprite: 126
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 0
+      - [3, 4]
+      - [3, 4]
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_BOMB_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+###########################
+# TIER 2
+
+  - type: STR_ZEPPELIN_STAAKEN_RVI
+    sprite: 127
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 0
+      - [3, 4]
+      - [3, 4]
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_BOMB_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_CAPRIONI_CA5
+    sprite: 128
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 0
+      - [3, 4]
+      - [3, 4]
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_BOMB_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+  - type: STR_BRISTOL_F2B
+    sprite: 129
+    fuelMax: 300
+    damageMax: 130
+    speedMax: 500
+    accel: 4
+    weapons: 4
+    weaponTypes:
+      - 0
+      - [3, 4]
+      - [3, 4]
+      - [3, 4]
+    weaponStrings:
+      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_BOMB_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 2
+    vehicles: 0
+    pilots: 2
+    allowLanding: false
+    costBuy: 50000
+    costSell: 35000
+    refuelRate: 20
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 0
+    radarRange: 100
+    radarChance: 10
+    score: 400
+    #listOrder: 850
+
+#########################
+####### LANDSHIP #######
+#######################
+
   - type: STR_CONQUEROR
-    sprite: 200
+    sprite: 147
     fuelMax: 1000
     damageMax: 1000
     speedMax: 90
@@ -184,41 +622,13 @@ crafts:
       - [4, 15, 0, 0]
       - [3, 16, 0, 0]
       - [4, 16, 0, 0]
-    listOrder: 800
-###################################
-######### AIRCRAFT ###############
-#################################
-#Fighters
-  - type: STR_SPAD
-    sprite: 201
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    accel: 4
-    weapons: 2
-    weaponTypes:
-      - 0
-      - [3, 4]
-    weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_ONE
-    soldiers: 1
-    vehicles: 0
-    pilots: 1
-    allowLanding: false
-    costBuy: 50000
-    costSell: 35000
-    refuelRate: 20
-    transferTime: 72
-    autoPatrol: true
-    sightRange: 0
-    radarRange: 100
-    radarChance: 10
-    score: 400
-    listOrder: 850
-#Airships
-  - type: STR_RCLASS_AIRSHIP
-    sprite: 202
+    #listOrder: 800
+
+############################
+######## AIRSHIPS #########
+##########################
+  - type: STR_CCLASS_AIRSHIP
+    sprite: 326
     fuelMax: 1450
     damageMax: 500
     speedMax: 300
@@ -246,7 +656,7 @@ crafts:
     radarRange: 250
     radarChance: 10
     score: 400
-    listOrder: 118
+    #listOrder: 118
     battlescapeTerrainData:
       name: R_CLASS_ZEPPELIN
       mapDataSets:
@@ -293,6 +703,85 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
+
+  - type: STR_RCLASS_AIRSHIP
+    sprite: 327
+    fuelMax: 1450
+    damageMax: 500
+    speedMax: 300
+    accel: 1
+    weapons: 4
+    weaponTypes:
+      - [0, 1]
+      - [0, 1]
+      - [0, 1]
+      - [0, 1, 4, 5]
+    weaponStrings:
+      - STR_CRAFT_CANNON_ONE
+      - STR_CRAFT_CANNON_TWO
+      - STR_CRAFT_MACHINE_GUN_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 12
+    vehicles: 0
+    pilots: 5
+    costBuy: 675000
+    costSell: 600000
+    refuelRate: 60
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 50
+    radarRange: 250
+    radarChance: 10
+    score: 400
+    #listOrder: 118
+    battlescapeTerrainData:
+      name: R_CLASS_ZEPPELIN
+      mapDataSets:
+        - BLANKS
+        - IDT_ZEPPELIN
+        - ROPE
+        - STAIRS
+      mapBlocks:
+        - name: R_CLASS_ZEPPELIN
+          width: 10
+          length: 20
+          items:
+            STR_ZEPPELIN_TURRET_SPAWNER:
+              - [6, 15, 6]
+              - [2, 15, 6]
+          fuseTimers:
+            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+          randomizedItems:
+              - position: [3, 14, 6]
+                amount: 5
+                mixed: true
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+    craftInventoryTile: [4, 2, 6]
+    deployment:
+# Frontal gondola
+# Captain's Helm
+      - [4, 15, 6, 4]
+# Turret Gunners
+      - [5, 15, 6, 2]
+      - [3, 15, 6, 6]
+# Crew staff
+      - [4, 14, 6, 2]
+      - [5, 14, 6, 2]
+      - [4, 13, 6, 2]
+      - [5, 13, 6, 2]
+# Rear gondola
+# Passengers
+      - [4, 3, 6, 2]
+      - [5, 3, 6, 2]
+      - [3, 3, 6, 2]
+      - [5, 4, 6, 2]
+      - [3, 4, 6, 2]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+
 
 craftWeapons:
 #Delete
@@ -565,22 +1054,73 @@ extraSprites:
     files:
       132: Resources/Crafts/March_base.png
       133: Resources/Crafts/March_Large_base.png
-      233: Resources/Crafts/Conqueror_base.png
-      234: Resources/Crafts/Spad_base.png
-      235: Resources/Crafts/RClassAirship_base.png
+      134: Resources/Crafts/FokkerEindecker_base.png
+      135: Resources/Crafts/AircoDH2_base.png
+      136: Resources/Crafts/Nieuport17_base.png
+      137: Resources/Crafts/SopwithPup_base.png
+      138: Resources/Crafts/AlbatrosDIII_Base.png
+      139: Resources/Crafts/Spad_base.png
+      140: Resources/Crafts/SE5a_base.png
+      141: Resources/Crafts/FokkerDR1_base.png
+
+      157: Resources/Crafts/IlyaMuromets_base.png
+      158: Resources/Crafts/Halberstadt_base.png
+      159: Resources/Crafts/HandleyPageTypeO_base.png
+      160: Resources/Crafts/ZeppelinStaakenRVI_base.png
+      161: Resources/Crafts/CaprioniCa5_base.png
+      162: Resources/Crafts/BristolF2B_base.png
+
+      180: Resources/Crafts/Conqueror_base.png
+
+      359: Resources/Crafts/CClassAirship_base.png
+      360: Resources/Crafts/RClassAirship_base.png
   - type: INTICON.PCK
     files:
       99: Resources/Crafts/March_minimised.png
       100: Resources/Crafts/March_Large_minimised.png
-      200: Resources/Crafts/Conqueror_minimised.png
-      201: Resources/Crafts/Spad_minimised.png
-      202: Resources/Crafts/RClassAirship_minimised.png
+      101: Resources/Crafts/FokkerEindecker_minimised.png
+      102: Resources/Crafts/AircoDH2_minimised.png
+      103: Resources/Crafts/Nieuport17_minimised.png
+      104: Resources/Crafts/SopwithPup_minimised.png
+      105: Resources/Crafts/AlbatrosDIII_minimised.png
+      106: Resources/Crafts/Spad_minimised.png
+      107: Resources/Crafts/SE5a_minimised.png
+      108: Resources/Crafts/FokkerDR1_minimised.png
+
+      124: Resources/Crafts/IlyaMuromets_minimised.png
+      125: Resources/Crafts/Halberstadt_minimised.png
+      126: Resources/Crafts/HandleyPageTypeO_minimised.png
+      127: Resources/Crafts/ZeppelinStaakenRVI_minimised.png
+      128: Resources/Crafts/CaprioniCa5_minimised.png
+      129: Resources/Crafts/BristolF2B_minimised.png
+
+      147: Resources/Crafts/Conqueror_minimised.png
+
+      326: Resources/Crafts/CClassAirship_minimised.png
+      327: Resources/Crafts/RClassAirship_minimised.png
+
       110: Resources/Crafts/March_dogfight.png
       111: Resources/Crafts/March_Large_dogfight.png
-      211: Resources/Crafts/Conqueror_dogfight.png
-      212: Resources/Crafts/Spad_dogfight.png
-      213: Resources/Crafts/RClassAirship_dogfight.png
+      112: Resources/Crafts/FokkerEindecker_dogfight.png
+      113: Resources/Crafts/AircoDH2_dogfight.png
+      114: Resources/Crafts/Nieuport17_dogfight.png
+      115: Resources/Crafts/SopwithPup_dogfight.png
+      116: Resources/Crafts/AlbatrosDIII_dogfight.png
+      117: Resources/Crafts/Spad_dogfight.png
+      118: Resources/Crafts/SE5a_dogfight.png
+      119: Resources/Crafts/FokkerDR1_dogfight.png
 
+      135: Resources/Crafts/IlyaMuromets_dogfight.png
+      136: Resources/Crafts/Halberstadt_dogfight.png
+      137: Resources/Crafts/HandleyPageTypeO_dogfight.png
+      138: Resources/Crafts/ZeppelinStaakenRVI_dogfight.png
+      139: Resources/Crafts/CaprioniCa5_dogfight.png
+      140: Resources/Crafts/BristolF2B_dogfight.png
+
+      158: Resources/Crafts/Conqueror_dogfight.png
+
+      337: Resources/Crafts/CClassAirship_dogfight.png
+      338: Resources/Crafts/RClassAirship_dogfight.png
 #Craft weapons
   - type: BASEBITS.PCK
     files:
@@ -609,24 +1149,121 @@ extraSprites:
     height: 200
     files:
       0: Resources/Crafts/MARCH_LARGE_UFOPEDIA.png
-  - type: CONQUEROR.SPK
+  - type: AIRCO_DH2_UFOPEDIA
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/CONQUEROR_UFOPEDIA.png
+      0: Resources/Crafts/AIRCO_DH2_UFOPEDIA.png
+  - type: FOKKER_EINDECKER_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/FOKKER_EINDECKER_UFOPEDIA.png
+  - type: NIEUPORT_17_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/NIEUPORT_17_UFOPEDIA.png
+  - type: SOPWITH_PUP_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/SOPWITH_PUP_UFOPEDIA.png
+  - type: ALBATROS_DIII_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/ALBATROS_DIII_UFOPEDIA.png
+  - type: SE5A_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/SE5A_UFOPEDIA.png
+  - type: FOKKER_DR1_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/FOKKER_DR1_UFOPEDIA.png
   - type: SPAD.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Crafts/SPAD_UFOPEDIA.png
+  - type: BRISTOL_F2B_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/BRISTOL_F2B_UFOPEDIA.png
+  - type: CAPRIONI_CA5_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/CAPRIONI_CA5_UFOPEDIA.png
+  - type: HALBERSTADT_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/HALBERSTADT_UFOPEDIA.png
+  - type: HANDLEY_PAGE_TYPE_O_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/HANDLEY_PAGE_TYPE_O_UFOPEDIA.png
+  - type: ILYA_MUROMETS_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/ILYA_MUROMETS_UFOPEDIA.png
+  - type: ZEPPELIN_STAAKEN_RVI_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/ZEPPELIN_STAAKEN_RVI_UFOPEDIA.png
+  - type: CCLASS_AIRSHIP_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/CCLASS_AIRSHIP_UFOPEDIA.png
+
+
+
+
+
+
+
+
+
+
+
+  - type: CONQUEROR.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Crafts/CONQUEROR_UFOPEDIA.png
+
   - type: RCLASS_AIRSHIP.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Crafts/RCLASS_AIRSHIP_UFOPEDIA.png
+######################################
   - type: AUTOCANNON
     singleImage: true
     width: 320
