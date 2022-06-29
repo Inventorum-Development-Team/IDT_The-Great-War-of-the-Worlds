@@ -762,6 +762,14 @@ en-US:
       STR_PHLOGISTON_PISTOL_UFOPEDIA: Built as a light and effective sidearm based around the ruby rod beam tech. After several tries, it was found the energy mechanisms fitted inside a large handgun like the Colt M1911. Subsequent models used the blueprints of the handgun as basis. The barrel slits gets illuminated once the battery charges the beam emitter.
       STR_PHLOGISTON_SMALL_BATTERY: Phlogiston Small Battery
 
+      STR_TRANQUILIZER_RIFLE: "Tranquilizer Gun"
+      STR_TRANQUILIZER_SHOTGUN_DARTS: "Tranquilizer Dart-Shells"
+      STR_TRANQUILIZER_RIFLE_UFOPEDIA: "A special purpose single-shot, break-action shotgun, designed to shoot blank shells with highly experimental darts filled with a clasified chemical compound inside, meant to incapacitate Martians. The darts have a syringe-like point that penetrates the thick skin of the Grays. The main drawback is the limited range of the dart once fired and the fact the enemy may take several shots to sedate, as we are unaware of the exact measure of chemicals required to fully knock them down."
+      STR_SONIC_HANDGUN: "Sonic Compact Handgun"
+      STR_SONIC_HANDGUN_UFOPEDIA: "Experience learnt with the Tranquilizer long guns showed the specialists tasked on stunning Grays were often in need of a lighter sidegun, as the bulky shotguns weren't easy to use. We've designed a small emitter, compact enough to fit inside a modified C93 pistol frame."
+      STR_SONIC_RIFLE: "Sonic Ranged Disrupter"
+      STR_SONIC_RIFLE_UFOPEDIA: "A direct replacement of the cumbersome Tranquilizer shotguns"
+
       #STR_:
       #STR_ _CLIP:
       #STR_ _UFOPEDIA: ...
@@ -1479,7 +1487,7 @@ en-US:
 ######### VEHICLE WEAPONS ###########
 ####################################
       STR_VICKERS_MMG: "VICKERS MMG"
-      STR_VICKERS_MMG_UFOPEDIA: 
+      STR_VICKERS_MMG_UFOPEDIA:
       STR_VICKERS_MMG_LAUNCHER: "Vickers MMG"
       STR_TWIN_HMG: "TWIN SPANDAU HMG"
       STR_TWIN_HMG_UFOPEDIA: "DUAL MOUNTED AIR-COOLED SPANDAU IMG-08 MACHINE GUNS, FEATURES A VERY HIGH RATE OF FIRE, ALTHOUGH THE AMMO USED IS RATHER WEAK."
@@ -1487,7 +1495,7 @@ en-US:
       STR_TWIN_HMG_ROUNDS_X50: "Twin HMG Rounds (x50)"
       STR_50CAL_BROWNING_HMG: "TWIN .50 CAL BROWNING HMG"
       STR_50CAL_BROWNING_HMG_UFOPEDIA: "Larger and more powerful version of the .30 MMG also concieved by John M. Browning. Fires 12.7mm high-powered rounds at longer range than other machine guns. "
-      
+
       STR_303_LEWIS_TURRET: ".303 LEWIS TURRET"
       STR_303_LEWIS_TURRET_UFOPEDIA: "Vehicle-mounted version of the Lewis Gun, it has the wooden stock replaced with a handle, and a larger ammo pan."
       STR_303_LEWIS_TURRET_LAUNCHER: ".303 Lewis Turret"
@@ -1512,9 +1520,9 @@ en-US:
       STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, could be found mounted everywhere, from aircrafts to gun emplacements and warships. Fires special sharpnel rounds.
       STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
       STR_QF_1_PDR_POMPOM_X30: QF 1-pdr Shells (x30)
-      
-      
-      
+
+
+
       STR_FRAGMENTATION_BOMB: "FRAG BOMBS"
       STR_FRAGMENTATION_BOMB_UFOPEDIA: "Free fall 20lb (a bit more than 9 kg) fragmentation bomb. Basically a big grenade, can shred light armor and infantry. Mounted below the frame of the plane, sometimes even thrown manually by the aircrew."
       STR_FRAGMENTATION_BOMB_LAUNCHER: "Fragmentation Bombs Rack (x5)"
@@ -1525,7 +1533,7 @@ en-US:
       STR_CLUSTER_BOMB: "CLUSTER BOMBS"
       STR_CLUSTER_BOMB_UFOPEDIA: "A large group of free fall medium-sized 260lb bombs meant to saturate an extensive area with explosions very quickly."
       STR_CLUSTER_BOMB_LAUNCHER: "Cluster Bombs Rack (x10)"
-      
+
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_THREE: "MACHINE GUN-3>{ALT}{0}"

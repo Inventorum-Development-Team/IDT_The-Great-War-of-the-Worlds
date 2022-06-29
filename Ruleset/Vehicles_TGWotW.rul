@@ -304,7 +304,6 @@ crafts:
     damageMax: 350
     speedMax: 500
     accel: 5
-    weapons: 2
     avoidBonus: 40
     weapons: 3
     weaponTypes:
@@ -474,12 +473,12 @@ crafts:
     accel: 3
     weapons: 4
     weaponTypes:
-      - 0
-      - [3, 4]
-      - [3, 4]
-      - [3, 4]
+      - 1
+      - [1, 5]
+      - 5
+      - 5
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
@@ -509,12 +508,12 @@ crafts:
     accel: 3
     weapons: 4
     weaponTypes:
-      - 0
-      - [3, 4]
-      - [3, 4]
-      - [3, 4]
+      - 1
+      - [1, 5]
+      - 5
+      - 5
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
@@ -541,12 +540,12 @@ crafts:
     accel: 4
     weapons: 4
     weaponTypes:
-      - 0
-      - [3, 4]
-      - [3, 4]
-      - [3, 4]
+      - 1
+      - [1, 5]
+      - 5
+      - 5
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
@@ -573,12 +572,12 @@ crafts:
     accel: 4
     weapons: 4
     weaponTypes:
-      - 0
-      - [3, 4]
-      - [3, 4]
-      - [3, 4]
+      - 1
+      - [1, 5]
+      - 5
+      - 5
     weaponStrings:
-      - STR_CRAFT_MACHINE_GUN_ONE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
