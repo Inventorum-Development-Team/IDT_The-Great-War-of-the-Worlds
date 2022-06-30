@@ -768,7 +768,7 @@ en-US:
       STR_SONIC_HANDGUN: "Sonic Compact Handgun"
       STR_SONIC_HANDGUN_UFOPEDIA: "Experience learnt with the Tranquilizer long guns showed the specialists tasked on stunning Grays were often in need of a lighter sidegun, as the bulky shotguns weren't easy to use. We've designed a small emitter, compact enough to fit inside a modified C93 pistol frame."
       STR_SONIC_RIFLE: "Sonic Ranged Disrupter"
-      STR_SONIC_RIFLE_UFOPEDIA: "A direct replacement of the cumbersome Tranquilizer shotguns"
+      STR_SONIC_RIFLE_UFOPEDIA: "A direct replacement of the cumbersome Tranquilizer shotguns. This weapon is lighter than it seems and emitters a high-pitched sound in the same frequency heard by the average Martian. The amplifying antenna is highly fragile, so using it for melee combat is not recommended."
 
       #STR_:
       #STR_ _CLIP:
@@ -1268,6 +1268,8 @@ en-US:
       STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3: "Acid Capsule Flask x3"
       STR_MARTIAN_BLADE: Martian Blade
       STR_MARTIAN_BLADE_UFOPEDIA: "The Martian Blade is an unique melee energy weapon used by elite troopers. It seems each blade is handmade and belongs to a family, passed from warrior to warrior. Powerful and brutal."
+      STR_MARTIAN_BLOOD_EXTRACTOR: "Martian Blood Extractor"
+      STR_MARTIAN_BLOOD_EXTRACTOR_UFOPEDIA: "This unnerving 'tool' is often used by the enemy in harvesting operations. Basically a glorified syringe, the large lance-like piece is impaled directly into the body of the victim. The guts and blood are then drained and stored in a flask behind the Extractor, in a truly gruesome fashion. Very often, the victim is left bleeding to death as result of the violent procedure. The range is limited, but it ignores completely any kind of armor if it hits."
 
       STR_RED_WEED_RESEARCH: Red Weed Research
       STR_CHEMICAL_WARFARE_RESEARCH: Martian Chemical Warfare Research
