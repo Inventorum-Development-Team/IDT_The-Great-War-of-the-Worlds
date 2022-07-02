@@ -15,7 +15,7 @@
   - type: recurringTerrorNormal
 #    label: 1
     varName: recurringTerrorNormal
-    firstMonth: 0
+    firstMonth: 3
     executionOdds: 50
     #raceWeights:
     missionWeights:
@@ -96,64 +96,39 @@
     randomDelay: 20000
 
 
-###################################
-  - type: MartianStaticCamp
+
+###############################
+# WESTERN EUROPEAN CAMPAIGN
+
+  - type: MartianStaticCamp_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_CAMP: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 0
-    varName: MartianStaticCamp
-    #researchTriggers:
-    #  STR_ADVANCED_FIREARMS: true
-#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    varName: MartianStaticCamp_WesternEurope
     startDelay: 5600
     randomDelay: 20000
     executionOdds: 50
-  - type: MartianStaticOutpost_PlayerBase
-    missionWeights:
-      0:
-        STR_MARTIAN_STATIC_OUTPOST: 100
-    useTable: false
-    #maxRuns: 1
-    varName: MartianStaticOutpost_PlayerBase
-    #researchTriggers:
-    #  STR_ADVANCED_FIREARMS: true
-#      STR_CONTACT_WITH_NIKOLA_TESLA: true
-    startDelay: 7200
-    randomDelay: 20000
-    targetBaseOdds: 100
-    executionOdds: 50
 
-  - type: MartianStaticOutpost
+
+  - type: MartianStaticOutpost_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_OUTPOST: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 1
-    varName: MartianStaticOutpost
+    varName: MartianStaticOutpost_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
@@ -161,168 +136,126 @@
     randomDelay: 20000
     executionOdds: 50
 
-  - type: MartianStaticTroopBarracks
+  - type: MartianStaticTroopBarracks_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_TROOP_BARRACKS: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 2
-    varName: MartianStaticTroopBarracks
+    varName: MartianStaticTroopBarracks_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
     startDelay: 10800
     randomDelay: 20000
     executionOdds: 50
-  - type: MartianStaticHighCommand
+  - type: MartianStaticHighCommand_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_HIGH_COMMAND: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 6
-    varName: MartianStaticHighCommand
+    varName: MartianStaticHighCommand_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
     startDelay: 36000
     randomDelay: 20000
     executionOdds: 50
-  - type: MartianStaticHarvestFacility
+  - type: MartianStaticHarvestFacility_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_HARVEST_FACILITY: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 4
-    varName: MartianStaticHarvestFacility
+    varName: MartianStaticHarvestFacility_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
     startDelay: 26200
     randomDelay: 20000
     executionOdds: 50
-  - type: MartianStaticWatchtower
+  - type: MartianStaticWatchtower_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_WATCHTOWER: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 5
-    varName: MartianStaticWatchtower
+    varName: MartianStaticWatchtower_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
     startDelay: 14400
     randomDelay: 20000
     executionOdds: 50
-  - type: MartianStaticCloneLab
+  - type: MartianStaticCloneLab_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_CLONE_LAB: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 12
-    varName: MartianStaticCloneLab
+    varName: MartianStaticCloneLab_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
     startDelay: 20160
     randomDelay: 20000
     executionOdds: 50
-  - type: MartianStaticSupplyDepot
+  - type: MartianStaticSupplyDepot_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_SUPPLY_DEPOT: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 8
-    varName: MartianStatiCloneLab
+    varName: MartianStatiCloneLab_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
     startDelay: 20160
     randomDelay: 20000
     executionOdds: 50
-  - type: MartianStaticRedoubt
+  - type: MartianStaticRedoubt_WesternEurope
     missionWeights:
       0:
         STR_MARTIAN_STATIC_REDOUBT: 100
     regionWeights:
       0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_WESTERN_EUROPEAN_CAMPAIGN: true
     useTable: false
     firstMonth: 14
-    varName: MartianStaticRedoubt
+    varName: MartianStaticRedoubt_WesternEurope
     #researchTriggers:
     #  STR_ADVANCED_FIREARMS: true
 #      STR_CONTACT_WITH_NIKOLA_TESLA: true
@@ -330,15 +263,517 @@
     randomDelay: 20000
     executionOdds: 50
 
+#################################
+# NORTH AMERICAN CAMPAIGN
 
-  - type: martianBreakthrough
+  - type: MartianStaticCamp_NorthAmerica
     missionWeights:
       0:
-        STR_ALIEN_INFILTRATION: 100
+        STR_MARTIAN_STATIC_CAMP: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 0
+    varName: MartianStaticCamp_NorthAmerica
+    startDelay: 5600
+    randomDelay: 20000
+    executionOdds: 50
+
+
+  - type: MartianStaticOutpost_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_OUTPOST: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 1
+    varName: MartianStaticOutpost_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 10800
+    randomDelay: 20000
+    executionOdds: 50
+
+  - type: MartianStaticTroopBarracks_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_TROOP_BARRACKS: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 2
+    varName: MartianStaticTroopBarracks_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 10800
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticHighCommand_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_HIGH_COMMAND: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
     firstMonth: 6
-    startDelay: 1000
-    randomDelay: 43500
-    maxRuns: 6
-    varName: martianBreakthrough
+    varName: MartianStaticHighCommand_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 36000
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticHarvestFacility_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_HARVEST_FACILITY: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 4
+    varName: MartianStaticHarvestFacility_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 26200
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticWatchtower_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_WATCHTOWER: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 5
+    varName: MartianStaticWatchtower_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 14400
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticCloneLab_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_CLONE_LAB: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 12
+    varName: MartianStaticCloneLab_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 20160
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticSupplyDepot_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_SUPPLY_DEPOT: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 8
+    varName: MartianStatiCloneLab_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 20160
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticRedoubt_NorthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_REDOUBT: 100
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 100
+    researchTriggers:
+      STR_NORTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 14
+    varName: MartianStaticRedoubt_NorthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 43200
+    randomDelay: 20000
+    executionOdds: 50
+
+#################################
+# SOUTH AMERICAN CAMPAIGN
+
+  - type: MartianStaticCamp_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_CAMP: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 0
+    varName: MartianStaticCamp_SouthAmerica
+    startDelay: 5600
+    randomDelay: 20000
+    executionOdds: 50
+
+
+  - type: MartianStaticOutpost_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_OUTPOST: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 1
+    varName: MartianStaticOutpost_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 10800
+    randomDelay: 20000
+    executionOdds: 50
+
+  - type: MartianStaticTroopBarracks_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_TROOP_BARRACKS: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 2
+    varName: MartianStaticTroopBarracks_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 10800
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticHighCommand_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_HIGH_COMMAND: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 6
+    varName: MartianStaticHighCommand_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 36000
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticHarvestFacility_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_HARVEST_FACILITY: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 4
+    varName: MartianStaticHarvestFacility_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 26200
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticWatchtower_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_WATCHTOWER: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 5
+    varName: MartianStaticWatchtower_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 14400
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticCloneLab_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_CLONE_LAB: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 12
+    varName: MartianStaticCloneLab_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 20160
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticSupplyDepot_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_SUPPLY_DEPOT: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 8
+    varName: MartianStatiCloneLab_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 20160
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticRedoubt_SouthAmerica
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_REDOUBT: 100
+    regionWeights:
+      0:
+        STR_SOUTH_AMERICA: 100
+    researchTriggers:
+      STR_SOUTH_AMERICAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 14
+    varName: MartianStaticRedoubt_SouthAmerica
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 43200
+    randomDelay: 20000
+    executionOdds: 50
+
+################################
+
+#################################
+# CENTRAL ASIAN CAMPAIGN
+
+  - type: MartianStaticCamp_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_CAMP: 100
+    regionWeights:
+      0:
+        STR_EUROPE: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 0
+    varName: MartianStaticCamp_CentralAsia
+    startDelay: 5600
+    randomDelay: 20000
+    executionOdds: 50
+
+
+  - type: MartianStaticOutpost_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_OUTPOST: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 1
+    varName: MartianStaticOutpost_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 10800
+    randomDelay: 20000
+    executionOdds: 50
+
+  - type: MartianStaticTroopBarracks_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_TROOP_BARRACKS: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 2
+    varName: MartianStaticTroopBarracks_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 10800
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticHighCommand_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_HIGH_COMMAND: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 6
+    varName: MartianStaticHighCommand_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 36000
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticHarvestFacility_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_HARVEST_FACILITY: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 4
+    varName: MartianStaticHarvestFacility_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 26200
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticWatchtower_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_WATCHTOWER: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 5
+    varName: MartianStaticWatchtower_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 14400
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticCloneLab_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_CLONE_LAB: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 12
+    varName: MartianStaticCloneLab_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 20160
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticSupplyDepot_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_SUPPLY_DEPOT: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 8
+    varName: MartianStatiCloneLab_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 20160
+    randomDelay: 20000
+    executionOdds: 50
+  - type: MartianStaticRedoubt_CentralAsia
+    missionWeights:
+      0:
+        STR_MARTIAN_STATIC_REDOUBT: 100
+    regionWeights:
+      0:
+        STR_CENTRAL_ASIA: 100
+    researchTriggers:
+      STR_CENTRAL_ASIAN_CAMPAIGN: true
+    useTable: false
+    firstMonth: 14
+    varName: MartianStaticRedoubt_CentralAsia
+    #researchTriggers:
+    #  STR_ADVANCED_FIREARMS: true
+#      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    startDelay: 43200
+    randomDelay: 20000
+    executionOdds: 50
+
+#################################
+
+  - type: earlyMartianCylinder
+    missionWeights:
+      0:
+        STR_ALIEN_CYLINDER: 100
+    startDelay: 720
+    #randomDelay: 43500
+    firstMonth: 0
+    maxRuns: 1
+    varName: earlyMartianCylinder
     executionOdds: 100
+    targetBaseOdds: 100
 ###################################

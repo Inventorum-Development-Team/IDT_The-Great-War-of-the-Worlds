@@ -261,6 +261,50 @@ alienMissions:
         trajectory: P6
         timer: 60
 
+  - type: STR_ALIEN_CYLINDER
+    points: 0 #Pact score only awarded on month end
+    objective: 1
+    siteType: STR_MARTIAN_CYLINDER
+    spawnZone: 4 #Mission zone for alien bases
+    raceWeights:
+      0:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+      1:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+      3:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+      5:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+      7:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+      9:
+        STR_MARTIAN_LINE_INFANTRIES: 100
+    waves:
+      - ufo: STR_MARTIAN_RECON_WALKER
+        count: 1
+        trajectory: P0
+        timer: 16500
+      - ufo: STR_MARTIAN_RECON_WALKER
+        count: 1
+        trajectory: P1
+        timer: 15000
+      - ufo: SUPPORT_BOAT
+        count: 1
+        trajectory: P6
+        timer: 13800
+      - ufo: STR_MARTIAN_ASSAULT_WALKER
+        count: 1
+        trajectory: P7
+        timer: 9000
+      - ufo: STR_MARTIAN_SIEGE_WALKER
+        count: 1
+        trajectory: P7
+        timer: 60
+      - ufo: STR_MARTIAN_OVERLORD_WALKER
+        count: 1
+        trajectory: P7
+        timer: 60
+
   - type: STR_ALIEN_RETALIATION
     points: 0
     objective: 4

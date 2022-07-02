@@ -17,6 +17,23 @@
       - STR_ALIENS_ONLY
 ###############################
 
+  - name: STR_NORTH_AMERICAN_CAMPAIGN
+    cost: 100
+    points: 50
+    #needItem: true
+  - name: STR_WESTERN_EUROPEAN_CAMPAIGN
+    cost: 100
+    points: 50
+    #needItem: true
+  - name: STR_SOUTH_AMERICAN_CAMPAIGN
+    cost: 100
+    points: 50
+    #needItem: true
+  - name: STR_CENTRAL_ASIAN_CAMPAIGN
+    cost: 100
+    points: 50
+    #needItem: true
+
 ##########################################
 ######### VEHICLES REPORTS ##############
 #########################################

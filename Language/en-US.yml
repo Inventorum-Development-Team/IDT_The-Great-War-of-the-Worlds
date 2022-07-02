@@ -1049,6 +1049,11 @@ en-US:
 
 ########################
 
+      STR_NORTH_AMERICAN_CAMPAIGN: "North American Campaign"
+      STR_WESTERN_EUROPEAN_CAMPAIGN: "European Campaign"
+      STR_SOUTH_AMERICAN_CAMPAIGN: "South American Campaign"
+      STR_CENTRAL_ASIAN_CAMPAIGN: "Central Asian Campaign"
+
 
       STR_CAMPAIGN_SIEGE_OF_VERDUN_ALERT: "THEY SHALL NOT PASS!"
       STR_CAMPAIGN_SIEGE_OF_VERDUN_BRIEFING: "..."
@@ -1260,9 +1265,17 @@ en-US:
       STR_EXAMINATION_ROOM: "Examination Room"
       STR_EXAMINATION_ROOM_UFOPEDIA: "This is nothing but a table used to dissect living beings. The most probable destiny of thousands of humans over the course of the war. The smell of blood is still noticeable."
 
-      #STR_MARTIAN_STATIC_SUPPLY_DEPOT:
-      #STR_MARTIAN_STATIC_CLONE_LAB:
-      #SSTR_MARTIAN_STATIC_CAMP:
+      STR_MARTIAN_STATIC_SUPPLY_DEPOT: "Martian Supply Depot"
+      STR_MARTIAN_STATIC_CLONE_LAB: "Martian Organics Lab"
+      SSTR_MARTIAN_STATIC_CAMP: "Martian Camp"
+      STR_MARTIAN_STATIC_OUTPOST: "Martian Outpost"
+      STR_MARTIAN_STATIC_REDOUBT: "Martian Redoubt"
+      STR_MARTIAN_STATIC_WATCHTOWER: "Martian Watchtower"
+      STR_MARTIAN_STATIC_HARVEST_FACILITY: "Martian Harvest Facility"
+      STR_MARTIAN_STATIC_HIGH_COMMAND: "Martian High Command"
+      STR_MARTIAN_STATIC_TROOP_BARRACKS: "Martian Troop Barracks"
+      STR_ALIEN_CYLINDER: "Martian Cylinder"
+
 
       STR_HEATRAY_RIFLE: Heat-Ray Rifle
       STR_HEATRAY_RIFLE_BATTERY_PHOTON: Heat-Ray Rifle Photon Battery
@@ -1397,7 +1410,7 @@ en-US:
       STR_MARTIAN_HIGH_COMMAND_UFOPEDIA: "The brain of the Martian operation on land, from here are coordinated various attacks and offensives against human targets. The highest leaders of the enemy take refuge in these gigantic structures, with hundreds of soldiers. Their anti-aircraft batteries are quite efficient and their armour is extremely hard."
       STR_MARTIAN_SUPPLY_DEPOT: "Martian Supply Depot" # Storage Facility
       STR_MARTIAN_SUPPLY_DEPOT_UFOPEDIA: "A support facility, the purpose of which is to store the various war materials, such as weaponry, food, supplies and tools necessary for the enemy's total war machine. They are extremely hard, but they are poorly armed."
-      STR_MARTIAN_CLONE_LAB: "Martian Clone Lab" # Cloning Lab
+      STR_MARTIAN_CLONE_LAB: "Martian Organics Lab" # Cloning Lab
       STR_MARTIAN_CLONE_LAB_UFOPEDIA: "Martian scientific and research centres, closely related to Harvesting Facilities. They use genetic material obtained from Martian butchery to create and increase the quality of clones to generate more food for their ranks and make replacement limbs for their wounded. They also make organic tissue plates made of Red Weed to build warships and other Flying-Machines."
       STR_MARTIAN_REDOUBT: "Martian Redoubt"
       STR_MARTIAN_REDOUBT_UFOPEDIA: "The supreme Martian fortress. The existence of these gigantic facilities can only mean that the enemy is prepared for a total siege. They have the best anti-aircraft weapons, the best shields and armour and an enormous number of military and scientific personnel. Assaulting a Redoubt can be a hard blow for the Martians, but it is an almost suicidal mission."
