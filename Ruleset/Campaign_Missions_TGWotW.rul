@@ -181,7 +181,7 @@ alienMissions:
   - type: STR_ALIEN_INFILTRATION
     points: 0 #Pact score only awarded on month end
     objective: 1
-    siteType: STR_ALIEN_BASE_ASSAULT
+    siteType: STR_MARTIAN_CYLINDER
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
@@ -213,15 +213,7 @@ alienMissions:
         count: 1
         trajectory: P7
         timer: 9000
-      - ufo: DESTROYER
-        count: 1
-        trajectory: P7
-        timer: 60
       - ufo: STR_MARTIAN_SIEGE_WALKER
-        count: 1
-        trajectory: P7
-        timer: 60
-      - ufo: CRUISER
         count: 1
         trajectory: P7
         timer: 60

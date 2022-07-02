@@ -329,4 +329,16 @@
     startDelay: 43200
     randomDelay: 20000
     executionOdds: 50
+
+
+  - type: martianBreakthrough
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    firstMonth: 6
+    startDelay: 1000
+    randomDelay: 43500
+    maxRuns: 6
+    varName: martianBreakthrough
+    executionOdds: 100
 ###################################

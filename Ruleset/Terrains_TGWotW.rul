@@ -555,6 +555,826 @@ terrains:
       - STR_BRITISH_T2_SUPPORT_NPC
       - STR_FRENCH_T2_SUPPORT_NPC
 
+  - name: VILLAGE
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+#    civilianTypes:
+#      - MALE_CIVILIAN
+    script: VILLAGE
+    mapBlocks: &AnchorVillage
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+  - name: VILLAGE_NO_UFO
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - VILBITS
+      - VILBAN
+      - VILFRNITURE
+    script: VILLAGE_NO_UFO
+    mapBlocks: *AnchorVillage
+#######################################
+######## INFESTED TERRAINS ###########
+#####################################
+  - name: INFESTED # barrls still need to be removed from map set
+    script: ALIEN_FOREST
+    mapDataSets:
+      - BLANKS
+      - RUINED_FOREST
+      - ALIENCULT2
+      - ALIENCULT
+      - ALIENBARN
+    mapBlocks:
+      - name: ALIENFOREST01
+        width: 10
+        length: 10
+        groups: 1 #Landable for UFOs/Crafts
+      - name: ALIENFOREST02
+        width: 10
+        length: 10
+        groups: 1 #Landable for UFOs/Crafts
+      - name: ALIENFOREST03  #Partially Clear area
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST04 # Hill
+        width: 10
+        length: 10
+        groups: 5
+      - name: ALIENFOREST05 # Large Hills
+        width: 20
+        length: 20
+      - name: ALIENFOREST06 # Mega Hill
+        width: 20
+        length: 20
+      - name: ALIENFOREST07 #Partially Clear area
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST08 # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [6, 5, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST09 # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [5, 8, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST10  # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [4, 7, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST13  # Large Hill
+        width: 20
+        length: 20
+        groups: 4
+      - name: ALIENFOREST14 # Mega Hill with Infection Barrel
+        width: 20
+        length: 20
+        groups: 2
+      - name: ALIENFOREST15 # building
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST16 # long block Block
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST17   # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [6, 4, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: ALIENFOREST18 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST19 # Large Farm estate
+        width: 20
+        length: 20
+        groups: 4
+      - name: ALIENFOREST20 # Small house
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST21 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST22 # Large Blocks
+        width: 20
+        length: 20
+        groups: 2
+      - name: ALIENFOREST23 # Large Blocks
+        width: 20
+        length: 20
+        groups: 2
+      - name: ALIENFOREST24 # Partially Clear Block
+        width: 10
+        length: 10
+      - name: ALIENFOREST25 # Small house
+        width: 10
+        length: 10
+        groups: 4
+      - name: ALIENFOREST26 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST27 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST28 # Partially Clear Block
+        width: 10
+        length: 10
+        groups: 3
+      - name: ALIENFOREST29 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST30 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST31 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST32 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST33 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+      - name: ALIENFOREST34 # Partially Clear Block
+        width: 10
+        length: 10
+        # groups: 3
+  - name: RUINED_URBAN
+    script: RUINED_URBAN
+    mapDataSets:
+      - BLANKS
+      - ALIENCULT2
+      - RUINEDCITY
+      - ALIENCULT
+      - ALIENBARN
+    mapBlocks:
+      - name: RUINED_URBAN00
+        width: 20
+        length: 20
+      - name: RUINED_URBAN01
+        width: 10
+        length: 10
+      - name: RUINED_URBAN02
+        width: 10
+        length: 10
+      - name: RUINED_URBAN03
+        width: 10
+        length: 10
+      - name: RUINED_URBAN04
+        width: 10
+        length: 10
+      - name: RUINED_URBAN05
+        width: 10
+        length: 10
+      - name: RUINED_URBAN06
+        width: 10
+        length: 10
+      - name: RUINED_URBAN07
+        width: 10
+        length: 10
+      - name: RUINED_URBAN08
+        width: 20
+        length: 20
+      - name: RUINED_URBAN10 # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [5, 8, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+      - name: RUINED_URBAN11  # Infection Barrel
+        width: 10
+        length: 10
+        groups: 2
+        items:
+          CIVM_CORPSE:
+            - [4, 7, 0] # (corresponding to x, y, z location == C, R ,L (level 1 in Mapview is level 0 in game )
+  - name: RUINED_URBAN_B
+    # script: RUINED_URBAN_B
+    mapDataSets:
+      - BLANKS
+      - ALIENCULT2
+      - ALIENCULT
+      - ALIENBARN
+      - ROADS
+    mapBlocks:
+      - name: RUINED_URBAN_B00 #X
+        width: 10
+        length: 10
+        groups: 4 #was 2
+      - name: RUINED_URBAN_B01 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B02  #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B03 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B04 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B05   #X
+        width: 10
+        length: 10
+        groups: 4  #was 2
+      - name: RUINED_URBAN_B06 #EW
+        width: 10
+        length: 10
+        groups: 2 #was 4
+      - name: RUINED_URBAN_B07  #X
+        width: 10
+        length: 10
+        groups: 4  #was 2
+      - name: RUINED_URBAN_B08 #EW
+        width: 10
+        length: 10
+        groups: 2  #was 4
+      - name: RUINED_URBAN_B09 #NS
+        width: 10
+        length: 10
+        groups: 3
+      - name: RUINED_URBAN_B10 #NS
+        width: 10
+        length: 10
+        groups: 3
+  - name: FARM_INFESTED
+    script: MIXED_LAND
+    mapDataSets:
+      - BLANKS
+      - RUINED_CULTIVAT
+      - RUINED_BARN
+    mapBlocks:
+      - name: CULTA00
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA01
+        width: 10
+        length: 10
+      - name: CULTA02
+        width: 10
+        length: 10
+      - name: CULTA03
+        width: 10
+        length: 10
+      - name: CULTA04
+        width: 10
+        length: 10
+      - name: CULTA05
+        width: 10
+        length: 10
+      - name: CULTA06
+        width: 10
+        length: 10
+      - name: CULTA07
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA08
+        width: 10
+        length: 10
+      - name: CULTA09
+        width: 10
+        length: 10
+      - name: CULTA10
+        width: 10
+        length: 10
+      - name: CULTA11
+        width: 10
+        length: 10
+        groups: 1
+      - name: CULTA12
+        width: 10
+        length: 10
+      - name: CULTA13
+        width: 10
+        length: 10
+      - name: CULTA14
+        width: 10
+        length: 10
+      - name: CULTA15
+        width: 10
+        length: 10
+      - name: CULTA16
+        width: 10
+        length: 10
+      - name: CULTA17
+        width: 10
+        length: 10
+      - name: CULTA18
+        width: 10
+        length: 10
+
+  - name: VILLAGE_INFESTED
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - INFECTED_VILBITS
+      - INFECTED_VILBAN
+      - INFECTED_VILFRNITURE
+#    civilianTypes:
+#      - MALE_CIVILIAN
+    script: INFESTED_VILLAGE_UFO
+    mapBlocks: &AnchorVillage
+      - name: VILBAN00
+        width: 10
+        length: 10
+        groups: [0, 1]
+      - name: VILBAN01
+        width: 10
+        length: 10
+      - name: VILBAN02
+        width: 10
+        length: 10
+      - name: VILBAN03
+        width: 10
+        length: 10
+      - name: VILBAN04
+        width: 10
+        length: 10
+      - name: VILBAN05
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN06
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN07
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN08
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN09
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN10
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN11
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN12
+        width: 20
+        length: 20
+        groups: [0, 5]
+      - name: VILBAN13
+        width: 10
+        length: 10
+      - name: VILBAN14
+        width: 20
+        length: 20
+      - name: VILBAN15
+        width: 20
+        length: 20
+      - name: VILBAN16
+        width: 20
+        length: 20
+      - name: VILBAN17
+        width: 10
+        length: 10
+      - name: VILBAN18
+        width: 10
+        length: 10
+      - name: VILBAN19
+        width: 10
+        length: 10
+      - name: VILBAN20
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN21
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN22
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN23
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN24
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN25
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN26
+        width: 10
+        length: 10
+        groups: 2
+      - name: VILBAN30
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN31
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN32
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN33
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN34
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN35
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN36
+        width: 10
+        length: 10
+        groups: 3
+      - name: VILBAN40
+        width: 10
+        length: 10
+        groups: 4
+      - name: VILBAN50
+        width: 10
+        length: 10
+      - name: VILBAN51
+        width: 20
+        length: 20
+      - name: VILBAN52
+        width: 10
+        length: 10
+      - name: VILBAN53
+        width: 20
+        length: 20
+      - name: VILBAN54
+        width: 10
+        length: 10
+      - name: VILBAN55
+        width: 10
+        length: 10
+  - name: INFESTED_VILLAGE_NO_UFO
+    mapDataSets:
+      - BLANKS
+      - VILROADS
+      - INFECTED_VILBITS
+      - INFECTED_VILBAN
+      - INFECTED_VILFRNITURE
+    script: INFESTED_VILLAGE_NO_UFO
+    mapBlocks: *AnchorVillage
+
+  - name: FOREST_INFESTED
+    mapDataSets:
+      - BLANKS
+      - RUINED_FOREST
+    mapBlocks:
+      - name: FOREST00
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST01
+        width: 10
+        length: 10
+        groups: 1
+      - name: FOREST02
+        width: 10
+        length: 10
+      - name: FOREST03
+        width: 10
+        length: 10
+      - name: FOREST04
+        width: 10
+        length: 10
+      - name: FOREST05
+        width: 10
+        length: 10
+      - name: FOREST06
+        width: 10
+        length: 10
+      - name: FOREST07
+        width: 10
+        length: 10
+      - name: FOREST08
+        width: 10
+        length: 10
+      - name: FOREST09
+        width: 10
+        length: 10
+      - name: FOREST10
+        width: 20
+        length: 20
+      - name: FOREST11
+        width: 20
+        length: 20
+
+  - name: JUNGLE_INFESTED
+    mapDataSets:
+      - BLANKS
+      - RUINED_JUNGLE
+    script: JUNGLE
+    mapBlocks:
+      - name: JUNGLE00
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE01
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE02
+        width: 10
+        length: 10
+        groups: 1
+      - name: JUNGLE03
+        width: 10
+        length: 10
+      - name: JUNGLE04
+        width: 10
+        length: 10
+      - name: JUNGLE05
+        width: 10
+        length: 10
+      - name: JUNGLE06
+        width: 10
+        length: 10
+      - name: JUNGLE07
+        width: 10
+        length: 10
+      - name: JUNGLE08
+        width: 10
+        length: 10
+      - name: JUNGLE09
+        width: 10
+        length: 10
+      - name: JUNGLE10
+        width: 10
+        length: 10
+      - name: JUNGLE11
+        width: 10
+        length: 10
+####################################
+
+#####################################
+####### RAILROAD MAP TERRAINS ######
+###################################
+  - name: FORESTRAIL
+    mapDataSets:
+      - BLANKS
+      - FORESTPOLAR
+      - FOREST
+      - NEWRAIL
+    script: FOREST_RAIL
+    mapBlocks: &AnchorForestRail
+      - name: FORESTPOLAR00 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR01 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR02 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+      - name: FORESTPOLAR03
+        width: 10
+        length: 10
+      - name: FORESTPOLAR04
+        width: 10
+        length: 10
+      - name: FORESTPOLAR05
+        width: 10
+        length: 10
+      - name: FORESTPOLAR06
+        width: 10
+        length: 10
+      - name: FORESTPOLAR07
+        width: 10
+        length: 10
+      - name: FORESTPOLAR08
+        width: 10
+        length: 10
+      - name: FORESTPOLAR09
+        width: 10
+        length: 10
+      - name: FORESTPOLAR10
+        width: 10
+        length: 10
+      - name: FORESTPOLAR11
+        width: 10
+        length: 10
+      - name: FORESTPOLAR12
+        width: 20
+        length: 20
+      - name: FORESTPOLAR13
+        width: 20
+        length: 20
+      - name: FORESTPOLAR14
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR15
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR16
+        width: 10
+        length: 10
+        groups: 1
+      - name: FORESTPOLAR20 #RAIL
+        width: 10
+        length: 10
+        groups: 3 # NS RAIL
+########################################
+
 #######################################
   - name: IDT_FOREST
     mapDataSets:
@@ -1597,8 +2417,8 @@ terrains:
     script: FARM_MIX
     mapDataSets:
       - BLANKS
-      - CULTIVAT
-      - BARN
+      - TRENCH_CULTIVAT
+      - TRENCH_BARN
     mapBlocks:
       - name: CULTA00
         width: 10
@@ -1678,7 +2498,7 @@ terrains:
   - name: FOREST_TRENCH
     mapDataSets:
       - BLANKS
-      - FOREST
+      - TRENCHFOREST
     script: DEFAULT_TRENCH
     mapBlocks:
       - name: FOREST00

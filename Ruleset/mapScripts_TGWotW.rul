@@ -273,6 +273,8 @@ mapScripts:
     commands:
     - type: addCraft
       groups: 1
+    - type: addUFO
+      groups: 1
     - type: addLine
       label: 1
       direction: vertical
@@ -291,8 +293,6 @@ mapScripts:
       direction: both
       rects:
         - [1, 1, 4, 4]
-    - type: addUFO
-      groups: 1
     - type: addBlock
       size: 2
       executions: 2
@@ -309,3 +309,276 @@ mapScripts:
       # because these are references to the block numbers within the sets, not the file names.
       # blocks: [3, 4, 10, 11, 12, 13, 14]
       # freqs: [3, 3, 2, 2, 2, 2, 2]
+
+  - type: ALIEN_FOREST                     #Luke83 Mapscript -
+    commands:
+    - type: addCraft
+    - type: addUFO
+      executions: 1
+    - type: addBlock #Need working large mountains
+      executionChances: 60
+      executions: 2
+      size: 2
+    # - type: addBlock  # Infected Barrels
+    #   groups: 2
+    #   maxUses: 1
+    - type: addBlock
+      groups: 4
+      executionChances: 70
+      maxUses: 4
+    # - type: addBlock  # HILLS - was working
+    #   groups: 5
+    #   executionChances: 40
+    #   maxUses: 4
+    - type: fillArea
+      # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+      # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  - type: RUINED_URBAN                    #Luke83 Mapscript - Ruined Urban
+    commands:
+    - type: addCraft
+      terrain: INFESTED
+      executions: 1
+      groups: 1
+    - type: addUFO
+      terrain: INFESTED
+      groups: 1
+      executions: 1
+    - type: addLine  # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      label: 1
+      direction: vertical
+      executionChances: 50
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine # Trying to add Roads to map
+      terrain: RUINED_URBAN_B
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4] # Trying to add Roads to map
+    - type: fillArea
+  - type: MIXED_LAND
+    commands:
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      executions: 2
+    - type: addBlock
+      terrain: INFESTED
+      size: 2
+    - type: addUFO
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 2
+    - type: fillArea
+  - type: MIXED_LAND_NO_UFO
+    commands:
+    - type: addCraft
+    - type: addBlock
+      groups: 2
+      executions: 2
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 4
+    - type: addBlock
+      terrain: INFESTED
+      size: 2
+      executions: 1
+    - type: fillArea
+  - type: VILLAGE
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+  - type: VILLAGE_NO_UFO
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+  - type: INFESTED_VILLAGE_NO_UFO
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    #- type: addUFO
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 3
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+  - type: INFESTED_VILLAGE_UFO
+    commands:
+    - type: addLine
+      label: 1
+      direction: horizontal
+      executionChances: 33
+    - type: addLine
+      label: 2
+      direction: vertical
+      conditionals: -1
+      executionChances: 50
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+    - type: addCraft
+    - type: addUFO
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 3
+    - type: addBlock
+      size: 2
+      executions: 6
+    - type: fillArea
+  - type: URBAN
+    commands:
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+  - type: URBAN_UFO_INFESTED
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: addBlock
+      terrain: INFESTED
+      size: 1
+      executions: 3
+    - type: fillArea
+  - type: URBAN_UFO
+    commands:
+    - type: addUFO
+    - type: addCraft
+    - type: addLine
+      label: 1
+      direction: vertical
+      executionChances: 33
+      rects:
+        - [1, 1, 4, 1]
+    - type: addLine
+      label: 2
+      conditionals: -1
+      executionChances: 50
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
+    - type: addLine
+      conditionals: [-1, -2]
+      direction: both
+      rects:
+        - [1, 1, 4, 4]
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: fillArea
+
+#####################################
+####### RAILROAD MAPSCRIPTS ########
+###################################
+  - type: FOREST_RAIL
+    commands:
+    - type: addLine  # Trying to add Roads to map
+      groups: 3
+      label: 1
+      direction: vertical
+      executionChances: 99
+      rects:
+        - [1, 1, 4, 1]
+    - type: addCraft
+      executions: 1
+      groups: 1
+    - type: addUFO
+      executions: 1
+    - type: fillArea

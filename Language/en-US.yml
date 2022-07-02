@@ -241,6 +241,8 @@ en-US:
       MAP_TRENCH_FARM: Frontline Farm
       MAP_FOREST_TRENCH: Frontline Forest
       MAP_INFESTED: Infested Land
+      MAP_FOREST_INFESTED: Infested Forest
+      MAP_JUNGLE_INFESTED: Infested Jungle
       MAP_RUINED_URBAN: Infested Urban
       MAP_DEEPTRENCH: No Man's Land
       MAP_FORESTRAIL: Forest Railroad
@@ -1064,6 +1066,12 @@ en-US:
 
       STR_ENVIRO_UNIT_UNDER_SIEGE: The morale of your besieged troops is getting low
 
+      STR_MARTIAN_CYLINDER: "Martian Cylinder"
+      STR_MARTIAN_CYLINDER_ALERT: "Martian Cylinder detected"
+      STR_MARTIAN_CYLINDER_DESCRIPTION: "We just got notice of a Martian Cylinder about to crashland in Earth, we must locate and destroy it!"
+      STR_MARTIAN_CYLINDER_BRIEFING: "Right after making a breakthrough in the frontlines, an explosion was seen in the surface of Mars. Several hours later, a Cylinder crashed down. It's a clear attempt of the Martians to consolidate their newly adquired position. We must stop it before it's too late. It's widely known their cylinders carry just a couple of Scouting-Machines and several infantry platoons. Be careful and good luck!"
+      STR_MARTIAN_CYLINDER_MARKERNAME: "Martian Cylinder Crash Site"
+
       STR_TURRET_GUIDE: How to deploy a Turret?
       STR_TURRET_GUIDE_UFOPEDIA: Attention, soldier. Deploying a turret can be difficult at first. To use it, you need to kneel in front of the weapon and make a melee attack (using your bare hand, without holding a weapon). This is once per turn. To disassemble the turret, you need to use the Turret Wrench and make a melee attack. You can carry it and put it in another position. To reactivate it, you must use the ASSEMBLE attack using the Turret Wrench.
 #
@@ -1225,6 +1233,14 @@ en-US:
 #################################################
 ####### MARTIAN TECHNOLOGY AND WEAPONS #########
 ###############################################
+      STR_ALIEN_RESEARCH: "Martian Recon"
+      STR_ALIEN_HARVEST: "Martian Harvest"
+      STR_ALIEN_ABDUCTION: "Martian Human Recolection"
+      STR_ALIEN_INFILTRATION: "Martian Breakthrough"
+      STR_ALIEN_BASE: "Alien Base"
+      STR_ALIEN_TERROR: "Martian City Attack"
+      STR_ALIEN_RETALIATION: "Martian Counterattack"
+      STR_ALIEN_SUPPLY: "Martian Supply Run"
       STR_ALIEN_ALLOYS: "Tunguskium"
       STR_ALIEN_ALLOYS_UFOPEDIA: "Also called 'Martian Metal', this is an exotic mineral alloy used by the Martians to build everything, from small weapons to ship armor. Chemically speaking, most of the components are already found in Earth, but our attempts at reproducing haven't been successful... Yet. Slightly lighter than steel, but considerably denser and durable, it requieres high pressure and heat to be able to be mold.  Named after Tunguska, the first recorded Martian Landing Zone"
       STR_ELERIUM_115: "Hydrogen Fuel Cell"
@@ -1243,6 +1259,10 @@ en-US:
       STR_ALIEN_SURGERY_UFOPEDIA: "The only purpose we have identified for this weird set of tools so far, is their use in conducting gruesome surgeries and tissue extractions on both Earth and Martian species. It serves both as butchering and medical treatment equipment. Only a truly cruel mind could design such unnerving piece of machiner."
       STR_EXAMINATION_ROOM: "Examination Room"
       STR_EXAMINATION_ROOM_UFOPEDIA: "This is nothing but a table used to dissect living beings. The most probable destiny of thousands of humans over the course of the war. The smell of blood is still noticeable."
+
+      #STR_MARTIAN_STATIC_SUPPLY_DEPOT:
+      #STR_MARTIAN_STATIC_CLONE_LAB:
+      #SSTR_MARTIAN_STATIC_CAMP:
 
       STR_HEATRAY_RIFLE: Heat-Ray Rifle
       STR_HEATRAY_RIFLE_BATTERY_PHOTON: Heat-Ray Rifle Photon Battery

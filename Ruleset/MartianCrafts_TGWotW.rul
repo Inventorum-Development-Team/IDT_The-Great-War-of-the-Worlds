@@ -342,6 +342,7 @@ ufos:
         - ASINT01A
         - MUFOL83
         - MUFOL83-B
+        - TRIPOD_CLAWS_XOPS
       mapBlocks:
         - name: AS-WALKER1
           width: 10
@@ -367,13 +368,14 @@ ufos:
         - ASINT01A
         - MUFOL83
         - MUFOL83-B
+        - TRIPOD_INTERNAL_COMPONENTS
       mapBlocks:
         - name: AS-WALKER2
           width: 20
           length: 20
   - type: STR_MARTIAN_SIEGE_WALKER
     size: STR_VERY_LARGE
-    modSprite: MARTIAN_SIEGE_WALKER_INTERWIN
+    modSprite: MARTIAN_HARVESTER_WALKER_INTERWIN
     damageMax: 1000
     speedMax: 45
     accel: 4
@@ -382,33 +384,6 @@ ufos:
     score: 700
     reload: 48
     avoidBonus: -30
-    breakOffTime: 5000
-    battlescapeTerrainData:
-      name: AS-WALKER3
-      mapDataSets:
-        - BLANKS
-        - ASEXT01
-        - ASEXT02
-        - ASEXT03
-        - ASINT01A
-        - MUFOL83
-        - MUFOL83-B
-      mapBlocks:
-        - name: AS-WALKER3
-          width: 30
-          length: 30
-  - type: STR_MARTIAN_HARVESTER_WALKER
-    size: STR_VERY_LARGE
-    sprite: 1
-    modSprite: MARTIAN_HARVESTER_WALKER_INTERWIN
-    damageMax: 650
-    speedMax: 55
-    accel: 6
-    power: 70
-    range: 16
-    score: 500
-    reload: 18
-    avoidBonus: -40
     breakOffTime: 5000
     battlescapeTerrainData:
       name: AS-WALKER4
@@ -424,6 +399,34 @@ ufos:
         - name: AS-WALKER4
           width: 20
           length: 20
+  - type: STR_MARTIAN_HARVESTER_WALKER
+    size: STR_VERY_LARGE
+    sprite: 1
+    modSprite: MARTIAN_SIEGE_WALKER_INTERWIN
+    damageMax: 650
+    speedMax: 55
+    accel: 6
+    power: 70
+    range: 16
+    score: 500
+    reload: 18
+    avoidBonus: -40
+    breakOffTime: 5000
+    battlescapeTerrainData:
+      name: AS-WALKER3
+      mapDataSets:
+        - BLANKS
+        - ASEXT01
+        - ASEXT02
+        - ASEXT03
+        - ASINT01A
+        - MUFOL83
+        - MUFOL83-B
+        - TRIPOD_CLAWS_XOPS
+      mapBlocks:
+        - name: AS-WALKER3
+          width: 30
+          length: 30
   - type: STR_MARTIAN_OVERLORD_WALKER
     size: STR_LARGE
     sprite: 1
@@ -447,6 +450,7 @@ ufos:
         - ASINT01A
         - MUFOL83
         - MUFOL83-B
+        - TRIPOD_INTERNAL_COMPONENTS
       mapBlocks:
         - name: AS-WALKER5
           width: 20
@@ -477,6 +481,35 @@ ufos:
           width: 10
           length: 10
 
+  - type: STR_MARTIAN_CYLINDER
+    size: STR_VERY_LARGE
+    sprite: 1
+    modSprite: MARTIAN_SIEGE_WALKER_INTERWIN
+    damageMax: 650
+    speedMax: 9999
+    accel: 6
+    power: 70
+    range: 16
+    score: 500
+    reload: 18
+    avoidBonus: -40
+    breakOffTime: 5000
+    battlescapeTerrainData:
+      name: MARTIAN_CYLINDER
+      mapDataSets:
+        - BLANKS
+        - MARTIAN_CYLINDER
+        - MARTIAN_CYLINDER_CRASH_SITE
+        - CRASHED_UFO_TILES
+        - ASEXT03
+        - ASEXT01
+        - TRIPOD_INTERNAL_COMPONENTS
+      mapBlocks:
+        - name: MARTIAN_CYLINDER
+          width: 40
+          length: 10
+
+#####################################
   - type: STR_BUNKER_SMALL
     size: STR_SMALL
     sprite: 1
@@ -3184,6 +3217,234 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
+
+  - type: STR_MARTIAN_CYLINDER
+    data:
+#Race Rank Reference
+#alienRank: 5 - Soldier
+#alienRank: 4 - Navigator
+#alienRank: 3 - Medic
+#alienRank: 2 - Engineer
+#alienRank: 1 - Leader
+#alienRank: 0 - Commander
+      - alienRank: 5
+        lowQty: 5
+        highQty: 8
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 4
+        lowQty: 4
+        highQty: 6
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CARBINE
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_HEATRAY_CARBINE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 3
+        lowQty: 3
+        highQty: 1
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+          -
+            - STR_MARTIAN_ROCK_THROWER
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
+            - STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
+            - STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+      - alienRank: 2
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+            - STR_ALIEN_GRENADE
+          -
+            - STR_MARTIAN_LAUNCHER
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
+            - STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+            - STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
+            - STR_ALIEN_GRENADE
+      - alienRank: 1
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_HEATRAY_PISTOL
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_HEATRAY_PISTOL_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 60
+    length: 60
+    height: 10
+    alert: STR_MARTIAN_CYLINDER_ALERT
+    #alertBackground: MARTIAN_CYLINDER_FALLING_BACKGROUND
+    alertDescription: STR_MARTIAN_CYLINDER_DESCRIPTION
+    briefing:
+      title: STR_MARTIAN_CYLINDER
+      desc: STR_MARTIAN_CYLINDER_BRIEFING
+      palette: 1
+      textOffset: -16
+      #background: MARTIAN_CYLINDER_LANDED_BACKGROUND
+      showTarget: false
+      showCraft: true
+    markerName: STR_MARTIAN_CYLINDER_MARKERNAME
+    duration: [900, 1800]
+    despawnPenalty: 500
 ##############################
 
 extraSprites:
