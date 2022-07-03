@@ -15,6 +15,7 @@ crafts:
     speedMax: 80
     accel: 1
     avoidBonus: 60
+    undetectable: true
     soldiers: 20
     vehicles: 5
     costBuy: 10
@@ -25,9 +26,9 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
     refuelRate: 900
     repairRate: 10
-    radarRange: 35
+    radarRange: 800
     radarChance: 75
-    sightRange: 35
+    sightRange: 800
     transferTime: 72
     score: 100
     battlescapeTerrainData:
@@ -83,10 +84,11 @@ crafts:
     vehicles: 0
     costBuy: 10
     refuelRate: 900
+    undetectable: true
     repairRate: 10
-    radarRange: 30
+    radarRange: 500
     radarChance: 55
-    sightRange: 30
+    sightRange: 500
     transferTime: 72
     score: 100
     battlescapeTerrainData:
@@ -400,7 +402,7 @@ crafts:
   - type: STR_SIKORSKI_ILYA_MUROMETS
     sprite: 124
     fuelMax: 500
-    damageMax: 200
+    damageMax: 350
     speedMax: 150
     avoidBonus: 10
     hitBonus: 15
@@ -410,7 +412,7 @@ crafts:
       - 1
       - [1, 5]
       - 5
-      - 5
+      - [5, 7]
     weaponStrings:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
@@ -425,7 +427,7 @@ crafts:
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    sightRange: 0
+    sightRange: 200
     radarRange: 200
     radarChance: 10
     score: 400
@@ -433,33 +435,33 @@ crafts:
 
   - type: STR_HALBERSTADT_CLII
     sprite: 125
-    fuelMax: 300
-    damageMax: 130
-    speedMax: 500
-    avoidBonus: 20
+    fuelMax: 350
+    damageMax: 300
+    speedMax: 300
+    avoidBonus: 15
     hitBonus: 15
     accel: 3
     weapons: 4
     weaponTypes:
       - 1
-      - [1, 5]
+      - 3
       - 5
-      - 5
+      - 7
     weaponStrings:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_AUTOCANNON_TWO
       - STR_CRAFT_BOMB_THREE
-      - STR_CRAFT_BOMB_FOUR
+      - STR_CRAFT_AUX_FOUR
     soldiers: 2
     vehicles: 0
     pilots: 2
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 20000
+    costSell: 18000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    sightRange: 0
+    sightRange: 50
     radarRange: 100
     radarChance: 10
     score: 400
@@ -467,31 +469,31 @@ crafts:
 
   - type: STR_HANDLEY_PAGE_TYPE_O
     sprite: 126
-    fuelMax: 500
-    damageMax: 130
-    speedMax: 400
-    accel: 3
+    fuelMax: 450
+    damageMax: 300
+    speedMax: 180
+    accel: 2
     weapons: 4
     weaponTypes:
       - 1
       - [1, 5]
       - 5
-      - 5
+      - [5, 7]
     weaponStrings:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
-      - STR_CRAFT_BOMB_TWO
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
     soldiers: 5
     vehicles: 0
     pilots: 5
     allowLanding: false
-    costBuy: 50000
-    costSell: 35000
+    costBuy: 25000
+    costSell: 23000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    sightRange: 0
+    sightRange: 200
     radarRange: 100
     radarChance: 10
     score: 400
@@ -502,33 +504,33 @@ crafts:
 
   - type: STR_ZEPPELIN_STAAKEN_RVI
     sprite: 127
-    fuelMax: 300
-    damageMax: 130
+    fuelMax: 700
+    damageMax: 560
     speedMax: 500
     accel: 3
     weapons: 4
     weaponTypes:
-      - 1
+      - 5
       - [1, 5]
       - 5
-      - 5
+      - [7, 5]
     weaponStrings:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
-      - STR_CRAFT_BOMB_FOUR
+      - STR_CRAFT_AUX_FOUR
     soldiers: 10
     vehicles: 0
     pilots: 10
     allowLanding: false
     costBuy: 50000
-    costSell: 35000
+    costSell: 48000
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
-    sightRange: 0
+    sightRange: 300
     radarRange: 100
-    radarChance: 10
+    radarChance: 30
     score: 400
     #listOrder: 850
 
@@ -541,13 +543,13 @@ crafts:
     weapons: 4
     weaponTypes:
       - 1
+      - 5
+      - 7
       - [1, 5]
-      - 5
-      - 5
     weaponStrings:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_BOMB_TWO
-      - STR_CRAFT_BOMB_THREE
+      - STR_CRAFT_AUX_THREE
       - STR_CRAFT_BOMB_FOUR
     soldiers: 2
     vehicles: 0
