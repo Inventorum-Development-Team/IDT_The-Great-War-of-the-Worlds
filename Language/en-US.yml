@@ -1180,18 +1180,18 @@ en-US:
       STR_SELENITE_TRANSPORT: Selenite Transport Craft
       STR_SELENITE_TRANSPORT_UFOPEDIA: Troop transport plane, used to move assault teams from one place to another quickly. It is equipped with what we believe are short range anti-aircraft turrets. It has quite resistant shields, it is not easy to shoot them down.
 ############################
-      STR_MARTIAN_ASSAULT_WALKER: Martian Assault Walker
+      STR_MARTIAN_ASSAULT_WALKER: Martian Assault-Machine
       STR_MARTIAN_ASSAULT_WALKER_UFOPEDIA: Alien vehicle specialized in incursions and urban combat. Quite agile and with light weapons, it can put human units in trouble.
-      STR_MARTIAN_BATTLE_WALKER: Martian Battle Walker
+      STR_MARTIAN_BATTLE_WALKER: Martian Fighting-Machine
       STR_MARTIAN_BATTLE_WALKER_UFOPEDIA: This is the main alien walker. It has been present since the beginning of the war and represents the majority of the enemy forces. It is balanced in regards to armor and armament, Equal deadly and strong.
-      STR_MARTIAN_SIEGE_WALKER: Martian Siege Walker
-      STR_MARTIAN_SIEGE_WALKER_UFOPEDIA: Powerful siege tripod, designed to besiege cities and human strengths. It has Heat Ray Heavy Projectors, very long range, but with very slow recharge. Inside it carries a large contingent of Martian troops. Very difficult to destroy.
-      STR_MARTIAN_HARVESTER_WALKER: Martian Harvester Walker
+      STR_MARTIAN_SIEGE_WALKER: Martian Siege-Machine
+      STR_MARTIAN_SIEGE_WALKER_UFOPEDIA: Powerful tripod, designed to besiege cities and human strengths. It has Heat Ray Heavy Projectors, very long range, but with very slow recharge. Inside it carries a large contingent of Martian troops and a large number of supplies. Very difficult to destroy.
+      STR_MARTIAN_HARVESTER_WALKER: Martian Harvesting-Machine
       STR_MARTIAN_HARVESTER_WALKER_UFOPEDIA: Terrible Martian scientific machine. Used exclusively in human harvest missions and scientific exploration, it uses tractor beams to abduct its victims. Large, well armored, but not so well armed.
-      STR_MARTIAN_OVERLORD_WALKER: Martian Overlord Walker
-      STR_MARTIAN_OVERLORD_WALKER_UFOPEDIA: The most powerful beast ever created in the Martian arsenal. It functions as a mobile command center, leads sieges and incursions into human zones. Highly armed and armored. Extremely dangerous.
-      STR_MARTIAN_RECON_WALKER: Martian Recon Walker Squad
-      STR_MARTIAN_RECON_WALKER_UFOPEDIA: Brigade of three Walkers employed to recon the target area and give light support to the troops. These were the enemies that assaulted London in the first Martian invasion. Very fast and lethal, although they are the enemy's weakest walkers.
+      STR_MARTIAN_OVERLORD_WALKER: Martian Commanding-Machine
+      STR_MARTIAN_OVERLORD_WALKER_UFOPEDIA: The most powerful war machine ever created in the Martian arsenal. It functions as a mobile command center, leads sieges and incursions into human zones. Highly armed and armored. Extremely dangerous.
+      STR_MARTIAN_RECON_WALKER: Martian Scouting-Machines Squad
+      STR_MARTIAN_RECON_WALKER_UFOPEDIA: Brigade of three Tripods employed to recon the target area and give light support to the troops. These were the enemies that assaulted London in the first Martian invasion. Very fast and lethal, although they are the enemy's weakest walkers.
 
       STR_FLOATER: "Mixed Martian Platoon"
       STR_SECTOID: "Martian Conscript"
