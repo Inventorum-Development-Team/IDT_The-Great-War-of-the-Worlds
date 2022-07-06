@@ -193,46 +193,81 @@ operationNamesLast:
   - Wrath
   - Zeus
 baseNamesFirst:
-  - Alpha
-  - Bravo
-  - Charlie
-  - Delta
-  - Echo
-  - Foxtrot
-  - Golf
-  - Hotel
-  - India
-  - Juliett
-  - Kilo
-  - Lima
-  - Mike
-  - November
-  - Oscar
-  - Papa
-  - Quebec
-  - Romeo
-  - Sierra
-  - Tango
-  - Uniform
-  - Victor
-  - Whiskey
-  - X-ray
-  - Yankee
+  - King's
+  - Queen's
+  - Republic's
+  - King's Own
+  - Kaiser's
+  - K.u.K
+  - Franz Ferdinand
+  - Roosevelt's
+  - Tsar Nikolai's
+  - Tsar's
+  - Empire's
+  - Imperial
+  - Emperor's
+  - Coalition's
+  - Sarrail
+  - Gamelin
+  - Foch
+  - Joffre
+  - Ludendorff
+  - von Hinderburg
+  - von Lettow-Vorbeck
+  - Maude
+  - Monash
+  - Haig
+  - d'Esperey
+  - Pershing
+  - Brusilov
+  - Danilov
+  - Wrangel
+  - Villa
+  - Carranza
+  - Zapata
+  - Homeland
+  - Motherland
+  - Fatherland
+  - Highlander
+  - Commonwealth
+  - Joint
+  - Major
+  - Allied
+  - United
+  - Last
+  - Fortitude
+  - Victoria
+  - Defiant
+  - Defender
+  - Vanguard
+  - Vengeance
+  - Brave
+  - Indomitable
+  - Invincible
+  - Furious
+  - Golden
+  - Silver
   - Zulu
+  - Sword
+  - Hammer
+  - Shield
+  - Sabre
+  - Scimitar
+  - Rapier
+  - Longsword
 baseNamesLast:
   - Stronghold
   - Camp
   - Site
   - Garrison
-  - Station
   - Keep
   - Bastion
   - Citadel
   - Base
   - Bastion
-  - Fortaleza
-  - Ops Centre
+  - Barracks
   - Headquarters
   - Castle
   - Outpost
   - Fortress
+  - Fort
