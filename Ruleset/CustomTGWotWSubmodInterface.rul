@@ -1,0 +1,801 @@
+# 1205 # red
+# 3000 # dark red
+# 4020 # bright red
+# 100 # purplish grey
+# 300 # yellowinvert
+# 4000 # almost white
+# 3997 # white invert
+# 3990 # dark beige
+interfaces: #done
+  - type: mainMenu
+    elements:
+      - id: palette
+        color: 1     # burgundy
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 176 # 300
+        color2: 180 # purple
+      - id: button
+        color: 246   # grey
+        color2: 3997  # white
+      - id: battlescapeTheme
+        color: -1
+        color2: -1
+        border: 0
+  - type: newGameMenu
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 180 # purple
+      - id: ironman
+        color: 4020  # bright red
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: optionsMenu
+    elements:
+      - id: palette
+        color: 1     # burgundy
+      - id: window
+        color: 100   # grey
+      - id: tooltip
+        color: 3997  # white
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+      - id: confirmDefaults
+        color: 3997  # white
+      - id: confirmVideo
+        color: 3997  # white
+  - type: videoMenu
+    elements:
+      - id: text
+        color: 180 # purple
+        color2: 3997  # white
+      - id: resolution
+        color: 3997  # white
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: audioMenu
+    elements:
+      - id: text
+        color: 180 # purple
+        color2: 3997  # white
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: controlsMenu
+    elements:
+      - id: optionLists
+        color: 3997 # white
+        color2: 180 # purple
+        border: 100   # grey
+  - type: battlescapeMenu
+    elements:
+      - id: window
+        color: 100   # grey
+        color2: 3997  # white
+      - id: text
+        color: 180 # purple
+        color2: 3997  # white
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: advancedMenu
+    elements:
+      - id: optionLists
+        color: 3997  # white
+        color2: 180 # purple
+        border: 100   # grey
+      - id: disabledUserOption
+        color: 100   # grey
+  - type: foldersMenu
+    elements:
+      - id: text1
+        color: 180 # purple
+      - id: text2
+        color: 3997  # white
+  - type: modsMenu
+    elements:
+      - id: optionLists
+        color: 180 # purple
+        color2: 3997  # white
+        border: 100   # grey
+      - id: text
+        color: 3997  # white
+        #color: 3997  # white
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: saveMenus
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 180 # purple
+        color2: 180 # purple
+      - id: list
+        color: 100   # grey
+        color2: 3997  # white
+        border: 100   # grey
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+      - id: confirmLoad
+        color: 100   # grey
+      - id: confirmDelete
+        color: 3000 # dark red
+  - type: pauseMenu
+    elements:
+      - id: palette
+        color: 1     # burgundy
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 3997  # white
+        color2: 3997  # white
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoCraft
+    elements:
+      - id: palette
+        color: 4     # aqua
+        color2: 6    # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: text2
+        color: 133   # minty green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: text3
+        color: 239   # bright green
+        color2: 133  # minty green
+        border: 239  # bright green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+  - type: intercept
+    elements:
+      - id: palette
+        color: 4     # aqua
+        color2: 6    # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: text2
+        color: 133   # minty green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+  - type: ufoTracker
+    elements:
+      - id: palette
+        color: 4     # aqua
+        color2: 6    # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: text2
+        color: 133   # minty green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+  - type: craftPatrol
+    elements:
+      - id: palette
+        color: 4     # aqua
+        color2: 6    # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: craftError
+    elements:
+      - id: palette
+        color: 4     # aqua
+        color2: 6    # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: craftPilotError
+    elements:
+      - id: palette
+        color: 4     # aqua
+        color2: 6    # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: targetInfo
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138  # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: confirmDestination
+    elements:
+      - id: palette
+        color: 4     # aqua
+        color2: 6    # oxide
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 239   # bright green
+        color2: 138  # yellow
+        border: 133  # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: confirmLanding
+    elements:
+      - id: palette
+        color: 3     # pink
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 133   # minty green
+        color2: 138  # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: lowFuel
+    elements:
+      - id: palette
+        color: 4     # aqua
+      - id: text
+        color: 138  # yellow
+      - id: window
+        color: 100   # grey
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: UFOInfo
+    elements:
+      - id: palette
+        color: 7     # dark blue/purple
+        color2: 2    # red/orange
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 133   # minty green
+        color2: 138  # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: UFOLost
+    elements:
+      - id: palette
+        color: 7     # dark blue/purple
+        color2: 2    # red/orange
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 133   # minty green
+        color2: 138  # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: multipleTargets
+    elements:
+      - id: palette
+        color: 7     # dark blue/purple
+        color2: 2    # red/orange
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 133   # minty green
+        color2: 138  # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: dogfightInfo
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: baseDefense
+    elements:
+      - id: palette
+        color: 2     # red/orange
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 218   # blue
+      - id: button
+        color: 218   # blue
+  - type: terrorSite
+    elements:
+      - id: palette
+        color: 3     # pink
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 133   # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: alienBase
+    elements:
+      - id: palette
+        color: 3     # pink
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 133   # minty green
+      - id: button
+        color: 138   # yellow
+  - type: itemsArriving
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 133   # minty green
+      - id: text2
+        color: 138   # yellow
+        border: 133  # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoResearch
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoResearchComplete
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoResearchRequired
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: trainingFinished
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoNewCraft
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoNewFacility
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoNewItem
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoManufacture
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: geoManufactureComplete
+    elements:
+      - id: palette
+        color: 6     # oxide
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+      - id: list
+        color: 138   # yellow
+        color2: 239  # bright green
+        border: 133  # minty green
+  - type: baseNaming
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 133   # minty green
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: monthlyReport
+    elements:
+      - id: palette
+        color: 3
+      - id: window
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: text1
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: text2
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+  - type: fundingWindow
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 239   # bright green
+      - id: text2
+        color: 133   # minty green
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+  - type: geoscapeEvent
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text1
+        color: 138   # yellow
+        color2: 239  # bright green
+      - id: text2
+        color: 239   # bright green
+        color2: 133  # minty green
+      - id: button
+        color: 239   # bright green
+
+  - type: ufopaedia
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: text
+        color: 300 # yellowinvert
+      - id: list
+        color: 3997 # white invert
+        color2: 180 # 300 yellowinvert
+        border: 100
+      - id: button1
+        color: 100
+        color2: 180 # 300 yellowinvert
+      - id: button2
+        color: 100
+        color2: 180 # 300 yellowinvert
+
+  - type: promotions
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: heading
+        color: 133   # minty green
+      - id: text
+        color: 239   # bright green
+      - id: list
+        color: 138   # yellow
+      - id: button
+        color: 239   # bright green
+  - type: cannotReequip
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: heading
+        color: 133   # minty green
+      - id: text
+        color: 239   # bright green
+      - id: list
+        color: 138   # yellow
+      - id: button
+        color: 100   # grey
+        color2: 3997  # white
+  - type: debriefing
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: heading
+        color: 133   # minty green
+      - id: text
+        color: 133   # minty green
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: totals
+        color: 133   # minty green
+      - id: button
+        color: 239   # bright green
+      - id: errorPalette
+        color: 0     # brown
+      - id: errorMessage
+        color: 133   # minty green
+  - type: commendations
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: heading
+        color: 133   # minty green
+      - id: list
+        color: 239   # bright green
+        color2: 138  # yellow
+      - id: button
+        color: 239   # bright green
+
+  - type: inventory
+    elements: #color is the color index of the PAL_BATTLESCAPE palette
+      - id: textName
+        color: 144 # 64
+      - id: textTUs
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textWeight
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine1
+        custom: 11 # 1
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine2
+        custom: 12 # 2
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine3
+        custom: 13 # 3
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textStatLine4
+        custom: 14 # 4
+        color: 144 # 64
+        color2: 16 # 16
+      - id: textItem
+        color: 112 # 48
+        color2: 16 # 16
+      - id: textAmmo
+        color: 144 # 144
+        color2: 16 # 16
+      - id: textSlots
+        color: 96
+  - type: geoscapeMenu
+    elements:
+      - id: text
+        color: 90   # yellow
+      - id: button
+        color: 39   # bright green
+  - type: geoscape
+    backgroundImage: BACK01.SCR
+    elements:
+      - id: textLoad
+        color: 184   # minty green
+      - id: button
+        color: 184   # main button color
+        color2: 161  # letter color
+      - id: text # Clock and date, requires to have 5 colors in the shade
+        color: 170   # 244
+      - id: slackingIndicator
+        color: 184   # even lighter blue
+        color2: 184  # minty green
+        custom: -12  # above Intercept button
+      - id: genericWindow
+        color: 245   # bright green
+      - id: genericText
+        color: 176   # bright green
+        color2: 239  # 138
+        border: 182  # 22
+      - id: genericButton1
+        color: 147   # minty green
+      - id: genericButton2
+        color: 245   # bright green
+      - id: errorPalette
+        color: 6     # brown
+      - id: errorMessage
+        color: 245   # bright green
+  - type: articleArmor
+    elements:
+      - id: button
+        color: 66    # orange
+      - id: text
+        color: 8   # 239 grey
+        color2: 71  # 244 light blue
+      - id: list
+        color: 6   # 55 seems good green
+        color2: 71  # light blue
+  - type: articleCraftWeapon
+    elements:
+      - id: button
+        color: 66    # orange
+      - id: text
+        color: 8   # 239 grey
+        color2: 71  # 244 light blue
+      - id: list
+        color: 6   # 55 seems good green
+        color2: 71  # light blue
+
+  - type: articleItem
+    elements:
+      - id: button
+        color: 66   # 144 orange
+      - id: text
+        color: 8   # 239 grey
+        color2: 71  # 244 light blue
+      - id: list
+        color: 6   # 55 seems good green
+        color2: 71  # light blue
+      - id: ammoColor
+        color: 32    # red
+      - id: ammoColorDTAP
+        color: 161     #gray # 112 steely blue, AP
+      - id: ammoColorDTIN
+        color: 147    # orange, Incendiary
+      - id: ammoColorDTHE
+        color: 100    # dark brown, HE
+      - id: ammoColorDTLaser
+        color: 32    # 34 red
+      - id: ammoColorDTPlasma
+        color: 67    # green, Plasma
+      - id: ammoColorDTStun
+        color: 195    # purple, Stun
+      - id: ammoColorDTMelee
+        color: 176    # fleshy pink, Melee
+      - id: ammoColorDTAcid
+        color: 64    # lime green, Acid
+      - id: ammoColorDTSmoke
+        color: 84    # 80 soap, Smoke
+      - id: ammoColorDT10
+        color: 38    # red, K-MM Ballistic
+      - id: ammoColorDT11
+        color: 210   # bright blue, Electric
+      - id: ammoColorDT12
+        color: 112   # steely blue, Coilgun Ballistic
+      - id: ammoColorDT13
+        color: 17    # golden, Elerium Fusion
+      - id: ammoColorDT14
+        color: 10    # dark gray, Black Smoke
+      - id: ammoColorDT15
+        color: 52    # green, Shrapnel
+      - id: ammoColorDT16
+        color: 69    # dark lime, Sonic
+      - id: ammoColorDT17
+        color: 153    # dark brown, Toxic
+      - id: ammoColorDT18
+        color: 147    # orange, Flames
+      #- id: ammoColorDT19
+      #  color: 32    # red
