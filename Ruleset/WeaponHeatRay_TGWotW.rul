@@ -607,7 +607,101 @@ items:
     attraction: 8
     listOrder: 3405
 
-
+  - type: STR_MARTIAN_BLOOD_EXTRACTOR
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS]
+    requires:
+      - STR_ALIENS_ONLY
+    compatibleAmmo:
+      - STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER
+    size: 0.3
+    costSell: 13000
+    weight: 15
+    bigSprite: 3384
+    floorSprite: 3384
+    handSprite: 3384
+    bulletSprite: 9
+    #fireSound: 600
+    accuracyAimed: 85
+    tuAimed: 45
+    aimRange: 2
+    dropoff: 100
+    maxRange: 2
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    armor: 15
+    flatRate: true
+    twoHanded: true
+    listOrder: 3405
+  - type: STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costSell: 9500
+    weight: 3
+    bigSprite: 3400
+    floorSprite: 3400
+    handSprite: 3400
+    hitSound:
+      [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+      ]
+    hitAnimation: 66
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.15
+      RandomWound: true
+      ToWound: 6.0
+    power: 20
+    damageType: 8
+    blastRadius: 0
+    clipSize: 10
+    battleType: 2
+    armor: 12
+    listOrder: 3405
+  - type: STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER
+    categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
+    size: 0.1
+    costSell: 14500
+    weight: 8
+    bigSprite: 3408
+    floorSprite: 3408
+    handSprite: 3408
+    hitSound: 19
+    hitAnimation: 66
+    damageAlter:
+      RandomType: 2
+      IgnoreOverKill: true
+      ToArmorPre: 0.15
+      RandomWound: true
+      ToWound: 6.0
+    power: 0
+    damageType: 8
+    blastRadius: 0
+    clipSize: 1
+    battleType: 2
+    armor: 12
+    listOrder: 3405
 
 extraSprites:
   - type: BIGOBS.PCK
@@ -650,6 +744,10 @@ extraSprites:
 #      3360: Resources/HeatRay/BigMartianBulletThrower.png
 #      3368: Resources/HeatRay/BigMartianBulletThrowerMag.png
       3376: Resources/HeatRay/BigMartianBlade.png
+      3384: Resources/HeatRay/BigBloodExtractor_noammo.png
+      3392: Resources/HeatRay/BigBloodExtractor_ammo1.png
+      3400: Resources/HeatRay/BigBloodExtractorEmptyContainer.png
+      3408: Resources/HeatRay/BigBloodExtractorFullContainer.png
   - type: FLOOROB.PCK
     files:
       3080: Resources/HeatRay/FloorHeatRayPistol_nomag.png
@@ -690,6 +788,10 @@ extraSprites:
 #      3360: Resources/HeatRay/FloorMartianBulletThrower.png
 #      3368: Resources/HeatRay/FloorMartianBulletThrowerMag.png
       3376: Resources/HeatRay/FloorMartianBlade.png
+      3384: Resources/HeatRay/FloorBloodExtractor_noammo.png
+      3392: Resources/HeatRay/FloorBloodExtractor_ammo1.png
+      3400: Resources/HeatRay/FloorBloodExtractorEmptyContainer.png
+      3408: Resources/HeatRay/FloorBloodExtractorFullContainer.png
   - type: HANDOB.PCK
     height: 40
     width: 256
@@ -718,6 +820,10 @@ extraSprites:
 #      3352: Resources/HeatRay/HandMartianBulletThrower.png
 #      3360: Resources/HeatRay/HandMartianBulletThrower.png
       3376: Resources/HeatRay/HandMartianBlade.png
+      3384: Resources/HeatRay/HandBloodExtractor_noammo.png
+      3392: Resources/HeatRay/HandBloodExtractor_ammo1.png
+      3400: Resources/HeatRay/HandBloodExtractorEmptyContainer.png
+      3408: Resources/HeatRay/HandBloodExtractorFullContainer.png
   - type: Projectiles
     width: 105
     height: 3

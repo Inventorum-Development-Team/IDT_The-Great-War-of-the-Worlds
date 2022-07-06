@@ -16,7 +16,7 @@ en-US:
       STR_DAMAGE_13: THERMAL
       STR_DAMAGE_14: BLACK SMOKE
       STR_DAMAGE_15: SHRAPNEL
-      STR_DAMAGE_16: COLD
+      STR_DAMAGE_16: SONIC
       STR_DAMAGE_17: TOXIC
       STR_DAMAGE_18: FLAMES
       STR_DAMAGE_PLASMA_BEAM: PULSE PLASMA
@@ -1303,6 +1303,8 @@ en-US:
       STR_MARTIAN_BLADE_UFOPEDIA: "The Martian Blade is an unique melee energy weapon used by elite troopers. It seems each blade is handmade and belongs to a family, passed from warrior to warrior. Powerful and brutal."
       STR_MARTIAN_BLOOD_EXTRACTOR: "Martian Blood Extractor"
       STR_MARTIAN_BLOOD_EXTRACTOR_UFOPEDIA: "This unnerving 'tool' is often used by the enemy in harvesting operations. Basically a glorified syringe, the large lance-like piece is impaled directly into the body of the victim. The guts and blood are then drained and stored in a flask behind the Extractor, in a truly gruesome fashion. Very often, the victim is left bleeding to death as result of the violent procedure. The range is limited, but it ignores completely any kind of armor if it hits."
+      STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER: "Blood Extractor Empty Fluid Container"
+      STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER: "Blood Extractor Full Fluid Container"
 
       STR_RED_WEED_RESEARCH: Red Weed Research
       STR_CHEMICAL_WARFARE_RESEARCH: Martian Chemical Warfare Research

@@ -172,7 +172,15 @@
   - name: STR_MARTIAN_BLADE
     destroyItem: true
     needItem: true
-
+  - name: STR_MARTIAN_BLOOD_EXTRACTOR
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER
+    destroyItem: true
+    needItem: true
 
 ########################################
 ######### INTERROGATIONS ##############

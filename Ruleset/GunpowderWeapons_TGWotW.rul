@@ -2390,7 +2390,7 @@ items:
     handSprite: 680
     power: 44
     refNode: *KMMPistolRoundAntiArmor
-    damageType: 1
+    damageType: 10
     bulletSpeed: 15
     hitSound: 22
     hitAnimation: -1
@@ -2739,7 +2739,7 @@ items:
     floorSprite: 1544
     handSprite: 680
     power: 44
-    damageType: 1
+    damageType: 10
     hitSound: 22
     hitAnimation: -1
     bulletSprite: 14 #Pistol MM bullet 35*14=490

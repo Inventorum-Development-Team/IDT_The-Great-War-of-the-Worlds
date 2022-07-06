@@ -1500,6 +1500,20 @@ ufopaedia:
       - STR_MARTIAN_BLADE
     ##listOrder: 10308
 
+  - id: STR_MARTIAN_BLOOD_EXTRACTOR
+    type_id: 4
+    section: STR_MARTIAN_WEAPONS
+    text: STR_MARTIAN_BLOOD_EXTRACTOR_UFOPEDIA
+    requires:
+      - STR_MARTIAN_BLOOD_EXTRACTOR
+    ##listOrder: 10305
+  - id: STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
 ########################################
 ######### INTERROGATIONS ##############
 ######################################

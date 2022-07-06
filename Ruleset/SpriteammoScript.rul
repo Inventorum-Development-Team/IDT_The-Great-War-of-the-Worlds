@@ -553,6 +553,12 @@ items:
   - type: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP # ignoreDuplicate
     tags:
       AmmoNo: 2
+  - type: STR_MARTIAN_BLOOD_EXTRACTOR # ignoreDuplicate
+    tags:
+      AmmoReSprite: 1
+  - type: STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER # ignoreDuplicate
+    tags:
+      AmmoNo: 1
 
 extended:
   tags:
