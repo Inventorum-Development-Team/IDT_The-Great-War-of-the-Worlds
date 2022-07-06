@@ -5156,6 +5156,90 @@ items:
     armor: 250
     listOrder: 3240
 
+  - type: STR_TRANQUILIZER_RIFLE
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_FIREARMS,
+        STR_SHOTGUNS,
+        STR_ASSAULT_CLASS,
+        STR_AMERICAN_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT,
+        STR_ITALIAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT
+      ]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.3
+    costBuy: 1700
+    costSell: 520
+    weight: 7
+    bigSprite: 2528
+    floorSprite: 2528
+    handSprite: 2528
+    bulletSprite: 2
+    fireSound: 151
+    reloadSound: 308
+    compatibleAmmo:
+      - STR_TRANQUILIZER_SHOTGUN_DARTS
+    accuracySnap: 60
+    accuracyAimed: 90
+    accuracyCloseQuarters: 200
+    kneelBonus: 200
+    tuSnap: 50
+    tuAimed: 90
+    tuLoad: 20
+    minRange: 4
+    snapRange: 18
+    aimRange: 24
+    dropoff: 5
+    invHeight: 3
+    invWidth: 1
+    battleType: 1
+    twoHanded: true
+    armor: 250
+    listOrder: 3246
+  - type: STR_TRANQUILIZER_SHOTGUN_DARTS
+    categories:
+      [
+        STR_BALLISTIC,
+        STR_SHOTGUNS,
+        STR_ASSAULT_CLASS,
+        STR_AMERICAN_EQUIPMENT,
+        STR_FRENCH_EQUIPMENT,
+        STR_ITALIAN_EQUIPMENT,
+        STR_RUSSIAN_EQUIPMENT,
+        STR_CLIPS,
+      ]
+    #requiresBuy:
+     # - STR_ADVANCED_FIREARMS
+    size: 0.1
+    costBuy: 900
+    costSell: 250
+    weight: 3
+    bigSprite: 2544
+    floorSprite: 2544
+    handSprite: 2544
+    power: 15
+    damageType: 17
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToArmorPre: 0.1
+      ToStun: 2.0
+      RandomWound: false
+    hitSound: 22
+    hitAnimation: -1
+    clipSize: 3
+    invHeight: 1
+    invWidth: 1
+    #shotgunBehavior: 1
+    #shotgunPellets: 8
+    #shotgunSpread: 45
+    battleType: 2
+    armor: 250
+    listOrder: 3248
+
   ##########################################
   ########### TESLA SHOTGUNS ##############
   ########################################
@@ -7374,6 +7458,8 @@ extraSprites:
       3032: Resources/HumanWeapons/Medical/BigRottenBiscuitBox.png
       3040: Resources/HumanWeapons/Medical/BigWineBottle.png
       3048: Resources/HumanWeapons/Medical/BigTeaFlask.png
+      3056: Resources/HumanWeapons/Stun/BigTranquilizerRifle.png
+      3064: Resources/HumanWeapons/Stun/BigTranquilizerDarts.png
 
   - type: FLOOROB.PCK
     files:
@@ -7742,6 +7828,8 @@ extraSprites:
       3032: Resources/HumanWeapons/Medical/FloorRottenBiscuitBox.png
       3040: Resources/HumanWeapons/Medical/FloorWineBottle.png
       3048: Resources/HumanWeapons/Medical/FloorTeaFlask.png
+      3056: Resources/HumanWeapons/Stun/FloorTranquilizerRifle.png
+      3064: Resources/HumanWeapons/Stun/FloorTranquilizerDarts.png
 
   - type: HANDOB.PCK
     height: 40
@@ -8046,6 +8134,8 @@ extraSprites:
       3032: Resources/HumanWeapons/Medical/HandBiscuitBox.png
       3040: Resources/HumanWeapons/Medical/HandWineBottle.png
       3048: Resources/HumanWeapons/Medical/HandTeaFlask.png
+      3056: Resources/HumanWeapons/Stun/HandTranquilizerRifle.png
+      3064: Resources/HumanWeapons/Stun/HandTranquilizerDarts.png
 
   #############################
   - type: WW1_MEDIKIT

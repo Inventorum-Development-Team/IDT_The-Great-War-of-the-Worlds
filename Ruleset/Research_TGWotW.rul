@@ -260,6 +260,7 @@
     points: 50
     dependencies:
       - STR_OVERLORD_INTEL_9
+    cutscene: winGame
 
 #################################################
 ######### LEADERS AND MISC KNOWLEDGE ###########
@@ -382,6 +383,7 @@
   - name: STR_LEADER_INTEL_6
     requires:
       - STR_LEADER_INTEL_5
+
 ###################################################
 ###### SCIENTISTS AND PYRRIC VICTORY FINALE ######
 #################################################
@@ -440,10 +442,8 @@
     points: 100
     dependencies:
       - STR_BIOLOGICAL_WARFARE
+    cutscene: winGame
 
-  - name: STR_SECTOID
-    points: 50
-    needItem: true
   - name: STR_SECTOID_AUTOPSY
     points: 50
     needItem: true
@@ -452,16 +452,6 @@
     points: 50
     lookup: STR_SECTOID_AUTOPSY
     needItem: true
-
-
-  - name: STR_SECTOID_SOLDIER
-    cost: 192
-    points: 50
-    lookup: STR_SECTOID
-    unlocks:
-      - STR_ALIEN_ORIGINS
-    needItem: true
-    destroyItem: true
 
   - name: STR_SECTOID_SOLDIER
     cost: 192

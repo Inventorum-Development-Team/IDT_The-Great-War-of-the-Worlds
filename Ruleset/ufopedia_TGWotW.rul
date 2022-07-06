@@ -680,6 +680,16 @@ ufopaedia:
   - id: STR_SHOTGUN_DUMDUM_SHELLS_2
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: STR_TRANQUILIZER_RIFLE
+    #requires:
+     # - STR_ADVANCED_FIREARMS
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_TRANQUILIZER_RIFLE_UFOPEDIA
+    ##listOrder: 2006
+  - id: STR_TRANQUILIZER_SHOTGUN_DARTS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
   ##########################################
   ########### TESLA SHOTGUNS ##############
