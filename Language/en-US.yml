@@ -1551,7 +1551,7 @@ en-US:
       STR_AUTOCANNON_LAUNCHER: "Oerlikon 20mm Autocannon"
       STR_AUTOCANNON_ROUNDS_X50: "20MM Autocannon Rounds (x50)"
       STR_VICKERS_S_40MM_AUTOCANNON: "VICKERS 'S' 40MM AC"
-      STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, belt-fed automatic cannon, fires large APHE 40mm rounds. Its so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted."
+      STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, belt-fed automatic cannon, fires large APHE 40mm rounds. It's so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted."
       STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER: "Vickers 'S' 40mm AC"
       STR_QF_1_PDR_POMPOM: "QF 1-pdr 'Pom Pom'"
       STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, could be found mounted everywhere, from aircrafts to gun emplacements and warships. Fires special sharpnel rounds.
@@ -1563,13 +1563,32 @@ en-US:
       STR_FRAGMENTATION_BOMB: "FRAG BOMBS"
       STR_FRAGMENTATION_BOMB_UFOPEDIA: "Free fall 20lb (a bit more than 9 kg) fragmentation bomb. Basically a big grenade, can shred light armor and infantry. Mounted below the frame of the plane, sometimes even thrown manually by the aircrew."
       STR_FRAGMENTATION_BOMB_LAUNCHER: "Fragmentation Bombs Rack (x5)"
-      STR_FRAGMENTATION_BOMB_X3: Fragmentation Bomb Rack (x3)
+      STR_FRAGMENTATION_BOMB_X3: "Fragmentation Bomb Rack (x3)"
       STR_HE_BOMB: "HIGH EXPLOSIVE BOMBS"
       STR_HE_BOMB_UFOPEDIA: "Free fall, 500lb (226.7kg) large explosive bomb. The back of the bomb has a squared fin to help targeting with accuracy. Mounted below the airplane."
       STR_HE_BOMB_LAUNCHER: "High Explosive Bombs Rack (x3)"
       STR_CLUSTER_BOMB: "CLUSTER BOMBS"
       STR_CLUSTER_BOMB_UFOPEDIA: "A large group of free fall medium-sized 260lb bombs meant to saturate an extensive area with explosions very quickly."
       STR_CLUSTER_BOMB_LAUNCHER: "Cluster Bombs Rack (x10)"
+      
+      STR_LE_PRIEUR_ROCKETS: "LE PRIEUR ROCKETS"
+      STR_LE_PRIEUR_ROCKETS_UFOPEDIA: "Commonly known as 'glorified fireworks', the French-designed light incendiary rocket was meant originally to be used against airships and observation balloons. It's fired from tubes mounted in the inter-plane struts, all at the same time. Highly inaccurate, but extremely cheap."
+      STR_LE_PRIEUR_ROCKETS_LAUNCHER: "Le Prieur Rockets Rack (x8)"
+      STR_CLUSTER_ROCKETS: "CLUSTER ROCKETS"
+      STR_CLUSTER_ROCKETS_UFOPEDIA: "A major upgrade over the wood and cardboard Le Prieur rockets, the FFAR Cluster Rocket System uses all-metal 85mm HE rockets, fired in salvos to saturate an area ahead the launcher plane. The better materials allow the projectile to travel faster and longer."
+      STR_CLUSTER_ROCKETS_LAUNCHER: "Cluster Rockets Rack (x8)"
+      STR_MAGNETIC_ROCKET: "MAGNETIC ROCKETS"
+      STR_MAGNETIC_ROCKETS_UFOPEDIA: "A major breakthrough in the air-to-air combat weaponry. The addition of Martian data processing machines allows the rocket to detect large amounts of ferrous materials (both Human and Martian) and direct the projectile towards it."
+      STR_MAGNETIC_ROCKETS_LAUNCHER: "Magnetic Rockets Rack (x4)"
+      STR_GUIDED_ROCKETS: "GUIDED ROCKETS"
+      STR_GUIDED_ROCKETS_UFOPEDIA: "The latest application of human reverse engineering research. A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty HE warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its major drawbacks are the cost of the system and the limited operational range."
+      STR_GUIDED_ROCKETS_LAUNCHER: "Guided Rockets Rack (x2)"
+      
+      STR_AUX_HEAT_RAY_MK1: "Aircraft Heat-Ray Projector Mk1"
+      STR_AUX_HEAT_RAY_MK1_UFOPEDIA:
+      STR_AUX_HEAT_RAY_MK1_LAUNCHER:
+      
+      STR_AUX_ROCKET_TURBINE: 
 
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
