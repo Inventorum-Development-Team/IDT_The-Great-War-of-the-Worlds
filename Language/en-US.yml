@@ -71,14 +71,14 @@ en-US:
       STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements."
       STR_DETECTED: "Sighted"
       STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON TRIPOD-TIME=5 Secs"
-      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE TRIPOD "
-      STR_UFO_IS_NOT_RECOVERED: "Tripod not recovered"
-      STR_UFO_IS_RECOVERED: "Tripod recovered"
-      STR_UFO_RECOVERY: "TRIPOD RECOVERY"
-      STR_UFO_DESTROYED: "TRIPOD DESTROYED!"
-      STR_UFO_: "TRIPOD-{0}"
-      STR_TAILING_UFO: "CHASING A TRIPOD"
-      STR_INTERCEPTING_UFO: "INTERCEPTING TRIPOD-{0}"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE MARTIAN-MACHINE "
+      STR_UFO_IS_NOT_RECOVERED: "Martian-Machine not recovered"
+      STR_UFO_IS_RECOVERED: "Martian-Machine recovered"
+      STR_UFO_RECOVERY: "MARTIAN-MACHINE RECOVERY"
+      STR_UFO_DESTROYED: "MARTIAN-MACHINE DESTROYED!"
+      STR_UFO_: "MARTIAN-MACHINE-{0}"
+      STR_TAILING_UFO: "CHASING A MARTIAN-MACHINE"
+      STR_INTERCEPTING_UFO: "INTERCEPTING MARTIAN-MACHINE-{0}"
       STR_XCOM_OPERATIVES_KILLED: "IEF LOSSES"
       STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "IEF SOLDIERS MISSING IN ACTION"
       STR_XCOM_CRAFT_LOST: "IEF SHIP LOST"
@@ -88,10 +88,10 @@ en-US:
       STR_ALIEN_BASE_RECOVERY: "RECOVERY OF MARTIAN FORTRESS"
       STR_ALIEN_BASE_ASSAULT: "ASSAULT ON MARTIAN FORTRESS"
       STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a Martian Fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
-      STR_UFO_CRASH_RECOVERY: "DOWNED TRIPOD RECOVERY"
-      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the Tripod or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of Tripod remains, artifacts and Martian corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
-      STR_UFO_GROUND_ASSAULT: "TRIPOD GROUND ASSAULT"
-      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the Tripod. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Tripod remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_CRASH_RECOVERY: "DOWNED MARTIAN-MACHINE RECOVERY"
+      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the Martian-Machine or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of Martian-Machine remains, artifacts and Martian corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_GROUND_ASSAULT: "MARTIAN-MACHINE GROUND ASSAULT"
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the Martian-Machine. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Martian-Machine remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
       STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a Martian base in {0}"
       STR_XCOM_PERFORMANCE_ROSTER: "IEF Performance Roster"
       STR_UFOPAEDIA: "War Codex"
@@ -1205,7 +1205,7 @@ en-US:
       STR_MARTIAN_LINE_INFANTRY_ARMOR: "Martian Line Infantry Battle-Caparace"
       STR_MARTIAN_LINE_INFANTRY_CORPSE: "Martian Line Infantry Corpse"
       STR_MARTIAN_MARINE: "Martian Marine"
-      STR_MARTIAN_MARINE_LEADER: "Martian Marine Ship Leader"
+      STR_MARTIAN_MARINE_LEADER: "Martian Marine Boatswain"
       STR_MARTIAN_MARINES: "Martian Marines Team"
       STR_MARTIAN_MARINE_ARMOR: "Martian Marine Battle-Caparace"
       STR_MARTIAN_MARINE_CORPSE: "Martian Marine Corpse"
@@ -1397,6 +1397,19 @@ en-US:
       STR_LEADER_5: "Leader Unlock 5"
       STR_LEADER_6: "Leader Unlock 6"
 
+#################################################
+####### INTERROGATION AND AUTOPSIES ############
+###############################################
+
+      STR_SECTOID_SOLDIER_UFOPEDIA: "These Grey Bipedal-Martians are the clearest sign that the Martians also employ levy armies. They are all conscripts, forced to serve in the invasions of their Martian masters. The fact that they are not professional warriors makes them somewhat incompetent in battle. They are susceptible to disorder, since they are draftees, not professional soldiers. Their strength is their sheer numbers."
+      STR_SECTOID_SOLDIER_AUTOPSY_UFOPEDIA: "It is surprising how fragile this Grey Martian is. Their bodies are not adapted to combat in any way, they have no implants or enhancements of any kind. They don't even have armor, which leads us to believe that they are used as cannon fodder."
+      STR_SECTOID_LEADER_UFOPEDIA: "The Leader of a Conscript platoon is the leader of a group similar to a tribe or clan. Apparently Greys are recruited from the same region, similar to some human regiments, so the Leader is usually the patriarch of the predominant group there."
+      STR_SECTOID_LEADER_AUTOPSY_UFOPEDIA: "This Gray Bipedal-Martian is slightly different from the others. Its skin tissue looks older and scarred. This individual's brain and eyes more appear to be slightly more developed than those of his congeners, which may be a sign that his social standing superior to other members of his caste."
+      STR_MARTIAN_SHOCK_GUARD_LEADER_UFOPEDIA: "The officers and elite leaders of the enemy army are also assigned the best armor available in the Martian arsenal. They are the equivalent of a commissioned officer and they command large numbers of troops. The red dye on their armor is obtained from the Red Weed, similarly that worn by their subordinates."
+
+###############################################
+######### MARTIAN MOBILE BASES ###############
+#############################################
 
       STR_MARTIAN_CAMP: "Martian Camp"
       STR_MARTIAN_CAMP_UFOPEDIA: "These camps serve the same function as ours: to house a group of troops as they march towards their target. They are easy to assemble and dismantle, although they can withstand bullets and light projectiles."
@@ -1570,7 +1583,7 @@ en-US:
       STR_CLUSTER_BOMB: "CLUSTER BOMBS"
       STR_CLUSTER_BOMB_UFOPEDIA: "A large group of free fall medium-sized 260lb bombs meant to saturate an extensive area with explosions very quickly."
       STR_CLUSTER_BOMB_LAUNCHER: "Cluster Bombs Rack (x10)"
-      
+
       STR_LE_PRIEUR_ROCKETS: "LE PRIEUR ROCKETS"
       STR_LE_PRIEUR_ROCKETS_UFOPEDIA: "Commonly known as 'glorified fireworks', the French-designed light incendiary rocket was meant originally to be used against airships and observation balloons. It's fired from tubes mounted in the inter-plane struts, all at the same time. Highly inaccurate, but extremely cheap."
       STR_LE_PRIEUR_ROCKETS_LAUNCHER: "Le Prieur Rockets Rack (x8)"
@@ -1583,12 +1596,12 @@ en-US:
       STR_GUIDED_ROCKETS: "GUIDED ROCKETS"
       STR_GUIDED_ROCKETS_UFOPEDIA: "The latest application of human reverse engineering research. A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty HE warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its major drawbacks are the cost of the system and the limited operational range."
       STR_GUIDED_ROCKETS_LAUNCHER: "Guided Rockets Rack (x2)"
-      
+
       STR_AUX_HEAT_RAY_MK1: "Aircraft Heat-Ray Projector Mk1"
       STR_AUX_HEAT_RAY_MK1_UFOPEDIA:
       STR_AUX_HEAT_RAY_MK1_LAUNCHER:
-      
-      STR_AUX_ROCKET_TURBINE: 
+
+      STR_AUX_ROCKET_TURBINE:
 
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
