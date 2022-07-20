@@ -892,7 +892,7 @@ extraSprites:
       3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
       3054: Resources/Martians/RoyalGuards/BigOb_SectoidPowerSkeleton.png
       3055: Resources/Martians/ScienceTeam/BigOb_Sectoid_White.png
-      3056: Resources/Martians/CerebrealRace/bigobs_CEREBREAL_CORPSE.gif
+      3056: Resources/Martians/CerebrealRace/bigobs_CEREBREAL_CORPSE.PNG
   - type: FLOOROB.PCK
     files:
       3050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_FLOOROB.png
@@ -901,7 +901,7 @@ extraSprites:
       3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
       3054: Resources/Martians/RoyalGuards/FloorOb_SectoidPowerSkeleton.png
       3055: Resources/Martians/ScienceTeam/FloorOb_Sectoid_White.png
-      3056: Resources/Martians/CerebrealRace/floorob_CEREBREAL_CORPSE.gif
+      3056: Resources/Martians/CerebrealRace/floorob_CEREBREAL_CORPSE.PNG
 
   - type: CONSCRIPT_INVENTORY.SPK
     singleImage: true
@@ -957,7 +957,7 @@ extraSprites:
   - type: inventory_CEREBREAL
     singleImage: true
     files:
-      0: Resources/Martians/CerebrealRace/inventory_CEREBREAL.gif
+      0: Resources/Martians/CerebrealRace/inventory_CEREBREAL.PNG
 
 # Inventory
 
