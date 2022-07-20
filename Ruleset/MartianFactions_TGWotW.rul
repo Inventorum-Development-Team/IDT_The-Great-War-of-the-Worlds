@@ -3,8 +3,8 @@
     size: 0.4
     costSell: 2000
     weight: 20
-    bigSprite: 3050
-    floorSprite: 3050
+    bigSprite: 4050
+    floorSprite: 4050
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -15,8 +15,8 @@
     size: 0.4
     costSell: 2000
     weight: 20
-    bigSprite: 3051
-    floorSprite: 3051
+    bigSprite: 4051
+    floorSprite: 4051
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -27,8 +27,8 @@
     size: 0.4
     costSell: 2000
     weight: 20
-    bigSprite: 3052
-    floorSprite: 3052
+    bigSprite: 4052
+    floorSprite: 4052
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -39,8 +39,8 @@
     size: 0.4
     costSell: 3000
     weight: 20
-    bigSprite: 3053
-    floorSprite: 3053
+    bigSprite: 4053
+    floorSprite: 4053
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -51,8 +51,8 @@
     size: 0.4
     costSell: 7000
     weight: 50
-    bigSprite: 3054
-    floorSprite: 3054
+    bigSprite: 4054
+    floorSprite: 4054
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -63,8 +63,8 @@
     size: 0.4
     costSell: 3000
     weight: 20
-    bigSprite: 3055
-    floorSprite: 3055
+    bigSprite: 4055
+    floorSprite: 4055
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -75,8 +75,8 @@
     size: 0.4
     costSell: 20000
     weight: 20
-    bigSprite: 3056
-    floorSprite: 3056
+    bigSprite: 4056
+    floorSprite: 4056
     invWidth: 2
     invHeight: 3
     recoveryPoints: 5
@@ -886,22 +886,22 @@ extraSprites:
 
   - type: BIGOBS.PCK
     files:
-      3050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_BIGOB.png
-      3051: Resources/Martians/Marines/MARINE_BATTLESUIT_CORPSE_BIGOB.png
-      3052: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_CORPSE_FLOOROB.png
-      3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
-      3054: Resources/Martians/RoyalGuards/BigOb_SectoidPowerSkeleton.png
-      3055: Resources/Martians/ScienceTeam/BigOb_Sectoid_White.png
-      3056: Resources/Martians/CerebrealRace/bigobs_CEREBREAL_CORPSE.PNG
+      4050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_BIGOB.png
+      4051: Resources/Martians/Marines/MARINE_BATTLESUIT_CORPSE_BIGOB.png
+      4052: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_CORPSE_FLOOROB.png
+      4053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
+      4054: Resources/Martians/RoyalGuards/BigOb_SectoidPowerSkeleton.png
+      4055: Resources/Martians/ScienceTeam/BigOb_Sectoid_White.png
+      4056: Resources/Martians/CerebrealRace/bigobs_CEREBREAL_CORPSE.PNG
   - type: FLOOROB.PCK
     files:
-      3050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_FLOOROB.png
-      3051: Resources/Martians/Marines/MARINE_BATTLESUIT_CORPSE_FLOOROB.png
-      3052: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_CORPSE_FLOOROB.png
-      3053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
-      3054: Resources/Martians/RoyalGuards/FloorOb_SectoidPowerSkeleton.png
-      3055: Resources/Martians/ScienceTeam/FloorOb_Sectoid_White.png
-      3056: Resources/Martians/CerebrealRace/floorob_CEREBREAL_CORPSE.PNG
+      4050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_FLOOROB.png
+      4051: Resources/Martians/Marines/MARINE_BATTLESUIT_CORPSE_FLOOROB.png
+      4052: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_CORPSE_FLOOROB.png
+      4053: Resources/Martians/Skirmishers/floorob_Skirmisher.png
+      4054: Resources/Martians/RoyalGuards/FloorOb_SectoidPowerSkeleton.png
+      4055: Resources/Martians/ScienceTeam/FloorOb_Sectoid_White.png
+      4056: Resources/Martians/CerebrealRace/floorob_CEREBREAL_CORPSE.PNG
 
   - type: CONSCRIPT_INVENTORY.SPK
     singleImage: true
