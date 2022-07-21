@@ -1229,10 +1229,10 @@ en-US:
       STR_MARTIAN_ROYAL_GUARDS: "Martian Royal Guard Formation"
       STR_MARTIAN_ROYAL_GUARD_CORPSE: "Martian Royal Guard Corpse"
       STR_MARTIAN_ROYAL_POWER_ARMOR: "Martian Royal Guard Battle-Caparace"
-      STR_CEREBREAL: "Overseer"
-      STR_CEREBREAL_COMMANDER: "Overseer Commander"
+      STR_CEREBREAL: "Overlord"
+      STR_CEREBREAL_COMMANDER: "Overlord Commander"
       STR_CEREBREAL_UFOPAEDIA: "..."
-      CEREBREAL_ARMOR: "Overseer Skin"
+      CEREBREAL_ARMOR: "Overlord Skin"
 
 
 #################################################
@@ -1358,8 +1358,8 @@ en-US:
       STR_OVERLORD_INTEL_9_UFOPEDIA: "The latest interrogation has unveiled a half-hidden 'truth'. Life exists on other planets in the Solar System, not just Earth and Mars. Venus, the Jovian and Saturnian moons… We are one more house in a long neighborhood. And it seems that the war has affected everyone. The Mars-led faction fights against the Jovian faction. Apparently the front lines are in the asteroid belt and right on the moons of Jupiter. This Overlord has expressed to us their race's interest in our planet and now in ourselves. And they informs us that their leaders want to contact ours."
       STR_MARTIANS_SEEKS_DIPLOMACY_EVENT: "Martians seeks diplomacy"
       STR_MARTIANS_SEEKS_DIPLOMACY_EVENT_DESCRIPTION: "A Flying-Machine has landed near our base undetected. A group of Overlords and their escorts are approaching our base commander. Their intention is to negotiate a truce and offer an alliance. They have entered the complex and we will begin talks shortly."
-      STR_MARTIAN_OVERSEER_DIPLOMACY: "Emergency diplomatic meeting at our base"
-      STR_MARTIAN_OVERSEER_DIPLOMACY_UFOPEDIA: "Representatives of all Coalition nations are present, as well as the Martian leaders. The makeshift meeting room hosts our translator. The leader of the alien retinue informs us that their planet is at war with the Outer Planets and they need our help. We have proven to be a formidable opponent. Losing an Overlord is a tragedy for them, but we are the first planet that has managed to capture nive. Not even the 'Jovians', their worst enemies, have managed it. If we accept the proposal of a truce and join them in their war, they will immediately cease attacks against Earth and help us create ships capable of traveling to Jupiter and beyond. If we refuse, they will continue their genocidal campaign and wipe us off the face of the planet to seize its resources and keep their war machine running. The Coalition leaders cast their votes and it looks like the final decision rests with us."
+      STR_MARTIAN_Overlord_DIPLOMACY: "Emergency diplomatic meeting at our base"
+      STR_MARTIAN_Overlord_DIPLOMACY_UFOPEDIA: "Representatives of all Coalition nations are present, as well as the Martian leaders. The makeshift meeting room hosts our translator. The leader of the alien retinue informs us that their planet is at war with the Outer Planets and they need our help. We have proven to be a formidable opponent. Losing an Overlord is a tragedy for them, but we are the first planet that has managed to capture nive. Not even the 'Jovians', their worst enemies, have managed it. If we accept the proposal of a truce and join them in their war, they will immediately cease attacks against Earth and help us create ships capable of traveling to Jupiter and beyond. If we refuse, they will continue their genocidal campaign and wipe us off the face of the planet to seize its resources and keep their war machine running. The Coalition leaders cast their votes and it looks like the final decision rests with us."
 
 # COLLABORATION FINALE
 
@@ -1597,11 +1597,28 @@ en-US:
       STR_GUIDED_ROCKETS_UFOPEDIA: "The latest application of human reverse engineering research. A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty HE warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its major drawbacks are the cost of the system and the limited operational range."
       STR_GUIDED_ROCKETS_LAUNCHER: "Guided Rockets Rack (x2)"
 
-      STR_AUX_HEAT_RAY_MK1: "Aircraft Heat-Ray Projector Mk1"
-      STR_AUX_HEAT_RAY_MK1_UFOPEDIA:
-      STR_AUX_HEAT_RAY_MK1_LAUNCHER:
+      STR_AUX_HEAT_RAY_MK1: "AIRCRAFT HEAT-RAY PROJECTOR MK1"
+      STR_AUX_HEAT_RAY_MK1_UFOPEDIA: "A reverse-engineered version of the Light Heat-Ray Projector Turrets found among the wrecked Tripods all over England. It's a powerful weapon, but the low quality of the magnification lenses limits the effective range."
+      STR_AUX_HEAT_RAY_MK1_LAUNCHER: "Aircraft Heat-Ray Projector Mk1"
+      STR_AUX_HEAT_RAY_MK2: "AIRCRAFT HEAT-RAY PROJECTOR MK2"
+      STR_AUX_HEAT_RAY_MK2_UFOPEDIA:
+      STR_AUX_HEAT_RAY_MK2_LAUNCHER: "Aircraft Heat-Ray Projector Mk2"
+      STR_AUX_HEAT_RAY_MK3: "AIRCRAFT HEAT-RAY PROJECTOR MK3"
+      STR_AUX_HEAT_RAY_MK3_UFOPEDIA:
+      STR_AUX_HEAT_RAY_MK3_LAUNCHER: "Aircraft Heat-Ray Projector Mk3"
 
       STR_AUX_ROCKET_TURBINE:
+      STR_AUX_ROCKET_TURBINE_UFOPEDIA:
+      STR_AUX_ROCKET_TURBINE_LAUNCHER:
+      
+      STR_VEHICLE_QF_6_PDR_TURRET: "QF 6-PDR VEHICLE TURRET"
+      STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA:
+      STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER:
+      STR_VEHICLE_QF_6_PDR_TURRET_ITEM: 
+      STR_VEHICLE_HEAT_RAY_TURRET: 
+      STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The large cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy."
+      STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER:
+      STR_VEHICLE_HEAT_RAY_TURRET_ITEM:
 
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
