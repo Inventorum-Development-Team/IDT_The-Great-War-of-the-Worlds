@@ -1333,6 +1333,13 @@ en-US:
       STR_UNIVERSAL_TRANSLATION_DEVICE_UFOPEDIA: "The deceased crew members of the unidentified ship managed to communicate with the human soldiers in their native language until before their death. Our scientists and engineers believe it is possible to repair this device using similar parts found on Fighting-Machines, which will allow us to communicate with the enemy and any other aliens we encounter. If this works, it will perhaps be the most important breakthrough of the entire war."
       STR_ALIEN_CONTAINMENT: "Contention Chamber"
       STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special chamber prepared to interrogate Martian prisoners of war. At the center of the room is a universal translation device that allows converting human languages into the various guttural sounds emitted by extraterrestrials and vice versa."
+      
+      STR_DEFEAT_FINALE_1: "Despite our best efforts, we have lost. Not even the mightiest nations and the greatest minds alive combined could avoid the inevitable. "
+      STR_DEFEAT_FINALE_2: "The negotiations were short. Earth is now another colony of the Martian tyranny."
+      STR_DEFEAT_FINALE_3: "One third of the remaining population was brainwashed to serve in the alien military, just like the Selenites. The other two thirds are used to feed the Martians. Huge cannons send human troops to fight in the enemy's wars in the outer solar system. It was clear they would involve us in their conflicts one way or another."
+      STR_DEFEAT_FINALE_4: "The human spirit won't be completely broken, as there are still armed resistance hiding underground, harassing the invaders with guerrilla warfare."
+      STR_DEFEAT_FINALE_5: "The relative calm didn't last long, though. Some months after the surrendering of mankind, cylinders fell again to Earth, this time full of Jovians and their allies. Our planet became just another frontline in a forever war we didn't wanted to be part. "
+      
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
 ###############################################
@@ -1358,11 +1365,11 @@ en-US:
       STR_OVERLORD_INTEL_9_UFOPEDIA: "The latest interrogation has unveiled a half-hidden 'truth'. Life exists on other planets in the Solar System, not just Earth and Mars. Venus, the Jovian and Saturnian moons… We are one more house in a long neighborhood. And it seems that the war has affected everyone. The Mars-led faction fights against the Jovian faction. Apparently the front lines are in the asteroid belt and right on the moons of Jupiter. This Overlord has expressed to us their race's interest in our planet and now in ourselves. And they informs us that their leaders want to contact ours."
       STR_MARTIANS_SEEKS_DIPLOMACY_EVENT: "Martians seeks diplomacy"
       STR_MARTIANS_SEEKS_DIPLOMACY_EVENT_DESCRIPTION: "A Flying-Machine has landed near our base undetected. A group of Overlords and their escorts are approaching our base commander. Their intention is to negotiate a truce and offer an alliance. They have entered the complex and we will begin talks shortly."
-      STR_MARTIAN_Overlord_DIPLOMACY: "Emergency diplomatic meeting at our base"
-      STR_MARTIAN_Overlord_DIPLOMACY_UFOPEDIA: "Representatives of all Coalition nations are present, as well as the Martian leaders. The makeshift meeting room hosts our translator. The leader of the alien retinue informs us that their planet is at war with the Outer Planets and they need our help. We have proven to be a formidable opponent. Losing an Overlord is a tragedy for them, but we are the first planet that has managed to capture nive. Not even the 'Jovians', their worst enemies, have managed it. If we accept the proposal of a truce and join them in their war, they will immediately cease attacks against Earth and help us create ships capable of traveling to Jupiter and beyond. If we refuse, they will continue their genocidal campaign and wipe us off the face of the planet to seize its resources and keep their war machine running. The Coalition leaders cast their votes and it looks like the final decision rests with us."
+      STR_MARTIAN_OVERLORD_DIPLOMACY: "Emergency diplomatic meeting at our base"
+      STR_MARTIAN_OVERLORD_DIPLOMACY_UFOPEDIA: "Representatives of all Coalition nations are present, as well as the Martian leaders. The makeshift meeting room hosts our translator. The leader of the alien retinue informs us that their planet is at war with the Outer Planets and they need our help. We have proven to be a formidable opponent. Losing an Overlord is a tragedy for them, but we are the first planet that has managed to capture nive. Not even the 'Jovians', their worst enemies, have managed it. If we accept the proposal of a truce and join them in their war, they will immediately cease attacks against Earth and help us create ships capable of traveling to Jupiter and beyond. If we refuse, they will continue their genocidal campaign and wipe us off the face of the planet to seize its resources and keep their war machine running. The Coalition leaders cast their votes and it looks like the final decision rests with us."
 
 # COLLABORATION FINALE
-
+      STR_ACCEPT_TRUCE: "Accept Truce"
       STR_COLLABORATION_FINALE_1: "We accepted the proposal of the invader. Immediately, all Martian attacks stopped and in many places, the Grey infantry laid down their arms."
       STR_COLLABORATION_FINALE_2: "Earth's population received the news mixed. Many people and important political figures accepted the change and were grateful that the carnage on the front lines was stopped."
       STR_COLLABORATION_FINALE_3: "Others, however, saw this as a stab in the back. The whole war had been futile. The enemy was still on our planet. The Red Weed still covered large tracts of land and is not going away. There are protests in several cities."
@@ -1371,6 +1378,7 @@ en-US:
       STR_COLLABORATION_FINALE_6: "Our men and women now float in space, bound for a war we do not understand.	Against an enemy we do not know. Only time will tell if we make the right decision."
 
 # REFUSE COLLABORATION
+      STR_REJECT_TRUCE: "Reject Truce"
       STR_TRUCE_REJECTED_EVENT: "Truce Rejected"
       STR_TRUCE_REJECTED_EVENT_DESCRIPTION: "The answer was resounding. No. Humanity will not negotiate with the enemy that has slaughtered millions and poisoned the planet. As a courtesy, we have allowed the Martian representatives to withdraw without firing a shot. But we can expect the fighting to get worse. However, the news has been well received by the populace and more volunteers have shown up at the recruiting offices."
 
@@ -1450,6 +1458,7 @@ en-US:
       STR_BIOLOGICAL_WARFARE_UFOPEDIA: "Now we have the Geneva Convention restricitons lifted, we can conduct a yet-to-be-approved series of biological and chemical studies focused on studying the enemy's weakness and more importantly, how to kill them quickly. After we have identified their symbiotic relationship with the Red Weed, we can explore new ways to weaponize viral or bacterial agents on our favor. An allied science team has proposed a new bio-weapon codenamed 'Firestorm', we could help them with their studies using our knowledge of the Martian biology."
       STR_OPERATION_FIRESTORM: "Operation Firestorm"
       STR_OPERATION_FIRESTORM_UFOPEDIA: "A highly experimental strain of the hepatitis virus was created, aimed to disrup the inmune system of the infected and their liver. This is transmitted through blood and other body fluids. After capturing the infected mammals, the Martians will caught the sickness and develop it. Eventually, their inmune systems will be compromised again and they'll die even with the lightest flu. This may have a chance of infecting humans as well, because we are one of the vectors of the infection. While a large portion of the international medical community has their concerns, we don't have any choice. The war does not seems to have an end soon. This may be our last chance of winning it. As a safety measure, we have developed a vaccine too. Just in case. "
+      STR_LAUNCH_FIRESTORM: "Launch Operation Firestorm"
 
       STR_PYRRIC_VICTORY_FINALE_1: "Our most secretive biological weapon was released, widely distributed over the Martian Occupation Zones using specially modified airplanes. Several of them were shot down, but most managed to accomplish their task."
       STR_PYRRIC_VICTORY_FINALE_2: "The result was expected... the enemy didn't noticed they were collecting infected bodies and directly feeding with the Firestorm virus. In a matter of weeks, most of them became sick and fell. The activity in the frontlines ceased."
@@ -1485,7 +1494,7 @@ en-US:
       STR_SPAD: "SPAD XIII"
       STR_SPAD_UFOPEDIA: "Hunter - Excellent nimble biplane aircraft, very popular in the Coalition Air Forces. It's used by many fighter aces. It can perform any mission of air supremacy or long-range reconnaissance."
 
-      STR_ROYAL_AIRCRAFT_SE5A: "ROYAL AIRCRAFT SE-5a"
+      STR_ROYAL_AIRCRAFT_SE5A: "SE-5a"
       STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA: "Scout - The fastest biplane in combat service. It's also a very stable gun platform, with easy controls - a staple of British aircrafts."
 
       STR_FOKKER_DR1: "FOKKER DR-1"
@@ -1566,10 +1575,15 @@ en-US:
       STR_VICKERS_S_40MM_AUTOCANNON: "VICKERS 'S' 40MM AC"
       STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, belt-fed automatic cannon, fires large APHE 40mm rounds. It's so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted."
       STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER: "Vickers 'S' 40mm AC"
+      
       STR_QF_1_PDR_POMPOM: "QF 1-pdr 'Pom Pom'"
       STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, could be found mounted everywhere, from aircrafts to gun emplacements and warships. Fires special sharpnel rounds.
       STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
       STR_QF_1_PDR_POMPOM_X30: QF 1-pdr Shells (x30)
+      
+      STR_4_INCH_NAVAL_GUN:
+      STR_4_INCH_NAVAL_GUN_UFOPEDIA:
+      STR_4_INCH_NAVAL_GUN_LAUNCHER:
 
 
 
@@ -1591,34 +1605,42 @@ en-US:
       STR_CLUSTER_ROCKETS_UFOPEDIA: "A major upgrade over the wood and cardboard Le Prieur rockets, the FFAR Cluster Rocket System uses all-metal 85mm HE rockets, fired in salvos to saturate an area ahead the launcher plane. The better materials allow the projectile to travel faster and longer."
       STR_CLUSTER_ROCKETS_LAUNCHER: "Cluster Rockets Rack (x8)"
       STR_MAGNETIC_ROCKET: "MAGNETIC ROCKETS"
-      STR_MAGNETIC_ROCKETS_UFOPEDIA: "A major breakthrough in the air-to-air combat weaponry. The addition of Martian data processing machines allows the rocket to detect large amounts of ferrous materials (both Human and Martian) and direct the projectile towards it."
+      STR_MAGNETIC_ROCKETS_UFOPEDIA: "A major breakthrough in air-to-air combat weaponry. The addition of Martian data processing machines allows the rocket to detect large amounts of ferrous materials (both Human and Martian) and direct the projectile towards it."
       STR_MAGNETIC_ROCKETS_LAUNCHER: "Magnetic Rockets Rack (x4)"
       STR_GUIDED_ROCKETS: "GUIDED ROCKETS"
       STR_GUIDED_ROCKETS_UFOPEDIA: "The latest application of human reverse engineering research. A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty HE warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its major drawbacks are the cost of the system and the limited operational range."
       STR_GUIDED_ROCKETS_LAUNCHER: "Guided Rockets Rack (x2)"
 
-      STR_AUX_HEAT_RAY_MK1: "AIRCRAFT HEAT-RAY PROJECTOR MK1"
+      STR_AUX_HEAT_RAY_MK1: "AIRCRAFT HEAT-RAY PROJECTOR MK.I"
       STR_AUX_HEAT_RAY_MK1_UFOPEDIA: "A reverse-engineered version of the Light Heat-Ray Projector Turrets found among the wrecked Tripods all over England. It's a powerful weapon, but the low quality of the magnification lenses limits the effective range."
-      STR_AUX_HEAT_RAY_MK1_LAUNCHER: "Aircraft Heat-Ray Projector Mk1"
-      STR_AUX_HEAT_RAY_MK2: "AIRCRAFT HEAT-RAY PROJECTOR MK2"
-      STR_AUX_HEAT_RAY_MK2_UFOPEDIA:
-      STR_AUX_HEAT_RAY_MK2_LAUNCHER: "Aircraft Heat-Ray Projector Mk2"
-      STR_AUX_HEAT_RAY_MK3: "AIRCRAFT HEAT-RAY PROJECTOR MK3"
-      STR_AUX_HEAT_RAY_MK3_UFOPEDIA:
-      STR_AUX_HEAT_RAY_MK3_LAUNCHER: "Aircraft Heat-Ray Projector Mk3"
+      STR_AUX_HEAT_RAY_MK1_LAUNCHER: "Aircraft Heat-Ray Projector Mk.I"
+      STR_AUX_HEAT_RAY_MK2: "AIRCRAFT HEAT-RAY PROJECTOR MK.II"
+      STR_AUX_HEAT_RAY_MK2_UFOPEDIA: "When the Great War began, it was obvious the enemy had better weapons and more vehicles. The H-R Projectors found aboard the Flying-Machines are lighter and energy efficient. This is a reverse-engineered version of the standard Martian aircraft gun."
+      STR_AUX_HEAT_RAY_MK2_LAUNCHER: "Aircraft Heat-Ray Projector Mk.II"
+      STR_AUX_HEAT_RAY_MK3: "AIRCRAFT HEAT-RAY PROJECTOR MK.III"
+      STR_AUX_HEAT_RAY_MK3_UFOPEDIA: "Applying our knowledge about aircraft-mounted Heat-Rays, we were able to modify the Heavy H-R aircraft guns and increase the energy output without compromising the power source nor the magnifying lenses."
+      STR_AUX_HEAT_RAY_MK3_LAUNCHER: "Aircraft Heat-Ray Projector Mk.III"
 
-      STR_AUX_ROCKET_TURBINE:
-      STR_AUX_ROCKET_TURBINE_UFOPEDIA:
-      STR_AUX_ROCKET_TURBINE_LAUNCHER:
+      STR_AUX_ROCKET_TURBINE: "ROCKET TURBINE"
+      STR_AUX_ROCKET_TURBINE_UFOPEDIA: "This turbine was made using the latest advancement in rocket tech, designed to greatly increase the speed and acceleration of its host vehicle. It can be mounted below the frame of any airplane. The weight of the turbine reduces the fuel capacity of the craft by 50 units."
+      STR_AUX_ROCKET_TURBINE_LAUNCHER: "Rocket Turbine"
+      
+      STR_AUX_FUEL_CANISTER: "FUEL CANISTER"
+      STR_AUX_FUEL_CANISTER_UFOPEDIA: "Carrying additional fuel means the aircraft or vehicle could increase its combat range. The canisters contain 100 fuel units. The extra weight reduces the acceleration by 1 and the speed by 25 knots."
+      STR_AUX_FUEL_CANISTER_LAUNCHER: "Fuel Canister"
       
       STR_VEHICLE_QF_6_PDR_TURRET: "QF 6-PDR VEHICLE TURRET"
-      STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA:
-      STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER:
-      STR_VEHICLE_QF_6_PDR_TURRET_ITEM: 
-      STR_VEHICLE_HEAT_RAY_TURRET: 
-      STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The large cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy."
-      STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER:
-      STR_VEHICLE_HEAT_RAY_TURRET_ITEM:
+      STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA: "A very popular 6-pounder (57mm) artillery turret, adapted from a naval gun. The barrel was reduced to fit the limited size of the ground vehicles, which reduced the range and power of the shells. However, it remains versatile enough."
+      STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER: "QF 6-pdr Vehicle Turret"
+      STR_VEHICLE_QF_6_PDR_TURRET_ITEM: "QF 6-pdr Vehicle Turret"
+      STR_VEHICLE_8_8CM_TURRET: "8,8CM FLAK VEHICLE TURRET"
+      STR_VEHICLE_8_8CM_TURRET_UFOPEDIA: "Nicknamed by the Germans as 'Acht-Acht', it was originally concieved to be used as anti-air artillery. It was quickly found it's best used against ground targets for its enhanced armor penetration. "
+      STR_VEHICLE_8_8CM_TURRET_LAUNCHER: "8,8cm FlaK Vehicle Turret"
+      STR_VEHICLE_8_8CM_TURRET_ITEM: "8,8cm FlaK Vehicle Turret"
+      STR_VEHICLE_HEAT_RAY_TURRET: "VEHICLE HEAT-RAY PROJECTOR TURRET MK.X" 
+      STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The extended cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy."
+      STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER: "Vehicle Heat-Ray Projector Turret Mk.X"
+      STR_VEHICLE_HEAT_RAY_TURRET_ITEM: "Vehicle Heat-Ray Projector Turret Mk.X"
 
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
