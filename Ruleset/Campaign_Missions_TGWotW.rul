@@ -1474,7 +1474,7 @@ alienDeployments:
     length: 50
     height: 10
     shade: 6
-    winCutscene: winGame
+    #winCutscene: winGame
     loseCutscene: loseGame
     abortCutscene: loseGame
     race: STR_SECTOID

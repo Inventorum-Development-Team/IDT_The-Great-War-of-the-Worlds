@@ -179,8 +179,8 @@ armors:
       - 1.2 #7 Melee
       - 1.6 #8 Acid
       - 0.1 #9 Smoke
-      - 1.2 #10 Super AP
-#      - 1.0 #11 Tesla
+      - 1.2 #10 K-MM Ballistic
+      - 1.0 #11 Electric
 #      - 1.1 #12 Electromagnetic
       - 1.0 #13 Heat-Ray
       - 1.2 #14 Black Smoke

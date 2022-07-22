@@ -260,7 +260,13 @@
     points: 50
     dependencies:
       - STR_OVERLORD_INTEL_9
-    cutscene: winGame
+
+  - name: STR_ACCEPT_TRUE
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_MARTIAN_OVERSEER_DIPLOMACY
+    cutscene: winGameCollaboration
 
 #################################################
 ######### LEADERS AND MISC KNOWLEDGE ###########
@@ -442,7 +448,16 @@
     points: 100
     dependencies:
       - STR_BIOLOGICAL_WARFARE
-    cutscene: winGame
+
+  - name: STR_LAUNCH_FIRESTORM
+    cost: 10
+    points: 100
+    dependencies:
+      - STR_OPERATION_FIRESTORM
+    cutscene: winGamePyrricVictory
+
+###########################################
+###########################################
 
   - name: STR_SECTOID_AUTOPSY
     points: 50
@@ -453,12 +468,58 @@
     lookup: STR_SECTOID_AUTOPSY
     needItem: true
 
+  - name: STR_MARTIAN_LINE_INFANTRY_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_LINE_INFANTRY_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MARTIAN_LINE_INFANTRY_AUTOPSY
+    needItem: true
+
+  - name: STR_MARTIAN_MARINE_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_MARINE_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MARTIAN_MARINE_AUTOPSY
+    needItem: true
+
+  - name: STR_MARTIAN_SKIRMISHER_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_SKIRMISHER_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MARTIAN_SKIRMISHER_AUTOPSY
+    needItem: true
+
+  - name: STR_MARTIAN_SHOCK_GUARD_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_SHOCK_GUARD_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MARTIAN_SHOCK_GUARD_AUTOPSY
+    needItem: true
+
+  - name: STR_MARTIAN_ROYAL_GUARD_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_ROYAL_GUARD_CORPSE
+    cost: 180
+    points: 50
+    lookup: STR_MARTIAN_ROYAL_GUARD_AUTOPSY
+    needItem: true
+
+############################################
+
   - name: STR_SECTOID_SOLDIER
     cost: 192
     points: 50
     needItem: true
     destroyItem: true
-    lookup: STR_SECTOID
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
@@ -468,12 +529,12 @@
       - STR_MARTIAN_OUTPOST
       - STR_MARTIAN_TROOP_BARRACKS
       - STR_MARTIAN_WATCHTOWER
+
   - name: STR_MARTIAN_LINE_INFANTRY
     cost: 192
     points: 50
     needItem: true
     destroyItem: true
-    lookup: STR_SECTOID
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
@@ -490,12 +551,12 @@
       - STR_MARTIAN_SUPPLY_DEPOT
       - STR_MARTIAN_CLONE_LAB
       - STR_MARTIAN_REDOUBT
+
   - name: STR_MARTIAN_MARINE
     cost: 192
     points: 50
     needItem: true
     destroyItem: true
-    lookup: STR_SECTOID
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
@@ -513,12 +574,12 @@
       - FRIGATE
       - DESTROYER
       - CRUISER
+
   - name: STR_MARTIAN_SKIRMISHER
     cost: 192
     points: 50
     needItem: true
     destroyItem: true
-    lookup: STR_SECTOID
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
@@ -535,12 +596,12 @@
       - STR_MARTIAN_SUPPLY_DEPOT
       - STR_MARTIAN_CLONE_LAB
       - STR_MARTIAN_REDOUBT
+
   - name: STR_MARTIAN_SHOCK_GUARD
     cost: 192
     points: 50
     needItem: true
     destroyItem: true
-    lookup: STR_SECTOID
     getOneFree:
       - NIMBLE_FIGHTER
       - TRANSPORT_BARGE
@@ -549,12 +610,12 @@
       - FRIGATE
       - DESTROYER
       - CRUISER
+
   - name: STR_MARTIAN_ROYAL_GUARD
     cost: 192
     points: 50
     needItem: true
     destroyItem: true
-    lookup: STR_SECTOID
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER

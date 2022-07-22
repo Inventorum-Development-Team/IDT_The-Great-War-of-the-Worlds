@@ -1,5 +1,7 @@
 cutscenes:
   - delete: intro
+  - delete: winGame
+  - delete: loseGame
   - type: intro
     useUfoAudioSequence: false
     slideshow:
@@ -36,9 +38,108 @@ cutscenes:
           caption: STR_INTRO_TGWOTW_6
           captionSize: [250, 60]
           captionPos: [32, 0]
-          captionColor: 251
+          captionColor: 244
         - imagePath: Resources/Cutscenes/Intro_07.PNG
           caption: STR_INTRO_TGWOTW_7
+          captionSize: [250, 60]
+          captionPos: [32, 0]
+          captionColor: 244
+
+  - type: winGameCollaboration
+    useUfoAudioSequence: false
+    winGame: true
+    slideshow:
+      transitionSeconds: 10
+      musicId: GMMARS
+      slides:
+        - imagePath: Resources/Cutscenes/CollaborationVictoryEnding_1.PNG
+          caption: STR_COLLABORATION_FINALE_1
+          captionSize: [250, 40]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/CollaborationVictoryEnding_2.PNG
+          caption: STR_COLLABORATION_FINALE_2
+          captionSize: [100, 100]
+          captionPos: [5, 80]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/CollaborationVictoryEnding_3.PNG
+          caption: STR_COLLABORATION_FINALE_3
+          captionSize: [280, 60]
+          captionPos: [5, 80]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/CollaborationVictoryEnding_4.PNG
+          caption: STR_COLLABORATION_FINALE_4
+          captionSize: [250, 60]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/CollaborationVictoryEnding_5.PNG
+          caption: STR_COLLABORATION_FINALE_5
+          captionSize: [250, 60]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/CollaborationVictoryEnding_6.PNG
+          caption: STR_COLLABORATION_FINALE_6
+          captionSize: [250, 60]
+          captionPos: [32, 0]
+          captionColor: 244
+
+  - type: winGamePyrricVictory
+    useUfoAudioSequence: false
+    winGame: true
+    slideshow:
+      transitionSeconds: 10
+      musicId: GMMARS
+      slides:
+        - imagePath: Resources/Cutscenes/PyrricVictoryEnding_1.PNG
+          caption: STR_PYRRIC_VICTORY_FINALE_1
+          captionSize: [250, 40]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/PyrricVictoryEnding_2.PNG
+          caption: STR_PYRRIC_VICTORY_FINALE_2
+          captionSize: [100, 100]
+          captionPos: [5, 80]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/PyrricVictoryEnding_3.PNG
+          caption: STR_PYRRIC_VICTORY_FINALE_3
+          captionSize: [280, 60]
+          captionPos: [5, 80]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/PyrricVictoryEnding_4.PNG
+          caption: STR_PYRRIC_VICTORY_FINALE_5
+          captionSize: [250, 60]
+          captionPos: [32, 0]
+          captionColor: 244
+
+  - type: loseGame
+    useUfoAudioSequence: false
+    loseGame: true
+    slideshow:
+      transitionSeconds: 10
+      musicId: GMLOSE
+      slides:
+        - imagePath: Resources/Cutscenes/DefeatEnding_1.PNG
+          caption: STR_DEFEAT_FINALE_1
+          captionSize: [250, 40]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/DefeatEnding_2.PNG
+          caption: STR_DEFEAT_FINALE_2
+          captionSize: [100, 100]
+          captionPos: [5, 80]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/DefeatEnding_3.PNG
+          caption: STR_DEFEAT_FINALE_3
+          captionSize: [280, 60]
+          captionPos: [5, 80]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/DefeatEnding_4.PNG
+          caption: STR_DEFEAT_FINALE_4
+          captionSize: [250, 60]
+          captionPos: [32, 0]
+          captionColor: 244
+        - imagePath: Resources/Cutscenes/DefeatEnding_5.PNG
+          caption: STR_DEFEAT_FINALE_5
           captionSize: [250, 60]
           captionPos: [32, 0]
           captionColor: 244
