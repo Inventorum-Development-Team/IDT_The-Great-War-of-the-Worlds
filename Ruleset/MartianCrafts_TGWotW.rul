@@ -343,6 +343,7 @@ ufos:
         - MUFOL83
         - MUFOL83-B
         - TRIPOD_CLAWS_XOPS
+        - TRIPOD_EYES
       mapBlocks:
         - name: AS-WALKER1
           width: 10
@@ -369,6 +370,7 @@ ufos:
         - MUFOL83
         - MUFOL83-B
         - TRIPOD_INTERNAL_COMPONENTS
+        - TRIPOD_EYES
       mapBlocks:
         - name: AS-WALKER2
           width: 20
@@ -393,8 +395,9 @@ ufos:
         - ASEXT02
         - ASEXT03
         - ASINT01A
-        - MUFOL83
+        - MUFOL
         - MUFOL83-B
+        - TRIPOD_EYES
       mapBlocks:
         - name: AS-WALKER4
           width: 20
@@ -423,6 +426,7 @@ ufos:
         - MUFOL83
         - MUFOL83-B
         - TRIPOD_CLAWS_XOPS
+        - TRIPOD_EYES
       mapBlocks:
         - name: AS-WALKER3
           width: 30
@@ -451,6 +455,7 @@ ufos:
         - MUFOL83
         - MUFOL83-B
         - TRIPOD_INTERNAL_COMPONENTS
+        - TRIPOD_EYES
       mapBlocks:
         - name: AS-WALKER5
           width: 20
