@@ -5174,9 +5174,9 @@ items:
     costBuy: 1700
     costSell: 520
     weight: 7
-    bigSprite: 2528
-    floorSprite: 2528
-    handSprite: 2528
+    bigSprite: 3056
+    floorSprite: 3056
+    handSprite: 3056
     bulletSprite: 2
     fireSound: 151
     reloadSound: 308
@@ -5217,10 +5217,10 @@ items:
     costBuy: 900
     costSell: 250
     weight: 3
-    bigSprite: 2544
-    floorSprite: 2544
-    handSprite: 2544
-    power: 15
+    bigSprite: 3064
+    floorSprite: 3064
+    handSprite: 3064
+    power: 25
     damageType: 17
     damageAlter:
       RandomType: 6
@@ -5229,7 +5229,7 @@ items:
       ToStun: 2.0
       RandomWound: false
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
     clipSize: 3
     invHeight: 1
     invWidth: 1
