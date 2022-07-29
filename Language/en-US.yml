@@ -70,15 +70,15 @@ en-US:
       STR_UNARMED_UNIFORM: "Unarmed Melee Attack"
       STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements."
       STR_DETECTED: "Sighted"
-      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON TRIPOD-TIME=5 Secs"
-      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE TRIPOD "
-      STR_UFO_IS_NOT_RECOVERED: "Tripod not recovered"
-      STR_UFO_IS_RECOVERED: "Tripod recovered"
-      STR_UFO_RECOVERY: "TRIPOD RECOVERY"
-      STR_UFO_DESTROYED: "TRIPOD DESTROYED!"
-      STR_UFO_: "TRIPOD-{0}"
-      STR_TAILING_UFO: "CHASING A TRIPOD"
-      STR_INTERCEPTING_UFO: "INTERCEPTING TRIPOD-{0}"
+      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON MACHINE-TIME=5 Secs"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE MARTIAN-MACHINE "
+      STR_UFO_IS_NOT_RECOVERED: "Martian-Machine not recovered"
+      STR_UFO_IS_RECOVERED: "Martian-Machine recovered"
+      STR_UFO_RECOVERY: "MARTIAN-MACHINE RECOVERY"
+      STR_UFO_DESTROYED: "MARTIAN-MACHINE DESTROYED!"
+      STR_UFO_: "MARTIAN-MACHINE-{0}"
+      STR_TAILING_UFO: "CHASING A MARTIAN-MACHINE"
+      STR_INTERCEPTING_UFO: "INTERCEPTING MARTIAN-MACHINE-{0}"
       STR_XCOM_OPERATIVES_KILLED: "IEF LOSSES"
       STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "IEF SOLDIERS MISSING IN ACTION"
       STR_XCOM_CRAFT_LOST: "IEF SHIP LOST"
@@ -88,10 +88,10 @@ en-US:
       STR_ALIEN_BASE_RECOVERY: "RECOVERY OF MARTIAN FORTRESS"
       STR_ALIEN_BASE_ASSAULT: "ASSAULT ON MARTIAN FORTRESS"
       STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a Martian Fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
-      STR_UFO_CRASH_RECOVERY: "DOWNED TRIPOD RECOVERY"
+      STR_UFO_CRASH_RECOVERY: "DOWNED MACHINE RECOVERY"
       STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the Tripod or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of Tripod remains, artifacts and Martian corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
-      STR_UFO_GROUND_ASSAULT: "TRIPOD GROUND ASSAULT"
-      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the Tripod. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Tripod remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_GROUND_ASSAULT: "MACHINE GROUND ASSAULT"
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the Martian Machine. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Martian Machine remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
       STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a Martian base in {0}"
       STR_XCOM_PERFORMANCE_ROSTER: "IEF Performance Roster"
       STR_UFOPAEDIA: "War Codex"
@@ -1015,7 +1015,7 @@ en-US:
       STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments. It includes an Adrian helmet of French origin to protect the head.
       STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
       STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.
-      
+
       STR_PERSONAL_ARMOR: "Farina Heavy Armor"
       STR_PERSONAL_ARMOR_UFOPEDIA:
       STR_POWER_SUIT: "Totemkopf Mechanized Armor"
@@ -1100,6 +1100,15 @@ en-US:
       STR_TURRET_INTERACTION_ITEM: "Turret Wrench"
       STR_ASSEMBLE_TURRET: "Assemble"
       STR_DISASSEMBLE_TURRET: "Disassemble"
+
+      STR_HEAVY_HEAT_RAY_PROJECTOR_TURRET: "Heavy Heat-Ray Projector"
+      STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE: "Heavy Heat-Ray Projector Wreck"
+      HEAVY_HEAT_RAY_PROJECTOR_TURRET: "Heavy Heat-Ray Projector Turret"
+
+      STR_LIGHT_HEAT_RAY_PROJECTOR_TURRET: "Light Heat-Ray Projector"
+      LIGHT_HEAT_RAY_PROJECTOR_TURRET: "Light Heat-Ray Projector Turret"
+      STR_LIGHT_HEAT_RAY_PROJECTOR_CORPSE: "Light Heat-Ray Projector Wreck"
+
 #########################
       STR_INTRO_TGWOTW_1: "In the summer of 1896, an unexpected arrival of disturbing cylinders throughout England attracted the curiosity and fear of people. Once open, those cylinders gushed extraterrestrial beings and their machines of mass destruction."
       STR_INTRO_TGWOTW_2: "In less than a month, the Martians wiped out all the British resistance. London fell and with it, the hope of stopping the invader. The rest of the world prepared for the worst."
@@ -1210,7 +1219,7 @@ en-US:
       STR_MARTIAN_LINE_INFANTRY_ARMOR: "Martian Line Infantry Battle-Caparace"
       STR_MARTIAN_LINE_INFANTRY_CORPSE: "Martian Line Infantry Corpse"
       STR_MARTIAN_MARINE: "Martian Marine"
-      STR_MARTIAN_MARINE_LEADER: "Martian Marine Ship Leader"
+      STR_MARTIAN_MARINE_LEADER: "Martian Marine Boatswain"
       STR_MARTIAN_MARINES: "Martian Marines Team"
       STR_MARTIAN_MARINE_ARMOR: "Martian Marine Battle-Caparace"
       STR_MARTIAN_MARINE_CORPSE: "Martian Marine Corpse"
@@ -1234,10 +1243,10 @@ en-US:
       STR_MARTIAN_ROYAL_GUARDS: "Martian Royal Guard Formation"
       STR_MARTIAN_ROYAL_GUARD_CORPSE: "Martian Royal Guard Corpse"
       STR_MARTIAN_ROYAL_POWER_ARMOR: "Martian Royal Guard Battle-Caparace"
-      STR_CEREBREAL: "Overseer"
-      STR_CEREBREAL_COMMANDER: "Overseer Commander"
+      STR_CEREBREAL: "Overlord"
+      STR_CEREBREAL_COMMANDER: "Overlord Commander"
       STR_CEREBREAL_UFOPAEDIA: "..."
-      CEREBREAL_ARMOR: "Overseer Skin"
+      CEREBREAL_ARMOR: "Overlord Skin"
 
 
 #################################################
@@ -1363,9 +1372,9 @@ en-US:
       STR_OVERLORD_INTEL_9_UFOPEDIA: "The latest interrogation has unveiled a half-hidden 'truth'. Life exists on other planets in the Solar System, not just Earth and Mars. Venus, the Jovian and Saturnian moons… We are one more house in a long neighborhood. And it seems that the war has affected everyone. The Mars-led faction fights against the Jovian faction. Apparently the front lines are in the asteroid belt and right on the moons of Jupiter. This Overlord has expressed to us their race's interest in our planet and now in ourselves. And they informs us that their leaders want to contact ours."
       STR_MARTIANS_SEEKS_DIPLOMACY_EVENT: "Martians seeks diplomacy"
       STR_MARTIANS_SEEKS_DIPLOMACY_EVENT_DESCRIPTION: "A Flying-Machine has landed near our base undetected. A group of Overlords and their escorts are approaching our base commander. Their intention is to negotiate a truce and offer an alliance. They have entered the complex and we will begin talks shortly."
-      STR_MARTIAN_OVERSEER_DIPLOMACY: "Emergency diplomatic meeting at our base"
-      STR_MARTIAN_OVERSEER_DIPLOMACY_UFOPEDIA: "Representatives of all Coalition nations are present, as well as the Martian leaders. The makeshift meeting room hosts our translator. The leader of the alien retinue informs us that their planet is at war with the Outer Planets and they need our help. We have proven to be a formidable opponent. Losing an Overlord is a tragedy for them, but we are the first planet that has managed to capture nive. Not even the 'Jovians', their worst enemies, have managed it. If we accept the proposal of a truce and join them in their war, they will immediately cease attacks against Earth and help us create ships capable of traveling to Jupiter and beyond. If we refuse, they will continue their genocidal campaign and wipe us off the face of the planet to seize its resources and keep their war machine running. The Coalition leaders cast their votes and it looks like the final decision rests with us."
-
+      STR_MARTIAN_OVERLORD_DIPLOMACY: "Emergency diplomatic meeting at our base"
+      STR_MARTIAN_OVERLORD_DIPLOMACY_UFOPEDIA: "Representatives of all Coalition nations are present, as well as the Martian leaders. The makeshift meeting room hosts our translator. The leader of the alien retinue informs us that their planet is at war with the Outer Planets and they need our help. We have proven to be a formidable opponent. Losing an Overlord is a tragedy for them, but we are the first planet that has managed to capture nive. Not even the 'Jovians', their worst enemies, have managed it. If we accept the proposal of a truce and join them in their war, they will immediately cease attacks against Earth and help us create ships capable of traveling to Jupiter and beyond. If we refuse, they will continue their genocidal campaign and wipe us off the face of the planet to seize its resources and keep their war machine running. The Coalition leaders cast their votes and it looks like the final decision rests with us."
+      STR_ACCEPT_TRUCE: "Accept Truce"
 # COLLABORATION FINALE
 
       STR_COLLABORATION_FINALE_1: "We accepted the proposal of the invader. Immediately, all Martian attacks stopped and in many places, the Grey infantry laid down their arms."
@@ -1376,8 +1385,15 @@ en-US:
       STR_COLLABORATION_FINALE_6: "Our men and women now float in space, bound for a war we do not understand.	Against an enemy we do not know. Only time will tell if we make the right decision."
 
 # REFUSE COLLABORATION
+      STR_REJECT_TRUCE: "Reject Truce"
       STR_TRUCE_REJECTED_EVENT: "Truce Rejected"
       STR_TRUCE_REJECTED_EVENT_DESCRIPTION: "The answer was resounding. No. Humanity will not negotiate with the enemy that has slaughtered millions and poisoned the planet. As a courtesy, we have allowed the Martian representatives to withdraw without firing a shot. But we can expect the fighting to get worse. However, the news has been well received by the populace and more volunteers have shown up at the recruiting offices."
+
+      STR_DEFEAT_FINALE_1: "Despite our best efforts, we have lost. Not even the mightiest nations and the greatest minds alive combined could avoid the inevitable. "
+      STR_DEFEAT_FINALE_2: "The negotiations were short. Earth is now another colony of the Martian tyranny."
+      STR_DEFEAT_FINALE_3: "One third of the remaining population was brainwashed to serve in the alien military, just like the Selenites. The other two thirds are used to feed the Martians. Huge cannons send human troops to fight in the enemy's wars in the outer solar system. It was clear they would involve us in their conflicts one way or another."
+      STR_DEFEAT_FINALE_4: "The human spirit won't be completely broken, as there are still armed resistance hiding underground, harassing the invaders with guerrilla warfare."
+      STR_DEFEAT_FINALE_5: "The relative calm didn't last long, though. Some months after the surrendering of mankind, cylinders fell again to Earth, this time full of Jovians and their allies. Our planet became just another frontline in a forever war we didn't wanted to be part. "
 
 #################################################
 ######### LEADERS AND MISC KNOWLEDGE ###########
@@ -1403,6 +1419,12 @@ en-US:
       STR_LEADER_6: "Leader Unlock 6"
 
 
+      STR_SECTOID_LEADER_AUTOPSY_UFOPEDIA: "This Gray Bipedal-Martian is slightly different from the others. Its skin tissue looks older and scarred. This individual's brain and eyes more appear to be slightly more developed than those of his congeners, which may be a sign that his social standing superior to other members of his caste."
+      STR_MARTIAN_SHOCK_GUARD_LEADER_UFOPEDIA: "The officers and elite leaders of the enemy army are also assigned the best armor available in the Martian arsenal. They are the equivalent of a commissioned officer and they command large numbers of troops. The red dye on their armor is obtained from the Red Weed, similarly that worn by their subordinates."
+###############################################
+######### MARTIAN MOBILE BASES ###############
+#############################################
+
       STR_MARTIAN_CAMP: "Martian Camp"
       STR_MARTIAN_CAMP_UFOPEDIA: "These camps serve the same function as ours: to house a group of troops as they march towards their target. They are easy to assemble and dismantle, although they can withstand bullets and light projectiles."
       STR_MARTIAN_OUTPOST: "Martian Outpost"
@@ -1427,7 +1449,7 @@ en-US:
 #################################################
 
       STR_HEAT_RAY_TECH_PHOTON: "Scientist Intel I - Heat-Ray Photon"
-      STR_HEAT_RAY_TECH_PHOTON_UFOPEDIA: The captured scientists have defined that their weapons are powered by the "energy of the central star". That is, our Sun. There are certain studies that refer to the splitting of the atom and its subsequent release of electromagnetic energy (which can be channeled as thermal energy). The research team led by Lord Rutherford confirm this to be an indication of the existence of artificial nuclear fusion. Further proof of the enemy's enormous technological advantage, but one that we can use to our advantage.
+      STR_HEAT_RAY_TECH_PHOTON_UFOPEDIA: "The captured scientists have defined that their weapons are powered by the 'energy of the central star'. That is, our Sun. There are certain studies that refer to the splitting of the atom and its subsequent release of electromagnetic energy (which can be channeled as thermal energy). The research team led by Lord Rutherford confirm this to be an indication of the existence of artificial nuclear fusion. Further proof of the enemy's enormous technological advantage, but one that we can use to our advantage."
       STR_HEAT_RAY_TECH_MICROWAVE: "Scientist Intel II - Heat-Ray Microwave"
       STR_HEAT_RAY_TECH_MICROWAVE_UFOPEDIA: The enemy tries to adapt their technology as the war progresses, much like us. Martian scientists work tirelessly to stay ahead of the curve, and one of their greatest advances is the use of new weapons technologies. Instead of using concentrated photons, they are switching to microwave radiation. More dangerous and with a larger scattering angle. Their weapons can modify their emitters with the ease of changing batteries.
       STR_HUMAN_HARVEST_1: "Scientist Intel III - Human harvest"
@@ -1443,6 +1465,7 @@ en-US:
       STR_OPERATION_FIRESTORM: "Operation Firestorm"
       STR_OPERATION_FIRESTORM_UFOPEDIA: "A highly experimental strain of the hepatitis virus was created, aimed to disrup the inmune system of the infected and their liver. This is transmitted through blood and other body fluids. After capturing the infected mammals, the Martians will caught the sickness and develop it. Eventually, their inmune systems will be compromised again and they'll die even with the lightest flu. This may have a chance of infecting humans as well, because we are one of the vectors of the infection. While a large portion of the international medical community has their concerns, we don't have any choice. The war does not seems to have an end soon. This may be our last chance of winning it. As a safety measure, we have developed a vaccine too. Just in case. "
 
+      STR_LAUNCH_FIRESTORM: "Launch Operation Firestorm"
       STR_PYRRIC_VICTORY_FINALE_1: "Our most secretive biological weapon was released, widely distributed over the Martian Occupation Zones using specially modified airplanes. Several of them were shot down, but most managed to accomplish their task."
       STR_PYRRIC_VICTORY_FINALE_2: "The result was expected... the enemy didn't noticed they were collecting infected bodies and directly feeding with the Firestorm virus. In a matter of weeks, most of them became sick and fell. The activity in the frontlines ceased."
       STR_PYRRIC_VICTORY_FINALE_3: "However, the virus mutated. We couldn't prevent it, as our vaccines were ineffective of this new strain. Combined with a sudden outbreak of influenza, the mortality rate was increased among both Martian and Human populations. Dead are counted by hundreds of thousands."
@@ -1477,7 +1500,7 @@ en-US:
       STR_SPAD: "SPAD XIII"
       STR_SPAD_UFOPEDIA: "Hunter - Excellent nimble biplane aircraft, very popular in the Coalition Air Forces. It's used by many fighter aces. It can perform any mission of air supremacy or long-range reconnaissance."
 
-      STR_ROYAL_AIRCRAFT_SE5A: "ROYAL AIRCRAFT SE-5a"
+      STR_ROYAL_AIRCRAFT_SE5A: "SE-5a"
       STR_ROYAL_AIRCRAFT_SE5A_UFOPEDIA: "Scout - The fastest biplane in combat service. It's also a very stable gun platform, with easy controls - a staple of British aircrafts."
 
       STR_FOKKER_DR1: "FOKKER DR-1"
@@ -1575,7 +1598,7 @@ en-US:
       STR_CLUSTER_BOMB: "CLUSTER BOMBS"
       STR_CLUSTER_BOMB_UFOPEDIA: "A large group of free fall medium-sized 260lb bombs meant to saturate an extensive area with explosions very quickly."
       STR_CLUSTER_BOMB_LAUNCHER: "Cluster Bombs Rack (x10)"
-      
+
       STR_LE_PRIEUR_ROCKETS: "LE PRIEUR ROCKETS"
       STR_LE_PRIEUR_ROCKETS_UFOPEDIA: "Commonly known as 'glorified fireworks', the French-designed light incendiary rocket was meant originally to be used against airships and observation balloons. It's fired from tubes mounted in the inter-plane struts, all at the same time. Highly inaccurate, but extremely cheap."
       STR_LE_PRIEUR_ROCKETS_LAUNCHER: "Le Prieur Rockets Rack (x8)"
@@ -1588,19 +1611,35 @@ en-US:
       STR_GUIDED_ROCKETS: "GUIDED ROCKETS"
       STR_GUIDED_ROCKETS_UFOPEDIA: "The latest application of human reverse engineering research. A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty HE warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its major drawbacks are the cost of the system and the limited operational range."
       STR_GUIDED_ROCKETS_LAUNCHER: "Guided Rockets Rack (x2)"
-      
+
       STR_6_PDR_VEHICLE_CANNON:
       STR_6_PDR_VEHICLE_CANNON_UFOPEDIA:
       STR_6_PDR_VEHICLE_CANNON_LAUNCHER:
-      
+
       STR_8_8_CM_FLAK_VEHICLE_CANNON:
       STR_8_8_CM_FLAK_VEHICLE_CANNON_UFOPEDIA:
-      
-      STR_AUX_HEAT_RAY_MK1: "Aircraft Heat-Ray Projector Mk1"
-      STR_AUX_HEAT_RAY_MK1_UFOPEDIA:
-      STR_AUX_HEAT_RAY_MK1_LAUNCHER:
-      
-      STR_AUX_ROCKET_TURBINE: 
+
+      STR_AUX_HEAT_RAY_MK1: "AIRCRAFT HEAT-RAY PROJECTOR MK.I"
+      STR_AUX_HEAT_RAY_MK1_UFOPEDIA: "A reverse-engineered version of the Light Heat-Ray Projector Turrets found among the wrecked Tripods all over England. It's a powerful weapon, but the low quality of the magnification lenses limits the effective range."
+      STR_AUX_HEAT_RAY_MK1_LAUNCHER: "Aircraft Heat-Ray Projector Mk.I"
+      STR_AUX_HEAT_RAY_MK2: "AIRCRAFT HEAT-RAY PROJECTOR MK.II"
+      STR_AUX_HEAT_RAY_MK2_UFOPEDIA: "When the Great War began, it was obvious the enemy had better weapons and more vehicles. The H-R Projectors found aboard the Flying-Machines are lighter and energy efficient. This is a reverse-engineered version of the standard Martian aircraft gun."
+
+      STR_VEHICLE_QF_6_PDR_TURRET: "QF 6-PDR VEHICLE TURRET"
+      STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA: "A very popular 6-pounder (57mm) artillery turret, adapted from a naval gun. The barrel was reduced to fit the limited size of the ground vehicles, which reduced the range and power of the shells. However, it remains versatile enough."
+      STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER: "QF 6-pdr Vehicle Turret"
+      STR_VEHICLE_QF_6_PDR_TURRET_ITEM: "QF 6-pdr Vehicle Turret"
+      STR_VEHICLE_8_8CM_TURRET: "8,8CM FLAK VEHICLE TURRET"
+      STR_VEHICLE_8_8CM_TURRET_UFOPEDIA: "Nicknamed by the Germans as 'Acht-Acht', it was originally concieved to be used as anti-air artillery. It was quickly found it's best used against ground targets for its enhanced armor penetration. "
+      STR_VEHICLE_8_8CM_TURRET_LAUNCHER: "8,8cm FlaK Vehicle Turret"
+      STR_VEHICLE_8_8CM_TURRET_ITEM: "8,8cm FlaK Vehicle Turret"
+      STR_VEHICLE_HEAT_RAY_TURRET: "VEHICLE HEAT-RAY PROJECTOR TURRET MK.X"
+      STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The extended cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy."
+      STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER: "Vehicle Heat-Ray Projector Turret Mk.X"
+      STR_VEHICLE_HEAT_RAY_TURRET_ITEM: "Vehicle Heat-Ray Projector Turret Mk.X"
+
+
+      STR_AUX_ROCKET_TURBINE:
 
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
