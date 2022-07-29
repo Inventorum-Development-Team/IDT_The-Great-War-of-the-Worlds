@@ -106,7 +106,7 @@ cutscenes:
           captionPos: [5, 80]
           captionColor: 244
         - imagePath: Resources/Cutscenes/PyrricVictoryEnding_4.PNG
-          caption: STR_PYRRIC_VICTORY_FINALE_5
+          caption: STR_PYRRIC_VICTORY_FINALE_4
           captionSize: [250, 60]
           captionPos: [32, 0]
           captionColor: 244

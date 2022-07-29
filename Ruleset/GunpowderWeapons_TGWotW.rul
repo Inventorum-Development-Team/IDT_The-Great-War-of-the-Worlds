@@ -3785,7 +3785,7 @@ items:
     aimRange: 28
     dropoff: 4
     battleType: 1
-    twoHanded: false
+    twoHanded: true
     invWidth: 1
     invHeight: 3
     attraction: 8
