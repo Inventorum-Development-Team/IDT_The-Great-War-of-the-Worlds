@@ -1,4 +1,4 @@
-﻿research:
+research:
   - delete: STR_MOTION_SCANNER
   - delete: STR_STUN_ROD
   - delete: STR_LASER_WEAPONS
@@ -35,16 +35,111 @@
     #needItem: true
 
 ##########################################
-######### VEHICLES REPORTS ##############
+######### HUMAN WEAPONS REPORTS ##############
 #########################################
 
   - name: STR_FRONTLINES_FIELD_REPORT
     cost: 1000
     points: 50
     #needItem: true
+    
+  - name: STR_TRANQUILIZER_SHOTGUN_PROJECT
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_SECTOID_CORPSE
+      - STR_MARTIAN_LINE_INFANTRY_CORPSE
+      - STR_MARTIAN_MARINE_CORPSE
+      - STR_MARTIAN_SKIRMISHER_CORPSE
+      - STR_MARTIAN_SHOCK_GUARD_CORPSE
+      - STR_MARTIAN_ROYAL_GUARD_CORPSE
+      - STR_CEREBREAL_CORPSE
+    #needItem: true
+
+######################
+# BALLISTIC WEAPONS
+######################
+# TIER 1
+
+  - name: STR_BRITISH_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+
+  - name: STR_SMLE_MKIII_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_EQUIPMENT_SELECTION
+
+  - name: STR_SMLE_MKIII_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_EQUIPMENT_SELECTION
+     - STR_SMLE_MKIII_UNLOCK
+
+  - name: STR_SMLE_MKIII_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_EQUIPMENT_SELECTION
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_FRONTLINES_FIELD_REPORT
+
+######################
+# TESLA WEAPONS
+######################
+
+  - name: STR_CONTACT_WITH_TESLA
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_SECTOID_LEADER
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
+      - STR_MARTIAN_MARINE_LEADER
+      - STR_MARTIAN_SKIRMISHER_LEADER
+      - STR_MARTIAN_SHOCK_GUARD_LEADER
+      - STR_MARTIAN_ROYAL_GUARD_LEADER
+      - STR_CEREBREAL_COMMANDER
+    #needItem: true
+
+  - name: STR_TESLA_PROTOTYPE
+    cost: 50
+    points: 60
+    needItem: true 
+    unlocks:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
+
+  - name: STR_TESLA_ELECTRIC_BLUEPRINTS
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_TESLA_PROTOTYPE
+
+  - name: STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
+  - name: STR_TESLA_INFANTRY_CANNON_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
+      - STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
+  - name: STR_TESLA_RAPID_DISCHARGE_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
+      - STR_TESLA_INFANTRY_CANNON_RESEARCH
+
+######################
+# PHLOGISTON 
+######################
 
 
-  ##################################
+
+##################################
   - name: STR_ALIEN_ALLOYS
     cost: 600
     points: 60
@@ -202,6 +297,8 @@
   - name: STR_CEREBREAL_COMMANDER
     cost: 800
     points: 50
+    unlocks: 
+      - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_OVERLORD_INTEL_1
       - STR_OVERLORD_INTEL_2
@@ -261,7 +358,7 @@
     dependencies:
       - STR_OVERLORD_INTEL_9
 
-  - name: STR_ACCEPT_TRUE
+  - name: STR_ACCEPT_TRUCE
     cost: 10
     points: 100
     dependencies:
@@ -277,6 +374,7 @@
     points: 50
     unlocks:
       - STR_LEADER_1
+      - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_LEADER_INTEL_1
       - STR_LEADER_INTEL_2
@@ -292,6 +390,7 @@
     points: 50
     unlocks:
       - STR_LEADER_1
+      - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_LEADER_INTEL_1
       - STR_LEADER_INTEL_2
@@ -307,6 +406,7 @@
     points: 50
     unlocks:
       - STR_LEADER_1
+      - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_LEADER_INTEL_1
       - STR_LEADER_INTEL_2
@@ -322,6 +422,7 @@
     points: 50
     unlocks:
       - STR_LEADER_1
+      - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_LEADER_INTEL_1
       - STR_LEADER_INTEL_2
@@ -337,6 +438,7 @@
     points: 50
     unlocks:
       - STR_LEADER_1
+      - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_LEADER_INTEL_1
       - STR_LEADER_INTEL_2
@@ -352,6 +454,7 @@
     points: 50
     unlocks:
       - STR_LEADER_1
+      - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_LEADER_INTEL_1
       - STR_LEADER_INTEL_2
@@ -465,6 +568,8 @@
   - name: STR_SECTOID_CORPSE
     cost: 180
     points: 50
+    unlocks:
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
     lookup: STR_SECTOID_AUTOPSY
     needItem: true
 
@@ -474,6 +579,8 @@
   - name: STR_MARTIAN_LINE_INFANTRY_CORPSE
     cost: 180
     points: 50
+    unlocks:
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
     lookup: STR_MARTIAN_LINE_INFANTRY_AUTOPSY
     needItem: true
 
@@ -483,6 +590,8 @@
   - name: STR_MARTIAN_MARINE_CORPSE
     cost: 180
     points: 50
+    unlocks:
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
     lookup: STR_MARTIAN_MARINE_AUTOPSY
     needItem: true
 
@@ -492,6 +601,8 @@
   - name: STR_MARTIAN_SKIRMISHER_CORPSE
     cost: 180
     points: 50
+    unlocks:
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
     lookup: STR_MARTIAN_SKIRMISHER_AUTOPSY
     needItem: true
 
@@ -501,6 +612,8 @@
   - name: STR_MARTIAN_SHOCK_GUARD_CORPSE
     cost: 180
     points: 50
+    unlocks:
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
     lookup: STR_MARTIAN_SHOCK_GUARD_AUTOPSY
     needItem: true
 
@@ -510,7 +623,20 @@
   - name: STR_MARTIAN_ROYAL_GUARD_CORPSE
     cost: 180
     points: 50
+    unlocks:
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
     lookup: STR_MARTIAN_ROYAL_GUARD_AUTOPSY
+    needItem: true
+
+  - name: STR_CEREBREAL_AUTOPSY
+    points: 50
+    needItem: true
+  - name: STR_CEREBREAL_CORPSE
+    cost: 180
+    points: 50
+    unlocks:
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
+    lookup: STR_CEREBREAL_AUTOPSY
     needItem: true
 
 ############################################
