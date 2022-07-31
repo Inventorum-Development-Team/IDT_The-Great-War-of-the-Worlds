@@ -731,6 +731,8 @@ startingBase:
         STR_M1907_SL_CARBINE_MAG: 10
         STR_GEWEHR98: 2
         STR_GEWEHR98_CLIP: 5
+        STR_MADSEN_LMG: 1
+        STR_MADSEN_LMG_MAG: 3
         STR_SABRE: 8
       status: STR_READY
     - type: STR_CONQUEROR
@@ -750,6 +752,8 @@ startingBase:
         STR_M1907_SL_CARBINE_MAG: 3
         STR_GEWEHR98: 2
         STR_GEWEHR98_CLIP: 5
+        STR_MADSEN_LMG: 1
+        STR_MADSEN_LMG_MAG: 3
         STR_SABRE: 8
       status: STR_READY
   items:
@@ -769,6 +773,8 @@ startingBase:
     STR_M1907_SL_CARBINE_MAG: 20
     STR_GEWEHR98: 5
     STR_GEWEHR98_CLIP: 20
+    STR_MADSEN_LMG: 2
+    STR_MADSEN_LMG_MAG: 10
     STR_SABRE: 8
     STR_TRENCH_KNIFE: 5
     STR_MEDIKIT: 5
