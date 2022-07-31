@@ -1,4 +1,4 @@
-research:
+﻿research:
   - delete: STR_MOTION_SCANNER
   - delete: STR_STUN_ROD
   - delete: STR_LASER_WEAPONS
@@ -39,10 +39,10 @@ research:
 #########################################
 
   - name: STR_FRONTLINES_FIELD_REPORT
-    cost: 1000
+    cost: 10
     points: 50
     #needItem: true
-    
+
   - name: STR_TRANQUILIZER_SHOTGUN_PROJECT
     cost: 100
     points: 50
@@ -105,7 +105,7 @@ research:
   - name: STR_TESLA_PROTOTYPE
     cost: 50
     points: 60
-    needItem: true 
+    needItem: true
     unlocks:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
 
@@ -134,7 +134,7 @@ research:
       - STR_TESLA_INFANTRY_CANNON_RESEARCH
 
 ######################
-# PHLOGISTON 
+# PHLOGISTON
 ######################
 
 
@@ -297,7 +297,7 @@ research:
   - name: STR_CEREBREAL_COMMANDER
     cost: 800
     points: 50
-    unlocks: 
+    unlocks:
       - STR_CONTACT_WITH_TESLA
     getOneFree:
       - STR_OVERLORD_INTEL_1

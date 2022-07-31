@@ -156,6 +156,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_BRITISH_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_SMLE_MKIII_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -197,6 +199,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_SMLE_MKIII_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -224,6 +228,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_SMLE_MKIII_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
