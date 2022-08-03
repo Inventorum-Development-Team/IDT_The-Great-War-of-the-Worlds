@@ -823,7 +823,445 @@ crafts:
 # 5   1
 # 4 3 2
 
+#########################
+##### MECH WALKERS #####
+#######################
 
+  - type: STR_PHALANX_MECH
+    sprite: 348
+    maxSkinIndex: 11            # default 0
+    skinSprites: [349,361,362,363,364,365,366,367,368,369,381] # default empty, contains all sprites except for the first (index zero)
+    fuelMax: 1450
+    damageMax: 500
+    speedMax: 300
+    accel: 1
+    weapons: 4
+    weaponTypes:
+      - [0, 1]
+      - [0, 1]
+      - [0, 1]
+      - [0, 1, 4, 5]
+    weaponStrings:
+      - STR_CRAFT_CANNON_ONE
+      - STR_CRAFT_CANNON_TWO
+      - STR_CRAFT_MACHINE_GUN_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 26
+    vehicles: 0
+    pilots: 4
+    costBuy: 675000
+    costSell: 600000
+    refuelRate: 60
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 50
+    radarRange: 250
+    radarChance: 10
+    score: 400
+    #listOrder: 118
+    battlescapeTerrainData:
+      name: TRIPOD_HUMAN_PHALANX
+      mapDataSets:
+        - BLANKS
+        - TRIPOD_HUMANA
+        - TRIPOD_HUMANB
+        - TRIPOD_HUMANC
+        - TRIPOD_HUMAND
+        - ROPE
+        - STAIRS
+      mapBlocks:
+        - name: TRIPOD_HUMAN_PHALANX
+          width: 10
+          length: 20
+          items:
+            STR_ZEPPELIN_TURRET_SPAWNER:
+              - [3, 17, 4]
+              - [1, 16, 3]
+              - [5, 16, 3]
+              - [6, 5, 4]
+              - [4, 4, 3]
+              - [8, 4, 3]
+          fuseTimers:
+            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+          randomizedItems:
+              - position: [6, 0, 2]
+                amount: 2
+                mixed: true
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+    craftInventoryTile: [3, 12, 2]
+    deployment:
+# First walker
+# Command deck
+      - [2, 17, 3, 4]
+      - [4, 17, 3, 4]
+# Machine Gunners
+      - [2, 16, 3, 6]
+      - [4, 16, 3, 2]
+      - [3, 16, 4, 4]
+# Second walker
+# Command deck
+      - [5, 5, 3, 4]
+      - [7, 5, 3, 4]
+# Machine Gunners
+      - [5, 4, 3, 6]
+      - [7, 4, 3, 2]
+      - [6, 4, 4, 4]
+
+# First walker
+# Transport deck
+      - [2, 16, 2, 6]
+      - [4, 16, 2, 2]
+      - [2, 17, 2, 4]
+      - [2, 17, 2, 4]
+      - [3, 17, 2, 4]
+      - [2, 18, 2, 4]
+      - [3, 18, 2, 4]
+      - [4, 18, 2, 4]
+
+# Second walker
+# Transport deck
+      - [5, 4, 2, 6]
+      - [7, 4, 2, 2]
+      - [5, 5, 2, 4]
+      - [6, 5, 2, 4]
+      - [7, 5, 2, 4]
+      - [5, 6, 2, 4]
+      - [6, 6, 2, 4]
+      - [7, 6, 2, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_LEGIONNAIRE_MECH
+    sprite: 384
+    maxSkinIndex: 11            # default 0
+    skinSprites: [385,386,387,388,389,401,402,403,404,405,406] # default empty, contains all sprites except for the first (index zero)
+    fuelMax: 1450
+    damageMax: 500
+    speedMax: 300
+    accel: 1
+    weapons: 4
+    weaponTypes:
+      - [0, 1]
+      - [0, 1]
+      - [0, 1]
+      - [0, 1, 4, 5]
+    weaponStrings:
+      - STR_CRAFT_CANNON_ONE
+      - STR_CRAFT_CANNON_TWO
+      - STR_CRAFT_MACHINE_GUN_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 6
+    vehicles: 0
+    pilots: 6
+    costBuy: 675000
+    costSell: 600000
+    refuelRate: 60
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 50
+    radarRange: 250
+    radarChance: 10
+    score: 400
+    #listOrder: 118
+    battlescapeTerrainData:
+      name: TRIPOD_HUMAN_LEGIONNAIRE
+      mapDataSets:
+        - BLANKS
+        - TRIPOD_HUMANA
+        - TRIPOD_HUMANB
+        - TRIPOD_HUMANC
+        - TRIPOD_HUMAND
+        - ROPE
+        - STAIRS
+      mapBlocks:
+        - name: TRIPOD_HUMAN_LEGIONNAIRE
+          width: 10
+          length: 10
+          items:
+            STR_ZEPPELIN_TURRET_SPAWNER:
+              - [1, 6, 3]
+              - [5, 1, 3]
+          fuseTimers:
+            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+          randomizedItems:
+              - position: [5, 2, 2]
+                amount: 2
+                mixed: true
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+    craftInventoryTile: [1, 7, 4]
+    deployment:
+# First walker
+# Command deck
+      - [2, 8, 2, 4]
+      - [2, 6, 2, 6]
+      - [3, 6, 2, 4]
+# Second walker
+# Command deck
+      - [6, 3, 2, 4]
+      - [6, 1, 2, 6]
+      - [7, 1, 2, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_TESTUDO_MECH
+    sprite: 445
+    maxSkinIndex: 11            # default 0
+    skinSprites: [446,447,448,449,461,462,463,464,465,466,467] # default empty, contains all sprites except for the first (index zero)
+    fuelMax: 1450
+    damageMax: 500
+    speedMax: 300
+    accel: 1
+    weapons: 4
+    weaponTypes:
+      - [0, 1]
+      - [0, 1]
+      - [0, 1]
+      - [0, 1, 4, 5]
+    weaponStrings:
+      - STR_CRAFT_CANNON_ONE
+      - STR_CRAFT_CANNON_TWO
+      - STR_CRAFT_MACHINE_GUN_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 21
+    vehicles: 0
+    pilots: 5
+    costBuy: 675000
+    costSell: 600000
+    refuelRate: 60
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 50
+    radarRange: 250
+    radarChance: 10
+    score: 400
+    #listOrder: 118
+    battlescapeTerrainData:
+      name: TRIPOD_HUMAN_TESTUDO
+      mapDataSets:
+        - BLANKS
+        - TRIPOD_HUMANA
+        - TRIPOD_HUMANB
+        - TRIPOD_HUMANC
+        - TRIPOD_HUMAND
+        - ROPE
+        - STAIRS
+      mapBlocks:
+        - name: TRIPOD_HUMAN_TESTUDO
+          width: 10
+          length: 20
+          items:
+            STR_ZEPPELIN_TURRET_SPAWNER:
+              - [1, 11, 4]
+              - [6, 11, 4]
+              - [3, 13, 4]
+              - [3, 7, 4]
+          fuseTimers:
+            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+          randomizedItems:
+              - position: [4, 7, 3]
+                amount: 2
+                mixed: true
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+    craftInventoryTile: [4, 8, 3]
+    deployment:
+# First walker
+# Command deck
+      - [3, 14, 2, 4]
+      - [4, 14, 2, 4]
+      - [2, 12, 2, 0]
+      - [3, 12, 2, 0]
+      - [4, 12, 2, 0]
+# Machine Gunners
+      - [2, 11, 4, 6]
+      - [5, 11, 4, 2]
+# Transport deck
+      - [2, 9, 3, 6]
+      - [5, 9, 3, 2]
+      - [2, 10, 3, 6]
+      - [5, 10, 3, 2]
+      - [2, 11, 3, 4]
+      - [5, 11, 3, 4]
+      - [2, 12, 3, 6]
+      - [5, 12, 3, 2]
+      - [3, 9, 3, 6]
+      - [4, 9, 3, 2]
+      - [3, 10, 3, 6]
+      - [4, 10, 3, 2]
+      - [3, 11, 3, 4]
+      - [4, 11, 3, 4]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_CENTURION_MECH
+    sprite: 409
+    maxSkinIndex: 11            # default 0
+    skinSprites: [421,422,423,424,425,426,427,428,429,441,442] # default empty, contains all sprites except for the first (index zero)
+    fuelMax: 1450
+    damageMax: 500
+    speedMax: 300
+    accel: 1
+    weapons: 4
+    weaponTypes:
+      - [0, 1]
+      - [0, 1]
+      - [0, 1]
+      - [0, 1, 4, 5]
+    weaponStrings:
+      - STR_CRAFT_CANNON_ONE
+      - STR_CRAFT_CANNON_TWO
+      - STR_CRAFT_MACHINE_GUN_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 7
+    vehicles: 0
+    pilots: 5
+    costBuy: 675000
+    costSell: 600000
+    refuelRate: 60
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 50
+    radarRange: 250
+    radarChance: 10
+    score: 400
+    #listOrder: 118
+    battlescapeTerrainData:
+      name: TRIPOD_HUMAN_CENTURION
+      mapDataSets:
+        - BLANKS
+        - TRIPOD_HUMANA
+        - TRIPOD_HUMANB
+        - TRIPOD_HUMANC
+        - TRIPOD_HUMAND
+        - ROPE
+        - STAIRS
+      mapBlocks:
+        - name: TRIPOD_HUMAN_CENTURION
+          width: 10
+          length: 10
+          items:
+            STR_ZEPPELIN_TURRET_SPAWNER:
+              - [3, 2, 4]
+              - [6, 2, 4]
+              - [4, 4, 4]
+              - [4, 6, 3]
+          fuseTimers:
+            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+          randomizedItems:
+              - position: [4, 3, 3]
+                amount: 2
+                mixed: true
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+    craftInventoryTile: [3, 4, 3]
+    deployment:
+# First walker
+# Command deck
+      - [4, 5, 2, 4]
+      - [5, 4, 2, 0]
+      - [4, 5, 3, 6]
+# Gunnery deck
+      - [5, 5, 3, 4]
+      - [4, 4, 2, 4]
+# Machine Gunners
+      - [3, 3, 4, 0]
+      - [6, 3, 4, 0]
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
+
+  - type: STR_PRAETORIAN_MECH
+    sprite: 481
+    maxSkinIndex: 11            # default 0
+    skinSprites: [482,483,484,485,486,487,488,489,501,502,503] # default empty, contains all sprites except for the first (index zero)
+    fuelMax: 1450
+    damageMax: 500
+    speedMax: 300
+    accel: 1
+    weapons: 4
+    weaponTypes:
+      - [0, 1]
+      - [0, 1]
+      - [0, 1]
+      - [0, 1, 4, 5]
+    weaponStrings:
+      - STR_CRAFT_CANNON_ONE
+      - STR_CRAFT_CANNON_TWO
+      - STR_CRAFT_MACHINE_GUN_THREE
+      - STR_CRAFT_BOMB_FOUR
+    soldiers: 13
+    vehicles: 0
+    pilots: 5
+    costBuy: 675000
+    costSell: 600000
+    refuelRate: 60
+    transferTime: 72
+    autoPatrol: true
+    sightRange: 50
+    radarRange: 250
+    radarChance: 10
+    score: 400
+    #listOrder: 118
+    battlescapeTerrainData:
+      name: TRIPOD_HUMAN_PRAETORIAN
+      mapDataSets:
+        - BLANKS
+        - TRIPOD_HUMANA
+        - TRIPOD_HUMANB
+        - TRIPOD_HUMANC
+        - TRIPOD_HUMAND
+        - ROPE
+        - STAIRS
+      mapBlocks:
+        - name: TRIPOD_HUMAN_PRAETORIAN
+          width: 20
+          length: 20
+          items:
+            STR_ZEPPELIN_TURRET_SPAWNER:
+              - [6, 8, 5]
+              - [11, 8, 5]
+              - [6, 8, 3]
+              - [11, 8, 3]
+
+              - [8, 10, 5]
+
+              - [8, 5, 5]
+          fuseTimers:
+            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+          randomizedItems:
+              - position: [6, 8, 4]
+                amount: 2
+                mixed: true
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+    craftInventoryTile: [8, 8, 3]
+    deployment:
+# First walker
+# Command deck
+      - [8, 10, 3, 4]
+      - [8, 10, 3, 4]
+      - [9, 7, 3, 0]
+# Gunnery/Transport deck
+      - [7, 9, 4, 6]
+      - [7, 7, 4, 0]
+      - [8, 8, 4, 4]
+      - [9, 8, 4, 4]
+      - [8, 9, 4, 4]
+      - [9, 9, 4, 4]
+      - [8, 10, 4, 4]
+      - [9, 10, 4, 4]
+# Machine Gunners
+      - [7, 8, 5, 6]
+      - [10, 8, 5, 2]
+
+# unit facing
+# 6 7 0
+# 5   1
+# 4 3 2
 
 craftWeapons:
 #Delete
@@ -1120,74 +1558,74 @@ extraSprites:
 
       359: Resources/Crafts/CClassAirship_base.png
       360: Resources/Crafts/RClassAirship_base.png
-      
+
       381: Resources/Mechs/Phalanx_base0.png
-      382: Resources/Mechs/Phalanx_base1.png 
-      383: Resources/Mechs/Phalanx_base2.png 
-      394: Resources/Mechs/Phalanx_base3.png 
-      395: Resources/Mechs/Phalanx_base4.png 
-      396: Resources/Mechs/Phalanx_base5.png
-      397: Resources/Mechs/Phalanx_base6.png
-      398: Resources/Mechs/Phalanx_base7.png 
-      399: Resources/Mechs/Phalanx_base8.png 
-      400: Resources/Mechs/Phalanx_base9.png 
-      401: Resources/Mechs/Phalanx_base10.png 
-      402: Resources/Mechs/Phalanx_base11.png
+      382: Resources/Mechs/Phalanx_base1.png
+      394: Resources/Mechs/Phalanx_base2.png
+      395: Resources/Mechs/Phalanx_base3.png
+      396: Resources/Mechs/Phalanx_base4.png
+      397: Resources/Mechs/Phalanx_base5.png
+      398: Resources/Mechs/Phalanx_base6.png
+      399: Resources/Mechs/Phalanx_base7.png
+      400: Resources/Mechs/Phalanx_base8.png
+      401: Resources/Mechs/Phalanx_base9.png
+      402: Resources/Mechs/Phalanx_base10.png
+      414: Resources/Mechs/Phalanx_base11.png
 
       417: Resources/Mechs/Legionnaire_base0.png
-      418: Resources/Mechs/Legionnaire_base1.png 
-      419: Resources/Mechs/Legionnaire_base2.png 
-      420: Resources/Mechs/Legionnaire_base3.png 
-      421: Resources/Mechs/Legionnaire_base4.png 
+      418: Resources/Mechs/Legionnaire_base1.png
+      419: Resources/Mechs/Legionnaire_base2.png
+      420: Resources/Mechs/Legionnaire_base3.png
+      421: Resources/Mechs/Legionnaire_base4.png
       422: Resources/Mechs/Legionnaire_base5.png
       434: Resources/Mechs/Legionnaire_base6.png
-      435: Resources/Mechs/Legionnaire_base7.png 
-      436: Resources/Mechs/Legionnaire_base8.png 
-      437: Resources/Mechs/Legionnaire_base9.png 
-      438: Resources/Mechs/Legionnaire_base10.png 
-      439: Resources/Mechs/Legionnaire_base11.png 
-      
+      435: Resources/Mechs/Legionnaire_base7.png
+      436: Resources/Mechs/Legionnaire_base8.png
+      437: Resources/Mechs/Legionnaire_base9.png
+      438: Resources/Mechs/Legionnaire_base10.png
+      439: Resources/Mechs/Legionnaire_base11.png
+
       442: Resources/Mechs/Centurion_base0.png
-      454: Resources/Mechs/Centurion_base1.png 
-      455: Resources/Mechs/Centurion_base2.png 
-      456: Resources/Mechs/Centurion_base3.png 
-      457: Resources/Mechs/Centurion_base4.png 
+      454: Resources/Mechs/Centurion_base1.png
+      455: Resources/Mechs/Centurion_base2.png
+      456: Resources/Mechs/Centurion_base3.png
+      457: Resources/Mechs/Centurion_base4.png
       458: Resources/Mechs/Centurion_base5.png
       459: Resources/Mechs/Centurion_base6.png
-      460: Resources/Mechs/Centurion_base7.png 
-      461: Resources/Mechs/Centurion_base8.png 
-      462: Resources/Mechs/Centurion_base9.png 
-      474: Resources/Mechs/Centurion_base10.png 
-      475: Resources/Mechs/Centurion_base11.png 
-      
+      460: Resources/Mechs/Centurion_base7.png
+      461: Resources/Mechs/Centurion_base8.png
+      462: Resources/Mechs/Centurion_base9.png
+      474: Resources/Mechs/Centurion_base10.png
+      475: Resources/Mechs/Centurion_base11.png
+
       478: Resources/Mechs/Testudo_base0.png
-      479: Resources/Mechs/Testudo_base1.png 
-      480: Resources/Mechs/Testudo_base2.png 
-      481: Resources/Mechs/Testudo_base3.png 
-      482: Resources/Mechs/Testudo_base4.png 
+      479: Resources/Mechs/Testudo_base1.png
+      480: Resources/Mechs/Testudo_base2.png
+      481: Resources/Mechs/Testudo_base3.png
+      482: Resources/Mechs/Testudo_base4.png
       494: Resources/Mechs/Testudo_base5.png
       495: Resources/Mechs/Testudo_base6.png
-      496: Resources/Mechs/Testudo_base7.png 
-      497: Resources/Mechs/Testudo_base8.png 
-      498: Resources/Mechs/Testudo_base9.png 
-      499: Resources/Mechs/Testudo_base10.png 
-      500: Resources/Mechs/Testudo_base11.png 
-      
+      496: Resources/Mechs/Testudo_base7.png
+      497: Resources/Mechs/Testudo_base8.png
+      498: Resources/Mechs/Testudo_base9.png
+      499: Resources/Mechs/Testudo_base10.png
+      500: Resources/Mechs/Testudo_base11.png
+
       514: Resources/Mechs/Praetorian_base0.png
-      515: Resources/Mechs/Praetorian_base1.png 
-      516: Resources/Mechs/Praetorian_base2.png 
-      517: Resources/Mechs/Praetorian_base3.png 
-      518: Resources/Mechs/Praetorian_base4.png 
+      515: Resources/Mechs/Praetorian_base1.png
+      516: Resources/Mechs/Praetorian_base2.png
+      517: Resources/Mechs/Praetorian_base3.png
+      518: Resources/Mechs/Praetorian_base4.png
       519: Resources/Mechs/Praetorian_base5.png
       520: Resources/Mechs/Praetorian_base6.png
-      521: Resources/Mechs/Praetorian_base7.png 
-      522: Resources/Mechs/Praetorian_base8.png 
-      534: Resources/Mechs/Praetorian_base9.png 
-      535: Resources/Mechs/Praetorian_base10.png 
+      521: Resources/Mechs/Praetorian_base7.png
+      522: Resources/Mechs/Praetorian_base8.png
+      534: Resources/Mechs/Praetorian_base9.png
+      535: Resources/Mechs/Praetorian_base10.png
       536: Resources/Mechs/Praetorian_base11.png
   - type: INTICON.PCK
     files:
-      99: Resources/Crafts/March_dogfight.png
+      99: Resources/Crafts/March_minimised.png
       100: Resources/Crafts/March_Large_minimised.png
       101: Resources/Crafts/FokkerEindecker_minimised.png
       102: Resources/Crafts/AircoDH2_minimised.png
@@ -1209,72 +1647,72 @@ extraSprites:
 
       326: Resources/Crafts/CClassAirship_minimised.png
       327: Resources/Crafts/RClassAirship_minimised.png
-      
+
       348: Resources/Mechs/Phalanx_minimised.png
-      349: Resources/Mechs/Phalanx_minimised.png 
-      361: Resources/Mechs/Phalanx_minimised.png 
-      362: Resources/Mechs/Phalanx_minimised.png 
-      363: Resources/Mechs/Phalanx_minimised.png 
+      349: Resources/Mechs/Phalanx_minimised.png
+      361: Resources/Mechs/Phalanx_minimised.png
+      362: Resources/Mechs/Phalanx_minimised.png
+      363: Resources/Mechs/Phalanx_minimised.png
       364: Resources/Mechs/Phalanx_minimised.png
       365: Resources/Mechs/Phalanx_minimised.png
-      366: Resources/Mechs/Phalanx_minimised.png 
-      367: Resources/Mechs/Phalanx_minimised.png 
-      368: Resources/Mechs/Phalanx_minimised.png 
-      369: Resources/Mechs/Phalanx_minimised.png 
+      366: Resources/Mechs/Phalanx_minimised.png
+      367: Resources/Mechs/Phalanx_minimised.png
+      368: Resources/Mechs/Phalanx_minimised.png
+      369: Resources/Mechs/Phalanx_minimised.png
       381: Resources/Mechs/Phalanx_minimised.png
 
       384: Resources/Mechs/Legionnaire_minimised.png
-      385: Resources/Mechs/Legionnaire_minimised.png 
-      386: Resources/Mechs/Legionnaire_minimised.png 
-      387: Resources/Mechs/Legionnaire_minimised.png 
-      388: Resources/Mechs/Legionnaire_minimised.png 
+      385: Resources/Mechs/Legionnaire_minimised.png
+      386: Resources/Mechs/Legionnaire_minimised.png
+      387: Resources/Mechs/Legionnaire_minimised.png
+      388: Resources/Mechs/Legionnaire_minimised.png
       389: Resources/Mechs/Legionnaire_minimised.png
       401: Resources/Mechs/Legionnaire_minimised.png
-      402: Resources/Mechs/Legionnaire_minimised.png 
-      403: Resources/Mechs/Legionnaire_minimised.png 
-      404: Resources/Mechs/Legionnaire_minimised.png 
-      405: Resources/Mechs/Legionnaire_minimised.png 
-      406: Resources/Mechs/Legionnaire_minimised.png 
+      402: Resources/Mechs/Legionnaire_minimised.png
+      403: Resources/Mechs/Legionnaire_minimised.png
+      404: Resources/Mechs/Legionnaire_minimised.png
+      405: Resources/Mechs/Legionnaire_minimised.png
+      406: Resources/Mechs/Legionnaire_minimised.png
 
       409: Resources/Mechs/Centurion_minimised.png
-      421: Resources/Mechs/Centurion_minimised.png 
-      422: Resources/Mechs/Centurion_minimised.png 
-      423: Resources/Mechs/Centurion_minimised.png 
-      424: Resources/Mechs/Centurion_minimised.png 
+      421: Resources/Mechs/Centurion_minimised.png
+      422: Resources/Mechs/Centurion_minimised.png
+      423: Resources/Mechs/Centurion_minimised.png
+      424: Resources/Mechs/Centurion_minimised.png
       425: Resources/Mechs/Centurion_minimised.png
       426: Resources/Mechs/Centurion_minimised.png
-      427: Resources/Mechs/Centurion_minimised.png 
-      428: Resources/Mechs/Centurion_minimised.png 
-      429: Resources/Mechs/Centurion_minimised.png 
-      441: Resources/Mechs/Centurion_minimised.png 
-      442: Resources/Mechs/Centurion_minimised.png 
-      
+      427: Resources/Mechs/Centurion_minimised.png
+      428: Resources/Mechs/Centurion_minimised.png
+      429: Resources/Mechs/Centurion_minimised.png
+      441: Resources/Mechs/Centurion_minimised.png
+      442: Resources/Mechs/Centurion_minimised.png
+
       445: Resources/Mechs/Testudo_minimised.png
-      446: Resources/Mechs/Testudo_minimised.png 
-      447: Resources/Mechs/Testudo_minimised.png 
-      448: Resources/Mechs/Testudo_minimised.png 
-      449: Resources/Mechs/Testudo_minimised.png 
+      446: Resources/Mechs/Testudo_minimised.png
+      447: Resources/Mechs/Testudo_minimised.png
+      448: Resources/Mechs/Testudo_minimised.png
+      449: Resources/Mechs/Testudo_minimised.png
       461: Resources/Mechs/Testudo_minimised.png
       462: Resources/Mechs/Testudo_minimised.png
-      463: Resources/Mechs/Testudo_minimised.png 
-      464: Resources/Mechs/Testudo_minimised.png 
-      465: Resources/Mechs/Testudo_minimised.png 
-      466: Resources/Mechs/Testudo_minimised.png 
-      467: Resources/Mechs/Testudo_minimised.png 
-      #468: Resources/Mechs/Testudo_minimised.png 
-      
+      463: Resources/Mechs/Testudo_minimised.png
+      464: Resources/Mechs/Testudo_minimised.png
+      465: Resources/Mechs/Testudo_minimised.png
+      466: Resources/Mechs/Testudo_minimised.png
+      467: Resources/Mechs/Testudo_minimised.png
+      #468: Resources/Mechs/Testudo_minimised.png
+
       481: Resources/Mechs/Praetorian_minimised.png
-      482: Resources/Mechs/Praetorian_minimised.png 
-      483: Resources/Mechs/Praetorian_minimised.png 
-      484: Resources/Mechs/Praetorian_minimised.png 
-      485: Resources/Mechs/Praetorian_minimised.png 
+      482: Resources/Mechs/Praetorian_minimised.png
+      483: Resources/Mechs/Praetorian_minimised.png
+      484: Resources/Mechs/Praetorian_minimised.png
+      485: Resources/Mechs/Praetorian_minimised.png
       486: Resources/Mechs/Praetorian_minimised.png
       487: Resources/Mechs/Praetorian_minimised.png
-      488: Resources/Mechs/Praetorian_minimised.png 
-      489: Resources/Mechs/Praetorian_minimised.png 
-      501: Resources/Mechs/Praetorian_minimised.png 
-      502: Resources/Mechs/Praetorian_minimised.png 
-      503: Resources/Mechs/Praetorian_base.png
+      488: Resources/Mechs/Praetorian_minimised.png
+      489: Resources/Mechs/Praetorian_minimised.png
+      501: Resources/Mechs/Praetorian_minimised.png
+      502: Resources/Mechs/Praetorian_minimised.png
+      503: Resources/Mechs/Praetorian_minimised.png
 
       110: Resources/Crafts/March_dogfight.png
       111: Resources/Crafts/March_Large_dogfight.png
@@ -1298,70 +1736,70 @@ extraSprites:
 
       337: Resources/Crafts/CClassAirship_dogfight.png
       338: Resources/Crafts/RClassAirship_dogfight.png
-      
+
       359: Resources/Mechs/Phalanx_dogfight.png
-      360: Resources/Mechs/Phalanx_dogfight.png 
-      372: Resources/Mechs/Phalanx_dogfight.png 
-      373: Resources/Mechs/Phalanx_dogfight.png 
-      374: Resources/Mechs/Phalanx_dogfight.png 
+      360: Resources/Mechs/Phalanx_dogfight.png
+      372: Resources/Mechs/Phalanx_dogfight.png
+      373: Resources/Mechs/Phalanx_dogfight.png
+      374: Resources/Mechs/Phalanx_dogfight.png
       375: Resources/Mechs/Phalanx_dogfight.png
       376: Resources/Mechs/Phalanx_dogfight.png
-      377: Resources/Mechs/Phalanx_dogfight.png 
-      378: Resources/Mechs/Phalanx_dogfight.png 
-      379: Resources/Mechs/Phalanx_dogfight.png 
-      380: Resources/Mechs/Phalanx_dogfight.png 
+      377: Resources/Mechs/Phalanx_dogfight.png
+      378: Resources/Mechs/Phalanx_dogfight.png
+      379: Resources/Mechs/Phalanx_dogfight.png
+      380: Resources/Mechs/Phalanx_dogfight.png
       392: Resources/Mechs/Phalanx_dogfight.png
 
       395: Resources/Mechs/Legionnaire_dogfight.png
-      393: Resources/Mechs/Legionnaire_dogfight.png 
-      397: Resources/Mechs/Legionnaire_dogfight.png 
-      398: Resources/Mechs/Legionnaire_dogfight.png 
-      399: Resources/Mechs/Legionnaire_dogfight.png 
+      393: Resources/Mechs/Legionnaire_dogfight.png
+      397: Resources/Mechs/Legionnaire_dogfight.png
+      398: Resources/Mechs/Legionnaire_dogfight.png
+      399: Resources/Mechs/Legionnaire_dogfight.png
       400: Resources/Mechs/Legionnaire_dogfight.png
       412: Resources/Mechs/Legionnaire_dogfight.png
-      413: Resources/Mechs/Legionnaire_dogfight.png 
-      414: Resources/Mechs/Legionnaire_dogfight.png 
-      415: Resources/Mechs/Legionnaire_dogfight.png 
-      416: Resources/Mechs/Legionnaire_dogfight.png 
-      417: Resources/Mechs/Legionnaire_dogfight.png 
-      
+      413: Resources/Mechs/Legionnaire_dogfight.png
+      414: Resources/Mechs/Legionnaire_dogfight.png
+      415: Resources/Mechs/Legionnaire_dogfight.png
+      416: Resources/Mechs/Legionnaire_dogfight.png
+      417: Resources/Mechs/Legionnaire_dogfight.png
+
       420: Resources/Mechs/Centurion_dogfight.png
-      432: Resources/Mechs/Centurion_dogfight.png 
-      433: Resources/Mechs/Centurion_dogfight.png 
-      434: Resources/Mechs/Centurion_dogfight.png 
-      435: Resources/Mechs/Centurion_dogfight.png 
+      432: Resources/Mechs/Centurion_dogfight.png
+      433: Resources/Mechs/Centurion_dogfight.png
+      434: Resources/Mechs/Centurion_dogfight.png
+      435: Resources/Mechs/Centurion_dogfight.png
       436: Resources/Mechs/Centurion_dogfight.png
       437: Resources/Mechs/Centurion_dogfight.png
-      438: Resources/Mechs/Centurion_dogfight.png 
-      439: Resources/Mechs/Centurion_dogfight.png 
-      439: Resources/Mechs/Centurion_dogfight.png 
-      452: Resources/Mechs/Centurion_dogfight.png 
-      453: Resources/Mechs/Centurion_dogfight.png 
-      
+      438: Resources/Mechs/Centurion_dogfight.png
+      439: Resources/Mechs/Centurion_dogfight.png
+      440: Resources/Mechs/Centurion_dogfight.png
+      452: Resources/Mechs/Centurion_dogfight.png
+      453: Resources/Mechs/Centurion_dogfight.png
+
       456: Resources/Mechs/Testudo_dogfight.png
-      457: Resources/Mechs/Testudo_dogfight.png 
-      458: Resources/Mechs/Testudo_dogfight.png 
-      459: Resources/Mechs/Testudo_dogfight.png 
-      460: Resources/Mechs/Testudo_dogfight.png 
+      457: Resources/Mechs/Testudo_dogfight.png
+      458: Resources/Mechs/Testudo_dogfight.png
+      459: Resources/Mechs/Testudo_dogfight.png
+      460: Resources/Mechs/Testudo_dogfight.png
       472: Resources/Mechs/Testudo_dogfight.png
       473: Resources/Mechs/Testudo_dogfight.png
-      474: Resources/Mechs/Testudo_dogfight.png 
-      475: Resources/Mechs/Testudo_dogfight.png 
-      476: Resources/Mechs/Testudo_dogfight.png 
-      477: Resources/Mechs/Testudo_dogfight.png 
-      478: Resources/Mechs/Testudo_dogfight.png 
-      
+      474: Resources/Mechs/Testudo_dogfight.png
+      475: Resources/Mechs/Testudo_dogfight.png
+      476: Resources/Mechs/Testudo_dogfight.png
+      477: Resources/Mechs/Testudo_dogfight.png
+      478: Resources/Mechs/Testudo_dogfight.png
+
       492: Resources/Mechs/Praetorian_dogfight.png
-      493: Resources/Mechs/Praetorian_dogfight.png 
-      494: Resources/Mechs/Praetorian_dogfight.png 
-      495: Resources/Mechs/Praetorian_dogfight.png 
-      496: Resources/Mechs/Praetorian_dogfight.png 
+      493: Resources/Mechs/Praetorian_dogfight.png
+      494: Resources/Mechs/Praetorian_dogfight.png
+      495: Resources/Mechs/Praetorian_dogfight.png
+      496: Resources/Mechs/Praetorian_dogfight.png
       497: Resources/Mechs/Praetorian_dogfight.png
       498: Resources/Mechs/Praetorian_dogfight.png
-      499: Resources/Mechs/Praetorian_dogfight.png 
-      500: Resources/Mechs/Praetorian_dogfight.png 
-      512: Resources/Mechs/Praetorian_dogfight.png 
-      513: Resources/Mechs/Praetorian_dogfight.png 
+      499: Resources/Mechs/Praetorian_dogfight.png
+      500: Resources/Mechs/Praetorian_dogfight.png
+      512: Resources/Mechs/Praetorian_dogfight.png
+      513: Resources/Mechs/Praetorian_dogfight.png
       514: Resources/Mechs/Praetorian_dogfight.png
 #Craft weapons
   - type: BASEBITS.PCK
