@@ -79,7 +79,7 @@
      - STR_SMLE_MKIII_UNLOCK
 
   - name: STR_SMLE_MKIII_KMM_AMMO_UNLOCK
-    cost: 0
+    cost: 10
     dependencies:
      - STR_BRITISH_EQUIPMENT_SELECTION
      - STR_SMLE_MKIII_UNLOCK
