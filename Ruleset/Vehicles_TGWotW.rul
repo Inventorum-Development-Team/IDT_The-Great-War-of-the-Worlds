@@ -831,9 +831,9 @@ crafts:
     sprite: 348
     maxSkinIndex: 11            # default 0
     skinSprites: [349,361,362,363,364,365,366,367,368,369,381] # default empty, contains all sprites except for the first (index zero)
-    fuelMax: 1450
+    fuelMax: 2500
     damageMax: 500
-    speedMax: 300
+    speedMax: 50
     accel: 1
     weapons: 4
     weaponTypes:
@@ -937,10 +937,10 @@ crafts:
     sprite: 384
     maxSkinIndex: 11            # default 0
     skinSprites: [385,386,387,388,389,401,402,403,404,405,406] # default empty, contains all sprites except for the first (index zero)
-    fuelMax: 1450
-    damageMax: 500
-    speedMax: 300
-    accel: 1
+    fuelMax: 1850
+    damageMax: 400
+    speedMax: 80
+    accel: 3
     weapons: 4
     weaponTypes:
       - [0, 1]
@@ -1011,9 +1011,9 @@ crafts:
     sprite: 445
     maxSkinIndex: 11            # default 0
     skinSprites: [446,447,448,449,461,462,463,464,465,466,467] # default empty, contains all sprites except for the first (index zero)
-    fuelMax: 1450
-    damageMax: 500
-    speedMax: 300
+    fuelMax: 2250
+    damageMax: 650
+    speedMax: 60
     accel: 1
     weapons: 4
     weaponTypes:
@@ -1104,10 +1104,10 @@ crafts:
     sprite: 409
     maxSkinIndex: 11            # default 0
     skinSprites: [421,422,423,424,425,426,427,428,429,441,442] # default empty, contains all sprites except for the first (index zero)
-    fuelMax: 1450
-    damageMax: 500
-    speedMax: 300
-    accel: 1
+    fuelMax: 2000
+    damageMax: 700
+    speedMax: 50
+    accel: 2
     weapons: 4
     weaponTypes:
       - [0, 1]
@@ -1184,10 +1184,10 @@ crafts:
     sprite: 481
     maxSkinIndex: 11            # default 0
     skinSprites: [482,483,484,485,486,487,488,489,501,502,503] # default empty, contains all sprites except for the first (index zero)
-    fuelMax: 1450
-    damageMax: 500
-    speedMax: 300
-    accel: 1
+    fuelMax: 2800
+    damageMax: 900
+    speedMax: 40
+    accel: 2
     weapons: 4
     weaponTypes:
       - [0, 1]
