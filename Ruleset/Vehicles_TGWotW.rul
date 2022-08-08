@@ -980,11 +980,11 @@ crafts:
           width: 10
           length: 10
           items:
-            STR_ZEPPELIN_TURRET_SPAWNER:
+            STR_CONQUEROR_TURRET_SPAWNER:
               - [1, 6, 3]
               - [5, 1, 3]
           fuseTimers:
-            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [5, 2, 2]
                 amount: 2
@@ -1054,12 +1054,14 @@ crafts:
           width: 10
           length: 20
           items:
+            STR_CONQUEROR_TURRET_SPAWNER:
+              - [3, 13, 4]
+              - [3, 7, 4]
             STR_ZEPPELIN_TURRET_SPAWNER:
               - [1, 11, 4]
               - [6, 11, 4]
-              - [3, 13, 4]
-              - [3, 7, 4]
           fuseTimers:
+            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [4, 7, 3]
@@ -1145,12 +1147,15 @@ crafts:
           width: 10
           length: 10
           items:
+            STR_CONQUEROR_TURRET_SPAWNER:
+              - [4, 4, 4]
+              - [4, 6, 3]            
             STR_ZEPPELIN_TURRET_SPAWNER:
               - [3, 2, 4]
               - [6, 2, 4]
-              - [4, 4, 4]
-              - [4, 6, 3]
+              
           fuseTimers:
+            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]          
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [4, 3, 3]
@@ -1227,11 +1232,12 @@ crafts:
               - [11, 8, 5]
               - [6, 8, 3]
               - [11, 8, 3]
-
+            STR_CONQUEROR_TURRET_SPAWNER:
               - [8, 10, 5]
 
               - [8, 5, 5]
           fuseTimers:
+            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]          
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [6, 8, 4]
