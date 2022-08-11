@@ -1821,6 +1821,9 @@ extraSprites:
       207: Resources/Crafts/PomPom_dogfight.png
       208: Resources/Crafts/Frag_Bomb_dogfight.png
 
+      #206: Resources/Crafts/Autocannon_dogfight.png #6-pdr vehicle turret
+      #206: Resources/Crafts/Autocannon_dogfight.png #8,8cm vehicle turret
+      #206: Resources/Crafts/Autocannon_dogfight.png #Heat Ray Mk.IX vehicle turret
 
 #UFOpedia
   - type: MARCH_IMAGE
