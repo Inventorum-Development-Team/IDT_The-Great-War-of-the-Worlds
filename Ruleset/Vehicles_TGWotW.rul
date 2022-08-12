@@ -1285,10 +1285,27 @@ craftWeapons:
 # weaponType 6 = Rockets (Rocket propelled projectiles, short range, very fast ROF)
 # weaponType 7 = Auxliary Systems (Fuel tanks, extra shields, etc)
 
-#Machine Gun
-  - type: STR_TWIN_HMG
+#Forward Machine Gun
+  - type: STR_VICKERS_MMG
     weaponType: 0
     sprite: 200
+    sound: 4
+    damage: 15
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 3
+    ammoMax: 250
+    rearmRate: 250
+    launcher: STR_VICKERS_MMG_LAUNCHER
+    #clip: STR_VICKERS_MMG_ROUNDS_X250
+    projectileType: 2
+    projectileSpeed: 10
+
+  - type: STR_TWIN_HMG
+    weaponType: 0
+    sprite: 201
     sound: 4
     damage: 15
     range: 10
@@ -1299,13 +1316,97 @@ craftWeapons:
     ammoMax: 200
     rearmRate: 200
     launcher: STR_TWIN_HMG_LAUNCHER
-    clip: STR_TWIN_HMG_ROUNDS_X50
+    #clip: STR_TWIN_HMG_ROUNDS_X50
     projectileType: 2
     projectileSpeed: 10
-#Cannon
-  - type: STR_AUTOCANNON
+
+  - type: STR_50CAL_BROWNING_HMG
+    weaponType: 0
+    sprite: 202
+    sound: 4
+    damage: 15
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 3
+    ammoMax: 250
+    rearmRate: 250
+    launcher: STR_VICKERS_MMG_LAUNCHER
+    #clip: STR_VICKERS_MMG_ROUNDS_X250
+    projectileType: 2
+    projectileSpeed: 10
+
+#Defensive Machine Gun
+  - type: STR_LEWIS_303_TURRET
     weaponType: 1
-    sprite: 201
+    sprite: 206
+    sound: 4
+    damage: 15
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 3
+    ammoMax: 235
+    rearmRate: 100
+    launcher: STR_LEWIS_303_TURRET_LAUNCHER
+    #clip: STR_LEWIS_303_TURRET_ROUNDS_X47
+    projectileType: 2
+    projectileSpeed: 10
+  - type: STR_30CAL_BROWNING_TURRET
+    weaponType: 1
+    sprite: 207
+    sound: 4
+    damage: 15
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 3
+    ammoMax: 235
+    rearmRate: 100
+    launcher: STR_LEWIS_303_TURRET_LAUNCHER
+    #clip: STR_LEWIS_303_TURRET_ROUNDS_X47
+    projectileType: 2
+    projectileSpeed: 10
+  - type: STR_303_VICKERS_K_TURRET
+    weaponType: 1
+    sprite: 208
+    sound: 4
+    damage: 15
+    range: 10
+    accuracy: 25
+    reloadCautious: 4
+    reloadStandard: 4
+    reloadAggressive: 3
+    ammoMax: 235
+    rearmRate: 100
+    launcher: STR_LEWIS_303_TURRET_LAUNCHER
+    #clip: STR_LEWIS_303_TURRET_ROUNDS_X47
+    projectileType: 2
+    projectileSpeed: 10
+    
+#Autocannon
+  - type: STR_BECKER_2CM_CANNON
+    weaponType: 3
+    sprite: 216
+    sound: 4
+    damage: 30
+    range: 15
+    accuracy: 35
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 75
+    rearmRate: 100
+    launcher: STR_BECKER_2CM_CANNON_LAUNCHER
+    clip: STR_BECKER_2CM_CANNON_ROUNDS_X15
+    projectileType: 2
+    projectileSpeed: 7
+  - type: STR_AUTOCANNON
+    weaponType: 3
+    sprite: 217
     sound: 4
     damage: 30
     range: 15
@@ -1319,9 +1420,27 @@ craftWeapons:
     clip: STR_AUTOCANNON_ROUNDS_X50
     projectileType: 2
     projectileSpeed: 7
+  - type: STR_VICKERS_S_40MM_AUTOCANNON
+    weaponType: 3
+    sprite: 218
+    sound: 4
+    damage: 30
+    range: 15
+    accuracy: 35
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 75
+    rearmRate: 100
+    launcher: STR_BECKER_2CM_CANNON_LAUNCHER
+    clip: STR_BECKER_2CM_CANNON_ROUNDS_X15
+    projectileType: 2
+    projectileSpeed: 7
+    
+#Light Cannons    
   - type: STR_QF_1_PDR_POMPOM
-    weaponType: 1
-    sprite: 202
+    weaponType: 2
+    sprite: 211
     sound: 4
     damage: 75
     range: 15
@@ -1332,13 +1451,46 @@ craftWeapons:
     ammoMax: 30
     rearmRate: 100
     launcher: STR_QF_1_PDR_POMPOM_LAUNCHER
-    clip: STR_QF_1_PDR_POMPOM_X30
+    #clip: STR_QF_1_PDR_POMPOM_X30
     projectileType: 2
     projectileSpeed: 5
+  - type: STR_37MM_CANNON
+    weaponType: 2
+    sprite: 212
+    sound: 4
+    damage: 75
+    range: 15
+    accuracy: 45
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 30
+    rearmRate: 100
+    launcher: STR_QF_1_PDR_POMPOM_LAUNCHER
+    #clip: STR_QF_1_PDR_POMPOM_X30
+    projectileType: 2
+    projectileSpeed: 5
+  - type: STR_75MM_CANNON
+    weaponType: 2
+    sprite: 213
+    sound: 4
+    damage: 75
+    range: 15
+    accuracy: 45
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 30
+    rearmRate: 100
+    launcher: STR_QF_1_PDR_POMPOM_LAUNCHER
+    #clip: STR_QF_1_PDR_POMPOM_X30
+    projectileType: 2
+    projectileSpeed: 5
+
 #Bombs
   - type: STR_FRAGMENTATION_BOMB
-    weaponType: 4
-    sprite: 203
+    weaponType: 5
+    sprite: 226
     sound: 60
     damage: 100
     range: 4
@@ -1351,7 +1503,269 @@ craftWeapons:
     projectileType: 0
     projectileSpeed: 9
     launcher: STR_FRAGMENTATION_BOMB_LAUNCHER
-    clip: STR_FRAGMENTATION_BOMB_X3
+    #clip: STR_FRAGMENTATION_BOMB_X3
+  - type: STR_HE_BOMB
+    weaponType: 5
+    sprite: 227
+    sound: 60
+    damage: 100
+    range: 4
+    accuracy: 90
+    reloadCautious: 25
+    reloadStandard: 25
+    reloadAggressive: 25
+    ammoMax: 3
+    rearmRate: 5
+    projectileType: 0
+    projectileSpeed: 9
+    launcher: STR_FRAGMENTATION_BOMB_LAUNCHER
+    #clip: STR_FRAGMENTATION_BOMB_X3
+  - type: STR_CLUSTER_BOMB
+    weaponType: 5
+    sprite: 228
+    sound: 60
+    damage: 100
+    range: 4
+    accuracy: 90
+    reloadCautious: 25
+    reloadStandard: 25
+    reloadAggressive: 25
+    ammoMax: 3
+    rearmRate: 5
+    projectileType: 0
+    projectileSpeed: 9
+    launcher: STR_FRAGMENTATION_BOMB_LAUNCHER
+    #clip: STR_FRAGMENTATION_BOMB_X3    
+
+#Rockets
+  - type: STR_LE_PRIEUR_ROCKETS
+    weaponType: 6
+    sprite: 231
+    sound: 5
+    damage: 95
+    shieldDamageModifier: 50
+    range: 15
+    accuracy: 55
+    reloadCautious: 30
+    reloadStandard: 35
+    reloadAggressive: 20
+    ammoMax: 4
+    rearmRate: 16
+    launcher: STR_HYDRA_LAUNCHER
+    projectileType: 0
+    projectileSpeed: 8
+
+  - type: STR_CLUSTER_ROCKETS
+    weaponType: 6
+    sprite: 232
+    sound: 5
+    damage: 115
+    shieldDamageModifier: 75
+    range: 20
+    accuracy: 65
+    reloadCautious: 35
+    reloadStandard: 35
+    reloadAggressive: 35
+    ammoMax: 6
+    rearmRate: 16
+    launcher: STR_GORGON_LAUNCHER
+    projectileType: 0
+    projectileSpeed: 8
+
+  - type: STR_MAGNETIC_ROCKETS
+    weaponType: 6
+    sprite: 233
+    sound: 5
+    damage: 135
+    range: 25
+    accuracy: 80
+    reloadCautious: 35
+    reloadStandard: 35
+    reloadAggressive: 35
+    ammoMax: 8
+    rearmRate: 16
+    launcher: STR_KRAKEN_LAUNCHER
+    projectileType: 0
+    projectileSpeed: 8
+
+  - type: STR_GUIDED_ROCKETS
+    weaponType: 6
+    sprite: 234
+    sound: 5
+    damage: 95
+    shieldDamageModifier: 50
+    range: 15
+    accuracy: 55
+    reloadCautious: 30
+    reloadStandard: 35
+    reloadAggressive: 20
+    ammoMax: 4
+    rearmRate: 16
+    launcher: STR_HYDRA_LAUNCHER
+    projectileType: 0
+    projectileSpeed: 8
+    
+#Aircraft Heat-Rays
+  - type: STR_AUX_HEAT_RAY_MK1
+    weaponType: 7
+    sprite: 220
+    sound: 8
+    damage: 40
+    shieldDamageModifier: 75
+    range: 20
+    accuracy: 50
+    reloadCautious: 10
+    reloadStandard: 10
+    reloadAggressive: 6
+    ammoMax: 100
+    rearmRate: 50
+    launcher: STR_LASER_CANNON
+    projectileType: 4
+  - type: STR_AUX_HEAT_RAY_MK2
+    weaponType: 7
+    sprite: 220
+    sound: 8
+    damage: 40
+    shieldDamageModifier: 75
+    range: 20
+    accuracy: 50
+    reloadCautious: 10
+    reloadStandard: 10
+    reloadAggressive: 6
+    ammoMax: 100
+    rearmRate: 50
+    launcher: STR_LASER_CANNON
+    projectileType: 4
+  - type: STR_AUX_HEAT_RAY_MK3
+    weaponType: 7
+    sprite: 220
+    sound: 8
+    damage: 40
+    shieldDamageModifier: 75
+    range: 20
+    accuracy: 50
+    reloadCautious: 10
+    reloadStandard: 10
+    reloadAggressive: 6
+    ammoMax: 100
+    rearmRate: 50
+    launcher: STR_LASER_CANNON
+    projectileType: 4
+
+#Auxiliary
+  - type: STR_FUEL_TANK_UC
+    weaponType: 5
+    hidePediaInfo: true
+    sprite: 231
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_FUEL_TANK
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      fuelMax: 150
+      accel: -1
+      avoidBonus: -5
+  - type: STR_AFTERBURNER_UC
+    weaponType: 5
+    sprite: 232
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_AFTERBURNER
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      accel: 10
+      speedMax: 250
+      fuelMax: -25
+  - type: STR_TARGETING_POD_UC
+    weaponType: 5
+    sprite: 233
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_TARGETING_POD
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      hitBonus: 25
+  - type: STR_ALLOY_CRAFT_ARMOR_UC
+    weaponType: 5
+    sprite: 234
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_ALLOY_CRAFT_ARMOR
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      damageMax: 100
+      avoidBonus: -10
+
+#Ground Vehicle Artillery
+  - type: STR_QF_6_PDR_57MM_CANNON
+    weaponType: 7
+    sprite: 202
+    sound: 4
+    damage: 75
+    range: 15
+    accuracy: 45
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 30
+    rearmRate: 100
+    launcher: STR_QF_6_PDR_57MM_CANNON_LAUNCHER
+    clip: STR_QF_6_PDR_57MM_CANNON_X30
+    projectileType: 2
+    projectileSpeed: 5
+  - type: STR_QF_4_INCH_DOUBLE_CANNON
+    weaponType: 1
+    sprite: 202
+    sound: 4
+    damage: 75
+    range: 15
+    accuracy: 45
+    reloadCautious: 8
+    reloadStandard: 8
+    reloadAggressive: 7
+    ammoMax: 30
+    rearmRate: 100
+    launcher: STR_QF_4_INCH_DOUBLE_CANNON_LAUNCHER
+    clip: STR_QF_4_INCH_DOUBLE_CANNON_X30
+    projectileType: 2
+    projectileSpeed: 5
+
+    
 units:
 #*** Player-controlled units spawned on craft
   - type: STR_CONQUEROR_TURRET
@@ -1810,20 +2224,101 @@ extraSprites:
 #Craft weapons
   - type: BASEBITS.PCK
     files:
+#Forward MGs    
       248: Resources/Crafts/Twin_HMG_basebits.png
-      249: Resources/Crafts/Autocannon_basebits.png
-      250: Resources/Crafts/PomPom_basebits.png
-      251: Resources/Crafts/Frag_Bomb_basebits.png
+      249: Resources/Crafts/Twin_HMG_basebits.png 
+      250: Resources/Crafts/Twin_HMG_basebits.png
+
+#Defensive MGs 
+      254: Resources/Crafts/Twin_HMG_basebits.png
+      255: Resources/Crafts/Twin_HMG_basebits.png 
+      256: Resources/Crafts/Twin_HMG_basebits.png
+
+ #Light Cannon     
+      259: Resources/Crafts/Autocannon_basebits.png
+      260: Resources/Crafts/PomPom_basebits.png
+      261: Resources/Crafts/PomPom_basebits.png
+
+ #Autocannon     
+      264: Resources/Crafts/Autocannon_basebits.png
+      265: Resources/Crafts/PomPom_basebits.png
+      266: Resources/Crafts/PomPom_basebits.png
+      
+#Bombs  
+      274: Resources/Crafts/Frag_Bomb_basebits.png
+      275: Resources/Crafts/Frag_Bomb_basebits.png
+      276: Resources/Crafts/Frag_Bomb_basebits.png
+
+#Rockets  
+      279: Resources/Crafts/Frag_Bomb_basebits.png
+      280: Resources/Crafts/Frag_Bomb_basebits.png
+      281: Resources/Crafts/Frag_Bomb_basebits.png
+      282: Resources/Crafts/Frag_Bomb_basebits.png
+
+#Aircraft Heat-Rays      
+      284: Resources/Crafts/PomPom_basebits.png
+      285: Resources/Crafts/PomPom_basebits.png
+      286: Resources/Crafts/PomPom_basebits.png
+
+#Auxliary systems 
+      287: Resources/Crafts/Frag_Bomb_basebits.png
+      288: Resources/Crafts/Frag_Bomb_basebits.png
+      289: Resources/Crafts/Frag_Bomb_basebits.png
+      290: Resources/Crafts/Frag_Bomb_basebits.png
+      
+#Vehicle turrets
+      291: Resources/Crafts/Autocannon_basebits.png #6-pdr vehicle turret
+      292: Resources/Crafts/Autocannon_basebits.png #8,8cm vehicle turret
+      293: Resources/Crafts/Autocannon_basebits.png #Heat Ray Mk.IX vehicle turret
+    
   - type: INTICON.PCK
     files:
+#Forward MGs    
       205: Resources/Crafts/Twin_HMG_dogfight.png
-      206: Resources/Crafts/Autocannon_dogfight.png
-      207: Resources/Crafts/PomPom_dogfight.png
-      208: Resources/Crafts/Frag_Bomb_dogfight.png
+      206: Resources/Crafts/Twin_HMG_dogfight.png 
+      207: Resources/Crafts/Twin_HMG_dogfight.png
 
-      #206: Resources/Crafts/Autocannon_dogfight.png #6-pdr vehicle turret
-      #206: Resources/Crafts/Autocannon_dogfight.png #8,8cm vehicle turret
-      #206: Resources/Crafts/Autocannon_dogfight.png #Heat Ray Mk.IX vehicle turret
+#Defensive MGs 
+      211: Resources/Crafts/Twin_HMG_dogfight.png
+      212: Resources/Crafts/Twin_HMG_dogfight.png 
+      213: Resources/Crafts/Twin_HMG_dogfight.png
+
+ #Light Cannon     
+      216: Resources/Crafts/Autocannon_dogfight.png
+      217: Resources/Crafts/PomPom_dogfight.png
+      218: Resources/Crafts/PomPom_dogfight.png
+
+ #Autocannon     
+      221: Resources/Crafts/Autocannon_dogfight.png
+      222: Resources/Crafts/PomPom_dogfight.png
+      223: Resources/Crafts/PomPom_dogfight.png
+      
+#Bombs  
+      231: Resources/Crafts/Frag_Bomb_dogfight.png
+      232: Resources/Crafts/Frag_Bomb_dogfight.png
+      233: Resources/Crafts/Frag_Bomb_dogfight.png
+
+#Rockets  
+      236: Resources/Crafts/Frag_Bomb_dogfight.png
+      237: Resources/Crafts/Frag_Bomb_dogfight.png
+      238: Resources/Crafts/Frag_Bomb_dogfight.png
+      239: Resources/Crafts/Frag_Bomb_dogfight.png
+
+#Aircraft Heat-Rays      
+      241: Resources/Crafts/PomPom_dogfight.png
+      242: Resources/Crafts/PomPom_dogfight.png
+      243: Resources/Crafts/PomPom_dogfight.png
+
+#Auxliary systems 
+      244: Resources/Crafts/Frag_Bomb_dogfight.png
+      245: Resources/Crafts/Frag_Bomb_dogfight.png
+      246: Resources/Crafts/Frag_Bomb_dogfight.png
+      247: Resources/Crafts/Frag_Bomb_dogfight.png
+      
+#Vehicle turrets
+      248: Resources/Crafts/Autocannon_dogfight.png #6-pdr vehicle turret
+      249: Resources/Crafts/Autocannon_dogfight.png #8,8cm vehicle turret
+      250: Resources/Crafts/Autocannon_dogfight.png #Heat Ray Mk.IX vehicle turret
 
 #UFOpedia
   - type: MARCH_IMAGE
