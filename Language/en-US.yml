@@ -1581,12 +1581,17 @@ en-US:
       STR_VICKERS_S_40MM_AUTOCANNON: "VICKERS 'S' 40MM AC"
       STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, belt-fed automatic cannon, fires large APHE 40mm rounds. It's so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted."
       STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER: "Vickers 'S' 40mm AC"
-      STR_QF_1_PDR_POMPOM: "QF 1-pdr 'Pom Pom'"
-      STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, could be found mounted everywhere, from aircrafts to gun emplacements and warships. Fires special sharpnel rounds.
+      
+      STR_QF_1_PDR_POMPOM: "QF 1-PDR 'POM POM'"
+      STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, it can be used against ground targets as well. Basically an oversized Maxim machine gun. Fires special sharpnel rounds.
       STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
       STR_QF_1_PDR_POMPOM_X30: QF 1-pdr Shells (x30)
-
-
+      STR_37MM_CANNON: "37MM CANNON"
+      STR_37MM_CANNON_UFOPEDIA: "French-made Puteaux rapid-fire gun useful to knock down light Tripods in a couple of shots."
+      STR_37MM_CANNON_LAUNCHER: "37mm Cannon"
+      STR_75MM_CANNON: "75MM CANNON"
+      STR_75MM_CANNON_UFOPEDIA: "A heavily modified field gun, sawed-off enough to fit below the aircraft. Heavy and unwieldy to fire, it compensates with its firepower."
+      STR_75MM_CANNON_LAUNCHER: "75mm Cannon"
 
       STR_FRAGMENTATION_BOMB: "FRAG BOMBS"
       STR_FRAGMENTATION_BOMB_UFOPEDIA: "Free fall 20lb (a bit more than 9 kg) fragmentation bomb. Basically a big grenade, can shred light armor and infantry. Mounted below the frame of the plane, sometimes even thrown manually by the aircrew."
