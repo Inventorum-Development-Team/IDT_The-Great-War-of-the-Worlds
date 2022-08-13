@@ -1653,10 +1653,10 @@ craftWeapons:
     projectileType: 4
 
 #Auxiliary
-  - type: STR_FUEL_TANK_UC
+  - type: STR_AUX_FUEL_TANK
     weaponType: 5
     hidePediaInfo: true
-    sprite: 231
+    sprite: 239
     sound: 0
     damage: 0
     range: 0
@@ -1670,12 +1670,12 @@ craftWeapons:
     projectileType: 0
     projectileSpeed: 0
     stats:
-      fuelMax: 150
+      fuelMax: 200
       accel: -1
-      avoidBonus: -5
-  - type: STR_AFTERBURNER_UC
+      avoidBonus: -10
+  - type: STR_AUX_ROCKET_TURBINE
     weaponType: 5
-    sprite: 232
+    sprite: 242
     hidePediaInfo: true
     sound: 0
     damage: 0
@@ -1693,7 +1693,7 @@ craftWeapons:
       accel: 10
       speedMax: 250
       fuelMax: -25
-  - type: STR_TARGETING_POD_UC
+  - type: STR_AUX_TARGETING_SIGHTS
     weaponType: 5
     sprite: 233
     hidePediaInfo: true
@@ -1710,10 +1710,10 @@ craftWeapons:
     projectileType: 0
     projectileSpeed: 0
     stats:
-      hitBonus: 25
-  - type: STR_ALLOY_CRAFT_ARMOR_UC
-    weaponType: 5
-    sprite: 234
+      hitBonus: 20
+  - type: STR_AUX_ARMOR_PLATES
+    weaponType: 7
+    sprite: 240
     hidePediaInfo: true
     sound: 0
     damage: 0
@@ -1730,11 +1730,12 @@ craftWeapons:
     stats:
       damageMax: 100
       avoidBonus: -10
+      accel: -1
 
 #Ground Vehicle Artillery
-  - type: STR_QF_6_PDR_57MM_CANNON
+  - type: STR_VEHICLE_QF_6_PDR_TURRET
     weaponType: 7
-    sprite: 202
+    sprite: 243
     sound: 4
     damage: 75
     range: 15
@@ -1745,12 +1746,12 @@ craftWeapons:
     ammoMax: 30
     rearmRate: 100
     launcher: STR_QF_6_PDR_57MM_CANNON_LAUNCHER
-    clip: STR_QF_6_PDR_57MM_CANNON_X30
+    #clip: STR_QF_6_PDR_57MM_CANNON_X30
     projectileType: 2
     projectileSpeed: 5
-  - type: STR_QF_4_INCH_DOUBLE_CANNON
-    weaponType: 1
-    sprite: 202
+  - type: STR_VEHICLE_8_8CM_TURRET
+    weaponType: 7
+    sprite: 244
     sound: 4
     damage: 75
     range: 15
@@ -1761,10 +1762,24 @@ craftWeapons:
     ammoMax: 30
     rearmRate: 100
     launcher: STR_QF_4_INCH_DOUBLE_CANNON_LAUNCHER
-    clip: STR_QF_4_INCH_DOUBLE_CANNON_X30
+    #clip: STR_QF_4_INCH_DOUBLE_CANNON_X30
     projectileType: 2
     projectileSpeed: 5
-
+  - type: STR_VEHICLE_HEAT_RAY_TURRET
+    weaponType: 7
+    sprite: 255
+    sound: 8
+    damage: 40
+    shieldDamageModifier: 75
+    range: 20
+    accuracy: 50
+    reloadCautious: 10
+    reloadStandard: 10
+    reloadAggressive: 6
+    ammoMax: 100
+    rearmRate: 50
+    launcher: STR_LASER_CANNON
+    projectileType: 4
     
 units:
 #*** Player-controlled units spawned on craft
