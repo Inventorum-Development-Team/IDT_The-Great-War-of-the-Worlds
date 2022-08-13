@@ -1149,13 +1149,13 @@ crafts:
           items:
             STR_CONQUEROR_TURRET_SPAWNER:
               - [4, 4, 4]
-              - [4, 6, 3]            
+              - [4, 6, 3]
             STR_ZEPPELIN_TURRET_SPAWNER:
               - [3, 2, 4]
               - [6, 2, 4]
-              
+
           fuseTimers:
-            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]          
+            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [4, 3, 3]
@@ -1237,7 +1237,7 @@ crafts:
 
               - [8, 5, 5]
           fuseTimers:
-            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]          
+            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [6, 8, 4]
@@ -1332,7 +1332,7 @@ craftWeapons:
     reloadAggressive: 3
     ammoMax: 250
     rearmRate: 250
-    launcher: STR_VICKERS_MMG_LAUNCHER
+    launcher: STR_50CAL_BROWNING_HMG_LAUNCHER
     #clip: STR_VICKERS_MMG_ROUNDS_X250
     projectileType: 2
     projectileSpeed: 10
@@ -1366,7 +1366,7 @@ craftWeapons:
     reloadAggressive: 3
     ammoMax: 235
     rearmRate: 100
-    launcher: STR_LEWIS_303_TURRET_LAUNCHER
+    launcher: STR_30CAL_BROWNING_TURRET_LAUNCHER
     #clip: STR_LEWIS_303_TURRET_ROUNDS_X47
     projectileType: 2
     projectileSpeed: 10
@@ -1382,11 +1382,11 @@ craftWeapons:
     reloadAggressive: 3
     ammoMax: 235
     rearmRate: 100
-    launcher: STR_LEWIS_303_TURRET_LAUNCHER
+    launcher: STR_303_VICKERS_K_TURRET_LAUNCHER
     #clip: STR_LEWIS_303_TURRET_ROUNDS_X47
     projectileType: 2
     projectileSpeed: 10
-    
+
 #Autocannon
   - type: STR_BECKER_2CM_CANNON
     weaponType: 3
@@ -1401,7 +1401,6 @@ craftWeapons:
     ammoMax: 75
     rearmRate: 100
     launcher: STR_BECKER_2CM_CANNON_LAUNCHER
-    clip: STR_BECKER_2CM_CANNON_ROUNDS_X15
     projectileType: 2
     projectileSpeed: 7
   - type: STR_AUTOCANNON
@@ -1417,7 +1416,6 @@ craftWeapons:
     ammoMax: 100
     rearmRate: 100
     launcher: STR_AUTOCANNON_LAUNCHER
-    clip: STR_AUTOCANNON_ROUNDS_X50
     projectileType: 2
     projectileSpeed: 7
   - type: STR_VICKERS_S_40MM_AUTOCANNON
@@ -1432,12 +1430,11 @@ craftWeapons:
     reloadAggressive: 7
     ammoMax: 75
     rearmRate: 100
-    launcher: STR_BECKER_2CM_CANNON_LAUNCHER
-    clip: STR_BECKER_2CM_CANNON_ROUNDS_X15
+    launcher: STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER
     projectileType: 2
     projectileSpeed: 7
-    
-#Light Cannons    
+
+#Light Cannons
   - type: STR_QF_1_PDR_POMPOM
     weaponType: 2
     sprite: 211
@@ -1466,7 +1463,7 @@ craftWeapons:
     reloadAggressive: 7
     ammoMax: 30
     rearmRate: 100
-    launcher: STR_QF_1_PDR_POMPOM_LAUNCHER
+    launcher: STR_37MM_CANNON_LAUNCHER
     #clip: STR_QF_1_PDR_POMPOM_X30
     projectileType: 2
     projectileSpeed: 5
@@ -1482,7 +1479,7 @@ craftWeapons:
     reloadAggressive: 7
     ammoMax: 30
     rearmRate: 100
-    launcher: STR_QF_1_PDR_POMPOM_LAUNCHER
+    launcher: STR_75MM_CANNON_LAUNCHER
     #clip: STR_QF_1_PDR_POMPOM_X30
     projectileType: 2
     projectileSpeed: 5
@@ -1518,7 +1515,7 @@ craftWeapons:
     rearmRate: 5
     projectileType: 0
     projectileSpeed: 9
-    launcher: STR_FRAGMENTATION_BOMB_LAUNCHER
+    launcher: STR_HE_BOMB_LAUNCHER
     #clip: STR_FRAGMENTATION_BOMB_X3
   - type: STR_CLUSTER_BOMB
     weaponType: 5
@@ -1534,8 +1531,8 @@ craftWeapons:
     rearmRate: 5
     projectileType: 0
     projectileSpeed: 9
-    launcher: STR_FRAGMENTATION_BOMB_LAUNCHER
-    #clip: STR_FRAGMENTATION_BOMB_X3    
+    launcher: STR_CLUSTER_BOMB_LAUNCHER
+    #clip: STR_FRAGMENTATION_BOMB_X3
 
 #Rockets
   - type: STR_LE_PRIEUR_ROCKETS
@@ -1551,7 +1548,7 @@ craftWeapons:
     reloadAggressive: 20
     ammoMax: 4
     rearmRate: 16
-    launcher: STR_HYDRA_LAUNCHER
+    launcher: STR_LE_PRIEUR_ROCKETS_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
 
@@ -1568,7 +1565,7 @@ craftWeapons:
     reloadAggressive: 35
     ammoMax: 6
     rearmRate: 16
-    launcher: STR_GORGON_LAUNCHER
+    launcher: STR_CLUSTER_ROCKETS_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
 
@@ -1584,7 +1581,7 @@ craftWeapons:
     reloadAggressive: 35
     ammoMax: 8
     rearmRate: 16
-    launcher: STR_KRAKEN_LAUNCHER
+    launcher: STR_MAGNETIC_ROCKETS_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
 
@@ -1601,14 +1598,14 @@ craftWeapons:
     reloadAggressive: 20
     ammoMax: 4
     rearmRate: 16
-    launcher: STR_HYDRA_LAUNCHER
+    launcher: STR_GUIDED_ROCKETS_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
-    
+
 #Aircraft Heat-Rays
   - type: STR_AUX_HEAT_RAY_MK1
     weaponType: 7
-    sprite: 220
+    sprite: 236
     sound: 8
     damage: 40
     shieldDamageModifier: 75
@@ -1619,11 +1616,11 @@ craftWeapons:
     reloadAggressive: 6
     ammoMax: 100
     rearmRate: 50
-    launcher: STR_LASER_CANNON
+    launcher: STR_AUX_HEAT_RAY_MK1_LAUNCHER
     projectileType: 4
   - type: STR_AUX_HEAT_RAY_MK2
     weaponType: 7
-    sprite: 220
+    sprite: 237
     sound: 8
     damage: 40
     shieldDamageModifier: 75
@@ -1634,11 +1631,11 @@ craftWeapons:
     reloadAggressive: 6
     ammoMax: 100
     rearmRate: 50
-    launcher: STR_LASER_CANNON
+    launcher: STR_AUX_HEAT_RAY_MK2_LAUNCHER
     projectileType: 4
   - type: STR_AUX_HEAT_RAY_MK3
     weaponType: 7
-    sprite: 220
+    sprite: 238
     sound: 8
     damage: 40
     shieldDamageModifier: 75
@@ -1649,7 +1646,7 @@ craftWeapons:
     reloadAggressive: 6
     ammoMax: 100
     rearmRate: 50
-    launcher: STR_LASER_CANNON
+    launcher: STR_AUX_HEAT_RAY_MK3_LAUNCHER
     projectileType: 4
 
 #Auxiliary
@@ -1666,7 +1663,7 @@ craftWeapons:
     reloadAggressive: 0
     ammoMax: 0
     rearmRate: 0
-    launcher: STR_FUEL_TANK
+    launcher: STR_AUX_FUEL_TANK_LAUNCHER
     projectileType: 0
     projectileSpeed: 0
     stats:
@@ -1686,7 +1683,7 @@ craftWeapons:
     reloadAggressive: 0
     ammoMax: 0
     rearmRate: 0
-    launcher: STR_AFTERBURNER
+    launcher: STR_AUX_ROCKET_TURBINE_LAUNCHER
     projectileType: 0
     projectileSpeed: 0
     stats:
@@ -1706,7 +1703,7 @@ craftWeapons:
     reloadAggressive: 0
     ammoMax: 0
     rearmRate: 0
-    launcher: STR_TARGETING_POD
+    launcher: STR_AUX_TARGETING_SIGHTS_LAUNCHER
     projectileType: 0
     projectileSpeed: 0
     stats:
@@ -1724,7 +1721,7 @@ craftWeapons:
     reloadAggressive: 0
     ammoMax: 0
     rearmRate: 0
-    launcher: STR_ALLOY_CRAFT_ARMOR
+    launcher: STR_AUX_ARMOR_PLATES_LAUNCHER
     projectileType: 0
     projectileSpeed: 0
     stats:
@@ -1745,7 +1742,7 @@ craftWeapons:
     reloadAggressive: 7
     ammoMax: 30
     rearmRate: 100
-    launcher: STR_QF_6_PDR_57MM_CANNON_LAUNCHER
+    launcher: STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER
     #clip: STR_QF_6_PDR_57MM_CANNON_X30
     projectileType: 2
     projectileSpeed: 5
@@ -1761,13 +1758,13 @@ craftWeapons:
     reloadAggressive: 7
     ammoMax: 30
     rearmRate: 100
-    launcher: STR_QF_4_INCH_DOUBLE_CANNON_LAUNCHER
+    launcher: STR_VEHICLE_8_8CM_TURRET_LAUNCHER
     #clip: STR_QF_4_INCH_DOUBLE_CANNON_X30
     projectileType: 2
     projectileSpeed: 5
   - type: STR_VEHICLE_HEAT_RAY_TURRET
     weaponType: 7
-    sprite: 255
+    sprite: 245
     sound: 8
     damage: 40
     shieldDamageModifier: 75
@@ -1778,9 +1775,9 @@ craftWeapons:
     reloadAggressive: 6
     ammoMax: 100
     rearmRate: 50
-    launcher: STR_LASER_CANNON
+    launcher: STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER
     projectileType: 4
-    
+
 units:
 #*** Player-controlled units spawned on craft
   - type: STR_CONQUEROR_TURRET
@@ -1888,50 +1885,157 @@ items:
 ##################################
 ####### AIRCRAFT WEAPONS #########
 ##################################
+  - type: STR_VICKERS_MMG_LAUNCHER
+    size: 0.4
+    costBuy: 6000
+    costSell: 4000
+    transferTime: 48
   - type: STR_TWIN_HMG_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
-  - type: STR_TWIN_HMG_ROUNDS_X50
-    size: 0.4
-    costBuy: 6000
-    costSell: 4000
+  - type: STR_50CAL_BROWNING_HMG_LAUNCHER
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
     transferTime: 48
-    clipSize: 50
+  - type: STR_LEWIS_303_TURRET_LAUNCHER
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_30CAL_BROWNING_TURRET_LAUNCHER
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_303_VICKERS_K_TURRET_LAUNCHER
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_BECKER_2CM_CANNON_LAUNCHER
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
+  - type: STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER
+    size: 0.8
+    costBuy: 21000
+    costSell: 18000
+    transferTime: 48
   - type: STR_AUTOCANNON_LAUNCHER
     size: 1
     costBuy: 32000
     costSell: 27000
     transferTime: 48
-  - type: STR_AUTOCANNON_ROUNDS_X50
-    size: 1.5
-    costBuy: 1750
-    costSell: 1500
-    transferTime: 48
-    clipSize: 50
   - type: STR_QF_1_PDR_POMPOM_LAUNCHER
-    size: 1.5
+    size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
-  - type: STR_QF_1_PDR_POMPOM_X30
+  - type: STR_37MM_CANNON_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_75MM_CANNON_LAUNCHER
     size: 0.1
     costBuy: 2080
     costSell: 1600
     transferTime: 96
-    clipSize: 30
+
   - type: STR_FRAGMENTATION_BOMB_LAUNCHER
     size: 1
     costBuy: 32000
     costSell: 27000
     transferTime: 48
-  - type: STR_FRAGMENTATION_BOMB_X3
-    size: 1.5
+  - type: STR_HE_BOMB_LAUNCHER
+    size: 1.0
     costBuy: 1750
     costSell: 1500
     transferTime: 48
-    clipSize: 3
+  - type: STR_CLUSTER_BOMB_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+
+  - type: STR_LE_PRIEUR_ROCKETS_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_CLUSTER_ROCKETS_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_MAGNETIC_ROCKETS_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_GUIDED_ROCKETS_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+
+
+  - type: STR_AUX_HEAT_RAY_MK1_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_AUX_HEAT_RAY_MK2_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_AUX_HEAT_RAY_MK3_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+
+  - type: STR_AUX_FUEL_TANK_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_AUX_ROCKET_TURBINE_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_AUX_TARGETING_SIGHTS_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_AUX_ARMOR_PLATES_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+
+  - type: STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_VEHICLE_8_8CM_TURRET_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+  - type: STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
 ####################################
 
   - type: STR_CONQUEROR_TURRET_CORPSE
@@ -2239,97 +2343,97 @@ extraSprites:
 #Craft weapons
   - type: BASEBITS.PCK
     files:
-#Forward MGs    
+#Forward MGs
       248: Resources/Crafts/Twin_HMG_basebits.png
-      249: Resources/Crafts/Twin_HMG_basebits.png 
+      249: Resources/Crafts/Twin_HMG_basebits.png
       250: Resources/Crafts/Twin_HMG_basebits.png
 
-#Defensive MGs 
+#Defensive MGs
       254: Resources/Crafts/Twin_HMG_basebits.png
-      255: Resources/Crafts/Twin_HMG_basebits.png 
+      255: Resources/Crafts/Twin_HMG_basebits.png
       256: Resources/Crafts/Twin_HMG_basebits.png
 
- #Light Cannon     
+ #Light Cannon
       259: Resources/Crafts/Autocannon_basebits.png
       260: Resources/Crafts/PomPom_basebits.png
       261: Resources/Crafts/PomPom_basebits.png
 
- #Autocannon     
+ #Autocannon
       264: Resources/Crafts/Autocannon_basebits.png
       265: Resources/Crafts/PomPom_basebits.png
       266: Resources/Crafts/PomPom_basebits.png
-      
-#Bombs  
+
+#Bombs
       274: Resources/Crafts/Frag_Bomb_basebits.png
       275: Resources/Crafts/Frag_Bomb_basebits.png
       276: Resources/Crafts/Frag_Bomb_basebits.png
 
-#Rockets  
+#Rockets
       279: Resources/Crafts/Frag_Bomb_basebits.png
       280: Resources/Crafts/Frag_Bomb_basebits.png
       281: Resources/Crafts/Frag_Bomb_basebits.png
       282: Resources/Crafts/Frag_Bomb_basebits.png
 
-#Aircraft Heat-Rays      
+#Aircraft Heat-Rays
       284: Resources/Crafts/PomPom_basebits.png
       285: Resources/Crafts/PomPom_basebits.png
       286: Resources/Crafts/PomPom_basebits.png
 
-#Auxliary systems 
+#Auxliary systems
       287: Resources/Crafts/Frag_Bomb_basebits.png
       288: Resources/Crafts/Frag_Bomb_basebits.png
       289: Resources/Crafts/Frag_Bomb_basebits.png
       290: Resources/Crafts/Frag_Bomb_basebits.png
-      
+
 #Vehicle turrets
       291: Resources/Crafts/Autocannon_basebits.png #6-pdr vehicle turret
       292: Resources/Crafts/Autocannon_basebits.png #8,8cm vehicle turret
       293: Resources/Crafts/Autocannon_basebits.png #Heat Ray Mk.IX vehicle turret
-    
+
   - type: INTICON.PCK
     files:
-#Forward MGs    
+#Forward MGs
       205: Resources/Crafts/Twin_HMG_dogfight.png
-      206: Resources/Crafts/Twin_HMG_dogfight.png 
+      206: Resources/Crafts/Twin_HMG_dogfight.png
       207: Resources/Crafts/Twin_HMG_dogfight.png
 
-#Defensive MGs 
+#Defensive MGs
       211: Resources/Crafts/Twin_HMG_dogfight.png
-      212: Resources/Crafts/Twin_HMG_dogfight.png 
+      212: Resources/Crafts/Twin_HMG_dogfight.png
       213: Resources/Crafts/Twin_HMG_dogfight.png
 
- #Light Cannon     
+ #Light Cannon
       216: Resources/Crafts/Autocannon_dogfight.png
       217: Resources/Crafts/PomPom_dogfight.png
       218: Resources/Crafts/PomPom_dogfight.png
 
- #Autocannon     
+ #Autocannon
       221: Resources/Crafts/Autocannon_dogfight.png
       222: Resources/Crafts/PomPom_dogfight.png
       223: Resources/Crafts/PomPom_dogfight.png
-      
-#Bombs  
+
+#Bombs
       231: Resources/Crafts/Frag_Bomb_dogfight.png
       232: Resources/Crafts/Frag_Bomb_dogfight.png
       233: Resources/Crafts/Frag_Bomb_dogfight.png
 
-#Rockets  
+#Rockets
       236: Resources/Crafts/Frag_Bomb_dogfight.png
       237: Resources/Crafts/Frag_Bomb_dogfight.png
       238: Resources/Crafts/Frag_Bomb_dogfight.png
       239: Resources/Crafts/Frag_Bomb_dogfight.png
 
-#Aircraft Heat-Rays      
+#Aircraft Heat-Rays
       241: Resources/Crafts/PomPom_dogfight.png
       242: Resources/Crafts/PomPom_dogfight.png
       243: Resources/Crafts/PomPom_dogfight.png
 
-#Auxliary systems 
+#Auxliary systems
       244: Resources/Crafts/Frag_Bomb_dogfight.png
       245: Resources/Crafts/Frag_Bomb_dogfight.png
       246: Resources/Crafts/Frag_Bomb_dogfight.png
       247: Resources/Crafts/Frag_Bomb_dogfight.png
-      
+
 #Vehicle turrets
       248: Resources/Crafts/Autocannon_dogfight.png #6-pdr vehicle turret
       249: Resources/Crafts/Autocannon_dogfight.png #8,8cm vehicle turret
