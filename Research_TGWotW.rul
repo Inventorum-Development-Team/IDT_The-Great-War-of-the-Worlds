@@ -177,6 +177,16 @@ research:
 ###### TIER 1 VEHICLE RESEARCH ######
 #####################################
 
+  - name: STR_HEAVY_SUPPORT_VEHICLES_RESEARCH
+    cost: 200
+    points: 200
+
+  - name: STR_BATTLE_AIRSHIP
+    cost: 200
+    points: 200
+    dependencies:
+      - STR_HEAVY_SUPPORT_VEHICLES_RESEARCH
+
   - name: STR_HUNTER_SCOUT_AIRCRAFT_RESEARCH
     cost: 300
     points: 200
@@ -231,6 +241,16 @@ research:
 #######################################
 ###### TIER 2 VEHICLE RESEARCH ######
 #####################################
+
+  - name: STR_REINFORCED_SHIP_HULLS_RESEARCH
+    cost: 200
+    points: 200
+
+  - name: STR_BATTLECRUISER_AIRSHIP
+    cost: 200
+    points: 200
+    dependencies:
+      - STR_REINFORCED_SHIP_HULLS_RESEARCH
 
   - name: STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
     cost: 800
@@ -297,6 +317,24 @@ research:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
       - STR_FRONTLINES_FIELD_REPORT    
     
+#######################################
+###### TIER 3 VEHICLE RESEARCH ######
+#####################################
+
+  - name: STR_MODERN_ARMORED_VEHICLES_RESEARCH
+    cost: 800
+    points: 200
+    dependencies:
+      - STR_REFINED_METALURGIC_TECHNIQUES
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
+
+  - name: STR_NEMESIS_WALKER_RESEARCH
+    cost: 300
+    points: 200
+    dependencies:
+      - STR_MODERN_ARMORED_VEHICLES_RESEARCH
+      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
+      - STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
 
 ##################################
   - name: STR_ALIEN_ALLOYS
@@ -308,6 +346,12 @@ research:
     points: 20
     dependencies:
       - STR_ALIEN_ALLOYS
+  - name: STR_REFINED_METALURGIC_TECHNIQUES
+    cost: 700
+    points: 20
+    dependencies:
+      - STR_MARTIAN_METAL_REPLICATION
+      
   - name: STR_ADVANCED_FIREARMS
     #    listOrder: 902
     cost: 900
