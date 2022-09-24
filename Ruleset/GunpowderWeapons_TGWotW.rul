@@ -260,6 +260,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_BRITISH_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_P14_ENFIELD_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -301,6 +303,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_SPRINGFIELD_UNLOCK      
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -397,6 +401,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_SPRINGFIELD_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -426,6 +432,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_SPRINGFIELD_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -450,6 +458,8 @@ items:
   - type: STR_GEWEHR98
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
+    requiresBuy:
+      - STR_GEWEHR98_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -484,6 +494,8 @@ items:
   - type: STR_GEWEHR98_CLIP
     categories:
       [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_GEWEHR98_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -505,6 +517,8 @@ items:
   - type: STR_GEWEHR98_CLIP_KMM
     categories:
       [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_GEWEHR98_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -533,6 +547,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_LEBEL_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -630,6 +646,8 @@ items:
         STR_FRENCH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_LEBEL_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -657,6 +675,8 @@ items:
         STR_FRENCH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_LEBEL_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -685,6 +705,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_MOSIN_NAGANT_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -782,6 +804,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_WINCHESTER_M1915_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -872,6 +896,8 @@ items:
   - type: STR_OBREZ_PISTOL
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
+    requiresBuy:
+      - STR_OBREZ_PISTOL_UNLOCK
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -906,6 +932,8 @@ items:
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_MOSIN_NAGANT_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -935,6 +963,8 @@ items:
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -965,6 +995,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_RUSSIAN_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_BERDAN_II_UNLOCK
     size: 0.2
     costBuy: 500
     costSell: 450
@@ -1005,6 +1037,8 @@ items:
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_BERDAN_II_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1034,6 +1068,8 @@ items:
         STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_BERDAN_II_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1204,6 +1240,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_BRITISH_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_FARQHUAR_HILL_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.3
@@ -1246,6 +1284,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_FARQHUAR_HILL_AMMO_UNLOCK
     size: 0.1
     costSell: 200
     weight: 3
@@ -1275,6 +1315,8 @@ items:
         STR_BRITISH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_FARQHUAR_HILL_KMM_AMMO_UNLOCK
     size: 0.1
     costSell: 200
     weight: 3
@@ -1304,6 +1346,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_AMERICAN_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_MONDRAGON_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.2
@@ -1405,6 +1449,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_MONDRAGON_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1435,6 +1481,8 @@ items:
         STR_AMERICAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_MONDRAGON_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1466,6 +1514,8 @@ items:
         STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS,
         STR_GERMAN_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_SELBSTLADER_M1916_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.2
@@ -1509,6 +1559,8 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_SELBSTLADER_M1916_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1539,6 +1591,8 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_SELBSTLADER_M1916_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1570,6 +1624,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_RSC17_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.3
@@ -1613,6 +1669,8 @@ items:
         STR_FRENCH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_RSC17_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.1
@@ -1644,6 +1702,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_FRENCH_EQUIPMENT,
       ]
+    requiresBuy:
+      - STR_RSC17_CARBINE_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.3
@@ -1687,6 +1747,8 @@ items:
         STR_FRENCH_EQUIPMENT,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_RSC17_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.1
@@ -1719,6 +1781,8 @@ items:
         STR_RUSSIAN_EQUIPMENT,
         STR_RIFLEMAN_CLASS,
       ]
+    requiresBuy:
+      - STR_FEDOROV_AVTOMAT_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.2
@@ -1767,6 +1831,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
+    requiresBuy:
+      - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1796,6 +1862,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
+    requiresBuy:
+      - STR_FEDOROV_AVTOMAT_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1827,6 +1895,8 @@ items:
         STR_ITALIAN_EQUIPMENT,
         STR_RIFLEMAN_CLASS,
       ]
+    requiresBuy:
+      - STR_CEI_RIGOTTI_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.2
@@ -1875,6 +1945,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
+    requiresBuy:
+      - STR_CEI_RIGOTTI_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1905,6 +1977,8 @@ items:
         STR_CLIPS,
         STR_RIFLEMAN_CLASS,
       ]
+    requiresBuy:
+      - STR_CEI_RIGOTTI_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -2015,7 +2089,9 @@ items:
   ########################################
   - type: STR_AUTOMATIC_REVOLVER
     categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_ITALIAN_EQUIPMENT]
+    requiresBuy:
+      - STR_AUTOMATIC_REVOLVER_UNLOCK
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2049,7 +2125,9 @@ items:
 
   - type: STR_HEAVY_REVOLVER
     categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_AH_EQUIPMENT]
+    requiresBuy:
+      - STR_HEAVY_REVOLVER_UNLOCK
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2080,7 +2158,9 @@ items:
 
   - type: STR_SERVICE_REVOLVER
     categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT]
+      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT]
+    requiresBuy:
+      - STR_SERVICE_REVOLVER_UNLOCK
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2111,6 +2191,8 @@ items:
 
   - type: STR_REVOLVER_CLIP
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_REVOLVER_AMMO_UNLOCK
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2133,6 +2215,8 @@ items:
     listOrder: 2450
   - type: STR_REVOLVER_CLIP_KMM
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_REVOLVER_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2155,6 +2239,8 @@ items:
     listOrder: 2460
   - type: STR_REVOLVER_CLIP_DUMDUM
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_REVOLVER_DUMDUM_AMMO_UNLOCK
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2179,6 +2265,8 @@ items:
   - type: STR_M1911_COLT
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
+    requiresBuy:
+      - STR_M1911_COLT_UNLOCK
     size: 0.1
     costBuy: 750
     costSell: 600
@@ -2212,6 +2300,8 @@ items:
 
   - type: STR_M1911_COLT_MAG
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_M1911_COLT_AMMO_UNLOCK
     size: 0.025
     costBuy: 75
     costSell: 55
@@ -2236,6 +2326,8 @@ items:
     listOrder: 2490
   - type: STR_M1911_COLT_MAG_KMM
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_M1911_COLT_KMM_AMMO_UNLOCK
     size: 0.025
     costBuy: 75
     costSell: 55
@@ -2261,6 +2353,8 @@ items:
 
   - type: STR_MAUSER_C96
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
+    requiresBuy:
+      - STR_MAUSER_C96_UNLOCK
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2291,6 +2385,8 @@ items:
 
   - type: STR_MAUSER_C96_CLIP
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_MAUSER_C96_AMMO_UNLOCK
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2313,6 +2409,8 @@ items:
     listOrder: 2520
   - type: STR_MAUSER_C96_CLIP_KMM
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_MAUSER_C96_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2336,6 +2434,8 @@ items:
 
   - type: STR_LUGER_P08
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
+    requiresBuy:
+      - STR_LUGER_P08_UNLOCK
     size: 0.1
     costBuy: 2500
     costSell: 900
@@ -2365,6 +2465,8 @@ items:
 
   - type: STR_LUGER_P08_MAG
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_LUGER_P08_AMMO_UNLOCK
     size: 0.1
     costBuy: 500
     costSell: 150
@@ -2387,6 +2489,8 @@ items:
     listOrder: 2550
   - type: STR_LUGER_P08_MAG_KMM
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    requiresBuy:
+      - STR_LUGER_P08_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 500
     costSell: 150
