@@ -1160,11 +1160,13 @@ items:
   #    battleType: 2
   #    armor: 12
   ###########################################
-  ##### PHLOGISTON BOLT-ACTION RIFLES ######
+  ##### BOLT-ACTION RIFLES ######
   #########################################
   - type: STR_PHLOGISTON_HEAVY_RIFLE
     categories:
       [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
+    requiresBuy:
+      - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -1207,6 +1209,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -2002,11 +2006,13 @@ items:
     listOrder: 2390
 
   #################################################
-  ######### PHLOGISTON SELF-LOADING RIFLES #######
+  ######### SELF-LOADING RIFLES #######
   ###############################################
   - type: STR_PHLOGISTON_BATTLE_RIFLE
     categories:
       [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS]
+    requiresBuy:
+      - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -2060,6 +2066,8 @@ items:
         STR_RIFLEMAN_CLASS,
         STR_CLIPS,
       ]
+    requiresBuy:
+      - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -2519,6 +2527,8 @@ items:
   ########################################
   - type: STR_TESLA_PISTOL
     categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
+    requiresBuy:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -2562,10 +2572,12 @@ items:
     listOrder: 2580
   #    listOrder: 2002
   ##########################################
-  ######### PHLOGISTON SIDEARMS ###########
+  ######### SIDEARMS ###########
   ########################################
   - type: STR_PHLOGISTON_PISTOL
     categories: [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
+    requiresBuy:
+      - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -2612,6 +2624,8 @@ items:
   - type: STR_PHLOGISTON_SMALL_BATTERY
     categories:
       [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS, STR_CLIPS]
+    requiresBuy:
+      - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -3110,7 +3124,7 @@ items:
     listOrder: 2730
 
   ##############################################
-  ############ PHLOGISTON CARBINES ############
+  ############ CARBINES ############
   ############################################
   - type: STR_PHLOGISTON_AUTOMATIC_CARBINE
     categories:
@@ -3120,6 +3134,8 @@ items:
         STR_CARBINES,
         STR_MEDIC_CLASS,
       ]
+    requiresBuy:
+      - STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.1
@@ -3911,6 +3927,8 @@ items:
   ########################################
   - type: STR_TESLA_PROTOTYPE
     categories: [STR_TESLA, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS]
+    requiresBuy:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -3957,6 +3975,8 @@ items:
   #    listOrder: 2002
   - type: STR_TESLA_SMG
     categories: [STR_TESLA, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS]
+    requiresBuy:
+      - STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -4003,6 +4023,8 @@ items:
   #    listOrder: 2002
   - type: STR_TESLA_LIGHT_BATTERY
     categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    requiresBuy:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
     size: 0.1
     costSell: 15000
     weight: 3
@@ -4932,6 +4954,8 @@ items:
   ########################################
   - type: STR_TESLA_AUTOCANNON
     categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
+    requiresBuy:
+      - STR_TESLA_INFANTRY_CANNON_RESEARCH
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -4978,6 +5002,8 @@ items:
   #    listOrder: 2002
   - type: STR_TESLA_HEAVY_BATTERY
     categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    requiresBuy:
+      - STR_TESLA_INFANTRY_CANNON_RESEARCH
     size: 0.1
     costBuy: 20000
     costSell: 15000
@@ -5473,6 +5499,8 @@ items:
   ########################################
   - type: STR_TESLA_TRENCH_BROOM
     categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS]
+    requiresBuy:
+      - STR_TESLA_RAPID_DISCHARGE_RESEARCH
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -5520,6 +5548,8 @@ items:
   #    listOrder: 2002
   - type: STR_TESLA_EXTENDED_BATTERY
     categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
+    requiresBuy:
+      - STR_TESLA_RAPID_DISCHARGE_RESEARCH
     size: 0.1
     costBuy: 10000
     costSell: 15000
