@@ -59,7 +59,7 @@ research:
 ######################
 # BALLISTIC WEAPONS
 ######################
-# TIER 1
+# FACTION EQUIPMENT 
 
   - name: STR_BRITISH_EQUIPMENT_SELECTION
     cost: 100
@@ -75,10 +75,181 @@ research:
      - STR_SMLE_MKIII_UNLOCK
      - STR_SMLE_MKIII_AMMO_UNLOCK
 
+  - name: STR_BRITISH_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_AMERICAN_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_AMERICAN_WEAPONS_T1
+
+  - name: STR_AMERICAN_WEAPONS_T1
+    cost: 0
+    dependencies:
+     - STR_AMERICAN_EQUIPMENT_SELECTION
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_AMERICAN_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_GERMAN_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_GERMAN_WEAPONS_T1
+
+  - name: STR_GERMAN_WEAPONS_T1
+    cost: 0
+    dependencies:
+     - STR_GERMAN_EQUIPMENT_SELECTION
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_GERMAN_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_FRENCH_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_FRENCH_WEAPONS_T1
+
+  - name: STR_FRENCH_WEAPONS_T1
+    cost: 0
+    dependencies:
+     - STR_FRENCH_EQUIPMENT_SELECTION
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_FRENCH_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_ITALIAN_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_ITALIAN_WEAPONS_T1
+
+  - name: STR_ITALIAN_WEAPONS_T1
+    cost: 0
+    dependencies:
+     - STR_ITALIAN_EQUIPMENT_SELECTION
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+ 
+   - name: STR_ITALIAN_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_RUSSIAN_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_RUSSIAN_WEAPONS_T1
+     
+  - name: STR_RUSSIAN_WEAPONS_T1
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_EQUIPMENT_SELECTION
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+  - name: STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
+    disables:
+     - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
+     - STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION 
+
+  - name: STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_RUSSIAN_COSSACK_WEAPONS_T2
+    disables:
+     - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
+     - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION    
+     
+  - name: STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
+    cost: 100
+    points: 50
+    unlocks:
+     - STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
+    disables:
+     - STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
+     - STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
+ 
+   - name: STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+     - STR_RUSSIAN_IMPERIAL_GUARD_FACTION_EQUIPMENT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+ 
+   - name: STR_RUSSIAN_COSSACK_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+     - STR_RUSSIAN_COSSACK_FACTION_EQUIPMENT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+
+
+   - name: STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
+    cost: 100
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
+     - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT
+    unlocks:
+     - STR_SMLE_MKIII_UNLOCK
+     - STR_SMLE_MKIII_AMMO_UNLOCK
+     
+#####################################
+# BOLT-ACTION RIFLES
+
   - name: STR_SMLE_MKIII_UNLOCK
     cost: 0
     dependencies:
      - STR_BRITISH_WEAPONS_T1
+    unlocks:
+     - STR_SMLE_MKIII_AMMO_UNLOCK     
 
   - name: STR_SMLE_MKIII_AMMO_UNLOCK
     cost: 0
@@ -93,10 +264,173 @@ research:
      - STR_SMLE_MKIII_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
-  - name: STR_BRITISH_WEAPONS_T2
+ - name: STR_P14_ENFIELD_UNLOCK
     cost: 0
     dependencies:
-     - STR_FRONTLINES_FIELD_REPORT
+     - STR_BRITISH_WEAPONS_T1
+     - STR_AMERICAN_WEAPONS_T1
+    unlocks:
+     - STR_SPRINGFIELD_AMMO_UNLOCK
+
+ - name: STR_SPRINGFIELD_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_AMERICAN_WEAPONS_T1
+    unlocks:
+     - STR_SPRINGFIELD_AMMO_UNLOCK
+
+  - name: STR_SPRINGFIELD_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_WEAPONS_T1
+     - STR_AMERICAN_WEAPONS_T1
+     - STR_P14_ENFIELD_UNLOCK
+     - STR_SPRINGFIELD_UNLOCK
+
+  - name: STR_SPRINGFIELD_KMM_AMMO_UNLOCK
+    cost: 10
+    dependencies:
+     - STR_BRITISH_WEAPONS_T1
+     - STR_AMERICAN_WEAPONS_T1
+     - STR_P14_ENFIELD_UNLOCK
+     - STR_SPRINGFIELD_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_GEWEHR98_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+    unlocks:
+     - STR_GEWEHR98_AMMO_UNLOCK
+
+  - name: STR_GEWEHR98_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+     - STR_GEWEHR98_UNLOCK
+
+  - name: STR_GEWEHR98_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+     - STR_GEWEHR98_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_LEBEL_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+    unlocks:
+     - STR_LEBEL_AMMO_UNLOCK
+
+  - name: STR_LEBEL_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+     - STR_LEBEL_UNLOCK
+
+  - name: STR_LEBEL_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+     - STR_LEBEL_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_MOSIN_NAGANT_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+    unlocks:
+     - STR_MOSIN_NAGANT_AMMO_UNLOCK
+
+  - name: STR_WINCHESTER_M1915_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+    unlocks:
+     - STR_MOSIN_NAGANT_AMMO_UNLOCK
+
+  - name: STR_MOSIN_NAGANT_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+     - STR_MOSIN_NAGANT_UNLOCK
+     - STR_WINCHESTER_M1915_UNLOCK
+
+  - name: STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+     - STR_MOSIN_NAGANT_UNLOCK
+     - STR_WINCHESTER_M1915_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_BERDAN_II_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+    unlocks:
+     - STR_BERDAN_II_AMMO_UNLOCK
+
+  - name: STR_BERDAN_II_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+     - STR_BERDAN_II_UNLOCK
+
+  - name: STR_BERDAN_II_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+     - STR_BERDAN_II_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+################################
+# SELF-LOADING RIFLES
+
+  - name: STR_FARQHUAR_HILL_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_WEAPONS_T2
+    unlocks:
+     - STR_FARQHUAR_HILL_AMMO_UNLOCK     
+
+  - name: STR_FARQHUAR_HILL_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_WEAPONS_T1
+     - STR_FARQHUAR_HILL_UNLOCK
+
+  - name: STR_FARQHUAR_HILL_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_WEAPONS_T2
+     - STR_FARQHUAR_HILL_AMMO_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_MONDRAGON_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_AMERICAN_WEAPONS_T1
+    unlocks:
+     - STR_MONDRAGON_AMMO_UNLOCK
+
+  - name: STR_MOSIN_NAGANT_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+     - STR_MOSIN_NAGANT_UNLOCK
+
+  - name: STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_WEAPONS_T1
+     - STR_MOSIN_NAGANT_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+#################################
+
+
 
 ######################
 # TESLA WEAPONS
@@ -150,7 +484,37 @@ research:
 # PHLOGISTON
 ######################
 
+  - name: STR_PHLOGISTON_PROTOTYPE
+    cost: 0
+    points: 60
+    #needItem: true
+    unlocks:
+      - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
 
+  - name: STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_PHLOGISTON_PROTOTYPE
+
+
+  - name: STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
+
+  - name: STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_PHLOGISTON_PROTOTYPE
+
+  - name: STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
+    cost: 0
+    points: 50
+    dependencies:
+      - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
 
 ##################################
   - name: STR_ALIEN_ALLOYS
