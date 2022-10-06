@@ -59,7 +59,7 @@ research:
 ######################
 # BALLISTIC WEAPONS
 ######################
-# FACTION EQUIPMENT 
+# FACTION EQUIPMENT
 
   - name: STR_BRITISH_EQUIPMENT_SELECTION
     cost: 100
@@ -162,8 +162,8 @@ research:
     unlocks:
      - STR_SMLE_MKIII_UNLOCK
      - STR_SMLE_MKIII_AMMO_UNLOCK
- 
-   - name: STR_ITALIAN_WEAPONS_T2
+
+  - name: STR_ITALIAN_WEAPONS_T2
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
@@ -176,7 +176,7 @@ research:
     points: 50
     unlocks:
      - STR_RUSSIAN_WEAPONS_T1
-     
+
   - name: STR_RUSSIAN_WEAPONS_T1
     cost: 0
     dependencies:
@@ -192,7 +192,7 @@ research:
      - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
     disables:
      - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
-     - STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION 
+     - STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
 
   - name: STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
     cost: 100
@@ -201,8 +201,8 @@ research:
      - STR_RUSSIAN_COSSACK_WEAPONS_T2
     disables:
      - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
-     - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION    
-     
+     - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
+
   - name: STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -211,8 +211,8 @@ research:
     disables:
      - STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
      - STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
- 
-   - name: STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
+
+  - name: STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
@@ -221,8 +221,8 @@ research:
      - STR_SMLE_MKIII_UNLOCK
      - STR_SMLE_MKIII_AMMO_UNLOCK
 
- 
-   - name: STR_RUSSIAN_COSSACK_WEAPONS_T2
+
+    name: STR_RUSSIAN_COSSACK_WEAPONS_T2
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
@@ -232,7 +232,7 @@ research:
      - STR_SMLE_MKIII_AMMO_UNLOCK
 
 
-   - name: STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
+  - name: STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
@@ -240,7 +240,7 @@ research:
     unlocks:
      - STR_SMLE_MKIII_UNLOCK
      - STR_SMLE_MKIII_AMMO_UNLOCK
-     
+
 #####################################
 # BOLT-ACTION RIFLES
 
@@ -249,7 +249,7 @@ research:
     dependencies:
      - STR_BRITISH_WEAPONS_T1
     unlocks:
-     - STR_SMLE_MKIII_AMMO_UNLOCK     
+     - STR_SMLE_MKIII_AMMO_UNLOCK
 
   - name: STR_SMLE_MKIII_AMMO_UNLOCK
     cost: 0
@@ -264,7 +264,7 @@ research:
      - STR_SMLE_MKIII_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
- - name: STR_P14_ENFIELD_UNLOCK
+  - name: STR_P14_ENFIELD_UNLOCK
     cost: 0
     dependencies:
      - STR_BRITISH_WEAPONS_T1
@@ -272,7 +272,7 @@ research:
     unlocks:
      - STR_SPRINGFIELD_AMMO_UNLOCK
 
- - name: STR_SPRINGFIELD_UNLOCK
+  - name: STR_SPRINGFIELD_UNLOCK
     cost: 0
     dependencies:
      - STR_AMERICAN_WEAPONS_T1
@@ -393,7 +393,7 @@ research:
     dependencies:
      - STR_BRITISH_WEAPONS_T2
     unlocks:
-     - STR_FARQHUAR_HILL_AMMO_UNLOCK     
+     - STR_FARQHUAR_HILL_AMMO_UNLOCK
 
   - name: STR_FARQHUAR_HILL_AMMO_UNLOCK
     cost: 0
