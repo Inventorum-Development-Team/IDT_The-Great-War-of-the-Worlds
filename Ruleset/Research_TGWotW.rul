@@ -415,19 +415,98 @@ research:
     unlocks:
      - STR_MONDRAGON_AMMO_UNLOCK
 
-  - name: STR_MOSIN_NAGANT_AMMO_UNLOCK
+  - name: STR_MONDRAGON_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
-     - STR_MOSIN_NAGANT_UNLOCK
+     - STR_AMERICAN_WEAPONS_T1
+     - STR_MONDRAGON_UNLOCK
 
-  - name: STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
+  - name: STR_MONDRAGON_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
-     - STR_MOSIN_NAGANT_UNLOCK
+     - STR_AMERICAN_WEAPONS_T1
+     - STR_MONDRAGON_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
+  - name: STR_SELBSTLADER_1916_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+    unlocks:
+     - STR_SELBSTLADER_1916_AMMO_UNLOCK
+
+  - name: STR_SELBSTLADER_1916_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+     - STR_SELBSTLADER_1916_UNLOCK
+
+  - name: STR_SELBSTLADER_1916_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+     - STR_SELBSTLADER_1916_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_RSC17_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+    unlocks:
+     - STR_RSC17_AMMO_UNLOCK
+
+  - name: STR_RSC17_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+     - STR_RSC17_UNLOCK
+
+  - name: STR_RSC17_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+     - STR_RSC17_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO 
+     
+  - name: STR_RSC_CARBINE_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+    unlocks:
+     - STR_RSC_CARBINE_AMMO_UNLOCK
+
+  - name: STR_RSC_CARBINE_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+     - STR_RSC_CARBINE_UNLOCK
+
+  - name: STR_RSC_CARBINE_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+     - STR_RSC_CARBINE_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO   
+     
+  - name: STR_FEDOROV_AVTOMAT_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FACTION_WEAPONS_T1
+    unlocks:
+     - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
+
+  - name: STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FACTION_WEAPONS_T1
+     - STR_FEDOROV_AVTOMAT_UNLOCK
+
+  - name: STR_FEDOROV_AVTOMAT_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_FACTION_WEAPONS_T1
+     - STR_FEDOROV_AVTOMAT_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO     
 #################################
 
 
