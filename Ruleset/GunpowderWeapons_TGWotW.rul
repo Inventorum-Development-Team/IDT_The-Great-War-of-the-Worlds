@@ -304,7 +304,7 @@ items:
         STR_AMERICAN_EQUIPMENT,
       ]
     requiresBuy:
-      - STR_SPRINGFIELD_UNLOCK      
+      - STR_SPRINGFIELD_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -2658,8 +2658,6 @@ items:
         STR_FRENCH_EQUIPMENT,
         STR_RUSSIAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT
       ]
-    requiresBuy:
-      - STR_M1907_SL_CARBINE_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.1
@@ -2711,8 +2709,6 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_M1907_SL_CARBINE_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025
@@ -2747,8 +2743,6 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_M1907_SL_CARBINE_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025

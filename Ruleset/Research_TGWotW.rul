@@ -222,7 +222,7 @@ research:
      - STR_SMLE_MKIII_AMMO_UNLOCK
 
 
-    name: STR_RUSSIAN_COSSACK_WEAPONS_T2
+  - name: STR_RUSSIAN_COSSACK_WEAPONS_T2
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
@@ -254,13 +254,11 @@ research:
   - name: STR_SMLE_MKIII_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_BRITISH_WEAPONS_T1
      - STR_SMLE_MKIII_UNLOCK
 
   - name: STR_SMLE_MKIII_KMM_AMMO_UNLOCK
     cost: 10
     dependencies:
-     - STR_BRITISH_WEAPONS_T1
      - STR_SMLE_MKIII_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
@@ -282,16 +280,12 @@ research:
   - name: STR_SPRINGFIELD_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_BRITISH_WEAPONS_T1
-     - STR_AMERICAN_WEAPONS_T1
      - STR_P14_ENFIELD_UNLOCK
      - STR_SPRINGFIELD_UNLOCK
 
   - name: STR_SPRINGFIELD_KMM_AMMO_UNLOCK
     cost: 10
     dependencies:
-     - STR_BRITISH_WEAPONS_T1
-     - STR_AMERICAN_WEAPONS_T1
      - STR_P14_ENFIELD_UNLOCK
      - STR_SPRINGFIELD_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
@@ -306,13 +300,11 @@ research:
   - name: STR_GEWEHR98_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_GERMAN_WEAPONS_T1
      - STR_GEWEHR98_UNLOCK
 
   - name: STR_GEWEHR98_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_GERMAN_WEAPONS_T1
      - STR_GEWEHR98_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
@@ -326,13 +318,11 @@ research:
   - name: STR_LEBEL_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_FRENCH_WEAPONS_T1
      - STR_LEBEL_UNLOCK
 
   - name: STR_LEBEL_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_FRENCH_WEAPONS_T1
      - STR_LEBEL_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
@@ -353,14 +343,12 @@ research:
   - name: STR_MOSIN_NAGANT_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
      - STR_MOSIN_NAGANT_UNLOCK
      - STR_WINCHESTER_M1915_UNLOCK
 
   - name: STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
      - STR_MOSIN_NAGANT_UNLOCK
      - STR_WINCHESTER_M1915_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
@@ -375,13 +363,11 @@ research:
   - name: STR_BERDAN_II_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
      - STR_BERDAN_II_UNLOCK
 
   - name: STR_BERDAN_II_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
      - STR_BERDAN_II_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
@@ -398,139 +384,387 @@ research:
   - name: STR_FARQHUAR_HILL_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_BRITISH_WEAPONS_T1
      - STR_FARQHUAR_HILL_UNLOCK
 
   - name: STR_FARQHUAR_HILL_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_BRITISH_WEAPONS_T2
      - STR_FARQHUAR_HILL_AMMO_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
   - name: STR_MONDRAGON_UNLOCK
     cost: 0
     dependencies:
-     - STR_AMERICAN_WEAPONS_T1
+     - STR_AMERICAN_WEAPONS_T2
     unlocks:
      - STR_MONDRAGON_AMMO_UNLOCK
 
   - name: STR_MONDRAGON_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_AMERICAN_WEAPONS_T1
      - STR_MONDRAGON_UNLOCK
 
   - name: STR_MONDRAGON_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_AMERICAN_WEAPONS_T1
      - STR_MONDRAGON_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
   - name: STR_SELBSTLADER_1916_UNLOCK
     cost: 0
     dependencies:
-     - STR_GERMAN_WEAPONS_T1
+     - STR_GERMAN_WEAPONS_T2
     unlocks:
      - STR_SELBSTLADER_1916_AMMO_UNLOCK
 
   - name: STR_SELBSTLADER_1916_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_GERMAN_WEAPONS_T1
      - STR_SELBSTLADER_1916_UNLOCK
 
   - name: STR_SELBSTLADER_1916_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_GERMAN_WEAPONS_T1
      - STR_SELBSTLADER_1916_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
   - name: STR_RSC17_UNLOCK
     cost: 0
     dependencies:
-     - STR_FRENCH_WEAPONS_T1
+     - STR_FRENCH_WEAPONS_T2
     unlocks:
      - STR_RSC17_AMMO_UNLOCK
 
   - name: STR_RSC17_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_FRENCH_WEAPONS_T1
      - STR_RSC17_UNLOCK
 
   - name: STR_RSC17_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_FRENCH_WEAPONS_T1
      - STR_RSC17_UNLOCK
-     - STR_MARTIAN_METAL_REFORGED_AMMO 
-     
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
   - name: STR_RSC_CARBINE_UNLOCK
     cost: 0
     dependencies:
-     - STR_FRENCH_WEAPONS_T1
+     - STR_FRENCH_WEAPONS_T2
     unlocks:
      - STR_RSC_CARBINE_AMMO_UNLOCK
 
-  - name: STR_RSC_CARBINE_AMMO_UNLOCK
-    cost: 0
-    dependencies:
-     - STR_FRENCH_WEAPONS_T1
-     - STR_RSC_CARBINE_UNLOCK
 
-  - name: STR_RSC_CARBINE_KMM_AMMO_UNLOCK
-    cost: 0
-    dependencies:
-     - STR_FRENCH_WEAPONS_T1
-     - STR_RSC_CARBINE_UNLOCK
-     - STR_MARTIAN_METAL_REFORGED_AMMO   
-     
   - name: STR_FEDOROV_AVTOMAT_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
+     - STR_RUSSIAN_WEAPONS_T2
     unlocks:
      - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
 
   - name: STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
      - STR_FEDOROV_AVTOMAT_UNLOCK
 
   - name: STR_FEDOROV_AVTOMAT_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_RUSSIAN_WEAPONS_T1
      - STR_FEDOROV_AVTOMAT_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-     
-  - name: STR_WEAPON_UNLOCK
+
+  - name: STR_CEI_RIGOTTI_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ITALIAN_WEAPONS_T2
+    unlocks:
+     - STR_CEI_RIGOTTI_AMMO_UNLOCK
+
+  - name: STR_CEI_RIGOTTI_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_CEI_RIGOTTI_UNLOCK
+
+  - name: STR_CEI_RIGOTTI_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_CEI_RIGOTTI_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+#################################
+# SIDEARMS
+
+  - name: STR_AUTOMATIC_REVOLVER_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_WEAPONS_T1
+    unlocks:
+     - STR_REVOLVER_AMMO_UNLOCK
+
+  - name: STR_HEAVY_REVOLVER_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+    unlocks:
+     - STR_REVOLVER_AMMO_UNLOCK
+
+  - name: STR_SERVICE_REVOLVER
+    cost: 0
+    dependencies:
+     - STR_FRENCH_WEAPONS_T1
+     - STR_ITALIAN_WEAPONS_T1
+     - STR_RUSSIAN_WEAPONS_T1
+    unlocks:
+     - STR_REVOLVER_AMMO_UNLOCK
+
+  - name: STR_REVOLVER_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_AUTOMATIC_REVOLVER_UNLOCK
+     - STR_HEAVY_REVOLVER_UNLOCK
+     - STR_SERVICE_REVOLVER
+
+  - name: STR_REVOLVER_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_AUTOMATIC_REVOLVER_UNLOCK
+     - STR_HEAVY_REVOLVER_UNLOCK
+     - STR_SERVICE_REVOLVER
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_REVOLVER_DUMDUM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_AUTOMATIC_REVOLVER_UNLOCK
+     - STR_HEAVY_REVOLVER_UNLOCK
+     - STR_SERVICE_REVOLVER
+     - STR_GENEVA_CONVENTION_APPEAL
+
+  - name: STR_M1911_COLT_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_AMERICAN_WEAPONS_T1
+    unlocks:
+     - STR_M1911_COLT_AMMO_UNLOCK
+
+  - name: STR_M1911_COLT_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_M1911_COLT_UNLOCK
+
+  - name: STR_M1911_COLT_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_M1911_COLT_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_MAUSER_C96
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+    unlocks:
+     - STR_MAUSER_C96_AMMO_UNLOCK
+
+  - name: STR_MAUSER_C96_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_MAUSER_C96_UNLOCK
+
+  - name: STR_MAUSER_C96_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_MAUSER_C96_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_LUGER_P08_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T1
+    unlocks:
+     - STR_LUGER_P08_AMMO_UNLOCK
+
+  - name: STR_LUGER_P08_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_LUGER_P08_UNLOCK
+
+  - name: STR_LUGER_P08_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_LUGER_P08_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+##################################
+# CARBINES
+
+  - name: STR_MAUSER_C96_CARBINE_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T2
+     - STR_ITALIAN_WEAPONS_T2
+    unlocks:
+     - STR_MAUSER_C96_CARBINE_UNLOCK
+
+  - name: STR_MAUSER_C96_CARBINE_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_MAUSER_C96_CARBINE_UNLOCK
+
+  - name: STR_MAUSER_C96_CARBINE_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_MAUSER_C96_CARBINE_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_LUGER_ARTILLERY_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T2
+     - STR_ITALIAN_WEAPONS_T2
+    unlocks:
+     - STR_LUGER_ARTILLERY_UNLOCK
+
+  - name: STR_LUGER_ARTILLERY_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_LUGER_ARTILLERY_UNLOCK
+
+  - name: STR_LUGER_ARTILLERY_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_LUGER_ARTILLERY_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_CARCANO_M91_CARBINE_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ITALIAN_WEAPONS_T2
+    unlocks:
+     - STR_CARCANO_M91_CARBINE_UNLOCK
+
+  - name: STR_CARCANO_M91_CARBINE_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_CARCANO_M91_CARBINE_UNLOCK
+
+  - name: STR_CARCANO_M91_CARBINE_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_CARCANO_M91_CARBINE_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+###########################
+# SMGS
+
+  - name: STR_ANNIHILATOR_SMG_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_AMERICAN_WEAPONS_T2
+     - STR_BRITISH_WEAPONS_T2
+    unlocks:
+     - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
+
+  - name: STR_ANNIHILATOR_SMG_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ANNIHILATOR_SMG_UNLOCK
+
+  - name: STR_ANNIHILATOR_SMG_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ANNIHILATOR_SMG_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_MP18_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_GERMAN_WEAPONS_T2
+    unlocks:
+     - STR_MP18_AMMO_UNLOCK
+
+  - name: STR_MP18_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_MP18_UNLOCK
+
+  - name: STR_MP18_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_MP18_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_SMG_0818_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
+    unlocks:
+     - STR_SMG_0818_AMMO_UNLOCK
+
+  - name: STR_SMG_0818_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_SMG_0818_UNLOCK
+
+  - name: STR_SMG_0818_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_SMG_0818_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+  - name: STR_BERETTA_MAB18_UNLOCK
     cost: 0
     dependencies:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
-     - STR_WEAPON_AMMO_UNLOCK
+     - STR_BERETTA_MAB18_AMMO_UNLOCK
 
-  - name: STR_WEAPON_AMMO_UNLOCK
+  - name: STR_BERETTA_MAB18_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_ITALIAN_WEAPONS_T1
-     - STR_WEAPON_UNLOCK
+     - STR_BERETTA_MAB18_UNLOCK
 
-  - name: STR_WEAPON_KMM_AMMO_UNLOCK
+  - name: STR_BERETTA_MAB18_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_ITALIAN_WEAPONS_T1
-     - STR_WEAPON_UNLOCK
+     - STR_BERETTA_MAB18_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-     
-#################################
 
+  - name: STR_VILLAR_PEROSA_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ITALIAN_WEAPONS_T2
+    unlocks:
+     - STR_VILLAR_PEROSA_AMMO_UNLOCK
 
+  - name: STR_VILLAR_PEROSA_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_VILLAR_PEROSA_UNLOCK
+
+  - name: STR_VILLAR_PEROSA_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_VILLAR_PEROSA_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+
+##############################
+# LMGS
+
+  - name: STR_HUOT_LMG_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_BRITISH_WEAPONS_T2
+    unlocks:
+     - STR_HUOT_LMG_AMMO_UNLOCK
+
+  - name: STR_VILLAR_PEROSA_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_VILLAR_PEROSA_UNLOCK
+
+  - name: STR_VILLAR_PEROSA_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_VILLAR_PEROSA_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
 
 ######################
 # TESLA WEAPONS
