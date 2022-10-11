@@ -491,22 +491,43 @@ research:
   - name: STR_FEDOROV_AVTOMAT_UNLOCK
     cost: 0
     dependencies:
-     - STR_FACTION_WEAPONS_T1
+     - STR_RUSSIAN_WEAPONS_T1
     unlocks:
      - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
 
   - name: STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_FACTION_WEAPONS_T1
+     - STR_RUSSIAN_WEAPONS_T1
      - STR_FEDOROV_AVTOMAT_UNLOCK
 
   - name: STR_FEDOROV_AVTOMAT_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
-     - STR_FACTION_WEAPONS_T1
+     - STR_RUSSIAN_WEAPONS_T1
      - STR_FEDOROV_AVTOMAT_UNLOCK
-     - STR_MARTIAN_METAL_REFORGED_AMMO     
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+     
+  - name: STR_WEAPON_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ITALIAN_WEAPONS_T1
+    unlocks:
+     - STR_WEAPON_AMMO_UNLOCK
+
+  - name: STR_WEAPON_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ITALIAN_WEAPONS_T1
+     - STR_WEAPON_UNLOCK
+
+  - name: STR_WEAPON_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_ITALIAN_WEAPONS_T1
+     - STR_WEAPON_UNLOCK
+     - STR_MARTIAN_METAL_REFORGED_AMMO
+     
 #################################
 
 
