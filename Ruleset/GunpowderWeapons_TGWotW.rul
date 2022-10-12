@@ -458,8 +458,6 @@ items:
   - type: STR_GEWEHR98
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
-    requiresBuy:
-      - STR_GEWEHR98_UNLOCK
     size: 0.2
     costBuy: 1500
     costSell: 1150
@@ -494,8 +492,6 @@ items:
   - type: STR_GEWEHR98_CLIP
     categories:
       [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
-    requiresBuy:
-      - STR_GEWEHR98_AMMO_UNLOCK
     size: 0.1
     costBuy: 150
     costSell: 90
@@ -1162,6 +1158,46 @@ items:
   ###########################################
   ##### BOLT-ACTION RIFLES ######
   #########################################
+  - type: STR_PHLOGISTON_PROTOTYPE
+    categories:
+      [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
+    requiresBuy:
+      - STR_PHLOGISTON_PROTOTYPE
+    size: 0.2
+    costBuy: 1500
+    costSell: 1150
+    weight: 5
+    bigSprite: 152
+    floorSprite: 152
+    handSprite: 152
+    fireSound: [260, 261, 262, 263]
+    reloadSound: 307
+    bulletSpeed: 16
+    #    reloadSound: 301
+    compatibleAmmo:
+      - STR_PHLOGISTON_RUBY_CLIP
+    accuracyCloseQuarters: 65
+    kneelBonus: 200
+    accuracySnap: 80
+    accuracyAimed: 110
+    tuSnap: 30
+    tuAimed: 40
+    tuLoad: 15
+    minRange: 15
+    snapRange: 20
+    aimRange: 30
+    dropoff: 3
+    battleType: 1
+    twoHanded: true
+    oneHandedPenalty: 40
+    damageBonus:
+      firing: 1.5
+    invWidth: 1
+    invHeight: 3
+    autoRange: 11
+    attraction: 8
+    listOrder: 2200
+
   - type: STR_PHLOGISTON_HEAVY_RIFLE
     categories:
       [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
@@ -1180,7 +1216,7 @@ items:
     #    reloadSound: 301
     compatibleAmmo:
       - STR_PHLOGISTON_RUBY_CLIP
-    accuracyCloseQuarters: 65
+    accuracyCloseQuarters: 55
     kneelBonus: 200
     accuracySnap: 80
     accuracyAimed: 110
@@ -1198,7 +1234,7 @@ items:
     invHeight: 3
     autoRange: 11
     attraction: 8
-    listOrder: 2200
+    listOrder: 2205
 
   - type: STR_PHLOGISTON_RUBY_CLIP
     categories:
@@ -4824,8 +4860,6 @@ items:
         STR_GERMAN_EQUIPMENT,
         STR_RUSSIAN_EQUIPMENT
       ]
-    requiresBuy:
-      - STR_MADSEN_LMG_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.3
@@ -4882,8 +4916,6 @@ items:
         STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT,
         STR_CLIPS,
       ]
-    requiresBuy:
-      - STR_MADSEN_LMG_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.1
@@ -4918,9 +4950,7 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_MADSEN_LMG_KMM_AMMO_UNLOCK
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+      - STR_MADSEN_KMM_AMMO_UNLOCK
     size: 0.1
     costBuy: 600
     costSell: 450
@@ -5339,7 +5369,7 @@ items:
         STR_CLIPS,
       ]
     requiresBuy:
-      - STR_SHOTGUN_BUCKSHOT_SHELLS_2
+      - STR_SHOTGUN_BUCKSHOT_SHELLS_2_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.1
@@ -5695,7 +5725,7 @@ items:
 
   - type: STR_FLAMETHROWER
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_HUMAN_CHEMICAL_WEAPONS
     size: 0.2
     costBuy: 8000
@@ -5769,7 +5799,7 @@ items:
 
   - type: STR_GAS_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
-    requires:
+    requiresBuy:
       - STR_HUMAN_CHEMICAL_WEAPONS
     size: 0.1
     costBuy: 6500
@@ -7373,6 +7403,8 @@ manufacture:
 extraSprites:
   - type: BIGOBS.PCK
     files:
+      152: Resources/HumanWeapons/BoltAction/BigPhlogistonPrototype_nomag.png
+      160: Resources/HumanWeapons/BoltAction/BigPhlogistonPrototype_ammo1.png
       168: Resources/HumanWeapons/BoltAction/BigSMLE_nomag.png
       176: Resources/HumanWeapons/BoltAction/BigSMLE_ammo1.png
       184: Resources/HumanWeapons/BoltAction/BigSMLE_ammo1.png
@@ -7743,6 +7775,8 @@ extraSprites:
 
   - type: FLOOROB.PCK
     files:
+      152: Resources/HumanWeapons/BoltAction/FloorPhlogistonPrototype_nomag.png
+      160: Resources/HumanWeapons/BoltAction/FloorPhlogistonPrototype_ammo1.png
       168: Resources/HumanWeapons/BoltAction/FloorSMLE_nomag.png
       176: Resources/HumanWeapons/BoltAction/FloorSMLE_ammo1.png
       184: Resources/HumanWeapons/BoltAction/FloorSMLE_ammo1.png
@@ -8117,6 +8151,8 @@ extraSprites:
     subX: 32
     subY: 40
     files:
+      152: Resources/HumanWeapons/BoltAction/HandPhlogistonPrototype_nomag.png
+      160: Resources/HumanWeapons/BoltAction/HandPhlogistonPrototype_ammo1.png
       168: Resources/HumanWeapons/BoltAction/HandSMLE_nomag.png
       176: Resources/HumanWeapons/BoltAction/HandSMLE_ammo1.png
       184: Resources/HumanWeapons/BoltAction/HandSMLE_ammo1.png

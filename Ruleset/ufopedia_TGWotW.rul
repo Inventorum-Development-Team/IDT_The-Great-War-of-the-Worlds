@@ -141,11 +141,18 @@ ufopaedia:
   ###########################################
   ##### PHLOGISTON BOLT-ACTION RIFLES ######
   #########################################
+  - id: STR_PHLOGISTON_PROTOTYPE
+    type_id: 4
+    section: STR_WEAPONS
+    text: STR_PHLOGISTON_PROTOTYPE_UFOPEDIA
+    listOrder: 2700
+
   - id: STR_PHLOGISTON_HEAVY_RIFLE
     type_id: 4
     section: STR_WEAPONS
     text: STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA
-    listOrder: 2700
+    listOrder: 2710
+
     ##listOrder: 2005
   - id: STR_PHLOGISTON_RUBY_CLIP
     type_id: 4

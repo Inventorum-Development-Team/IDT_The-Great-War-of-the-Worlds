@@ -138,6 +138,9 @@ items:
   - type: STR_BERDAN_II_AMMO_KMM # ignoreDuplicate
     tags:
       AmmoNo: 2
+  - type: STR_PHLOGISTON_PROTOTYPE #ignoreDuplicate
+    tags:
+      AmmoReSprite: 1 # Rifles
   - type: STR_PHLOGISTON_HEAVY_RIFLE #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Rifles
