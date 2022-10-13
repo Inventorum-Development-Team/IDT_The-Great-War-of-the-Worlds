@@ -1743,7 +1743,7 @@ items:
         STR_FRENCH_EQUIPMENT,
       ]
     requiresBuy:
-      - STR_RSC17_CARBINE_UNLOCK
+      - STR_RSC_CARBINE_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.3
