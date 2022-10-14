@@ -1016,11 +1016,6 @@ en-US:
       STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
       STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.
 
-      STR_PERSONAL_ARMOR: "Farina Heavy Armor"
-      STR_PERSONAL_ARMOR_UFOPEDIA:
-      STR_POWER_SUIT: "Totemkopf Mechanized Armor"
-      STR_POWER_SUIT_UFOPEDIA: "A highly experimental design made by German engineers based on the enclosed armors used by the Martian military. It features a breathing apparatus and several layers of Tunguskium plates to endure the hardships of modern warfare."
-
       STR_SOLDIER_CLASSES_INTRODUCTION: "Soldier Classes"
       STR_SOLDIER_CLASSES_INTRODUCTION_UFOPEDIA: "The advent of the large scale conflicts meant a focus in the specialization of the training given to the military units. And in this industrialized war, this was further pushed by the members of the Coalition. The result is a series of 'Soldier Classes', each one with a particular set of skills. These soldiers are often assigned to special support regiments, complementing the larger armies fighting the invaders. Also, in separate combat teams like our Force. The IEF is given professional soldiers from each one of the Coalition military special forces, both to bolster our offensive capabilities and a show of unity among nations."
       STR_INFANTRY_CLASS_INTRODUCTION: "Infantry Class Introduction"
@@ -1732,4 +1727,36 @@ en-US:
 
       STR_WALKER_HISTORY_7: "Walker History VII"
       STR_WALKER_HISTORY_7_UFOPEDIA: "This walker is the largest we have built to date. It combines incredible endurance, excellent firepower and some extra space to transport troops directly to the battlefield. Initially it was the armament upgrade of the 'Centurion', but the weight increased so much that it was necessary to redesign and expand the legs, adopting a quadruped design."
+      
+      STR_BODY_ARMOR_THEORY: "Tier 2 Light Body Armor"
+      STR_BODY_ARMOR_THEORY_UFOPEDIA: "Creating personal armor for use by the infantry is an old and proven idea. Most of the soldiers have worn any kind of protection against damage. The use of armor plating became obsolete with the introduction of gunpowder weapons in the modern battlefields. However, the idea has regained interest in the Great War, as certain materials have been tested to resist the alien weapons. The current prototype armors are heavy and cumbersome, but the development is very encouraged by the troops. The high amount of casualties are often due the lack of proper protection. The introduction of steel helmets is very appreciated, however."
+      
+      STR_T2_LIGHT_BODY_ARMOR: "Tier 2 Light Body Armor"
+      STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA: "The asbestos are an inorganic compound with the excellent property of being fireproof. Field testing has resulted in an important resistance to Thermal-based energy weapons. Combined with small amounts of Tunguskium in a personal armor (as we haven't found a feasible way to produce more alloys and we depend on the captured Martian Metal), the theorical surviving rate of the users is greatly increased. The downside is the encumbrance caused by the not-so-light armor plates, which may cause fatigue and difficulty to movement. Blueprints are ready for distribution."
+      STR_T2_HEAVY_BODY_ARMOR: "Tier 2 Heavy Body Armor"
+      STR_T2_HEAVY_BODY_ARMOR_UFOPEDIA: "The need of additional protection for defensive troops and combat engineers have resulted in the heavily armored 'L'inmortale' armor. Designed by Italian engineers to help the Arditi on assault operations, it has adapted for the rest of the Coalition gunsmiths and armories. Large amounts of asbestos and Tunguskium are used to give the user an unrivaled resistance to enemy energy beams... at the cost of any kind of comfort."
+      STR_AMERICAN_T2_BODY_ARMOR: "Dean Reinforced Battlearmor"
+      STR_AMERICAN_T2_BODY_ARMOR_UFOPEDIA: "Designed by Dr. Bashford Dean usig the German designs as inspiration, the armored Tunguskium plate has a thick layer of asbestos in front and back, plus a Dean No.5 Helmet (it is said its better than the Brodie)"
+      STR_BRITISH_T2_BODY_ARMOR: "EOB Body Armour"
+      STR_BRITISH_T2_BODY_ARMOR: "Designed by the Munitions Invention Board, it includes a cloth vest with room for Tunguskium/asbestos plates inside. Occasionally, shoulder pads are provided as well."
+      STR_GERMAN_T2_BODY_ARMOR: "Sappenpanzer Trench Armor"
+      STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA: "One of the first practical infantry armor designs, its made with a mixture of Tunguskium, asbestos and manganese steel. The major downside is the lack of back protection, as only the frontal torso is armored."
+      STR_FRENCH_T2_BODY_ARMOR: "Lancier Light Body Armor"
+      STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA: "A cloth vest with slots for intercalated Tunguskium and asbestos plates uniformly distributed in the front and back. The overall design grants the user a higher level of mobility, at the expense of lower protection. " 
+      STR_PERSONAL_ARMOR: "L'inmortale Heavy Armor"
+      STR_PERSONAL_ARMOR_UFOPEDIA: "A heavier variant of the Farina armor, it includes additional protection in the arms, legs and back, including and a face plate. Even when the Tunguskium and asbestos are lighter than steel, the armor is unwieldy and will slow down the user."
+      
+      STR_BRITISH_T3_BODY_ARMOR: "Knight Body Shield"
+      STR_BRITISH_T3_BODY_ARMOR_UFOPEDIA: "A full Tunguskium combat armor, with asbestos reinforced plates. Additional armor protects the neck and the arms, with a Dayfield face shield with built in breathing system. "
+      STR_AMERICAN_T3_BODY_ARMOR: "Dean Enclosed Battlearmor"
+      STR_AMERICAN_T3_BODY_ARMOR_UFOPEDIA: "An improvement over the Reinforced armor, with shoulder and arm protection and a sealed Ford Model 8 helmet with built in breathing system."
+      STR_GERMAN_T3_BODY_ARMOR: "Sturmpanzer Assault Armor"
+      STR_GERMAN_T3_BODY_ARMOR_UFOPEDIA: "This armor includes a specially designed frontal armor able to dissipate the thermal energy with ease, at the cost of being heavy. As usual per German armor doctrine, all the plates are focused on the front, leaving the back unprotected."
+      STR_FRENCH_T3_BODY_ARMOR: "Cuirassier-Polack Body Armor"
+      STR_FRENCH_T3_BODY_ARMOR_UFOPEDIA: "An replacement over the basic Lancier soft armor includes a Polack face shield to protect the eyes from shrapnel and Adrian full-Tunguskium torso armor with angled design to deflect and dissipate ballistic and energy attacks."
+      STR_ITALIAN_T3_BODY_ARMOR: "Dunand Infantry Armor"
+      STR_ITALIAN_T3_BODY_ARMOR_UFOPEDIA: "A mixture of the Adrian Cuirassier torso armor and Farina shoulder plates, the joint Franco-Italian design incorporates a Dunand bubble-like face mask to deflect bullets and shrapnel alike."
+      
+      STR_POWER_SUIT: "Totemkopf Mechanized Armor"
+      STR_POWER_SUIT_UFOPEDIA: "A highly experimental design made by German engineers based on the enclosed armors used by the Martian military. It features a closed breathing apparatus and several layers of Tunguskium and asbestos plates to endure the hardships of modern warfare. The Tesla Micro Generator in the back provides enough energy for all the systems inside"
 
