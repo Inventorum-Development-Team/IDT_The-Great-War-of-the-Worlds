@@ -45,7 +45,7 @@ items:
     hitAnimation: 66
     power: 65
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     damageType: 13
     blastRadius: 0
@@ -66,7 +66,7 @@ items:
     hitAnimation: 77
     power: 85
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     damageType: 13
     clipSize: 15
@@ -123,7 +123,7 @@ items:
     hitAnimation: 66
     power: 48
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     damageType: 13
     clipSize: 45
@@ -144,7 +144,7 @@ items:
     hitAnimation: 77
     power: 68
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     damageType: 13
     clipSize: 22
@@ -204,7 +204,7 @@ items:
     hitAnimation: 66
     power: 42
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     damageType: 13
     blastRadius: 0
@@ -226,7 +226,7 @@ items:
     hitAnimation: 77
     power: 62
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     damageType: 13
     blastRadius: 0
@@ -282,7 +282,7 @@ items:
     clipSize: 20
     power: 85
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     battleType: 2
     armor: 12
@@ -303,7 +303,7 @@ items:
     clipSize: 10
     power: 125
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     shotgunBehavior: 1
     shotgunPellets: 3
@@ -360,7 +360,7 @@ items:
     damageType: 13
     power: 68
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     clipSize: 20
     battleType: 2
@@ -381,7 +381,7 @@ items:
     damageType: 13
     power: 88
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
     clipSize: 10
     shotgunBehavior: 1
@@ -519,7 +519,7 @@ items:
     power: 20
     damageType: 13
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
       ToWound: 1.2
       FireThreshold: 1
@@ -544,7 +544,7 @@ items:
     floorSprite: 3336
     damageType: 1
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
       ToStun: 3.5
       RandomStun: true
@@ -574,7 +574,7 @@ items:
     power: 20
     damageType: 8
     damageAlter:
-      RandomType: 7
+      RandomType: 6
       IgnoreOverKill: false
       ToWound: 0.9
       ToArmor: 1.5

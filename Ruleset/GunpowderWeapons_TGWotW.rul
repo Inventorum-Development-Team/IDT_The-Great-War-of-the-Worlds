@@ -60,56 +60,56 @@ items:
   - &BasicRifleRoundAntiArmor
     type: STR_BASIC_RIFLE_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.15
       RandomWound: false
   - &KMMRifleRoundAntiArmor
     type: STR_KMM_RIFLE_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.25
       RandomWound: false
   - &BasicPistolRoundAntiArmor
     type: STR_BASIC_PISTOL_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.1
       RandomWound: false
   - &KMMPistolRoundAntiArmor
     type: STR_KMM_PISTOL_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.2
       RandomWound: false
   - &LightPhlogistonAntiArmor
     type: STR_LIGHT_PHLOGISTON_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.3
       RandomWound: false
   - &MediumPhlogistonAntiArmor
     type: STR_MEDIUM_PHLOGISTON_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.4
       RandomWound: false
   - &HeavyPhlogistonAntiArmor
     type: STR_HEAVY_PHLOGISTON_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.5
       RandomWound: false
   - &LightTeslaAntiArmor
     type: STR_LIGHT_TESLA_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.1
       ToWound: 0.3
@@ -118,7 +118,7 @@ items:
   - &MediumTeslaAntiArmor
     type: STR_MEDIUM_TESLA_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.1
       ToWound: 0.4
@@ -127,7 +127,7 @@ items:
   - &HeavyTeslaAntiArmor
     type: STR_HEAVY_TESLA_ANTIARMOR_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.1
       ToWound: 0.5
@@ -136,7 +136,7 @@ items:
   - &DumDumWoundingRound
     type: STR_DUMDUM_WOUNDING_NODE
     damageAlter:
-      RandomType: 2
+      RandomType: 3
       IgnoreOverKill: true
       ToArmorPre: 0.1
       ToWound: 0.35
@@ -241,7 +241,12 @@ items:
     hitAnimation: -1
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 55
-    refNode: *KMMRifleRoundAntiArmor
+    #refNode: *KMMRifleRoundAntiArmor
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
     damageType: 10
     bulletSpeed: 15
     clipSize: 5
