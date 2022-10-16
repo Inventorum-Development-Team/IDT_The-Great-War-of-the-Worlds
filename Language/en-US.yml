@@ -1314,6 +1314,10 @@ en-US:
       STR_MARTIAN_BLOOD_EXTRACTOR_UFOPEDIA: "This unnerving 'tool' is often used by the enemy in harvesting operations. Basically a glorified syringe, the large lance-like piece is impaled directly into the body of the victim. The guts and blood are then drained and stored in a flask behind the Extractor, in a truly gruesome fashion. Very often, the victim is left bleeding to death as result of the violent procedure. The range is limited, but it ignores completely any kind of armor if it hits."
       STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER: "Blood Extractor Empty Fluid Container"
       STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER: "Blood Extractor Full Fluid Container"
+      STR_MARTIAN_SLUGTHROWER: "Martian Pneumatic Slugthrower"
+      STR_MARTIAN_SLUGTHROWER_UFOPEDIA: "Nicknamed 'the Blunderbuss', due the similarities with the old human weapon. It is the clearest example the Martians are learning from our designs... and also running low on resources. As opposed to their usually advanced weapons, this ballistic gun has a simple design with varying degrees of quality. The Slugthrower is a breechloader, single shot, bolt-action rifle, similar to the weapons used in late 19th Century.  It uses an unknown pressurized gas to propel small Tunguskium slugs at high parabolic trajectories over long distances. Equipped with a bayonet."
+
+
 
       STR_RED_WEED_RESEARCH: Red Weed Research
       STR_CHEMICAL_WARFARE_RESEARCH: Martian Chemical Warfare Research
