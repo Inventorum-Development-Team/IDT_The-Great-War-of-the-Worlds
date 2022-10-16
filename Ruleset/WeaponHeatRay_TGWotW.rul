@@ -591,6 +591,113 @@ items:
     armor: 250
     listOrder: 3402
 
+  - type: STR_MARTIAN_SLUGTHROWER
+    categories:
+      [
+        STR_ALIEN_TECH,
+        STR_FIREARMS,
+        STR_BOLT_ACTION_RIFLES,
+      ]
+    size: 0.2
+    costSell: 11500
+    weight: 8
+    bigSprite: 248
+    floorSprite: 248
+    handSprite: 248
+    fireSound: 12
+    reloadSound: 305
+    compatibleAmmo:
+      - STR_MARTIAN_SLUGTHROWER_ROUNDS
+    accuracyCloseQuarters: 50
+    accuracySnap: 55
+    accuracyAimed: 75
+    tuSnap: 35
+    tuAimed: 65
+    tuLoad: 15
+    minRange: 10
+    snapRange: 40
+    aimRange: 50
+    dropoff: 5
+    battleType: 1
+    accuracyAimed: true
+    twoHanded: true
+    # Bayonet segment
+    meleeSound: 39
+    meleeHitSound:
+      [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+      ]
+    #Stab sounds
+    meleeAnimation: 4
+    meleeType: 7
+    meleePower: 40
+    meleeBonus:
+      strength: 0.2
+      melee: 0.4
+    accuracyMelee: 75
+    meleeMultiplier:
+      flatHundred: 0.2
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 15
+    flatMelee:
+      time: true
+    # Bayonet segment end
+    oneHandedPenalty: 50
+    invWidth: 1
+    invHeight: 3
+    attraction: 8
+    listOrder: 3403
+
+  - type: STR_MARTIAN_SLUGTHROWER_ROUNDS
+    categories:
+      [
+        STR_ALIEN_TECH,
+        STR_FIREARMS,
+        STR_BOLT_ACTION_RIFLES,
+        STR_CLIPS,
+      ]
+    size: 0.1
+    costSell: 5000
+    weight: 3
+    bigSprite: 280
+    floorSprite: 280
+    handSprite: 200
+    hitSound: 22
+    hitAnimation: -1
+    bulletSprite: 24
+    power: 30
+    bulletSpeed: 10
+    damageType: 10
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false    
+    invWidth: 1
+    invHeight: 1
+    clipSize: 1
+    battleType: 2
+    armor: 12
+    listOrder: 3404
+
   - type: STR_MARTIAN_BLADE
     categories: [STR_CQB, STR_ALIEN_TECH]
     size: 0.15
