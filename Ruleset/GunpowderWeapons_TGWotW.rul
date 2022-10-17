@@ -3313,7 +3313,7 @@ items:
     refNode: *BasicPistolRoundAntiArmor
     damageType: 1
     bulletSpeed: 10
-    invWidth: 2
+    invWidth: 1
     invHeight: 1
     clipSize: 30
     costThrow:

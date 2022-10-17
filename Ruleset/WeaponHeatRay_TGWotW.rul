@@ -601,9 +601,9 @@ items:
     size: 0.2
     costSell: 11500
     weight: 8
-    bigSprite: 248
-    floorSprite: 248
-    handSprite: 248
+    bigSprite: 3352
+    floorSprite: 3352
+    handSprite: 3352
     fireSound: 12
     reloadSound: 305
     compatibleAmmo:
@@ -619,7 +619,7 @@ items:
     aimRange: 50
     dropoff: 5
     battleType: 1
-    accuracyAimed: true
+    arcingShot: true
     twoHanded: true
     # Bayonet segment
     meleeSound: 39
@@ -661,7 +661,7 @@ items:
       time: true
     # Bayonet segment end
     oneHandedPenalty: 50
-    invWidth: 1
+    invWidth: 2
     invHeight: 3
     attraction: 8
     listOrder: 3403
@@ -677,8 +677,8 @@ items:
     size: 0.1
     costSell: 5000
     weight: 3
-    bigSprite: 280
-    floorSprite: 280
+    bigSprite: 3368
+    floorSprite: 3368
     handSprite: 200
     hitSound: 22
     hitAnimation: -1
@@ -690,7 +690,7 @@ items:
       RandomType: 6
       IgnoreOverKill: true
       ToArmorPre: 0.2
-      RandomWound: false    
+      RandomWound: false
     invWidth: 1
     invHeight: 1
     clipSize: 1
@@ -877,9 +877,9 @@ extraSprites:
       3328: Resources/HeatRay/BigMartianRockThrowerCalystenClip.png
       3336: Resources/HeatRay/BigMartianRockThrowerAcidClip.png
       3344: Resources/HeatRay/BigMartianRockThrowerToxicClip.png
-#      3352: Resources/HeatRay/BigMartianBulletThrower.png
-#      3360: Resources/HeatRay/BigMartianBulletThrower.png
-#      3368: Resources/HeatRay/BigMartianBulletThrowerMag.png
+      3352: Resources/HeatRay/BigMartianSlugthrower_nomag.png
+      3360: Resources/HeatRay/BigMartianSlugthrower_ammo1.png
+      3368: Resources/HeatRay/BigMartianSlugthrowerMag.png
       3376: Resources/HeatRay/BigMartianBlade.png
       3384: Resources/HeatRay/BigBloodExtractor_noammo.png
       3392: Resources/HeatRay/BigBloodExtractor_ammo1.png
@@ -921,9 +921,9 @@ extraSprites:
       3328: Resources/HeatRay/FloorMartianRockThrowerCalystenClip.png
       3336: Resources/HeatRay/FloorMartianRockThrowerAcidClip.png
       3344: Resources/HeatRay/FloorMartianRockThrowerToxicClip.png
-#      3352: Resources/HeatRay/FloorMartianBulletThrower.png
-#      3360: Resources/HeatRay/FloorMartianBulletThrower.png
-#      3368: Resources/HeatRay/FloorMartianBulletThrowerMag.png
+      3352: Resources/HeatRay/FloorMartianSlugthrower_nomag.png
+      3360: Resources/HeatRay/FloorMartianSlugthrower_ammo1.png
+      3368: Resources/HeatRay/FloorMartianSlugthrowerMag.png
       3376: Resources/HeatRay/FloorMartianBlade.png
       3384: Resources/HeatRay/FloorBloodExtractor_noammo.png
       3392: Resources/HeatRay/FloorBloodExtractor_ammo1.png
@@ -954,8 +954,8 @@ extraSprites:
       3288: Resources/HeatRay/HandMartianLauncher.png
       3296: Resources/HeatRay/HandMartianLauncher.png
       3320: Resources/HeatRay/HandMartianRockThrower.png
-#      3352: Resources/HeatRay/HandMartianBulletThrower.png
-#      3360: Resources/HeatRay/HandMartianBulletThrower.png
+      3352: Resources/HeatRay/HandMartianSlugthrower_nomag.png
+      3360: Resources/HeatRay/HandMartianSlugthrower_ammo1.png
       3376: Resources/HeatRay/HandMartianBlade.png
       3384: Resources/HeatRay/HandBloodExtractor_noammo.png
       3392: Resources/HeatRay/HandBloodExtractor_ammo1.png
