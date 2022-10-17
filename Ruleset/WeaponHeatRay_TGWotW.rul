@@ -682,7 +682,7 @@ items:
     handSprite: 200
     hitSound: 22
     hitAnimation: -1
-    bulletSprite: 24
+    bulletSprite: 4
     power: 30
     bulletSpeed: 10
     damageType: 10
