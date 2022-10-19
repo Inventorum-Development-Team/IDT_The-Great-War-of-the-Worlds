@@ -1646,6 +1646,17 @@ ufopaedia:
     type_id: 4
     section: STR_NOT_AVAILABLE
 
+  - id: STR_MARTIAN_SLUGTHROWER
+    type_id: 4
+    section: STR_MARTIAN_WEAPONS
+    text: STR_MARTIAN_SLUGTHROWER_UFOPEDIA
+    requires:
+      - STR_MARTIAN_SLUGTHROWER
+    listOrder: 17350
+  - id: STR_MARTIAN_SLUGTHROWER_ROUNDS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+
   - id: STR_MARTIAN_BLADE
     type_id: 4
     section: STR_MARTIAN_WEAPONS

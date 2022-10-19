@@ -613,7 +613,7 @@ items:
     accuracyAimed: 75
     tuSnap: 35
     tuAimed: 65
-    tuLoad: 15
+    tuLoad: 10
     minRange: 10
     snapRange: 40
     aimRange: 50
@@ -650,12 +650,12 @@ items:
     meleeBonus:
       strength: 0.2
       melee: 0.4
-    accuracyMelee: 75
+    accuracyMelee: 100
     meleeMultiplier:
       flatHundred: 0.2
       melee: 0.5
     costMelee:
-      time: 20
+      time: 10
       energy: 15
     flatMelee:
       time: true
@@ -682,7 +682,7 @@ items:
     handSprite: 200
     hitSound: 22
     hitAnimation: -1
-    bulletSprite: 24
+    bulletSprite: 4
     power: 30
     bulletSpeed: 10
     damageType: 10
