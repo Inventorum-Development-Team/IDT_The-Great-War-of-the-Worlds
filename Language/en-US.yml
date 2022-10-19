@@ -752,6 +752,8 @@ en-US:
       STR_ANNIHILATOR_SMG_UFOPEDIA: Conceived by US Army General John Thompson as a powerful compact machine gun, its primary function is to deliver a hailstorm of lead in tight trenches, obliterating everything in its path. Well, it lives up its name after all.
       STR_ANNIHILATOR_SMG_MAG: Annihilator Mag
       STR_ANNIHILATOR_SMG_MAG_KMM: Annihilator K-MM Mag
+      STR_PHLOGISTON_PROTOTYPE: "Phlogiston Prototype"
+      STR_PHLOGISTON_PROTOTYPE_UFOPEDIA: "The Wizniewsky-Nospmoht Phlogiston Energy Beam Projector Mk.1 is the first practical energy weapon created by the Beam Committee, able to be small enough to be used by a regular soldier, yet powerful enough to melt several inches of steel. The highest quality ruby rods and refraction lenses were used in this prototype, which in turn, makes it highly expensive to mass produce. The excess heat is vented manually using a bolt-action mechanism, which also allows the weapon to load another rod in the Chamber."
       STR_PHLOGISTON_HEAVY_RIFLE: Phlogiston Heavy Rifle
       STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA: A heavy frame houses the largest handheld application of Phlogiston technology. The Ruby Rod Emitter is so powerful that needs a new ruby crystal with each use. The excess heat is vented after replacing the rod, in a mechanism similar to a bolt-action rifle. The bipod is meant to increase the handling, as the beam weapons have no recoil.
       STR_PHLOGISTON_RUBY_CLIP: Phlogiston Ruby Rod Clip
@@ -1315,6 +1317,7 @@ en-US:
       STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER: "Blood Extractor Empty Fluid Container"
       STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER: "Blood Extractor Full Fluid Container"
       STR_MARTIAN_SLUGTHROWER: "Martian Pneumatic Slugthrower"
+      STR_MARTIAN_SLUGTHROWER_ROUNDS: "Pneumatic Slugthrower MM Round (x1)"
       STR_MARTIAN_SLUGTHROWER_UFOPEDIA: "Nicknamed 'the Blunderbuss', due the similarities with the old human weapon. It is the clearest example the Martians are learning from our designs... and also running low on resources. As opposed to their usually advanced weapons, this ballistic gun has a simple design with varying degrees of quality. The Slugthrower is a breechloader, single shot, bolt-action rifle, similar to the weapons used in late 19th Century.  It uses an unknown pressurized gas to propel small Tunguskium slugs at high parabolic trajectories over long distances. Equipped with a bayonet."
 
 
@@ -1580,7 +1583,7 @@ en-US:
       STR_VICKERS_S_40MM_AUTOCANNON: "VICKERS 'S' 40MM AC"
       STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, belt-fed automatic cannon, fires large APHE 40mm rounds. It's so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted."
       STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER: "Vickers 'S' 40mm AC"
-      
+
       STR_QF_1_PDR_POMPOM: "QF 1-PDR 'POM POM'"
       STR_QF_1_PDR_POMPOM_UFOPEDIA: Reliable anti-air gun, it can be used against ground targets as well. Basically an oversized Maxim machine gun. Fires special sharpnel rounds.
       STR_QF_1_PDR_POMPOM_LAUNCHER: QF 1-pdr 'Pom Pom'
@@ -1731,10 +1734,10 @@ en-US:
 
       STR_WALKER_HISTORY_7: "Walker History VII"
       STR_WALKER_HISTORY_7_UFOPEDIA: "This walker is the largest we have built to date. It combines incredible endurance, excellent firepower and some extra space to transport troops directly to the battlefield. Initially it was the armament upgrade of the 'Centurion', but the weight increased so much that it was necessary to redesign and expand the legs, adopting a quadruped design."
-      
+
       STR_BODY_ARMOR_THEORY: "Tier 2 Light Body Armor"
       STR_BODY_ARMOR_THEORY_UFOPEDIA: "Creating personal armor for use by the infantry is an old and proven idea. Most of the soldiers have worn any kind of protection against damage. The use of armor plating became obsolete with the introduction of gunpowder weapons in the modern battlefields. However, the idea has regained interest in the Great War, as certain materials have been tested to resist the alien weapons. The current prototype armors are heavy and cumbersome, but the development is very encouraged by the troops. The high amount of casualties are often due the lack of proper protection. The introduction of steel helmets is very appreciated, however."
-      
+
       STR_T2_LIGHT_BODY_ARMOR: "Tier 2 Light Body Armor"
       STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA: "The asbestos are an inorganic compound with the excellent property of being fireproof. Field testing has resulted in an important resistance to Thermal-based energy weapons. Combined with small amounts of Tunguskium in a personal armor (as we haven't found a feasible way to produce more alloys and we depend on the captured Martian Metal), the theorical surviving rate of the users is greatly increased. The downside is the encumbrance caused by the not-so-light armor plates, which may cause fatigue and difficulty to movement. Blueprints are ready for distribution."
       STR_T2_HEAVY_BODY_ARMOR: "Tier 2 Heavy Body Armor"
@@ -1742,14 +1745,14 @@ en-US:
       STR_AMERICAN_T2_BODY_ARMOR: "Dean Reinforced Battlearmor"
       STR_AMERICAN_T2_BODY_ARMOR_UFOPEDIA: "Designed by Dr. Bashford Dean usig the German designs as inspiration, the armored Tunguskium plate has a thick layer of asbestos in front and back, plus a Dean No.5 Helmet (it is said its better than the Brodie)"
       STR_BRITISH_T2_BODY_ARMOR: "EOB Body Armour"
-      STR_BRITISH_T2_BODY_ARMOR: "Designed by the Munitions Invention Board, it includes a cloth vest with room for Tunguskium/asbestos plates inside. Occasionally, shoulder pads are provided as well."
+      STR_BRITISH_T2_BODY_ARMOR_UFOPEDIA: "Designed by the Munitions Invention Board, it includes a cloth vest with room for Tunguskium/asbestos plates inside. Occasionally, shoulder pads are provided as well."
       STR_GERMAN_T2_BODY_ARMOR: "Sappenpanzer Trench Armor"
       STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA: "One of the first practical infantry armor designs, its made with a mixture of Tunguskium, asbestos and manganese steel. The major downside is the lack of back protection, as only the frontal torso is armored."
       STR_FRENCH_T2_BODY_ARMOR: "Lancier Light Body Armor"
-      STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA: "A cloth vest with slots for intercalated Tunguskium and asbestos plates uniformly distributed in the front and back. The overall design grants the user a higher level of mobility, at the expense of lower protection. " 
+      STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA: "A cloth vest with slots for intercalated Tunguskium and asbestos plates uniformly distributed in the front and back. The overall design grants the user a higher level of mobility, at the expense of lower protection. "
       STR_PERSONAL_ARMOR: "L'inmortale Heavy Armor"
       STR_PERSONAL_ARMOR_UFOPEDIA: "A heavier variant of the Farina armor, it includes additional protection in the arms, legs and back, including and a face plate. Even when the Tunguskium and asbestos are lighter than steel, the armor is unwieldy and will slow down the user."
-      
+
       STR_BRITISH_T3_BODY_ARMOR: "Knight Body Shield"
       STR_BRITISH_T3_BODY_ARMOR_UFOPEDIA: "A full Tunguskium combat armor, with asbestos reinforced plates. Additional armor protects the neck and the arms, with a Dayfield face shield with built in breathing system. "
       STR_AMERICAN_T3_BODY_ARMOR: "Dean Enclosed Battlearmor"
@@ -1760,7 +1763,7 @@ en-US:
       STR_FRENCH_T3_BODY_ARMOR_UFOPEDIA: "An replacement over the basic Lancier soft armor includes a Polack face shield to protect the eyes from shrapnel and Adrian full-Tunguskium torso armor with angled design to deflect and dissipate ballistic and energy attacks."
       STR_ITALIAN_T3_BODY_ARMOR: "Dunand Infantry Armor"
       STR_ITALIAN_T3_BODY_ARMOR_UFOPEDIA: "A mixture of the Adrian Cuirassier torso armor and Farina shoulder plates, the joint Franco-Italian design incorporates a Dunand bubble-like face mask to deflect bullets and shrapnel alike."
-      
+
       STR_POWER_SUIT: "Totemkopf Mechanized Armor"
       STR_POWER_SUIT_UFOPEDIA: "A highly experimental design made by German engineers based on the enclosed armors used by the Martian military. It features a closed breathing apparatus and several layers of Tunguskium and asbestos plates to endure the hardships of modern warfare. The Tesla Micro Generator in the back provides enough energy for all the systems inside"
 
