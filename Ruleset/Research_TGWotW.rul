@@ -17,6 +17,210 @@ research:
       - STR_ALIENS_ONLY
 ###############################
 
+
+#######################################
+########### STARTING TECH ############
+#####################################
+  - name: STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+    cost: 600
+    points: 200
+
+ - name: STR_HEAVY_SUPPORT_SHIPS
+    cost: 600
+    points: 200
+
+#####################################
+############ VEHICLES ##############
+###################################
+
+#######################################
+###### TIER 0 FIGHTER RESEARCH #######
+####################################
+
+  - name: STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+   # disables:
+    #  - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+  - name: STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+    #disables:
+    #  - STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
+
+
+########################################
+########### TIER 1 VEHICLES ###########
+######################################
+  - name: STR_MECHANIZED_WARFARE_RESEARCH
+    cost: 800
+    points: 200
+    dependencies:
+      - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+
+  - name: STR_LANDSHIP_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_MECHANIZED_WARFARE_RESEARCH
+      
+  - name: STR_COMBAT_WALKER_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_MECHANIZED_WARFARE_RESEARCH
+
+  - name: STR_HUNTER_SCOUT_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_MECHANIZED_WARFARE_RESEARCH
+
+  - name: STR_FRENCH_FIGHTER_OPTION_A
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_HUNTER_SCOUT_RESEARCH
+
+  - name: STR_BRITISH_SCOUT_OPTION_B
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_HUNTER_SCOUT_RESEARCH
+
+  - name: STR_GERMAN_FIGHTER_OPTION_C
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_HUNTER_SCOUT_RESEARCH
+      
+  - name: STR_BOMBER_ATTACK_CRAFT_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_MECHANIZED_WARFARE_RESEARCH  
+ 
+  - name: STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
+ 
+  - name: STR_GERMAN_ATTACK_PLANE_OPTION_B
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
+
+  - name: STR_BRITISH_BOMBER_OPTION_C
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
+ 
+  - name: STR_AERIAL_BEHEMOTH_RESEARCH
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_HEAVY_SUPPORT_SHIPS
+      
+########################################
+########### TIER 2 VEHICLES ###########
+######################################
+  
+  - name: STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_IMPROVED_METALURGIC_TECHNIQUES
+      - STR_FRONTLINES_FIELD_REPORT
+      
+  - name: STR_IMPROVED_LANDSHIP_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
+      - STR_FRONTLINES_FIELD_REPORT
+      
+  - name: STR_IMPROVED_COMBAT_WALKER_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
+      - STR_FRONTLINES_FIELD_REPORT
+
+  - name: STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
+      - STR_FRONTLINES_FIELD_REPORT      
+
+  - name: STR_IMPROVED_HUNTER_SCOUT_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
+
+  - name: STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
+
+  - name: STR_BRITISH_IMPROVED_SCOUT_OPTION_B
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
+
+  - name: STR_GERMAN_IMPROVED_FIGHTER_OPTION_C
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
+      
+  - name: STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH  
+ 
+  - name: STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
+ 
+  - name: STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
+
+  - name: STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
+    cost: 50
+    points: 20
+    dependencies:
+      - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
+ 
+########################################
+########### TIER 3 VEHICLES ###########
+######################################
+  
+  - name: STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH
+    cost: 200
+    points: 50
+    dependencies:
+      - STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
+      - STR_FRONTLINES_FIELD_REPORT
+      
+##################################
+
   - name: STR_NORTH_AMERICAN_CAMPAIGN
     cost: 100
     points: 50
@@ -1236,6 +1440,14 @@ research:
     points: 70
     dependencies:
       - STR_IMPROVED_METALURGIC_TECHNIQUES
+      
+  - name: STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
+    cost: 700
+    points: 20
+    dependencies:
+      - STR_IMPROVED_METALURGIC_TECHNIQUES
+      - STR_MARTIAN_METAL_REPLICATION
+      
   - name: STR_HUMAN_CHEMICAL_WEAPONS
     #    listOrder: 902
     cost: 600
