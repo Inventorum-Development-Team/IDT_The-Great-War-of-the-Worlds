@@ -219,6 +219,12 @@ research:
       - STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
       - STR_FRONTLINES_FIELD_REPORT
       
+  - name: STR_NEMESIS_WALKER_RESEARCH
+    cost: 100
+    points: 50
+    dependencies:
+      - STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
+      - STR_FRONTLINES_FIELD_REPORT
 ##################################
 
   - name: STR_NORTH_AMERICAN_CAMPAIGN
