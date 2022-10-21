@@ -173,7 +173,7 @@ crafts:
     score: 40
     #listOrder: 850
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
 
   - type: STR_AIRCO_DH2
     sprite: 102
@@ -204,7 +204,7 @@ crafts:
     score: 40
     #listOrder: 850
     requires:
-      - STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
+      - STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
 #################################
 # TIER 1
   - type: STR_NIEUPORT_17
@@ -238,7 +238,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_FRENCH_FIGHTER_OPTION_A
+      - STR_FRENCH_FIGHTER_OPTION_A
 
   - type: STR_SOPWITH_PUP
     sprite: 104
@@ -272,7 +272,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_BRITISH_SCOUT_OPTION_B
+      - STR_BRITISH_SCOUT_OPTION_B
 
   - type: STR_ALBATROS_DIII
     sprite: 105
@@ -305,7 +305,7 @@ crafts:
     score: 40
     #listOrder: 850
     requires:
-      - STR_GERMAN_FIGHTER_OPTION_C
+      - STR_GERMAN_FIGHTER_OPTION_C
 
 #################################
 # TIER 2
@@ -341,7 +341,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
+      - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
 
   - type: STR_ROYAL_AIRCRAFT_SE5A
     sprite: 107
@@ -375,7 +375,7 @@ crafts:
     score: 40
     #listOrder: 850
     requires:
-      - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
+      - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
 
   - type: STR_FOKKER_DR1
     sprite: 108
@@ -408,7 +408,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_GERMAN_IMPROVED_FIGHTER_OPTION_C
+      - STR_GERMAN_IMPROVED_FIGHTER_OPTION_C
 #########################################
 
 #############################
@@ -449,7 +449,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
+      - STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
 
   - type: STR_HALBERSTADT_CLII
     sprite: 125
@@ -485,7 +485,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_GERMAN_ATTACK_PLANE_OPTION_B
+      - STR_GERMAN_ATTACK_PLANE_OPTION_B
 
   - type: STR_HANDLEY_PAGE_TYPE_O
     sprite: 126
@@ -519,7 +519,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_BRITISH_BOMBER_OPTION_C
+      - STR_BRITISH_BOMBER_OPTION_C
 
 ###########################
 # TIER 2
@@ -556,7 +556,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A
+      - STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A
 
   - type: STR_CAPRIONI_CA5
     sprite: 128
@@ -590,7 +590,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
+      - STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
 
   - type: STR_BRISTOL_F2B
     sprite: 129
@@ -624,7 +624,7 @@ crafts:
     score: 400
     #listOrder: 850
     requires:
-      - STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
+      - STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
 
 #########################
 ####### LANDSHIP #######
@@ -694,7 +694,7 @@ crafts:
       - [4, 16, 0, 0]
     #listOrder: 800
     requires:
-      - STR_LANDSHIP_RESEARCH    
+      - STR_LANDSHIP_RESEARCH
 
 ############################
 ######## AIRSHIPS #########
@@ -750,7 +750,7 @@ crafts:
               - position: [3, 14, 6]
                 amount: 5
                 mixed: true
-                itemList: h[STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [4, 2, 6]
     deployment:
 # Frontal gondola
@@ -807,7 +807,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_AERIAL_BEHEMOTH_RESEARCH
+      - STR_AERIAL_BEHEMOTH_RESEARCH
     battlescapeTerrainData:
       name: R_CLASS_ZEPPELIN
       mapDataSets:
@@ -893,7 +893,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_PHALANX
       mapDataSets:
@@ -1001,7 +1001,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_LEGIONNAIRE
       mapDataSets:
@@ -1077,7 +1077,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_TESTUDO
       mapDataSets:
@@ -1172,7 +1172,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_CENTURION
       mapDataSets:
@@ -1254,7 +1254,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_PRAETORIAN
       mapDataSets:
