@@ -25,7 +25,7 @@ research:
     cost: 600
     points: 200
 
- - name: STR_HEAVY_SUPPORT_SHIPS
+  - name: STR_HEAVY_SUPPORT_SHIPS
     cost: 600
     points: 200
 
