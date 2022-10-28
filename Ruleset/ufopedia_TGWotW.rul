@@ -2213,6 +2213,8 @@ ufopaedia:
       width: 205
       height: 80
     listOrder: 30200
+    requires:
+      - STR_LANDSHIP_RESEARCH
 
   - id: STR_FOKKER_EINDECKER
     type_id: 1
@@ -2231,6 +2233,8 @@ ufopaedia:
       height: 80
     image_id: FOKKER_EINDECKER_UFOPEDIA
     listOrder: 30300
+    requires:
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
   - id: STR_AIRCO_DH2
     type_id: 1
     section: STR_VEHICLES
@@ -2248,6 +2252,8 @@ ufopaedia:
       height: 80
     image_id: AIRCO_DH2_UFOPEDIA
     listOrder: 30400
+    requires:
+      - STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
 
   - id: STR_NIEUPORT_17
     type_id: 1
@@ -2266,6 +2272,8 @@ ufopaedia:
       height: 80
     image_id: NIEUPORT_17_UFOPEDIA
     listOrder: 30500
+    requires:
+      - STR_FRENCH_FIGHTER_OPTION_A
   - id: STR_SOPWITH_PUP
     type_id: 1
     section: STR_VEHICLES
@@ -2283,6 +2291,8 @@ ufopaedia:
       height: 80
     image_id: SOPWITH_PUP_UFOPEDIA
     listOrder: 30600
+    requires:
+      - STR_BRITISH_SCOUT_OPTION_B
   - id: STR_ALBATROS_DIII
     type_id: 1
     section: STR_VEHICLES
@@ -2300,6 +2310,8 @@ ufopaedia:
       height: 80
     image_id: ALBATROS_DIII_UFOPEDIA
     listOrder: 30700
+    requires:
+      - STR_GERMAN_FIGHTER_OPTION_C
 
   - id: STR_SPAD
     type_id: 1
@@ -2318,6 +2330,8 @@ ufopaedia:
       height: 80
     image_id: SPAD.SPK
     listOrder: 30800
+    requires:
+      - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
   - id: STR_ROYAL_AIRCRAFT_SE5A
     type_id: 1
     section: STR_VEHICLES
@@ -2335,6 +2349,8 @@ ufopaedia:
       height: 80
     image_id: SE5A_UFOPEDIA
     listOrder: 30900
+    requires:
+      - STR_BRITISH_IMPROVED_SCOUT_OPTION_B
   - id: STR_FOKKER_DR1
     type_id: 1
     section: STR_VEHICLES
@@ -2352,6 +2368,8 @@ ufopaedia:
       height: 80
     image_id: FOKKER_DR1_UFOPEDIA
     listOrder: 31000
+    requires:
+      - STR_GERMAN_IMPROVED_FIGHTER_OPTION_C
 #######################################
   - id: STR_SIKORSKI_ILYA_MUROMETS
     type_id: 1
@@ -2370,6 +2388,8 @@ ufopaedia:
       height: 80
     image_id: ILYA_MUROMETS_UFOPEDIA
     listOrder: 31100
+    requires:
+      - STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
   - id: STR_HALBERSTADT_CLII
     type_id: 1
     section: STR_VEHICLES
@@ -2387,6 +2407,8 @@ ufopaedia:
       height: 80
     image_id: HALBERSTADT_UFOPEDIA
     listOrder: 31200
+    requires:
+      - STR_GERMAN_ATTACK_PLANE_OPTION_B
   - id: STR_HANDLEY_PAGE_TYPE_O
     type_id: 1
     section: STR_VEHICLES
@@ -2404,6 +2426,8 @@ ufopaedia:
       height: 80
     image_id: HANDLEY_PAGE_TYPE_O_UFOPEDIA
     listOrder: 31300
+    requires:
+      - STR_BRITISH_BOMBER_OPTION_C
 
   - id: STR_ZEPPELIN_STAAKEN_RVI
     type_id: 1
@@ -2422,6 +2446,8 @@ ufopaedia:
       height: 80
     image_id: ZEPPELIN_STAAKEN_RVI_UFOPEDIA
     listOrder: 31400
+    requires:
+      - STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A
   - id: STR_CAPRIONI_CA5
     type_id: 1
     section: STR_VEHICLES
@@ -2439,6 +2465,8 @@ ufopaedia:
       height: 80
     image_id: CAPRIONI_CA5_UFOPEDIA
     listOrder: 31500
+    requires:
+      - STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
   - id: STR_BRISTOL_F2B
     type_id: 1
     section: STR_VEHICLES
@@ -2456,6 +2484,8 @@ ufopaedia:
       height: 80
     image_id: BRISTOL_F2B_UFOPEDIA
     listOrder: 31600
+    requires:
+      - STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
 ####################################
   - id: STR_RCLASS_AIRSHIP
     type_id: 1
@@ -2474,6 +2504,8 @@ ufopaedia:
       height: 80
     image_id: RCLASS_AIRSHIP.SPK
     listOrder: 31700
+    requires:
+      - STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
   - id: STR_CCLASS_AIRSHIP
     type_id: 1
     section: STR_VEHICLES
@@ -2491,7 +2523,7 @@ ufopaedia:
       height: 80
     image_id: CCLASS_AIRSHIP_UFOPEDIA
     listOrder: 31800
-##################################
+#################################
   - id: STR_TWIN_HMG
     type_id: 2
     section: STR_VEHICLE_WEAPONS
