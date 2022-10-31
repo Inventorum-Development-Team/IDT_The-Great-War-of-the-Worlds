@@ -1534,7 +1534,7 @@ en-US:
       STR_LEGIONNAIRE_MECH_UFOPEDIA: "Light walker. Nicknamed 'Mechanized Chicken' for its appearance, it is fast and light. Perfect for ambushing."
 
       STR_PHALANX_MECH: "PHALANX"
-      STR_PHALANX_MECH_UFOPEDIA: "Medium walker, focused on transporting troops and supplies. His powerful legs allow him to traverse all types of terrain."
+      STR_PHALANX_MECH_UFOPEDIA: "Medium walker, focused on transporting troops and supplies. His powerful legs allow it to traverse all types of terrain."
 
       STR_CENTURION_MECH: "CENTURION"
       STR_CENTURION_MECH_UFOPEDIA: "Heavy walker, designed to fight against medium and light Tripods. Features additional frontal armor."
@@ -1554,18 +1554,19 @@ en-US:
 ######### VEHICLE WEAPONS ###########
 ####################################
       STR_VICKERS_MMG: "VICKERS MMG"
-      STR_VICKERS_MMG_UFOPEDIA:
+      STR_VICKERS_MMG_UFOPEDIA: "A British -made version of the Maxim Gun. Lighter and very reliable and capable of firing hundreds of thousands of rounds non-stop."
       STR_VICKERS_MMG_LAUNCHER: "Vickers MMG"
       STR_TWIN_HMG: "TWIN SPANDAU HMG"
-      STR_TWIN_HMG_UFOPEDIA: "DUAL MOUNTED AIR-COOLED SPANDAU IMG-08 MACHINE GUNS, FEATURES A VERY HIGH RATE OF FIRE, ALTHOUGH THE AMMO USED IS RATHER WEAK."
+      STR_TWIN_HMG_UFOPEDIA: "Another derivative of the machine gun invented by Hiram Maxim. This German-made heavy machine gun features perforations in the jacket to allow air flow for colling while still retaining sufficient strength for the recoil of the mechanism."
       STR_TWIN_HMG_LAUNCHER: "Twin Spandau HMG"
       STR_TWIN_HMG_ROUNDS_X50: "Twin HMG Rounds (x50)"
       STR_50CAL_BROWNING_HMG: "TWIN .50 CAL BROWNING HMG"
-      STR_50CAL_BROWNING_HMG_UFOPEDIA: "Larger and more powerful version of the .30 MMG also concieved by John M. Browning. Fires 12.7mm high-powered rounds at longer range than other machine guns. "
+      STR_50CAL_BROWNING_HMG_LAUNCHER: "Twin .50cal Browning HMG"
+      STR_50CAL_BROWNING_HMG_UFOPEDIA: "Larger and more powerful version of the .30 MMG also concieved by John M. Browning. Fires 12.7mm high-powered rounds at longer range than other machine guns."
 
-      STR_303_LEWIS_TURRET: ".303 LEWIS TURRET"
-      STR_303_LEWIS_TURRET_UFOPEDIA: "Vehicle-mounted version of the Lewis Gun, it has the wooden stock replaced with a handle, and a larger ammo pan."
-      STR_303_LEWIS_TURRET_LAUNCHER: ".303 Lewis Turret"
+      STR_LEWIS_303_TURRET: ".303 LEWIS TURRET"
+      STR_LEWIS_303_TURRET_UFOPEDIA: "Vehicle-mounted version of the Lewis Gun, it has the wooden stock replaced with a handle, and a larger ammo pan."
+      STR_LEWIS_303_TURRET_LAUNCHER: ".303 Lewis Turret"
       STR_30CAL_BROWNING_TURRET: "TWIN .30 CAL BROWNING TURRET"
       STR_30CAL_BROWNING_TURRET_UFOPEDIA: "A modern American air-cooled medium machine gun firing .30-06 rounds, it has a large rate of fire."
       STR_30CAL_BROWNING_TURRET_LAUNCHER: "Twin .30cal Browning Turret"
@@ -1619,38 +1620,52 @@ en-US:
       STR_GUIDED_ROCKETS_UFOPEDIA: "The latest application of human reverse engineering research. A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty HE warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its major drawbacks are the cost of the system and the limited operational range."
       STR_GUIDED_ROCKETS_LAUNCHER: "Guided Rockets Rack (x2)"
 
-      STR_6_PDR_VEHICLE_CANNON:
+      STR_6_PDR_VEHICLE_CANNON: 
       STR_6_PDR_VEHICLE_CANNON_UFOPEDIA:
       STR_6_PDR_VEHICLE_CANNON_LAUNCHER:
 
       STR_8_8_CM_FLAK_VEHICLE_CANNON:
       STR_8_8_CM_FLAK_VEHICLE_CANNON_UFOPEDIA:
 
-      STR_AUX_HEAT_RAY_MK1: "AIRCRAFT HEAT-RAY PROJECTOR MK.I"
+      STR_AUX_HEAT_RAY_MK1: "CRAFT HEAT-RAY PROJECTOR MK.I"
       STR_AUX_HEAT_RAY_MK1_UFOPEDIA: "A reverse-engineered version of the Light Heat-Ray Projector Turrets found among the wrecked Tripods all over England. It's a powerful weapon, but the low quality of the magnification lenses limits the effective range."
-      STR_AUX_HEAT_RAY_MK1_LAUNCHER: "Aircraft Heat-Ray Projector Mk.I"
-      STR_AUX_HEAT_RAY_MK2: "AIRCRAFT HEAT-RAY PROJECTOR MK.II"
+      STR_AUX_HEAT_RAY_MK1_LAUNCHER: "Craft Heat-Ray Projector Mk.I"
+      STR_AUX_HEAT_RAY_MK2: "CRAFT HEAT-RAY PROJECTOR MK.II"
       STR_AUX_HEAT_RAY_MK2_UFOPEDIA: "When the Great War began, it was obvious the enemy had better weapons and more vehicles. The H-R Projectors found aboard the Flying-Machines are lighter and energy efficient. This is a reverse-engineered version of the standard Martian aircraft-mounted gun."
-      STR_AUX_HEAT_RAY_MK2_LAUNCHER: "Aircraft Heat-Ray Projector Mk.II"
-      STR_AUX_HEAT_RAY_MK3: "AIRCRAFT HEAT-RAY PROJECTOR MK.III"
+      STR_AUX_HEAT_RAY_MK2_LAUNCHER: "Craft Heat-Ray Projector Mk.II"
+      STR_AUX_HEAT_RAY_MK3: "CRAFT HEAT-RAY PROJECTOR MK.III"
       STR_AUX_HEAT_RAY_MK3_UFOPEDIA: "The latest advancement in airborne Heat-Ray weapons developed by the Martians was made ours, as we were able to reverse-engineered it. Better thermal energy projection at larger range, with the downside of having less discharges per battery."
-      STR_AUX_HEAT_RAY_MK3_LAUNCHER: "Aircraft Heat-Ray Projector Mk.III"
+      STR_AUX_HEAT_RAY_MK3_LAUNCHER: "Craft Heat-Ray Projector Mk.III"
 
-      STR_VEHICLE_QF_6_PDR_TURRET: "QF 6-PDR VEHICLE TURRET"
+      STR_VEHICLE_QF_6_PDR_TURRET: "VEHICLE QF 6-PDR TURRET"
       STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA: "A very popular 6-pounder (57mm) artillery turret, adapted from a naval gun. The barrel was reduced to fit the limited size of the ground vehicles, which reduced the range and power of the shells. However, it remains versatile enough."
-      STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER: "QF 6-pdr Vehicle Turret"
-      STR_VEHICLE_QF_6_PDR_TURRET_ITEM: "QF 6-pdr Vehicle Turret"
-      STR_VEHICLE_8_8CM_TURRET: "8,8CM FLAK VEHICLE TURRET"
-      STR_VEHICLE_8_8CM_TURRET_UFOPEDIA: "Nicknamed by the Germans as 'Acht-Acht', it was originally concieved to be used as anti-air artillery. It was quickly found it's best used against ground targets for its enhanced armor penetration. "
-      STR_VEHICLE_8_8CM_TURRET_LAUNCHER: "8,8cm FlaK Vehicle Turret"
-      STR_VEHICLE_8_8CM_TURRET_ITEM: "8,8cm FlaK Vehicle Turret"
+      STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER: "Vehicle QF 6-pdr Turret"
+      STR_VEHICLE_QF_6_PDR_TURRET_ITEM: "Vehicle QF 6-pdr Turret"
+      STR_VEHICLE_8_8CM_TURRET: "VEHICLE 8,8CM FLAK TURRET"
+      STR_VEHICLE_8_8CM_TURRET_UFOPEDIA: "Nicknamed by the Germans as 'Acht-Acht', it was originally concieved to be used as anti-air artillery. It was quickly found it's best used against ground targets for its enhanced armor penetration and good accuracy at long ranges. "
+      STR_VEHICLE_8_8CM_TURRET_LAUNCHER: "Vehicle 8,8cm FlaK Turret"
+      STR_VEHICLE_8_8CM_TURRET_ITEM: "Vehicle 8,8cm FlaK Turret"
       STR_VEHICLE_HEAT_RAY_TURRET: "VEHICLE HEAT-RAY PROJECTOR TURRET MK.X"
       STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The extended cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy."
       STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER: "Vehicle Heat-Ray Projector Turret Mk.X"
       STR_VEHICLE_HEAT_RAY_TURRET_ITEM: "Vehicle Heat-Ray Projector Turret Mk.X"
 
 
-      STR_AUX_ROCKET_TURBINE:
+      STR_AUX_FUEL_TANK: "AUX EXTRA FUEL"
+      STR_AUX_FUEL_TANK_UFOPEDIA: "Additional aviation fuel for longer operative range. It can be carried inside the aircraft in large cans or mounted outside in aerodynamic tanks. Increases the {ALT}maxFuel{ALT} by 100 but reduces the {ALT}speedMax{ALT} by {ALT}25{ALT} and the {ALT} acceleration{ALT} by {ALT}1{ALT}"
+      STR_AUX_FUEL_TANK_LAUNCHER: "AUX Extra Fuel"
+      STR_AUX_ROCKET_TURBINE: "AUX ROCKET TURBINE"
+      STR_AUX_ROCKET_TURBINE_UFOPEDIA: "A highly experimental jet engine mounted below the airframe of the craft. Invented by Maxime Guillaume, it compresses the air inside, then injects it with fuel and the exceeding thrust greatly increases the {ALT}acceleration{ALT} of the craft by {ALT}2{ALT} and the {ALT}speedMax{ALT} by {ALT}100, at the cost of reducing the {ALT}maxFuel{ALT} by {ALT}50{ALT}"
+      STR_AUX_ROCKET_TURBINE_LAUNCHER: "AUX Rocket Turbine"
+      STR_AUX_TARGETING_SIGHTS: "AUX TARGETING SIGHTS"
+      STR_AUX_TARGETING_SIGHTS_UFOPEDIA: "Specialized optical equipment carried onboard. Based on the craft where its mounted, it could be a bomb sight for accurate ground attack runs or a forward telescope, to aim for distant targets. Increases the {ALT} accuracy {AALT by {ALT}25{ALT}."
+      STR_AUX_TARGETING_SIGHTS_LAUNCHER:
+      STR_AUX_ARMOR_PLATES: "AUX ARMOR PLATES"
+      STR_AUX_ARMOR_PLATES_UFOPEDIA: "By adding and wielding Tunguskium plates on strategic locations onboard the vehicle, the total HPs are increased by 100. This improves the surviving chances of the craft and the crew."
+      STR_AUX_ARMOR_PLATES_LAUNCHER: "AUX Armor Plates"
+      STR_AUX_KMM_ROUNDS: "AUX K-MM ROUNDS"
+      STR_AUX_KMM_ROUNDS_UFOPEDIA: "By replacing all the standard bullets and shells onboard by K-MM high-penetration equivalents made of Tunguskium, the damage output is increased by 20, for all the currently equipped weapons."
+      STR_AUX_KMM_ROUNDS_LAUNCHER: "AUX K-MM Rounds"
 
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
       STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
