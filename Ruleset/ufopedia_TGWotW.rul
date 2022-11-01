@@ -2524,20 +2524,72 @@ ufopaedia:
     image_id: CCLASS_AIRSHIP_UFOPEDIA
     listOrder: 31800
 #################################
+  - id: STR_VICKERS_MMG
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: TWIN_HMG
+    text: STR_VICKERS_MMG_UFOPEDIA
+    listOrder: 40000
+    ##listOrder: 801
   - id: STR_TWIN_HMG
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: TWIN_HMG
     text: STR_TWIN_HMG_UFOPEDIA
-    listOrder: 40000
+    listOrder: 40010
+  - id: STR_50CAL_BROWNING_HMG
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: TWIN_HMG
+    text: STR_50CAL_BROWNING_HMG_UFOPEDIA
+    listOrder: 40020
+    ##listOrder: 801    
     ##listOrder: 801
+    
+  - id: STR_LEWIS_303_TURRET
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: AUTOCANNON
+    text: STR_LEWIS_303_TURRET_UFOPEDIA
+    listOrder: 40050
+  - id: STR_30CAL_BROWNING_TURRET
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: AUTOCANNON
+    text: STR_30CAL_BROWNING_TURRET_UFOPEDIA
+    listOrder: 40060
+    ##listOrder: 802    
+    ##listOrder: 802
+  - id: STR_303_VICKERS_K_TURRET
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: AUTOCANNON
+    text: STR_303_VICKERS_K_TURRET_UFOPEDIA
+    listOrder: 40070
+    ##listOrder: 802
+    
+  - id: STR_BECKER_2CM_CANNON
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: AUTOCANNON
+    text: STR_BECKER_2CM_CANNON_UFOPEDIA
+    listOrder: 40100
+    ##listOrder: 802    
   - id: STR_AUTOCANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: AUTOCANNON
     text: STR_AUTOCANNON_UFOPEDIA
-    listOrder: 40100
+    listOrder: 40110
     ##listOrder: 802
+  - id: STR_VICKERS_S_40MM_AUTOCANNON
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: AUTOCANNON
+    text: STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA
+    listOrder: 40120
+    ##listOrder: 802
+    
   - id: STR_QF_1_PDR_POMPOM
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2545,12 +2597,70 @@ ufopaedia:
     text: STR_QF_1_PDR_POMPOM_UFOPEDIA
     listOrder: 40200
     ##listOrder: 803
+  - id: STR_37MM_CANNON
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_37MM_CANNON_UFOPEDIA
+    listOrder: 40210
+    ##listOrder: 803
+  - id: STR_75MM_CANNON
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_75MM_CANNON_UFOPEDIA
+    listOrder: 40220
+    ##listOrder: 803
+    
   - id: STR_FRAGMENTATION_BOMB
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: FRAG_BOMB
     text: STR_FRAGMENTATION_BOMB_UFOPEDIA
     listOrder: 40300
+    ##listOrder: 803
+  - id: STR_HE_BOMB
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_HE_BOMB_UFOPEDIA
+    listOrder: 40310
+    ##listOrder: 803
+  - id: STR_CLUSTER_BOMB
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_CLUSTER_BOMB_UFOPEDIA
+    listOrder: 40320
+    ##listOrder: 803
+
+  - id: STR_LE_PRIEUR_ROCKETS
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_LE_PRIEUR_ROCKETS_UFOPEDIA
+    listOrder: 40400
+    ##listOrder: 803    
+  - id: STR_CLUSTER_ROCKETS
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_CLUSTER_ROCKETS_UFOPEDIA
+    listOrder: 40410
+    ##listOrder: 803
+  - id: STR_MAGNETIC_ROCKETS
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_MAGNETIC_ROCKETS_UFOPEDIA
+    listOrder: 40420
+    ##listOrder: 803    
+  - id: STR_GUIDED_ROCKETS
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_GUIDED_ROCKETS_UFOPEDIA
+    listOrder: 40430
     ##listOrder: 803
 
 ################################
