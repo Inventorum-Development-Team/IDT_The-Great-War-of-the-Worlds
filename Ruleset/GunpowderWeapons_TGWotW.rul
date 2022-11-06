@@ -2927,8 +2927,8 @@ items:
         STR_LIGHT_EQUIPMENT,
         STR_CLIPS,
       ]
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
+    requiresBuy:
+      - STR_M1907_SL_CARBINE_KMM_AMMO_UNLOCK
     size: 0.025
     costBuy: 50
     costSell: 40
