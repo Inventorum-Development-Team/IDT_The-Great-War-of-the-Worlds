@@ -766,6 +766,7 @@ en-US:
       STR_PHLOGISTON_PISTOL_UFOPEDIA: Built as a light and effective sidearm based around the ruby rod beam tech. After several tries, it was found the energy mechanisms fitted inside a large handgun like the Colt M1911. Subsequent models used the blueprints of the handgun as basis. The barrel slits gets illuminated once the battery charges the beam emitter.
       STR_PHLOGISTON_SMALL_BATTERY: Phlogiston Small Battery
 
+      STR_TRANQUILIZER_SHOTGUN_PROJECT: "Tranquilizer Gun Project"
       STR_TRANQUILIZER_RIFLE: "Tranquilizer Gun"
       STR_TRANQUILIZER_SHOTGUN_DARTS: "Tranquilizer Dart-Shells"
       STR_TRANQUILIZER_RIFLE_UFOPEDIA: "A special purpose single-shot, break-action shotgun, designed to shoot blank shells with highly experimental darts filled with a clasified chemical compound inside, meant to incapacitate Martians. The darts have a syringe-like point that penetrates the thick skin of the Grays. The main drawback is the limited range of the dart once fired and the fact the enemy may take several shots to sedate, as we are unaware of the exact measure of chemicals required to fully knock them down."
@@ -879,6 +880,37 @@ en-US:
       STR_TESLA_AUTOCANNON: "Tesla 'Hailstorm' Cannon"
       STR_TESLA_HEAVY_BATTERY: "Tesla Heavy Battery"
       STR_TESLA_AUTOCANNON_UFOPEDIA: "The most powerful infantry Electric weapon, planned to be used as a heavy support weapon. The highly powerful discharge can fry armored enemies with ease. The major drawback is the limited range."
+########################################
+
+      STR_BRITISH_EQUIPMENT_SELECTION: "British Equipment Selection"
+      STR_BRITISH_WEAPONS_T1: "British Weapons I"
+      STR_BRITISH_WEAPONS_T2: "British Weapons I"
+      STR_AMERICAN_EQUIPMENT_SELECTION: "American Equipment Selection"
+      STR_AMERICAN_WEAPONS_T1: "American Weapons I"
+      STR_AMERICAN_WEAPONS_T2: "American Weapons I"
+      STR_GERMAN_EQUIPMENT_SELECTION: "German Equipment Selection"
+      STR_GERMAN_WEAPONS_T1: "German Weapons I"
+      STR_GERMAN_WEAPONS_T2: "German Weapons I"
+      STR_FRENCH_EQUIPMENT_SELECTION: "French Equipment Selection"
+      STR_FRENCH_WEAPONS_T1: "French Weapons I"
+      STR_FRENCH_WEAPONS_T2: "French Weapons I"
+      STR_ITALIAN_EQUIPMENT_SELECTION: "Italian Equipment Selection"
+      STR_ITALIAN_WEAPONS_T1: "Italian Weapons I"
+      STR_ITALIAN_WEAPONS_T2: "Italian Weapons I"
+      STR_RUSSIAN_EQUIPMENT_SELECTION: "Russian Equipment Selection"
+      STR_RUSSIAN_WEAPONS_T1: "Russian Weapons I"
+      STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION: "Russian - Imperial Guard Selection"
+      STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2: "Imperial Guard Weapons I"
+      STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION: "Russian - Cossack Equipment Selection"
+      STR_RUSSIAN_COSSACK_WEAPONS_T2: "Cossack Weapons I"
+      STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION: "Russian - Czech Legion Selection"
+      STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2: "Czech Legion Weapons I"
+
+
+
+########################################
+
+
       ##########################################
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
@@ -1401,6 +1433,8 @@ en-US:
 ######### LEADERS AND MISC KNOWLEDGE ###########
 ###############################################
 
+      STR_ALIENS_ONLY: "Martians Only"
+
       STR_LEADER_INTEL_1: "Leader Intel I - Martian Army"
       STR_LEADER_INTEL_1_UFOPEDIA: "The Tripods that attacked England at the turn of the last century turned out to be simple exploration machines. By the time the enemy launched the global attack in 1911, we realized that there were far worse Martian machines. However, unlike the First Invasion, there is a significant reduction of armored elements in the enemy armies. And on the contrary, there are more infantry deployed. The captured leader didn't gave us any more information, but it seems that Tripods are expensive and difficult to maintain."
       STR_LEADER_INTEL_2: "Leader Intel II - Operational thinking"
@@ -1546,13 +1580,82 @@ en-US:
       STR_PRAETORIAN_MECH_UFOPEDIA: "Heavy Walker. Designed to take on heavy Tripods and win the duel. Its legs are impossible to destroy by conventional means."
 
 
+      STR_FORWARD_FIRING_AIRCRAFT_RESEARCH: "Forward-firing Aircraft Research"
 
+      STR_HEAVY_SUPPORT_SHIPS: "Heavy Support Vehicles"
+      STR_HEAVY_SUPPORT_SHIPS_UFOPEDIA: "The war against an enemy as well equipped as the Martians often involve the incorporation of heavier units along the regular infantry. Airships, armored trains and even naval vessels (when the combat is close enough to the shore) can actively engage the enemy's forces and at the same time, greatly increasing the survival rates of the infantry. While expensive to field and maintain, the so called 'behemoths' can often be able to destroy light enemy vehicles and endure more severe punishment from heavier Tripods. "
 
+      STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A: "British Forward-firing Aircraft A"
+      STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B: "German Forward-firing Aircraft B"
+
+      STR_MECHANIZED_WARFARE_RESEARCH: "Mechanized Warfare"
+      STR_MECHANIZED_WARFARE_RESEARCH_UFOPEDIA: "The years of static warfare is usually broken by the unexpected attack of a Martian vehicle. In order to bolster our defenses and put us on equal terms, the Coalition have agreed on beginning the deployment of more advanced combat vehicles, aimed at breaking the perpetual stalemate of trench warfare. The combined arms theory, whose main advocate is Sir John Monash (commander of the ANZAC troops), involves the joint cooperation of infantry, aircrafts and combat vehicles to break the enemy's resistance and supporting each other. This is the future of warfare."
+      STR_LANDSHIP_RESEARCH: "Landship Research"
+      STR_COMBAT_WALKER_RESEARCH: "Combat Walker Research"
+      STR_HUNTER_SCOUT_RESEARCH: "Hunter/Scout Research"
+      STR_BOMBER_ATTACK_CRAFT_RESEARCH: "Bomber/Attack Plane Research"
+
+      STR_FRENCH_FIGHTER_OPTION_A: "French Hunter A"
+      STR_BRITISH_SCOUT_OPTION_B: "British Scout B"
+      STR_GERMAN_FIGHTER_OPTION_C: "German Fighter C"
+
+      STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A: "Russian Stategic Bomber A"
+      STR_GERMAN_ATTACK_PLANE_OPTION_B: "German Attack Plane B"
+      STR_BRITISH_BOMBER_OPTION_C: "British Bomber C"
+
+      STR_AERIAL_BEHEMOTH_RESEARCH: "Aerial 'Behemoth' Support"
+      STR_AERIAL_BEHEMOTH_RESEARCH_UFOPEDIA: "The most proven and reliable air vehicle, the airship, serves both as a transport medium and a weapons platform. The steady structure allows the Coalition's Navies to carry and employ medium to heavy naval ordnance, deep inland. Our current combat airships are useful against the Martians, but we need a larger and more powerful war airship. The Coalition has agreed on lend us state-of-the-art R-Class Zeppelins, for our use. Heavily armed and with a decent troop capacity, could patrol the skies and intercept hostiles, then deploy infantry in a matter of minutes."
+
+      STR_IMPROVED_ARMORED_VEHICLES_RESEARCH: "Improved Armored Vehicles Research"
+      STR_IMPROVED_ARMORED_VEHICLES_RESEARCH_UFOPEDIA: "The reports of the vehicle crews and the infantry fighting alongside us in the frontlines report us of the great advantage of using 'metal beasts'. Both a tactical advancement and a morale boost, the soldiers feel more confident when an armored vehicle is near them. However, the casualties due poorly protected vehicles are alarming. Based on our technical reports about the practical applications of Martian Metal in military vehicles, we send our conclusion to the Coalition, hoping they begin employing the Martian alloy in our own equipment, making it more resistant to damage. "
+
+      STR_IMPROVED_LANDSHIP_RESEARCH: "Improved Landcruiser Research"
+      STR_IMPROVED_COMBAT_WALKER_RESEARCH: "Improved Combat Walker Research"
+      STR_IMPROVED_MULTIROLE_WALKER_RESEARCH: "Multirole Walker Research"
+      STR_IMPROVED_HUNTER_SCOUT_RESEARCH: "Improved Hunter/Scout Research"
+      STR_FRENCH_IMPROVED_FIGHTER_OPTION_A: "French Improved Fighter A"
+      STR_BRITISH_IMPROVED_SCOUT_OPTION_B: "British Improved Scout B"
+      STR_GERMAN_IMPROVED_FIGHTER_OPTION_C: "German Improved Fighter C"
+      STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH: "Improved Bomber/Attack Plane Research"
+      STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A: ""
+      STR_ITALIAN_IMPROVED_BOMBER_OPTION_B:
+      STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C:
+
+      STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH:
+      STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH_UFOPEDIA:
+
+      STR_NEMESIS_WALKER_RESEARCH:
 
 
 ######################################
 ######### VEHICLE WEAPONS ###########
 ####################################
+      STR_FORWARD_MACHINE_GUN_T1_RESEARCH: "Offensive Machine Gun Research I"
+      STR_FORWARD_MACHINE_GUN_T2_RESEARCH: "Offensive Machine Gun Research II"
+      STR_FORWARD_MACHINE_GUN_T3_RESEARCH: "Offensive Machine Gun Research III"
+
+      STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH: "Defensive Machine Gun Research I"
+      STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH: "Defensive Machine Gun Research I"
+      STR_DEFENSIVE_MACHINE_GUN_T3_RESEARCH: "Defensive Machine Gun Research I"
+
+      STR_AUTOCANNON_T1_RESEARCH: "Autocannon Research I"
+      STR_AUTOCANNON_T2_RESEARCH: "Autocannon Research II"
+      STR_AUTOCANNON_T3_RESEARCH: "Autocannon Research III"
+
+      STR_CANNON_T1_RESEARCH: "Cannon Research I"
+      STR_CANNON_T2_RESEARCH: "Cannon Research II"
+      STR_CANNON_T3_RESEARCH: "Cannon Research III"
+
+      STR_BOMBS_T1_RESEARCH: "Bombs Research I"
+      STR_BOMBS_T2_RESEARCH: "Bombs Research II"
+      STR_BOMBS_T3_RESEARCH: "Bombs Research III"
+
+      STR_ROCKETS_T1_RESEARCH: "Rockets Research I"
+      STR_ROCKETS_T2_RESEARCH: "Rockets Research II"
+      STR_ROCKETS_T3_RESEARCH: "Rockets Research III"
+      STR_ROCKETS_T4_RESEARCH: "Rockets Research IV"
+
+
       STR_VICKERS_MMG: "VICKERS MMG"
       STR_VICKERS_MMG_UFOPEDIA: "A British -made version of the Maxim Gun. Lighter and very reliable and capable of firing hundreds of thousands of rounds non-stop."
       STR_VICKERS_MMG_LAUNCHER: "Vickers MMG"
@@ -1620,13 +1723,6 @@ en-US:
       STR_GUIDED_ROCKETS_UFOPEDIA: "The latest application of human reverse engineering research. A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty HE warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its major drawbacks are the cost of the system and the limited operational range."
       STR_GUIDED_ROCKETS_LAUNCHER: "Guided Rockets Rack (x2)"
 
-      STR_6_PDR_VEHICLE_CANNON: 
-      STR_6_PDR_VEHICLE_CANNON_UFOPEDIA:
-      STR_6_PDR_VEHICLE_CANNON_LAUNCHER:
-
-      STR_8_8_CM_FLAK_VEHICLE_CANNON:
-      STR_8_8_CM_FLAK_VEHICLE_CANNON_UFOPEDIA:
-
       STR_AUX_HEAT_RAY_MK1: "CRAFT HEAT-RAY PROJECTOR MK.I"
       STR_AUX_HEAT_RAY_MK1_UFOPEDIA: "A reverse-engineered version of the Light Heat-Ray Projector Turrets found among the wrecked Tripods all over England. It's a powerful weapon, but the low quality of the magnification lenses limits the effective range."
       STR_AUX_HEAT_RAY_MK1_LAUNCHER: "Craft Heat-Ray Projector Mk.I"
@@ -1659,7 +1755,7 @@ en-US:
       STR_AUX_ROCKET_TURBINE_LAUNCHER: "AUX Rocket Turbine"
       STR_AUX_TARGETING_SIGHTS: "AUX TARGETING SIGHTS"
       STR_AUX_TARGETING_SIGHTS_UFOPEDIA: "Specialized optical equipment carried onboard. Based on the craft where its mounted, it could be a bomb sight for accurate ground attack runs or a forward telescope, to aim for distant targets. Increases the {ALT} accuracy {AALT by {ALT}25{ALT}."
-      STR_AUX_TARGETING_SIGHTS_LAUNCHER:
+      STR_AUX_TARGETING_SIGHTS_LAUNCHER: "AUX Targeting Sights"
       STR_AUX_ARMOR_PLATES: "AUX ARMOR PLATES"
       STR_AUX_ARMOR_PLATES_UFOPEDIA: "By adding and wielding Tunguskium plates on strategic locations onboard the vehicle, the total HPs are increased by 100. This improves the surviving chances of the craft and the crew."
       STR_AUX_ARMOR_PLATES_LAUNCHER: "AUX Armor Plates"
