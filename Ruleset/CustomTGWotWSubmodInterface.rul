@@ -23,6 +23,27 @@ interfaces: #done
         color: -1
         color2: -1
         border: 0
+  - type: newBattleMenu
+    backgroundImage: BACK01.SCR
+    elements:
+      - id: palette
+        color: 0     # brown
+      - id: window
+        color: 100   # grey
+      - id: heading
+        color: 133   # minty green
+      - id: text
+        color: 180 # purple
+      - id: frames
+        color: 239   # bright green
+      - id: button1
+        color: 246   # grey
+      - id: button2
+        color: 100   # grey
+      - id: list
+        color: 100
+        color2: 180 # 300 yellowinvert
+        border: 180  # purple
   - type: newGameMenu
     elements:
       - id: palette
@@ -729,6 +750,26 @@ interfaces: #done
       - id: errorMessage
         color: 245   # bright green
   - type: articleArmor
+    elements:
+      - id: button
+        color: 66    # orange
+      - id: text
+        color: 8   # 239 grey
+        color2: 71  # 244 light blue
+      - id: list
+        color: 6   # 55 seems good green
+        color2: 71  # light blue
+  - type: articleText
+    elements:
+      - id: button
+        color: 66    # orange
+      - id: text
+        color: 8   # 239 grey
+        color2: 71  # 244 light blue
+      - id: list
+        color: 6   # 55 seems good green
+        color2: 71  # light blue
+  - type: articleTextImage
     elements:
       - id: button
         color: 66    # orange
