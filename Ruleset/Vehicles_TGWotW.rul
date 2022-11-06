@@ -892,8 +892,6 @@ crafts:
     radarChance: 10
     score: 400
     #listOrder: 118
-    requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_PHALANX
       mapDataSets:
@@ -1001,7 +999,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_COMBAT_WALKER_RESEARCH
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_LEGIONNAIRE
       mapDataSets:
@@ -1077,7 +1075,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_TESTUDO
       mapDataSets:
@@ -1172,7 +1170,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_CENTURION
       mapDataSets:
@@ -1254,7 +1252,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
+      - STR_NEMESIS_WALKER_RESEARCH
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_PRAETORIAN
       mapDataSets:
