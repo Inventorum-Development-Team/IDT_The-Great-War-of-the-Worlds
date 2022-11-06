@@ -67,7 +67,7 @@ research:
     points: 50
     dependencies:
       - STR_MECHANIZED_WARFARE_RESEARCH
-      
+
   - name: STR_COMBAT_WALKER_RESEARCH
     cost: 100
     points: 50
@@ -97,19 +97,19 @@ research:
     points: 20
     dependencies:
       - STR_HUNTER_SCOUT_RESEARCH
-      
+
   - name: STR_BOMBER_ATTACK_CRAFT_RESEARCH
     cost: 100
     points: 50
     dependencies:
-      - STR_MECHANIZED_WARFARE_RESEARCH  
- 
+      - STR_MECHANIZED_WARFARE_RESEARCH
+
   - name: STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
     cost: 50
     points: 20
     dependencies:
       - STR_BOMBER_ATTACK_CRAFT_RESEARCH
- 
+
   - name: STR_GERMAN_ATTACK_PLANE_OPTION_B
     cost: 50
     points: 20
@@ -121,31 +121,31 @@ research:
     points: 20
     dependencies:
       - STR_BOMBER_ATTACK_CRAFT_RESEARCH
- 
+
   - name: STR_AERIAL_BEHEMOTH_RESEARCH
     cost: 50
     points: 20
     dependencies:
       - STR_HEAVY_SUPPORT_SHIPS
-      
+
 ########################################
 ########### TIER 2 VEHICLES ###########
 ######################################
-  
+
   - name: STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
     cost: 200
     points: 50
     dependencies:
       - STR_IMPROVED_METALURGIC_TECHNIQUES
       - STR_FRONTLINES_FIELD_REPORT
-      
+
   - name: STR_IMPROVED_LANDSHIP_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
       - STR_FRONTLINES_FIELD_REPORT
-      
+
   - name: STR_IMPROVED_COMBAT_WALKER_RESEARCH
     cost: 100
     points: 50
@@ -158,7 +158,7 @@ research:
     points: 50
     dependencies:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
-      - STR_FRONTLINES_FIELD_REPORT      
+      - STR_FRONTLINES_FIELD_REPORT
 
   - name: STR_IMPROVED_HUNTER_SCOUT_RESEARCH
     cost: 100
@@ -183,19 +183,19 @@ research:
     points: 20
     dependencies:
       - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
-      
+
   - name: STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
     cost: 100
     points: 50
     dependencies:
-      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH  
- 
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
+
   - name: STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A
     cost: 50
     points: 20
     dependencies:
       - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
- 
+
   - name: STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
     cost: 50
     points: 20
@@ -207,18 +207,18 @@ research:
     points: 20
     dependencies:
       - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
- 
+
 ########################################
 ########### TIER 3 VEHICLES ###########
 ######################################
-  
+
   - name: STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH
     cost: 200
     points: 50
     dependencies:
       - STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
       - STR_FRONTLINES_FIELD_REPORT
-      
+
   - name: STR_NEMESIS_WALKER_RESEARCH
     cost: 100
     points: 50
@@ -231,111 +231,111 @@ research:
 
 #FORWARD MACHINE GUNS
   - name: STR_FORWARD_MACHINE_GUN_T1_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
   - name: STR_FORWARD_MACHINE_GUN_T2_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_FORWARD_MACHINE_GUN_T1_RESEARCH
   - name: STR_FORWARD_MACHINE_GUN_T3_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_FORWARD_MACHINE_GUN_T2_RESEARCH
 
 #DEFENSIVE MACHINE GUNS
   - name: STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_BOMBER_ATTACK_CRAFT_RESEARCH
   - name: STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
   - name: STR_DEFENSIVE_MACHINE_GUN_T3_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
- 
+
  #AUTOCANNONS
-   - name: STR_AUTOCANNON_T1_RESEARCH
-    cost: 10
+  - name: STR_AUTOCANNON_T1_RESEARCH
+    cost: 50
     points: 50
     #dependencies:
       #- STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
   - name: STR_AUTOCANNON_T2_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_AUTOCANNON_T1_RESEARCH
   - name: STR_AUTOCANNON_T3_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_AUTOCANNON_T2_RESEARCH
 
 #CANNON
   - name: STR_CANNON_T1_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     #dependencies:
      # - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
   - name: STR_CANNON_T2_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_CANNON_T1_RESEARCH
   - name: STR_CANNON_T3_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_CANNON_T2_RESEARCH
 
 #BOMBS
   - name: STR_BOMBS_T1_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_BOMBER_ATTACK_CRAFT_RESEARCH
-  - name: STR_BOMBS_T1_RESEARCH
-    cost: 10
+  - name: STR_BOMBS_T2_RESEARCH
+    cost: 50
     points: 50
     dependencies:
       - STR_BOMBS_T1_RESEARCH
-  - name: STR_BOMBS_T1_RESEARCH
-    cost: 10
+  - name: STR_BOMBS_T3_RESEARCH
+    cost: 50
     points: 50
     dependencies:
-      - STR_BOMBS_T1_RESEARCH
+      - STR_BOMBS_T2_RESEARCH
 
 #ROCKETS
   - name: STR_ROCKETS_T1_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_HUNTER_SCOUT_RESEARCH
   - name: STR_ROCKETS_T2_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_ROCKETS_T1_RESEARCH
   - name: STR_ROCKETS_T3_RESEARCH
-    cost: 10
+    cost: 50
     points: 50
     dependencies:
       - STR_ROCKETS_T2_RESEARCH
-   - name: STR_ROCKETS_T4_RESEARCH
-    cost: 10
+  - name: STR_ROCKETS_T4_RESEARCH
+    cost: 50
     points: 50
     dependencies:
-      - STR_ROCKETS_T3_RESEARCH 
-      
+      - STR_ROCKETS_T3_RESEARCH
+
 ##################################
 
   - name: STR_NORTH_AMERICAN_CAMPAIGN
@@ -608,6 +608,8 @@ research:
   - name: STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
     cost: 100
     points: 50
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
     unlocks:
      - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
     disables:
@@ -617,6 +619,8 @@ research:
   - name: STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
     cost: 100
     points: 50
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
     unlocks:
      - STR_RUSSIAN_COSSACK_WEAPONS_T2
     disables:
@@ -626,6 +630,8 @@ research:
   - name: STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
     cost: 100
     points: 50
+    dependencies:
+     - STR_FRONTLINES_FIELD_REPORT
     unlocks:
      - STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
     disables:
@@ -634,6 +640,7 @@ research:
 
   - name: STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
     cost: 100
+    points: 50
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
      - STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
@@ -1076,6 +1083,10 @@ research:
      - STR_CARCANO_M91_CARBINE_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
 
+  - name: STR_M1907_SL_CARBINE_KMM_AMMO_UNLOCK
+    cost: 0
+    dependencies:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
 ###########################
 # SMGS
 
@@ -1512,7 +1523,7 @@ research:
   - name: STR_PHLOGISTON_PROTOTYPE
     cost: 0
     points: 60
-    #needItem: true
+    needItem: true
     unlocks:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
 
@@ -1557,20 +1568,20 @@ research:
     points: 70
     dependencies:
       - STR_IMPROVED_METALURGIC_TECHNIQUES
-      
+
   - name: STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
     cost: 700
     points: 20
     dependencies:
       - STR_IMPROVED_METALURGIC_TECHNIQUES
       - STR_MARTIAN_METAL_REPLICATION
-      
+
   - name: STR_HUMAN_CHEMICAL_WEAPONS
     #    listOrder: 902
     cost: 600
     points: 70
     dependencies:
-      - STR_ADVANCED_FIREARMS
+      - STR_FRONTLINES_FIELD_REPORT
       - STR_CHEMICAL_WARFARE_RESEARCH
 
   - name: STR_RED_WEED_RESEARCH
@@ -1662,6 +1673,7 @@ research:
     needItem: true
   - name: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
     destroyItem: true
+    needItem: true
   - name: STR_MARTIAN_ROCK_THROWER
     destroyItem: true
     needItem: true
@@ -1684,6 +1696,9 @@ research:
     destroyItem: true
     needItem: true
   - name: STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER
+    destroyItem: true
+    needItem: true
+  - name: STR_MARTIAN_SLUGTHROWER
     destroyItem: true
     needItem: true
 
@@ -1950,6 +1965,8 @@ research:
   - name: STR_GENEVA_CONVENTION_APPEAL
     cost: 400
     points: -50
+    dependencies:
+      - STR_FRONTLINES_FIELD_REPORT
 
   - name: STR_BIOLOGICAL_WARFARE
     cost: 300
