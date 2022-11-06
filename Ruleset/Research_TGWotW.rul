@@ -226,6 +226,117 @@ research:
       - STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
       - STR_FRONTLINES_FIELD_REPORT
 ##################################
+######### CRAFT WEAPONS ##########
+#################################
+
+#FORWARD MACHINE GUNS
+  - name: STR_FORWARD_MACHINE_GUN_T1_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+  - name: STR_FORWARD_MACHINE_GUN_T2_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_FORWARD_MACHINE_GUN_T1_RESEARCH
+  - name: STR_FORWARD_MACHINE_GUN_T3_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_FORWARD_MACHINE_GUN_T2_RESEARCH
+
+#DEFENSIVE MACHINE GUNS
+  - name: STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
+  - name: STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
+  - name: STR_DEFENSIVE_MACHINE_GUN_T3_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
+ 
+ #AUTOCANNONS
+   - name: STR_AUTOCANNON_T1_RESEARCH
+    cost: 10
+    points: 50
+    #dependencies:
+      #- STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+  - name: STR_AUTOCANNON_T2_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_AUTOCANNON_T1_RESEARCH
+  - name: STR_AUTOCANNON_T3_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_AUTOCANNON_T2_RESEARCH
+
+#CANNON
+  - name: STR_CANNON_T1_RESEARCH
+    cost: 10
+    points: 50
+    #dependencies:
+     # - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+  - name: STR_CANNON_T2_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_CANNON_T1_RESEARCH
+  - name: STR_CANNON_T3_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_CANNON_T2_RESEARCH
+
+#BOMBS
+  - name: STR_BOMBS_T1_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
+  - name: STR_BOMBS_T1_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_BOMBS_T1_RESEARCH
+  - name: STR_BOMBS_T1_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_BOMBS_T1_RESEARCH
+
+#ROCKETS
+  - name: STR_ROCKETS_T1_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_HUNTER_SCOUT_RESEARCH
+  - name: STR_ROCKETS_T2_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_ROCKETS_T1_RESEARCH
+  - name: STR_ROCKETS_T3_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_ROCKETS_T2_RESEARCH
+   - name: STR_ROCKETS_T4_RESEARCH
+    cost: 10
+    points: 50
+    dependencies:
+      - STR_ROCKETS_T3_RESEARCH 
+      
+##################################
 
   - name: STR_NORTH_AMERICAN_CAMPAIGN
     cost: 100
