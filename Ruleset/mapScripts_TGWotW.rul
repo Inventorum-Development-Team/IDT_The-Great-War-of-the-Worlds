@@ -57,10 +57,11 @@ mapScripts:
     - type: fillArea
   - type: VILLAGE_VERDUN
     commands:
+    - type: addCraft
+      #executions: 1
 #    - type: addCraft
-#    - type: addCraft
-#      craftName: STR_BUNKER_SPAWN
-#      executions: 1
+      craftName: STR_BUNKER_SPAWN
+      executions: 1
     - type: addLine
       label: 1
       direction: horizontal
