@@ -586,7 +586,7 @@ items:
   - type: STR_TGEWEHR_TURRET
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT]
     requires:
-      - STR_ADVANCED_FIREARMS
+      - STR_FRONTLINES_FIELD_REPORT
     size: 0.3
     costBuy: 15000
     costSell: 8200
@@ -617,7 +617,7 @@ items:
   - type: STR_TGEWEHR_ROUND
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT, STR_CLIPS]
     requires:
-      - STR_ADVANCED_FIREARMS
+      - STR_FRONTLINES_FIELD_REPORT
     size: 0.1
     costBuy: 700
     costSell: 550
