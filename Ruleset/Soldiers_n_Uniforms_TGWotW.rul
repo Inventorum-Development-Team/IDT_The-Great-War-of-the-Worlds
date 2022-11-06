@@ -4,6 +4,8 @@ soldiers:
 # AMERICAN
 ##############################
   - type: STR_AMERICAN_SOLDIER
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
     flagOffset: 7
     # armorForAvatar:
     avatarOffsetX: 68
@@ -61,6 +63,8 @@ soldiers:
 ###########################
   - type: STR_BRITISH_SOLDIER
     # armorForAvatar:
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 50000
@@ -115,6 +119,8 @@ soldiers:
 # GERMANS
 ####################
   - type: STR_GERMAN_SOLDIER
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
     costBuy: 50000
     costSalary: 40000
     flagOffset: 9
@@ -228,6 +234,8 @@ soldiers:
 # FRENCH
 #####################
   - type: STR_FRENCH_SOLDIER
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
     flagOffset: 18
     # armorForAvatar:
     avatarOffsetX: 68
@@ -284,6 +292,8 @@ soldiers:
 # ITALIAN
 ##################
   - type: STR_ITALIAN_SOLDIER
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     flagOffset: 22
     # armorForAvatar:
     avatarOffsetX: 68
