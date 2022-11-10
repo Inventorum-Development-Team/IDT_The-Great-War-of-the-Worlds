@@ -892,6 +892,8 @@ crafts:
     radarChance: 10
     score: 400
     #listOrder: 118
+    requires:
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_PHALANX
       mapDataSets:
@@ -999,7 +1001,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_COMBAT_WALKER_RESEARCH
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_LEGIONNAIRE
       mapDataSets:
@@ -1075,7 +1077,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_TESTUDO
       mapDataSets:
@@ -1170,7 +1172,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_CENTURION
       mapDataSets:
@@ -1252,7 +1254,7 @@ crafts:
     score: 400
     #listOrder: 118
     requires:
-      - STR_NEMESIS_WALKER_RESEARCH
+      - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
     battlescapeTerrainData:
       name: TRIPOD_HUMAN_PRAETORIAN
       mapDataSets:
@@ -1931,98 +1933,136 @@ items:
     costBuy: 6000
     costSell: 4000
     transferTime: 48
+    requires:
+      - STR_FORWARD_MACHINE_GUN_T1_RESEARCH
   - type: STR_TWIN_HMG_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
+    requires:
+      - STR_FORWARD_MACHINE_GUN_T2_RESEARCH
   - type: STR_50CAL_BROWNING_HMG_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
+    requires:
+      - STR_FORWARD_MACHINE_GUN_T3_RESEARCH
   - type: STR_LEWIS_303_TURRET_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
+    requires:
+      - STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
   - type: STR_30CAL_BROWNING_TURRET_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
+    requires:
+      - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
   - type: STR_303_VICKERS_K_TURRET_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
+    requires:
+      - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
   - type: STR_BECKER_2CM_CANNON_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
+    requires:
+      - STR_AUTOCANNON_T1_RESEARCH
   - type: STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER
     size: 0.8
     costBuy: 21000
     costSell: 18000
     transferTime: 48
+    requires:
+      - STR_AUTOCANNON_T2_RESEARCH
   - type: STR_AUTOCANNON_LAUNCHER
     size: 1
     costBuy: 32000
     costSell: 27000
     transferTime: 48
+    requires:
+      - STR_AUTOCANNON_T3_RESEARCH
   - type: STR_QF_1_PDR_POMPOM_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_CANNON_T1_RESEARCH
   - type: STR_37MM_CANNON_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_CANNON_T2_RESEARCH
   - type: STR_75MM_CANNON_LAUNCHER
     size: 0.1
     costBuy: 2080
     costSell: 1600
     transferTime: 96
+    requires:
+      - STR_CANNON_T3_RESEARCH
 
   - type: STR_FRAGMENTATION_BOMB_LAUNCHER
     size: 1
     costBuy: 32000
     costSell: 27000
     transferTime: 48
+    requires:
+      - STR_BOMBS_T1_RESEARCH
   - type: STR_HE_BOMB_LAUNCHER
     size: 1.0
     costBuy: 1750
     costSell: 1500
     transferTime: 48
+    requires:
+      - STR_BOMBS_T2_RESEARCH
   - type: STR_CLUSTER_BOMB_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_BOMBS_T3_RESEARCH
 
   - type: STR_LE_PRIEUR_ROCKETS_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_ROCKETS_T1_RESEARCH
   - type: STR_CLUSTER_ROCKETS_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_ROCKETS_T2_RESEARCH
   - type: STR_MAGNETIC_ROCKETS_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_ROCKETS_T3_RESEARCH
   - type: STR_GUIDED_ROCKETS_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_ROCKETS_T4_RESEARCH
 
 
   - type: STR_AUX_HEAT_RAY_MK1_LAUNCHER
@@ -2030,53 +2070,73 @@ items:
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_AUX_HEAT_RAY_MK1_RESEARCH
   - type: STR_AUX_HEAT_RAY_MK2_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_AUX_HEAT_RAY_MK2_RESEARCH
   - type: STR_AUX_HEAT_RAY_MK3_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+      - STR_AUX_HEAT_RAY_MK3_RESEARCH
 
   - type: STR_AUX_FUEL_TANK_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+     - STR_AUX_FUEL_TANK
   - type: STR_AUX_ROCKET_TURBINE_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+     - STR_AUX_ROCKET_TURBINE
   - type: STR_AUX_TARGETING_SIGHTS_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+     - STR_AUX_TARGETING_SIGHTS
   - type: STR_AUX_ARMOR_PLATES_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+     - STR_AUX_ARMOR_PLATES
 
   - type: STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+     - STR_ALIENS_ONLY
   - type: STR_VEHICLE_8_8CM_TURRET_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+     - STR_ALIENS_ONLY
   - type: STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
+    requires:
+     - STR_ALIENS_ONLY
 ####################################
 
   - type: STR_CONQUEROR_TURRET_CORPSE
