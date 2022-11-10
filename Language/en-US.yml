@@ -917,19 +917,15 @@ en-US:
         "{NEWLINE}{NEWLINE}{NEWLINE}Analyz\
         ing the new type of metal from which weapons and enemy vehicles are
         made, we have found that it is a very easy-to-plow ore if a large amount
-        of electricity is applied. Using this knowledge, we have adapted some
+        of electromagnetic energy is applied. Using this knowledge, we have sent blueprints to
         allied factories to begin reconditioning the metal plates we have found
-        to produce new weapons, armor and vehicles, based on prototypes.  To
-        facilitate our work, we have asked our allies to build weapons and sell
-        them to us. We must investigate the plans as soon as possible, to send
+        to produce new weapons, armor and vehicles, based on prototypes.  As we lack the necessary facilities to mass produce equipment based on Tunguskium, the Coalition's armories and factories have to ensamble them and send them to our force. We must investigate the blueprints as soon as possible, to send
         them to the armorers around the world."
-      STR_ADVANCED_FIREARMS: "Advanced Firearms"
+      STR_MARTIAN_METAL_ARMOR_PLATES: "Martian Metal Armor Plates"
+      STR_MARTIAN_METAL_ARMOR_PLATES_UFOPEDIA: "One of the very first attempts at reverse engineering the alien equipment was to adapt their materials to our needs. Long years of research hsve culminate with the theorical application or Tunguskium into hardened plates. While not totally indestructible, the durable alloy is better than anything produced by us so far. The plates could be adapted to use on vehicles, buildings and even personal armor worn by a regular human."
+      STR_ADVANCED_FIREARMS: "Improved Firearms"
       ADVANCED_FIREARMS: "Advanced Firearms"
-      STR_ADVANCED_FIREARMS_UFOPEDIA: "We have sent the modified plans of the
-        prototypes we have found and our allies have at our disposal a batch of
-        new weapons. Each faction has supplied us with two weapons to equip both
-        its troops and ours. We trust that the bullets forged with the new
-        Martian Metal will be better at penetrating the armor of the Martians."
+      STR_ADVANCED_FIREARMS_UFOPEDIA: "Until now, our main weaponry was consistent in bolt-action rifles and revolvers. Most part of the Great War has been fought using them, as few automatic weapons were available. With the large collection of reports from the frontlines, the need of guns with higher ROF was evident. The new weapons in development are sturdier and optimized for the brutal offensive combat carried by shock troopers. Higher volumes of fire means our enemy dies faster. "
       STR_GASMASKS: "Gasmasks"
       GASMASKS: "Gasmasks"
       STR_GASMASKS_UFOPEDIA:
@@ -955,7 +951,13 @@ en-US:
         Because Martian Metal is very meltable, bullets of various types can be
         formed, from pistols to cannons, machine guns and rifles.
       STR_FRONTLINES_FIELD_REPORT: "Frontline Performance Report"
-      STR_FRONTLINES_FIELD_REPORT_UFOPEDIA: For 3 years we have been engaged in a war of attrition, mostly on the defensive. The information we have gathered, together with that reported by other allied troops has enabled us to develop new war tactics, more powerful machines and better weapons. Specially the new infantry weapons, which are adapted to the peculiar characteristics of trench fighting. Mud and difficulty in maintaining weapons and equipment is the norm in our battles. Upgraded weapons will be made available to us as soon as possible.
+      STR_FRONTLINES_FIELD_REPORT_UFOPEDIA: "For 3 years we have been engaged in a war of attrition, mostly on the defensive. The information we have gathered, together with that reported by other allied troops has enabled us to develop new war tactics, more powerful machines and better weapons. Specially the new infantry weapons, which are adapted to the peculiar characteristics of trench fighting. Mud and difficulty in maintaining weapons and equipment is the norm in our battles. Upgraded weapons will be made available to us as soon as possible."
+      
+STR_ROCKET_THEORY_RESEARCH: "Rocket Theory"
+      STR_ROCKET_THEORY_RESEARCH_UFOPEDIA: "Rockets are a self-propulsed projectile with an internal fuel tank and an engine able to provide great amounts of thrust by burning chemical substances. The technology itself can be traced since ancient times, with examples being used by China. The modern models carry explosive warheads over long distances. Additional research into this technology eventually will lead to better and more efficient engines."
+      STR_JET_THEORY_RESEARCH: "Jet Theory"
+      STR_JET_THEORY_RESEARCH_UFOPEDIA: "Rockets are cheap and easy to produce but have a limited fuel reserve and are mechanically unreliable. The next step in high-performance propulsion is the jet engine. By using a powerful turbofan inside a turbine, the air is sucked and burnt with fuel at high temperature in order to produce unprecedented thrust. Any plane equipped with these engines could quickly intercept any Martian craft with ease. "
+
 
 
 ############################
@@ -1766,8 +1768,12 @@ en-US:
       STR_AUX_FUEL_TANK_UFOPEDIA: "Additional aviation fuel for longer operative range. It can be carried inside the aircraft in large cans or mounted outside in aerodynamic tanks. Increases the {ALT}maxFuel{ALT} by 100 but reduces the {ALT}speedMax{ALT} by {ALT}25{ALT} and the {ALT} acceleration{ALT} by {ALT}1{ALT}"
       STR_AUX_FUEL_TANK_LAUNCHER: "AUX Extra Fuel"
       STR_AUX_ROCKET_TURBINE: "AUX ROCKET TURBINE"
-      STR_AUX_ROCKET_TURBINE_UFOPEDIA: "A highly experimental jet engine mounted below the airframe of the craft. Invented by Maxime Guillaume, it compresses the air inside, then injects it with fuel and the exceeding thrust greatly increases the {ALT}acceleration{ALT} of the craft by {ALT}2{ALT} and the {ALT}speedMax{ALT} by {ALT}100, at the cost of reducing the {ALT}maxFuel{ALT} by {ALT}50{ALT}"
+      STR_AUX_ROCKET_TURBINE_UFOPEDIA: "A pulsejet external engine made by V.V. Karavodin and Ramon Casanova, it uses detonations of air-fuel inside a chamber, form a pulsating exhaust jet that produces thrust intermittently directed towards the rear. Relatively lightweight, it increases {ALT}acceleration{ALT} of the craft by {ALT}2{ALT} and the {ALT}speedMax{ALT} by {ALT}100, at the cost of reducing the {ALT}maxFuel{ALT} by {ALT}25{ALT}"
       STR_AUX_ROCKET_TURBINE_LAUNCHER: "AUX Rocket Turbine"
+      STR_AUX_JET_TURBINE: "AUX JET TURBINE"
+      STR_AUX_JET_TURBINE_UFOPEDIA: "A highly experimental turbojet engine mounted below the airframe of the craft. Invented by Maxime Guillaume, it compresses the air inside, then injects it with fuel and the exceeding thrust greatly increases the {ALT}acceleration{ALT} of the craft by {ALT}3{ALT} and the {ALT}speedMax{ALT} by {ALT}200, at the cost of reducing the {ALT}maxFuel{ALT} by {ALT}50{ALT}"
+      STR_AUX_JET_TURBINE_LAUNCHER: "AUX Jet Turbine"
+
       STR_AUX_TARGETING_SIGHTS: "AUX TARGETING SIGHTS"
       STR_AUX_TARGETING_SIGHTS_UFOPEDIA: "Specialized optical equipment carried onboard. Based on the craft where its mounted, it could be a bomb sight for accurate ground attack runs or a forward telescope, to aim for distant targets. Increases the {ALT} accuracy {AALT by {ALT}25{ALT}."
       STR_AUX_TARGETING_SIGHTS_LAUNCHER: "AUX Targeting Sights"
