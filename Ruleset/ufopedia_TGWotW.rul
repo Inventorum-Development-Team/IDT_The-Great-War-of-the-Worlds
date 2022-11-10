@@ -160,7 +160,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_PROTOTYPE_UFOPEDIA
     requires:
-     - STR_FRONTLINES_FIELD_REPORT
+     - STR_ADVANCED_FIREARMS
     listOrder: 2700
 
   - id: STR_PHLOGISTON_HEAVY_RIFLE
@@ -182,7 +182,7 @@ ufopaedia:
   ###############################################
   - id: STR_FARQHUAR_HILL
     #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    # - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FARQHUAR_HILL_UFOPEDIA
@@ -272,7 +272,7 @@ ufopaedia:
   ###############################################
   - id: STR_PHLOGISTON_BATTLE_RIFLE
     requires:
-     - STR_FRONTLINES_FIELD_REPORT
+     - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA
@@ -472,7 +472,7 @@ ufopaedia:
   ############################################
   - id: STR_PHLOGISTON_AUTOMATIC_CARBINE
     #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    # - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA
@@ -565,7 +565,7 @@ ufopaedia:
   ########################################
   - id: STR_TESLA_PROTOTYPE
     #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    # - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_PROTOTYPE_UFOPEDIA
@@ -573,7 +573,7 @@ ufopaedia:
     ##listOrder: 2030
   - id: STR_TESLA_SMG
     #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    # - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_SMG_UFOPEDIA
@@ -672,7 +672,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MADSEN_LMG
     #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    # - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MADSEN_LMG_UFOPEDIA
@@ -690,7 +690,7 @@ ufopaedia:
   ########################################
   - id: STR_TESLA_AUTOCANNON
     #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    # - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_AUTOCANNON_UFOPEDIA
@@ -773,7 +773,7 @@ ufopaedia:
   ########################################
   - id: STR_TESLA_TRENCH_BROOM
     #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    # - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_TRENCH_BROOM_UFOPEDIA
@@ -867,7 +867,7 @@ ufopaedia:
     text: STR_GAS_GRENADE_UFOPEDIA
     listOrder: 7800
     ##listOrder: 2074
-
+    
   - id: STR_HEAVY_GRENADE
     requires:
       - STR_HEAVY_GRENADE_UNLOCK
@@ -875,8 +875,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_GRENADE_UFOPEDIA
     listOrder: 7810
-    ##listOrder: 2074
-
+    ##listOrder: 2074    
+    
   - id: STR_FLARE_GUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1293,7 +1293,7 @@ ufopaedia:
 
   - id: STR_TGEWEHR_TURRET
     requires:
-      - STR_FRONTLINES_FIELD_REPORT
+      - STR_ADVANCED_FIREARMS
     type_id: 3
     image_id: TGEWEHR_BACKGROUND
     section: STR_HEAVY_WEAPONS_PLATFORMS
@@ -1330,31 +1330,21 @@ ufopaedia:
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_0_AIRCRAFTS_DATA_UFOPEDIA
     listOrder: 12900
-    requires:
-      - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
   - id: STR_TIER_1_AIRCRAFTS_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_1_AIRCRAFTS_DATA_UFOPEDIA
     listOrder: 13000
-    requires:
-      - STR_HUNTER_SCOUT_RESEARCH
-      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
   - id: STR_TIER_2_AIRCRAFTS_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_2_AIRCRAFTS_DATA_UFOPEDIA
     listOrder: 13100
-    requires:
-      - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
-      - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
   - id: STR_TIER_3_AIRCRAFTS_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_3_AIRCRAFTS_DATA_UFOPEDIA
     listOrder: 13200
-    requires:
-      - STR_ALIENS_ONLY
 
   - id: STR_WALKER_DATA
     type_id: 8
@@ -1382,30 +1372,22 @@ ufopaedia:
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_4_UFOPEDIA
     listOrder: 13700
-    requires:
-      - STR_COMBAT_WALKER_RESEARCH
 
   - id: STR_WALKER_HISTORY_5
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_5_UFOPEDIA
     listOrder: 13800
-    requires:
-      - STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
   - id: STR_WALKER_HISTORY_6
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_6_UFOPEDIA
     listOrder: 13900
-    requires:
-      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
   - id: STR_WALKER_HISTORY_7
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_7_UFOPEDIA
     listOrder: 14000
-    requires:
-      - STR_NEMESIS_WALKER_RESEARCH
 
   - id: STR_LANDSHIP_DATA
     type_id: 8
@@ -1427,23 +1409,17 @@ ufopaedia:
     section: STR_NEW_TECHNOLOGIES
     text: STR_LANDSHIP_HISTORY_3_UFOPEDIA
     listOrder: 14400
-    requires:
-      - STR_LANDSHIP_RESEARCH
   - id: STR_LANDSHIP_HISTORY_4
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_LANDSHIP_HISTORY_4_UFOPEDIA
     listOrder: 14500
-    requires:
-      - STR_IMPROVED_LANDSHIP_RESEARCH
 
   - id: STR_LANDSHIP_HISTORY_5
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_LANDSHIP_HISTORY_5_UFOPEDIA
     listOrder: 14600
-    requires:
-      - STR_ALIENS_ONLY
 
   - id: STR_FRONTLINES_FIELD_REPORT
     type_id: 8
@@ -1463,26 +1439,33 @@ ufopaedia:
     ##listOrder: 10201
     text_width: 316
     listOrder: 14800
+  - id: STR_MARTIAN_METAL_ARMOR_PLATES
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_MARTIAN_METAL_ARMOR_PLATES
+    text: STR_MARTIAN_METAL_ARMOR_PLATES_UFOPEDIA
+    listOrder: 14810   
   - id: STR_MARTIAN_METAL_REPLICATION
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     requires:
-      - STR_OVERLORD_INTEL_3
-    text: STR_MARTIAN_METAL_REPLICATION_UFOPEDIA
+      - STR_OVERLORD_INTEL_1
+    text: STR_OVERLORD_INTEL_1_UFOPEDIA
     listOrder: 14900
-  - id: STR_FRONTLINES_FIELD_REPORT
-    #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+  - id: STR_ADVANCED_FIREARMS
+    requires:
+     - STR_FRONTLINES_FIELD_REPORT
     type_id: 7
     section: STR_NEW_TECHNOLOGIES
     image_id: ADVANCED_FIREARMS_IMAGE
-    text: STR_FRONTLINES_FIELD_REPORT_UFOPEDIA
+    text: STR_ADVANCED_FIREARMS_UFOPEDIA
     ##listOrder: 10202
     text_width: 150
     listOrder: 15000
   - id: STR_KMM_BULLETS
-    #requires:
-    # - STR_FRONTLINES_FIELD_REPORT
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     type_id: 7
     section: STR_NEW_TECHNOLOGIES
     image_id: KMM_BULLETS_IMAGE
@@ -2567,9 +2550,9 @@ ufopaedia:
     image_id: TWIN_HMG
     text: STR_50CAL_BROWNING_HMG_UFOPEDIA
     listOrder: 40020
+    ##listOrder: 801    
     ##listOrder: 801
-    ##listOrder: 801
-
+    
   - id: STR_LEWIS_303_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2582,7 +2565,7 @@ ufopaedia:
     image_id: AUTOCANNON
     text: STR_30CAL_BROWNING_TURRET_UFOPEDIA
     listOrder: 40060
-    ##listOrder: 802
+    ##listOrder: 802    
     ##listOrder: 802
   - id: STR_303_VICKERS_K_TURRET
     type_id: 2
@@ -2591,14 +2574,14 @@ ufopaedia:
     text: STR_303_VICKERS_K_TURRET_UFOPEDIA
     listOrder: 40070
     ##listOrder: 802
-
+    
   - id: STR_BECKER_2CM_CANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: AUTOCANNON
     text: STR_BECKER_2CM_CANNON_UFOPEDIA
     listOrder: 40100
-    ##listOrder: 802
+    ##listOrder: 802    
   - id: STR_AUTOCANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2613,7 +2596,7 @@ ufopaedia:
     text: STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA
     listOrder: 40120
     ##listOrder: 802
-
+    
   - id: STR_QF_1_PDR_POMPOM
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2635,7 +2618,7 @@ ufopaedia:
     text: STR_75MM_CANNON_UFOPEDIA
     listOrder: 40220
     ##listOrder: 803
-
+    
   - id: STR_FRAGMENTATION_BOMB
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2664,7 +2647,7 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_LE_PRIEUR_ROCKETS_UFOPEDIA
     listOrder: 40400
-    ##listOrder: 803
+    ##listOrder: 803    
   - id: STR_CLUSTER_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2678,7 +2661,7 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_MAGNETIC_ROCKETS_UFOPEDIA
     listOrder: 40420
-    ##listOrder: 803
+    ##listOrder: 803    
   - id: STR_GUIDED_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
