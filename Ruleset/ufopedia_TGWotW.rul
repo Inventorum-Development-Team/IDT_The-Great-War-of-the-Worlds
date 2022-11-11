@@ -160,13 +160,15 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_PROTOTYPE_UFOPEDIA
     requires:
-     - STR_ADVANCED_FIREARMS
+     - STR_PHLOGISTON_PROTOTYPE
     listOrder: 2700
 
   - id: STR_PHLOGISTON_HEAVY_RIFLE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA
+    requires:
+     - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
     listOrder: 2710
 
     ##listOrder: 2005
@@ -276,6 +278,8 @@ ufopaedia:
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA
+    requires:
+     - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
     listOrder: 3400
     ##listOrder: 2029
   - id: STR_PHLOGISTON_MEDIUM_BATTERY
@@ -394,6 +398,8 @@ ufopaedia:
     text: STR_PHLOGISTON_PISTOL_UFOPEDIA
     listOrder: 4300
     ##listOrder: 2009
+    requires:
+     - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
   - id: STR_PHLOGISTON_SMALL_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -471,8 +477,8 @@ ufopaedia:
   ############ PHLOGISTON CARBINES ############
   ############################################
   - id: STR_PHLOGISTON_AUTOMATIC_CARBINE
-    #requires:
-    # - STR_ADVANCED_FIREARMS
+    requires:
+     - STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA
