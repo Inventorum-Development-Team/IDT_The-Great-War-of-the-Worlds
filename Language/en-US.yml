@@ -1781,7 +1781,7 @@ STR_ROCKET_THEORY_RESEARCH: "Rocket Theory"
       STR_AUX_ARMOR_PLATES_UFOPEDIA: "By adding and wielding Tunguskium plates on strategic locations onboard the vehicle, the total HPs are increased by 100. This improves the surviving chances of the craft and the crew."
       STR_AUX_ARMOR_PLATES_LAUNCHER: "AUX Armor Plates"
       STR_AUX_KMM_ROUNDS: "AUX K-MM ROUNDS"
-      STR_AUX_KMM_ROUNDS_UFOPEDIA: "By replacing all the standard bullets and shells onboard by K-MM high-penetration equivalents made of Tunguskium, the damage output is increased by 20, for all the currently equipped weapons."
+      STR_AUX_KMM_ROUNDS_UFOPEDIA: "By replacing all the standard bullets and shells onboard by K-MM high-penetration equivalents made of Tunguskium, the damage output is increased by 25, for all the currently equipped weapons."
       STR_AUX_KMM_ROUNDS_LAUNCHER: "AUX K-MM Rounds"
 
       STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
