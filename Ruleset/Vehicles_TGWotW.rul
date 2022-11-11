@@ -1771,6 +1771,24 @@ craftWeapons:
       damageMax: 100
       avoidBonus: -10
       accel: -1
+  - type: STR_AUX_KMM_ROUNDS
+    weaponType: 7
+    sprite: 246
+    hidePediaInfo: true
+    sound: 0
+    damage: 0
+    range: 0
+    accuracy: 0
+    reloadCautious: 0
+    reloadStandard: 0
+    reloadAggressive: 0
+    ammoMax: 0
+    rearmRate: 0
+    launcher: STR_AUX_KMM_ROUNDS_LAUNCHER
+    projectileType: 0
+    projectileSpeed: 0
+    stats:
+      powerBonus: 25
 
 #Ground Vehicle Artillery
   - type: STR_VEHICLE_QF_6_PDR_TURRET
@@ -2115,6 +2133,13 @@ items:
     transferTime: 48
     requires:
      - STR_AUX_ARMOR_PLATES
+  - type: STR_AUX_KMM_ROUNDS_LAUNCHER
+    size: 1.0
+    costBuy: 35000
+    costSell: 37500
+    transferTime: 48
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
 
   - type: STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER
     size: 1.0
@@ -2485,6 +2510,8 @@ extraSprites:
       288: Resources/Crafts/Frag_Bomb_basebits.png
       289: Resources/Crafts/Frag_Bomb_basebits.png
       290: Resources/Crafts/Frag_Bomb_basebits.png
+      294: Resources/Crafts/Frag_Bomb_basebits.png
+      
 
 #Vehicle turrets
       291: Resources/Crafts/Autocannon_basebits.png #6-pdr vehicle turret
@@ -2534,6 +2561,8 @@ extraSprites:
       245: Resources/Crafts/Frag_Bomb_dogfight.png
       246: Resources/Crafts/Frag_Bomb_dogfight.png
       247: Resources/Crafts/Frag_Bomb_dogfight.png
+      251: Resources/Crafts/Frag_Bomb_dogfight.png
+
 
 #Vehicle turrets
       248: Resources/Crafts/Autocannon_dogfight.png #6-pdr vehicle turret
