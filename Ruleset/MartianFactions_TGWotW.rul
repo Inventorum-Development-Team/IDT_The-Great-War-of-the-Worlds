@@ -1,4 +1,4 @@
-﻿items:
+items:
   - type: STR_MARTIAN_LINE_INFANTRY_CORPSE
     size: 0.4
     costSell: 2000
@@ -90,8 +90,20 @@
     liveAlien: true
     costSell: 40000
     listOrder: 14401
+  - type: STR_MARTIAN_LINE_INFANTRY_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 40000
+    listOrder: 14401
 
   - type: STR_MARTIAN_MARINE
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14402
+  - type: STR_MARTIAN_MARINE_LEADER
     size: 0.0
     recover: true
     liveAlien: true
@@ -104,8 +116,20 @@
     liveAlien: true
     costSell: 60000
     listOrder: 14403
+  - type: STR_MARTIAN_SHOCK_GUARD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14403
 
   - type: STR_MARTIAN_SKIRMISHER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14404
+  - type: STR_MARTIAN_SKIRMISHER_LEADER
     size: 0.0
     recover: true
     liveAlien: true
@@ -118,8 +142,20 @@
     liveAlien: true
     costSell: 60000
     listOrder: 14405
+  - type: STR_MARTIAN_ROYAL_GUARD_LEADER
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14405
 
   - type: STR_MARTIAN_SCIENTIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 60000
+    listOrder: 14403
+  - type: STR_MARTIAN_SCIENTIST_LEADER
     size: 0.0
     recover: true
     liveAlien: true
