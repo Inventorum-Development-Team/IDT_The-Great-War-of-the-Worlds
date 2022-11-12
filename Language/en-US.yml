@@ -126,6 +126,15 @@ en-US:
       STR_FUNDING_CHANGE: "Funding change> {ALT}{0}"
       STR_COUNCIL_REDUCE_DEBTS: "The Coalition is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."
 
+      STR_MT_RATING_EXCELLENT: "Superior"
+      STR_MT_RATING_GREAT: "Outstanding"
+      STR_MT_RATING_GOOD: "Good"
+      STR_MT_RATING_OK: "Sufficient" 
+      STR_MT_RATING_POOR: "Poor"
+      STR_MT_RATING_BAD: "Bad"
+      STR_MT_RATING_TERRIBLE: "Terrible" 
+      STR_MT_RATING_ABOMINABLE: "Abominable"
+
       STR_VEHICLES: VEHICLES
       STR_VEHICLE_WEAPONS: VEHICLE WEAPONS
       STR_UNIFORMS_AND_ARMORS: UNIFORMS AND ARMORS
@@ -136,7 +145,7 @@ en-US:
       STR_MARTIAN_BUILDINGS: MARTIAN FACILITIES
 
       STR_AUSTRIA_HUNGARY: AUSTRIA-HUNGARY
-      STR_CALIFORNIA_REPUBLIC: CALIFORNIA REPUBLIC
+      STR_CALIFORNIA_REPUBLIC: CALIFORNIA FRONT
       STR_TEXAS_FRONT: TEXAN RESISTANCE
       STR_MEXICAN_RESISTANCE: MEXICAN REPUBLIC
       STR_ABC_PACT: ABC PACT
