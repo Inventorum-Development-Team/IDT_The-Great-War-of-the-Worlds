@@ -688,27 +688,7 @@ startingBase:
     STR_GERMAN_SOLDIER: 3
     STR_PILOT: 15
   crafts:
-    - type: STR_SPAD
-      id: 1
-      fuel: 300
-      damage: 0
-      weapons:
-        - type: STR_TWIN_HMG
-          ammo: 200
-        - type: STR_FRAGMENTATION_BOMB
-          ammo: 3
-      status: STR_READY
-    - type: STR_SPAD
-      id: 2
-      fuel: 300
-      damage: 0
-      weapons:
-        - type: STR_TWIN_HMG
-          ammo: 200
-        - type: STR_FRAGMENTATION_BOMB
-          ammo: 3
-      status: STR_READY
-    - type: STR_RCLASS_AIRSHIP
+    - type: STR_CCLASS_AIRSHIP
       id: 1
       fuel: 1450
       damage: 0
@@ -735,13 +715,10 @@ startingBase:
         STR_MADSEN_LMG_MAG: 3
         STR_SABRE: 8
       status: STR_READY
-    - type: STR_CONQUEROR
+    - type: STR_MARCH
       id: 1
-      fuel: 1000
+      fuel: 9000
       damage: 0
-      weapons:
-        - type: STR_AUTOCANNON
-          ammo: 100
       items:
         STR_FRAG_GRENADE: 8
         STR_SERVICE_REVOLVER: 2
