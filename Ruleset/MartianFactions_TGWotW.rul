@@ -206,24 +206,24 @@ armors:
     underArmor: 2
     damageModifier:
       - 1.0 #0 None
-      - 0.8 #1 Armor Piercing
-      - 1.0 #2 Incendiary
+      - 1.3 #1 Armor Piercing
+      - 1.5 #2 Incendiary
       - 1.0 #3 High Explosive
       - 1.0 #4 Laser
       - 1.0 #5 Plasma
       - 1.0 #6 Stun
       - 1.2 #7 Melee
       - 1.6 #8 Acid
-      - 0.1 #9 Smoke
-      - 1.2 #10 K-MM Ballistic
-      - 1.0 #11 Electric
+      - 1.0 #9 Smoke
+      - 1.5 #10 K-MM Ballistic
+      - 2.0 #11 Electric
 #      - 1.1 #12 Electromagnetic
       - 1.0 #13 Heat-Ray
       - 1.2 #14 Black Smoke
 #      - 1.0 #15 Green Gas
 #      - 1.0 #16 Cold
       - 1.8 #17 Toxic
-      - 1.8 #18 Flames
+      - 1.5 #18 Flames
     loftempsSet: [ 2 ]
 
   - type: STR_MARTIAN_LINE_INFANTRY_ARMOR
@@ -237,16 +237,25 @@ armors:
     underArmor: 30
     visibilityAtDark: 9
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 1.0 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.4 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.2 #7 Melee
+      - 1.6 #8 Acid
+      - 0.1 #9 Smoke
+      - 1.2 #10 K-MM Ballistic
+      - 1.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.1 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.1 #17 Toxic
+      - 1.0 #18 Flames
     loftempsSet: [ 3 ]
 
   - type: STR_MARTIAN_MARINE_ARMOR
@@ -260,16 +269,25 @@ armors:
     underArmor: 20
     visibilityAtDark: 9
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
+      - 1.0 #0 None
+      - 0.9 #1 Armor Piercing
+      - 1.0 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.5 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.2 #7 Melee
+      - 1.6 #8 Acid
+      - 0.1 #9 Smoke
+      - 1.3 #10 K-MM Ballistic
+      - 1.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.1 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.1 #17 Toxic
+      - 1.0 #18 Flames
     loftempsSet: [ 3 ]
 
   - type: STR_MARTIAN_SHOCK_GUARD_ARMOR
@@ -283,16 +301,25 @@ armors:
     underArmor: 70
     visibilityAtDark: 9
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 0.5
-      - 1.0
-      - 1.0
-      - 0.1
+      - 1.0 #0 None
+      - 0.7 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.3 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.1 #7 Melee
+      - 1.6 #8 Acid
+      - 0.1 #9 Smoke
+      - 1.1 #10 K-MM Ballistic
+      - 0.9 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.1 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 0.1 #17 Toxic
+      - 1.1 #18 Flames
     loftempsSet: [ 3 ]
 
   - type: STR_MARTIAN_SKIRMISHER_ARMOR
@@ -306,16 +333,25 @@ armors:
     underArmor: 10
     visibilityAtDark: 9
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
+      - 1.0 #0 None
+      - 1.1 #1 Armor Piercing
+      - 1.5 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.2 #7 Melee
+      - 1.6 #8 Acid
+      - 1.0 #9 Smoke
+      - 1.3 #10 K-MM Ballistic
+      - 1.5 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.2 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.8 #17 Toxic
+      - 1.5 #18 Flames
     loftempsSet: [ 3 ]
 
   - type: STR_MARTIAN_ROYAL_POWER_ARMOR
@@ -329,16 +365,25 @@ armors:
     underArmor: 50
     visibilityAtDark: 9
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
+      - 1.0 #0 None
+      - 0.9 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.3 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.8 #7 Melee
+      - 1.6 #8 Acid
+      - 0.4 #9 Smoke
+      - 1.1 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.4 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.8 #17 Toxic
+      - 1.1 #18 Flames
     loftempsSet: [ 3 ]
 
   - type: STR_MARTIAN_SCIENTIST_ARMOR
@@ -352,16 +397,25 @@ armors:
     underArmor: 10
     visibilityAtDark: 9
     damageModifier:
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
-      - 1.0
+      - 1.0 #0 None
+      - 1.3 #1 Armor Piercing
+      - 1.5 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 1.2 #7 Melee
+      - 1.6 #8 Acid
+      - 1.0 #9 Smoke
+      - 1.5 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.2 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.8 #17 Toxic
+      - 1.5 #18 Flames
     loftempsSet: [ 3 ]
 
   - type: CEREBREAL_ARMOR
@@ -376,16 +430,25 @@ armors:
     drawingRoutine: 4
     movementType: 1
     damageModifier:
-      - 1.0
-      - 1.2
-      - 1.0
-      - 1.1
-      - 1.0
-      - 0.8
-      - 1.1
-      - 1.1
-      - 1.4
-      - 0.0
+      - 1.0 #0 None
+      - 1.5 #1 Armor Piercing
+      - 1.9 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.8 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.7 #6 Stun
+      - 1.6 #7 Melee
+      - 1.6 #8 Acid
+      - 1.0 #9 Smoke
+      - 1.7 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.2 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.8 #17 Toxic
+      - 1.9 #18 Flames
     loftempsSet: [ 3 ]
 
 units:
@@ -412,6 +475,7 @@ units:
     intelligence: 5
     aggression: 1
     canSurrender: true
+    showFullNameInAlienInventory: 1
   - type: STR_SECTOID_SOLDIER
     race: STR_SECTOID
     rank: STR_LIVE_SOLDIER
@@ -435,6 +499,7 @@ units:
     intelligence: 3
     aggression: 3
     canSurrender: true
+    showFullNameInAlienInventory: 1
 
   - type: STR_MARTIAN_LINE_INFANTRY_LEADER
     race: STR_MARTIAN_LINE_INFANTRY
@@ -459,6 +524,7 @@ units:
     intelligence: 6
     aggression: 5
     canSurrender: true
+    showFullNameInAlienInventory: 1
   - type: STR_MARTIAN_LINE_INFANTRY
     race: STR_MARTIAN_LINE_INFANTRY
     rank: STR_LIVE_SOLDIER
@@ -482,6 +548,7 @@ units:
     intelligence: 5
     aggression: 5
     canSurrender: true
+    showFullNameInAlienInventory: 1
 
   - type: STR_MARTIAN_SHOCK_GUARD_LEADER
     race: STR_MARTIAN_SHOCK_GUARDS
@@ -507,6 +574,7 @@ units:
     intelligence: 8
     aggression: 4
     canSurrender: false
+    showFullNameInAlienInventory: 1
   - type: STR_MARTIAN_SHOCK_GUARD
     race: STR_MARTIAN_SHOCK_GUARDS
     rank: STR_LIVE_SOLDIER
@@ -531,6 +599,7 @@ units:
     intelligence: 7
     aggression: 4
     canSurrender: false
+    showFullNameInAlienInventory: 1
 
   - type: STR_MARTIAN_MARINE_LEADER
     race: STR_MARTIAN_MARINES
@@ -555,6 +624,7 @@ units:
     intelligence: 6
     aggression: 3
     canSurrender: true
+    showFullNameInAlienInventory: 1
   - type: STR_MARTIAN_MARINE
     race: STR_MARTIAN_MARINES
     rank: STR_LIVE_NAVIGATOR
@@ -578,6 +648,7 @@ units:
     intelligence: 6
     aggression: 3
     canSurrender: true
+    showFullNameInAlienInventory: 1
 
   - type: STR_MARTIAN_SKIRMISHER_LEADER
     race: STR_MARTIAN_SKIRMISHERS
@@ -602,6 +673,7 @@ units:
     intelligence: 6
     aggression: 2
     canSurrender: true
+    showFullNameInAlienInventory: 1
   - type: STR_MARTIAN_SKIRMISHER
     race: STR_MARTIAN_SKIRMISHERS
     rank: STR_LIVE_SOLDIER
@@ -625,6 +697,7 @@ units:
     intelligence: 6
     aggression: 2
     canSurrender: true
+    showFullNameInAlienInventory: 1
 
   - type: STR_MARTIAN_ROYAL_GUARD
     race: STR_MARTIAN_ROYAL_GUARD
@@ -649,6 +722,7 @@ units:
     intelligence: 8
     aggression: 2
     canSurrender: false
+    showFullNameInAlienInventory: 1
   - type: STR_MARTIAN_ROYAL_GUARD_LEADER
     race: STR_MARTIAN_ROYAL_GUARD
     rank: STR_LIVE_SOLDIER
@@ -672,6 +746,7 @@ units:
     intelligence: 9
     aggression: 1
     canSurrender: false
+    showFullNameInAlienInventory: 1
 
   - type: STR_MARTIAN_SCIENTIST_LEADER
     race: STR_MARTIAN_SCIENCE_TEAM
@@ -696,6 +771,7 @@ units:
     intelligence: 10
     aggression: 1
     canSurrender: true
+    showFullNameInAlienInventory: 1
   - type: STR_MARTIAN_SCIENTIST
     race: STR_MARTIAN_SCIENCE_TEAM
     rank: STR_LIVE_MEDIC
@@ -719,6 +795,7 @@ units:
     intelligence: 10
     aggression: 1
     canSurrender: true
+    showFullNameInAlienInventory: 1
 
   - type: STR_CEREBREAL_COMMANDER
     race: STR_CEREBREAL
@@ -745,6 +822,7 @@ units:
     intelligence: 10
     aggression: 0
     livingWeapon: true
+    showFullNameInAlienInventory: 1
 
 alienRaces:
   - delete: STR_SECTOID
