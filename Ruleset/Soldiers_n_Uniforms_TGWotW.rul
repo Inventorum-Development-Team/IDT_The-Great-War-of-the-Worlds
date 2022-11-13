@@ -540,8 +540,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 160
-    floorSprite: 160
+    bigSprite: 120
+    floorSprite: 120
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -550,8 +550,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 161
-    floorSprite: 161
+    bigSprite: 121
+    floorSprite: 121
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -2655,8 +2655,8 @@ extraSprites:
 #############
 # ITALIAN
 #############
-      160: Resources/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
-      161: Resources/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_FLOOROB.png
+      120: Resources/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      121: Resources/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_FLOOROB.png
 #      162: Resources/Italian/ITALIAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
 #      163: Resources/Italian/ITALIAN_TRENCHCOAT_CORPSE_FLOOROB.png
 
