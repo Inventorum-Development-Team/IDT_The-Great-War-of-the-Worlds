@@ -1972,6 +1972,11 @@ items:
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 29
     damageType: 1
+    damageAlter:
+      RandomType: 3
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      RandomWound: false
     bulletSpeed: 10
     clipSize: 25
     battleType: 2
@@ -5788,7 +5793,7 @@ items:
     bigSprite: 3064
     floorSprite: 3064
     handSprite: 3064
-    power: 25
+    power: 35
     damageType: 6
     damageAlter:
       RandomType: 7
@@ -6026,17 +6031,14 @@ items:
     size: 0.2
     costBuy: 8000
     costSell: 6500
-    weight: 10
+    weight: 18
     bigSprite: 2640
     floorSprite: 2640
     handSprite: 2640
     bulletSprite: 20
     fireSound: 148
-    #    compatibleAmmo:
-    #- STR_FLAMETHROWER_CLIP
-    accuracyCloseQuarters: 75
+    accuracyCloseQuarters: 100
     accuracyAuto: 75
-    tuAuto: 35
     costThrow:
       energy: 20
     battleType: 1
@@ -6046,18 +6048,22 @@ items:
     invWidth: 2
     invHeight: 3
     armor: 30
-    #    explosionHitSound: 113
-    hitAnimation: 8
-    power: 30
-    damageType: 18
+#    explosionHitSound: 113
+    hitAnimation: 0
+    power: 120
+    costAuto:
+      time: 35
+      mana: 10
+    damageType: 2
     damageAlter:
-      ToMorale: 30.0
+      RandomType: 6
+      ToMorale: 1.5
       FireThreshold: 1
       SmokeThreshold: 1000
-    clipSize: 30
+    clipSize: -1
     autoShots: 5
     sprayWaypoints: 2
-    #    bulletSpeed: 8
+#    bulletSpeed: 8
     experienceTrainingMode: 7
     attraction: 7
     vaporColorSurface: 1
@@ -6091,7 +6097,7 @@ items:
     armor: 20
     blastRadius: 3
     bulletSprite: 4
-    listOrder: 3320
+    listOrder: 2195
 
   - type: STR_GAS_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
