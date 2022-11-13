@@ -172,6 +172,62 @@ items:
       - STR_SMLE_MKIII_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 65
+    # Bayonet segment
+    meleeSound:
+      [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+      ]
+    meleeHitSound:
+      [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+      ]
+    #Stab sounds
+    meleeAnimation: 4
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.5
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+    # Bayonet segment end
     kneelBonus: 200
     accuracySnap: 75
     accuracyAimed: 100
@@ -489,6 +545,62 @@ items:
       - STR_GEWEHR98_CLIP_KMM
       - STR_RIFLE_GRENADE
     accuracyCloseQuarters: 50
+    # Bayonet segment
+    meleeSound:
+      [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+      ]
+    meleeHitSound:
+      [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+      ]
+    #Stab sounds
+    meleeAnimation: 4
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.5
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+    # Bayonet segment end
     kneelBonus: 200
     accuracySnap: 85
     accuracyAimed: 100
@@ -1047,6 +1159,62 @@ items:
       - STR_BERDAN_II_AMMO
       - STR_BERDAN_II_AMMO_KMM
     accuracyCloseQuarters: 50
+    # Bayonet segment
+    meleeSound:
+      [
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+      ]
+    meleeHitSound:
+      [
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+      ]
+    #Stab sounds
+    meleeAnimation: 4
+    meleeType: 7
+    meleePower: 45
+    meleeBonus:
+      strength: 0.5
+      melee: 0.3
+    accuracyMelee: 100
+    meleeMultiplier:
+      flatHundred: 0.5
+      melee: 0.5
+    costMelee:
+      time: 20
+      energy: 8
+    flatMelee:
+      time: true
+    # Bayonet segment end
     kneelBonus: 200
     accuracySnap: 60
     accuracyAimed: 80
@@ -5207,7 +5375,7 @@ items:
     battleType: 2
     armor: 30
     invWidth: 1
-    invHeight: 1
+    invHeight: 2
     attraction: 10
     listOrder: 3120
   - type: STR_MADSEN_LMG_MAG_KMM
