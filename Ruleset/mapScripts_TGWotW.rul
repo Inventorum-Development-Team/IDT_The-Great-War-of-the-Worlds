@@ -1,4 +1,8 @@
 mapScripts:
+  - type: STR_CRAFT_DEPLOYMENT_PREVIEW
+    commands:
+    - type: addCraft
+    - type: fillArea
 ####################################
 ########## STORY MISSIONS #########
 ##################################

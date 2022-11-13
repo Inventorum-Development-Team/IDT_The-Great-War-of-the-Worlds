@@ -837,6 +837,7 @@ alienMissions:
 
 ################################################################
 alienDeployments:
+
   - delete: STR_SMALL_SCOUT
   - delete: STR_MEDIUM_SCOUT
   - delete: STR_LARGE_SCOUT
@@ -850,6 +851,15 @@ alienDeployments:
   - delete: STR_BASE_DEFENSE
   - delete: STR_MARS_CYDONIA_LANDING
   - delete: STR_MARS_THE_FINAL_ASSAULT
+#####################################
+  - type: STR_CRAFT_DEPLOYMENT_PREVIEW
+    isHidden: true
+    width: 10
+    length: 10
+    height: 8
+    terrains:
+      - CULTA
+    script: STR_CRAFT_DEPLOYMENT_PREVIEW
 ##########################################
 ######### STORY MISSIONS ################
 ########################################
