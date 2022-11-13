@@ -59,6 +59,7 @@ en-US:
       STR_RUSSIAN_EQUIPMENT: Russian Equipment
       STR_AUSTRO_HUNGARIAN_EQUIPMENT: Austro-Hungarian Equipment
       STR_JAPANESE_EQUIPMENT: Japanese Equipment
+      STR_CQB: "Melee"
 #################
       STR_ROOKIE: "Soldier"
       STR_SQUADDIE: "Sergeant"
@@ -68,7 +69,7 @@ en-US:
       STR_COMMANDER: "General"
       STR_PUNCH: "Punch!"
       STR_UNARMED_UNIFORM: "Unarmed Melee Attack"
-      STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements."
+      STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements. Beware, as you may hurt yourself if you hit things or enemies with enough strength (2 damage, 4 stamina, 8 TUs use)."
       STR_DETECTED: "Sighted"
       STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON MACHINE-TIME=5 Secs"
       STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE MARTIAN-MACHINE "
@@ -126,14 +127,15 @@ en-US:
       STR_FUNDING_CHANGE: "Funding change> {ALT}{0}"
       STR_COUNCIL_REDUCE_DEBTS: "The Coalition is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."
 
+      STR_MT_RATING_EXEMPLARY: "Glorious"
       STR_MT_RATING_EXCELLENT: "Superior"
       STR_MT_RATING_GREAT: "Outstanding"
       STR_MT_RATING_GOOD: "Good"
-      STR_MT_RATING_OK: "Sufficient" 
+      STR_MT_RATING_OK: "Sufficient"
       STR_MT_RATING_POOR: "Poor"
       STR_MT_RATING_BAD: "Bad"
-      STR_MT_RATING_TERRIBLE: "Terrible" 
-      STR_MT_RATING_ABOMINABLE: "Abominable"
+      STR_MT_RATING_TERRIBLE: "Terrible"
+      STR_MT_RATING_ABOMINABLE: "Horrible"
 
       STR_VEHICLES: VEHICLES
       STR_VEHICLE_WEAPONS: VEHICLE WEAPONS
@@ -298,10 +300,7 @@ en-US:
       STR_AUTOMATIC_REVOLVER_UFOPEDIA:
         Modern revolver, its gas system gives it a very
         high rate of fire. Something delicate to take care of, but British
-        soldiers entrust it their life. If you keep your finger on the trigger,
-        you can shoot the 6 bullets in rapid succession. It is recharged using a
-        'speedloader' which places the 6 cartridges at the same time on the
-        weapon drum.
+        soldiers entrust it their life. The fast action can empty the chamber in two bursts.
       STR_SERVICE_REVOLVER: Service Revolver
       STR_SERVICE_REVOLVER_UFOPEDIA:
         Single-action revolver, trustworthy sidegun used
@@ -312,7 +311,7 @@ en-US:
         preferred by Central European troops. Being single-action, it's rate of
         fire is limited. This is compensated ny the better accuracy, compared to
         other revolvers.
-      STR_SMLE_MKIII: SMLE Mk III Rifle
+      STR_SMLE_MKIII: SMLE Mk III Bayoneted
       STR_SMLE_MKIII_CLIP: SMLE Mk III Clip
       STR_SMLE_MKIII_CLIP_KMM: SMLE Mk III K-MM Clip
       STR_SMLE_MKIII_UFOPEDIA:
@@ -399,7 +398,7 @@ en-US:
         it is also produced under license by the Swiss firm SIG. Equipped with
         an Entropium bayonet for CQC. The American Mondragons use .30-06 caliber
         bullets and the Swiss, at German request, 7.92x57mm Mauser.
-      STR_GEWEHR98: Mauser 'Standard' Rifle
+      STR_GEWEHR98: Mauser 'Standard' Rifle Bayoneted
       STR_GEWEHR98_CLIP: Mauser 'Standard' Clip
       STR_GEWEHR98_CLIP_KMM: Mauser 'Standard' K-MM Clip
       STR_GEWEHR98_UFOPEDIA: From the European forests and the Asian
@@ -474,7 +473,7 @@ en-US:
         limit the problems.
       STR_RSC_CARBINE: RSC Carbine
       STR_RSC_CARBINE_UFOPEDIA: A special adaptation of the RSC self-loading rifle meant to be used by vehicle and artillery crews. Limited by the short barrel, it best used in close quarters. It's main drawback is the small magazine capacity, compared to other personal defense weapons.
-      STR_MOSIN_NAGANT: Mosin-Nagant Rifle
+      STR_MOSIN_NAGANT: Mosin-Nagant Bayoneted
       STR_MOSIN_NAGANT_UFOPEDIA:
         Service rifle of the Russian Imperial Army, designed
         by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the
@@ -488,7 +487,7 @@ en-US:
         means 'sawed-off' in Russian.
       STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
       STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
-      STR_BERDAN_II: Berdan II Rifle
+      STR_BERDAN_II: Berdan II Bayoneted
       STR_BERDAN_II_AMMO: Berdan II Ammo
       STR_BERDAN_II_AMMO_KMM: Berdan II K-MM Ammo
       STR_BERDAN_II_UFOPEDIA: Old single-shot service rifle, used from 1870 until replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
@@ -961,11 +960,28 @@ en-US:
         formed, from pistols to cannons, machine guns and rifles.
       STR_FRONTLINES_FIELD_REPORT: "Frontline Performance Report"
       STR_FRONTLINES_FIELD_REPORT_UFOPEDIA: "For 3 years we have been engaged in a war of attrition, mostly on the defensive. The information we have gathered, together with that reported by other allied troops has enabled us to develop new war tactics, more powerful machines and better weapons. Specially the new infantry weapons, which are adapted to the peculiar characteristics of trench fighting. Mud and difficulty in maintaining weapons and equipment is the norm in our battles. Upgraded weapons will be made available to us as soon as possible."
-      
+
       STR_ROCKET_THEORY_RESEARCH: "Rocket Theory"
       STR_ROCKET_THEORY_RESEARCH_UFOPEDIA: "Rockets are a self-propulsed projectile with an internal fuel tank and an engine able to provide great amounts of thrust by burning chemical substances. The technology itself can be traced since ancient times, with examples being used by China. The modern models carry explosive warheads over long distances. Additional research into this technology eventually will lead to better and more efficient engines."
       STR_JET_THEORY_RESEARCH: "Jet Theory"
       STR_JET_THEORY_RESEARCH_UFOPEDIA: "Rockets are cheap and easy to produce but have a limited fuel reserve and are mechanically unreliable. The next step in high-performance propulsion is the jet engine. By using a powerful turbofan inside a turbine, the air is sucked and burnt with fuel at high temperature in order to produce unprecedented thrust. Any plane equipped with these engines could quickly intercept any Martian craft with ease. "
+############################
+############################
+      STR_CONTACT_WITH_TESLA: "Contact with Tesla"
+      STR_CONTACT_WITH_TESLA_UFOPEDIA: "Nikola Tesla, the chief scientist coordinating the joint Coalition research staff investigating the invaders"
+      STR_TESLA_ELECTRIC_BLUEPRINTS: "Tesla's Electric Blueprints"
+      STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA: "Dr. Tesla has agreed to work alongside us to continue developing his Electric weapons. The enormous amount of disch"
+      STR_TESLA_FOCUSED_DISCHARGE_RESEARCH:
+      STR_TESLA_FOCUSED_DISCHARGE_RESEARCH_UFOPEDIA:
+      STR_TESLA_INFANTRY_CANNON_RESEARCH:
+      STR_TESLA_INFANTRY_CANNON_RESEARCH_UFOPEDIA:
+      STR_TESLA_RAPID_DISCHARGE_RESEARCH:
+      STR_TESLA_RAPID_DISCHARGE_RESEARCH_UFOPEDIA:
+
+      STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT: "Phlogiston Infantry Weapon Project"
+      STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT: "Phlogiston Handheld Weapon Project"
+      STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT: "Phlogiston Support Weapon Project"
+      STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT: "Phlogiston Heavy Weapon Project"
 
 
 
@@ -1212,8 +1228,8 @@ en-US:
       STR_PHLOGISTON_DISCOVERY_EVENT: "Beam weapon tech discovery"
       STR_PHLOGISTON_DISCOVERY_EVENT_DESCRIPTION: "An energy-based weapons development team led by Dr. Nospmoht and Dr. Rafal Wizniewsky have announced the refinement of their thermal energy emitter devices nicknamed 'Phlogiston' (after the old physics theory that explains why things burn). Using cylindrical-shaped rods made of ruby, their device is able to project a large amount of energy towards a target. Prototypes are still being developed, as the main issue is the extreme overheating and subsequent melting of the projector."
       STR_PHLOGISTON_PROTOTYPE_TESTING_EVENT: "Phlogiston prototype testing ongoing"
-      STR_PHLOGISTON_PROTOTYPE_TESTING_EVENT_DESCRIPTION: "The Nospmoht-Wizniewsky Project have managed to make a working prototype. Using a bolt-action service rifle as basis for the 'ruby rod emitter', with the ignition mechanism converted into an energy release mechanism, and the barrel replaced with a large array of magnifying glasses. Field testing has reported progress and a prospect of mass production is on the horizon... As long as the overheating issue remains controlled." 
-      STR_PHLOGISTON_BREAKTHROUGH: "Nospmoht-Wizniewsky Project made breakthrough"
+      STR_PHLOGISTON_PROTOTYPE_TESTING_EVENT_DESCRIPTION: "The Nospmoht-Wizniewsky Project have managed to make a working prototype. Using a bolt-action service rifle as basis for the 'ruby rod emitter', with the ignition mechanism converted into an energy release mechanism, and the barrel replaced with a large array of magnifying glasses. Field testing has reported progress and a prospect of mass production is on the horizon... As long as the overheating issue remains controlled."
+      STR_PHLOGISTON_BREAKTHROUGH_EVENT: "Nospmoht-Wizniewsky Project made breakthrough"
       STR_PHLOGISTON_BREAKTHROUGH_EVENT_DESCRIPTION: "Today, a major research development was made by the Nospmoht-Wizniewsky Project: a fully working Phlogiston beam weapon. The difficulty to mount the ruby rod emitter mechanism on a brand new gun was ingeniously solved by Sir Nathan Curry, who came up with the idea of using surplus weapons as basis. The blueprints and emitters were sent to several allied forces with the intention of getting as many Phlogiston weapons in the field as possible, meanwhile industrial facilities are adapted to manufacture and dispatch them."
       STR_PHLOGISTON_BLUEPRINTS_EVENT: "Beam Committee presents blueprints"
       STR_PHLOGISTON_BLUEPRINTS_EVENT_DESCRIPTION: "The Nospmoht-Wizniewsky Project has been very successful in their task to develop energetic weapons and was expanded into the newly formed 'Energy-Beam Weaponry and Technology Development Committee' led by Dr Nospmoht and Sir Nathan Curry, nicknamed 'the Beam Committee'. Their task is to further create powered emitters to use in the war. Dr Rafal Wizniewsky's absence is notorious, however. There is no official statement by the committee on the matter."
@@ -1221,9 +1237,9 @@ en-US:
       STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "The general consensus of the Beam Committee has decided to focus the resources  on the refinement of a standard issue rifle for the Coalition's soldiers. A design was developed with an emphasis on the hellish conditions of the trenches, and new models with their batteries have been sent to key positions in the front. Armories all over the allied nations have started to produce the weapons and new Czchoralski Ruby Incubators have been built to keep the synthetic ruby gems supplies running."
       STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT: "Phlogiston Handheld Weapon developed"
       STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "As requested by several officers and support unit elements in the Coalition armed forces, a compact side weapon was created. Forging refraction lenses small enough to fit inside a handgun barrel was difficult, and the result was a slightly heavier pistol than conventional desings. Still, it's very appreciated by the commanding officers on the front. Blueprints have been sent to factories and armories."
-      STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT: "Phlogiston Support Weapon developed"
+      STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT: "Phlogiston Support Weapon developed"
       STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "We had recieved word of the usefulness of Phlogiston Pistols in the military leadership, although support troops have requested yet another weapon to complement their duties. Their motives are the need of a compact yet powerful weapon, with more range than a pistol, but shorter and lighter to a rifle. The solution: adapt existing M1907 carbine with Ruby Rod Chambers. The result was well recieved and production has began."
-      STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT: "Phlogiston "
+      STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT: "Phlogiston Heavy Weapon developed"
       STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "The brute firepower of the Nospmoht-Wizniewsky Phlogiston Prototype isn't matched by the battery-powered Beam weapons. So, the solution is to scale up the Ruby Rod Emitter and mechanisms used by the Prototype to a larger frame, making a very powerful heavy rifle. The downside is the slower rate of fire and greatly increased weight and cumberness of the use. The increased demand of the ruby rods may reduce the availablity of the weapon."
 
 ###########################
@@ -1264,6 +1280,7 @@ en-US:
 
       STR_FLOATER: "Mixed Martian Platoon"
       STR_SECTOID: "Martian Conscript"
+      STR_SECTOID_SOLDIER: "Martian Conscript"
       STR_SECTOID_LEADER: "Martian Conscript Leader"
       STR_SECTOIDS: "Martian Conscript Platoon"
       STR_SECTOID_CORPSE: "Martian Conscript Corpse"
@@ -1336,7 +1353,7 @@ en-US:
 
       STR_MARTIAN_STATIC_SUPPLY_DEPOT: "Martian Supply Depot"
       STR_MARTIAN_STATIC_CLONE_LAB: "Martian Organics Lab"
-      SSTR_MARTIAN_STATIC_CAMP: "Martian Camp"
+      STR_MARTIAN_STATIC_CAMP: "Martian Camp"
       STR_MARTIAN_STATIC_OUTPOST: "Martian Outpost"
       STR_MARTIAN_STATIC_REDOUBT: "Martian Redoubt"
       STR_MARTIAN_STATIC_WATCHTOWER: "Martian Watchtower"
@@ -1345,6 +1362,9 @@ en-US:
       STR_MARTIAN_STATIC_TROOP_BARRACKS: "Martian Troop Barracks"
       STR_ALIEN_CYLINDER: "Martian Cylinder"
 
+      STR_MARTIAN_AIR_PATROL_1: "Martian Air Patrol I"
+      STR_MARTIAN_AIR_SUPREMACY_1: "Martian Air Supremacy I"
+      STR_MARTIAN_AIR_SUPREMACY_2: "Martian Air Supremacy II"
 
       STR_HEATRAY_RIFLE: Heat-Ray Rifle
       STR_HEATRAY_RIFLE_BATTERY_PHOTON: Heat-Ray Rifle Photon Battery
@@ -1378,17 +1398,18 @@ en-US:
       STR_MARTIAN_SLUGTHROWER_ROUNDS: "Pneumatic Slugthrower MM Round (x1)"
       STR_MARTIAN_SLUGTHROWER_UFOPEDIA: "Nicknamed 'the Blunderbuss', due the similarities with the old human weapon. It is the clearest example the Martians are learning from our designs... and also running low on resources. As opposed to their usually advanced weapons, this ballistic gun has a simple design with varying degrees of quality. The Slugthrower is a breechloader, single shot, bolt-action rifle, similar to the weapons used in late 19th Century.  It uses an unknown pressurized gas to propel small Tunguskium slugs at high parabolic trajectories over long distances. Equipped with a bayonet."
 
-
+      STR_GENEVA_CONVENTION_APPEAL: "Geneva Convention"
+      STR_GENEVA_CONVENTION_APPEAL_UFOPEDIA: "Even after all these years of non-stop fighting all around the world, it seems the Geneva Convention is still a thing. Until now, the use of certain types of ammunition and weapons were banned in war... against humans. But as fas as we know, the Martians didn't signed the Convention. This sole argument was enough to have said restrictions lifted for all combating forces. New special unconventional equipment is available."
 
       STR_RED_WEED_RESEARCH: Red Weed Research
       STR_CHEMICAL_WARFARE_RESEARCH: Martian Chemical Warfare Research
 
       STR_HEATRAY_PHOTON_ANALYSIS: "Heat-Ray Photon Batteries"
       STR_HEATRAY_PHOTON_ANALYSIS_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}Since the first appearance of the Tripods on English soil, humanity has been attracted and horrified by the main war weapon of the invaders. They use an unknown crystal as a catalyst for the energy emitted by a miniature Hydrogen Engine that projects a powerful infrared ray (called 'Photon Beam' by most people) at more than 1500 degrees centigrade. We have analyzed these weapons carefully and are quite useless without the crystal, basically a gas lamp with alien batteries."
-      STR_HEATRAY_MICROWAVE_ANALYSIS: "Heat-Ray Microwave Analysis"
-      STR_HEATRAY_MICROWAVE_ANALYSIS_UFOPEDIA: "The enemy is learning from us, pretty much as we learn from they. It's something we cannot stop. The shock troop tactics so widely used by the Coalition troop and extremely effective in stopping the enemy advance in 1913 may have inspired the Martians on doing the same. This new set of Microwave emitters is focused towards maximum damage spread in close range. Essentially an energy shotgun! Our theories about the modularity of the weapons were confirmed, however. We need to continue developing further research to keep up the pace of the technological war. "
+      STR_HEATRAY_MICROWAVE_ANALYSIS: "Heat-Ray Microwave Batteries"
+      STR_HEATRAY_MICROWAVE_ANALYSIS_UFOPEDIA: "The enemy is learning from us, pretty much as we learn from they. It's something we cannot stop. The shock troop tactics so widely used by the Coalition troop and extremely effective in stopping the enemy advance in 1913 may have inspired the Martians on doing the same. This new set of Microwave emitters is focused towards maximum damage spread in a wide area. Essentially an energy shotgun! Our theories about the modularity of the weapons were confirmed, however. We need to continue developing further research to keep up the pace of the technological war. "
 
-      STR_HEATRAY_WEAPONS_ANALYSIS: "Heat-Ray Preliminary Analysis"
+      STR_HEATRAY_WEAPONS_ANALYSIS: "Heat-Ray Infantry Weapon Analysis"
       STR_HEATRAY_WEAPONS_ANALYSIS_UFOPEDIA: "The enemy armament evolved from the first invasion. Now they have designed and used smaller weapons and use them massively. Considerably weaker than those used by Fighting Machines, they are still very lethal for unprotected humans. One important feature seems to be the possibility of getting modular upgrades, as we noticed that the weapons have a thread similar to a screw, which could be used to adapt new types of attachments still unknown. Our scientist confirmed that handguns are simply impossible to replicate or use by our soldiers. We can sell them to our allies to try to recycle their components."
       STR_RED_WEED_RESEARCH_UFOPEDIA: "The martian indigenous crop, better known as 'Red Weed' is a highly invasive root species, capable of covering all types of terrestrial terrain with relative ease. This generates the perfect habit for the Martians, which suggests that they are terraforming our planet to make it more like Mars. It seems that the blood of mammals serves as fertilizer for this ominous plant. It is said to give off a highly fetid stench, similar to decaying cattle."
       STR_CHEMICAL_WARFARE_RESEARCH_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}The chemical weaponry has been used since the First Martian Invasion in 1898 in the form of the Black Smoke. In this war it has also been used with ferocity, decimating our armies and cities. A detailed analysis of the chemical containers of the Martians reveal a mixture of iron-rich powder with what appears to be dehydrated Red Weed, which gives it its dark color. It is the maximum weapon of enemy siege, although we can investigate the way to use it against them."
@@ -1681,6 +1702,10 @@ en-US:
       STR_ROCKETS_T3_RESEARCH: "Rockets Research III"
       STR_ROCKETS_T4_RESEARCH: "Rockets Research IV"
 
+      STR_AUX_HEAT_RAY_MK1_RESEARCH: "Craft Heat-Ray Research I"
+      STR_AUX_HEAT_RAY_MK2_RESEARCH: "Craft Heat-Ray Research II"
+      STR_AUX_HEAT_RAY_MK3_RESEARCH: "Craft Heat-Ray Research III"
+
 
       STR_VICKERS_MMG: "VICKERS MMG"
       STR_VICKERS_MMG_UFOPEDIA: "A British -made version of the Maxim Gun. Lighter and very reliable and capable of firing hundreds of thousands of rounds non-stop."
@@ -1793,14 +1818,22 @@ en-US:
       STR_AUX_KMM_ROUNDS_UFOPEDIA: "By replacing all the standard bullets and shells onboard by K-MM high-penetration equivalents made of Tunguskium, the damage output is increased by 25, for all the currently equipped weapons."
       STR_AUX_KMM_ROUNDS_LAUNCHER: "AUX K-MM Rounds"
 
-      STR_CRAFT_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
-      STR_CRAFT_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
-      STR_CRAFT_MACHINE_GUN_THREE: "MACHINE GUN-3>{ALT}{0}"
-      STR_CRAFT_MACHINE_GUN_FOUR: "MACHINE GUN-4>{ALT}{0}"
-      STR_CRAFT_CANNON_ONE: "LIGHT CANNON-1>{ALT}{0}"
-      STR_CRAFT_CANNON_TWO: "LIGHT CANNON-2>{ALT}{0}"
-      STR_CRAFT_CANNON_THREE: "LIGHT CANNON-3>{ALT}{0}"
-      STR_CRAFT_CANNON_FOUR: "LIGHT CANNON-4>{ALT}{0}"
+      STR_CRAFT_FORWARD_MACHINE_GUN_ONE: "MACHINE GUN-1>{ALT}{0}"
+      STR_CRAFT_FORWARD_MACHINE_GUN_TWO: "MACHINE GUN-2>{ALT}{0}"
+      STR_CRAFT_FORWARD_MACHINE_GUN_THREE: "MACHINE GUN-3>{ALT}{0}"
+      STR_CRAFT_FORWARD_MACHINE_GUN_FOUR: "MACHINE GUN-4>{ALT}{0}"
+      STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE: "DEFENSIVE MG-1>{ALT}{0}"
+      STR_CRAFT_DEFENSIVE_MACHINE_GUN_TWO: "DEFENSIVE MG-2>{ALT}{0}"
+      STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE: "DEFENSIVE MG-3>{ALT}{0}"
+      STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR: "DEFENSIVE MG-4>{ALT}{0}"
+      STR_CRAFT_LIGHT_CANNON_ONE: "LIGHT CANNON-1>{ALT}{0}"
+      STR_CRAFT_LIGHT_CANNON_TWO: "LIGHT CANNON-2>{ALT}{0}"
+      STR_CRAFT_LIGHT_CANNON_THREE: "LIGHT CANNON-3>{ALT}{0}"
+      STR_CRAFT_LIGHT_CANNON_FOUR: "LIGHT CANNON-4>{ALT}{0}"
+      STR_CRAFT_AUTOCANNON_ONE: "AUTOCANNON-1>{ALT}{0}"
+      STR_CRAFT_AUTOCANNON_TWO: "AUTOCANNON-2>{ALT}{0}"
+      STR_CRAFT_AUTOCANNON_THREE: "AUTOCANNON-3>{ALT}{0}"
+      STR_CRAFT_AUTOCANNON_FOUR: "AUTOCANNON-4>{ALT}{0}"
       STR_CRAFT_ARTILLERY_ONE: "ARTILLERY-1>{ALT}{0}"
       STR_CRAFT_ARTILLERY_TWO: "ARTILLERY-2>{ALT}{0}"
       STR_CRAFT_ARTILLERY_THREE: "ARTILLERY-3>{ALT}{0}"
