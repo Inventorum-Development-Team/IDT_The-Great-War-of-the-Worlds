@@ -221,6 +221,124 @@ events:
 #       STR_ITEM1: true
 #       STR_ITEM2: false
 
+##################################
+#### PHLOGISTON PLOT EVENTS #####
+################################
+
+  - name: STR_PHLOGISTON_DISCOVERY_EVENT
+    description: STR_PHLOGISTON_DISCOVERY_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_1_BACKGROUND
+##    music:
+    #regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    points: 100
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [XXX, YYY]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+#    itemTriggers:
+#       STR_ITEM1: true
+#       STR_ITEM2: false
+  - name: STR_PHLOGISTON_PROTOTYPE_TESTING_EVENT
+    description: STR_PHLOGISTON_PROTOTYPE_TESTING_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_2_BACKGROUND
+##    music:
+    #regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    points: 100
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [XXX, YYY]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+#    itemTriggers:
+#       STR_ITEM1: true
+#       STR_ITEM2: false
+  - name: STR_PHLOGISTON_BREAKTHROUGH_EVENT
+    description: STR_PHLOGISTON_BREAKTHROUGH_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_3_BACKGROUND
+##    music:
+    #regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    points: 100
+#    randomItemList: [YYY, XXX]
+#    everyItemList: [XXX, YYY]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+#    itemTriggers:
+#       STR_ITEM1: true
+#       STR_ITEM2: false
+  - name: STR_PHLOGISTON_BLUEPRINTS_EVENT
+    description: STR_PHLOGISTON_BLUEPRINTS_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_3_BACKGROUND
+##    music:
+    #regionList: [STR_EUROPE, STR_NORTH_AMERICA, STR_NORTH_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA]
+    points: 100
+    researchList:
+      - STR_PHLOGISTON_PROTOTYPE
+#    randomItemList: [YYY, XXX]
+    everyItemList: [STR_PHLOGISTON_PROTOTYPE, STR_PHLOGISTON_RUBY_CLIP, STR_PHLOGISTON_RUBY_CLIP, STR_PHLOGISTON_RUBY_CLIP]
+#    interruptResearch: XXX
+    timer: 2700
+    timerRandom: 43500
+#    itemTriggers:
+#       STR_ITEM1: true
+#       STR_ITEM2: false
+
+  - name: STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT_EVENT
+    description: STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_3_BACKGROUND
+    points: 100
+    researchList:
+      - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
+    everyItemList: [STR_PHLOGISTON_BATTLE_RIFLE, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY]
+    timer: 2700
+    timerRandom: 43500
+
+  - name: STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT
+    description: STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_3_BACKGROUND
+    points: 100
+    researchList:
+      - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
+    everyItemList: [STR_PHLOGISTON_PISTOL, STR_PHLOGISTON_SMALL_BATTERY, STR_PHLOGISTON_SMALL_BATTERY, STR_PHLOGISTON_SMALL_BATTERY]
+    timer: 2700
+    timerRandom: 43500
+
+  - name: STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT
+    description: STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_3_BACKGROUND
+    points: 100
+    researchList:
+      - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
+    everyItemList: [STR_PHLOGISTON_HEAVY_RIFLE, STR_PHLOGISTON_RUBY_CLIP, STR_PHLOGISTON_RUBY_CLIP, STR_PHLOGISTON_RUBY_CLIP]
+    timer: 2700
+    timerRandom: 43500
+
+  - name: STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT
+    description: STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
+    background: PHLOGISTON_EVENT_3_BACKGROUND
+    points: 100
+    researchList:
+      - STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
+    everyItemList: [STR_PHLOGISTON_AUTOMATIC_CARBINE, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY]
+    timer: 2700
+    timerRandom: 43500
+
+######################################
+# COLLABORATION FINALE
+
+  - name: STR_MARTIANS_SEEKS_DIPLOMACY_EVENT
+    description: STR_MARTIANS_SEEKS_DIPLOMACY_EVENT_DESCRIPTION
+    background: GENERIC_EVENT_4_BACKGROUND
+    points: 100
+    timer: 2700
+
+  - name: STR_TRUCE_REJECTED_EVENT
+    description: STR_TRUCE_REJECTED_EVENT_DESCRIPTION
+    background: GENERIC_EVENT_2_BACKGROUND
+    points: 100
+    timer: 2700
+
 extraSprites:
 ##########################################
 ############ BACKGROUNDS #################
@@ -281,3 +399,54 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND.PNG
+
+  - type: PHLOGISTON_EVENT_1_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/PHLOGISTON_EVENT_1_BACKGROUND.PNG
+  - type: PHLOGISTON_EVENT_2_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/PHLOGISTON_EVENT_2_BACKGROUND.PNG
+  - type: PHLOGISTON_EVENT_3_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/PHLOGISTON_EVENT_3_BACKGROUND.PNG
+
+  - type: GENERIC_EVENT_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/GENERIC_EVENT_BACKGROUND.PNG
+  - type: GENERIC_EVENT_1_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/GENERIC_EVENT_1_BACKGROUND.PNG
+  - type: GENERIC_EVENT_2_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/GENERIC_EVENT_2_BACKGROUND.PNG
+  - type: GENERIC_EVENT_3_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/GENERIC_EVENT_3_BACKGROUND.PNG
+  - type: GENERIC_EVENT_4_BACKGROUND
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Backgrounds/Events/GENERIC_EVENT_4_BACKGROUND.PNG
+
