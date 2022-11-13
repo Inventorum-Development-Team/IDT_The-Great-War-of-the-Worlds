@@ -273,8 +273,6 @@ ufopaedia:
   ######### PHLOGISTON SELF-LOADING RIFLES #######
   ###############################################
   - id: STR_PHLOGISTON_BATTLE_RIFLE
-    requires:
-     - STR_ADVANCED_FIREARMS
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA
@@ -873,7 +871,7 @@ ufopaedia:
     text: STR_GAS_GRENADE_UFOPEDIA
     listOrder: 7800
     ##listOrder: 2074
-    
+
   - id: STR_HEAVY_GRENADE
     requires:
       - STR_HEAVY_GRENADE_UNLOCK
@@ -881,8 +879,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_GRENADE_UFOPEDIA
     listOrder: 7810
-    ##listOrder: 2074    
-    
+    ##listOrder: 2074
+
   - id: STR_FLARE_GUN
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -896,6 +894,12 @@ ufopaedia:
   ######################################
   ######### MELEE EQUIPMENT ###########
   ####################################
+  - id: STR_UNARMED_UNIFORM
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    text: STR_UNARMED_NONE_PEDIA
+    listOrder: 7999
+
   - id: STR_SABRE
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
@@ -1299,7 +1303,7 @@ ufopaedia:
 
   - id: STR_TGEWEHR_TURRET
     requires:
-      - STR_ADVANCED_FIREARMS
+      - STR_FRONTLINES_FIELD_REPORT
     type_id: 3
     image_id: TGEWEHR_BACKGROUND
     section: STR_HEAVY_WEAPONS_PLATFORMS
@@ -1451,13 +1455,13 @@ ufopaedia:
     requires:
       - STR_MARTIAN_METAL_ARMOR_PLATES
     text: STR_MARTIAN_METAL_ARMOR_PLATES_UFOPEDIA
-    listOrder: 14810   
+    listOrder: 14810
   - id: STR_MARTIAN_METAL_REPLICATION
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     requires:
       - STR_OVERLORD_INTEL_1
-    text: STR_OVERLORD_INTEL_1_UFOPEDIA
+    text: STR_MARTIAN_METAL_REPLICATION_UFOPEDIA
     listOrder: 14900
   - id: STR_ADVANCED_FIREARMS
     requires:
@@ -1497,20 +1501,19 @@ ufopaedia:
     ##listOrder: 10205
     text_width: 150
     listOrder: 15300
+  - id: STR_GENEVA_CONVENTION_APPEAL
+    requires:
+      - STR_GENEVA_CONVENTION_APPEAL
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_GENEVA_CONVENTION_APPEAL_UFOPEDIA
+    ##listOrder: 10205
+    text_width: 150
+    listOrder: 15310
 
 #####################################
 ######### MARTIAN RESEARCH #########
 ###################################
-  - id: STR_HEATRAY_RESEARCH
-    requires:
-      - STR_HEATRAY_RESEARCH
-    type_id: 7
-    section: STR_ALIEN_ARTIFACTS
-    image_id: HEAT_RAY_RESEARCH
-    text: STR_HEATRAY_RESEARCH_UFOPEDIA
-    text_width: 316
-    listOrder: 15400
-    ##listOrder: 10301
   - id: STR_HEATRAY_WEAPONS_ANALYSIS
     requires:
       - STR_HEATRAY_WEAPONS_ANALYSIS
@@ -1791,6 +1794,55 @@ ufopaedia:
     text_width: 158
     listOrder: 18100
 
+  - id: SECTOID_ARMOR0
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_SECTOID_SOLDIER
+    listOrder: 19000
+  - id: STR_MARTIAN_LINE_INFANTRY_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MARTIAN_LINE_INFANTRY
+    listOrder: 19010
+  - id: STR_MARTIAN_MARINE_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MARTIAN_MARINE
+    listOrder: 19020
+  - id: STR_MARTIAN_SHOCK_GUARD_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MARTIAN_SHOCK_GUARD
+    listOrder: 19030
+  - id: STR_MARTIAN_SKIRMISHER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MARTIAN_SKIRMISHER
+    listOrder: 19040
+  - id: STR_MARTIAN_ROYAL_POWER_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MARTIAN_ROYAL_GUARD
+    listOrder: 19050
+  - id: STR_MARTIAN_SCIENTIST_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_MARTIAN_SCIENTIST
+    listOrder: 19060
+  - id: CEREBREAL_ARMOR
+    type_id: 5
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_CEREBREAL_COMMANDER
+    listOrder: 19070
+
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
 ###############################################
@@ -1857,12 +1909,12 @@ ufopaedia:
       - STR_OVERLORD_INTEL_9
     text: STR_OVERLORD_INTEL_9_UFOPEDIA
     listOrder: 20800
-  - id: STR_MARTIAN_OVERSEER_DIPLOMACY
+  - id: STR_MARTIAN_OVERLORD_DIPLOMACY
     type_id: 8
     section: STR_ALIEN_RESEARCH_UC
     requires:
-      - STR_MARTIAN_OVERSEER_DIPLOMACY
-    text: STR_MARTIAN_OVERSEER_DIPLOMACY_UFOPEDIA
+      - STR_MARTIAN_OVERLORD_DIPLOMACY
+    text: STR_MARTIAN_OVERLORD_DIPLOMACY_UFOPEDIA
     listOrder: 20900
 
 #################################################
@@ -2556,9 +2608,9 @@ ufopaedia:
     image_id: TWIN_HMG
     text: STR_50CAL_BROWNING_HMG_UFOPEDIA
     listOrder: 40020
-    ##listOrder: 801    
     ##listOrder: 801
-    
+    ##listOrder: 801
+
   - id: STR_LEWIS_303_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2571,7 +2623,7 @@ ufopaedia:
     image_id: AUTOCANNON
     text: STR_30CAL_BROWNING_TURRET_UFOPEDIA
     listOrder: 40060
-    ##listOrder: 802    
+    ##listOrder: 802
     ##listOrder: 802
   - id: STR_303_VICKERS_K_TURRET
     type_id: 2
@@ -2580,14 +2632,14 @@ ufopaedia:
     text: STR_303_VICKERS_K_TURRET_UFOPEDIA
     listOrder: 40070
     ##listOrder: 802
-    
+
   - id: STR_BECKER_2CM_CANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: AUTOCANNON
     text: STR_BECKER_2CM_CANNON_UFOPEDIA
     listOrder: 40100
-    ##listOrder: 802    
+    ##listOrder: 802
   - id: STR_AUTOCANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2602,7 +2654,7 @@ ufopaedia:
     text: STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA
     listOrder: 40120
     ##listOrder: 802
-    
+
   - id: STR_QF_1_PDR_POMPOM
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2624,7 +2676,7 @@ ufopaedia:
     text: STR_75MM_CANNON_UFOPEDIA
     listOrder: 40220
     ##listOrder: 803
-    
+
   - id: STR_FRAGMENTATION_BOMB
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2653,7 +2705,7 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_LE_PRIEUR_ROCKETS_UFOPEDIA
     listOrder: 40400
-    ##listOrder: 803    
+    ##listOrder: 803
   - id: STR_CLUSTER_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
@@ -2667,7 +2719,7 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_MAGNETIC_ROCKETS_UFOPEDIA
     listOrder: 40420
-    ##listOrder: 803    
+    ##listOrder: 803
   - id: STR_GUIDED_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
