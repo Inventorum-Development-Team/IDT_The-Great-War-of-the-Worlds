@@ -393,7 +393,7 @@ items:
   - type: STR_HUOT_LMG_DRUM # ignoreDuplicate
     tags:
       AmmoNo: 1
-  - type: STR_HUOT_DRUM_KMM # ignoreDuplicate
+  - type: STR_HUOT_LMG_DRUM_KMM # ignoreDuplicate
     tags:
       AmmoNo: 2
   - type: STR_BAR #ignoreDuplicate
