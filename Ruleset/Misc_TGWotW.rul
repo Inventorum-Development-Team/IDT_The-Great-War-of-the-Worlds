@@ -311,18 +311,6 @@ ufos:
     marker: 13
     markerLand: 18
     markerCrash: 23
-  - type: STR_MARTIAN_FIGHTER
-    marker: 13
-    markerLand: 18
-    markerCrash: 23
-  - type: STR_MARTIAN_GUNSHIP
-    marker: 14
-    markerLand: 19
-    markerCrash: 24
-  - type: STR_MARTIAN_TRANSPORT
-    marker: 14
-    markerLand: 19
-    markerCrash: 24
   - type: STR_MARTIAN_ASSAULT_WALKER  # ignoreDuplicate
     marker: 14
     markerLand: 19
@@ -555,6 +543,7 @@ items:
       IgnoreDirection: false
       ArmorEffectiveness: 1.15
       ToHealth: 0.35
+      ToArmorPre: 0.1
     accuracyMelee: 85
     meleeMultiplier:
       melee: 2.0
@@ -562,7 +551,8 @@ items:
       name: STR_PUNCH
     costMelee:
       time: 8
-      energy: 2
+      energy: 4
+      health: 2
     flatRate: true
     battleType: 3
     clipSize: -1
@@ -619,11 +609,7 @@ armors:
 
 
 
-ufopaedia:
-  - id: STR_UNARMED_UNIFORM
-    type_id: 4
-    section: STR_WEAPONS_AND_EQUIPMENT
-    text: STR_UNARMED_NONE_PEDIA
+
 
 extraSounds:
   - type: BATTLE.CAT
@@ -683,23 +669,56 @@ startingBase:
       x: 3
       y: 4
   randomSoldiers:
-    STR_BRITISH_SOLDIER: 3
-    STR_AMERICAN_SOLDIER: 3
-    STR_GERMAN_SOLDIER: 3
-    STR_PILOT: 15
+    STR_BRITISH_SOLDIER: 4
+    STR_AMERICAN_SOLDIER: 4
+    STR_GERMAN_SOLDIER: 4
+    STR_PILOT: 5
   crafts:
+    - type: STR_MARCH
+      id: 1
+      fuel: 9000
+      damage: 0
+      items:
+        STR_FRAG_GRENADE: 8
+        STR_SERVICE_REVOLVER: 2
+        STR_REVOLVER_CLIP: 4
+        STR_SMLE_MKIII: 5
+        STR_SMLE_MKIII_CLIP: 10
+        STR_M1907_SL_CARBINE: 1
+        STR_M1907_SL_CARBINE_MAG: 3
+        STR_MADSEN_LMG: 1
+        STR_MADSEN_LMG_MAG: 3
+        STR_SABRE: 8
+      status: STR_READY
+    - type: STR_PHALANX_MECH
+      id: 1
+      fuel: 2500
+      damage: 0
+      items:
+        STR_FRAG_GRENADE: 8
+        STR_SERVICE_REVOLVER: 2
+        STR_REVOLVER_CLIP: 4
+        STR_GEWEHR98: 10
+        STR_GEWEHR98_CLIP: 20
+        STR_M1907_SL_CARBINE: 2
+        STR_M1907_SL_CARBINE_MAG: 4
+        STR_RIFLE_GRENADE: 10
+        STR_MADSEN_LMG: 1
+        STR_MADSEN_LMG_MAG: 3
+        STR_SABRE: 8
+      status: STR_READY
     - type: STR_CCLASS_AIRSHIP
       id: 1
       fuel: 1450
       damage: 0
       weapons:
-        - type: STR_AUTOCANNON
+        - type: STR_BECKER_2CM_CANNON
           ammo: 100
         - type: STR_QF_1_PDR_POMPOM
           ammo: 30
         - type: STR_QF_1_PDR_POMPOM
           ammo: 30
-        - type: STR_TWIN_HMG
+        - type: STR_VICKERS_MMG
           ammo: 200
       items:
         STR_FRAG_GRENADE: 8
@@ -715,33 +734,9 @@ startingBase:
         STR_MADSEN_LMG_MAG: 3
         STR_SABRE: 8
       status: STR_READY
-    - type: STR_MARCH
-      id: 1
-      fuel: 9000
-      damage: 0
-      items:
-        STR_FRAG_GRENADE: 8
-        STR_SERVICE_REVOLVER: 2
-        STR_REVOLVER_CLIP: 4
-        STR_SMLE_MKIII: 5
-        STR_SMLE_MKIII_CLIP: 5
-        STR_M1907_SL_CARBINE: 1
-        STR_M1907_SL_CARBINE_MAG: 3
-        STR_GEWEHR98: 2
-        STR_GEWEHR98_CLIP: 5
-        STR_MADSEN_LMG: 1
-        STR_MADSEN_LMG_MAG: 3
-        STR_SABRE: 8
-      status: STR_READY
   items:
-    STR_TWIN_HMG_LAUNCHER: 2
-    STR_TWIN_HMG_ROUNDS_X50: 10
-    STR_AUTOCANNON_LAUNCHER: 1
-    STR_AUTOCANNON_ROUNDS_X50: 10
+    STR_BECKER_2CM_CANNON: 1
     STR_QF_1_PDR_POMPOM_LAUNCHER: 1
-    STR_QF_1_PDR_POMPOM_X30: 10
-    STR_FRAGMENTATION_BOMB_LAUNCHER: 1
-    STR_FRAGMENTATION_BOMB_X3: 10
     STR_SERVICE_REVOLVER: 4
     STR_REVOLVER_CLIP: 20
     STR_SMLE_MKIII: 2
@@ -763,10 +758,6 @@ startingBase:
   scientists: 10
   engineers: 10
 
-alienItemLevels:
-  - [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
-  - [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
-  - [0, 0, 1, 1, 1, 2, 2, 2, 3, 3]
 
 facilities:
   - delete: STR_HANGAR
