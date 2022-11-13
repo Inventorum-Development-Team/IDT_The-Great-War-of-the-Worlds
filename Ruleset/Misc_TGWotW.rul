@@ -777,10 +777,18 @@ facilities:
   - type: STR_SMALL_RADAR_SYSTEM
     spriteShape: 2
     spriteFacility: 21
-    buildCost: 500000
+    buildCost: 400000
     buildTime: 12
     monthlyCost: 10000
-    radarRange: 2759
-    radarChance: 100
+    radarRange: 1700
+    radarChance: 15
     hyper: true
     mapName: XBASE_04
+  - type: STR_LARGE_RADAR_SYSTEM
+    spriteShape: 1
+    spriteFacility: 22
+    buildCost: 800000
+    buildTime: 25
+    monthlyCost: 20000
+    radarRange: 2577
+    radarChance: 30

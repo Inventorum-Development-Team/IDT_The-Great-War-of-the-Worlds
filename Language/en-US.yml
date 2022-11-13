@@ -929,6 +929,7 @@ en-US:
         allied factories to begin reconditioning the metal plates we have found
         to produce new weapons, armor and vehicles, based on prototypes.  As we lack the necessary facilities to mass produce equipment based on Tunguskium, the Coalition's armories and factories have to ensamble them and send them to our force. We must investigate the blueprints as soon as possible, to send
         them to the armorers around the world."
+      STR_MARTIAN_METAL_REFORGED_AMMO: "Martian Metal Reforged Ammo"
       STR_MARTIAN_METAL_ARMOR_PLATES: "Martian Metal Armor Plates"
       STR_MARTIAN_METAL_ARMOR_PLATES_UFOPEDIA: "One of the very first attempts at reverse engineering the alien equipment was to adapt their materials to our needs. Long years of research hsve culminate with the theorical application or Tunguskium into hardened plates. While not totally indestructible, the durable alloy is better than anything produced by us so far. The plates could be adapted to use on vehicles, buildings and even personal armor worn by a regular human."
       STR_ADVANCED_FIREARMS: "Improved Firearms"
@@ -965,6 +966,8 @@ en-US:
       STR_ROCKET_THEORY_RESEARCH_UFOPEDIA: "Rockets are a self-propulsed projectile with an internal fuel tank and an engine able to provide great amounts of thrust by burning chemical substances. The technology itself can be traced since ancient times, with examples being used by China. The modern models carry explosive warheads over long distances. Additional research into this technology eventually will lead to better and more efficient engines."
       STR_JET_THEORY_RESEARCH: "Jet Theory"
       STR_JET_THEORY_RESEARCH_UFOPEDIA: "Rockets are cheap and easy to produce but have a limited fuel reserve and are mechanically unreliable. The next step in high-performance propulsion is the jet engine. By using a powerful turbofan inside a turbine, the air is sucked and burnt with fuel at high temperature in order to produce unprecedented thrust. Any plane equipped with these engines could quickly intercept any Martian craft with ease. "
+
+      STR_REFINED_HYBRID_METALURGIC_TECHNIQUES: "Refined Hybrid Metalurgic Techniques"
 ############################
 ############################
       STR_CONTACT_WITH_TESLA: "Contact with Tesla"
@@ -1398,7 +1401,7 @@ en-US:
       STR_MARTIAN_SLUGTHROWER_ROUNDS: "Pneumatic Slugthrower MM Round (x1)"
       STR_MARTIAN_SLUGTHROWER_UFOPEDIA: "Nicknamed 'the Blunderbuss', due the similarities with the old human weapon. It is the clearest example the Martians are learning from our designs... and also running low on resources. As opposed to their usually advanced weapons, this ballistic gun has a simple design with varying degrees of quality. The Slugthrower is a breechloader, single shot, bolt-action rifle, similar to the weapons used in late 19th Century.  It uses an unknown pressurized gas to propel small Tunguskium slugs at high parabolic trajectories over long distances. Equipped with a bayonet."
 
-      STR_GENEVA_CONVENTION_APPEAL: "Geneva Convention"
+      STR_GENEVA_CONVENTION_APPEAL: "Geneva Convention Appeal"
       STR_GENEVA_CONVENTION_APPEAL_UFOPEDIA: "Even after all these years of non-stop fighting all around the world, it seems the Geneva Convention is still a thing. Until now, the use of certain types of ammunition and weapons were banned in war... against humans. But as fas as we know, the Martians didn't signed the Convention. This sole argument was enough to have said restrictions lifted for all combating forces. New special unconventional equipment is available."
 
       STR_RED_WEED_RESEARCH: Red Weed Research
@@ -1537,7 +1540,7 @@ en-US:
       STR_HEAT_RAY_TECH_MICROWAVE_UFOPEDIA: The enemy tries to adapt their technology as the war progresses, much like us. Martian scientists work tirelessly to stay ahead of the curve, and one of their greatest advances is the use of new weapons technologies. Instead of using concentrated photons, they are switching to microwave radiation. More dangerous and with a larger scattering angle. Their weapons can modify their emitters with the ease of changing batteries.
       STR_HUMAN_HARVEST_1: "Scientist Intel III - Human harvest"
       STR_HUMAN_HARVEST_1_UFOPEDIA: "It is not clear to us how it is possible for the Martians to extract any sustenance from terrestrial organisms or whether this dependence began from the Second Invasion of 1911, the First Invasion of 1896 or earlier. The captured scientist has told us that the aliens' acquired immunity comes from the constant infusion of human and cattle blood into their bodies. Apparently it is some kind of vaccine to fit them to our ecosystem and without it, they would quickly perish."
-      STR_HUMAN_HARVEST_2: "Scientist Intel VI - Bloody obsession"
+      STR_HUMAN_HARVEST_2: "Scientist Intel IV - Bloody obsession"
       STR_HUMAN_HARVEST_2_UFOPEDIA: "This imprisoned scientist has given us more details about the apparent Martian obsession with blood. The blood of mammals contains hemoglobin in large quantities, which is composed of iron. Iron plays an important role in Martian metabolism and is very abundant on Mars, so blood is a good source of nutrients. Combined with the fact that they are better immunized against terrestrial diseases, many Martian soldiers travel with vials of blood."
       STR_MARTIAN_TERRAFORMATION: "Scientist Intel V - Symbiotic relationship"
       STR_MARTIAN_TERRAFORMATION_UFOPEDIA: "Mars is a dying world. Although it has numerous mineral deposits, organic and food production is very limited because of the difficult climate. It seems that Earth's climate is more suitable for the flourishing of its flora, the well-known Red Weed. The symbiotic relationship it has with the inhabitants of the red planet is more important than we think... it provides food for the Martians and gives them vitality."
@@ -1548,6 +1551,7 @@ en-US:
       STR_OPERATION_FIRESTORM: "Operation Firestorm"
       STR_OPERATION_FIRESTORM_UFOPEDIA: "A highly experimental strain of the hepatitis virus was created, aimed to disrup the inmune system of the infected and their liver. This is transmitted through blood and other body fluids. After capturing the infected mammals, the Martians will caught the sickness and develop it. Eventually, their inmune systems will be compromised again and they'll die even with the lightest flu. This may have a chance of infecting humans as well, because we are one of the vectors of the infection. While a large portion of the international medical community has their concerns, we don't have any choice. The war does not seems to have an end soon. This may be our last chance of winning it. As a safety measure, we have developed a vaccine too. Just in case. "
 
+      STR_SCIENTIST_1: "Scientist Unlock 1"
       STR_LAUNCH_FIRESTORM: "Launch Operation Firestorm"
       STR_PYRRIC_VICTORY_FINALE_1: "Our most secretive biological weapon was released, widely distributed over the Martian Occupation Zones using specially modified airplanes. Several of them were shot down, but most managed to accomplish their task."
       STR_PYRRIC_VICTORY_FINALE_2: "The result was expected... the enemy didn't noticed they were collecting infected bodies and directly feeding with the Firestorm virus. In a matter of weeks, most of them became sick and fell. The activity in the frontlines ceased."
@@ -1664,14 +1668,14 @@ en-US:
       STR_BRITISH_IMPROVED_SCOUT_OPTION_B: "British Improved Scout B"
       STR_GERMAN_IMPROVED_FIGHTER_OPTION_C: "German Improved Fighter C"
       STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH: "Improved Bomber/Attack Plane Research"
-      STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A: ""
-      STR_ITALIAN_IMPROVED_BOMBER_OPTION_B:
-      STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C:
+      STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A: "German Improved Strategic Bomber A"
+      STR_ITALIAN_IMPROVED_BOMBER_OPTION_B: "Italian Improved Bomber B"
+      STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C: "British Improved Attack Plane C"
 
-      STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH:
-      STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH_UFOPEDIA:
+      STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH: "All-metal Armored Vehicles Research"
+      STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH_UFOPEDIA: "With enough Tunguskium available and the facilities required to produce even more, we can field aircrafts and vehicles fully made (or reinforced) with Martian Metal plates and structures. This greatly improves the surviving chances of both the craft and the crew onboard, with the side benefit of carrying even more powerful engines and extra equipment, thanks to the stronger frames and chassis. The next Industrial Revolution is at the gates with this new technology."
 
-      STR_NEMESIS_WALKER_RESEARCH:
+      STR_NEMESIS_WALKER_RESEARCH: "Nemesis Walker Research"
 
 
 ######################################
@@ -1785,13 +1789,16 @@ en-US:
       STR_AUX_HEAT_RAY_MK3_LAUNCHER: "Craft Heat-Ray Projector Mk.III"
 
       STR_VEHICLE_QF_6_PDR_TURRET: "VEHICLE QF 6-PDR TURRET"
+      STR_6PDR_VEHICLE_TURRET: "Vehicle QF 6-pdr Turret"
       STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA: "A very popular 6-pounder (57mm) artillery turret, adapted from a naval gun. The barrel was reduced to fit the limited size of the ground vehicles, which reduced the range and power of the shells. However, it remains versatile enough."
       STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER: "Vehicle QF 6-pdr Turret"
       STR_VEHICLE_QF_6_PDR_TURRET_ITEM: "Vehicle QF 6-pdr Turret"
       STR_VEHICLE_8_8CM_TURRET: "VEHICLE 8,8CM FLAK TURRET"
+      STR_8_8CM_VEHICLE_TURRET: "Vehicle 8,8cm FlaK Turret"
       STR_VEHICLE_8_8CM_TURRET_UFOPEDIA: "Nicknamed by the Germans as 'Acht-Acht', it was originally concieved to be used as anti-air artillery. It was quickly found it's best used against ground targets for its enhanced armor penetration and good accuracy at long ranges. "
       STR_VEHICLE_8_8CM_TURRET_LAUNCHER: "Vehicle 8,8cm FlaK Turret"
       STR_VEHICLE_8_8CM_TURRET_ITEM: "Vehicle 8,8cm FlaK Turret"
+      STR_HEAT_RAY_VEHICLE_TURRET: "Vehicle H-R Projector Mk. X Turret"
       STR_VEHICLE_HEAT_RAY_TURRET: "VEHICLE HEAT-RAY PROJECTOR TURRET MK.X"
       STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The extended cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy."
       STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER: "Vehicle Heat-Ray Projector Turret Mk.X"
@@ -1940,4 +1947,10 @@ en-US:
 
       STR_POWER_SUIT: "Totemkopf Mechanized Armor"
       STR_POWER_SUIT_UFOPEDIA: "A highly experimental design made by German engineers based on the enclosed armors used by the Martian military. It features a closed breathing apparatus and several layers of Tunguskium and asbestos plates to endure the hardships of modern warfare. The Tesla Micro Generator in the back provides enough energy for all the systems inside"
+
+#############################################
+      STR_SMALL_RADAR_SYSTEM: "Regional SIGINT Post"
+      STR_SMALL_RADAR_SYSTEM_UFOPEDIA: "Facility equipped with telegram wireless machines focusing on gathering Signals Intelligence (SIGINT) reports of Martian ground, maritime and aerial activity. The recon operators relay signals to the Post and the information is analized and deciphered with a 15% of chance of detecting alien activity over a 1700 nmi radius."
+      STR_LARGE_RADAR_SYSTEM: "Strategic SIGINT Center"
+      STR_LARGE_RADAR_SYSTEM_UFOPEDIA: "A larger facility with more room for wireless machines and more personnel working to interpert SIGINT sightings and reports of Martian activity. Additional radio and telegram stations allows more detailed and concise data to be collected from recon agents deployed over a large area. Signals are analyzed with a 30% success chance over a 2500 nmi radius."
 

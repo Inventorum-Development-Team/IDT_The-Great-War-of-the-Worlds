@@ -52,6 +52,12 @@ ufopaedia:
   #- delete: STR_WEAPONS_AND_EQUIPMENT
   - delete: STR_XCOM_CRAFT_ARMAMENT
   #- delete: STR_ALIEN_LIFE_FORMS
+  - delete: STR_LIGHTNING
+  - delete: STR_AVENGER
+  - delete: STR_FIRESTORM
+  - delete: STR_FUSION_BALL
+  - delete: STR_LASER_CANNON
+  - delete: STR_PLASMA_BEAM
 ###########################################
   #################################################
   ######### BALLISTIC BOLT-ACTION RIFLES #########
@@ -1323,37 +1329,51 @@ ufopaedia:
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_FIGHTING_AIRPLANES_ROLES_UFOPEDIA
+    requires:
+      - STR_HUNTER_SCOUT_RESEARCH
     listOrder: 12600
   - id: STR_BOMBER_AIRPLANES_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_BOMBER_AIRPLANES_DATA_UFOPEDIA
+    requires:
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
     listOrder: 12700
   - id: STR_BOMBER_AIRPLANES_ROLES
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_BOMBER_AIRPLANES_ROLES_UFOPEDIA
+    requires:
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
     listOrder: 12800
 
   - id: STR_TIER_0_AIRCRAFTS_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_0_AIRCRAFTS_DATA_UFOPEDIA
+    requires:
+      - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
     listOrder: 12900
   - id: STR_TIER_1_AIRCRAFTS_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_1_AIRCRAFTS_DATA_UFOPEDIA
+    requires:
+      - STR_HUNTER_SCOUT_RESEARCH
     listOrder: 13000
   - id: STR_TIER_2_AIRCRAFTS_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_2_AIRCRAFTS_DATA_UFOPEDIA
+    requires:
+      - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
     listOrder: 13100
   - id: STR_TIER_3_AIRCRAFTS_DATA
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_TIER_3_AIRCRAFTS_DATA_UFOPEDIA
+    requires:
+      - STR_ALIENS_ONLY
     listOrder: 13200
 
   - id: STR_WALKER_DATA
@@ -1381,22 +1401,30 @@ ufopaedia:
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_4_UFOPEDIA
+    requires:
+      - STR_COMBAT_WALKER_RESEARCH
     listOrder: 13700
 
   - id: STR_WALKER_HISTORY_5
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_5_UFOPEDIA
+    requires:
+      - STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
     listOrder: 13800
   - id: STR_WALKER_HISTORY_6
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_6_UFOPEDIA
+    requires:
+      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
     listOrder: 13900
   - id: STR_WALKER_HISTORY_7
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_WALKER_HISTORY_7_UFOPEDIA
+    requires:
+      - STR_NEMESIS_WALKER_RESEARCH
     listOrder: 14000
 
   - id: STR_LANDSHIP_DATA
@@ -1418,17 +1446,23 @@ ufopaedia:
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_LANDSHIP_HISTORY_3_UFOPEDIA
+    requires:
+      - STR_LANDSHIP_RESEARCH
     listOrder: 14400
   - id: STR_LANDSHIP_HISTORY_4
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_LANDSHIP_HISTORY_4_UFOPEDIA
+    requires:
+      - STR_ALIENS_ONLY
     listOrder: 14500
 
   - id: STR_LANDSHIP_HISTORY_5
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     text: STR_LANDSHIP_HISTORY_5_UFOPEDIA
+    requires:
+      - STR_ALIENS_ONLY
     listOrder: 14600
 
   - id: STR_FRONTLINES_FIELD_REPORT
@@ -2234,15 +2268,15 @@ ufopaedia:
     section: STR_VEHICLES
     image_id: MARCH_IMAGE
     rect_stats:
-      x: 200
-      y: 130
-      width: 160
+      x: 5
+      y: 125
+      width: 130
       height: 80
     rect_text:
-      x: 5
-      y: 40
-      width: 100
-      height: 160
+      x: 110
+      y: 150
+      width: 205
+      height: 80
     text: STR_MARCH_UFOPEDIA
     listOrder: 30000
   - id: STR_MARCH_LARGE
@@ -2250,15 +2284,15 @@ ufopaedia:
     section: STR_VEHICLES
     image_id: MARCH_LARGE_IMAGE
     rect_stats:
-      x: 200
-      y: 130
-      width: 160
+      x: 5
+      y: 125
+      width: 130
       height: 80
     rect_text:
-      x: 5
-      y: 40
-      width: 100
-      height: 160
+      x: 110
+      y: 150
+      width: 205
+      height: 80
     text: STR_MARCH_LARGE_UFOPEDIA
     listOrder: 30100
   - id: STR_CONQUEROR
@@ -2274,12 +2308,109 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     listOrder: 30200
     requires:
       - STR_LANDSHIP_RESEARCH
+#######################################
+
+  - id: STR_PHALANX_MECH
+    section: STR_VEHICLES
+    text: STR_PHALANX_MECH_UFOPEDIA
+    ##listOrder: 111
+    image_id: PHALANX_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 150
+      width: 205
+      height: 80
+    listOrder: 30210
+  - id: STR_LEGIONNAIRE_MECH
+    section: STR_VEHICLES
+    text: STR_LEGIONNAIRE_MECH_UFOPEDIA
+    ##listOrder: 111
+    image_id: LEGIONNAIRE_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 150
+      width: 205
+      height: 80
+    listOrder: 30220
+    requires:
+      - STR_COMBAT_WALKER_RESEARCH
+  - id: STR_TESTUDO_MECH
+    section: STR_VEHICLES
+    text: STR_TESTUDO_MECH_UFOPEDIA
+    ##listOrder: 111
+    image_id: TESTUDO_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 150
+      width: 205
+      height: 80
+    listOrder: 30230
+    requires:
+      - STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
+  - id: STR_CENTURION_MECH
+    section: STR_VEHICLES
+    text: STR_CENTURION_MECH_UFOPEDIA
+    ##listOrder: 111
+    image_id: CENTURION_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 150
+      width: 205
+      height: 80
+    listOrder: 30240
+    requires:
+      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
+  - id: STR_PRAETORIAN_MECH
+    section: STR_VEHICLES
+    text: STR_PRAETORIAN_MECH_UFOPEDIA
+    ##listOrder: 111
+    image_id: PRAETORIAN_UFOPEDIA
+    type_id: 1
+    rect_stats:
+      x: 5
+      y: 125
+      width: 130
+      height: 80
+    rect_text:
+      x: 110
+      y: 150
+      width: 205
+      height: 80
+    listOrder: 30240
+    requires:
+      - STR_NEMESIS_WALKER_RESEARCH
+
+########################################
 
   - id: STR_FOKKER_EINDECKER
     type_id: 1
@@ -2293,7 +2424,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: FOKKER_EINDECKER_UFOPEDIA
@@ -2312,7 +2443,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: AIRCO_DH2_UFOPEDIA
@@ -2332,7 +2463,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: NIEUPORT_17_UFOPEDIA
@@ -2351,7 +2482,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: SOPWITH_PUP_UFOPEDIA
@@ -2370,7 +2501,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: ALBATROS_DIII_UFOPEDIA
@@ -2390,7 +2521,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: SPAD.SPK
@@ -2409,7 +2540,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: SE5A_UFOPEDIA
@@ -2428,7 +2559,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 18
+      y: 150
       width: 205
       height: 80
     image_id: FOKKER_DR1_UFOPEDIA
@@ -2448,7 +2579,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: ILYA_MUROMETS_UFOPEDIA
@@ -2467,7 +2598,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: HALBERSTADT_UFOPEDIA
@@ -2486,7 +2617,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: HANDLEY_PAGE_TYPE_O_UFOPEDIA
@@ -2506,7 +2637,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: ZEPPELIN_STAAKEN_RVI_UFOPEDIA
@@ -2525,7 +2656,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: CAPRIONI_CA5_UFOPEDIA
@@ -2544,7 +2675,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: BRISTOL_F2B_UFOPEDIA
@@ -2564,7 +2695,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: RCLASS_AIRSHIP.SPK
@@ -2583,7 +2714,7 @@ ufopaedia:
       height: 80
     rect_text:
       x: 110
-      y: 38
+      y: 150
       width: 205
       height: 80
     image_id: CCLASS_AIRSHIP_UFOPEDIA

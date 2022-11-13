@@ -869,16 +869,12 @@ crafts:
     speedMax: 50
     accel: 1
     weapons: 4
-    weaponTypes:
-      - [0, 1]
-      - [0, 1]
-      - [0, 1]
-      - [0, 1, 4, 5]
     weaponStrings:
-      - STR_CRAFT_CANNON_ONE
-      - STR_CRAFT_CANNON_TWO
-      - STR_CRAFT_MACHINE_GUN_THREE
-      - STR_CRAFT_BOMB_FOUR
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_TWO
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
+    fixedWeapons: ["STR_VICKERS_MMG", "STR_VICKERS_MMG", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 26
     vehicles: 0
     pilots: 4
@@ -974,17 +970,11 @@ crafts:
     damageMax: 400
     speedMax: 80
     accel: 3
-    weapons: 4
-    weaponTypes:
-      - [0, 1]
-      - [0, 1]
-      - [0, 1]
-      - [0, 1, 4, 5]
+    weapons: 2
     weaponStrings:
-      - STR_CRAFT_CANNON_ONE
-      - STR_CRAFT_CANNON_TWO
-      - STR_CRAFT_MACHINE_GUN_THREE
-      - STR_CRAFT_BOMB_FOUR
+      - STR_CRAFT_LIGHT_CANNON_ONE
+      - STR_CRAFT_LIGHT_CANNON_TWO
+    fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 6
     vehicles: 0
     pilots: 6
@@ -1015,11 +1005,11 @@ crafts:
           width: 10
           length: 10
           items:
-            STR_CONQUEROR_TURRET_SPAWNER:
+            STR_6PDR_VEHICLE_TURRET_SPAWNER:
               - [1, 6, 3]
               - [5, 1, 3]
           fuseTimers:
-            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
+            STR_6PDR_VEHICLE_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [5, 2, 2]
                 amount: 2
@@ -1051,16 +1041,12 @@ crafts:
     speedMax: 60
     accel: 1
     weapons: 4
-    weaponTypes:
-      - [0, 1]
-      - [0, 1]
-      - [0, 1]
-      - [0, 1, 4, 5]
     weaponStrings:
-      - STR_CRAFT_CANNON_ONE
-      - STR_CRAFT_CANNON_TWO
-      - STR_CRAFT_MACHINE_GUN_THREE
-      - STR_CRAFT_BOMB_FOUR
+      - STR_CRAFT_LIGHT_CANNON_ONE
+      - STR_CRAFT_LIGHT_CANNON_TWO
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
+    fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 21
     vehicles: 0
     pilots: 5
@@ -1091,14 +1077,16 @@ crafts:
           width: 10
           length: 20
           items:
-            STR_CONQUEROR_TURRET_SPAWNER:
+            STR_8_8CM_VEHICLE_TURRET_SPAWNER:
               - [3, 13, 4]
+            STR_6PDR_VEHICLE_TURRET_SPAWNER:
               - [3, 7, 4]
             STR_ZEPPELIN_TURRET_SPAWNER:
               - [1, 11, 4]
               - [6, 11, 4]
           fuseTimers:
-            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
+            STR_8_8CM_VEHICLE_TURRET_SPAWNER: [0, 0]
+            STR_6PDR_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [4, 7, 3]
@@ -1146,16 +1134,12 @@ crafts:
     speedMax: 50
     accel: 2
     weapons: 4
-    weaponTypes:
-      - [0, 1]
-      - [0, 1]
-      - [0, 1]
-      - [0, 1, 4, 5]
     weaponStrings:
-      - STR_CRAFT_CANNON_ONE
-      - STR_CRAFT_CANNON_TWO
-      - STR_CRAFT_MACHINE_GUN_THREE
-      - STR_CRAFT_BOMB_FOUR
+      - STR_CRAFT_ARTILLERY_ONE
+      - STR_CRAFT_LIGHT_CANNON_TWO
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
+    fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 7
     vehicles: 0
     pilots: 5
@@ -1186,15 +1170,17 @@ crafts:
           width: 10
           length: 10
           items:
-            STR_CONQUEROR_TURRET_SPAWNER:
+            STR_8_8CM_VEHICLE_TURRET_SPAWNER:
               - [4, 4, 4]
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
               - [4, 6, 3]
             STR_ZEPPELIN_TURRET_SPAWNER:
               - [3, 2, 4]
               - [6, 2, 4]
 
           fuseTimers:
-            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
+            STR_8_8CM_VEHICLE_TURRET_SPAWNER: [0, 0]
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [4, 3, 3]
@@ -1228,16 +1214,12 @@ crafts:
     speedMax: 40
     accel: 2
     weapons: 4
-    weaponTypes:
-      - [0, 1]
-      - [0, 1]
-      - [0, 1]
-      - [0, 1, 4, 5]
     weaponStrings:
-      - STR_CRAFT_CANNON_ONE
-      - STR_CRAFT_CANNON_TWO
-      - STR_CRAFT_MACHINE_GUN_THREE
-      - STR_CRAFT_BOMB_FOUR
+      - STR_CRAFT_ARTILLERY_ONE
+      - STR_CRAFT_LIGHT_CANNON_TWO
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
+    fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 13
     vehicles: 0
     pilots: 5
@@ -1273,12 +1255,13 @@ crafts:
               - [11, 8, 5]
               - [6, 8, 3]
               - [11, 8, 3]
-            STR_CONQUEROR_TURRET_SPAWNER:
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
               - [8, 10, 5]
-
+            STR_8_8CM_VEHICLE_TURRET_SPAWNER:
               - [8, 5, 5]
           fuseTimers:
-            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
+            STR_8_8CM_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
               - position: [6, 8, 4]
@@ -1863,6 +1846,102 @@ units:
       -
         - STR_CONQUEROR_AUTOCANNON
     specab: 1
+  - type: STR_6PDR_VEHICLE_TURRET
+    race: STR_6PDR_VEHICLE_TURRET
+    stats:
+      tu: 60
+      stamina: 1
+      health: 100
+      bravery: 100
+      reactions: 30
+      firing: 100
+      throwing: 0
+      strength: 100
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: STR_6PDR_VEHICLE_TURRET_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    deathSound: 23
+    energyRecovery: 0
+    livingWeapon: true
+    builtInWeaponSets:
+      -
+        - STR_STR_6PDR_VEHICLE_TURRET_GUN
+    specab: 1
+  - type: STR_8_8CM_VEHICLE_TURRET
+    race: STR_8_8CM_VEHICLE_TURRET
+    stats:
+      tu: 60
+      stamina: 1
+      health: 100
+      bravery: 100
+      reactions: 30
+      firing: 100
+      throwing: 0
+      strength: 100
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: STR_8_8CM_VEHICLE_TURRET_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    deathSound: 23
+    energyRecovery: 0
+    livingWeapon: true
+    builtInWeaponSets:
+      -
+        - STR_8_8CM_VEHICLE_TURRET_GUN
+    specab: 1
+  - type: STR_75MM_FORT_TURRET
+    race: STR_75MM_FORT_TURRET
+    stats:
+      tu: 60
+      stamina: 1
+      health: 100
+      bravery: 100
+      reactions: 30
+      firing: 100
+      throwing: 0
+      strength: 100
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: STR_75MM_FORT_TURRET_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    deathSound: 23
+    energyRecovery: 0
+    livingWeapon: true
+    builtInWeaponSets:
+      -
+        - STR_75MM_FORT_TURRET_GUN
+    specab: 1
+  - type: STR_HEAT_RAY_VEHICLE_TURRET
+    race: STR_HEAT_RAY_VEHICLE_TURRET
+    stats:
+      tu: 60
+      stamina: 1
+      health: 100
+      bravery: 100
+      reactions: 30
+      firing: 100
+      throwing: 0
+      strength: 100
+      psiStrength: 250
+      psiSkill: 0
+      melee: 0
+    armor: STR_HEAT_RAY_VEHICLE_TURRET_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    deathSound: 23
+    energyRecovery: 0
+    livingWeapon: true
+    builtInWeaponSets:
+      -
+        - STR_HEAT_RAY_VEHICLE_TURRET_GUN
+    specab: 1
 armors:
 #*** Vehicle turrets ***
   - type: STR_CONQUEROR_TURRET_ARMOR
@@ -1880,17 +1959,194 @@ armors:
     rearArmor: 130
     underArmor: 150
     size: 2
+    damageModifier:
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 1.4 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.1 #7 Melee
+      - 1.6 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.3 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.2 #17 Toxic
+      - 0.8 #18 Flames
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 5
+    allowsKneeling: false
+    allowsMoving: false
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: true
+  - type: STR_6PDR_VEHICLE_TURRET_ARMOR
+    spriteSheet: 6PDR_CANNON_SPRITESHEET.PCK
+    allowInv: false
+#    spriteInv: CTANK
+    corpseGeo:  STR_CONQUEROR_TURRET_CORPSE
+    corpseBattle:
+      - STR_CONQUEROR_TURRET_CORPSE_1
+      - STR_CONQUEROR_TURRET_CORPSE_2
+      - STR_CONQUEROR_TURRET_CORPSE_3
+      - STR_CONQUEROR_TURRET_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 150
+    size: 2
     damageModifier: #VEICULE ARMOR
-      - 1.0 #none
-      - 1.0 #AP
-      - 0.8 #FLAMES
-      - 1.0 #HE
-      - 1.4 #LASCANON
-      - 1.0 #PLASMA
-      - 0.0 #STUN
-      - 0.8 #MELEE
-      - 1.0 #ACID
-      - 0.0 #SMOKE
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 1.4 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.1 #7 Melee
+      - 1.6 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.3 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.2 #17 Toxic
+      - 0.8 #18 Flames
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+    allowsKneeling: false
+    allowsMoving: false
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: true
+  - type: STR_8_8CM_VEHICLE_TURRET_ARMOR
+    spriteSheet: 8_8CM_CANNON_TURRET.PCK
+    allowInv: false
+#    spriteInv: CTANK
+    corpseGeo:  STR_CONQUEROR_TURRET_CORPSE
+    corpseBattle:
+      - STR_CONQUEROR_TURRET_CORPSE_1
+      - STR_CONQUEROR_TURRET_CORPSE_2
+      - STR_CONQUEROR_TURRET_CORPSE_3
+      - STR_CONQUEROR_TURRET_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 150
+    size: 2
+    damageModifier: #VEICULE ARMOR
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 1.4 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.1 #7 Melee
+      - 1.6 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.3 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.2 #17 Toxic
+      - 0.8 #18 Flames
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 11
+    allowsKneeling: false
+    allowsMoving: false
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: true
+  - type: STR_HEAT_RAY_VEHICLE_TURRET_ARMOR
+    spriteSheet: HUMAN_HEAT_RAY_CANNON_SPRITESHEET.PCK
+    allowInv: false
+#    spriteInv: CTANK
+    corpseGeo:  STR_CONQUEROR_TURRET_CORPSE
+    corpseBattle:
+      - STR_CONQUEROR_TURRET_CORPSE_1
+      - STR_CONQUEROR_TURRET_CORPSE_2
+      - STR_CONQUEROR_TURRET_CORPSE_3
+      - STR_CONQUEROR_TURRET_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 150
+    size: 2
+    damageModifier: #VEICULE ARMOR
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 1.4 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.1 #7 Melee
+      - 1.6 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.3 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.2 #17 Toxic
+      - 0.8 #18 Flames
+    loftempsSet: [ 92, 89, 90, 91 ]
+    drawingRoutine: 2
+    allowsKneeling: false
+    allowsMoving: false
+    zombiImmune: true
+    bleedImmune: true
+    painImmune: true
+  - type: STR_75MM_FORT_TURRET_ARMOR
+    spriteSheet: 75MM_FORT_CANNON_SPRITESHEET.PCK
+    allowInv: false
+#    spriteInv: CTANK
+    corpseGeo:  STR_CONQUEROR_TURRET_CORPSE
+    corpseBattle:
+      - STR_CONQUEROR_TURRET_CORPSE_1
+      - STR_CONQUEROR_TURRET_CORPSE_2
+      - STR_CONQUEROR_TURRET_CORPSE_3
+      - STR_CONQUEROR_TURRET_CORPSE_4
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 150
+    size: 2
+    damageModifier: #VEICULE ARMOR
+      - 1.0 #0 None
+      - 0.8 #1 Armor Piercing
+      - 0.6 #2 Incendiary
+      - 1.4 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.0 #6 Stun
+      - 0.1 #7 Melee
+      - 1.6 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.3 #10 K-MM Ballistic
+      - 2.0 #11 Electric
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.2 #17 Toxic
+      - 0.8 #18 Flames
     loftempsSet: [ 92, 89, 90, 91 ]
     drawingRoutine: 5
     allowsKneeling: false
@@ -1900,8 +2156,26 @@ armors:
     painImmune: true
 items:
 #*** Vehicle turrets spawned on maps ***
-  - type: STR_CONQUEROR_TURRET_SPAWNER
-    spawnUnit: STR_CONQUEROR_TURRET
+  - type: STR_6PDR_VEHICLE_TURRET_SPAWNER
+    spawnUnit: STR_6PDR_VEHICLE_TURRET
+    spawnUnitFaction: 0
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_8_8CM_VEHICLE_TURRET_SPAWNER
+    spawnUnit: STR_8_8CM_VEHICLE_TURRET
+    spawnUnitFaction: 0
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER
+    spawnUnit: STR_HEAT_RAY_VEHICLE_TURRET
+    spawnUnitFaction: 0
+    invWidth: 0
+    invHeight: 0
+    battleType: 4
+  - type: STR_75MM_FORT_TURRET_SPAWNER
+    spawnUnit: STR_75MM_FORT_TURRET
     spawnUnitFaction: 0
     invWidth: 0
     invHeight: 0
@@ -1930,6 +2204,138 @@ items:
       ToHealth: 0.9
       ToArmor: 0.3
     fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    clipSize: -1
+    recover: false
+  - type: STR_STR_6PDR_VEHICLE_TURRET_GUN
+    size: 1.0
+    weight: 100
+    bigSprite: 4015
+    bulletSprite: 0
+    fireSound: [811, 812, 813, 814]
+    hitSound: 19
+    hitAnimation: 36
+    bulletSpeed: 15
+    explosionSpeed: 5
+    power: 80
+    damageType: 3
+    accuracyAimed: 85
+    tuAimed: 30
+    aimRange: 35
+    dropoff: 5
+    battleType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+      ToArmorPre: 0.6
+    fixedWeapon: true
+    blastRadius: 3
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 100
+  - type: STR_8_8CM_VEHICLE_TURRET_GUN
+    size: 1.0
+    weight: 100
+    bigSprite: 4020
+    bulletSprite: 0
+    fireSound: [808, 809, 810]
+    hitSound: 19
+    hitAnimation: 36
+    bulletSpeed: 15
+    explosionSpeed: 5
+    power: 90
+    damageType: 3
+    accuracyAimed: 85
+    tuAimed: 40
+    aimRange: 40
+    dropoff: 5
+    battleType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+      ToArmorPre: 0.8
+    fixedWeapon: true
+    blastRadius: 3
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 100
+
+  - type: STR_75MM_FORT_TURRET_GUN
+    size: 1.0
+    weight: 100
+    bigSprite: 4025
+    bulletSprite: 0
+    fireSound: [800, 801, 802, 803, 804]
+    hitSound: 19
+    hitAnimation: 36
+    bulletSpeed: 15
+    explosionSpeed: 3
+    power: 100
+    damageType: 3
+    accuracyAimed: 85
+    tuAimed: 40
+    aimRange: 40
+    dropoff: 5
+    battleType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreSelfDestruct: true
+      ToTile: 0.8
+      ToWound: 0.3
+      RandomWound: true
+      ToArmorPre: 0.8
+    fixedWeapon: true
+    blastRadius: 2
+    arcingShot: true
+    invWidth: 1
+    invHeight: 3
+    clipSize: -1
+    recover: false
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 100
+
+  - type: STR_HEAT_RAY_VEHICLE_TURRET_GUN
+    size: 1.0
+    weight: 100
+    bigSprite: 4030
+    bulletSprite: 30
+    fireSound: 603
+    hitAnimation: 66
+    hitSound: 19
+    damageType: 13
+    bulletSpeed: 15
+    explosionSpeed: 3
+    power: 110
+    accuracyAimed: 85
+    tuAimed: 40
+    aimRange: 40
+    dropoff: 5
+    battleType: 1
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: false
+      ToTile: 0.3
+      RandomWound: true
+      ToArmorPre: 0.9
+    fixedWeapon: true
+    blastRadius: 2
+    arcingShot: false
     invWidth: 2
     invHeight: 3
     clipSize: -1
@@ -2671,9 +3077,36 @@ extraSprites:
     files:
       0: Resources/Crafts/CCLASS_AIRSHIP_UFOPEDIA.png
 
-
-
-
+  - type: CENTURION_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Mechs/CENTURION_UFOPEDIA.png
+  - type: LEGIONNAIRE_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Mechs/LEGIONNAIRE_UFOPEDIA.png
+  - type: PHALANX_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Mechs/PHALANX_UFOPEDIA.png
+  - type: PRAETORIAN_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Mechs/PRAETORIAN_UFOPEDIA.png
+  - type: TESTUDO_UFOPEDIA
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/Mechs/TESTUDO_UFOPEDIA.png
 
 
 

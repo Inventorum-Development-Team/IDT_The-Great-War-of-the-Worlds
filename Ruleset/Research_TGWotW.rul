@@ -2030,6 +2030,7 @@ research:
     points: 80
     dependencies:
       - STR_GENEVA_CONVENTION_APPEAL
+      - STR_ORGANIC_FLYING_MACHINES
   - name: STR_OPERATION_FIRESTORM
     cost: 500
     points: 100

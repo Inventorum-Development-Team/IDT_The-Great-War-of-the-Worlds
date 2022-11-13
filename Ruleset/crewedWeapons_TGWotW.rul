@@ -686,6 +686,7 @@ items:
   - type: STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE
     size: 1
     costSell: 20000
+    recover: false
     battleType: 11
   - type: STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE_0
     name: STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE
@@ -1097,6 +1098,37 @@ extraSprites:
     files:
       0: Resources/UnitSprites/conqueror_turret.png
 
+  - type: 6PDR_CANNON_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/Turrets/6PDR_CANNON_SPRITESHEET.png
+
+  - type: 8_8CM_CANNON_TURRET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/Turrets/8_8CM_CANNON_TURRET.png
+
+  - type: 75MM_FORT_CANNON_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/Turrets/75MM_FORT_CANNON_SPRITESHEET.png
+
+  - type: HUMAN_HEAT_RAY_CANNON_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 160
+    files:
+      0: Resources/Turrets/HUMAN_HEAT_RAY_CANNON_SPRITESHEET.png
 #########################
 
   - type: LIGHT_HEAT_RAY_PROJECTOR_SPRITESHEET.PCK
@@ -1162,6 +1194,10 @@ extraSprites:
       4005: Resources/Turrets/BigConquerorAutocannon.png
       4010: Resources/Turrets/BigLightHeatRayProjector.png
       4011: Resources/Turrets/BigHeavyHeatRayProjector.png
+      4015: Resources/Turrets/Big6pdr.png
+      4020: Resources/Turrets/Big8_8cm.png
+      4025: Resources/Turrets/Big75mm.png
+      4030: Resources/Turrets/BigHeatRayProjector.png
 
   - type: FLOOROB.PCK
     files:
@@ -1177,6 +1213,7 @@ extraSprites:
       4012: Resources/Turrets/FloorHeavyHeatRayProjector_1.png
       4013: Resources/Turrets/FloorHeavyHeatRayProjector_2.png
       4014: Resources/Turrets/FloorHeavyHeatRayProjector_3.png
+
 
   - type: HANDOB.PCK
     height: 40
