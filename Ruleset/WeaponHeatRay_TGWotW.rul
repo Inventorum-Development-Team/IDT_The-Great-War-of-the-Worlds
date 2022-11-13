@@ -114,8 +114,7 @@ items:
     requires:
       - STR_ALIENS_ONLY
     size: 0.1
-    costBuy: 150
-    costSell: 90
+    costSell: 9000
     weight: 3
     bigSprite: 3144
     floorSprite: 3144
@@ -135,8 +134,7 @@ items:
     requires:
       - STR_ALIENS_ONLY
     size: 0.1
-    costBuy: 150
-    costSell: 90
+    costSell: 900
     weight: 3
     bigSprite: 3152
     floorSprite: 3152
@@ -195,8 +193,7 @@ items:
     requires:
       - STR_ALIENS_ONLY
     size: 0.1
-    costBuy: 150
-    costSell: 90
+    costSell: 900
     weight: 3
     bigSprite: 3184
     floorSprite: 3184
@@ -393,6 +390,8 @@ items:
 
   - type: STR_MARTIAN_LAUNCHER
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY]
+    requires:
+      - STR_ALIENS_ONLY
     size: 0.2
     costSell: 2250
     weight: 8
@@ -425,6 +424,8 @@ items:
       FTAG_BUFF_VALUE_STAMINA: -15
   - type: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
     size: 0.1
     costSell: 80000
     weight: 5
@@ -471,7 +472,7 @@ items:
       ArmorEffectiveness: 0
       SmokeThreshold: 1
       FixRadius: 3
-    damageType: 3
+    damageType: 15
     clipSize: 5
     battleType: 2
     armor: 20
@@ -480,6 +481,8 @@ items:
     listOrder: 3398
   - type: STR_MARTIAN_ROCK_THROWER
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS]
+    requires:
+      - STR_ALIENS_ONLY
     size: 0.2
     costSell: 9050
     weight: 8
@@ -511,6 +514,8 @@ items:
     listOrder: 3399
   - type: STR_MARTIAN_ROCK_THROWER_CALYSTEN_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
     size: 0.1
     costSell: 250
     weight: 3
@@ -537,6 +542,8 @@ items:
     listOrder: 3400
   - type: STR_MARTIAN_ROCK_THROWER_GAS_CAPSULE_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
     size: 0.1
     costSell: 250
     weight: 3
@@ -566,6 +573,8 @@ items:
     listOrder: 3401
   - type: STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
+    requires:
+      - STR_ALIENS_ONLY
     size: 0.1
     costSell: 250
     weight: 3
@@ -592,6 +601,8 @@ items:
     listOrder: 3402
 
   - type: STR_MARTIAN_SLUGTHROWER
+    requires:
+      - STR_ALIENS_ONLY
     categories:
       [
         STR_ALIEN_TECH,
@@ -667,6 +678,8 @@ items:
     listOrder: 3403
 
   - type: STR_MARTIAN_SLUGTHROWER_ROUNDS
+    requires:
+      - STR_ALIENS_ONLY
     categories:
       [
         STR_ALIEN_TECH,
@@ -691,6 +704,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.2
       RandomWound: false
+      ToWound: 0.1
     invWidth: 1
     invHeight: 1
     clipSize: 1
@@ -700,6 +714,8 @@ items:
 
   - type: STR_MARTIAN_BLADE
     categories: [STR_CQB, STR_ALIEN_TECH]
+    requires:
+      - STR_ALIENS_ONLY
     size: 0.15
     costSell: 20000
     weight: 5
