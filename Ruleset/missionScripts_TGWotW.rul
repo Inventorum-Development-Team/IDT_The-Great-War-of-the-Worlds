@@ -1,4 +1,4 @@
-﻿missionScripts:
+missionScripts:
   - delete: gameStart
   - delete: recon
   - delete: invasion
@@ -18,6 +18,9 @@
     firstMonth: 3
     executionOdds: 50
     #raceWeights:
+    raceWeights:
+      0:
+       STR_MARTIAN_SKIRMISHERS: 100
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
