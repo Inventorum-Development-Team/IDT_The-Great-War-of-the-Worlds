@@ -1314,7 +1314,7 @@ craftWeapons:
     weaponType: 0
     sprite: 200
     sound: 4
-    damage: 15
+    damage: 10
     range: 10
     accuracy: 25
     reloadCautious: 4
@@ -1332,7 +1332,7 @@ craftWeapons:
     sprite: 201
     sound: 4
     damage: 15
-    range: 10
+    range: 12
     accuracy: 25
     reloadCautious: 4
     reloadStandard: 4
@@ -1348,9 +1348,9 @@ craftWeapons:
     weaponType: 0
     sprite: 202
     sound: 4
-    damage: 15
-    range: 10
-    accuracy: 25
+    damage: 20
+    range: 15
+    accuracy: 30
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
@@ -1366,8 +1366,8 @@ craftWeapons:
     weaponType: 1
     sprite: 206
     sound: 4
-    damage: 15
-    range: 10
+    damage: 10
+    range: 8
     accuracy: 25
     reloadCautious: 4
     reloadStandard: 4
@@ -1383,7 +1383,7 @@ craftWeapons:
     sprite: 207
     sound: 4
     damage: 15
-    range: 10
+    range: 12
     accuracy: 25
     reloadCautious: 4
     reloadStandard: 4
@@ -1399,10 +1399,10 @@ craftWeapons:
     sprite: 208
     sound: 4
     damage: 15
-    range: 10
+    range: 14
     accuracy: 25
-    reloadCautious: 4
-    reloadStandard: 4
+    reloadCautious: 2
+    reloadStandard: 2
     reloadAggressive: 3
     ammoMax: 235
     rearmRate: 100
@@ -2359,15 +2359,15 @@ items:
       - STR_FORWARD_MACHINE_GUN_T1_RESEARCH
   - type: STR_TWIN_HMG_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    costBuy: 10000
+    costSell: 8000
     transferTime: 48
     requires:
       - STR_FORWARD_MACHINE_GUN_T2_RESEARCH
   - type: STR_50CAL_BROWNING_HMG_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    costBuy: 18000
+    costSell: 16000
     transferTime: 48
     requires:
       - STR_FORWARD_MACHINE_GUN_T3_RESEARCH
