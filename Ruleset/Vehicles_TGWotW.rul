@@ -1368,7 +1368,7 @@ craftWeapons:
     sound: 4
     damage: 10
     range: 8
-    accuracy: 25
+    accuracy: 15
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
@@ -1383,8 +1383,8 @@ craftWeapons:
     sprite: 207
     sound: 4
     damage: 15
-    range: 12
-    accuracy: 25
+    range: 10
+    accuracy: 20
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
@@ -1403,7 +1403,7 @@ craftWeapons:
     accuracy: 25
     reloadCautious: 2
     reloadStandard: 2
-    reloadAggressive: 3
+    reloadAggressive: 1
     ammoMax: 235
     rearmRate: 100
     launcher: STR_303_VICKERS_K_TURRET_LAUNCHER
@@ -1416,14 +1416,14 @@ craftWeapons:
     weaponType: 3
     sprite: 216
     sound: 4
-    damage: 30
+    damage: 20
     range: 15
     accuracy: 35
-    reloadCautious: 8
-    reloadStandard: 8
-    reloadAggressive: 7
-    ammoMax: 75
-    rearmRate: 100
+    reloadCautious: 12
+    reloadStandard: 12
+    reloadAggressive: 10
+    ammoMax: 60
+    rearmRate: 60
     launcher: STR_BECKER_2CM_CANNON_LAUNCHER
     projectileType: 2
     projectileSpeed: 7
@@ -1431,14 +1431,14 @@ craftWeapons:
     weaponType: 3
     sprite: 217
     sound: 4
-    damage: 30
+    damage: 25
     range: 15
     accuracy: 35
     reloadCautious: 8
     reloadStandard: 8
     reloadAggressive: 7
-    ammoMax: 100
-    rearmRate: 100
+    ammoMax: 60
+    rearmRate: 60
     launcher: STR_AUTOCANNON_LAUNCHER
     projectileType: 2
     projectileSpeed: 7
@@ -1449,9 +1449,9 @@ craftWeapons:
     damage: 30
     range: 15
     accuracy: 35
-    reloadCautious: 8
-    reloadStandard: 8
-    reloadAggressive: 7
+    reloadCautious: 6
+    reloadStandard: 6
+    reloadAggressive: 5
     ammoMax: 75
     rearmRate: 100
     launcher: STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER
@@ -1463,7 +1463,7 @@ craftWeapons:
     weaponType: 2
     sprite: 211
     sound: 4
-    damage: 75
+    damage: 40
     range: 15
     accuracy: 45
     reloadCautious: 8
