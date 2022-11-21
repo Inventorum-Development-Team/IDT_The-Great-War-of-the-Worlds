@@ -1463,14 +1463,14 @@ craftWeapons:
     weaponType: 2
     sprite: 211
     sound: 4
-    damage: 40
+    damage: 30
     range: 15
-    accuracy: 45
-    reloadCautious: 8
-    reloadStandard: 8
-    reloadAggressive: 7
-    ammoMax: 30
-    rearmRate: 100
+    accuracy: 40
+    reloadCautious: 5
+    reloadStandard: 5
+    reloadAggressive: 5
+    ammoMax: 50
+    rearmRate: 50
     launcher: STR_QF_1_PDR_POMPOM_LAUNCHER
     #clip: STR_QF_1_PDR_POMPOM_X30
     projectileType: 2
@@ -1479,30 +1479,30 @@ craftWeapons:
     weaponType: 2
     sprite: 212
     sound: 4
-    damage: 75
-    range: 15
+    damage: 40
+    range: 20
     accuracy: 45
     reloadCautious: 8
     reloadStandard: 8
     reloadAggressive: 7
-    ammoMax: 30
-    rearmRate: 100
+    ammoMax: 40
+    rearmRate: 40
     launcher: STR_37MM_CANNON_LAUNCHER
     #clip: STR_QF_1_PDR_POMPOM_X30
     projectileType: 2
-    projectileSpeed: 5
+    projectileSpeed: 6
   - type: STR_75MM_CANNON
     weaponType: 2
     sprite: 213
     sound: 4
     damage: 75
-    range: 15
-    accuracy: 45
-    reloadCautious: 8
-    reloadStandard: 8
-    reloadAggressive: 7
-    ammoMax: 30
-    rearmRate: 100
+    range: 20
+    accuracy: 55
+    reloadCautious: 20
+    reloadStandard: 20
+    reloadAggressive: 18
+    ammoMax: 15
+    rearmRate: 15
     launcher: STR_75MM_CANNON_LAUNCHER
     #clip: STR_QF_1_PDR_POMPOM_X30
     projectileType: 2
@@ -1513,15 +1513,15 @@ craftWeapons:
     weaponType: 5
     sprite: 226
     sound: 60
-    damage: 100
+    damage: 80
     range: 4
     accuracy: 90
-    reloadCautious: 25
-    reloadStandard: 25
-    reloadAggressive: 25
-    ammoMax: 3
-    rearmRate: 5
-    projectileType: 0
+    reloadCautious: 10
+    reloadStandard: 10
+    reloadAggressive: 8
+    ammoMax: 8
+    rearmRate: 8
+    projectileType: 1
     projectileSpeed: 9
     launcher: STR_FRAGMENTATION_BOMB_LAUNCHER
     #clip: STR_FRAGMENTATION_BOMB_X3
@@ -1529,15 +1529,15 @@ craftWeapons:
     weaponType: 5
     sprite: 227
     sound: 60
-    damage: 100
-    range: 4
-    accuracy: 90
+    damage: 240
+    range: 6
+    accuracy: 85
     reloadCautious: 25
     reloadStandard: 25
-    reloadAggressive: 25
-    ammoMax: 3
+    reloadAggressive: 22
+    ammoMax: 5
     rearmRate: 5
-    projectileType: 0
+    projectileType: 1
     projectileSpeed: 9
     launcher: STR_HE_BOMB_LAUNCHER
     #clip: STR_FRAGMENTATION_BOMB_X3
@@ -1545,15 +1545,15 @@ craftWeapons:
     weaponType: 5
     sprite: 228
     sound: 60
-    damage: 100
-    range: 4
-    accuracy: 90
-    reloadCautious: 25
-    reloadStandard: 25
-    reloadAggressive: 25
-    ammoMax: 3
-    rearmRate: 5
-    projectileType: 0
+    damage: 180
+    range: 5
+    accuracy: 70
+    reloadCautious: 15
+    reloadStandard: 15
+    reloadAggressive: 12
+    ammoMax: 15
+    rearmRate: 15
+    projectileType: 1
     projectileSpeed: 9
     launcher: STR_CLUSTER_BOMB_LAUNCHER
     #clip: STR_FRAGMENTATION_BOMB_X3
@@ -1563,10 +1563,10 @@ craftWeapons:
     weaponType: 6
     sprite: 231
     sound: 5
-    damage: 95
+    damage: 65
     shieldDamageModifier: 50
     range: 15
-    accuracy: 55
+    accuracy: 45
     reloadCautious: 30
     reloadStandard: 35
     reloadAggressive: 20
@@ -1583,7 +1583,7 @@ craftWeapons:
     damage: 115
     shieldDamageModifier: 75
     range: 20
-    accuracy: 65
+    accuracy: 55
     reloadCautious: 35
     reloadStandard: 35
     reloadAggressive: 35
@@ -1597,7 +1597,7 @@ craftWeapons:
     weaponType: 6
     sprite: 233
     sound: 5
-    damage: 135
+    damage: 85
     range: 25
     accuracy: 80
     reloadCautious: 35
@@ -1613,17 +1613,17 @@ craftWeapons:
     weaponType: 6
     sprite: 234
     sound: 5
-    damage: 95
+    damage: 135
     shieldDamageModifier: 50
-    range: 15
-    accuracy: 55
+    range: 30
+    accuracy: 100
     reloadCautious: 30
     reloadStandard: 35
     reloadAggressive: 20
     ammoMax: 4
     rearmRate: 16
     launcher: STR_GUIDED_ROCKETS_LAUNCHER
-    projectileType: 0
+    projectileType: 1
     projectileSpeed: 8
 
 #Aircraft Heat-Rays
@@ -1631,13 +1631,13 @@ craftWeapons:
     weaponType: 7
     sprite: 236
     sound: 8
-    damage: 40
+    damage: 60
     shieldDamageModifier: 75
     range: 20
-    accuracy: 50
-    reloadCautious: 10
-    reloadStandard: 10
-    reloadAggressive: 6
+    accuracy: 65
+    reloadCautious: 25
+    reloadStandard: 25
+    reloadAggressive: 22
     ammoMax: 100
     rearmRate: 50
     launcher: STR_AUX_HEAT_RAY_MK1_LAUNCHER
@@ -1646,7 +1646,7 @@ craftWeapons:
     weaponType: 7
     sprite: 237
     sound: 8
-    damage: 40
+    damage: 80
     shieldDamageModifier: 75
     range: 20
     accuracy: 50
@@ -1661,7 +1661,7 @@ craftWeapons:
     weaponType: 7
     sprite: 238
     sound: 8
-    damage: 40
+    damage: 120
     shieldDamageModifier: 75
     range: 20
     accuracy: 50
@@ -1792,33 +1792,33 @@ craftWeapons:
     weaponType: 7
     sprite: 244
     sound: 4
-    damage: 75
+    damage: 88
     range: 15
     accuracy: 45
-    reloadCautious: 8
-    reloadStandard: 8
-    reloadAggressive: 7
+    reloadCautious: 15
+    reloadStandard: 15
+    reloadAggressive: 12
     ammoMax: 30
     rearmRate: 100
     launcher: STR_VEHICLE_8_8CM_TURRET_LAUNCHER
     #clip: STR_QF_4_INCH_DOUBLE_CANNON_X30
-    projectileType: 2
-    projectileSpeed: 5
+    projectileType: 1
+    projectileSpeed: 9
   - type: STR_VEHICLE_HEAT_RAY_TURRET
     weaponType: 7
     sprite: 245
     sound: 8
-    damage: 40
+    damage: 120
     shieldDamageModifier: 75
     range: 20
     accuracy: 50
-    reloadCautious: 10
-    reloadStandard: 10
-    reloadAggressive: 6
-    ammoMax: 100
+    reloadCautious: 20
+    reloadStandard: 20
+    reloadAggressive: 18
+    ammoMax: 25
     rearmRate: 50
     launcher: STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER
-    projectileType: 4
+    projectileType: 5
 
 units:
 #*** Player-controlled units spawned on craft
