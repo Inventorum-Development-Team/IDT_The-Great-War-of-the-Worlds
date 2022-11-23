@@ -26,6 +26,7 @@ en-US:
       STR_PHLOGISTON: Phlogiston
       STR_COILGUN: Coilgun
       STR_ALIEN_TECH: Alien Tech
+      STR_HEAT_RAY: "Heat-Ray"
       STR_BOLT_ACTION_RIFLES: Bolt Action Rifles
       STR_SELFLOADING_RIFLES: Self-Loading Rifles
       STR_PISTOLS: Pistols
@@ -891,27 +892,27 @@ en-US:
 
       STR_BRITISH_EQUIPMENT_SELECTION: "British Equipment Selection"
       STR_BRITISH_WEAPONS_T1: "British Weapons I"
-      STR_BRITISH_WEAPONS_T2: "British Weapons I"
+      STR_BRITISH_WEAPONS_T2: "British Weapons II"
       STR_AMERICAN_EQUIPMENT_SELECTION: "American Equipment Selection"
       STR_AMERICAN_WEAPONS_T1: "American Weapons I"
-      STR_AMERICAN_WEAPONS_T2: "American Weapons I"
+      STR_AMERICAN_WEAPONS_T2: "American Weapons II"
       STR_GERMAN_EQUIPMENT_SELECTION: "German Equipment Selection"
       STR_GERMAN_WEAPONS_T1: "German Weapons I"
-      STR_GERMAN_WEAPONS_T2: "German Weapons I"
+      STR_GERMAN_WEAPONS_T2: "German Weapons II"
       STR_FRENCH_EQUIPMENT_SELECTION: "French Equipment Selection"
       STR_FRENCH_WEAPONS_T1: "French Weapons I"
-      STR_FRENCH_WEAPONS_T2: "French Weapons I"
+      STR_FRENCH_WEAPONS_T2: "French Weapons II"
       STR_ITALIAN_EQUIPMENT_SELECTION: "Italian Equipment Selection"
       STR_ITALIAN_WEAPONS_T1: "Italian Weapons I"
-      STR_ITALIAN_WEAPONS_T2: "Italian Weapons I"
+      STR_ITALIAN_WEAPONS_T2: "Italian Weapons II"
       STR_RUSSIAN_EQUIPMENT_SELECTION: "Russian Equipment Selection"
       STR_RUSSIAN_WEAPONS_T1: "Russian Weapons I"
       STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION: "Russian - Imperial Guard Selection"
-      STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2: "Imperial Guard Weapons I"
+      STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2: "Imperial Guard Weapons II"
       STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION: "Russian - Cossack Equipment Selection"
-      STR_RUSSIAN_COSSACK_WEAPONS_T2: "Cossack Weapons I"
+      STR_RUSSIAN_COSSACK_WEAPONS_T2: "Cossack Weapons II"
       STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION: "Russian - Czech Legion Selection"
-      STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2: "Czech Legion Weapons I"
+      STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2: "Czech Legion Weapons II"
 
 
 
@@ -1686,8 +1687,8 @@ en-US:
       STR_FORWARD_MACHINE_GUN_T3_RESEARCH: "Offensive Machine Gun Research III"
 
       STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH: "Defensive Machine Gun Research I"
-      STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH: "Defensive Machine Gun Research I"
-      STR_DEFENSIVE_MACHINE_GUN_T3_RESEARCH: "Defensive Machine Gun Research I"
+      STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH: "Defensive Machine Gun Research II"
+      STR_DEFENSIVE_MACHINE_GUN_T3_RESEARCH: "Defensive Machine Gun Research III"
 
       STR_AUTOCANNON_T1_RESEARCH: "Autocannon Research I"
       STR_AUTOCANNON_T2_RESEARCH: "Autocannon Research II"
