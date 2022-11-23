@@ -7570,7 +7570,6 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3560
-    costBuy: 1000
 
   - type: STR_CANNED_BEEF
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
@@ -7632,7 +7631,6 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3580
-    costBuy: 1000
 
   - type: STR_BISCUIT_BOX
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
@@ -7667,7 +7665,7 @@ items:
   - type: STR_ROTTEN_BISCUIT_BOX
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.1
-    costSell: 12000
+    costSell: 120
     weight: 4
     bigSprite: 3032
     floorSprite: 3032
@@ -7694,7 +7692,6 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3600
-    costBuy: 1000
 
   - type: STR_WINE
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
