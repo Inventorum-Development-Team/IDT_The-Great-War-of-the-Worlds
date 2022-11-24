@@ -21,9 +21,6 @@ research:
 ####### LORE REPORTS ############
 ################################
 
-  - name: STR_1913_COUNTERATTACK
-    points: 50
-    needItem: true
   - name: STR_STATE_OF_THE_WORLD_MEXICO
     points: 50
     needItem: true
@@ -469,7 +466,14 @@ research:
   - name: STR_FRONTLINES_FIELD_REPORT
     cost: 1000
     points: 50
-    #needItem: true
+    dependencies:
+      - STR_SECTOID_CORPSE
+      - STR_MARTIAN_LINE_INFANTRY_CORPSE
+      - STR_MARTIAN_MARINE_CORPSE
+      - STR_MARTIAN_SKIRMISHER_CORPSE
+      - STR_MARTIAN_SHOCK_GUARD_CORPSE
+      - STR_MARTIAN_ROYAL_GUARD_CORPSE
+      - STR_CEREBREAL_CORPSE
     getOneFree:
       - STR_STATE_OF_THE_WORLD_MEXICO
       - STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH
@@ -1638,7 +1642,7 @@ research:
   - name: STR_PHLOGISTON_PROTOTYPE
     cost: 0
     points: 60
-    #needItem: true
+    needItem: true
     unlocks:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
 
@@ -2164,6 +2168,8 @@ research:
   - name: STR_GENEVA_CONVENTION_APPEAL
     cost: 400
     points: -50
+    dependencies:
+      - STR_FRONTLINES_FIELD_REPORT
 
   - name: STR_BIOLOGICAL_WARFARE
     cost: 300
@@ -2195,6 +2201,7 @@ research:
     points: 50
     unlocks:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_SECTOID_AUTOPSY
     needItem: true
 
@@ -2206,6 +2213,7 @@ research:
     points: 50
     unlocks:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_LINE_INFANTRY_AUTOPSY
     needItem: true
 
@@ -2217,6 +2225,7 @@ research:
     points: 50
     unlocks:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_MARINE_AUTOPSY
     needItem: true
 
@@ -2228,6 +2237,7 @@ research:
     points: 50
     unlocks:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_SKIRMISHER_AUTOPSY
     needItem: true
 
@@ -2239,6 +2249,7 @@ research:
     points: 50
     unlocks:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_SHOCK_GUARD_AUTOPSY
     needItem: true
 
@@ -2250,6 +2261,7 @@ research:
     points: 50
     unlocks:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_ROYAL_GUARD_AUTOPSY
     needItem: true
 
@@ -2261,6 +2273,7 @@ research:
     points: 50
     unlocks:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_CEREBREAL_AUTOPSY
     needItem: true
 
