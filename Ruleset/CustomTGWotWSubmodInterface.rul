@@ -764,8 +764,8 @@ interfaces: #done
       - id: button
         color: 66    # orange
       - id: text
-        color: 58   # 58 gray
-        color2: 202  # 202 brown
+        color: 239   # 58 gray
+        color2: 239  # 202 brown
       - id: list
         color: 6   # 55 seems good green
         color2: 71  # light blue
