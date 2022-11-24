@@ -1338,7 +1338,7 @@ en-US:
       STR_ALIEN_RETALIATION: "Martian Counterattack"
       STR_ALIEN_SUPPLY: "Martian Supply Run"
       STR_ALIEN_ALLOYS: "Tunguskium"
-      STR_ALIEN_ALLOYS_UFOPEDIA: "Also called 'Martian Metal', this is an exotic mineral alloy used by the Martians to build everything, from small weapons to ship armor. Chemically speaking, most of the components are already found in Earth, but our attempts at reproducing haven't been successful... Yet. Slightly lighter than steel, but considerably denser and durable, it requieres high pressure and heat to be able to be mold.  Named after Tunguska, the first recorded Martian Landing Zone"
+      STR_ALIEN_ALLOYS_UFOPEDIA: "Also called 'Martian Metal', this is an exotic mineral alloy used by the Martians to build everything, from small weapons to ship armor. Chemically speaking, most of the components are already found in Earth, but our attempts at reproducing haven't been successful... Yet. Slightly lighter than steel, but considerably denser and durable, it requieres high pressure and heat to be able to be mold.  Named after Tunguska, the first recorded Martian Landing Zone of the Great War"
       STR_ELERIUM_115: "Hydrogen Fuel Cell"
       STR_ELERIUM_115_UFOPEDIA: "Hydrogen was first recognized as a distinct element by Henry Cavendish in 1766. Our scientists theorize its the most abundant element in the universe. It's also the fuel that burns inside the Sun. The Martians employ said Fuel Cells to harness great amounts of electrical power using a source of hydrogen gas. Cheap and clean energy."
       STR_UFO_POWER_SOURCE: "Hydrogen Acceleration Engine"
@@ -1355,6 +1355,8 @@ en-US:
       STR_ALIEN_SURGERY_UFOPEDIA: "The only purpose we have identified for this weird set of tools so far, is their use in conducting gruesome surgeries and tissue extractions on both Earth and Martian species. It serves both as butchering and medical treatment equipment. Only a truly cruel mind could design such unnerving piece of machiner."
       STR_EXAMINATION_ROOM: "Examination Room"
       STR_EXAMINATION_ROOM_UFOPEDIA: "This is nothing but a table used to dissect living beings. The most probable destiny of thousands of humans over the course of the war. The smell of blood is still noticeable."
+      STR_MARTIAN_FORCE_FIELDS: "Martian Force Fields"
+      STR_MARTIAN_FORCE_FIELDS_UFOPEDIA: "The largest Martian machines are protected by an invisible shield. It absorbs some of the energy of our weapons, 'bouncing' it away from the machine. It seems it's adapted to resist large amounts of thermal radiation, like those emitted by high explosive rounds; perhaps learning from their experience with our artillery barrages early in the Great War. Our experts theorize kinetic energy is considerably harder to absorb and disperse than light or heat, since it has the inertia of mass behind it. This is why high-velocity ammo concentrated on small area of the force field seems to overload the generator, disabling it and breaking the shields."
 
       STR_MARTIAN_STATIC_SUPPLY_DEPOT: "Martian Supply Depot"
       STR_MARTIAN_STATIC_CLONE_LAB: "Martian Organics Lab"
