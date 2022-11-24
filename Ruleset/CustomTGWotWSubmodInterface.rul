@@ -27,19 +27,19 @@ interfaces: #done
     backgroundImage: BACK01.SCR
     elements:
       - id: palette
-        color: 0     # brown
+        color: 1     # burgundy
       - id: window
         color: 100   # grey
       - id: heading
-        color: 133   # minty green
+        color: 4020  # bright red
       - id: text
-        color: 180 # purple
+        color: 4020 # 176
       - id: frames
-        color: 239   # bright green
+        color: 100   # grey
       - id: button1
         color: 246   # grey
       - id: button2
-        color: 100   # grey
+        color: 246   # grey
       - id: list
         color: 100
         color2: 180 # 300 yellowinvert
