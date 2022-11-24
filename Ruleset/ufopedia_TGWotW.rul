@@ -17,13 +17,11 @@ ufopaedia:
   - delete: STR_INCENDIARY_ROCKET
   - delete: STR_GRENADE
   - delete: STR_SMOKE_GRENADE
-  - delete: STR_PROXIMITY_GRENADE
   - delete: STR_HIGH_EXPLOSIVE
   - delete: STR_ELECTRO_FLARE
   - delete: STR_MOTION_SCANNER
   - delete: STR_STUN_ROD
   - delete: STR_PSI_AMP
-  - delete: STR_MEDI_KIT
   - delete: STR_LASER_PISTOL
   - delete: STR_LASER_RIFLE
   - delete: STR_HEAVY_LASER
@@ -36,28 +34,75 @@ ufopaedia:
   - delete: STR_BLASTER_LAUNCHER
   - delete: STR_BLASTER_BOMB
   - delete: STR_SMALL_LAUNCHER
-  - delete: STR_CANNON
-  - delete: STR_CANNON_ROUNDS_X50
+  - delete: STR_STUN_BOMB
+  - delete: STR_MIND_PROBE
+  - delete: STR_ALIEN_GRENADE
+  - delete: STR_ELERIUM_115
+  - delete: STR_AVENGER
+  - delete: STR_LIGHTNING
+  - delete: STR_SKYRANGER
+  - delete: STR_INTERCEPTOR
+  - delete: STR_FIRESTORM
+  - delete: STR_STINGRAY
+  - delete: STR_AVALANCHE
+  - delete: STR_CANNON_UC
+  - delete: STR_FUSION_BALL_UC
+  - delete: STR_LASER_CANNON_UC
+  - delete: STR_PLASMA_BEAM_UC
+  - delete: STR_SMALL_SCOUT
+  - delete: STR_MEDIUM_SCOUT
+  - delete: STR_LARGE_SCOUT
+  - delete: STR_ABDUCTOR
+  - delete: STR_HARVESTER
+  - delete: STR_BATTLESHIP
+  - delete: STR_TERROR_SHIP
+  - delete: STR_SUPPLY_SHIP
+  - delete: STR_PLASMA_DEFENSES
+  - delete: STR_FUSION_BALL_DEFENSES
+  - delete: STR_MIND_SHIELD
+  - delete: STR_PSIONIC_LABORATORY
+  - delete: STR_HYPER_WAVE_DECODER
   - delete: STR_TANK_CANNON
   - delete: STR_TANK_ROCKET_LAUNCHER
   - delete: STR_TANK_LASER_CANNON
   - delete: STR_HOVERTANK_PLASMA
   - delete: STR_HOVERTANK_LAUNCHER
-  - delete: STR_HWP_ROCKETS
-  - delete: STR_HWP_CANNON_SHELLS
-  - delete: STR_HWP_FUSION_BOMB
-  #- delete: STR_ALIEN_RESEARCH_UC
-  - delete: STR_UFO_COMPONENTS
-  #- delete: STR_ALIEN_ARTIFACTS
-  #- delete: STR_WEAPONS_AND_EQUIPMENT
-  - delete: STR_XCOM_CRAFT_ARMAMENT
-  #- delete: STR_ALIEN_LIFE_FORMS
-  - delete: STR_LIGHTNING
-  - delete: STR_AVENGER
-  - delete: STR_FIRESTORM
-  - delete: STR_FUSION_BALL
-  - delete: STR_LASER_CANNON
-  - delete: STR_PLASMA_BEAM
+  - delete: STR_FLYING_SUIT_UC
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_ALIEN_SUPPLY
+  - delete: STR_ALIEN_TERROR
+  - delete: STR_ALIEN_ABDUCTION
+  - delete: STR_ALIEN_HARVEST
+  - delete: STR_ALIEN_RESEARCH
+  - delete: STR_ALIEN_BASE
+  - delete: STR_ALIEN_RETALIATION
+  - delete: STR_ALIEN_INFILTRATION
+  - delete: STR_UFO_CONSTRUCTION
+  - delete: STR_SECTOID
+  - delete: STR_SECTOID_AUTOPSY
+  - delete: STR_FLOATER
+  - delete: STR_FLOATER_AUTOPSY
+  - delete: STR_SNAKEMAN
+  - delete: STR_SNAKEMAN_AUTOPSY
+  - delete: STR_MUTON
+  - delete: STR_MUTON_AUTOPSY
+  - delete: STR_ETHEREAL
+  - delete: STR_ETHEREAL_AUTOPSY
+  - delete: STR_CYBERDISC
+  - delete: STR_CYBERDISC_AUTOPSY
+  - delete: STR_REAPER
+  - delete: STR_REAPER_AUTOPSY
+  - delete: STR_CHRYSSALID
+  - delete: STR_CHRYSSALID_AUTOPSY
+  - delete: STR_SILACOID
+  - delete: STR_SILACOID_AUTOPSY
+  - delete: STR_CELATID
+  - delete: STR_CELATID_AUTOPSY
+  - delete: STR_SECTOPOD
+  - delete: STR_SECTOPOD_AUTOPSY
+  - delete: STR_PROXIMITY_GRENADE
 ###########################################
 ############# LORE REPORTS ###############
 #########################################
@@ -65,10 +110,17 @@ ufopaedia:
   - id: STR_1913_COUNTERATTACK
     type_id: 8
     section: STR_LORE_REPORTS
-    text: STR_1913_COUNTERATTACK
-    requires:
-      - STR_1913_COUNTERATTACK
+    text: STR_1913_COUNTERATTACK_UFOPEDIA_1
+    #requires:
+     # - STR_1913_COUNTERATTACK
     listOrder: 1000
+  - id: STR_1913_COUNTERATTACK_2
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_1913_COUNTERATTACK_UFOPEDIA_2
+    #requires:
+     # - STR_1913_COUNTERATTACK
+    listOrder: 1001
 
   - id: STR_STATE_OF_THE_WORLD_MEXICO
     type_id: 8
@@ -98,20 +150,34 @@ ufopaedia:
     requires:
       - STR_STATE_OF_THE_WORLD_GERMANY
     listOrder: 1040
-  - id: STR_STATE_OF_THE_WORLD_FRANCE
+  - id: STR_STATE_OF_THE_WORLD_FRANCE_1
     type_id: 8
     section: STR_LORE_REPORTS
-    text: STR_STATE_OF_THE_WORLD_FRANCE_UFOPEDIA
+    text: STR_STATE_OF_THE_WORLD_FRANCE_UFOPEDIA_1
     requires:
       - STR_STATE_OF_THE_WORLD_FRANCE
     listOrder: 1050
-  - id: STR_STATE_OF_THE_WORLD_ABC_PACT
+  - id: STR_STATE_OF_THE_WORLD_FRANCE_2
     type_id: 8
     section: STR_LORE_REPORTS
-    text: STR_STATE_OF_THE_WORLD_ABC_PACT_UFOPEDIA
+    text: STR_STATE_OF_THE_WORLD_FRANCE_UFOPEDIA_2
+    requires:
+      - STR_STATE_OF_THE_WORLD_FRANCE
+    listOrder: 1051
+  - id: STR_STATE_OF_THE_WORLD_ABC_PACT_1
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_ABC_PACT_UFOPEDIA_1
     requires:
       - STR_STATE_OF_THE_WORLD_ABC_PACT
     listOrder: 1060
+  - id: STR_STATE_OF_THE_WORLD_ABC_PACT_2
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_ABC_PACT_UFOPEDIA_2
+    requires:
+      - STR_STATE_OF_THE_WORLD_ABC_PACT
+    listOrder: 1061
   - id: STR_STATE_OF_THE_WORLD_RUSSIA
     type_id: 8
     section: STR_LORE_REPORTS
@@ -449,6 +515,8 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_PISTOL_UFOPEDIA
     listOrder: 4200
+    requires:
+     - STR_TESLA_ELECTRIC_BLUEPRINTS
     ##listOrder: 2009
   - id: STR_TESLA_LIGHT_BATTERY
     type_id: 4
@@ -641,10 +709,12 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_PROTOTYPE_UFOPEDIA
     listOrder: 5500
+    requires:
+     - STR_TESLA_ELECTRIC_BLUEPRINTS
     ##listOrder: 2030
   - id: STR_TESLA_SMG
-    #requires:
-    # - STR_ADVANCED_FIREARMS
+    requires:
+     - STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_SMG_UFOPEDIA
@@ -760,8 +830,8 @@ ufopaedia:
   ############# TESLA LMGS ################
   ########################################
   - id: STR_TESLA_AUTOCANNON
-    #requires:
-    # - STR_ADVANCED_FIREARMS
+    requires:
+     - STR_TESLA_INFANTRY_CANNON_RESEARCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_AUTOCANNON_UFOPEDIA
@@ -843,8 +913,8 @@ ufopaedia:
   ########### TESLA SHOTGUNS ##############
   ########################################
   - id: STR_TESLA_TRENCH_BROOM
-    #requires:
-    # - STR_ADVANCED_FIREARMS
+    requires:
+     - STR_TESLA_RAPID_DISCHARGE_RESEARCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_TRENCH_BROOM_UFOPEDIA
@@ -2762,7 +2832,7 @@ ufopaedia:
     image_id: RCLASS_AIRSHIP.SPK
     listOrder: 31700
     requires:
-      - STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
+      - STR_AERIAL_BEHEMOTH_RESEARCH
   - id: STR_CCLASS_AIRSHIP
     type_id: 1
     section: STR_VEHICLES
@@ -2788,18 +2858,24 @@ ufopaedia:
     text: STR_VICKERS_MMG_UFOPEDIA
     listOrder: 40000
     ##listOrder: 801
+    requires:
+      - STR_FORWARD_MACHINE_GUN_T1_RESEARCH
   - id: STR_TWIN_HMG
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: TWIN_HMG
     text: STR_TWIN_HMG_UFOPEDIA
     listOrder: 40010
+    requires:
+      - STR_FORWARD_MACHINE_GUN_T2_RESEARCH
   - id: STR_50CAL_BROWNING_HMG
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: TWIN_HMG
     text: STR_50CAL_BROWNING_HMG_UFOPEDIA
     listOrder: 40020
+    requires:
+      - STR_FORWARD_MACHINE_GUN_T3_RESEARCH
     ##listOrder: 801
     ##listOrder: 801
 
@@ -2809,12 +2885,16 @@ ufopaedia:
     image_id: AUTOCANNON
     text: STR_LEWIS_303_TURRET_UFOPEDIA
     listOrder: 40050
+    requires:
+      - STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
   - id: STR_30CAL_BROWNING_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
     image_id: AUTOCANNON
     text: STR_30CAL_BROWNING_TURRET_UFOPEDIA
     listOrder: 40060
+    requires:
+      - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
     ##listOrder: 802
     ##listOrder: 802
   - id: STR_303_VICKERS_K_TURRET
@@ -2823,6 +2903,8 @@ ufopaedia:
     image_id: AUTOCANNON
     text: STR_303_VICKERS_K_TURRET_UFOPEDIA
     listOrder: 40070
+    requires:
+      - STR_DEFENSIVE_MACHINE_GUN_T3_RESEARCH
     ##listOrder: 802
 
   - id: STR_BECKER_2CM_CANNON
@@ -2831,6 +2913,8 @@ ufopaedia:
     image_id: AUTOCANNON
     text: STR_BECKER_2CM_CANNON_UFOPEDIA
     listOrder: 40100
+    requires:
+      - STR_AUTOCANNON_T1_RESEARCH
     ##listOrder: 802
   - id: STR_AUTOCANNON
     type_id: 2
@@ -2838,6 +2922,8 @@ ufopaedia:
     image_id: AUTOCANNON
     text: STR_AUTOCANNON_UFOPEDIA
     listOrder: 40110
+    requires:
+      - STR_AUTOCANNON_T2_RESEARCH
     ##listOrder: 802
   - id: STR_VICKERS_S_40MM_AUTOCANNON
     type_id: 2
@@ -2845,6 +2931,8 @@ ufopaedia:
     image_id: AUTOCANNON
     text: STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA
     listOrder: 40120
+    requires:
+      - STR_AUTOCANNON_T3_RESEARCH
     ##listOrder: 802
 
   - id: STR_QF_1_PDR_POMPOM
@@ -2853,6 +2941,8 @@ ufopaedia:
     image_id: POMPOM
     text: STR_QF_1_PDR_POMPOM_UFOPEDIA
     listOrder: 40200
+    requires:
+      - STR_CANNON_T1_RESEARCH
     ##listOrder: 803
   - id: STR_37MM_CANNON
     type_id: 2
@@ -2860,6 +2950,8 @@ ufopaedia:
     image_id: POMPOM
     text: STR_37MM_CANNON_UFOPEDIA
     listOrder: 40210
+    requires:
+      - STR_CANNON_T2_RESEARCH
     ##listOrder: 803
   - id: STR_75MM_CANNON
     type_id: 2
@@ -2867,6 +2959,8 @@ ufopaedia:
     image_id: POMPOM
     text: STR_75MM_CANNON_UFOPEDIA
     listOrder: 40220
+    requires:
+      - STR_CANNON_T3_RESEARCH
     ##listOrder: 803
 
   - id: STR_FRAGMENTATION_BOMB
@@ -2875,6 +2969,8 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_FRAGMENTATION_BOMB_UFOPEDIA
     listOrder: 40300
+    requires:
+      - STR_BOMBS_T1_RESEARCH
     ##listOrder: 803
   - id: STR_HE_BOMB
     type_id: 2
@@ -2882,6 +2978,8 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_HE_BOMB_UFOPEDIA
     listOrder: 40310
+    requires:
+      - STR_BOMBS_T2_RESEARCH
     ##listOrder: 803
   - id: STR_CLUSTER_BOMB
     type_id: 2
@@ -2889,6 +2987,8 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_CLUSTER_BOMB_UFOPEDIA
     listOrder: 40320
+    requires:
+      - STR_BOMBS_T3_RESEARCH
     ##listOrder: 803
 
   - id: STR_LE_PRIEUR_ROCKETS
@@ -2897,6 +2997,8 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_LE_PRIEUR_ROCKETS_UFOPEDIA
     listOrder: 40400
+    requires:
+      - STR_ROCKETS_T1_RESEARCH
     ##listOrder: 803
   - id: STR_CLUSTER_ROCKETS
     type_id: 2
@@ -2904,6 +3006,8 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_CLUSTER_ROCKETS_UFOPEDIA
     listOrder: 40410
+    requires:
+      - STR_ROCKETS_T2_RESEARCH
     ##listOrder: 803
   - id: STR_MAGNETIC_ROCKETS
     type_id: 2
@@ -2911,6 +3015,8 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_MAGNETIC_ROCKETS_UFOPEDIA
     listOrder: 40420
+    requires:
+      - STR_ROCKETS_T3_RESEARCH
     ##listOrder: 803
   - id: STR_GUIDED_ROCKETS
     type_id: 2
@@ -2918,8 +3024,111 @@ ufopaedia:
     image_id: FRAG_BOMB
     text: STR_GUIDED_ROCKETS_UFOPEDIA
     listOrder: 40430
+    requires:
+      - STR_ROCKETS_T4_RESEARCH
     ##listOrder: 803
 
+  - id: STR_AUX_HEAT_RAY_MK1
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_AUX_HEAT_RAY_MK1_UFOPEDIA
+    listOrder: 40440
+    requires:
+      - STR_AUX_HEAT_RAY_MK1_RESEARCH
+    ##listOrder: 803
+  - id: STR_AUX_HEAT_RAY_MK2
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_AUX_HEAT_RAY_MK2_UFOPEDIA
+    listOrder: 40450
+    requires:
+      - STR_AUX_HEAT_RAY_MK2_RESEARCH
+    ##listOrder: 803
+  - id: STR_AUX_HEAT_RAY_MK3
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_AUX_HEAT_RAY_MK3_UFOPEDIA
+    listOrder: 40460
+    requires:
+      - STR_AUX_HEAT_RAY_MK3_RESEARCH
+    ##listOrder: 803
+
+  - id: STR_VEHICLE_QF_6_PDR_TURRET
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA
+    listOrder: 40470
+    requires:
+      - STR_COMBAT_WALKER_RESEARCH
+    ##listOrder: 803
+  - id: STR_VEHICLE_8_8CM_TURRET
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_VEHICLE_8_8CM_TURRET_UFOPEDIA
+    listOrder: 40480
+    requires:
+      - STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
+    ##listOrder: 803
+  - id: STR_VEHICLE_HEAT_RAY_TURRET
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: POMPOM
+    text: STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA
+    listOrder: 40490
+    requires:
+      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
+    ##listOrder: 803
+
+  - id: STR_AUX_FUEL_TANK
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_AUX_FUEL_TANK_UFOPEDIA
+    listOrder: 40500
+    requires:
+      - STR_AUX_FUEL_TANK
+    ##listOrder: 803
+  - id: STR_AUX_ROCKET_TURBINE
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_AUX_ROCKET_TURBINE_UFOPEDIA
+    listOrder: 40510
+    requires:
+      - STR_AUX_ROCKET_TURBINE
+    ##listOrder: 803
+  - id: STR_AUX_TARGETING_SIGHTS
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_AUX_TARGETING_SIGHTS_UFOPEDIA
+    listOrder: 40520
+    requires:
+      - STR_AUX_TARGETING_SIGHTS
+    ##listOrder: 803
+  - id: STR_AUX_ARMOR_PLATES
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_AUX_ARMOR_PLATES_UFOPEDIA
+    listOrder: 40520
+    requires:
+      - STR_AUX_ARMOR_PLATES
+    ##listOrder: 803
+  - id: STR_AUX_KMM_ROUNDS
+    type_id: 2
+    section: STR_VEHICLE_WEAPONS
+    image_id: FRAG_BOMB
+    text: STR_AUX_KMM_ROUNDS_UFOPEDIA
+    listOrder: 40530
+    requires:
+      - STR_MARTIAN_METAL_REFORGED_AMMO
+    ##listOrder: 803
 ################################
 ####### MARTIAN VEHICLES ######
 ##############################
