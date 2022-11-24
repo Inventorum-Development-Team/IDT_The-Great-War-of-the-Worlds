@@ -1320,6 +1320,7 @@ craftWeapons:
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
+    shieldDamageModifier: 85
     ammoMax: 250
     rearmRate: 250
     launcher: STR_VICKERS_MMG_LAUNCHER
@@ -1337,6 +1338,7 @@ craftWeapons:
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
+    shieldDamageModifier: 85
     ammoMax: 200
     rearmRate: 200
     launcher: STR_TWIN_HMG_LAUNCHER
@@ -1354,6 +1356,7 @@ craftWeapons:
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
+    shieldDamageModifier: 85
     ammoMax: 250
     rearmRate: 250
     launcher: STR_50CAL_BROWNING_HMG_LAUNCHER
@@ -1372,6 +1375,7 @@ craftWeapons:
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
+    shieldDamageModifier: 100
     ammoMax: 235
     rearmRate: 100
     launcher: STR_LEWIS_303_TURRET_LAUNCHER
@@ -1388,6 +1392,7 @@ craftWeapons:
     reloadCautious: 4
     reloadStandard: 4
     reloadAggressive: 3
+    shieldDamageModifier: 100
     ammoMax: 235
     rearmRate: 100
     launcher: STR_30CAL_BROWNING_TURRET_LAUNCHER
@@ -1404,6 +1409,7 @@ craftWeapons:
     reloadCautious: 2
     reloadStandard: 2
     reloadAggressive: 1
+    shieldDamageModifier: 100
     ammoMax: 235
     rearmRate: 100
     launcher: STR_303_VICKERS_K_TURRET_LAUNCHER
@@ -1422,6 +1428,7 @@ craftWeapons:
     reloadCautious: 12
     reloadStandard: 12
     reloadAggressive: 10
+    shieldDamageModifier: 75
     ammoMax: 60
     rearmRate: 60
     launcher: STR_BECKER_2CM_CANNON_LAUNCHER
@@ -1437,6 +1444,7 @@ craftWeapons:
     reloadCautious: 8
     reloadStandard: 8
     reloadAggressive: 7
+    shieldDamageModifier: 75
     ammoMax: 60
     rearmRate: 60
     launcher: STR_AUTOCANNON_LAUNCHER
@@ -1452,6 +1460,7 @@ craftWeapons:
     reloadCautious: 6
     reloadStandard: 6
     reloadAggressive: 5
+    shieldDamageModifier: 75
     ammoMax: 75
     rearmRate: 100
     launcher: STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER
@@ -1469,6 +1478,7 @@ craftWeapons:
     reloadCautious: 5
     reloadStandard: 5
     reloadAggressive: 5
+    shieldDamageModifier: 70
     ammoMax: 50
     rearmRate: 50
     launcher: STR_QF_1_PDR_POMPOM_LAUNCHER
@@ -1485,6 +1495,7 @@ craftWeapons:
     reloadCautious: 8
     reloadStandard: 8
     reloadAggressive: 7
+    shieldDamageModifier: 70
     ammoMax: 40
     rearmRate: 40
     launcher: STR_37MM_CANNON_LAUNCHER
@@ -1498,9 +1509,10 @@ craftWeapons:
     damage: 75
     range: 20
     accuracy: 55
-    reloadCautious: 20
+    reloadCautious: 70
     reloadStandard: 20
     reloadAggressive: 18
+    shieldDamageModifier: 70
     ammoMax: 15
     rearmRate: 15
     launcher: STR_75MM_CANNON_LAUNCHER
@@ -1581,7 +1593,7 @@ craftWeapons:
     sprite: 232
     sound: 5
     damage: 115
-    shieldDamageModifier: 75
+    shieldDamageModifier: 50
     range: 20
     accuracy: 55
     reloadCautious: 35
@@ -1600,6 +1612,7 @@ craftWeapons:
     damage: 85
     range: 25
     accuracy: 80
+    shieldDamageModifier: 55
     reloadCautious: 35
     reloadStandard: 35
     reloadAggressive: 35
@@ -1614,7 +1627,7 @@ craftWeapons:
     sprite: 234
     sound: 5
     damage: 135
-    shieldDamageModifier: 50
+    shieldDamageModifier: 70
     range: 30
     accuracy: 100
     reloadCautious: 30
@@ -1632,12 +1645,12 @@ craftWeapons:
     sprite: 236
     sound: 8
     damage: 60
-    shieldDamageModifier: 75
+    shieldDamageModifier: 120
     range: 20
     accuracy: 65
-    reloadCautious: 25
-    reloadStandard: 25
-    reloadAggressive: 22
+    reloadCautious: 64
+    reloadStandard: 64
+    reloadAggressive: 64
     ammoMax: 100
     rearmRate: 50
     launcher: STR_AUX_HEAT_RAY_MK1_LAUNCHER
@@ -1647,12 +1660,12 @@ craftWeapons:
     sprite: 237
     sound: 8
     damage: 80
-    shieldDamageModifier: 75
-    range: 20
-    accuracy: 50
-    reloadCautious: 10
-    reloadStandard: 10
-    reloadAggressive: 6
+    shieldDamageModifier: 120
+    range: 25
+    accuracy: 75
+    reloadCautious: 64
+    reloadStandard: 64
+    reloadAggressive: 64
     ammoMax: 100
     rearmRate: 50
     launcher: STR_AUX_HEAT_RAY_MK2_LAUNCHER
@@ -1662,12 +1675,12 @@ craftWeapons:
     sprite: 238
     sound: 8
     damage: 120
-    shieldDamageModifier: 75
-    range: 20
-    accuracy: 50
-    reloadCautious: 10
-    reloadStandard: 10
-    reloadAggressive: 6
+    shieldDamageModifier:120
+    range: 30
+    accuracy: 60
+    reloadCautious: 52
+    reloadStandard: 52
+    reloadAggressive: 42
     ammoMax: 100
     rearmRate: 50
     launcher: STR_AUX_HEAT_RAY_MK3_LAUNCHER
