@@ -59,6 +59,67 @@ ufopaedia:
   - delete: STR_LASER_CANNON
   - delete: STR_PLASMA_BEAM
 ###########################################
+############# LORE REPORTS ###############
+#########################################
+
+  - id: STR_1913_COUNTERATTACK
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_1913_COUNTERATTACK
+    requires:
+      - STR_1913_COUNTERATTACK
+    listOrder: 1000
+
+  - id: STR_STATE_OF_THE_WORLD_MEXICO
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_MEXICO_UFOPEDIA
+    requires:
+      - STR_STATE_OF_THE_WORLD_MEXICO
+    listOrder: 1010
+  - id: STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH_UFOPEDIA
+    requires:
+      - STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH
+    listOrder: 1020
+  - id: STR_STATE_OF_THE_WORLD_UNITED_STATES
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_UNITED_STATES_UFOPEDIA
+    requires:
+      - STR_STATE_OF_THE_WORLD_UNITED_STATES
+    listOrder: 1030
+  - id: STR_STATE_OF_THE_WORLD_GERMANY
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_GERMANY_UFOPEDIA
+    requires:
+      - STR_STATE_OF_THE_WORLD_GERMANY
+    listOrder: 1040
+  - id: STR_STATE_OF_THE_WORLD_FRANCE
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_FRANCE_UFOPEDIA
+    requires:
+      - STR_STATE_OF_THE_WORLD_FRANCE
+    listOrder: 1050
+  - id: STR_STATE_OF_THE_WORLD_ABC_PACT
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_ABC_PACT_UFOPEDIA
+    requires:
+      - STR_STATE_OF_THE_WORLD_ABC_PACT
+    listOrder: 1060
+  - id: STR_STATE_OF_THE_WORLD_RUSSIA
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_STATE_OF_THE_WORLD_RUSSIA_UFOPEDIA
+    requires:
+      - STR_STATE_OF_THE_WORLD_RUSSIA
+    listOrder: 1070
+
   #################################################
   ######### BALLISTIC BOLT-ACTION RIFLES #########
   ###############################################
