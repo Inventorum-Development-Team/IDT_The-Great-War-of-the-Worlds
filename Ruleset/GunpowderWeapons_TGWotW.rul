@@ -6265,6 +6265,8 @@ items:
     armor: 20
     blastRadius: 3
     bulletSprite: 4
+    invWidth: 1
+    invHeight: 2
     listOrder: 2195
 
   - type: STR_GAS_GRENADE
