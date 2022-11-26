@@ -4341,8 +4341,8 @@ items:
     requiresBuy:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
     size: 0.2
-    costBuy: 1500
-    costSell: 1150
+    costBuy: 15000
+    costSell: 11500
     weight: 5
     bigSprite: 2048
     floorSprite: 2048
@@ -4389,8 +4389,8 @@ items:
     requiresBuy:
       - STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
     size: 0.2
-    costBuy: 1500
-    costSell: 1150
+    costBuy: 15000
+    costSell: 11500
     weight: 5
     bigSprite: 2064
     floorSprite: 2064
@@ -4437,6 +4437,7 @@ items:
     requiresBuy:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
     size: 0.1
+    costBuy: 20000
     costSell: 15000
     weight: 3
     bigSprite: 2080
@@ -4457,7 +4458,6 @@ items:
     battleType: 2
     armor: 200
     listOrder: 2920
-    costBuy: 1000
 
   ##########################################
   ############# PLASMA SMGS ###############

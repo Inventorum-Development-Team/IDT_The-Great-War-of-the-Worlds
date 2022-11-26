@@ -2892,104 +2892,104 @@ extraSprites:
   - type: BASEBITS.PCK
     files:
 #Forward MGs
-      248: Resources/Crafts/Twin_HMG_basebits.png
-      249: Resources/Crafts/Twin_HMG_basebits.png
-      250: Resources/Crafts/Twin_HMG_basebits.png
+      248: Resources/CraftWeapons/VickersMMG_base.png
+      249: Resources/CraftWeapons/TwinHMG_base.png
+      250: Resources/CraftWeapons/50calBrowningHMG_base.png
 
 #Defensive MGs
-      254: Resources/Crafts/Twin_HMG_basebits.png
-      255: Resources/Crafts/Twin_HMG_basebits.png
-      256: Resources/Crafts/Twin_HMG_basebits.png
+      254: Resources/CraftWeapons/303LewisTurret_base.png
+      255: Resources/CraftWeapons/30calBrowningTurret_base.png
+      256: Resources/CraftWeapons/VickersKTurret_base.png
 
  #Light Cannon
-      259: Resources/Crafts/Autocannon_basebits.png
-      260: Resources/Crafts/PomPom_basebits.png
-      261: Resources/Crafts/PomPom_basebits.png
+      259: Resources/CraftWeapons/PomPom_basebits.png
+      260: Resources/CraftWeapons/37mmCannon_base.png
+      261: Resources/CraftWeapons/75mmCannon_base.png
 
  #Autocannon
-      264: Resources/Crafts/Autocannon_basebits.png
-      265: Resources/Crafts/PomPom_basebits.png
-      266: Resources/Crafts/PomPom_basebits.png
+      264: Resources/CraftWeapons/Becker2cm_base.png
+      265: Resources/CraftWeapons/Oerlikon20mmAutocannon_base.png
+      266: Resources/CraftWeapons/VickersS40mmAutocannon_base.png
 
 #Bombs
-      274: Resources/Crafts/Frag_Bomb_basebits.png
-      275: Resources/Crafts/Frag_Bomb_basebits.png
-      276: Resources/Crafts/Frag_Bomb_basebits.png
+      274: Resources/CraftWeapons/Frag_Bomb_base.png
+      275: Resources/CraftWeapons/HE_Bomb_base.png
+      276: Resources/CraftWeapons/Cluster_Bomb_base.png
 
 #Rockets
-      279: Resources/Crafts/Frag_Bomb_basebits.png
-      280: Resources/Crafts/Frag_Bomb_basebits.png
-      281: Resources/Crafts/Frag_Bomb_basebits.png
-      282: Resources/Crafts/Frag_Bomb_basebits.png
+      279: Resources/CraftWeapons/LePrieur_base.png
+      280: Resources/CraftWeapons/ClusterRockets_base.png
+      281: Resources/CraftWeapons/MagneticRocket_base.png
+      282: Resources/CraftWeapons/GuidedRocket_base.png
 
 #Aircraft Heat-Rays
-      284: Resources/Crafts/PomPom_basebits.png
-      285: Resources/Crafts/PomPom_basebits.png
-      286: Resources/Crafts/PomPom_basebits.png
+      284: Resources/CraftWeapons/CraftHeatRayMk1_base.png
+      285: Resources/CraftWeapons/CraftHeatRayMk2_base.png
+      286: Resources/CraftWeapons/CraftHeatRayMk3_base.png
 
 #Auxliary systems
-      287: Resources/Crafts/Frag_Bomb_basebits.png
-      288: Resources/Crafts/Frag_Bomb_basebits.png
-      289: Resources/Crafts/Frag_Bomb_basebits.png
-      290: Resources/Crafts/Frag_Bomb_basebits.png
-      294: Resources/Crafts/Frag_Bomb_basebits.png
+      287: Resources/CraftWeapons/Fuel_Tank_base.png
+      288: Resources/CraftWeapons/RocketTurbine_base.png
+      289: Resources/CraftWeapons/TargetingSights_base.png
+      290: Resources/CraftWeapons/ArmorPlates_basebits.png
+      294: Resources/CraftWeapons/KMMBullets_base.png
 
 
 #Vehicle turrets
-      291: Resources/Crafts/Autocannon_basebits.png #6-pdr vehicle turret
-      292: Resources/Crafts/Autocannon_basebits.png #8,8cm vehicle turret
-      293: Resources/Crafts/Autocannon_basebits.png #Heat Ray Mk.IX vehicle turret
+      291: Resources/CraftWeapons/VehicleQF6pdrCannon_base.png #6-pdr vehicle turret
+      292: Resources/CraftWeapons/Vehicle88cmCannon_base.png #8,8cm vehicle turret
+      293: Resources/CraftWeapons/VehicleHeatRayCannon_base.png #Heat Ray Mk.IX vehicle turret
 
   - type: INTICON.PCK
     files:
 #Forward MGs
-      205: Resources/Crafts/Twin_HMG_dogfight.png
-      206: Resources/Crafts/Twin_HMG_dogfight.png
-      207: Resources/Crafts/Twin_HMG_dogfight.png
+      205: Resources/CraftWeapons/VickersMMG_dogfight.png
+      206: Resources/CraftWeapons/TwinHMG_dogfight.png
+      207: Resources/CraftWeapons/50calBrowningHMG_dogfight.png
 
 #Defensive MGs
-      211: Resources/Crafts/Twin_HMG_dogfight.png
-      212: Resources/Crafts/Twin_HMG_dogfight.png
-      213: Resources/Crafts/Twin_HMG_dogfight.png
+      211: Resources/CraftWeapons/303LewisTurret_dogfight.png
+      212: Resources/CraftWeapons/30calBrowningTurret_dogfight.png
+      213: Resources/CraftWeapons/VickersKTurret_dogfight.png
 
  #Light Cannon
-      216: Resources/Crafts/Autocannon_dogfight.png
-      217: Resources/Crafts/PomPom_dogfight.png
-      218: Resources/Crafts/PomPom_dogfight.png
+      216: Resources/CraftWeapons/PomPom_dogfight.png
+      217: Resources/CraftWeapons/37mmCannon_dogfight.png
+      218: Resources/CraftWeapons/75mmCannon_dogfight.png
 
  #Autocannon
-      221: Resources/Crafts/Autocannon_dogfight.png
-      222: Resources/Crafts/PomPom_dogfight.png
-      223: Resources/Crafts/PomPom_dogfight.png
+      221: Resources/CraftWeapons/Becker2cm_dogfight.png
+      222: Resources/CraftWeapons/Oerlikon20mmAutocannon_dogfight.png
+      223: Resources/CraftWeapons/VickersS40mmAutocannon_dogfight.png
 
 #Bombs
-      231: Resources/Crafts/Frag_Bomb_dogfight.png
-      232: Resources/Crafts/Frag_Bomb_dogfight.png
-      233: Resources/Crafts/Frag_Bomb_dogfight.png
+      231: Resources/CraftWeapons/Frag_Bomb_dogfight.png
+      232: Resources/CraftWeapons/HE_Bomb_dogfight.png
+      233: Resources/CraftWeapons/Cluster_Bomb_dogfight.png
 
 #Rockets
-      236: Resources/Crafts/Frag_Bomb_dogfight.png
-      237: Resources/Crafts/Frag_Bomb_dogfight.png
-      238: Resources/Crafts/Frag_Bomb_dogfight.png
-      239: Resources/Crafts/Frag_Bomb_dogfight.png
+      236: Resources/CraftWeapons/LePrieur_dogfight.png
+      237: Resources/CraftWeapons/ClusterRockets_dogfight.png
+      238: Resources/CraftWeapons/MagneticRocket_dogfight.png
+      239: Resources/CraftWeapons/GuidedRocket_dogfight.png
 
 #Aircraft Heat-Rays
-      241: Resources/Crafts/PomPom_dogfight.png
-      242: Resources/Crafts/PomPom_dogfight.png
-      243: Resources/Crafts/PomPom_dogfight.png
+      241: Resources/CraftWeapons/CraftHeatRayMk1_dogfight.png
+      242: Resources/CraftWeapons/CraftHeatRayMk2_dogfight.png
+      243: Resources/CraftWeapons/CraftHeatRayMk3_dogfight.png
 
 #Auxliary systems
-      244: Resources/Crafts/Frag_Bomb_dogfight.png
-      245: Resources/Crafts/Frag_Bomb_dogfight.png
-      246: Resources/Crafts/Frag_Bomb_dogfight.png
-      247: Resources/Crafts/Frag_Bomb_dogfight.png
-      251: Resources/Crafts/Frag_Bomb_dogfight.png
+      244: Resources/CraftWeapons/Fuel_Tank_dogfight.png
+      245: Resources/CraftWeapons/RocketTurbine_dogfight.png
+      246: Resources/CraftWeapons/TargetingSights_dogfight.png
+      247: Resources/CraftWeapons/ArmorPlates_dogfight.png
+      251: Resources/CraftWeapons/KMMBullets_dogfight.png
 
 
 #Vehicle turrets
-      248: Resources/Crafts/Autocannon_dogfight.png #6-pdr vehicle turret
-      249: Resources/Crafts/Autocannon_dogfight.png #8,8cm vehicle turret
-      250: Resources/Crafts/Autocannon_dogfight.png #Heat Ray Mk.IX vehicle turret
+      248: Resources/CraftWeapons/VehicleQF6pdrCannon_dogfight.png #6-pdr vehicle turret
+      249: Resources/CraftWeapons/Vehicle88cmCannon_dogfight.png #8,8cm vehicle turret
+      250: Resources/CraftWeapons/VehicleHeatRayCannon_dogfight.png #Heat Ray Mk.IX vehicle turret
 
 #UFOpedia
   - type: MARCH_IMAGE
@@ -3146,29 +3146,196 @@ extraSprites:
     files:
       0: Resources/Crafts/RCLASS_AIRSHIP_UFOPEDIA.png
 ######################################
-  - type: AUTOCANNON
+  - type: 30CAL_BROWNING_TURRET
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/AUTOCANNON.png
-  - type: TWIN_HMG
+      0: Resources/CraftWeapons/30CAL_BROWNING_TURRET.png
+  - type: 37MM_CANNON
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/TWIN_HMG.png
-  - type: POMPOM
+      0: Resources/CraftWeapons/37MM_CANNON.png
+  - type: 50CAL_BROWNING_HMG
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/POMPOM.png
+      0: Resources/CraftWeapons/50CAL_BROWNING_HMG.png
+  - type: 75MM_CANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/75MM_CANNON.png
+
+  - type: 303_LEWIS_TURRET
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/303_LEWIS_TURRET.png
+  - type: ARMOR_PLATES
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/ARMOR_PLATES.png
+  - type: BECKER_2CM_AUTOCANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/BECKER_2CM_AUTOCANNON.png
+  - type: CLUSTER_BOMB
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/CLUSTER_BOMB.png
+
+  - type: CLUSTER_ROCKETS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/CLUSTER_ROCKETS.png
+  - type: CRAFT_HEAT_RAY_MK1
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/CRAFT_HEAT_RAY_MK1.png
+  - type: CRAFT_HEAT_RAY_MK2
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/CRAFT_HEAT_RAY_MK2.png
+  - type: CRAFT_HEAT_RAY_MK3
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/CRAFT_HEAT_RAY_MK3.png
+
+  - type: FUEL_TANK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/FUEL_TANK.png
+  - type: GUIDED_ROCKET
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/GUIDED_ROCKET.png
+  - type: HE_BOMB
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/HE_BOMB.png
   - type: FRAG_BOMB
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/Crafts/FRAG_BOMB.png
+      0: Resources/CraftWeapons/FRAG_BOMB.png
 
+  - type: JET_TURBINE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/JET_TURBINE.png
+  - type: KMM_ROUNDS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/KMM_ROUNDS.png
+  - type: LE_PRIEUR_ROCKETS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/LE_PRIEUR_ROCKETS.png
+  - type: MAGNETIC_ROCKET
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/MAGNETIC_ROCKET.png
 
+  - type: OERLIKON_20MM_AUTOCANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/OERLIKON_20MM_AUTOCANNON.png
+  - type: QF_1_PDR_POMPOM
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/QF_1_PDR_POMPOM.png
+  - type: ROCKET_TURBINE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/ROCKET_TURBINE.png
+  - type: TARGETING_SIGHTS
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/TARGETING_SIGHTS.png
+
+  - type: TWIN_HMG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/TWIN_HMG.png
+  - type: VEHICLE_8_8CM
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/VEHICLE_8_8CM.png
+  - type: VEHICLE_HEAT_RAY
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/VEHICLE_HEAT_RAY.png
+
+  - type: VEHICLE_QF_6PDR
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/VEHICLE_QF_6PDR.png
+  - type: VICKERS_K_TURRET
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/VICKERS_K_TURRET.png
+  - type: VICKERS_MMG
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/VICKERS_MMG.png
+  - type: VICKERS_S_40MM_AUTOCANNON
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/CraftWeapons/VICKERS_S_40MM_AUTOCANNON.png

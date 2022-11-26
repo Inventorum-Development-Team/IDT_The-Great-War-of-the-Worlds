@@ -1791,6 +1791,13 @@ ufopaedia:
     text: STR_ALIEN_ALLOYS_UFOPEDIA
     text_width: 145
     listOrder: 16600
+  - id: STR_MARTIAN_FORCE_FIELDS
+    type_id: 8
+    section: STR_UFO_COMPONENTS
+    #requires:
+    #  - STR_ALIEN_ALLOYS
+    text: STR_MARTIAN_FORCE_FIELDS_UFOPEDIA
+    listOrder: 16610
 
 ####################################
 ######### WEAPONS ###############
@@ -2854,7 +2861,7 @@ ufopaedia:
   - id: STR_VICKERS_MMG
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: TWIN_HMG
+    image_id: VICKERS_MMG
     text: STR_VICKERS_MMG_UFOPEDIA
     listOrder: 40000
     ##listOrder: 801
@@ -2871,7 +2878,7 @@ ufopaedia:
   - id: STR_50CAL_BROWNING_HMG
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: TWIN_HMG
+    image_id: 50CAL_BROWNING_HMG
     text: STR_50CAL_BROWNING_HMG_UFOPEDIA
     listOrder: 40020
     requires:
@@ -2882,7 +2889,7 @@ ufopaedia:
   - id: STR_LEWIS_303_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: AUTOCANNON
+    image_id: 303_LEWIS_TURRET
     text: STR_LEWIS_303_TURRET_UFOPEDIA
     listOrder: 40050
     requires:
@@ -2890,7 +2897,7 @@ ufopaedia:
   - id: STR_30CAL_BROWNING_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: AUTOCANNON
+    image_id: 30CAL_BROWNING_TURRET
     text: STR_30CAL_BROWNING_TURRET_UFOPEDIA
     listOrder: 40060
     requires:
@@ -2900,7 +2907,7 @@ ufopaedia:
   - id: STR_303_VICKERS_K_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: AUTOCANNON
+    image_id: VICKERS_K_TURRET
     text: STR_303_VICKERS_K_TURRET_UFOPEDIA
     listOrder: 40070
     requires:
@@ -2910,7 +2917,7 @@ ufopaedia:
   - id: STR_BECKER_2CM_CANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: AUTOCANNON
+    image_id: BECKER_2CM_AUTOCANNON
     text: STR_BECKER_2CM_CANNON_UFOPEDIA
     listOrder: 40100
     requires:
@@ -2919,7 +2926,7 @@ ufopaedia:
   - id: STR_AUTOCANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: AUTOCANNON
+    image_id: OERLIKON_20MM_AUTOCANNON
     text: STR_AUTOCANNON_UFOPEDIA
     listOrder: 40110
     requires:
@@ -2928,7 +2935,7 @@ ufopaedia:
   - id: STR_VICKERS_S_40MM_AUTOCANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: AUTOCANNON
+    image_id: VICKERS_S_40MM_AUTOCANNON
     text: STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA
     listOrder: 40120
     requires:
@@ -2938,7 +2945,7 @@ ufopaedia:
   - id: STR_QF_1_PDR_POMPOM
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: QF_1_PDR_POMPOM
     text: STR_QF_1_PDR_POMPOM_UFOPEDIA
     listOrder: 40200
     requires:
@@ -2947,7 +2954,7 @@ ufopaedia:
   - id: STR_37MM_CANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: 37MM_CANNON
     text: STR_37MM_CANNON_UFOPEDIA
     listOrder: 40210
     requires:
@@ -2956,7 +2963,7 @@ ufopaedia:
   - id: STR_75MM_CANNON
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: 75MM_CANNON
     text: STR_75MM_CANNON_UFOPEDIA
     listOrder: 40220
     requires:
@@ -2975,7 +2982,7 @@ ufopaedia:
   - id: STR_HE_BOMB
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: HE_BOMB
     text: STR_HE_BOMB_UFOPEDIA
     listOrder: 40310
     requires:
@@ -2984,7 +2991,7 @@ ufopaedia:
   - id: STR_CLUSTER_BOMB
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: CLUSTER_BOMB
     text: STR_CLUSTER_BOMB_UFOPEDIA
     listOrder: 40320
     requires:
@@ -2994,7 +3001,7 @@ ufopaedia:
   - id: STR_LE_PRIEUR_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: LE_PRIEUR_ROCKETS
     text: STR_LE_PRIEUR_ROCKETS_UFOPEDIA
     listOrder: 40400
     requires:
@@ -3003,7 +3010,7 @@ ufopaedia:
   - id: STR_CLUSTER_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: CLUSTER_ROCKETS
     text: STR_CLUSTER_ROCKETS_UFOPEDIA
     listOrder: 40410
     requires:
@@ -3012,7 +3019,7 @@ ufopaedia:
   - id: STR_MAGNETIC_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: MAGNETIC_ROCKET
     text: STR_MAGNETIC_ROCKETS_UFOPEDIA
     listOrder: 40420
     requires:
@@ -3021,7 +3028,7 @@ ufopaedia:
   - id: STR_GUIDED_ROCKETS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: GUIDED_ROCKET
     text: STR_GUIDED_ROCKETS_UFOPEDIA
     listOrder: 40430
     requires:
@@ -3031,7 +3038,7 @@ ufopaedia:
   - id: STR_AUX_HEAT_RAY_MK1
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: CRAFT_HEAT_RAY_MK1
     text: STR_AUX_HEAT_RAY_MK1_UFOPEDIA
     listOrder: 40440
     requires:
@@ -3040,7 +3047,7 @@ ufopaedia:
   - id: STR_AUX_HEAT_RAY_MK2
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: CRAFT_HEAT_RAY_MK2
     text: STR_AUX_HEAT_RAY_MK2_UFOPEDIA
     listOrder: 40450
     requires:
@@ -3049,7 +3056,7 @@ ufopaedia:
   - id: STR_AUX_HEAT_RAY_MK3
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: CRAFT_HEAT_RAY_MK3
     text: STR_AUX_HEAT_RAY_MK3_UFOPEDIA
     listOrder: 40460
     requires:
@@ -3059,7 +3066,7 @@ ufopaedia:
   - id: STR_VEHICLE_QF_6_PDR_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: VEHICLE_QF_6PDR
     text: STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA
     listOrder: 40470
     requires:
@@ -3068,7 +3075,7 @@ ufopaedia:
   - id: STR_VEHICLE_8_8CM_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: VEHICLE_8_8CM
     text: STR_VEHICLE_8_8CM_TURRET_UFOPEDIA
     listOrder: 40480
     requires:
@@ -3077,7 +3084,7 @@ ufopaedia:
   - id: STR_VEHICLE_HEAT_RAY_TURRET
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: POMPOM
+    image_id: VEHICLE_HEAT_RAY
     text: STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA
     listOrder: 40490
     requires:
@@ -3087,7 +3094,7 @@ ufopaedia:
   - id: STR_AUX_FUEL_TANK
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: FUEL_TANK
     text: STR_AUX_FUEL_TANK_UFOPEDIA
     listOrder: 40500
     requires:
@@ -3096,7 +3103,7 @@ ufopaedia:
   - id: STR_AUX_ROCKET_TURBINE
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: ROCKET_TURBINE
     text: STR_AUX_ROCKET_TURBINE_UFOPEDIA
     listOrder: 40510
     requires:
@@ -3105,7 +3112,7 @@ ufopaedia:
   - id: STR_AUX_TARGETING_SIGHTS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: TARGETING_SIGHTS
     text: STR_AUX_TARGETING_SIGHTS_UFOPEDIA
     listOrder: 40520
     requires:
@@ -3114,7 +3121,7 @@ ufopaedia:
   - id: STR_AUX_ARMOR_PLATES
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: ARMOR_PLATES
     text: STR_AUX_ARMOR_PLATES_UFOPEDIA
     listOrder: 40520
     requires:
@@ -3123,7 +3130,7 @@ ufopaedia:
   - id: STR_AUX_KMM_ROUNDS
     type_id: 2
     section: STR_VEHICLE_WEAPONS
-    image_id: FRAG_BOMB
+    image_id: KMM_ROUNDS
     text: STR_AUX_KMM_ROUNDS_UFOPEDIA
     listOrder: 40530
     requires:

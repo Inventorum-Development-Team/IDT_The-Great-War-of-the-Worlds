@@ -1714,7 +1714,7 @@ en-US:
       STR_AUX_HEAT_RAY_MK2_RESEARCH: "Craft Heat-Ray Research II"
       STR_AUX_HEAT_RAY_MK3_RESEARCH: "Craft Heat-Ray Research III"
 
-      STR_FORWARD_MACHINE_GUN_REPORT: "Forward Machine Guns"
+      STR_FORWARD_MACHINE_GUN_REPORT: "Offensive Machine Guns"
       STR_FORWARD_MACHINE_GUN_REPORT_UFOPEDIA: ""
 
       STR_VICKERS_MMG: "VICKERS MMG"
@@ -1742,11 +1742,11 @@ en-US:
       STR_BECKER_2CM_CANNON_UFOPEDIA: "Light single-barreled, magazine-fed German automatic cannon. Usually mounted in turrets onboard vehicles, its easy to use by any soldier. {ALT}{NEWLINE}>AUTOCANNON{ALT}"
       STR_BECKER_2CM_CANNON_LAUNCHER: "(ACAN) Becker 2cm Cannon"
       STR_AUTOCANNON: "OERLIKON 20MM AC"
-      STR_AUTOCANNON_UFOPEDIA: "Belt-fed automatic cannon, its AP ammunition can penetrate several thick layers of steel. Useful against lightly armored enemies.{ALT}{NEWLINE}>AUTOCANNON{ALT}"
+      STR_AUTOCANNON_UFOPEDIA: "Drum-fed automatic cannon, its AP ammunition can penetrate several thick layers of steel. Useful against lightly armored enemies.{ALT}{NEWLINE}>AUTOCANNON{ALT}"
       STR_AUTOCANNON_LAUNCHER: "(ACAN) Oerlikon 20mm Autocannon"
-      STR_AUTOCANNON_ROUNDS_X50: "20MM Autocannon Rounds (x50)"
+      STR_AUTOCANNON_ROUNDS_X50: "20mm Autocannon Rounds (x50)"
       STR_VICKERS_S_40MM_AUTOCANNON: "VICKERS 'S' 40MM AC"
-      STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, belt-fed automatic cannon, fires large APHE 40mm rounds. It's so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted.{ALT}{NEWLINE}>AUTOCANNON{ALT}"
+      STR_VICKERS_S_40MM_AUTOCANNON_UFOPEDIA: "High caliber, Drum-fed automatic cannon, fires large APHE 40mm rounds. It's so powerful, it reduces the speed by 64km/h and acceleration by 1 of the vehicle where is mounted.{ALT}{NEWLINE}>AUTOCANNON{ALT}"
       STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER: "(ACAN) Vickers 'S' 40mm AC"
 
       STR_QF_1_PDR_POMPOM: "QF 1-PDR 'POM POM'"
@@ -1822,7 +1822,7 @@ en-US:
       STR_AUX_JET_TURBINE_LAUNCHER: "(AUX) Jet Turbine"
 
       STR_AUX_TARGETING_SIGHTS: "AUX TARGETING SIGHTS"
-      STR_AUX_TARGETING_SIGHTS_UFOPEDIA: "Specialized optical equipment carried onboard. Based on the craft where its mounted, it could be a bomb sight for accurate ground attack runs or a forward telescope, to aim for distant targets. Increases the {ALT} accuracy {ALT}by {ALT}25{ALT}. {NEWLINE}{ALT}>AUXILIARY{ALT}"
+      STR_AUX_TARGETING_SIGHTS_UFOPEDIA: "Specialized optical equipment carried onboard. Based on the craft where its mounted, it could be a course setting bomb sight for accurate ground attack runs or a forward telescope, to aim for distant targets. Increases the {ALT} accuracy {ALT}by {ALT}25{ALT}. {NEWLINE}{ALT}>AUXILIARY{ALT}"
       STR_AUX_TARGETING_SIGHTS_LAUNCHER: "(AUX) Targeting Sights"
       STR_AUX_ARMOR_PLATES: "AUX ARMOR PLATES"
       STR_AUX_ARMOR_PLATES_UFOPEDIA: "By adding and wielding Tunguskium plates on strategic locations onboard the vehicle, the total {ALT}HPs{ALT} are {ALT}increased by 100{ALT}. This improves the surviving chances of the craft and the crew. {NEWLINE}{ALT}>AUXILIARY{ALT}"
