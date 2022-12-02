@@ -506,6 +506,12 @@ research:
     points: 50
     unlocks:
      - STR_BRITISH_WEAPONS_T1
+    disables:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
 
   - name: STR_BRITISH_WEAPONS_T1
     cost: 0
@@ -533,6 +539,7 @@ research:
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_BRITISH_EQUIPMENT_SELECTION
     unlocks:
      - STR_FARQHUAR_HILL_UNLOCK
      - STR_FARQHUAR_HILL_AMMO_UNLOCK
@@ -547,6 +554,12 @@ research:
     points: 50
     unlocks:
      - STR_AMERICAN_WEAPONS_T1
+    disables:
+      - STR_BRITISH_EQUIPMENT_SELECTION
+      - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
 
   - name: STR_AMERICAN_WEAPONS_T1
     cost: 0
@@ -571,6 +584,7 @@ research:
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_AMERICAN_EQUIPMENT_SELECTION
     unlocks:
      - STR_WINCHESTER_TRENCH_GUN_UNLOCK
      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
@@ -584,6 +598,12 @@ research:
     points: 50
     unlocks:
      - STR_GERMAN_WEAPONS_T1
+    disables:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_BRITISH_EQUIPMENT_SELECTION
+      - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
 
   - name: STR_GERMAN_WEAPONS_T1
     cost: 0
@@ -606,6 +626,7 @@ research:
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_GERMAN_EQUIPMENT_SELECTION
     unlocks:
      - STR_MAUSER_C96_CARBINE_UNLOCK
      - STR_MAUSER_C96_CARBINE_AMMO_UNLOCK
@@ -623,6 +644,12 @@ research:
     points: 50
     unlocks:
      - STR_FRENCH_WEAPONS_T1
+    disables:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_BRITISH_EQUIPMENT_SELECTION
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
 
   - name: STR_FRENCH_WEAPONS_T1
     cost: 0
@@ -647,6 +674,7 @@ research:
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_FRENCH_EQUIPMENT_SELECTION
     unlocks:
      - STR_RSC17_UNLOCK
      - STR_RSC17_AMMO_UNLOCK
@@ -659,6 +687,12 @@ research:
     points: 50
     unlocks:
      - STR_ITALIAN_WEAPONS_T1
+    disables:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_BRITISH_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
 
   - name: STR_ITALIAN_WEAPONS_T1
     cost: 0
@@ -690,6 +724,7 @@ research:
     cost: 100
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_ITALIAN_EQUIPMENT_SELECTION
     unlocks:
      - STR_CEI_RIGOTTI_UNLOCK
      - STR_CEI_RIGOTTI_AMMO_UNLOCK
@@ -703,6 +738,12 @@ research:
     points: 50
     unlocks:
      - STR_RUSSIAN_WEAPONS_T1
+    disables:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_BRITISH_EQUIPMENT_SELECTION
 
   - name: STR_RUSSIAN_WEAPONS_T1
     cost: 0
@@ -729,6 +770,7 @@ research:
     points: 50
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_RUSSIAN_EQUIPMENT_SELECTION
     unlocks:
      - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
     disables:
@@ -740,6 +782,7 @@ research:
     points: 50
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_RUSSIAN_EQUIPMENT_SELECTION
     unlocks:
      - STR_RUSSIAN_COSSACK_WEAPONS_T2
     disables:
@@ -751,6 +794,7 @@ research:
     points: 50
     dependencies:
      - STR_FRONTLINES_FIELD_REPORT
+     - STR_RUSSIAN_EQUIPMENT_SELECTION
     unlocks:
      - STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
     disables:
