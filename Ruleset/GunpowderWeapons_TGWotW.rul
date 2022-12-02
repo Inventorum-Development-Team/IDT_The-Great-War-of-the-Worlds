@@ -6221,8 +6221,7 @@ items:
     power: 120
     costAuto:
       time: 35
-      mana: 10
-    damageType: 2
+    damageType: 18
     damageAlter:
       RandomType: 6
       ToMorale: 1.5
