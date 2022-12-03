@@ -1263,6 +1263,8 @@ en-US:
       CRUISER: Cruiser
       CRUISER_UFOPEDIA: A better armored version of the Frigate, it is used as the flagship of enemy fleets. Its extended hull allows to add another high-powered cannon, as well as more armor. It usually represents the most important ship in a battle group, leading the assault or retreat.
 ###########################
+      STR_MARTIAN_LIGHT_FIGHTER: "Martian Light Flying-Machine"
+      STR_MARTIAN_LIGHT_FIGHTER_UFOPEDIA: "A small, two-seater interception alien craft, used to harass and interdict our aerial and naval convoys. The reason why the invaders went with a biplane design when its quite obvious they don't need it its a mystery. We can consider it some form of taunt or challenge."
       STR_SELENITE_FIGHTER: Selenite Fighter Craft
       STR_SELENITE_FIGHTER_UFOPEDIA: Very small, agile and fast fighter ship, similar in functions to our interceptors. Employee to establish aerial supremacy. Uses light, fast-firing heat rays.
       STR_SELENITE_GUNSHIP: Selenite Gunship Craft
@@ -1344,7 +1346,7 @@ en-US:
       STR_UFO_POWER_SOURCE: "Hydrogen Acceleration Engine"
       STR_UFO_POWER_SOURCE_UFOPEDIA: "The exact method how this device works was theorized by a research team led by E. Rutherford and A. Eddington: after several years of studying the wreck of the power sources within the first Tripods, it was found that inside the Engine two atoms of hydrogen combine together to form an atom of helium. In the process some of the mass of the hydrogen is converted into energy. This process is highly efficient and can powers from the smallest weapon to the largest Fighting-Machines... and also our own vehicles, although we are limited to adapting the invader's Engines, as we're currently unable to produce them on our own."
       STR_UFO_NAVIGATION: "Martian Navigation Device"
-      STR_UFO_NAVIGATION_UFOPEDIA: "A rather interesting Martian device, its used to control their machines. Instead of using levers and handlebars or steering wheels, the pilot commands the movements of the vehicle by directly moving their fingers within a specially adapted 'command table', pretty much how a puppeteer moves a marionette. This, of course, was easily learnt by the human cree within our Walkers."
+      STR_UFO_NAVIGATION_UFOPEDIA: "A rather interesting Martian device, its used to control their machines. Instead of using levers and handlebars or steering wheels, the pilot commands the movements of the vehicle by directly moving their fingers within a specially adapted 'command table', pretty much how a puppeteer moves a marionette. This, of course, was easily learnt by the human crew within our Walkers."
       STR_ALIEN_FOOD: "Martian Food Container"
       STR_ALIEN_FOOD_UFOPEDIA: "The stinky vats are filled to the top in a unpleasant, goo-like substance. Inside we can see the partially digested remains of what seems like cattle or other large mammals and alien-like animals. But we don't doubt there could be human remains floating within the disgusting soup. We believe this mixture is the main nutritional supplement used by the invaders and most likely how they got their antibodies."
       STR_ALIEN_REPRODUCTION: "Martian Tissue Incubator"
@@ -1775,13 +1777,13 @@ en-US:
       STR_LE_PRIEUR_ROCKETS_UFOPEDIA: "Best known as 'glorified fireworks', the French-designed light rocket was meant to be used against airships. It's fired from tubes mounted in the inter-plane struts, all at the same time. Highly inaccurate, but extremely cheap. {ALT}>ROCKET{ALT}"
       STR_LE_PRIEUR_ROCKETS_LAUNCHER: "(RKT) Le Prieur Rockets Rack (x8)"
       STR_CLUSTER_ROCKETS: "CLUSTER ROCKETS"
-      STR_CLUSTER_ROCKETS_UFOPEDIA: "A major upgrade over the wood and cardboard Le Prieur rockets, the FFAR Cluster Rocket System uses all-metal 85mm HE rockets, fired in salvos to saturate an area ahead the launcher plane. The better materials allow the projectile to travel faster and longer.>ROCKET"
+      STR_CLUSTER_ROCKETS_UFOPEDIA: "A major upgrade over the wood and cardboard Le Prieur rockets, the Cluster Rocket System uses all-metal 85mm HE rockets, fired in salvos to saturate an area ahead the launcher. The better materials allow the projectile to travel faster and longer. {ALT}>ROCKET{ALT}"
       STR_CLUSTER_ROCKETS_LAUNCHER: "(RKT) Cluster Rockets Rack (x8)"
       STR_MAGNETIC_ROCKETS: "MAGNETIC ROCKETS"
       STR_MAGNETIC_ROCKETS_UFOPEDIA: "A major breakthrough in the air-to-air combat weaponry. The addition of Martian data processing machines allows the rocket to detect large amounts of ferrous materials (both Human and Martian) and direct the projectile towards it. {ALT}>ROCKET{ALT}"
       STR_MAGNETIC_ROCKETS_LAUNCHER: "(RKT) Magnetic Rockets Rack (x4)"
       STR_GUIDED_ROCKETS: "GUIDED ROCKETS"
-      STR_GUIDED_ROCKETS_UFOPEDIA: "A large rocket with stabilizer fins, the biggest fuel tank capacity possible and a heavy-duty warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its drawbacks are the cost of the system and the limited operational range.{ALT}>ROCKET{ALT}"
+      STR_GUIDED_ROCKETS_UFOPEDIA: "A large rocket with stabilizer fins and a heavy-duty warhead is guided to the target by wire, commanded by a special targeting machine made with Martian tech. Its limited by the cost of the system and the limited tactical range.{ALT}>ROCKET{ALT}"
       STR_GUIDED_ROCKETS_LAUNCHER: "(RKT) Guided Rockets Rack (x2)"
 
       STR_AUX_HEAT_RAY_MK1: "CRAFT HEAT-RAY PROJECTOR MK.I"
@@ -1796,7 +1798,7 @@ en-US:
 
       STR_VEHICLE_QF_6_PDR_TURRET: "VEHICLE QF 6-PDR TURRET"
       STR_6PDR_VEHICLE_TURRET: "Vehicle QF 6-pdr Turret"
-      STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA: "A very popular 6-pounder (57mm) artillery turret, adapted from a naval gun. The barrel was reduced to fit the limited size of the ground vehicles, which reduced the range and power of the shells. However, it remains versatile enough.{ALT}>VEHICLE GUN{ALT}"
+      STR_VEHICLE_QF_6_PDR_TURRET_UFOPEDIA: "A very popular 6-pounder (57mm) artillery turret, adapted from a naval gun. The barrel was reduced to fit the limited size of the ground vehicles, which reduced the range and power of the shells. However, it remains versatile enough. {ALT}>VEHICLE GUN{ALT}"
       STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER: "Vehicle QF 6-pdr Turret"
       STR_VEHICLE_QF_6_PDR_TURRET_ITEM: "Vehicle QF 6-pdr Turret"
       STR_VEHICLE_8_8CM_TURRET: "VEHICLE 8,8CM FLAK TURRET"
@@ -1806,7 +1808,7 @@ en-US:
       STR_VEHICLE_8_8CM_TURRET_ITEM: "Vehicle 8,8cm FlaK Turret"
       STR_HEAT_RAY_VEHICLE_TURRET: "Vehicle H-R Projector Mk. X Turret"
       STR_VEHICLE_HEAT_RAY_TURRET: "VEHICLE H-R PROJECTOR TURRET MK.X"
-      STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The extended cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy.{ALT}>VEHICLE GUN{ALT}"
+      STR_VEHICLE_HEAT_RAY_TURRET_UFOPEDIA: "The pinnacle of Human-made field artillery based on Martian energy weapons. The extended cannon has a series of high-quality magnification lenses and a large Hydrogen Generator. It surpasses even most of the H-R weapons field by the enemy. {ALT}>VEHICLE GUN{ALT}"
       STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER: "Vehicle Heat-Ray Projector Turret Mk.X"
       STR_VEHICLE_HEAT_RAY_TURRET_ITEM: "Vehicle Heat-Ray Projector Turret Mk.X"
 
