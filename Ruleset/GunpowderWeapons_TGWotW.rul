@@ -830,7 +830,7 @@ items:
       IgnoreOverKill: true
       ToArmorPre: 0.3
       RandomWound: false
-    damageType: 1
+    damageType: 10
     bulletSpeed: 15
     clipSize: 4
     battleType: 2
@@ -6427,7 +6427,7 @@ items:
     unprimeActionName: STR_UNPRIME_GRENADE
     battleType: 4
     invWidth: 1
-    invHeight: 1
+    invHeight: 2
     blastRadius: 5
     listOrder: 3380
 
