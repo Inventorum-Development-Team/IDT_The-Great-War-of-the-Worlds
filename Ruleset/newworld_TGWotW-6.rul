@@ -166,6 +166,7 @@ globe:
         - name: PLAINSSNOW
           weight: 60
     - id: 13 # Heavily infested zone (dark red)
+      startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
         - name: INFESTED
           weight: 40
@@ -176,6 +177,7 @@ globe:
         - name: DEEPTRENCH
           weight: 20
     - id: 14 # Mid-infested zone (red 1)
+      startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
         - name: INFESTED
           weight: 30
@@ -188,6 +190,7 @@ globe:
         - name: DEEPTRENCH
           weight: 30
     - id: 15 # Light infested zone (red 2)
+      startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
         - name: FARM_INFESTED
           weight: 5
@@ -208,6 +211,7 @@ globe:
         - name: JUNGLE_INFESTED
           area: [0, 360, 0, 90]
     - id: 16 # Snow infested zone (white with red)
+      startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
         - name: INFESTED
           weight: 10
