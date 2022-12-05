@@ -539,12 +539,25 @@ items:
     compatibleAmmo:
       - STR_MAXIM_MG_DRUM
     clipSize: 100
-    accuracySnap: 150
-    accuracyAuto: 125
+    accuracySnap: 55
+    accuracyAuto: 45
     tuSnap: 25
     tuAuto: 40
-    autoRange: 20
-    autoShots: 6
+    minRange: 8
+    snapRange: 24
+    autoRange: 18
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
     dropoff: 3
     sprayWaypoints: 2
     tuLoad: 22
@@ -553,6 +566,10 @@ items:
     invWidth: 2
     invHeight: 3
     listOrder: 1102
+    recover: false
+    vaporColorSurface: 0
+    vaporDensitySurface: 1
+    vaporProbabilitySurface: 25
 
   - type: STR_MAXIM_MG_DRUM
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT, STR_CLIPS]
@@ -613,6 +630,9 @@ items:
     battleType: 1
     attraction: 10
     listOrder: 1104
+    vaporColorSurface: 0
+    vaporDensitySurface: 1
+    vaporProbabilitySurface: 50
 
   - type: STR_TGEWEHR_ROUND
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT, STR_CLIPS]
