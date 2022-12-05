@@ -9,7 +9,7 @@ ufos:
     range: 8
     score: 75
     reload: 56
-    shieldCapacity: 45
+    shieldCapacity: 30
     shieldRecharge: 150
     breakOffTime: 9000
     battlescapeTerrainData:
@@ -44,12 +44,12 @@ ufos:
       name: PABDUCT
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
       mapBlocks:
         - name: PABDUCT
           width: 20
@@ -72,12 +72,12 @@ ufos:
       name: P4_A
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
         - U_PODS
       mapBlocks:
         - name: P4_A
@@ -104,12 +104,12 @@ ufos:
       name: P8_A
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
         - U_PODS
       mapBlocks:
         - name: P8_A
@@ -133,12 +133,12 @@ ufos:
       name: P7_A
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
         - U_PODS
       mapBlocks:
         - name: P7_B
@@ -162,12 +162,12 @@ ufos:
       name: P6_A
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
         - U_PODS
       mapBlocks:
         - name: P6_B
@@ -191,12 +191,12 @@ ufos:
       name: PHARVEST
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
       mapBlocks:
         - name: PHARVEST
           width: 20
@@ -219,12 +219,12 @@ ufos:
       name: PTower
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
       mapBlocks:
         - name: PTower
           width: 10
@@ -250,12 +250,12 @@ ufos:
       name: PBATTLESHIP
       mapDataSets:
         - BLANKS
-        - U_EXT01
+        - U_EXT01B_TRIPOD
         - U_WALL01
         - U_DISEC1
         - U_OPER1
         - PUFOL83
-        - PUFOL83-B
+        - PUFOL83-B_TRIPOD
       mapBlocks:
         - name: PBATTLESHIP
           width: 30

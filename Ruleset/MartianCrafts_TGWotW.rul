@@ -319,6 +319,37 @@ ufos:
     missionScore: 30
     shieldCapacity: 450
     shieldRecharge: 150
+  - type: STR_MARTIAN_LIGHT_FIGHTER
+    size: STR_SMALL
+    sprite: 1
+    damageMax: 250
+    speedMax: 400
+    accel: 9
+    power: 25
+    range: 35
+    score: 55
+    reload: 24
+    breakOffTime: 500
+    battlescapeTerrainData:
+      name: DFO_001
+      mapDataSets:
+        - BLANKS
+        - DFOEXT1_TRIPOD
+        - DFOINT1
+        - DFOINT2
+        - DFOINT3
+        - TRIPOD_INTERNAL_COMPONENTS
+      mapBlocks:
+        - name: MARTIAN_LIGHT_FIGHTER
+          width: 10
+          length: 10
+    hunterKillerPercentage: 100
+    huntSpeed: 60
+    radarRange: 200
+    radarChance: 30
+    sightRange: 60
+    huntMode: 0
+    missionScore: 0
 #Fighting Machines
 ##############################
   - type: STR_MARTIAN_ASSAULT_WALKER
@@ -714,6 +745,59 @@ alienDeployments:
 #################################
 ###### MARTIAN CRAFTS ##########
 ##############################
+  - type: STR_MARTIAN_LIGHT_FIGHTER
+    data:
+      - alienRank: 4
+        lowQty: 2
+        highQty: 2
+        dQty: 0
+        percentageOutsideUfo: 50
+        itemSets:
+          -
+            - STR_MARTIAN_SLUGTHROWER
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_MARTIAN_SLUGTHROWER_ROUNDS
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_RIFLE
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_HEATRAY_RIFLE_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_CANNON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_HEATRAY_CANNON_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+          -
+            - STR_HEATRAY_SNIPER
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_HEATRAY_SNIPER_BATTERY_PHOTON
+            - STR_ALIEN_GRENADE
+            - STR_ALIEN_GRENADE
+    width: 40
+    length: 40
+    height: 10
+    briefing:
+      palette: 4
   - type: NIMBLE_FIGHTER
     data:
       - alienRank: 5

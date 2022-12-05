@@ -428,88 +428,6 @@ itemCategories:
     hidden: true
 
 
-startingConditions:
-  - type: STR_STARTING_FRONTLINES_VERDUN_FORT_VAUX
-    defaultArmor:
-      STR_BRITISH_SOLDIER:
-        STR_FRENCH_FIELD_UNIFORM_UC: 100
-      STR_AMERICAN_SOLDIER:
-        STR_FRENCH_FIELD_UNIFORM_UC: 100
-      STR_GERMAN_SOLDIER:
-        STR_FRENCH_FIELD_UNIFORM_UC: 100
-      STR_FRENCH_SOLDIER:
-        STR_FRENCH_FIELD_UNIFORM_UC: 100
-    allowedArmors:
-      - STR_FRENCH_FIELD_UNIFORM_UC
-      - STR_FRENCH_GASMASK_UC
-    allowedItemCategories:
-      - STR_FRENCH_EQUIPMENT
-      - STR_LIGHT_EQUIPMENT
-      - STR_HEAVY_EQUIPMENT
-      - STR_EXPLOSIVES
-      - STR_BALLISTIC
-      - STR_MILITARY_RATIONS
-      - STR_CQB
-    allowedVehicles:
-      - STR_NONE
-    allowedCraft:
-      - STR_MARCH
-      - STR_MARCH_LARGE
-
-  - type: STR_STARTING_FRONTLINES_MEUSE_ARGONNE
-    defaultArmor:
-      STR_BRITISH_SOLDIER:
-        STR_AMERICAN_FIELD_UNIFORM_UC: 100
-      STR_AMERICAN_SOLDIER:
-        STR_AMERICAN_FIELD_UNIFORM_UC: 100
-      STR_GERMAN_SOLDIER:
-        STR_AMERICAN_FIELD_UNIFORM_UC: 100
-      STR_FRENCH_SOLDIER:
-        STR_AMERICAN_FIELD_UNIFORM_UC: 100
-    allowedArmors:
-      - STR_AMERICAN_FIELD_UNIFORM_UC
-      - STR_AMERICAN_GASMASK_UC
-    allowedItemCategories:
-      - STR_AMERICAN_EQUIPMENT
-      - STR_LIGHT_EQUIPMENT
-      - STR_HEAVY_EQUIPMENT
-      - STR_EXPLOSIVES
-      - STR_BALLISTIC
-      - STR_MILITARY_RATIONS
-      - STR_CQB
-    allowedVehicles:
-      - STR_NONE
-    allowedCraft:
-      - STR_MARCH
-      - STR_MARCH_LARGE
-
-  - type: STR_STARTING_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
-    defaultArmor:
-      STR_BRITISH_SOLDIER:
-        STR_GERMAN_FIELD_UNIFORM_UC: 100
-      STR_AMERICAN_SOLDIER:
-        STR_GERMAN_FIELD_UNIFORM_UC: 100
-      STR_GERMAN_SOLDIER:
-        STR_GERMAN_FIELD_UNIFORM_UC: 100
-      STR_FRENCH_SOLDIER:
-        STR_GERMAN_FIELD_UNIFORM_UC: 100
-    allowedArmors:
-      - STR_GERMAN_FIELD_UNIFORM_UC
-      - STR_GERMAN_GASMASK_UC
-    allowedItemCategories:
-      - STR_GERMAN_EQUIPMENT
-      - STR_LIGHT_EQUIPMENT
-      - STR_HEAVY_EQUIPMENT
-      - STR_EXPLOSIVES
-      - STR_BALLISTIC
-      - STR_MILITARY_RATIONS
-      - STR_CQB
-    allowedVehicles:
-      - STR_NONE
-    allowedCraft:
-      - STR_MARCH
-      - STR_MARCH_LARGE
-
 enviroEffects:
   - type: STR_ENVIRO_UNIT_UNDER_SIEGE
     environmentalConditions:
@@ -700,7 +618,7 @@ startingBase:
         STR_MADSEN_LMG: 1
         STR_MADSEN_LMG_MAG: 3
         STR_SABRE: 8
-      status: STR_READY  
+      status: STR_READY
     - type: STR_PHALANX_MECH
       id: 1
       fuel: 2500

@@ -2198,13 +2198,20 @@ ufopaedia:
 ################################
 ###### MARTIAN CRAFTS #########
 ##############################
+  - id: STR_MARTIAN_LIGHT_FIGHTER
+    type_id: 9
+    section: STR_MARTIAN_VEHICLES
+    requires:
+      - STR_MARTIAN_LIGHT_FIGHTER
+    text: STR_MARTIAN_LIGHT_FIGHTER_UFOPEDIA
+    listOrder: 22400
   - id: NIMBLE_FIGHTER
     type_id: 9
     section: STR_MARTIAN_VEHICLES
     requires:
       - NIMBLE_FIGHTER
     text: NIMBLE_FIGHTER_UFOPEDIA
-    listOrder: 22400
+    listOrder: 22420
   - id: TRANSPORT_BARGE
     type_id: 9
     section: STR_MARTIAN_VEHICLES
@@ -2253,22 +2260,22 @@ ufopaedia:
   - id: STR_SELENITE_FIGHTER
     type_id: 9
     section: STR_MARTIAN_VEHICLES
-    #requires:
-    #  - STR_SELENITE_FIGHTER
+    requires:
+      - STR_ALIENS_ONLY
     text: STR_SELENITE_FIGHTER_UFOPEDIA
     listOrder: 23100
   - id: STR_SELENITE_GUNSHIP
     type_id: 9
     section: STR_MARTIAN_VEHICLES
-    #requires:
-    #  - STR_SELENITE_GUNSHIP
+    requires:
+      - STR_ALIENS_ONLY
     text: STR_SELENITE_GUNSHIP_UFOPEDIA
     listOrder: 23200
   - id: STR_SELENITE_TRANSPORT
     type_id: 9
     section: STR_MARTIAN_VEHICLES
-    #requires:
-    #  - STR_SELENITE_TRANSPORT
+    requires:
+      - STR_ALIENS_ONLY
     text: STR_SELENITE_TRANSPORT_UFOPEDIA
     listOrder: 23300
 #Fighting Machines

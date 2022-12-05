@@ -2375,6 +2375,7 @@ research:
       - STR_MARTIAN_CAMP
       - STR_MARTIAN_OUTPOST
       - STR_MARTIAN_TROOP_BARRACKS
+      - STR_MARTIAN_LIGHT_FIGHTER
       - NIMBLE_FIGHTER
       - TRANSPORT_BARGE
       - BLOCKADE_RUNNER
@@ -2436,6 +2437,7 @@ research:
       - STR_MARTIAN_SUPPLY_DEPOT
       - STR_MARTIAN_CLONE_LAB
       - STR_MARTIAN_REDOUBT
+      - STR_MARTIAN_LIGHT_FIGHTER
       - NIMBLE_FIGHTER
       - TRANSPORT_BARGE
       - BLOCKADE_RUNNER
@@ -2447,6 +2449,9 @@ research:
 ##############################
 ##### SHIPS AND BASES #######
 ############################
+  - name: STR_MARTIAN_LIGHT_FIGHTER
+    points: 50
+    needItem: true
   - name: NIMBLE_FIGHTER
     points: 50
     needItem: true
