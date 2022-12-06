@@ -1,7 +1,28 @@
-X-Aug-2020: 0.7.3 Mk III Beta 'Tempesta d'Acciaio'
+December-2022: 0.8 Mk. IV 'Slavyanka'
 Changes made:
-*Updated to latest OXCE version v6.5.3
-*Tweaked Heat-Ray related research. Now if you research a weapon, you get the War Codex immediately. Also, you need to research all the H-R guns AND an engineer to get all the related research.
+*Updated to latest OXCE version v7.8
+*Vastly improved and expanded tech tree
+- Phlogiston plot by Ikhanad, Nathan and The Reaver of Darkness 
+*Lots of new lore entries, written by efrenespartano, RusArtistSergo, b1ackwolf, Abiko, Fegelein, Kael Schwabauer, MitraLightbringer
+*Two new Endings
+*Major UI redesign, new HUD, by efrenespartano and interface colors, with support of Bootchicken48
+*37 new human weapons, sprites by efrenespartano, Nathan, Cupon4uk
+*
+*22 new crafts:
+- 8 Hunters/Scouts
+- 6 Attackers/Bombers
+- 1 Airship
+- 5 Mech Walkers
+- 2 Ground March
+*27 new craft weapons:
+- 3 Offensive MGs
+- 3 Defensive MGs
+- 3 Cannons
+- 3 Autocannons
+- 4 Rockets
+- 3 Craft Heat-Ray
+- 3 Vehicle Guns
+- 5 Auxiliary Units
 *Improved Heat-Ray War Codex entries.
 *New firing sound for 
 
