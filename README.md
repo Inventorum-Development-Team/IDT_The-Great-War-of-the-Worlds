@@ -67,7 +67,7 @@ Credits by name:
 *SupSuper: Original GeoIcons GlobeMarkers
 *Tal'Raziid: feedback support, fix to Turrets' issues
 *The Reaver of Darkness: Heat Ray weapons stats, Phlogiston plot, plus help with general balance.
-*The Martian:
+*The Martian: Gun turret sprites mounted on Mech Walkers
 *tollworkout: DeepAliens UFOs (selenite UFOs)
 *Warboy: main debugging support
 *wolwerin: Tea Flask, Bandages, Rifle Grenade, Martian Skirmirshers, Silacoid, Heat-Ray Batteries, Coilgun sprites plus ideas
