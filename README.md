@@ -34,19 +34,19 @@ Credits by name:
 *b1ackwolf: Modified Paperdoll human bodies (further modified from Solarius Scorch work)
 *BlackStaff: French translation, plus ideas & historic reference help
 *Bootchicken48: New Sountrack plus feedback support
-*Brain_323: Martian Slugthrower round sprite
+*Brain_322: Martian Slugthrower round sprite
 *b__0: tiles for IDT_VILLAGE and IDT_FOREST terrains
 *Civilian: Heat Ray weapons (modified)
 *cubik2k: feedback support
-*Cupon4uk: Basis for Russian Weapons, feedback support and ideas
+*Cupon4uk: Template for Russian Weapons, feedback support and ideas
 *Dauntless1942: new logo for the project
 *drages: Bullet sprites
 *efrenespartano: General artwork, spanish translation, vehicle, weapon and soldier sprites & ruleset editing
 *Finnik: Whistle and Martian Launcher stats modifier script
 *Fegelein: feedback support
 *GoldenDragon: feedback support
-*Hans Woofington: Basis for all human uniforms and armors, British, French, American and German uniforms, Heat-Ray ammo sprites, art help and support
-*Harald_Gray: Mechtoids (modified, used as basis for Martian Powered Armors)
+*Hans Woofington: Template for all human uniforms and armors, British, French, American and German uniforms, Heat-Ray ammo sprites, art help and support
+*Harald_Gray: Mechtoids (modified, used as template for Martian Powered Armors)
 *HelloMiko: feedback support
 *Hobbes: Tech-Comm reference plus help on the forums.
 *Ikhanad: feedback support, Phlogiston plot, and ideas
@@ -88,20 +88,6 @@ https://www.youtube.com/watch?v=W87Mao2WsMo
 OFFENSIVE by Cephei
 
 
-
-Known issues:
-
-*This is an open beta: the Tier I & II human weapons, Martian and their guns, six Tripods, nine Martian Bases, and seven Martian Flying Machines are available.
-*The Geoscape is almost done, but the unique missions are still WIP. Expect to still find vanilla enemies.
-*The weapons are less unbalanced
-*The Triffids, Mutant Crusher, Line Infantry and Ravager disabled temporaly
-*The custom damage types are not in the Martian armors yet
-*A few starting techs available.
-*Some translation on Spanish and French are missing
-*Could be hidden bugs and crashes. Don't forget to report them!
-
-*Try the weapons as much as you can, we want to balance them and your feedback will be fundamental to do it. At the moment, we have not included all the features and we have maintained research, races and vanilla weapons. In theory it should serve along with any other mod. As soon as we launch the complete version, we will deactivate most of the vanilla stuff
-
 How do I install this mod?
 
 First you need to get a legal copy of Xcom: UFO Defense. You can get it at Steam or GOG.com :) Download the latest OpenXcom Extended (OXCE) version here, available for PC, Android, macOS and iOS. Put your original Xcom data inside /UFO folder
@@ -126,6 +112,6 @@ You can send them to efrenespartano@gmail.com too!
 
 DISCLAIMER:
 
-The purpose of this project is to entertain. The creators do not look for a renumbering with this. Use resources and images owned by third parties. All rights belong to their legitimate creators. For this reason, it is absolutely forbidden to sell, buy or market this product.
+The purpose of this project is to entertain. The creators do not look for a renumbering with this. Uses resources and images owned by third parties. All rights belong to their legitimate creators. For this reason, it is absolutely forbidden to sell, buy or market this product.
 
 
