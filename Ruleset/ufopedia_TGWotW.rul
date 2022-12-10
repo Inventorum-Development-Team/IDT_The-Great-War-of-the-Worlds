@@ -1690,8 +1690,6 @@ ufopaedia:
     listOrder: 15500
     ##listOrder: 10302
   - id: STR_RED_WEED_RESEARCH
-    requires:
-      - STR_RED_WEED_RESEARCH
     type_id: 7
     section: STR_ALIEN_ARTIFACTS
     image_id: RED_WEED_RESEARCH
@@ -3146,3 +3144,10 @@ ufopaedia:
 ################################
 ####### MARTIAN VEHICLES ######
 ##############################
+
+  - id: STR_ALIEN_CONTAINMENT
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_ALIEN_CONTAINMENT_UFOPEDIA
+    requires:
+      - STR_ALIEN_CONTAINMENT
