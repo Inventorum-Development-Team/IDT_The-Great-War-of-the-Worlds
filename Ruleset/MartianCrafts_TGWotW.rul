@@ -3886,6 +3886,7 @@ alienDeployments:
       showTarget: false
       showCraft: true
     markerName: STR_MARTIAN_CYLINDER_MARKERNAME
+    markerIcon: 9
     duration: [900, 1800]
     despawnPenalty: 500
 ##############################

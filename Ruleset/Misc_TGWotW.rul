@@ -226,7 +226,7 @@ extraSprites:
     files:
       0: Resources/BaseGlobeMarkers.png
   - type: GlobeMarkers # ignoreDuplicate
-    width: 140
+    width: 777
     height: 7
     subX: 7
     subY: 7
@@ -269,72 +269,186 @@ extraSprites:
 # specialWeaponInventorySlots:
 #   - STR_BELT
 
+#############################
+###### GLOBE MARKERS #######
+###########################
+
+# Begin with marker: 11, as the first 8 are for the base, alien base and cities and 9-10 are for missions
+
+#    marker: 9 Attack mission
+#    marker: 10 Defend mission
+# Markers 11, 12, 13, 14: Tier I-IV fighters
+# Markers 15, 16, 17, 18: Tier I-IV bombers
+# Markers 19, 20, 21, 22: Tier I-IV airships
+# Markers 23, 24: Marches
+# Markers 25, 26, 27, 28: Tier I-IV landships
+# Markers 29, 30, 31, 32, 33: mech walkers
+# Markers 34, 35, 36, 37: Tier I-IV trains
+# Markers 38, 39, 40, 41: Tier I-IV warships
+
+# Markers
+
 crafts:
-  - type: STR_SPAD # ignoreDuplicate
-    marker: 9
-  - type: STR_RCLASS_AIRSHIP # ignoreDuplicate
-    marker: 10
-  - type: STR_CONQUEROR # ignoreDuplicate
+  - type: STR_MARCH # ignoreDuplicate
+    marker: 23
+  - type: STR_MARCH_LARGE # ignoreDuplicate
+    marker: 24
+
+  - type: STR_FOKKER_EINDECKER # ignoreDuplicate
     marker: 11
+  - type: STR_AIRCO_DH2 # ignoreDuplicate
+    marker: 11
+  - type: STR_NIEUPORT_17 # ignoreDuplicate
+    marker: 12
+  - type: STR_SOPWITH_PUP # ignoreDuplicate
+    marker: 12
+  - type: STR_ALBATROS_DIII # ignoreDuplicate
+    marker: 12
+  - type: STR_SPAD # ignoreDuplicate
+    marker: 13
+  - type: STR_ROYAL_AIRCRAFT_SE5A # ignoreDuplicate
+    marker: 13
+  - type: STR_FOKKER_DR1 # ignoreDuplicate
+    marker: 13
+  - type: STR_SIKORSKI_ILYA_MUROMETS # ignoreDuplicate
+    marker: 16
+  - type: STR_HALBERSTADT_CLII # ignoreDuplicate
+    marker: 16
+  - type: STR_ZEPPELIN_STAAKEN_RVI # ignoreDuplicate
+    marker: 17
+  - type: STR_CAPRIONI_CA5 # ignoreDuplicate
+    marker: 17
+  - type: STR_BRISTOL_F2B # ignoreDuplicate
+    marker: 17
+
+  - type: STR_CCLASS_AIRSHIP # ignoreDuplicate
+    marker: 19
+  - type: STR_RCLASS_AIRSHIP # ignoreDuplicate
+    marker: 20
+
+  - type: STR_CONQUEROR # ignoreDuplicate
+    marker: 26
+
+  - type: STR_PHALANX_MECH # ignoreDuplicate
+    marker: 29
+  - type: STR_LEGIONNAIRE_MECH # ignoreDuplicate
+    marker: 30
+  - type: STR_TESTUDO_MECH # ignoreDuplicate
+    marker: 31
+  - type: STR_CENTURION_MECH # ignoreDuplicate
+    marker: 32
+  - type: STR_PRAETORIAN_MECH # ignoreDuplicate
+    marker: 33
 
 ufos:
-# size: STR_VERY_SMALL
-#    marker: 12
-#    markerLand: 17
-#    markerCrash: 22
-# size: STR_SMALL
-#    marker: 13
-#    markerLand: 18
-#    markerCrash: 23
-# size: STR_MEDIUM
-#    marker: 14
-#    markerLand: 19
-#    markerCrash: 24
-# size: STR_LARGE
-#    marker: 15
-#    markerLand: 20
-#    markerCrash: 25
-# size: STR_VERY_LARGE
-#    marker: 16
-#    markerLand: 21
-#    markerCrash: 26
+
 ############################
-  - type: STR_SMALL_SCOUT
-    marker: 12
-    markerLand: 17
-    markerCrash: 22
-  - type: STR_MEDIUM_SCOUT
-    marker: 13
-    markerLand: 18
-    markerCrash: 23
-  - type: STR_LARGE_SCOUT
-    marker: 13
-    markerLand: 18
-    markerCrash: 23
-  - type: STR_MARTIAN_ASSAULT_WALKER  # ignoreDuplicate
-    marker: 14
-    markerLand: 19
-    markerCrash: 24
-  - type: STR_MARTIAN_BATTLE_WALKER  # ignoreDuplicate
-    marker: 15
-    markerLand: 20
-    markerCrash: 25
-  - type: STR_MARTIAN_SIEGE_WALKER  # ignoreDuplicate
-    marker: 16
-    markerLand: 21
-    markerCrash: 26
-  - type: STR_MARTIAN_HARVESTER_WALKER  # ignoreDuplicate
-    marker: 15
-    markerLand: 20
-    markerCrash: 25
-  - type: STR_MARTIAN_OVERLORD_WALKER # ignoreDuplicate
-    marker: 16
-    markerLand: 21
-    markerCrash: 26
   - type: STR_MARTIAN_RECON_WALKER # ignoreDuplicate
-    marker: 12
-    markerLand: 17
-    markerCrash: 22
+    marker: 42
+    markerLand: 68
+    markerCrash: 94
+  - type: STR_MARTIAN_ASSAULT_WALKER  # ignoreDuplicate
+    marker: 43
+    markerLand: 69
+    markerCrash: 95
+  - type: STR_MARTIAN_BATTLE_WALKER  # ignoreDuplicate
+    marker: 44
+    markerLand: 70
+    markerCrash: 96
+  - type: STR_MARTIAN_HARVESTER_WALKER  # ignoreDuplicate
+    marker: 45
+    markerLand: 71
+    markerCrash: 97
+  - type: STR_MARTIAN_SIEGE_WALKER  # ignoreDuplicate
+    marker: 46
+    markerLand: 72
+    markerCrash: 98
+  - type: STR_MARTIAN_OVERLORD_WALKER # ignoreDuplicate
+    marker: 47 #
+    markerLand: 73
+    markerCrash: 99
+  - type: STR_MARTIAN_LIGHT_FIGHTER
+    marker: 48
+    markerLand: 74
+    markerCrash: 100
+  - type: NIMBLE_FIGHTER
+    marker: 49
+    markerLand: 75
+    markerCrash: 101
+  - type: TRANSPORT_BARGE
+    marker: 50
+    markerLand: 76
+    markerCrash: 102
+  - type: BLOCKADE_RUNNER
+    marker: 51
+    markerLand: 77
+    markerCrash: 103
+  - type: SUPPORT_BOAT
+    marker: 52
+    markerLand: 78
+    markerCrash: 104
+  - type: FRIGATE
+    marker: 53
+    markerLand: 79
+    markerCrash: 105
+  - type: DESTROYER
+    marker: 54
+    markerLand: 80
+    markerCrash: 106
+  - type: CRUISER
+    marker: 55
+    markerLand: 81
+    markerCrash: 107
+  - type: STR_SELENITE_FIGHTER
+    marker: 56
+    markerLand: 82
+    markerCrash: 108
+  - type: STR_SELENITE_GUNSHIP
+    marker: 57
+    markerLand: 83
+    markerCrash: 109
+  - type: STR_SELENITE_TRANSPORT
+    marker: 58
+    markerLand: 84
+    markerCrash: 110
+
+  - type: STR_MARTIAN_CAMP
+    marker: 59 ####
+    markerLand: 85
+    markerCrash: 111
+  - type: STR_MARTIAN_OUTPOST
+    marker: 60
+    markerLand: 86
+    markerCrash: 112
+  - type: STR_MARTIAN_TROOP_BARRACKS
+    marker: 61
+    markerLand: 87
+    markerCrash: 113
+  - type: STR_MARTIAN_HIGH_COMMAND
+    marker: 62
+    markerLand: 88
+    markerCrash: 114
+  - type: STR_MARTIAN_HARVEST_FACILITY
+    marker: 63
+    markerLand: 89
+    markerCrash: 115
+  - type: STR_MARTIAN_WATCHTOWER
+    marker: 64
+    markerLand: 90
+    markerCrash: 115
+  - type: STR_MARTIAN_CLONE_LAB
+    marker: 65
+    markerLand: 91
+    markerCrash: 116
+  - type: STR_MARTIAN_SUPPLY_DEPOT
+    marker: 66
+    markerLand: 92
+    markerCrash: 117
+  - type: STR_MARTIAN_REDOUBT
+    marker: 67
+    markerLand: 93
+    markerCrash: 118
+
 
 musics:
    - type: IDT_TGWOTW_THEME
@@ -590,7 +704,7 @@ startingBase:
     STR_BRITISH_SOLDIER: 4
     STR_AMERICAN_SOLDIER: 4
     STR_GERMAN_SOLDIER: 4
-    STR_PILOT: 5
+    STR_PILOT: 10
   crafts:
     - type: STR_CCLASS_AIRSHIP
       id: 1
