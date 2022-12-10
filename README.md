@@ -31,7 +31,7 @@ Credits by name:
 *alinare: Artwork, Mutant Crusher, ideas & ruleset editing.
 *Andr: Craft sprites plus ideas
 *Anon: feedback support
-*b1ackwolf: Modified Paperdoll human bodies (further modified from Solarius Scorch work)
+*b1ackwolf: Modified Paperdoll human bodies (further modified from Solarius Scorch work), lore ideas
 *BlackStaff: French translation, plus ideas & historic reference help
 *Bootchicken48: New Sountrack plus feedback support
 *Brain_322: Martian Slugthrower round sprite
@@ -67,6 +67,7 @@ Credits by name:
 *SupSuper: Original GeoIcons GlobeMarkers
 *Tal'Raziid: feedback support, fix to Turrets' issues
 *The Reaver of Darkness: Heat Ray weapons stats, Phlogiston plot, plus help with general balance.
+*The Martian:
 *tollworkout: DeepAliens UFOs (selenite UFOs)
 *Warboy: main debugging support
 *wolwerin: Tea Flask, Bandages, Rifle Grenade, Martian Skirmirshers, Silacoid, Heat-Ray Batteries, Coilgun sprites plus ideas

@@ -1,13 +1,16 @@
-December-2022: 0.8 Mk. IV 'Slavyanka'
+10-December-2022: 0.8 Mk. IV 'Slavyanka'
 Changes made:
 *Updated to latest OXCE version v7.8
 *Vastly improved and expanded tech tree
-- Phlogiston plot by Ikhanad, Nathan and The Reaver of Darkness 
+- Phlogiston plot by Ikhanad, Nathan and The Reaver of Darkness
 *Lots of new lore entries, written by efrenespartano, RusArtistSergo, b1ackwolf, Abiko, Fegelein, Kael Schwabauer, MitraLightbringer
-*Two new Endings
-*Major UI redesign, new HUD, by efrenespartano and interface colors, with support of Bootchicken48
-*37 new human weapons, sprites by efrenespartano, Nathan, Cupon4uk
-*
+*Two new Endings, each obtainable by interrogating certain Martian ranks
+*Major UI redesign, new HUD and GlobeMarkers by efrenespartano and interface colors, with support of Bootchicken48
+*37 new human weapons, sprites by efrenespartano, wolwerin, Nathan & Cupon4uk
+*Two new human weapon techs: Phlogiston and Tesla
+*Ammo resprite script, all weapons dynamically change the sprite based on the ammo loaded, by Filip-H
+*Weapons are now locked behind Faction research, pick one and stick with one for all the campaign
+*Complete redesign of Martian infantry units; ruleset by Rclipse, sprites by Harold_Gray, wolwerin, The Martian & The Reaver of Darkness
 *22 new crafts:
 - 8 Hunters/Scouts
 - 6 Attackers/Bombers
@@ -24,25 +27,28 @@ Changes made:
 - 3 Vehicle Guns
 - 5 Auxiliary Units
 *Improved Heat-Ray War Codex entries.
-*New firing sound for 
-
+*K-MM armor-piercing rounds available for all human weapons
+*Major ruleset organization rework
+*Martian Pyramids available in campaign
+*Martian Machines now have Heat-Ray turrets in Battlescape
+*Redesigned Heat-Ray weapons, two new Martian weapons by efrenespartano & Hans Woofington
 
 14-April-2020: v0.7.2 Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *Updated to latest OXCE v6.4.2
 *Added missing "unarmed combat" attack to Italian armors
-*Fixed wrongly defined North Pacific region, thanks to Tson to found it, Meridian & Warboy to giving advice 
+*Fixed wrongly defined North Pacific region, thanks to Tson to found it, Meridian & Warboy to giving advice
 *Fixed issue with German Trench Coat corpse not appearing, found by Tson and the Cosmoteer RP community!
 *Fixed issues with IDT_SNOWVILLAGE, by Dioxine
 
-18-February-2020: v0.7.1f Mk III Beta 'Tempesta d'Acciaio' 
+18-February-2020: v0.7.1f Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *Re-uploaded to fix critical crash
 *Minor update, fixed issues with v0.7.1 reported by StormRangerX
 *OXCE v6.3.4 is now a requisite to use the mod
 *Minor Spanish spellcheck
 
-16-February-2020: v0.7.1 Mk III Beta 'Tempesta d'Acciaio' 
+16-February-2020: v0.7.1 Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *New French translations, by BlackStaff
 *Fixed issue with Terror Missions crashing on Geoscape, found by cubik2k
@@ -55,7 +61,7 @@ Changes made:
 *Fixed issue with Alien Supply mission (the assigned Supply ship was wrongly defined)
 *Lewis and T-Gewehr turrets now have inventory image
 
-13-February-2020: v0.7 Mk III Beta 'Tempesta d'Acciaio' 
+13-February-2020: v0.7 Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *Introduced memmaker's Weapon Proficiency based on Weapon Class. Now you will become better if you use certain weapon type
 *New Coalition of Nations logo, drawn by Dauntless1942
@@ -134,14 +140,14 @@ Changes made:
 *Improved accuracy of all craft weapons (+10)
 *Fixed issue with Fragmentation Bomb that made impossible to reload at basem (issue found by Tal'Raziid)
 *Added 3 more Pilots at starting base
-*Fixed issue related to Lewis Turret, now it is required only one Drum to load it at the base (instead of 48 Drums), by Tal'Raziid 
+*Fixed issue related to Lewis Turret, now it is required only one Drum to load it at the base (instead of 48 Drums), by Tal'Raziid
 *Added Signal Pistol, a flare gun
 *Added Frontline Forest & Frontline Farm terrains
 *Disabled Martian weapons available for purchase
 *Disabled vanilla content left
 *Fixed research tree, research topics won't be available from start
 *Locked War Codex Tier II weapon entries behind their respective research
-*Deleted Hobbes' content 
+*Deleted Hobbes' content
 
 15-October-2019: v0.6.3 Mk II Beta 'On Ne Passe Pas!'
 Changes made:

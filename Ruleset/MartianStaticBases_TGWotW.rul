@@ -9,8 +9,8 @@ ufos:
     range: 8
     score: 75
     reload: 56
-    shieldCapacity: 30
-    shieldRecharge: 150
+    #shieldCapacity: 30
+    #shieldRecharge: 150
     breakOffTime: 9000
     battlescapeTerrainData:
       name: PSCOUT
@@ -65,8 +65,8 @@ ufos:
     score: 125
     reload: 10
     armor: 20
-    shieldCapacity: 70
-    shieldRecharge: 100
+    #shieldCapacity: 70
+    #shieldRecharge: 100
     breakOffTime: 1000
     battlescapeTerrainData:
       name: P4_A
@@ -97,8 +97,8 @@ ufos:
     score: 125
     reload: 15
     armor: 40
-    shieldCapacity: 200
-    shieldRecharge: 100
+    #shieldCapacity: 200
+    #shieldRecharge: 100
     breakOffTime: 1000
     battlescapeTerrainData:
       name: P8_A
@@ -127,8 +127,8 @@ ufos:
     reload: 10
     breakOffTime: 300
     armor: 10
-    shieldCapacity: 60
-    shieldRecharge: 100
+    #shieldCapacity: 60
+    #shieldRecharge: 100
     battlescapeTerrainData:
       name: P7_A
       mapDataSets:
@@ -155,8 +155,8 @@ ufos:
     score: 250
     reload: 10
     armor: 40
-    shieldCapacity: 70
-    shieldRecharge: 100
+    #shieldCapacity: 70
+    #shieldRecharge: 100
     breakOffTime: 5000
     battlescapeTerrainData:
       name: P6_A
@@ -185,8 +185,8 @@ ufos:
     reload: 15
     breakOffTime: 500
     armor: 20
-    shieldCapacity: 90
-    shieldRecharge: 100
+    #shieldCapacity: 90
+    #shieldRecharge: 100
     battlescapeTerrainData:
       name: PHARVEST
       mapDataSets:
@@ -212,8 +212,8 @@ ufos:
     score: 50
     reload: 15
     armor: 20
-    shieldCapacity: 200
-    shieldRecharge: 100
+    #shieldCapacity: 200
+    #shieldRecharge: 100
     breakOffTime: 200
     battlescapeTerrainData:
       name: PTower
@@ -243,8 +243,8 @@ ufos:
     score: 500
     reload: 15
     armor: 20
-    shieldCapacity: 500
-    shieldRecharge: 100
+    #shieldCapacity: 500
+    #shieldRecharge: 100
     breakOffTime: 1000
     battlescapeTerrainData:
       name: PBATTLESHIP

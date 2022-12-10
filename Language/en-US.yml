@@ -915,7 +915,26 @@ en-US:
       STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION: "Russian - Czech Legion Selection"
       STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2: "Czech Legion Weapons II"
 
-
+      STR_BAR_UNLOCK: "BAR Unlock"
+      STR_MP18_UNLOCK: "MP-18 Unlock"
+      STR_AUTOMATIC_REVOLVER_UNLOCK: "Automatic Revolver Unlock"
+      STR_SERVICE_REVOLVER_UNLOCK: "Service Revolver Unlock "
+      STR_HEAVY_REVOLVER_UNLOCK: "Heavy Revolver Unlock"
+      STR_SMLE_MKIII_UNLOCK: SMLE Mk III Unlock
+      STR_SMLE_MKIII_AMMO_UNLOCK: SMLE Mk III Ammo Unlock
+      STR_P14_ENFIELD_UNLOCK: "P14 Enfield Unlock"
+      STR_SPRINGFIELD_UNLOCK: "M1903 Springfield Unlock"
+      STR_SPRINGFIELD_AMMO_UNLOCK: "Sprinfield Ammo Unlock"
+      STR_GEWEHR98_KMM_AMMO_UNLOCK: "Mauser 'Standard' K-MM Rounds Unlock"
+      STR_LEBEL_UNLOCK: "Lebel Unlock"
+      STR_LEWIS_GUN_UNLOCK: "Lewis Gun Unlock"
+      STR_LEBEL_AMMO_UNLOCK: "Lebel Ammo Unlock"
+      STR_LEBEL_KMM_AMMO_UNLOCK: "Lebel K-MM Ammo Unlock"
+      STR_MOSIN_NAGANT_UNLOCK: "Mosin-Nagant Unlock"
+      STR_MOSIN_NAGANT_AMMO_UNLOCK: "Mosin-Nagant Ammo Unlock"
+      STR_LEWIS_GUN_AMMO_UNLOCK: "Lewis Gun Ammo Unlock"
+      STR_REMINGTON_MODEL_11_UNLOCK: "Browning Auto-5 Unlock"
+      STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK: "Shotgun Buckshot Shells (x5) Unlock"
 
 ########################################
 
@@ -976,11 +995,11 @@ en-US:
       STR_CONTACT_WITH_TESLA_UFOPEDIA: "Nikola Tesla, the chief scientist coordinating the joint Coalition research staff investigating the invaders"
       STR_TESLA_ELECTRIC_BLUEPRINTS: "Tesla's Electric Blueprints"
       STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA: "Dr. Tesla has agreed to work alongside us to continue developing his Electric weapons. The enormous amount of disch"
-      STR_TESLA_FOCUSED_DISCHARGE_RESEARCH:
+      STR_TESLA_FOCUSED_DISCHARGE_RESEARCH: "Tesla Focused Discharge Research"
       STR_TESLA_FOCUSED_DISCHARGE_RESEARCH_UFOPEDIA:
-      STR_TESLA_INFANTRY_CANNON_RESEARCH:
+      STR_TESLA_INFANTRY_CANNON_RESEARCH: "Tesla Infantry Cannon Research"
       STR_TESLA_INFANTRY_CANNON_RESEARCH_UFOPEDIA:
-      STR_TESLA_RAPID_DISCHARGE_RESEARCH:
+      STR_TESLA_RAPID_DISCHARGE_RESEARCH: "Tesla Rapid-Fire Discharge Research"
       STR_TESLA_RAPID_DISCHARGE_RESEARCH_UFOPEDIA:
 
       STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT: "Phlogiston Infantry Weapon Project"
@@ -1924,11 +1943,17 @@ en-US:
       STR_WALKER_HISTORY_7: "Walker History VII"
       STR_WALKER_HISTORY_7_UFOPEDIA: "This walker is the largest we have built to date. It combines incredible endurance, excellent firepower and some extra space to transport troops directly to the battlefield. Initially it was the armament upgrade of the 'Centurion', but the weight increased so much that it was necessary to redesign and expand the legs, adopting a quadruped design."
 
+
+      STR_TANK_HISTORY_1: "Tank History I"
+      STR_TANK_HISTORY_1_UFOPEDIA: "The story of the modern tank began with the utility tracked haulers made by the Holt Company. Often employed to haul artillery pieces in difficult terrains, its mechanical reliability and widespread use allowed a latge amount of engineers to experiment on the design. Primitive examples made early in the war had machine guns and armored plates welded over the tractor frame, with varying degrees of success. French Colonel Jean Baptiste Estienne was the main advocate of the invention and adoption of armored vehicles to support the infantry. Initially, he proposed the implementation of {ALT}'mobile personal shields'{ALT} to protect advancing soldiers, but those proved too cumbersome to use. Further research was conducted. "
+      STR_TANK_HISTORY_2: "Tank History II"
+      STR_TANK_HISTORY_2_UFOPEDIA: "Colonel Estienne greatly promoted the development of an advanced armored unit mounted on a Holt tractor chassis, with offensive capabilities. After sending several letters to General Joffre and leading different trials, his proposal for an armored vehicle force was approved. The most promising prototype was the Schneider CA, armed with a shortened light cannon and a support machine gun. While a large number of these tanks could engage light Tripods, the main purpose was to augment the offensive capabilities of the infantry at platoon level.  "
+
 #######################################
 ######### ARMORS REPORTS #############
 ####################################
 
-      STR_BODY_ARMOR_THEORY: "Tier 2 Light Body Armor"
+      STR_BODY_ARMOR_THEORY: "Body Armor Theory"
       STR_BODY_ARMOR_THEORY_UFOPEDIA: "Creating personal armor for use by the infantry is an old and proven idea. Most of the soldiers have worn in the past any kind of protection against damage. The use of armor plating became obsolete with the introduction of gunpowder weapons in the modern battlefields. However, the idea has regained interest in the Great War, as certain materials have been tested to resist the alien weapons. The current prototype armors are heavy and cumbersome, but the development is very encouraged by the troops. The high amount of casualties are often due the lack of proper protection. The introduction of steel helmets is very appreciated, however; most of the indirect casualties were made by shrapnel and low flying debris."
 
       STR_T2_LIGHT_BODY_ARMOR: "Tier 2 Light Body Armor"
