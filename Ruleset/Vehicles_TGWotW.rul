@@ -149,7 +149,7 @@ crafts:
     fuelMax: 250
     damageMax: 150
     speedMax: 250
-    avoidBonus: 65
+    avoidBonus: 25
     accel: 4
     weapons: 2
     weaponTypes:
@@ -181,7 +181,7 @@ crafts:
     damageMax: 130
     speedMax: 200
     accel: 4
-    avoidBonus: 60
+    avoidBonus: 20
     weapons: 2
     weaponTypes:
       - 0
@@ -213,7 +213,7 @@ crafts:
     damageMax: 260
     speedMax: 350
     accel: 5
-    avoidBonus: 55
+    avoidBonus: 15
     weapons: 3
     weaponTypes:
       - 0
@@ -246,7 +246,7 @@ crafts:
     damageMax: 250
     speedMax: 300
     accel: 3
-    avoidBonus: 45
+    avoidBonus: 10
     hitBonus: 15
     weapons: 3
     weaponTypes:
@@ -280,7 +280,7 @@ crafts:
     damageMax: 270
     speedMax: 340
     accel: 4
-    avoidBonus: 50
+    avoidBonus: 15
     weapons: 3
     weaponTypes:
       - 0
@@ -316,7 +316,7 @@ crafts:
     damageMax: 350
     speedMax: 500
     accel: 5
-    avoidBonus: 40
+    avoidBonus: 10
     weapons: 3
     weaponTypes:
       - 0
@@ -349,7 +349,7 @@ crafts:
     damageMax: 400
     speedMax: 600
     accel: 6
-    avoidBonus: 30
+    avoidBonus: 10
     hitBonus: 15
     weapons: 3
     weaponTypes:
@@ -383,7 +383,7 @@ crafts:
     damageMax: 460
     speedMax: 350
     accel: 5
-    avoidBonus: 60
+    avoidBonus: 20
     weapons: 3
     weaponTypes:
       - 0
@@ -420,7 +420,7 @@ crafts:
     fuelMax: 500
     damageMax: 350
     speedMax: 150
-    avoidBonus: 10
+    avoidBonus: -10
     hitBonus: 15
     accel: 2
     weapons: 4
@@ -456,8 +456,8 @@ crafts:
     fuelMax: 350
     damageMax: 300
     speedMax: 300
-    avoidBonus: 15
-    hitBonus: 15
+    avoidBonus: 5
+    hitBonus: 5
     accel: 3
     weapons: 4
     weaponTypes:
@@ -493,6 +493,8 @@ crafts:
     damageMax: 300
     speedMax: 180
     accel: 2
+    avoidBonus: -10
+    hitBonus: 10
     weapons: 4
     weaponTypes:
       - 1
@@ -529,6 +531,8 @@ crafts:
     fuelMax: 700
     damageMax: 560
     speedMax: 500
+    avoidBonus: -15
+    hitBonus: 15
     accel: 3
     weapons: 4
     weaponTypes:
@@ -563,6 +567,8 @@ crafts:
     fuelMax: 300
     damageMax: 130
     speedMax: 500
+    avoidBonus: -10
+    hitBonus: 10
     accel: 4
     weapons: 4
     weaponTypes:
@@ -599,6 +605,7 @@ crafts:
     speedMax: 500
     accel: 4
     weapons: 4
+    hitBonus: 12
     weaponTypes:
       - 1
       - [1, 5]
@@ -635,12 +642,13 @@ crafts:
     fuelMax: 1000
     damageMax: 1000
     speedMax: 90
+    hitBonus: -15
     accel: 2
-    weapons: 1
-    weaponTypes:
-      - 1
+    weapons: 2
     weaponStrings:
-      - STR_CRAFT_CANNON_ONE
+      - STR_CRAFT_LIGHT_CANNON_ONE
+      - STR_CRAFT_LIGHT_CANNON_TWO
+    fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 24 #32
     vehicles: 2 #4
     costBuy: 900000
@@ -659,11 +667,11 @@ crafts:
           width: 10
           length: 20
           items:
-            STR_CONQUEROR_TURRET_SPAWNER:
+            STR_6PDR_VEHICLE_TURRET_SPAWNER:
               - [5, 6, 1]
               - [3, 15, 1]
           fuseTimers:
-            STR_CONQUEROR_TURRET_SPAWNER: [0, 0]
+            STR_6PDR_VEHICLE_TURRET_SPAWNER: [0, 0]
     craftInventoryTile: [5, 4, 0]
     deployment:
       #- [5, 6, 1, 4]
