@@ -1459,6 +1459,10 @@ en-US:
       
       STR_MARTIAN_CONSCRIPT_INTERROGATION: "Martian Conscript Interrogation"
       STR_MARTIAN_CONSCRIPT_INTERROGATION_UFOPEDIA: "The interogations of Martian conscripts have proven two things first and foremost. First, they hold nothing useful and should either be sold off or executed. Second is that they are pulled from whatever jobs they work on mars and thrown into combat with minimal training. The Martian I had the displeasure of interrogating was experiencing Shell Shock, constantly looking somewhere far away and fearful of loud, sudden noises. It even seems to be experiencing auditory hallucinations, begging us to stop 'Shooting the Big boom guns' at it. This demonstrates the effectiveness of bombardment at wreaking havoc on soldiers, and I suggest we introduce methods to prevent this from happening to our troops in the future."
+      
+      STR_MARTIAN_LINE_INFANTRY_INTERROGATION: "Martian Line Infantry Interrogation"
+      STR_MARTIAN_LINE_INFANTRY_INTERROGATION_UFOPEDIA: "The martian line infantry are of the warrior race, larger and more acclimated to warfare. Unlike the conscripts most commonly seen on the battlefield, these soldiers were bred and raised for combat. Yet they lack the skills to perform most other tasks, if our interpretations are correct. This specimen is unable to learn any Human language, and we had to opt to drawings and our limited understanding of their language. It lacks the fine motor skills to do detailed drawings, but can master the loading of a foreign machinegun within hours. These soldiers likely were created specifically for this conflict, and as such show no chance of resisting the war."
+      
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
 ###############################################
