@@ -1945,24 +1945,6 @@ ufopaedia:
 ########################################
 ######### INTERROGATIONS ##############
 ######################################
-  - id: STR_SECTOID
-    type_id: 7
-    section: STR_ALIEN_LIFE_FORMS
-    requires:
-      - STR_SECTOID
-    image_id: UP024.SPK
-    text: STR_SECTOID_UFOPEDIA
-    text_width: 158
-    listOrder: 18000
-  - id: STR_SECTOID_AUTOPSY
-    type_id: 7
-    section: STR_ALIEN_LIFE_FORMS
-    image_id: UP025.SPK
-    text: STR_SECTOID_AUTOPSY_UFOPEDIA
-    requires:
-      - STR_SECTOID_CORPSE
-    text_width: 158
-    listOrder: 18100
 
   - id: SECTOID_ARMOR0
     type_id: 5
@@ -1975,43 +1957,79 @@ ufopaedia:
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_MARTIAN_LINE_INFANTRY
-    listOrder: 19010
+    listOrder: 18010
   - id: STR_MARTIAN_MARINE_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_MARTIAN_MARINE
-    listOrder: 19020
+    listOrder: 18020
   - id: STR_MARTIAN_SHOCK_GUARD_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_MARTIAN_SHOCK_GUARD
-    listOrder: 19030
+    listOrder: 18030
   - id: STR_MARTIAN_SKIRMISHER_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_MARTIAN_SKIRMISHER
-    listOrder: 19040
+    listOrder: 18040
   - id: STR_MARTIAN_ROYAL_POWER_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_MARTIAN_ROYAL_GUARD
-    listOrder: 19050
+    listOrder: 18050
   - id: STR_MARTIAN_SCIENTIST_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_MARTIAN_SCIENTIST
-    listOrder: 19060
+    listOrder: 18060
   - id: CEREBREAL_ARMOR
     type_id: 5
     section: STR_ALIEN_LIFE_FORMS
     requires:
       - STR_CEREBREAL_COMMANDER
-    listOrder: 19070
+    listOrder: 18070
+
+###########################################
+####### REGULAR SOLDIERS INTERROGATION ##########
+#############################################
+
+  - id: STR_MARTIAN_CONSCRIPT_INTERROGATION
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MARTIAN_CONSCRIPT_INTERROGATION
+    text: STR_MARTIAN_CONSCRIPT_INTERROGATION_UFOPEDIA
+    listOrder: 18500
+
+  - id: STR_MARTIAN_LINE_INFANTRY_INTERROGATION
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MARTIAN_LINE_INFANTRY_INTERROGATION
+    text: STR_MARTIAN_LINE_INFANTRY_INTERROGATION_UFOPEDIA
+    listOrder: 18510
+
+  - id: STR_MARTIAN_MARINE_INTERROGATION
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MARTIAN_MARINE_INTERROGATION
+    text: STR_MARTIAN_MARINE_INTERROGATION_UFOPEDIA
+    listOrder: 18520
+
+  - id: STR_MARTIAN_SKIRMISHER_INTERROGATION
+    type_id: 8
+    section: STR_ALIEN_RESEARCH_UC
+    requires:
+      - STR_MARTIAN_SKIRMISHER_INTERROGATION
+    text: STR_MARTIAN_SKIRMISHER_INTERROGATION_UFOPEDIA
+    listOrder: 18530
 
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
