@@ -992,15 +992,15 @@ en-US:
 ############################
 ############################
       STR_CONTACT_WITH_TESLA: "Contact with Tesla"
-      STR_CONTACT_WITH_TESLA_UFOPEDIA: "Nikola Tesla, the chief scientist coordinating the joint Coalition research staff investigating the invaders"
+      STR_CONTACT_WITH_TESLA_UFOPEDIA: "Nikola Tesla, the chief scientist coordinating the joint Coalition research staff investigating the invaders is currently researching anomalous alien activity near the in the Verdun Salient. The enemy's inability to break the human lines around the fortified city is unusual and the greatest mind in all Earth is actively trying to figure why. The Verdun Comune is perhaps the most dangerous place in Western Europe as the Martians constantly try to break the Human defense... yet Dr. Tesla refuses to move."
       STR_TESLA_ELECTRIC_BLUEPRINTS: "Tesla's Electric Blueprints"
-      STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA: "Dr. Tesla has agreed to work alongside us to continue developing his Electric weapons. The enormous amount of disch"
+      STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA: "Dr. Tesla has agreed to work alongside us to continue developing his Electric weapons. The enormous amount of discharged energy released on a small area were met with expectations to have a wonder weapon to win the war. The highly complex mechanisms and extensive training to be able to field them properly limits the mass-production, though. Also, the unpredictable nature of the lightning adds another layer of training, something isn't always possible in these troubled times. "
       STR_TESLA_FOCUSED_DISCHARGE_RESEARCH: "Tesla Focused Discharge Research"
-      STR_TESLA_FOCUSED_DISCHARGE_RESEARCH_UFOPEDIA:
+      STR_TESLA_FOCUSED_DISCHARGE_RESEARCH_UFOPEDIA: ""
       STR_TESLA_INFANTRY_CANNON_RESEARCH: "Tesla Infantry Cannon Research"
       STR_TESLA_INFANTRY_CANNON_RESEARCH_UFOPEDIA:
       STR_TESLA_RAPID_DISCHARGE_RESEARCH: "Tesla Rapid-Fire Discharge Research"
-      STR_TESLA_RAPID_DISCHARGE_RESEARCH_UFOPEDIA:
+      STR_TESLA_RAPID_DISCHARGE_RESEARCH_UFOPEDIA: "Raiding parties equipped with Tesla-designed weapons greatly appreciate the raw power of these guns and have request specifically for an improvement im close quarters combat use, no matter how dangerous may become. The result is a sturdy frame with enlarged Tesla Coils and no copper conducting rails of any kind. The lightings projected by the 'Trench Broom' disperse in a wide arc, easily cleaning fortified positions.."
 
       STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT: "Phlogiston Infantry Weapon Project"
       STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT: "Phlogiston Handheld Weapon Project"
