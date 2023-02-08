@@ -974,14 +974,14 @@ en-US:
         well, so use them with caution."
       STR_KMM_BULLETS: K-MM Bullets
       STR_KMM_BULLETS_UFOPEDIA:
-        The new bullets, forged from normal steel and lead, but have a core of the Martian
-        Metal, have greater penetration capacity than the armor used by the Martians. The new ore is melted and
+        The new bullets, forged from normal steel and lead, but have a core of Martian
+        Metal. Greater penetration capacity than regular lead projectiles on the armor used by the Martians. The new ore is melted and
         forged again to form the core of the new armour-piercing rounds and more
         powerful fulminations are added, creating the so-called 'K-MM bullets'.
-        Because Martian Metal is very meltable, bullets of various types can be
+        Because Martian Metal is very malleable, bullets of various types can be
         formed, from pistols to cannons, machine guns and rifles.
       STR_FRONTLINES_FIELD_REPORT: "Frontline Performance Report"
-      STR_FRONTLINES_FIELD_REPORT_UFOPEDIA: "For 3 years we have been engaged in a war of attrition, mostly on the defensive. The information we have gathered, together with that reported by other allied troops has enabled us to develop new war tactics, more powerful machines and better weapons. Specially the new infantry weapons, which are adapted to the peculiar characteristics of trench fighting. Mud and difficulty in maintaining weapons and equipment is the norm in our battles. Upgraded weapons will be made available to us as soon as possible."
+      STR_FRONTLINES_FIELD_REPORT_UFOPEDIA: "For 3 years we have been engaged in a war of attrition, mostly on the defensive. The information we have gathered, together with that reported by other allied troops has enabled us to develop new war tactics, more powerful machines and better weapons. Specially the new infantry weapons, which are adapted to the peculiar characteristics of trench fighting. Mud and difficulty in maintaining weapons and equipment is the norm in our battles. Our soldiers are getting one-shot by everything, we need to do something with it too. Upgraded weapons and personal armor projects will be made available to us as soon as possible."
 
       STR_ROCKET_THEORY_RESEARCH: "Rocket Theory"
       STR_ROCKET_THEORY_RESEARCH_UFOPEDIA: "Rockets are a self-propulsed projectile with an internal fuel tank and an engine able to provide great amounts of thrust by burning chemical substances. The technology itself can be traced since ancient times, with examples being used by China. The modern models carry explosive warheads over long distances. Additional research into this technology eventually will lead to better and more efficient engines."
@@ -1966,7 +1966,7 @@ en-US:
       STR_T2_LIGHT_BODY_ARMOR: "Tier 2 Light Body Armor"
       STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA: "The asbestos are an inorganic compound with the excellent property of being fireproof. Field testing has resulted in an important resistance to Thermal-based energy weapons. Combined with small amounts of Tunguskium in a personal armor (as we haven't found a feasible way to produce more alloys and we depend on the captured Martian Metal), the theorical surviving rate of the users is greatly increased. The downside is the encumbrance caused by the not-so-light armor plates, which may cause fatigue and difficulty to movement. Blueprints are ready for distribution."
       STR_T2_HEAVY_BODY_ARMOR: "Tier 2 Heavy Body Armor"
-      STR_T2_HEAVY_BODY_ARMOR_UFOPEDIA: "The need of additional protection for defensive troops and combat engineers have resulted in the heavily armored 'L'inmortale' armor. Designed by Italian engineers to help the Arditi on assault operations, it has adapted for the rest of the Coalition gunsmiths and armories. Large amounts of asbestos and Tunguskium are used to give the user an unrivaled resistance to enemy energy beams... at the cost of any kind of comfort."
+      STR_T2_HEAVY_BODY_ARMOR_UFOPEDIA: "The need of additional protection for defensive troops and combat engineers have resulted in the heavily armored {ALT}L'inmortale{ALT} armor. Designed by Italian engineers to help the Arditi on assault operations, it has adapted for the rest of the Coalition gunsmiths and armories. Large amounts of asbestos and Tunguskium are used to give the user an unrivaled resistance to enemy energy beams... at the cost of any kind of comfort."
       STR_AMERICAN_T2_BODY_ARMOR: "Dean Reinforced Battlearmor"
       STR_AMERICAN_T2_BODY_ARMOR_UFOPEDIA: "Designed by Dr. Bashford Dean using the German designs as inspiration, the armored Tunguskium plate has a thick layer of asbestos in front and back, plus a Dean No.5 Helmet (it is said its better than the Brodie)"
       STR_BRITISH_T2_BODY_ARMOR: "EOB Body Armour"
