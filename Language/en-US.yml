@@ -1643,6 +1643,9 @@ en-US:
 
       STR_BRISTOL_F2B: "BRISTOL F.2B FIGHTER"
       STR_BRISTOL_F2B_UFOPEDIA: "Attack Plane - The Fighter is a biplane, two-seater recon and close-support plane. Fast enough and sturdy to be paired with Hunter craft units, it is well received by Allied air squadrons."
+      
+      STR_DISC_UFO: "D.I.S.C"
+      STR_DISC_UFO_UFOPEDIA: "Superb recon craft, made with reverse engineered Flying-Machines. Can stay in the air for extensive periods of time."
 
       STR_CCLASS_AIRSHIP: "C-CLASS AIRSHIP"
       STR_CCLASS_AIRSHIP_UFOPEDIA: "Light recon and scout blimp, used to conduct search and rescue missions inside Red Zones and near the frontlines. Moderately armed with a couple of turrets."
