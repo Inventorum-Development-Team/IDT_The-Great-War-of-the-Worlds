@@ -1943,6 +1943,8 @@ research:
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
 
+# REGULAR SOLDIERS 
+
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
 ###############################################
@@ -2316,6 +2318,8 @@ research:
     points: 50
     needItem: true
     destroyItem: true
+    unlocks:
+     - STR_MARTIAN_CONSCRIPT_INTERROGATION
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
@@ -2330,7 +2334,9 @@ research:
     cost: 192
     points: 50
     needItem: true
-    destroyItem: true
+    destroyItem: true 
+    unlocks:
+     - STR_MARTIAN_LINE_INFANTRY_INTERROGATION
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
@@ -2352,7 +2358,9 @@ research:
     cost: 192
     points: 50
     needItem: true
-    destroyItem: true
+    destroyItem: true 
+    unlocks:
+     - STR_MARTIAN_MARINE_INTERROGATION
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
@@ -2376,7 +2384,9 @@ research:
     cost: 192
     points: 50
     needItem: true
-    destroyItem: true
+    destroyItem: true 
+    unlocks:
+     - STR_MARTIAN_SKIRMISHER_INTERROGATION
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
