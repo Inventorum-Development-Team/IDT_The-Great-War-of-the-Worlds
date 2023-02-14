@@ -1778,6 +1778,57 @@ research:
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
 
+###############################
+####### HUMAN ARMORS #########
+#############################
+
+  - name: STR_BODY_ARMOR_THEORY
+    #    listOrder: 902
+    cost: 200
+    points: 70
+    dependencies:
+      - STR_FRONTLINES_FIELD_REPORT
+
+  - name: STR_T2_LIGHT_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_BODY_ARMOR_THEORY
+
+  - name: STR_T2_HEAVY_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_BODY_ARMOR_THEORY
+      - STR_MARTIAN_METAL_ARMOR_PLATES      
+  - name: STR_AMERICAN_T2_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_LIGHT_BODY_ARMOR
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+
+  - name: STR_BRITISH_T2_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_LIGHT_BODY_ARMOR
+      - STR_BRITISH_EQUIPMENT_SELECTION
+
+  - name: STR_GERMAN_T2_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_LIGHT_BODY_ARMOR
+      - STR_GERMAN_EQUIPMENT_SELECTION
+
+############################
+
   - name: STR_HUMAN_CHEMICAL_WEAPONS
     #    listOrder: 902
     cost: 600
