@@ -1981,6 +1981,10 @@ en-US:
       STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA: "One of the first practical infantry armor designs, its made with a mixture of Tunguskium, asbestos and manganese steel. The major downside is the lack of back protection, as only the frontal torso is armored."
       STR_FRENCH_T2_BODY_ARMOR: "Lancier Light Body Armor"
       STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA: "A cloth vest with slots for intercalated Tunguskium and asbestos plates uniformly distributed in the front and back. The overall design grants the user a higher level of mobility, at the expense of lower protection. "
+      STR_ITALIAN_T2_BODY_ARMOR: "Farina Arditi Armor"
+      STR_ITALIAN_T3_BODY_ARMOR_UFOPEDIA: "A heavy armored chest plate, with reinforced pauldrons. Usually worn by the Arditi shock troopers in raiding missions, it reduces the user's stamina but greatly increase morale."
+      STR_RUSSIAN_T2_BODY_ARMOR: "Ursa Body Plate"
+      STR_RUSSIAN_T2_BODY_ARMOR_UFOPEDIA: "Licensed version of the Lancier French armor, made in Tula Arms Plant. More asbestos and steel are added, increasing both protection and weight."
       STR_PERSONAL_ARMOR: "L'inmortale Heavy Armor"
       STR_PERSONAL_ARMOR_UFOPEDIA: "A heavier variant of the Farina armor, it includes additional protection in the arms, legs and back, including and a face plate. Even when the Tunguskium and asbestos are lighter than steel, the armor is unwieldy and will slow down the user."
 
@@ -1994,6 +1998,8 @@ en-US:
       STR_FRENCH_T3_BODY_ARMOR_UFOPEDIA: "An replacement over the basic Lancier soft armor includes a Polack face shield to protect the eyes from shrapnel and Adrian full-Tunguskium torso armor with angled design to deflect and dissipate ballistic and energy attacks."
       STR_ITALIAN_T3_BODY_ARMOR: "Dunand Infantry Armor"
       STR_ITALIAN_T3_BODY_ARMOR_UFOPEDIA: "A mixture of the Adrian Cuirassier torso armor and Farina shoulder plates, the joint Franco-Italian design incorporates a Dunand bubble-like face mask to deflect bullets and shrapnel alike."
+      STR_RUSSIAN_T3_BODY_ARMOR: "Rostova-pattern Raider Protection"
+      STR_RUSSIAN_T3_BODY_ARMOR_UFOPEDIA: "Battle armor designed by the armourers of the Woman's Battalion of Death operating behind enemy lines, its more comfortable than other armor sets."
 
       STR_POWER_SUIT: "Totemkopf Mechanized Armor"
       STR_POWER_SUIT_UFOPEDIA: "A highly experimental design made by German engineers based on the enclosed armors used by the Martian military. It features a closed breathing apparatus and several layers of Tunguskium and asbestos plates to endure the hardships of modern warfare. The Tesla Micro Generator in the back provides enough energy for all the systems inside"
