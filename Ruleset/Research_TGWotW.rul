@@ -1827,6 +1827,30 @@ research:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_GERMAN_EQUIPMENT_SELECTION
 
+  - name: STR_FRENCH_T2_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_LIGHT_BODY_ARMOR
+      - STR_FRENCH_EQUIPMENT_SELECTION
+
+  - name: STR_ITALIAN_T2_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_LIGHT_BODY_ARMOR
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+
+  - name: STR_RUSSIAN_T2_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_LIGHT_BODY_ARMOR
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
+
 ############################
 
   - name: STR_HUMAN_CHEMICAL_WEAPONS
@@ -2002,7 +2026,7 @@ research:
 
   - name: STR_CEREBREAL_COMMANDER
     cost: 800
-    points: 50
+    points: 150
     unlocks:
       - STR_CONTACT_WITH_TESLA
     getOneFree:
