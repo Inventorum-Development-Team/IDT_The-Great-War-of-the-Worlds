@@ -1851,6 +1851,71 @@ research:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_RUSSIAN_EQUIPMENT_SELECTION
 
+######
+
+  - name: STR_T3_LIGHT_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_LIGHT_BODY_ARMOR
+
+  - name: STR_T3_HEAVY_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T2_HEAVY_BODY_ARMOR
+      - STR_MARTIAN_METAL_ARMOR_PLATES      
+  - name: STR_AMERICAN_T3_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T3_LIGHT_BODY_ARMOR
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+
+  - name: STR_BRITISH_T3_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T3_LIGHT_BODY_ARMOR
+      - STR_BRITISH_EQUIPMENT_SELECTION
+
+  - name: STR_GERMAN_T3_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T3_LIGHT_BODY_ARMOR
+      - STR_GERMAN_EQUIPMENT_SELECTION
+
+  - name: STR_FRENCH_T3_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T3_LIGHT_BODY_ARMOR
+      - STR_FRENCH_EQUIPMENT_SELECTION
+
+  - name: STR_ITALIAN_T3_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T3_LIGHT_BODY_ARMOR
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+
+  - name: STR_RUSSIAN_T3_BODY_ARMOR
+    #    listOrder: 902
+    cost: 100
+    points: 70
+    dependencies:
+      - STR_T3_LIGHT_BODY_ARMOR
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
+
+
 ############################
 
   - name: STR_HUMAN_CHEMICAL_WEAPONS
