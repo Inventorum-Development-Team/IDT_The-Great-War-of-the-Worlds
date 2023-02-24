@@ -1061,44 +1061,27 @@ en-US:
       STR_AMERICAN_SOLDIER: American Soldier
       STR_AMERICAN_SOLDIER_INTRODUCTION: The Doughboys
       STR_AMERICAN_SOLDIER_UFOPEDIA: The American soldiers called "doughtboys" are intelligent, experts in guerrilla tactics. Since their country is divided in half by the Martians, they fight fiercely every battle. Each fallen enemy brings them a little closer to reuniting the country. Together with them they fight what remains of the Mexican Army, which also fights to liberate North America, as well as the guerrilla of Pancho Villa.
-      STR_AMERICAN_FIELD_UNIFORM_UC: US ARMY FIELD UNIFORM
-      STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA: Uniform olive green color, very characteristic of the new American army that fights against the Martians. Includes multiple cartridges to transport supplies or additional ammunition, as well as the same M12 Brodie helmet of the British, but in gray. The Mexicans also wear it, although Pancho Villa's guerrilla prefers a variant of the British uniform.
-      STR_AMERICAN_GASMASK_UC: US ARMY GAS MASK
-      STR_AMERICAN_GASMASK_UC_UFOPEDIA: Improved version of the British HLS Mk1 gas mask, with better visors that avoid clouding the eyes as much as other gas masks. Other than this, it is the same model used by the Commonwealth. Very important to avoid the lethal gases employed on the battlefront.
+      
 
       STR_BRITISH_SOLDIER: British Soldier
       STR_BRITISH_SOLDIER_INTRODUCTION: The Tommies
       STR_BRITISH_SOLDIER_UFOPEDIA: The Commonwealth soldiers, nicknamed "Tommies" by the rest of the Coalition soldiers, are strong and brave. Most of the soldiers are quite professional, hardened by the years of colonial wars and the First Martian Invasion.  More than half of the men in the Commonwealth troops are volunteers from their countries, very few are recruited. Unlike the continental leva armies, the Tommies are grouped into highly mobile Expeditionary Forces, with no more than 150,000 soldiers.
-      STR_BRITISH_FIELD_UNIFORM_UC: COMMONWEALTH FIELD UNIFORM
-      STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA: Modified version of the campaign uniform introduced in 1902, the standard uniform of the British and Commonwealth troops model M1912 includes a jacket and pants with different pockets and a Brodie M12 helmet, to protect from head injuries.
-      STR_BRITISH_GASMASK_UC: COMMONWEALTH GAS MASK
-      STR_BRITISH_GASMASK_UC_UFOPEDIA: Gas mask model Harrison, Lambert & Sadd HLS Mk1 of British design, is a great improvement to the antiquated model P Helmet used at the beginning of the war. It adapts better to the Brodie M12 helmet and does not depend on an external respirator to function.
+      
 
       STR_FRENCH_SOLDIER: French Soldier
       STR_FRENCH_SOLDIER_INTRODUCTION: Le Poilu
       STR_FRENCH_SOLDIER_UFOPEDIA: There is no soldier tougher, coarser and fiercer than a French soldier. Nicknamed 'Poilu', which means 'hairy' because of their abundant moustache or beard, they are experienced in hand to hand combat, using melee weapons when they run out of ammunition. Sometimes they are somewhat insubordinate and do not follow incompetent officers Their honour is very high, they literally fight to the last man for the glory of their homeland.
-      STR_FRENCH_FIELD_UNIFORM_UC: FRENCH ARMY FIELD UNIFORM
-      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: Trench Coat and Adrian Helmet introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure. It has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride.
-      STR_FRENCH_GASMASK_UC: FRENCH ARMY GAS MASK
-      STR_FRENCH_GASMASK_UC_UFOPEDIA: Gas mask modèle M1914, is a licensed version of the successful mask used by the troops of the German Imperial Army. It works exactly the same, which allows to exchange filters for masks, even full gasmasks, with their German brothers in arms. There are rumors that the Adrian M14 helmet has certain vision problems with this gas mask.
+      
 
       STR_GERMAN_SOLDIER: German Soldier
       STR_GERMAN_SOLDIER_INTRODUCTION: The Jerry
       STR_GERMAN_SOLDIER_UFOPEDIA: The brave and heroic soldiers of the Kaiser serve gallantly on the battlefield. One of Europe's largest armies is affectionately called 'Jerry,' derived from 'German'. They are one of the best snipers in the world, since Napoleonic times they have stood out for their precision and lethality. They have put aside their rivalry with the French to work alongside them.
-      STR_GERMAN_FIELD_UNIFORM_UC: GERMAN ARMY FIELD UNIFORM
-      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: Standard Field Combat Uniform, part of the equipment of the soldiers of the Deutsches Heer. Entering service in 1910, the feldgrau uniform replaced the colorful colorful uniforms of the Germanic states. In 1913 the iconic Pickelhaube was reemplaced for the grey Stalhlhelm, better protected and easier to manufacture.
-      STR_GERMAN_GASMASK_UC: GERMAN ARMY GAS MASK
-      STR_GERMAN_GASMASK_UC_UFOPEDIA: The Lederschutzmaske M1914 gas mask (leather protection mask) is probably one of the best designs to date. It went into action shortly before the last Martian offensive on the Marne and has been employed by numerous soldiers and civilians alike, from many nations. It protects well from toxic gases, although it obstructs the view and deafens the soldier.
-      STR_GERMAN_TRENCH_COAT_UNIFORM_UC: GERMAN ARMY TRENCH COAT
-      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: The wool coat used by the German Army is designed to keep troops warm at the front. It does not have any additional pockets, so it is used together with a belt and a backpack. This uniform includes the traditional Pickelhaube adorned with the German imperial eagle. Although it has no protection, it is worn with pride by the Kaiser's troops.
+      
 
       STR_ITALIAN_SOLDIER: Italian Soldier
       STR_ITALIAN_SOLDIER_INTRODUCTION: The Daring Ones
       STR_ITALIAN_SOLDIER_UFOPEDIA: Italy, until the beginning of the Great War, has been characterized as a predominantly agricultural and peaceful country. With the arrival of the Martians and the subsequent invasion of Europe, the Italian army has been mobilized. Despite being less equipped and smaller than other armies, it is more than compensated for by the incessant tenacity and courage of Italian soldiers, outstanding for their ingenuity in creating personal armor.
-      STR_ITALIAN_FIELD_UNIFORM_UC: ITALIAN ARMY FIELD UNIFORM
-      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments. It includes an Adrian helmet of French origin to protect the head.
-      STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
-      STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.
+      
 
       STR_SOLDIER_CLASSES_INTRODUCTION: "Soldier Classes"
       STR_SOLDIER_CLASSES_INTRODUCTION_UFOPEDIA: "The advent of the large scale conflicts meant a focus in the specialization of the training given to the military units. And in this industrialized war, this was further pushed by the members of the Coalition. The result is a series of 'Soldier Classes', each one with a particular set of skills. These soldiers are often assigned to special support regiments, complementing the larger armies fighting the invaders. Also, in separate combat teams like our Force. The IEF is given professional soldiers from each one of the Coalition military special forces, both to bolster our offensive capabilities and a show of unity among nations."
@@ -1124,12 +1107,11 @@ en-US:
       STR_HEAVY_CLASS_INTRODUCTION_UFOPEDIA:
       STR_RAIDER_CLASS_SOLDIER:
       STR_RAIDER_CLASS_INTRODUCTION:
-      STR_RAIDER_CLASS_INTRODUCTION_UFOPEDIA: "First used by General Brusilov in his Counteroffensive of 1913, the Raider became something close to a mythological hero. The image of a soldier with sable in one hand and grenades in the other was imprinted in the mind of the Russian population."
+      STR_RAIDER_CLASS_INTRODUCTION_UFOPEDIA: "First used by General Brusilov in the Counteroffensive of 1913, the Raider became something close to a mythological hero. The image of a soldier with sable in one hand and grenades in the other was imprinted in the mind of the Russian population."
       STR_PILOT: Pilot
       STR_PILOT_INTRODUCTION: The Knights of the Sky
       STR_PILOT_UFOPEDIA: The flight of the Wright brothers in 1905 and the Second Martian Invasion resulted in the full adoption of combat from the air and hundreds of volunteers enlisted in the newly formed military air forces. The knights of the air ride on their powerful air mounts of wood and cloth, defending the human skies.
-      STR_PILOT_UNIFORM_UC: PILOT JUMPSUIT
-      STR_PILOT_UNIFORM_UC_UFOPEDIA: Soft and confortable jump suit made of light cottom clothes, keeps the user warm at high-attitiude and prevents overheating inside landships and other ground vehicles. Includes a brand new parachute made in the USA, using a design of Stefan Banic. This allows the pilot to eject if it's vehicle becomes too damage to return base. Our war machine can reemplace a lost vehicle easily, not a veteran pilot.
+      
 
 ########################
 
@@ -1958,29 +1940,58 @@ en-US:
 
 
       STR_TANK_HISTORY_1: "Tank History I"
-      STR_TANK_HISTORY_1_UFOPEDIA: "The story of the modern tank began with the utility tracked haulers made by the Holt Company. Often employed to haul artillery pieces in difficult terrains, its mechanical reliability and widespread use allowed a latge amount of engineers to experiment on the design. Primitive examples made early in the war had machine guns and armored plates welded over the tractor frame, with varying degrees of success. French Colonel Jean Baptiste Estienne was the main advocate of the invention and adoption of armored vehicles to support the infantry. Initially, he proposed the implementation of {ALT}'mobile personal shields'{ALT} to protect advancing soldiers, but those proved too cumbersome to use. Further research was conducted. "
+      STR_TANK_HISTORY_1_UFOPEDIA: "The story of the modern tank began with the utility tracked haulers made by the Holt Company. Often employed to transport artillery pieces in difficult terrains, its mechanical reliability and widespread use allowed a latge amount of engineers to experiment on the design. Primitive examples made early in the war had machine guns and armored plates welded over the tractor frame, with varying degrees of success. French Colonel Jean Baptiste Estienne was the main advocate of the invention and adoption of armored vehicles to support the infantry. Initially, he proposed the implementation of {ALT}'mobile personal shields'{ALT} to protect advancing soldiers, but those proved too cumbersome to use. Further research was conducted. "
       STR_TANK_HISTORY_2: "Tank History II"
       STR_TANK_HISTORY_2_UFOPEDIA: "Colonel Estienne greatly promoted the development of an advanced armored unit mounted on a Holt tractor chassis, with offensive capabilities. After sending several letters to General Joffre and leading different trials, his proposal for an armored vehicle force was approved. The most promising prototype was the Schneider CA, armed with a shortened light cannon and a support machine gun. While a large number of these tanks could engage light Tripods, the main purpose was to augment the offensive capabilities of the infantry at platoon level.  "
 
 #######################################
 ######### ARMORS REPORTS #############
 ####################################
+      STR_AMERICAN_FIELD_UNIFORM_UC: "American Field Uniform"
+      STR_AMERICAN_FIELD_UNIFORM_UC_UFOOEDIA: "Standard campaign dress of the US military. It was widely promoted and distributed all over the continent, it is not uncommon to see Mexican and ABC troops with it. This variant is worn with the Overseas Cap, for the troops deployed outside the US. "
+      STR_AMERICAN_CAMPAIGN_UNIFORM: "American Campaign Uniform"
+      STR_AMERICAN_CAMPAIGN_UNIFORM_UFOPEDIA: ""
+      
+      STR_BRITISH_FIELD_UNIFORM_UC: COMMONWEALTH FIELD UNIFORM
+      STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA: Modified version of the campaign uniform introduced in 1902, the standard uniform of the British and Commonwealth troops model M1912 includes a jacket and pants with different pockets and a Brodie M12 helmet, to protect from head injuries.
+      STR_BRITISH_GASMASK_UC: COMMONWEALTH GAS MASK
+      STR_BRITISH_GASMASK_UC_UFOPEDIA: Gas mask model Harrison, Lambert & Sadd HLS Mk1 of British design, is a great improvement to the antiquated model P Helmet used at the beginning of the war. It adapts better to the Brodie M12 helmet and does not depend on an external respirator to function.
+
+      STR_GERMAN_FIELD_UNIFORM_UC: GERMAN ARMY FIELD UNIFORM
+      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: Standard Field Combat Uniform, part of the equipment of the soldiers of the Deutsches Heer. Entering service in 1910, the feldgrau uniform replaced the colorful colorful uniforms of the Germanic states. In 1913 the iconic Pickelhaube was reemplaced for the grey Stalhlhelm, better protected and easier to manufacture.
+      STR_GERMAN_GASMASK_UC: GERMAN ARMY GAS MASK
+      STR_GERMAN_GASMASK_UC_UFOPEDIA: The Lederschutzmaske M1914 gas mask (leather protection mask) is probably one of the best designs to date. It went into action shortly before the last Martian offensive on the Marne and has been employed by numerous soldiers and civilians alike, from many nations. It protects well from toxic gases, although it obstructs the view and deafens the soldier.
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC: GERMAN ARMY TRENCH COAT
+      STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA: The wool coat used by the German Army is designed to keep troops warm at the front. It does not have any additional pockets, so it is used together with a belt and a backpack. This uniform includes the traditional Pickelhaube adorned with the German imperial eagle. Although it has no protection, it is worn with pride by the Kaiser's troops.
+
+      STR_FRENCH_FIELD_UNIFORM_UC: FRENCH ARMY FIELD UNIFORM
+      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: Trench Coat and Adrian Helmet introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure. It has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride.
+      STR_FRENCH_GASMASK_UC: FRENCH ARMY GAS MASK
+      STR_FRENCH_GASMASK_UC_UFOPEDIA: Gas mask modèle M1914, is a licensed version of the successful mask used by the troops of the German Imperial Army. It works exactly the same, which allows to exchange filters for masks, even full gasmasks, with their German brothers in arms. There are rumors that the Adrian M14 helmet has certain vision problems with this gas mask.
+      
+      STR_ITALIAN_FIELD_UNIFORM_UC: ITALIAN ARMY FIELD UNIFORM
+      STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments. It includes an Adrian helmet of French origin to protect the head.
+      STR_ITALIAN_ALPINI_UNIFORM_UC: ITALIAN ALPINI UNIFORM
+      STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA:  This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move.
 
       STR_BODY_ARMOR_THEORY: "Body Armor Theory"
       STR_BODY_ARMOR_THEORY_UFOPEDIA: "Creating personal armor for use by the infantry is an old and proven idea. Most of the soldiers have worn in the past any kind of protection against damage. The use of armor plating became obsolete with the introduction of gunpowder weapons in the modern battlefields. However, the idea has regained interest in the Great War, as certain materials have been tested to resist the alien weapons. The current prototype armors are heavy and cumbersome, but the development is very encouraged by the troops. The high amount of casualties are often due the lack of proper protection. The introduction of steel helmets is very appreciated, however; most of the indirect casualties were made by shrapnel and low flying debris."
 
       STR_T2_LIGHT_BODY_ARMOR: "Tier 2 Light Body Armor"
-      STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA: "The asbestos are an inorganic compound with the excellent property of being fireproof. Field testing has resulted in an important resistance to Thermal-based energy weapons. Combined with small amounts of Tunguskium in a personal armor (as we haven't found a feasible way to produce more alloys and we depend on the captured Martian Metal), the theorical surviving rate of the users is greatly increased. The downside is the encumbrance caused by the not-so-light armor plates, which may cause fatigue and difficulty to movement. Blueprints are ready for distribution."
+      STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA: "The asbestos are an inorganic compound with the excellent property of being fireproof. Field testing has resulted in an important resistance to Thermal-based energy weapons. Combined with small amounts of Tunguskium in a personal armor (as we haven't found a feasible way to produce more alloys and we depend on the captured Martian Metal), the theorical surviving rate of the users is greatly increased. The downside is the encumbrance caused by the not-so-light armor plates, which may cause fatigue and difficulty of movement. Blueprints are ready for distribution."
       STR_T2_HEAVY_BODY_ARMOR: "Tier 2 Heavy Body Armor"
       STR_T2_HEAVY_BODY_ARMOR_UFOPEDIA: "The need of additional protection for defensive troops and combat engineers have resulted in the heavily armored {ALT}L'inmortale{ALT} armor. Designed by Italian engineers to help the Arditi on assault operations, it has adapted for the rest of the Coalition gunsmiths and armories. Large amounts of asbestos and Tunguskium are used to give the user an unrivaled resistance to enemy energy beams... at the cost of any kind of comfort."
       STR_AMERICAN_T2_BODY_ARMOR: "Dean Reinforced Battlearmor"
       STR_AMERICAN_T2_BODY_ARMOR_UFOPEDIA: "Designed by Dr. Bashford Dean using the German designs as inspiration, the armored Tunguskium plate has a thick layer of asbestos in front and back, plus a Dean No.5 Helmet (it is said its better than the Brodie)"
+      
       STR_BRITISH_T2_BODY_ARMOR: "EOB Body Armour"
       STR_BRITISH_T2_BODY_ARMOR_UFOPEDIA: "Designed by the Munitions Invention Board, it includes a cloth vest with room for Tunguskium/asbestos plates inside. Occasionally, shoulder pads are provided as well."
+      STR_BRITISH_T2_BODY_ARMOR_GASMASK: "EOB Body Armour w/ Gasmask"
+      STR_BRITISH_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A SRB gasmask worn in conjunction of the EOB armored system."
       STR_GERMAN_T2_BODY_ARMOR: "Sappenpanzer Trench Armor"
-      STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA: "One of the first practical infantry armor designs, its made with a mixture of Tunguskium, asbestos and manganese steel. The major downside is the lack of back protection, as only the frontal torso is armored."
+      STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA: "One of the first practical infantry armor designs, it is made with a mixture of Tunguskium, asbestos and manganese steel. The major downside is the lack of back protection, as only the frontal torso is armored."
       STR_FRENCH_T2_BODY_ARMOR: "Lancier Light Body Armor"
-      STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA: "A cloth vest with slots for intercalated Tunguskium and asbestos plates uniformly distributed in the front and back. The overall design grants the user a higher level of mobility, at the expense of lower protection. "
+      STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA: "A cloth vest with slots for intercalated Martian Metal and asbestos plates uniformly distributed in the front and back. The overall design grants the user a higher level of mobility, at the expense of lower protection. "
       STR_ITALIAN_T2_BODY_ARMOR: "Farina Arditi Armor"
       STR_ITALIAN_T2_BODY_ARMOR_UFOPEDIA: "A heavy armored chest plate, with reinforced pauldrons. Usually worn by the Arditi shock troopers in raiding missions, it reduces the user's stamina but greatly increase morale."
       STR_RUSSIAN_T2_BODY_ARMOR: "Ursa Body Plate"
@@ -1989,15 +2000,15 @@ en-US:
       STR_PERSONAL_ARMOR_UFOPEDIA: "A heavier variant of the Farina armor, it includes additional protection in the arms, legs and back, including and a face plate. Even when the Tunguskium and asbestos are lighter than steel, the armor is unwieldy and will slow down the user."
       
       STR_T3_LIGHT_BODY_ARMOR: "Tier 3 Light Body Armor"
-      STR_T3_LIGHT_BODY_ARMOR_UFOPEDIA: "The increasingly harsher environment changes (thanks to the vicious Martian terraforming) put another change to our fellow troopers fighting in the front. Poisonous gases and aggressive xenoflora represent a less dangerous yet more prevalent threat than the bullets and energy beams of the enemy. Fully enclosed armors, with more damage protection, improved gasmasks and better chemical filters are being designed to help our brave men and women push back the enemy, right to the devilish hole they came from... in clean forests, deep valleys and infested zones alike."
+      STR_T3_LIGHT_BODY_ARMOR_UFOPEDIA: "The increasingly harsher environment changes (thanks to the vicious Martian terraforming) had put another challenge to our fellow troopers fighting in the front. Poisonous gases and aggressive xenoflora represent a less dangerous yet more prevalent threat than the bullets and energy beams of the enemy. Fully enclosed armors, with more damage protection, improved gasmasks and better chemical filters are being designed to help our brave men and women push back the enemy, right to the devilish hole they came from... in clean forests, deep valleys and infested zones alike."
       
       STR_T3_HEAVY_BODY_ARMOR: "Tier 3 Heavy Body Armor"
-      STR_T3_HEAVY_BODY_ARMOR_UFOPEDIA: "Since the very beginning of the War, our soldiers were fascinated and terrified at the sight of the Martians fully clothed in their mechanical battlesuits. The requests for an armor like that are countless. And finally, after so many years, we were able to not replicate but {ALT}create{ALT} a powered suit using human thinking and salvaged enemy resources. Dr. Tesla added a special energy generator to power the servomotors and hydraulic systems, plus a electrified retractable blade. The skull was initially to bolster the morale of the surrounding troops and to inflict fear among the enemy... and eventually the name stuck. "
+      STR_T3_HEAVY_BODY_ARMOR_UFOPEDIA: "Since the very beginning of the War, our soldiers were fascinated and terrified at the sight of the Martians fully clothed in their mechanical battlesuits. The requests for an armor like those were countless. And finally, after so many years, we were able to not replicate but {ALT}create{ALT} a powered suit using human thinking and salvaged enemy resources. Dr. Tesla added a special energy generator to power the servomotors and hydraulic systems, plus a electrified retractable blade. The skull was initially to bolster the morale of the surrounding troops and to inflict fear among the enemy... and eventually the name stuck. "
 
       STR_BRITISH_T3_BODY_ARMOR: "Knight Body Shield"
       STR_BRITISH_T3_BODY_ARMOR_UFOPEDIA: "A full Tunguskium combat armor, with asbestos reinforced plates. Additional armor protects the neck and the arms, with a Dayfield face shield with built in breathing system. "
       STR_AMERICAN_T3_BODY_ARMOR: "Dean Enclosed Battlearmor"
-      STR_AMERICAN_T3_BODY_ARMOR_UFOPEDIA: "An improvement over the Reinforced armor, with shoulder and arm protection and a sealed Ford Model 8 helmet with built in breathing system."
+      STR_AMERICAN_T3_BODY_ARMOR_UFOPEDIA: "An improvement over the Reinforced armor, with shoulder and arm protection and a sealed Ford Model 8 helmet with built-in breathing system."
       STR_GERMAN_T3_BODY_ARMOR: "Sturmpanzer Assault Armor"
       STR_GERMAN_T3_BODY_ARMOR_UFOPEDIA: "This armor includes a specially designed frontal armor able to dissipate the thermal energy with ease, at the cost of being heavy. As usual per German armor doctrine, all the plates are focused on the front, leaving the back unprotected."
       STR_FRENCH_T3_BODY_ARMOR: "Cuirassier-Polack Body Armor"
