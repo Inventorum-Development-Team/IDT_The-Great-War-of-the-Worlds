@@ -1286,17 +1286,28 @@ ufopaedia:
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1702
     text: STR_BRITISH_GASMASK_UC_UFOPEDIA
-    listOrder: 10800
-#  - id: STR_BRITISH_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1703
-#    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
-#  - id: STR_BRITISH_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1704
-#    text: STR_BRITISH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+    listOrder: 10710
+  - id: STR_BRITISH_T2_BODY_ARMOR
+    type_id: 8 # 5
+    section: STR_UNIFORMS_AND_ARMORS
+    #listOrder: 1701
+    text: STR_BRITISH_T2_BODY_ARMOR_UFOPEDIA
+    listOrder: 10720
+  - id: STR_BRITISH_T2_BODY_ARMOR_GASMASK
+    type_id: 8 # 5
+    section: STR_UNIFORMS_AND_ARMORS
+    #listOrder: 1702
+    text: STR_BRITISH_T2_BODY_ARMOR_GASMASK_UFOPEDIA
+    listOrder: 10730
+  - id: STR_BRITISH_T3_BODY_ARMOR
+    type_id: 8 # 5
+    section: STR_UNIFORMS_AND_ARMORS
+    #listOrder: 1702
+    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
+    listOrder: 10750
+
+################
+
   - id: STR_AMERICAN_SOLDIER_INTRODUCTION
     type_id: 7
     section: STR_UNIFORMS_AND_ARMORS
