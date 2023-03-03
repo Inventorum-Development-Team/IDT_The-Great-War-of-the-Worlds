@@ -585,7 +585,7 @@ armors:
     spriteSheet: XCOM_23.PCK
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
-      1: AMERICAN_UNIFORM
+      144: AMERICAN_FIELD_UNIFORM
     layersDefinition:
 # unidad: ["cuerpo", "uniforme", "armadura corporal", "cinturones", "accs torso", "bandoleras", "accs Rostro", "cascos", "capas"]
       M0: ["M0_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
@@ -785,10 +785,368 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
+      
+  - type: STR_AMERICAN_CAMPAIGN_UNIFORM
+    spriteSheet: XCOM_23.PCK
+    layersDefaultPrefix: HUMAN
+    layersSpecificPrefix:
+      144: AMERICAN_CAMPAIGN_UNIFORM
+    layersDefinition:
+# unidad: ["cuerpo", "uniforme", "armadura corporal", "cinturones", "accs torso", "bandoleras", "accs Rostro", "cascos", "capas"]
+      M0: ["M0_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M1: ["M1_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M2: ["M2_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M3: ["M3_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M4: ["M4_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M5: ["M5_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M6: ["M6_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M7: ["M7_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M8: ["M8_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M9: ["M9_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M10: ["M10_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M11: ["M11_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M12: ["M12_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M13: ["M13_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M14: ["M14_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M15: ["M15_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M16: ["M16_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M17: ["M17_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M18: ["M18_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M19: ["M19_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M20: ["M20_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M21: ["M21_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M22: ["M22_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M23: ["M23_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M24: ["M24_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M25: ["M25_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M26: ["M26_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M27: ["M27_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M28: ["M28_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M29: ["M29_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M30: ["M30_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M31: ["M31_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M32: ["M32_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M33: ["M33_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M34: ["M34_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M35: ["M35_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M36: ["M36_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M37: ["M37_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M38: ["M38_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M39: ["M39_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M40: ["M40_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M41: ["M41_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M42: ["M42_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M43: ["M43_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M44: ["M44_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M45: ["M45_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M46: ["M46_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M47: ["M47_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M48: ["M48_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M49: ["M49_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M50: ["M50_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M51: ["M51_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M52: ["M52_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M53: ["M53_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M54: ["M54_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M55: ["M55_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M56: ["M56_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M57: ["M57_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M58: ["M58_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M59: ["M59_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M60: ["M60_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M61: ["M61_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M62: ["M62_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M63: ["M63_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M64: ["M64_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M65: ["M65_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M66: ["M66_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M67: ["M67_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M68: ["M68_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M69: ["M69_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M70: ["M70_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M71: ["M71_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F0: ["F0_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F1: ["F1_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F2: ["F2_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F3: ["F3_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F4: ["F4_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F5: ["F5_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F6: ["F6_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F7: ["F7_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F8: ["F8_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F9: ["F9_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F10: ["F10_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F11: ["F11_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F12: ["F12_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F13: ["F13_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F14: ["F14_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F15: ["F15_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F16: ["F16_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F17: ["F17_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F18: ["F18_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F19: ["F19_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F20: ["F20_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F21: ["F21_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F22: ["F22_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F23: ["F23_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F24: ["F24_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F25: ["F25_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F26: ["F26_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F27: ["F27_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F28: ["F28_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F29: ["F29_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F30: ["F30_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F31: ["F31_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F32: ["F32_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F33: ["F33_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F34: ["F34_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F35: ["F35_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F36: ["F36_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F37: ["F37_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F38: ["F38_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F39: ["F39_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F40: ["F40_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F41: ["F41_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F42: ["F42_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F43: ["F43_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F44: ["F44_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F45: ["F45_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F46: ["F46_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F47: ["F47_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F48: ["F48_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F49: ["F49_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F50: ["F50_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F51: ["F51_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F52: ["F52_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F53: ["F53_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F54: ["F54_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F55: ["F55_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F56: ["F56_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F57: ["F57_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F58: ["F58_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F59: ["F59_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F60: ["F60_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F61: ["F61_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F62: ["F62_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F63: ["F63_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F64: ["F64_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F65: ["F65_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F66: ["F66_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F67: ["F67_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F68: ["F68_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F69: ["F69_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F70: ["F70_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F71: ["F71_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+    spriteFaceGroup: 6
+    spriteFaceColor: *SpriteFaceColorAgent 
+    spriteHairGroup: 9
+    spriteHairColor: *SpriteHairColorAgent
+    corpseBattle:
+      - STR_AMERICAN_CAMPAIGN_UNIFORM_CORPSE
+    storeItem: STR_NONE
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    stats:
+      tu: 3
+      stamina: 0
+      health: 0
+      bravery: 10
+      reactions: 0
+      firing: 0
+      throwing: 0
+      strength: 0
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 1.0 #1 Armor Piercing
+      - 1.1 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.6 #8 Acid
+      - 1.1 #9 Smoke
+      - 1.0 #10 Super AP
+#      - 1.0 #11 Tesla
+#      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 1.8 #14 Black Smoke
+#      - 1.0 #15 Green Gas
+#      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.8 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+#      - INV_NULL_2X1_LEFT_SHOULDER
+#      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_AMERICAN_SOLDIER      
+      
 #Gasmask
   - type: STR_AMERICAN_GASMASK_UC
     spriteSheet: XCOM_23GM.PCK
-    spriteInv: MAN_23GM
+    layersDefaultPrefix: HUMAN
+    layersSpecificPrefix:
+      144: AMERICAN_GASMASK
+    layersDefinition:
+# unidad: ["cuerpo", "uniforme", "armadura corporal", "cinturones", "accs torso", "bandoleras", "accs Rostro", "cascos", "capas"]
+      M0: ["M0_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M1: ["M1_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M2: ["M2_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M3: ["M3_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M4: ["M4_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M5: ["M5_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M6: ["M6_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M7: ["M7_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M8: ["M8_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M9: ["M9_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M10: ["M10_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M11: ["M11_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M12: ["M12_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M13: ["M13_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M14: ["M14_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M15: ["M15_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M16: ["M16_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M17: ["M17_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M18: ["M18_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M19: ["M19_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M20: ["M20_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M21: ["M21_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M22: ["M22_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M23: ["M23_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M24: ["M24_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M25: ["M25_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M26: ["M26_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M27: ["M27_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M28: ["M28_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M29: ["M29_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M30: ["M30_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M31: ["M31_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M32: ["M32_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M33: ["M33_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M34: ["M34_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M35: ["M35_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M36: ["M36_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M37: ["M37_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M38: ["M38_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M39: ["M39_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M40: ["M40_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M41: ["M41_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M42: ["M42_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M43: ["M43_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M44: ["M44_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M45: ["M45_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M46: ["M46_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M47: ["M47_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M48: ["M48_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M49: ["M49_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M50: ["M50_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M51: ["M51_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M52: ["M52_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M53: ["M53_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M54: ["M54_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M55: ["M55_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M56: ["M56_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M57: ["M57_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M58: ["M58_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M59: ["M59_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M60: ["M60_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M61: ["M61_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M62: ["M62_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M63: ["M63_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M64: ["M64_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M65: ["M65_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M66: ["M66_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M67: ["M67_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M68: ["M68_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M69: ["M69_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M70: ["M70_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      M71: ["M71_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F0: ["F0_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F1: ["F1_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F2: ["F2_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F3: ["F3_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F4: ["F4_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F5: ["F5_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F6: ["F6_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F7: ["F7_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F8: ["F8_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F9: ["F9_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F10: ["F10_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F11: ["F11_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F12: ["F12_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F13: ["F13_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F14: ["F14_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F15: ["F15_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F16: ["F16_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F17: ["F17_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F18: ["F18_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F19: ["F19_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F20: ["F20_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F21: ["F21_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F22: ["F22_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F23: ["F23_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F24: ["F24_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F25: ["F25_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F26: ["F26_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F27: ["F27_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F28: ["F28_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F29: ["F29_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F30: ["F30_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F31: ["F31_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F32: ["F32_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F33: ["F33_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F34: ["F34_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F35: ["F35_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F36: ["F36_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F37: ["F37_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F38: ["F38_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F39: ["F39_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F40: ["F40_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F41: ["F41_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F42: ["F42_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F43: ["F43_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F44: ["F44_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F45: ["F45_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F46: ["F46_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F47: ["F47_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F48: ["F48_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F49: ["F49_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F50: ["F50_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F51: ["F51_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F52: ["F52_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F53: ["F53_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F54: ["F54_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F55: ["F55_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F56: ["F56_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F57: ["F57_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F58: ["F58_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F59: ["F59_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F60: ["F60_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F61: ["F61_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F62: ["F62_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F63: ["F63_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F64: ["F64_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F65: ["F65_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F66: ["F66_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F67: ["F67_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F68: ["F68_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F69: ["F69_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F70: ["F70_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+      F71: ["F71_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_BRODIE_U", ""]
+    spriteFaceGroup: 6
+    spriteFaceColor: *SpriteFaceColorAgent
+    spriteHairGroup: 9
+    spriteHairColor: *SpriteHairColorAgent 
     corpseBattle:
       - STR_AMERICAN_GASMASK_CORPSE
     storeItem: STR_NONE
@@ -842,6 +1200,7 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
+      
 #Officer
 #  - type: STR_BRITISH_OFFICER_UNIFORM_UC
 #    spriteSheet: XCOM_22OU.PCK
