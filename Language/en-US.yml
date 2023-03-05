@@ -1061,27 +1061,27 @@ en-US:
       STR_AMERICAN_SOLDIER: American Soldier
       STR_AMERICAN_SOLDIER_INTRODUCTION: The Doughboys
       STR_AMERICAN_SOLDIER_UFOPEDIA: The American soldiers called "doughtboys" are intelligent, experts in guerrilla tactics. Since their country is divided in half by the Martians, they fight fiercely every battle. Each fallen enemy brings them a little closer to reuniting the country. Together with them they fight what remains of the Mexican Army, which also fights to liberate North America, as well as the guerrilla of Pancho Villa.
-      
+
 
       STR_BRITISH_SOLDIER: British Soldier
       STR_BRITISH_SOLDIER_INTRODUCTION: The Tommies
       STR_BRITISH_SOLDIER_UFOPEDIA: The Commonwealth soldiers, nicknamed "Tommies" by the rest of the Coalition soldiers, are strong and brave. Most of the soldiers are quite professional, hardened by the years of colonial wars and the First Martian Invasion.  More than half of the men in the Commonwealth troops are volunteers from their countries, very few are recruited. Unlike the continental leva armies, the Tommies are grouped into highly mobile Expeditionary Forces, with no more than 150,000 soldiers.
-      
+
 
       STR_FRENCH_SOLDIER: French Soldier
       STR_FRENCH_SOLDIER_INTRODUCTION: Le Poilu
       STR_FRENCH_SOLDIER_UFOPEDIA: There is no soldier tougher, coarser and fiercer than a French soldier. Nicknamed 'Poilu', which means 'hairy' because of their abundant moustache or beard, they are experienced in hand to hand combat, using melee weapons when they run out of ammunition. Sometimes they are somewhat insubordinate and do not follow incompetent officers Their honour is very high, they literally fight to the last man for the glory of their homeland.
-      
+
 
       STR_GERMAN_SOLDIER: German Soldier
       STR_GERMAN_SOLDIER_INTRODUCTION: The Jerry
       STR_GERMAN_SOLDIER_UFOPEDIA: The brave and heroic soldiers of the Kaiser serve gallantly on the battlefield. One of Europe's largest armies is affectionately called 'Jerry,' derived from 'German'. They are one of the best snipers in the world, since Napoleonic times they have stood out for their precision and lethality. They have put aside their rivalry with the French to work alongside them.
-      
+
 
       STR_ITALIAN_SOLDIER: Italian Soldier
       STR_ITALIAN_SOLDIER_INTRODUCTION: The Daring Ones
       STR_ITALIAN_SOLDIER_UFOPEDIA: Italy, until the beginning of the Great War, has been characterized as a predominantly agricultural and peaceful country. With the arrival of the Martians and the subsequent invasion of Europe, the Italian army has been mobilized. Despite being less equipped and smaller than other armies, it is more than compensated for by the incessant tenacity and courage of Italian soldiers, outstanding for their ingenuity in creating personal armor.
-      
+
 
       STR_SOLDIER_CLASSES_INTRODUCTION: "Soldier Classes"
       STR_SOLDIER_CLASSES_INTRODUCTION_UFOPEDIA: "The advent of the large scale conflicts meant a focus in the specialization of the training given to the military units. And in this industrialized war, this was further pushed by the members of the Coalition. The result is a series of 'Soldier Classes', each one with a particular set of skills. These soldiers are often assigned to special support regiments, complementing the larger armies fighting the invaders. Also, in separate combat teams like our Force. The IEF is given professional soldiers from each one of the Coalition military special forces, both to bolster our offensive capabilities and a show of unity among nations."
@@ -1111,7 +1111,7 @@ en-US:
       STR_PILOT: Pilot
       STR_PILOT_INTRODUCTION: The Knights of the Sky
       STR_PILOT_UFOPEDIA: The flight of the Wright brothers in 1905 and the Second Martian Invasion resulted in the full adoption of combat from the air and hundreds of volunteers enlisted in the newly formed military air forces. The knights of the air ride on their powerful air mounts of wood and cloth, defending the human skies.
-      
+
 
 ########################
 
@@ -1438,10 +1438,10 @@ en-US:
       STR_UNIVERSAL_TRANSLATION_DEVICE_UFOPEDIA: "The deceased crew members of the unidentified ship managed to communicate with the human soldiers in their native language until before their death. Our scientists and engineers believe it is possible to repair this device using similar parts found on Fighting-Machines, which will allow us to communicate with the enemy and any other aliens we encounter. If this works, it will perhaps be the most important breakthrough of the entire war."
       STR_ALIEN_CONTAINMENT: "Contention Chamber"
       STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special chamber prepared to interrogate Martian prisoners of war. At the center of the room is a universal translation device that allows converting human languages into the various guttural sounds emitted by extraterrestrials and vice versa."
-      
+
       STR_MARTIAN_CONSCRIPT_INTERROGATION: "Martian Conscript Interrogation Report"
       STR_MARTIAN_CONSCRIPT_INTERROGATION_UFOPEDIA: "The interogations of Martian conscripts have proven two things first and foremost. First, they hold nothing useful and should either be sold off or executed. Second is that they are pulled from whatever jobs they work on Mars and thrown into combat with minimal training. The Martian I had the displeasure of interrogating was experiencing Shell Shock, constantly looking somewhere far away and fearful of loud, sudden noises. It even seems to be experiencing auditory hallucinations, begging us to stop 'Shooting the Big boom guns' at it. This demonstrates the effectiveness of bombardment at wreaking havoc on soldiers, and I suggest we introduce methods to prevent this from happening to our troops in the future."
-      
+
       STR_MARTIAN_LINE_INFANTRY_INTERROGATION: "Martian Line Infantry Interrogation Report"
       STR_MARTIAN_LINE_INFANTRY_INTERROGATION_UFOPEDIA: "The martian Line Infantry are of the warrior race, larger and more acclimated to warfare. Unlike the Conscripts most commonly seen on the battlefield, these soldiers were bred and raised for combat. Yet they lack the skills to perform most other tasks, if our interpretations are correct. This specimen is unable to learn any Human language, and we had to opt to drawings and our limited understanding of their language. It lacks the fine motor skills to do detailed drawings, but can master the loading of a foreign machine gun within hours. These soldiers likely were created specifically for this conflict, and as such show no chance of resisting the war."
       STR_MARTIAN_MARINE_INTERROGATION: "Martian Marine Interrogation Report"
@@ -1625,7 +1625,7 @@ en-US:
 
       STR_BRISTOL_F2B: "BRISTOL F.2B FIGHTER"
       STR_BRISTOL_F2B_UFOPEDIA: "Attack Plane - The Fighter is a biplane, two-seater recon and close-support plane. Fast enough and sturdy to be paired with Hunter craft units, it is well received by Allied air squadrons."
-      
+
       STR_DISC_UFO: "D.I.S.C"
       STR_DISC_UFO_UFOPEDIA: "Superb recon craft, made with reverse engineered Flying-Machines. Can stay in the air for extensive periods of time."
 
@@ -1952,15 +1952,19 @@ en-US:
       STR_AMERICAN_CAMPAIGN_UNIFORM: "American Campaign Dress"
       STR_AMERICAN_CAMPAIGN_UNIFORM_UFOPEDIA: "Standard uniform of the US armed forces. This variant is worn with a campaign hat, for the troopers fighting in Continental America."
       STR_AMERICAN_GASMASK_UC: "American Trench Coat w/ SBR "
-      STR_AMERICAN_GASMASK_UC_UFOPEDIA: "In order to withstand the rigors of the Red Zones, the Doughboys get a M1913 Helmet, license-biuld version of the Brodie Mk.I helmet, alongside a SBR gas mask"
-      
+      STR_AMERICAN_GASMASK_UC_UFOPEDIA: "In order to withstand the rigors of the Red Zones, the Doughboys get a M1913 Helmet, license-build version of the Brodie Mk.I helmet, alongside a SBR gas mask"
+      STR_MEXICAN_FIELD_UNIFORM: "Mexican Military Service Dress"
+      STR_MEXICAN_FIELD_UNIFORM_UFOPEDIA: "Combat attire for the military units under the direct command of the Federal Army. Light and comfortable under hot conditions, it is an effort to create a standard uniform to replace the irregular clothing of the Revolutionary forces."
+
       STR_BRITISH_FIELD_UNIFORM_UC: "Commonwealth Service Dress"
       STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA: "Improved version of the campaign uniform introduced in 1902, the standard 1910 Pattern Service Dress of the British and Commonwealth troops includes a jacket and pants with different pockets and a cloth field cap."
+      STR_BRITISH_ANZAC_UNIFORM_UC: "ANZAC Service Dress"
+      STR_BRITISH_ANZAC_UNIFORM_UC_UFOPEDIA: "1910 Pattern Service Dress worn with the Slouch hat, an iconic headwear part of the Australian military forces since 1885. Eventually, New Zealand adopted the design as well, and the hat became part of the ANZAC identity."
       STR_BRITISH_GASMASK_UC: "Commonwealth Trench Coat w/ SBR"
       STR_BRITISH_GASMASK_UC_UFOPEDIA: "Small Box Respirator, Gas mask of British design. Is a great improvement to the antiquated model PH Helmet used at the beginning of the war. It adapts better to the Brodie Mk.I helmet and does not depend on an external chemical impregnation to function."
 
       STR_GERMAN_FIELD_UNIFORM_UC: "German Field Army Uniform"
-      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: "Part of the equipment of the soldiers of the Deutsches Heer. Entering service in 1910, the Feldgrau uniform gradually replaced the colorful colorful uniforms of the Germanic states. A cloth cap is also issued." 
+      STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA: "Part of the equipment of the soldiers of the Deutsches Heer. Entering service in 1910, the Feldgrau uniform gradually replaced the colorful colorful uniforms of the Germanic states. A cloth cap is also issued."
       STR_GERMAN_GASMASK_UC: "German Field Army Coat w/ LdScM 1914"
       STR_GERMAN_GASMASK_UC_UFOPEDIA: "The Lederschutzmaske 1914 gas mask (leather protection mask) is probably one of the best designs to date. It went into action shortly before the last Martian offensive on the Marne and has been employed alongside the Stalhelm helmet. A separate screw-fit filter can be changed once the previous is completely used."
       STR_GERMAN_PICKELHAUBE_UNIFORM: "German Army Traditional Uniform "
@@ -1972,15 +1976,16 @@ en-US:
       STR_FRENCH_GASMASK_UC_UFOPEDIA: "Adrian Helmet and ARS 13 gas mask introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure."
       STR_FRENCH_COLONIAL_UNIFORM: "French Colonial Uniform"
       STR_FRENCH_COLONIAL_UNIFORM_UFOOEDIA: "A variant of the national Army uniform, worn by Colonial troops of the French colonies in Africa and Indonesia."
-      
+
       STR_ITALIAN_FIELD_UNIFORM_UC: "Italian Royal Army Uniform"
       STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: "The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments."
       STR_ITALIAN_ALPINI_UNIFORM_UC: "Italian Alpini Uniform"
       STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA: "This 'Grigio Verde' campaign uniform is accompanied by the Alpine Cappello, worn with pride by the Alpini, the Italian mountain troops. Their black raven feather gives them their nickname, 'Penne nere'.  The Alpini troops are experts in combat in inhospitable climates where other soldiers could not even move."
       STR_ITALIAN_GASMASK_UC: "Italian Royal Army Coat w/ Polivalente"
       STR_ITALIAN_GASMASK_UC_UFOPEDIA: "A long and warm wool coat, used along side a French-made Adrian helmet and a Polivalente mask. Rather crude but effective."
-      STR_RUSSIAN_FIELD_UNIFORM: "Russian Imperial Army Uniform"
-      STR_RUSSIAN_FIELD_UNIFORM_UFOPEDIA: "With the defeat in the Crimean War, a series of reforms took place. Among them, a standardized uniform in khaki and permanent barracks for the military."
+
+      STR_RUSSIAN_FIELD_UNIFORM_UC: "Russian Imperial Army Uniform"
+      STR_RUSSIAN_FIELD_UNIFORM_UC_UFOPEDIA: "With the defeat in the Crimean War, a series of reforms took place. Among them, a standardized uniform in khaki and permanent barracks for the military."
       STR_RUSSIAN_COAT: "Russian Imperial Army Coat"
       STR_RUSSIAN_COAT_UFOPEDIA: "A thick and warm coat, worn by Russian troops deployed in cold sectors. A traditional papakha hat protects the head from the freezing weather."
       STR_RUSSIAN_GASMASK_UC: "Russian Imperial Army Uniform w/ Z-K Mask"
@@ -1993,9 +1998,11 @@ en-US:
       STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA: "The asbestos are an inorganic compound with the excellent property of being fireproof. Field testing has resulted in an important resistance to Thermal-based energy weapons. Combined with small amounts of Tunguskium in a personal armor (as we haven't found a feasible way to produce more alloys and we depend on the captured Martian Metal), the theorical surviving rate of the users is greatly increased. The downside is the encumbrance caused by the not-so-light armor plates, which may cause fatigue and difficulty of movement. Blueprints are ready for distribution."
       STR_T2_HEAVY_BODY_ARMOR: "Tier 2 Heavy Body Armor"
       STR_T2_HEAVY_BODY_ARMOR_UFOPEDIA: "The need of additional protection for defensive troops and combat engineers have resulted in the heavily armored {ALT}L'inmortale{ALT} armor. Designed by Italian engineers to help the Arditi on assault operations, it has adapted for the rest of the Coalition gunsmiths and armories. Large amounts of asbestos and Tunguskium are used to give the user an unrivaled resistance to enemy energy beams... at the cost of any kind of comfort."
+
       STR_AMERICAN_T2_BODY_ARMOR: "Dean Reinforced Battlearmor"
       STR_AMERICAN_T2_BODY_ARMOR_UFOPEDIA: "Designed by Dr. Bashford Dean using the German designs as inspiration, the armored Tunguskium plate has a thick layer of asbestos in front and back, plus a Dean No.5 Helmet (it is said its better than the Brodie)"
-      
+      STR_AMERICAN_T2_BODY_ARMOR_GASMASK: "Dean R. Battlearmor w/ SRB"
+      STR_AMERICAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "The British-made SRB gas mask is used in conjunction with the Dean No.5 helmet and body armor to allow the Doughboys to operate in the barrenlands of the Red Zones without compromising their physical integrity."
       STR_BRITISH_T2_BODY_ARMOR: "EOB Body Armour"
       STR_BRITISH_T2_BODY_ARMOR_UFOPEDIA: "Designed by the Munitions Invention Board, it includes a cloth vest with room for Tunguskium/asbestos plates inside. Occasionally, shoulder pads are provided as well."
       STR_BRITISH_T2_BODY_ARMOR_GASMASK: "EOB Body Armour w/ Gas mask"
@@ -2003,7 +2010,7 @@ en-US:
       STR_GERMAN_T2_BODY_ARMOR: "Sappenpanzer Trench Armor"
       STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA: "One of the first practical infantry armor designs, it is made with a mixture of Tunguskium, asbestos and manganese steel. The major downside is the lack of back protection, as only the frontal torso is armored."
       STR_GERMAN_T2_BODY_ARMOR_GASMASK: "Sappenpanzer w/ LdScM 1914"
-      STR_GERMAN_T2_BODY_ARMOR_GASMASK_UFOOEPDIA: "A standard Lederschutzmaske worn alongside the highly durable torso armor plate, plus a Stalhelm steel pot."
+      STR_GERMAN_T2_BODY_ARMOR_GASMASK_UFOPEPDIA: "A standard Lederschutzmaske worn alongside the highly durable torso armor plate, plus a Stalhelm steel pot."
       STR_FRENCH_T2_BODY_ARMOR: "Lancier Light Body Armor"
       STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA: "A cloth vest with slots for intercalated Martian Metal and asbestos plates uniformly distributed in the front and back. The overall design grants the user a higher level of mobility, at the expense of lower protection. "
       STR_FRENCH_T2_BODY_ARMOR_GASMASK: "Lancier Light Armor w/ ARS 13"
@@ -2014,13 +2021,13 @@ en-US:
       STR_ITALIAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A Polivalente Z mask hardly fits the narrow face plate of the Farina helmet, but it's better than nothing. Sight is reduced."
       STR_RUSSIAN_T2_BODY_ARMOR: "Ursa Body Plate"
       STR_RUSSIAN_T2_BODY_ARMOR_UFOPEDIA: "Licensed version of the Lancier French armor, made in Tula Arms Plant. More asbestos and steel are added, increasing both protection and weight. After certain reticence of the Stavka, a massive deployment of steel helmets was put in action."
-      
+
       STR_PERSONAL_ARMOR: "L'inmortale Heavy Armor"
       STR_PERSONAL_ARMOR_UFOPEDIA: "A heavier variant of the Farina armor, it includes additional protection in the arms, legs and back, including and a face plate. Even when the Tunguskium and asbestos are lighter than steel, the armor is unwieldy and will slow down the user."
-      
+
       STR_T3_LIGHT_BODY_ARMOR: "Tier 3 Light Body Armor"
       STR_T3_LIGHT_BODY_ARMOR_UFOPEDIA: "The increasingly harsher environment changes (thanks to the vicious Martian terraforming) had put another challenge to our fellow troopers fighting in the front. Poisonous gases and aggressive xenoflora represent a less dangerous yet more prevalent threat than the bullets and energy beams of the enemy. Fully enclosed armors, with more damage protection, improved gas masks and better chemical filters are being designed to help our brave men and women push back the enemy, right to the devilish hole they came from... in clean forests, deep valleys and infested zones alike."
-      
+
       STR_T3_HEAVY_BODY_ARMOR: "Tier 3 Heavy Body Armor"
       STR_T3_HEAVY_BODY_ARMOR_UFOPEDIA: "Since the very beginning of the War, our soldiers were fascinated and terrified at the sight of the Martians fully clothed in their mechanical battlesuits. The requests for an armor like those were countless. And finally, after so many years, we were able to not replicate but {ALT}create{ALT} a powered suit using human thinking and salvaged enemy resources. Dr. Tesla added a special energy generator to power the servomotors and hydraulic systems, plus a electrified retractable blade. The skull was initially to bolster the morale of the surrounding troops and to inflict fear among the enemy... and eventually the name stuck. "
 
