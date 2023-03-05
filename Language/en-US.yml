@@ -2011,9 +2011,10 @@ en-US:
       STR_ITALIAN_T2_BODY_ARMOR: "Farina Arditi Armor"
       STR_ITALIAN_T2_BODY_ARMOR_UFOPEDIA: "A heavy armored chest plate, with reinforced pauldrons. Usually worn by the Arditi shock troopers in raiding missions, it reduces the user's stamina but greatly increase morale."
       STR_ITALIAN_T2_BODY_ARMOR_GASMASK: "Farina Armor w/ Polivalente Z"
-
+      STR_ITALIAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A Polivalente Z mask hardly fits the narrow face plate of the Farina helmet, but it's better than nothing. Sight is reduced."
       STR_RUSSIAN_T2_BODY_ARMOR: "Ursa Body Plate"
       STR_RUSSIAN_T2_BODY_ARMOR_UFOPEDIA: "Licensed version of the Lancier French armor, made in Tula Arms Plant. More asbestos and steel are added, increasing both protection and weight. After certain reticence of the Stavka, a massive deployment of steel helmets was put in action."
+      
       STR_PERSONAL_ARMOR: "L'inmortale Heavy Armor"
       STR_PERSONAL_ARMOR_UFOPEDIA: "A heavier variant of the Farina armor, it includes additional protection in the arms, legs and back, including and a face plate. Even when the Tunguskium and asbestos are lighter than steel, the armor is unwieldy and will slow down the user."
       
