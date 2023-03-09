@@ -1082,6 +1082,9 @@ en-US:
       STR_ITALIAN_SOLDIER_INTRODUCTION: The Daring Ones
       STR_ITALIAN_SOLDIER_UFOPEDIA: Italy, until the beginning of the Great War, has been characterized as a predominantly agricultural and peaceful country. With the arrival of the Martians and the subsequent invasion of Europe, the Italian army has been mobilized. Despite being less equipped and smaller than other armies, it is more than compensated for by the incessant tenacity and courage of Italian soldiers, outstanding for their ingenuity in creating personal armor.
 
+      STR_RUSSIAN_SOLDIER: "Russian Soldier"
+      STR_RUSSIAN_SOLDIER_INTRODUCTION: "The Tsar's Warriors"
+      STR_RUSSIAN_SOLDIER_INTRODUCTION_UFOPEDIA: "..."
 
       STR_SOLDIER_CLASSES_INTRODUCTION: "Soldier Classes"
       STR_SOLDIER_CLASSES_INTRODUCTION_UFOPEDIA: "The advent of the large scale conflicts meant a focus in the specialization of the training given to the military units. And in this industrialized war, this was further pushed by the members of the Coalition. The result is a series of 'Soldier Classes', each one with a particular set of skills. These soldiers are often assigned to special support regiments, complementing the larger armies fighting the invaders. Also, in separate combat teams like our Force. The IEF is given professional soldiers from each one of the Coalition military special forces, both to bolster our offensive capabilities and a show of unity among nations."
@@ -1972,10 +1975,12 @@ en-US:
 
       STR_FRENCH_FIELD_UNIFORM_UC: "French Army Uniform"
       STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: "The French uniform has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride. Worn with a field cap."
+      STR_FRENCH_COAT: "French Army Coat"
+      STR_FRENCH_COAT_UFOPEDIA: "Horizon blue coats and uniforms gradually replaced old red and dark blue uniforms used at before the war. The blue color was initially meant to be khaki yet it works enough in the foggy frontlines."
       STR_FRENCH_GASMASK_UC: "French Army Coat w/ ARS 13"
       STR_FRENCH_GASMASK_UC_UFOPEDIA: "Adrian Helmet and ARS 13 gas mask introduced by the French high command at the beginning of the Siege of Verdun in the spring of 1914. Strong and resistant, it keeps the French soldier's body warm and head secure."
       STR_FRENCH_COLONIAL_UNIFORM: "French Colonial Uniform"
-      STR_FRENCH_COLONIAL_UNIFORM_UFOOEDIA: "A variant of the national Army uniform, worn by Colonial troops of the French colonies in Africa and Indonesia."
+      STR_FRENCH_COLONIAL_UNIFORM_UFOPEDIA: "A variant of the national Army uniform, worn by Colonial troops of the French colonies in Africa and South East Asia."
 
       STR_ITALIAN_FIELD_UNIFORM_UC: "Italian Royal Army Uniform"
       STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA: "The Uniform 'Grigio Verde' worn by Italian troops has been used since 1905 in the Regio Esercito. Introduced by Luigi Brioschi, president of the Italian Alpine Club, it is characterized by its greenish-gray color, which allows it to blend better with forest environments."
