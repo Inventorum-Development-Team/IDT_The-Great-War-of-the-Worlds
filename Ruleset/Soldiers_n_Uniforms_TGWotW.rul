@@ -290,65 +290,6 @@ soldiers:
     deathFemale: [44, 45, 46]
 
 ##################
-# RUSSIAN
-##################
-  - type: STR_RUSSIAN_SOLDIER
-    requires:
-      - STR_RUSSIAN_EQUIPMENT_SELECTION
-    flagOffset: 22
-    # armorForAvatar:
-    avatarOffsetX: 68
-    avatarOffsetY: 50
-    costBuy: 30000
-    costSalary: 20000
-    minStats:
-      tu: 50
-      stamina: 40
-      health: 25
-      bravery: 45
-      reactions: 30
-      firing: 40
-      throwing: 50
-      strength: 20
-      psiStrength: 0
-      psiSkill: 0
-      melee: 40
-    maxStats:
-      tu: 60
-      stamina: 70
-      health: 50
-      bravery: 80
-      reactions: 60
-      firing: 70
-      throwing: 80
-      strength: 40
-      psiStrength: 100
-      psiSkill: 16
-      melee: 60
-    statCaps:
-      tu: 80
-      stamina: 100
-      health: 60
-      bravery: 200
-      reactions: 100
-      firing: 120
-      throwing: 120
-      strength: 70
-      psiStrength: 100
-      psiSkill: 100
-      melee: 150
-    armor: STR_ITALIAN_FIELD_UNIFORM_UC
-    standHeight: 22
-    kneelHeight: 14
-    allowPiloting: false
-    femaleFrequency: 10
-    soldierNames:
-      - delete
-      - ItalianNames/
-    deathMale: [41, 42, 43]
-    deathFemale: [44, 45, 46]
-
-##################
 # ITALIAN
 ##################
   - type: STR_ITALIAN_SOLDIER
@@ -407,50 +348,102 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
 
+##################
+# RUSSIAN
+##################
+  - type: STR_RUSSIAN_SOLDIER
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
+    flagOffset: 23
+    # armorForAvatar:
+    avatarOffsetX: 68
+    avatarOffsetY: 50
+    costBuy: 30000
+    costSalary: 20000
+    minStats:
+      tu: 50
+      stamina: 40
+      health: 25
+      bravery: 45
+      reactions: 30
+      firing: 40
+      throwing: 50
+      strength: 20
+      psiStrength: 0
+      psiSkill: 0
+      melee: 40
+    maxStats:
+      tu: 60
+      stamina: 70
+      health: 50
+      bravery: 80
+      reactions: 60
+      firing: 70
+      throwing: 80
+      strength: 40
+      psiStrength: 100
+      psiSkill: 16
+      melee: 60
+    statCaps:
+      tu: 80
+      stamina: 100
+      health: 60
+      bravery: 200
+      reactions: 100
+      firing: 120
+      throwing: 120
+      strength: 70
+      psiStrength: 100
+      psiSkill: 100
+      melee: 150
+    armor: STR_RUSSIAN_FIELD_UNIFORM_UC
+    standHeight: 22
+    kneelHeight: 14
+    allowPiloting: false
+    femaleFrequency: 10
+    soldierNames:
+      - delete
+      - ItalianNames/
+    deathMale: [41, 42, 43]
+    deathFemale: [44, 45, 46]
+
 items:
+
+######################
+# SPECIAL ARMORS
 #####################
-# AMERICANS
-#####################
-  - type: STR_AMERICAN_FIELD_UNIFORM_CORPSE
+
+  - type: STR_PERSONAL_ARMOR_CORPSE
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 104
-    floorSprite: 104
+    bigSprite: 5000
+    floorSprite: 5000
     invWidth: 2
     invHeight: 3
     armor: 30
-    recover: false
-  - type: STR_AMERICAN_GASMASK_CORPSE
+    recover: true
+  - type: STR_POWER_SUIT_CORPSE
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 105
-    floorSprite: 105
+    bigSprite: 5001
+    floorSprite: 5001
     invWidth: 2
     invHeight: 3
     armor: 30
-    recover: false
-#  - type: STR_BRITISH_OFFICER_UNIFORM_CORPSE
-#    name: STR_CORPSE
-    #battleType: 11
-#    weight: 24
-#    bigSprite: 106
-#    floorSprite: 106
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
-#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_CORPSE
-#    name: STR_CORPSE
-    #battleType: 11
-#    weight: 24
-#    bigSprite: 107
-#    floorSprite: 107
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
+    recover: true
+  #- type: STR_FLAMETROOPER_CORPSE
+  #  name: STR_CORPSE
+  #  battleType: 11
+  #  weight: 24
+  #  bigSprite: 5002
+  #  floorSprite: 5002
+  #  invWidth: 2
+  #  invHeight: 3
+  #  armor: 30
+  #  recover: true
+
 #############################
 # BRITISH
 #############################
@@ -458,42 +451,157 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 100
-    floorSprite: 100
+    bigSprite: 5010
+    floorSprite: 5010
     invWidth: 2
     invHeight: 3
     armor: 30
     recover: false
+  - type: STR_BRITISH_ANZAC_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5011
+    floorSprite: 5011
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_BRITISH_INDIAN_UNIFORM_CORPSE
+#    name: STR_CORPSE
+#    battleType: 11
+#    weight: 24
+#    bigSprite: 5012
+#    floorSprite: 100
+#    invWidth: 2
+#    invHeight: 3
+#    armor: 30
+#    recover: false
   - type: STR_BRITISH_GASMASK_CORPSE
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 101
-    floorSprite: 101
+    bigSprite: 5013
+    floorSprite: 5013
     invWidth: 2
     invHeight: 3
     armor: 30
     recover: false
-#  - type: STR_BRITISH_OFFICER_UNIFORM_CORPSE
+  - type: STR_BRITISH_T2_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5014
+    floorSprite: 5014
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_BRITISH_T2_BODY_ARMOR_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5015
+    floorSprite: 5015
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_BRITISH_T3_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5016
+    floorSprite: 5016
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
+#####################
+# AMERICANS
+#####################
+  - type: STR_AMERICAN_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5020
+    floorSprite: 5020
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_AMERICAN_CAMPAIGN_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5021
+    floorSprite: 5021
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_MEXICAN_FIELD_UNIFORM
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5022
+    floorSprite: 5022
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+#  - type: STR_ABC_BLOC_FIELD_UNIFORM
 #    name: STR_CORPSE
 #    battleType: 11
 #    weight: 24
-#    bigSprite: 102
-#    floorSprite: 102
+#    bigSprite: 5023
+#    floorSprite: 5023
 #    invWidth: 2
 #    invHeight: 3
 #    armor: 30
 #    recover: false
-#  - type: STR_BRITISH_TRENCHCOAT_UNIFORM_CORPSE
-#    name: STR_CORPSE
-#    battleType: 11
-#    weight: 24
-#    bigSprite: 103
-#    floorSprite: 103
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
+  - type: STR_AMERICAN_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5024
+    floorSprite: 5024
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_AMERICAN_T2_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5025
+    floorSprite: 5025
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5026
+    floorSprite: 5026
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_AMERICAN_T3_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5027
+    floorSprite: 5027
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+
 #########################
 # GERMANS
 #########################
@@ -501,8 +609,18 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 108
-    floorSprite: 108
+    bigSprite: 5030
+    floorSprite: 5030
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_GERMAN_PICKELHAUBE_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5031
+    floorSprite: 5031
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -511,32 +629,42 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 109
-    floorSprite: 109
+    bigSprite: 5032
+    floorSprite: 5032
     invWidth: 2
     invHeight: 3
     armor: 30
     recover: false
-#  - type: STR_GERMAN_OFFICER_UNIFORM_CORPSE
-#    name: STR_CORPSE
-#    battleType: 11
-#    weight: 24
-#    bigSprite: 110
-#    floorSprite: 110
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
-  - type: STR_GERMAN_TRENCH_COAT_UNIFORM_CORPSE
+  - type: STR_GERMAN_T2_BODY_ARMOR_CORPSE
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 111
-    floorSprite: 111
+    bigSprite: 5033
+    floorSprite: 5033
     invWidth: 2
     invHeight: 3
     armor: 30
-    recover: false
+    recover: true
+  - type: STR_GERMAN_T2_BODY_ARMOR_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5034
+    floorSprite: 5034
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_GERMAN_T3_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5035
+    floorSprite: 5035
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
 ###################
 # PILOT
 ###################
@@ -544,8 +672,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 112
-    floorSprite: 112
+    bigSprite: 5040
+    floorSprite: 5040
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -557,8 +685,28 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 113
-    floorSprite: 113
+    bigSprite: 5050
+    floorSprite: 5050
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_FRENCH_COLONIAL_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5051
+    floorSprite: 5051
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_FRENCH_COAT_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5052
+    floorSprite: 5052
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -567,32 +715,42 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 114
-    floorSprite: 114
+    bigSprite: 5053
+    floorSprite: 5053
     invWidth: 2
     invHeight: 3
     armor: 30
     recover: false
-#  - type: STR_FRENCH_OFFICER_UNIFORM_CORPSE
-#    name: STR_CORPSE
-#    battleType: 11
-#    weight: 24
-#    bigSprite: 115
-#    floorSprite: 115
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
-#  - type: STR_FRENCH_TRENCHCOAT_UNIFORM_CORPSE
-#    name: STR_CORPSE
-#    battleType: 11
-#    weight: 24
-#    bigSprite: 116
-#    floorSprite: 116
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
+  - type: STR_FRENCH_T2_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5054
+    floorSprite: 5054
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_FRENCH_T2_BODY_ARMOR_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5055
+    floorSprite: 5055
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_FRENCH_T3_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5056
+    floorSprite: 5056
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
 ####################
 # ITALIAN
 #####################
@@ -600,8 +758,8 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 120
-    floorSprite: 120
+    bigSprite: 5060
+    floorSprite: 5060
     invWidth: 2
     invHeight: 3
     armor: 30
@@ -610,34 +768,544 @@ items:
     name: STR_CORPSE
     battleType: 11
     weight: 24
-    bigSprite: 121
-    floorSprite: 121
+    bigSprite: 5061
+    floorSprite: 5061
     invWidth: 2
     invHeight: 3
     armor: 30
     recover: false
-#  - type: STR_ITALIAN_OFFICER_UNIFORM_CORPSE
-#    name: STR_CORPSE
-#    battleType: 11
-#    weight: 24
-#    bigSprite: 115
-#    floorSprite: 115
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
-#  - type: STR_ITALIAN_TRENCHCOAT_UNIFORM_CORPSE
-#    name: STR_CORPSE
-#    battleType: 11
-#    weight: 24
-#    bigSprite: 116
-#    floorSprite: 116
-#    invWidth: 2
-#    invHeight: 3
-#    armor: 30
-#    recover: false
+  - type: STR_ITALIAN_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5062
+    floorSprite: 5062
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_ITALIAN_T2_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5063
+    floorSprite: 5063
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5064
+    floorSprite: 5064
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_ITALIAN_T3_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5065
+    floorSprite: 5065
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+#####################
+# RUSSIAN
+#####################
+  - type: STR_RUSSIAN_FIELD_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5070
+    floorSprite: 5070
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_RUSSIAN_COAT_UNIFORM_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5071
+    floorSprite: 5071
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_RUSSIAN_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5072
+    floorSprite: 5072
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_RUSSIAN_T2_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5073
+    floorSprite: 5073
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: false
+  - type: STR_RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5074
+    floorSprite: 5074
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
+  - type: STR_RUSSIAN_T3_BODY_ARMOR_CORPSE
+    name: STR_CORPSE
+    battleType: 11
+    weight: 24
+    bigSprite: 5075
+    floorSprite: 5075
+    invWidth: 2
+    invHeight: 3
+    armor: 30
+    recover: true
 
 armors:
+
+##################################
+####### SPECIAL ARMORS ##########
+#################################
+
+  - type: STR_PERSONAL_ARMOR
+    spriteSheet: XCOM_23.PCK
+    layersDefaultPrefix: HUMAN
+    layersSpecificPrefix:
+      144: PERSONAL_ARMOR
+    layersDefinition:
+# unidad: ["cuerpo", "uniforme", "armadura corporal", "cinturones", "accs torso", "bandoleras", "accs Rostro", "cascos", "capas"]
+      M0: ["M0_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M4: ["M4_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M5: ["M5_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M6: ["M6_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M7: ["M7_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M8: ["M8_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M9: ["M9_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M10: ["M10_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M11: ["M11_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M12: ["M12_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M13: ["M13_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M14: ["M14_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M15: ["M15_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M16: ["M16_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M17: ["M17_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M18: ["M18_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M19: ["M19_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M20: ["M20_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M21: ["M21_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M22: ["M22_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M23: ["M23_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M24: ["M24_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M25: ["M25_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M26: ["M26_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M27: ["M27_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M28: ["M28_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M29: ["M29_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M30: ["M30_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M31: ["M31_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M32: ["M32_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M33: ["M33_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M34: ["M34_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M35: ["M35_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M36: ["M36_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M37: ["M37_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M38: ["M38_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M39: ["M39_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M40: ["M40_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M41: ["M41_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M42: ["M42_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M43: ["M43_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M44: ["M44_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M45: ["M45_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M46: ["M46_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M47: ["M47_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M48: ["M48_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M49: ["M49_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M50: ["M50_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M51: ["M51_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M52: ["M52_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M53: ["M53_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M54: ["M54_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M55: ["M55_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M56: ["M56_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M57: ["M57_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M58: ["M58_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M59: ["M59_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M60: ["M60_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M61: ["M61_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M62: ["M62_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M63: ["M63_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M64: ["M64_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M65: ["M65_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M66: ["M66_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M67: ["M67_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M68: ["M68_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M69: ["M69_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M70: ["M70_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      M71: ["M71_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F0: ["F0_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F4: ["F4_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F5: ["F5_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F6: ["F6_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F7: ["F7_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F8: ["F8_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F9: ["F9_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F10: ["F10_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F11: ["F11_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F12: ["F12_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F13: ["F13_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F14: ["F14_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F15: ["F15_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F16: ["F16_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F17: ["F17_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F18: ["F18_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F19: ["F19_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F20: ["F20_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F21: ["F21_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F22: ["F22_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F23: ["F23_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F24: ["F24_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F25: ["F25_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F26: ["F26_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F27: ["F27_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F28: ["F28_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F29: ["F29_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F30: ["F30_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F31: ["F31_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F32: ["F32_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F33: ["F33_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F34: ["F34_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F35: ["F35_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F36: ["F36_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F37: ["F37_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F38: ["F38_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F39: ["F39_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F40: ["F40_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F41: ["F41_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F42: ["F42_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F43: ["F43_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F44: ["F44_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F45: ["F45_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F46: ["F46_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F47: ["F47_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F48: ["F48_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F49: ["F49_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F50: ["F50_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F51: ["F51_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F52: ["F52_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F53: ["F53_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F54: ["F54_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F55: ["F55_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F56: ["F56_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F57: ["F57_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F58: ["F58_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F59: ["F59_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F60: ["F60_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F61: ["F61_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F62: ["F62_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F63: ["F63_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F64: ["F64_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F65: ["F65_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F66: ["F66_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F67: ["F67_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F68: ["F68_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F69: ["F69_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F70: ["F70_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+      F71: ["F71_NUDE", "", "ITALIAN_T4_U", "", "", "", "", "", "", ""]
+    spriteFaceGroup: 6
+    spriteFaceColor: &SpriteFaceColorHuman [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 95, 163, 160, 176, 96, 98, 96, 160, 95, 163, 163, 97, 96, 97, 96, 159, 95, 161, 161, 96, 96, 16, 96, 160, 160, 161, 161, 96, 96, 96, 98, 99, 101, 160, 163, 100, 101, 99, 98, 160, 101, 161, 162, 144, 146, 99, 96, 160, 96, 161, 163, 96, 176, 96, 95, 163, 163, 161, 163, 96, 96, 96, 177, 163, 101, 163, 163, 96, 96, 96, 96, 161, 163, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairGroup: 9
+    spriteHairColor: &SpriteHairColorHuman [144, 144, 160, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225, 82, 144, 98, 246, 246, 246, 163, 246, 246, 146, 147, 20, 4, 164, 246, 246, 246, 224, 96, 159, 246, 246, 164, 246, 160, 33, 81, 163, 99, 23, 161, 213, 84, 144, 99, 197, 98, 246, 246, 246, 98, 144, 246, 96, 246, 246, 5, 246, 144, 146, 37, 144, 164, 245, 164, 245, 86, 80, 86, 85, 53, 86, 80, 88, 86, 86, 86, 198, 80, 88, 88, 88] #M0 F0 M1 F1 M2 F2 M3 F3
+    corpseBattle:
+      - STR_POWER_SUIT_ARMOR_CORPSE
+    storeItem: STR_POWER_SUIT
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    stats:
+      tu: 15
+      stamina: 20
+      health: 15
+      bravery: 40
+      reactions: -15
+      firing: 0
+      throwing: -5
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 0.3 #1 Ballistic
+      - 0.5 #2 Incendiary
+      - 0.5 #3 High Explosive
+      - 0.7 #4 Energy Beam
+      - 0.7 #5 Plasma
+      - 0.4 #6 Stun
+      - 0.5 #7 Melee
+      - 0.4 #8 Acid
+      - 0.0 #9 Smoke
+      - 0.6 #10 K-MM Ballistic
+      - 1.5 #11 Electric
+      - 0.9 #12 Coilgun Ballistic
+      - 0.8 #13 Thermal
+      - 0.0 #14 Black Smoke
+      - 0.3 #15 Shrapnel
+      - 1.0 #16 Sonic
+      - 0.6 #17 Toxic
+      - 0.5 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_AMERICAN_SOLDIER
+      - STR_BRITISH_SOLDIER
+      - STR_FRENCH_SOLDIER
+      - STR_ITALIAN_SOLDIER
+      - STR_ITALIAN_SOLDIER
+      - STR_RUSSIAN_SOLDIER
+      - STR_PILOT
+
+  - type: STR_POWER_SUIT
+    spriteSheet: XCOM_23.PCK
+    layersDefaultPrefix: HUMAN
+    layersSpecificPrefix:
+      144: POWER_SUIT
+    layersDefinition:
+# unidad: ["cuerpo", "uniforme", "armadura corporal", "cinturones", "accs torso", "bandoleras", "accs Rostro", "cascos", "capas"]
+      M0: ["M0_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M1: ["M1_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M2: ["M2_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M3: ["M3_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M4: ["M4_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M5: ["M5_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M6: ["M6_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M7: ["M7_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M8: ["M8_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M9: ["M9_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M10: ["M10_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M11: ["M11_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M12: ["M12_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M13: ["M13_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M14: ["M14_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M15: ["M15_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M16: ["M16_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M17: ["M17_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M18: ["M18_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M19: ["M19_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M20: ["M20_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M21: ["M21_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M22: ["M22_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M23: ["M23_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M24: ["M24_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M25: ["M25_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M26: ["M26_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M27: ["M27_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M28: ["M28_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M29: ["M29_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M30: ["M30_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M31: ["M31_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M32: ["M32_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M33: ["M33_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M34: ["M34_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M35: ["M35_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M36: ["M36_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M37: ["M37_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M38: ["M38_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M39: ["M39_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M40: ["M40_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M41: ["M41_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M42: ["M42_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M43: ["M43_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M44: ["M44_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M45: ["M45_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M46: ["M46_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M47: ["M47_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M48: ["M48_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M49: ["M49_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M50: ["M50_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M51: ["M51_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M52: ["M52_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M53: ["M53_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M54: ["M54_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M55: ["M55_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M56: ["M56_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M57: ["M57_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M58: ["M58_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M59: ["M59_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M60: ["M60_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M61: ["M61_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M62: ["M62_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M63: ["M63_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M64: ["M64_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M65: ["M65_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M66: ["M66_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M67: ["M67_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M68: ["M68_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M69: ["M69_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M70: ["M70_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      M71: ["M71_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F0: ["F0_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F1: ["F1_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F2: ["F2_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F3: ["F3_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F4: ["F4_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F5: ["F5_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F6: ["F6_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F7: ["F7_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F8: ["F8_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F9: ["F9_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F10: ["F10_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F11: ["F11_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F12: ["F12_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F13: ["F13_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F14: ["F14_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F15: ["F15_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F16: ["F16_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F17: ["F17_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F18: ["F18_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F19: ["F19_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F20: ["F20_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F21: ["F21_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F22: ["F22_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F23: ["F23_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F24: ["F24_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F25: ["F25_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F26: ["F26_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F27: ["F27_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F28: ["F28_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F29: ["F29_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F30: ["F30_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F31: ["F31_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F32: ["F32_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F33: ["F33_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F34: ["F34_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F35: ["F35_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F36: ["F36_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F37: ["F37_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F38: ["F38_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F39: ["F39_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F40: ["F40_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F41: ["F41_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F42: ["F42_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F43: ["F43_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F44: ["F44_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F45: ["F45_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F46: ["F46_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F47: ["F47_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F48: ["F48_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F49: ["F49_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F50: ["F50_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F51: ["F51_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F52: ["F52_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F53: ["F53_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F54: ["F54_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F55: ["F55_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F56: ["F56_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F57: ["F57_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F58: ["F58_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F59: ["F59_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F60: ["F60_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F61: ["F61_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F62: ["F62_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F63: ["F63_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F64: ["F64_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F65: ["F65_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F66: ["F66_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F67: ["F67_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F68: ["F68_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F69: ["F69_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F70: ["F70_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+      F71: ["F71_NUDE", "", "GERMAN_T4_U", "", "", "", "", "", "", ""]
+    spriteFaceGroup: 6
+    spriteFaceColor: *SpriteFaceColorHuman
+    spriteHairGroup: 9
+    spriteHairColor: *SpriteHairColorHuman
+    corpseBattle:
+      - STR_POWER_SUIT_ARMOR_CORPSE
+    storeItem: STR_POWER_SUIT
+    loftempsSet: [ 3 ]
+    frontArmor: 14
+    sideArmor: 10
+    rearArmor: 8
+    underArmor: 2
+    stats:
+      tu: 15
+      stamina: 20
+      health: 15
+      bravery: 40
+      reactions: -15
+      firing: 0
+      throwing: -5
+      strength: 30
+      psiStrength: 0
+      psiSkill: 0
+      melee: 0
+    damageModifier:
+      - 1.0 #0 None
+      - 0.3 #1 Ballistic
+      - 0.5 #2 Incendiary
+      - 0.5 #3 High Explosive
+      - 0.7 #4 Energy Beam
+      - 0.7 #5 Plasma
+      - 0.4 #6 Stun
+      - 0.5 #7 Melee
+      - 0.4 #8 Acid
+      - 0.0 #9 Smoke
+      - 0.6 #10 K-MM Ballistic
+      - 1.5 #11 Electric
+      - 0.9 #12 Coilgun Ballistic
+      - 0.8 #13 Thermal
+      - 0.0 #14 Black Smoke
+      - 0.3 #15 Shrapnel
+      - 1.0 #16 Sonic
+      - 0.6 #17 Toxic
+      - 0.5 #18 Flames
+    builtInWeapons:
+#      - INV_NULL_4X2_BELT
+#      - INV_NULL_1X2_QD_SLOT
+      - INV_NULL_2X1_RIGHT_SHOULDER
+      - INV_NULL_2X1_LEFT_SHOULDER
+      - INV_NULL_2X1_RIGHT_LEG
+      - INV_NULL_1X1_LEFT_LEG
+    units:
+      - STR_AMERICAN_SOLDIER
+      - STR_BRITISH_SOLDIER
+      - STR_FRENCH_SOLDIER
+      - STR_GERMAN_SOLDIER
+      - STR_ITALIAN_SOLDIER
+      - STR_RUSSIAN_SOLDIER
+      - STR_PILOT
+
 #####################
 # AMERICAN
 ######################
@@ -793,9 +1461,9 @@ armors:
       F70: ["F70_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_CAP_U", ""]
       F71: ["F71_NUDE", "AMERICAN_UNIFORM_U", "", "", "", "", "", "", "AMERICAN_CAP_U", ""]
     spriteFaceGroup: 6
-    spriteFaceColor: &SpriteFaceColorHuman [96, 96, 96, 96, 160, 160, 163, 163, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 160, 160, 160, 96, 96, 96, 96, 160, 163, 160, 158, 16, 16, 20, 16, 101, 101, 160, 104, 96, 96, 96, 96, 160, 160, 163, 163, 176, 176, 145, 96, 96, 95, 163, 160, 176, 96, 98, 96, 160, 95, 163, 163, 97, 96, 97, 96, 159, 95, 161, 161, 96, 96, 16, 96, 160, 160, 161, 161, 96, 96, 96, 98, 99, 101, 160, 163, 100, 101, 99, 98, 160, 101, 161, 162, 144, 146, 99, 96, 160, 96, 161, 163, 96, 176, 96, 95, 163, 163, 161, 163, 96, 96, 96, 177, 163, 101, 163, 163, 96, 96, 96, 96, 161, 163, 163, 163] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteFaceColor: *SpriteFaceColorHuman
     spriteHairGroup: 9
-    spriteHairColor: &SpriteHairColorHuman [144, 144, 160, 164, 245, 245, 164, 164, 146, 145, 160, 147, 245, 245, 160, 245, 160, 37, 164, 163, 245, 245, 245, 245, 96, 160, 96, 162, 246, 246, 80, 245, 96, 225, 96, 96, 164, 96, 245, 164, 164, 160, 96, 6, 241, 37, 241, 241, 176, 33, 164, 37, 245, 178, 164, 225, 82, 144, 98, 246, 246, 246, 163, 246, 246, 146, 147, 20, 4, 164, 246, 246, 246, 224, 96, 159, 246, 246, 164, 246, 160, 33, 81, 163, 99, 23, 161, 213, 84, 144, 99, 197, 98, 246, 246, 246, 98, 144, 246, 96, 246, 246, 5, 246, 144, 146, 37, 144, 164, 245, 164, 245, 86, 80, 86, 85, 53, 86, 80, 88, 86, 86, 86, 198, 80, 88, 88, 88] #M0 F0 M1 F1 M2 F2 M3 F3
+    spriteHairColor: *SpriteHairColorHuman
     corpseBattle:
       - STR_AMERICAN_FIELD_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -1838,9 +2506,10 @@ armors:
     units:
       - STR_AMERICAN_SOLDIER
 
-##########################
-####### TIER 3 ##########
-########################
+##############################
+
+
+################################
 
   - type: STR_AMERICAN_T3_BODY_ARMOR
     spriteSheet: XCOM_23.PCK
@@ -1998,7 +2667,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorHuman
     corpseBattle:
-      - STR_AMERICAN_T3_BODY_ARMOR_GASMASK_CORPSE
+      - STR_AMERICAN_T3_BODY_ARMOR_CORPSE
     storeItem: STR_AMERICAN_T3_BODY_ARMOR
     loftempsSet: [ 3 ]
     frontArmor: 14
@@ -2958,7 +3627,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorHuman
     corpseBattle:
-      - STR_BRITISH_T2_BODY_ARMOR_CORPSE
+      - STR_BRITISH_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_BRITISH_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
     frontArmor: 14
@@ -4092,7 +4761,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorHuman
     corpseBattle:
-      - STR_GERMAN_T2_BODY_ARMOR_CORPSE
+      - STR_GERMAN_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_GERMAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
     frontArmor: 14
@@ -5599,7 +6268,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorHuman
     corpseBattle:
-      - STR_FRENCH_T2_BODY_ARMOR_CORPSE
+      - STR_FRENCH_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_FRENCH_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
     frontArmor: 14
@@ -6742,7 +7411,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorHuman
     corpseBattle:
-      - STR_ITALIAN_T2_BODY_ARMOR_CORPSE
+      - STR_ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_ITALIAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
     frontArmor: 14
@@ -7867,7 +8536,7 @@ armors:
     spriteHairGroup: 9
     spriteHairColor: *SpriteHairColorHuman
     corpseBattle:
-      - STR_RUSSIAN_T2_BODY_ARMOR_CORPSE
+      - STR_RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_RUSSIAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
     frontArmor: 14
@@ -8097,282 +8766,282 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UFOpedia/AMERICAN_SOLDIER_IMAGE.PNG
+      0: Resources/SoldiersSprites/Battlescape/UFOpedia/AMERICAN_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_23F0.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23F0.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23F0.png
   - type: MAN_23F1.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23F1.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23F1.png
   - type: MAN_23F2.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23F2.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23F2.png
   - type: MAN_23F3.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23F3.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23F3.png
   - type: MAN_23M0.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23M0.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23M0.png
   - type: MAN_23M1.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23M1.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23M1.png
   - type: MAN_23M2.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23M2.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23M2.png
   - type: MAN_23M3.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23M3.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23M3.png
   - type: XCOM_23.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/American/AMERICAN_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM.png
 
 #Gas Mask
   - type: MAN_23GM.SPK
     singleImage: true
     files:
-      0: Resources/American/Inventory/MAN_23GM.png
+      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23GM.png
   - type: XCOM_23GM.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/American/AMERICAN_GASMASK.png
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK.png
 
 #Officer Uniform
 #  - type: MAN_23OUF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF0.png
 #  - type: MAN_23OUF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF1.png
 #  - type: MAN_23OUF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF2.png
 #  - type: MAN_23OUF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF3.png
 #  - type: MAN_23OUM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM0.png
 #  - type: MAN_23OUM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM1.png
 #  - type: MAN_23OUM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM2.png
 #  - type: MAN_23OUM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM3.png
 #  - type: XCOM_23OU.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_23TCF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF0.png
 #  - type: MAN_23TCF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF1.png
 #  - type: MAN_23TCF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF2.png
 #  - type: MAN_23TCF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF3.png
 #  - type: MAN_23TCM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM0.png
 #  - type: MAN_23TCM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM1.png
 #  - type: MAN_23TCM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM2.png
 #  - type: MAN_23TCM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM3.png
 #  - type: XCOM_23TC.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_TRENCHCOAT_UNIFORM.png
 
   - type: BRITISH_SOLDIER_IMAGE
     singleImage: true
     width: 320
     height: 200
     files:
-      0: Resources/UFOpedia/BRITISH_SOLDIER_IMAGE.PNG
+      0: Resources/SoldiersSprites/Battlescape/UFOpedia/BRITISH_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_22F0.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22F0.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22F0.png
   - type: MAN_22F1.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22F1.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22F1.png
   - type: MAN_22F2.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22F2.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22F2.png
   - type: MAN_22F3.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22F3.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22F3.png
   - type: MAN_22M0.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22M0.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22M0.png
   - type: MAN_22M1.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22M1.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22M1.png
   - type: MAN_22M2.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22M2.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22M2.png
   - type: MAN_22M3.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22M3.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22M3.png
   - type: XCOM_22.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/British/BRITISH_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_FIELD_UNIFORM.png
 #Gasmask
   - type: MAN_22GM.SPK
     singleImage: true
     files:
-      0: Resources/British/Inventory/MAN_22GM.png
+      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22GM.png
   - type: XCOM_22GM.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/British/BRITISH_GASMASK.png
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK.png
 #Officer Uniform
 #  - type: MAN_23OUF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF0.png
 #  - type: MAN_23OUF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF1.png
 #  - type: MAN_23OUF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF2.png
 #  - type: MAN_23OUF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUF3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF3.png
 #  - type: MAN_23OUM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM0.png
 #  - type: MAN_23OUM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM1.png
 #  - type: MAN_23OUM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM2.png
 #  - type: MAN_23OUM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23OUM3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM3.png
 #  - type: XCOM_23OU.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/American/AMERICAN_OFFICER_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_23TCF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF0.png
 #  - type: MAN_23TCF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF1.png
 #  - type: MAN_23TCF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF2.png
 #  - type: MAN_23TCF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCF3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF3.png
 #  - type: MAN_23TCM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM0.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM0.png
 #  - type: MAN_23TCM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM1.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM1.png
 #  - type: MAN_23TCM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM2.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM2.png
 #  - type: MAN_23TCM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/American/Inventory/MAN_23TCM3.png
+#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM3.png
 #  - type: XCOM_23TC.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_TRENCHCOAT_UNIFORM.png
 ###################
 # GERMANS
 ###################
@@ -8381,141 +9050,141 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UFOpedia/GERMAN_SOLDIER_IMAGE.PNG
+      0: Resources/SoldiersSprites/Battlescape/UFOpedia/GERMAN_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_24F0.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24F0.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24F0.png
   - type: MAN_24F1.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24F1.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24F1.png
   - type: MAN_24F2.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24F2.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24F2.png
   - type: MAN_24F3.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24F3.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24F3.png
   - type: MAN_24M0.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24M0.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24M0.png
   - type: MAN_24M1.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24M1.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24M1.png
   - type: MAN_24M2.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24M2.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24M2.png
   - type: MAN_24M3.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24M3.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24M3.png
   - type: XCOM_24.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/German/GERMAN_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_FIELD_UNIFORM.png
 #Gas Mask
   - type: MAN_24GM.SPK
     singleImage: true
     files:
-      0: Resources/German/Inventory/MAN_24GM.png
+      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24GM.png
   - type: XCOM_24GM.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/German/GERMAN_GASMASK.png
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK.png
 
 #Officer Uniform
 #  - type: MAN_24OUF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUF0.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF0.png
 #  - type: MAN_24OUF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUF1.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF1.png
 #  - type: MAN_24OUF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUF2.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF2.png
 #  - type: MAN_24OUF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUF3.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF3.png
 #  - type: MAN_24OUM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUM0.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM0.png
 #  - type: MAN_24OUM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUM1.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM1.png
 #  - type: MAN_24OUM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUM2.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM2.png
 #  - type: MAN_24OUM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/GERMAN/Inventory/MAN_24OUM3.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM3.png
 #  - type: XCOM_24OU.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/GERMAN/GERMAN_OFFICER_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/GERMAN/GERMAN_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
   - type: MAN_24TCF0.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCF0.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF0.png
   - type: MAN_24TCF1.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCF1.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF1.png
   - type: MAN_24TCF2.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCF2.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF2.png
   - type: MAN_24TCF3.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCF3.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF3.png
   - type: MAN_24TCM0.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCM0.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM0.png
   - type: MAN_24TCM1.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCM1.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM1.png
   - type: MAN_24TCM2.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCM2.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM2.png
   - type: MAN_24TCM3.SPK
     singleImage: true
     files:
-      0: Resources/GERMAN/Inventory/MAN_24TCM3.png
+      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM3.png
   - type: XCOM_24TC.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/German/GERMAN_TRENCH_COAT.png
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_TRENCH_COAT.png
 ####################
 # PILOT
 ####################
@@ -8524,39 +9193,39 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UFOpedia/PILOT_IMAGE.PNG
+      0: Resources/SoldiersSprites/Battlescape/UFOpedia/PILOT_IMAGE.PNG
   - type: MAN_25F0.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25F0.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F0.png
   - type: MAN_25F1.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25F1.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F1.png
   - type: MAN_25F2.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25F2.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F2.png
   - type: MAN_25F3.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25F3.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F3.png
   - type: MAN_25M0.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25M0.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M0.png
   - type: MAN_25M1.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25M1.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M1.png
   - type: MAN_25M2.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25M2.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M2.png
   - type: MAN_25M3.SPK
     singleImage: true
     files:
-      0: Resources/Pilot/Inventory/MAN_25M3.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M3.png
 
   - type: XCOM_25.PCK
     width: 512
@@ -8564,7 +9233,7 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/Pilot/PILOT_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/Pilot/PILOT_UNIFORM.png
 
 
 ###################
@@ -8576,140 +9245,140 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UFOpedia/FRENCH_SOLDIER_IMAGE.PNG
+      0: Resources/SoldiersSprites/Battlescape/UFOpedia/FRENCH_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_26F0.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26F0.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26F0.png
   - type: MAN_26F1.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26F1.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26F1.png
   - type: MAN_26F2.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26F2.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26F2.png
   - type: MAN_26F3.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26F3.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26F3.png
   - type: MAN_26M0.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26M0.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26M0.png
   - type: MAN_26M1.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26M1.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26M1.png
   - type: MAN_26M2.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26M2.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26M2.png
   - type: MAN_26M3.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26M3.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26M3.png
   - type: XCOM_26.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/French/FRENCH_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_FIELD_UNIFORM.png
 #Gas Mask
   - type: MAN_26GM.SPK
     singleImage: true
     files:
-      0: Resources/French/Inventory/MAN_26GM.png
+      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26GM.png
   - type: XCOM_26GM.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/French/FRENCH_GASMASK.png
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK.png
 #Officer Uniform
 #  - type: MAN_26OUF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUF0.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF0.png
 #  - type: MAN_26OUF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUF1.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF1.png
 #  - type: MAN_26OUF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUF2.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF2.png
 #  - type: MAN_26OUF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUF3.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF3.png
 #  - type: MAN_26OUM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUM0.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM0.png
 #  - type: MAN_26OUM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUM1.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM1.png
 #  - type: MAN_26OUM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUM2.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM2.png
 #  - type: MAN_26OUM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26OUM3.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM3.png
 #  - type: XCOM_26OU.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/French/FRENCH_OFFICER_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_26TCF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCF0.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF0.png
 #  - type: MAN_26TCF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCF1.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF1.png
 #  - type: MAN_26TCF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCF2.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF2.png
 #  - type: MAN_26TCF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCF3.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF3.png
 #  - type: MAN_26TCM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCM0.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM0.png
 #  - type: MAN_26TCM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCM1.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM1.png
 #  - type: MAN_26TCM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCM2.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM2.png
 #  - type: MAN_26TCM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/French/Inventory/MAN_26TCM3.png
+#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM3.png
 #  - type: XCOM_26TC.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/French/FRENCH_TRENCHCOAT_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_TRENCHCOAT_UNIFORM.png
 ####################
 # ITALIAN
 ####################
@@ -8718,254 +9387,317 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/UFOpedia/ITALIAN_SOLDIER_IMAGE.PNG
+      0: Resources/SoldiersSprites/Battlescape/UFOpedia/ITALIAN_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_27F0.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27F0.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27F0.png
   - type: MAN_27F1.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27F1.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27F1.png
   - type: MAN_27F2.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27F2.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27F2.png
   - type: MAN_27F3.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27F3.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27F3.png
   - type: MAN_27M0.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27M0.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27M0.png
   - type: MAN_27M1.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27M1.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27M1.png
   - type: MAN_27M2.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27M2.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27M2.png
   - type: MAN_27M3.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27M3.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27M3.png
   - type: XCOM_27.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/Italian/ITALIAN_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_FIELD_UNIFORM.png
 #Alpini Uniform
   - type: MAN_27AUF0.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUF0.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF0.png
   - type: MAN_27AUF1.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUF1.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF1.png
   - type: MAN_27AUF2.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUF2.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF2.png
   - type: MAN_27AUF3.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUF3.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF3.png
   - type: MAN_27AUM0.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUM0.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM0.png
   - type: MAN_27AUM1.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUM1.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM1.png
   - type: MAN_27AUM2.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUM2.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM2.png
   - type: MAN_27AUM3.SPK
     singleImage: true
     files:
-      0: Resources/Italian/Inventory/MAN_27AUM3.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM3.png
   - type: XCOM_27AU.PCK
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/Italian/ITALIAN_ALPINI_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_ALPINI_UNIFORM.png
 #Officer Uniform
 #  - type: MAN_27OUF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUF0.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF0.png
 #  - type: MAN_27OUF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUF1.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF1.png
 #  - type: MAN_27OUF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUF2.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF2.png
 #  - type: MAN_27OUF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUF3.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF3.png
 #  - type: MAN_27OUM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUM0.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM0.png
 #  - type: MAN_27OUM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUM1.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM1.png
 #  - type: MAN_27OUM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUM2.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM2.png
 #  - type: MAN_27OUM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27OUM3.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM3.png
 #  - type: XCOM_27OU.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/Italian/ITALIAN_OFFICER_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_OFFICER_UNIFORM.png
 
 #Trench Coat Uniform
 #  - type: MAN_27TCF0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCF0.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF0.png
 #  - type: MAN_27TCF1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCF1.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF1.png
 #  - type: MAN_27TCF2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCF2.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF2.png
 #  - type: MAN_27TCF3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCF3.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF3.png
 #  - type: MAN_27TCM0.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCM0.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM0.png
 #  - type: MAN_27TCM1.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCM1.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM1.png
 #  - type: MAN_27TCM2.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCM2.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM2.png
 #  - type: MAN_27TCM3.SPK
 #    singleImage: true
 #    files:
-#      0: Resources/Italian/Inventory/MAN_27TCM3.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM3.png
 #  - type: XCOM_27TC.PCK
 #    width: 512
 #    height: 720
 #    subX: 32
 #    subY: 40
 #    files:
-#      0: Resources/Italian/ITALIAN_TRENCHCOAT_UNIFORM.png
+#      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_TRENCHCOAT_UNIFORM.png
 
 
   - type: BIGOBS.PCK
     files:
+
+#############
+# SPECIAL ARMORS
+#############
+      5000: Resources/SoldiersSprites/Battlescape/British/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      5001: Resources/SoldiersSprites/Battlescape/British/POWER_SUIT_CORPSE_BIGOB.png
+      #5002: Resources/SoldiersSprites/Battlescape/British/FLAMETROOPER_CORPSE_BIGOB.png
+
 #############
 # BRITISH
 #############
-      100: Resources/British/BRITISH_FIELD_UNIFORM_CORPSE_BIGOB.png
-      101: Resources/British/BRITISH_GASMASK_CORPSE_BIGOB.png
-#      102: Resources/British/BRITISH_OFFICER_UNIFORM_CORPSE_BIGOB.png
-#      103: Resources/British/BRITISH_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+      5010: Resources/SoldiersSprites/Battlescape/British/BRITISH_FIELD_UNIFORM_CORPSE_BIGOB.png
+      5011: Resources/SoldiersSprites/Battlescape/British/BRITISH_ANZAC_UNIFORM_CORPSE_BIGOB.png
+      #5012: Resources/SoldiersSprites/Battlescape/British/BRITISH_INDIAN_UNIFORM_CORPSE_BIGOB.png
+      5013: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK_CORPSE_BIGOB.png
+      5014: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_CORPSE_BIGOB.png
+      5015: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
+      5016: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_CORPSE.png
 #############
 # AMERICAN
 #############
-      104: Resources/American/AMERICAN_FIELD_UNIFORM_CORPSE_BIGOB.png
-      105: Resources/American/AMERICAN_GASMASK_CORPSE_BIGOB.png
-#      106: Resources/American/AMERICAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
-#      107: Resources/American/AMERICAN_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+      5020: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      5021: Resources/SoldiersSprites/Battlescape/American/AMERICAN_CAMPAIGN_UNIFORM_CORPSE_BIGOB.png
+      5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_UNIFORM_CORPSE_BIGOB.png
+      #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_CORPSE_BIGOB.png
+      5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_BIGOB.png
+      5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
+      5026: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
+      5027: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_CORPSE.png
 #############
 # GERMAN
 #############
-      108: Resources/German/GERMAN_FIELD_UNIFORM_CORPSE_BIGOB.png
-      109: Resources/German/GERMAN_GASMASK_CORPSE_BIGOB.png
-#      110: Resources/German/GERMAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
-      111: Resources/German/GERMAN_TRENCH_COAT_CORPSE_BIGOB.png
+      5030: Resources/SoldiersSprites/Battlescape/German/GERMAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      5031: Resources/SoldiersSprites/Battlescape/German/GERMAN_PICKELHAUBE_UNIFORM_CORPSE_BIGOB.png
+      5032: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK_CORPSE_BIGOB.png
+      5033: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
+      5034: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
+      5035: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_CORPSE.png
 #############
 # PILOT
 #############
-      112: Resources/Pilot/PILOT_UNIFORM_CORPSE_BIGOB.png
+      5040: Resources/SoldiersSprites/Battlescape/Pilot/PILOT_UNIFORM_CORPSE_BIGOB.png
 #############
 # FRENCH
 #############
-      113: Resources/French/FRENCH_FIELD_UNIFORM_CORPSE_BIGOB.png
-      114: Resources/French/FRENCH_GASMASK_CORPSE_BIGOB.png
-#      115: Resources/French/FRENCH_OFFICER_UNIFORM_CORPSE_BIGOB.png
-#      116: Resources/French/FRENCH_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+      5050: Resources/SoldiersSprites/Battlescape/French/FRENCH_FIELD_UNIFORM_CORPSE_BIGOB.png
+      5051: Resources/SoldiersSprites/Battlescape/French/FRENCH_COLONIAL_UNIFORM_CORPSE_BIGOB.png
+      5052: Resources/SoldiersSprites/Battlescape/French/FRENCH_COAT_CORPSE_BIGOB.png
+      5053: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK_CORPSE_BIGOB.png
+      5054: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_CORPSE_BIGOB.png
+      5055: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
+      5056: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_CORPSE.png
 #############
 # ITALIAN
 #############
-      160: Resources/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_BIGOB.png
-      161: Resources/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_BIGOB.png
-#      162: Resources/Italian/ITALIAN_OFFICER_UNIFORM_CORPSE_BIGOB.png
-#      163: Resources/Italian/ITALIAN_TRENCHCOAT_UNIFORM_CORPSE_BIGOB.png
+      5060: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      5061: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_BIGOB.png
+      5062: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_GASMASK_CORPSE_BIGOB.png
+      5063: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
+      5064: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
+      5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE.png
 
+#############
+# RUSSIAN
+#############
+      5070: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_FIELD_UNIFORM_CORPSE_BIGOB.png
+      5071: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_COAT_UNIFORM_CORPSE_BIGOB.png
+      5072: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_GASMASK_CORPSE_BIGOB.png
+      5073: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
+      5074: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
+      5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE.png
 
   - type: FLOOROB.PCK
     files:
+
+#############
+# SPECIAL ARMORS
+#############
+      5000: Resources/SoldiersSprites/Battlescape/British/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      5001: Resources/SoldiersSprites/Battlescape/British/POWER_SUIT_CORPSE_FLOOROB.png
+      #5002: Resources/SoldiersSprites/Battlescape/British/FLAMETROOPER_CORPSE_FLOOROB.png
+
 #############
 # BRITISH
 #############
-      100: Resources/British/BRITISH_FIELD_UNIFORM_CORPSE_FLOOROB.png
-      101: Resources/British/BRITISH_GASMASK_CORPSE_FLOOROB.png
-#      102: Resources/British/BRITISH_OFFICER_UNIFORM_CORPSE_FLOOROB.png
-#      103: Resources/British/BRITISH_TRENCHCOAT_UNIFORM_CORPSE_FLOOROB.png
+      5010: Resources/SoldiersSprites/Battlescape/British/BRITISH_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      5011: Resources/SoldiersSprites/Battlescape/British/BRITISH_ANZAC_UNIFORM_CORPSE_FLOOROB.png
+      #5012: Resources/SoldiersSprites/Battlescape/British/BRITISH_INDIAN_UNIFORM_CORPSE_FLOOROB.png
+      5013: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK_CORPSE_FLOOROB.png
+      5014: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_CORPSE_FLOOROB.png
+      5015: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
+      5016: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_CORPSE.png
 #############
 # AMERICAN
 #############
-      104: Resources/American/AMERICAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
-      105: Resources/American/AMERICAN_GASMASK_CORPSE_FLOOROB.png
-#      106: Resources/American/AMERICAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
-#      107: Resources/American/AMERICAN_TRENCHCOAT_CORPSE_FLOOROB.png
+      5020: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      5021: Resources/SoldiersSprites/Battlescape/American/AMERICAN_CAMPAIGN_UNIFORM_CORPSE_FLOOROB.png
+      5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_UNIFORM_CORPSE_FLOOROB.png
+      #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_CORPSE_FLOOROB.png
+      5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_FLOOROB.png
+      5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
+      5026: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
+      5027: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_CORPSE.png
 #############
 # GERMAN
 #############
-      108: Resources/German/GERMAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
-      109: Resources/German/GERMAN_GASMASK_CORPSE_FLOOROB.png
-#      110: Resources/German/GERMAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
-      111: Resources/German/GERMAN_TRENCH_COAT_CORPSE_FLOOROB.png
+      5030: Resources/SoldiersSprites/Battlescape/German/GERMAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      5031: Resources/SoldiersSprites/Battlescape/German/GERMAN_PICKELHAUBE_UNIFORM_CORPSE_FLOOROB.png
+      5032: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK_CORPSE_FLOOROB.png
+      5033: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
+      5034: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
+      5035: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_CORPSE.png
 #############
 # PILOT
 #############
-      112: Resources/Pilot/PILOT_UNIFORM_CORPSE_FLOOROB.png
+      5040: Resources/SoldiersSprites/Battlescape/Pilot/PILOT_UNIFORM_CORPSE_FLOOROB.png
 #############
 # FRENCH
 #############
-      113: Resources/French/FRENCH_FIELD_UNIFORM_CORPSE_FLOOROB.png
-      114: Resources/French/FRENCH_GASMASK_CORPSE_FLOOROB.png
-#      115: Resources/French/FRENCH_OFFICER_UNIFORM_CORPSE_FLOOROB.png
-#      116: Resources/French/FRENCH_TRENCHCOAT_CORPSE_FLOOROB.png
+      5050: Resources/SoldiersSprites/Battlescape/French/FRENCH_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      5051: Resources/SoldiersSprites/Battlescape/French/FRENCH_COLONIAL_UNIFORM_CORPSE_FLOOROB.png
+      5052: Resources/SoldiersSprites/Battlescape/French/FRENCH_COAT_CORPSE_FLOOROB.png
+      5053: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK_CORPSE_FLOOROB.png
+      5054: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_CORPSE_FLOOROB.png
+      5055: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
+      5056: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_CORPSE.png
 #############
 # ITALIAN
 #############
-      120: Resources/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
-      121: Resources/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_FLOOROB.png
-#      162: Resources/Italian/ITALIAN_OFFICER_UNIFORM_CORPSE_FLOOROB.png
-#      163: Resources/Italian/ITALIAN_TRENCHCOAT_CORPSE_FLOOROB.png
+      5060: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      5061: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_ALPINI_UNIFORM_CORPSE_FLOOROB.png
+      5062: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_GASMASK_CORPSE_FLOOROB.png
+      5063: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
+      5064: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
+      5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE.png
+
+#############
+# RUSSIAN
+#############
+      5070: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
+      5071: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_COAT_UNIFORM_CORPSE_FLOOROB.png
+      5072: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_GASMASK_CORPSE_FLOOROB.png
+      5073: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
+      5074: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
+      5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE.png
 
 
 
@@ -8981,27 +9713,27 @@ extraSprites:
   - type: Flag0
     singleImage: true
     files:
-      0: Resources/Flags/00-British.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/00-British.png
   - type: Flag1
     singleImage: true
     files:
-      0: Resources/Flags/01-Canadian.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/01-Canadian.png
   - type: Flag2
     singleImage: true
     files:
-      0: Resources/Flags/02-Hindi.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/02-Hindi.png
   - type: Flag3
     singleImage: true
     files:
-      0: Resources/Flags/03-Irish.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/03-Irish.png
   - type: Flag4
     singleImage: true
     files:
-      0: Resources/Flags/04-Scottish.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/04-Scottish.png
   - type: Flag5
     singleImage: true
     files:
-      0: Resources/Flags/05-Australian.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/05-Australian.png
 
 ######################
 # AMERICAN
@@ -9009,71 +9741,71 @@ extraSprites:
   - type: Flag7
     singleImage: true
     files:
-      0: Resources/Flags/07-American.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/07-American.png
   - type: Flag8
     singleImage: true
     files:
-      0: Resources/Flags/08-Mexican.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/08-Mexican.png
 ######################
 # GERMAN
 ######################
   - type: Flag9
     singleImage: true
     files:
-      0: Resources/Flags/09-German.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/09-German.png
 #####################
 # PILOT
 #####################
   - type: Flag10
     singleImage: true
     files:
-      0: Resources/Flags/10-BritishPilot.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/10-BritishPilot.png
   - type: Flag11
     singleImage: true
     files:
-      0: Resources/Flags/11-AmericanPilot.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/11-AmericanPilot.png
   - type: Flag12
     singleImage: true
     files:
-      0: Resources/Flags/12-GermanPilot.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/12-GermanPilot.png
   - type: Flag13
     singleImage: true
     files:
-      0: Resources/Flags/13-FrenchPilot.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/13-FrenchPilot.png
   - type: Flag14
     singleImage: true
     files:
-      0: Resources/Flags/15-RussianPilot.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/15-RussianPilot.png
   - type: Flag15
     singleImage: true
     files:
-      0: Resources/Flags/15-ItalianPilot.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/15-ItalianPilot.png
 #####################
 # FRENCH
 #####################
   - type: Flag18
     singleImage: true
     files:
-      0: Resources/Flags/18-French.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/18-French.png
   - type: Flag19
     singleImage: true
     files:
-      0: Resources/Flags/19-ForeignLegionnaire.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/19-ForeignLegionnaire.png
   - type: Flag20
     singleImage: true
     files:
-      0: Resources/Flags/20-Algerian.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/20-Algerian.png
   - type: Flag21
     singleImage: true
     files:
-      0: Resources/Flags/21-Senegalese.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/21-Senegalese.png
 ###################
 # ITALIAN
 ###################
   - type: Flag22
     singleImage: true
     files:
-      0: Resources/Flags/22-Italian.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/22-Italian.png
 
 ##################
 # RUSSIAN
@@ -9081,7 +9813,7 @@ extraSprites:
   - type: Flag23
     singleImage: true
     files:
-      0: Resources/Flags/23-Russian.png
+      0: Resources/SoldiersSprites/Battlescape/Flags/23-Russian.png
 
 ####################
 # AVATAR BACKGROUND
@@ -9089,7 +9821,7 @@ extraSprites:
   - type: AvatarBackground
     singleImage: true
     files:
-      0: Resources/UI/avatar-background.png
+      0: Resources/SoldiersSprites/Battlescape/UI/avatar-background.png
 
 ######################
 # LAYERED PAPERDOLLS
@@ -9097,510 +9829,510 @@ extraSprites:
 
 # Empiezan HumanBodies
   - typeSingle: HUMAN__0__M0_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M0.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M0.png
   - typeSingle: HUMAN__0__M1_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M1.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M1.png
   - typeSingle: HUMAN__0__M2_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M2.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M2.png
   - typeSingle: HUMAN__0__M3_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M3.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M3.png
   - typeSingle: HUMAN__0__M4_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M4.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M4.png
   - typeSingle: HUMAN__0__M5_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M5.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M5.png
   - typeSingle: HUMAN__0__M6_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M6.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M6.png
   - typeSingle: HUMAN__0__M7_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M7.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M7.png
   - typeSingle: HUMAN__0__M8_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M8.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M8.png
   - typeSingle: HUMAN__0__M9_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M9.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M9.png
   - typeSingle: HUMAN__0__M10_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M10.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M10.png
   - typeSingle: HUMAN__0__M11_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M11.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M11.png
   - typeSingle: HUMAN__0__M12_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M12.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M12.png
   - typeSingle: HUMAN__0__M13_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M13.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M13.png
   - typeSingle: HUMAN__0__M14_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M14.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M14.png
   - typeSingle: HUMAN__0__M15_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M15.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M15.png
   - typeSingle: HUMAN__0__M16_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M16.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M16.png
   - typeSingle: HUMAN__0__M17_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M17.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M17.png
   - typeSingle: HUMAN__0__M18_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M18.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M18.png
   - typeSingle: HUMAN__0__M19_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M19.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M19.png
   - typeSingle: HUMAN__0__M20_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M20.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M20.png
   - typeSingle: HUMAN__0__M21_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M21.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M21.png
   - typeSingle: HUMAN__0__M22_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M22.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M22.png
   - typeSingle: HUMAN__0__M23_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M23.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M23.png
   - typeSingle: HUMAN__0__M24_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M24.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M24.png
   - typeSingle: HUMAN__0__M25_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M25.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M25.png
   - typeSingle: HUMAN__0__M26_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M26.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M26.png
   - typeSingle: HUMAN__0__M27_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M27.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M27.png
   - typeSingle: HUMAN__0__M28_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M28.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M28.png
   - typeSingle: HUMAN__0__M29_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M29.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M29.png
   - typeSingle: HUMAN__0__M30_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M30.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M30.png
   - typeSingle: HUMAN__0__M31_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M31.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M31.png
   - typeSingle: HUMAN__0__M32_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M32.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M32.png
   - typeSingle: HUMAN__0__M33_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M33.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M33.png
   - typeSingle: HUMAN__0__M34_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M34.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M34.png
   - typeSingle: HUMAN__0__M35_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M35.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M35.png
   - typeSingle: HUMAN__0__M36_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M36.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M36.png
   - typeSingle: HUMAN__0__M37_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M37.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M37.png
   - typeSingle: HUMAN__0__M38_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M38.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M38.png
   - typeSingle: HUMAN__0__M39_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M39.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M39.png
   - typeSingle: HUMAN__0__M40_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M40.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M40.png
   - typeSingle: HUMAN__0__M41_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M41.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M41.png
   - typeSingle: HUMAN__0__M42_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M42.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M42.png
   - typeSingle: HUMAN__0__M43_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M43.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M43.png
   - typeSingle: HUMAN__0__M44_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M44.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M44.png
   - typeSingle: HUMAN__0__M45_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M45.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M45.png
   - typeSingle: HUMAN__0__M46_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M46.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M46.png
   - typeSingle: HUMAN__0__M47_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M47.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M47.png
   - typeSingle: HUMAN__0__M48_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M48.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M48.png
   - typeSingle: HUMAN__0__M49_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M49.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M49.png
   - typeSingle: HUMAN__0__M50_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M50.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M50.png
   - typeSingle: HUMAN__0__M51_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M51.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M51.png
   - typeSingle: HUMAN__0__M52_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M52.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M52.png
   - typeSingle: HUMAN__0__M53_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M53.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M53.png
   - typeSingle: HUMAN__0__M54_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M54.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M54.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M55.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M55.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M56.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M56.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M57.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M57.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M58.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M58.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M59.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M59.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M60.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M60.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M61.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M61.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M62.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M62.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M63.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M63.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M64.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M64.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M65.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M65.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M66.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M66.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M67.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M67.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M68.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M68.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M69.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M69.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M70.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M70.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_M71.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M71.png
   - typeSingle: HUMAN__0__F0_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F0.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F0.png
   - typeSingle: HUMAN__0__F1_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F1.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F1.png
   - typeSingle: HUMAN__0__F2_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F2.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F2.png
   - typeSingle: HUMAN__0__F3_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F3.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F3.png
   - typeSingle: HUMAN__0__F4_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F4.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F4.png
   - typeSingle: HUMAN__0__F5_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F5.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F5.png
   - typeSingle: HUMAN__0__F6_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F6.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F6.png
   - typeSingle: HUMAN__0__F7_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F7.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F7.png
   - typeSingle: HUMAN__0__F8_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F8.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F8.png
   - typeSingle: HUMAN__0__F9_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F9.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F9.png
   - typeSingle: HUMAN__0__F10_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F10.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F10.png
   - typeSingle: HUMAN__0__F11_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F11.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F11.png
   - typeSingle: HUMAN__0__F12_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F12.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F12.png
   - typeSingle: HUMAN__0__F13_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F13.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F13.png
   - typeSingle: HUMAN__0__F14_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F14.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F14.png
   - typeSingle: HUMAN__0__F15_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F15.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F15.png
   - typeSingle: HUMAN__0__F16_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F16.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F16.png
   - typeSingle: HUMAN__0__F17_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F17.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F17.png
   - typeSingle: HUMAN__0__F18_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F18.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F18.png
   - typeSingle: HUMAN__0__F19_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F19.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F19.png
   - typeSingle: HUMAN__0__F20_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F20.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F20.png
   - typeSingle: HUMAN__0__F21_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F21.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F21.png
   - typeSingle: HUMAN__0__F22_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F22.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F22.png
   - typeSingle: HUMAN__0__F23_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F23.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F23.png
   - typeSingle: HUMAN__0__F24_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F24.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F24.png
   - typeSingle: HUMAN__0__F25_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F25.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F25.png
   - typeSingle: HUMAN__0__F26_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F26.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F26.png
   - typeSingle: HUMAN__0__F27_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F27.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F27.png
   - typeSingle: HUMAN__0__F28_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F28.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F28.png
   - typeSingle: HUMAN__0__F29_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F29.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F29.png
   - typeSingle: HUMAN__0__F30_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F30.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F30.png
   - typeSingle: HUMAN__0__F31_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F31.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F31.png
   - typeSingle: HUMAN__0__F32_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F32.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F32.png
   - typeSingle: HUMAN__0__F33_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F33.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F33.png
   - typeSingle: HUMAN__0__F34_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F34.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F34.png
   - typeSingle: HUMAN__0__F35_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F35.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F35.png
   - typeSingle: HUMAN__0__F36_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F36.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F36.png
   - typeSingle: HUMAN__0__F37_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F37.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F37.png
   - typeSingle: HUMAN__0__F38_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F38.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F38.png
   - typeSingle: HUMAN__0__F39_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F39.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F39.png
   - typeSingle: HUMAN__0__F40_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F40.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F40.png
   - typeSingle: HUMAN__0__F41_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F41.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F41.png
   - typeSingle: HUMAN__0__F42_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F42.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F42.png
   - typeSingle: HUMAN__0__F43_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F43.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F43.png
   - typeSingle: HUMAN__0__F44_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F44.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F44.png
   - typeSingle: HUMAN__0__F45_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F45.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F45.png
   - typeSingle: HUMAN__0__F46_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F46.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F46.png
   - typeSingle: HUMAN__0__F47_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F47.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F47.png
   - typeSingle: HUMAN__0__F48_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F48.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F48.png
   - typeSingle: HUMAN__0__F49_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F49.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F49.png
   - typeSingle: HUMAN__0__F50_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F50.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F50.png
   - typeSingle: HUMAN__0__F51_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F51.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F51.png
   - typeSingle: HUMAN__0__F52_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F52.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F52.png
   - typeSingle: HUMAN__0__F53_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F53.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F53.png
   - typeSingle: HUMAN__0__F54_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F54.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F54.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F55.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F55.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F56.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F56.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F57.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F57.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F58.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F58.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F59.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F59.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F60.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F60.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F61.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F61.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F62.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F62.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F63.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F63.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F64.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F64.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F65.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F65.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F66.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F66.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F67.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F67.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F68.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F68.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F69.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F69.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F70.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F70.png
   - typeSingle: HUMAN__0__F55_NUDE
-    fileSingle: Resources/SoldierSprites/00-Body/MAN_F71.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/00-Body/MAN_F71.png
 # Finalizan HumanBodies
 # Empiezan Uniforms
   - typeSingle: AMERICAN_COAT__1__AMERICAN_COAT_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/AmericanCoat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/AmericanCoat.png
   - typeSingle: AMERICAN_UNIFORM__1__AMERICAN_UNIFORM_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/AmericanUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/AmericanUniform.png
   - typeSingle: BRITISH_COAT__1__BRITISH_COAT_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/BritishCoat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/BritishCoat.png
   - typeSingle: BRITISH_UNIFORM__1__BRITISH_UNIFORM_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/BritishUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/BritishUniform.png
   - typeSingle: FRENCH_COAT__1__FRENCH_COAT_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/FrenchCoat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/FrenchCoat.png
   - typeSingle: FRENCH_UNIFORM__1__FRENCH_COAT_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/FrenchUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/FrenchUniform.png
   - typeSingle: FRENCH_UNIFORM__1__FRENCH_COLONIAL_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/FrenchColonialCoat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/FrenchColonialCoat.png
   - typeSingle: GERMAN_COAT__1__GERMAN_COAT_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/GermanCoat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/GermanCoat.png
   - typeSingle: GERMAN_UNIFORM__1__GERMAN_UNIFORM_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/GermanUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/GermanUniform.png
   - typeSingle: ITALIAN_COAT__1__ITALIAN_COAT_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/ItalianCoat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/ItalianCoat.png
   - typeSingle: ITALIAN_UNIFORM__1__ITALIAN_UNIFORM_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/ItalianUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/ItalianUniform.png
   - typeSingle: MEXICAN_UNIFORM__1__MEXICAN_UNIFORM_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/MexicanUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/MexicanUniform.png
   - typeSingle: RUSSIAN_COAT__1__RUSSIAN_COAT_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/RussianCoat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/RussianCoat.png
   - typeSingle: RUSSIAN_UNIFORM__1__RUSSIAN_UNIFORM_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/RussianUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/RussianUniform.png
   - typeSingle: RUSSIAN_UNIFORM__1__PILOT_UNIFORM_U
-    fileSingle: Resources/SoldierSprites/01-Uniform/PilotUniform.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/01-Uniform/PilotUniform.png
 # Finalizan Uniforms
 # Empiezan BodyArmors
   - typeSingle: HUMAN__2__AMERICAN_T2_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/AmericanT2BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/AmericanT2BodyArmor.png
   - typeSingle: HUMAN__2__AMERICAN_T3_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/AmericanT3BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/AmericanT3BodyArmor.png
   - typeSingle: HUMAN__2__BRITISH_T2A_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/BritishT2aBodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/BritishT2aBodyArmor.png
   - typeSingle: HUMAN__2__BRITISH_T2_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/BritishT2BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/BritishT2BodyArmor.png
   - typeSingle: HUMAN__2__BRITISH_T3_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/BritishT3BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/BritishT3BodyArmor.png
   - typeSingle: HUMAN__2__FRENCH_T2_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/FrenchT2BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/FrenchT2BodyArmor.png
   - typeSingle: HUMAN__2__FRENCH_T3_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/FrenchT3BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/FrenchT3BodyArmor.png
   - typeSingle: HUMAN__2__GERMAN_T2_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/GermanT2BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/GermanT2BodyArmor.png
   - typeSingle: HUMAN__2__GERMAN_T3_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/GermanT3BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/GermanT3BodyArmor.png
   - typeSingle: HUMAN__2__GERMAN_T4_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/GermanT4TotenkopfPowerArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/GermanT4TotenkopfPowerArmor.png
   - typeSingle: HUMAN__2__ITALIAN_T2_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/ItalianT2BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/ItalianT2BodyArmor.png
   - typeSingle: HUMAN__2__ITALIAN_T3_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/ItalianT3BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/ItalianT3BodyArmor.png
   - typeSingle: HUMAN__2__ITALIAN_T4_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/ItalianT4HeavyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/ItalianT4HeavyArmor.png
   - typeSingle: HUMAN__2__RUSSIAN_T2_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/RussianT2BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/RussianT2BodyArmor.png
   - typeSingle: HUMAN__2__RUSSIAN_T3_U
-    fileSingle: Resources/SoldierSprites/02-BodyArmor/RussianT3BodyArmor.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/02-BodyArmor/RussianT3BodyArmor.png
 # finalizan BodyArmors
 # Empiezan BeltItems
   - typeSingle: HUMAN__3__BELT_BL_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/BandagesLeft.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/BandagesLeft.png
   - typeSingle: HUMAN__3__BELT_BR_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/BandagesRight.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/BandagesRight.png
   - typeSingle: HUMAN__3__BELT_BBA_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/BeltBandolierA.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/BeltBandolierA.png
   - typeSingle: HUMAN__3__BELT_BBB_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/BeltBandolierB.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/BeltBandolierB.png
   - typeSingle: HUMAN__3__BELT_BBC_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/BeltBandolierC.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/BeltBandolierC.png
   - typeSingle: HUMAN__3__BELT_BMP_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/BrownMedicalPouch.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/BrownMedicalPouch.png
   - typeSingle: HUMAN__3__BELT_DBLBP_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/DarkBrownLeg&BeltPouches.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/DarkBrownLeg&BeltPouches.png
   - typeSingle: HUMAN__3__BELT_DBP_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/DarkBrownPouches.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/DarkBrownPouches.png
   - typeSingle: HUMAN__3__BELT_GGR_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/GasGrenadesRight.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/GasGrenadesRight.png
   - typeSingle: HUMAN__3__BELT_GAP_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/GrayAmmoPouches.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/GrayAmmoPouches.png
   - typeSingle: HUMAN__3__BELT_PB_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/PouchesBlack.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/PouchesBlack.png
   - typeSingle: HUMAN__3__BELT_SR_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/Shovel1Right.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/Shovel1Right.png
   - typeSingle: HUMAN__3__BELT_SGL_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/StickGrenadesLeft.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/StickGrenadesLeft.png
   - typeSingle: HUMAN__3__BELT_YCP_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/YellowChestPouches.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/YellowChestPouches.png
   - typeSingle: HUMAN__3__BELT_YP_U
-    fileSingle: Resources/SoldierSprites/03-BeltItem/YellowPouches.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/03-BeltItem/YellowPouches.png
 # Finaliza BeltItems
 # Empieza TorsoItem
   - typeSingle: HUMAN__4__CANTEEN_LEFT_U
-    fileSingle: Resources/SoldierSprites/04-TorsoItem/GrayCanteenLeft.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/04-TorsoItem/GrayCanteenLeft.png
   - typeSingle: HUMAN__4__CANTEEN_RIGHT_U
-    fileSingle: Resources/SoldierSprites/04-TorsoItem/GreenCanteenRight.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/04-TorsoItem/GreenCanteenRight.png
   - typeSingle: HUMAN__4__HOLSTER_LEFT_U
-    fileSingle: Resources/SoldierSprites/04-TorsoItem/PistolHolsterLeft.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/04-TorsoItem/PistolHolsterLeft.png
   - typeSingle: HUMAN__4__HOLSTER_RIGHT_U
-    fileSingle: Resources/SoldierSprites/04-TorsoItem/PistolHolsterRight.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/04-TorsoItem/PistolHolsterRight.png
 # Finaliza TorsoItems
 # Empieza AmmoBandoliers
   - typeSingle: HUMAN__5__BANDOLIER_DOUBLE_A_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/DoubleBandolierA.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/DoubleBandolierA.png
   - typeSingle: HUMAN__5__BANDOLIER_DOUBLE_B_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/DoubleBandolierB.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/DoubleBandolierB.png
   - typeSingle: HUMAN__5__BANDOLIER_DOUBLE_C_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/DoubleBandolierC.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/DoubleBandolierC.png
   - typeSingle: HUMAN__5__BANDOLIER_DOUBLE_D_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/DoubleBandolierD.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/DoubleBandolierD.png
   - typeSingle: HUMAN__5__BANDOLIER_LEFT_A_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/LeftSingleBandolierA.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/LeftSingleBandolierA.png
   - typeSingle: HUMAN__5__BANDOLIER_LEFT_C_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/LeftSingleBandolierC.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/LeftSingleBandolierC.png
   - typeSingle: HUMAN__5__BANDOLIER_LEFT_D_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/LeftSingleBandolierD.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/LeftSingleBandolierD.png
   - typeSingle: HUMAN__5__BANDOLIER_RIGHT_A_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/RightSingleBandolierA.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/RightSingleBandolierA.png
   - typeSingle: HUMAN__5__BANDOLIER_RIGHT_B_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/RightSingleBandolierB.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/RightSingleBandolierB.png
   - typeSingle: HUMAN__5__BANDOLIER_RIGHT_C_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/RightSingleBandolierC.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/RightSingleBandolierC.png
   - typeSingle: HUMAN__5__BANDOLIER_RIGHT_D_U
-    fileSingle: Resources/SoldierSprites/05-AmmoBandolier/RightSingleBandolierD.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/05-AmmoBandolier/RightSingleBandolierD.png
 # Finaliza AmmoBandoliers
 # Empieza FaceItem
 
 # Termina FaceItem
 # Empieza Helmets
   - typeSingle: HUMAN__7__AMERICAN_BRODIE_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/AmericanBrodieHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/AmericanBrodieHelmet.png
   - typeSingle: HUMAN__7__AMERICAN_BRODIE_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/AmericanBrodieHelmetGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/AmericanBrodieHelmetGasMask.png
   - typeSingle: HUMAN__7__AMERICAN_DEAN_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/AmericanDeanHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/AmericanDeanHelmet.png
   - typeSingle: HUMAN__7__AMERICAN_DEAN_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/AmericanDeanHelmetGasmask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/AmericanDeanHelmetGasmask.png
   - typeSingle: HUMAN__7__AMERICAN_DEAN_ENCLOSED_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/AmericanDeanHelmetEnclosed.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/AmericanDeanHelmetEnclosed.png
   - typeSingle: HUMAN__7__AMERICAN_CAP_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/AmericanOverSeasCap.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/AmericanOverSeasCap.png
   - typeSingle: HUMAN__7__BRITISH_DAYFIELD_ENCLOSED_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/BritishDayfieldEnclosedHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/BritishDayfieldEnclosedHelmet.png
   - typeSingle: HUMAN__7__BRITISH_CAP_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/BritishServiceCap.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/BritishServiceCap.png
   - typeSingle: HUMAN__7__ANZAC_HAT_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/SlouchHat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/SlouchHat.png
   - typeSingle: HUMAN__7__CAMPAIGN_HAT_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/CampaignHat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/CampaignHat.png
   - typeSingle: HUMAN__7__CAMPAIGN_HAT_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/CampaignHatGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/CampaignHatGasMask.png
   - typeSingle: HUMAN__7__FRENCH_COLONIAL_ADRIAN_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchAdrianHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchAdrianHelmet.png
   - typeSingle: HUMAN__7__FRENCH_COLONIAL_HELMET_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchColonialHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchColonialHelmet.png
   - typeSingle: HUMAN__7__FRENCH_ADRIAN_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchAdrianHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchAdrianHelmet.png
   - typeSingle: HUMAN__7__FRENCH_ADRIAN_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchAdrianHelmetGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchAdrianHelmetGasMask.png
   - typeSingle: HUMAN__7__FRENCH_LANCIER_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchLancierHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchLancierHelmet.png
   - typeSingle: HUMAN__7__FRENCH_POLACK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchPolackHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchPolackHelmet.png
   - typeSingle: HUMAN__7__FRENCH_POLACK_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchPolackHelmetGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchPolackHelmetGasMask.png
   - typeSingle: HUMAN__7__FRENCH_HAT_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/FrenchServiceHat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/FrenchServiceHat.png
   - typeSingle: HUMAN__7__GERMAN_PICKELHAUBE_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/GermanPickelhaube.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/GermanPickelhaube.png
   - typeSingle: HUMAN__7__GERMAN_PICKELHAUBE_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/GermanPickelhaubeGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/GermanPickelhaubeGasMask.png
   - typeSingle: HUMAN__7__GERMAN_CAP_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/GermanServiceCap.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/GermanServiceCap.png
   - typeSingle: HUMAN__7__GERMAN_STAHLHELM_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/GermanStahlhelmHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/GermanStahlhelmHelmet.png
   - typeSingle: HUMAN__7__GERMAN_STAHLHELM_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/GermanStahlhelmHelmetGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/GermanStahlhelmHelmetGasMask.png
   - typeSingle: HUMAN__7__GERMAN_STURMPANZER_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/GermanSturmpanzerHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/GermanSturmpanzerHelmet.png
   - typeSingle: HUMAN__7__ITALIAN_ADRIAN_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/ItalianAdrianHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/ItalianAdrianHelmet.png
   - typeSingle: HUMAN__7__ITALIAN_ADRIAN_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/ItalianAdrianHelmetGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/ItalianAdrianHelmetGasMask.png
   - typeSingle: HUMAN__7__ITALIAN_ALPINI_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/ItalianAlpiniHat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/ItalianAlpiniHat.png
   - typeSingle: HUMAN__7__ITALIAN_DUNAND_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/ItalianDunandHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/ItalianDunandHelmet.png
   - typeSingle: HUMAN__7__ITALIAN_FARINA_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/ItalianFarinaHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/ItalianFarinaHelmet.png
   - typeSingle: HUMAN__7__ITALIAN_LANCIER_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/ItalianLancierHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/ItalianLancierHelmet.png
   - typeSingle: HUMAN__7__ITALIAN_CAP_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/ItalianServiceCap.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/ItalianServiceCap.png
   - typeSingle: HUMAN__7__MEXICAN_CAP_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/MexicanServiceCap.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/MexicanServiceCap.png
   - typeSingle: HUMAN__7__RUSSIAN_ADRIAN_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/RussianAdrianHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/RussianAdrianHelmet.png
   - typeSingle: HUMAN__7__RUSSIAN_ADRIAN_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/RussianLancierHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/RussianLancierHelmet.png
   - typeSingle: HUMAN__7__RUSSIAN_LANCIER_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/RussianLancierHelmet.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/RussianLancierHelmet.png
   - typeSingle: HUMAN__7__RUSSIAN_LANCIER_GASMASK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/RussianLancierHelmetGasMask.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/RussianLancierHelmetGasMask.png
   - typeSingle: HUMAN__7__RUSSIAN_PAPAKHA_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/RussianPapakhaHat.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/RussianPapakhaHat.png
   - typeSingle: HUMAN__7__RUSSIAN_POLACK_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/Sombrerito.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/Sombrerito.png
   - typeSingle: HUMAN__7__RUSSIAN_CAP_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/RussianServiceCap.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/RussianServiceCap.png
   - typeSingle: HUMAN__7__PILOT_CAP_U
-    fileSingle: Resources/SoldierSprites/07-Helmet/PilotCap.png
+    fileSingle: Resources/SoldiersSprites/Battlescape/SoldierSprites/07-Helmet/PilotCap.png
 # Termina Helmets
 # Empieza Capes
 
