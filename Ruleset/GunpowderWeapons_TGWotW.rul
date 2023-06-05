@@ -271,7 +271,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.2
+      ToArmorPre: 0.4
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
@@ -305,7 +305,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.2
+      ToArmorPre: 0.5
       RandomWound: false
     damageType: 10
     bulletSpeed: 15
@@ -483,7 +483,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.2
+      ToArmorPre: 0.4
       RandomWound: false
     damageType: 1
     invWidth: 1
@@ -517,7 +517,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.3
+      ToArmorPre: 0.5
       RandomWound: false
     damageType: 10
     bulletSpeed: 15
@@ -635,7 +635,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.2
+      ToArmorPre: 0.4
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
@@ -662,7 +662,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.3
+      ToArmorPre: 0.5
       RandomWound: false
     damageType: 10
     bulletSpeed: 15
@@ -795,7 +795,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.2
+      ToArmorPre: 0.4
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
@@ -828,7 +828,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.3
+      ToArmorPre: 0.5
       RandomWound: false
     damageType: 10
     bulletSpeed: 15
@@ -1089,7 +1089,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.2
+      ToArmorPre: 0.4
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
@@ -1124,7 +1124,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.3
+      ToArmorPre: 0.5
       RandomWound: false
     damageType: 10
     bulletSpeed: 15
@@ -1258,7 +1258,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.2
+      ToArmorPre: 0.4
       RandomWound: false
     damageType: 1
     bulletSpeed: 10
@@ -1293,7 +1293,7 @@ items:
     damageAlter:
       RandomType: 3
       IgnoreOverKill: true
-      ToArmorPre: 0.3
+      ToArmorPre: 0.5
       RandomWound: false
     damageType: 10
     bulletSpeed: 15
