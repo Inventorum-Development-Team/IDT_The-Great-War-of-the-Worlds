@@ -2428,7 +2428,7 @@ items:
     accuracyAuto: 50
     accuracyCloseQuarters: 140
     kneelBonus: 200
-    tuSnap: 15
+    tuSnap: 10
     tuAimed: 20
     tuAuto: 20
     minRange: 1
@@ -2463,7 +2463,7 @@ items:
     accuracyAimed: 80
     accuracyCloseQuarters: 110
     kneelBonus: 200
-    tuSnap: 30
+    tuSnap: 20
     tuAimed: 40
     minRange: 3
     snapRange: 13
@@ -2616,7 +2616,7 @@ items:
     kneelBonus: 200
     accuracySnap: 75
     accuracyAimed: 80
-    tuSnap: 18
+    tuSnap: 12
     tuAimed: 32
     tuLoad: 15
     minRange: 1
@@ -2712,7 +2712,7 @@ items:
     kneelBonus: 200
     accuracySnap: 50
     accuracyAimed: 75
-    tuSnap: 15
+    tuSnap: 10
     tuAimed: 20
     tuLoad: 15
     minRange: 3
@@ -2801,7 +2801,7 @@ items:
     kneelBonus: 200
     accuracySnap: 50
     accuracyAimed: 75
-    tuSnap: 18
+    tuSnap: 12
     tuAimed: 28
     minRange: 4
     snapRange: 14
@@ -2906,7 +2906,7 @@ items:
     accuracySnap: 60
     accuracyAimed: 120
     kneelBonus: 200
-    tuSnap: 20
+    tuSnap: 15
     tuAimed: 35
     tuLoad: 20
     minRange: 2
@@ -2956,7 +2956,7 @@ items:
     accuracySnap: 75
     accuracyAimed: 130
     kneelBonus: 200
-    tuSnap: 20
+    tuSnap: 10
     tuAimed: 35
     tuLoad: 15
     minRange: 4
