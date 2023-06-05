@@ -1,3 +1,8 @@
+X-July-2022: 0.9 Mk. IV 'Slavyanka'
+Changes made:
+*Buffed Bolt-action rifles' regular anr K-MM rounds armor penetration (was 0.2 and 0.3, now 0.4 and 0.5)
+*Buffed Pistols snapshot TU costs
+
 10-December-2022: 0.8 Mk. IV 'Slavyanka'
 Changes made:
 *Updated to latest OXCE version v7.8
