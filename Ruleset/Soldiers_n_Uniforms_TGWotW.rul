@@ -1190,7 +1190,7 @@ armors:
       - STR_PILOT
 
   - type: STR_POWER_SUIT
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: TOTENKOPF_POWER_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: POWER_SUIT
@@ -1404,7 +1404,7 @@ armors:
 # AMERICAN
 ######################
   - type: STR_AMERICAN_FIELD_UNIFORM_UC
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: AMERICAN_FIELD_UNIFORM_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: AMERICAN_FIELD_UNIFORM
@@ -1609,7 +1609,7 @@ armors:
       - STR_AMERICAN_SOLDIER
 
   - type: STR_AMERICAN_CAMPAIGN_UNIFORM
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: AMERICAN_CAMPAIGN_UNIFORM_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: AMERICAN_CAMPAIGN_UNIFORM
@@ -1795,7 +1795,7 @@ armors:
       - STR_AMERICAN_SOLDIER
 
   - type: STR_MEXICAN_FIELD_UNIFORM
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: MEXICAN_FIELD_UNIFORM_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: MEXICAN_FIELD_UNIFORM
@@ -1982,7 +1982,7 @@ armors:
 
 #Gasmask
   - type: STR_AMERICAN_GASMASK_UC
-    spriteSheet: XCOM_23GM.PCK
+    spriteSheet: AMERICAN_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: AMERICAN_GASMASK
@@ -2191,7 +2191,7 @@ armors:
 #######################
 
   - type: STR_AMERICAN_T2_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: AMERICAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: AMERICAN_T2_BODY_ARMOR
@@ -2396,7 +2396,7 @@ armors:
       - STR_AMERICAN_SOLDIER
 
   - type: STR_AMERICAN_T2_BODY_ARMOR_GASMASK
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: AMERICAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: AMERICAN_T2_BODY_ARMOR_GASMASK
@@ -2606,7 +2606,7 @@ armors:
 ################################
 
   - type: STR_AMERICAN_T3_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: AMERICAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: AMERICAN_T3_BODY_ARMOR
