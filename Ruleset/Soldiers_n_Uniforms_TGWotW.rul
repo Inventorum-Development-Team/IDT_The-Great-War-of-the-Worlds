@@ -403,7 +403,7 @@ soldiers:
     femaleFrequency: 10
     soldierNames:
       - delete
-      - ItalianNames/
+      - RussianNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
 
@@ -544,6 +544,20 @@ items:
 #####################
 # AMERICANS
 #####################
+
+  - type: STR_AMERICAN_FIELD_UNIFORM
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_AMERICAN_T2_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_AMERICAN_T3_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+
   - type: STR_AMERICAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -628,6 +642,21 @@ items:
 #########################
 # GERMANS
 #########################
+
+
+  - type: STR_GERMAN_FIELD_UNIFORM
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_GERMAN_T2_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_GERMAN_T3_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+
   - type: STR_GERMAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -704,6 +733,20 @@ items:
 ###################
 # FRENCH
 ####################
+
+  - type: STR_FRENCH_FIELD_UNIFORM
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_FRENCH_T2_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_FRENCH_T3_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+
   - type: STR_FRENCH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -777,6 +820,20 @@ items:
 ####################
 # ITALIAN
 #####################
+ 
+  - type: STR_ITALIAN_FIELD_UNIFORM
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_ITALIAN_T2_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_ITALIAN_T3_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+ 
   - type: STR_ITALIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -840,6 +897,20 @@ items:
 #####################
 # RUSSIAN
 #####################
+
+  - type: STR_RUSSIAN_FIELD_UNIFORM
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_RUSSIAN_T2_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+  - type: STR_RUSSIAN_T3_BODY_ARMOR
+    size: 0.8
+    costSell: 8500
+    costBuy: 1000
+
   - type: STR_RUSSIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -908,7 +979,7 @@ armors:
 #################################
 
   - type: STR_PERSONAL_ARMOR_UC
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: INMORTALE_HEAVY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: PERSONAL_ARMOR
