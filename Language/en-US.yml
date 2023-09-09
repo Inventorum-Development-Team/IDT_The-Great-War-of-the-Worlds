@@ -1951,7 +1951,7 @@ en-US:
 ######### ARMORS REPORTS #############
 ####################################
       STR_AMERICAN_FIELD_UNIFORM_UC: "American Field Uniform"
-      STR_AMERICAN_FIELD_UNIFORM_UC_UFOOEDIA: "Standard battle dress of the US military. It was widely promoted and distributed all over the continent, it is not uncommon to see Mexican and ABC troops with it. This variant is worn with the Overseas Cap, for the troops deployed outside the US. "
+      STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA: "Standard battle dress of the US military. It was widely promoted and distributed all over the continent, it is not uncommon to see Mexican and ABC troops with it. This variant is worn with the Overseas Cap, for the troops deployed outside the US. "
       STR_AMERICAN_CAMPAIGN_UNIFORM: "American Campaign Dress"
       STR_AMERICAN_CAMPAIGN_UNIFORM_UFOPEDIA: "Standard uniform of the US armed forces. This variant is worn with a campaign hat, for the troopers fighting in Continental America."
       STR_AMERICAN_GASMASK_UC: "American Trench Coat w/ SBR "

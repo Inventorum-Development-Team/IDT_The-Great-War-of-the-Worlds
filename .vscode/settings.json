@@ -1,4 +1,5 @@
 {
     "files.trimTrailingWhitespace": true,
-    "csv-edit.readOption_hasHeader": "true"
+    "csv-edit.readOption_hasHeader": "true",
+    "oxcYamlHelper.rulesetDocumentationSettings": 0
 }
