@@ -9207,101 +9207,52 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_VOLONIAL_UNIFORM_SPRITESHEET.png
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_COLONIAL_UNIFORM_SPRITESHEET.png
 
-#Gas Mask
-  - type: MAN_26GM.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26GM.png
-  - type: XCOM_26GM.PCK
+  - type: FRENCH_COAT_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK.png
-#Officer Uniform
-#  - type: MAN_26OUF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF0.png
-#  - type: MAN_26OUF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF1.png
-#  - type: MAN_26OUF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF2.png
-#  - type: MAN_26OUF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUF3.png
-#  - type: MAN_26OUM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM0.png
-#  - type: MAN_26OUM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM1.png
-#  - type: MAN_26OUM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM2.png
-#  - type: MAN_26OUM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26OUM3.png
-#  - type: XCOM_26OU.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_OFFICER_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_COAT_SPRITESHEET.png
 
-#Trench Coat Uniform
-#  - type: MAN_26TCF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF0.png
-#  - type: MAN_26TCF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF1.png
-#  - type: MAN_26TCF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF2.png
-#  - type: MAN_26TCF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCF3.png
-#  - type: MAN_26TCM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM0.png
-#  - type: MAN_26TCM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM1.png
-#  - type: MAN_26TCM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM2.png
-#  - type: MAN_26TCM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26TCM3.png
-#  - type: XCOM_26TC.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_TRENCHCOAT_UNIFORM.png
+#Gas Mask
+  - type: FRENCH_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK_SPRITESHEET.png
+
+#French T2 Armor
+  - type: FRENCH_T2_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_SPRITESHEET.png
+
+  - type: FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png   
+ 
+ #French T3 Armor
+  - type: FRENCH_T3_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_SPRITESHEET.png
+      
+
 ####################
 # ITALIAN
 ####################
@@ -9344,145 +9295,118 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27M3.png
-  - type: XCOM_27.PCK
+
+#Field Uniform
+  - type: ITALIAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_FIELD_UNIFORM_SPRITESHEET.png
+#Gasmask
+  - type: ITALIAN_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_GASMASK_SPRITESHEET.png
+      
 #Alpini Uniform
-  - type: MAN_27AUF0.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF0.png
-  - type: MAN_27AUF1.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF1.png
-  - type: MAN_27AUF2.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF2.png
-  - type: MAN_27AUF3.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUF3.png
-  - type: MAN_27AUM0.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM0.png
-  - type: MAN_27AUM1.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM1.png
-  - type: MAN_27AUM2.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM2.png
-  - type: MAN_27AUM3.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27AUM3.png
-  - type: XCOM_27AU.PCK
+  - type: ITALIAN_ALPINI_UNIFORM_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_ALPINI_UNIFORM.png
-#Officer Uniform
-#  - type: MAN_27OUF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF0.png
-#  - type: MAN_27OUF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF1.png
-#  - type: MAN_27OUF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF2.png
-#  - type: MAN_27OUF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUF3.png
-#  - type: MAN_27OUM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM0.png
-#  - type: MAN_27OUM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM1.png
-#  - type: MAN_27OUM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM2.png
-#  - type: MAN_27OUM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27OUM3.png
-#  - type: XCOM_27OU.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_OFFICER_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_ALPINI_UNIFORM_SPRITESHEET.png
 
-#Trench Coat Uniform
-#  - type: MAN_27TCF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF0.png
-#  - type: MAN_27TCF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF1.png
-#  - type: MAN_27TCF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF2.png
-#  - type: MAN_27TCF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCF3.png
-#  - type: MAN_27TCM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM0.png
-#  - type: MAN_27TCM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM1.png
-#  - type: MAN_27TCM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM2.png
-#  - type: MAN_27TCM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27TCM3.png
-#  - type: XCOM_27TC.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_TRENCHCOAT_UNIFORM.png
-
-
-  - type: BIGOBS.PCK
+#Italian T2 Armor
+  - type: ITALIAN_T2_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
     files:
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_SPRITESHEET.png
+  - type: ITALIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
+
+#Italian T3 Armor
+  - type: ITALIAN_T3_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_SPRITESHEET.png
+
+####################
+# RUSSIAN
+####################
+
+#Field Uniform
+  - type: RUSSIAN_FIELD_UNIFORM_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_FIELD_UNIFORM_SPRITESHEET.png
+ #Russian Coat     
+  - type: RUSSIAN_COAT_UNIFORM_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_COAT_UNIFORM_SPRITESHEET.png      
+#Gasmask
+  - type: RUSSIAN_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_GASMASK_SPRITESHEET.png
+
+# Russian T2 Armor
+  - type: RUSSIAN_T2_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_SPRITESHEET.png
+  - type: RUSSIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
+
+# Russian T3 Armor
+  - type: RUSSIAN_T3_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_SPRITESHEET.png
 
 #############
 # SPECIAL ARMORS
 #############
-      5000: Resources/SoldiersSprites/Battlescape/British/PERSONAL_ARMOR_CORPSE_BIGOB.png
-      5001: Resources/SoldiersSprites/Battlescape/British/POWER_SUIT_CORPSE_BIGOB.png
-      #5002: Resources/SoldiersSprites/Battlescape/British/FLAMETROOPER_CORPSE_BIGOB.png
+      5000: Resources/SoldiersSprites/Battlescape/Special/PERSONAL_ARMOR_CORPSE_BIGOB.png
+      5001: Resources/SoldiersSprites/Battlescape/Special/POWER_SUIT_CORPSE_BIGOB.png
+      #5002: Resources/SoldiersSprites/Battlescape/Special/FLAMETROOPER_CORPSE_BIGOB.png
 
 #############
 # BRITISH
@@ -9500,7 +9424,7 @@ extraSprites:
       5020: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_CORPSE_BIGOB.png
       5021: Resources/SoldiersSprites/Battlescape/American/AMERICAN_CAMPAIGN_UNIFORM_CORPSE_BIGOB.png
       5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_UNIFORM_CORPSE_BIGOB.png
-      #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_CORPSE_BIGOB.png
+      #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_UNIFORM_CORPSE_BIGOB.png
       5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_BIGOB.png
       5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5026: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
@@ -9554,9 +9478,9 @@ extraSprites:
 #############
 # SPECIAL ARMORS
 #############
-      5000: Resources/SoldiersSprites/Battlescape/British/PERSONAL_ARMOR_CORPSE_FLOOROB.png
-      5001: Resources/SoldiersSprites/Battlescape/British/POWER_SUIT_CORPSE_FLOOROB.png
-      #5002: Resources/SoldiersSprites/Battlescape/British/FLAMETROOPER_CORPSE_FLOOROB.png
+      5000: Resources/SoldiersSprites/Battlescape/Special/PERSONAL_ARMOR_CORPSE_FLOOROB.png
+      5001: Resources/SoldiersSprites/Battlescape/Special/POWER_SUIT_CORPSE_FLOOROB.png
+      #5002: Resources/SoldiersSprites/Battlescape/Special/FLAMETROOPER_CORPSE_FLOOROB.png
 
 #############
 # BRITISH
@@ -9574,7 +9498,7 @@ extraSprites:
       5020: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
       5021: Resources/SoldiersSprites/Battlescape/American/AMERICAN_CAMPAIGN_UNIFORM_CORPSE_FLOOROB.png
       5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_UNIFORM_CORPSE_FLOOROB.png
-      #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_CORPSE_FLOOROB.png
+      #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_UNIFORM_CORPSE_FLOOROB.png
       5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_FLOOROB.png
       5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5026: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
