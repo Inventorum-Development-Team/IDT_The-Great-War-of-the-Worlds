@@ -6576,8 +6576,7 @@ armors:
 ####################
 #ITALIAN
   - type: STR_ITALIAN_FIELD_UNIFORM_UC
-    spriteSheet: XCOM_27.PCK
-    spriteInv: MAN_27
+    spriteSheet: ITALIAN_FIELD_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_ITALIAN_FIELD_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -6782,8 +6781,7 @@ armors:
       - STR_ITALIAN_SOLDIER
 
   - type: STR_ITALIAN_ALPINI_UNIFORM_UC
-    spriteSheet: XCOM_27AU.PCK
-    spriteInv: MAN_27AU
+    spriteSheet: ITALIAN_ALPINI_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_ITALIAN_ALPINI_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -6962,8 +6960,7 @@ armors:
       - STR_ITALIAN_SOLDIER
 
   - type: STR_ITALIAN_GASMASK_UC
-    spriteSheet: XCOM_26GM.PCK
-    spriteInv: MAN_26GM
+    spriteSheet: ITALIAN_GASMASK_SPRITESHEET
     corpseBattle:
       - STR_ITALIAN_GASMASK_CORPSE
     storeItem: STR_NONE
@@ -7153,7 +7150,7 @@ armors:
 ########################
 
   - type: STR_ITALIAN_T2_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: ITALIAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: ITALIAN_T2_BODY_ARMOR
@@ -7339,7 +7336,7 @@ armors:
       - STR_ITALIAN_SOLDIER
 
   - type: STR_ITALIAN_T2_BODY_ARMOR_GASMASK
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: ITALIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: ITALIAN_T2_BODY_ARMOR_GASMASK
@@ -7530,7 +7527,7 @@ armors:
 
 
   - type: STR_ITALIAN_T3_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: ITALIAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: ITALIAN_T3_BODY_ARMOR
@@ -7720,8 +7717,7 @@ armors:
 #########################
 
   - type: STR_RUSSIAN_FIELD_UNIFORM_UC
-    spriteSheet: XCOM_27.PCK
-    spriteInv: MAN_27
+    spriteSheet: RUSSIAN_FIELD_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_RUSSIAN_FIELD_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -7907,8 +7903,7 @@ armors:
       - STR_RUSSIAN_SOLDIER
 
   - type: STR_RUSSIAN_COAT_UNIFORM
-    spriteSheet: XCOM_27AU.PCK
-    spriteInv: MAN_27AU
+    spriteSheet: RUSSIAN_COAT_SPRITESHEET
     corpseBattle:
       - STR_RUSSIAN_COAT_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -8087,8 +8082,7 @@ armors:
       - STR_RUSSIAN_SOLDIER
 
   - type: STR_RUSSIAN_GASMASK_UC
-    spriteSheet: XCOM_26GM.PCK
-    spriteInv: MAN_26GM
+    spriteSheet: RUSSIAN_GASMASK_SPRITESHEET
     corpseBattle:
       - STR_RUSSIAN_GASMASK_CORPSE
     storeItem: STR_NONE
@@ -8278,7 +8272,7 @@ armors:
 ########################
 
   - type: STR_RUSSIAN_T2_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: RUSSIAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: RUSSIAN_T2_BODY_ARMOR
@@ -8464,7 +8458,7 @@ armors:
       - STR_RUSSIAN_SOLDIER
 
   - type: STR_RUSSIAN_T2_BODY_ARMOR_GASMASK
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: RUSSIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: RUSSIAN_T2_BODY_ARMOR_GASMASK
@@ -8655,7 +8649,7 @@ armors:
 
 
   - type: STR_RUSSIAN_T3_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: RUSSIAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: RUSSIAN_T3_BODY_ARMOR
