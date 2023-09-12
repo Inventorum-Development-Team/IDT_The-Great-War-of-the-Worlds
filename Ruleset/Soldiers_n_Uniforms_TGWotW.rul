@@ -820,7 +820,7 @@ items:
 ####################
 # ITALIAN
 #####################
- 
+
   - type: STR_ITALIAN_FIELD_UNIFORM
     size: 0.8
     costSell: 8500
@@ -833,7 +833,7 @@ items:
     size: 0.8
     costSell: 8500
     costBuy: 1000
- 
+
   - type: STR_ITALIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -2815,8 +2815,7 @@ armors:
 ##########################
 
   - type: STR_BRITISH_FIELD_UNIFORM_UC
-    spriteSheet: XCOM_22.PCK
-    spriteInv: MAN_22
+    spriteSheet: BRITISH_FIELD_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_BRITISH_FIELD_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -3002,8 +3001,7 @@ armors:
       - STR_BRITISH_SOLDIER
 
   - type: STR_BRITISH_ANZAC_UNIFORM_UC
-    spriteSheet: XCOM_22.PCK
-    spriteInv: MAN_22
+    spriteSheet: BRITISH_ANZAC_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_BRITISH_ANZAC_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -3189,8 +3187,7 @@ armors:
       - STR_BRITISH_SOLDIER
 
   - type: STR_BRITISH_GASMASK_UC
-    spriteSheet: XCOM_22GM.PCK
-    spriteInv: MAN_22GM
+    spriteSheet: BRITISH_GASMASK_SPRITESHEET
     corpseBattle:
       - STR_BRITISH_GASMASK_CORPSE
     storeItem: STR_NONE
@@ -3380,7 +3377,7 @@ armors:
 ########################
 
   - type: STR_BRITISH_T2_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: BRITISH_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: BRITISH_T2_BODY_ARMOR
@@ -3566,7 +3563,7 @@ armors:
       - STR_BRITISH_SOLDIER
 
   - type: STR_BRITISH_T2_BODY_ARMOR_GASMASK
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: BRITISH_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: BRITISH_T2_BODY_ARMOR_GASMASK
@@ -3757,7 +3754,7 @@ armors:
 
 
   - type: STR_BRITISH_T3_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: BRITISH_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: BRITISH_T3_BODY_ARMOR
@@ -3947,8 +3944,7 @@ armors:
 #########################
 #GERMAN
   - type: STR_GERMAN_FIELD_UNIFORM_UC
-    spriteSheet: XCOM_24.PCK
-    spriteInv: MAN_24
+    spriteSheet: GERMAN_FIELD_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_GERMAN_FIELD_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -4135,8 +4131,7 @@ armors:
 
 #Pickelhauben
   - type: STR_GERMAN_PICKELHAUBE_UNIFORM
-    spriteSheet: XCOM_24.PCK
-    spriteInv: MAN_24
+    spriteSheet: GERMAN_PICKELHAUBE_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_GERMAN_PICKELHAUBE_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -4323,8 +4318,7 @@ armors:
 
 #Gasmask
   - type: STR_GERMAN_GASMASK_UC
-    spriteSheet: XCOM_24GM.PCK
-    spriteInv: MAN_24GM
+    spriteSheet: GERMAN_GASMASK_SPRITESHEET
     corpseBattle:
       - STR_GERMAN_GASMASK_CORPSE
     storeItem: STR_NONE
@@ -4514,7 +4508,7 @@ armors:
 ########################
 
   - type: STR_GERMAN_T2_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: GERMAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: GERMAN_T2_BODY_ARMOR
@@ -4700,7 +4694,7 @@ armors:
       - STR_GERMAN_SOLDIER
 
   - type: STR_GERMAN_T2_BODY_ARMOR_GASMASK
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: GERMAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: GERMAN_T2_BODY_ARMOR_GASMASK
@@ -4891,7 +4885,7 @@ armors:
 
 
   - type: STR_GERMAN_T3_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: GERMAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: GERMAN_T3_BODY_ARMOR
@@ -5081,8 +5075,7 @@ armors:
 ###################
 #Pilot
   - type: STR_PILOT_UNIFORM_UC
-    spriteSheet: XCOM_25.PCK
-    spriteInv: MAN_25
+    spriteSheet: PILOT_SPRITESHEET
     corpseBattle:
       - STR_PILOT_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -5272,8 +5265,7 @@ armors:
 #####################
 #French
   - type: STR_FRENCH_FIELD_UNIFORM_UC
-    spriteSheet: XCOM_26.PCK
-    spriteInv: MAN_26
+    spriteSheet: FRENCH_FIELD_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_FRENCH_FIELD_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -5459,8 +5451,7 @@ armors:
       - STR_FRENCH_SOLDIER
 
   - type: STR_FRENCH_COLONIAL_UNIFORM
-    spriteSheet: XCOM_26.PCK
-    spriteInv: MAN_26
+    spriteSheet: FRENCH_COLONIAL_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_FRENCH_COLONIAL_UNIFORM_CORPSE
     storeItem: STR_NONE
@@ -5646,8 +5637,7 @@ armors:
       - STR_FRENCH_SOLDIER
 
   - type: STR_FRENCH_COAT
-    spriteSheet: XCOM_26GM.PCK
-    spriteInv: MAN_26GM
+    spriteSheet: FRENCH_COAT_SPRITESHEET
     corpseBattle:
       - STR_FRENCH_COAT_CORPSE
     storeItem: STR_NONE
@@ -5830,8 +5820,7 @@ armors:
       - STR_FRENCH_SOLDIER
 
   - type: STR_FRENCH_GASMASK_UC
-    spriteSheet: XCOM_26GM.PCK
-    spriteInv: MAN_26GM
+    spriteSheet: FRENCH_GASMASK_SPRITESHEET
     corpseBattle:
       - STR_FRENCH_GASMASK_CORPSE
     storeItem: STR_NONE
@@ -6021,7 +6010,7 @@ armors:
 ########################
 
   - type: STR_FRENCH_T2_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: FRENCH_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: FRENCH_T2_BODY_ARMOR
@@ -6207,7 +6196,7 @@ armors:
       - STR_FRENCH_SOLDIER
 
   - type: STR_FRENCH_T2_BODY_ARMOR_GASMASK
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: FRENCH_T2_BODY_ARMOR_GASMASK
@@ -6398,7 +6387,7 @@ armors:
 
 
   - type: STR_FRENCH_T3_BODY_ARMOR
-    spriteSheet: XCOM_23.PCK
+    spriteSheet: FRENCH_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: FRENCH_T3_BODY_ARMOR
