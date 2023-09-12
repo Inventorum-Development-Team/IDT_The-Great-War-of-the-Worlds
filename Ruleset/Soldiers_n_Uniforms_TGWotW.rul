@@ -8877,108 +8877,68 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23M3.png
-  - type: XCOM_23.PCK
+      
+  - type: AMERICAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_SPRITESHEET.png
 
 #Gas Mask
-  - type: MAN_23GM.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23GM.png
-  - type: XCOM_23GM.PCK
+  - type: AMERICAN_GASMASK_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK.png
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_SPRITESHEET.png
+#Campaign Uniform
+  - type: AMERICAN_CAMPAIGN_UNIFORM_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_CAMPAIGN_UNIFORM_SPRITESHEET.png
+#Mexican Federal Army Uniform
+  - type: MEXICAN_FIELD_UNIFORM_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/American/MEXICAN_FIELD_UNIFORM_SPRITESHEET.png
 
-#Officer Uniform
-#  - type: MAN_23OUF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF0.png
-#  - type: MAN_23OUF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF1.png
-#  - type: MAN_23OUF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF2.png
-#  - type: MAN_23OUF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF3.png
-#  - type: MAN_23OUM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM0.png
-#  - type: MAN_23OUM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM1.png
-#  - type: MAN_23OUM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM2.png
-#  - type: MAN_23OUM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM3.png
-#  - type: XCOM_23OU.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_OFFICER_UNIFORM.png
+#American T2 Armor
+  - type: AMERICAN_T2_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_SPRITESHEET.png
+  - type: AMERICAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
 
-#Trench Coat Uniform
-#  - type: MAN_23TCF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF0.png
-#  - type: MAN_23TCF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF1.png
-#  - type: MAN_23TCF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF2.png
-#  - type: MAN_23TCF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF3.png
-#  - type: MAN_23TCM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM0.png
-#  - type: MAN_23TCM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM1.png
-#  - type: MAN_23TCM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM2.png
-#  - type: MAN_23TCM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM3.png
-#  - type: XCOM_23TC.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_TRENCHCOAT_UNIFORM.png
+#American T3 Armor
+  - type: AMERICAN_T3_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_SPRITESHEET.png
+
+###################
+# BRITISH 
+###################
 
   - type: BRITISH_SOLDIER_IMAGE
     singleImage: true
@@ -9019,106 +8979,57 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22M3.png
-  - type: XCOM_22.PCK
+      
+  - type: BRITISH_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_FIELD_UNIFORM_SPRITESHEET.png
+  - type: BRITISH_ANZAC_UNIFORM_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_ANZAC_UNIFORM_SPRITESHEET.png      
+      
 #Gasmask
-  - type: MAN_22GM.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22GM.png
-  - type: XCOM_22GM.PCK
+  - type: BRITISH_GASMASK_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK.png
-#Officer Uniform
-#  - type: MAN_23OUF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF0.png
-#  - type: MAN_23OUF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF1.png
-#  - type: MAN_23OUF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF2.png
-#  - type: MAN_23OUF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUF3.png
-#  - type: MAN_23OUM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM0.png
-#  - type: MAN_23OUM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM1.png
-#  - type: MAN_23OUM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM2.png
-#  - type: MAN_23OUM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23OUM3.png
-#  - type: XCOM_23OU.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_OFFICER_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK_SPRITESHEET.png
 
-#Trench Coat Uniform
-#  - type: MAN_23TCF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF0.png
-#  - type: MAN_23TCF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF1.png
-#  - type: MAN_23TCF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF2.png
-#  - type: MAN_23TCF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCF3.png
-#  - type: MAN_23TCM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM0.png
-#  - type: MAN_23TCM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM1.png
-#  - type: MAN_23TCM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM2.png
-#  - type: MAN_23TCM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23TCM3.png
-#  - type: XCOM_23TC.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_TRENCHCOAT_UNIFORM.png
+#British T2 Armor 
+  - type: BRITISH_T2_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_SPRITESHEET.png
+  - type: BRITISH_T2_BODY_ARMOR_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
+
+#British T3 Armor 
+  - type: BRITISH_T3_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_SPRITESHEET.png
+
+
 ###################
 # GERMANS
 ###################
@@ -9161,107 +9072,59 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24M3.png
-  - type: XCOM_24.PCK
+
+#Field Uniform
+  - type: GERMAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_FIELD_UNIFORM_SPRITESHEET.png
+
+  - type: GERMAN_PICKELHAUBE_UNIFORM_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_PICKELHAUBE_UNIFORM_SPRITESHEET.png
+
 #Gas Mask
-  - type: MAN_24GM.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24GM.png
-  - type: XCOM_24GM.PCK
+  - type: GERMAN_GASMASK_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK.png
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK_SPRITESHEET.png
 
-#Officer Uniform
-#  - type: MAN_24OUF0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF0.png
-#  - type: MAN_24OUF1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF1.png
-#  - type: MAN_24OUF2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF2.png
-#  - type: MAN_24OUF3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUF3.png
-#  - type: MAN_24OUM0.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM0.png
-#  - type: MAN_24OUM1.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM1.png
-#  - type: MAN_24OUM2.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM2.png
-#  - type: MAN_24OUM3.SPK
-#    singleImage: true
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24OUM3.png
-#  - type: XCOM_24OU.PCK
-#    width: 512
-#    height: 720
-#    subX: 32
-#    subY: 40
-#    files:
-#      0: Resources/SoldiersSprites/Battlescape/GERMAN/GERMAN_OFFICER_UNIFORM.png
 
-#Trench Coat Uniform
-  - type: MAN_24TCF0.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF0.png
-  - type: MAN_24TCF1.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF1.png
-  - type: MAN_24TCF2.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF2.png
-  - type: MAN_24TCF3.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCF3.png
-  - type: MAN_24TCM0.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM0.png
-  - type: MAN_24TCM1.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM1.png
-  - type: MAN_24TCM2.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM2.png
-  - type: MAN_24TCM3.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/GERMAN/Inventory/MAN_24TCM3.png
-  - type: XCOM_24TC.PCK
+#German T2 Armor
+  - type: GERMAN_T2_BODY_ARMOR_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_TRENCH_COAT.png
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_SPRITESHEET.png
+  - type: GERMAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
+
+#German T3 Armor
+  - type: GERMAN_T3_BODY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_SPRITESHEET.png
+
 ####################
 # PILOT
 ####################
@@ -9271,40 +9134,13 @@ extraSprites:
     height: 200
     files:
       0: Resources/SoldiersSprites/Battlescape/UFOpedia/PILOT_IMAGE.PNG
-  - type: MAN_25F0.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F0.png
-  - type: MAN_25F1.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F1.png
-  - type: MAN_25F2.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F2.png
-  - type: MAN_25F3.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25F3.png
-  - type: MAN_25M0.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M0.png
-  - type: MAN_25M1.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M1.png
-  - type: MAN_25M2.SPK
-    singleImage: true
-    files:
-      0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M2.png
+
   - type: MAN_25M3.SPK
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M3.png
 
-  - type: XCOM_25.PCK
+  - type: PILOT_SPRITESHEET
     width: 512
     height: 720
     subX: 32
@@ -9356,13 +9192,23 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26M3.png
-  - type: XCOM_26.PCK
+      
+  - type: FRENCH_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_FIELD_UNIFORM.png
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_FIELD_UNIFORM_SPRITESHEET.png
+
+  - type: FRENCH_COLONIAL_UNIFORM_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_VOLONIAL_UNIFORM_SPRITESHEET.png
+
 #Gas Mask
   - type: MAN_26GM.SPK
     singleImage: true
