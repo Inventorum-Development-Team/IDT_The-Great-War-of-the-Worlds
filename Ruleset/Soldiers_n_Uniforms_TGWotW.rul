@@ -9413,7 +9413,7 @@ extraSprites:
       5013: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK_CORPSE_BIGOB.png
       5014: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5015: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
-      5016: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_CORPSE.png
+      5016: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_CORPSE_BIGOB.png
 #############
 # AMERICAN
 #############
@@ -9424,7 +9424,7 @@ extraSprites:
       5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_BIGOB.png
       5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5026: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
-      5027: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_CORPSE.png
+      5027: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_CORPSE_BIGOB.png
 #############
 # GERMAN
 #############
@@ -9433,7 +9433,7 @@ extraSprites:
       5032: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK_CORPSE_BIGOB.png
       5033: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5034: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
-      5035: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_CORPSE.png
+      5035: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_CORPSE_BIGOB.png
 #############
 # PILOT
 #############
@@ -9447,7 +9447,7 @@ extraSprites:
       5053: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK_CORPSE_BIGOB.png
       5054: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5055: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
-      5056: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_CORPSE.png
+      5056: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_CORPSE_BIGOB.png
 #############
 # ITALIAN
 #############
@@ -9456,7 +9456,7 @@ extraSprites:
       5062: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_GASMASK_CORPSE_BIGOB.png
       5063: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5064: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
-      5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE.png
+      5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE_BIGOB.png
 
 #############
 # RUSSIAN
@@ -9466,7 +9466,7 @@ extraSprites:
       5072: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_GASMASK_CORPSE_BIGOB.png
       5073: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5074: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
-      5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE.png
+      5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE_BIGOB.png
 
   - type: FLOOROB.PCK
     files:
@@ -9487,7 +9487,7 @@ extraSprites:
       5013: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK_CORPSE_FLOOROB.png
       5014: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5015: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
-      5016: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_CORPSE.png
+      5016: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_CORPSE_FLOOROB.png
 #############
 # AMERICAN
 #############
@@ -9498,7 +9498,7 @@ extraSprites:
       5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_FLOOROB.png
       5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5026: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
-      5027: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_CORPSE.png
+      5027: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_CORPSE_FLOOROB.png
 #############
 # GERMAN
 #############
@@ -9507,7 +9507,7 @@ extraSprites:
       5032: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK_CORPSE_FLOOROB.png
       5033: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5034: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
-      5035: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_CORPSE.png
+      5035: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_CORPSE_FLOOROB.png
 #############
 # PILOT
 #############
@@ -9521,7 +9521,7 @@ extraSprites:
       5053: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK_CORPSE_FLOOROB.png
       5054: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5055: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
-      5056: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_CORPSE.png
+      5056: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_CORPSE_FLOOROB.png
 #############
 # ITALIAN
 #############
@@ -9530,7 +9530,7 @@ extraSprites:
       5062: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_GASMASK_CORPSE_FLOOROB.png
       5063: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5064: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
-      5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE.png
+      5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE_FLOOROB.png
 
 #############
 # RUSSIAN
@@ -9540,7 +9540,7 @@ extraSprites:
       5072: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_GASMASK_CORPSE_FLOOROB.png
       5073: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5074: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
-      5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE.png
+      5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE_FLOOOROB.png
 
 
 
