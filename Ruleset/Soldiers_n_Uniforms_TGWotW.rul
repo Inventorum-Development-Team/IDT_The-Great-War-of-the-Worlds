@@ -457,10 +457,6 @@ items:
 # BRITISH
 #############################
 
-  - type: STR_BRITISH_FIELD_UNIFORM
-    size: 0.8
-    costSell: 8500
-    costBuy: 1000
   - type: STR_BRITISH_T2_BODY_ARMOR
     size: 0.8
     costSell: 8500
@@ -545,10 +541,6 @@ items:
 # AMERICANS
 #####################
 
-  - type: STR_AMERICAN_FIELD_UNIFORM
-    size: 0.8
-    costSell: 8500
-    costBuy: 1000
   - type: STR_AMERICAN_T2_BODY_ARMOR
     size: 0.8
     costSell: 8500
@@ -643,11 +635,6 @@ items:
 # GERMANS
 #########################
 
-
-  - type: STR_GERMAN_FIELD_UNIFORM
-    size: 0.8
-    costSell: 8500
-    costBuy: 1000
   - type: STR_GERMAN_T2_BODY_ARMOR
     size: 0.8
     costSell: 8500
@@ -734,10 +721,6 @@ items:
 # FRENCH
 ####################
 
-  - type: STR_FRENCH_FIELD_UNIFORM
-    size: 0.8
-    costSell: 8500
-    costBuy: 1000
   - type: STR_FRENCH_T2_BODY_ARMOR
     size: 0.8
     costSell: 8500
@@ -821,10 +804,6 @@ items:
 # ITALIAN
 #####################
 
-  - type: STR_ITALIAN_FIELD_UNIFORM
-    size: 0.8
-    costSell: 8500
-    costBuy: 1000
   - type: STR_ITALIAN_T2_BODY_ARMOR
     size: 0.8
     costSell: 8500
@@ -898,10 +877,6 @@ items:
 # RUSSIAN
 #####################
 
-  - type: STR_RUSSIAN_FIELD_UNIFORM
-    size: 0.8
-    costSell: 8500
-    costBuy: 1000
   - type: STR_RUSSIAN_T2_BODY_ARMOR
     size: 0.8
     costSell: 8500
@@ -1404,7 +1379,7 @@ armors:
 # AMERICAN
 ######################
   - type: STR_AMERICAN_FIELD_UNIFORM_UC
-    spriteSheet: AMERICAN_FIELD_UNIFORM_SPRITESHEET
+    spriteSheet: AMERICAN_FIELD_UNIFORM
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: AMERICAN_FIELD_UNIFORM
@@ -8835,6 +8810,25 @@ armors:
       - STR_RUSSIAN_SOLDIER
 
 extraSprites:
+##############
+# SPECIAL
+##############
+# L'Inmortale Heavy Armor
+  - type: INMORTALE_HEAVY_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Special/INMORTALE_HEAVY_ARMOR_SPRITESHEET.png
+
+  - type: TOTENKOPF_POWER_ARMOR_SPRITESHEET
+    width: 512
+    height: 720
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/SoldiersSprites/Battlescape/Special/TOTENKOPF_POWER_ARMOR_SPRITESHEET.png
 ####################
 # AMERICAN
 ####################
@@ -9404,6 +9398,8 @@ extraSprites:
 #############
 # SPECIAL ARMORS
 #############
+
+
       5000: Resources/SoldiersSprites/Battlescape/Special/PERSONAL_ARMOR_CORPSE_BIGOB.png
       5001: Resources/SoldiersSprites/Battlescape/Special/POWER_SUIT_CORPSE_BIGOB.png
       #5002: Resources/SoldiersSprites/Battlescape/Special/FLAMETROOPER_CORPSE_BIGOB.png
