@@ -1802,7 +1802,7 @@ research:
     points: 70
     dependencies:
       - STR_BODY_ARMOR_THEORY
-      - STR_MARTIAN_METAL_ARMOR_PLATES      
+      - STR_MARTIAN_METAL_ARMOR_PLATES
   - name: STR_AMERICAN_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1866,7 +1866,7 @@ research:
     points: 70
     dependencies:
       - STR_T2_HEAVY_BODY_ARMOR
-      - STR_MARTIAN_METAL_ARMOR_PLATES      
+      - STR_MARTIAN_METAL_ARMOR_PLATES
   - name: STR_AMERICAN_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -2083,7 +2083,32 @@ research:
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
 
-# REGULAR SOLDIERS 
+# REGULAR SOLDIERS
+
+  - name: STR_MARTIAN_CONSCRIPT_INTERROGATION
+    cost: 15
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_LINE_INFANTRY_INTERROGATION
+    cost: 20
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_MARINE_INTERROGATION
+    cost: 15
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_SKIRMISHER_INTERROGATION
+    cost: 15
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_ROYAL_GUARD_INTERROGATION
+    cost: 15
+    points: 50
+    needItem: true
+  - name: STR_MARTIAN_SHOCK_GUARD_INTERROGATION
+    cost: 15
+    points: 50
+    needItem: true
 
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
@@ -2474,7 +2499,7 @@ research:
     cost: 192
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
      - STR_MARTIAN_LINE_INFANTRY_INTERROGATION
     getOneFree:
@@ -2498,7 +2523,7 @@ research:
     cost: 192
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
      - STR_MARTIAN_MARINE_INTERROGATION
     getOneFree:
@@ -2524,7 +2549,7 @@ research:
     cost: 192
     points: 50
     needItem: true
-    destroyItem: true 
+    destroyItem: true
     unlocks:
      - STR_MARTIAN_SKIRMISHER_INTERROGATION
     getOneFree:
@@ -2549,6 +2574,8 @@ research:
     points: 50
     needItem: true
     destroyItem: true
+    unlocks:
+     - STR_MARTIAN_SHOCK_GUARD_INTERROGATION
     getOneFree:
       - NIMBLE_FIGHTER
       - TRANSPORT_BARGE
@@ -2563,6 +2590,8 @@ research:
     points: 50
     needItem: true
     destroyItem: true
+    unlocks:
+     - STR_MARTIAN_ROYAL_GUARD_INTERROGATION
     getOneFree:
       - STR_MARTIAN_ASSAULT_WALKER
       - STR_MARTIAN_BATTLE_WALKER
