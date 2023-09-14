@@ -9972,7 +9972,7 @@ extraSprites:
     fileSingle: Resources/SoldiersSprites/01-Uniform/BritishUniform.png
   - typeSingle: HUMAN__1__FRENCH_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/FrenchCoat.png
-  - typeSingle: HUMAN__1__FRENCH_COAT_U
+  - typeSingle: HUMAN__1__FRENCH_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/FrenchUniform.png
   - typeSingle: HUMAN__1__FRENCH_COLONIAL_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/FrenchColonialCoat.png
