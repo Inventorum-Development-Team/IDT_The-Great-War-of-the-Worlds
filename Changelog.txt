@@ -1,7 +1,16 @@
-X-July-2022: 0.9 Mk. IV 'Slavyanka'
+X-September-2023: 0.9 Mk. IV 'Slavyanka'
 Changes made:
-*Buffed Bolt-action rifles' regular anr K-MM rounds armor penetration (was 0.2 and 0.3, now 0.4 and 0.5)
-*Buffed Pistols snapshot TU costs
+*Updated to latest OXCE v7.9.8
+*Added three Armor tiers, with unique armors for each Nation 
+*Enabled Layered Paperdolls:
+- Body sprites by Solarius Scorch and the XCom Files collaborators
+- Armor and uniform sprites by Hans Woofington and efrenespartano
+- Code by b1ackwolf
+*Added Martian Interrogation reports, by Kael Schwabauer
+*Buffed Bolt-action rifles' regular and K-MM rounds armor penetration (was 0.2 and 0.3, now 0.4 and 0.5)
+*Reduced Pistols snapshot TU costs
+*Nerfed aircraft evasion values
+*General bugfixing 
 
 10-December-2022: 0.8 Mk. IV 'Slavyanka'
 Changes made:
