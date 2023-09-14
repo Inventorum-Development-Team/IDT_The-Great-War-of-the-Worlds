@@ -399,7 +399,6 @@ items:
     floorSprite: 3280
     handSprite: 3280
     bulletSprite: 4
-    hitAnimation: 200
     fireSound: 604
     compatibleAmmo:
       - STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
@@ -433,7 +432,7 @@ items:
     floorSprite: 3304
     hitSound: 0
     power: 50
-    hitAnimation: 200
+    hitAnimation: 1200
     damageAlter:
       IgnoreDirection: true
       IgnorePainImmunity: true
@@ -465,7 +464,7 @@ items:
     floorSprite: 3312
     hitSound: 0
     power: 100
-    hitAnimation: 200
+    hitAnimation: 1200
     damageAlter:
       IgnoreDirection: true
       IgnorePainImmunity: true
@@ -990,7 +989,7 @@ extraSprites:
     subX: 128
     subY: 64
     files:
-      200:  Resources/HeatRay/black_smoke_explosion.png
+      1200:  Resources/HeatRay/black_smoke_explosion.png
 #      208:  Resources/HeatRay/black_smoke_explosion.png
   - type: SMOKE.PCK
     width: 320
