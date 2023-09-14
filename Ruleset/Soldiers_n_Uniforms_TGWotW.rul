@@ -7878,7 +7878,7 @@ armors:
       - STR_RUSSIAN_SOLDIER
 
   - type: STR_RUSSIAN_COAT_UNIFORM
-    spriteSheet: RUSSIAN_COAT_SPRITESHEET
+    spriteSheet: RUSSIAN_COAT_UNIFORM_SPRITESHEET
     corpseBattle:
       - STR_RUSSIAN_COAT_UNIFORM_CORPSE
     storeItem: STR_NONE
