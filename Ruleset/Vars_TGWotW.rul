@@ -17,6 +17,7 @@ crewEmergencyEvacuationSurvivalChance: 65
 pilotsEmergencyEvacuationSurvivalChance: 55
 statisticalBulletConservation: true
 surrenderMode: 2
+maxLookVariant: 13
 chanceToStopRetaliation: 50
 fixedUserOptions:
   friendlyCraftEscort: true
