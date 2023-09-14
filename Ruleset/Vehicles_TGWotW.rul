@@ -2241,7 +2241,7 @@ items:
     bulletSprite: 0
     fireSound: [811, 812, 813, 814]
     hitSound: 19
-    hitAnimation: 36
+    hitAnimation: 0
     bulletSpeed: 15
     explosionSpeed: 5
     power: 80
@@ -2274,7 +2274,7 @@ items:
     bulletSprite: 0
     fireSound: [808, 809, 810]
     hitSound: 19
-    hitAnimation: 36
+    hitAnimation: 0
     bulletSpeed: 15
     explosionSpeed: 5
     power: 90
@@ -2308,7 +2308,7 @@ items:
     bulletSprite: 0
     fireSound: [800, 801, 802, 803, 804]
     hitSound: 19
-    hitAnimation: 36
+    hitAnimation: 0
     bulletSpeed: 15
     explosionSpeed: 3
     power: 100
@@ -2342,7 +2342,7 @@ items:
     bigSprite: 4030
     bulletSprite: 30
     fireSound: 603
-    hitAnimation: 66
+    hitAnimation: 0 #66
     hitSound: 19
     damageType: 13
     bulletSpeed: 15
