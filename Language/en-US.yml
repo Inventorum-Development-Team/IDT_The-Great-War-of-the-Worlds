@@ -1997,8 +1997,8 @@ en-US:
 
       STR_RUSSIAN_FIELD_UNIFORM_UC: "Russian Imperial Army Uniform"
       STR_RUSSIAN_FIELD_UNIFORM_UC_UFOPEDIA: "With the defeat in the Crimean War, a series of reforms took place. Among them, a standardized uniform in khaki and permanent barracks for the military."
-      STR_RUSSIAN_COAT: "Russian Imperial Army Coat"
-      STR_RUSSIAN_COAT_UFOPEDIA: "A thick and warm coat, worn by Russian troops deployed in cold sectors. A traditional papakha hat protects the head from the freezing weather."
+      STR_RUSSIAN_COAT_UNIFORM: "Russian Imperial Army Coat"
+      STR_RUSSIAN_COAT_UNIFORM_UFOPEDIA: "A thick and warm coat, worn by Russian troops deployed in cold sectors. A traditional papakha hat protects the head from the freezing weather."
       STR_RUSSIAN_GASMASK_UC: "Russian Imperial Army Uniform w/ Z-K Mask"
       STR_RUSSIAN_GASMASK_UC_UFOPEDIA: "The Zelinsky-Kummant is the first sucessful example of a charcoal-filtering mask, with the novelty of being made of rubber. This helps in both reducing manufacturing costs and being very practical."
 
