@@ -8822,6 +8822,7 @@ extraSprites:
     files:
       0: Resources/SoldiersSprites/Battlescape/Special/INMORTALE_HEAVY_ARMOR_SPRITESHEET.png
 
+#Totenkopf Powered Armor
   - type: TOTENKOPF_POWER_ARMOR_SPRITESHEET
     width: 512
     height: 720
@@ -8837,7 +8838,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/SoldiersSprites/Battlescape/UFOpedia/AMERICAN_SOLDIER_IMAGE.PNG
+      0: Resources/UFOpedia/AMERICAN_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_23F0.SPK
     singleImage: true
@@ -8871,7 +8872,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23M3.png
-      
+
   - type: AMERICAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -8931,7 +8932,7 @@ extraSprites:
       0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_SPRITESHEET.png
 
 ###################
-# BRITISH 
+# BRITISH
 ###################
 
   - type: BRITISH_SOLDIER_IMAGE
@@ -8939,7 +8940,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/SoldiersSprites/Battlescape/UFOpedia/BRITISH_SOLDIER_IMAGE.PNG
+      0: Resources/UFOpedia/BRITISH_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_22F0.SPK
     singleImage: true
@@ -8973,7 +8974,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22M3.png
-      
+
   - type: BRITISH_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -8987,8 +8988,8 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_ANZAC_UNIFORM_SPRITESHEET.png      
-      
+      0: Resources/SoldiersSprites/Battlescape/British/BRITISH_ANZAC_UNIFORM_SPRITESHEET.png
+
 #Gasmask
   - type: BRITISH_GASMASK_SPRITESHEET
     width: 512
@@ -8998,7 +8999,7 @@ extraSprites:
     files:
       0: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK_SPRITESHEET.png
 
-#British T2 Armor 
+#British T2 Armor
   - type: BRITISH_T2_BODY_ARMOR_SPRITESHEET
     width: 512
     height: 720
@@ -9014,7 +9015,7 @@ extraSprites:
     files:
       0: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
 
-#British T3 Armor 
+#British T3 Armor
   - type: BRITISH_T3_BODY_ARMOR_SPRITESHEET
     width: 512
     height: 720
@@ -9032,7 +9033,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/SoldiersSprites/Battlescape/UFOpedia/GERMAN_SOLDIER_IMAGE.PNG
+      0: Resources/UFOpedia/GERMAN_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_24F0.SPK
     singleImage: true
@@ -9127,7 +9128,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/SoldiersSprites/Battlescape/UFOpedia/PILOT_IMAGE.PNG
+      0: Resources/UFOpedia/PILOT_IMAGE.PNG
 
   - type: MAN_25M3.SPK
     singleImage: true
@@ -9152,7 +9153,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/SoldiersSprites/Battlescape/UFOpedia/FRENCH_SOLDIER_IMAGE.PNG
+      0: Resources/UFOpedia/FRENCH_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_26F0.SPK
     singleImage: true
@@ -9186,7 +9187,7 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26M3.png
-      
+
   - type: FRENCH_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -9235,8 +9236,8 @@ extraSprites:
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png   
- 
+      0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
+
  #French T3 Armor
   - type: FRENCH_T3_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9245,7 +9246,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_SPRITESHEET.png
-      
+
 
 ####################
 # ITALIAN
@@ -9255,7 +9256,7 @@ extraSprites:
     width: 320
     height: 200
     files:
-      0: Resources/SoldiersSprites/Battlescape/UFOpedia/ITALIAN_SOLDIER_IMAGE.PNG
+      0: Resources/UFOpedia/ITALIAN_SOLDIER_IMAGE.PNG
 #Field Uniform
   - type: MAN_27F0.SPK
     singleImage: true
@@ -9306,7 +9307,7 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_GASMASK_SPRITESHEET.png
-      
+
 #Alpini Uniform
   - type: ITALIAN_ALPINI_UNIFORM_SPRITESHEET
     width: 512
@@ -9353,14 +9354,14 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_FIELD_UNIFORM_SPRITESHEET.png
- #Russian Coat     
+ #Russian Coat
   - type: RUSSIAN_COAT_UNIFORM_SPRITESHEET
     width: 512
     height: 720
     subX: 32
     subY: 40
     files:
-      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_COAT_UNIFORM_SPRITESHEET.png      
+      0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_COAT_UNIFORM_SPRITESHEET.png
 #Gasmask
   - type: RUSSIAN_GASMASK_SPRITESHEET
     width: 512
@@ -9419,7 +9420,7 @@ extraSprites:
 #############
       5020: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_CORPSE_BIGOB.png
       5021: Resources/SoldiersSprites/Battlescape/American/AMERICAN_CAMPAIGN_UNIFORM_CORPSE_BIGOB.png
-      5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_UNIFORM_CORPSE_BIGOB.png
+      5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_FIELD_UNIFORM_CORPSE_BIGOB.png
       #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_UNIFORM_CORPSE_BIGOB.png
       5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_BIGOB.png
       5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
@@ -9493,7 +9494,7 @@ extraSprites:
 #############
       5020: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
       5021: Resources/SoldiersSprites/Battlescape/American/AMERICAN_CAMPAIGN_UNIFORM_CORPSE_FLOOROB.png
-      5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_UNIFORM_CORPSE_FLOOROB.png
+      5022: Resources/SoldiersSprites/Battlescape/American/MEXICAN_FIELD_UNIFORM_CORPSE_FLOOROB.png
       #5023: Resources/SoldiersSprites/Battlescape/American/ABC_BLOC_FIELD_UNIFORM_CORPSE_FLOOROB.png
       5024: Resources/SoldiersSprites/Battlescape/American/AMERICAN_GASMASK_CORPSE_FLOOROB.png
       5025: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
