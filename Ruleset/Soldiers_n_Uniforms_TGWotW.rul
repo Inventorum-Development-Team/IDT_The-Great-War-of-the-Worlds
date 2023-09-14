@@ -9962,35 +9962,35 @@ extraSprites:
     fileSingle: Resources/SoldiersSprites/00-Body/MAN_F71.png
 # Finalizan HumanBodies
 # Empiezan Uniforms
-  - typeSingle: AMERICAN_COAT__1__AMERICAN_COAT_U
+  - typeSingle: HUMAN__1__AMERICAN_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/AmericanCoat.png
-  - typeSingle: AMERICAN_UNIFORM__1__AMERICAN_UNIFORM_U
+  - typeSingle: HUMAN__1__AMERICAN_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/AmericanUniform.png
-  - typeSingle: BRITISH_COAT__1__BRITISH_COAT_U
+  - typeSingle: HUMAN__1__BRITISH_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/BritishCoat.png
-  - typeSingle: BRITISH_UNIFORM__1__BRITISH_UNIFORM_U
+  - typeSingle: HUMAN__1__BRITISH_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/BritishUniform.png
-  - typeSingle: FRENCH_COAT__1__FRENCH_COAT_U
+  - typeSingle: HUMAN__1__FRENCH_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/FrenchCoat.png
-  - typeSingle: FRENCH_UNIFORM__1__FRENCH_COAT_U
+  - typeSingle: HUMAN__1__FRENCH_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/FrenchUniform.png
-  - typeSingle: FRENCH_UNIFORM__1__FRENCH_COLONIAL_U
+  - typeSingle: HUMAN__1__FRENCH_COLONIAL_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/FrenchColonialCoat.png
-  - typeSingle: GERMAN_COAT__1__GERMAN_COAT_U
+  - typeSingle: HUMAN__1__GERMAN_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/GermanCoat.png
-  - typeSingle: GERMAN_UNIFORM__1__GERMAN_UNIFORM_U
+  - typeSingle: HUMAN__1__GERMAN_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/GermanUniform.png
-  - typeSingle: ITALIAN_COAT__1__ITALIAN_COAT_U
+  - typeSingle: HUMAN__1__ITALIAN_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/ItalianCoat.png
-  - typeSingle: ITALIAN_UNIFORM__1__ITALIAN_UNIFORM_U
+  - typeSingle: HUMAN__1__ITALIAN_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/ItalianUniform.png
-  - typeSingle: MEXICAN_UNIFORM__1__MEXICAN_UNIFORM_U
+  - typeSingle: HUMAN__1__MEXICAN_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/MexicanUniform.png
-  - typeSingle: RUSSIAN_COAT__1__RUSSIAN_COAT_U
+  - typeSingle: HUMAN__1__RUSSIAN_COAT_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/RussianCoat.png
-  - typeSingle: RUSSIAN_UNIFORM__1__RUSSIAN_UNIFORM_U
+  - typeSingle: HUMAN__1__RUSSIAN_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/RussianUniform.png
-  - typeSingle: RUSSIAN_UNIFORM__1__PILOT_UNIFORM_U
+  - typeSingle: HUMAN__1__PILOT_UNIFORM_U
     fileSingle: Resources/SoldiersSprites/01-Uniform/PilotUniform.png
 # Finalizan Uniforms
 # Empiezan BodyArmors
