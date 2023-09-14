@@ -952,6 +952,7 @@ armors:
 ##################################
 ####### SPECIAL ARMORS ##########
 #################################
+  - delete: STR_PERSONAL_ARMOR_UC
 
   - type: STR_PERSONAL_ARMOR_UC
     spriteSheet: INMORTALE_HEAVY_ARMOR_SPRITESHEET
@@ -1164,7 +1165,7 @@ armors:
       - STR_RUSSIAN_SOLDIER
       - STR_PILOT
 
-  - type: STR_POWER_SUIT
+  - type: STR_POWER_SUIT_UC
     spriteSheet: TOTENKOPF_POWER_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
@@ -2807,38 +2808,38 @@ armors:
       M0: ["M0_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M1: ["M1_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M2: ["M2_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M3: ["M3_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M3: ["M3_NUDE", "BRITISH_UNIFORM_U", "", "BELT_BL_U", "", "", "", "BRITISH_CAP_U", ""]
       M4: ["M4_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M5: ["M5_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M5: ["M5_NUDE", "BRITISH_UNIFORM_U", "", "BELT_BBA_U", "", "", "", "BRITISH_CAP_U", ""]
       M6: ["M6_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M7: ["M7_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M7: ["M7_NUDE", "BRITISH_UNIFORM_U", "", "BELT_BMP_U", "", "", "", "BRITISH_CAP_U", ""]
       M8: ["M8_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M9: ["M9_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M10: ["M10_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M10: ["M10_NUDE", "BRITISH_UNIFORM_U", "", "BELT_DBLBP_U", "", "", "", "BRITISH_CAP_U", ""]
       M11: ["M11_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M12: ["M12_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M13: ["M13_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M13: ["M13_NUDE", "BRITISH_UNIFORM_U", "", "BELT_DBP_U", "", "", "", "BRITISH_CAP_U", ""]
       M14: ["M14_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M15: ["M15_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M16: ["M16_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M16: ["M16_NUDE", "BRITISH_UNIFORM_U", "", "BELT_YP_U", "", "", "", "BRITISH_CAP_U", ""]
       M17: ["M17_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M18: ["M18_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M19: ["M19_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M20: ["M20_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M21: ["M21_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M21: ["M21_NUDE", "BRITISH_UNIFORM_U", "", "BELT_BL_U", "", "", "", "BRITISH_CAP_U", ""]
       M22: ["M22_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M23: ["M23_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M23: ["M23_NUDE", "BRITISH_UNIFORM_U", "", "", "CANTEEN_LEFT_U", "", "", "BRITISH_CAP_U", ""]
       M24: ["M24_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M25: ["M25_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M26: ["M26_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M26: ["M26_NUDE", "BRITISH_UNIFORM_U", "", "", "", "BANDOLIER_LEFT_D_U", "", "BRITISH_CAP_U", ""]
       M27: ["M27_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M28: ["M28_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M29: ["M29_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M29: ["M29_NUDE", "BRITISH_UNIFORM_U", "", "", "", "BANDOLIER_RIGHT_B_U", "", "BRITISH_CAP_U", ""]
       M30: ["M30_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M31: ["M31_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M32: ["M32_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M33: ["M33_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
-      M34: ["M34_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
+      M34: ["M34_NUDE", "BRITISH_UNIFORM_U", "", "BELT_DBLBP_U", "", "", "", "BRITISH_CAP_U", ""]
       M35: ["M35_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M36: ["M36_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]
       M37: ["M37_NUDE", "BRITISH_UNIFORM_U", "", "", "", "", "", "BRITISH_CAP_U", ""]

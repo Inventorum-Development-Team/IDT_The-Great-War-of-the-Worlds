@@ -1956,6 +1956,8 @@ en-US:
 #######################################
 ######### ARMORS REPORTS #############
 ####################################
+      STR_PILOT_UNIFORM_UC: "Pilot Jacket"
+
       STR_AMERICAN_FIELD_UNIFORM_UC: "American Field Uniform"
       STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA: "Standard battle dress of the US military. It was widely promoted and distributed all over the continent, it is not uncommon to see Mexican and ABC troops with it. This variant is worn with the Overseas Cap, for the troops deployed outside the US. "
       STR_AMERICAN_CAMPAIGN_UNIFORM: "American Campaign Dress"
@@ -2032,6 +2034,8 @@ en-US:
       STR_ITALIAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A Polivalente Z mask hardly fits the narrow face plate of the Farina helmet, but it's better than nothing. Sight is reduced."
       STR_RUSSIAN_T2_BODY_ARMOR: "Ursa Body Plate"
       STR_RUSSIAN_T2_BODY_ARMOR_UFOPEDIA: "Licensed version of the Lancier French armor, made in Tula Arms Plant. More asbestos and steel are added, increasing both protection and weight. After certain reticence of the Stavka, a massive deployment of steel helmets was put in action."
+      STR_RUSSIAN_T2_BODY_ARMOR_GASMASK: "Ursa Body Plate w/ Z-K Mask"
+      STR_RUSSIAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "Protected personal armor plate, with a Zelinsky-Kummant gasmask worn beneath a Russian-made Lancier helmet. A thick fur coat is used along the equipment to provide extra protection on hazardous environments."
 
       STR_PERSONAL_ARMOR_UC: "L'inmortale Heavy Armor"
       STR_PERSONAL_ARMOR: "L'inmortale Heavy Armor"
@@ -2059,7 +2063,7 @@ en-US:
       STR_POWER_SUIT_UC: "Totemkopf Mechanized Armor"
       STR_POWER_SUIT: "Totemkopf Mechanized Armor"
       STR_POWER_SUIT_UFOPEDIA: "A highly experimental design, pride of the German engineering. Specifically made to counter the enclosed armors used by the Martian military. It features a closed breathing apparatus and several layers of Tunguskium and asbestos plates to endure the hardships of modern warfare. The Tesla Micro Generator in the back provides enough energy for all the systems inside"
-      
+
       STR_AVATAR_NAME_2: "Gerard"
 
       STR_AVATAR_NAME_3: "Keegan"
