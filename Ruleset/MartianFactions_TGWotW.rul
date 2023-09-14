@@ -177,7 +177,7 @@ items:
     bulletSprite: 11
     fireSound: 500
     hitSound: 19
-    hitAnimation: 57
+    #hitAnimation: 57
     power: 110
     damageType: 5
     accuracySnap: 50
