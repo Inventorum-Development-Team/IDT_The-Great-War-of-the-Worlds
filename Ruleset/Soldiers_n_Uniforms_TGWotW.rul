@@ -10020,7 +10020,7 @@ extraSprites:
   - typeSingle: HUMAN__2__ITALIAN_T3_U
     fileSingle: Resources/SoldiersSprites/02-BodyArmor/ItalianT3BodyArmor.png
   - typeSingle: HUMAN__2__ITALIAN_T4_U
-    fileSingle: Resources/SoldiersSprites/02-BodyArmor/ItalianT4FatinaHeavyArmor.png
+    fileSingle: Resources/SoldiersSprites/02-BodyArmor/ItalianT4FarinaHeavyArmor.png
   - typeSingle: HUMAN__2__RUSSIAN_T2_U
     fileSingle: Resources/SoldiersSprites/02-BodyArmor/RussianT2BodyArmor.png
   - typeSingle: HUMAN__2__RUSSIAN_T3_U
