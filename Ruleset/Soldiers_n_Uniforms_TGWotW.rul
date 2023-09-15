@@ -9401,6 +9401,8 @@ extraSprites:
 # SPECIAL ARMORS
 #############
 
+  - type: BIGOBS.PCK
+    files:
 
       5000: Resources/SoldiersSprites/Battlescape/Special/PERSONAL_ARMOR_CORPSE_BIGOB.png
       5001: Resources/SoldiersSprites/Battlescape/Special/POWER_SUIT_CORPSE_BIGOB.png
