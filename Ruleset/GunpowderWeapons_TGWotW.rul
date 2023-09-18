@@ -265,7 +265,8 @@ items:
     floorSprite: 200
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 40
     damageAlter:
@@ -298,7 +299,8 @@ items:
     floorSprite: 208
     handSprite: 208
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 55
     #refNode: *KMMRifleRoundAntiArmor
@@ -476,7 +478,8 @@ items:
     floorSprite: 280
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 42
     bulletSpeed: 10
@@ -511,7 +514,8 @@ items:
     floorSprite: 288
     handSprite: 208
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 57
     damageAlter:
@@ -629,7 +633,8 @@ items:
     floorSprite: 328
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 42
     damageAlter:
@@ -656,7 +661,8 @@ items:
     floorSprite: 336
     handSprite: 208
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 57
     damageAlter:
@@ -789,7 +795,8 @@ items:
     floorSprite: 376
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 38
     damageAlter:
@@ -822,7 +829,8 @@ items:
     floorSprite: 384
     handSprite: 208
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 58
     damageAlter:
@@ -1083,7 +1091,8 @@ items:
     floorSprite: 448
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 42
     damageAlter:
@@ -1118,7 +1127,8 @@ items:
     floorSprite: 456
     handSprite: 208
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 57
     damageAlter:
@@ -1252,7 +1262,8 @@ items:
     floorSprite: 488
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*112=420
     power: 50
     damageAlter:
@@ -1287,7 +1298,8 @@ items:
     floorSprite: 496
     handSprite: 208
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 65
     damageAlter:
@@ -1347,7 +1359,8 @@ items:
   #    bigSprite: 204
   #    floorSprite: 4
   #    hitSound: 22
-  #    hitAnimation: -1
+  #    hitAnimation: 26
+  #  explosionSpeed: 30
   #    power: 33
   #    refNode: *BasicRifleRoundAntiArmor
   #    damageType: 1
@@ -1364,7 +1377,8 @@ items:
   #    bigSprite: 204
   #    floorSprite: 4
   #    hitSound: 22
-  #    hitAnimation: -1
+  #    hitAnimation: 26
+   # explosionSpeed: 30
   #    power: 48
   #    damageAlter:
   #    damageType: 10
@@ -1554,7 +1568,8 @@ items:
     floorSprite: 672
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 30
     damageAlter:
@@ -1589,7 +1604,8 @@ items:
     floorSprite: 680
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     damageAlter:
@@ -1730,7 +1746,8 @@ items:
     floorSprite: 712
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 31
     damageAlter:
@@ -1766,7 +1783,8 @@ items:
     floorSprite: 720
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 46
     damageAlter:
@@ -1848,7 +1866,8 @@ items:
     floorSprite: 752
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 32
     damageType: 1
@@ -1884,7 +1903,8 @@ items:
     floorSprite: 760
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     damageAlter:
@@ -1966,7 +1986,8 @@ items:
     floorSprite: 792
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 33
     damageAlter:
@@ -2048,7 +2069,8 @@ items:
     floorSprite: 800
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     damageAlter:
@@ -2136,7 +2158,8 @@ items:
     floorSprite: 832
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 29
     damageType: 1
@@ -2172,7 +2195,8 @@ items:
     floorSprite: 840
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 44
     damageAlter:
@@ -2259,7 +2283,8 @@ items:
     floorSprite: 872
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 31
     damageAlter:
@@ -2295,7 +2320,8 @@ items:
     floorSprite: 880
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 46
     damageAlter:
@@ -2527,7 +2553,8 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 6
     invHeight: 1
@@ -2555,7 +2582,8 @@ items:
     damageType: 10
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 6
     invHeight: 1
@@ -2586,7 +2614,8 @@ items:
     damageType: 15
     bulletSpeed: 8
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 6
     invHeight: 1
@@ -2643,7 +2672,8 @@ items:
     floorSprite: 1120
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 30
     damageAlter:
@@ -2673,7 +2703,8 @@ items:
     floorSprite: 1128
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
     damageAlter:
@@ -2744,7 +2775,8 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 10
     invHeight: 1
@@ -2772,7 +2804,8 @@ items:
     damageType: 10
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 5
     invHeight: 1
@@ -2832,7 +2865,8 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 8
     invHeight: 1
@@ -2860,7 +2894,8 @@ items:
     damageType: 10
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 5
     invHeight: 1
@@ -3072,7 +3107,8 @@ items:
     floorSprite: 1424
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 35
     damageAlter:
@@ -3110,7 +3146,8 @@ items:
     floorSprite: 1432
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 50
     damageAlter:
@@ -3210,7 +3247,8 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 30
     invHeight: 1
@@ -3232,7 +3270,8 @@ items:
     power: 44
     damageType: 10
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 20
     invHeight: 1
@@ -3293,7 +3332,8 @@ items:
     damageType: 1
     bulletSpeed: 10
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     clipSize: 32
     invHeight: 1
@@ -3321,7 +3361,8 @@ items:
     damageType: 10
     bulletSpeed: 15
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     clipSize: 16
     invHeight: 1
@@ -3447,7 +3488,8 @@ items:
     floorSprite: 1720
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 28
     damageAlter:
@@ -3480,7 +3522,8 @@ items:
     floorSprite: 1728
     handSprite: 208
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 43
     damageAlter:
@@ -3643,7 +3686,8 @@ items:
     floorSprite: 1832
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 30
     damageAlter:
@@ -3682,7 +3726,8 @@ items:
     floorSprite: 1840
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
     damageAlter:
@@ -3785,7 +3830,8 @@ items:
     floorSprite: 1872
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 29
     damageAlter:
@@ -3824,7 +3870,8 @@ items:
     floorSprite: 1880
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 45
     damageAlter:
@@ -3928,7 +3975,8 @@ items:
     floorSprite: 1912
     handSprite: 1912
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 28
     damageAlter:
@@ -3967,7 +4015,8 @@ items:
     floorSprite: 1920
     handSprite: 1920
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 44
     damageAlter:
@@ -4126,7 +4175,8 @@ items:
     floorSprite: 1952
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 26
     damageAlter:
@@ -4166,7 +4216,8 @@ items:
     floorSprite: 1960
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 14 #Pistol MM bullet 35*14=490
     power: 42
     damageAlter:
@@ -4274,7 +4325,8 @@ items:
     floorSprite: 1992
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 26
     damageAlter:
@@ -4314,7 +4366,8 @@ items:
     floorSprite: 2000
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 11 #Pistol bullet 35*11=385
     power: 36
     damageAlter:
@@ -4548,7 +4601,8 @@ items:
     floorSprite: 2136
     handSprite: 2136
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 33
     damageAlter:
@@ -4587,7 +4641,8 @@ items:
     floorSprite: 2144
     handSprite: 2144
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     damageAlter:
@@ -4679,7 +4734,8 @@ items:
     floorSprite: 2176
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 32
     damageAlter:
@@ -4715,7 +4771,8 @@ items:
     floorSprite: 2184
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     damageAlter:
@@ -4814,7 +4871,8 @@ items:
     floorSprite: 2216
     handSprite: 2136
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 35
     damageAlter:
@@ -4853,7 +4911,8 @@ items:
     floorSprite: 2224
     handSprite: 2144
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 50
     damageAlter:
@@ -4949,7 +5008,8 @@ items:
     floorSprite: 2256
     handSprite: 2256
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 36
     damageAlter:
@@ -4986,7 +5046,8 @@ items:
     floorSprite: 2264
     handSprite: 2264
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     damageAlter:
@@ -5087,7 +5148,8 @@ items:
     floorSprite: 2296
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 32
     damageAlter:
@@ -5127,7 +5189,8 @@ items:
     floorSprite: 2304
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 47
     damageAlter:
@@ -5227,7 +5290,8 @@ items:
     floorSprite: 2336
     handSprite: 2336
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 33
     damageAlter:
@@ -5266,7 +5330,8 @@ items:
     floorSprite: 2344
     handSprite: 2344
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 48
     damageAlter:
@@ -5361,7 +5426,8 @@ items:
     floorSprite: 2376
     handSprite: 672
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 12 #Rifle bullet 35*12=420
     power: 30
     damageAlter:
@@ -5398,7 +5464,8 @@ items:
     floorSprite: 2384
     handSprite: 680
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     bulletSprite: 15 #Rifle MM bullet 35*15=525
     power: 45
     damageAlter:
@@ -5668,6 +5735,7 @@ items:
     damageType: 1
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 30
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -5709,6 +5777,7 @@ items:
     damageType: 15
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 30
     clipSize: 6
     invHeight: 1
     invWidth: 1
@@ -5839,6 +5908,7 @@ items:
     damageType: 1
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 30
     clipSize: 2
     invHeight: 1
     invWidth: 1
@@ -5882,7 +5952,8 @@ items:
       RandomWound: true
     damageType: 15
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
+    explosionSpeed: 30
     clipSize: 2
     invHeight: 1
     invWidth: 1
@@ -5970,6 +6041,7 @@ items:
       RandomStun: true
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 30
     blastRadius: 0
     clipSize: 3
     invHeight: 1
