@@ -1269,38 +1269,53 @@ ufopaedia:
 
   - id: STR_BRITISH_SOLDIER_INTRODUCTION
     type_id: 7
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     image_id: BRITISH_SOLDIER_IMAGE
     text: STR_BRITISH_SOLDIER_UFOPEDIA
     text_width: 150
     listOrder: 10600
-    #listOrder: 1700
   - id: STR_BRITISH_FIELD_UNIFORM_UC
     type_id: 5
-    section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1701
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
     text: STR_BRITISH_FIELD_UNIFORM_UC_UFOPEDIA
     listOrder: 10700
+  - id: STR_BRITISH_ANZAC_UNIFORM_UC
+    type_id: 5
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_BRITISH_ANZAC_UNIFORM_UC_UFOPEDIA
+    listOrder: 10710
   - id: STR_BRITISH_GASMASK_UC
     type_id: 5
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1702
     text: STR_BRITISH_GASMASK_UC_UFOPEDIA
-    listOrder: 10710
+    listOrder: 10720
   - id: STR_BRITISH_T2_BODY_ARMOR
-    type_id: 8 # 5
+    type_id: 5
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1701
     text: STR_BRITISH_T2_BODY_ARMOR_UFOPEDIA
-    listOrder: 10720
+    listOrder: 10730
   - id: STR_BRITISH_T2_BODY_ARMOR_GASMASK
-    type_id: 8 # 5
+    type_id: 5
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1702
     text: STR_BRITISH_T2_BODY_ARMOR_GASMASK_UFOPEDIA
-    listOrder: 10730
+    listOrder: 10740
   - id: STR_BRITISH_T3_BODY_ARMOR
-    type_id: 8 # 5
+    type_id: 5
+    requires:
+      - STR_BRITISH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1702
     text: STR_BRITISH_GASMASK_UC_UFOPEDIA
@@ -1310,6 +1325,8 @@ ufopaedia:
 
   - id: STR_AMERICAN_SOLDIER_INTRODUCTION
     type_id: 7
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     image_id: AMERICAN_SOLDIER_IMAGE
     text: STR_AMERICAN_SOLDIER_UFOPEDIA
@@ -1318,60 +1335,110 @@ ufopaedia:
     #listOrder: 1705
   - id: STR_AMERICAN_FIELD_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1706
     text: STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA
     listOrder: 11000
+  - id: STR_AMERICAN_CAMPAIGN_UNIFORM
+    type_id: 5
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_AMERICAN_CAMPAIGN_UNIFORM_UFOPEDIA
+    listOrder: 11010
+  - id: STR_MEXICAN_FIELD_UNIFORM
+    type_id: 5
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_MEXICAN_FIELD_UNIFORM_UFOPEDIA
+    listOrder: 11020
   - id: STR_AMERICAN_GASMASK_UC
     type_id: 5
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1707
     text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
-    listOrder: 11100
-#  - id: STR_AMERICAN_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1708
-#    text: STR_AMERICAN_GASMASK_UC_UFOPEDIA
-#  - id: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1709
-#    text: STR_AMERICAN_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+    listOrder: 11030
+  - id: STR_AMERICAN_T2_BODY_ARMOR
+    type_id: 5
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_AMERICAN_T2_BODY_ARMOR_UFOPEDIA
+    listOrder: 11040
+  - id: STR_AMERICAN_T2_BODY_ARMOR_GASMASK
+    type_id: 5
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_AMERICAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA
+    listOrder: 11050
+  - id: STR_AMERICAN_T3_BODY_ARMOR
+    type_id: 5
+    requires:
+      - STR_AMERICAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_AMERICAN_T3_BODY_ARMOR_UFOPEDIA
+    listOrder: 11060
+
   - id: STR_GERMAN_SOLDIER_INTRODUCTION
     type_id: 7
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     image_id: GERMAN_SOLDIER_IMAGE
     text: STR_GERMAN_SOLDIER_UFOPEDIA
     text_width: 150
     listOrder: 11200
-    #listOrder: 1710
   - id: STR_GERMAN_FIELD_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1711
     text: STR_GERMAN_FIELD_UNIFORM_UC_UFOPEDIA
-    listOrder: 11300
+    listOrder: 11210
+  - id: STR_GERMAN_PICKELHAUBE_UNIFORM
+    type_id: 5
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_GERMAN_PICKELHAUBE_UNIFORM_UFOPEDIA
+    listOrder: 11220
   - id: STR_GERMAN_GASMASK_UC
     type_id: 5
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1712
     text: STR_GERMAN_GASMASK_UC_UFOPEDIA
-    listOrder: 11400
-#  - id: STR_GERMAN_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1713
-#    text: STR_GERMAN_GASMASK_UC_UFOPEDIA
-  - id: STR_GERMAN_TRENCH_COAT_UNIFORM_UC
+    listOrder: 11230
+  - id: STR_GERMAN_T2_BODY_ARMOR
     type_id: 5
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1714
-    text: STR_GERMAN_TRENCH_COAT_UNIFORM_UC_UFOPEDIA
-    listOrder: 11500
+    text: STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA
+    listOrder: 11240
+  - id: STR_GERMAN_T2_BODY_ARMOR_GASMASK
+    type_id: 5
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_GERMAN_T2_BODY_ARMOR_GASMASK_UFOPEPDIA
+    listOrder: 11250
+  - id: STR_GERMAN_T3_BODY_ARMOR
+    type_id: 5
+    requires:
+      - STR_GERMAN_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_GERMAN_T3_BODY_ARMOR_UFOPEDIA
+    listOrder: 11260
 
   - id: STR_FRENCH_SOLDIER_INTRODUCTION
     type_id: 7
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     image_id: FRENCH_SOLDIER_IMAGE
     text: STR_FRENCH_SOLDIER_UFOPEDIA
@@ -1380,26 +1447,54 @@ ufopaedia:
     #listOrder: 1717
   - id: STR_FRENCH_FIELD_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1718
     text: STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA
     listOrder: 11700
+  - id: STR_FRENCH_COAT
+    type_id: 5
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_FRENCH_COAT_UFOPEDIA
+    listOrder: 11710
+  - id: STR_FRENCH_COLONIAL_UNIFORM
+    type_id: 5
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_FRENCH_COLONIAL_UNIFORM_UFOPEDIA
+    listOrder: 11720
   - id: STR_FRENCH_GASMASK_UC
     type_id: 5
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1719
     text: STR_FRENCH_GASMASK_UC_UFOPEDIA
-    listOrder: 11800
-#  - id: STR_FRENCH_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1718
-#    text: STR_FRENCH_GASMASK_UC_UFOPEDIA
-#  - id: STR_FRENCH_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1718
-#    text: STR_FRENCH_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+    listOrder: 11730
+  - id: STR_FRENCH_T2_BODY_ARMOR
+    type_id: 5
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA
+    listOrder: 11740
+  - id: STR_FRENCH_T2_BODY_ARMOR_GASMASK
+    type_id: 5
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_FRENCH_T2_BODY_ARMOR_GASMASK_UFOPEDIA
+    listOrder: 11750
+  - id: STR_FRENCH_T3_BODY_ARMOR
+    type_id: 5
+    requires:
+      - STR_FRENCH_EQUIPMENT_SELECTION
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_FRENCH_T3_BODY_ARMOR_UFOPEDIA
+    listOrder: 11760
+
   - id: STR_ITALIAN_SOLDIER_INTRODUCTION
     type_id: 7
     section: STR_UNIFORMS_AND_ARMORS
@@ -1411,25 +1506,73 @@ ufopaedia:
   - id: STR_ITALIAN_FIELD_UNIFORM_UC
     type_id: 5
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1731
     text: STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA
     listOrder: 12000
   - id: STR_ITALIAN_ALPINI_UNIFORM_UC
     type_id: 5
     section: STR_UNIFORMS_AND_ARMORS
-    #listOrder: 1732
     text: STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA
+    listOrder: 12010
+  - id: STR_ITALIAN_GASMASK_UC
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_ITALIAN_GASMASK_UC_UFOPEDIA
+    listOrder: 12020
+  - id: STR_ITALIAN_T2_BODY_ARMOR
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_ITALIAN_T2_BODY_ARMOR
+    listOrder: 12030
+  - id: STR_ITALIAN_T2_BODY_ARMOR_GASMASK
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_ITALIAN_T2_BODY_ARMOR_GASMASK
+    listOrder: 12040
+  - id: STR_ITALIAN_T3_BODY_ARMOR
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_ITALIAN_T3_BODY_ARMOR
+    listOrder: 12050
+
+
+  - id: STR_RUSSIAN_SOLDIER_INTRODUCTION
+    type_id: 7
+    section: STR_UNIFORMS_AND_ARMORS
+    image_id: RUSSIAN_SOLDIER_IMAGE
+    text: STR_RUSSIAN_SOLDIER_UFOPEDIA
+    text_width: 150
     listOrder: 12100
-#  - id: STR_ITALIAN_OFFICER_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1733
-#    text: STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA
-#  - id: STR_ITALIAN_TRENCHCOAT_UNIFORM_UC
-#    type_id: 5
-#    section: STR_UNIFORMS_AND_ARMORS
-#    #listOrder: 1734
-#    text: STR_ITALIAN_TRENCHCOAT_UNIFORM_UC_UFOPEDIA
+    #listOrder: 1730
+  - id: STR_RUSSIAN_FIELD_UNIFORM_UC
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_RUSSIAN_FIELD_UNIFORM_UC_UFOPEDIA
+    listOrder: 12110
+  - id: STR_RUSSIAN_COAT_UNIFORM
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_RUSSIAN_COAT_UNIFORM_UFOPEDIA
+    listOrder: 12120
+  - id: STR_RUSSIAN_GASMASK_UC
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_RUSSIAN_GASMASK_UC_UFOPEDIA
+    listOrder: 12130
+  - id: STR_RUSSIAN_T2_BODY_ARMOR
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_RUSSIAN_T2_BODY_ARMOR
+    listOrder: 12140
+  - id: STR_RUSSIAN_T2_BODY_ARMOR_GASMASK
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_RUSSIAN_T2_BODY_ARMOR_GASMASK
+    listOrder: 12150
+  - id: STR_RUSSIAN_T3_BODY_ARMOR
+    type_id: 5
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_RUSSIAN_T3_BODY_ARMOR
+    listOrder: 12160
 ####################################
 ########### TURRETS ###############
 ##################################
@@ -2041,7 +2184,7 @@ ufopaedia:
       - STR_MARTIAN_SKIRMISHER_INTERROGATION
     text: STR_MARTIAN_SKIRMISHER_INTERROGATION_UFOPEDIA
     listOrder: 18530
-    
+
   - id: STR_MARTIAN_ROYAL_GUARD_INTERROGATION
     type_id: 8
     section: STR_ALIEN_RESEARCH_UC
@@ -2049,7 +2192,7 @@ ufopaedia:
       - STR_MARTIAN_ROYAL_GUARD_INTERROGATION
     text: STR_MARTIAN_ROYAL_GUARD_INTERROGATION_UFOPEDIA
     listOrder: 18540
-    
+
   - id: STR_MARTIAN_SCIENTIST_INTERROGATION
     type_id: 8
     section: STR_ALIEN_RESEARCH_UC
@@ -2057,7 +2200,7 @@ ufopaedia:
       - STR_MARTIAN_SCIENTIST_INTERROGATION
     text: STR_MARTIAN_SCIENTIST_INTERROGATION_UFOPEDIA
     listOrder: 18550
-    
+
   - id: STR_MARTIAN_SHOCK_GUARD_INTERROGATION
     type_id: 8
     section: STR_ALIEN_RESEARCH_UC

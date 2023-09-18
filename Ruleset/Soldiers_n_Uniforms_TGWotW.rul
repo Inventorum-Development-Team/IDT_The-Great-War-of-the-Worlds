@@ -9347,6 +9347,13 @@ extraSprites:
 # RUSSIAN
 ####################
 
+  - type: RUSSIAN_SOLDIER_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/ITALIAN_SOLDIER_IMAGE.PNG
+
 #Field Uniform
   - type: RUSSIAN_FIELD_UNIFORM_SPRITESHEET
     width: 512

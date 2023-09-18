@@ -2018,7 +2018,7 @@ en-US:
       STR_AMERICAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "The British-made SRB gas mask is used in conjunction with the Dean No.5 helmet and body armor to allow the Doughboys to operate in the barrenlands of the Red Zones without compromising their physical integrity."
       STR_BRITISH_T2_BODY_ARMOR: "EOB Body Armour"
       STR_BRITISH_T2_BODY_ARMOR_UFOPEDIA: "Designed by the Munitions Invention Board, it includes a cloth vest with room for Tunguskium/asbestos plates inside. Occasionally, shoulder pads are provided as well."
-      STR_BRITISH_T2_BODY_ARMOR_GASMASK: "EOB Body Armour w/ Gas mask"
+      STR_BRITISH_T2_BODY_ARMOR_GASMASK: "EOB Body Armour w/ SRB"
       STR_BRITISH_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A SRB gas mask worn in conjunction of the EOB armored system."
       STR_GERMAN_T2_BODY_ARMOR: "Sappenpanzer Trench Armor"
       STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA: "One of the first practical infantry armor designs, it is made with a mixture of Tunguskium, asbestos and manganese steel. The major downside is the lack of back protection, as only the frontal torso is armored."
