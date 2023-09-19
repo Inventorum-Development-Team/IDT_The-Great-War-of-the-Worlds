@@ -10036,7 +10036,7 @@ extraSprites:
     fileSingle: Resources/SoldiersSprites/02-BodyArmor/AmericanT2BodyArmor.png
   - typeSingle: HUMAN__2__AMERICAN_T3_U
     fileSingle: Resources/SoldiersSprites/02-BodyArmor/AmericanT3BodyArmor.png
-  - typeSingle: HUMAN__2__BRITISH_T2A_U
+  - typeSingle: HUMAN__2__BRITISH_T2_UA
     fileSingle: Resources/SoldiersSprites/02-BodyArmor/BritishT2aBodyArmor.png
   - typeSingle: HUMAN__2__BRITISH_T2_U
     fileSingle: Resources/SoldiersSprites/02-BodyArmor/BritishT2BodyArmor.png
