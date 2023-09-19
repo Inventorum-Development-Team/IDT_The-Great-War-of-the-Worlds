@@ -8,6 +8,9 @@ research:
   - delete: STR_HEAVY_LASER
   - delete: STR_LASER_CANNON
   - delete: STR_LASER_DEFENSE
+  - delete: STR_PERSONAL_ARMOR
+  - delete: STR_POWER_SUIT
+  - delete: STR_FLYING_SUIT
 
 ##############################
   - name: STR_ALIENS_ONLY
@@ -1803,6 +1806,13 @@ research:
     dependencies:
       - STR_BODY_ARMOR_THEORY
       - STR_MARTIAN_METAL_ARMOR_PLATES
+
+  - name: STR_PERSONAL_ARMOR
+    cost: 180
+    points: 20
+    dependencies:
+      - STR_T2_HEAVY_BODY_ARMOR
+      
   - name: STR_AMERICAN_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1859,6 +1869,7 @@ research:
     points: 70
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
+      - STR_MARTIAN_METAL_ARMOR_PLATES
 
   - name: STR_T3_HEAVY_BODY_ARMOR
     #    listOrder: 902
@@ -1867,6 +1878,21 @@ research:
     dependencies:
       - STR_T2_HEAVY_BODY_ARMOR
       - STR_MARTIAN_METAL_ARMOR_PLATES
+      - STR_ELERIUM_115
+      - STR_UFO_POWER_SOURCE  
+      
+  - name: STR_POWER_SUIT
+    cost: 205
+    points: 20
+    dependencies:
+      - STR_T3_HEAVY_BODY_ARMOR
+
+  - name: STR_FLYING_SUIT
+    cost: 330
+    points: 20
+    dependencies:
+      - STR_ALIENS_ONLY
+      
   - name: STR_AMERICAN_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
