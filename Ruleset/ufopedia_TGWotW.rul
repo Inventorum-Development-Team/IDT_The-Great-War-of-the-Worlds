@@ -1300,6 +1300,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_BRITISH_EQUIPMENT_SELECTION
+      - STR_BRITISH_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1701
     text: STR_BRITISH_T2_BODY_ARMOR_UFOPEDIA
@@ -1308,6 +1309,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_BRITISH_EQUIPMENT_SELECTION
+      - STR_BRITISH_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1702
     text: STR_BRITISH_T2_BODY_ARMOR_GASMASK_UFOPEDIA
@@ -1316,6 +1318,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_BRITISH_EQUIPMENT_SELECTION
+      - STR_BRITISH_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1702
     text: STR_BRITISH_GASMASK_UC_UFOPEDIA
@@ -1365,6 +1368,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_AMERICAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_AMERICAN_T2_BODY_ARMOR_UFOPEDIA
     listOrder: 11040
@@ -1372,6 +1376,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_AMERICAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_AMERICAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA
     listOrder: 11050
@@ -1379,6 +1384,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_AMERICAN_EQUIPMENT_SELECTION
+      - STR_AMERICAN_T3_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_AMERICAN_T3_BODY_ARMOR_UFOPEDIA
     listOrder: 11060
@@ -1417,6 +1423,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_GERMAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_GERMAN_T2_BODY_ARMOR_UFOPEDIA
     listOrder: 11240
@@ -1424,6 +1431,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_GERMAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_GERMAN_T2_BODY_ARMOR_GASMASK_UFOPEPDIA
     listOrder: 11250
@@ -1431,6 +1439,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_GERMAN_EQUIPMENT_SELECTION
+      - STR_GERMAN_T3_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_GERMAN_T3_BODY_ARMOR_UFOPEDIA
     listOrder: 11260
@@ -1477,6 +1486,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_FRENCH_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_FRENCH_T2_BODY_ARMOR_UFOPEDIA
     listOrder: 11740
@@ -1484,6 +1494,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_FRENCH_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_FRENCH_T2_BODY_ARMOR_GASMASK_UFOPEDIA
     listOrder: 11750
@@ -1491,6 +1502,7 @@ ufopaedia:
     type_id: 5
     requires:
       - STR_FRENCH_EQUIPMENT_SELECTION
+      - STR_FRENCH_T3_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_FRENCH_T3_BODY_ARMOR_UFOPEDIA
     listOrder: 11760
@@ -1520,20 +1532,28 @@ ufopaedia:
     listOrder: 12020
   - id: STR_ITALIAN_T2_BODY_ARMOR
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_ITALIAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_T2_BODY_ARMOR
     listOrder: 12030
   - id: STR_ITALIAN_T2_BODY_ARMOR_GASMASK
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_ITALIAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_T2_BODY_ARMOR_GASMASK
     listOrder: 12040
   - id: STR_ITALIAN_T3_BODY_ARMOR
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
+      - STR_ITALIAN_T3_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_T3_BODY_ARMOR
     listOrder: 12050
-
 
   - id: STR_RUSSIAN_SOLDIER_INTRODUCTION
     type_id: 7
@@ -1545,31 +1565,46 @@ ufopaedia:
     #listOrder: 1730
   - id: STR_RUSSIAN_FIELD_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_RUSSIAN_FIELD_UNIFORM_UC_UFOPEDIA
     listOrder: 12110
   - id: STR_RUSSIAN_COAT_UNIFORM
     type_id: 5
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_RUSSIAN_COAT_UNIFORM_UFOPEDIA
     listOrder: 12120
   - id: STR_RUSSIAN_GASMASK_UC
     type_id: 5
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_RUSSIAN_GASMASK_UC_UFOPEDIA
     listOrder: 12130
   - id: STR_RUSSIAN_T2_BODY_ARMOR
     type_id: 5
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_RUSSIAN_T2_BODY_ARMOR
     listOrder: 12140
   - id: STR_RUSSIAN_T2_BODY_ARMOR_GASMASK
     type_id: 5
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_RUSSIAN_T2_BODY_ARMOR_GASMASK
     listOrder: 12150
   - id: STR_RUSSIAN_T3_BODY_ARMOR
     type_id: 5
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
+      - STR_RUSSIAN_T3_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_RUSSIAN_T3_BODY_ARMOR
     listOrder: 12160
