@@ -1865,6 +1865,46 @@ ufopaedia:
     text_width: 150
     listOrder: 15310
 
+  - id: STR_BODY_ARMOR_THEORY
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_BODY_ARMOR_THEORY
+    text: STR_BODY_ARMOR_THEORY_UFOPEDIA
+    listOrder: 15400
+    
+  - id: STR_T2_LIGHT_BODY_ARMOR
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_T2_LIGHT_BODY_ARMOR
+    text: STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA
+    listOrder: 15410    
+
+  - id: STR_T2_HEAVY_BODY_ARMOR
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_T2_HEAVY_BODY_ARMOR
+    text: STR_T2_HEAVY_BODY_ARMOR_UFOPEDIA
+    listOrder: 15420
+
+  - id: STR_T3_LIGHT_BODY_ARMOR
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_T3_LIGHT_BODY_ARMOR
+    text: STR_T3_LIGHT_BODY_ARMOR_UFOPEDIA
+    listOrder: 15410    
+
+  - id: STR_T3_HEAVY_BODY_ARMOR
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    requires:
+      - STR_T3_HEAVY_BODY_ARMOR
+    text: STR_T3_HEAVY_BODY_ARMOR_UFOPEDIA
+    listOrder: 15420
+
 #####################################
 ######### MARTIAN RESEARCH #########
 ###################################
