@@ -1812,7 +1812,7 @@ research:
     points: 20
     dependencies:
       - STR_T2_HEAVY_BODY_ARMOR
-      
+
   - name: STR_AMERICAN_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1879,8 +1879,8 @@ research:
       - STR_T2_HEAVY_BODY_ARMOR
       - STR_MARTIAN_METAL_ARMOR_PLATES
       - STR_ELERIUM_115
-      - STR_UFO_POWER_SOURCE  
-      
+      - STR_UFO_POWER_SOURCE
+
   - name: STR_POWER_SUIT
     cost: 205
     points: 20
@@ -1892,7 +1892,7 @@ research:
     points: 20
     dependencies:
       - STR_ALIENS_ONLY
-      
+
   - name: STR_AMERICAN_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -2131,6 +2131,10 @@ research:
     cost: 15
     points: 50
     needItem: true
+  - name: STR_MARTIAN_SCIENTIST_INTERROGATION
+    cost: 15
+    points: 50
+    needItem: true
   - name: STR_MARTIAN_SHOCK_GUARD_INTERROGATION
     cost: 15
     points: 50
@@ -2354,7 +2358,8 @@ research:
     cost: 600
     points: 50
     unlocks:
-      - STR_SCIENTIST_1
+     - STR_SCIENTIST_1
+     - STR_MARTIAN_SCIENTIST_INTERROGATION
     getOneFree:
       - STR_HEAT_RAY_TECH_PHOTON
       - STR_HEAT_RAY_TECH_MICROWAVE
