@@ -415,10 +415,14 @@ items:
 
   - type: STR_PERSONAL_ARMOR
     size: 0.8
+    requires:
+      - STR_PERSONAL_ARMOR
     costSell: 850
     costBuy: 1000
   - type: STR_POWER_SUIT
     size: 0.8
+    requires:
+      - STR_POWER_SUIT
     costSell: 850
     costBuy: 1000
 
@@ -459,10 +463,14 @@ items:
 
   - type: STR_BRITISH_T2_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_BRITISH_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_BRITISH_T3_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_BRITISH_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
 
@@ -543,10 +551,14 @@ items:
 
   - type: STR_AMERICAN_T2_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_AMERICAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_AMERICAN_T3_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_AMERICAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
 
@@ -637,10 +649,14 @@ items:
 
   - type: STR_GERMAN_T2_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_GERMAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_GERMAN_T3_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_GERMAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
 
@@ -723,10 +739,14 @@ items:
 
   - type: STR_FRENCH_T2_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_FRENCH_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_FRENCH_T3_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_FRENCH_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
 
@@ -806,10 +826,14 @@ items:
 
   - type: STR_ITALIAN_T2_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_ITALIAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_ITALIAN_T3_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_ITALIAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
 
@@ -879,10 +903,14 @@ items:
 
   - type: STR_RUSSIAN_T2_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_RUSSIAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_RUSSIAN_T3_BODY_ARMOR
     size: 0.8
+    requires:
+      - STR_RUSSIAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
 
