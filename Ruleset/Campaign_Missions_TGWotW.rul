@@ -41,7 +41,7 @@ missionScripts:
     varName: verdunCampaignMission
     missionWeights:
       0:
-        STR_CAMPAIGN_VERDUN_VOIE_SACREE: 100
+        STR_CAMPAIGN_VERDUN_VOIE_SACREE_MISSION: 100
     regionWeights:
       0:
         VERDUN_REGION: 100
@@ -59,7 +59,7 @@ alienMissions:
 ######### STORY MISSIONS ############
 ####################################
 
-  - type: STR_CAMPAIGN_VERDUN_VOIE_SACREE
+  - type: STR_CAMPAIGN_VERDUN_VOIE_SACREE_MISSION
     points: 10
     objective: 3
     spawnZone: 0
@@ -68,7 +68,7 @@ alienMissions:
       0:
           STR_SECTOID: 100
     waves:
-      - ufo: dummy
+      - ufo: STR_CAMPAIGN_VERDUN_VOIE_SACREE
         count: 1
         trajectory: XCOMISH
         timer: 0
