@@ -10184,7 +10184,7 @@ extraSprites:
   - typeSingle: HUMAN__7__GERMAN_STURMPANZER_U
     fileSingle: Resources/SoldiersSprites/07-Helmet/GermanSturmpanzerHelmet.png
   - typeSingle: HUMAN__7__ITALIAN_ADRIAN_U
-    fileSingle: Resources/SoldiersSprites/07-Helmet/ItalianAdrianHelmet.png
+    fileSingle: Resources/SoldiersSprites/07-Helmet/ItalianAdrienHelmet.png
   - typeSingle: HUMAN__7__ITALIAN_ADRIAN_GASMASK_U
     fileSingle: Resources/SoldiersSprites/07-Helmet/ItalianAdrianHelmetGasMask.png
   - typeSingle: HUMAN__7__ITALIAN_ALPINI_U
