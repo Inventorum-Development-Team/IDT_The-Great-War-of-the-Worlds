@@ -35,6 +35,25 @@ alienItemLevels:
   - [0, 1, 1, 1, 2, 2, 3, 4, 4, 4]
 
 ##############################################
+
+missionScripts:
+  - type: verdunCampaignMission
+    varName: verdunCampaignMission
+    missionWeights:
+      0:
+        STR_CAMPAIGN_VERDUN_VOIE_SACREE: 100
+    regionWeights:
+      0:
+        VERDUN_REGION: 100
+    researchTriggers:
+      STR_CONTACT_WITH_NIKOLA_TESLA: true
+    useTable: false
+    startDelay: 21600 # 15 Days
+    executionOdds: 100
+    #firstMonth: 16
+   # lastMonth: 18
+    maxRuns: 3
+
 alienMissions:
 ######################################
 ######### STORY MISSIONS ############
