@@ -579,9 +579,10 @@ items:
     costSell: 1920
     bigSprite: 4002
     floorSprite: 13
-    power: 52
+    power: 40
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 30
     damageType: 1
     clipSize: 100
     battleType: 2
