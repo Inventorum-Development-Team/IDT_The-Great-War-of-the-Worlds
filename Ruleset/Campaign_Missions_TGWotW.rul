@@ -46,7 +46,7 @@ missionScripts:
       0:
         STR_VERDUN_REGION: 100
     researchTriggers:
-      STR_CONTACT_WITH_NIKOLA_TESLA: true
+      STR_CONTACT_WITH_TESLA: true
     useTable: false
     startDelay: 21600 # 15 Days
     executionOdds: 100

@@ -99,6 +99,7 @@ missionScripts:
     randomDelay: 20000
 
   - type: cylinderWaveMonth6
+    varName: cylinderWaveMonth6
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
@@ -111,6 +112,7 @@ missionScripts:
     useTable: false
 
   - type: cylinderWaveMonth12
+    varName: cylinderWaveMonth12
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
@@ -123,6 +125,7 @@ missionScripts:
     useTable: false
 
   - type: cylinderWaveMonth18
+    varName: cylinderWaveMonth18
     missionWeights:
       0:
         STR_ALIEN_INFILTRATION: 100
