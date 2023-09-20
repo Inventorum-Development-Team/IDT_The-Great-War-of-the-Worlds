@@ -18,7 +18,7 @@ regions:
   - type: STR_VERDUN_REGION
     missionZones:
       -
-        - [5.41193, 5.41193, -49.2667, -49.2667, -1, STR_VERDUN]
+        - [5.41193, 5.41193, -49.2667, -49.2667, -100, STR_VERDUN]
   - type: STR_NORTH_AMERICA
     cost: 800000
     areas:
