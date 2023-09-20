@@ -44,7 +44,7 @@ missionScripts:
         STR_CAMPAIGN_VERDUN_VOIE_SACREE_MISSION: 100
     regionWeights:
       0:
-        VERDUN_REGION: 100
+        STR_VERDUN_REGION: 100
     researchTriggers:
       STR_CONTACT_WITH_NIKOLA_TESLA: true
     useTable: false
