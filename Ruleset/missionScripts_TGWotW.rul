@@ -98,7 +98,41 @@ missionScripts:
     maxScore: 1799
     randomDelay: 20000
 
+  - type: cylinderWaveMonth6
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    startDelay: 43500
+    randomDelay: 43500
+    targetBaseOdds: 100
+    #minScore: 1000
+    firstMonth: 6
+    maxRuns: 1
+    useTable: false
 
+  - type: cylinderWaveMonth12
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    startDelay: 43500
+    randomDelay: 43500
+    targetBaseOdds: 100
+    #minScore: 1000
+    firstMonth: 12
+    maxRuns: 2
+    useTable: false
+
+  - type: cylinderWaveMonth18
+    missionWeights:
+      0:
+        STR_ALIEN_INFILTRATION: 100
+    startDelay: 43500
+    randomDelay: 43500
+    targetBaseOdds: 100
+    #minScore: 1000
+    firstMonth: 18
+    maxRuns: 2
+    useTable: false
 
 ###############################
 # WESTERN EUROPEAN CAMPAIGN
