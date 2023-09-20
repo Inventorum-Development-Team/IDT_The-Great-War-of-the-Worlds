@@ -201,6 +201,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_SMLE_MKIII_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_P14_ENFIELD
     type_id: 4
@@ -222,6 +224,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_SPRINGFIELD_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_GEWEHR98
     type_id: 4
@@ -234,6 +238,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_GEWEHR98_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_LEBEL
     type_id: 4
@@ -248,6 +254,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_LEBEL_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MOSIN_NAGANT
     type_id: 4
@@ -270,6 +278,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MOSIN_NAGANT_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_BERDAN_II
     type_id: 4
@@ -281,6 +291,8 @@ ufopaedia:
     ##listOrder: 2005
   - id: STR_BERDAN_II_AMMO
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_BERDAN_II_AMMO_KMM
     type_id: 4
@@ -330,6 +342,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_FARQHUAR_HILL_DRUM_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MONDRAGON
     requires:
@@ -344,6 +358,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MONDRAGON_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_SELBSTLADER_M1916
     requires:
@@ -358,6 +374,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_SELBSTLADER_M1916_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_RSC17
     requires:
@@ -372,6 +390,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_RSC17_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_FEDOROV_AVTOMAT
     requires:
@@ -386,6 +406,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_FEDOROV_AVTOMAT_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_CEI_RIGOTTI
     requires:
@@ -400,6 +422,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_CEI_RIGOTTI_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   #################################################
@@ -436,9 +460,13 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_REVOLVER_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_REVOLVER_CLIP_DUMDUM
     type_id: 4
+    requires:
+     - STR_GENEVA_CONVENTION_APPEAL
     section: STR_NOT_AVAILABLE
   - id: STR_AUTOMATIC_REVOLVER
     type_id: 4
@@ -469,6 +497,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_M1911_COLT_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MAUSER_C96
     type_id: 4
@@ -483,6 +513,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MAUSER_C96_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_LUGER_P08
     type_id: 4
@@ -497,6 +529,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_LUGER_P08_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_OBREZ_PISTOL
     type_id: 4
@@ -551,6 +585,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_M1907_SL_CARBINE_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_MAUSER_C96_CARBINE
@@ -566,6 +602,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MAUSER_C96_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_LUGER_ARTILLERY
@@ -581,6 +619,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_LUGER_ARTILLERY_DRUM_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_CARCANO_M91_CARBINE
     requires:
@@ -595,6 +635,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_CARCANO_M91_CARBINE_CLIP_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_RSC_CARBINE
@@ -637,6 +679,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_ANNIHILATOR_SMG_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_MP18
@@ -652,6 +696,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MP18_DRUM_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_SMG_0818
@@ -667,6 +713,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_SMG_0818_BOX_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_BERETTA_MAB18
@@ -682,6 +730,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_BERETTA_MAB18_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_VILLAR_PEROSA
@@ -697,6 +747,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_VILLAR_PEROSA_MAGS_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   ##########################################
@@ -737,6 +789,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_HUOT_LMG_DRUM_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_BAR
@@ -752,6 +806,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_BAR_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_MG0815
@@ -767,6 +823,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MG0815_DRUM_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_CHAUCHAT_LMG
@@ -782,6 +840,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_CHAUCHAT_LMG_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_RIBEYROLLES
     requires:
@@ -796,6 +856,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_RIBEYROLLES_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_LEWIS_GUN
     requires:
@@ -810,6 +872,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_LEWIS_GUN_PAN_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MADSEN_LMG
     #requires:
@@ -824,6 +888,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_MADSEN_LMG_MAG_KMM
     type_id: 4
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   ##########################################
@@ -860,6 +926,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_SHOTGUN_DUMDUM_SHELLS_5
     type_id: 4
+    requires:
+     - STR_GENEVA_CONVENTION_APPEAL
     section: STR_NOT_AVAILABLE
   - id: STR_REMINGTON_MODEL_11
     requires:
@@ -896,6 +964,8 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_SHOTGUN_DUMDUM_SHELLS_2
     type_id: 4
+    requires:
+     - STR_GENEVA_CONVENTION_APPEAL
     section: STR_NOT_AVAILABLE
   - id: STR_TRANQUILIZER_RIFLE
     requires:
