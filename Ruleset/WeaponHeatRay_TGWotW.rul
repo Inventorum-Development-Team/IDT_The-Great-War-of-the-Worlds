@@ -693,11 +693,12 @@ items:
     floorSprite: 3368
     handSprite: 200
     hitSound: 22
-    hitAnimation: -1
+    hitAnimation: 26
     bulletSprite: 4
-    power: 30
+    power: 40
     bulletSpeed: 10
     damageType: 10
+    tuLoad: 10
     damageAlter:
       RandomType: 6
       IgnoreOverKill: true
