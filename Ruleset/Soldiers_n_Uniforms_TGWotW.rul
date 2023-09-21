@@ -57,7 +57,8 @@ soldiers:
       - AmericanNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    allowPiloting: false
+    allowPiloting: false 
+    specialWeapon: STR_UNARMED_UNIFORM
 ###########################
 # BRITISH
 ###########################
@@ -114,7 +115,8 @@ soldiers:
       - BritishNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    allowPiloting: false
+    allowPiloting: false 
+    specialWeapon: STR_UNARMED_UNIFORM
 ####################
 # GERMANS
 ####################
@@ -169,7 +171,8 @@ soldiers:
       - GermanNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    allowPiloting: false
+    allowPiloting: false 
+    specialWeapon: STR_UNARMED_UNIFORM
 #####################
 # PILOT
 #####################
@@ -230,6 +233,7 @@ soldiers:
       bravery: 30
       reactions: 100
       firing: 75
+    specialWeapon: STR_UNARMED_UNIFORM
 #####################
 # FRENCH
 #####################
@@ -288,6 +292,7 @@ soldiers:
       - FrenchNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
+    specialWeapon: STR_UNARMED_UNIFORM
 
 ##################
 # ITALIAN
@@ -347,6 +352,7 @@ soldiers:
       - ItalianNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
+    specialWeapon: STR_UNARMED_UNIFORM
 
 ##################
 # RUSSIAN
@@ -406,8 +412,46 @@ soldiers:
       - RussianNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
+    specialWeapon: STR_UNARMED_UNIFORM
 
 items:
+
+  - type: STR_UNARMED_UNIFORM
+    weight: 0
+    bigSprite: 99
+    meleeHitSound: 99
+    meleeAnimation: 0
+    power: 20
+    damageType: 6
+    damageBonus:
+      strength: 1.5
+      melee: 2.0
+    damageAlter:
+      RandomType: 1
+      FixRadius: 0
+      IgnoreDirection: false
+      ArmorEffectiveness: 1.15
+      ToHealth: 0.35
+      ToArmorPre: 0.1
+    accuracyMelee: 85
+    meleeMultiplier:
+      melee: 2.0
+    confMelee:
+      name: STR_PUNCH
+    costMelee:
+      time: 8
+      energy: 4
+      health: 2
+    flatRate: true
+    battleType: 3
+    clipSize: -1
+    experienceTrainingMode: 13
+    invWidth: 2
+    invHeight: 2
+    fixedWeapon: true
+    recover: false
+    specialIconSprite: 2
+    specialUseEmptyHand: true
 
 ######################
 # SPECIAL ARMORS
