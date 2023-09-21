@@ -1185,25 +1185,25 @@ armors:
       - STR_PERSONAL_ARMOR_CORPSE
     storeItem: STR_PERSONAL_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 50
+    underArmor: 20
     stats:
       tu: 15
       stamina: 20
-      health: 15
+      health: 30
       bravery: 40
-      reactions: -15
+      reactions: -20
       firing: 0
-      throwing: -5
+      throwing: -15
       strength: 30
       psiStrength: 0
       psiSkill: 0
       melee: 0
     damageModifier:
       - 1.0 #0 None
-      - 0.3 #1 Ballistic
+      - 0.5 #1 Ballistic
       - 0.5 #2 Incendiary
       - 0.5 #3 High Explosive
       - 0.7 #4 Energy Beam
@@ -1212,7 +1212,7 @@ armors:
       - 0.5 #7 Melee
       - 0.4 #8 Acid
       - 0.0 #9 Smoke
-      - 0.6 #10 K-MM Ballistic
+      - 0.7 #10 K-MM Ballistic
       - 1.5 #11 Electric
       - 0.9 #12 Coilgun Ballistic
       - 0.8 #13 Thermal
@@ -1396,22 +1396,22 @@ armors:
       - STR_POWER_SUIT_ARMOR_CORPSE
     storeItem: STR_POWER_SUIT
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 110
+    sideArmor: 90
+    rearArmor: 80
+    underArmor: 70
     stats:
       tu: 15
       stamina: 20
-      health: 15
+      health: 40
       bravery: 40
-      reactions: -15
-      firing: 0
-      throwing: -5
+      reactions: -25
+      #firing: 0
+      throwing: -25
       strength: 30
-      psiStrength: 0
-      psiSkill: 0
-      melee: 0
+      #psiStrength: 0
+      #psiSkill: 0
+      #melee: 0
     damageModifier:
       - 1.0 #0 None
       - 0.3 #1 Ballistic
