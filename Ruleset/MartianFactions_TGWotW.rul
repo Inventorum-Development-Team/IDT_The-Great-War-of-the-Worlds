@@ -217,10 +217,10 @@ armors:
       - 1.0 #9 Smoke
       - 1.5 #10 K-MM Ballistic
       - 2.0 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
+      - 1.5 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
       - 1.2 #14 Black Smoke
-#      - 1.0 #15 Green Gas
+      - 1.4 #15 Shrapnel
 #      - 1.0 #16 Cold
       - 1.8 #17 Toxic
       - 1.5 #18 Flames
@@ -249,11 +249,11 @@ armors:
       - 0.1 #9 Smoke
       - 1.2 #10 K-MM Ballistic
       - 1.0 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
+      - 1.4 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
       - 0.1 #14 Black Smoke
-#      - 1.0 #15 Green Gas
-#      - 1.0 #16 Cold
+      - 1.0 #15 Shrapnel
+      - 1.0 #16 Cold
       - 0.1 #17 Toxic
       - 1.0 #18 Flames
     loftempsSet: [ 3 ]
@@ -281,10 +281,10 @@ armors:
       - 0.1 #9 Smoke
       - 1.3 #10 K-MM Ballistic
       - 1.0 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
+      - 1.1 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
       - 0.1 #14 Black Smoke
-#      - 1.0 #15 Green Gas
+      - 1.0 #15 Shrapnel
 #      - 1.0 #16 Cold
       - 0.1 #17 Toxic
       - 1.0 #18 Flames
@@ -302,9 +302,9 @@ armors:
     visibilityAtDark: 9
     damageModifier:
       - 1.0 #0 None
-      - 0.7 #1 Armor Piercing
+      - 0.5 #1 Armor Piercing
       - 1.1 #2 Incendiary
-      - 1.0 #3 High Explosive
+      - 0.8 #3 High Explosive
       - 1.3 #4 Laser
       - 1.0 #5 Plasma
       - 1.0 #6 Stun
@@ -313,11 +313,11 @@ armors:
       - 0.1 #9 Smoke
       - 1.1 #10 K-MM Ballistic
       - 0.9 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
+      - 1.2 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
       - 0.1 #14 Black Smoke
-#      - 1.0 #15 Green Gas
-#      - 1.0 #16 Cold
+      - 0.8 #15 Shrapnel
+      - 1.0 #16 Cold
       - 0.1 #17 Toxic
       - 1.1 #18 Flames
     loftempsSet: [ 3 ]
@@ -336,7 +336,7 @@ armors:
       - 1.0 #0 None
       - 1.1 #1 Armor Piercing
       - 1.5 #2 Incendiary
-      - 1.0 #3 High Explosive
+      - 1.1 #3 High Explosive
       - 1.0 #4 Laser
       - 1.0 #5 Plasma
       - 1.0 #6 Stun
@@ -345,10 +345,10 @@ armors:
       - 1.0 #9 Smoke
       - 1.3 #10 K-MM Ballistic
       - 1.5 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
-      - 1.2 #14 Black Smoke
-#      - 1.0 #15 Green Gas
+      - 1.1 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
+      - 0.5 #14 Black Smoke
+      - 1.2 #15 Shrapnel
 #      - 1.0 #16 Cold
       - 1.8 #17 Toxic
       - 1.5 #18 Flames
@@ -366,7 +366,7 @@ armors:
     visibilityAtDark: 9
     damageModifier:
       - 1.0 #0 None
-      - 0.9 #1 Armor Piercing
+      - 0.6 #1 Armor Piercing
       - 1.1 #2 Incendiary
       - 1.0 #3 High Explosive
       - 1.3 #4 Laser
@@ -376,12 +376,12 @@ armors:
       - 1.6 #8 Acid
       - 0.4 #9 Smoke
       - 1.1 #10 K-MM Ballistic
-      - 2.0 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
+      - 1.0 #11 Electric
+      - 1.5 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
       - 0.4 #14 Black Smoke
-#      - 1.0 #15 Green Gas
-#      - 1.0 #16 Cold
+      - 1.0 #15 Shrapnel
+      - 1.0 #16 Cold
       - 1.8 #17 Toxic
       - 1.1 #18 Flames
     loftempsSet: [ 3 ]
@@ -402,17 +402,17 @@ armors:
       - 1.5 #2 Incendiary
       - 1.0 #3 High Explosive
       - 1.0 #4 Laser
-      - 1.0 #5 Plasma
+      - 1.5 #5 Plasma
       - 1.0 #6 Stun
       - 1.2 #7 Melee
       - 1.6 #8 Acid
       - 1.0 #9 Smoke
       - 1.5 #10 K-MM Ballistic
       - 2.0 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
+      - 1.1 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
       - 1.2 #14 Black Smoke
-#      - 1.0 #15 Green Gas
+      - 1.5 #15 Shrapnel
 #      - 1.0 #16 Cold
       - 1.8 #17 Toxic
       - 1.5 #18 Flames
@@ -442,10 +442,10 @@ armors:
       - 1.0 #9 Smoke
       - 1.7 #10 K-MM Ballistic
       - 2.0 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
+      - 1.9 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
       - 1.2 #14 Black Smoke
-#      - 1.0 #15 Green Gas
+      - 1.8 #15 Shrapnel
 #      - 1.0 #16 Cold
       - 1.8 #17 Toxic
       - 1.9 #18 Flames
