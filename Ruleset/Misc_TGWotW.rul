@@ -559,42 +559,6 @@ enviroEffects:
 
 
 items:
-  - type: STR_UNARMED_UNIFORM
-    weight: 0
-    bigSprite: 99
-    meleeHitSound: 99
-    meleeAnimation: 0
-    power: 20
-    damageType: 6
-    damageBonus:
-      strength: 1.5
-      melee: 2.0
-    damageAlter:
-      RandomType: 1
-      FixRadius: 0
-      IgnoreDirection: false
-      ArmorEffectiveness: 1.15
-      ToHealth: 0.35
-      ToArmorPre: 0.1
-    accuracyMelee: 85
-    meleeMultiplier:
-      melee: 2.0
-    confMelee:
-      name: STR_PUNCH
-    costMelee:
-      time: 8
-      energy: 4
-      health: 2
-    flatRate: true
-    battleType: 3
-    clipSize: -1
-    experienceTrainingMode: 13
-    invWidth: 2
-    invHeight: 2
-    fixedWeapon: true
-    recover: false
-    specialIconSprite: 2
-    specialUseEmptyHand: true
 
   - type: STR_SIEGE_LOW_MORALE_WEAPON
     # damage: 30
@@ -603,45 +567,6 @@ items:
       RandomType: 6
       IgnoreOverKill: false
       ToMorale: 3.0
-
-armors:
-  - type: STR_BRITISH_FIELD_UNIFORM_UC # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_BRITISH_GASMASK_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_AMERICAN_FIELD_UNIFORM_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_AMERICAN_GASMASK_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_GERMAN_FIELD_UNIFORM_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_GERMAN_GASMASK_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_PILOT_UNIFORM_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_FRENCH_FIELD_UNIFORM_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_FRENCH_GASMASK_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_FRENCH_FIELD_UNIFORM_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_FRENCH_GASMASK_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-
-  - type: STR_ITALIAN_FIELD_UNIFORM_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-  - type: STR_ITALIAN_ALPINI_UNIFORM_UC  # ignoreDuplicate
-    specialWeapon: STR_UNARMED_UNIFORM
-
-
-
-
-
 
 extraSounds:
   - type: BATTLE.CAT
