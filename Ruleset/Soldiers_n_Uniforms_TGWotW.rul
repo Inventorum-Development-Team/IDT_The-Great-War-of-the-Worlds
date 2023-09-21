@@ -57,7 +57,7 @@ soldiers:
       - AmericanNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    allowPiloting: false 
+    allowPiloting: false
     specialWeapon: STR_UNARMED_UNIFORM
 ###########################
 # BRITISH
@@ -115,7 +115,7 @@ soldiers:
       - BritishNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    allowPiloting: false 
+    allowPiloting: false
     specialWeapon: STR_UNARMED_UNIFORM
 ####################
 # GERMANS
@@ -171,7 +171,7 @@ soldiers:
       - GermanNames/
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
-    allowPiloting: false 
+    allowPiloting: false
     specialWeapon: STR_UNARMED_UNIFORM
 #####################
 # PILOT
@@ -2397,14 +2397,14 @@ armors:
       - STR_AMERICAN_T2_BODY_ARMOR_CORPSE
     storeItem: STR_AMERICAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 50
+    sideArmor: 20
+    rearArmor: 50
+    underArmor: 20
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 15
       bravery: 10
       reactions: 0
       firing: 0
@@ -2602,14 +2602,14 @@ armors:
       - STR_AMERICAN_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_AMERICAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 50
+    sideArmor: 20
+    rearArmor: 50
+    underArmor: 20
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 15
       bravery: 10
       reactions: 0
       firing: 0
@@ -2812,14 +2812,14 @@ armors:
       - STR_AMERICAN_T3_BODY_ARMOR_CORPSE
     storeItem: STR_AMERICAN_T3_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 50
+    sideArmor: 40
+    rearArmor: 50
+    underArmor: 20
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 25
       bravery: 10
       reactions: 0
       firing: 0
@@ -3583,14 +3583,14 @@ armors:
       - STR_BRITISH_T2_BODY_ARMOR_CORPSE
     storeItem: STR_BRITISH_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 30
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 15
       bravery: 10
       reactions: 0
       firing: 0
@@ -3769,14 +3769,14 @@ armors:
       - STR_BRITISH_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_BRITISH_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 40
+    sideArmor: 40
+    rearArmor: 40
+    underArmor: 30
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 15
       bravery: 10
       reactions: 0
       firing: 0
@@ -3960,14 +3960,14 @@ armors:
       - STR_BRITISH_T3_BODY_ARMOR_CORPSE
     storeItem: STR_BRITISH_T3_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 60
+    sideArmor: 50
+    rearArmor: 40
+    underArmor: 30
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 25
       bravery: 10
       reactions: 0
       firing: 0
@@ -4714,14 +4714,14 @@ armors:
       - STR_GERMAN_T2_BODY_ARMOR_CORPSE
     storeItem: STR_GERMAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 60
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 20
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 15
       bravery: 10
       reactions: 0
       firing: 0
@@ -4900,14 +4900,14 @@ armors:
       - STR_GERMAN_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_GERMAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 60
+    sideArmor: 20
+    rearArmor: 10
+    underArmor: 20
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 15
       bravery: 10
       reactions: 0
       firing: 0
@@ -5091,14 +5091,14 @@ armors:
       - STR_GERMAN_T3_BODY_ARMOR_CORPSE
     storeItem: STR_GERMAN_T3_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 80
+    sideArmor: 30
+    rearArmor: 10
+    underArmor: 20
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 25
       bravery: 10
       reactions: 0
       firing: 0
@@ -6216,16 +6216,16 @@ armors:
       - STR_FRENCH_T2_BODY_ARMOR_CORPSE
     storeItem: STR_FRENCH_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
+    frontArmor: 40
     sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    rearArmor: 40
+    underArmor: 10
     stats:
       tu: 3
-      stamina: 0
-      health: 0
+      stamina: 20
+      health: 15
       bravery: 10
-      reactions: 0
+      reactions: 10
       firing: 0
       throwing: 0
       strength: 0
@@ -6402,14 +6402,14 @@ armors:
       - STR_FRENCH_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_FRENCH_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
+    frontArmor: 40
     sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    rearArmor: 40
+    underArmor: 10
     stats:
       tu: 3
-      stamina: 0
-      health: 0
+      stamina: 10
+      health: 15
       bravery: 10
       reactions: 0
       firing: 0
@@ -6584,7 +6584,7 @@ armors:
       F68: ["F68_NUDE", "FRENCH_COAT_U", "FRENCH_T3_U", "", "", "", "", "FRENCH_POLACK_GASMASK_U", ""]
       F69: ["F69_NUDE", "FRENCH_COAT_U", "FRENCH_T3_U", "", "", "", "", "FRENCH_POLACK_GASMASK_U", ""]
       F70: ["F70_NUDE", "FRENCH_COAT_U", "FRENCH_T3_U", "", "", "", "", "FRENCH_POLACK_GASMASK_U", ""]
-      F71: ["F71_NUDE", "FRENCH_COAT_U", "FRENCH_T2_U", "", "", "", "", "FRENCH_POLACK_GASMASK_U", ""]
+      F71: ["F71_NUDE", "FRENCH_COAT_U", "FRENCH_T3_U", "", "", "", "", "FRENCH_POLACK_GASMASK_U", ""]
     spriteFaceGroup: 6
     spriteFaceColor: *SpriteFaceColorHuman
     spriteHairGroup: 9
@@ -6593,14 +6593,14 @@ armors:
       - STR_FRENCH_T3_BODY_ARMOR_CORPSE
     storeItem: STR_FRENCH_T3_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 60
+    sideArmor: 20
+    rearArmor: 60
+    underArmor: 10
     stats:
       tu: 3
-      stamina: 0
-      health: 0
+      stamina: 10
+      health: 25
       bravery: 10
       reactions: 0
       firing: 0
@@ -7356,19 +7356,19 @@ armors:
       - STR_ITALIAN_T2_BODY_ARMOR_CORPSE
     storeItem: STR_ITALIAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
+    frontArmor: 50
+    sideArmor: 50
     rearArmor: 8
     underArmor: 2
     stats:
       tu: 3
-      stamina: 0
-      health: 0
+      stamina: -15
+      health: 15
       bravery: 10
-      reactions: 0
+      reactions: -15
       firing: 0
       throwing: 0
-      strength: 0
+      strength: -15
       psiStrength: 0
       psiSkill: 0
       melee: 0
@@ -7542,19 +7542,19 @@ armors:
       - STR_ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_ITALIAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
+    frontArmor: 50
+    sideArmor: 50
     rearArmor: 8
     underArmor: 2
     stats:
       tu: 3
-      stamina: 0
-      health: 0
+      stamina: -15
+      health: 15
       bravery: 10
-      reactions: 0
+      reactions: -15
       firing: 0
       throwing: 0
-      strength: 0
+      strength: -15
       psiStrength: 0
       psiSkill: 0
       melee: 0
@@ -7733,19 +7733,19 @@ armors:
       - STR_ITALIAN_T3_BODY_ARMOR_CORPSE
     storeItem: STR_ITALIAN_T3_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
-    sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    frontArmor: 60
+    sideArmor: 60
+    rearArmor: 10
+    underArmor: 10
     stats:
       tu: 3
-      stamina: 0
-      health: 0
+      stamina: -15
+      health: 25
       bravery: 10
-      reactions: 0
+      reactions: -15
       firing: 0
       throwing: 0
-      strength: 0
+      strength: -15
       psiStrength: 0
       psiSkill: 0
       melee: 0
@@ -8478,10 +8478,10 @@ armors:
       - STR_RUSSIAN_T2_BODY_ARMOR_CORPSE
     storeItem: STR_RUSSIAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
+    frontArmor: 50
     sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    rearArmor: 50
+    underArmor: 10
     stats:
       tu: 3
       stamina: 0
@@ -8490,7 +8490,7 @@ armors:
       reactions: 0
       firing: 0
       throwing: 0
-      strength: 0
+      strength: -10
       psiStrength: 0
       psiSkill: 0
       melee: 0
@@ -8664,19 +8664,19 @@ armors:
       - STR_RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE
     storeItem: STR_RUSSIAN_T2_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
+    frontArmor: 50
     sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    rearArmor: 50
+    underArmor: 10
     stats:
       tu: 3
       stamina: 0
       health: 0
       bravery: 10
-      reactions: 0
+      reactions: -10
       firing: 0
       throwing: 0
-      strength: 0
+      strength: -10
       psiStrength: 0
       psiSkill: 0
       melee: 0
@@ -8855,19 +8855,19 @@ armors:
       - STR_RUSSIAN_T3_BODY_ARMOR_CORPSE
     storeItem: STR_RUSSIAN_T3_BODY_ARMOR
     loftempsSet: [ 3 ]
-    frontArmor: 14
+    frontArmor: 65
     sideArmor: 10
-    rearArmor: 8
-    underArmor: 2
+    rearArmor: 10
+    underArmor: 10
     stats:
       tu: 3
       stamina: 0
-      health: 0
+      health: 25
       bravery: 10
       reactions: 0
       firing: 0
       throwing: 0
-      strength: 0
+      strength: -10
       psiStrength: 0
       psiSkill: 0
       melee: 0

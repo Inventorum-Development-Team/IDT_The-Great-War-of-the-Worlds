@@ -1084,7 +1084,7 @@ en-US:
 
       STR_RUSSIAN_SOLDIER: "Russian Soldier"
       STR_RUSSIAN_SOLDIER_INTRODUCTION: "The Tsar's Warriors"
-      STR_RUSSIAN_SOLDIER_INTRODUCTION_UFOPEDIA: "..."
+      STR_RUSSIAN_SOLDIER_INTRODUCTION_UFOPEDIA: "Russia has the largest standing army in the whole world, numbering almost 5 million soldiers, between active frontline units and reserves. They are extremely courageous, despite the widely different backgrounds of them. Workers, peasants, students, urban professionals, career military soldiers... every Russian men and women answered the Tsar's call to arms. However, not every unit has received proper training, so the quality of their field skills may vary. "
 
       STR_SOLDIER_CLASSES_INTRODUCTION: "Soldier Classes"
       STR_SOLDIER_CLASSES_INTRODUCTION_UFOPEDIA: "The advent of the large scale conflicts meant a focus in the specialization of the training given to the military units. And in this industrialized war, this was further pushed by the members of the Coalition. The result is a series of 'Soldier Classes', each one with a particular set of skills. These soldiers are often assigned to special support regiments, complementing the larger armies fighting the invaders. Also, in separate combat teams like our Force. The IEF is given professional soldiers from each one of the Coalition military special forces, both to bolster our offensive capabilities and a show of unity among nations."
@@ -2029,7 +2029,7 @@ en-US:
       STR_FRENCH_T2_BODY_ARMOR_GASMASK: "Lancier Light Armor w/ ARS 13"
       STR_FRENCH_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "The ARS 13 gas mask fits better in the newly developed Adrian-Lancier helmet, which was an improvement over the original design centered around comfort and endurance. "
       STR_ITALIAN_T2_BODY_ARMOR: "Farina Arditi Armor"
-      STR_ITALIAN_T2_BODY_ARMOR_UFOPEDIA: "A heavy armored chest plate, with reinforced pauldrons. Usually worn by the Arditi shock troopers in raiding missions, it reduces the user's stamina but greatly increase morale."
+      STR_ITALIAN_T2_BODY_ARMOR_UFOPEDIA: "A heavy armored chest plate, with reinforced pauldrons. Usually worn by the Arditi shock troopers in raiding missions, it reduces the user's stamina but greatly increase morale. It completely lacks back protection."
       STR_ITALIAN_T2_BODY_ARMOR_GASMASK: "Farina Armor w/ Polivalente Z"
       STR_ITALIAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A Polivalente Z mask hardly fits the narrow face plate of the Farina helmet, but it's better than nothing. Sight is reduced."
       STR_RUSSIAN_T2_BODY_ARMOR: "Ursa Body Plate"
