@@ -2031,7 +2031,7 @@ en-US:
       STR_ITALIAN_T2_BODY_ARMOR: "Farina Arditi Armor"
       STR_ITALIAN_T2_BODY_ARMOR_UFOPEDIA: "A heavy armored chest plate, with reinforced pauldrons. Usually worn by the Arditi shock troopers in raiding missions, it reduces the user's stamina but greatly increase morale. It completely lacks back protection."
       STR_ITALIAN_T2_BODY_ARMOR_GASMASK: "Farina Armor w/ Polivalente Z"
-      STR_ITALIAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A Polivalente Z mask hardly fits the narrow face plate of the Farina helmet, but it's better than nothing. Sight is reduced."
+      STR_ITALIAN_T2_BODY_ARMOR_GASMASK_UFOPEDIA: "A Polivalente Z mask hardly fits the narrow face plate of the Farina helmet, so a standard-issue Adrian helmet is used instead. Sight is reduced."
       STR_RUSSIAN_T2_BODY_ARMOR: "Ursa Body Plate"
       STR_RUSSIAN_T2_BODY_ARMOR_UFOPEDIA: "Licensed version of the Lancier French armor, made in Tula Arms Plant. More asbestos and steel are added, increasing both protection and weight. After certain reticence of the Stavka, a massive deployment of steel helmets was put in action."
       STR_RUSSIAN_T2_BODY_ARMOR_GASMASK: "Ursa Body Plate w/ Z-K Mask"
@@ -2056,7 +2056,7 @@ en-US:
       STR_FRENCH_T3_BODY_ARMOR: "Cuirassier-Polack Body Armor"
       STR_FRENCH_T3_BODY_ARMOR_UFOPEDIA: "An replacement over the basic Lancier soft armor includes a Polack face shield to protect the eyes from shrapnel and Adrian full-Tunguskium torso armor with angled design to deflect and dissipate ballistic and energy attacks."
       STR_ITALIAN_T3_BODY_ARMOR: "Dunand Infantry Armor"
-      STR_ITALIAN_T3_BODY_ARMOR_UFOPEDIA: "A mixture of the Adrian Cuirassier torso armor and Farina shoulder plates, the joint Franco-Italian design incorporates a Dunand bubble-like face mask to deflect bullets and shrapnel alike."
+      STR_ITALIAN_T3_BODY_ARMOR_UFOPEDIA: "A mixture of a reinforced Adrian Cuirassier torso armor and Farina shoulder plates, the joint Franco-Italian design incorporates a Dunand bubble-like face mask to deflect bullets and shrapnel alike."
       STR_RUSSIAN_T3_BODY_ARMOR: "Rostova-pattern Raider Protection"
       STR_RUSSIAN_T3_BODY_ARMOR_UFOPEDIA: "Battle armor designed by the armourers of the Woman's Battalion of Death operating behind enemy lines, its more comfortable than other armor sets. The protection is focused only in the chest to allow freedom of movement."
 
