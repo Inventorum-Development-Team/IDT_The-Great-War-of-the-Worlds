@@ -1392,7 +1392,7 @@ ufopaedia:
       - STR_BRITISH_T2_BODY_ARMOR
     section: STR_UNIFORMS_AND_ARMORS
     #listOrder: 1702
-    text: STR_BRITISH_GASMASK_UC_UFOPEDIA
+    text: STR_BRITISH_T3_BODY_ARMOR_UFOPEDIA
     listOrder: 10750
 
 ################
@@ -1943,14 +1943,14 @@ ufopaedia:
       - STR_BODY_ARMOR_THEORY
     text: STR_BODY_ARMOR_THEORY_UFOPEDIA
     listOrder: 15400
-    
+
   - id: STR_T2_LIGHT_BODY_ARMOR
     type_id: 8
     section: STR_NEW_TECHNOLOGIES
     requires:
       - STR_T2_LIGHT_BODY_ARMOR
     text: STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA
-    listOrder: 15410    
+    listOrder: 15410
 
   - id: STR_T2_HEAVY_BODY_ARMOR
     type_id: 8
@@ -1966,7 +1966,7 @@ ufopaedia:
     requires:
       - STR_T3_LIGHT_BODY_ARMOR
     text: STR_T3_LIGHT_BODY_ARMOR_UFOPEDIA
-    listOrder: 15410    
+    listOrder: 15410
 
   - id: STR_T3_HEAVY_BODY_ARMOR
     type_id: 8
