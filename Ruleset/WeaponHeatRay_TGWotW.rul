@@ -43,7 +43,7 @@ items:
     floorSprite: 3104
     hitSound: 19
     hitAnimation: 66
-    power: 65
+    power: 45
     damageAlter:
       RandomType: 6
       IgnoreOverKill: false 
@@ -66,7 +66,7 @@ items:
     floorSprite: 3112
     hitSound: 19
     hitAnimation: 77
-    power: 85
+    power: 65
     damageAlter:
       RandomType: 6
       IgnoreOverKill: false 
@@ -289,7 +289,7 @@ items:
     hitSound: 19
     damageType: 13
     clipSize: 20
-    power: 85
+    power: 70
     damageAlter:
       RandomType: 6
       IgnoreOverKill: false 
@@ -312,7 +312,7 @@ items:
     hitSound: 19
     damageType: 13
     clipSize: 10
-    power: 125
+    power: 90
     damageAlter:
       RandomType: 6
       IgnoreOverKill: false 
@@ -371,7 +371,7 @@ items:
     hitAnimation: 66
     hitSound: 19
     damageType: 13
-    power: 68
+    power: 65
     damageAlter:
       RandomType: 6
       IgnoreOverKill: false 
@@ -394,7 +394,7 @@ items:
     hitAnimation: 77
     hitSound: 19
     damageType: 13
-    power: 88
+    power: 85
     damageAlter:
       RandomType: 6
       IgnoreOverKill: false 
