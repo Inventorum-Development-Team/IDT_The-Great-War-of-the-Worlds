@@ -10,6 +10,8 @@ Changes made:
 *Buffed Bolt-action rifles' regular and K-MM rounds armor penetration (was 0.2 and 0.3, now 0.4 and 0.5)
 *Reduced Pistols snapshot TU costs
 *Nerfed aircraft evasion values
+*Rebalanced Heat-Ray weapons, added armor damage values (so armor is considered before health in most cases)
+*Rebalanced Martian Launcher shells (Black Smoke now reduces TUs and Stamina, instead of stunning)
 *General bugfixing 
 
 10-December-2022: 0.8 Mk. IV 'Slavyanka'
