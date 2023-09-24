@@ -46,7 +46,9 @@ items:
     power: 65
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.3
+      RandomWound: false
     damageType: 13
     blastRadius: 0
     clipSize: 30
@@ -67,7 +69,9 @@ items:
     power: 85
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.5
+      RandomWound: false
     damageType: 13
     clipSize: 15
     shotgunBehavior: 1
@@ -123,7 +127,9 @@ items:
     power: 48
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.3
+      RandomWound: false
     damageType: 13
     clipSize: 45
     battleType: 2
@@ -143,7 +149,9 @@ items:
     power: 68
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.5
+      RandomWound: false
     damageType: 13
     clipSize: 22
     shotgunBehavior: 1
@@ -202,7 +210,9 @@ items:
     power: 42
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.4
+      RandomWound: false
     damageType: 13
     blastRadius: 0
     clipSize: 60
@@ -224,7 +234,9 @@ items:
     power: 62
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.6
+      RandomWound: false
     damageType: 13
     blastRadius: 0
     clipSize: 30
@@ -280,7 +292,9 @@ items:
     power: 85
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.5
+      RandomWound: false
     battleType: 2
     armor: 12
     listOrder: 3394
@@ -301,7 +315,9 @@ items:
     power: 125
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.6
+      RandomWound: false
     shotgunBehavior: 1
     shotgunPellets: 3
     shotgunSpread: 50
@@ -358,7 +374,9 @@ items:
     power: 68
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.6
+      RandomWound: false
     clipSize: 20
     battleType: 2
     armor: 12
@@ -379,7 +397,9 @@ items:
     power: 88
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false
+      IgnoreOverKill: false 
+      ToArmorPre: 0.7
+      RandomWound: false
     clipSize: 10
     shotgunBehavior: 1
     shotgunPellets: 3
@@ -413,14 +433,12 @@ items:
     invHeight: 3
     armor: 20
     explosionSpeed: 2
+    bulletSpeed: -1
     arcingShot: true
-    vaporColorSurface: 1
+    vaporColorSurface: 8
     vaporDensitySurface: 75
     vaporProbabilitySurface: 100
     listOrder: 3397
-    tags: #here buff values can be set - Finnik's scripts
-      FTAG_BUFF_VALUE_TIMEUNITS: -10
-      FTAG_BUFF_VALUE_STAMINA: -15
   - type: STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     requires:
@@ -431,13 +449,13 @@ items:
     bigSprite: 3304
     floorSprite: 3304
     hitSound: 0
-    power: 50
+    power: 35
     hitAnimation: 1200
     damageAlter:
       IgnoreDirection: true
       IgnorePainImmunity: true
       ArmorEffectiveness: 0
-      ToStun: 1.5
+      ToStun: 0.1
       ToTime: 1.5
       ToEnergy: 3.0
       ToArmor: 0
@@ -452,6 +470,9 @@ items:
     armor: 20
     invWidth: 1
     invHeight: 1
+    tags: #here buff values can be set - Finnik's scripts
+      FTAG_BUFF_VALUE_TIMEUNITS: -10
+      FTAG_BUFF_VALUE_STAMINA: -15
     listOrder: 3398
 ### ATTENTION!! THIS IS LITERALLY A COPY PASTE OF STR_MARTIAN_LAUNCHER_BLACK_SMOKE_CLIP,
 ### TODO        BUT THIS WAS MISSING. RATHER THAN CHANGE ALL THE REFERENCES I ADDED THIS IN FOR NOW
@@ -463,7 +484,7 @@ items:
     bigSprite: 3312
     floorSprite: 3312
     hitSound: 0
-    power: 100
+    power: 50
     hitAnimation: 1200
     damageAlter:
       IgnoreDirection: true
