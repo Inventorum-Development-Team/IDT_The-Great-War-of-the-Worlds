@@ -81,7 +81,7 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_ONE
       - STR_CRAFT_LIGHT_CANNON_TWO
     soldiers: 30
-    vehicles: 0
+    vehicles: 10
     costBuy: 10
     refuelRate: 900
     undetectable: true
@@ -710,7 +710,7 @@ crafts:
   - type: STR_CCLASS_AIRSHIP
     sprite: 326
     fuelMax: 1450
-    damageMax: 500
+    damageMax: 300
     speedMax: 300
     accel: 1
     weapons: 4
@@ -725,8 +725,8 @@ crafts:
       - STR_CRAFT_MACHINE_GUN_THREE
       - STR_CRAFT_BOMB_FOUR
     soldiers: 12
-    vehicles: 0
-    pilots: 5
+    maxSmallVehicles: 4
+    pilots: 3
     costBuy: 675000
     costSell: 600000
     refuelRate: 60
@@ -802,7 +802,7 @@ crafts:
       - STR_CRAFT_MACHINE_GUN_THREE
       - STR_CRAFT_BOMB_FOUR
     soldiers: 12
-    vehicles: 0
+    maxSmallVehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -884,7 +884,7 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 26
-    vehicles: 0
+    maxSmallVehicles: 6
     pilots: 4
     costBuy: 675000
     costSell: 600000
@@ -984,7 +984,7 @@ crafts:
       - STR_CRAFT_LIGHT_CANNON_TWO
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 6
-    vehicles: 0
+    maxSmallVehicles: 2
     pilots: 6
     costBuy: 675000
     costSell: 600000
@@ -1056,7 +1056,7 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 21
-    vehicles: 0
+    maxSmallVehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -1149,7 +1149,7 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 7
-    vehicles: 0
+    maxSmallVehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -1229,7 +1229,7 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 13
-    vehicles: 0
+    maxSmallVehicles: 6
     pilots: 5
     costBuy: 675000
     costSell: 600000
