@@ -1955,6 +1955,8 @@ en-US:
       STR_TANK_HISTORY_1_UFOPEDIA: "The story of the modern tank began with the utility tracked haulers made by the Holt Company. Often employed to transport artillery pieces in difficult terrains, its mechanical reliability and widespread use allowed a latge amount of engineers to experiment on the design. Primitive examples made early in the war had machine guns and armored plates welded over the tractor frame, with varying degrees of success. French Colonel Jean Baptiste Estienne was the main advocate of the invention and adoption of armored vehicles to support the infantry. Initially, he proposed the implementation of {ALT}'mobile personal shields'{ALT} to protect advancing soldiers, but those proved too cumbersome to use. Further research was conducted. "
       STR_TANK_HISTORY_2: "Tank History II"
       STR_TANK_HISTORY_2_UFOPEDIA: "Colonel Estienne greatly promoted the development of an advanced armored unit mounted on a Holt tractor chassis, with offensive capabilities. After sending several letters to General Joffre and leading different trials, his proposal for an armored vehicle force was approved. The most promising prototype was the Schneider CA, armed with a shortened light cannon and a support machine gun. While a large number of these tanks could engage light Tripods, the main purpose was to augment the offensive capabilities of the infantry at platoon level.  "
+      STR_TANK_HISTORY_3: "Tank History III"
+      STR_TANK_HISTORY_3_UFOPEDIA: "Shortly after Col. Estienne's breakthrough, a joint American-British project aimed at creating a small and light tank (with the first prototypes made by Ford) began... with considerable difficulties. The M1914 3-ton was underarmed, underpowered and underarmored. The puny vehicle, however, was a test bed for the upscaled British project. By adding a more powerful twin engine, it was possible to increase the armor thickness and armament. The first units were quickly dispatched to British forces fighting on the American Midwest with reported success."
 
 #######################################################
 
@@ -1989,6 +1991,7 @@ en-US:
       STR_SCHNEIDER_CA1_TANK_UFOPEDIA: "The Schneider CA1 is the first 'tank' model created to support troops in combat. Its small size helps it to be transported quickly, although due to resource limitations it is only armed with a Hotchkiss M1914 heavy machine gun. Despite its clumsy and sluggish appearance, it is quite fast."
       AUX_COAXIAL_HOTCHKISS_MG: "Coaxial Hotchkiss"
       AUX_COAXIAL_HOTCHKISS_MG_AMMO: "Coaxial Hotchkiss Ammo"
+      AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO: "Coaxial Hotchkiss K-MM Ammo"
       AUX_COAXIAL_HOTCHKISS_MG_UFOPEDIA: "The Hotchkiss machine gun is a French-made automatic weapon used in fixed emplacements and motorized vehicles. It was chosen to be used on British, American and French tanks due the large number of MGs available on their arsenal. Medium accuracy, medium rate of fire."
 ########################################################
       STR_MARK_V_ARMOR_UC: "Mark V Tank"
@@ -1998,6 +2001,7 @@ en-US:
       AUX_57MM_AP_CANNON_SHELLS: "57mm AP Shells"
       AUX_57MM_HE_CANNON_SHELLS: "57mm HE Shells"
       AUX_57MM_INC_CANNON_SHELLS: "57mm INC Shells"
+      AUX_57MM_KMM_CANNON_SHELLS: "57mm K-MM Shells"
 ########################################################
       STR_A7V_ARMOR_UC: "A7V Tank"
       STR_A7V_ARMOR_UC_UFOPEDIA: "German engineers have put a lot of effort into this battle tank, equipping it with thick armour designed to keep its only crew member alive, as well as to withstand front and rear damage. Its armament consists of a 5.7cm Maxim-Nordenfelt cannon, similar in performance and power to that used by the American-British Mark tanks. Its extra armor makes it very slow."
@@ -2006,15 +2010,17 @@ en-US:
       AUX_5_7CM_AP_CANNON_SHELLS: "5.7cm AP Shells"
       AUX_5_7CM_HE_CANNON_SHELLS: "5.7cm HE Shells"
       AUX_5_7CM_CANISTER_CANNON_SHELLS: "5.7cm Canister Shells"
+      AUX_5_7CM_KMM_CANNON_SHELLS: "5.7cm Canister Shells"
 ########################################################
       STR_RENAULT_FT_ARMOR_UC: "Renault FT Tank"
       STR_RENAULT_FT_ARMOR_UC_UFOPEDIA: "An agile and fast vehicle classified as 'lightweight tank', specially optimized for recon. Its 37mm Puteaux cannon lacks armor penetration, although its high rate of fire allows it to be fired continuously. It includes a smoke grenade disperser to provide coverage in assaults or retreats."
       AUX_37MM_PUTEAUX_CANNON: "37mm Puteaux Cannon"
       AUX_37MM_PUTEAUX_CANNON_UFOPEDIA: "Small infantry cannon, with high rate of fire. As opposed to larger naval guns that had to be severely trimmed to fit inside the small tank chassis, this gun was little moddified. The small and compact size made it perfect. It lacks stopping power, but is useful in combat to supress enemies."
-      AUX_37MM_AP_CANNON_SHELLS: 37mm AP Shells
-      AUX_TANK_SMOKE_LAUNCHER: Smoke Screen Launcher
-      AUX_TANK_SMOKE_GRENADE: Smoke Screen Grenade
-      AUX_HWP_POP_SMOKE: Smoke Screen!
+      AUX_37MM_AP_CANNON_SHELLS: "37mm AP Shells"
+      AUX_37MM_KMM_CANNON_SHELLS: "37mm K-MM Shells"
+      AUX_TANK_SMOKE_LAUNCHER: "Smoke Screen Launcher"
+      AUX_TANK_SMOKE_GRENADE: "Smoke Screen Grenade"
+      AUX_HWP_POP_SMOKE: "Smoke Screen!""
 ########################################################
       AUX_75MM_CANNON_HE_SHELLS: 75mm HE Shells
       AUX_75MM_CANNON_AIRBUST_SHELLS: 75mm Airbust Shells
