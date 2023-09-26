@@ -1,6 +1,6 @@
 armors:
   - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
-    spriteSheet: SIDECAR_MOTORCYCLE.PCK
+    spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET.PCK
     spriteInv: SIDECAR_MOTORCYCLE_INV
 #    customArmorPreviewIndex: [144, 145]
     allowInv: true
@@ -66,6 +66,7 @@ armors:
     units: &SECTION_TANK_UNITS
       - STR_PILOT
     builtInWeapons:
+      - AUX_COAXIAL_MG08_MG
       - NULL_2X1_LS
       - NULL_2X1_RS
       - NULL_2X1_LL
@@ -75,7 +76,7 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 
   - type: STR_SCHNEIDER_CA1_ARMOR_UC
-    spriteSheet: SCHNEIDER_CA1.PCK
+    spriteSheet: SCHNEIDER_CA1_SPRITESHEET.PCK
     spriteInv: SCHNEIDER_INV
 #    customArmorPreviewIndex: [144, 145]
     allowInv: true
@@ -116,7 +117,7 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 
   - type: STR_MARK_V_ARMOR_UC
-    spriteSheet: MARK_V.PCK
+    spriteSheet: MARK_V_SPRITESHEET.PCK
     spriteInv: MARK_V_INV
 #    customArmorPreviewIndex: [144, 145]
     allowInv: true
@@ -138,7 +139,7 @@ armors:
     rearArmor: 50
     underArmor: 45
     moveSound: 200
-    drawingRoutine: 2
+    drawingRoutine: 11
     size: 2
     overKill: 3.0
     stats: &SECTION_HEAVY_TANK_STATS
@@ -188,7 +189,7 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 
   - type: STR_A7V_ARMOR_UC
-    spriteSheet: A7V.PCK
+    spriteSheet: A7V_SPRITESHEET.PCK
     spriteInv: A7V_INV
 #    customArmorPreviewIndex: [144, 145]
     allowInv: true
@@ -229,7 +230,7 @@ armors:
     loftempsSet: [ 92, 89, 90, 91 ]
 
   - type: STR_RENAULT_FT_ARMOR_UC
-    spriteSheet: RENAULT_FT.PCK
+    spriteSheet: RENAULT_FT_SPRITESHEET.PCK
     spriteInv: RENAULT_FT_INV
 #    customArmorPreviewIndex: [144, 145]
     allowInv: true
@@ -269,6 +270,48 @@ armors:
       - NULL_2X3
       - NULL_4X2
     loftempsSet: [ 92, 89, 90, 91 ]
+    
+  - type: STR_VEZDEKHOD_ARMOR_UC
+    spriteSheet: VEZDEKHOD_SPRITESHEET.PCK
+    spriteInv: VEZDEKHOD_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: true
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_VEZDEKHOD_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_VEZDEKHOD_RECOVER
+    storeItem: STR_VEZDEKHOD_ITEM
+    weight: -200
+    visibilityAtDark: 10
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 50
+    underArmor: 45
+    moveSound: 200
+    drawingRoutine: 11
+    size: 2
+    overKill: 3.0
+    stats: *SECTION_LIGHT_TANK_STATS
+    recovery: *SECTION_LIGHT_TANK_RECOVERY
+    psiDefence: *SECTION_TANK_PSIDEF
+    damageModifier: *SECTION_LIGHT_TANK_RESISTANCES
+    units: *SECTION_TANK_UNITS
+    builtInWeapons:
+      - AUX_COAXIAL_MG08_MG
+      - AUX_TANK_SMOKE_LAUNCHER
+      - NULL_2X1_LS
+      - NULL_2X1_RS
+      - NULL_2X1_LL
+      - NULL_2X1_RL
+      - NULL_2X3
+      - NULL_4X2
+    loftempsSet: [ 92, 89, 90, 91 ]    
 #######################################
 items:
 ###############################
@@ -290,10 +333,14 @@ items:
     size: 6
     costSell: 340000
     transferTime: 96
-  - type: STR_A7V # Item for the armor
+  - type: STR_A7V_ITEM # Item for the armor
     size: 7
     costSell: 480000
     transferTime: 96
+  - type: STR_VEZDEKHOD_ITEM # Item for the armor
+    size: 7
+    costSell: 480000
+    transferTime: 96    
 ##############################
 ####### TANK WEAPONS ########
 ############################
@@ -1072,11 +1119,59 @@ extraSprites:
        5316: Resources/Tanks/Bigob_MG18_Clip.png
        5324: Resources/Tanks/Bigob_MG18_KMM_Clip.png
 
-  - type: FERRET.PCK
+  - type: SIDECAR_MOTORCYCLE_SPRITESHEET.PCK
     width: 256
     height: 160
     subX: 32
     subY: 40
     files:
-      0: Resources/Tanks/FERRET.png
-
+      0: Resources/Tanks/SIDECAR_MOTORCYCLE_SPRITESHEET.png
+  - type: SCHNEIDER_CA1_SPRITESHEET.PCK
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/SCHNEIDER_CA1_SPRITESHEET.png
+  - type: MARK_V_SPRITESHEET.PCK
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/MARK_V_SPRITESHEET.png
+   - type: A7V_SPRITESHEET.PCK
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/A7V_SPRITESHEET.png
+   - type: RENAULT_FT_SPRITESHEET.PCK
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/RENAULT_FT_SPRITESHEET.png      
+      
+  - type: SIDECAR_MOTORCYCLE_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/SIDECAR_MOTORCYCLE_INV.png      
+  - type: SCHNEIDER_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/SCHNEIDER_INV.png
+  - type: MARK_V_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/MARK_V_INV.png
+  - type: A7V_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/A7V_INV.png
+   - type: RENAULT_FT_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/RENAULT_FT_INV.png           
