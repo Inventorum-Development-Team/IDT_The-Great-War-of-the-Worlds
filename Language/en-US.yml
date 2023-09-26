@@ -1979,7 +1979,7 @@ en-US:
 ############# TANK ARMOR EXTRASTRINGS #################
 #######################################################
       STR_TANK_AMMO_TYPES: "Tank Ammo Types"
-      STR_TANK_AMMO_TYPES_UFOPEDIA: "The size of the tanks limits the amount of ammunition a pilot can cary. In order to improve the efectiveness of the machine in combat, diverse ordnance are issued to adapt to different situations on the battlefield. From Armor Piercing to High Explosive, each round should be useful carefully."
+      STR_TANK_AMMO_TYPES_UFOPEDIA: "The size of the tanks limits the amount of ammunition a pilot can carry. In order to improve the efectiveness of the machine in combat, diverse ordnance are issued to adapt to different situations on the battlefield. From Armor Piercing to High Explosive, each round should be useful carefully."
 #######################################################
       STR_SIDECAR_MOTORCYCLE_ARMOR_UC: "Sidecar Motorcycle"
       STR_SIDECAR_MOTORCYCLE_ARMOR_UC_UFOPEDIA: "Employing a sidecar as a support for a modified machine gun, this motorcycle is used primarily for reconnaissance behind enemy lines and for providing light support to troops. It is incredibly fast and maneuverable, but extremely vulnerable to enemy fire, because it barely has any kind of armor."
@@ -2024,7 +2024,12 @@ en-US:
 ########################################################
       AUX_75MM_CANNON_HE_SHELLS: 75mm HE Shells
       AUX_75MM_CANNON_AIRBUST_SHELLS: 75mm Airbust Shells
-      AUX_75MM_CANNON_GAS_SHELLS: 75mm Cannon Gas Shells
+      AUX_75MM_CANNON_GAS_SHELLS: 75mm Cannon Gas Shells 
+      
+      STR_VEZDEKHOD_ARMOR_UC: "Vezdekhod 1 Tank"
+      STR_VEZDEKHOD_ARMOR_UC_UFOPEDIA: "A fast light tank, natively developed by Russian engineers in Riga. Mounted over one single thread, it can reach higher speeds than other armored vehicles, although it is just armed with a single machine gun."
+      STR_IMPROVED_VEZDEKHOD_ARMOR_UC: "Vezdekhod II Tank"
+      STR_VEZDEKHOD_ARMOR_UC_UFOPEDIA: "By adding a layer of Tunguskium plates over the chassis, the defensive rating has improved. The downside is a slight reduction in the overall speed."
 
 #######################################
 ######### ARMORS REPORTS #############
