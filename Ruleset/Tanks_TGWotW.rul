@@ -479,22 +479,21 @@ items:
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
     size: 6
     costBuy: 0
-    costSell: 340000
+    costSell: 0
     transferTime: 96
     weight: 70
     bigSprite: 43
     floorSprite: 0
     handSprite: 0
-    bulletSprite: 16 #Rifle MM bullet 35*15=525
-    fireSound: 112
-    reloadSound: 312
+    bulletSprite: 0
+    fireSound: [811, 812, 813, 814]
+    #reloadSound: 312
     compatibleAmmo:
       - AUX_57MM_AP_CANNON_SHELLS
       - AUX_57MM_HE_CANNON_SHELLS
       - AUX_57MM_INC_CANNON_SHELLS
-    accuracySnap: 60
-    accuracyAimed: 100
-    tuSnap: 33
+      - AUX_57MM_KMM_CANNON_SHELLS
+    accuracyAimed: 65
     tuAimed: 80
     battleType: 1
     fixedWeapon: true
@@ -505,7 +504,7 @@ items:
   - type: AUX_57MM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     size: 3.0
-    costBuy: 0
+    costBuy: 2000
     costSell: 1500
     transferTime: 48
     weight: 30
@@ -513,35 +512,44 @@ items:
     floorSprite: 12
     hitSound: 81
     hitAnimation: 0
-    damageType: 10
+    damageType: 1
     power: 60
     damageAlter:
-      IgnoreOverKill: false
-    clipSize: 5
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      RandomWound: false
+    clipSize: 3
     battleType: 2
     invWidth: 2
     invHeight: 3
   - type: AUX_57MM_HE_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
     size: 3.0
-    costBuy: 0
+    costBuy: 2000
     costSell: 1500
     transferTime: 48
     weight: 30
     bigSprite: 806
     floorSprite: 12
-    hitSound: 81
+    hitSound: 0
     hitAnimation: 0
     damageType: 3
-    power: 60
-    clipSize: 5
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToTile: 0.5
+      RandomWound: false
+    power: 70
+    clipSize: 3
     battleType: 2
     invWidth: 2
     invHeight: 3
   - type: AUX_57MM_INC_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
     size: 3.0
-    costBuy: 0
+    costBuy: 2000
     costSell: 1500
     transferTime: 48
     weight: 30
@@ -550,14 +558,40 @@ items:
     hitSound: 81
     hitAnimation: 0
     damageType: 2
-    power: 60
+    power: 80
     damageAlter:
-      IgnoreOverKill: false
-    clipSize: 5
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToMorale: 0.5
+      RandomWound: false 
+      fireThreshold: 1
+    clipSize: 3
     battleType: 2
     invWidth: 2
     invHeight: 3
-
+  - type: AUX_57MM_AP_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 30
+    bigSprite: 806
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 0
+    damageType: 10
+    power: 60
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.7
+      RandomWound: false
+    clipSize: 3
+    battleType: 2
+    invWidth: 2
+    invHeight: 3
 
   - type: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND]
@@ -569,7 +603,7 @@ items:
     bigSprite: 43
     floorSprite: 0
     handSprite: 0
-    bulletSprite: 16 #Rifle MM bullet 35*15=525
+    bulletSprite: 2
     fireSound: 112
     reloadSound: 312
     compatibleAmmo:
