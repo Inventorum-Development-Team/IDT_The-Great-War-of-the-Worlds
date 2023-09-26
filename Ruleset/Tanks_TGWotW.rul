@@ -348,7 +348,6 @@ items:
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
     weight: 44
     bigSprite: 545
-    bulletSprite: 16 #Heavy MM bullet 35*16=560
     fireSound: 806
     reloadSound: 338
     accuracySnap: 60
@@ -377,6 +376,7 @@ items:
     bulletSpeed: 32
     compatibleAmmo:
       - AUX_COAXIAL_HOTCHKISS_MG_AMMO
+      - AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO
     battleType: 1
     fixedWeapon: true
     recover: false
@@ -392,14 +392,38 @@ items:
     weight: 9
     bigSprite: 224
     floorSprite: 2
+    bulletSprite: 13 #Rifle bullet 35*13
     hitSound: 22
     hitAnimation: 26
     explosionSpeed: 15
-    power: 50
+    power: 40
     damageType: 1
     damageAlter:
-      ArmorEffectiveness: 1.5
+      ArmorEffectiveness: 0.9
     clipSize: 30
+    battleType: 2
+    armor: 30
+    invWidth: 1
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+  - type: AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO
+    categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 224
+    floorSprite: 2
+    hitSound: 22
+    bulletSprite: 16 #Heavy MM bullet 35*16=560
+    hitAnimation: 26
+    explosionSpeed: 15
+    power: 55
+    damageType: 10
+    damageAlter:
+      ArmorEffectiveness: 0.9
+    clipSize: 20
     battleType: 2
     armor: 30
     invWidth: 1
@@ -411,9 +435,6 @@ items:
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
     weight: 44
     bigSprite: 545
-    bulletSprite: 2
-    fireSound: 96
-    reloadSound: 526
     accuracySnap: 60
     accuracyAuto: 50
     accuracyMultiplier:
@@ -421,21 +442,31 @@ items:
       bravery: 0.5
     costAuto:
       time: 15
-      energy: 250
     costSnap:
       time: 25
-      energy: 125
-    autoShots: 8
-    confSnap:
-      shots: 4
     sprayWaypoints: 3
-    tuLoad: 100
+    tuLoad: 45
     autoRange: 25
     snapRange: 25
-    dropoff: 1
+    dropoff: 3
     bulletSpeed: 32
+    fireSound: 111
+    reloadSound: 311
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
     compatibleAmmo:
       - STR_MG0815_DRUM
+      - STR_MG0815_DRUM_KMM
     battleType: 1
     fixedWeapon: true
     recover: false
