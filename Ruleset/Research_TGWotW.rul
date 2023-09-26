@@ -1948,7 +1948,7 @@ research:
     dependencies:
       - STR_IMPROVED_METALURGIC_TECHNIQUES
   - name: STR_BASIC_TANK
-    cost: 500
+    cost: 200
     points: 50
     dependencies:
       - STR_INITIAL_TANK_DESIGN
