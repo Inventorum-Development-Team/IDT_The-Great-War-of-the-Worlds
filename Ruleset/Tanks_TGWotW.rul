@@ -17,11 +17,11 @@ armors:
     storeItem: STR_SIDECAR_MOTORCYCLE_ITEM
     weight: -200
     visibilityAtDark: 10
-    frontArmor: 60
-    sideArmor: 55
-    rearArmor: 50
-    underArmor: 45
-    moveSound: 200
+    frontArmor: 20
+    sideArmor: 22
+    rearArmor: 15
+    underArmor: 10
+    moveSound: 817
     drawingRoutine: 2
     size: 2
     overKill: 3.0
@@ -97,7 +97,7 @@ armors:
     sideArmor: 55
     rearArmor: 50
     underArmor: 45
-    moveSound: 200
+    moveSound: 816
     drawingRoutine: 2
     size: 2
     overKill: 3.0
@@ -138,7 +138,7 @@ armors:
     sideArmor: 55
     rearArmor: 50
     underArmor: 45
-    moveSound: 200
+    moveSound: 816
     drawingRoutine: 11
     size: 2
     overKill: 3.0
@@ -210,7 +210,7 @@ armors:
     sideArmor: 55
     rearArmor: 50
     underArmor: 45
-    moveSound: 200
+    moveSound: 816
     drawingRoutine: 2
     size: 2
     overKill: 3.0
@@ -251,7 +251,7 @@ armors:
     sideArmor: 55
     rearArmor: 50
     underArmor: 45
-    moveSound: 200
+    moveSound: 816
     drawingRoutine: 2
     size: 2
     overKill: 3.0
@@ -293,7 +293,7 @@ armors:
     sideArmor: 55
     rearArmor: 50
     underArmor: 45
-    moveSound: 200
+    moveSound: 816
     drawingRoutine: 11
     size: 2
     overKill: 3.0
@@ -348,28 +348,32 @@ items:
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
     weight: 44
     bigSprite: 545
-    bulletSprite: 2
-    fireSound: 96
-    reloadSound: 526
+    bulletSprite: 16 #Heavy MM bullet 35*16=560
+    fireSound: 806
+    reloadSound: 338
     accuracySnap: 60
     accuracyAuto: 50
     accuracyMultiplier:
       firing: 0.5
       bravery: 0.5
-    costAuto:
-      time: 15
-      energy: 250
-    costSnap:
-      time: 25
-      energy: 125
-    autoShots: 8
+    minRange: 8
+    snapRange: 24
+    autoRange: 18
     confSnap:
-      shots: 4
-    sprayWaypoints: 3
-    tuLoad: 100
-    autoRange: 25
-    snapRange: 25
-    dropoff: 1
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    dropoff: 3
+    sprayWaypoints: 2
+    tuLoad: 40
     bulletSpeed: 32
     compatibleAmmo:
       - AUX_COAXIAL_HOTCHKISS_MG_AMMO
@@ -390,11 +394,12 @@ items:
     floorSprite: 2
     hitSound: 22
     hitAnimation: 26
+    explosionSpeed: 15
     power: 50
-    damageType: 10
+    damageType: 1
     damageAlter:
       ArmorEffectiveness: 1.5
-    clipSize: 100
+    clipSize: 30
     battleType: 2
     armor: 30
     invWidth: 1
@@ -1135,25 +1140,32 @@ extraSprites:
       0: Resources/Tanks/SCHNEIDER_CA1_SPRITESHEET.png
   - type: MARK_V_SPRITESHEET.PCK
     width: 256
-    height: 160
+    height: 680
     subX: 32
     subY: 40
     files:
       0: Resources/Tanks/MARK_V_SPRITESHEET.png
-   - type: A7V_SPRITESHEET.PCK
+  - type: A7V_SPRITESHEET.PCK
     width: 256
     height: 160
     subX: 32
     subY: 40
     files:
       0: Resources/Tanks/A7V_SPRITESHEET.png
-   - type: RENAULT_FT_SPRITESHEET.PCK
+  - type: RENAULT_FT_SPRITESHEET.PCK
     width: 256
-    height: 160
+    height: 680
     subX: 32
     subY: 40
     files:
       0: Resources/Tanks/RENAULT_FT_SPRITESHEET.png      
+  - type: VEZDEKHOD_SPRITESHEET.PCK
+    width: 256
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/VEZDEKHOD_SPRITESHEET.png     
       
   - type: SIDECAR_MOTORCYCLE_INV
     singleImage: true
