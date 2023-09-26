@@ -1040,30 +1040,37 @@ extraStrings:
 
 extraSprites:
 # TODO uncomment this when the resources are found :D
-#   - type: BIGOBS.PCK
-#     files:
-#       2500: Resources/Tanks/Bigob_MG08.png
-#       2501: Resources/Tanks/Bigob_M1914.png
-#       2502: Resources/Tanks/Bigob_M1914_Clip.png
-#       2503: Resources/Tanks/Bigob_QF-6.png
-#       2504: Resources/Tanks/Bigob_QF-6_AP_Clip.png
-#       2505: Resources/Tanks/Bigob_QF-6_HE_Clip.png
-#       2506: Resources/Tanks/Bigob_QF-6_INC_Clip.png
-#       2507: Resources/Tanks/Bigob_5_7CM.png
-#       2508: Resources/Tanks/Bigob_5_7CM_AP_Clip.png
-#       2509: Resources/Tanks/Bigob_5_7CM_HE_Clip.png
-#       2510: Resources/Tanks/Bigob_5_7CM_Canister_Clip.png
-#       2511: Resources/Tanks/bigob_37MM.png
-#       2512: Resources/Tanks/bigob_37MM_AP_Clip.png
-#       2513: Resources/Tanks/Bigob_75MM.png
-#       2514: Resources/Tanks/Bigob_75MM_HE_Clip.png
-#       2515: Resources/Tanks/Bigob_75MM_AP_Clip.png
-#       2516: Resources/Tanks/Bigob_75MM_Gas_Clip.png
-#       2517: Resources/Tanks/Bigob_60MM_Mortar.png
-#       2518: Resources/Tanks/Bigob_60MM_HE_Mortar_Clip.png
-#       2519: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
-#       2520: Resources/Tanks/bigob_MG18.png
-#       2521: Resources/Tanks/Bigob_MG18_Clip.png
+   - type: BIGOBS.PCK
+     files:
+       5100: Resources/Tanks/Bigob_MG08.png
+       5108: Resources/Tanks/Bigob_M1914.png
+       5116: Resources/Tanks/Bigob_M1914_Clip.png
+       5124: Resources/Tanks/Bigob_M1914_KMM_Clip.png
+       5132: Resources/Tanks/Bigob_QF-6.png
+       5140: Resources/Tanks/Bigob_QF-6_AP_Clip.png
+       5148: Resources/Tanks/Bigob_QF-6_HE_Clip.png
+       5156: Resources/Tanks/Bigob_QF-6_INC_Clip.png
+       5164: Resources/Tanks/Bigob_QF-6_KMM_Clip.png
+       5172: Resources/Tanks/Bigob_5_7CM.png
+       5180: Resources/Tanks/Bigob_5_7CM_AP_Clip.png
+       5188: Resources/Tanks/Bigob_5_7CM_HE_Clip.png
+       5196: Resources/Tanks/Bigob_5_7CM_Canister_Clip.png
+       5204: Resources/Tanks/Bigob_5_7CM_KMM_Clip.png
+       5212: Resources/Tanks/bigob_37MM.png
+       5220: Resources/Tanks/bigob_37MM_AP_Clip.png
+       5228: Resources/Tanks/bigob_37MM_KMM_Clip.png
+       5236: Resources/Tanks/Bigob_75MM.png
+       5244: Resources/Tanks/Bigob_75MM_HE_Clip.png
+       5252: Resources/Tanks/Bigob_75MM_AP_Clip.png
+       5260: Resources/Tanks/Bigob_75MM_Gas_Clip.png
+       5268: Resources/Tanks/Bigob_75MM_KMM_Clip.png
+       5276: Resources/Tanks/Bigob_60MM_Mortar.png
+       5284: Resources/Tanks/Bigob_60MM_HE_Mortar_Clip.png
+       5292: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
+       5300: Resources/Tanks/Bigob_60MM_Frag_Mortar_Clip.png
+       5308: Resources/Tanks/bigob_MG18.png
+       5316: Resources/Tanks/Bigob_MG18_Clip.png
+       5324: Resources/Tanks/Bigob_MG18_KMM_Clip.png
 
   - type: FERRET.PCK
     width: 256
