@@ -347,7 +347,7 @@ items:
   - type: AUX_COAXIAL_HOTCHKISS_MG
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
     weight: 44
-    bigSprite: 545
+    bigSprite: 5108
     fireSound: 806
     reloadSound: 338
     accuracySnap: 60
@@ -390,7 +390,7 @@ items:
     costBuy: 1000
     costSell: 750
     weight: 9
-    bigSprite: 224
+    bigSprite: 5116
     floorSprite: 2
     bulletSprite: 13 #Rifle bullet 35*13
     hitSound: 22
@@ -413,7 +413,7 @@ items:
     costBuy: 1000
     costSell: 750
     weight: 9
-    bigSprite: 224
+    bigSprite: 5124
     floorSprite: 2
     hitSound: 22
     bulletSprite: 16 #Heavy MM bullet 35*16=560
