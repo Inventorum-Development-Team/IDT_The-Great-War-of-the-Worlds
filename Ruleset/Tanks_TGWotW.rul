@@ -1,4 +1,4 @@
-﻿armors:
+armors:
   - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
     spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET.PCK
     spriteInv: SIDECAR_MOTORCYCLE_INV
