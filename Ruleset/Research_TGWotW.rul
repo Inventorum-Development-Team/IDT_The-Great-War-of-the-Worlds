@@ -260,6 +260,38 @@ research:
     dependencies:
       - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
 
+  - name: STR_INITIAL_TANK_DESIGN
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_IMPROVED_METALURGIC_TECHNIQUES
+  - name: STR_BASIC_TANK
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_INITIAL_TANK_DESIGN
+
+  - name: STR_IMPROVED_TANK_DESIGN
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_BASIC_TANK
+  - name: STR_IMPROVED_FRENCH_TANK
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_IMPROVED_TANK_DESIGN
+  - name: STR_IMPROVED_BRITISH_TANK
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_IMPROVED_TANK_DESIGN
+  - name: STR_IMPROVED_GERMAN_TANK
+    cost: 500
+    points: 50
+    dependencies:
+      - STR_IMPROVED_TANK_DESIGN
+
 ########################################
 ########### TIER 3 VEHICLES ###########
 ######################################
