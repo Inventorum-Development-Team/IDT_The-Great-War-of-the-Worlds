@@ -1797,6 +1797,9 @@ ufopaedia:
   - id: AUX_37MM_AP_CANNON_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
+  - id: AUX_37MM_KMM_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
 
   - id: AUX_COAXIAL_HOTCHKISS_MG
     type_id: 4
