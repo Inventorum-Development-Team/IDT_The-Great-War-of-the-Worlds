@@ -8965,6 +8965,8 @@ extraSprites:
       595: Resources/BulletSprites/LightningBulletSprite.png #17
       630: Resources/BulletSprites/WideRedLaser_Bullet.png #18
       700: Resources/BulletSprites/FlameProjectile.png #20
+      735: Resources/BulletSprites/Rocket_Bullet.png #21
+      770: Resources/BulletSprites/Tank_Bullet.png #22
 
   - type: HIT.PCK
     height: 40
@@ -8992,6 +8994,7 @@ extraSprites:
     files:
       90: Resources/BulletSprites/HumanElectric_Hit.png
       100: Resources/BulletSprites/RedLaser_Hit.png
+      110: Resources/BulletSprites/HansFireHit.png
 
   #########################################
   ######### UFOPEDIA IMAGES ###############

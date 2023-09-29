@@ -18,6 +18,7 @@ crafts:
     undetectable: true
     soldiers: 20
     vehicles: 5
+    maxLargeSoldiers: 5
     costBuy: 10
     weapons: 1
     weaponTypes:
@@ -82,6 +83,7 @@ crafts:
       - STR_CRAFT_LIGHT_CANNON_TWO
     soldiers: 30
     vehicles: 10
+    maxLargeSoldiers: 10
     costBuy: 10
     refuelRate: 900
     undetectable: true
@@ -726,6 +728,7 @@ crafts:
       - STR_CRAFT_BOMB_FOUR
     soldiers: 12
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 3
     costBuy: 675000
     costSell: 600000
@@ -803,6 +806,7 @@ crafts:
       - STR_CRAFT_BOMB_FOUR
     soldiers: 12
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -885,6 +889,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 26
     maxSmallVehicles: 6
+    vehicles: 6
     pilots: 4
     costBuy: 675000
     costSell: 600000
@@ -985,6 +990,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 6
     maxSmallVehicles: 2
+    vehicles: 2
     pilots: 6
     costBuy: 675000
     costSell: 600000
@@ -1057,6 +1063,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 21
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -1150,6 +1157,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 7
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -1230,6 +1238,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 13
     maxSmallVehicles: 6
+    vehicles: 6
     pilots: 5
     costBuy: 675000
     costSell: 600000

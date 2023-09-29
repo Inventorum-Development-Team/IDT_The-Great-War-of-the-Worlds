@@ -1,4 +1,4 @@
-armors:
+﻿armors:
 
   - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
     spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET
@@ -411,8 +411,6 @@ items:
     clipSize: 30
     battleType: 2
     armor: 30
-    invWidth: 1
-    invHeight: 1
     attraction: 9
     invWidth: 2
     invHeight: 1
@@ -495,7 +493,7 @@ items:
     bigSprite: 5164
     floorSprite: 0
     handSprite: 0
-    bulletSprite: 0
+    bulletSprite: 22
     fireSound: [811, 812, 813, 814]
     #reloadSound: 312
     compatibleAmmo:
@@ -504,7 +502,7 @@ items:
       - AUX_57MM_INC_CANNON_SHELLS
       - AUX_57MM_KMM_CANNON_SHELLS
     accuracyAimed: 65
-    tuAimed: 80
+    tuAimed: 40
     battleType: 1
     fixedWeapon: true
     invWidth: 2
@@ -521,7 +519,7 @@ items:
     bigSprite: 5172
     floorSprite: 12
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 110
     damageType: 1
     power: 60
     damageAlter:
@@ -590,7 +588,7 @@ items:
     bigSprite: 5196
     floorSprite: 12
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 110
     damageType: 10
     power: 80
     damageAlter:
@@ -613,7 +611,7 @@ items:
     bigSprite: 5204
     floorSprite: 0
     handSprite: 0
-    bulletSprite: 0
+    bulletSprite: 22
     fireSound: [811, 812, 813, 814]
     compatibleAmmo:
       - AUX_5_7CM_AP_CANNON_SHELLS
@@ -621,7 +619,7 @@ items:
       - AUX_5_7CM_CANISTER_CANNON_SHELLS
       - AUX_5_7CM_KMM_CANNON_SHELLS
     accuracyAimed: 100
-    tuAimed: 80
+    tuAimed: 50
     battleType: 1
     fixedWeapon: true
     invWidth: 2
@@ -638,7 +636,7 @@ items:
     bigSprite: 5212
     floorSprite: 12
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 110
     damageType: 1
     power: 60
     damageAlter:
@@ -709,7 +707,7 @@ items:
     bigSprite: 5236
     floorSprite: 12
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 110
     damageType: 10
     power: 80
     damageAlter:
@@ -740,7 +738,7 @@ items:
     accuracySnap: 60
     accuracyAimed: 100
     tuSnap: 33
-    tuAimed: 80
+    tuAimed: 35
     battleType: 1
     fixedWeapon: true
     invWidth: 2
@@ -757,7 +755,7 @@ items:
     bigSprite: 5252
     floorSprite: 12
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 110
     damageType: 1
     power: 50
     damageAlter:
@@ -780,7 +778,7 @@ items:
     bigSprite: 5260
     floorSprite: 12
     hitSound: 0
-    hitAnimation: 0
+    hitAnimation: 110
     damageType: 1
     power: 50
     damageAlter:
@@ -800,7 +798,7 @@ items:
     compatibleAmmo:
       - AUX_TANK_SMOKE_GRENADE
     accuracyAimed: 100
-    tuAimed: 45
+    tuAimed: 20
     confAimed:
       name: AUX_HWP_POP_SMOKE
     battleType: 1
@@ -862,7 +860,7 @@ items:
     costSell: 8000
     size: 0.8
     weight: 100
-    listOrder: 10601   
+    listOrder: 10601
 #############################################
 #######################################
 
@@ -1052,7 +1050,7 @@ extraSprites:
      5324: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
      5332: Resources/Tanks/Bigob_60MM_Frag_Mortar_Clip.png
      5340: Resources/Tanks/bigob_MG18.png
-     5348: Resources/Tanks/bigob_MG18.png 
+     5348: Resources/Tanks/bigob_MG18.png
      5356: Resources/Tanks/bigob_MG18.png
      5364: Resources/Tanks/Bigob_MG18_Clip.png
      5372: Resources/Tanks/Bigob_MG18_KMM_Clip.png
