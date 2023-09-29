@@ -1055,6 +1055,11 @@ extraSprites:
     files:
       0: Resources/Tanks/Inventory/RENAULT_FT_INV.png
 
+  - type: VEZDEKHOD_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/VEZDEKHOD_INV.png
+
 # TODO uncomment this when the resources are found :D
   - type: BIGOBS.PCK
     files:
