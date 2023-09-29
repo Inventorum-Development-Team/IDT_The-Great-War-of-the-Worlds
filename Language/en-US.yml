@@ -1996,7 +1996,7 @@ en-US:
 ########################################################
       STR_MARK_V_ARMOR_UC: "Mark V Tank"
       STR_MARK_V_ARMOR_UC_UFOPEDIA: "The fifth model in the American/British Mark series, it is the first prototype to be mass-produced. It includes a Hotchkiss QF 6-pound naval gun, specially shortened for this combat vehicle. As a complement for operations against infantry, an M1914 Hotchkiss machine gun. Its firepower is moderate, although soldiers appreciate the support this tank provides."
-      AUX_QF_6_PDR_CANNON: "QF 6-Pounder Cannon"
+      AUX_QF_6_PDR_HOTCHKISS_CANNON: "QF 6-Pounder Cannon"
       AUX_QF_6_PDR_HOTCHKISS_CANNON_UFOPEDIA: "The First Lord of the Admiralty proposed a specially shortened version of the QF 6-pdr naval gun to be used on the new tanks. Like a shotgun, the barrel was sawed-off and the firing mechanism was modified to fit inside the small chassis, but the overall quality remained. "
       AUX_57MM_AP_CANNON_SHELLS: "57mm AP Shells"
       AUX_57MM_HE_CANNON_SHELLS: "57mm HE Shells"
