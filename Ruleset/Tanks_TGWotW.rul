@@ -1,4 +1,4 @@
-﻿armors:
+armors:
 
   - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
     spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET
@@ -430,7 +430,7 @@ items:
     power: 55
     damageType: 10
     damageAlter:
-      ArmorEffectiveness: 0.9
+      ArmorEffectiveness: 0.7
     clipSize: 20
     battleType: 2
     armor: 30
@@ -502,6 +502,10 @@ items:
       - AUX_57MM_INC_CANNON_SHELLS
       - AUX_57MM_KMM_CANNON_SHELLS
     accuracyAimed: 65
+    accuracyMultiplier:
+     reactions: 0.5
+     firing: 0.5
+     bravery: 0.3
     tuAimed: 40
     battleType: 1
     fixedWeapon: true
@@ -531,6 +535,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
   - type: AUX_57MM_HE_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
     size: 3.0
@@ -554,6 +561,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
   - type: AUX_57MM_INC_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
     size: 3.0
@@ -578,6 +588,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
   - type: AUX_57MM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     size: 3.0
@@ -600,6 +613,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
 
   - type: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
@@ -618,7 +634,11 @@ items:
       - AUX_5_7CM_HE_CANNON_SHELLS
       - AUX_5_7CM_CANISTER_CANNON_SHELLS
       - AUX_5_7CM_KMM_CANNON_SHELLS
-    accuracyAimed: 100
+    accuracyAimed: 80
+    accuracyMultiplier:
+     reactions: 0.5
+     firing: 0.5
+     bravery: 0.3
     tuAimed: 50
     battleType: 1
     fixedWeapon: true
@@ -648,6 +668,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
   - type: AUX_5_7CM_HE_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     size: 3.0
@@ -671,6 +694,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
   - type: AUX_5_7CM_CANISTER_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     size: 3.0
@@ -697,6 +723,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
   - type: AUX_5_7CM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     size: 3.0
@@ -719,6 +748,9 @@ items:
     battleType: 2
     invWidth: 1
     invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
 
   - type: AUX_37MM_PUTEAUX_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
@@ -768,6 +800,9 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 11080
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
   - type: AUX_37MM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     size: 3.0
@@ -791,6 +826,9 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 11080
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
 
   - type: AUX_TANK_SMOKE_LAUNCHER
     weight: 0
@@ -808,6 +846,7 @@ items:
     recover: false
   - type: AUX_TANK_SMOKE_GRENADE
     weight: 0
+    costBuy: 100
     bigSprite: 20
     power: 60
     damageType: 9
