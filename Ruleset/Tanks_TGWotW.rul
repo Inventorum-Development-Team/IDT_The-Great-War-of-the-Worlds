@@ -1,4 +1,4 @@
-armors:
+﻿armors:
 
   - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
     spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET
@@ -1028,7 +1028,7 @@ extraSprites:
       0: Resources/Tanks/RENAULT_FT_SPRITESHEET.png
   - type: VEZDEKHOD_SPRITESHEET
     width: 256
-    height: 680
+    height: 840
     subX: 32
     subY: 40
     files:

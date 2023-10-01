@@ -1147,7 +1147,7 @@ extraSprites:
     subX: 32
     subY: 40
     width: 256
-    height: 160
+    height: 680
     files:
       0: Resources/Turrets/HUMAN_HEAT_RAY_CANNON_SPRITESHEET.png
 #########################
