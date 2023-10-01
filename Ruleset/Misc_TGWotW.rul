@@ -537,6 +537,14 @@ itemCategories:
     listOrder: 370
   - type: STR_TURRETS
     listOrder: 380
+  - type: STR_TANKS
+    listOrder: 385
+  - type: STR_FIXED_WEAPONS
+    listOrder: 386
+  - type: STR_LIGHT_TANKS
+    listOrder: 387
+  - type: STR_HEAVY_TANKS
+    listOrder: 388
   - type: STR_BLANKS
     listOrder: 400
     hidden: true

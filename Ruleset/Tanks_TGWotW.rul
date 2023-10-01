@@ -324,26 +324,32 @@ items:
 ####### TANK ITEMS ###########
 #############################
   - type: STR_SIDECAR_MOTORCYCLE_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
     size: 6
     costSell: 340000
     transferTime: 96
   - type: STR_SCHNEIDER_CA1_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
     size: 6
     costSell: 340000
     transferTime: 96
   - type: STR_RENAULT_FT_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
     size: 6
     costSell: 340000
     transferTime: 96
   - type: STR_MARK_V_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_HEAVY_TANKS]
     size: 6
     costSell: 340000
     transferTime: 96
   - type: STR_A7V_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_HEAVY_TANKS]
     size: 7
     costSell: 480000
     transferTime: 96
   - type: STR_VEZDEKHOD_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
     size: 7
     costSell: 480000
     transferTime: 96
