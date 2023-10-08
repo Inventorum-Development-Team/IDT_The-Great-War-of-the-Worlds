@@ -1580,6 +1580,8 @@ ufopaedia:
 
   - id: STR_ITALIAN_SOLDIER_INTRODUCTION
     type_id: 7
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     image_id: ITALIAN_SOLDIER_IMAGE
     text: STR_ITALIAN_SOLDIER_UFOPEDIA
@@ -1588,16 +1590,22 @@ ufopaedia:
     #listOrder: 1730
   - id: STR_ITALIAN_FIELD_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA
     listOrder: 12000
   - id: STR_ITALIAN_ALPINI_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA
     listOrder: 12010
   - id: STR_ITALIAN_GASMASK_UC
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_GASMASK_UC_UFOPEDIA
     listOrder: 12020
