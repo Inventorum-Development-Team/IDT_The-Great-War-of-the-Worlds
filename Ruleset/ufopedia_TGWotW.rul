@@ -1724,7 +1724,7 @@ ufopaedia:
   - id: STR_SCHNEIDER_CA1_ARMOR_UC
     type_id: 5
     section: STR_HEAVY_WEAPONS_PLATFORMS
-    text: STR_SCHNEIDER_CA1_ARMOR_UC_UFOPEDIA
+    text: STR_SCHNEIDER_CA1_TANK_UFOPEDIA
     requires:
       - STR_BASIC_TANK
     listOrder: 10262
@@ -1754,12 +1754,12 @@ ufopaedia:
   - id: STR_TANK_AMMO_TYPES
     requires:
       - STR_IMPROVED_TANK_DESIGN
-    type_id: 7
+    type_id: 8
     section: STR_HEAVY_WEAPONS_PLATFORMS
-    image_id: TANK_AMMO_TYPES_IMAGE
+    #image_id: TANK_AMMO_TYPES_IMAGE
     text: STR_TANK_AMMO_TYPES_UFOPEDIA
     listOrder: 10221
-    text_width: 150
+    #text_width: 150
 
   - id: AUX_QF_6_PDR_HOTCHKISS_CANNON
     type_id: 4
@@ -1796,7 +1796,7 @@ ufopaedia:
   - id: AUX_5_7CM_HE_CANNON_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
-  - id: AUX_5_7CM_INC_CANNON_SHELLS
+  - id: AUX_5_7CM_CANISTER_CANNON_SHELLS
     type_id: 4
     section: STR_NOT_AVAILABLE
   - id: AUX_5_7CM_KMM_CANNON_SHELLS
@@ -1992,6 +1992,29 @@ ufopaedia:
     requires:
       - STR_ALIENS_ONLY
     listOrder: 14600
+
+  - id: STR_TANK_HISTORY_1
+    type_id: 8
+    requires:
+      - STR_INITIAL_TANK_DESIGN
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TANK_HISTORY_1_UFOPEDIA
+    listOrder: 14610
+  - id: STR_TANK_HISTORY_2
+    type_id: 8
+    requires:
+      - STR_IMPROVED_TANK_DESIGN
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TANK_HISTORY_2_UFOPEDIA
+    listOrder: 14611
+  - id: STR_TANK_HISTORY_3
+    type_id: 8
+    requires:
+      - STR_IMPROVED_TANK_DESIGN
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TANK_HISTORY_1_UFOPEDIA
+    listOrder: 14612
+
 
   - id: STR_INITIAL_TANK_DESIGN
     requires:

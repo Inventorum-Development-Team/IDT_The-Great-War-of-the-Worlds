@@ -646,7 +646,7 @@ missionScripts:
         STR_MARTIAN_STATIC_CAMP: 100
     regionWeights:
       0:
-        STR_EUROPE: 100
+        STR_CENTRAL_ASIA: 100
     researchTriggers:
       STR_CENTRAL_ASIAN_CAMPAIGN: true
     useTable: false
