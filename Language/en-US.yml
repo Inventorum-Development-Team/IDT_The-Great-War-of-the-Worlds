@@ -119,7 +119,7 @@ en-US:
       STR_COUNCIL_IS_GENERALLY_SATISFIED: "The Coalition is generally satisfied with your progress so far."
       STR_COUNCIL_IS_VERY_PLEASED: "The Coalition is very pleased with your excellent progress. Keep up the good work."
       STR_COUNCIL_IS_DISSATISFIED: "The Coalition is dissatisfied with your performance. You must improve your effectiveness in dealing with the alien menace or risk termination of the project."
-      STR_YOU_HAVE_NOT_SUCCEEDED: "You have not succeeded in dealing with the alien invasion and the Coalition has regrettably decided to terminate the project. Each nation shall deal with the problem as they see fit. We can only hope that we can come to some accommodation with these apparently hostile forces, and that the general population will come to terms with the alien visitors."
+      STR_YOU_HAVE_NOT_SUCCEEDED: "Despite your most valiant efforts, we have failed to defend our planet. Each member of the Coalition is retreating to safe zones, using scorched earth tactics to deny the enemy of our resources. The Earth belongs to the Martians."
       STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the localized threat and has agreed to increase its funding."
       STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local alien incursion and have agreed to increase their funding."
       STR_COUNTRIES_COMMA: "{0}, {1}"
@@ -1122,6 +1122,8 @@ en-US:
 
 ########################
 
+      STR_OFFENSIVE_OPERATIONS: "Offensive Operations"
+      STR_OFFENSIVE_OPERATIONS_UFOPEDIA: "Until the 1913 Offensive, we have fought a defensive war. This has changed. With the latest advances in technology and weaponry, we are now able to actively engage the invaders. You are able to select the front where we will strike, as the IEF resources will begin to focus on said region. We expect the Martians to response in force. Be careful, we still need to deploy recon units to look for alien activity, try to settle a seizable presence (bases, patrolling craft) before beginning the campaign."
       STR_NORTH_AMERICAN_CAMPAIGN: "North American Campaign"
       STR_WESTERN_EUROPEAN_CAMPAIGN: "European Campaign"
       STR_SOUTH_AMERICAN_CAMPAIGN: "South American Campaign"
