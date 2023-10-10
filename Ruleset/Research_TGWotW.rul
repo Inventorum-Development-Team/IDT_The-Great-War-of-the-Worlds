@@ -310,13 +310,13 @@ research:
   - name: STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
     cost: 10
     points: 50
-    dependencies:
-      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
+    #dependencies:
+    #  - STR_BOMBER_ATTACK_CRAFT_RESEARCH
   - name: STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
     cost: 50
     points: 50
     dependencies:
-      - STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
+      - STR_BOMBER_ATTACK_CRAFT_RESEARCH
   - name: STR_DEFENSIVE_MACHINE_GUN_T3_RESEARCH
     cost: 100
     points: 50
@@ -324,16 +324,16 @@ research:
       - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
 
  #AUTOCANNONS
-  - name: STR_AUTOCANNON_T1_RESEARCH
-    cost: 10
-    points: 50
-    #dependencies:
-      #- STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
+ # - name: STR_AUTOCANNON_T1_RESEARCH
+ #   cost: 10
+ #   points: 50
+ #   #dependencies:
+ #     #- STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
   - name: STR_AUTOCANNON_T2_RESEARCH
     cost: 50
     points: 50
-    dependencies:
-      - STR_AUTOCANNON_T1_RESEARCH
+  #  dependencies:
+  #    - STR_AUTOCANNON_T1_RESEARCH
   - name: STR_AUTOCANNON_T3_RESEARCH
     cost: 100
     points: 50
@@ -341,15 +341,15 @@ research:
       - STR_AUTOCANNON_T2_RESEARCH
 
 #CANNON
-  - name: STR_CANNON_T1_RESEARCH
-    cost: 10
-    points: 50
+ # - name: STR_CANNON_T1_RESEARCH
+ #   cost: 10
+ #   points: 50
 
   - name: STR_CANNON_T2_RESEARCH
     cost: 50
     points: 50
-    dependencies:
-      - STR_CANNON_T1_RESEARCH
+ #   dependencies:
+ #     - STR_CANNON_T1_RESEARCH
   - name: STR_CANNON_T3_RESEARCH
     cost: 100
     points: 50
