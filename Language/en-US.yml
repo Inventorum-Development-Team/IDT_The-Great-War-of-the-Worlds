@@ -1123,7 +1123,7 @@ en-US:
 ########################
 
       STR_OFFENSIVE_OPERATIONS: "Offensive Operations"
-      STR_OFFENSIVE_OPERATIONS_UFOPEDIA: "Until the 1913 Offensive, we have fought a defensive war. This has changed. With the latest advances in technology and weaponry, we are now able to actively engage the invaders. You are able to select the front where we will strike, as the IEF resources will begin to focus on said region. We expect the Martians to response in force. Be careful, we still need to deploy recon units to look for alien activity, try to settle a seizable presence (bases, patrolling craft) before beginning the campaign."
+      STR_OFFENSIVE_OPERATIONS_UFOPEDIA: "Until the 1913 Offensive, we have fought a defensive war. This has changed. With the latest advances in technology and weaponry, we are now able to actively engage the invaders. You are able to select the front where we will strike, as the IEF resources will begin to focus on said region.{NEWLINE}{NEWLINE} We expect the Martians to response in force. Be careful, we still need to deploy recon units to look for alien activity, try to settle a seizable presence (bases, patrolling craft) before beginning the campaign. Until we made the choice, we should focus our efforts on securing our home sector."
       STR_NORTH_AMERICAN_CAMPAIGN: "North American Campaign"
       STR_WESTERN_EUROPEAN_CAMPAIGN: "European Campaign"
       STR_SOUTH_AMERICAN_CAMPAIGN: "South American Campaign"
