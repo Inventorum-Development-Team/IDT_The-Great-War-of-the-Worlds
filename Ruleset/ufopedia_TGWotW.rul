@@ -186,6 +186,14 @@ ufopaedia:
       - STR_STATE_OF_THE_WORLD_RUSSIA
     listOrder: 1070
 
+  - id: STR_OFFENSIVE_OPERATIONS
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_OFFENSIVE_OPERATIONS_UFOPEDIA
+    requires:
+      - STR_OFFENSIVE_OPERATIONS
+    listOrder: 1500
+
   #################################################
   ######### BALLISTIC BOLT-ACTION RIFLES #########
   ###############################################
