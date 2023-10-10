@@ -128,6 +128,7 @@ alienMissions:
         count: 3
         trajectory: P0
         timer: 7800
+        hunterKillerPercentage: 100
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 3
         trajectory: P2
@@ -136,25 +137,13 @@ alienMissions:
         count: 1
         trajectory: P2
         timer: 6000
-      - ufo: STR_MARTIAN_BATTLE_WALKER
-        count: 1
-        trajectory: P0
-        timer: 7800
-      - ufo: STR_MARTIAN_BATTLE_WALKER
-        count: 3
-        trajectory: P3
-        timer: 9000
       - ufo: NIMBLE_FIGHTER
         count: 3
         trajectory: P4
         timer: 3000
         hunterKillerPercentage: 100
-      - ufo: SUPPORT_BOAT
-        count: 1
-        trajectory: P4
-        timer: 750
       - ufo: STR_MARTIAN_HARVESTER_WALKER
-        count: 1
+        count: 2
         trajectory: P2
         timer: 1500
   - type: STR_ALIEN_ABDUCTION
