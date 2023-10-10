@@ -451,7 +451,7 @@ research:
     #needItem: true
 
   - name: STR_NORTH_AMERICAN_CAMPAIGN
-    cost: 100
+    cost: 50
     points: 50
     dependencies:
       - STR_OFFENSIVE_OPERATIONS
@@ -463,13 +463,13 @@ research:
       - STR_OFFENSIVE_OPERATIONS
     #needItem: true
   - name: STR_SOUTH_AMERICAN_CAMPAIGN
-    cost: 100
+    cost: 50
     points: 50
     dependencies:
       - STR_OFFENSIVE_OPERATIONS
     #needItem: true
   - name: STR_CENTRAL_ASIAN_CAMPAIGN
-    cost: 100
+    cost: 60
     points: 50
     dependencies:
       - STR_OFFENSIVE_OPERATIONS
