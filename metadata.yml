@@ -1,5 +1,5 @@
 name: "The Great War of the Worlds 1914"
-version: "0.8 Mk IV"
+version: "0.9 Mk IV"
 author: "Inventorum Development Team"
 description: "Defend the planet from the Martians on this alternate WW1!"
 id: tgwotw
@@ -8,5 +8,5 @@ isMaster: true
 loadResources:
   - UFO
 reservedSpace: 6
-requiredExtendedVersion: "7.7.3"
+requiredExtendedVersion: "7.8"
 resourceConfig: transparency.rul

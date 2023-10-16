@@ -6,6 +6,7 @@ Changes made:
 - Body sprites by Solarius Scorch and the XCom Files collaborators
 - Armor and uniform sprites by Hans Woofington and efrenespartano
 - Code by b1ackwolf
+<<<<<<< Updated upstream
 *Added Martian Interrogation reports, by Kael Schwabauer
 *Buffed Bolt-action rifles' regular and K-MM rounds armor penetration (was 0.2 and 0.3, now 0.4 and 0.5)
 *Reduced Pistols snapshot TU costs
@@ -13,6 +14,23 @@ Changes made:
 *Rebalanced Heat-Ray weapons, added armor damage values (so armor is considered before health in most cases), reduced and equalized power values
 *Rebalanced Martian Launcher shells (Black Smoke now reduces TUs and Stamina, instead of stunning)
 *General bugfixing 
+=======
+* Added Tanks (usable only by Pilots)
+- Motorcycle, Schenider CA, Mark V, Renault FT & A7V sprites by MigEater,
+- Vezdekhod by Gu-Doc
+- Tank Weapon sprites by wolwerin
+* Added Martian Interrogation reports, by Kael Schwabauer
+* Buffed Bolt-action rifles' regular and K-MM rounds armor penetration (was 0.2 and 0.3, now 0.4 and 0.5)
+* Reduced Pistols snapshot TU costs
+* Nerfed aircraft evasion values
+* Rebalanced Heat-Ray weapons, added armor damage values (so armor is considered before health in most cases), reduced and equalized power values
+* Rebalanced Martian Launcher shells (Black Smoke now reduces TUs and Stamina, instead of stunning)
+* Balanced some Geoscape missions
+* Removed research restrictions for T1 Autocannon, Defensive MG and Cannon, to make them available since the start, reported by nomadic_engi and GrooveCrusader
+* Changed alienDeployments loadouts for Martian machines and bases
+* General bugfixing
+
+>>>>>>> Stashed changes
 
 10-December-2022: 0.8 Mk. IV 'Slavyanka'
 Changes made:
