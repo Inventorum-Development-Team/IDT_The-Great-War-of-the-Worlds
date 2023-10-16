@@ -276,9 +276,9 @@ alienMissions:
     spawnZone: 4 #Mission zone for alien bases
     raceWeights:
       0:
-        STR_MARTIAN_LINE_INFANTRIES: 100
+        STR_SECTOID: 100
       1:
-        STR_MARTIAN_LINE_INFANTRIES: 100
+        STR_SECTOID: 100
       3:
         STR_MARTIAN_LINE_INFANTRIES: 100
       5:
@@ -300,18 +300,11 @@ alienMissions:
         count: 1
         trajectory: P6
         timer: 13800
-      - ufo: STR_MARTIAN_ASSAULT_WALKER
+      - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 1
         trajectory: P7
         timer: 9000
-      - ufo: STR_MARTIAN_SIEGE_WALKER
-        count: 1
-        trajectory: P7
-        timer: 60
-      - ufo: STR_MARTIAN_OVERLORD_WALKER
-        count: 1
-        trajectory: P7
-        timer: 60
+
 
   - type: STR_ALIEN_RETALIATION
     points: 0

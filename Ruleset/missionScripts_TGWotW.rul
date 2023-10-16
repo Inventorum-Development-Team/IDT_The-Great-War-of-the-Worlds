@@ -811,7 +811,7 @@ missionScripts:
         STR_ALIEN_CYLINDER: 100
     startDelay: 720
     #randomDelay: 43500
-    firstMonth: 0
+    firstMonth: 1
     maxRuns: 1
     varName: earlyMartianCylinder
     executionOdds: 100

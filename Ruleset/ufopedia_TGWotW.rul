@@ -1646,6 +1646,8 @@ ufopaedia:
     type_id: 7
     section: STR_UNIFORMS_AND_ARMORS
     image_id: RUSSIAN_SOLDIER_IMAGE
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
     text: STR_RUSSIAN_SOLDIER_UFOPEDIA
     text_width: 150
     listOrder: 12100
