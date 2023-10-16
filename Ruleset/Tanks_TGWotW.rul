@@ -1,0 +1,1143 @@
+﻿armors:
+
+  - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
+    spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET
+    spriteInv: SIDECAR_MOTORCYCLE_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: true
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_SIDECAR_MOTORCYCLE_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_SIDECAR_MOTORCYCLE_RECOVER
+    storeItem: STR_SIDECAR_MOTORCYCLE_ITEM
+    #weight: -200
+    frontArmor: 20
+    sideArmor: 22
+    rearArmor: 15
+    underArmor: 10
+    moveSound: 817
+    drawingRoutine: 2
+    size: 2
+    #overKill: 3.0
+    stats: &SECTION_LIGHT_TANK_STATS
+       bravery: 20
+       tu: 175
+       stamina: 700
+       reactions: -15
+    recovery:  &SECTION_LIGHT_TANK_RECOVERY
+      energy:
+        flatHundred: 7.5
+      morale:
+        moraleCurrent: -0.1333
+        bravery: 0.0666
+      stun:
+        stunCurrent: 0.09
+    psiDefence:  &SECTION_TANK_PSIDEF
+      psiStrength: 1.0
+      psiSkill: 0.2
+      moraleCurrent: 0.25
+      flatHundred: -0.15
+    damageModifier: &SECTION_LIGHT_TANK_RESISTANCES
+      - 1.0 #0 None
+      - 0.5 #1 Armor Piercing
+      - 1.2 #2 Incendiary
+      - 1.0 #3 High Explosive
+      - 1.0 #4 Laser
+      - 1.0 #5 Plasma
+      - 1.2 #6 Stun
+      - 1.0 #7 Melee
+      - 1.1 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.3 #10 Super AP
+      - 1.5 #11 Tesla
+      - 1.1 #12 Electromagnetic
+      - 1.2 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+      - 1.0 #15 ???
+      - 1.0 #16 Cold
+      - 1.6 #17 Toxic
+      - 1.2 #18 Flames
+    units:
+      - STR_PILOT
+      #- STR_GERMAN_SOLDIER
+    builtInWeapons:
+      - AUX_COAXIAL_MG08_MG
+      - NULL_2X1_LS
+      - NULL_2X1_RS
+      - NULL_2X1_LL
+      - NULL_2X1_RL
+      - NULL_2X3
+      - NULL_4X2
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+  - type: STR_SCHNEIDER_CA1_ARMOR_UC
+    spriteSheet: SCHNEIDER_CA1_SPRITESHEET
+    spriteInv: SCHNEIDER_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_SCHNEIDER_CA1_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_SCHNEIDER_CA1_RECOVER
+    storeItem: STR_SCHNEIDER_CA1_ITEM
+    weight: -200
+    visibilityAtDark: 10
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 50
+    underArmor: 45
+    moveSound: 816
+    drawingRoutine: 2
+    size: 2
+    overKill: 3.0
+    stats: *SECTION_LIGHT_TANK_STATS
+    recovery: *SECTION_LIGHT_TANK_RECOVERY
+    psiDefence: *SECTION_TANK_PSIDEF
+    damageModifier: *SECTION_LIGHT_TANK_RESISTANCES
+    units:
+      - STR_PILOT
+    builtInWeapons:
+      - AUX_COAXIAL_HOTCHKISS_MG
+      - NULL_2X1_LS
+      - NULL_2X1_RS
+      - NULL_2X1_LL
+      - NULL_2X1_RL
+      - NULL_2X3
+      - NULL_4X2
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+  - type: STR_MARK_V_ARMOR_UC
+    spriteSheet: MARK_V_SPRITESHEET
+    spriteInv: MARK_V_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_MARK_V_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_MARK_V_RECOVER
+    storeItem: STR_MARK_V_ITEM
+    weight: -200
+    visibilityAtDark: 10
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 50
+    underArmor: 45
+    moveSound: 816
+    drawingRoutine: 11
+    size: 2
+    overKill: 3.0
+    stats: &SECTION_HEAVY_TANK_STATS
+       bravery: 20
+       tu: 175
+       stamina: 700
+       reactions: -15
+    recovery:  &SECTION_LIGHT_TANK_RECOVERY
+      energy:
+        flatHundred: 7.5
+      morale:
+        moraleCurrent: -0.1333
+        bravery: 0.0666
+      stun:
+        stunCurrent: 0.09
+    psiDefence: *SECTION_TANK_PSIDEF
+    damageModifier: &SECTION_HEAVY_TANK_RESISTANCES
+      - 1.0 #0 None
+      - 0.35 #1 Armor Piercing
+      - 0.85 #2 Incendiary
+      - 1.1 #3 High Explosive
+      - 0.8 #4 Laser
+      - 1.0 #5 Plasma
+      - 0.0 #6 Stun
+      - 0.0 #7 Melee
+      - 1.0 #8 Acid
+      - 0.0 #9 Smoke
+      - 1.15 #10 Super AP
+      - 1.1 #11 Tesla
+      - 1.1 #12 Electromagnetic
+      - 1.0 #13 Heat-Ray
+      - 0.0 #14 Black Smoke
+      - 1.0 #15 ???
+      - 1.0 #16 Cold
+      - 1.0 #17 Toxic
+      - 0.85 #18 Flames
+    units:
+      - STR_PILOT
+    builtInWeapons:
+      - AUX_QF_6_PDR_HOTCHKISS_CANNON
+      - AUX_COAXIAL_HOTCHKISS_MG
+      - NULL_2X1_LS
+      - NULL_2X1_RS
+      - NULL_2X1_LL
+      - NULL_2X1_RL
+      - NULL_2X3
+      - NULL_4X2
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+  - type: STR_A7V_ARMOR_UC
+    spriteSheet: A7V_SPRITESHEET
+    spriteInv: A7V_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: false
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_A7V_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_A7V_RECOVER
+    storeItem: STR_A7V_ITEM # TODO FIXME, MISSING
+    weight: -200
+    visibilityAtDark: 10
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 50
+    underArmor: 45
+    moveSound: 816
+    drawingRoutine: 2
+    size: 2
+    overKill: 3.0
+    stats: *SECTION_HEAVY_TANK_STATS
+    psiDefence: *SECTION_TANK_PSIDEF
+    damageModifier: *SECTION_HEAVY_TANK_RESISTANCES
+    units:
+      - STR_PILOT
+    builtInWeapons:
+      - AUX_5_7CM_MAXIM_NORDENFELT_CANNON
+      - AUX_COAXIAL_MG08_MG
+      - NULL_2X1_LS
+      - NULL_2X1_RS
+      - NULL_2X1_LL
+      - NULL_2X1_RL
+      - NULL_2X3
+      - NULL_4X2
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+  - type: STR_RENAULT_FT_ARMOR_UC
+    spriteSheet: RENAULT_FT_SPRITESHEET
+    spriteInv: RENAULT_FT_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: true
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_RENAULT_FT_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_RENAULT_FT_RECOVER
+    storeItem: STR_RENAULT_FT_ITEM
+    weight: -200
+    visibilityAtDark: 10
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 50
+    underArmor: 45
+    moveSound: 816
+    drawingRoutine: 11
+    size: 2
+    overKill: 3.0
+    stats: *SECTION_LIGHT_TANK_STATS
+    recovery: *SECTION_LIGHT_TANK_RECOVERY
+    psiDefence: *SECTION_TANK_PSIDEF
+    damageModifier: *SECTION_LIGHT_TANK_RESISTANCES
+    units:
+      - STR_PILOT
+    builtInWeapons:
+      - AUX_37MM_PUTEAUX_CANNON
+      - AUX_TANK_SMOKE_LAUNCHER
+      - NULL_2X1_LS
+      - NULL_2X1_RS
+      - NULL_2X1_LL
+      - NULL_2X1_RL
+      - NULL_2X3
+      - NULL_4X2
+    loftempsSet: [ 92, 89, 90, 91 ]
+
+  - type: STR_VEZDEKHOD_ARMOR_UC
+    spriteSheet: VEZDEKHOD_SPRITESHEET
+    spriteInv: VEZDEKHOD_INV
+#    customArmorPreviewIndex: [144, 145]
+    allowInv: true
+    allowsRunning: true
+    allowsStrafing: false
+    allowsKneeling: false
+    fearImmune: false
+    corpseBattle:
+     - STR_VEZDEKHOD_RECOVER
+     - TANK_CORPSE_2
+     - TANK_CORPSE_3
+     - TANK_CORPSE_4
+    corpseGeo: STR_VEZDEKHOD_RECOVER
+    storeItem: STR_VEZDEKHOD_ITEM
+    weight: -200
+    visibilityAtDark: 10
+    frontArmor: 60
+    sideArmor: 55
+    rearArmor: 50
+    underArmor: 45
+    moveSound: 816
+    drawingRoutine: 20
+    size: 2
+    overKill: 3.0
+    stats: *SECTION_LIGHT_TANK_STATS
+    recovery: *SECTION_LIGHT_TANK_RECOVERY
+    psiDefence: *SECTION_TANK_PSIDEF
+    damageModifier: *SECTION_LIGHT_TANK_RESISTANCES
+    units:
+      - STR_PILOT
+    builtInWeapons:
+      - AUX_COAXIAL_MG08_MG
+      - AUX_TANK_SMOKE_LAUNCHER
+      - NULL_2X1_LS
+      - NULL_2X1_RS
+      - NULL_2X1_LL
+      - NULL_2X1_RL
+      - NULL_2X3
+      - NULL_4X2
+    loftempsSet: [ 92, 89, 90, 91 ]
+#######################################
+items:
+###############################
+####### TANK ITEMS ###########
+#############################
+  - type: STR_SIDECAR_MOTORCYCLE_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
+    size: 6
+    costBuy: 12000
+    costSell: 18000
+    transferTime: 96
+  - type: STR_SCHNEIDER_CA1_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
+    size: 6
+    costBuy: 25000
+    costSell: 24000
+    transferTime: 96
+  - type: STR_RENAULT_FT_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
+    size: 6
+    costBuy: 25000
+    costSell: 340000
+    transferTime: 96
+  - type: STR_MARK_V_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_HEAVY_TANKS]
+    size: 6
+    costBuy: 30000
+    costSell: 280000
+    transferTime: 96
+  - type: STR_A7V_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_HEAVY_TANKS]
+    size: 7
+    costBuy: 30000
+    costSell: 280000
+    transferTime: 96
+  - type: STR_VEZDEKHOD_ITEM # Item for the armor
+    categories: [STR_TANKS, STR_LIGHT_TANKS]
+    size: 7
+    costBuy: 25000
+    costSell: 180000
+    transferTime: 96
+##############################
+####### TANK WEAPONS ########
+############################
+  - type: AUX_COAXIAL_HOTCHKISS_MG
+    categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
+    weight: 44
+    bigSprite: 5124
+    fireSound: 806
+    reloadSound: 338
+    tuSnap: 25
+    tuAuto: 30
+    accuracySnap: 60
+    accuracyAuto: 50
+    accuracyMultiplier:
+      firing: 0.5
+      bravery: 0.5
+    minRange: 8
+    snapRange: 24
+    autoRange: 18
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    dropoff: 3
+    sprayWaypoints: 2
+    tuLoad: 40
+    bulletSpeed: 32
+    compatibleAmmo:
+      - AUX_COAXIAL_HOTCHKISS_MG_AMMO
+      - AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    experienceTrainingMode: 5
+    invWidth: 2
+    invHeight: 3
+
+  - type: AUX_COAXIAL_HOTCHKISS_MG_AMMO
+    categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5148
+    floorSprite: 2
+    bulletSprite: 13 #Rifle bullet 35*13
+    hitSound: 22
+    hitAnimation: 26
+    explosionSpeed: 15
+    power: 40
+    damageType: 1
+    damageAlter:
+      ArmorEffectiveness: 0.9
+    clipSize: 30
+    battleType: 2
+    armor: 30
+    attraction: 9
+    invWidth: 2
+    invHeight: 1
+    listOrder: 2023
+  - type: AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO
+    categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 0.1
+    costBuy: 1000
+    costSell: 750
+    weight: 9
+    bigSprite: 5156
+    floorSprite: 2
+    hitSound: 22
+    bulletSprite: 16 #Heavy MM bullet 35*16=560
+    hitAnimation: 26
+    explosionSpeed: 15
+    power: 55
+    damageType: 10
+    damageAlter:
+      ArmorEffectiveness: 0.7
+    clipSize: 20
+    battleType: 2
+    armor: 30
+    invWidth: 2
+    invHeight: 1
+    attraction: 9
+    listOrder: 2023
+
+  - type: AUX_COAXIAL_MG08_MG
+    categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
+    weight: 44
+    bigSprite: 5100
+    accuracySnap: 60
+    accuracyAuto: 50
+    accuracyMultiplier:
+      firing: 0.5
+      bravery: 0.5
+    costAuto:
+      time: 15
+    costSnap:
+      time: 25
+    sprayWaypoints: 3
+    tuLoad: 45
+    autoRange: 25
+    snapRange: 25
+    dropoff: 3
+    bulletSpeed: 32
+    fireSound: 111
+    reloadSound: 311
+    confSnap:
+      shots: 5
+      name: STR_BURST
+      shortName: STR_BURST_SHORT
+      ammoSlot: 0
+      arcing: false
+    confAuto:
+      shots: 15
+      name: STR_SUPPRESSION
+      shortName: STR_SUPPRESSION_SHORT
+      ammoSlot: 0
+      arcing: false
+    compatibleAmmo:
+      - STR_MG0815_DRUM
+      - STR_MG0815_DRUM_KMM
+    battleType: 1
+    fixedWeapon: true
+    recover: false
+    experienceTrainingMode: 5
+    invWidth: 2
+    invHeight: 3
+    ###turretType: 0
+
+  - type: AUX_QF_6_PDR_HOTCHKISS_CANNON
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
+    size: 6
+    costBuy: 0
+    costSell: 0
+    transferTime: 96
+    weight: 70
+    bigSprite: 5164
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 22
+    fireSound: [811, 812, 813, 814]
+    #reloadSound: 312
+    compatibleAmmo:
+      - AUX_57MM_AP_CANNON_SHELLS
+      - AUX_57MM_HE_CANNON_SHELLS
+      - AUX_57MM_INC_CANNON_SHELLS
+      - AUX_57MM_KMM_CANNON_SHELLS
+    accuracyAimed: 65
+    accuracyMultiplier:
+     reactions: 0.5
+     firing: 0.5
+     bravery: 0.3
+    tuAimed: 40
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    ###turretType: 0
+
+  - type: AUX_57MM_AP_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 30
+    bigSprite: 5172
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 110
+    damageType: 1
+    power: 60
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      RandomWound: false
+    clipSize: 3
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+  - type: AUX_57MM_HE_CANNON_SHELLS
+    categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 30
+    bigSprite: 5180
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 0
+    damageType: 3
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToTile: 0.5
+      RandomWound: false
+    power: 70
+    clipSize: 3
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+  - type: AUX_57MM_INC_CANNON_SHELLS
+    categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 30
+    bigSprite: 5188
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 0
+    damageType: 2
+    power: 80
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.1
+      ToMorale: 0.5
+      RandomWound: false
+      FireThreshold: 1
+    clipSize: 3
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+  - type: AUX_57MM_KMM_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 15
+    bigSprite: 5196
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 110
+    damageType: 10
+    power: 80
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.7
+      RandomWound: false
+    clipSize: 2
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+
+  - type: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
+    size: 6
+    costBuy: 0
+    costSell: 0
+    transferTime: 96
+    weight: 70
+    bigSprite: 5204
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 22
+    fireSound: [811, 812, 813, 814]
+    compatibleAmmo:
+      - AUX_5_7CM_AP_CANNON_SHELLS
+      - AUX_5_7CM_HE_CANNON_SHELLS
+      - AUX_5_7CM_CANISTER_CANNON_SHELLS
+      - AUX_5_7CM_KMM_CANNON_SHELLS
+    accuracyAimed: 80
+    accuracyMultiplier:
+     reactions: 0.5
+     firing: 0.5
+     bravery: 0.3
+    tuAimed: 50
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    ###turretType: 0
+
+  - type: AUX_5_7CM_AP_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 30
+    bigSprite: 5212
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 110
+    damageType: 1
+    power: 60
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      RandomWound: false
+    clipSize: 3
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+  - type: AUX_5_7CM_HE_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 30
+    bigSprite: 5220
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 0
+    damageType: 3
+    power: 60
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToTile: 0.5
+      RandomWound: false
+    clipSize: 5
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+  - type: AUX_5_7CM_CANISTER_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 30
+    bigSprite: 5228
+    floorSprite: 12
+    hitSound: 22
+    hitAnimation: 26
+    damageType: 1
+    power: 60
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.2
+      ToWound: 0.3
+      RandomWound: true
+    clipSize: 3
+    shotgunBehavior: 1
+    shotgunPellets: 10
+    shotgunSpread: 45
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 11
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+  - type: AUX_5_7CM_KMM_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 2000
+    costSell: 1500
+    transferTime: 48
+    weight: 15
+    bigSprite: 5236
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 110
+    damageType: 10
+    power: 80
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.7
+      RandomWound: false
+    clipSize: 2
+    battleType: 2
+    invWidth: 1
+    invHeight: 3
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+
+  - type: AUX_37MM_PUTEAUX_CANNON
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
+    size: 3.0
+    costBuy: 0
+    costSell: 0
+    transferTime: 96
+    weight: 40
+    bigSprite: 5244
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 4
+    fireSound: 815
+    compatibleAmmo:
+      - AUX_37MM_AP_CANNON_SHELLS
+      - AUX_37MM_KMM_CANNON_SHELLS
+    accuracySnap: 60
+    accuracyAimed: 100
+    tuSnap: 33
+    tuAimed: 35
+    battleType: 1
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    ###turretType: 0
+    listOrder: 11070
+  - type: AUX_37MM_AP_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 500
+    costSell: 400
+    transferTime: 48
+    weight: 20
+    bigSprite: 5252
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 110
+    damageType: 1
+    power: 50
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      RandomWound: false
+    clipSize: 6
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    listOrder: 11080
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+  - type: AUX_37MM_KMM_CANNON_SHELLS
+    categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    size: 3.0
+    costBuy: 500
+    costSell: 400
+    transferTime: 48
+    weight: 20
+    bigSprite: 5260
+    floorSprite: 12
+    hitSound: 0
+    hitAnimation: 110
+    damageType: 1
+    power: 50
+    damageAlter:
+      RandomType: 6
+      IgnoreOverKill: true
+      ToArmorPre: 0.4
+      RandomWound: false
+    clipSize: 4
+    battleType: 2
+    invWidth: 1
+    invHeight: 2
+    listOrder: 11080
+    vaporColorSurface: 0
+    vaporDensitySurface: 3
+    vaporProbabilitySurface: 50
+
+  - type: AUX_TANK_SMOKE_LAUNCHER
+    weight: 0
+    bigSprite: 20
+    compatibleAmmo:
+      - AUX_TANK_SMOKE_GRENADE
+    accuracyAimed: 100
+    tuAimed: 20
+    confAimed:
+      name: AUX_HWP_POP_SMOKE
+    battleType: 1
+    maxRange: 2
+    arcingShot: true
+    fixedWeapon: true
+    recover: false
+  - type: AUX_TANK_SMOKE_GRENADE
+    weight: 0
+    costBuy: 100
+    bigSprite: 20
+    power: 60
+    damageType: 9
+    clipSize: 3
+    battleType: 2
+    hitSound: 0
+    hitAnimation: 0
+    recover: false
+##############################
+####### TANK REPAIR #########
+############################
+  - type: STR_SIDECAR_MOTORCYCLE_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601
+  - type: STR_SCHNEIDER_CA1_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601
+  - type: STR_RENAULT_FT_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601
+  - type: STR_MARK_V_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601
+  - type: STR_A7V_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601
+  - type: STR_VEZDEKHOD_RECOVER
+    recover: true
+    battleType: 11
+    costSell: 8000
+    size: 0.8
+    weight: 100
+    listOrder: 10601
+#############################################
+#######################################
+
+
+###################################
+######## TANK REPAIRS ##############
+#################################
+# Armor repair ruleset
+manufacture:
+  - name: STR_REPAIR_SIDECAR_MOTORCYCLE
+    category: STR_ARMOR_REPAIR
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_SIDECAR_MOTORCYCLE_RECOVER: 1
+    producedItems:
+      STR_SIDECAR_MOTORCYCLE_ITEM: 1
+    listOrder: 2701
+
+  - name: STR_REPAIR_SCHNEIDER_CA1
+    category: STR_ARMOR_REPAIR
+    requires:
+      - STR_BASIC_TANK
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_SCHNEIDER_CA1_RECOVER: 1
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_SCHNEIDER_CA1_ITEM: 1
+    listOrder: 2701
+  - name: STR_REPAIR_RENAULT_FT
+    category: STR_ARMOR_REPAIR
+    requires:
+      - STR_IMPROVED_FRENCH_TANK
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_RENAULT_FT_RECOVER: 1
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_RENAULT_FT_ITEM: 1
+    listOrder: 2701
+  - name: STR_REPAIR_MARK_V
+    category: STR_ARMOR_REPAIR
+    requires:
+      - STR_IMPROVED_BRITISH_TANK
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_MARK_V_RECOVER: 1
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_MARK_V_ITEM: 1
+    listOrder: 2701
+  - name: STR_REPAIR_A7V
+    category: STR_ARMOR_REPAIR
+    requires:
+      - STR_IMPROVED_GERMAN_TANK
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_A7V_RECOVER: 1
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_A7V_ITEM: 1
+    listOrder: 2701
+  - name: STR_REPAIR_VEZDEKHOD
+    category: STR_ARMOR_REPAIR
+    requires:
+      - STR_IMPROVED_GERMAN_TANK
+    space: 12
+    time: 200
+    cost: 5000
+    requiredItems:
+      STR_VEZDEKHOD_RECOVER: 1
+      STR_ALIEN_ALLOYS: 1
+    producedItems:
+      STR_VEZDEKHOD_ITEM: 1
+    listOrder: 2701
+
+#########################################
+
+
+extraSprites:
+
+  - type: SIDECAR_MOTORCYCLE_SPRITESHEET
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/SIDECAR_MOTORCYCLE_SPRITESHEET.png
+  - type: SCHNEIDER_CA1_SPRITESHEET
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/SCHNEIDER_CA1_SPRITESHEET.png
+  - type: MARK_V_SPRITESHEET
+    width: 256
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/MARK_V_SPRITESHEET.png
+  - type: A7V_SPRITESHEET
+    width: 256
+    height: 160
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/A7V_SPRITESHEET.png
+  - type: RENAULT_FT_SPRITESHEET
+    width: 256
+    height: 680
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/RENAULT_FT_SPRITESHEET.png
+  - type: VEZDEKHOD_SPRITESHEET
+    width: 256
+    height: 840
+    subX: 32
+    subY: 40
+    files:
+      0: Resources/Tanks/VEZDEKHOD_SPRITESHEET.png
+
+  - type: SIDECAR_MOTORCYCLE_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/SIDECAR_MOTORCYCLE_INV.png
+  - type: SCHNEIDER_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/SCHNEIDER_INV.png
+  - type: MARK_V_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/MARK_V_INV.png
+  - type: A7V_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/A7V_INV.png
+  - type: RENAULT_FT_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/RENAULT_FT_INV.png
+
+  - type: VEZDEKHOD_INV
+    singleImage: true
+    files:
+      0: Resources/Tanks/Inventory/VEZDEKHOD_INV.png
+
+# TODO uncomment this when the resources are found :D
+  - type: BIGOBS.PCK
+    files:
+     5100: Resources/Tanks/Bigob_MG08.png
+     5108: Resources/Tanks/Bigob_MG08.png
+     5116: Resources/Tanks/Bigob_MG08.png
+     5124: Resources/Tanks/Bigob_M1914.png
+     5132: Resources/Tanks/Bigob_M1914.png
+     5140: Resources/Tanks/Bigob_M1914.png
+     5148: Resources/Tanks/Bigob_M1914_Clip.png
+     5156: Resources/Tanks/Bigob_M1914_KMM_Clip.png
+     5164: Resources/Tanks/Bigob_QF-6.png
+     5172: Resources/Tanks/Bigob_QF-6_AP_Clip.png
+     5180: Resources/Tanks/Bigob_QF-6_HE_Clip.png
+     5188: Resources/Tanks/Bigob_QF-6_INC_Clip.png
+     5196: Resources/Tanks/Bigob_QF-6_KMM_Clip.png
+     5204: Resources/Tanks/Bigob_5_7CM.png
+     5212: Resources/Tanks/Bigob_5_7CM_AP_Clip.png
+     5220: Resources/Tanks/Bigob_5_7CM_HE_Clip.png
+     5228: Resources/Tanks/Bigob_5_7CM_Canister_Clip.png
+     5236: Resources/Tanks/Bigob_5_7CM_KMM_Clip.png
+     5244: Resources/Tanks/bigob_37MM.png
+     5252: Resources/Tanks/bigob_37MM_AP_Clip.png
+     5260: Resources/Tanks/bigob_37MM_KMM_Clip.png
+     5268: Resources/Tanks/Bigob_75MM.png
+     5276: Resources/Tanks/Bigob_75MM_HE_Clip.png
+     5284: Resources/Tanks/Bigob_75MM_AP_Clip.png
+     5292: Resources/Tanks/Bigob_75MM_Gas_Clip.png
+     5300: Resources/Tanks/Bigob_75MM_KMM_Clip.png
+     5308: Resources/Tanks/Bigob_60MM_Mortar.png
+     5316: Resources/Tanks/Bigob_60MM_HE_Mortar_Clip.png
+     5324: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
+     5332: Resources/Tanks/Bigob_60MM_Frag_Mortar_Clip.png
+     5340: Resources/Tanks/bigob_MG18.png
+     5348: Resources/Tanks/bigob_MG18.png
+     5356: Resources/Tanks/bigob_MG18.png
+     5364: Resources/Tanks/Bigob_MG18_Clip.png
+     5372: Resources/Tanks/Bigob_MG18_KMM_Clip.png
+
+  - type: INITIAL_TANK_DESIGN_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/IMPROVED_METALURGIC_TECHNIQUES_IMAGE.PNG
+  - type: BASIC_TANK_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/IMPROVED_METALURGIC_TECHNIQUES_IMAGE.PNG
+  - type: IMPROVED_FRENCH_TANK_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/IMPROVED_METALURGIC_TECHNIQUES_IMAGE.PNG
+  - type: IMPROVED_BRITISH_TANK_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/IMPROVED_METALURGIC_TECHNIQUES_IMAGE.PNG
+  - type: IMPROVED_GERMAN_TANK_IMAGE
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/UFOpedia/IMPROVED_METALURGIC_TECHNIQUES_IMAGE.PNG

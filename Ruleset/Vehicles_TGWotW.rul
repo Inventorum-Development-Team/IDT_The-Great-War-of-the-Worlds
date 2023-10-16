@@ -18,6 +18,7 @@ crafts:
     undetectable: true
     soldiers: 20
     vehicles: 5
+    maxLargeSoldiers: 5
     costBuy: 10
     weapons: 1
     weaponTypes:
@@ -82,6 +83,7 @@ crafts:
       - STR_CRAFT_LIGHT_CANNON_TWO
     soldiers: 30
     vehicles: 10
+    maxLargeSoldiers: 10
     costBuy: 10
     refuelRate: 900
     undetectable: true
@@ -726,6 +728,7 @@ crafts:
       - STR_CRAFT_BOMB_FOUR
     soldiers: 12
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 3
     costBuy: 675000
     costSell: 600000
@@ -803,6 +806,7 @@ crafts:
       - STR_CRAFT_BOMB_FOUR
     soldiers: 12
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -882,9 +886,10 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_TWO
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
-    fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
+    fixedWeapons: ["STR_VICKERS_MMG", "STR_VICKERS_MMG", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 26
     maxSmallVehicles: 6
+    vehicles: 6
     pilots: 4
     costBuy: 675000
     costSell: 600000
@@ -985,6 +990,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 6
     maxSmallVehicles: 2
+    vehicles: 2
     pilots: 6
     costBuy: 675000
     costSell: 600000
@@ -1057,6 +1063,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 21
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -1150,6 +1157,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 7
     maxSmallVehicles: 4
+    vehicles: 4
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -1230,6 +1238,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_HEAT_RAY_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 13
     maxSmallVehicles: 6
+    vehicles: 6
     pilots: 5
     costBuy: 675000
     costSell: 600000
@@ -2132,7 +2141,7 @@ armors:
       - 1.2 #17 Toxic
       - 0.8 #18 Flames
     loftempsSet: [ 92, 89, 90, 91 ]
-    drawingRoutine: 2
+    drawingRoutine: 11
     allowsKneeling: false
     allowsMoving: false
     zombiImmune: true
@@ -2399,86 +2408,86 @@ items:
       - STR_FORWARD_MACHINE_GUN_T3_RESEARCH
   - type: STR_LEWIS_303_TURRET_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    costBuy: 2100
+    costSell: 1800
     transferTime: 48
-    requires:
-      - STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
+    #requires:
+    #  - STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
   - type: STR_30CAL_BROWNING_TURRET_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    costBuy: 5500
+    costSell: 4000
     transferTime: 48
     requires:
       - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
   - type: STR_303_VICKERS_K_TURRET_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    costBuy: 8100
+    costSell: 7600
     transferTime: 48
     requires:
       - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
   - type: STR_BECKER_2CM_CANNON_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    costBuy: 6000
+    costSell: 5000
     transferTime: 48
-    requires:
-      - STR_AUTOCANNON_T1_RESEARCH
+    #requires:
+    #  - STR_AUTOCANNON_T1_RESEARCH
   - type: STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER
     size: 0.8
-    costBuy: 21000
-    costSell: 18000
+    costBuy: 10000
+    costSell: 9000
     transferTime: 48
     requires:
       - STR_AUTOCANNON_T2_RESEARCH
   - type: STR_AUTOCANNON_LAUNCHER
     size: 1
-    costBuy: 32000
-    costSell: 27000
+    costBuy: 12000
+    costSell: 11000
     transferTime: 48
     requires:
       - STR_AUTOCANNON_T3_RESEARCH
   - type: STR_QF_1_PDR_POMPOM_LAUNCHER
     size: 1.0
-    costBuy: 35000
-    costSell: 37500
+    costBuy: 10000
+    costSell: 9500
     transferTime: 48
-    requires:
-      - STR_CANNON_T1_RESEARCH
+    #requires:
+    #  - STR_CANNON_T1_RESEARCH
   - type: STR_37MM_CANNON_LAUNCHER
     size: 1.0
-    costBuy: 35000
-    costSell: 37500
+    costBuy: 15000
+    costSell: 14500
     transferTime: 48
     requires:
       - STR_CANNON_T2_RESEARCH
   - type: STR_75MM_CANNON_LAUNCHER
     size: 0.1
-    costBuy: 2080
-    costSell: 1600
+    costBuy: 20000
+    costSell: 19500
     transferTime: 96
     requires:
       - STR_CANNON_T3_RESEARCH
 
   - type: STR_FRAGMENTATION_BOMB_LAUNCHER
     size: 1
-    costBuy: 32000
-    costSell: 27000
+    costBuy: 2500
+    costSell: 2000
     transferTime: 48
     requires:
       - STR_BOMBS_T1_RESEARCH
   - type: STR_HE_BOMB_LAUNCHER
     size: 1.0
-    costBuy: 1750
-    costSell: 1500
+    costBuy: 6750
+    costSell: 6500
     transferTime: 48
     requires:
       - STR_BOMBS_T2_RESEARCH
   - type: STR_CLUSTER_BOMB_LAUNCHER
     size: 1.0
-    costBuy: 35000
-    costSell: 37500
+    costBuy: 8000
+    costSell: 7500
     transferTime: 48
     requires:
       - STR_BOMBS_T3_RESEARCH
