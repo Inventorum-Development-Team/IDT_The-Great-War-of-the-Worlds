@@ -2316,41 +2316,49 @@ en-US:
       STR_LARGE_RADAR_SYSTEM: "Strategic SIGINT Center"
       STR_LARGE_RADAR_SYSTEM_UFOPEDIA: "A larger facility with more room for wireless machines and more personnel working to interpert SIGINT sightings and reports of Martian activity. Additional radio and telegram stations allows more detailed and concise data to be collected from recon agents deployed over a large area. Signals are analyzed with a 30% success chance over a 2500 nmi radius."
       STR_LABORATORY: "Laboratory"
-      STR_LABORATORY_UFOPEDIA: "Up to 50 scientists can work in a laboratory facility. Laboratories are equipped with the latest technology for research into materials, biochemistry and cosmology. There is privileged access to the best research labs throughout the world, including military establishments."
+      STR_LABORATORY_UFOPEDIA: "Up to 30 scientists can work in a laboratory facility. Laboratories are equipped with the latest technology for research into materials, biochemistry and cosmology. There is privileged access to the best research labs throughout the world, including military establishments."
       STR_WORKSHOP: "Workshop"
       STR_WORKSHOP_UFOPEDIA: "A workshop contains all the equipment necessary to manufacture equipment based on designs from the science labs. Up to 50 engineers can occupy a workshop, although items under construction will also consume some space."
+      STR_GENERAL_STORES: "Supply Depot"
+      STR_GENERAL_STORES_UFOPEDIA: "All equipment, weapons, munitions, recovered material and armors are placed in depots, including equipment assigned to craft in hangars."
+      STR_LIVING_QUARTERS: "Barracks"
+      STR_LIVING_QUARTERS_UFOPEDIA: "Each accommodation block provides for up to 50 personnel. The facility provides basic recreation, physical training, food and sleeping areas."
+      
       STR_MISSILE_DEFENSES: "Machine Gun Nest"
       STR_MISSILE_DEFENSES_UFOPEDIA: "Lightly fortified emplacement, meant to defend the base from enemy intrusions, using four Maxim machine guns."
-      
-      STR_GENERAL_STORES: "Supply Depot"
-      STR_GENERAL_STORES_UFOPEDIA: "All equipment, weapons systems, munitions, recovered material and Heavy Weapons Platforms are placed in stores, including equipment assigned to craft in hangars."
-      STR_ALIEN_CONTAINMENT: "Alien Containment"
       STR_LASER_DEFENSES: "75mm Gun Emplacement Bunker"
-      STR_LASER_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A 75mm turret battery projects a considerable amount of firepower."
-      
+      STR_LASER_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A 75mm turret battery packs a considerable amount of firepower."
       STR_PLASMA_DEFENSES: "H-R Turret Emplacement Bunker"
       STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A powerful Mk. XI Heat-Ray Projector turret is used to provide heavy defensive fire."
+      STR_FUSION_BALL_DEFENSES: "Tower Fortress"
+      STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns and a twin mortar turret make this defensive work into an inexpugnable position. "
+      STR_WATCHTOWER: "Watchtower"
+      STR_WATCHTOWER_UFOPEDIA: "A simple, easy to build wooden tower. It offers an elevated position for sharpshooters."
+      STR_TRENCH_LINE_NS: "Trench Line N-S"
+      STR_TRENCH_LINE_NS_UFOPEDIA: "A swallow trench line, running from north to south. Very easy and cheap to made with sandbags and wooden planks."
+      STR_TRENCH_LINE_WE: "Trench Line W-E"
+      STR_TRENCH_LINE_WE_UFOPEDIA: "A swallow trench line, running from west to east. Very easy and cheap to made with sandbags and wooden planks."
       
-      STR_FUSION_BALL_DEFENSES: "Fusion Ball Defenses"
-      STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Large fortification designed to equip as many turrets as possible. Remotely-operated . "
-      STR_PSIONIC_LABORATORY: "Psionic Laboratory"
-      STR_HYPER_WAVE_DECODER: "Hyper-wave Decoder"
       STR_HANGAR: "Hangar"
       
-      STR_LIVING_QUARTERS_UFOPEDIA: "Each accommodation block provides for up to 50 personnel. The facility provides basic recreation, food and sleeping areas."
       
       
+      STR_PSIONIC_LABORATORY: "Advanced Laboratory"
+      STR_PSIONIC_LABORATORY_UFOPEDIA: "Even when conventional laboratories are equipped with state-of-the-art technology, the difficulties to understand our enemy demands us to continue pushing forward the war effort. This expanded lab has room for 60 scientists."
       
-      
+      STR_ALIEN_CONTAINMENT: "Alien Containment"
       STR_ALIEN_CONTAINMENT_UFOPEDIA: "Living aliens are likely to require a special habitat to maintain their life systems. The containment facility can keep up to 10 alien life forms in self-contained units."
       
       
-      
-      STR_GRAV_SHIELD_UFOPEDIA: "The Gravity shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense systems at your base."
+      STR_GRAV_SHIELD: "Energy Repulsor Shield"
+      STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
       STR_MIND_SHIELD_UFOPEDIA: "Since alien craft rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
-      STR_PSIONIC_LABORATORY_UFOPEDIA: "The psionics lab can assess the psionic potential of all soldiers at the base and give them the necessary training to utilize their psionic skills. Each lab can train up to ten soldiers. Training is allocated at the end of each month. Psionic skills used in conjunction with a Psi-amp can be used for psionic attacks during combat."
-      STR_HYPER_WAVE_DECODER_UFOPEDIA: "Alien communications rely on a supra-dimensional wave which travels almost instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity."
+      
+      
       STR_HANGAR_UFOPEDIA: "Each hangar can accommodate one craft. There are facilities for maintenance, refueling and repair of X-Com craft. Each craft stationed at a base must have a free hangar assigned to it which cannot be used by other craft, even if the assigned craft is out on a mission."
+      
+      STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: "Alien communications rely on a supra-dimensional wave which travels almost instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity."
 
 
 ######################################
