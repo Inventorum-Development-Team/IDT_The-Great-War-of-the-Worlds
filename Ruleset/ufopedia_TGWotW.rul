@@ -186,6 +186,14 @@ ufopaedia:
       - STR_STATE_OF_THE_WORLD_RUSSIA
     listOrder: 1070
 
+  - id: STR_OFFENSIVE_OPERATIONS
+    type_id: 8
+    section: STR_LORE_REPORTS
+    text: STR_OFFENSIVE_OPERATIONS_UFOPEDIA
+    requires:
+      - STR_OFFENSIVE_OPERATIONS
+    listOrder: 1500
+
   #################################################
   ######### BALLISTIC BOLT-ACTION RIFLES #########
   ###############################################
@@ -1580,6 +1588,8 @@ ufopaedia:
 
   - id: STR_ITALIAN_SOLDIER_INTRODUCTION
     type_id: 7
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     image_id: ITALIAN_SOLDIER_IMAGE
     text: STR_ITALIAN_SOLDIER_UFOPEDIA
@@ -1588,16 +1598,22 @@ ufopaedia:
     #listOrder: 1730
   - id: STR_ITALIAN_FIELD_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_FIELD_UNIFORM_UC_UFOPEDIA
     listOrder: 12000
   - id: STR_ITALIAN_ALPINI_UNIFORM_UC
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_ALPINI_UNIFORM_UC_UFOPEDIA
     listOrder: 12010
   - id: STR_ITALIAN_GASMASK_UC
     type_id: 5
+    requires:
+      - STR_ITALIAN_EQUIPMENT_SELECTION
     section: STR_UNIFORMS_AND_ARMORS
     text: STR_ITALIAN_GASMASK_UC_UFOPEDIA
     listOrder: 12020
@@ -1630,6 +1646,8 @@ ufopaedia:
     type_id: 7
     section: STR_UNIFORMS_AND_ARMORS
     image_id: RUSSIAN_SOLDIER_IMAGE
+    requires:
+      - STR_RUSSIAN_EQUIPMENT_SELECTION
     text: STR_RUSSIAN_SOLDIER_UFOPEDIA
     text_width: 150
     listOrder: 12100
@@ -1707,6 +1725,135 @@ ufopaedia:
     text: STR_TGEWEHR_TURRET_UFOPEDIA
     weapon: STR_TGEWEHR
     listOrder: 12400
+
+  - id: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
+    type_id: 5
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_SIDECAR_MOTORCYCLE_ARMOR_UC_UFOPEDIA
+    listOrder: 10262
+  - id: STR_SCHNEIDER_CA1_ARMOR_UC
+    type_id: 5
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_SCHNEIDER_CA1_TANK_UFOPEDIA
+    requires:
+      - STR_BASIC_TANK
+    listOrder: 10262
+  - id: STR_MARK_V_ARMOR_UC
+    type_id: 5
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_MARK_V_ARMOR_UC_UFOPEDIA
+    requires:
+      - STR_IMPROVED_BRITISH_TANK
+    listOrder: 10262
+  - id: STR_A7V_ARMOR_UC
+    type_id: 5
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_A7V_ARMOR_UC_UFOPEDIA
+    requires:
+      - STR_IMPROVED_GERMAN_TANK
+    listOrder: 10262
+  - id: STR_RENAULT_FT_ARMOR_UC
+    type_id: 5
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: STR_RENAULT_FT_ARMOR_UC_UFOPEDIA
+    requires:
+      - STR_IMPROVED_FRENCH_TANK
+    listOrder: 10262
+
+
+  - id: STR_TANK_AMMO_TYPES
+    requires:
+      - STR_IMPROVED_TANK_DESIGN
+    type_id: 8
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    #image_id: TANK_AMMO_TYPES_IMAGE
+    text: STR_TANK_AMMO_TYPES_UFOPEDIA
+    listOrder: 10221
+    #text_width: 150
+
+  - id: AUX_QF_6_PDR_HOTCHKISS_CANNON
+    type_id: 4
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: AUX_QF_6_PDR_HOTCHKISS_CANNON_UFOPEDIA
+    requires:
+      - STR_IMPROVED_BRITISH_TANK
+    listOrder: 10262
+  - id: AUX_57MM_AP_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_57MM_HE_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_57MM_INC_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_57MM_KMM_CANNON_SHELLS
+    type_id: 4
+    requires:
+      - STR_MARTIAN_METAL_REFORGED_AMMO
+    section: STR_NOT_AVAILABLE
+
+  - id: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
+    type_id: 4
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: AUX_57MM_MAXIM_NORDENFELT_CANNON_UFOPEDIA
+    requires:
+      - STR_IMPROVED_GERMAN_TANK
+    listOrder: 10262
+  - id: AUX_5_7CM_AP_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_5_7CM_HE_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_5_7CM_CANISTER_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_5_7CM_KMM_CANNON_SHELLS
+    type_id: 4
+    requires:
+      - STR_MARTIAN_METAL_REFORGED_AMMO
+    section: STR_NOT_AVAILABLE
+
+  - id: AUX_37MM_PUTEAUX_CANNON
+    type_id: 4
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: AUX_37MM_PUTEAUX_CANNON_UFOPEDIA
+    requires:
+      - STR_IMPROVED_FRENCH_TANK
+    listOrder: 10262
+  - id: AUX_37MM_AP_CANNON_SHELLS
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_37MM_KMM_CANNON_SHELLS
+    type_id: 4
+    requires:
+      - STR_MARTIAN_METAL_REFORGED_AMMO
+    section: STR_NOT_AVAILABLE
+
+  - id: AUX_COAXIAL_HOTCHKISS_MG
+    type_id: 4
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: AUX_COAXIAL_HOTCHKISS_MG_UFOPEDIA
+    requires:
+      - STR_BASIC_TANK
+    listOrder: 10262
+  - id: AUX_COAXIAL_HOTCHKISS_MG_AMMO
+    type_id: 4
+    section: STR_NOT_AVAILABLE
+  - id: AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO
+    type_id: 4
+    requires:
+      - STR_MARTIAN_METAL_REFORGED_AMMO
+    section: STR_NOT_AVAILABLE
+
+  - id: AUX_COAXIAL_MG08_MG
+    type_id: 4
+    section: STR_HEAVY_WEAPONS_PLATFORMS
+    text: AUX_COAXIAL_MG08_MG_UFOPEDIA
+    requires:
+      - STR_IMPROVED_TANK_DESIGN
+    listOrder: 10262
 
 #####################################
 ######### NEW TECHNOLOGIES #########
@@ -1855,6 +2002,85 @@ ufopaedia:
     requires:
       - STR_ALIENS_ONLY
     listOrder: 14600
+
+  - id: STR_TANK_HISTORY_1
+    type_id: 8
+    requires:
+      - STR_INITIAL_TANK_DESIGN
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TANK_HISTORY_1_UFOPEDIA
+    listOrder: 14610
+  - id: STR_TANK_HISTORY_2
+    type_id: 8
+    requires:
+      - STR_IMPROVED_TANK_DESIGN
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TANK_HISTORY_2_UFOPEDIA
+    listOrder: 14611
+  - id: STR_TANK_HISTORY_3
+    type_id: 8
+    requires:
+      - STR_IMPROVED_TANK_DESIGN
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TANK_HISTORY_1_UFOPEDIA
+    listOrder: 14612
+
+
+  - id: STR_INITIAL_TANK_DESIGN
+    requires:
+      - STR_INITIAL_TANK_DESIGN
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: INITIAL_TANK_DESIGN_IMAGE
+    text: STR_INITIAL_TANK_DESIGN_UFOPEDIA
+    listOrder: 14660
+    text_width: 150
+  - id: STR_BASIC_TANK
+    requires:
+      - STR_BASIC_TANK
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: BASIC_TANK_IMAGE
+    text: STR_BASIC_TANK_UFOPEDIA
+    listOrder: 14661
+    text_width: 150
+
+  - id: STR_IMPROVED_TANK_DESIGN
+    requires:
+      - STR_IMPROVED_TANK_DESIGN
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: IMPROVED_TANK_DESIGN_IMAGE
+    text: STR_IMPROVED_TANK_DESIGN_UFOPEDIA
+    listOrder: 14662
+    text_width: 150
+  - id: STR_IMPROVED_FRENCH_TANK
+    requires:
+      - STR_IMPROVED_FRENCH_TANK
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: IMPROVED_FRENCH_TANK_IMAGE
+    text: STR_IMPROVED_FRENCH_TANK_UFOPEDIA
+    listOrder: 14663
+    text_width: 150
+  - id: STR_IMPROVED_BRITISH_TANK
+    requires:
+      - STR_IMPROVED_BRITISH_TANK
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: IMPROVED_BRITISH_TANK_IMAGE
+    text: STR_IMPROVED_BRITISH_TANK_UFOPEDIA
+    listOrder: 14664
+    text_width: 150
+  - id: STR_IMPROVED_GERMAN_TANK
+    requires:
+      - STR_IMPROVED_GERMAN_TANK
+    type_id: 7
+    section: STR_NEW_TECHNOLOGIES
+    image_id: IMPROVED_GERMAN_TANK_IMAGE
+    text: STR_IMPROVED_GERMAN_TANK_UFOPEDIA
+    listOrder: 14665
+    text_width: 150
 
   - id: STR_FRONTLINES_FIELD_REPORT
     type_id: 8

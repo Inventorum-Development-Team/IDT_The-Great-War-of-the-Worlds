@@ -1231,6 +1231,7 @@ armors:
     units:
       - STR_AMERICAN_SOLDIER
       - STR_BRITISH_SOLDIER
+      - STR_GERMAN_SOLDIER
       - STR_FRENCH_SOLDIER
       - STR_ITALIAN_SOLDIER
       - STR_ITALIAN_SOLDIER
@@ -4556,7 +4557,7 @@ armors:
 ########################
 
   - type: STR_GERMAN_T2_BODY_ARMOR
-    spriteSheet: GERMAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
+    spriteSheet: GERMAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
     layersSpecificPrefix:
       144: GERMAN_T2_BODY_ARMOR
