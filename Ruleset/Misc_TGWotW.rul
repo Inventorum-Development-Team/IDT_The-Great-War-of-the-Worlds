@@ -707,38 +707,3 @@ startingBase:
     STR_MAXIM_MG_DRUM: 4
   scientists: 10
   engineers: 10
-
-
-facilities:
-  - delete: STR_HANGAR
-
-  - type: STR_HANGAR
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 200000
-    buildTime: 25
-    storage: 50
-    monthlyCost: 25000
-    crafts: 2
-    mapName: XBASE_16
-  - type: STR_GENERAL_STORES
-    storage: 100
-  - type: STR_SMALL_RADAR_SYSTEM
-    spriteShape: 2
-    spriteFacility: 21
-    buildCost: 400000
-    buildTime: 12
-    monthlyCost: 10000
-    radarRange: 1700
-    radarChance: 15
-    hyper: true
-    mapName: XBASE_04
-  - type: STR_LARGE_RADAR_SYSTEM
-    spriteShape: 1
-    spriteFacility: 22
-    buildCost: 800000
-    buildTime: 25
-    monthlyCost: 20000
-    radarRange: 2577
-    radarChance: 30
