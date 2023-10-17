@@ -65,6 +65,12 @@ en-US:
       STR_LIGHT_TANKS: "Light Tanks"
       STR_HEAVY_TANKS: "Heavy Tanks"
       STR_FIXED_WEAPONS: "Fixed Weapons"
+      STR_HAS_GONE_BERSERK_MALE: "{0}{NEWLINE}has gone Berserk"
+      STR_HAS_GONE_BERSERK_FEMALE: "{0}{NEWLINE}has gone Berserk"
+      STR_HAS_PANICKED_MALE: "{0}{NEWLINE}is Shell Shocked"
+      STR_HAS_PANICKED_FEMALE: "{0}{NEWLINE}is Shell Shocked"
+      STR_XCOM: "IEF"
+      STR_ALIENS: "Martians"
 #################
       STR_ROOKIE: "Soldier"
       STR_SQUADDIE: "Sergeant"
@@ -2345,16 +2351,15 @@ en-US:
       STR_PSIONIC_LABORATORY: "Advanced Laboratory"
       STR_PSIONIC_LABORATORY_UFOPEDIA: "Even when conventional laboratories are equipped with state-of-the-art technology, the difficulties to understand our enemy demands us to continue pushing forward the war effort. This expanded lab has room for 60 scientists."
       
-      STR_ALIEN_CONTAINMENT: "Alien Containment"
-      STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs. The containment facility can keep up to 10 alien life forms in self-contained units."
-      
+      STR_ALIEN_CONTAINMENT: "POW Cells"
+      STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs, where interrogations can be carried on. The containment facility can keep up to 10 alien life forms in self-contained units."
       
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
       STR_MIND_SHIELD_UFOPEDIA: "Since alien craft rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
       
       STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
-      STR_HYPER_WAVE_DECODER_UFOPEDIA: "Alien communications rely on a supra-dimensional wave which travels almost instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity."
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: "This will show the type of UFO, the alien race and the type of activity."
 
 
 ######################################
