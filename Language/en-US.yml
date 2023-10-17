@@ -2340,22 +2340,18 @@ en-US:
       STR_TRENCH_LINE_WE_UFOPEDIA: "A swallow trench line, running from west to east. Very easy and cheap to made with sandbags and wooden planks."
       
       STR_HANGAR: "Hangar"
-      
-      
+      STR_HANGAR_UFOPEDIA: "Each hangar can accommodate two vehicles. There are facilities for maintenance, refueling and repair of the International Expeditionary Force's craft. Each pair of craft stationed at a base must have free hangars assigned to them which cannot be used by other craft, even if the assigned crafts are out on a mission."
       
       STR_PSIONIC_LABORATORY: "Advanced Laboratory"
       STR_PSIONIC_LABORATORY_UFOPEDIA: "Even when conventional laboratories are equipped with state-of-the-art technology, the difficulties to understand our enemy demands us to continue pushing forward the war effort. This expanded lab has room for 60 scientists."
       
       STR_ALIEN_CONTAINMENT: "Alien Containment"
-      STR_ALIEN_CONTAINMENT_UFOPEDIA: "Living aliens are likely to require a special habitat to maintain their life systems. The containment facility can keep up to 10 alien life forms in self-contained units."
+      STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs. The containment facility can keep up to 10 alien life forms in self-contained units."
       
       
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
       STR_MIND_SHIELD_UFOPEDIA: "Since alien craft rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
-      
-      
-      STR_HANGAR_UFOPEDIA: "Each hangar can accommodate one craft. There are facilities for maintenance, refueling and repair of X-Com craft. Each craft stationed at a base must have a free hangar assigned to it which cannot be used by other craft, even if the assigned craft is out on a mission."
       
       STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
       STR_HYPER_WAVE_DECODER_UFOPEDIA: "Alien communications rely on a supra-dimensional wave which travels almost instantaneously. The decoder facility intercepts UFO transmissions and decodes the information. This will show the type of UFO, the alien race and the type of activity."
