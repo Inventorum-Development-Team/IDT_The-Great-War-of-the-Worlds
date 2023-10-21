@@ -670,6 +670,15 @@ startingBase:
       id: 1
       fuel: 2500
       damage: 0
+      weapons:
+        - type: STR_VICKERS_MMG
+          ammo: 250
+        - type: STR_VICKERS_MMG
+          ammo: 250
+        - type: STR_VICKERS_MMG
+          ammo: 250
+        - type: STR_VICKERS_MMG
+          ammo: 250
       items:
         STR_FRAG_GRENADE: 8
         STR_SERVICE_REVOLVER: 2

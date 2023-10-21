@@ -30,6 +30,7 @@ enableCloseQuartersCombat: 1
 closeQuartersAccuracyGlobal: 100
 closeQuartersTuCostGlobal: 0
 closeQuartersEnergyCostGlobal: 8
+baseDefenseMapFromLocation: 1
 hiddenMovementBackgrounds:
   - TACTICBACK00.SCR
   - TACTICBACK01.SCR

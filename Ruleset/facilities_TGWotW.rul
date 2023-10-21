@@ -1,6 +1,6 @@
 facilities:
   - type: STR_ACCESS_LIFT
-    spriteShape: 2
+    spriteShape: 1
     spriteFacility: 17
     lift: true
     buildCost: 300000
@@ -350,3 +350,13 @@ terrains:
         width: 10
         length: 10
 
+extraSprites:
+  - type: BASEBITS.PCK
+    files:
+      0: Resources/Facilities/EARTH_BASEBITS.png
+      1: Resources/Facilities/SQUARE_BASEBITS.png
+      2: Resources/Facilities/OCTAGON_BASEBITS.png
+      3: Resources/Facilities/CROSS_BASEBITS.png
+      17: Resources/Facilities/COMMAND_POST_BASEBITS.png
+      18: Resources/Facilities/BARRACKS_BASEBITS.png
+      19: Resources/Facilities/LABORATORY_BASEBITS.png
