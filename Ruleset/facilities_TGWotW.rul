@@ -6,76 +6,85 @@ facilities:
     buildCost: 300000
     buildTime: 1
     monthlyCost: 4000
-    mapName: XBASE_00
+    connectorsDisabled: true
+    mapName: WW1BASE_00
   - type: STR_LIVING_QUARTERS
     spriteShape: 1
     spriteFacility: 18
     buildCost: 400000
     buildTime: 16
     monthlyCost: 10000
+    connectorsDisabled: true
     personnel: 50
-    mapName: XBASE_01
+    mapName: WW1BASE_01
   - type: STR_LABORATORY
     spriteShape: 1
     spriteFacility: 19
     buildCost: 750000
     buildTime: 26
     monthlyCost: 30000
+    connectorsDisabled: true
     labs: 50
-    mapName: XBASE_02
+    mapName: WW1BASE_02
   - type: STR_WORKSHOP
     spriteShape: 1
     spriteFacility: 20
     buildCost: 800000
     buildTime: 32
     monthlyCost: 35000
+    connectorsDisabled: true
     workshops: 50
-    mapName: XBASE_03
+    mapName: WW1BASE_03
   - type: STR_SMALL_RADAR_SYSTEM
     spriteShape: 2
     spriteFacility: 21
     buildCost: 500000
     buildTime: 12
     monthlyCost: 10000
+    connectorsDisabled: true
     radarRange: 1695
     radarChance: 10
-    mapName: XBASE_04
+    mapName: WW1BASE_04
   - type: STR_LARGE_RADAR_SYSTEM
     spriteShape: 1
     spriteFacility: 22
     buildCost: 800000
     buildTime: 25
     monthlyCost: 15000
+    connectorsDisabled: true
     radarRange: 2577
     radarChance: 20
-    mapName: XBASE_05
+    mapName: WW1BASE_05
   - type: STR_MISSILE_DEFENSES
     spriteShape: 2
     spriteFacility: 23
     buildCost: 200000
     buildTime: 16
     monthlyCost: 5000
+    connectorsDisabled: true
     defense: 500
     hitRatio: 50
     fireSound: 5
     hitSound: 10
-    mapName: XBASE_06
+    mapName: WW1BASE_06
   - type: STR_GENERAL_STORES
     spriteShape: 1
     spriteFacility: 24
     buildCost: 150000
     buildTime: 10
     monthlyCost: 5000
+    connectorsDisabled: true
     storage: 50
-    mapName: XBASE_07
+    mapName: WW1BASE_07
   - type: STR_ALIEN_CONTAINMENT
     spriteShape: 1
     spriteFacility: 25
     buildCost: 400000
     buildTime: 18
     monthlyCost: 15000
+    connectorsDisabled: true
     aliens: 10
-    mapName: XBASE_08
+    mapName: WW1BASE_08
   - type: STR_LASER_DEFENSES
     requires:
       - STR_LASER_DEFENSE
@@ -84,11 +93,12 @@ facilities:
     buildCost: 400000
     buildTime: 24
     monthlyCost: 10000
+    connectorsDisabled: true
     defense: 600
     hitRatio: 60
     fireSound: 8
     hitSound: 10
-    mapName: XBASE_09
+    mapName: WW1BASE_09
   - type: STR_PLASMA_DEFENSES
     requires:
       - STR_PLASMA_DEFENSE
@@ -97,11 +107,12 @@ facilities:
     buildCost: 600000
     buildTime: 34
     monthlyCost: 12000
+    connectorsDisabled: true
     defense: 900
     hitRatio: 70
     fireSound: 9
     hitSound: 10
-    mapName: XBASE_10
+    mapName: WW1BASE_10
   - type: STR_FUSION_BALL_DEFENSES
     requires:
       - STR_FUSION_DEFENSE
@@ -110,11 +121,12 @@ facilities:
     buildCost: 800000
     buildTime: 34
     monthlyCost: 14000
+    connectorsDisabled: true
     defense: 1200
     hitRatio: 80
     fireSound: 7
     hitSound: 10
-    mapName: XBASE_11
+    mapName: WW1BASE_11
   - type: STR_GRAV_SHIELD
     requires:
       - STR_GRAV_SHIELD
@@ -124,7 +136,8 @@ facilities:
     buildCost: 1200000
     buildTime: 38
     monthlyCost: 15000
-    mapName: XBASE_12
+    connectorsDisabled: true
+    mapName: WW1BASE_12
   - type: STR_MIND_SHIELD
     requires:
       - STR_MIND_SHIELD
@@ -134,7 +147,8 @@ facilities:
     buildCost: 1300000
     buildTime: 33
     monthlyCost: 5000
-    mapName: XBASE_13
+    connectorsDisabled: true
+    mapName: WW1BASE_13
   - type: STR_PSIONIC_LABORATORY
     requires:
       - STR_PSI_LAB
@@ -143,8 +157,9 @@ facilities:
     buildCost: 750000
     buildTime: 24
     monthlyCost: 16000
+    connectorsDisabled: true
     psiLabs: 10
-    mapName: XBASE_14
+    mapName: WW1BASE_14
   - type: STR_HYPER_WAVE_DECODER
     requires:
       - STR_HYPER_WAVE_DECODER
@@ -154,9 +169,10 @@ facilities:
     buildCost: 1400000
     buildTime: 26
     monthlyCost: 30000
+    connectorsDisabled: true
     radarRange: 2759
     radarChance: 100
-    mapName: XBASE_15
+    mapName: WW1BASE_15
   - type: STR_HANGAR
     spriteShape: 9
     spriteFacility: 9
@@ -164,7 +180,173 @@ facilities:
     buildCost: 200000
     buildTime: 25
     monthlyCost: 25000
+    connectorsDisabled: true
     crafts: 1
     storage: 5 #OXCE bonus because of change in handling craft storage
     storageTiles: [[-1, -1, -1]]
-    mapName: XBASE_16
+    mapName: WW1BASE_16
+  - type: STR_WATCHTOWER
+    spriteShape: 3
+    spriteFacility: 27
+    buildCost: 600000
+    buildTime: 34
+    monthlyCost: 12000
+    connectorsDisabled: true
+    defense: 50
+    hitRatio: 50
+    fireSound: 9
+    hitSound: 10
+    mapName: WW1BASE_21
+  - type: STR_TRENCH_LINE_NS
+    spriteShape: 3
+    spriteFacility: 27
+    buildCost: 600000
+    buildTime: 34
+    monthlyCost: 12000
+    connectorsDisabled: true
+    defense: 50
+    hitRatio: 50
+    fireSound: 9
+    hitSound: 10
+    mapName: WW1BASE_22
+  - type: STR_TRENCH_LINE_WE
+    spriteShape: 3
+    spriteFacility: 27
+    buildCost: 600000
+    buildTime: 34
+    monthlyCost: 12000
+    connectorsDisabled: true
+    defense: 50
+    hitRatio: 50
+    fireSound: 9
+    hitSound: 10
+    mapName: WW1BASE_23
+  - type: STR_TRENCH_LINE_CROSS
+    spriteShape: 3
+    spriteFacility: 27
+    buildCost: 600000
+    buildTime: 34
+    monthlyCost: 12000
+    connectorsDisabled: true
+    defense: 50
+    hitRatio: 50
+    fireSound: 9
+    hitSound: 10
+    mapName: WW1BASE_24
+
+mapScripts:
+  - type: WW1BASE
+    commands:
+    - type: fillArea
+      terrain: baseTerrain
+
+terrains:
+  - name: WW1BASE
+    mapDataSets:
+      - BLANKS
+      - WW1XBASE1
+      - WW1XBASE2
+      - IDT_ROOF_WW1
+      - US_ARMY_BARRICADE_TILES
+      - BON3
+    script: WW1BASE
+    mapBlocks:
+      - name: WW1BASE_00
+        width: 10
+        length: 10
+      - name: WW1BASE_01
+        width: 10
+        length: 10
+      - name: WW1BASE_02
+        width: 10
+        length: 10
+      - name: WW1BASE_03
+        width: 10
+        length: 10
+      - name: WW1BASE_04
+        width: 10
+        length: 10
+      - name: WW1BASE_05
+        width: 10
+        length: 10
+      - name: WW1BASE_06
+        width: 10
+        length: 10
+        items:
+            STR_ZEPPELIN_TURRET_SPAWNER:
+              - [2, 7, 0]
+              - [2, 2, 0]
+              - [7, 2, 0]
+              - [7, 7, 0]
+        fuseTimers:
+            STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
+      - name: WW1BASE_07
+        width: 10
+        length: 10
+      - name: WW1BASE_08
+        width: 10
+        length: 10
+      - name: WW1BASE_09
+        width: 10
+        length: 10
+        items:
+            STR_75MM_FORT_TURRET_SPAWNER:
+              - [4, 4, 3]
+        fuseTimers:
+            STR_75MM_FORT_TURRET_SPAWNER: [0, 0]
+      - name: WW1BASE_10
+        width: 10
+        length: 10
+        items:
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
+              - [4, 4, 3]
+        fuseTimers:
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
+      - name: WW1BASE_11
+        width: 10
+        length: 10
+        items:
+            STR_TWIN_MORTAR_TURRET_SPAWNER:
+              - [4, 4, 3]
+        fuseTimers:
+            STR_TWIN_MORTAR_TURRET_SPAWNER: [0, 0]
+      - name: WW1BASE_12
+        width: 10
+        length: 10
+      - name: WW1BASE_13
+        width: 10
+        length: 10
+      - name: WW1BASE_14
+        width: 10
+        length: 10
+      - name: WW1BASE_15
+        width: 10
+        length: 10
+      - name: WW1BASE_16
+        width: 10
+        length: 10
+      - name: WW1BASE_17
+        width: 10
+        length: 10
+      - name: WW1BASE_18
+        width: 10
+        length: 10
+      - name: WW1BASE_19
+        width: 10
+        length: 10
+      - name: WW1BASE_20
+        width: 10
+        length: 10
+      - name: WW1BASE_21
+        width: 10
+        length: 10
+      - name: WW1BASE_22
+        width: 10
+        length: 10
+      - name: WW1BASE_23
+        width: 10
+        length: 10
+      - name: WW1BASE_24
+        width: 10
+        length: 10
+

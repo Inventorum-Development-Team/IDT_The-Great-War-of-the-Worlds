@@ -2314,7 +2314,7 @@ en-US:
       STR_AVATAR_NAME_144: "Jane"
 
 #############################################
-      
+
       STR_ACCESS_LIFT: "Command Post"
       STR_ACCESS_LIFT_UFOPEDIA: "The very first building in a new base. It hosts the War Room, where frontline Strategic and Tactical operations are directed. A small telegraph station to collect signals and issue orders is also included, with a 10% chance of detecting enemy activity in a 500 nmi radius."
       STR_SMALL_RADAR_SYSTEM: "Regional SIGINT Post"
@@ -2329,7 +2329,7 @@ en-US:
       STR_GENERAL_STORES_UFOPEDIA: "All equipment, weapons, munitions, recovered material and armors are placed in depots, including equipment assigned to craft in hangars."
       STR_LIVING_QUARTERS: "Barracks"
       STR_LIVING_QUARTERS_UFOPEDIA: "Each accommodation block provides for up to 50 personnel. The facility provides basic recreation, physical training, food and sleeping areas."
-      
+
       STR_MISSILE_DEFENSES: "Machine Gun Nest"
       STR_MISSILE_DEFENSES_UFOPEDIA: "Lightly fortified emplacement, meant to defend the base from enemy intrusions, using four Maxim machine guns."
       STR_LASER_DEFENSES: "75mm Gun Emplacement Bunker"
@@ -2344,20 +2344,22 @@ en-US:
       STR_TRENCH_LINE_NS_UFOPEDIA: "A swallow trench line, running from north to south. Very easy and cheap to made with sandbags and wooden planks."
       STR_TRENCH_LINE_WE: "Trench Line W-E"
       STR_TRENCH_LINE_WE_UFOPEDIA: "A swallow trench line, running from west to east. Very easy and cheap to made with sandbags and wooden planks."
-      
+      STR_TRENCH_LINE_CROSS: "Trench Crossing"
+      STR_TRENCH_LINE_CROSS_UFOPEDIA: "A swallow trench line, crossing paths. Very easy and cheap to made with sandbags and wooden planks."
+
       STR_HANGAR: "Hangar"
       STR_HANGAR_UFOPEDIA: "Each hangar can accommodate two vehicles. There are facilities for maintenance, refueling and repair of the International Expeditionary Force's craft. Each pair of craft stationed at a base must have free hangars assigned to them which cannot be used by other craft, even if the assigned crafts are out on a mission."
-      
+
       STR_PSIONIC_LABORATORY: "Advanced Laboratory"
       STR_PSIONIC_LABORATORY_UFOPEDIA: "Even when conventional laboratories are equipped with state-of-the-art technology, the difficulties to understand our enemy demands us to continue pushing forward the war effort. This expanded lab has room for 60 scientists."
-      
-      STR_ALIEN_CONTAINMENT: "POW Cells"
-      STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs, where interrogations can be carried on. The containment facility can keep up to 10 alien life forms in self-contained units."
-      
+
+      #STR_ALIEN_CONTAINMENT: "POW Cells"
+      #STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs, where interrogations can be carried on. The containment facility can keep up to 10 alien life forms in self-contained units."
+
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
       STR_MIND_SHIELD_UFOPEDIA: "Since alien craft rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
-      
+
       STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
       STR_HYPER_WAVE_DECODER_UFOPEDIA: "This will show the type of UFO, the alien race and the type of activity."
 

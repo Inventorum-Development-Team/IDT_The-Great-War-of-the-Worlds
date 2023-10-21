@@ -171,15 +171,15 @@ items:
 
   - type: CEREBREAL_WEAPON
     weight: 3
-    bigSprite: 100
+    bigSprite: 60
     floorSprite: 31
     handSprite: 104
-    bulletSprite: 11
-    fireSound: 500
+    bulletSprite: 8
+    fireSound: 51
     hitSound: 19
-    #hitAnimation: 57
+    hitAnimation: 46
     power: 110
-    damageType: 5
+    damageType: 8
     accuracySnap: 50
     accuracyAimed: 90
     tuSnap: 55

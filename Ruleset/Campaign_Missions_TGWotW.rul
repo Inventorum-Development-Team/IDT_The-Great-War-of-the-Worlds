@@ -1841,9 +1841,9 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 2
+    height: 6
     terrains:
-      - XBASE
+      - WW1BASE
     shade: 5
     briefing:
       palette: 0

@@ -1143,6 +1143,14 @@ extraSprites:
     files:
       0: Resources/Turrets/75MM_FORT_CANNON_SPRITESHEET.png
 
+  - type: TWIN_MORTAR_SPRITESHEET.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 680
+    files:
+      0: Resources/Turrets/TWIN_MORTAR_SPRITESHEET.png
+
   - type: HUMAN_HEAT_RAY_CANNON_SPRITESHEET.PCK
     subX: 32
     subY: 40
