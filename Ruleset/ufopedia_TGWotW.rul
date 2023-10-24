@@ -2050,7 +2050,7 @@ ufopaedia:
       - STR_IMPROVED_TANK_DESIGN
     type_id: 7
     section: STR_NEW_TECHNOLOGIES
-    image_id: IMPROVED_TANK_DESIGN_IMAGE
+    image_id: BASIC_TANK_IMAGE
     text: STR_IMPROVED_TANK_DESIGN_UFOPEDIA
     listOrder: 14662
     text_width: 150

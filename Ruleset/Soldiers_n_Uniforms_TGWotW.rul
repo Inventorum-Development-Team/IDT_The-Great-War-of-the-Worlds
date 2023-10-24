@@ -9866,7 +9866,7 @@ extraSprites:
   - typeSingle: HUMAN__0__M54_NUDE
     fileSingle: Resources/SoldiersSprites/00-Body/MAN_M54.png
   - typeSingle: HUMAN__0__M55_NUDE
-    fileSingle: Resources/SodiersSprites/Battlescape/SoldierSprites/00-Body/MAN_M55.png
+    fileSingle: Resources/SoldiersSprites/00-Body/MAN_M55.png
   - typeSingle: HUMAN__0__M56_NUDE
     fileSingle: Resources/SoldiersSprites/00-Body/MAN_M56.png
   - typeSingle: HUMAN__0__M57_NUDE
