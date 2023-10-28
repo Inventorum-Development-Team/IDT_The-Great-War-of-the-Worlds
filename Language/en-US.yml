@@ -1301,7 +1301,9 @@ en-US:
       STR_MARTIAN_RECON_WALKER: Martian Scouting-Machines Squad
       STR_MARTIAN_RECON_WALKER_UFOPEDIA: Brigade of three Tripods employed to recon the target area and give light support to the troops. These were the enemies that assaulted London in the first Martian invasion. Very fast and lethal, although they are the enemy's weakest walkers.
 
-      STR_FLOATER: "Mixed Martian Platoon"
+      STR_FLOATER: "Mixed Martian Platoon I"
+      STR_ETHEREAL: "Mixed Martian Platoon II"
+      STR_MUTON: "Mixed Martian Platoon III"
       STR_SECTOID: "Martian Conscript"
       STR_SECTOID_SOLDIER: "Martian Conscript"
       STR_SECTOID_LEADER: "Martian Conscript Leader"
