@@ -331,39 +331,51 @@ items:
     transferTime: 96
   - type: STR_SCHNEIDER_CA1_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
+    requiresBuy: 
+    - STR_INITIAL_TANK_DESIGN
     size: 6
     costBuy: 25000
     costSell: 24000
     transferTime: 96
   - type: STR_RENAULT_FT_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 6
-    costBuy: 25000
-    costSell: 340000
+    costBuy: 34000
+    costSell: 25000
     transferTime: 96
   - type: STR_MARK_V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 6
     costBuy: 30000
-    costSell: 280000
+    costSell: 28000
     transferTime: 96
   - type: STR_A7V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 7
-    costBuy: 30000
-    costSell: 280000
+    costBuy: 28000
+    costSell: 30000
     transferTime: 96
   - type: STR_VEZDEKHOD_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 7
     costBuy: 25000
-    costSell: 180000
+    costSell: 18000
     transferTime: 96
 ##############################
 ####### TANK WEAPONS ########
 ############################
   - type: AUX_COAXIAL_HOTCHKISS_MG
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
+    requiresBuy:
+    - STR_INITIAL_TANK_DESIGN
     weight: 44
     bigSprite: 5124
     fireSound: 806
@@ -406,6 +418,8 @@ items:
 
   - type: AUX_COAXIAL_HOTCHKISS_MG_AMMO
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_INITIAL_TANK_DESIGN
     size: 0.1
     costBuy: 1000
     costSell: 750
@@ -429,6 +443,9 @@ items:
     listOrder: 2023
   - type: AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_INITIAL_TANK_DESIGN
+    - STR_MARTIAN_METAL_REFORGED_AMMO
     size: 0.1
     costBuy: 1000
     costSell: 750
@@ -453,6 +470,8 @@ items:
 
   - type: AUX_COAXIAL_MG08_MG
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
+    requiresBuy:
+    - STR_BASIC_TANK
     weight: 44
     bigSprite: 5100
     accuracySnap: 60
@@ -497,6 +516,8 @@ items:
 
   - type: AUX_QF_6_PDR_HOTCHKISS_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 6
     costBuy: 0
     costSell: 0
@@ -527,6 +548,8 @@ items:
 
   - type: AUX_57MM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -552,6 +575,8 @@ items:
     vaporProbabilitySurface: 50
   - type: AUX_57MM_HE_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -578,6 +603,8 @@ items:
     vaporProbabilitySurface: 50
   - type: AUX_57MM_INC_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -605,6 +632,8 @@ items:
     vaporProbabilitySurface: 50
   - type: AUX_57MM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -631,6 +660,8 @@ items:
 
   - type: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 6
     costBuy: 0
     costSell: 0
@@ -660,6 +691,8 @@ items:
 
   - type: AUX_5_7CM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -685,6 +718,8 @@ items:
     vaporProbabilitySurface: 50
   - type: AUX_5_7CM_HE_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -711,6 +746,8 @@ items:
     vaporProbabilitySurface: 50
   - type: AUX_5_7CM_CANISTER_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -740,6 +777,8 @@ items:
     vaporProbabilitySurface: 50
   - type: AUX_5_7CM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -766,6 +805,8 @@ items:
 
   - type: AUX_37MM_PUTEAUX_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 0
     costSell: 0
@@ -791,6 +832,8 @@ items:
     listOrder: 11070
   - type: AUX_37MM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 500
     costSell: 400
@@ -817,6 +860,8 @@ items:
     vaporProbabilitySurface: 50
   - type: AUX_37MM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
+    requiresBuy:
+    - STR_BASIC_TANK
     size: 3.0
     costBuy: 500
     costSell: 400
@@ -857,6 +902,8 @@ items:
     fixedWeapon: true
     recover: false
   - type: AUX_TANK_SMOKE_GRENADE
+    requiresBuy:
+    - STR_BASIC_TANK
     weight: 0
     costBuy: 100
     bigSprite: 20

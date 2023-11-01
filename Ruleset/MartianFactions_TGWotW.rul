@@ -171,15 +171,15 @@ items:
 
   - type: CEREBREAL_WEAPON
     weight: 3
-    bigSprite: 100
+    bigSprite: 60
     floorSprite: 31
     handSprite: 104
-    bulletSprite: 11
-    fireSound: 500
+    bulletSprite: 8
+    fireSound: 51
     hitSound: 19
-    #hitAnimation: 57
+    hitAnimation: 46
     power: 110
-    damageType: 5
+    damageType: 8
     accuracySnap: 50
     accuracyAimed: 90
     tuSnap: 55
@@ -855,9 +855,31 @@ alienRaces:
 
   - id: STR_FLOATER
     members:
+      - STR_MARTIAN_MARINE_LEADER
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_SKIRMISHER
+      - STR_SECTOID_SOLDIER
+      - STR_MARTIAN_MARINE
+      - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
+
+  - id: STR_ETHEREAL
+    members:
       - STR_MARTIAN_LINE_INFANTRY_LEADER
       - STR_MARTIAN_LINE_INFANTRY
       - STR_MARTIAN_SKIRMISHER
+      - STR_SECTOID_SOLDIER
+      - STR_MARTIAN_MARINE
+      - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
+
+  - id: STR_MUTON
+    members:
+      - STR_MARTIAN_SHOCK_GUARD_LEADER
+      - STR_MARTIAN_LINE_INFANTRY
+      - STR_MARTIAN_SCIENTIST
       - STR_SECTOID_SOLDIER
       - STR_MARTIAN_MARINE
       - STR_SECTOID_SOLDIER
@@ -938,6 +960,17 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_MARTIAN_MARINE
       - STR_SECTOID_SOLDIER
+      - STR_CYBERDISC_TERRORIST
+      - STR_CYBERDISC_TERRORIST
+
+  - id: STR_SNAKEMAN
+    members:
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
+      - STR_MARTIAN_LINE_INFANTRY_LEADER
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_SHOCK_GUARD
+      - STR_MARTIAN_ROYAL_GUARD_LEADER
+      - STR_MARTIAN_ROYAL_GUARD_LEADER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
 

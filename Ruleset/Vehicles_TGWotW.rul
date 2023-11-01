@@ -653,6 +653,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 24 #32
     vehicles: 2 #4
+    pilots: 8
     costBuy: 900000
     costRent: 480000
     refuelRate: 1000
@@ -729,7 +730,7 @@ crafts:
     soldiers: 12
     maxSmallVehicles: 4
     vehicles: 4
-    pilots: 3
+    pilots: 4
     costBuy: 675000
     costSell: 600000
     refuelRate: 60
@@ -807,7 +808,7 @@ crafts:
     soldiers: 12
     maxSmallVehicles: 4
     vehicles: 4
-    pilots: 5
+    pilots: 6
     costBuy: 675000
     costSell: 600000
     refuelRate: 60
