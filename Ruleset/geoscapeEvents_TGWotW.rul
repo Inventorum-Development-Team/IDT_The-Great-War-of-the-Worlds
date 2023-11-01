@@ -2,8 +2,9 @@ eventScripts:
 ##################################
 #### PHLOGISTON PLOT EVENTS #####
 ################################
+  # sequentially generated one-time events (cannot repeat)
   - type: STR_PHLOGISTON_PLOT_EVENTS_SCRIPT
-    oneTimeSequentialEvents:      # sequentially generated one-time events (cannot repeat)
+    oneTimeSequentialEvents:      
       - STR_PHLOGISTON_DISCOVERY_EVENT
       - STR_PHLOGISTON_PROTOTYPE_TESTING_EVENT
       - STR_PHLOGISTON_BREAKTHROUGH_EVENT
@@ -16,12 +17,11 @@ eventScripts:
     lastMonth: 20
     executionOdds: 100
     minDifficulty: 0
-    maxDifficulty: 1
+    maxDifficulty: 4
     researchTriggers:
       STR_IMPROVED_METALURGIC_TECHNIQUES: true
-
-
-
+      STR_HEATRAY_WEAPONS_ANALYSIS: true
+      
   - type: STR_HUMAN_WAR_EFFORTS_EVENT_SCRIPT
     eventWeights:
       0:

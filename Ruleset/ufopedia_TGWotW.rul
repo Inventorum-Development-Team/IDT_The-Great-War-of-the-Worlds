@@ -299,10 +299,10 @@ ufopaedia:
     ##listOrder: 2005
   - id: STR_BERDAN_II_AMMO
     type_id: 4
-    requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_BERDAN_II_AMMO_KMM
+    requires:
+     - STR_MARTIAN_METAL_REFORGED_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
   ###########################################
@@ -3719,3 +3719,13 @@ ufopaedia:
     text: STR_ALIEN_CONTAINMENT_UFOPEDIA
     requires:
       - STR_ALIEN_CONTAINMENT
+
+
+
+
+
+##################################
+#######KIROXEI FIXES HERE###################
+##################################
+
+#################################

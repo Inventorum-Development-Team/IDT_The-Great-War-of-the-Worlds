@@ -653,6 +653,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 24 #32
     vehicles: 2 #4
+    pilots: 8
     costBuy: 900000
     costRent: 480000
     refuelRate: 1000
@@ -729,7 +730,7 @@ crafts:
     soldiers: 12
     maxSmallVehicles: 4
     vehicles: 4
-    pilots: 3
+    pilots: 4
     costBuy: 675000
     costSell: 600000
     refuelRate: 60
@@ -807,7 +808,7 @@ crafts:
     soldiers: 12
     maxSmallVehicles: 4
     vehicles: 4
-    pilots: 5
+    pilots: 6
     costBuy: 675000
     costSell: 600000
     refuelRate: 60
@@ -1977,30 +1978,6 @@ units:
       -
         - STR_HEAT_RAY_VEHICLE_TURRET_GUN
     specab: 1
-  - type: STR_TWIN_MORTAR_TURRET
-    race: STR_TWIN_MORTAR_TURRET
-    stats:
-      tu: 60
-      stamina: 1
-      health: 100
-      bravery: 100
-      reactions: 30
-      firing: 100
-      throwing: 0
-      strength: 100
-      psiStrength: 250
-      psiSkill: 0
-      melee: 0
-    armor: STR_TWIN_MORTAR_TURRET_ARMOR
-    standHeight: 16
-    kneelHeight: 16
-    deathSound: 23
-    energyRecovery: 0
-    livingWeapon: true
-    builtInWeaponSets:
-      -
-        - STR_TWIN_MORTAR_GUN
-    specab: 1
 armors:
 #*** Vehicle turrets ***
   - type: STR_CONQUEROR_TURRET_ARMOR
@@ -2181,10 +2158,10 @@ armors:
       - STR_CONQUEROR_TURRET_CORPSE_2
       - STR_CONQUEROR_TURRET_CORPSE_3
       - STR_CONQUEROR_TURRET_CORPSE_4
-    frontArmor: 180
-    sideArmor: 180
-    rearArmor: 180
-    underArmor: 180
+    frontArmor: 130
+    sideArmor: 130
+    rearArmor: 130
+    underArmor: 150
     size: 2
     damageModifier: #VEICULE ARMOR
       - 1.0 #0 None
@@ -2207,49 +2184,7 @@ armors:
       - 1.2 #17 Toxic
       - 0.8 #18 Flames
     loftempsSet: [ 92, 89, 90, 91 ]
-    drawingRoutine: 11
-    allowsKneeling: false
-    allowsMoving: false
-    zombiImmune: true
-    bleedImmune: true
-    painImmune: true
-  - type: STR_TWIN_MORTAR_TURRET_ARMOR
-    spriteSheet: TWIN_MORTAR_SPRITESHEET.PCK
-    allowInv: false
-#    spriteInv: CTANK
-    corpseGeo:  STR_CONQUEROR_TURRET_CORPSE
-    corpseBattle:
-      - STR_CONQUEROR_TURRET_CORPSE_1
-      - STR_CONQUEROR_TURRET_CORPSE_2
-      - STR_CONQUEROR_TURRET_CORPSE_3
-      - STR_CONQUEROR_TURRET_CORPSE_4
-    frontArmor: 100
-    sideArmor: 100
-    rearArmor: 100
-    underArmor: 100
-    size: 2
-    damageModifier: #VEICULE ARMOR
-      - 1.0 #0 None
-      - 0.8 #1 Armor Piercing
-      - 0.6 #2 Incendiary
-      - 1.4 #3 High Explosive
-      - 1.0 #4 Laser
-      - 1.0 #5 Plasma
-      - 1.0 #6 Stun
-      - 0.1 #7 Melee
-      - 1.6 #8 Acid
-      - 0.0 #9 Smoke
-      - 1.3 #10 K-MM Ballistic
-      - 2.0 #11 Electric
-#      - 1.1 #12 Electromagnetic
-      - 1.0 #13 Heat-Ray
-      - 0.0 #14 Black Smoke
-#      - 1.0 #15 Green Gas
-#      - 1.0 #16 Cold
-      - 1.2 #17 Toxic
-      - 0.8 #18 Flames
-    loftempsSet: [ 92, 89, 90, 91 ]
-    drawingRoutine: 11
+    drawingRoutine: 5
     allowsKneeling: false
     allowsMoving: false
     zombiImmune: true
@@ -2277,12 +2212,6 @@ items:
     battleType: 4
   - type: STR_75MM_FORT_TURRET_SPAWNER
     spawnUnit: STR_75MM_FORT_TURRET
-    spawnUnitFaction: 0
-    invWidth: 0
-    invHeight: 0
-    battleType: 4
-  - type: STR_TWIN_MORTAR_TURRET_SPAWNER
-    spawnUnit: STR_TWIN_MORTAR_TURRET
     spawnUnitFaction: 0
     invWidth: 0
     invHeight: 0
@@ -2445,39 +2374,6 @@ items:
     arcingShot: false
     invWidth: 2
     invHeight: 3
-    clipSize: -1
-    recover: false
-
-  - type: STR_TWIN_MORTAR_GUN
-    size: 1.0
-    weight: 100
-    bigSprite: 5316
-    fireSound: 603
-    bulletSpeed: 8
-    bulletSprite: 4
-    #explosionSpeed: 3
-    hitSound: 0
-    hitAnimation: 0
-    power: 70
-    damageAlter:
-      RandomType: 6
-      IgnoreSelfDestruct: true
-      ToTile: 0.8
-      ToWound: 0.3
-      RandomWound: true
-    damageType: 3
-    accuracyAimed: 80
-    tuAimed: 40
-    aimRange: 40
-    confAimed:
-      shots: 2
-    dropoff: 5
-    battleType: 1
-    fixedWeapon: true
-    blastRadius: 2
-    arcingShot: true
-    invWidth: 1
-    invHeight: 2
     clipSize: -1
     recover: false
 

@@ -33,8 +33,6 @@ globe:
         - name: MOUNTTROP
           area: [0, 360, 0, 90]
           weight: 10
-      baseTerrain:
-        - name: FOREST
     - id: 1 # Human Populated Zone
       terrain:
         - name: CULTA
@@ -45,8 +43,6 @@ globe:
           weight: 30
         - name: IDT_VILLAGE
           weight: 10
-      baseTerrain:
-        - name: CULTA
     - id: 2 # Human Populated Zone within Forests
       terrain:
         - name: CULTA
@@ -57,8 +53,6 @@ globe:
           weight: 10
         - name: IDT_VILLAGE
           weight: 30
-      baseTerrain:
-        - name: IDT_FOREST
     - id: 3 # Human Populated Plains Zone
       terrain:
         - name: CULTA
@@ -69,8 +63,6 @@ globe:
           weight: 30
         - name: PLAINSGRASS
           weight: 30
-      baseTerrain:
-        - name: PLAINSGRASS
     - id: 4 # Wild Plains Zone
       terrain:
         - name: CULTA
@@ -81,8 +73,6 @@ globe:
           weight: 50
         - name: IDT_VILLAGE
           weight: 20
-      baseTerrain:
-        - name: PLAINSGRASS
     - id: 5 # Mountains Zone
       terrain:
         - name: MOUNTSNOW
@@ -95,8 +85,6 @@ globe:
           weight: 10
         - name: PLAINSROCK
           weight: 20
-      baseTerrain:
-        - name: MOUNT
     - id: 6 # Heavy Forest Zone
       terrain:
         - name: FOREST
@@ -117,8 +105,6 @@ globe:
         - name: MOUNTTROP
           area: [0, 360, 0, 90]
           weight: 10
-      baseTerrain:
-        - name: PLAINSTROP
     - id: 7 # Wild Desert Zone
       terrain:
         - name: MOUNTSAND
@@ -127,8 +113,6 @@ globe:
           weight: 40
         - name: PLAINSSAND
           weight: 40
-      baseTerrain:
-        - name: MOUNTSAND
     - id: 8 # Human Populated Desert Zone
       terrain:
         - name: MOUNTSAND
@@ -139,8 +123,6 @@ globe:
           weight: 40
         - name: IDT_VILLAGE
           weight: 20
-      baseTerrain:
-        - name: PLAINSSAND
     - id: 9 # Snow Zone
       terrain:
         - name: POLAR
@@ -151,8 +133,6 @@ globe:
           weight: 50
         - name: PLAINSSNOW
           weight: 40
-      baseTerrain:
-        - name: PLAINSSNOW
     - id: 10 # Forest Zone 3
       terrain:
         - name: FOREST
@@ -166,8 +146,6 @@ globe:
           weight: 30
         - name: JUNGLE
           area: [0, 360, 0, 90]
-      baseTerrain:
-        - name: FOREST
     - id: 11 # Frontline Forest Zone
       terrain:
         - name: FOREST
@@ -181,16 +159,12 @@ globe:
           weight: 50
         - name: JUNGLE
           area: [0, 360, 0, 90]
-      baseTerrain:
-        - name: FOREST
     - id: 12 # Artic Zone
       terrain:
         - name: POLAR
           weight: 40
         - name: PLAINSSNOW
           weight: 60
-      baseTerrain:
-        - name: PLAINSSNOW
     - id: 13 # Heavily infested zone (dark red)
       startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
@@ -202,8 +176,6 @@ globe:
           weight: 20
         - name: DEEPTRENCH
           weight: 20
-      baseTerrain:
-        - name: INFESTED
     - id: 14 # Mid-infested zone (red 1)
       startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
@@ -217,8 +189,6 @@ globe:
           weight: 20
         - name: DEEPTRENCH
           weight: 30
-      baseTerrain:
-        - name: FARM_INFESTED
     - id: 15 # Light infested zone (red 2)
       startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
@@ -240,8 +210,6 @@ globe:
           weight: 10
         - name: JUNGLE_INFESTED
           area: [0, 360, 0, 90]
-      baseTerrain:
-        - name: FOREST_INFESTED
     - id: 16 # Snow infested zone (white with red)
       startingCondition: STR_STARTING_RED_WEED_ENVIRO
       terrain:
@@ -262,8 +230,6 @@ globe:
         - name: MOUNTTROP
           area: [0, 360, 0, 90]
           weight: 10
-      baseTerrain:
-        - name: INFESTED
     - id: 17 # Alpine zone (green and white)
       terrain:
         - name: MOUNTSNOW
@@ -276,8 +242,6 @@ globe:
           weight: 10
         - name: IDT_SNOWFOREST
           weight: 20
-      baseTerrain:
-        - name: MOUNTGRASS
     - id: 18 # Snow forest zone (light green with white)
       terrain:
         - name: IDT_SNOWVILLAGE
@@ -286,8 +250,6 @@ globe:
           weight: 50
         - name: PLAINSSNOW
           weight: 30
-      baseTerrain:
-        - name: IDT_SNOWFOREST
     - id: 19 # Desert mountains
       terrain:
         - name: MOUNTSAND
@@ -298,8 +260,6 @@ globe:
           weight: 10
         - name: PLAINSSAND
           weight: 10
-      baseTerrain:
-        - name: MOUNTSAND
     - id: -1
       deployments:
         STR_TERROR_MISSION: 100
