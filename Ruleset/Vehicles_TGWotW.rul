@@ -1904,7 +1904,7 @@ units:
     livingWeapon: true
     builtInWeaponSets:
       -
-        - STR_STR_6PDR_VEHICLE_TURRET_GUN
+        - STR_6PDR_VEHICLE_TURRET_GUN
     specab: 1
   - type: STR_8_8CM_VEHICLE_TURRET
     race: STR_8_8CM_VEHICLE_TURRET
@@ -2244,7 +2244,7 @@ items:
     invHeight: 3
     clipSize: -1
     recover: false
-  - type: STR_STR_6PDR_VEHICLE_TURRET_GUN
+  - type: STR_6PDR_VEHICLE_TURRET_GUN
     size: 1.0
     weight: 100
     bigSprite: 4015
