@@ -418,8 +418,8 @@ items:
 
   - type: AUX_COAXIAL_HOTCHKISS_MG_AMMO
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
-    #requiresBuy:
-    #- STR_INITIAL_TANK_DESIGN
+    requiresBuy:
+    - STR_INITIAL_TANK_DESIGN
     size: 0.1
     costBuy: 1000
     costSell: 750
@@ -470,8 +470,8 @@ items:
 
   - type: AUX_COAXIAL_MG08_MG
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
-    #requiresBuy:
-    #- STR_BASIC_TANK
+    requiresBuy:
+    - STR_BASIC_TANK
     weight: 44
     bigSprite: 5100
     accuracySnap: 60

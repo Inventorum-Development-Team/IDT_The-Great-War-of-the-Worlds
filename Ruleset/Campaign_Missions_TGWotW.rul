@@ -1096,7 +1096,7 @@ alienDeployments:
     markerName: STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME
     markerIcon: 10
     duration: [999, 999]
-    despawnPenalty: 500
+    despawnPenalty: 10
     nextStage: STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE
     points: 200
 
