@@ -77,6 +77,8 @@ facilities:
     storage: 50
     mapName: WW1BASE_07
   - type: STR_ALIEN_CONTAINMENT
+    requires:
+    - STR_ALIEN_CONTAINMENT
     spriteShape: 1
     spriteFacility: 25
     buildCost: 400000
@@ -188,9 +190,9 @@ facilities:
   - type: STR_WATCHTOWER
     spriteShape: 3
     spriteFacility: 27
-    buildCost: 600000
-    buildTime: 34
-    monthlyCost: 12000
+    buildCost: 10000
+    buildTime: 6
+    monthlyCost: 2400
     connectorsDisabled: true
     defense: 50
     hitRatio: 50
@@ -200,9 +202,9 @@ facilities:
   - type: STR_TRENCH_LINE_NS
     spriteShape: 3
     spriteFacility: 27
-    buildCost: 600000
-    buildTime: 34
-    monthlyCost: 12000
+    buildCost: 6000
+    buildTime: 3
+    monthlyCost: 1200
     connectorsDisabled: true
     defense: 50
     hitRatio: 50
@@ -212,9 +214,9 @@ facilities:
   - type: STR_TRENCH_LINE_WE
     spriteShape: 3
     spriteFacility: 27
-    buildCost: 600000
-    buildTime: 34
-    monthlyCost: 12000
+    buildCost: 6000
+    buildTime: 3
+    monthlyCost: 1200
     connectorsDisabled: true
     defense: 50
     hitRatio: 50
@@ -224,9 +226,9 @@ facilities:
   - type: STR_TRENCH_LINE_CROSS
     spriteShape: 3
     spriteFacility: 27
-    buildCost: 600000
-    buildTime: 34
-    monthlyCost: 12000
+    buildCost: 6000
+    buildTime: 3
+    monthlyCost: 1200
     connectorsDisabled: true
     defense: 50
     hitRatio: 50
