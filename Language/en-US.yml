@@ -677,14 +677,14 @@ en-US:
       STR_MAUSER_C96_CARBINE: Mauser C96/M14 Trench Carbine
       STR_MAUSER_C96_CARBINE_UFOPEDIA: A specially modified C96 pistol, adapted as an effective support weapon for trench raiding. With a longer barrel and wood stock and handguard, an already good weapon became even better.
       STR_MAUSER_C96_MAG: Mauser C96/M14 Mag
-      STR_MAUSER_C96_MAG_KMM: Mauser C96/M14 KMM Mag
+      STR_MAUSER_C96_MAG_KMM: Mauser C96/M14 K-MM Mag
       STR_LUGER_P08: P08 Luger
       STR_LUGER_P08_UFOPEDIA: Elegant handgun, most identified by its angled grip and magazines. A very valuable pistol, often seek by the soldiers as war trophies. Calibered in 9x19mm Parabellum.
       STR_LUGER_P08_MAG: P08 Luger Mag
       STR_LUGER_P08_MAG_KMM: P08 Luger K-MM Mag
       STR_LUGER_ARTILLERY: P08 Artillery Luger
       STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
-      STR_LUGER_ARTILLERY_DRUM_KMM: P08 Artillery Luger Drum
+      STR_LUGER_ARTILLERY_DRUM_KMM: P08 Artillery Luger K-MM Drum
       STR_LUGER_ARTILLERY_UFOPEDIA:
         Modified version of the P08 Luger handgun, has a
         handguard and a wooden stock added to increase accuracy and range.
@@ -2496,7 +2496,7 @@ en-US:
       STR_ZOMBIE_CORPSE_AUTOSPY: "Zombie Autospy"
       STR_MARTIAN_ROYAL_GUARD_AUTOSPY: "Martian Royal Guard Autospy"
       STR_MARTIAN_SHOCK_GUARD_AUTOSPY: "Martian Shock Guard Autospy"
-      STR_MARTIAN_SCIENTISTS_AUTOSPY: "Martian Scientist Autospy"
+      STR_MARTIAN_SCIENTIST_AUTOSPY: "Martian Scientist Autospy"
       STR_MARTIAN_MARINE_AUTOSPY: "Martian Marine Autospy"
       STR_TRENCH_KNIFE_UNLOCK: "Trench Knife Acquistion"
       STR_TRENCH_SHOVEL_UNLOCK: "Trench Shovel Acquistion"
@@ -2521,7 +2521,9 @@ en-US:
       STR_REPAIR_A7V: "Repair A7V"
       STR_REPAIR_VEZDEKHOD: "Repair Vezdekhod"
       STR_SNAKEMAN: "Martian Elite Platoon"
-      HEAVY_HEAT_RAY_PROJECTOR_CORPSE: "Heat-Ray Artillery Wreckage"
-      LIGHT_HEAT_RAY_PROJECTOR_CORPSE: "Light Heat-Ray Projector Wreck"
+      STR_HEAVY_HEAT_RAY_PROJECTOR_WRECKAGE: "Heat-Ray Artillery Wreckage"
+      STR_LIGHT_HEAT_RAY_PROJECTOR_WRECKAGE: "Light Heat-Ray Projector Wreckage"
+      STR_LEADER_PLUS: "Martian Officer Interrogated"
+      STR_COMMANDER_PLUS: "Martian Information Revealed"
 
       ##STR##

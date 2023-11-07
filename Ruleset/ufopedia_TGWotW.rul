@@ -3713,6 +3713,8 @@ ufopaedia:
 ####### MARTIAN VEHICLES ######
 ##############################
 
+####### IEF Facilities #######
+
   - id: STR_ALIEN_CONTAINMENT
     type_id: 6
     section: STR_BASE_FACILITIES
@@ -3720,7 +3722,25 @@ ufopaedia:
     requires:
       - STR_ALIEN_CONTAINMENT
 
+  - id: STR_TRENCH_LINE_NS
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_TRENCH_LINE_NS_UFOPEDIA
 
+  - id: STR_TRENCH_LINE_WE
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_TRENCH_LINE_WE_UFOPEDIA
+
+  - id: STR_TRENCH_LINE_CROSS
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_TRENCH_LINE_CROSS_UFOPEDIA
+
+  - id: STR_WATCHTOWER
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_WATCHTOWER_UFOPEDIA            
 
 
 
@@ -3728,4 +3748,51 @@ ufopaedia:
 #######KIROXEI FIXES HERE###################
 ##################################
 
+  - id: STR_CONTACT_WITH_TESLA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_CONTACT_WITH_TESLA_UFOPEDIA
+    requires:
+      - STR_CONTACT_WITH_TESLA
+    listOrder: 1071
+
+
+  - id: STR_TESLA_ELECTRIC_BLUEPRINTS
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA
+    requires:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
+    listOrder: 1072
+
+
 #################################
+## UFOPEDIA TYPE Section Only
+
+#
+#
+#STR_LORE_REPORTS
+#STR_UNIFORMS_AND_ARMORS
+#STR_WEAPONS_AND_EQUIPMENT
+#STR_HEAVY_WEAPONS_PLATFORMS
+#STR_VEHICLES
+#STR_VEHICLE_WEAPONS
+#STR_BASE_FACILITIES
+#STR_NEW_TECHNOLOGIES
+#STR_MARTIAN_WEAPONS:
+#STR_ENEMY_INTELLIGENCE:
+#STR_MARTIAN_VEHICLES:
+#STR_MARTIAN_BUILDINGS:
+
+
+
+#################################
+#Put some List for the UFOPEDIA (War Codex Category)
+
+
+
+
+
+
+####################################
+###################################

@@ -2170,31 +2170,59 @@ research:
   - name: STR_MARTIAN_CONSCRIPT_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_SECTOID
+    - STR_SECTOID_LEADER
+
   - name: STR_MARTIAN_LINE_INFANTRY_INTERROGATION
     cost: 20
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_LINE_INFANTRY
+    - STR_MARTIAN_LINE_INFANTRY_LEADER
+
   - name: STR_MARTIAN_MARINE_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_MARINE
+    - STR_MARTIAN_MARINE_LEADER
+
   - name: STR_MARTIAN_SKIRMISHER_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_SKIRMISHER
+    - STR_MARTIAN_SKIRMISHER_LEADER
+
   - name: STR_MARTIAN_ROYAL_GUARD_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_ROYAL_GUARD
+    - STR_MARTIAN_ROYAL_GUARD_LEADER
+
   - name: STR_MARTIAN_SCIENTIST_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_SCIENTIST
+
   - name: STR_MARTIAN_SHOCK_GUARD_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_SHOCK_GUARD
+    - STR_MARTIAN_SHOCK_GUARD_LEADER
+
+
 
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
