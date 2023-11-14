@@ -103,6 +103,9 @@ ufopaedia:
   - delete: STR_SECTOPOD
   - delete: STR_SECTOPOD_AUTOPSY
   - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT
+
 ###########################################
 ############# LORE REPORTS ###############
 #########################################
@@ -3766,6 +3769,23 @@ ufopaedia:
     listOrder: 1072
 
 
+  - id: STR_PERSONAL_ARMOR_UC
+    type_id: 5
+    requires:
+      - STR_T2_HEAVY_BODY_ARMOR
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_PERSONAL_ARMOR_UFOPEDIA
+    listOrder: 12161
+
+  - id: STR_POWER_SUIT_UC
+    type_id: 5
+    requires:
+      - STR_T3_HEAVY_BODY_ARMOR
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_POWER_SUIT_UFOPEDIA
+    listOrder: 12162
+
+
 #################################
 ## UFOPEDIA TYPE Section Only
 
@@ -3788,7 +3808,6 @@ ufopaedia:
 
 #################################
 #Put some List for the UFOPEDIA (War Codex Category)
-
 
 
 
