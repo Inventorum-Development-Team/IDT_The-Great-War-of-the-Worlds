@@ -469,6 +469,8 @@ items:
       - STR_POWER_SUIT
     costSell: 850
     costBuy: 1000
+    visibilityAtDay: 30
+    visibilityAtDark: 18
 
   - type: STR_PERSONAL_ARMOR_CORPSE
     name: STR_CORPSE

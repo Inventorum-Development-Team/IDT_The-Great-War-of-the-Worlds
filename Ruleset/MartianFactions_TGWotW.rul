@@ -169,27 +169,27 @@ items:
     costSell: 60000
     listOrder: 14406
 
-  - type: CEREBREAL_WEAPON
-    weight: 3
-    bigSprite: 60
-    floorSprite: 31
-    handSprite: 104
-    bulletSprite: 8
-    fireSound: 51
-    hitSound: 19
-    hitAnimation: 46
-    power: 110
-    damageType: 8
-    accuracySnap: 50
-    accuracyAimed: 90
-    tuSnap: 55
-    tuAimed: 80
-    battleType: 1
-    fixedWeapon: true
-    invWidth: 2
-    invHeight: 3
-    clipSize: -1
-    recover: false
+  #- type: CEREBREAL_WEAPON
+   # weight: 3
+   # bigSprite: 60
+   # floorSprite: 31
+   # handSprite: 104
+   # bulletSprite: 8
+   # fireSound: 51
+   # hitSound: 19
+   # hitAnimation: 46
+   # power: 110
+   # damageType: 8
+   # accuracySnap: 50
+   # accuracyAimed: 90
+   # tuSnap: 55
+   # tuAimed: 80
+   # battleType: 1
+   # fixedWeapon: true
+   # invWidth: 2
+   # invHeight: 3
+    #clipSize: -1
+   # recover: false
 
 
 
@@ -420,7 +420,7 @@ armors:
 
   - type: CEREBREAL_ARMOR
     spriteSheet: CEREBREAL.PCK
-    spriteInv: inventory_CEREBREAL
+    spriteInv: CEREBREAL_INVENTORY
     corpseBattle:
       - STR_CEREBREAL_CORPSE
     frontArmor: 35
@@ -821,7 +821,7 @@ units:
     deathSound: 8
     intelligence: 10
     aggression: 0
-    livingWeapon: true
+    livingWeapon: false
     showFullNameInAlienInventory: 1
 
 alienRaces:
@@ -1101,7 +1101,7 @@ extraSprites:
     files:
       0: Resources/Martians/RoyalGuards/Inventory_SectoidPowerSkeleton.png
 
-  - type: inventory_CEREBREAL
+  - type: CEREBREAL_INVENTORY.SPK
     singleImage: true
     files:
       0: Resources/Martians/CerebrealRace/inventory_CEREBREAL.PNG

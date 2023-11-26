@@ -12,6 +12,7 @@ costEngineer: 25000
 costScientist: 30000
 displayCustomCategories: 2
 timePersonnel: 72
+maxViewDistance: 40
 initialFunding: 9000
 alienFuel: [STR_ELERIUM_115, 50]
 crewEmergencyEvacuationSurvivalChance: 65
