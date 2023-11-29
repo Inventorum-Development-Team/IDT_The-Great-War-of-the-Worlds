@@ -6,7 +6,7 @@ items:
     compatibleAmmo:
       - STR_HEATRAY_PISTOL_BATTERY_PHOTON
       - STR_HEATRAY_PISTOL_BATTERY_MICROWAVE
-    size: 0.3
+    size: 0.03
     costSell: 7500
     weight: 15
     bigSprite: 3080
@@ -36,7 +36,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_PISTOLS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 9500
     weight: 3
     bigSprite: 3104
@@ -46,7 +46,7 @@ items:
     power: 45
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.3
       RandomWound: false
     damageType: 13
@@ -59,7 +59,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_PISTOLS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 9500
     weight: 3
     bigSprite: 3112
@@ -69,7 +69,7 @@ items:
     power: 65
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.5
       RandomWound: false
     damageType: 13
@@ -88,7 +88,7 @@ items:
     compatibleAmmo:
       - STR_HEATRAY_CARBINE_BATTERY_PHOTON
       - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
-    size: 0.3
+    size: 0.03
     costSell: 7500
     weight: 20
     bigSprite: 3120
@@ -117,7 +117,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CARBINES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 9000
     weight: 3
     bigSprite: 3144
@@ -127,7 +127,7 @@ items:
     power: 48
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.3
       RandomWound: false
     damageType: 13
@@ -139,7 +139,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CARBINES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 900
     weight: 3
     bigSprite: 3152
@@ -149,7 +149,7 @@ items:
     power: 68
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.5
       RandomWound: false
     damageType: 13
@@ -168,7 +168,7 @@ items:
     compatibleAmmo:
       - STR_HEATRAY_RIFLE_BATTERY_PHOTON
       - STR_HEATRAY_RIFLE_BATTERY_MICROWAVE
-    size: 0.6
+    size: 0.06
     costSell: 20000
     weight: 36
     bigSprite: 3160
@@ -200,7 +200,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 900
     weight: 3
     bigSprite: 3184
@@ -210,7 +210,7 @@ items:
     power: 42
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.4
       RandomWound: false
     damageType: 13
@@ -223,7 +223,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -234,7 +234,7 @@ items:
     power: 62
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.6
       RandomWound: false
     damageType: 13
@@ -254,7 +254,7 @@ items:
     compatibleAmmo:
       - STR_HEATRAY_CANNON_BATTERY_PHOTON
       - STR_HEATRAY_CANNON_BATTERY_MICROWAVE
-    size: 0.4
+    size: 0.04
     costSell: 30000
     weight: 43
     bigSprite: 3200
@@ -279,7 +279,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -292,7 +292,7 @@ items:
     power: 70
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.5
       RandomWound: false
     battleType: 2
@@ -302,7 +302,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -315,7 +315,7 @@ items:
     power: 90
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.6
       RandomWound: false
     shotgunBehavior: 1
@@ -332,7 +332,7 @@ items:
     compatibleAmmo:
       - STR_HEATRAY_SNIPER_BATTERY_PHOTON
       - STR_HEATRAY_SNIPER_BATTERY_MICROWAVE
-    size: 0.4
+    size: 0.04
     costSell: 30000
     weight: 40
     bigSprite: 3240
@@ -362,7 +362,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_BOLT_ACTION_RIFLES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -374,7 +374,7 @@ items:
     power: 65
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.6
       RandomWound: false
     clipSize: 20
@@ -385,7 +385,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_BOLT_ACTION_RIFLES, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -397,7 +397,7 @@ items:
     power: 85
     damageAlter:
       RandomType: 6
-      IgnoreOverKill: false 
+      IgnoreOverKill: false
       ToArmorPre: 0.7
       RandomWound: false
     clipSize: 10
@@ -412,7 +412,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.2
+    size: 0.02
     costSell: 2250
     weight: 8
     bigSprite: 3280
@@ -443,7 +443,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 80000
     weight: 5
     bigSprite: 3304
@@ -478,7 +478,7 @@ items:
 ### TODO        BUT THIS WAS MISSING. RATHER THAN CHANGE ALL THE REFERENCES I ADDED THIS IN FOR NOW
   - type: STR_MARTIAN_LAUNCHER_CONCUSSION_CLIP
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
-    size: 0.1
+    size: 0.01
     costSell: 85000
     weight: 5
     bigSprite: 3312
@@ -503,7 +503,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.2
+    size: 0.02
     costSell: 9050
     weight: 8
     bigSprite: 3320
@@ -536,7 +536,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 250
     weight: 3
     bigSprite: 3328
@@ -564,7 +564,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 250
     weight: 3
     bigSprite: 3336 # TODO: changed this from 780 to 3336, please verify
@@ -595,7 +595,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 250
     weight: 3
     bigSprite: 3344 # TODO please verify
@@ -629,7 +629,7 @@ items:
         STR_FIREARMS,
         STR_BOLT_ACTION_RIFLES,
       ]
-    size: 0.2
+    size: 0.02
     costSell: 11500
     weight: 8
     bigSprite: 3352
@@ -707,7 +707,7 @@ items:
         STR_BOLT_ACTION_RIFLES,
         STR_CLIPS,
       ]
-    size: 0.1
+    size: 0.01
     costSell: 5000
     weight: 3
     bigSprite: 3368
@@ -787,7 +787,7 @@ items:
       - STR_ALIENS_ONLY
     compatibleAmmo:
       - STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER
-    size: 0.3
+    size: 0.03
     costSell: 13000
     weight: 15
     bigSprite: 3384
@@ -811,7 +811,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 9500
     weight: 3
     bigSprite: 3400
@@ -855,7 +855,7 @@ items:
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CLIPS]
     requires:
       - STR_ALIENS_ONLY
-    size: 0.1
+    size: 0.01
     costSell: 14500
     weight: 8
     bigSprite: 3408
