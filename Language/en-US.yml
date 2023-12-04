@@ -2393,12 +2393,12 @@ en-US:
       STR_1913_COUNTERATTACK_2: "1913 Counterattack"
       STR_1913_COUNTERATTACK_UFOPEDIA_1: "Mankind met its darkest hour in 1912 after losing several times against the Martians. The casualties were counted by thousands after several futile attacks. Hope was lost and human armies were at risk of being routed. Until the spring of 1913, the British Commonwealth joint leadership proposed a series of coordinated attacks along the frontlines, focusing on breaking the alien advances on North America and Russia. Through intense diplomatic efforts, the US, Mexico, Germany, Russia, France, Italy and Japan joined the British. The date was set on August 31st, 1913. With additional reserves and newly deployed Mech Walkers, the General Counteroffensive began with thunderous artillery barrages and Walker-mounted heavy infantry. "
       STR_1913_COUNTERATTACK_UFOPEDIA_2: "From the US Midwest to the Russian Far East, the humans engaged the invaders at the same time. Austro-Hungary, the ABC Pact, China and the Ottoman Empire joined shortly after. The Martians were caught by surprise and the line was broken in a matter of days. The offensive lasted several weeks until the reserves were literally exhausted. The attack broke the Martian momentum and from then, began to dig in and go on the defensive. It was the first time were the remaining nations of the world fought together, side by side... Eventually becoming the Coalition of Nations."
-      
-      
+
+
       ###########################################
       ##KIROXEI fixes the missing string text#######################
       ###########################################
-      
+
       STR_MM_SABRE_UNLOCK: "Martian Alloy Sabre"
       STR_MM_DAGGER_UNLOCK: "Martian Alloy Dagger"
       STR_MM_SHASHKA_UNLOCK: "Martian Alloy Shashka"
@@ -2525,5 +2525,6 @@ en-US:
       STR_LIGHT_HEAT_RAY_PROJECTOR_WRECKAGE: "Light Heat-Ray Projector Wreckage"
       STR_LEADER_PLUS: "Martian Officer Interrogated"
       STR_COMMANDER_PLUS: "Martian Information Revealed"
-
+      STR_SHIELD_DOWN: "Shield Energy Empty"
+      STR_SHIELD_S: "Shield Energy Damaged"
       ##STR##

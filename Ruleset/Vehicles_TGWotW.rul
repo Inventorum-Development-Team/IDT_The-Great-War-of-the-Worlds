@@ -646,11 +646,18 @@ crafts:
     speedMax: 90
     hitBonus: -15
     accel: 2
-    weapons: 2
+    weapons: 4
+    weaponTypes:
+    - [2, 3, 4]
+    - [2, 3, 4]
+    - [0, 1]
+    - [0, 1]
     weaponStrings:
-      - STR_CRAFT_LIGHT_CANNON_ONE
-      - STR_CRAFT_LIGHT_CANNON_TWO
-    fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
+    - STR_CRAFT_LIGHT_CANNON_ONE
+    - STR_CRAFT_LIGHT_CANNON_TWO
+    - STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE
+    - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
+    #fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 24 #32
     vehicles: 2 #4
     pilots: 8
@@ -718,8 +725,8 @@ crafts:
     accel: 1
     weapons: 4
     weaponTypes:
-      - [0, 1]
-      - [0, 1]
+      - [0, 1, 2]
+      - [0, 1, 2]
       - [0, 1]
       - [0, 1, 4, 5]
     weaponStrings:
@@ -729,7 +736,7 @@ crafts:
       - STR_CRAFT_BOMB_FOUR
     soldiers: 12
     maxSmallVehicles: 4
-    vehicles: 4
+    vehicles: 0
     pilots: 4
     costBuy: 675000
     costSell: 600000
@@ -796,8 +803,8 @@ crafts:
     accel: 1
     weapons: 4
     weaponTypes:
-      - [0, 1]
-      - [0, 1]
+      - [0, 1, 2]
+      - [0, 1, 2]
       - [0, 1]
       - [0, 1, 4, 5]
     weaponStrings:
@@ -890,7 +897,7 @@ crafts:
     fixedWeapons: ["STR_VICKERS_MMG", "STR_VICKERS_MMG", "STR_VICKERS_MMG", STR_VICKERS_MMG]
     soldiers: 26
     maxSmallVehicles: 6
-    vehicles: 6
+    vehicles: 0
     pilots: 4
     costBuy: 675000
     costSell: 600000
@@ -984,14 +991,21 @@ crafts:
     damageMax: 400
     speedMax: 80
     accel: 3
-    weapons: 2
+    weapons: 4
+    weaponTypes:
+    - [2, 3, 4]
+    - [2, 3, 4]
+    - [0, 1]
+    - [0, 1]
     weaponStrings:
       - STR_CRAFT_LIGHT_CANNON_ONE
       - STR_CRAFT_LIGHT_CANNON_TWO
-    fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_THREE
+      - STR_CRAFT_DEFENSIVE_MACHINE_GUN_FOUR
+    #fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_QF_6_PDR_TURRET"]
     soldiers: 6
     maxSmallVehicles: 2
-    vehicles: 2
+    vehicles: 0
     pilots: 6
     costBuy: 675000
     costSell: 600000
@@ -1064,7 +1078,7 @@ crafts:
     fixedWeapons: ["STR_VEHICLE_QF_6_PDR_TURRET", "STR_VEHICLE_8_8CM_TURRET", "STR_VICKERS_MMG", "STR_VICKERS_MMG"]
     soldiers: 21
     maxSmallVehicles: 4
-    vehicles: 4
+    vehicles: 0
     pilots: 5
     costBuy: 675000
     costSell: 600000
