@@ -36,6 +36,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 50
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 70
       stamina: 120
@@ -94,6 +106,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 40
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 90
       stamina: 100
@@ -150,6 +174,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 40
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 90
       stamina: 100
@@ -207,6 +243,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 40
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 80
       stamina: 100
@@ -270,6 +318,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 60
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 80
       stamina: 100
@@ -330,6 +390,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 60
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 80
       stamina: 100
@@ -389,6 +461,18 @@ soldiers:
       strength: 40
       psiStrength: 100
       psiSkill: 16
+      melee: 60
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
       melee: 60
     statCaps:
       tu: 80

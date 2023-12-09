@@ -16,6 +16,7 @@ facilities:
     monthlyCost: 10000
     connectorsDisabled: true
     personnel: 50
+    trainingRooms: 10
     mapName: WW1BASE_01
   - type: STR_LABORATORY
     spriteShape: 1
@@ -24,7 +25,7 @@ facilities:
     buildTime: 26
     monthlyCost: 30000
     connectorsDisabled: true
-    labs: 50
+    labs: 30
     mapName: WW1BASE_02
   - type: STR_WORKSHOP
     spriteShape: 1
@@ -161,6 +162,7 @@ facilities:
     monthlyCost: 16000
     connectorsDisabled: true
     psiLabs: 10
+    labs: 60
     mapName: WW1BASE_14
   - type: STR_HYPER_WAVE_DECODER
     requires:
@@ -183,7 +185,7 @@ facilities:
     buildTime: 25
     monthlyCost: 25000
     connectorsDisabled: true
-    crafts: 1
+    crafts: 2
     storage: 5 #OXCE bonus because of change in handling craft storage
     storageTiles: [[-1, -1, -1]]
     mapName: WW1BASE_16
