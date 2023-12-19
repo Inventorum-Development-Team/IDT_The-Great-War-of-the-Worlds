@@ -82,29 +82,29 @@ en-US:
       STR_UNARMED_UNIFORM: "Unarmed Melee Attack"
       STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements. Beware, as you may hurt yourself if you hit things or enemies with enough strength (2 damage, 4 stamina, 8 TUs use)."
       STR_DETECTED: "Sighted"
-      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON ALIEN UNIT=5 Secs"
-      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE ALIEN UNIT "
-      STR_UFO_IS_NOT_RECOVERED: "Alien arsenal asset not recovered"
-      STR_UFO_IS_RECOVERED: "Alien arsenal asset recovered"
-      STR_UFO_RECOVERY: "ALIEN CRASHSITE RECOVERY"
-      STR_UFO_DESTROYED: "ALIEN UNIT DESTROYED!"
-      STR_UFO_: "ALIEN UNIT-{0}"
-      STR_TAILING_UFO: "CHASING A ALIEN UNIT"
-      STR_INTERCEPTING_UFO: "INTERCEPTING ALIEN MACHINE-{0}"
+      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON ENEMY UNIT=5 Secs"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE ENEMY UNIT "
+      STR_UFO_IS_NOT_RECOVERED: "Enemy arsenal asset not recovered"
+      STR_UFO_IS_RECOVERED: "Enemy arsenal asset recovered"
+      STR_UFO_RECOVERY: "ENEMY CRASHSITE RECOVERY"
+      STR_UFO_DESTROYED: "ENEMY UNIT DESTROYED!"
+      STR_UFO_: "ENEMY UNIT-{0}"
+      STR_TAILING_UFO: "CHASING ENEMY UNIT"
+      STR_INTERCEPTING_UFO: "INTERCEPTING ENEMY MACHINE-{0}"
       STR_XCOM_OPERATIVES_KILLED: "IEF LOSSES"
       STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "IEF SOLDIERS MISSING IN ACTION"
       STR_XCOM_CRAFT_LOST: "IEF VEHICLE / CRAFT LOST"
-      STR_ALIEN_BASE_: "ALIEN FORTRESS-{0}"
-      STR_ALIEN_BASE_STILL_INTACT: "Alien Fortress still intact"
-      STR_ALIEN_BASE_DESTROYED: "Alien Fortress destroyed"
-      STR_ALIEN_BASE_RECOVERY: "RECOVERY OF ALIEN FORTRESS"
-      STR_ALIEN_BASE_ASSAULT: "ASSAULT ON ALIEN FORTRESS"
-      STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a alien fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
+      STR_ALIEN_BASE_: "ENEMY FORTRESS-{0}"
+      STR_ALIEN_BASE_STILL_INTACT: "Enemy Fortress still intact"
+      STR_ALIEN_BASE_DESTROYED: "Enemy Fortress destroyed"
+      STR_ALIEN_BASE_RECOVERY: "RECOVERY OF ENEMY FORTRESS"
+      STR_ALIEN_BASE_ASSAULT: "ASSAULT ON ENEMY FORTRESS"
+      STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a enemy fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
       STR_UFO_CRASH_RECOVERY: "DOWNED MACHINE RECOVERY"
-      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Aliens may be present on the machine or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of machine remains, artifacts and enemy corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the machine or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of machine remains, artifacts and enemy corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
       STR_UFO_GROUND_ASSAULT: "MACHINE GROUND ASSAULT"
-      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the alien machine. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Martian Machine remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
-      STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a alien base in {0}"
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the enemy machine. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Martian Machine remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a enemy base in {0}"
       STR_XCOM_PERFORMANCE_ROSTER: "IEF Performance Roster"
       STR_UFOPAEDIA: "War Codex"
       STR_XCOM_CRAFT_ARMAMENT: "IEF CRAFT & ARMAMENT"
@@ -952,8 +952,7 @@ en-US:
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA:
-        "{NEWLINE}{NEWLINE}{NEWLINE}Analyz\
-        ing the new type of metal from which weapons and enemy vehicles are
+        "{NEWLINE}{NEWLINE}{NEWLINE}Analyzing the new type of metal from which weapons and enemy vehicles are
         made, we have found that it is a very easy-to-plow ore if a large amount
         of electromagnetic energy is applied. Using this knowledge, we have sent blueprints to
         allied factories to begin reconditioning the metal plates we have found
@@ -1281,7 +1280,7 @@ en-US:
       STR_MARTIAN_LIGHT_FIGHTER: "Martian Light Flying-Machine"
       STR_MARTIAN_LIGHT_FIGHTER_UFOPEDIA: "A small, two-seater interception alien craft, used to harass and interdict our aerial and naval convoys. The reason why the invaders went with a biplane design when its quite obvious they don't need it its a mystery. We can consider it some form of taunt or challenge."
       STR_SELENITE_FIGHTER: Selenite Fighter Craft
-      STR_SELENITE_FIGHTER_UFOPEDIA: Very small, agile and fast fighter ship, similar in functions to our interceptors. Employee to establish aerial supremacy. Uses light, fast-firing heat rays.
+      STR_SELENITE_FIGHTER_UFOPEDIA: Very small, agile and fast fighter ship, similar in functions to our interceptors. Operated by Selenite Pilots to establish aerial supremacy. Uses light, fast-firing heat rays.
       STR_SELENITE_GUNSHIP: Selenite Gunship Craft
       STR_SELENITE_GUNSHIP_UFOPEDIA: Fighter/bomber, used as ground support ship. The invaders use it as an escort for combat groups and to bombard human positions. Their weapons are slower than those of the Fighter, but more powerful.
       STR_SELENITE_TRANSPORT: Selenite Transport Craft
