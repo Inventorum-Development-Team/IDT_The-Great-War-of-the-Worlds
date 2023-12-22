@@ -310,10 +310,10 @@ terrains:
         width: 10
         length: 10
         items:
-            STR_TWIN_MORTAR_TURRET_SPAWNER:
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER:
               - [4, 4, 3]
         fuseTimers:
-            STR_TWIN_MORTAR_TURRET_SPAWNER: [0, 0]
+            STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
       - name: WW1BASE_12
         width: 10
         length: 10
@@ -361,6 +361,23 @@ extraSprites:
       1: Resources/Facilities/SQUARE_BASEBITS.png
       2: Resources/Facilities/OCTAGON_BASEBITS.png
       3: Resources/Facilities/CROSS_BASEBITS.png
+      9: Resources/Facilities/HANGAR_1_BASEBITS.png
+      10: Resources/Facilities/HANGAR_2_BASEBITS.png
+      11: Resources/Facilities/HANGAR_3_BASEBITS.png
+      12: Resources/Facilities/HANGAR_4_BASEBITS.png
       17: Resources/Facilities/COMMAND_POST_BASEBITS.png
       18: Resources/Facilities/BARRACKS_BASEBITS.png
       19: Resources/Facilities/LABORATORY_BASEBITS.png
+      20: Resources/Facilities/WORKSHOP_BASEBITS.png
+      21: Resources/Facilities/SMALL_RADAR_BASEBITS.png
+      22: Resources/Facilities/LARGE_RADAR_BASEBITS.png
+      23: Resources/Facilities/MISSILE_DEFENSES_BASEBITS.png
+      24: Resources/Facilities/GENERAL_STORES_BASEBITS.png
+      25: Resources/Facilities/ALIEN_CONTAINMENT_BASEBITS.png
+      26: Resources/Facilities/LASER_DEFENSES_BASEBITS.png
+      27: Resources/Facilities/PLASMA_DEFENSES_BASEBITS.png
+      28: Resources/Facilities/FUSION_BALL_DEFENSES_BASEBITS.png
+      29: Resources/Facilities/GRAVSHIELD_BASEBITS.png
+      30: Resources/Facilities/MINDSHIELD_BASEBITS.png
+      31: Resources/Facilities/PSI_LAB_BASEBITS.png
+      32: Resources/Facilities/HYPERWAVE_BASEBITS.png

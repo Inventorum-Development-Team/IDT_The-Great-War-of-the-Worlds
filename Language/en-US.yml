@@ -1154,7 +1154,7 @@ en-US:
       STR_MARTIAN_CYLINDER_ALERT: "Martian Cylinder detected"
       STR_MARTIAN_CYLINDER_DESCRIPTION: "We just got notice of a Martian Cylinder about to crashland in Earth, we must locate and destroy it!"
       STR_MARTIAN_CYLINDER_BRIEFING: "Right after making a breakthrough in the frontlines, an explosion was seen in the surface of Mars. Several hours later, a Cylinder crashed down. It's a clear attempt of the Martians to consolidate their newly adquired position. We must stop it before it's too late. It's widely known their cylinders carry just a couple of Scouting-Machines and several infantry platoons. Be careful and good luck!"
-      STR_MARTIAN_CYLINDER_MARKERNAME: "Martian Cylinder Crash Site"
+      STR_MARTIAN_CYLINDER_MARKERNAME_: "Martian Cylinder Crash Site"
 
       STR_TURRET_GUIDE: How to deploy a Turret?
       STR_TURRET_GUIDE_UFOPEDIA: Attention, soldier. Deploying a turret can be difficult at first. To use it, you need to kneel in front of the weapon and make a melee attack (using your bare hand, without holding a weapon). This is once per turn. To disassemble the turret, you need to use the Turret Wrench and make a melee attack. You can carry it and put it in another position. To reactivate it, you must use the ASSEMBLE attack using the Turret Wrench.

@@ -3858,6 +3858,11 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    customUfo: STR_MARTIAN_CYLINDER
+    terrains:
+      - FOREST_TRENCH
+      - TRENCH_FARM
+      - DEEPTRENCH
     alert: STR_MARTIAN_CYLINDER_ALERT
     #alertBackground: MARTIAN_CYLINDER_FALLING_BACKGROUND
     alertDescription: STR_MARTIAN_CYLINDER_DESCRIPTION
