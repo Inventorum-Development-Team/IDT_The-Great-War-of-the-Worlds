@@ -90,7 +90,7 @@ facilities:
     mapName: WW1BASE_08
   - type: STR_LASER_DEFENSES
     requires:
-      - STR_LASER_DEFENSE
+      - STR_FRONTLINES_FIELD_REPORT
     spriteShape: 3
     spriteFacility: 26
     buildCost: 400000
@@ -104,7 +104,7 @@ facilities:
     mapName: WW1BASE_09
   - type: STR_PLASMA_DEFENSES
     requires:
-      - STR_PLASMA_DEFENSE
+      - STR_IMPROVED_COMBAT_WALKER_RESEARCH
     spriteShape: 3
     spriteFacility: 27
     buildCost: 600000
@@ -118,7 +118,7 @@ facilities:
     mapName: WW1BASE_10
   - type: STR_FUSION_BALL_DEFENSES
     requires:
-      - STR_FUSION_DEFENSE
+      - STR_ALIENS_ONLY
     spriteShape: 3
     spriteFacility: 28
     buildCost: 800000
@@ -143,7 +143,7 @@ facilities:
     mapName: WW1BASE_12
   - type: STR_MIND_SHIELD
     requires:
-      - STR_MIND_SHIELD
+      - STR_CEREBREAL_COMMANDER
     mind: true
     spriteShape: 2
     spriteFacility: 30
@@ -154,7 +154,7 @@ facilities:
     mapName: WW1BASE_13
   - type: STR_PSIONIC_LABORATORY
     requires:
-      - STR_PSI_LAB
+      - STR_CONTACT_WITH_TESLA
     spriteShape: 1
     spriteFacility: 31
     buildCost: 750000
@@ -166,7 +166,7 @@ facilities:
     mapName: WW1BASE_14
   - type: STR_HYPER_WAVE_DECODER
     requires:
-      - STR_HYPER_WAVE_DECODER
+      - STR_MARTIAN_SCIENTIST_INTERROGATION
     hyper: true
     spriteShape: 2
     spriteFacility: 32
@@ -191,7 +191,7 @@ facilities:
     mapName: WW1BASE_16
   - type: STR_WATCHTOWER
     spriteShape: 3
-    spriteFacility: 27
+    spriteFacility: 70
     buildCost: 10000
     buildTime: 6
     monthlyCost: 2400
@@ -203,7 +203,7 @@ facilities:
     mapName: WW1BASE_21
   - type: STR_TRENCH_LINE_NS
     spriteShape: 3
-    spriteFacility: 27
+    spriteFacility: 71
     buildCost: 6000
     buildTime: 3
     monthlyCost: 1200
@@ -215,7 +215,7 @@ facilities:
     mapName: WW1BASE_22
   - type: STR_TRENCH_LINE_WE
     spriteShape: 3
-    spriteFacility: 27
+    spriteFacility: 72
     buildCost: 6000
     buildTime: 3
     monthlyCost: 1200
@@ -227,7 +227,7 @@ facilities:
     mapName: WW1BASE_23
   - type: STR_TRENCH_LINE_CROSS
     spriteShape: 3
-    spriteFacility: 27
+    spriteFacility: 73
     buildCost: 6000
     buildTime: 3
     monthlyCost: 1200
@@ -381,3 +381,7 @@ extraSprites:
       30: Resources/Facilities/MINDSHIELD_BASEBITS.png
       31: Resources/Facilities/PSI_LAB_BASEBITS.png
       32: Resources/Facilities/HYPERWAVE_BASEBITS.png
+      70: Resources/Facilities/WATCHTOWER_BASEBITS.png
+      71: Resources/Facilities/TRENCH_LINE_NS_BASEBITS.png
+      72: Resources/Facilities/TRENCH_LINE_WE_BASEBITS.png
+      73: Resources/Facilities/TRENCH_CROSS_BASEBITS.png

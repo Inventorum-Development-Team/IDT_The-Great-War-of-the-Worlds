@@ -1581,6 +1581,7 @@ alienDeployments:
 ########### NORMAL MISSIONS #############
 ########################################
   - type: STR_BASE_DEFENSE
+    isHidden: true
     data:
       - alienRank: 5
         lowQty: 5
