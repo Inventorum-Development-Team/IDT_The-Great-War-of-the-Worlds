@@ -2363,6 +2363,19 @@ en-US:
 
       STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
       STR_HYPER_WAVE_DECODER_UFOPEDIA: "reverse-engineered from enemy comms systems, this will show the type of enemy unit, the alien race and the type of activity."
+      
+      STR_TESLA_DEFENSE_ARRAY: "Tesla Defense Array"
+      STR_TESLA_DEFENSE_ARRAY_UFOPEDIA: "A cluster of Electric coils optimized to discharge pinpoint lightning bolts. The air between the coil and the target is ionized, closing the circuit and frying the unfortunate target. Its main drawback is the slow discharge rate."
+     STR_PHLOGISTON_DEFENSES: "Phlogiston Gun Turret Emplacement Bunker"
+      STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. The enlarged Phlogiston 'Bertha' Gun excels at long range fire support."
+      STR_PHLOGISTON_MACHINEGUN_NEST: "Machine Gun Nest"
+      STR_PHLOGISTON_MACHINEGUN_NEST_UFOPEDIA: "Lightly fortified emplacement, meant to defend the base from enemy intrusions, using four Phlogiston Heavy Automatic Rifle machine guns."
+      
+      STR_HOWITZER_CANNON_BATTERY: "Field Howitzer Battery"
+      STR_HOWITZER_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four howitzer artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
+      STR_PHLOGISTON_CANNON_BATTERY: "Phlogiston Cannon Battery"
+      STR_PHLOGISTON_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four Phlogiston Cannon artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
+
 
 
 ######################################
