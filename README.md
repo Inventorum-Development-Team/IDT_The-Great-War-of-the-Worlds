@@ -45,7 +45,7 @@ Credits by name:
 * Finnik: Whistle and Martian Launcher stats modifier script
 * Fegelein: feedback support
 * GoldenDragon: feedback support
-*Hans Woofington: Template for all human uniforms and armors, British, French, American and German uniforms, Heat-Ray ammo sprites, art help and support
+* Hans Woofington: Template for all human uniforms and armors, British, French, American and German uniforms, Heat-Ray ammo sprites, art help and support
 *Harald_Gray: Mechtoids (modified, used as template for Martian Powered Armors)
 *HelloMiko: feedback support
 *Hobbes: Tech-Comm reference plus help on the forums.
@@ -67,12 +67,12 @@ Credits by name:
 * Stosstruppen1918: general Historic reference and guide.
 * StormRangerX: feedback support
 * SupSuper: Original GeoIcons GlobeMarkers
-*Tal'Raziid: feedback support, fix to Turrets' issues
-*The Reaver of Darkness: Heat Ray weapons stats, Phlogiston plot, plus help with general balance.
-*The Martian: Gun turret sprites mounted on Mech Walkers
-*tollworkout: DeepAliens UFOs (selenite UFOs)
-*Warboy: main debugging support
-*wolwerin: Tea Flask, Bandages, Rifle Grenade, Martian Skirmirshers, Silacoid, Heat-Ray Batteries, Coilgun sprites plus ideas
+* Tal'Raziid: feedback support, fix to Turrets' issues
+* The Reaver of Darkness: Heat Ray weapons stats, Phlogiston plot, plus help with general balance.
+* The Martian: Gun turret sprites mounted on Mech Walkers
+* tollworkout: DeepAliens UFOs (selenite UFOs)
+* Warboy: debugging support, OXC dev
+* wolwerin: Tea Flask, Bandages, Rifle Grenade, Martian Skirmirshers, Silacoid, Heat-Ray Batteries, Coilgun sprites plus ideas
 
 
 *Most of the backgrounds are exclusive photos kindly provided by Stosstruppen1918
