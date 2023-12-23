@@ -51,6 +51,7 @@ Credits by name:
 *Hobbes: Tech-Comm reference plus help on the forums.
 *Ikhanad: feedback support, Phlogiston plot, and ideas
 *Luke83: All of the Martian Tripods, Martian Fleet, infested maps, Forest Rail, Trenches mapsets plus ideas & ruleset editing
+*Kiro Xei: general balance and code support
 *Nathan: Phlogiston plot, Phlogiston weapon sprites
 *Noah183: Support debugging plus ideas
 *Nord: craftWeapon Bombs fire sound
