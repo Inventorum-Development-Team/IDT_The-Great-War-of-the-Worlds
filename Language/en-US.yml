@@ -113,7 +113,7 @@ en-US:
       STR_WEAPONS: "WEAPONS"
       STR_LORE_REPORTS: "HISTORICAL REPORTS"
       STR_ALIEN_ARTIFACTS: "ALIEN ARTIFACTS"
-      STR_BASE_FACILITIES: "ALIEN FACILITIES"
+      STR_BASE_FACILITIES: "IEF STRUCTURES"
       STR_ALIEN_LIFE_FORMS: "ALIEN LIFEFORMS"
       STR_ALIEN_RESEARCH_UC: "ALIEN RESEARCH"
       STR_UFO_COMPONENTS: "ALIEN TECH COMPONENTS"
@@ -122,7 +122,7 @@ en-US:
 
       STR_XCOM_PROJECT_MONTHLY_REPORT: "IEF MONTHLY REPORT"
       STR_MONTH: "Month> {ALT}{0} {1}"
-      STR_COUNCIL_IS_GENERALLY_SATISFIED: "The Coalition remarks you performance against alien incursion. Good work."
+      STR_COUNCIL_IS_GENERALLY_SATISFIED: "The Coalition remarks your performance against alien incursion. Good work."
       STR_COUNCIL_IS_VERY_PLEASED: "The Coalition recognizes your performance against alien invasion forces. Your war contribution against alien incursions is absolutely incredible."
       STR_COUNCIL_IS_DISSATISFIED: "The Coalition performance is dropping. You must contribute the Coalition war efforts against alien incursions or risk the military branch disbandment."
       STR_YOU_HAVE_NOT_SUCCEEDED: "Despite your most valiant efforts, we have failed to defend our planet. Each member of the Coalition is retreating to safe zones, using scorched earth tactics to deny the enemy of our resources. The Earth is now occupied by alien forces."
@@ -2335,7 +2335,6 @@ en-US:
       STR_LASER_DEFENSES: "75mm Gun Emplacement Bunker"
       STR_LASER_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A 75mm turret battery packs a considerable amount of firepower."
       STR_PLASMA_DEFENSES: "H-R Turret Emplacement Bunker"
-      STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A powerful Mk. XI Heat-Ray Projector turret is used to provide heavy defensive fire."
       STR_FUSION_BALL_DEFENSES: "Tower Fortress"
       STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns, combined with a mixed battery of Mk. X Heat Ray Projectors and 8,8cm gun turrets make this defensive work into an inexpugnable position."
       STR_WATCHTOWER: "Watchtower"
@@ -2359,18 +2358,19 @@ en-US:
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
       STR_GRAV_SHIELD_REPELS_UFO: "ENERGY REPULSOR REPELS ENEMY!"
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
+      
+      STR_MIND_SHIELD: "Neural Inhibiter"
       STR_MIND_SHIELD_UFOPEDIA: "Since alien intelligence efforts rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
 
       STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
-      STR_HYPER_WAVE_DECODER_UFOPEDIA: "reverse-engineered from enemy comms systems, this will show the type of enemy unit, the alien race and the type of activity."
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: "Based on reverse-engineered from enemy comms systems. This will show the type of enemy unit, the alien race and the type of activity."
       
       STR_TESLA_DEFENSE_ARRAY: "Tesla Defense Array"
       STR_TESLA_DEFENSE_ARRAY_UFOPEDIA: "A cluster of Electric coils optimized to discharge pinpoint lightning bolts. The air between the coil and the target is ionized, closing the circuit and frying the unfortunate target. Its main drawback is the slow discharge rate."
-     STR_PHLOGISTON_DEFENSES: "Phlogiston Gun Turret Emplacement Bunker"
+      STR_PHLOGISTON_DEFENSES: "Phlogiston Gun Turret Emplacement Bunker"
       STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. The enlarged Phlogiston 'Bertha' Gun excels at long range fire support."
       STR_PHLOGISTON_MACHINEGUN_NEST: "Machine Gun Nest"
       STR_PHLOGISTON_MACHINEGUN_NEST_UFOPEDIA: "Lightly fortified emplacement, meant to defend the base from enemy intrusions, using four Phlogiston Heavy Automatic Rifle machine guns."
-      
       STR_HOWITZER_CANNON_BATTERY: "Field Howitzer Battery"
       STR_HOWITZER_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four howitzer artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
       STR_PHLOGISTON_CANNON_BATTERY: "Phlogiston Cannon Battery"

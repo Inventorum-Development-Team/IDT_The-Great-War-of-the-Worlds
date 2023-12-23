@@ -98,7 +98,7 @@ facilities:
     monthlyCost: 10000
     connectorsDisabled: true
     defense: 600
-    hitRatio: 60
+    hitRatio: 70
     fireSound: 8
     hitSound: 10
     mapName: WW1BASE_09
@@ -111,8 +111,8 @@ facilities:
     buildTime: 34
     monthlyCost: 12000
     connectorsDisabled: true
-    defense: 900
-    hitRatio: 70
+    defense: 800
+    hitRatio: 100
     fireSound: 9
     hitSound: 10
     mapName: WW1BASE_10
@@ -126,7 +126,7 @@ facilities:
     monthlyCost: 14000
     connectorsDisabled: true
     defense: 1200
-    hitRatio: 80
+    hitRatio: 100
     fireSound: 7
     hitSound: 10
     mapName: WW1BASE_11

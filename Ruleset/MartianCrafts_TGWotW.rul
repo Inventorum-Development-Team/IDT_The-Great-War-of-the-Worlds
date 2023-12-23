@@ -362,6 +362,8 @@ ufos:
     range: 16
     score: 500
     reload: 20
+    shieldCapacity: 250
+    shieldRecharge: 15
     breakOffTime: 5000
     battlescapeTerrainData:
       name: AS-WALKER1
@@ -398,6 +400,8 @@ ufos:
     range: 16
     score: 500
     reload: 48
+    shieldCapacity: 500
+    shieldRecharge: 30
     breakOffTime: 5000
     battlescapeTerrainData:
       name: AS-WALKER2
@@ -444,6 +448,8 @@ ufos:
     range: 35
     score: 700
     reload: 48
+    shieldCapacity: 750
+    shieldRecharge: 50
     avoidBonus: -30
     breakOffTime: 5000
     battlescapeTerrainData:
@@ -498,6 +504,8 @@ ufos:
     range: 16
     score: 500
     reload: 18
+    shieldCapacity: 600
+    shieldRecharge: 40
     avoidBonus: -40
     breakOffTime: 5000
     battlescapeTerrainData:
