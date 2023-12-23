@@ -21,7 +21,7 @@ Changes made:
 * Replacing missing alien race snakes man to Martians elite platoon.
 * Laboratory spaces reduces to 30; while Advance Laboratory was added to 60 to match the description.
 * Changed HWP Tank requirements.
-* General Bugfixing
+* General Bugfixing. By Kiro Xei.
 
 
 15-October-2023: 0.9 Mk. IV 'Slavyanka'
