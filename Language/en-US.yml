@@ -2314,6 +2314,7 @@ en-US:
 #############################################
 
       STR_BASE_DEFENSES_INITIATED: "DEFENSE BATTERIES, FIRE AT WILL"
+      STR_BASE_DEFENSE_BRIEFING: "An Alien unit has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and IEF craft have been evacuated. The enemy forces will enter the base via hangar doors and any other breach in our defense lines. Defend the base and its vital installations at all costs - this is a fight to the death. If you click on the 'abort mission' icon you will concede defeat and lose the base."
   
       STR_ACCESS_LIFT: "Command Post"
       STR_ACCESS_LIFT_UFOPEDIA: "The very first building in a new base. It hosts the War Room, where frontline Strategic and Tactical operations are directed. A small telegraph station to collect signals and issue orders is also included, with a 10% chance of detecting enemy activity in a 500 nmi radius."
@@ -2335,6 +2336,7 @@ en-US:
       STR_LASER_DEFENSES: "75mm Gun Emplacement Bunker"
       STR_LASER_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A 75mm turret battery packs a considerable amount of firepower."
       STR_PLASMA_DEFENSES: "H-R Turret Emplacement Bunker"
+      STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A powerful Mk. XI Heat-Ray Projector turret is used to provide heavy defensive fire."
       STR_FUSION_BALL_DEFENSES: "Tower Fortress"
       STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns, combined with a mixed battery of Mk. X Heat Ray Projectors and 8,8cm gun turrets make this defensive work into an inexpugnable position."
       STR_WATCHTOWER: "Watchtower"
