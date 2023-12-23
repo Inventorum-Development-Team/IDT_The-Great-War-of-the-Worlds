@@ -2313,6 +2313,8 @@ en-US:
 
 #############################################
 
+      STR_BASE_DEFENSES_INITIATED: "DEFENSE BATTERIES, FIRE AT WILL"
+  
       STR_ACCESS_LIFT: "Command Post"
       STR_ACCESS_LIFT_UFOPEDIA: "The very first building in a new base. It hosts the War Room, where frontline Strategic and Tactical operations are directed. A small telegraph station to collect signals and issue orders is also included, with a 10% chance of detecting enemy activity in a 500 nmi radius."
       STR_SMALL_RADAR_SYSTEM: "Regional SIGINT Post"
@@ -2335,7 +2337,7 @@ en-US:
       STR_PLASMA_DEFENSES: "H-R Turret Emplacement Bunker"
       STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A powerful Mk. XI Heat-Ray Projector turret is used to provide heavy defensive fire."
       STR_FUSION_BALL_DEFENSES: "Tower Fortress"
-      STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns and a twin mortar turret make this defensive work into an inexpugnable position. "
+      STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns, combined with a mixed battery of Mk. X Heat Ray Projectors and 8,8cm gun turrets make this defensive work into an inexpugnable position."
       STR_WATCHTOWER: "Watchtower"
       STR_WATCHTOWER_UFOPEDIA: "A simple, easy to build wooden tower. It offers an elevated position for sharpshooters."
       STR_TRENCH_LINE_NS: "Trench Line N-S"
@@ -2355,11 +2357,12 @@ en-US:
       #STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs, where interrogations can be carried on. The containment facility can keep up to 10 alien life forms in self-contained units."
 
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
+      STR_GRAV_SHIELD_REPELS_UFO: "ENERGY REPULSOR REPELS ENEMY!"
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
-      STR_MIND_SHIELD_UFOPEDIA: "Since alien craft rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
+      STR_MIND_SHIELD_UFOPEDIA: "Since alien intelligence efforts rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
 
       STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
-      STR_HYPER_WAVE_DECODER_UFOPEDIA: "This will show the type of UFO, the alien race and the type of activity."
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: "reverse-engineered from enemy comms systems, this will show the type of enemy unit, the alien race and the type of activity."
 
 
 ######################################
@@ -2368,7 +2371,7 @@ en-US:
       STR_STATE_OF_THE_WORLD_MEXICO: "State of the World: Mexico"
       STR_STATE_OF_THE_WORLD_MEXICO_UFOPEDIA: "Mexico is a mostly agricultural country, with an important output of grain and cattle, supplying the Coalition. In 1910, former dictator Porfirio Diaz was deposed by the Revolution. Replaced by President Madero, the country quickly began involved in a series of agrarian reforms. When the Great War began, Mexico wasn't directly affected but contributed to the war effort with food and mineral ores. In 1913, after an un-successful coup d'etat by War Minister Huerta and US Ambassador Wilson plus increased Martian activity in the US border, the Federal Army was reformed with the former Revolutionary forces replacing the old army. The Mexican Federal Army fights alongside the US in the Texan Front (led by Generals Villa and Angeles) and in Central America (led by General Zapata)."
       STR_STATE_OF_THE_WORLD_UNITED_STATES: "State of the World: USA"
-      STR_STATE_OF_THE_WORLD_UNITED_STATES_UFOPEDIA: "The United States began the Great War as the leading industrial powerhouse in the world, followed only by the British Commonwealth and the German Empire. This is why it was the main target of the second wave of Martian landings. But the American resolution to free their land meant the enemy attackers couldn't secure a large territory before being stopped in 1913. Led by President Wilson, the US has taken the job to fight and destroy. Under the Wilson Doctrine, the US military fights alongside the Allies, from Canada to Argentina. The huge industrial capacity, further powered by hatred and determination allows the US produce most of the ammunition and military supplies for the Coalition and even then, arm it's own military forces."
+      STR_STATE_OF_THE_WORLD_UNITED_STATES_UFOPEDIA: "The United States began the Great War as the leading industrial powerhouse in the world, followed only by the British Commonwealth and the German Empire. This is why it was the main target of the second wave of Martian landings. But the American resolution to free their land meant the enemy attackers couldn't secure a large territory before being stopped in 1913. Led by President Wilson, the US has taken the job to fight and destroy. Under the Wilson Doctrine, the US military fights alongside the Allies, from Canada to Argentina. The huge industrial capacity, further powered by hatred and determination allows the US produce most of the ammunition and military supplies for the Coalition and even then, arm its own military forces."
       STR_STATE_OF_THE_WORLD_RUSSIA: "State of the World: Russian Empire"
       STR_STATE_OF_THE_WORLD_RUSSIA_UFOPEDIA: "The largest country in the world was also the place where the most Cylinders fell before the Second Invasion. The initial round of landings in 1908 was barely noticed amist the large social and cultural changes in the Tsarist Russia. Tsar Nicholas II isn't the most popular leader, but his defiant defense of the peaceful crowd about to be murdered in 1905 and various other acts of kindness are winning the hearts of his country, even in the height of the Great War. Russia is engaged in four-front war in Asia and only their bravery and the Coalition's support allows them to endure the hardships. The most brutal fighting of the war takes place in there."
       STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH: "State of the World: British Commonwealth"
