@@ -76,6 +76,12 @@ facilities:
     monthlyCost: 5000
     connectorsDisabled: true
     storage: 50
+    storageTiles:
+    - [3, 3, 0]
+    - [1, 2, 1]
+    - [6, 3, 2]
+    - [2, 3, 2]
+    - [4, 2, 3]
     mapName: WW1BASE_07
   - type: STR_ALIEN_CONTAINMENT
     requires:
