@@ -331,7 +331,7 @@ items:
     transferTime: 96
   - type: STR_SCHNEIDER_CA1_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
-    requiresBuy: 
+    requiresBuy:
     - STR_INITIAL_TANK_DESIGN
     size: 6
     costBuy: 25000
