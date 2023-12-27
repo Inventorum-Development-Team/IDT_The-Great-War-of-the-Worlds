@@ -709,7 +709,7 @@ crafts:
 ## Kiro Xei writes:
 
   - type: STR_CONQUEROR_CONVOY
-    sprites:
+    sprite: 147
     fuelMax: 3000
     damageMax: 3000
     speedMax: 100
