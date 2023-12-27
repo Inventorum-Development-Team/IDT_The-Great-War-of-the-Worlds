@@ -158,7 +158,7 @@ items:
       ]
     requiresBuy:
       - STR_SMLE_MKIII_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -257,7 +257,7 @@ items:
       ]
     requiresBuy:
       - STR_SMLE_MKIII_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -291,7 +291,7 @@ items:
       ]
     requiresBuy:
       - STR_SMLE_MKIII_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -329,7 +329,7 @@ items:
       ]
     requiresBuy:
       - STR_P14_ENFIELD_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -372,7 +372,7 @@ items:
       ]
     requiresBuy:
       - STR_SPRINGFIELD_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -470,7 +470,7 @@ items:
       ]
     requiresBuy:
       - STR_SPRINGFIELD_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -506,7 +506,7 @@ items:
       ]
     requiresBuy:
       - STR_SPRINGFIELD_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -535,7 +535,7 @@ items:
   - type: STR_GEWEHR98
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -625,7 +625,7 @@ items:
   - type: STR_GEWEHR98_CLIP
     categories:
       [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -653,7 +653,7 @@ items:
       [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_GEWEHR98_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -688,7 +688,7 @@ items:
       ]
     requiresBuy:
       - STR_LEBEL_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -787,7 +787,7 @@ items:
       ]
     requiresBuy:
       - STR_LEBEL_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -821,7 +821,7 @@ items:
       ]
     requiresBuy:
       - STR_LEBEL_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -856,7 +856,7 @@ items:
       ]
     requiresBuy:
       - STR_MOSIN_NAGANT_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -955,7 +955,7 @@ items:
       ]
     requiresBuy:
       - STR_WINCHESTER_M1915_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -1047,7 +1047,7 @@ items:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
     requiresBuy:
       - STR_OBREZ_PISTOL_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 6
@@ -1083,7 +1083,7 @@ items:
       ]
     requiresBuy:
       - STR_MOSIN_NAGANT_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -1119,7 +1119,7 @@ items:
       ]
     requiresBuy:
       - STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -1156,7 +1156,7 @@ items:
       ]
     requiresBuy:
       - STR_BERDAN_II_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 500
     costSell: 450
     weight: 5
@@ -1254,7 +1254,7 @@ items:
       ]
     requiresBuy:
       - STR_BERDAN_II_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 1
@@ -1290,7 +1290,7 @@ items:
       ]
     requiresBuy:
       - STR_BERDAN_II_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 1
@@ -1318,7 +1318,7 @@ items:
 
   #  - type: STR_GEWEHR_M95
   #    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
-  #    size: 0.2
+  #    size: 0.02
   #    costBuy: 1500
   #    costSell: 1150
   #    weight: 5
@@ -1352,7 +1352,7 @@ items:
   #    listOrder: 2002
   #  - type: STR_GEWEHR_M95_CLIP
   #    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
-  #    size: 0.1
+  #    size: 0.01
   #    costBuy: 150
   #    costSell: 90
   #    weight: 3
@@ -1370,7 +1370,7 @@ items:
   #    armor: 12
   #  - type: STR_GEWEHR_M95_CLIP_KMM
   #    categories: [STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
-  #    size: 0.1
+  #    size: 0.01
   #    costBuy: 150
   #    costSell: 90
   #    weight: 3
@@ -1394,7 +1394,7 @@ items:
       [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_PHLOGISTON_PROTOTYPE
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -1434,7 +1434,7 @@ items:
       [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -1478,7 +1478,7 @@ items:
       ]
     requiresBuy:
       - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -1519,7 +1519,7 @@ items:
       - STR_FARQHUAR_HILL_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 4000
     costSell: 3500
     weight: 6
@@ -1561,7 +1561,7 @@ items:
       ]
     requiresBuy:
       - STR_FARQHUAR_HILL_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costSell: 200
     weight: 3
     bigSprite: 672
@@ -1597,7 +1597,7 @@ items:
       ]
     requiresBuy:
       - STR_FARQHUAR_HILL_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costSell: 200
     weight: 3
     bigSprite: 680
@@ -1635,7 +1635,7 @@ items:
       - STR_MONDRAGON_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.2
+    size: 0.02
     costBuy: 800
     costSell: 650
     weight: 9
@@ -1813,7 +1813,7 @@ items:
       - STR_SELBSTLADER_M1916_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.2
+    size: 0.02
     costBuy: 800
     costSell: 650
     weight: 9
@@ -1933,7 +1933,7 @@ items:
       - STR_RSC17_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 4500
     costSell: 3500
     weight: 6
@@ -1978,7 +1978,7 @@ items:
       - STR_RSC17_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 400
     costSell: 200
     weight: 3
@@ -2016,7 +2016,7 @@ items:
       - STR_RSC_CARBINE_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 4500
     costSell: 3500
     weight: 6
@@ -2061,7 +2061,7 @@ items:
       - STR_RSC17_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 400
     costSell: 200
     weight: 3
@@ -2100,7 +2100,7 @@ items:
       - STR_FEDOROV_AVTOMAT_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.2
+    size: 0.02
     costBuy: 800
     costSell: 650
     weight: 7
@@ -2225,7 +2225,7 @@ items:
       - STR_CEI_RIGOTTI_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.2
+    size: 0.02
     costBuy: 800
     costSell: 650
     weight: 7
@@ -2345,7 +2345,7 @@ items:
       [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -2400,7 +2400,7 @@ items:
       ]
     requiresBuy:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -2436,7 +2436,7 @@ items:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_ITALIAN_EQUIPMENT]
     requiresBuy:
       - STR_AUTOMATIC_REVOLVER_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 3
@@ -2472,7 +2472,7 @@ items:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
     requiresBuy:
       - STR_HEAVY_REVOLVER_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 3
@@ -2505,7 +2505,7 @@ items:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
     requiresBuy:
       - STR_SERVICE_REVOLVER_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 3
@@ -2534,10 +2534,10 @@ items:
     listOrder: 2440
 
   - type: STR_REVOLVER_CLIP
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT,  STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_REVOLVER_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -2563,10 +2563,10 @@ items:
     armor: 250
     listOrder: 2450
   - type: STR_REVOLVER_CLIP_KMM
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_REVOLVER_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -2592,10 +2592,10 @@ items:
     armor: 250
     listOrder: 2460
   - type: STR_REVOLVER_CLIP_DUMDUM
-    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_CLIPS]
+    categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_REVOLVER_DUMDUM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -2629,7 +2629,7 @@ items:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
     requiresBuy:
       - STR_M1911_COLT_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 750
     costSell: 600
     weight: 5
@@ -2727,7 +2727,7 @@ items:
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
     requiresBuy:
       - STR_MAUSER_C96_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 6
@@ -2759,7 +2759,7 @@ items:
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_MAUSER_C96_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -2788,7 +2788,7 @@ items:
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_MAUSER_C96_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -2818,7 +2818,7 @@ items:
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
     requiresBuy:
       - STR_LUGER_P08_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 4
@@ -2849,7 +2849,7 @@ items:
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_LUGER_P08_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -2878,7 +2878,7 @@ items:
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_LUGER_P08_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -2913,7 +2913,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -2962,7 +2962,7 @@ items:
     categories: [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -3010,7 +3010,7 @@ items:
       [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS, STR_CLIPS]
     requiresBuy:
       - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -3048,7 +3048,7 @@ items:
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 4000
     costSell: 3200
     weight: 5
@@ -3168,7 +3168,7 @@ items:
 
   #- type: STR_REVOLVER_CARBINE
   #  categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_BRITISH_EQUIPMENT]
-  #  size: 0.1
+  #  size: 0.01
   #  costBuy: 2500
   #  costSell: 900
   #  weight: 3
@@ -3200,7 +3200,7 @@ items:
       [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
     requiresBuy:
       - STR_MAUSER_C96_CARBINE_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 5
@@ -3236,7 +3236,7 @@ items:
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_MAUSER_C96_CARBINE_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -3260,7 +3260,7 @@ items:
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_MAUSER_C96_CARBINE_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -3285,7 +3285,7 @@ items:
       [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
     requiresBuy:
       - STR_LUGER_ARTILLERY_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 2500
     costSell: 900
     weight: 6
@@ -3316,7 +3316,7 @@ items:
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_LUGER_ARTILLERY_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -3345,7 +3345,7 @@ items:
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_LUGER_ARTILLERY_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 150
     weight: 2
@@ -3382,7 +3382,7 @@ items:
       ]
     requiresBuy:
       - STR_CARCANO_M91_CARBINE_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 4
@@ -3480,7 +3480,7 @@ items:
       ]
     requiresBuy:
       - STR_CARCANO_M91_CARBINE_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -3514,7 +3514,7 @@ items:
       ]
     requiresBuy:
       - STR_CARCANO_M91_CARBINE_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 90
     weight: 3
@@ -3552,7 +3552,7 @@ items:
       - STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 4000
     costSell: 3200
     weight: 6
@@ -3615,7 +3615,7 @@ items:
       - STR_ANNIHILATOR_SMG_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 4000
     costSell: 3000
     weight: 5
@@ -3759,7 +3759,7 @@ items:
       - STR_MP18_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 4000
     costSell: 3000
     weight: 6
@@ -3904,7 +3904,7 @@ items:
       - STR_SMG_0818_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 4000
     costSell: 3000
     weight: 6
@@ -4047,7 +4047,7 @@ items:
       ]
     requiresBuy:
       - STR_BERETTA_MAB18_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 500
     weight: 4
@@ -4249,7 +4249,7 @@ items:
       - STR_VILLAR_PEROSA_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 2000
     costSell: 1500
     weight: 7
@@ -4393,7 +4393,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS]
     requiresBuy:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
-    size: 0.2
+    size: 0.02
     costBuy: 15000
     costSell: 11500
     weight: 5
@@ -4441,7 +4441,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS]
     requiresBuy:
       - STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
-    size: 0.2
+    size: 0.02
     costBuy: 15000
     costSell: 11500
     weight: 5
@@ -4489,7 +4489,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     requiresBuy:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
-    size: 0.1
+    size: 0.01
     costBuy: 20000
     costSell: 15000
     weight: 3
@@ -4535,7 +4535,7 @@ items:
       - STR_HUOT_LMG_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 11000
     costSell: 9000
     weight: 13
@@ -4593,7 +4593,7 @@ items:
       - STR_HUOT_LMG_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
@@ -4633,7 +4633,7 @@ items:
       - STR_HUOT_LMG_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
@@ -4672,7 +4672,7 @@ items:
       - STR_BAR_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.2
+    size: 0.02
     costSell: 2250
     weight: 12
     bigSprite: 2152
@@ -4727,7 +4727,7 @@ items:
       - STR_BAR_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costSell: 150
     weight: 3
     bigSprite: 2176
@@ -4764,7 +4764,7 @@ items:
       - STR_BAR_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costSell: 150
     weight: 3
     bigSprite: 2184
@@ -4803,7 +4803,7 @@ items:
       - STR_MG0815_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 9000
     costSell: 8000
     weight: 15
@@ -4863,7 +4863,7 @@ items:
       - STR_MG0815_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 1000
     costSell: 750
     weight: 9
@@ -4903,7 +4903,7 @@ items:
       - STR_MG0815_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 1000
     costSell: 750
     weight: 9
@@ -4942,7 +4942,7 @@ items:
       ]
     requiresBuy:
       - STR_CHAUCHAT_LMG_UNLOCK
-    size: 0.4
+    size: 0.04
     costBuy: 12500
     costSell: 10000
     weight: 10
@@ -5000,7 +5000,7 @@ items:
       ]
     requiresBuy:
       - STR_CHAUCHAT_LMG_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 1500
     costSell: 1250
     weight: 8
@@ -5038,7 +5038,7 @@ items:
       ]
     requiresBuy:
       - STR_CHAUCHAT_LMG_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 1500
     costSell: 1250
     weight: 8
@@ -5079,7 +5079,7 @@ items:
       - STR_RIBEYROLLES_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 4000
     costSell: 3200
     weight: 6
@@ -5223,7 +5223,7 @@ items:
       - STR_LEWIS_GUN_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 11000
     costSell: 9000
     weight: 13
@@ -5282,7 +5282,7 @@ items:
       - STR_LEWIS_GUN_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
@@ -5322,7 +5322,7 @@ items:
       - STR_LEWIS_GUN_KMM_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
@@ -5362,7 +5362,7 @@ items:
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 11000
     costSell: 9000
     weight: 10
@@ -5418,7 +5418,7 @@ items:
       ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
@@ -5456,7 +5456,7 @@ items:
       ]
     requiresBuy:
       - STR_MADSEN_KMM_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 450
     weight: 7
@@ -5490,7 +5490,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS]
     requiresBuy:
       - STR_TESLA_INFANTRY_CANNON_RESEARCH
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -5538,7 +5538,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_CLIPS]
     requiresBuy:
       - STR_TESLA_INFANTRY_CANNON_RESEARCH
-    size: 0.1
+    size: 0.01
     costBuy: 20000
     costSell: 15000
     weight: 3
@@ -5583,7 +5583,7 @@ items:
       - STR_WINCHESTER_TRENCH_GUN_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
@@ -5636,7 +5636,7 @@ items:
       - STR_REMINGTON_MODEL_11_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
@@ -5681,7 +5681,7 @@ items:
       - STR_INERTIA_SHOTGUN_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
@@ -5717,7 +5717,7 @@ items:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
@@ -5742,7 +5742,7 @@ items:
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_SHOTGUN_DUMDUM_SHELLS_5_AMMO_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
@@ -5776,7 +5776,7 @@ items:
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_MODEL_1900_UNLOCK
-    size: 0.3
+    size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
@@ -5822,7 +5822,7 @@ items:
       - STR_MODEL_1900_SAWEDOFF_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.3
+    size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
@@ -5869,7 +5869,7 @@ items:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_2_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
@@ -5906,7 +5906,7 @@ items:
       - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
@@ -5940,7 +5940,7 @@ items:
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
     requiresBuy:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
-    size: 0.3
+    size: 0.03
     costBuy: 1700
     costSell: 520
     weight: 7
@@ -5973,7 +5973,7 @@ items:
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_TRANQUILIZER_SHOTGUN_PROJECT
-    size: 0.1
+    size: 0.01
     costBuy: 900
     costSell: 250
     weight: 3
@@ -6008,7 +6008,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS]
     requiresBuy:
       - STR_TESLA_RAPID_DISCHARGE_RESEARCH
-    size: 0.2
+    size: 0.02
     costBuy: 1500
     costSell: 1150
     weight: 5
@@ -6057,7 +6057,7 @@ items:
     categories: [STR_TESLA, STR_FIREARMS, STR_SHOTGUNS, STR_CLIPS]
     requiresBuy:
       - STR_TESLA_RAPID_DISCHARGE_RESEARCH
-    size: 0.1
+    size: 0.01
     costBuy: 10000
     costSell: 15000
     weight: 3
@@ -6094,7 +6094,7 @@ items:
       - STR_ANTITANK_GRENADE_UNLOCK
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
-    size: 0.1
+    size: 0.01
     costBuy: 600
     costSell: 500
     weight: 6
@@ -6127,7 +6127,7 @@ items:
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_STICK_GRENADE_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 300
     costSell: 240
     weight: 3
@@ -6156,7 +6156,7 @@ items:
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_FRAG_GRENADE_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 300
     costSell: 240
     weight: 3
@@ -6185,7 +6185,7 @@ items:
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_DYNAMITE_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 450
     costSell: 300
     weight: 6
@@ -6216,7 +6216,7 @@ items:
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
     requiresBuy:
       - STR_HUMAN_CHEMICAL_WEAPONS
-    size: 0.2
+    size: 0.02
     costBuy: 8000
     costSell: 6500
     weight: 18
@@ -6260,7 +6260,7 @@ items:
 
   - type: STR_RIFLE_GRENADE
     categories: [STR_FIREARMS, STR_EXPLOSIVES, STR_RIFLEMAN_CLASS, STR_CLIPS]
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 470
     weight: 1
@@ -6292,7 +6292,7 @@ items:
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     requiresBuy:
       - STR_HUMAN_CHEMICAL_WEAPONS
-    size: 0.1
+    size: 0.01
     costBuy: 6500
     costSell: 5000
     weight: 4
@@ -6319,7 +6319,7 @@ items:
 
   - type: STR_FLARE_GUN
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 3000
     costSell: 2000
     weight: 4
@@ -6346,7 +6346,7 @@ items:
 
   - type: STR_FLARE_ROUND
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
-    size: 0.1
+    size: 0.01
     costBuy: 100
     costSell: 85
     weight: 2
@@ -6371,7 +6371,7 @@ items:
 
   - type: STR_HANDHELD_MORTAR
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
-    size: 0.2
+    size: 0.02
     costBuy: 5500
     costSell: 2250
     weight: 15
@@ -6396,7 +6396,7 @@ items:
 
   - type: STR_MORTAR_SHELL
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 470
     weight: 1
@@ -6426,7 +6426,7 @@ items:
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_HEAVY_GRENADE_UNLOCK
-    size: 0.1
+    size: 0.01
     costBuy: 300
     costSell: 240
     weight: 3
@@ -6456,7 +6456,7 @@ items:
   ####################################
   - type: STR_SABRE
     categories: [STR_CQB, STR_RAIDER_CLASS]
-    size: 0.2
+    size: 0.02
     costBuy: 4000
     costSell: 3500
     weight: 5
@@ -6534,7 +6534,7 @@ items:
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_MM_SABRE_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 4000
     costSell: 3500
     weight: 5
@@ -6698,7 +6698,7 @@ items:
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_TRENCH_SHOVEL_UNLOCK
-    size: 0.3
+    size: 0.03
     costBuy: 250
     costSell: 190
     weight: 15
@@ -6783,7 +6783,7 @@ items:
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_SHOVEL_UNLOCK
-    size: 0.3
+    size: 0.03
     costBuy: 250
     costSell: 190
     weight: 15
@@ -6868,7 +6868,7 @@ items:
     categories: [STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     requiresBuy:
       - STR_TRENCH_MACE_UNLOCK
-    size: 0.3
+    size: 0.03
     costBuy: 250
     costSell: 190
     weight: 6
@@ -6936,7 +6936,7 @@ items:
       - STR_TRENCH_CLUB_UNLOCK
     #    requires:
     #- STR_STORMTROOPER_TRAINING
-    size: 0.1
+    size: 0.01
     costBuy: 450
     costSell: 500
     weight: 3
@@ -6999,7 +6999,7 @@ items:
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_SHASHKA_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 4000
     costSell: 3500
     weight: 5
@@ -7077,7 +7077,7 @@ items:
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_MM_DAGGER_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 4000
     costSell: 3500
     weight: 5
@@ -7155,7 +7155,7 @@ items:
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
       - STR_MM_SHASHKA_UNLOCK
-    size: 0.2
+    size: 0.02
     costBuy: 4000
     costSell: 3500
     weight: 5
@@ -7234,7 +7234,7 @@ items:
   - type: STR_MEDIKIT
     medikitBackground: WW1_MEDIKIT
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
-    size: 0.5
+    size: 0.05
     costBuy: 10000
     costSell: 5000
     weight: 15
@@ -7261,7 +7261,7 @@ items:
     listOrder: 3490
   #  - type: STR_SURGERYKIT
   #    medikitBackground: WW1_SURGERYKIT
-  #    size: 0.9
+  #    size: 0.09
   #    costBuy: 10000
   #    costSell: 5000
   #    weight: 15
@@ -7287,7 +7287,7 @@ items:
   #    listOrder: 2080
   - type: STR_MEDICAL_SYRINGE
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 400
     weight: 2
@@ -7309,7 +7309,7 @@ items:
 
   - type: STR_BANDAGES
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 150
     costSell: 100
     weight: 4
@@ -7335,7 +7335,7 @@ items:
 
   - type: STR_PAINKILLER
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 500
     costSell: 400
     weight: 2
@@ -7359,7 +7359,7 @@ items:
   #    listOrder: 2083
   #  - type: STR_COMBAT_STIMULANT
   #    categories: [STR_EQUIPMENT, STR_MEDICAL, STR_MEDIC_CLASS]
-  #    size: 0.1
+  #    size: 0.01
   #    costBuy: 10
   #    costSell: 8925
   #    weight: 9
@@ -7402,7 +7402,7 @@ items:
   ################################
   - type: STR_WHISTLE
     categories: [STR_LIGHT_EQUIPMENT]
-    size: 0.2
+    size: 0.02
     costBuy: 4000
     costSell: 3750
     weight: 2
@@ -7467,7 +7467,7 @@ items:
 
   #  - type: STR_BAGPIPE
   #    categories: [STR_LIGHT_EQUIPMENT]
-  #    size: 0.2
+  #    size: 0.02
   #    costSell: 3750
   #    weight: 7
   #    bigSprite: 121
@@ -7534,7 +7534,7 @@ items:
   ######################################
   - type: STR_BREAD
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 120
     costSell: 50
     weight: 4
@@ -7563,7 +7563,7 @@ items:
     listOrder: 3540
   - type: STR_ROTTEN_BREAD
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costSell: 120
     weight: 4
     bigSprite: 3000
@@ -7594,7 +7594,7 @@ items:
 
   - type: STR_CANNED_BEEF
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 300
     costSell: 120
     weight: 4
@@ -7624,7 +7624,7 @@ items:
     listOrder: 3570
   - type: STR_ROTTEN_CANNED_BEEF
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costSell: 120
     weight: 4
     bigSprite: 3016
@@ -7655,7 +7655,7 @@ items:
 
   - type: STR_BISCUIT_BOX
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 200
     costSell: 120
     weight: 4
@@ -7685,7 +7685,7 @@ items:
     listOrder: 3590
   - type: STR_ROTTEN_BISCUIT_BOX
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costSell: 120
     weight: 4
     bigSprite: 3032
@@ -7716,7 +7716,7 @@ items:
 
   - type: STR_WINE
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 1500
     costSell: 1500
     weight: 4
@@ -7747,7 +7747,7 @@ items:
     listOrder: 3610
   - type: STR_BROKEN_WINE_BOTTLE
     categories: [STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
-    size: 0.3
+    size: 0.03
     costSell: 25000
     weight: 3
     bigSprite: 2920
@@ -7814,7 +7814,7 @@ items:
 
   - type: STR_TEA_FLASK
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
-    size: 0.1
+    size: 0.01
     costBuy: 450
     costSell: 200
     weight: 4
@@ -9194,3 +9194,9 @@ extended:
             end;
           end;
           return power part side;
+
+
+
+
+## Calculate Size with meters to hexosize
+#0.10 meters = 0.01 hexosize / hexometers

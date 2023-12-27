@@ -12,6 +12,7 @@ costEngineer: 25000
 costScientist: 30000
 displayCustomCategories: 2
 timePersonnel: 72
+maxViewDistance: 40
 initialFunding: 9000
 alienFuel: [STR_ELERIUM_115, 50]
 crewEmergencyEvacuationSurvivalChance: 65
@@ -30,6 +31,7 @@ enableCloseQuartersCombat: 1
 closeQuartersAccuracyGlobal: 100
 closeQuartersTuCostGlobal: 0
 closeQuartersEnergyCostGlobal: 8
+baseDefenseMapFromLocation: 1
 hiddenMovementBackgrounds:
   - TACTICBACK00.SCR
   - TACTICBACK01.SCR

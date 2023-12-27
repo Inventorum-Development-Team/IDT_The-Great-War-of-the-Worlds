@@ -103,6 +103,10 @@ ufopaedia:
   - delete: STR_SECTOPOD
   - delete: STR_SECTOPOD_AUTOPSY
   - delete: STR_PROXIMITY_GRENADE
+  - delete: STR_PERSONAL_ARMOR_UC
+  - delete: STR_POWER_SUIT
+  - delete: STR_LASER_DEFENSES
+
 ###########################################
 ############# LORE REPORTS ###############
 #########################################
@@ -3713,19 +3717,134 @@ ufopaedia:
 ####### MARTIAN VEHICLES ######
 ##############################
 
+####### IEF Facilities #######
+
   - id: STR_ALIEN_CONTAINMENT
     type_id: 6
     section: STR_BASE_FACILITIES
     text: STR_ALIEN_CONTAINMENT_UFOPEDIA
     requires:
       - STR_ALIEN_CONTAINMENT
+  - id: STR_TRENCH_LINE_NS
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_TRENCH_LINE_NS_UFOPEDIA
 
+  - id: STR_TRENCH_LINE_WE
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_TRENCH_LINE_WE_UFOPEDIA
 
+  - id: STR_TRENCH_LINE_CROSS
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_TRENCH_LINE_CROSS_UFOPEDIA
 
+  - id: STR_LASER_DEFENSES
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_LASER_DEFENSES_UFOPEDIA
+
+  - id: STR_PLASMA_DEFENSES
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_PLASMA_DEFENSES_UFOPEDIA
+
+  - id:  STR_FUSION_BALL_DEFENSES
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_FUSION_BALL_DEFENSES_UFOPEDIA
+
+  - id: STR_PSIONIC_LABORATORY
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_PSIONIC_LABORATORY_UFOPEDIA
+
+  - id: STR_HYPER_WAVE_DECODER
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text: STR_HYPER_WAVE_DECODER_UFOPEDIA
+
+  - id:  STR_MIND_SHIELD
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text:  STR_MIND_SHIELD_UFOPEDIA
+
+  - id:  STR_WATCHTOWER
+    type_id: 6
+    section: STR_BASE_FACILITIES
+    text:  STR_WATCHTOWER_UFOPEDIA
 
 
 ##################################
 #######KIROXEI FIXES HERE###################
 ##################################
 
+
+  - id: STR_CONTACT_WITH_TESLA
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_CONTACT_WITH_TESLA_UFOPEDIA
+    requires:
+      - STR_CONTACT_WITH_TESLA
+    listOrder: 1071
+
+
+  - id: STR_TESLA_ELECTRIC_BLUEPRINTS
+    type_id: 8
+    section: STR_NEW_TECHNOLOGIES
+    text: STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA
+    requires:
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
+    listOrder: 1072
+
+
+  - id: STR_PERSONAL_ARMOR_UC
+    type_id: 5
+    requires:
+      - STR_T2_HEAVY_BODY_ARMOR
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_PERSONAL_ARMOR_UFOPEDIA
+    listOrder: 12161
+
+  - id: STR_POWER_SUIT_UC
+    type_id: 5
+    requires:
+      - STR_T3_HEAVY_BODY_ARMOR
+    section: STR_UNIFORMS_AND_ARMORS
+    text: STR_POWER_SUIT_UFOPEDIA
+    listOrder: 12162
+
+
 #################################
+## UFOPEDIA TYPE Section Only
+
+#
+#
+#STR_LORE_REPORTS
+#STR_UNIFORMS_AND_ARMORS
+#STR_WEAPONS_AND_EQUIPMENT
+#STR_HEAVY_WEAPONS_PLATFORMS
+#STR_VEHICLES
+#STR_VEHICLE_WEAPONS
+#STR_BASE_FACILITIES
+#STR_NEW_TECHNOLOGIES
+#STR_MARTIAN_WEAPONS:
+#STR_ENEMY_INTELLIGENCE:
+#STR_MARTIAN_VEHICLES:
+#STR_MARTIAN_BUILDINGS:
+
+
+
+#################################
+#Put some List for the UFOPEDIA (War Codex Category)
+
+
+
+
+
+####################################
+###################################
+=======
+#################################
+

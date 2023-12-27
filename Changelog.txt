@@ -1,3 +1,29 @@
+25-December-2023: 1.0 "Attrition"
+Changes made:
+* Added most of the missing codes. By Kiro Xei
+* Added most of the missing War Codex content (Ufopedia). By Kiro Xei
+* Added missing research requirements. By Kiro Xei
+* Fixing Strings from language yml file. By Kiro Xei
+* Rebalance Heat-Ray (Laser) weapon requirements by changing to all difficults. It requires Heat Ray Weapon analysis and Improved metalurgic techniques.
+* Added new facilities: Guard Tower; Tower Fortress; Trehcn line N-S + W- E; Concrete Fortification; Machine Gun Nest. By Efrenespartano
+* Changed facility name for the following: General Stores > Supply Depot, Living Quarters > Barracks. By Efrenespartano
+* Introducing base defense terrain, players can allow to move troops to unbuilt terrain as it please. By Efrenespartano
+* Barracks can now train up to 10 soldiers including all soldier types. Soldiers training cap is added.
+* Fixed Berdan II ufopedia by recorrecting the appropiate research info.
+* Phlogiston weapon events reorgnazied. By Efrenespartano
+* All items, inventorys, and weapons are reduced to realistic scaled divided by 10. Which helps to fill more items in few supply dpeots.
+* Changed Overlords living weapon to false, due to missing image issue. Now they can wield weapons.
+* Revised starting conditions by adding missing armor: Italian Gasmask, Russian Gasmask, L'inmortale Heavy Armor, and Totemkopf Mechanized Armor for the Red Weed environment.
+* Adding Energy shield script from The World of Terrifying Silence Mod to Totemkopf Mechanized Armor for field testing. Adding visibilityatday to 30; visibilityatdark to 18 to Totemkopf Mechanized Armor.
+* Adding Maxviewdistance to 40. No soldiers can go blind shooting. This applies to units, allies, and enemies.
+* Fixing Russian Tier 2 equipment selection.
+* Fixing Hague Convention weapons and ammo by recorrecting the requirements.
+* Replacing missing alien race snakes man to Martians elite platoon.
+* Laboratory spaces reduces to 30; while Advance Laboratory was added to 60 to match the description.
+* Changed HWP Tank requirements.
+* General Bugfixing. By Kiro Xei.
+
+
 15-October-2023: 0.9 Mk. IV 'Slavyanka'
 Changes made:
 * Updated to latest OXCE v7.9.8

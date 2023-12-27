@@ -670,6 +670,15 @@ startingBase:
       id: 1
       fuel: 2500
       damage: 0
+      weapons:
+        - type: STR_VICKERS_MMG
+          ammo: 250
+        - type: STR_VICKERS_MMG
+          ammo: 250
+        - type: STR_VICKERS_MMG
+          ammo: 250
+        - type: STR_VICKERS_MMG
+          ammo: 250
       items:
         STR_FRAG_GRENADE: 8
         STR_SERVICE_REVOLVER: 2
@@ -685,7 +694,7 @@ startingBase:
       status: STR_READY
 
   items:
-    STR_BECKER_2CM_CANNON: 1
+    STR_BECKER_2CM_CANNON_LAUNCHER: 1
     STR_QF_1_PDR_POMPOM_LAUNCHER: 1
     STR_SERVICE_REVOLVER: 4
     STR_REVOLVER_CLIP: 20
@@ -707,38 +716,3 @@ startingBase:
     STR_MAXIM_MG_DRUM: 4
   scientists: 10
   engineers: 10
-
-
-facilities:
-  - delete: STR_HANGAR
-
-  - type: STR_HANGAR
-    spriteShape: 9
-    spriteFacility: 9
-    size: 2
-    buildCost: 200000
-    buildTime: 25
-    storage: 50
-    monthlyCost: 25000
-    crafts: 2
-    mapName: XBASE_16
-  - type: STR_GENERAL_STORES
-    storage: 100
-  - type: STR_SMALL_RADAR_SYSTEM
-    spriteShape: 2
-    spriteFacility: 21
-    buildCost: 400000
-    buildTime: 12
-    monthlyCost: 10000
-    radarRange: 1700
-    radarChance: 15
-    hyper: true
-    mapName: XBASE_04
-  - type: STR_LARGE_RADAR_SYSTEM
-    spriteShape: 1
-    spriteFacility: 22
-    buildCost: 800000
-    buildTime: 25
-    monthlyCost: 20000
-    radarRange: 2577
-    radarChance: 30

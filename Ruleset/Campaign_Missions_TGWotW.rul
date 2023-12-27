@@ -1096,7 +1096,7 @@ alienDeployments:
     markerName: STR_CAMPAIGN_SIEGE_OF_VERDUN_MARKERNAME
     markerIcon: 10
     duration: [999, 999]
-    despawnPenalty: 500
+    despawnPenalty: 10
     nextStage: STR_CAMPAIGN_VERDUN_FLEURY_VILLAGE
     points: 200
 
@@ -1581,6 +1581,7 @@ alienDeployments:
 ########### NORMAL MISSIONS #############
 ########################################
   - type: STR_BASE_DEFENSE
+    isHidden: true
     data:
       - alienRank: 5
         lowQty: 5
@@ -1841,9 +1842,9 @@ alienDeployments:
             []
     width: 60
     length: 60
-    height: 2
+    height: 6
     terrains:
-      - XBASE
+      - WW1BASE
     shade: 5
     briefing:
       palette: 0

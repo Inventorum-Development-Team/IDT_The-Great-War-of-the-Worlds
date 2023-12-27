@@ -16,61 +16,63 @@ TOGETHER WE STAND
 
 Special Thanks to (in no particular order):
 
-*Hobbes, his help is invaluable and always solves my questions about Geoscape & ruleset editing.
-*bulletdesigner, for making the original Chimera map (now called Conqueror).
-*Solarius Scorch and Dioxine, for their Village terrain, also kind words, inspiration and ruleset reference from their projects, The X-Com Files and X-Piratez.
-*Meridian & Yankes, for making the wonderful OXCE and answering our many many questions.
-*Tekamthi, for his modified Alien habitat terrain (modified and further expanded by Luke83).
-*ohartenstein23, for his awesome tips, cool codes and constant help.
-*ivandogovich, Anon011, TarzanCZ, davide, chaosshade, BlackStaff, SG_Barton, Hashirama015 & SquirrelofNukes for their kind comments and support.
-*stosstruppen1918, sturmsoldat_des_kaisers & m_ww1_memes, ino_bartula, __robo__, scgex, mighty_mega_max, daniel_gautreaux and the one hundred followers for their huge support on social media
-*130° División Blindada [130_L] efrenespartano's World of Tanks Blitz clan, for being our first beta testers.
+* Hobbes, his help is invaluable and always solves my questions about Geoscape & ruleset editing.
+* bulletdesigner, for making the original Chimera map (now called Conqueror).
+* Solarius Scorch and Dioxine, for their Village terrain, also kind words, inspiration and ruleset reference from their projects, The X-Com Files and X-Piratez.
+* Meridian & Yankes, for making the wonderful OXCE and answering our many many questions.
+* Tekamthi, for his modified Alien habitat terrain (modified and further expanded by Luke83).
+* ohartenstein23, for his awesome tips, cool codes and constant help.
+* ivandogovich, Anon011, TarzanCZ, davide, chaosshade, BlackStaff, SG_Barton, Hashirama015 & SquirrelofNukes for their kind comments and support.
+* stosstruppen1918, sturmsoldat_des_kaisers & m_ww1_memes, ino_bartula, __robo__, scgex, mighty_mega_max, daniel_gautreaux and the one hundred followers for their huge support on social media
+* 130° División Blindada [130_L] efrenespartano's World of Tanks Blitz clan, for being our first beta testers.
 
 Credits by name:
 
-*alinare: Artwork, Mutant Crusher, ideas & ruleset editing.
-*Andr: Craft sprites plus ideas
-*Anon: feedback support
+* alinare: Artwork, Mutant Crusher, ideas & ruleset editing.
+* Andr: Craft sprites plus ideas
+* Anon: feedback support
 *b1ackwolf: Modified Paperdoll human bodies (further modified from Solarius Scorch work), lore ideas
-*BlackStaff: French translation, plus ideas & historic reference help
-*Bootchicken48: New Sountrack plus feedback support
-*Brain_322: Martian Slugthrower round sprite
-*b__0: tiles for IDT_VILLAGE and IDT_FOREST terrains
-*Civilian: Heat Ray weapons (modified)
-*cubik2k: feedback support
-*Cupon4uk: Template for Russian Weapons, feedback support and ideas
-*Dauntless1942: new logo for the project
-*drages: Bullet sprites
-*efrenespartano: General artwork, spanish translation, vehicle, weapon and soldier sprites & ruleset editing
-*Finnik: Whistle and Martian Launcher stats modifier script
-*Fegelein: feedback support
-*GoldenDragon: feedback support
-*Hans Woofington: Template for all human uniforms and armors, British, French, American and German uniforms, Heat-Ray ammo sprites, art help and support
+* BlackStaff: French translation, plus ideas & historic reference help
+* Bootchicken48: New Sountrack plus feedback support
+* Brain_322: Martian Slugthrower round sprite
+* b__0: tiles for IDT_VILLAGE and IDT_FOREST terrains
+* Civilian: Heat Ray weapons (modified)
+* cubik2k: feedback support
+* Cupon4uk: Template for Russian Weapons, feedback support and ideas
+* Dauntless1942: new logo for the project
+* drages: Bullet sprites
+* efrenespartano: General artwork, spanish translation, vehicle, weapon and soldier sprites & ruleset editing
+* Finnik: Whistle and Martian Launcher stats modifier script
+* Fegelein: feedback support
+* GoldenDragon: feedback support
+* Hans Woofington: Template for all human uniforms and armors, British, French, American and German uniforms, Heat-Ray ammo sprites, art help and support
 *Harald_Gray: Mechtoids (modified, used as template for Martian Powered Armors)
 *HelloMiko: feedback support
 *Hobbes: Tech-Comm reference plus help on the forums.
-*Ikhanad: feedback support, Phlogiston plot, and ideas
-*Luke83: All of the Martian Tripods, Martian Fleet, infested maps, Forest Rail, Trenches mapsets plus ideas & ruleset editing
-*Nathan: Phlogiston plot, Phlogiston weapon sprites
-*Noah183: Support debugging plus ideas
-*Nord: craftWeapon Bombs fire sound
-*MajorDerp16: feedback support
-*memmaker: WEAPON_TYPE & Classes scripting
-*ohartenstein23: Hand-to-hand combat, craft shields & crewed Turrets
-*Rclipse: Martian Factions ruleset, plus feedback support
-*Ryzenator: feedback support
-*RusArtistSergo: feedback support plus ideas
-*SideQuests: Triffids and Heay Ray bullet sprite
-*Solarius Scorch: Celebrate Diversity, Ravager sprites, Cavalry Sabre, Recolored Alien Compilation, original Trenchcoat spritesheet (french uniform) & boxes
-*Stosstruppen1918: general Historic reference and guide.
-*StormRangerX: feedback support
-*SupSuper: Original GeoIcons GlobeMarkers
-*Tal'Raziid: feedback support, fix to Turrets' issues
-*The Reaver of Darkness: Heat Ray weapons stats, Phlogiston plot, plus help with general balance.
-*The Martian: Gun turret sprites mounted on Mech Walkers
-*tollworkout: DeepAliens UFOs (selenite UFOs)
-*Warboy: main debugging support
-*wolwerin: Tea Flask, Bandages, Rifle Grenade, Martian Skirmirshers, Silacoid, Heat-Ray Batteries, Coilgun sprites plus ideas
+* Ikhanad: feedback support, Phlogiston plot, and ideas
+* Luke83: All of the Martian Tripods, Martian Fleet, infested maps, Forest Rail, Trenches mapsets plus ideas & ruleset editing
+* Kael Schwabauer: IDT tester, feedback support, lore writer 
+* Kiro Xei: general balance and code support
+* Nathan: Phlogiston plot, Phlogiston weapon sprites
+* Noah183: Support debugging plus ideas
+* Nord: craftWeapon Bombs fire sound
+* MajorDerp16: feedback support
+* memmaker: WEAPON_TYPE & Classes scripting
+* ohartenstein23: Hand-to-hand combat, craft shields & crewed Turrets
+* Rclipse: Martian Factions ruleset, plus feedback support
+* Ryzenator: feedback support
+* RusArtistSergo: feedback support plus ideas
+* SideQuests: Triffids and Heay Ray bullet sprite
+* Solarius Scorch: Celebrate Diversity, Ravager sprites, Cavalry Sabre, Recolored Alien Compilation, original Trenchcoat spritesheet (french uniform) & boxes
+* Stosstruppen1918: general Historic reference and guide.
+* StormRangerX: feedback support
+* SupSuper: Original GeoIcons GlobeMarkers
+* Tal'Raziid: feedback support, fix to Turrets' issues
+* The Reaver of Darkness: Heat Ray weapons stats, Phlogiston plot, plus help with general balance.
+* The Martian: Gun turret sprites mounted on Mech Walkers
+* tollworkout: DeepAliens UFOs (selenite UFOs)
+* Warboy: debugging support, OXC dev
+* wolwerin: Tea Flask, Bandages, Rifle Grenade, Martian Skirmirshers, Silacoid, Heat-Ray Batteries, Coilgun sprites plus ideas
 
 
 *Most of the backgrounds are exclusive photos kindly provided by Stosstruppen1918

@@ -802,7 +802,7 @@ research:
     unlocks:
      - STR_RUSSIAN_COSSACK_WEAPONS_T2
     disables:
-     - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
+     - STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
      - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
 
   - name: STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
@@ -872,7 +872,7 @@ research:
      - STR_SMLE_MKIII_UNLOCK
 
   - name: STR_SMLE_MKIII_KMM_AMMO_UNLOCK
-    cost: 10
+    cost: 0
     dependencies:
      - STR_SMLE_MKIII_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
@@ -899,7 +899,7 @@ research:
      - STR_SPRINGFIELD_UNLOCK
 
   - name: STR_SPRINGFIELD_KMM_AMMO_UNLOCK
-    cost: 10
+    cost: 0
     dependencies:
      - STR_P14_ENFIELD_UNLOCK
      - STR_SPRINGFIELD_UNLOCK
@@ -1133,6 +1133,8 @@ research:
      - STR_HEAVY_REVOLVER_UNLOCK
      - STR_SERVICE_REVOLVER_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
+    unlocks: 
+    - STR_REVOLVER_KMM_AMMO_UNLOCK
 
   - name: STR_REVOLVER_DUMDUM_AMMO_UNLOCK
     cost: 0
@@ -1141,6 +1143,8 @@ research:
      - STR_HEAVY_REVOLVER_UNLOCK
      - STR_SERVICE_REVOLVER_UNLOCK
      - STR_GENEVA_CONVENTION_APPEAL
+    unlocks:
+      - STR_REVOLVER_DUMDUM_AMMO_UNLOCK
 
   - name: STR_M1911_COLT_UNLOCK
     cost: 0
@@ -1520,6 +1524,8 @@ research:
      - STR_WINCHESTER_TRENCH_GUN_UNLOCK
      - STR_REMINGTON_MODEL_11_UNLOCK
      - STR_INERTIA_SHOTGUN_UNLOCK
+    unlocks:
+      - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
 
   - name: STR_MODEL_1900_UNLOCK
     cost: 0
@@ -1549,6 +1555,8 @@ research:
      - STR_GENEVA_CONVENTION_APPEAL
      - STR_MODEL_1900_UNLOCK
      - STR_MODEL_1900_SAWEDOFF_UNLOCK
+    unlocks:
+     - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
 
 ##############################
 # EXPLOSIVES
@@ -1771,6 +1779,9 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
+    unlocks: 
+    - STR_REVOLVER_KMM_AMMO_UNLOCK
+
   - name: STR_MARTIAN_METAL_ARMOR_PLATES
     #    listOrder: 902
     cost: 400
@@ -2159,31 +2170,59 @@ research:
   - name: STR_MARTIAN_CONSCRIPT_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_SECTOID
+    - STR_SECTOID_LEADER
+
   - name: STR_MARTIAN_LINE_INFANTRY_INTERROGATION
     cost: 20
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_LINE_INFANTRY
+    - STR_MARTIAN_LINE_INFANTRY_LEADER
+
   - name: STR_MARTIAN_MARINE_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_MARINE
+    - STR_MARTIAN_MARINE_LEADER
+
   - name: STR_MARTIAN_SKIRMISHER_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_SKIRMISHER
+    - STR_MARTIAN_SKIRMISHER_LEADER
+
   - name: STR_MARTIAN_ROYAL_GUARD_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_ROYAL_GUARD
+    - STR_MARTIAN_ROYAL_GUARD_LEADER
+
   - name: STR_MARTIAN_SCIENTIST_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_SCIENTIST
+
   - name: STR_MARTIAN_SHOCK_GUARD_INTERROGATION
     cost: 15
     points: 50
-    needItem: true
+    needItem: false
+    dependencies:
+    - STR_MARTIAN_SHOCK_GUARD
+    - STR_MARTIAN_SHOCK_GUARD_LEADER
+
+
 
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
@@ -2445,6 +2484,11 @@ research:
     points: -50
     dependencies:
       - STR_FRONTLINES_FIELD_REPORT
+    unlocks:
+      - STR_REVOLVER_DUMDUM_AMMO_UNLOCK
+      - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
+      - STR_SHOTGUN_DUMDUM_SHELLS_5_AMMO_UNLOCK
+
 
   - name: STR_BIOLOGICAL_WARFARE
     cost: 300

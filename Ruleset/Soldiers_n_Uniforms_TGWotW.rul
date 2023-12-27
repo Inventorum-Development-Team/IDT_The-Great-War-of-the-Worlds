@@ -36,6 +36,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 50
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 70
       stamina: 120
@@ -94,6 +106,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 40
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 90
       stamina: 100
@@ -150,6 +174,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 40
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 90
       stamina: 100
@@ -207,6 +243,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 40
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 80
       stamina: 100
@@ -270,6 +318,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 60
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 80
       stamina: 100
@@ -330,6 +390,18 @@ soldiers:
       psiStrength: 100
       psiSkill: 16
       melee: 60
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
+      melee: 60
     statCaps:
       tu: 80
       stamina: 100
@@ -389,6 +461,18 @@ soldiers:
       strength: 40
       psiStrength: 100
       psiSkill: 16
+      melee: 60
+    trainingStatCaps:
+      tu: 80
+      stamina: 80
+      health: 50
+      bravery: 50
+      reactions: 70
+      firing: 80
+      throwing: 80
+      strength: 50
+      psiStrength: 75
+      psiSkill: 60
       melee: 60
     statCaps:
       tu: 80
@@ -458,17 +542,19 @@ items:
 #####################
 
   - type: STR_PERSONAL_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_PERSONAL_ARMOR
     costSell: 850
     costBuy: 1000
   - type: STR_POWER_SUIT
-    size: 0.8
+    size: 0.08
     requires:
       - STR_POWER_SUIT
     costSell: 850
     costBuy: 1000
+    visibilityAtDay: 30
+    visibilityAtDark: 18
 
   - type: STR_PERSONAL_ARMOR_CORPSE
     name: STR_CORPSE
@@ -506,13 +592,13 @@ items:
 #############################
 
   - type: STR_BRITISH_T2_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_BRITISH_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_BRITISH_T3_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_BRITISH_T3_BODY_ARMOR
     costSell: 8500
@@ -594,13 +680,13 @@ items:
 #####################
 
   - type: STR_AMERICAN_T2_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_AMERICAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_AMERICAN_T3_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_AMERICAN_T3_BODY_ARMOR
     costSell: 8500
@@ -692,13 +778,13 @@ items:
 #########################
 
   - type: STR_GERMAN_T2_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_GERMAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_GERMAN_T3_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_GERMAN_T3_BODY_ARMOR
     costSell: 8500
@@ -782,13 +868,13 @@ items:
 ####################
 
   - type: STR_FRENCH_T2_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_FRENCH_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_FRENCH_T3_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_FRENCH_T3_BODY_ARMOR
     costSell: 8500
@@ -869,13 +955,13 @@ items:
 #####################
 
   - type: STR_ITALIAN_T2_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_ITALIAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_ITALIAN_T3_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_ITALIAN_T3_BODY_ARMOR
     costSell: 8500
@@ -946,13 +1032,13 @@ items:
 #####################
 
   - type: STR_RUSSIAN_T2_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_RUSSIAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
   - type: STR_RUSSIAN_T3_BODY_ARMOR
-    size: 0.8
+    size: 0.08
     requires:
       - STR_RUSSIAN_T3_BODY_ARMOR
     costSell: 8500
@@ -10266,4 +10352,22 @@ extraSprites:
 # Termina Capes
 
 #luego copias todo esto en tu coso de extrasprites. en teoria deberia estar listo
+
+# Calculating based on height:
+# Male Height 1.74m
+# Female Height 1.61m
+# Uniforms are not larger than 0.2
+# Formula for OpenXcom Size / Scale: Meters to Pixel Units
+# First Layer + Second Layer + Third Layer + Fourth Layer; based on art layer design
+
+# Add all items heights based on how many items equipped; divided by many items equipped.
+# Add by how many layers equiped based with number of tiers;
+# 1: Uniform and Belt; 2:Body Armor; 3: Assist Mobility; 4:Extra Armor; 5:Complete Protection 6:Boosters / Mobility
+
+# Meters: Helmet: 0.40; Hat: 0.25; Gasmask: 0.40; Gloves: 0.25; Shoes: 0.30; Trousers: 0.85; Jacket: 0.75
+# Round the to the estimate 1 - 5 : 5 -
+# 0.59 > 0.60 meters
+# Convert meters to  hexometers : hexosize 1.00 = 0.0100
+# 0.06 hexosize; 0.01 hexometers = 0.1 meters
+
 

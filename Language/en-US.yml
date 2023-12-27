@@ -6,7 +6,7 @@ en-US:
       STR_OPENXCOM: "The Great War of the Worlds"
       STR_NEW_GAME: "Grand Campaign"
       STR_NEW_BATTLE: "Skirmirshes"
-      STR_MISSION_GENERATOR: "THE WAR TO END ALL WARS"
+      STR_MISSION_GENERATOR: "BATTLE SIMULATOR"
       STR_UFOPAEDIA_UC: "WAR CODEX"
       STR_DAMAGE_ARMOR_PIERCING: "BALLISTIC"
       STR_DAMAGE_LASER_BEAM: "ENERGY BEAM"
@@ -82,29 +82,29 @@ en-US:
       STR_UNARMED_UNIFORM: "Unarmed Melee Attack"
       STR_UNARMED_NONE_PEDIA: "Use this attack with your bare hand, without any item. You can use it to employ turrets and other fixed emplacements. Beware, as you may hurt yourself if you hit things or enemies with enough strength (2 damage, 4 stamina, 8 TUs use)."
       STR_DETECTED: "Sighted"
-      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON MACHINE-TIME=5 Secs"
-      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE MARTIAN-MACHINE "
-      STR_UFO_IS_NOT_RECOVERED: "Martian-Machine not recovered"
-      STR_UFO_IS_RECOVERED: "Martian-Machine recovered"
-      STR_UFO_RECOVERY: "MARTIAN-MACHINE RECOVERY"
-      STR_UFO_DESTROYED: "MARTIAN-MACHINE DESTROYED!"
-      STR_UFO_: "MARTIAN-MACHINE-{0}"
-      STR_TAILING_UFO: "CHASING A MARTIAN-MACHINE"
-      STR_INTERCEPTING_UFO: "INTERCEPTING MARTIAN-MACHINE-{0}"
+      STR_CENTER_ON_UFO_TIME_5_SECONDS: "CENTER ON ENEMY UNIT=5 Secs"
+      STR_GO_TO_LAST_KNOWN_UFO_POSITION: "GO TO THE LAST KNOWN POSITION OF THE ENEMY UNIT "
+      STR_UFO_IS_NOT_RECOVERED: "Enemy arsenal asset not recovered"
+      STR_UFO_IS_RECOVERED: "Enemy arsenal asset recovered"
+      STR_UFO_RECOVERY: "ENEMY CRASHSITE RECOVERY"
+      STR_UFO_DESTROYED: "ENEMY UNIT DESTROYED!"
+      STR_UFO_: "ENEMY UNIT-{0}"
+      STR_TAILING_UFO: "CHASING ENEMY UNIT"
+      STR_INTERCEPTING_UFO: "INTERCEPTING ENEMY MACHINE-{0}"
       STR_XCOM_OPERATIVES_KILLED: "IEF LOSSES"
       STR_XCOM_OPERATIVES_MISSING_IN_ACTION: "IEF SOLDIERS MISSING IN ACTION"
-      STR_XCOM_CRAFT_LOST: "IEF SHIP LOST"
-      STR_ALIEN_BASE_: "MARTIAN FORTRESS-{0}"
-      STR_ALIEN_BASE_STILL_INTACT: "Martian Fortress still intact"
-      STR_ALIEN_BASE_DESTROYED: "Martian Fortress detroyed"
-      STR_ALIEN_BASE_RECOVERY: "RECOVERY OF MARTIAN FORTRESS"
-      STR_ALIEN_BASE_ASSAULT: "ASSAULT ON MARTIAN FORTRESS"
-      STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a Martian Fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
+      STR_XCOM_CRAFT_LOST: "IEF VEHICLE / CRAFT LOST"
+      STR_ALIEN_BASE_: "ENEMY FORTRESS-{0}"
+      STR_ALIEN_BASE_STILL_INTACT: "Enemy Fortress still intact"
+      STR_ALIEN_BASE_DESTROYED: "Enemy Fortress destroyed"
+      STR_ALIEN_BASE_RECOVERY: "RECOVERY OF ENEMY FORTRESS"
+      STR_ALIEN_BASE_ASSAULT: "ASSAULT ON ENEMY FORTRESS"
+      STR_ALIEN_BASE_ASSAULT_BRIEFING: "IEF soldiers have entered a enemy fortress. The control center must be destroyed to render the base unusable. The objective of the mission will be complete when we eliminates all enemies or  when our men returns to the green exit area (press the 'Abort mission' icon to escape). The mission's objective will be complete when we eliminate all enemies or when we return our men to the green exit area (press the 'Abort mission' icon to escape)."
       STR_UFO_CRASH_RECOVERY: "DOWNED MACHINE RECOVERY"
-      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the Tripod or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of Tripod remains, artifacts and Martian corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_UFO_CRASH_RECOVERY_BRIEFING: "Use extreme caution - Enemies may be present on the machine or around the accident site. The Mission will be successful when all enemy units have been eliminated or neutralized. Recovery of machine remains, artifacts and enemy corpses can then be initiated. To abort the mission return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
       STR_UFO_GROUND_ASSAULT: "MACHINE GROUND ASSAULT"
-      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the Martian Machine. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Martian Machine remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
-      STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a Martian base in {0}"
+      STR_UFO_GROUND_ASSAULT_BRIEFING: "Explore the landing zone and, if possible, gain access to the enemy machine. This mission will be completed when all enemy units have been eliminated or neutralized. The recovery of Martian Machine remains, technology and Martian corpses can then be initiated. To abort the mission, return the IEF soldiers to the transport vehicle and click on the 'Abort Mission' icon."
+      STR_XCOM_AGENTS_HAVE_LOCATED_AN_ALIEN_BASE_IN_REGION: "Coalition scouts have located a enemy base in {0}"
       STR_XCOM_PERFORMANCE_ROSTER: "IEF Performance Roster"
       STR_UFOPAEDIA: "War Codex"
       STR_XCOM_CRAFT_ARMAMENT: "IEF CRAFT & ARMAMENT"
@@ -112,32 +112,32 @@ en-US:
       STR_UNIFORM_AND_ARMOR: "UNIFORMS AND ARMORS"
       STR_WEAPONS: "WEAPONS"
       STR_LORE_REPORTS: "HISTORICAL REPORTS"
-      STR_ALIEN_ARTIFACTS: "MARTIAN ARTIFACTS"
-      STR_BASE_FACILITIES: "BASE FACILITIES"
-      STR_ALIEN_LIFE_FORMS: "MARS LIFE FORMS"
-      STR_ALIEN_RESEARCH_UC: "MARTIAN RESEARCH"
-      STR_UFO_COMPONENTS: "MARTIAN MACHINES COMPONENTS"
-      STR_UFOS: "MARTIAN MACHINES"
+      STR_ALIEN_ARTIFACTS: "ALIEN ARTIFACTS"
+      STR_BASE_FACILITIES: "IEF STRUCTURES"
+      STR_ALIEN_LIFE_FORMS: "ALIEN LIFEFORMS"
+      STR_ALIEN_RESEARCH_UC: "ALIEN RESEARCH"
+      STR_UFO_COMPONENTS: "ALIEN TECH COMPONENTS"
+      STR_UFOS: "ALIEN MACHINES"
       STR_BESIEGED_TROOPS_LOW_MORALE: "The morale of your besieged troops is getting low!"
 
       STR_XCOM_PROJECT_MONTHLY_REPORT: "IEF MONTHLY REPORT"
       STR_MONTH: "Month> {ALT}{0} {1}"
-      STR_COUNCIL_IS_GENERALLY_SATISFIED: "The Coalition is generally satisfied with your progress so far."
-      STR_COUNCIL_IS_VERY_PLEASED: "The Coalition is very pleased with your excellent progress. Keep up the good work."
-      STR_COUNCIL_IS_DISSATISFIED: "The Coalition is dissatisfied with your performance. You must improve your effectiveness in dealing with the alien menace or risk termination of the project."
-      STR_YOU_HAVE_NOT_SUCCEEDED: "Despite your most valiant efforts, we have failed to defend our planet. Each member of the Coalition is retreating to safe zones, using scorched earth tactics to deny the enemy of our resources. The Earth belongs to the Martians."
-      STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is particularly pleased with your ability to deal with the localized threat and has agreed to increase its funding."
-      STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are particularly happy with your progress in dealing with local alien incursion and have agreed to increase their funding."
+      STR_COUNCIL_IS_GENERALLY_SATISFIED: "The Coalition remarks your performance against alien incursion. Good work."
+      STR_COUNCIL_IS_VERY_PLEASED: "The Coalition recognizes your performance against alien invasion forces. Your war contribution against alien incursions is absolutely incredible."
+      STR_COUNCIL_IS_DISSATISFIED: "The Coalition performance is dropping. You must contribute the Coalition war efforts against alien incursions or risk the military branch disbandment."
+      STR_YOU_HAVE_NOT_SUCCEEDED: "Despite your most valiant efforts, we have failed to defend our planet. Each member of the Coalition is retreating to safe zones, using scorched earth tactics to deny the enemy of our resources. The Earth is now occupied by alien forces."
+      STR_COUNTRY_IS_PARTICULARLY_PLEASED: "{0} is able to suppress the alien forces in their territory. Your supporter increases their contribution funds."
+      STR_COUNTRIES_ARE_PARTICULARLY_HAPPY: "{0} are able to suppress the alien forces in their territory. Your supporters increases their contribution funds."
       STR_COUNTRIES_COMMA: "{0}, {1}"
       STR_COUNTRIES_AND: "{0} and {1}"
-      STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} is unhappy with your ability to deal with alien activity in its territory and has decided to reduce its financial commitment."
-      STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} are unhappy with your ability to deal with alien activity in their territory and have decided to reduce their funding."
+      STR_COUNTRY_IS_UNHAPPY_WITH_YOUR_ABILITY: "{0} is having difficult fighting the alien forces in their territory. Your supporter reduces their contribution funds."
+      STR_COUNTRIES_ARE_UNHAPPY_WITH_YOUR_ABILITY: "{0} are having difficult fighting the alien forces in their territory. Your supporters reduces their contribution funds."
       STR_KNOTS: "{0} knots"
-      STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} was overrrun after a Martian breakthrough and we have lost contact with their military and civilian command."
-      STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} were overrrun after a Martian breakthrough and we have lost contact with their military and civilian command."
+      STR_COUNTRY_HAS_SIGNED_A_SECRET_PACT: "{0} was overrrun after a alien breakthrough and we have lost contact with their military and civilian command."
+      STR_COUNTRIES_HAVE_SIGNED_A_SECRET_PACT: "{0} were overrrun after a alien breakthrough and we have lost contact with their military and civilian command."
       STR_MONTHLY_RATING: "Monthly Rating> {ALT}{0}{ALT} {1}"
       STR_FUNDING_CHANGE: "Funding change> {ALT}{0}"
-      STR_COUNCIL_REDUCE_DEBTS: "The Coalition is not happy with your financial position. You must reduce your debts below $1 million or the project will be terminated."
+      STR_COUNCIL_REDUCE_DEBTS: "The Coalition is not happy with your financial position. You must reduce your debts below $1 million or this military branch will be salvaged."
 
       STR_MT_RATING_EXEMPLARY: "Glorious"
       STR_MT_RATING_EXCELLENT: "Superior"
@@ -149,14 +149,14 @@ en-US:
       STR_MT_RATING_TERRIBLE: "Terrible"
       STR_MT_RATING_ABOMINABLE: "Horrible"
 
-      STR_VEHICLES: VEHICLES
-      STR_VEHICLE_WEAPONS: VEHICLE WEAPONS
+      STR_VEHICLES: VEHICLES / AEROSPACE
+      STR_VEHICLE_WEAPONS: VEHICLE / AEROSPACE WEAPONS
       STR_UNIFORMS_AND_ARMORS: UNIFORMS AND ARMORS
-      STR_MARTIAN_WEAPONS: MARTIAN WEAPONS
-      STR_ENEMY_INTELLIGENCE: ENEMY INTELLIGENCE
+      STR_MARTIAN_WEAPONS: ALIEN WEAPONS
+      STR_ENEMY_INTELLIGENCE: ALIEN INTELLIGENCE
       STR_NEW_TECHNOLOGIES: NEW TECHNOLOGIES
-      STR_MARTIAN_VEHICLES: MARTIAN VEHICLES
-      STR_MARTIAN_BUILDINGS: MARTIAN FACILITIES
+      STR_MARTIAN_VEHICLES: ALIEN VEHICLES
+      STR_MARTIAN_BUILDINGS: ALIEN FACILITIES
 
       STR_AUSTRIA_HUNGARY: AUSTRIA-HUNGARY
       STR_CALIFORNIA_REPUBLIC: CALIFORNIA FRONT
@@ -338,7 +338,7 @@ en-US:
       STR_FARQHUAR_HILL_UFOPEDIA:
         Next-generation British autoloader rifle. Its drum
         magazine allows you to charge twice as much ammunition. It has a great
-        rate of fire, although it has awkard recoild and inaccuracy over long
+        rate of fire, although it has awkard recoil and inaccuracy over long
         distances, it is recommended to shoot in short bursts. Calibered in .303
         British.
       STR_HUOT_LMG: Huot Automatic Rifle
@@ -424,7 +424,7 @@ en-US:
         The C96 pistol, built by Mauser, was the first truly
         successful semiautomatic pistol model. Almost all civilians and police
         forces in Western Europe use it, as reliable as it is. It is fed by
-        stripper clips with bullets calibrated in 7.63 mm
+        stripper clips with bullets calibrated in 7.63 mm.
       STR_MG0815: MG-08/14 LMG
       STR_MG0815_DRUM: MG-08/14 Drum
       STR_MG0815_DRUM_KMM: MG-08/14 K-MM Drum
@@ -432,7 +432,7 @@ en-US:
         German heavy machine gun, effective both mounted on bipods
         and in vehicles. It has been adapted for use by the infantry, although
         the weight makes it inaccurate if the soldier is not kneeling when
-        firing. It has a very high rate of fire. Uses 7.92mm bullets
+        firing. It has a very high rate of fire. Uses 7.92mm bullets.
       STR_SELBSTLADER_M1916: Selbstlader M1913 Scoped SLR
       STR_SELBSTLADER_M1916_MAG: Selbstlader M1913 Mag
       STR_SELBSTLADER_M1916_MAG_KMM: Selbstlader M1913 K-MM Mag
@@ -489,8 +489,7 @@ en-US:
       STR_MOSIN_NAGANT_UFOPEDIA:
         Service rifle of the Russian Imperial Army, designed
         by Sergei Mosin with the firing mechanism of Leon Nagant. Firing the
-        7.62x54mmR round, it was a great improvement over the old single -shot
-        rifles.
+        7.62x54mmR round, it was a great improvement over the trapdoor mechanism rifles.
       STR_OBREZ_PISTOL: Obrez Pistol
       STR_OBREZ_PISTOL_UFOPEDIA:
         Makeshift handgun made with the bolt mechanism of a
@@ -502,7 +501,7 @@ en-US:
       STR_BERDAN_II: Berdan II Bayoneted
       STR_BERDAN_II_AMMO: Berdan II Ammo
       STR_BERDAN_II_AMMO_KMM: Berdan II K-MM Ammo
-      STR_BERDAN_II_UFOPEDIA: Old single-shot service rifle, used from 1870 until replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
+      STR_BERDAN_II_UFOPEDIA: Old trapdoor mechanism service rifle, used from 1870 until replaced by the modern Mosin-Nagant in 1891. It is still used as hunting rifle and specially among the older veterans, as most have a personal attachment to it.
       STR_FEDOROV_AVTOMAT: Fedorov Avtomat SLR
       STR_FEDOROV_AVTOMAT_MAG: Fedorov Avtomat Mag
       STR_FEDOROV_AVTOMAT_MAG_KMM: Fedorov Avtomat K-MM Mag
@@ -677,14 +676,14 @@ en-US:
       STR_MAUSER_C96_CARBINE: Mauser C96/M14 Trench Carbine
       STR_MAUSER_C96_CARBINE_UFOPEDIA: A specially modified C96 pistol, adapted as an effective support weapon for trench raiding. With a longer barrel and wood stock and handguard, an already good weapon became even better.
       STR_MAUSER_C96_MAG: Mauser C96/M14 Mag
-      STR_MAUSER_C96_MAG_KMM: Mauser C96/M14 KMM Mag
+      STR_MAUSER_C96_MAG_KMM: Mauser C96/M14 K-MM Mag
       STR_LUGER_P08: P08 Luger
       STR_LUGER_P08_UFOPEDIA: Elegant handgun, most identified by its angled grip and magazines. A very valuable pistol, often seek by the soldiers as war trophies. Calibered in 9x19mm Parabellum.
       STR_LUGER_P08_MAG: P08 Luger Mag
       STR_LUGER_P08_MAG_KMM: P08 Luger K-MM Mag
       STR_LUGER_ARTILLERY: P08 Artillery Luger
       STR_LUGER_ARTILLERY_DRUM: P08 Artillery Luger Drum
-      STR_LUGER_ARTILLERY_DRUM_KMM: P08 Artillery Luger Drum
+      STR_LUGER_ARTILLERY_DRUM_KMM: P08 Artillery Luger K-MM Drum
       STR_LUGER_ARTILLERY_UFOPEDIA:
         Modified version of the P08 Luger handgun, has a
         handguard and a wooden stock added to increase accuracy and range.
@@ -788,7 +787,7 @@ en-US:
       STR_TRANQUILIZER_SHOTGUN_PROJECT: "Tranquilizer Gun Project"
       STR_TRANQUILIZER_RIFLE: "Tranquilizer Gun"
       STR_TRANQUILIZER_SHOTGUN_DARTS: "Tranquilizer Dart-Shells"
-      STR_TRANQUILIZER_RIFLE_UFOPEDIA: "A special purpose single-shot, break-action shotgun, designed to shoot blank shells with highly experimental darts filled with a clasified chemical compound inside, meant to incapacitate Martians. The darts have a syringe-like point that penetrates the thick skin of the Grays. The main drawback is the limited range of the dart once fired and the fact the enemy may take several shots to sedate, as we are unaware of the exact measure of chemicals required to fully knock them down."
+      STR_TRANQUILIZER_RIFLE_UFOPEDIA: "A special purpose trapdoor mechanism, break-action shotgun, designed to shoot blank shells with highly experimental darts filled with a clasified chemical compound inside, meant to incapacitate Martians. The darts have a syringe-like point that penetrates the thick skin of the Grays. The main drawback is the limited range of the dart once fired and the fact the enemy may take several shots to sedate, as we are unaware of the exact measure of chemicals required to fully knock them down."
       STR_SONIC_HANDGUN: "Sonic Compact Handgun"
       STR_SONIC_HANDGUN_UFOPEDIA: "Experience learnt with the Tranquilizer long guns showed the specialists tasked on stunning Grays were often in need of a lighter sidegun, as the bulky shotguns weren't easy to use. We've designed a small emitter, compact enough to fit inside a modified C93 pistol frame."
       STR_SONIC_RIFLE: "Sonic Ranged Disrupter"
@@ -953,8 +952,7 @@ en-US:
       STR_IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA:
-        "{NEWLINE}{NEWLINE}{NEWLINE}Analyz\
-        ing the new type of metal from which weapons and enemy vehicles are
+        "{NEWLINE}{NEWLINE}{NEWLINE}Analyzing the new type of metal from which weapons and enemy vehicles are
         made, we have found that it is a very easy-to-plow ore if a large amount
         of electromagnetic energy is applied. Using this knowledge, we have sent blueprints to
         allied factories to begin reconditioning the metal plates we have found
@@ -1156,7 +1154,7 @@ en-US:
       STR_MARTIAN_CYLINDER_ALERT: "Martian Cylinder detected"
       STR_MARTIAN_CYLINDER_DESCRIPTION: "We just got notice of a Martian Cylinder about to crashland in Earth, we must locate and destroy it!"
       STR_MARTIAN_CYLINDER_BRIEFING: "Right after making a breakthrough in the frontlines, an explosion was seen in the surface of Mars. Several hours later, a Cylinder crashed down. It's a clear attempt of the Martians to consolidate their newly adquired position. We must stop it before it's too late. It's widely known their cylinders carry just a couple of Scouting-Machines and several infantry platoons. Be careful and good luck!"
-      STR_MARTIAN_CYLINDER_MARKERNAME: "Martian Cylinder Crash Site"
+      STR_MARTIAN_CYLINDER_MARKERNAME_: "Martian Cylinder Crash Site"
 
       STR_TURRET_GUIDE: How to deploy a Turret?
       STR_TURRET_GUIDE_UFOPEDIA: Attention, soldier. Deploying a turret can be difficult at first. To use it, you need to kneel in front of the weapon and make a melee attack (using your bare hand, without holding a weapon). This is once per turn. To disassemble the turret, you need to use the Turret Wrench and make a melee attack. You can carry it and put it in another position. To reactivate it, you must use the ASSEMBLE attack using the Turret Wrench.
@@ -1282,7 +1280,7 @@ en-US:
       STR_MARTIAN_LIGHT_FIGHTER: "Martian Light Flying-Machine"
       STR_MARTIAN_LIGHT_FIGHTER_UFOPEDIA: "A small, two-seater interception alien craft, used to harass and interdict our aerial and naval convoys. The reason why the invaders went with a biplane design when its quite obvious they don't need it its a mystery. We can consider it some form of taunt or challenge."
       STR_SELENITE_FIGHTER: Selenite Fighter Craft
-      STR_SELENITE_FIGHTER_UFOPEDIA: Very small, agile and fast fighter ship, similar in functions to our interceptors. Employee to establish aerial supremacy. Uses light, fast-firing heat rays.
+      STR_SELENITE_FIGHTER_UFOPEDIA: Very small, agile and fast fighter ship, similar in functions to our interceptors. Operated by Selenite Pilots to establish aerial supremacy. Uses light, fast-firing heat rays.
       STR_SELENITE_GUNSHIP: Selenite Gunship Craft
       STR_SELENITE_GUNSHIP_UFOPEDIA: Fighter/bomber, used as ground support ship. The invaders use it as an escort for combat groups and to bombard human positions. Their weapons are slower than those of the Fighter, but more powerful.
       STR_SELENITE_TRANSPORT: Selenite Transport Craft
@@ -1349,14 +1347,14 @@ en-US:
 #################################################
 ####### MARTIAN TECHNOLOGY AND WEAPONS #########
 ###############################################
-      STR_ALIEN_RESEARCH: "Martian Recon"
-      STR_ALIEN_HARVEST: "Martian Harvest"
-      STR_ALIEN_ABDUCTION: "Martian Human Recolection"
-      STR_ALIEN_INFILTRATION: "Martian Breakthrough"
+      STR_ALIEN_RESEARCH: "Alien Recon"
+      STR_ALIEN_HARVEST: "Alien Harvest"
+      STR_ALIEN_ABDUCTION: "Alien Human Recollection"
+      STR_ALIEN_INFILTRATION: "Alien Breakthrough"
       STR_ALIEN_BASE: "Alien Base"
-      STR_ALIEN_TERROR: "Martian City Attack"
-      STR_ALIEN_RETALIATION: "Martian Counterattack"
-      STR_ALIEN_SUPPLY: "Martian Supply Run"
+      STR_ALIEN_TERROR: "Alien City Attack"
+      STR_ALIEN_RETALIATION: "Alien Counterattack"
+      STR_ALIEN_SUPPLY: "Alien Supply Run"
       STR_ALIEN_ALLOYS: "Tunguskium"
       STR_ALIEN_ALLOYS_UFOPEDIA: "Also called 'Martian Metal', this is an exotic mineral alloy used by the Martians to build everything, from small weapons to ship armor. Chemically speaking, most of the components are already found in Earth, but our attempts at reproducing haven't been successful... Yet. Slightly lighter than steel, but considerably denser and durable, it requieres high pressure and heat to be able to be mold.  Named after Tunguska, the first recorded Martian Landing Zone of the Great War"
       STR_ELERIUM_115: "Hydrogen Fuel Cell"
@@ -1365,17 +1363,17 @@ en-US:
       STR_UFO_POWER_SOURCE_UFOPEDIA: "The exact method how this device works was theorized by a research team led by E. Rutherford and A. Eddington: after several years of studying the wreck of the power sources within the first Tripods, it was found that inside the Engine two atoms of hydrogen combine together to form an atom of helium. In the process some of the mass of the hydrogen is converted into energy. This process is highly efficient and can powers from the smallest weapon to the largest Fighting-Machines... and also our own vehicles, although we are limited to adapting the invader's Engines, as we're currently unable to produce them on our own."
       STR_UFO_NAVIGATION: "Martian Navigation Device"
       STR_UFO_NAVIGATION_UFOPEDIA: "A rather interesting Martian device, its used to control their machines. Instead of using levers and handlebars or steering wheels, the pilot commands the movements of the vehicle by directly moving their fingers within a specially adapted 'command table', pretty much how a puppeteer moves a marionette. This, of course, was easily learnt by the human crew within our Walkers."
-      STR_ALIEN_FOOD: "Martian Food Container"
+      STR_ALIEN_FOOD: "Alien Food Container"
       STR_ALIEN_FOOD_UFOPEDIA: "The stinky vats are filled to the top in a unpleasant, goo-like substance. Inside we can see the partially digested remains of what seems like cattle or other large mammals and alien-like animals. But we don't doubt there could be human remains floating within the disgusting soup. We believe this mixture is the main nutritional supplement used by the invaders and most likely how they got their antibodies."
-      STR_ALIEN_REPRODUCTION: "Martian Tissue Incubator"
+      STR_ALIEN_REPRODUCTION: "Alien Tissue Incubator"
       STR_ALIEN_REPRODUCTION_UFOPEDIA: "It seems the enemy relies on creating cloned copies of their own kind for medical purposes. Replacement limbs and organs, most likely. This small chamber is used to grow a Martian, and when needed, its murdered and the spare parts added with surgery on the wounded "
-      STR_ALIEN_ENTERTAINMENT: "Martian Radio Transmitter"
+      STR_ALIEN_ENTERTAINMENT: "Alien Radio Transmitter"
       STR_ALIEN_ENTERTAINMENT_UFOPEDIA: "These alien devices seem to be used to transmit orders, commands and several other communications from the leader caste towards the lesser beings. Directly into the brains. Probably even unwilling. We could think of said devices as the perfect propaganda machine."
-      STR_ALIEN_SURGERY: "Martian Surgery Tools"
+      STR_ALIEN_SURGERY: "Alien Surgery Tools"
       STR_ALIEN_SURGERY_UFOPEDIA: "The only purpose we have identified for this weird set of tools so far, is their use in conducting gruesome surgeries and tissue extractions on both Earth and Martian species. It serves both as butchering and medical treatment equipment. Only a truly cruel mind could design such unnerving piece of machiner."
       STR_EXAMINATION_ROOM: "Examination Room"
       STR_EXAMINATION_ROOM_UFOPEDIA: "This is nothing but a table used to dissect living beings. The most probable destiny of thousands of humans over the course of the war. The smell of blood is still noticeable."
-      STR_MARTIAN_FORCE_FIELDS: "Martian Force Fields"
+      STR_MARTIAN_FORCE_FIELDS: "Alien Force Fields"
       STR_MARTIAN_FORCE_FIELDS_UFOPEDIA: "The largest Martian machines are protected by an invisible shield. It absorbs some of the energy of our weapons, 'bouncing' it away from the machine. It seems it's adapted to resist large amounts of thermal radiation, like those emitted by high explosive rounds; perhaps learning from their experience with our artillery barrages early in the Great War. Our experts theorize kinetic energy is considerably harder to absorb and disperse than light or heat, since it has the inertia of mass behind it. This is why high-velocity ammo concentrated on small area of the force field seems to overload the generator, disabling it and breaking the shields."
 
       STR_MARTIAN_STATIC_SUPPLY_DEPOT: "Martian Supply Depot"
@@ -2170,9 +2168,7 @@ en-US:
       STR_POWER_SUIT_UFOPEDIA: "A highly experimental design, pride of the German engineering. Specifically made to counter the enclosed armors used by the Martian military. It features a closed breathing apparatus and several layers of Tunguskium and asbestos plates to endure the hardships of modern warfare. The Tesla Micro Generator in the back provides enough energy for all the systems inside"
 
       STR_AVATAR_NAME_2: "Gerard"
-
       STR_AVATAR_NAME_3: "Keegan"
-
       STR_AVATAR_NAME_4: "Silao"
       STR_AVATAR_NAME_5: "Masha"
       STR_AVATAR_NAME_6: "Brenda"
@@ -2317,6 +2313,11 @@ en-US:
 
 #############################################
 
+
+      STR_BASE_DEFENSES_INITIATED: "DEFENSE BATTERIES, FIRE AT WILL"
+      STR_BASE_DEFENSE_BRIEFING: "An Alien unit has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and IEF craft have been evacuated. The enemy forces will enter the base via hangar doors and any other breach in our defense lines. Defend the base and its vital installations at all costs - this is a fight to the death. If you click on the 'abort mission' icon you will concede defeat and lose the base."
+  
+
       STR_ACCESS_LIFT: "Command Post"
       STR_ACCESS_LIFT_UFOPEDIA: "The very first building in a new base. It hosts the War Room, where frontline Strategic and Tactical operations are directed. A small telegraph station to collect signals and issue orders is also included, with a 10% chance of detecting enemy activity in a 500 nmi radius."
       STR_SMALL_RADAR_SYSTEM: "Regional SIGINT Post"
@@ -2339,7 +2340,9 @@ en-US:
       STR_PLASMA_DEFENSES: "H-R Turret Emplacement Bunker"
       STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A powerful Mk. XI Heat-Ray Projector turret is used to provide heavy defensive fire."
       STR_FUSION_BALL_DEFENSES: "Tower Fortress"
-      STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns and a twin mortar turret make this defensive work into an inexpugnable position. "
+
+      STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns, combined with a mixed battery of Mk. X Heat Ray Projectors and 8,8cm gun turrets make this defensive work into an inexpugnable position."
+
       STR_WATCHTOWER: "Watchtower"
       STR_WATCHTOWER_UFOPEDIA: "A simple, easy to build wooden tower. It offers an elevated position for sharpshooters."
       STR_TRENCH_LINE_NS: "Trench Line N-S"
@@ -2359,6 +2362,28 @@ en-US:
       #STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs, where interrogations can be carried on. The containment facility can keep up to 10 alien life forms in self-contained units."
 
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
+
+      STR_GRAV_SHIELD_REPELS_UFO: "ENERGY REPULSOR REPELS ENEMY!"
+      STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
+      
+      STR_MIND_SHIELD: "Neural Inhibiter"
+      STR_MIND_SHIELD_UFOPEDIA: "Since alien intelligence efforts rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
+
+      STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: "Based on reverse-engineered from enemy comms systems. This will show the type of enemy unit, the alien race and the type of activity."
+      
+      STR_TESLA_DEFENSE_ARRAY: "Tesla Defense Array"
+      STR_TESLA_DEFENSE_ARRAY_UFOPEDIA: "A cluster of Electric coils optimized to discharge pinpoint lightning bolts. The air between the coil and the target is ionized, closing the circuit and frying the unfortunate target. Its main drawback is the slow discharge rate."
+      STR_PHLOGISTON_DEFENSES: "Phlogiston Gun Turret Emplacement Bunker"
+      STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. The enlarged Phlogiston 'Bertha' Gun excels at long range fire support."
+      STR_PHLOGISTON_MACHINEGUN_NEST: "Machine Gun Nest"
+      STR_PHLOGISTON_MACHINEGUN_NEST_UFOPEDIA: "Lightly fortified emplacement, meant to defend the base from enemy intrusions, using four Phlogiston Heavy Automatic Rifle machine guns."
+      STR_HOWITZER_CANNON_BATTERY: "Field Howitzer Battery"
+      STR_HOWITZER_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four howitzer artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
+      STR_PHLOGISTON_CANNON_BATTERY: "Phlogiston Cannon Battery"
+      STR_PHLOGISTON_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four Phlogiston Cannon artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
+
+
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
       STR_MIND_SHIELD_UFOPEDIA: "Since alien craft rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
 
@@ -2372,7 +2397,7 @@ en-US:
       STR_STATE_OF_THE_WORLD_MEXICO: "State of the World: Mexico"
       STR_STATE_OF_THE_WORLD_MEXICO_UFOPEDIA: "Mexico is a mostly agricultural country, with an important output of grain and cattle, supplying the Coalition. In 1910, former dictator Porfirio Diaz was deposed by the Revolution. Replaced by President Madero, the country quickly began involved in a series of agrarian reforms. When the Great War began, Mexico wasn't directly affected but contributed to the war effort with food and mineral ores. In 1913, after an un-successful coup d'etat by War Minister Huerta and US Ambassador Wilson plus increased Martian activity in the US border, the Federal Army was reformed with the former Revolutionary forces replacing the old army. The Mexican Federal Army fights alongside the US in the Texan Front (led by Generals Villa and Angeles) and in Central America (led by General Zapata)."
       STR_STATE_OF_THE_WORLD_UNITED_STATES: "State of the World: USA"
-      STR_STATE_OF_THE_WORLD_UNITED_STATES_UFOPEDIA: "The United States began the Great War as the leading industrial powerhouse in the world, followed only by the British Commonwealth and the German Empire. This is why it was the main target of the second wave of Martian landings. But the American resolution to free their land meant the enemy attackers couldn't secure a large territory before being stopped in 1913. Led by President Wilson, the US has taken the job to fight and destroy. Under the Wilson Doctrine, the US military fights alongside the Allies, from Canada to Argentina. The huge industrial capacity, further powered by hatred and determination allows the US produce most of the ammunition and military supplies for the Coalition and even then, arm it's own military forces."
+      STR_STATE_OF_THE_WORLD_UNITED_STATES_UFOPEDIA: "The United States began the Great War as the leading industrial powerhouse in the world, followed only by the British Commonwealth and the German Empire. This is why it was the main target of the second wave of Martian landings. But the American resolution to free their land meant the enemy attackers couldn't secure a large territory before being stopped in 1913. Led by President Wilson, the US has taken the job to fight and destroy. Under the Wilson Doctrine, the US military fights alongside the Allies, from Canada to Argentina. The huge industrial capacity, further powered by hatred and determination allows the US produce most of the ammunition and military supplies for the Coalition and even then, arm its own military forces."
       STR_STATE_OF_THE_WORLD_RUSSIA: "State of the World: Russian Empire"
       STR_STATE_OF_THE_WORLD_RUSSIA_UFOPEDIA: "The largest country in the world was also the place where the most Cylinders fell before the Second Invasion. The initial round of landings in 1908 was barely noticed amist the large social and cultural changes in the Tsarist Russia. Tsar Nicholas II isn't the most popular leader, but his defiant defense of the peaceful crowd about to be murdered in 1905 and various other acts of kindness are winning the hearts of his country, even in the height of the Great War. Russia is engaged in four-front war in Asia and only their bravery and the Coalition's support allows them to endure the hardships. The most brutal fighting of the war takes place in there."
       STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH: "State of the World: British Commonwealth"
@@ -2393,12 +2418,13 @@ en-US:
       STR_1913_COUNTERATTACK_2: "1913 Counterattack"
       STR_1913_COUNTERATTACK_UFOPEDIA_1: "Mankind met its darkest hour in 1912 after losing several times against the Martians. The casualties were counted by thousands after several futile attacks. Hope was lost and human armies were at risk of being routed. Until the spring of 1913, the British Commonwealth joint leadership proposed a series of coordinated attacks along the frontlines, focusing on breaking the alien advances on North America and Russia. Through intense diplomatic efforts, the US, Mexico, Germany, Russia, France, Italy and Japan joined the British. The date was set on August 31st, 1913. With additional reserves and newly deployed Mech Walkers, the General Counteroffensive began with thunderous artillery barrages and Walker-mounted heavy infantry. "
       STR_1913_COUNTERATTACK_UFOPEDIA_2: "From the US Midwest to the Russian Far East, the humans engaged the invaders at the same time. Austro-Hungary, the ABC Pact, China and the Ottoman Empire joined shortly after. The Martians were caught by surprise and the line was broken in a matter of days. The offensive lasted several weeks until the reserves were literally exhausted. The attack broke the Martian momentum and from then, began to dig in and go on the defensive. It was the first time were the remaining nations of the world fought together, side by side... Eventually becoming the Coalition of Nations."
-      
+
       
       ###########################################
       ##KIROXEI fixes the missing string text#######################
       ###########################################
       
+
       STR_MM_SABRE_UNLOCK: "Martian Alloy Sabre"
       STR_MM_DAGGER_UNLOCK: "Martian Alloy Dagger"
       STR_MM_SHASHKA_UNLOCK: "Martian Alloy Shashka"
@@ -2443,6 +2469,7 @@ en-US:
       STR_RSC_CARBINE_AMMO_UNLOCK: "RSC Carbine Ammo"
       STR_RSC_CARBINE_KKM_AMMO_UNLOCK: "RSC Carbine K-MM Ammo"
       STR_REVOLVER_UNLOCK: "Revolver Acquistion"
+
       STR_REVOLVER_AMMO_UNLOCK: "Revolver Ammo"
       STR_REVOLVER_KMM_AMMO_UNLOCK: "Revolver K-MM Ammo"
       STR_M1911_COLT_UNLOCK: "M1911 Colt Acquistion"
@@ -2497,7 +2524,11 @@ en-US:
       STR_ZOMBIE_CORPSE_AUTOSPY: "Zombie Autospy"
       STR_MARTIAN_ROYAL_GUARD_AUTOSPY: "Martian Royal Guard Autospy"
       STR_MARTIAN_SHOCK_GUARD_AUTOSPY: "Martian Shock Guard Autospy"
+
+      STR_MARTIAN_SCIENTIST_AUTOSPY: "Martian Scientist Autospy"
+
       STR_MARTIAN_SCIENTISTS_AUTOSPY: "Martian Scientist Autospy"
+
       STR_MARTIAN_MARINE_AUTOSPY: "Martian Marine Autospy"
       STR_TRENCH_KNIFE_UNLOCK: "Trench Knife Acquistion"
       STR_TRENCH_SHOVEL_UNLOCK: "Trench Shovel Acquistion"
@@ -2522,7 +2553,16 @@ en-US:
       STR_REPAIR_A7V: "Repair A7V"
       STR_REPAIR_VEZDEKHOD: "Repair Vezdekhod"
       STR_SNAKEMAN: "Martian Elite Platoon"
+
+      STR_HEAVY_HEAT_RAY_PROJECTOR_WRECKAGE: "Heat-Ray Artillery Wreckage"
+      STR_LIGHT_HEAT_RAY_PROJECTOR_WRECKAGE: "Light Heat-Ray Projector Wreckage"
+      STR_LEADER_PLUS: "Martian Officer Interrogated"
+      STR_COMMANDER_PLUS: "Martian Information Revealed"
+      STR_SHIELD_DOWN: "Shield Energy Empty"
+      STR_SHIELD_S: "Shield Energy Taken Hit"
+
       HEAVY_HEAT_RAY_PROJECTOR_CORPSE: "Heat-Ray Artillery Wreckage"
       LIGHT_HEAT_RAY_PROJECTOR_CORPSE: "Light Heat-Ray Projector Wreck"
 
       ##STR##
+
