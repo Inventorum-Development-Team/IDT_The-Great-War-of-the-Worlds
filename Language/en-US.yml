@@ -1927,7 +1927,7 @@ en-US:
       STR_LANDSHIP_HISTORY_1: "Landship History I"
       STR_LANDSHIP_HISTORY_1_UFOPEDIA: "The concept of the landship began in 1903, when the world famous author Sir Herbert George Wells (widely known for his first-hand account of the First Invasion of 1896) published a scientific paper called 'The Land Ironclads'. In his writing, Sir Wells detailed how future wars could be waged using large armored fighting vehicles similar to warships, but using wheels or caterpillars to transverse the land. The main purpose was to break the unnatural stalemate of the modern warfare and the growing tendency of entrenched armies. Like a force of nature, the land ironclads could ignore any amount of trenches or fortifications, wreacking havoc all over the front... like an ominous mountain of steel and guns."
       STR_LANDSHIP_HISTORY_2: "Landship History II"
-      STR_LANDSHIP_HISTORY_2_UFOPEDIA: "Sir Wells' publication drawed lots of attention towards the prospect of 'land ironclads'. It was Winston Churchill, First Lord of the Almiralty, who promoted the idea among the British high command. After the establishment of the Landship Committee by Navy officers, engineers and politicians in 1905, several designs were made over the course of the years. The major objetive was to create a ground-based arm of the Royal Navy, tasked on protecting His Majesty overseas territories... pretty much an analog of the seaborne fleets. The first prototype, 'Little Willy', was tested in 1909. The design included several different armament, from a 2-pounder Pom Pom gun to a combination of Maxim MGs. However, much of the funding and attention was diverter to the Walker Mech projects, putting the development of a landship to a halt. Blueprints were stored in vaults and the Committee members went to other projects.  "
+      STR_LANDSHIP_HISTORY_2_UFOPEDIA: "Sir Wells' publication drawed lots of attention towards the prospect of 'land ironclads'. It was Winston Churchill, First Lord of the Admiralty, who promoted the idea among the British high command. After the establishment of the Landship Committee by Navy officers, engineers and politicians in 1905, several designs were made over the course of the years. The major objetive was to create a ground-based arm of the Royal Navy, tasked on protecting His Majesty overseas territories... pretty much an analog of the seaborne fleets. The first prototype, 'Little Willy', was tested in 1909. The design included several different armament, from a 2-pounder Pom Pom gun to a combination of Maxim MGs. However, much of the funding and attention was diverter to the Walker Mech projects, putting the development of a landship to a halt. Blueprints were stored in vaults and the Committee members went to other projects.  "
       STR_LANDSHIP_HISTORY_3: "Landship History III"
       STR_LANDSHIP_HISTORY_3_UFOPEDIA: "The second coming of the Martians meant a complete change in the development of new war machines. During the interwar period, the new vehicles were seen more as a novelty than a practical use. The blueprints and mockups of the landships were quickly brought back to the table, looking for a machine able to stop the insatiable warmongering enemy. The most sucessful result is the Conqueror landship, seen as more mechanically reliable and cheaper than the Walkers. The initial concept saw the use of sawed-off artillery guns mounted in sponsons all over the chassis, but a 360° rotating turret was selected as a better option.  A 6-pounder naval gun was selected as the main armament, along with several Maxim machine guns as infantry support. The main purpose of the landships was to efficiently transport infantrymen in the hellish battlefields of the Great War. Thanks to it's relatively fast speed and size, they are often nicknamed 'land destroyers'."
       STR_LANDSHIP_HISTORY_4: "Landship History IV"
@@ -2315,7 +2315,7 @@ en-US:
 
       STR_BASE_DEFENSES_INITIATED: "DEFENSE BATTERIES, FIRE AT WILL"
       STR_BASE_DEFENSE_BRIEFING: "An Alien unit has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and IEF craft have been evacuated. The enemy forces will enter the base via hangar doors and any other breach in our defense lines. Defend the base and its vital installations at all costs - this is a fight to the death. If you click on the 'abort mission' icon you will concede defeat and lose the base."
-  
+
       STR_ACCESS_LIFT: "Command Post"
       STR_ACCESS_LIFT_UFOPEDIA: "The very first building in a new base. It hosts the War Room, where frontline Strategic and Tactical operations are directed. A small telegraph station to collect signals and issue orders is also included, with a 10% chance of detecting enemy activity in a 500 nmi radius."
       STR_SMALL_RADAR_SYSTEM: "Regional SIGINT Post"
@@ -2360,17 +2360,17 @@ en-US:
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
       STR_GRAV_SHIELD_REPELS_UFO: "ENERGY REPULSOR REPELS ENEMY!"
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
-      
+
       STR_MIND_SHIELD: "Neural Inhibiter"
       STR_MIND_SHIELD_UFOPEDIA: "Since alien intelligence efforts rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
 
       STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
       STR_HYPER_WAVE_DECODER_UFOPEDIA: "Based on reverse-engineered from enemy comms systems. This will show the type of enemy unit, the alien race and the type of activity."
-      
+
       STR_TESLA_DEFENSE_ARRAY: "Tesla Defense Array"
       STR_TESLA_DEFENSE_ARRAY_UFOPEDIA: "A cluster of Electric coils optimized to discharge pinpoint lightning bolts. The air between the coil and the target is ionized, closing the circuit and frying the unfortunate target. Its main drawback is the slow discharge rate."
       STR_PHLOGISTON_DEFENSES: "Phlogiston Gun Turret Emplacement Bunker"
-      STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. The enlarged Phlogiston 'Bertha' Gun excels at long range fire support."
+      #STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. The enlarged Phlogiston 'Bertha' Gun excels at long range fire support."
       STR_PHLOGISTON_MACHINEGUN_NEST: "Machine Gun Nest"
       STR_PHLOGISTON_MACHINEGUN_NEST_UFOPEDIA: "Lightly fortified emplacement, meant to defend the base from enemy intrusions, using four Phlogiston Heavy Automatic Rifle machine guns."
       STR_HOWITZER_CANNON_BATTERY: "Field Howitzer Battery"
@@ -2541,7 +2541,208 @@ en-US:
       STR_COMMANDER_PLUS: "Martian Information Revealed"
       STR_SHIELD_DOWN: "Shield Energy Empty"
       STR_SHIELD_S: "Shield Energy Taken Hit"
+      STR_CONQUEROR_CONVOY: "CONQUEROR CONVOY"
+      STR_CONQUEROR_CONVOY_UFOPEDIA: "In order to counter extreme enemy threat with high-technology and advance training. A new formation has been assigned to Conqueror Class consists of 6 armored tanks. Each 2 tanks is now equipped with Auto Cannon, 75mm Cannon and Heat-Ray weapons."
+      STR_AUX_VEHICLE_NUMBERS: "Logistic Convoy"
+      STR_AUX_VEHICLE_NUMBERS_UFOPEDIA: "The battle vehicle formation allows to increase weapon firepower and support. It will multiply to a maximum of 3 in 6 vehicle numbers."
+      STR_AUX_VEHICLE_NUMBERS_LAUNCHER: "Logistic Quantity"
+
+
 ## Octasapien Faction will coming the next 2 years or when its done.
 #########
 
+## Octaspaien Infantry 30
+## Octasapien Weapon Platform Vehicle 20
 
+
+##########  Human Research On Octasapiens
+
+      STR_THE_WIZEN_SAPIENS: "The Wisen One"
+      STR_THE_WIZEN_SAPIENSWIKI: ""
+
+
+######## Alien Languarge /  Vocabulary Arts
+      STR_MARTIAN_VOCABULARY: "Martian Language Arts"
+
+      STR_MARTIAN_GREYUS: "Martian Greyus"
+      STR_MARTIAN_GREYUS_UFOPEDIA: "The Martian humanoids looks familiar to humans only in a different physical traits. However, they live in a harsh climates which their bodys able to produce heat better than our counterparts. They do travel anywhere on cold hostile environment except heat temperatures. This challenge us to learn survival on cold hostile planets. Which we will create a plan for our next generations."
+      STR_MARTIAN_GREYUS_LAUNGUAGE: "Martian Greyus Language Arts"
+      STR_MARTIAN_GREYUS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts.  "
+      STR_MARTIAN_GREYUS_FOOD: "Martian Humanoids Foodstuffs"
+      STR_MARTIAN_GREYUS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. Human do not know if the alien fruit / vegatbles would fit for human diet."
+      STR_MARTIAN_GREYUS_CULTURE: "The Martian Humanoid Culture"
+      STR_MARTIAN_GREYUS_CULTURE_UFOPEDIA: "These creatures originated from the Mars surface. Before Mars was changed into hospitable planet, there was a cold harsh desert with ice on polar caps."
+
+## Octasapiens
+
+
+      STR_OCTASAPIENS: "Martian Octasapiens"
+      STR_OCTASAPIENS_UFOPEDIA: ""
+      STR_OCTASAPIENS_LANGUAGE: "Octasapien Language Arts"
+      STR_OCTASAPIENS_L_UFOPEDIA: ""
+      STR_OCTASAPIENS_FOOD: ""
+      STR_OCTASAPIENS_FOOD_UFOPEDIA: ""
+      STR_OCTASAPIENS_CULTURE: ""
+      STR_OCTASAPIENS_CULTURE_UFOPEDIA: ""
+
+
+## Overlord
+
+      STR_OVERLORD_ORIGINS: "Martian Overlord Origins"
+      STR_OVERLORD_O_UFOPEDIA: ""
+      STR_OVERLORD_FOOD: ""
+      STR_OVERLORD_FOOD_UFOPEDIA: ""
+      STR_OVERLORD_CULTURE: ""
+      STR_OVERLORD_CULTURE_UFOPEDIA: ""
+
+## Octasapien Foreign Forces
+
+      STR_OCTASAPIEN_FOREIGN_TRANSLATE: "Martian Alliance Translation"
+      STR_OCTASAPIEN_FOREIGN_TRANSLATE_UFOPEDIA: ""
+      STR_OCTASAPIEN_FOREIGN_FOOD: ""
+      STR_OCTASAPIEN_FOREIGN_UFOPEDIA: ""
+      STR_OCTASAPIEN_FOREIGN_RELATION: ""
+      STR_OCTASAPIEN_FOREIGN_RELATION_UFOPEDIA: ""
+
+## Selenites Lore
+
+      STR_LUNARIAN_VOCABULARY: "Lunarian Language Arts"
+
+      STR_SELENITE: "Selenites"
+      STR_SELENITE_UFOPEDIA: ""
+      STR_SELENITE_LANGUAGE: "Selenite Languarge Arts"
+      STR_SELENITE_L_UFOPEDIA: ""
+      STR_SELENITE_FOOD: ""
+      STR_SELENITE_FOOD_UFOPEDIA: ""
+      STR_SELENITE_CULTURE: ""
+      STR_SELENITE_CULTURE_UFOPEDIA: ""
+
+## Jovians Lore
+
+      STR_JUPITERIS_VOCABULARY: " Jupteris Language Arts"
+
+      STR_JOVIAN: "Jovians"
+      STR_JOVIAN_UFOPEDIA: ""
+      STR_JOVIAN_LANGUAGE: "Jovians Language Arts"
+      STR_JOVIAN_L_UFOPEDIA: ""
+      STR_JOVIAN_FOOD: ""
+      STR_JOVIAN_FOOD_UFOPEDIA: ""
+      STR_JOVIAN_CULTURE: ""
+      STR_JOVIAN_CULTURE_UFOPEDIA: ""
+
+
+
+#### OCTASAPIENS FACTION
+
+
+###### Octasapiens machine for Geoscape
+
+##### 35 Craft / 15 Structures  16 Vehicles 8 Fighters 8 Space Ships 3 Projectiles ( Impossible to chase)
+
+#10x10x10
+
+      STR_OCTASAPIEN_SMALL_FRAME: "Octasapien Small Vehicle Frame"
+      STR_OCTASAPIEN_SMALL_FRAMEWIKI: ""
+
+      STR_OCTASAPIEN2PEDAL_MECH: ""
+      STR_OCTASAPIEN4PEDAL_MECH: ""
+      STR_OCTASAPIEN4WHEEL_VEHICLE: ""
+      STR_OCTASAPIEN2TRACK_VEHICLE: ""
+
+#20x10x10
+      STR_OCTASAPIEN_MEDIUM_FRAME: "Octasapien Medium Vehicle Frame"
+      STR_OCTASAPIEN_MEDIUM_FRAMEWIKI: ""
+
+      STR_OCTASAPIEN6PEDAL_MECH: ""
+      STR_OCTASAPIEN6WHEEL_VEHICLE: ""
+      STR_OCTASAPIEN4TRACK_VEHICLE: ""
+#30x20x10
+      STR_OCTASAPIEN_LARGE_FRAME: "Octasapien Large Vehicle Frame"
+      STR_OCTASAPIEN_LARGE_FRAMEWIKI: ""
+
+      STR_OCTASAPIEN8PEDAL_MECH: ""
+      STR_OCTASAPIEN6TRACK_VEHICLE: ""
+      STR_OCTASAPIEN8WHEEL_VEHICLE: ""
+### Octasapien Vehicle Role
+
+### Octasapien Weapon Mount
+
+
+
+
+### Impossibile to Kill!
+      STR_OCTASAPIEN_VFGSQUADRON4: "Warning Unknown Unit 1"
+      STR_OCTASAPIEN_VFGSQUADRON4WIKI: ""
+      STR_OCTASAPIEN_VFGSQUADRON9: "Alert Unknown Unit 1"
+      STR_OCTASAPIEN_VFGSQUADRON9WIKI: ""
+      STR_OCTASAPIEN_VFASQUADRON4: "Warning Unknown Unit 2"
+      STR_OCTASAPIEN_VFASQUADRON4WIKI: ""
+      STR_OCTASAPIEN_VFASQUADRON9: "Alert Unknown Unit 2"
+      STR_OCTASAPIEN_VFASQUADRON9WIKI: ""
+# Octasapien Aerospace craft / fleet
+      STR_OCTASAPIEN_FIGHTER1: ""
+      STR_OCTASAPIEN_FIGHTER2: ""
+      STR_OCTASAPIEN_FIGHTER3: ""
+      STR_OCTASAPIEN_FIGHTER4: ""
+      STR_OCTASAPIEN_FIGHTER5: ""
+      STR_OCTASAPIEN_FIGHTER6: ""
+      STR_OCTASAPIEN_FIGHTER7: ""
+      STR_OCTASAPIEN_FIGHTER8: ""
+      STR_OCTASAPIEN_SPACEFLEET1: ""
+      STR_OCTASAPIEN_SPACEFLEET2: ""
+      STR_OCTASAPIEN_SPACEFLEET3: ""
+      STR_OCTASAPIEN_SPACEFLEET4: ""
+      STR_OCTASAPIEN_SPACEFLEET5: ""
+      STR_OCTASAPIEN_SPACEFLEET6: ""
+      STR_OCTASAPIEN_SPACEFLEET7: ""
+      STR_OCTASAPIEN_SPACEFLEET8: ""
+# Impossible to shoot down;  Hypersonic
+      STR_OCTASAPIEN_PROJECTILE1: "Thermal Heat Laser Beam"
+      STR_OCTASAPIEN_PROJECTILE1WIKI: "This energy beam is difficult to intercept or evade from long-range precision weapons. The light is noticeable to locate the origin of the laser beam trace."
+      STR_OCTASAPIEN_PROJECTILE2: "Rail Gauss Ballistic"
+      STR_OCTASAPIEN_PROJECTILE2WIKI: "This projectile is difficult to intercept or evade from long-range precision weapons. The rail guass is powerful enough to pierce the entire facility into holes. Our defense weapons are not match against their projectile veliocty. "
+      STR_OCTASAPIEN_PROJECTILE3: "Ion Beam Projectile"
+      STR_OCTASAPIEN_PROJECTILE3WIKI: "Ion Beam can direct-hit and decimate our positions in radius. Countering these energy artillery can be difficult, due to structural materials flaw."
+      STR_OCTASAPIEN_PROJECTILE4: "Cruise Missile Projectile"
+      STR_OCTASAPIEN_PROJECTILE4WIKI: "A remote rocket guided with radar tracking system. It can evade our vehicle / aircraft weapons while focusing on a target designation. We need to learn how to avoid cruise missile directions, while sending our units performing their task ASAP."
+      STR_OCTASAPIEN_PROJECTILE5: "Kinetic Ballistic Shot"
+      STR_OCTASAPIEN_PROJECTILE5WIKI: "The common artillery ballistic used by many armies. Orbital kinetic bombardment can be very devastating and results severe damage to our base. However, not all kinetic projectiles drop into same location."
+
+###### Octasapiens Mobile Structure
+      STR_OCTASAPIEN_SENTRY_TOWER: "Octasapien Guard Tower"
+      STR_OCTASAPIEN_SENTRY_TOWERWIKI: ""
+      STR_OCTASAPIEN_OUTBASE: "Octasapien Platform"
+      STR_OCTASAPIEN_OUTBASeWIKI: ""
+      STR_OCTASAPIEN_REFINERY: "Octasapien Refinery"
+      STR_OCTASAPIEN_REFINERYWIKI: ""
+      STR_OCTASAPIEN_MANUFACTURE: "Octasapien Factory"
+      STR_OCTASAPIEN_MANUFACTUREWIKI: ""
+      STR_OCTASAPIEN_OUTPOST: "Octasapien Outpost"
+      STR_OCTASAPIEN_OUTPOSTWIKI: ""
+      STR_OCTASAPIEN_COMPOUND: "Octasapien Tech Center"
+      STR_OCTASAPIEN_COMPOUNDWIKI: ""
+      STR_OCTASAPIEN_FARM: "Octasapien Agricultural"
+      STR_OCTASAPIEN_FARMWIKI: ""
+# Octasapien Long Range Weapon with range; Just to hit your base with weapons.
+      STR_OCTASAPIEN_TOWER: "Octasapien Patrol Tower"
+      STR_OCTASAPIEN_TOWERWIKI: ""
+      STR_OCTASAPIEN_RADARAIR: "Octasapien Aero Sentry"
+      STR_OCTASAPIEN_RADARAIRWIKI: ""
+      STR_OCTASAPIEN_ARTILLERY: "Octasapien Artillery Platform"
+      STR_OCTASAPIEN_ARTILLERYWIKI: ""
+      STR_OCTASAPIEN_ORBITSTATION: "Octasapien Orbit Center"
+      STR_OCTASAPIEN_ORBITSTATIONWIKI: ""
+      STR_OCTASAPIEN_HYPERRELAY: "Octasapien Hyper Relay Base"
+      STR_OCTASAPIEN_HYPERRELAYWIKI: ""
+# Three Stage Area; Difficult
+      STR_OCTASAPIEN_SPACEDOCK: "Octasapien Space Battleship Docks"
+      STR_OCTASAPIEN_SURFACE_CITY: "Octasapien Settlement City"
+      STR_OCTASAPIEN_SUBCITY: "Octasapien Subtunnel City"
+###### Octasapiens weapons
+
+
+
+
+
+      ###
+      ##STR##
