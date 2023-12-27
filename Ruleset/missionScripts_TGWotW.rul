@@ -49,7 +49,7 @@ missionScripts:
     raceWeights:
       0:
        STR_MARTIAN_SCIENCE_TEAM: 100
-    firstMonth: 0
+    firstMonth: 2
     startDelay: 43500
     targetBaseOdds: 100
     #researchTriggers:
@@ -64,14 +64,14 @@ missionScripts:
     randomDelay: 43500
     targetBaseOdds: 100
     minScore: 1000
-    firstMonth: 12
+    firstMonth: 6
     useTable: false
 
   - type: AirPatrol1
     missionWeights:
       0:
         STR_MARTIAN_AIR_PATROL_1: 100
-    firstMonth: 4
+    firstMonth: 5
     targetBaseOdds: 100
     startDelay: 1000
     #minScore: 800
@@ -812,7 +812,19 @@ missionScripts:
     startDelay: 720
     #randomDelay: 43500
     firstMonth: 1
+    lastMonth: 2
     maxRuns: 1
+    regionWeights:
+      0:
+        STR_NORTH_AMERICA: 20
+        STR_SOUTH_AMERICA: 10
+        STR_EUROPE: 20
+        STR_NORTH_AFRICA: 10
+        STR_SOUTHERN_AFRICA: 5
+        STR_CENTRAL_ASIA: 0
+        STR_SOUTH_EAST_ASIA: 20
+        STR_SIBERIA: 0
+        STR_AUSTRALASIA: 0
     varName: earlyMartianCylinder
     executionOdds: 100
     targetBaseOdds: 100

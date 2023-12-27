@@ -96,15 +96,15 @@ alienMissions:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 1
         trajectory: P0
-        timer: 9000
+        timer: 12000
       - ufo: SUPPORT_BOAT
         count: 1
         trajectory: P2
-        timer: 7800
+        timer: 24000
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 2
         trajectory: P4
-        timer: 9000
+        timer: 12000
   - type: STR_ALIEN_HARVEST
     points: 0
     raceWeights:
@@ -127,12 +127,12 @@ alienMissions:
       - ufo: STR_MARTIAN_LIGHT_FIGHTER
         count: 3
         trajectory: P0
-        timer: 7800
+        timer: 24000
         hunterKillerPercentage: 100
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 3
         trajectory: P2
-        timer: 7800
+        timer: 24000
       - ufo: STR_MARTIAN_ASSAULT_WALKER
         count: 1
         trajectory: P2
@@ -145,7 +145,7 @@ alienMissions:
       - ufo: STR_MARTIAN_HARVESTER_WALKER
         count: 2
         trajectory: P2
-        timer: 1500
+        timer: 15000
   - type: STR_ALIEN_ABDUCTION
     points: 0
     raceWeights:
@@ -177,15 +177,15 @@ alienMissions:
       - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 1
         trajectory: P3
-        timer: 9000
+        timer: 12000
       - ufo: STR_MARTIAN_HARVESTER_WALKER
         count: 1
         trajectory: P3
-        timer: 9000
+        timer: 12000
       - ufo: STR_MARTIAN_HARVESTER_WALKER
-        count: 2
+        count: 1
         trajectory: P4
-        timer: 60
+        timer: 24000
   - type: STR_ALIEN_INFILTRATION
     points: 0 #Pact score only awarded on month end
     objective: 1
@@ -220,7 +220,7 @@ alienMissions:
       - ufo: STR_MARTIAN_ASSAULT_WALKER
         count: 1
         trajectory: P7
-        timer: 9000
+        timer: 12000
       - ufo: STR_MARTIAN_SIEGE_WALKER
         count: 1
         trajectory: P7
@@ -259,15 +259,15 @@ alienMissions:
       - ufo: SUPPORT_BOAT
         count: 1
         trajectory: P5
-        timer: 60
+        timer: 18000
       - ufo: SUPPORT_BOAT
         count: 2
         trajectory: P5
-        timer: 60
+        timer: 18000
       - ufo: CRUISER
         count: 1
         trajectory: P6
-        timer: 60
+        timer: 22000
 
   - type: STR_ALIEN_CYLINDER
     points: 0 #Pact score only awarded on month end
@@ -303,7 +303,7 @@ alienMissions:
       - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 1
         trajectory: P7
-        timer: 9000
+        timer: 12000
 
 
   - type: STR_ALIEN_RETALIATION
@@ -368,7 +368,7 @@ alienMissions:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 10800
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -409,7 +409,7 @@ alienMissions:
       - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 24000
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -509,7 +509,7 @@ alienMissions:
       - ufo: STR_MARTIAN_HARVESTER_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 24000
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -577,7 +577,7 @@ alienMissions:
       - ufo: STR_MARTIAN_HARVESTER_WALKER
         count: 2
         trajectory: STATIC_TRAJECTORY_BASE
-        timer: 7800
+        timer: 24000
         escort: true
         hunterKillerPercentage: 100
         huntMode: 2
@@ -700,7 +700,7 @@ alienMissions:
       - ufo: STR_MARTIAN_SIEGE_WALKER
         count: 1
         trajectory: P7
-        timer: 9000
+        timer: 12000
         objective: true
 ##############################################
 ####### AIR COMBAT MISSIONS #################
@@ -725,7 +725,7 @@ alienMissions:
       - ufo: STR_MARTIAN_LIGHT_FIGHTER
         count: 3
         trajectory: P1
-        timer: 9000
+        timer: 12000
         hunterKillerPercentage: 50
         huntMode: 0
         huntBehavior: 0
@@ -757,7 +757,7 @@ alienMissions:
       - ufo: STR_MARTIAN_LIGHT_FIGHTER
         count: 3
         trajectory: P1
-        timer: 9000
+        timer: 12000
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
@@ -797,7 +797,7 @@ alienMissions:
       - ufo: NIMBLE_FIGHTER
         count: 1
         trajectory: P1
-        timer: 9000
+        timer: 12000
         hunterKillerPercentage: 100
         huntMode: 0
         huntBehavior: 0
