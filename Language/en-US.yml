@@ -2557,37 +2557,34 @@ en-US:
 
 ##########  Human Research On Octasapiens
 
-      STR_THE_WIZEN_SAPIENS: "The Wisen One"
-      STR_THE_WIZEN_SAPIENSWIKI: ""
+      STR_THE_WIZEN_ONES: "The Wisdom Species"
+      STR_THE_WIZEN_ONESSWIKI: ""
 
 
 ######## Alien Languarge /  Vocabulary Arts
       STR_MARTIAN_VOCABULARY: "Martian Language Arts"
 
-      STR_MARTIAN_GREYUS: "Martian Greyus"
-      STR_MARTIAN_GREYUS_UFOPEDIA: "The Martian humanoids looks familiar to humans only in a different physical traits. However, they live in a harsh climates which their bodys able to produce heat better than our counterparts. They do travel anywhere on cold hostile environment except heat temperatures. This challenge us to learn survival on cold hostile planets. Which we will create a plan for our next generations."
-      STR_MARTIAN_GREYUS_LAUNGUAGE: "Martian Greyus Language Arts"
-      STR_MARTIAN_GREYUS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts.  "
-      STR_MARTIAN_GREYUS_FOOD: "Martian Humanoids Foodstuffs"
-      STR_MARTIAN_GREYUS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. Human do not know if the alien fruit / vegatbles would fit for human diet."
-      STR_MARTIAN_GREYUS_CULTURE: "The Martian Humanoid Culture"
-      STR_MARTIAN_GREYUS_CULTURE_UFOPEDIA: "These creatures originated from the Mars surface. Before Mars was changed into hospitable planet, there was a cold harsh desert with ice on polar caps."
+      STR_MARTIAN_HUMANOIDS: "Martian Humanoids"
+      STR_MARTIAN_HUMANOIDS_UFOPEDIA: "The Martian humanoids looks familiar to humans only in a different physical traits. However, they live in a harsh climates which their bodys able to produce heat better than our counterparts. They do travel anywhere on cold hostile environment except heat temperatures. This challenge us to learn survival on cold hostile planets. Which we will create a plan for our next generations."
+      STR_MARTIAN_HUMANOIDS_LAUNGUAGE: "Martian Humanoids Language Arts"
+      STR_MARTIAN_HUMANOIDS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts. The Martian Humanoids writtings can allow us to translate our words to their readings. "
+      STR_MARTIAN_HUMANOIDS_FOOD: "Martian Humanoids Foodstuffs"
+      STR_MARTIAN_HUMANOIDS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. Human do not know if the alien fruit / vegatbles would fit for human diet."
+      STR_MARTIAN_HUMANOIDS_CULTURE: "The Martian Humanoid Culture"
+      STR_MARTIAN_HUMANOIDS_CULTURE_UFOPEDIA: "These creatures originated from the Mars surface. Before Mars was changed into hospitable planet, there was once a cold harsh desert with ice on polar caps."
 
 ## Octasapiens
-
-
       STR_OCTASAPIENS: "Martian Octasapiens"
       STR_OCTASAPIENS_UFOPEDIA: ""
       STR_OCTASAPIENS_LANGUAGE: "Octasapien Language Arts"
       STR_OCTASAPIENS_L_UFOPEDIA: ""
-      STR_OCTASAPIENS_FOOD: ""
+      STR_OCTASAPIENS_FOOD: "Octasapien Foodstuffs"
       STR_OCTASAPIENS_FOOD_UFOPEDIA: ""
       STR_OCTASAPIENS_CULTURE: ""
       STR_OCTASAPIENS_CULTURE_UFOPEDIA: ""
 
 
 ## Overlord
-
       STR_OVERLORD_ORIGINS: "Martian Overlord Origins"
       STR_OVERLORD_O_UFOPEDIA: ""
       STR_OVERLORD_FOOD: ""
@@ -2596,7 +2593,6 @@ en-US:
       STR_OVERLORD_CULTURE_UFOPEDIA: ""
 
 ## Octasapien Foreign Forces
-
       STR_OCTASAPIEN_FOREIGN_TRANSLATE: "Martian Alliance Translation"
       STR_OCTASAPIEN_FOREIGN_TRANSLATE_UFOPEDIA: ""
       STR_OCTASAPIEN_FOREIGN_FOOD: ""
@@ -2605,9 +2601,7 @@ en-US:
       STR_OCTASAPIEN_FOREIGN_RELATION_UFOPEDIA: ""
 
 ## Selenites Lore
-
       STR_LUNARIAN_VOCABULARY: "Lunarian Language Arts"
-
       STR_SELENITE: "Selenites"
       STR_SELENITE_UFOPEDIA: ""
       STR_SELENITE_LANGUAGE: "Selenite Languarge Arts"
@@ -2618,9 +2612,7 @@ en-US:
       STR_SELENITE_CULTURE_UFOPEDIA: ""
 
 ## Jovians Lore
-
       STR_JUPITERIS_VOCABULARY: " Jupteris Language Arts"
-
       STR_JOVIAN: "Jovians"
       STR_JOVIAN_UFOPEDIA: ""
       STR_JOVIAN_LANGUAGE: "Jovians Language Arts"
@@ -2643,7 +2635,6 @@ en-US:
 
       STR_OCTASAPIEN_SMALL_FRAME: "Octasapien Small Vehicle Frame"
       STR_OCTASAPIEN_SMALL_FRAMEWIKI: ""
-
       STR_OCTASAPIEN2PEDAL_MECH: ""
       STR_OCTASAPIEN4PEDAL_MECH: ""
       STR_OCTASAPIEN4WHEEL_VEHICLE: ""
@@ -2652,14 +2643,12 @@ en-US:
 #20x10x10
       STR_OCTASAPIEN_MEDIUM_FRAME: "Octasapien Medium Vehicle Frame"
       STR_OCTASAPIEN_MEDIUM_FRAMEWIKI: ""
-
       STR_OCTASAPIEN6PEDAL_MECH: ""
       STR_OCTASAPIEN6WHEEL_VEHICLE: ""
       STR_OCTASAPIEN4TRACK_VEHICLE: ""
 #30x20x10
       STR_OCTASAPIEN_LARGE_FRAME: "Octasapien Large Vehicle Frame"
       STR_OCTASAPIEN_LARGE_FRAMEWIKI: ""
-
       STR_OCTASAPIEN8PEDAL_MECH: ""
       STR_OCTASAPIEN6TRACK_VEHICLE: ""
       STR_OCTASAPIEN8WHEEL_VEHICLE: ""
@@ -2736,8 +2725,11 @@ en-US:
       STR_OCTASAPIEN_HYPERRELAYWIKI: ""
 # Three Stage Area; Difficult
       STR_OCTASAPIEN_SPACEDOCK: "Octasapien Space Battleship Docks"
+      STR_OCTASAPIEN_SPACEDOCKWIKI: ""
       STR_OCTASAPIEN_SURFACE_CITY: "Octasapien Settlement City"
+      STR_OCTASAPIEN_SURFACE_CITYWIKI: ""
       STR_OCTASAPIEN_SUBCITY: "Octasapien Subtunnel City"
+      STR_OCTASAPIEN_SUBCITYWIKI: ""
 ###### Octasapiens weapons
 
 
