@@ -376,6 +376,7 @@ items:
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
     #requiresBuy:
     #- STR_INITIAL_TANK_DESIGN
+
     weight: 44
     bigSprite: 5124
     fireSound: 806

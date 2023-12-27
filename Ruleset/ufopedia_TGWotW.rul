@@ -3725,7 +3725,6 @@ ufopaedia:
     text: STR_ALIEN_CONTAINMENT_UFOPEDIA
     requires:
       - STR_ALIEN_CONTAINMENT
-
   - id: STR_TRENCH_LINE_NS
     type_id: 6
     section: STR_BASE_FACILITIES
@@ -3780,6 +3779,7 @@ ufopaedia:
 ##################################
 #######KIROXEI FIXES HERE###################
 ##################################
+
 
   - id: STR_CONTACT_WITH_TESLA
     type_id: 8
@@ -3845,3 +3845,6 @@ ufopaedia:
 
 ####################################
 ###################################
+=======
+#################################
+

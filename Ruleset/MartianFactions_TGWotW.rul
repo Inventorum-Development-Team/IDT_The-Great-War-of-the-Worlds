@@ -169,6 +169,7 @@ items:
     costSell: 60000
     listOrder: 14406
 
+
   #- type: CEREBREAL_WEAPON
    # weight: 3
    # bigSprite: 60
@@ -190,6 +191,7 @@ items:
    # invHeight: 3
     #clipSize: -1
    # recover: false
+
 
 
 

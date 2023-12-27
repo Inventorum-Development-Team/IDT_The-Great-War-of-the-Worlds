@@ -2313,9 +2313,11 @@ en-US:
 
 #############################################
 
+
       STR_BASE_DEFENSES_INITIATED: "DEFENSE BATTERIES, FIRE AT WILL"
       STR_BASE_DEFENSE_BRIEFING: "An Alien unit has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and IEF craft have been evacuated. The enemy forces will enter the base via hangar doors and any other breach in our defense lines. Defend the base and its vital installations at all costs - this is a fight to the death. If you click on the 'abort mission' icon you will concede defeat and lose the base."
   
+
       STR_ACCESS_LIFT: "Command Post"
       STR_ACCESS_LIFT_UFOPEDIA: "The very first building in a new base. It hosts the War Room, where frontline Strategic and Tactical operations are directed. A small telegraph station to collect signals and issue orders is also included, with a 10% chance of detecting enemy activity in a 500 nmi radius."
       STR_SMALL_RADAR_SYSTEM: "Regional SIGINT Post"
@@ -2338,7 +2340,9 @@ en-US:
       STR_PLASMA_DEFENSES: "H-R Turret Emplacement Bunker"
       STR_PLASMA_DEFENSES_UFOPEDIA: "Concrete fortification designed to bolster the defense of the base against enemy incursions. A powerful Mk. XI Heat-Ray Projector turret is used to provide heavy defensive fire."
       STR_FUSION_BALL_DEFENSES: "Tower Fortress"
+
       STR_FUSION_BALL_DEFENSES_UFOPEDIA: "Tall fortification designed to equip as many turrets as possible in the most compact structure. Remotely-operated automatic guns, combined with a mixed battery of Mk. X Heat Ray Projectors and 8,8cm gun turrets make this defensive work into an inexpugnable position."
+
       STR_WATCHTOWER: "Watchtower"
       STR_WATCHTOWER_UFOPEDIA: "A simple, easy to build wooden tower. It offers an elevated position for sharpshooters."
       STR_TRENCH_LINE_NS: "Trench Line N-S"
@@ -2358,6 +2362,7 @@ en-US:
       #STR_ALIEN_CONTAINMENT_UFOPEDIA: "Special prision cells for Martian POWs, where interrogations can be carried on. The containment facility can keep up to 10 alien life forms in self-contained units."
 
       STR_GRAV_SHIELD: "Energy Repulsor Shield"
+
       STR_GRAV_SHIELD_REPELS_UFO: "ENERGY REPULSOR REPELS ENEMY!"
       STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
       
@@ -2378,6 +2383,12 @@ en-US:
       STR_PHLOGISTON_CANNON_BATTERY: "Phlogiston Cannon Battery"
       STR_PHLOGISTON_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four Phlogiston Cannon artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
 
+
+      STR_GRAV_SHIELD_UFOPEDIA: "The Repulsor Shield repels alien craft attempting to land near the base long enough for all defense systems to fire again. In practice this will double the effectiveness of any defense batteries at your base. Made using repurposed Martian shield emitters."
+      STR_MIND_SHIELD_UFOPEDIA: "Since alien craft rely on brain waves to detect human presence then the most effective counter measure is to shield brain waves from the base. This facility will drastically reduce the chances of detection by alien craft."
+
+      STR_HYPER_WAVE_DECODER: "Signals Deciphering Center"
+      STR_HYPER_WAVE_DECODER_UFOPEDIA: "This will show the type of UFO, the alien race and the type of activity."
 
 
 ######################################
@@ -2408,10 +2419,11 @@ en-US:
       STR_1913_COUNTERATTACK_UFOPEDIA_1: "Mankind met its darkest hour in 1912 after losing several times against the Martians. The casualties were counted by thousands after several futile attacks. Hope was lost and human armies were at risk of being routed. Until the spring of 1913, the British Commonwealth joint leadership proposed a series of coordinated attacks along the frontlines, focusing on breaking the alien advances on North America and Russia. Through intense diplomatic efforts, the US, Mexico, Germany, Russia, France, Italy and Japan joined the British. The date was set on August 31st, 1913. With additional reserves and newly deployed Mech Walkers, the General Counteroffensive began with thunderous artillery barrages and Walker-mounted heavy infantry. "
       STR_1913_COUNTERATTACK_UFOPEDIA_2: "From the US Midwest to the Russian Far East, the humans engaged the invaders at the same time. Austro-Hungary, the ABC Pact, China and the Ottoman Empire joined shortly after. The Martians were caught by surprise and the line was broken in a matter of days. The offensive lasted several weeks until the reserves were literally exhausted. The attack broke the Martian momentum and from then, began to dig in and go on the defensive. It was the first time were the remaining nations of the world fought together, side by side... Eventually becoming the Coalition of Nations."
 
-
+      
       ###########################################
       ##KIROXEI fixes the missing string text#######################
       ###########################################
+      
 
       STR_MM_SABRE_UNLOCK: "Martian Alloy Sabre"
       STR_MM_DAGGER_UNLOCK: "Martian Alloy Dagger"
@@ -2457,6 +2469,8 @@ en-US:
       STR_RSC_CARBINE_AMMO_UNLOCK: "RSC Carbine Ammo"
       STR_RSC_CARBINE_KKM_AMMO_UNLOCK: "RSC Carbine K-MM Ammo"
       STR_REVOLVER_UNLOCK: "Revolver Acquistion"
+
+      STR_REVOLVER_AMMO_UNLOCK: "Revolver Ammo"
       STR_REVOLVER_KMM_AMMO_UNLOCK: "Revolver K-MM Ammo"
       STR_M1911_COLT_UNLOCK: "M1911 Colt Acquistion"
       STR_M1911_COLT_AMMO_UNLOCK: "M1911 Colt Ammo"
@@ -2510,7 +2524,11 @@ en-US:
       STR_ZOMBIE_CORPSE_AUTOSPY: "Zombie Autospy"
       STR_MARTIAN_ROYAL_GUARD_AUTOSPY: "Martian Royal Guard Autospy"
       STR_MARTIAN_SHOCK_GUARD_AUTOSPY: "Martian Shock Guard Autospy"
+
       STR_MARTIAN_SCIENTIST_AUTOSPY: "Martian Scientist Autospy"
+
+      STR_MARTIAN_SCIENTISTS_AUTOSPY: "Martian Scientist Autospy"
+
       STR_MARTIAN_MARINE_AUTOSPY: "Martian Marine Autospy"
       STR_TRENCH_KNIFE_UNLOCK: "Trench Knife Acquistion"
       STR_TRENCH_SHOVEL_UNLOCK: "Trench Shovel Acquistion"
@@ -2535,13 +2553,16 @@ en-US:
       STR_REPAIR_A7V: "Repair A7V"
       STR_REPAIR_VEZDEKHOD: "Repair Vezdekhod"
       STR_SNAKEMAN: "Martian Elite Platoon"
+
       STR_HEAVY_HEAT_RAY_PROJECTOR_WRECKAGE: "Heat-Ray Artillery Wreckage"
       STR_LIGHT_HEAT_RAY_PROJECTOR_WRECKAGE: "Light Heat-Ray Projector Wreckage"
       STR_LEADER_PLUS: "Martian Officer Interrogated"
       STR_COMMANDER_PLUS: "Martian Information Revealed"
       STR_SHIELD_DOWN: "Shield Energy Empty"
       STR_SHIELD_S: "Shield Energy Taken Hit"
-## Octasapien Faction will coming the next 2 years or when its done.
-#########
 
+      HEAVY_HEAT_RAY_PROJECTOR_CORPSE: "Heat-Ray Artillery Wreckage"
+      LIGHT_HEAT_RAY_PROJECTOR_CORPSE: "Light Heat-Ray Projector Wreck"
+
+      ##STR##
 
