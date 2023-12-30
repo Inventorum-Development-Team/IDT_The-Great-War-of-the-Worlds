@@ -2548,6 +2548,32 @@ en-US:
       STR_AUX_VEHICLE_NUMBERS_LAUNCHER: "Logistic Quantity"
 
 
+      STR_GLOBALCOMMANDHQ: "Global Command Headquarters"
+      STR_GLOBALCOMMANDHQ_UFOPEDIA: ""
+      STR_ADVANCEDECIPHERRELAY: "Advance Cipher Relay Center"
+      STR_ADVANCEDECIPHERRELAY_UFOPEDIA: ""
+      STR_LARGEBARRACKS: "Large Barracks"
+      STR_LARGEBARRACKS_UFOPEIDA: ""
+      STR_LARGELIVINGQUARTERS: "Companys Quarters"
+      STR_LARGELIVINGQUARTERS_UFOPEDIA: ""
+      STR_LARGEWORKSHIP: "Large Workshop"
+      STR_LARGEWORKSHOP_UFOPEDIA: ""
+      STR_TRENCHBUNKERCROSS: ""
+      STR_TRENCHBUNKERCROSS_UFOPEDIA: ""
+      STR_TRENCHBUNKERNS: ""
+      STR_TRENCHBUNKERNS_UFOPEDIA: ""
+      STR_TRENCHBUNKERWE: ""
+      STR_TRENCHBUNKERWE_UFOPEDIA: ""
+      STR_GUARDTOWER_1: "Guard Tower Tier 1"
+      STR_GUARDTOWER_1_UFOPEDIA: ""
+      STR_IEFCONYARD_1: "IEF Construction Yard"
+      STR_IEFCONYARD_1_UFOPEDIA: ""
+
+
+
+
+
+
 ## Octasapien Faction will coming the next 2 years or when its done.
 #########
 
@@ -2701,9 +2727,9 @@ en-US:
       STR_OCTASAPIEN_SENTRY_TOWER: "Octasapien Guard Tower"
       STR_OCTASAPIEN_SENTRY_TOWERWIKI: ""
       STR_OCTASAPIEN_OUTBASE: "Octasapien Platform"
-      STR_OCTASAPIEN_OUTBASeWIKI: ""
+      STR_OCTASAPIEN_OUTBASEWIKI: "A construction yard base that builds other structures, defenses, and barriacades. It also repair, salvage, and renew weary items into new materials. The interrior contains raw materials and alloys from their origin."
       STR_OCTASAPIEN_REFINERY: "Octasapien Refinery"
-      STR_OCTASAPIEN_REFINERYWIKI: ""
+      STR_OCTASAPIEN_REFINERYWIKI: "Advance Quarry Base mining raw materials and salvaged assets into new versions. The abundant of alien alloys, and other harden components."
       STR_OCTASAPIEN_MANUFACTURE: "Octasapien Factory"
       STR_OCTASAPIEN_MANUFACTUREWIKI: ""
       STR_OCTASAPIEN_OUTPOST: "Octasapien Outpost"
@@ -2715,7 +2741,7 @@ en-US:
 # Octasapien Long Range Weapon with range; Just to hit your base with weapons.
       STR_OCTASAPIEN_TOWER: "Octasapien Patrol Tower"
       STR_OCTASAPIEN_TOWERWIKI: ""
-      STR_OCTASAPIEN_RADARAIR: "Octasapien Aero Sentry"
+      STR_OCTASAPIEN_RADARAIR: "Octasapien Auto Sentry Patrol Tower"
       STR_OCTASAPIEN_RADARAIRWIKI: ""
       STR_OCTASAPIEN_ARTILLERY: "Octasapien Artillery Platform"
       STR_OCTASAPIEN_ARTILLERYWIKI: ""

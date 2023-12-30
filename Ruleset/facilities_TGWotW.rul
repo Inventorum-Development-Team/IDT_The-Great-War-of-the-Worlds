@@ -16,7 +16,7 @@ facilities:
     monthlyCost: 10000
     connectorsDisabled: true
     personnel: 50
-    trainingRooms: 10
+    trainingRooms: 20
     mapName: WW1BASE_01
   - type: STR_LABORATORY
     spriteShape: 1
