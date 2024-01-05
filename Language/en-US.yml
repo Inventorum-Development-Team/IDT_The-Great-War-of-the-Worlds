@@ -2060,6 +2060,8 @@ en-US:
 ####################################
       STR_PILOT_UNIFORM_UC: "Pilot Jacket"
       STR_PILOT_UNIFORM_UC_UFOPEDIA: "Comfortable jacket made of cotton, special to keep a steady body temperature at varying climates."
+      STR_PILOT_UNIFORM_GASMASK_UC: "Pilot Jacket w/ SBR"
+      STR_PILOT_UNIFORM_GASMASK_UC_UFOPEDIA: "Comfortable jacket made of cotton, special to keep a steady body temperature at varying climates. Equipped with a British-made SBR gasmask to allow the user to survive in toxic environments."
 
       STR_AMERICAN_FIELD_UNIFORM_UC: "American Field Uniform"
       STR_AMERICAN_FIELD_UNIFORM_UC_UFOPEDIA: "Standard battle dress of the US military. It was widely promoted and distributed all over the continent, it is not uncommon to see Mexican and ABC troops with it. This variant is worn with the Overseas Cap, for the troops deployed outside the US. "
