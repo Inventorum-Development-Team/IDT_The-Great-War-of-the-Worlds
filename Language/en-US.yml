@@ -2310,12 +2310,9 @@ en-US:
       STR_AVATAR_NAME_142: "Samantha"
       STR_AVATAR_NAME_143: "Elena"
       STR_AVATAR_NAME_144: "Jane"
-
 #############################################
-
       STR_BASE_DEFENSES_INITIATED: "DEFENSE BATTERIES, FIRE AT WILL"
       STR_BASE_DEFENSE_BRIEFING: "An Alien unit has landed nearby. Our base is in severe danger. As per standard procedure all non-combat personnel and IEF craft have been evacuated. The enemy forces will enter the base via hangar doors and any other breach in our defense lines. Defend the base and its vital installations at all costs - this is a fight to the death. If you click on the 'abort mission' icon you will concede defeat and lose the base."
-
       STR_ACCESS_LIFT: "Command Post"
       STR_ACCESS_LIFT_UFOPEDIA: "The very first building in a new base. It hosts the War Room, where frontline Strategic and Tactical operations are directed. A small telegraph station to collect signals and issue orders is also included, with a 10% chance of detecting enemy activity in a 500 nmi radius."
       STR_SMALL_RADAR_SYSTEM: "Regional SIGINT Post"
@@ -2330,7 +2327,6 @@ en-US:
       STR_GENERAL_STORES_UFOPEDIA: "All equipment, weapons, munitions, recovered material and armors are placed in depots, including equipment assigned to craft in hangars."
       STR_LIVING_QUARTERS: "Barracks"
       STR_LIVING_QUARTERS_UFOPEDIA: "Each accommodation block provides for up to 50 personnel. The facility provides basic recreation, physical training, food and sleeping areas."
-
       STR_MISSILE_DEFENSES: "Machine Gun Nest"
       STR_MISSILE_DEFENSES_UFOPEDIA: "Lightly fortified emplacement, meant to defend the base from enemy intrusions, using four Maxim machine guns."
       STR_LASER_DEFENSES: "75mm Gun Emplacement Bunker"
@@ -2347,10 +2343,8 @@ en-US:
       STR_TRENCH_LINE_WE_UFOPEDIA: "A swallow trench line, running from west to east. Very easy and cheap to made with sandbags and wooden planks."
       STR_TRENCH_LINE_CROSS: "Trench Crossing"
       STR_TRENCH_LINE_CROSS_UFOPEDIA: "A swallow trench line, crossing paths. Very easy and cheap to made with sandbags and wooden planks."
-
       STR_HANGAR: "Hangar"
       STR_HANGAR_UFOPEDIA: "Each hangar can accommodate two vehicles. There are facilities for maintenance, refueling and repair of the International Expeditionary Force's craft. Each pair of craft stationed at a base must have free hangars assigned to them which cannot be used by other craft, even if the assigned crafts are out on a mission."
-
       STR_PSIONIC_LABORATORY: "Advanced Laboratory"
       STR_PSIONIC_LABORATORY_UFOPEDIA: "Even when conventional laboratories are equipped with state-of-the-art technology, the difficulties to understand our enemy demands us to continue pushing forward the war effort. This expanded lab has room for 60 scientists."
 
@@ -2377,7 +2371,6 @@ en-US:
       STR_HOWITZER_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four howitzer artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
       STR_PHLOGISTON_CANNON_BATTERY: "Phlogiston Cannon Battery"
       STR_PHLOGISTON_CANNON_BATTERY_UFOPEDIA: "Defensive battery composed of four Phlogiston Cannon artillery pieces. This arrangement provides maximum fire solution but is more likely to be destroyed by enemy bombarment."
-
 
 
 ######################################
@@ -2407,12 +2400,9 @@ en-US:
       STR_1913_COUNTERATTACK_2: "1913 Counterattack"
       STR_1913_COUNTERATTACK_UFOPEDIA_1: "Mankind met its darkest hour in 1912 after losing several times against the Martians. The casualties were counted by thousands after several futile attacks. Hope was lost and human armies were at risk of being routed. Until the spring of 1913, the British Commonwealth joint leadership proposed a series of coordinated attacks along the frontlines, focusing on breaking the alien advances on North America and Russia. Through intense diplomatic efforts, the US, Mexico, Germany, Russia, France, Italy and Japan joined the British. The date was set on August 31st, 1913. With additional reserves and newly deployed Mech Walkers, the General Counteroffensive began with thunderous artillery barrages and Walker-mounted heavy infantry. "
       STR_1913_COUNTERATTACK_UFOPEDIA_2: "From the US Midwest to the Russian Far East, the humans engaged the invaders at the same time. Austro-Hungary, the ABC Pact, China and the Ottoman Empire joined shortly after. The Martians were caught by surprise and the line was broken in a matter of days. The offensive lasted several weeks until the reserves were literally exhausted. The attack broke the Martian momentum and from then, began to dig in and go on the defensive. It was the first time were the remaining nations of the world fought together, side by side... Eventually becoming the Coalition of Nations."
-
-
       ###########################################
       ##KIROXEI fixes the missing string text#######################
       ###########################################
-
       STR_MM_SABRE_UNLOCK: "Martian Alloy Sabre"
       STR_MM_DAGGER_UNLOCK: "Martian Alloy Dagger"
       STR_MM_SHASHKA_UNLOCK: "Martian Alloy Shashka"
@@ -2541,13 +2531,11 @@ en-US:
       STR_COMMANDER_PLUS: "Martian Information Revealed"
       STR_SHIELD_DOWN: "Shield Energy Empty"
       STR_SHIELD_S: "Shield Energy Taken Hit"
-      STR_CONQUEROR_CONVOY: "CONQUEROR CONVOY"
+      STR_CONQUEROR_CONVOY: Conqueror Convoy"
       STR_CONQUEROR_CONVOY_UFOPEDIA: "In order to counter extreme enemy threat with high-technology and advance training. A new formation has been assigned to Conqueror Class consists of 6 armored tanks. Each 2 tanks is now equipped with Auto Cannon, 75mm Cannon and Heat-Ray weapons."
       STR_AUX_VEHICLE_NUMBERS: "Logistic Convoy"
       STR_AUX_VEHICLE_NUMBERS_UFOPEDIA: "The battle vehicle formation allows to increase weapon firepower and support. It will multiply to a maximum of 3 in 6 vehicle numbers."
       STR_AUX_VEHICLE_NUMBERS_LAUNCHER: "Logistic Quantity"
-
-
       STR_GLOBALCOMMANDHQ: "Global Command Headquarters"
       STR_GLOBALCOMMANDHQ_UFOPEDIA: ""
       STR_ADVANCEDECIPHERRELAY: "Advance Cipher Relay Center"
@@ -2558,18 +2546,118 @@ en-US:
       STR_LARGELIVINGQUARTERS_UFOPEDIA: ""
       STR_LARGEWORKSHIP: "Large Workshop"
       STR_LARGEWORKSHOP_UFOPEDIA: ""
-      STR_TRENCHBUNKERCROSS: ""
+      STR_TRENCHBUNKERCROSS: "Bunker Cross"
       STR_TRENCHBUNKERCROSS_UFOPEDIA: ""
-      STR_TRENCHBUNKERNS: ""
+      STR_TRENCHBUNKERNS: "Bunker N-S"
       STR_TRENCHBUNKERNS_UFOPEDIA: ""
-      STR_TRENCHBUNKERWE: ""
+      STR_TRENCHBUNKERWE: "Bunker W-E"
       STR_TRENCHBUNKERWE_UFOPEDIA: ""
-      STR_GUARDTOWER_1: "Guard Tower Tier 1"
-      STR_GUARDTOWER_1_UFOPEDIA: ""
-      STR_IEFCONYARD_1: "IEF Construction Yard"
-      STR_IEFCONYARD_1_UFOPEDIA: ""
+      STR_GUARDTOWER1: "Guard Tower Tier 1"
+      STR_GUARDTOWER1_UFOPEDIA: ""
+      STR_IEFCONYARD1: "IEF Construction Yard"
+      STR_IEFCONYARD1_UFOPEDIA: ""
+      STR_IEFCONWALKER: "Mobile Construction Walker"
+      STR_IEFCONWALKER_UFOPEDIA: ""
+
+      ##### Subterranean Structures
+      STR_ACCESS_GATE: "Main Access Elevator" #
+      STR_STORESUB1: "Storage Sublevel" #
+      STR_STORESUB2: "Large Storage Sublevel"
+      STR_STORESUB3: "Huge Storage Sublevel"
+      STR_SECRUITYSUB1: "Security Corridor" #
+      STR_LIVING_SUB1: "Living Q. Sublevel" #
+      STR_LIVING_SUB2: "Large Living Q. Sublevel"
+      STR_WORKSHOP_SUB1: "Workshop Sublevel" #
+      STR_WORKSHOP_SUB2: "Large Workshop Sublevel"
+      STR_SUBTERRANHQ1: "Tunnel HQ Sublevel" #
+      STR_SUBTERRANHQ2: "Digital HQ Sublevel"
+      STR_SUBTERRANHQ3: "Virtual AI HQ"
+      STR_LABORATORY_SUB1: "Research Sublevel" #1x1
+      STR_LABORATORY_SUB2: "Prototype Lab Base" #1x1 Introduction to Digtal Computers
+      STR_LABORATORY_SUB3: "Digital Laboratory" #1x1 Next Gen Computers
+      STR_LABORATORY_SUB4: "Quantum Physics Lab" #1x1
+      STR_SUBTERRANRADAR1: "Improved Radar System"
+      STR_SUBHANGARBAY1: "Sublevel Hangar Bay" #2 2x2
+      STR_SUBHANGARBAY2: "Experimental Hangar" #4 2x2
+      STR_SUBHANGARBAY3: "Large Sublevel Hangar" #8 2x6
+      STR_SUBHANGARBAY4: "Advance Large Hangar"  #16 2x6
 
 
+
+
+##### Interplanetary Expedition Forces
+##### Vehicles and Aerospace; Requires manufacture
+#### 6 Legs
+      STR_HEXAPODHUMANSTONHENGE: "VFM-SH Stonehenge Class"
+      #### Amphibious Landship
+      STR_AMPHIBIANHUMANALIGATOR1: "ASD-9 Alligator MK1" #C&C=Allied Assault Destroyer
+      STR_AMPHIBIANHUMANALIGATOR2: "ASD-01 Alligator MK2" #C&C=Allied Assault Destroyer Hyper Radar
+
+      ### LANDSHIP
+      STR_LANDSHIPHUMANCAESAR: "LBC SS-JA1 Caesar" ## Assault Landship
+      STR_LANDSHIPHUMANCENTAUR1: "LBC Mace-1 Centaur"
+      STR_LANDSHIPHUMANCENTAUR2: "LBC SV-3 Centaur 2"
+      STR_LANDSHIPHUMANCHIEFTAN: "Wild Weasel Chieftan"
+      STR_LANDSHIPHUMANIRONCLAD: "Command P-1 Iron Clad" # Needs Improved Landship
+      STR_LANDSHIPHUMANMAMMOTH1: "LBC GDX-6-10 Mammoth" #C&C=GDI Mammoth Tank
+      STR_LANDSHIPHUMANMAMMOTH2: "LBC GDX-6-10 Mammoth MK2" #C&C=GDI Mammoth Tank Hyper Radar
+      STR_LANDSHIPHUMANAPOCALYPSE1: "LBC SSS-7 Apocalypse" #C&C=Soviet Apcalypse Tank Universal Weapon Station
+      STR_LANDSHIPHUMANAPOCALYPSE2: "LBC SSS-7 Apocalypse MK2" #C&C=Soviet Apcalypse Tank Radar Universal Weapon Station
+      STR_LANDSHIPHUMANSTONEHENGE: "LB Artillery Stonehenge 2"
+    ##### 4 Legs
+      STR_QUADPODHUMANCENTAUR1: "QWC Mace-1 Centaur"
+      STR_QUADPODHUMANCENTAUR2: "VFM Mace-2 Centaur"
+      STR_QUADPODHUMANELEFANT1: "QWC-SV 10-mk2 Elefant"
+      STR_QUADPODHUMANELEGANT2: "VFM-SV 10-mk3 Elefant"
+      #### 2 Pedals with Universal Weapon Stations and Variable Formula Machine System
+      STR_BIPEDALHUMANMINOTAUR: "VFM-01 Minotaur"
+      STR_BIPEDALHUMANGOLEM: "VFM-02 Golem" #C&C=GDI Titan Mech
+      STR_BIPEDALHUMANAVATAR: "VFM-03 Avatar"  #C&C=Nod Avatar Warmech Universal Weapon Station
+###### Advance and Next Generation Vehicles and Aerospace Research
+
+      STR_ALIENALLOYS2: "Cavorite Alloys" #Zero Gravity Alloys
+      STR_ALIENALLOYS3: "Zedimetarium Alloys" # Zero Dimension Alloys
+      STR_MOBILEAMPHIBIANPLATFORM: "Amphibian Battleship"
+      STR_MOBILEWEAPONPLATFORM: "Landship Variable Gun Turret"
+      STR_VARIABLEFORMULAMACHINE: "Variable Formula Machine System"
+      STR_UNIVERSALWEAPONSTATIONS: "Universal Weapon Stations"
+      STR_ELECTRONICTECH: "Computer Electronics"
+      STR_OPTRONICTECH: "Optronics Technology"
+      STR_IRONCURTAIN: "Ion Conduit Reactive"  ##C&C Red Alert
+      STR_CHRONOSPHERE: "Wormhole Teleport System"  ##C&C Red Alert
+      STR_GRAVITYMODULE: "Gravity Module Device"
+      STR_EINSTEINEQUATION: "Einstein Formula E=MC2"
+      STR_AEROSPACEPROJECT: "Aerospace Project Proposal"
+      STR_CAVORITESMELTFORGE: "Cavorite Zero Gravity Forge"
+
+
+
+
+###### On our Own Reseach and Extended ########
+      STR_ARESPROJECT: "Advance Research: Experimental Spacefaring Project" ##### Disables All Country Factions
+      STR_PILOTTOOPERATIVE: "Operators Combined Arms"
+      STR_AIRBORNE_CONCEPT: "Airborne Development"
+      STR_AIRBORNE_CONCEPT_UFOPEDIA: ""
+##### Outsourcing Research
+      STR_ADVANCEVEHICLENSPACE1: "Advance Generation Vehicle Outsourcing"
+      STR_ADVANCEVEHICLENSPACE1_UFOPEDIA: "Our manufacturing capabilities cannot keep up the construction on weapons and vehicles due to limited space. We suggests that we must established uphold meetings to all manufacturing companies and military contractors. They will arrive at the government conventional forum for industrial regulation."
+      STR_ADVANCEVEHICLENSPACE2: "Multi-National Corporation Committee"
+      STR_ADVANCEVEHICLENSPACE2_UFOPEDIA: "We established a meeting for military manufacturing companies to further push for mass production. Many manufacturing representatives have arrived to discuss about coalition capabilies of utilizing alien technology. "
+
+      STR_ADVANCEVEHICLENSPACEACCEPT: "Establish Multi-National R&D Proposal"
+      STR_ADVANCEVEHICLENSPACEREJECT: "Cancel Multi-National R&D Proposal"
+      STR_SCHUMN_SUPERDREADNOUGHT1: "USA-AD 13 Lincoln" #American / Japan; 1:Landship; 2:Walker
+      STR_SCHUMN_SUPERDREADNOUGHT2:  "USA-AD 14 Washington"
+      STR_MACFIE_SUPERDEREADNOUGHT1: "LSD-13 King Arthur"  #British; 1:Landship; 2:Walker
+      STR_MACFIE_SUPERDEREADNOUGHT2: "LCW-14 Richard Lion"
+      STR_HOTDOG_SUPERDREADNOUGHT1: "BLD-13 Napoleon" #French; 1:Landship; 2:Walker
+      STR_HOTDOG_SUPERDREADNOUGHT2: "SWD-14 Joan of Arc"
+      STR_TSARS_SUPERQUADTANKWHEEL1: "SQD-13 Saint Peter" #Russian; 1:Landship; 2:Walker
+      STR_TSARS_SUPERQUADTANKWHEEL2: "SQD-14 Catherine"
+      STR_LOMGOBARDI_COMBINATION1: "BWD-13 Theodore Greate" #Italian; 1:Landship; 2:Walker
+      STR_LOMGOBARDI_COMBINATION2: "LCW-14 Augustus"
+      STR_KAISER_GOEBELLANDPANWAGEN1: "LCD-13 Bismarack" #German / Austria-Hungary; 1:Landship; 2:Walker
+      STR_KAISER_GOEBELLANDPANWAGEN2: "LSW-14 Barbarossa"
 
 
 
@@ -2593,23 +2681,27 @@ en-US:
       STR_MARTIAN_HUMANOIDS: "Martian Humanoids"
       STR_MARTIAN_HUMANOIDS_UFOPEDIA: "The Martian humanoids looks familiar to humans only in a different physical traits. However, they live in a harsh climates which their bodys able to produce heat better than our counterparts. They do travel anywhere on cold hostile environment except heat temperatures. This challenge us to learn survival on cold hostile planets. Which we will create a plan for our next generations."
       STR_MARTIAN_HUMANOIDS_LAUNGUAGE: "Martian Humanoids Language Arts"
-      STR_MARTIAN_HUMANOIDS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts. The Martian Humanoids writtings can allow us to translate our words to their readings. "
+      STR_MARTIAN_HUMANOIDS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts. The Martian Humanoids writings can allow us to translate our words to their readings. "
       STR_MARTIAN_HUMANOIDS_FOOD: "Martian Humanoids Foodstuffs"
       STR_MARTIAN_HUMANOIDS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. Human do not know if the alien fruit / vegatbles would fit for human diet."
       STR_MARTIAN_HUMANOIDS_CULTURE: "The Martian Humanoid Culture"
       STR_MARTIAN_HUMANOIDS_CULTURE_UFOPEDIA: "These creatures originated from the Mars surface. Before Mars was changed into hospitable planet, there was once a cold harsh desert with ice on polar caps."
 
+#### Triffids Evolved Mutant Carnivore Plant
+      STR_MARTIAN_TRIFFIDS:
+
 ## Octasapiens
       STR_OCTASAPIENS: "Martian Octasapiens"
       STR_OCTASAPIENS_UFOPEDIA: ""
       STR_OCTASAPIENS_LANGUAGE: "Octasapien Language Arts"
-      STR_OCTASAPIENS_L_UFOPEDIA: ""
+      STR_OCTASAPIENS_L_UFOPEDIA: "We have completed a compilation of a Martian Octasapiens language Arts based on all information from their ranks. "
       STR_OCTASAPIENS_FOOD: "Octasapien Foodstuffs"
       STR_OCTASAPIENS_FOOD_UFOPEDIA: ""
       STR_OCTASAPIENS_CULTURE: ""
       STR_OCTASAPIENS_CULTURE_UFOPEDIA: ""
-
-
+      STR_OCTASAPIENS_AGARTHA: "Mars Subterranean Agartha"
+      STR_OCTASAPIENS_SUBTERRANEAN_EMPIRE: "Octasapien Subterranean Empire"
+      STR_OCTASAPIENS_SPACE_ELEVATOR: "Mars Space Elevator Structure"
 ## Overlord
       STR_OVERLORD_ORIGINS: "Martian Overlord Origins"
       STR_OVERLORD_O_UFOPEDIA: ""

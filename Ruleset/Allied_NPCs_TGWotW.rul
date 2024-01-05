@@ -232,7 +232,7 @@ units:
         - STR_WHISTLE
         - STR_PAINKILLER
 #####################################
-#Tier II, employs advanced ballistic weapons and one Martian Metal ammo 
+#Tier II, employs advanced ballistic weapons and one Martian Metal ammo
   - type: STR_BRITISH_T2_RIFLEMAN_NPC
     race: STR_HUMANS
     rank: STR_LIVE_SOLDIER

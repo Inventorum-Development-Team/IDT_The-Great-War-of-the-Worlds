@@ -1,0 +1,259 @@
+
+alienRaces:
+  - id: STR_TRIFFID
+    members:
+      - STR_TRIFFID_TERRORIST
+      - STR_TRIFFID_TERRORIST
+      - STR_TRIFFID_TERRORIST
+      - STR_TRIFFID_TERRORIST
+      - STR_TRIFFID_TERRORIST
+      - STR_TRIFFID_TERRORIST
+      - STR_TRIFFID_TERRORIST
+      - STR_TRIFFID_TERRORIST
+items:
+  - type: STR_TRIFFID_CORPSE
+    size: 1
+    costSell: 9000
+    battleType: 11
+  - type: TRIFFID_CORPSE_1
+    name: STR_TRIFFID_CORPSE
+    floorSprite: 73
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: true
+    recoveryPoints: 3
+  - type: TRIFFID_CORPSE_2
+    floorSprite: 74
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: TRIFFID_CORPSE_3
+    floorSprite: 75
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: TRIFFID_CORPSE_4
+    floorSprite: 76
+    invWidth: 0
+    invHeight: 0
+    battleType: 11
+    recover: false
+  - type: STR_TRIFFID_TERRORIST
+    size: 0.0
+    recover: true
+    liveAlien: true
+    costSell: 350000
+  - type: TRIFFID_WEAPON
+    weight: 3
+    bigSprite: 203
+    floorSprite: 31
+    handSprite: 104
+    meleeSound: 48
+    clipSize: -1
+    strengthApplied: true
+    damageType: 7
+    accuracyMelee: 80
+    tuMelee: 20
+    battleType: 3
+    fixedWeapon: true
+    invWidth: 2
+    invHeight: 3
+    recover: false
+  - type: AUX_TRIFFID_WEAPON
+    weight: 24
+    bulletSprite: 5
+    fireSound: 2000
+    hitSound: 2000
+    hitAnimation: -1
+    power: 150
+    damageType: 7
+    damageAlter:
+      ToArmorPre: 0.08
+    accuracyAuto: 150
+    accuracyMultiplier:
+      firing: 0.0
+      flatHundred: 0.70
+      melee: 0.50
+    costAuto:
+      time: 40
+      energy: 25
+    flatThrow:
+      time: true
+    clipSize: -1
+    battleType: 1
+    invWidth: 2
+    invHeight: 3
+    maxRange: 1
+    powerRangeThreshold: 3
+    powerRangeReduction: 999
+    bulletSpeed: 50
+    autoShots: 5
+    kneelBonus: 100
+    experienceTrainingMode: 1
+    attraction: 6
+    recover: false
+    fixedWeapon: true
+    specialUseEmptyHand: true
+  - type: TRIFFID_RAY
+    weight: 1
+    bigSprite: 54
+    floorSprite: 0
+    handSprite: 0
+    bulletSprite: 5
+    fireSound: 0
+    hitSound: 0
+    hitAnimation: 36
+    power: 180
+    damageType: 4
+    accuracySnap: 40
+    accuracyAimed: 80
+    tuSnap: 33
+    tuAimed: 75
+    battleType: 1
+    fixedWeapon: true
+    clipSize: -1
+    invWidth: 2
+    invHeight: 3
+
+
+
+armors:
+  - type: TRIFFID_ARMOR
+    spriteSheet: TRIFFID.PCK
+    corpseBattle:
+      - TRIFFID_CORPSE_1
+      - TRIFFID_CORPSE_2
+      - TRIFFID_CORPSE_3
+      - TRIFFID_CORPSE_4
+    frontArmor: 130
+    sideArmor: 120
+    rearArmor: 100
+    underArmor: 80
+    movementType: 2
+    drawingRoutine: 5
+    size: 2
+    damageModifier:
+      - 0.5 #0 None
+      - 0.5 #1 Armor Piercing
+      - 3.0 #2 Incendiary
+      - 1.5 #3 High Explosive
+      - 1.1 #4 Laser
+      - 1.1 #5 Plasma
+      - 0.3 #6 Stun
+      - 0.4 #7 Melee
+      - 3.0 #8 Acid
+      - 1.0 #9 Smoke
+      - 0.8 #10 K-MM Ballistic
+      - 0.2 #11 Electric
+      - 0.8 #12 Coilgun Ballistic
+      - 1.0 #13 Thermal
+      - 1.5 #14 Black Smoke
+      - 0.5 #15 Shrapnel
+#      - 1.0 #16 Cold
+      - 3.0 #17 Toxic
+      - 3.0 #18 Flames
+
+    loftempsSet: [ 92, 89, 90, 91 ]
+    specialWeapon: AUX_TRIFFID_WEAPON
+research:
+  - name: TRIFFID_CORPSE_1
+    cost: 500
+    points: 20
+    lookup: STR_TRIFFID_AUTOPSY
+    needItem: true
+    destroyItem: true
+  - name: STR_TRIFFID_TERRORIST
+    cost: 500
+    points: 20
+    lookup: STR_TRIFFID
+    needItem: true
+    destroyItem: true
+  - name: STR_TRIFFID
+    points: 20
+    needItem: true
+  - name: STR_TRIFFID_AUTOPSY
+    points: 20
+    needItem: true
+
+ufopaedia:
+  - id: STR_TRIFFID
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TRIFFID
+    image_id: TRIFFIDS.SPK
+    text: Their name, coined by one of our soldiers from a horror movie, the Triffid, something from our worst nightmares. A sentient and mobile hostile plant based life form with a deadly apetite. The Triffids, were planted in the zones of Biomass, to act like guardians of the same one. Its development was very fast, reproducing by spores. Fortunately, these monsters do not survive outside the few areas of Biomass that still survive, otherwise they would have ended with all life on Earth. The species seems to come in two varieties one that has deadly corrosive projectiles and another which uses its horrifying jaws to eat through armor
+    text_width: 170
+  - id: STR_TRIFFID_AUTOPSY
+    type_id: 7
+    section: STR_ALIEN_LIFE_FORMS
+    requires:
+      - STR_TRIFFID_AUTOPSY
+    image_id: TRIFFIDS.SPK
+    text: The autopsy shows that regardless of the variant of the Triffid, their biology is similar, however it would seem that this is not a naturally evolved life-form and has been the subject of extreme mutagenics. The sensory system is entirely based on sound and we believe uses different forms of clicking noises. Like most oranic flora it is extremely weak to incendiary based weaponry. The corrosive glands may provide us another weapon to use against other alien life-forms and should be researched further.
+    text_width: 170
+extraStrings:
+  - type: en-US
+    strings:
+      STR_TRIFFID: Triffid
+      STR_TRIFFID_TERRORIST: Triffid
+      STR_TRIFFID_CORPSE: Triffid Corpse
+      STR_TRIFFID_AUTOPSY: Triffid Autopsy
+      TRIFFID_CORPSE_1: Triffid Corpse
+
+units:
+  - type: STR_TRIFFID_TERRORIST
+    race: STR_TRIFFID
+    rank: STR_LIVE_TERRORIST
+    stats:
+      tu: 70
+      stamina: 100
+      health: 150
+      bravery: 110
+      reactions: 20
+      firing: 60
+      throwing: 0
+      strength: 180
+      psiStrength: 100
+      psiSkill: 0
+      melee: 70
+    armor: TRIFFID_ARMOR
+    standHeight: 16
+    kneelHeight: 16
+    value: 25
+    builtInWeapons:
+      - TRIFFID_RAY
+    aggroSound: 1000
+    deathSound: 1000
+    moveSound: 0
+    intelligence: 5
+    aggression: 2
+    livingWeapon: true
+extraSprites:
+  - type: TRIFFID.PCK
+    subX: 32
+    subY: 40
+    width: 256
+    height: 840
+    files:
+      0: Resources/TRIFFID/TRIFFID.png
+  - type: FLOOROB.PCK
+    files:
+     73: Resources/TRIFFID/TRIFFID_CORPSE-1.png
+     74: Resources/TRIFFID/TRIFFID_CORPSE-2.png
+     75: Resources/TRIFFID/TRIFFID_CORPSE-3.png
+     76: Resources/TRIFFID/TRIFFID_CORPSE-4.png
+  - type: TRIFFIDS.SPK
+    singleImage: true
+    width: 320
+    height: 200
+    files:
+      0: Resources/TRIFFID/TRIFFIDS.png
+extraSounds:
+  - type: BATTLE.CAT
+    files:
+      1010: Resources/TRIFFID/TRIFFIDAGGRO.wav
+      2000: Resources/TRIFFID/TRIFFID.wav
