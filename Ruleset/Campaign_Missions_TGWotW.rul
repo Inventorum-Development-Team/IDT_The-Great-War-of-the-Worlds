@@ -127,25 +127,20 @@ alienMissions:
       - ufo: STR_MARTIAN_LIGHT_FIGHTER
         count: 3
         trajectory: P0
-        timer: 24000
-        hunterKillerPercentage: 100
-      - ufo: STR_MARTIAN_RECON_WALKER
-        count: 3
-        trajectory: P2
-        timer: 24000
-      - ufo: STR_MARTIAN_ASSAULT_WALKER
+        timer: 1500
+      - ufo: STR_MARTIAN_BATTLE_WALKER
         count: 1
-        trajectory: P2
-        timer: 6000
-      - ufo: NIMBLE_FIGHTER
-        count: 3
-        trajectory: P4
-        timer: 3000
-        hunterKillerPercentage: 100
+        trajectory: P1
+        timer: 28000
+      - ufo: STR_MARTIAN_BATTLE_WALKER
+        count: 1
+        trajectory: P3
+        timer: 32000
       - ufo: STR_MARTIAN_HARVESTER_WALKER
         count: 2
-        trajectory: P2
-        timer: 15000
+        trajectory: P4
+        timer: 24000
+
   - type: STR_ALIEN_ABDUCTION
     points: 0
     raceWeights:
@@ -167,25 +162,21 @@ alienMissions:
         STR_MARTIAN_LINE_INFANTRIES: 100
     waves:
       - ufo: STR_MARTIAN_LIGHT_FIGHTER
-        count: 3
+        count: 2
         trajectory: P0
-        timer: 1500
-      - ufo: STR_MARTIAN_BATTLE_WALKER
-        count: 1
-        trajectory: P1
-        timer: 18000
-      - ufo: STR_MARTIAN_BATTLE_WALKER
-        count: 1
-        trajectory: P3
-        timer: 12000
-      - ufo: STR_MARTIAN_HARVESTER_WALKER
-        count: 1
-        trajectory: P3
-        timer: 12000
-      - ufo: STR_MARTIAN_HARVESTER_WALKER
-        count: 1
-        trajectory: P4
         timer: 24000
+        hunterKillerPercentage: 100
+      - ufo: STR_MARTIAN_RECON_WALKER
+        count: 1
+        trajectory: P2
+        timer: 24000
+        hunterKillerPercentage: 100
+      - ufo: STR_MARTIAN_HARVESTER_WALKER
+        count: 1
+        trajectory: P2
+        timer: 15000
+
+
   - type: STR_ALIEN_INFILTRATION
     points: 0 #Pact score only awarded on month end
     objective: 1
@@ -208,19 +199,19 @@ alienMissions:
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 1
         trajectory: P0
-        timer: 16500
+        timer: 26500
       - ufo: STR_MARTIAN_RECON_WALKER
         count: 1
         trajectory: P1
-        timer: 15000
+        timer: 25000
       - ufo: SUPPORT_BOAT
         count: 1
         trajectory: P6
-        timer: 13800
+        timer: 33800
       - ufo: STR_MARTIAN_ASSAULT_WALKER
         count: 1
         trajectory: P7
-        timer: 12000
+        timer: 22000
       - ufo: STR_MARTIAN_SIEGE_WALKER
         count: 1
         trajectory: P7
@@ -707,7 +698,7 @@ alienMissions:
 ############################################
   - type: STR_MARTIAN_AIR_PATROL_1
     points: 0
-    operationType: 6
+    operationType: 0
     raceWeights:
       0:
         STR_MARTIAN_MARINES: 100
@@ -739,7 +730,7 @@ alienMissions:
         escort: true
   - type: STR_MARTIAN_AIR_SUPREMACY_1
     points: 0
-    operationType: 6
+    operationType: 0
     raceWeights:
       0:
         STR_MARTIAN_MARINES: 100
@@ -779,7 +770,7 @@ alienMissions:
         escort: true
   - type: STR_MARTIAN_AIR_SUPREMACY_2
     points: 0
-    operationType: 6
+    operationType: 0
     raceWeights:
       0:
         STR_MARTIAN_MARINES: 100
@@ -820,7 +811,7 @@ alienMissions:
   - type: STR_ALIEN_SUPPLY
     points: 0
     objective: 5
-    operationType: 6
+    operationType: 0
     raceWeights: {} #Special case, race comes from base.
     waves:
       - ufo: SUPPORT_BOAT

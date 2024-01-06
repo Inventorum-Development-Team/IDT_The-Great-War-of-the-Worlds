@@ -3866,6 +3866,7 @@ alienDeployments:
     width: 60
     length: 60
     height: 10
+    alienBase: true
     customUfo: STR_MARTIAN_CYLINDER
     terrains:
       - FOREST_TRENCH

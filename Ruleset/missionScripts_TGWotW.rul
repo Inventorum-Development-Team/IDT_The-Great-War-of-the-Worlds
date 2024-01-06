@@ -806,26 +806,18 @@ missionScripts:
 #################################
 
   - type: earlyMartianCylinder
+    varName: earlyMartianCylinder
     missionWeights:
       0:
-        STR_ALIEN_CYLINDER: 100
-    startDelay: 720
-    #randomDelay: 43500
-    firstMonth: 1
-    lastMonth: 2
-    maxRuns: 1
-    regionWeights:
-      0:
-        STR_NORTH_AMERICA: 20
-        STR_SOUTH_AMERICA: 10
-        STR_EUROPE: 20
-        STR_NORTH_AFRICA: 10
-        STR_SOUTHERN_AFRICA: 5
-        STR_CENTRAL_ASIA: 0
-        STR_SOUTH_EAST_ASIA: 20
-        STR_SIBERIA: 0
-        STR_AUSTRALASIA: 0
-    varName: earlyMartianCylinder
-    executionOdds: 100
+        STR_ALIEN_INFILTRATION: 100
+    startDelay: 43500
+    randomDelay: 43500
     targetBaseOdds: 100
+    #minScore: 1000
+    lastMonth: 1
+    firstMonth: 1
+    maxRuns: 1
+    useTable: false
+
+
 ###################################
