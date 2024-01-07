@@ -2026,7 +2026,7 @@ ufopaedia:
     requires:
       - STR_IMPROVED_TANK_DESIGN
     section: STR_NEW_TECHNOLOGIES
-    text: STR_TANK_HISTORY_1_UFOPEDIA
+    text: STR_TANK_HISTORY_3_UFOPEDIA
     listOrder: 14612
 
 

@@ -1,3 +1,12 @@
+7-January-2024: 1.1 "Attrition"
+Changes made:
+* Fixed fatal crash related to Martian air interception missions, by Buscher; reported by Kiro Xei & LogriasDa2nd
+* New Pilot uniform sprites, by Hans Woofington
+* Changes on several War Codex text entries, suggested by MitraLightbringer
+* Improved Mech Walker maps, now they have thicker and better protected legs, by Kiro Xei
+* Reduced amount of Martian Machines in the alienMissions to avoid overwhelming the player with more enemies than the actual response capability, by efrenespartano
+* Living Quarters now have 20 training rooms, by Kiro Xei
+
 25-December-2023: 1.0 "Attrition"
 Changes made:
 * Added most of the missing codes. By Kiro Xei
