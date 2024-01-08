@@ -51,7 +51,7 @@ Credits by name:
 *Hobbes: Tech-Comm reference plus help on the forums.
 * Ikhanad: feedback support, Phlogiston plot, and ideas
 * Luke83: All of the Martian Tripods, Martian Fleet, infested maps, Forest Rail, Trenches mapsets plus ideas & ruleset editing
-* Kael Schwabauer: IDT tester, feedback support, lore writer 
+* Kael Schwabauer: IDT tester, feedback support, lore writer
 * Kiro Xei: general balance and code support
 * Nathan: Phlogiston plot, Phlogiston weapon sprites
 * Noah183: Support debugging plus ideas
@@ -67,6 +67,7 @@ Credits by name:
 * Stosstruppen1918: general Historic reference and guide.
 * StormRangerX: feedback support
 * SupSuper: Original GeoIcons GlobeMarkers
+* tajava: feedback support
 * Tal'Raziid: feedback support, fix to Turrets' issues
 * The Reaver of Darkness: Heat Ray weapons stats, Phlogiston plot, plus help with general balance.
 * The Martian: Gun turret sprites mounted on Mech Walkers

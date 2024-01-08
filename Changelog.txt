@@ -1,6 +1,6 @@
 7-January-2024: 1.1 "Attrition"
 Changes made:
-* Fixed fatal crash related to Martian air interception missions, by Buscher; reported by Kiro Xei & LogriasDa2nd
+* Fixed fatal crash related to Martian air interception missions, by Buscher; reported by Kiro Xei, LogriasDa2nd & tajava
 * New Pilot uniform sprites, by Hans Woofington
 * Changes on several War Codex text entries, suggested by MitraLightbringer
 * Improved Mech Walker maps, now they have thicker and better protected legs, by Kiro Xei
