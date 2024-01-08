@@ -2,7 +2,7 @@ startingConditions:
   - type: STR_STARTING_RED_WEED_ENVIRO
     defaultArmor:
       STR_PILOT:
-        STR_BRITISH_GASMASK_UC: 100
+        STR_PILOT_UNIFORM_GASMASK_UC: 100
       STR_BRITISH_SOLDIER:
         STR_BRITISH_GASMASK_UC: 100
       STR_AMERICAN_SOLDIER:
@@ -16,6 +16,7 @@ startingConditions:
       STR_RUSSIAN_SOLDIER:
         STR_RUSSIAN_GASMASK_UC: 100
     allowedArmors:
+      - STR_PILOT_UNIFORM_GASMASK_UC
       - STR_BRITISH_GASMASK_UC
       - STR_FRENCH_GASMASK_UC
       - STR_AMERICAN_GASMASK_UC
