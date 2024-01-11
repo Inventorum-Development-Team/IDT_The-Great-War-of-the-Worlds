@@ -606,7 +606,7 @@ alienDeployments:
             - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_HEATRAY_CARBINE_BATTERY_MICROWAVE
             - STR_ALIEN_GRENADE
-          -            
+          -
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL
             - STR_HEATRAY_PISTOL_BATTERY_PHOTON

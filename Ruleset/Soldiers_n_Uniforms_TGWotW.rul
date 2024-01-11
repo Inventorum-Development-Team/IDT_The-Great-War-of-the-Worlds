@@ -12,6 +12,11 @@ soldiers:
     avatarOffsetY: 50
     costBuy: 30000
     costSalary: 20000
+    requiresBuyCountry:
+      - STR_USA
+      - STR_CALIFORNIA_REPUBLIC
+      - STR_TEXAS_FRONT
+      - STR_MEXICAN_RESISTANCE
     minStats:
       tu: 40
       stamina: 40
@@ -82,6 +87,13 @@ soldiers:
     avatarOffsetY: 50
     costBuy: 50000
     costSalary: 30000
+    requiresBuyCountry:
+      - STR_UK
+      - STR_CANADA
+      - STR_INDIA
+      - STR_AUSTRALIA
+      - STR_EGYPT
+      - STR_SOUTH_AFRICA
     minStats:
       tu: 60
       stamina: 40
@@ -149,6 +161,8 @@ soldiers:
       - STR_GERMAN_EQUIPMENT_SELECTION
     costBuy: 50000
     costSalary: 40000
+    requiresBuyCountry:
+      - STR_GERMANY
     flagOffset: 9
     minStats:
       tu: 60
@@ -294,6 +308,8 @@ soldiers:
     avatarOffsetY: 50
     costBuy: 35000
     costSalary: 30000
+    requiresBuyCountry:
+      - STR_FRANCE
     minStats:
       tu: 50
       stamina: 40
@@ -366,6 +382,8 @@ soldiers:
     avatarOffsetY: 50
     costBuy: 30000
     costSalary: 20000
+    requiresBuyCountry:
+      - STR_ITALY
     minStats:
       tu: 50
       stamina: 40
@@ -438,6 +456,8 @@ soldiers:
     avatarOffsetY: 50
     costBuy: 30000
     costSalary: 20000
+    requiresBuyCountry:
+      - STR_RUSSIA
     minStats:
       tu: 50
       stamina: 40
@@ -547,12 +567,16 @@ items:
       - STR_PERSONAL_ARMOR
     costSell: 850
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_ITALY
   - type: STR_POWER_SUIT
     size: 0.08
     requires:
       - STR_POWER_SUIT
     costSell: 850
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_GERMANY
     visibilityAtDay: 30
     visibilityAtDark: 18
 
@@ -597,12 +621,26 @@ items:
       - STR_BRITISH_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_UK
+      - STR_CANADA
+      - STR_INDIA
+      - STR_AUSTRALIA
+      - STR_EGYPT
+      - STR_SOUTH_AFRICA
   - type: STR_BRITISH_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_BRITISH_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_UK
+      - STR_CANADA
+      - STR_INDIA
+      - STR_AUSTRALIA
+      - STR_EGYPT
+      - STR_SOUTH_AFRICA
 
   - type: STR_BRITISH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
@@ -685,12 +723,22 @@ items:
       - STR_AMERICAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_USA
+      - STR_CALIFORNIA_REPUBLIC
+      - STR_TEXAS_FRONT
+      - STR_MEXICAN_RESISTANCE
   - type: STR_AMERICAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_AMERICAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_USA
+      - STR_CALIFORNIA_REPUBLIC
+      - STR_TEXAS_FRONT
+      - STR_MEXICAN_RESISTANCE
 
   - type: STR_AMERICAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
@@ -783,12 +831,16 @@ items:
       - STR_GERMAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_GERMANY
   - type: STR_GERMAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_GERMAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_GERMANY
 
   - type: STR_GERMAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
@@ -883,12 +935,16 @@ items:
       - STR_FRENCH_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_FRANCE
   - type: STR_FRENCH_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_FRENCH_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_FRANCE
 
   - type: STR_FRENCH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
@@ -970,12 +1026,16 @@ items:
       - STR_ITALIAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_ITALY
   - type: STR_ITALIAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_ITALIAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_ITALY
 
   - type: STR_ITALIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
@@ -1047,12 +1107,16 @@ items:
       - STR_RUSSIAN_T2_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_RUSSIA
   - type: STR_RUSSIAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_RUSSIAN_T3_BODY_ARMOR
     costSell: 8500
     costBuy: 1000
+    requiresBuyCountry:
+      - STR_RUSSIA
 
   - type: STR_RUSSIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE

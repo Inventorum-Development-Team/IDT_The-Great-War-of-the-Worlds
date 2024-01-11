@@ -155,7 +155,6 @@ armors:
 #      - 1.0 #16 Cold
       - 3.0 #17 Toxic
       - 3.0 #18 Flames
-
     loftempsSet: [ 92, 89, 90, 91 ]
     specialWeapon: AUX_TRIFFID_WEAPON
 research:

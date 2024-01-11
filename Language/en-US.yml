@@ -320,7 +320,7 @@ en-US:
         designed to endure even in the worst conditions.
       STR_HEAVY_REVOLVER: Heavy Revolver
       STR_HEAVY_REVOLVER_UFOPEDIA: A bit cumbersome and difficult sidearm, most
-        preferred by Central European troops. Being single-action, it is rate of
+        preferred by Central European troops. Being single-action, it's rate of
         fire is limited. This is compensated ny the better accuracy, compared to
         other revolvers.
       STR_SMLE_MKIII: SMLE Mk III Bayoneted
@@ -330,7 +330,7 @@ en-US:
         The most recent iteration of the Lee-Enfield rifle
         caliber .303 British. It's the fastest bolt-action rifle in the world
         and probably the best, an expert rifleman can shoot as fast as a machine
-        gun. It is recharged using two stripper clips with 5 bullets each one.
+        gun. It's reloaded using two stripper clips with 5 bullets each one.
         Its iron sight is comfortable and precise for long range shooting.
       STR_FARQHUAR_HILL: Farqhuar-Hill SLR
       STR_FARQHUAR_HILL_DRUM: Farqhuar-Hill Drum
@@ -339,14 +339,14 @@ en-US:
         Next-generation British autoloader rifle. Its drum
         magazine allows you to charge twice as much ammunition. It has a great
         rate of fire, although it has awkard recoil and inaccuracy over long
-        distances, it is recommended to shoot in short bursts. Calibered in .303
+        distances, it's recommended to shoot in short bursts. Calibered in .303
         British.
       STR_HUOT_LMG: Huot Automatic Rifle
       STR_HUOT_LMG_DRUM: Huot Automatic Drum
       STR_HUOT_LMG_DRUM_KMM: Huot Automatic K-MM Drum
       STR_HUOT_LMG_UFOPEDIA:
         One of the cheapest light machine guns produced by the
-        Commonwealth. Extremely reliable and durable, it is not affected by mud.
+        Commonwealth. Extremely reliable and durable, it's not affected by mud.
         All the Ross rifles in the Canadian arsenal were converted into this new
         automatic weapon. Employs a gas mechanism designed by engineer Joseph
         Huot, replacing the Lewis machine gun as a 'fire on the move' weapon. It
@@ -362,7 +362,7 @@ en-US:
         Iconic American handgun. Motivated to replace revolvers
         in service with the armed forces, this innovative gun designed by John
         M. Browning uses the powerful .45 ACP high stopping power cartridge,
-        similar to that used by Old West revolvers. Its robust design resulted
+        similar to that used by Old West revolvers. It's robust design resulted
         in a semiautomatic, reliable and very resistant weapon.
       STR_SPRINGFIELD: M1903 Springfield Bayoneted
       STR_SPRINGFIELD_CLIP: M1903 Springfield Clip
@@ -371,7 +371,7 @@ en-US:
         Bolt-action rifle of American design, caliber .30-06,
         based on the bolt-action mechanism of the German Mauser Gewehr 98. It
         replaced the old Krag rifle and is supplied en masse to troops of the US
-        Army. It is equipped with a bayonet for close combat.
+        Army. It's equipped with a bayonet for close combat.
       STR_P14_ENFIELD: P14 Enfield
       STR_P14_ENFIELD_UFOPEDIA: Starting as a response to the Boer's Mauser rifles, then a improved license-produced version of the SMLE and eventually a joint American-British effort, the Pattern 1914 Enfield is an accurate sniper rifle used by both US and Commonwealth marksmen, using .30-06 rounds.
       STR_BAR: BAR LMG
@@ -414,7 +414,7 @@ en-US:
       STR_GEWEHR98_CLIP: Mauser 'Standard' Clip
       STR_GEWEHR98_CLIP_KMM: Mauser 'Standard' K-MM Clip
       STR_GEWEHR98_UFOPEDIA: From the European forests and the Asian
-        steppes to the Mexican deserts and the South American jungles, it is the
+        steppes to the Mexican deserts and the South American jungles, it's the
         standard bolt-action rifle of several armies of the Coalition (hence the nickname of 'The Standard'). It shoots 7.92x57mm ammunition, widely copied and reproduced
         by local armories outside Germany.
       STR_MAUSER_C96: Mauser C96 Handgun
@@ -494,7 +494,7 @@ en-US:
       STR_OBREZ_PISTOL_UFOPEDIA:
         Makeshift handgun made with the bolt mechanism of a
         Mosin-Nagant. The rifle caliber gives it a great firepower advantage
-        compared to standard pistols, but the handling it is a bit awkward. Obrez
+        compared to standard pistols, but the handling it's a bit awkward. Obrez
         means 'sawed-off' in Russian.
       STR_MOSIN_NAGANT_CLIP: Mosin-Nagant Clip
       STR_MOSIN_NAGANT_CLIP_KMM: Mosin-Nagant K-MM Clip
@@ -530,7 +530,7 @@ en-US:
       STR_MM_MOSIN_NAGANT_CLIP: null
       STR_MM_MOSIN_NAGANT_UFOPEDIA_CLIP: null
       STR_SHASHKA: Shashka
-      STR_SHASHKA_UFOPEDIA: A traditional Cossack sabre crafted by the most skilled artisans. The razor-sharp blade can cut through a regular human with ease. And the Martian bodies are not that difficult neither.
+      STR_SHASHKA_UFOPEDIA: A traditional Cossack sabre crafted by the most skilled artisans. The razor-sharp blade can cut through a regular human with ease. And the Martian bodies aren't that difficult neither.
       STR_MM_SHASHKA: MM Shashka
       STR_MM_SHASHKA_UFOPEDIA: The Cossack craftsmen reforged the iconic sabre with a the alien minerals. A steel core with Tunguskium blade makes it a balanced and hardened melee weapon.
       STR_MM_DAGGER: MM Dagger
@@ -598,7 +598,7 @@ en-US:
       STR_HELLRIEGEL_CLIP: null
       STR_HELLRIEGEL_UFOPEDIA: ...
       STR_REMINGTON_MODEL_11: Browning Auto-5
-      STR_REMINGTON_MODEL_11_UFOPEDIA: "Considered by it is creator, John M. Browning as 'his greatest creation', the Automatic-5 is a quick-fire, semi-automatic shotgun. This particular variant, one of the most popular among the Coalition, has a shortened barrel."
+      STR_REMINGTON_MODEL_11_UFOPEDIA: "Considered by it's creator, John M. Browning as 'his greatest creation', the Automatic-5 is a quick-fire, semi-automatic shotgun. This particular variant, one of the most popular among the Coalition, has a shortened barrel."
       STR_INERTIA_SHOTGUN: Sjögren Inertia Shotgun
       STR_INERTIAL_SHOTGUN_CLIP: null
       STR_INERTIA_SHOTGUN_UFOPEDIA: Semi-automatic shotgun designed by Swedish
@@ -789,7 +789,7 @@ en-US:
       STR_TRANQUILIZER_SHOTGUN_DARTS: "Tranquilizer Dart-Shells"
       STR_TRANQUILIZER_RIFLE_UFOPEDIA: "A special purpose trapdoor mechanism, break-action shotgun, designed to shoot blank shells with highly experimental darts filled with a clasified chemical compound inside, meant to incapacitate Martians. The darts have a syringe-like point that penetrates the thick skin of the Grays. The main drawback is the limited range of the dart once fired and the fact the enemy may take several shots to sedate, as we are unaware of the exact measure of chemicals required to fully knock them down."
       STR_SONIC_HANDGUN: "Sonic Compact Handgun"
-      STR_SONIC_HANDGUN_UFOPEDIA: "Experience learnt with the Tranquilizer long guns showed the specialists tasked on stunning Grays were often in need of a lighter sidegun, as the bulky shotguns were not easy to use. We've designed a small emitter, compact enough to fit inside a modified C93 pistol frame."
+      STR_SONIC_HANDGUN_UFOPEDIA: "Experience learnt with the Tranquilizer long guns showed the specialists tasked on stunning Grays were often in need of a lighter sidegun, as the bulky shotguns weren't easy to use. We've designed a small emitter, compact enough to fit inside a modified C93 pistol frame."
       STR_SONIC_RIFLE: "Sonic Ranged Disrupter"
       STR_SONIC_RIFLE_UFOPEDIA: "A direct replacement of the cumbersome Tranquilizer shotguns. This weapon is lighter than it seems and emitters a high-pitched sound in the same frequency heard by the average Martian. The amplifying antenna is highly fragile, so using it for melee combat is not recommended."
 
@@ -866,7 +866,7 @@ en-US:
       STR_WHISTLE: Whistle
       STR_WHISTLE_UFOPEDIA:
         Small device designed to emit a loud, high-pitched sound.
-        It is used by officers to indicate an attack or an infantry charge. If
+        It's used by officers to indicate an attack or an infantry charge. If
         used directly on a soldier, increase the TUs by 20, courage by 10 and
         reactions by 5, as a result of the morale rise. However, it can tire the
         soldier who uses the whistle, because he loses his breath when using it
@@ -953,7 +953,7 @@ en-US:
       IMPROVED_METALURGIC_TECHNIQUES: "Improved Metalurgic Techniques"
       STR_IMPROVED_METALURGIC_TECHNIQUES_UFOPEDIA:
         "{NEWLINE}{NEWLINE}{NEWLINE}Analyzing the new type of metal from which weapons and enemy vehicles are
-        made, we have found that it is a very easy-to-plow ore if a large amount
+        made, we have found that it's very easy-to-plow ore if a large amount
         of electromagnetic energy is applied. Using this knowledge, we have sent blueprints to
         allied factories to begin reconditioning the metal plates we have found
         to produce new weapons, armor and vehicles, based on prototypes.  As we lack the necessary facilities to mass produce equipment based on Tunguskium, the Coalition's armories and factories have to ensamble them and send them to our force. We must investigate the blueprints as soon as possible, to send
@@ -970,7 +970,7 @@ en-US:
         "Martian enemies enjoy using chemical attacks against our
         troops and civilians. The only way we can repel these attacks is by
         means of rudimentary gas masks. They block vision, stun the user and
-        make it difficult to aim, but it is better than dying suffocated with
+        make it difficult to aim, but it's better than dying suffocated with
         lungs full of black smoke."
       STR_HUMAN_CHEMICAL_WEAPONS: "Human Chemical Weapons"
       STR_HUMAN_CHEMICAL_WEAPONS_UFOPEDIA:
@@ -1002,7 +1002,7 @@ en-US:
       STR_CONTACT_WITH_TESLA: "Contact with Tesla"
       STR_CONTACT_WITH_TESLA_UFOPEDIA: "Nikola Tesla, the chief scientist coordinating the joint Coalition research staff investigating the invaders is currently researching anomalous alien activity near the in the Verdun Salient. The enemy's inability to break the human lines around the fortified city is unusual and the greatest mind in all Earth is actively trying to figure why. The Verdun Comune is perhaps the most dangerous place in Western Europe as the Martians constantly try to break the Human defense... yet Dr. Tesla refuses to move."
       STR_TESLA_ELECTRIC_BLUEPRINTS: "Tesla's Electric Blueprints"
-      STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA: "Dr. Tesla has agreed to work alongside us to continue developing his Electric weapons. The enormous amount of discharged energy released on a small area were met with expectations to have a wonder weapon to win the war. The highly complex mechanisms and extensive training to be able to field them properly limits the mass-production, though. Also, the unpredictable nature of the lightning adds another layer of training, something it is not always possible in these troubled times. "
+      STR_TESLA_ELECTRIC_BLUEPRINTS_UFOPEDIA: "Dr. Tesla has agreed to work alongside us to continue developing his Electric weapons. The enormous amount of discharged energy released on a small area were met with expectations to have a wonder weapon to win the war. The highly complex mechanisms and extensive training to be able to field them properly limits the mass-production, though. Also, the unpredictable nature of the lightning adds another layer of training, something isn't always possible in these troubled times. "
       STR_TESLA_FOCUSED_DISCHARGE_RESEARCH: "Tesla Focused Discharge Research"
       STR_TESLA_FOCUSED_DISCHARGE_RESEARCH_UFOPEDIA: "The uncontrollable nature of the lightning was an important restriction. By incorporating larger copper reinforced conductors alongside the front of the device, we can somewhat channel the electrical discharges towards a certain target instead of randomly."
       STR_TESLA_INFANTRY_CANNON_RESEARCH: "Tesla Infantry Cannon Research"
@@ -1097,7 +1097,7 @@ en-US:
       STR_SOLDIER_CLASSES_INTRODUCTION: "Soldier Classes"
       STR_SOLDIER_CLASSES_INTRODUCTION_UFOPEDIA: "The advent of the large scale conflicts meant a focus in the specialization of the training given to the military units. And in this industrialized war, this was further pushed by the members of the Coalition. The result is a series of 'Soldier Classes', each one with a particular set of skills. These soldiers are often assigned to special support regiments, complementing the larger armies fighting the invaders. Also, in separate combat teams like our Force. The IEF is given professional soldiers from each one of the Coalition military special forces, both to bolster our offensive capabilities and a show of unity among nations."
       STR_INFANTRY_CLASS_INTRODUCTION: "Infantry Class Introduction"
-      STR_INFANTRY_CLASS_INTRODUCTION_UFOPEDIA: "While not exactly a class per se, the vast majority of enlisted men and women serving in the Coalition armed forces fall under this group. The Infantry is cheap, adaptable and can fullfil any kind of role or task, from machine gun fire support to trench raiding. However, they are not really really capable of carrying special operations. Keep this on mind when using them in combat."
+      STR_INFANTRY_CLASS_INTRODUCTION_UFOPEDIA: "While not exactly a class per se, the vast majority of enlisted men and women serving in the Coalition armed forces fall under this group. The Infantry is cheap, adaptable and can fullfil any kind of role or task, from machine gun fire support to trench raiding. However, they aren't really really capable of carrying special operations. Keep this on mind when using them in combat."
       STR_RIFLEMAN_CLASS_SOLDIER: "Rifleman"
       STR_RIFLEMAN_CLASS_INTRODUCTION: "Rifleman Class Introduction"
       STR_RIFLEMAN_CLASS_INTRODUCTION_UFOPEDIA: "The best sharpshooters come from the Commonwealth. Their quick fire with superb precision characterize the Riflemen. Even without scoped sights, the accurate volleys of lead break the enemy assaults. The maximum exponent of the Riflemen cadre is Francis Pegahmagabow, hero of Canada.{NEWLINE}Best stats: {ALT} Firing accuracy{ALT}. {NEWLINE} Worst stats: {ALT} Melee{ALT}"
@@ -1153,7 +1153,7 @@ en-US:
       STR_MARTIAN_CYLINDER: "Martian Cylinder"
       STR_MARTIAN_CYLINDER_ALERT: "Martian Cylinder detected"
       STR_MARTIAN_CYLINDER_DESCRIPTION: "We just got notice of a Martian Cylinder about to crashland in Earth, we must locate and destroy it!"
-      STR_MARTIAN_CYLINDER_BRIEFING: "Right after making a breakthrough in the frontlines, an explosion was seen in the surface of Mars. Several hours later, a Cylinder crashed down. It's a clear attempt of the Martians to consolidate their newly adquired position. We must stop it before it is too late. It's widely known their cylinders carry just a couple of Scouting-Machines and several infantry platoons. Be careful and good luck!"
+      STR_MARTIAN_CYLINDER_BRIEFING: "Right after making a breakthrough in the frontlines, an explosion was seen in the surface of Mars. Several hours later, a Cylinder crashed down. It's a clear attempt of the Martians to consolidate their newly adquired position. We must stop it before it's too late. It's widely known their cylinders carry just a couple of Scouting-Machines and several infantry platoons. Be careful and good luck!"
       STR_MARTIAN_CYLINDER_MARKERNAME_: "Martian Cylinder Crash Site"
 
       STR_TURRET_GUIDE: How to deploy a Turret?
@@ -1255,11 +1255,11 @@ en-US:
       STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT_EVENT: "Phlogiston Infantry Weapon developed"
       STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "The general consensus of the Beam Committee has decided to focus the resources  on the refinement of a standard issue rifle for the Coalition's soldiers. A design was developed with an emphasis on the hellish conditions of the trenches, and new models with their batteries have been sent to key positions in the front. Armories all over the allied nations have started to produce the weapons and new Czchoralski Ruby Incubators have been built to keep the synthetic ruby gems supplies running."
       STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT: "Phlogiston Handheld Weapon developed"
-      STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "As requested by several officers and support unit elements in the Coalition armed forces, a compact side weapon was created. Forging refraction lenses small enough to fit inside a handgun barrel was difficult, and the result was a slightly heavier pistol than conventional desings. Still, it is very appreciated by the commanding officers on the front. Blueprints have been sent to factories and armories."
+      STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "As requested by several officers and support unit elements in the Coalition armed forces, a compact side weapon was created. Forging refraction lenses small enough to fit inside a handgun barrel was difficult, and the result was a slightly heavier pistol than conventional desings. Still, it's very appreciated by the commanding officers on the front. Blueprints have been sent to factories and armories."
       STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT: "Phlogiston Support Weapon developed"
       STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "We had recieved word of the usefulness of Phlogiston Pistols in the military leadership, although support troops have requested yet another weapon to complement their duties. Their motives are the need of a compact yet powerful weapon, with more range than a pistol, but shorter and lighter to a rifle. The solution: adapt existing M1907 carbine with Ruby Rod Chambers. The result was well recieved and production has began."
       STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT: "Phlogiston Heavy Weapon developed"
-      STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "The brute firepower of the Nospmoht-Wizniewsky Phlogiston Prototype it is not matched by the battery-powered Beam weapons. So, the solution is to scale up the Ruby Rod Emitter and mechanisms used by the Prototype to a larger frame, making a very powerful heavy rifle. The downside is the slower rate of fire and greatly increased weight and cumberness of the use. The increased demand of the ruby rods may reduce the availablity of the weapon."
+      STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION: "The brute firepower of the Nospmoht-Wizniewsky Phlogiston Prototype isn't matched by the battery-powered Beam weapons. So, the solution is to scale up the Ruby Rod Emitter and mechanisms used by the Prototype to a larger frame, making a very powerful heavy rifle. The downside is the slower rate of fire and greatly increased weight and cumberness of the use. The increased demand of the ruby rods may reduce the availablity of the weapon."
 
 ###########################
       NIMBLE_FIGHTER: Nimble Fighter
@@ -1374,7 +1374,7 @@ en-US:
       STR_EXAMINATION_ROOM: "Examination Room"
       STR_EXAMINATION_ROOM_UFOPEDIA: "This is nothing but a table used to dissect living beings. The most probable destiny of thousands of humans over the course of the war. The smell of blood is still noticeable."
       STR_MARTIAN_FORCE_FIELDS: "Alien Force Fields"
-      STR_MARTIAN_FORCE_FIELDS_UFOPEDIA: "The largest Martian machines are protected by an invisible shield. It absorbs some of the energy of our weapons, 'bouncing' it away from the machine. It seems it is adapted to resist large amounts of thermal radiation, like those emitted by high explosive rounds; perhaps learning from their experience with our artillery barrages early in the Great War. Our experts theorize kinetic energy is considerably harder to absorb and disperse than light or heat, since it has the inertia of mass behind it. This is why high-velocity ammo concentrated on small area of the force field seems to overload the generator, disabling it and breaking the shields."
+      STR_MARTIAN_FORCE_FIELDS_UFOPEDIA: "The largest Martian machines are protected by an invisible shield. It absorbs some of the energy of our weapons, 'bouncing' it away from the machine. It seems it's adapted to resist large amounts of thermal radiation, like those emitted by high explosive rounds; perhaps learning from their experience with our artillery barrages early in the Great War. Our experts theorize kinetic energy is considerably harder to absorb and disperse than light or heat, since it has the inertia of mass behind it. This is why high-velocity ammo concentrated on small area of the force field seems to overload the generator, disabling it and breaking the shields."
 
       STR_MARTIAN_STATIC_SUPPLY_DEPOT: "Martian Supply Depot"
       STR_MARTIAN_STATIC_CLONE_LAB: "Martian Organics Lab"
@@ -1416,7 +1416,7 @@ en-US:
       STR_MARTIAN_BLADE: Martian Blade
       STR_MARTIAN_BLADE_UFOPEDIA: "The Martian Blade is an unique melee energy weapon used by elite troopers. It seems each blade is handmade and belongs to a family, passed from warrior to warrior. Powerful and brutal."
       STR_MARTIAN_BLOOD_EXTRACTOR: "Martian Blood Extractor"
-      STR_MARTIAN_BLOOD_EXTRACTOR_UFOPEDIA: "This unnerving 'tool' is often used by the enemy in harvesting operations. Basically a glorified syringe, the large lance-like piece is impaled directly into the body of the victim. The guts and blood are then drained and stored in a flask behind the Extractor, in a truly gruesome fashion. Very often, the victim is left bleeding to death as result of the violent procedure. The range is limited, but it ignores completely the armor if it hits."
+      STR_MARTIAN_BLOOD_EXTRACTOR_UFOPEDIA: "This unnerving 'tool' is often used by the enemy in harvesting operations. Basically a glorified syringe, the large lance-like piece is impaled directly into the body of the victim. The guts and blood are then drained and stored in a flask behind the Extractor, in a truly gruesome fashion. Very often, the victim is left bleeding to death as result of the violent procedure. The range is limited, but it ignores completely any kind of armor if it hits."
       STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER: "Blood Extractor Empty Fluid Container"
       STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER: "Blood Extractor Full Fluid Container"
       STR_MARTIAN_SLUGTHROWER: "Martian Pneumatic Slugthrower"
@@ -1438,12 +1438,12 @@ en-US:
       STR_HEATRAY_WEAPONS_ANALYSIS_UFOPEDIA: "The enemy armament evolved from the first invasion. Now they have designed and used smaller weapons and use them massively. Considerably weaker than those used by Fighting Machines, they are still very lethal for unprotected humans. One important feature seems to be the possibility of getting modular upgrades, as we noticed that the weapons have a thread similar to a screw, which could be used to adapt new types of attachments still unknown. Our scientist confirmed that handguns are simply impossible to replicate or use by our soldiers. We can sell them to our allies to try to recycle their components."
       STR_RED_WEED_RESEARCH_UFOPEDIA: "The martian indigenous crop, better known as 'Red Weed' is a highly invasive root species, capable of covering all types of terrestrial terrain with relative ease. This generates the perfect habit for the Martians, which suggests that they are terraforming our planet to make it more like Mars. It seems that the blood of mammals serves as fertilizer for this ominous plant. It is said to give off a highly fetid stench, similar to decaying cattle."
       STR_CHEMICAL_WARFARE_RESEARCH_UFOPEDIA: "{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}{NEWLINE}The chemical weaponry has been used since the First Martian Invasion in 1898 in the form of the Black Smoke. In this war it has also been used with ferocity, decimating our armies and cities. A detailed analysis of the chemical containers of the Martians reveal a mixture of iron-rich powder with what appears to be dehydrated Red Weed, which gives it its dark color. It is the maximum weapon of enemy siege, although we can investigate the way to use it against them."
-      STR_HEATRAY_RIFLE_UFOPEDIA: The Heat-Ray Rifle fires an intense infrared beam and uses a large and heavy Hydrogen Cell battery. This weapon has a limited shot capacity, so this weapon needs to be reloaded often. It is balanced in terms of damage, range and accuracy. Based on our analysis, the extended use of this weapon without proper maintaining may damage the internal components and explode in the hands of it is operators.
+      STR_HEATRAY_RIFLE_UFOPEDIA: The Heat-Ray Rifle fires an intense infrared beam and uses a large and heavy Hydrogen Cell battery. This weapon has a limited shot capacity, so this weapon needs to be reloaded often. It is balanced in terms of damage, range and accuracy. Based on our analysis, the extended use of this weapon without proper maintaining may damage the internal components and explode in the hands of it's operators.
       STR_HEATRAY_CARBINE_UFOPEDIA: Smaller version of the Heat-Ray Rifle, this weapon is more like an human Carbine, although it is light enough to be used with one hand. Best used by the enemy at close range. It's batery has the largest energy capacity of all of the Martian hand weapons.
       STR_HEATRAY_PISTOL_UFOPEDIA: Short handgun made by the Martians, it is often used as a support weapon, but some troops seems to have a preference on its use. It uses a large battery with many energy capacity and it is light enough to be used with just one hand.
       STR_HEATRAY_CANNON_UFOPEDIA: This Heat-Ray Hand Cannon is used as a heavy weapon for the Martian infantry. Sufficiently powerful to melt several layers of steel with a concentrated beam at medium-short range. We believe that the batteries of these weapons last a short time.
       STR_HEATRAY_SNIPER_UFOPEDIA: The Heat-Ray Sniper is the most dangerous portable weapon in the arsenal of the invader infantry. Maybe it is not as powerful as the Hand Cannon, but it has much more accuracy and effective range. The sight seems to be synchronized with the eyes of the Martian soldiers, it is useless to try to look through it.
-      STR_MARTIAN_LAUNCHER_UFOPEDIA: Powerful grenade launcher type weapon, used by the Martians to provoke fear and loathing between the humans, civilians and soldiers alike. The Black Smoke grenade, used in the First Invasion, suffocates and chokes a human when enters the respiratoy system, slowly rendering inmobile, but it is spread is low. The technology of this weapon seems to be different from that of the rest of the Martian weapons, perhaps of a design of another extraterrestrial race.
+      STR_MARTIAN_LAUNCHER_UFOPEDIA: Powerful grenade launcher type weapon, used by the Martians to provoke fear and loathing between the humans, civilians and soldiers alike. The Black Smoke grenade, used in the First Invasion, suffocates and chokes a human when enters the respiratoy system, slowly rendering inmobile, but it's spread is low. The technology of this weapon seems to be different from that of the rest of the Martian weapons, perhaps of a design of another extraterrestrial race.
       STR_MARTIAN_ROCK_THROWER_UFOPEDIA: "This interesting weapon looks more like a tool than a weapon. It has 3 barrels in vertical position, connected to 3 flasks with 3 small projectiles inside. It seems that each projectile exits at the same time through each barrel. It works similar to a human shotgun, with projectiles from a mineral that burns quickly with oxygen called Calystene, in honor of its discoverer. It also has small capsules of toxic sleeping pill gas and an acidic material that melts organic tissue. It seems that this tool is designed to cleanse from flora and fauna on their newly reclamed land"
 
 ########################################
@@ -1608,7 +1608,7 @@ en-US:
       STR_CONQUEROR_TURRET: 20mm Conqueror AC
 
       STR_FOKKER_EINDECKER: "FOKKER EINDECKER"
-      STR_FOKKER_EINDECKER_UFOPEDIA: "Hunter - First purpose-build German combat aircraft, it is also the first aircraft fitted with a synchronization gear, that allows to shoot through the propeller."
+      STR_FOKKER_EINDECKER_UFOPEDIA: "Hunter - First purpose-build German combat aircraft, it's also the first aircraft fitted with a synchronization gear, that allows to shoot through the propeller."
 
       STR_AIRCO_DH2: "AIRCO DH2"
       STR_AIRCO_DH2_UFOPEDIA: "Scout - Pusher, single-seat combat and recon British aircraft. It's the first effectively armed aircraft used by the RCF to counter the Martian Scourge, as it has a forward-mounted MG."
@@ -1637,7 +1637,7 @@ en-US:
       STR_HALBERSTADT_CLII: "HALBERSTADT CLII"
       STR_HALBERSTADT_CLII_UFOPEDIA: "Attack Plane - Escort and ground-support, two-seater German craft. Really successful, is among the first airplanes used directly to support the infantry in ground operations. Has a single gunner behind the pilot."
       STR_HANDLEY_PAGE_TYPE_O: "HANDLEY-PAGE TYPE O"
-      STR_HANDLEY_PAGE_TYPE_O_UFOPEDIA: "Tactical Bomber - The most famous British craft made so far, it is so popular it became a common word for 'large aircraft'. Commonly used in tactical bomb runs near the frontlines, its also capable of strategic bombing."
+      STR_HANDLEY_PAGE_TYPE_O_UFOPEDIA: "Tactical Bomber - The most famous British craft made so far, it's so popular it became a common word for 'large aircraft'. Commonly used in tactical bomb runs near the frontlines, its also capable of strategic bombing."
       STR_ZEPPELIN_STAAKEN_RVI: "ZEPPELIN-STAAKEN R.VI"
       STR_ZEPPELIN_STAAKEN_RVI_UFOPEDIA: "Strategic Bomber - The largest biplane ever made, also the most successful 'giant aircraft' used for combat. Its enclosed cabin allows it to reach higher altitudes than most bombers."
 
@@ -1838,7 +1838,7 @@ en-US:
       STR_VEHICLE_QF_6_PDR_TURRET_ITEM: "Vehicle QF 6-pdr Turret"
       STR_VEHICLE_8_8CM_TURRET: "VEHICLE 8,8CM KWK TURRET"
       STR_8_8CM_VEHICLE_TURRET: "Vehicle 8,8cm KwK Turret"
-      STR_VEHICLE_8_8CM_TURRET_UFOPEDIA: "Nicknamed by the Germans as 'Acht-Acht', it was originally concieved to be used as anti-air artillery. It was quickly found it is best used against ground targets for its enhanced armor penetration and good accuracy at long ranges. {ALT}>VEHICLE GUN{ALT}"
+      STR_VEHICLE_8_8CM_TURRET_UFOPEDIA: "Nicknamed by the Germans as 'Acht-Acht', it was originally concieved to be used as anti-air artillery. It was quickly found it's best used against ground targets for its enhanced armor penetration and good accuracy at long ranges. {ALT}>VEHICLE GUN{ALT}"
       STR_VEHICLE_8_8CM_TURRET_LAUNCHER: "Vehicle 8,8cm KwK Turret"
       STR_VEHICLE_8_8CM_TURRET_ITEM: "Vehicle 8,8cm KwK Turret"
       STR_HEAT_RAY_VEHICLE_TURRET: "Vehicle H-R Projector Mk. X Turret"
@@ -1929,11 +1929,11 @@ en-US:
       STR_LANDSHIP_HISTORY_2: "Landship History II"
       STR_LANDSHIP_HISTORY_2_UFOPEDIA: "Sir Wells' publication drawed lots of attention towards the prospect of 'land ironclads'. It was Winston Churchill, First Lord of the Admiralty, who promoted the idea among the British high command. After the establishment of the Landship Committee by Navy officers, engineers and politicians in 1905, several designs were made over the course of the years. The major objetive was to create a ground-based arm of the Royal Navy, tasked on protecting His Majesty overseas territories... pretty much an analog of the seaborne fleets. The first prototype, 'Little Willy', was tested in 1909. The design included several different armament, from a 2-pounder Pom Pom gun to a combination of Maxim MGs. However, much of the funding and attention was diverter to the Walker Mech projects, putting the development of a landship to a halt. Blueprints were stored in vaults and the Committee members went to other projects.  "
       STR_LANDSHIP_HISTORY_3: "Landship History III"
-      STR_LANDSHIP_HISTORY_3_UFOPEDIA: "The second coming of the Martians meant a complete change in the development of new war machines. During the interwar period, the new vehicles were seen more as a novelty than a practical use. The blueprints and mockups of the landships were quickly brought back to the table, looking for a machine able to stop the insatiable warmongering enemy. The most sucessful result is the Conqueror landship, seen as more mechanically reliable and cheaper than the Walkers. The initial concept saw the use of sawed-off artillery guns mounted in sponsons all over the chassis, but a 360° rotating turret was selected as a better option.  A 6-pounder naval gun was selected as the main armament, along with several Maxim machine guns as infantry support. The main purpose of the landships was to efficiently transport infantrymen in the hellish battlefields of the Great War. Thanks to its relatively fast speed and size, they are often nicknamed 'land destroyers'."
+      STR_LANDSHIP_HISTORY_3_UFOPEDIA: "The second coming of the Martians meant a complete change in the development of new war machines. During the interwar period, the new vehicles were seen more as a novelty than a practical use. The blueprints and mockups of the landships were quickly brought back to the table, looking for a machine able to stop the insatiable warmongering enemy. The most sucessful result is the Conqueror landship, seen as more mechanically reliable and cheaper than the Walkers. The initial concept saw the use of sawed-off artillery guns mounted in sponsons all over the chassis, but a 360° rotating turret was selected as a better option.  A 6-pounder naval gun was selected as the main armament, along with several Maxim machine guns as infantry support. The main purpose of the landships was to efficiently transport infantrymen in the hellish battlefields of the Great War. Thanks to it's relatively fast speed and size, they are often nicknamed 'land destroyers'."
       STR_LANDSHIP_HISTORY_4: "Landship History IV"
       STR_LANDSHIP_HISTORY_4_UFOPEDIA: "The wide use of the Conqueror landships revealed a major flaw: the lack of additional firepower. While a 6-pdr gun and a secundary machine gun may be enough to keep a Martian platoon at bay, larger Machines may put in danger the ground vessels and their crews. Even when the Conqueror vehicle platoons were instructed to travel at least in pairs to bolster the defensive and offensive capabilities, the casualties in the armored regiments were higher than expected. The solution was to enlongate the chassis and put even more weapons and gun turrets. More powerful engines allow the fighting vehicle to mount larger guns and armor plates, along with carry more crewmates, troops and ammunition. The Chieftain landcruisers were recieved with bliss by the armored battalions of the Coalition."
       STR_LANDSHIP_HISTORY_5: "Landship History V"
-      STR_LANDSHIP_HISTORY_5_UFOPEDIA: "Eventually, the concept of 'putting more and bigger guns' on the landships had to come to an end. And the end, was materialized in the Land Battleship, a large ground vessel with a similar gun turret distribution of a seaborne Navy warship. Four naval guns and several more machine guns are disposed all over the chassis, with powerful threads beneath. The crew is located on top of a bridge tower, granting superior visibility of the warzone. While the land battleship it is not exactly meant to ferry troops, a small contingent onboard could disembark and support the combat operations where the vessel is taking part. The major downside (and possibly the only thing that prevents its deployment in massive numbers) is the large cost of the construction of each ship, both in materials and in money. Thus, few land battleships are actually used by the allied forces."
+      STR_LANDSHIP_HISTORY_5_UFOPEDIA: "Eventually, the concept of 'putting more and bigger guns' on the landships had to come to an end. And the end, was materialized in the Land Battleship, a large ground vessel with a similar gun turret distribution of a seaborne Navy warship. Four naval guns and several more machine guns are disposed all over the chassis, with powerful threads beneath. The crew is located on top of a bridge tower, granting superior visibility of the warzone. While the land battleship isn't exactly meant to ferry troops, a small contingent onboard could disembark and support the combat operations where the vessel is taking part. The major downside (and possibly the only thing that prevents its deployment in massive numbers) is the large cost of the construction of each ship, both in materials and in money. Thus, few land battleships are actually used by the allied forces."
 
       STR_WALKER_DATA: "Walker Data"
       STR_WALKER_DATA_UFOPEDIA: "Since the initial enemy attack in '96, the image of towering walking machines has been imprinted in the minds and hearts of the world. Our technology has come a long way thanks to the reverse engineering we have applied. However, mechanized walking vehicles (called interchangeably 'walkers' or 'mechs') are more complex to build and maintain than wheeled and tracked vehicles. Their advantage lies in their flexibility in all types of terrain, because they are not limited to roads and flat areas. Mountains, swamps, jungles? There's nothing a mech can't traverse."
@@ -2087,7 +2087,7 @@ en-US:
       STR_GERMAN_PICKELHAUBE_UNIFORM_UFOPEDIA: "This uniform includes the traditional Pickelhaube adorned with the German imperial eagle. Although it has no protection, it is worn with pride by the Kaiser's troops."
 
       STR_FRENCH_FIELD_UNIFORM_UC: "French Army Uniform"
-      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: "The French uniform has become an icon of the Poilu because its distintive 'horizon blue' color, now a symbol of French national pride. Worn with a field cap."
+      STR_FRENCH_FIELD_UNIFORM_UC_UFOPEDIA: "The French uniform has become an icon of the Poilu because it's distintive 'horizon blue' color, now a symbol of French national pride. Worn with a field cap."
       STR_FRENCH_COAT: "French Army Coat"
       STR_FRENCH_COAT_UFOPEDIA: "Horizon blue coats and uniforms gradually replaced old red and dark blue uniforms used at before the war. The blue color was initially meant to be khaki yet it works enough in the foggy frontlines."
       STR_FRENCH_GASMASK_UC: "French Army Coat w/ ARS 13"
@@ -2110,7 +2110,7 @@ en-US:
       STR_RUSSIAN_GASMASK_UC_UFOPEDIA: "The Zelinsky-Kummant is the first sucessful example of a charcoal-filtering mask, with the novelty of being made of rubber. This helps in both reducing manufacturing costs and being very practical."
 
       STR_BODY_ARMOR_THEORY: "Body Armor Theory"
-      STR_BODY_ARMOR_THEORY_UFOPEDIA: "Creating personal armor for use by the infantry is an old and proven idea. Most of the soldiers have worn in the past some kind of protection against damage. The use of armor plating became obsolete with the introduction of gunpowder weapons in the modern battlefields. However, the idea has regained interest in the Great War, as certain materials have been tested to resist the alien weapons. The current prototype armors are heavy and cumbersome, but the development is very encouraged by the troops. The high amount of casualties are often due the lack of proper protection. The introduction of steel helmets is very appreciated, however; most of the indirect casualties were made by shrapnel and low flying debris."
+      STR_BODY_ARMOR_THEORY_UFOPEDIA: "Creating personal armor for use by the infantry is an old and proven idea. Most of the soldiers have worn in the past any kind of protection against damage. The use of armor plating became obsolete with the introduction of gunpowder weapons in the modern battlefields. However, the idea has regained interest in the Great War, as certain materials have been tested to resist the alien weapons. The current prototype armors are heavy and cumbersome, but the development is very encouraged by the troops. The high amount of casualties are often due the lack of proper protection. The introduction of steel helmets is very appreciated, however; most of the indirect casualties were made by shrapnel and low flying debris."
 
       STR_T2_LIGHT_BODY_ARMOR: "Tier 2 Light Body Armor"
       STR_T2_LIGHT_BODY_ARMOR_UFOPEDIA: "The asbestos are an inorganic compound with the excellent property of being fireproof. Field testing has resulted in an important resistance to Thermal-based energy weapons. Combined with small amounts of Tunguskium in a personal armor (as we haven't found a feasible way to produce more alloys and we depend on the captured Martian Metal), the theorical surviving rate of the users is greatly increased. The downside is the encumbrance caused by the not-so-light armor plates, which may cause fatigue and difficulty of movement. Blueprints are ready for distribution."
@@ -2383,7 +2383,7 @@ en-US:
       STR_STATE_OF_THE_WORLD_UNITED_STATES: "State of the World: USA"
       STR_STATE_OF_THE_WORLD_UNITED_STATES_UFOPEDIA: "The United States began the Great War as the leading industrial powerhouse in the world, followed only by the British Commonwealth and the German Empire. This is why it was the main target of the second wave of Martian landings. But the American resolution to free their land meant the enemy attackers couldn't secure a large territory before being stopped in 1913. Led by President Wilson, the US has taken the job to fight and destroy. Under the Wilson Doctrine, the US military fights alongside the Allies, from Canada to Argentina. The huge industrial capacity, further powered by hatred and determination allows the US produce most of the ammunition and military supplies for the Coalition and even then, arm its own military forces."
       STR_STATE_OF_THE_WORLD_RUSSIA: "State of the World: Russian Empire"
-      STR_STATE_OF_THE_WORLD_RUSSIA_UFOPEDIA: "The largest country in the world was also the place where the most Cylinders fell before the Second Invasion. The initial round of landings in 1908 was barely noticed amist the large social and cultural changes in the Tsarist Russia. Tsar Nicholas II it is not the most popular leader, but his defiant defense of the peaceful crowd about to be murdered in 1905 and various other acts of kindness are winning the hearts of his country, even in the height of the Great War. Russia is engaged in four-front war in Asia and only their bravery and the Coalition's support allows them to endure the hardships. The most brutal fighting of the war takes place in there."
+      STR_STATE_OF_THE_WORLD_RUSSIA_UFOPEDIA: "The largest country in the world was also the place where the most Cylinders fell before the Second Invasion. The initial round of landings in 1908 was barely noticed amist the large social and cultural changes in the Tsarist Russia. Tsar Nicholas II isn't the most popular leader, but his defiant defense of the peaceful crowd about to be murdered in 1905 and various other acts of kindness are winning the hearts of his country, even in the height of the Great War. Russia is engaged in four-front war in Asia and only their bravery and the Coalition's support allows them to endure the hardships. The most brutal fighting of the war takes place in there."
       STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH: "State of the World: British Commonwealth"
       STR_STATE_OF_THE_WORLD_BRITISH_COMMONWEALTH_UFOPEDIA: "The largest empire in human history is also the most prepared for the Great War. Shortly after the end of the First Invasion, the UK and the Dominion terrirories were reformed into the British Commonwealth of Nations. Initially proposed by Field Marshal Jan Smuts and formalized by the Belfast Declaration of 1906, all the members were declared equals. Thus, a large preparation for an eventual return of the Martians began. Great efforts were made in reverse engineering the alien tech and preparing the armed forces to fight an unnatural enemy. By the start of the war in 1911, the Commonwealth was the only force able to mobilize and effectively engage the invaders. And even now, their troops could be found in every corner of the world, from America to Asia and beyond."
       STR_STATE_OF_THE_WORLD_GERMANY: "State of the World: German Reich"
@@ -2513,7 +2513,8 @@ en-US:
       STR_HEAVY_GRENADE_UNLOCK: "Heavy Grenade Acquistion"
       STR_REVOLVER_AMMO_UNLOCK: "Revolver Ammo"
       STR_SHOVEL_UNLOCK: "Combat Shovel Acquistion"
-      STR_BERDAN_II_KKM_AMMO_UNLOCK: "Berdan II K-MM Ammo"
+      STR_MERDAN_II_UNLOCK: "Merdan II Acquistion"
+      STR_MERDAN_II_KKM_AMMO_UNLOCK: "Merdan II K-MM Ammo"
       STR_OBREZ_PISTOL_UNLOCK: "Obrez Pistol Acquistion"
       STR_WINCHESTER_M1915_UNLOCK: "Winchester M1915 Acquistion"
       STR_TRENCH_MACE_UNLOCK: "Trench Mace Acquistion"
@@ -2532,11 +2533,12 @@ en-US:
       STR_COMMANDER_PLUS: "Martian Information Revealed"
       STR_SHIELD_DOWN: "Shield Energy Empty"
       STR_SHIELD_S: "Shield Energy Taken Hit"
-      STR_CONQUEROR_CONVOY: Conqueror Convoy"
+      STR_CONQUEROR_CONVOY: CONQUREROR CONVOY
       STR_CONQUEROR_CONVOY_UFOPEDIA: "In order to counter extreme enemy threat with high-technology and advance training. A new formation has been assigned to Conqueror Class consists of 6 armored tanks. Each 2 tanks is now equipped with Auto Cannon, 75mm Cannon and Heat-Ray weapons."
       STR_AUX_VEHICLE_NUMBERS: "Logistic Convoy"
       STR_AUX_VEHICLE_NUMBERS_UFOPEDIA: "The battle vehicle formation allows to increase weapon firepower and support. It will multiply to a maximum of 3 in 6 vehicle numbers."
       STR_AUX_VEHICLE_NUMBERS_LAUNCHER: "Logistic Quantity"
+      STR_75MM_FORT_TURRET: "75mm Gun Turret"
       STR_GLOBALCOMMANDHQ: "Global Command Headquarters"
       STR_GLOBALCOMMANDHQ_UFOPEDIA: ""
       STR_ADVANCEDECIPHERRELAY: "Advance Cipher Relay Center"
@@ -2582,18 +2584,20 @@ en-US:
       STR_SUBHANGARBAY2: "Experimental Hangar" #4 2x2
       STR_SUBHANGARBAY3: "Large Sublevel Hangar" #8 2x6
       STR_SUBHANGARBAY4: "Advance Large Hangar"  #16 2x6
-
-
-
-
+      STR_GRAVDEFSUB1: "Energy Shield Generator"
+      STR_MINDSHIELDSUB1: "Signal Inhibiter"
+      STR_PLANETCORE1: "Planetary Command System" # Enables Planetary Defense Weapons
+      ##### Mindshield + Gravity Shield + Radar Range
+      STR_PLANETDEFD2: "PDS: Tactical Level"
+      STR_PLANETDEF03: "PDS: Strategic Level"
+      STR_PlanetDEF04: "PDS: Global Level"
 ##### Interplanetary Expedition Forces
 ##### Vehicles and Aerospace; Requires manufacture
 #### 6 Legs
       STR_HEXAPODHUMANSTONHENGE: "VFM-SH Stonehenge Class"
       #### Amphibious Landship
-      STR_AMPHIBIANHUMANALIGATOR1: "ASD-9 Alligator MK1" #C&C=Allied Assault Destroyer
-      STR_AMPHIBIANHUMANALIGATOR2: "ASD-01 Alligator MK2" #C&C=Allied Assault Destroyer Hyper Radar
-
+      STR_AMPHIBIANHUMANALIGATOR1: "ASD-9 Alligator MK1" #C&C=Allied Assault Destroyer G
+      STR_AMPHIBIANHUMANALIGATOR2: "ASD-01 Alligator MK2" #C&C=Allied Assault Destroyer Hyper Radar G
       ### LANDSHIP
       STR_LANDSHIPHUMANCAESAR: "LBC SS-JA1 Caesar" ## Assault Landship
       STR_LANDSHIPHUMANCENTAUR1: "LBC Mace-1 Centaur"
@@ -2615,9 +2619,8 @@ en-US:
       STR_BIPEDALHUMANGOLEM: "VFM-02 Golem" #C&C=GDI Titan Mech
       STR_BIPEDALHUMANAVATAR: "VFM-03 Avatar"  #C&C=Nod Avatar Warmech Universal Weapon Station
 ###### Advance and Next Generation Vehicles and Aerospace Research
-
       STR_ALIENALLOYS2: "Cavorite Alloys" #Zero Gravity Alloys
-      STR_ALIENALLOYS3: "Zedimetarium Alloys" # Zero Dimension Alloys
+      STR_ALIENALLOYS3: "Zedimetium Alloys" # Zero Dimension Alloys
       STR_MOBILEAMPHIBIANPLATFORM: "Amphibian Battleship"
       STR_MOBILEWEAPONPLATFORM: "Landship Variable Gun Turret"
       STR_VARIABLEFORMULAMACHINE: "Variable Formula Machine System"
@@ -2630,12 +2633,75 @@ en-US:
       STR_EINSTEINEQUATION: "Einstein Formula E=MC2"
       STR_AEROSPACEPROJECT: "Aerospace Project Proposal"
       STR_CAVORITESMELTFORGE: "Cavorite Zero Gravity Forge"
-
-
-
-
-###### On our Own Reseach and Extended ########
-      STR_ARESPROJECT: "Advance Research: Experimental Spacefaring Project" ##### Disables All Country Factions
+      STR_TRACTORBEAM: "Tractor Beam Component"
+      STR_OPTICALCLOAK: "Optical Cloak Tech Systems"
+      STR_OPTICALALLOYLAYER: "Optical Cloak Composite"
+      STR_TABLETCOMPUTER: "Tablet Computer"
+      STR_PULSEDPLASMAENGINE: "Pulsed Plasma Thrusters"
+      STR_NUCLEARFISSION: "Nuclear Energy Reactor"
+      STR_ATTACKBIKES: "Assault Motocycle" ### Armed with Autogun and Missile
+###### Alien Research from Interrogated Aliens; Medic; Engineer; Leader; Commander; Higher Ranks
+###### Alien Higher Ranks
+      STR_DATASLATE: "Data Slate Tablet"
+      STR_DATAFRAME: "Data Mainframe Terminal"
+###### Alien Engineers
+      STR_ANTIMATERTHEORY: "Anti-Matter Theory"
+      STR_ANTIHYDROGEN: "Anti-Hydrogen Containment"
+      STR_GRAVITYPROPULSION: "Gravity Flight Propulsion"
+      STR_ION_PROPULSION: "Ion Accelerator Engine"
+      STR_PLASMAPHYSICS: "Matter: Plasma Physics"
+      STR_PARTICLEACCEL: "Particle Accelerator"
+      STR_PARTICLEIMPACT: "Particle Energy Impact"
+      STR_PULSEENERGY: "Pulse Energy Theory"
+      STR_MICROWAVEDEB: "Microwave Heat Beam"
+      STR_RAILGAUSSPARTS: "Power Management and Cool Systems"
+      STR_COOLINGDEVICE: "Nitrogen Cooling System"
+      STR_MAGNETICACCEL: "Magnetic Accelerator Gravity"
+      STR_DELTARAY: "Delta Radiation Theory"
+###### A.R.E.S and Extended ########
+      STR_ARESPROJECT: "Apex Regiment: Evolved Spacefaring" ##### Disables All Country Factions
+      ## ARES Extended Lore
+      STR_ORDER1886HISTORY: "Arthurs Round Table Archives" ##Get Tesla with you.
+      STR_ORDER1886ARCHIVES: "United India Company"
+      STR_DARKESTDAYSARCHIVES: "USA 1864 Incident Report" ##Activate North America Conquest
+      ## Personal Armor
+      STR_JUNOPROJECT: "Jumpsuit: Utility-Belt: Navigator Outift"
+      STR_JUDAPROJECT: "Jumpsuit: Utility-Belt: Designated Armor"
+      STR_HADESPROJECT: "Heavy Armor: Detached & Equipment Shoulder"
+      STR_HAPIPROJECT: "Heavy Armor: Personal Interface"
+      STR_PTAHPROJECT: "Personal Tablet Artificial Hologram"
+      ## Vehicle Development
+      STR_MARSPROJECT: "Mobile Armor: Rotary Systems"
+      STR_TYRPROJECT: "Tactical Yield-Point Roadtires"
+      STR_GALENPROJECT: "Gravity Adjustment Locomotion Engine "
+      STR_GAIAPROJECT:  "Gravity Adjustment Innovation Advancement"
+      STR_ISISPROJECT: "Ion Energy Shield Systems"
+      STR_HOMERPROJECT: "Hover Orbit Machine Engine Systems"
+      ## Civilization Development
+      STR_CATOPROJECT: "Civilization Advancement Treaty Organization"
+      STR_PLATOPROJECT: "Planetary Level: Artillery Tactical Operation"
+      STR_PLUTOPROJECT: "Planetary Level: Underground Tactical Operation"
+      STR_PLINYPROJECT: "Planetary Level: Initiate Network System"
+      STR_ODINPROJECT: "Orbital Defense Interstellar Network"
+      STR_THORPROJECT: "Thermal Heat Optronic Rod"
+      ## Android
+      STR_ILIADPROJECT: "Level: Intelligent Android Device"
+      ## Power Source and Energy
+      STR_HORUSPROJECT: "Hyrdogen Research: Unit-power Source"
+      STR_HODRPROJECT: "Hyrdogen Development: Reactor"
+      STR_HERAPROJECT: "Hydrogen Element: Reactive Atomizer"
+      ## Personal Shield
+      STR_SETHPROJECT: "Shield: Electric Tip Hull"
+      ## Alloy Weapons
+      STR_KRATOSPROJECT: "Computer: Range Auto-Track Optical Systems"
+      ## Cavite Ammunition
+      STR_AKERPROJECT: "Ammunition: Chemical Electro Radiation" ### Chemical
+      STR_AMUNPROJECT: "Ammunition: Uranium Needle"  ### Ballistic More Wounds
+      STR_ATENPROJECT: "Ammunition: Electro Needle"  ### Electric Stun
+      STR_ATUMPROJECT: "Ammunition: Tungsten Metal"  ### Ballistic Armor Piercing
+      ## Zedimetium Alloy Research
+      STR_ZEUSPROJECT: "Zedimetium Element: Unique Specialization"
+      ## Extra Stuff
       STR_PILOTTOOPERATIVE: "Operators Combined Arms"
       STR_AIRBORNE_CONCEPT: "Airborne Development"
       STR_AIRBORNE_CONCEPT_UFOPEDIA: ""
@@ -2644,20 +2710,23 @@ en-US:
       STR_ADVANCEVEHICLENSPACE1_UFOPEDIA: "Our manufacturing capabilities cannot keep up the construction on weapons and vehicles due to limited space. We suggests that we must established uphold meetings to all manufacturing companies and military contractors. They will arrive at the government conventional forum for industrial regulation."
       STR_ADVANCEVEHICLENSPACE2: "Multi-National Corporation Committee"
       STR_ADVANCEVEHICLENSPACE2_UFOPEDIA: "We established a meeting for military manufacturing companies to further push for mass production. Many manufacturing representatives have arrived to discuss about coalition capabilies of utilizing alien technology. "
-
       STR_ADVANCEVEHICLENSPACEACCEPT: "Establish Multi-National R&D Proposal"
       STR_ADVANCEVEHICLENSPACEREJECT: "Cancel Multi-National R&D Proposal"
-      STR_SCHUMN_SUPERDREADNOUGHT1: "USA-AD 13 Lincoln" #American / Japan; 1:Landship; 2:Walker
+      STR_ADVANCETECHNOLOGYADAPT: "National Technological Adaptation"
+      STR_ADVANCEINDUSTRIALCAPACITY: "Industrial Capacity Development"
+      STR_ADVANCECIVILIZATIONEPOCH: "Human Civilization Advancement"
+      STR_EARLYSPACEPROGRAM: "Human Space Program Development"
+      STR_SCHUMN_SUPERDREADNOUGHT1: "USA-AD 13 Lincoln" #American / Japan; 1:Landship; 2:Mass Production
       STR_SCHUMN_SUPERDREADNOUGHT2:  "USA-AD 14 Washington"
-      STR_MACFIE_SUPERDEREADNOUGHT1: "LSD-13 King Arthur"  #British; 1:Landship; 2:Walker
+      STR_MACFIE_SUPERDEREADNOUGHT1: "LSD-13 King Arthur"  #British; 1:Landship; 2:Mass Production
       STR_MACFIE_SUPERDEREADNOUGHT2: "LCW-14 Richard Lion"
-      STR_HOTDOG_SUPERDREADNOUGHT1: "BLD-13 Napoleon" #French; 1:Landship; 2:Walker
+      STR_HOTDOG_SUPERDREADNOUGHT1: "BLD-13 Napoleon" #French; 1:Landship; 2:Mass Production
       STR_HOTDOG_SUPERDREADNOUGHT2: "SWD-14 Joan of Arc"
-      STR_TSARS_SUPERQUADTANKWHEEL1: "SQD-13 Saint Peter" #Russian; 1:Landship; 2:Walker
+      STR_TSARS_SUPERQUADTANKWHEEL1: "SQD-13 Saint Peter" #Russian; 1:Landship; 2:Mass Production
       STR_TSARS_SUPERQUADTANKWHEEL2: "SQD-14 Catherine"
-      STR_LOMGOBARDI_COMBINATION1: "BWD-13 Theodore Greate" #Italian; 1:Landship; 2:Walker
+      STR_LOMGOBARDI_COMBINATION1: "BWD-13 Theodore Greate" #Italian; 1:Landship; 2:Mass Production
       STR_LOMGOBARDI_COMBINATION2: "LCW-14 Augustus"
-      STR_KAISER_GOEBELLANDPANWAGEN1: "LCD-13 Bismarack" #German / Austria-Hungary; 1:Landship; 2:Walker
+      STR_KAISER_GOEBELLANDPANWAGEN1: "LCD-13 Bismarack" #German / Austria-Hungary; 1:Landship; 2:Mass Production
       STR_KAISER_GOEBELLANDPANWAGEN2: "LSW-14 Barbarossa"
 
 
@@ -2669,28 +2738,62 @@ en-US:
 ## Octaspaien Infantry 30
 ## Octasapien Weapon Platform Vehicle 20
 
-
-##########  Human Research On Octasapiens
-
-      STR_THE_WIZEN_ONES: "The Wisdom Species"
-      STR_THE_WIZEN_ONESSWIKI: ""
-
-
+####### Kiro Xei's Expanded Lore
+######### The Species Advance Civilization ###########
+      STR_THEWIZENONES: "The Wisdom Species"
+      STR_THEWIZENONESSWIKI: ""
+      STR_THEDOMINAOTRS: "The Dominators Race"
+      STR_THEDOMINATORSWIKI: ""
+      STR_EXODUSEMPIRE: "The Exodus Empire"
+      STR_EXODUSEMPIREWIKI: ""
 ######## Alien Languarge /  Vocabulary Arts
       STR_MARTIAN_VOCABULARY: "Martian Language Arts"
-
       STR_MARTIAN_HUMANOIDS: "Martian Humanoids"
       STR_MARTIAN_HUMANOIDS_UFOPEDIA: "The Martian humanoids looks familiar to humans only in a different physical traits. However, they live in a harsh climates which their bodys able to produce heat better than our counterparts. They do travel anywhere on cold hostile environment except heat temperatures. This challenge us to learn survival on cold hostile planets. Which we will create a plan for our next generations."
       STR_MARTIAN_HUMANOIDS_LAUNGUAGE: "Martian Humanoids Language Arts"
       STR_MARTIAN_HUMANOIDS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts. The Martian Humanoids writings can allow us to translate our words to their readings. "
       STR_MARTIAN_HUMANOIDS_FOOD: "Martian Humanoids Foodstuffs"
       STR_MARTIAN_HUMANOIDS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. Human do not know if the alien fruit / vegatbles would fit for human diet."
-      STR_MARTIAN_HUMANOIDS_CULTURE: "The Martian Humanoid Culture"
+      STR_MARTIAN_HUMANOIDS_CULTURE: "Martian Humanoid Culture"
       STR_MARTIAN_HUMANOIDS_CULTURE_UFOPEDIA: "These creatures originated from the Mars surface. Before Mars was changed into hospitable planet, there was once a cold harsh desert with ice on polar caps."
+      STR_MARTIAN_HUMANOIDS_ARCHITECTURE: "Martian Humanoids Architecture"
+      STR_MARTIAN_HUMANOIDS_ARCHITECTURE_UFOPEDIA: "Pyramids"
+## Overlord
+      STR_OVERLORD_ORIGINS: "Martian Overlord Origins"
+      STR_OVERLORD_O_UFOPEDIA: ""
+      STR_OVERLORD_FOOD: ""
+      STR_OVERLORD_FOOD_UFOPEDIA: ""
+      STR_OVERLORD_CULTURE: ""
+      STR_OVERLORD_CULTURE_UFOPEDIA: ""
+## Selenites Lore
+      STR_LUNARIAN_VOCABULARY: "Lunarian Language Arts"
+      STR_SELENITE: "Selenites"
+      STR_SELENITE_UFOPEDIA: ""
+      STR_SELENITE_LANGUAGE: "Selenite Languarge Arts"
+      STR_SELENITE_L_UFOPEDIA: ""
+      STR_SELENITE_FOOD: ""
+      STR_SELENITE_FOOD_UFOPEDIA: ""
+      STR_SELENITE_CULTURE: ""
+      STR_SELENITE_CULTURE_UFOPEDIA: ""
+      STR_SELENITE_ARCHITECTURE: "Martian Humanoids Architecture"
+      STR_SELENITE_ARCHITECTURE_UFOPEDIA: "Pyramids"
+## Jovians Lore
+      STR_JUPITERIS_VOCABULARY: " Jupteris Language Arts"
+      STR_JOVIAN: "Jovians"
+      STR_JOVIAN_UFOPEDIA: ""
+      STR_JOVIAN_LANGUAGE: "Jovians Language Arts"
+      STR_JOVIAN_L_UFOPEDIA: ""
+      STR_JOVIAN_FOOD: ""
+      STR_JOVIAN_FOOD_UFOPEDIA: ""
+      STR_JOVIAN_CULTURE: ""
+      STR_JOVIAN_CULTURE_UFOPEDIA: ""
+      STR_JOVIAN_ARCHITECTURE: "Martian Humanoids Architecture"
+      STR_JOVIAN_ARCHITECTURE_UFOPEDIA: "Pyramids"
+## Jovian Weapons
 
 #### Triffids Evolved Mutant Carnivore Plant
-      STR_MARTIAN_TRIFFIDS:
-
+      STR_MARTIAN_TRIFFIDS_ORIGINS: ""
+##########  Human Research On Octasapiens
 ## Octasapiens
       STR_OCTASAPIENS: "Martian Octasapiens"
       STR_OCTASAPIENS_UFOPEDIA: ""
@@ -2703,14 +2806,8 @@ en-US:
       STR_OCTASAPIENS_AGARTHA: "Mars Subterranean Agartha"
       STR_OCTASAPIENS_SUBTERRANEAN_EMPIRE: "Octasapien Subterranean Empire"
       STR_OCTASAPIENS_SPACE_ELEVATOR: "Mars Space Elevator Structure"
-## Overlord
-      STR_OVERLORD_ORIGINS: "Martian Overlord Origins"
-      STR_OVERLORD_O_UFOPEDIA: ""
-      STR_OVERLORD_FOOD: ""
-      STR_OVERLORD_FOOD_UFOPEDIA: ""
-      STR_OVERLORD_CULTURE: ""
-      STR_OVERLORD_CULTURE_UFOPEDIA: ""
-
+      STR_OCTASAPIENS_ARCHITECTURE: "Martian Humanoids Architecture"
+      STR_OCTASAPIENS_ARCHITECTURE_UFOPEDIA: "Pyramids"
 ## Octasapien Foreign Forces
       STR_OCTASAPIEN_FOREIGN_TRANSLATE: "Martian Alliance Translation"
       STR_OCTASAPIEN_FOREIGN_TRANSLATE_UFOPEDIA: ""
@@ -2718,47 +2815,16 @@ en-US:
       STR_OCTASAPIEN_FOREIGN_UFOPEDIA: ""
       STR_OCTASAPIEN_FOREIGN_RELATION: ""
       STR_OCTASAPIEN_FOREIGN_RELATION_UFOPEDIA: ""
-
-## Selenites Lore
-      STR_LUNARIAN_VOCABULARY: "Lunarian Language Arts"
-      STR_SELENITE: "Selenites"
-      STR_SELENITE_UFOPEDIA: ""
-      STR_SELENITE_LANGUAGE: "Selenite Languarge Arts"
-      STR_SELENITE_L_UFOPEDIA: ""
-      STR_SELENITE_FOOD: ""
-      STR_SELENITE_FOOD_UFOPEDIA: ""
-      STR_SELENITE_CULTURE: ""
-      STR_SELENITE_CULTURE_UFOPEDIA: ""
-
-## Jovians Lore
-      STR_JUPITERIS_VOCABULARY: " Jupteris Language Arts"
-      STR_JOVIAN: "Jovians"
-      STR_JOVIAN_UFOPEDIA: ""
-      STR_JOVIAN_LANGUAGE: "Jovians Language Arts"
-      STR_JOVIAN_L_UFOPEDIA: ""
-      STR_JOVIAN_FOOD: ""
-      STR_JOVIAN_FOOD_UFOPEDIA: ""
-      STR_JOVIAN_CULTURE: ""
-      STR_JOVIAN_CULTURE_UFOPEDIA: ""
-
-
-
 #### OCTASAPIENS FACTION
-
-
 ###### Octasapiens machine for Geoscape
-
 ##### 35 Craft / 15 Structures  16 Vehicles 8 Fighters 8 Space Ships 3 Projectiles ( Impossible to chase)
-
 #10x10x10
-
       STR_OCTASAPIEN_SMALL_FRAME: "Octasapien Small Vehicle Frame"
       STR_OCTASAPIEN_SMALL_FRAMEWIKI: ""
       STR_OCTASAPIEN2PEDAL_MECH: ""
       STR_OCTASAPIEN4PEDAL_MECH: ""
       STR_OCTASAPIEN4WHEEL_VEHICLE: ""
       STR_OCTASAPIEN2TRACK_VEHICLE: ""
-
 #20x10x10
       STR_OCTASAPIEN_MEDIUM_FRAME: "Octasapien Medium Vehicle Frame"
       STR_OCTASAPIEN_MEDIUM_FRAMEWIKI: ""
@@ -2775,7 +2841,7 @@ en-US:
 
 ### Octasapien Weapon Mount
 
-
+###
 
 
 ### Impossibile to Kill!
@@ -2815,7 +2881,6 @@ en-US:
       STR_OCTASAPIEN_PROJECTILE4WIKI: "A remote rocket guided with radar tracking system. It can evade our vehicle / aircraft weapons while focusing on a target designation. We need to learn how to avoid cruise missile directions, while sending our units performing their task ASAP."
       STR_OCTASAPIEN_PROJECTILE5: "Kinetic Ballistic Shot"
       STR_OCTASAPIEN_PROJECTILE5WIKI: "The common artillery ballistic used by many armies. Orbital kinetic bombardment can be very devastating and results severe damage to our base. However, not all kinetic projectiles drop into same location."
-
 ###### Octasapiens Mobile Structure
       STR_OCTASAPIEN_SENTRY_TOWER: "Octasapien Guard Tower"
       STR_OCTASAPIEN_SENTRY_TOWERWIKI: ""
