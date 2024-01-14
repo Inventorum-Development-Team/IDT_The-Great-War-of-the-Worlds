@@ -6,17 +6,12 @@ soldiers:
   - type: STR_AMERICAN_SOLDIER
     requires:
       - STR_AMERICAN_EQUIPMENT_SELECTION
-    flagOffset: 7
+    requiresBuyCountry: STR_USA
     # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 30000
     costSalary: 20000
-    requiresBuyCountry:
-      - STR_USA
-      - STR_CALIFORNIA_REPUBLIC
-      - STR_TEXAS_FRONT
-      - STR_MEXICAN_RESISTANCE
     minStats:
       tu: 40
       stamina: 40
@@ -83,17 +78,11 @@ soldiers:
     # armorForAvatar:
     requires:
       - STR_BRITISH_EQUIPMENT_SELECTION
+    requiresBuyCountry: STR_UK
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 50000
     costSalary: 30000
-    requiresBuyCountry:
-      - STR_UK
-      - STR_CANADA
-      - STR_INDIA
-      - STR_AUSTRALIA
-      - STR_EGYPT
-      - STR_SOUTH_AFRICA
     minStats:
       tu: 60
       stamina: 40
@@ -159,10 +148,9 @@ soldiers:
   - type: STR_GERMAN_SOLDIER
     requires:
       - STR_GERMAN_EQUIPMENT_SELECTION
+    requiresBuyCountry: STR_GERMANY
     costBuy: 50000
     costSalary: 40000
-    requiresBuyCountry:
-      - STR_GERMANY
     flagOffset: 9
     minStats:
       tu: 60
@@ -302,14 +290,13 @@ soldiers:
   - type: STR_FRENCH_SOLDIER
     requires:
       - STR_FRENCH_EQUIPMENT_SELECTION
+    requiresBuyCountry: STR_FRANCE
     flagOffset: 18
     # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 35000
     costSalary: 30000
-    requiresBuyCountry:
-      - STR_FRANCE
     minStats:
       tu: 50
       stamina: 40
@@ -376,14 +363,13 @@ soldiers:
   - type: STR_ITALIAN_SOLDIER
     requires:
       - STR_ITALIAN_EQUIPMENT_SELECTION
+    requiresBuyCountry: STR_ITALY
     flagOffset: 22
     # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 30000
     costSalary: 20000
-    requiresBuyCountry:
-      - STR_ITALY
     minStats:
       tu: 50
       stamina: 40
@@ -450,14 +436,13 @@ soldiers:
   - type: STR_RUSSIAN_SOLDIER
     requires:
       - STR_RUSSIAN_EQUIPMENT_SELECTION
+    requiresBuyCountry: STR_RUSSIA
     flagOffset: 23
     # armorForAvatar:
     avatarOffsetX: 68
     avatarOffsetY: 50
     costBuy: 30000
     costSalary: 20000
-    requiresBuyCountry:
-      - STR_RUSSIA
     minStats:
       tu: 50
       stamina: 40
@@ -565,18 +550,16 @@ items:
     size: 0.08
     requires:
       - STR_PERSONAL_ARMOR
+    requiresBuyCountry: STR_ITALY
     costSell: 850
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_ITALY
   - type: STR_POWER_SUIT
     size: 0.08
     requires:
       - STR_POWER_SUIT
+    requiresBuyCountry: STR_GERMANY
     costSell: 850
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_GERMANY
     visibilityAtDay: 30
     visibilityAtDark: 18
 
@@ -619,29 +602,16 @@ items:
     size: 0.08
     requires:
       - STR_BRITISH_T2_BODY_ARMOR
+    requiresBuyCountry: STR_UK
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_UK
-      - STR_CANADA
-      - STR_INDIA
-      - STR_AUSTRALIA
-      - STR_EGYPT
-      - STR_SOUTH_AFRICA
   - type: STR_BRITISH_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_BRITISH_T3_BODY_ARMOR
+    requiresBuyCountry: STR_UK
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_UK
-      - STR_CANADA
-      - STR_INDIA
-      - STR_AUSTRALIA
-      - STR_EGYPT
-      - STR_SOUTH_AFRICA
-
   - type: STR_BRITISH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -721,25 +691,16 @@ items:
     size: 0.08
     requires:
       - STR_AMERICAN_T2_BODY_ARMOR
+    requiresBuyCountry: STR_USA
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_USA
-      - STR_CALIFORNIA_REPUBLIC
-      - STR_TEXAS_FRONT
-      - STR_MEXICAN_RESISTANCE
   - type: STR_AMERICAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_AMERICAN_T3_BODY_ARMOR
+    requiresBuyCountry: STR_USA
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_USA
-      - STR_CALIFORNIA_REPUBLIC
-      - STR_TEXAS_FRONT
-      - STR_MEXICAN_RESISTANCE
-
   - type: STR_AMERICAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -829,19 +790,16 @@ items:
     size: 0.08
     requires:
       - STR_GERMAN_T2_BODY_ARMOR
+    requiresBuyCountry: STR_GERMANY
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_GERMANY
   - type: STR_GERMAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_GERMAN_T3_BODY_ARMOR
+    requiresBuyCountry: STR_GERMANY
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_GERMANY
-
   - type: STR_GERMAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -933,18 +891,16 @@ items:
     size: 0.08
     requires:
       - STR_FRENCH_T2_BODY_ARMOR
+    requiresBuyCountry: STR_FRANCE
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_FRANCE
   - type: STR_FRENCH_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_FRENCH_T3_BODY_ARMOR
+    requiresBuyCountry: STR_FRANCE
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_FRANCE
 
   - type: STR_FRENCH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
@@ -1024,18 +980,16 @@ items:
     size: 0.08
     requires:
       - STR_ITALIAN_T2_BODY_ARMOR
+    requiresBuyCountry: STR_ITALY
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_ITALY
   - type: STR_ITALIAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_ITALIAN_T3_BODY_ARMOR
+    requiresBuyCountry: STR_ITALY
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_ITALY
 
   - type: STR_ITALIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
@@ -1105,18 +1059,16 @@ items:
     size: 0.08
     requires:
       - STR_RUSSIAN_T2_BODY_ARMOR
+    requiresBuyCountry: STR_RUSSIA
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_RUSSIA
   - type: STR_RUSSIAN_T3_BODY_ARMOR
     size: 0.08
     requires:
       - STR_RUSSIAN_T3_BODY_ARMOR
+    requiresBuyCountry: STR_RUSSIA
     costSell: 8500
     costBuy: 1000
-    requiresBuyCountry:
-      - STR_RUSSIA
 
   - type: STR_RUSSIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE

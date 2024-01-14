@@ -164,6 +164,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_GERMANY
     costBuy: 10000
     costSell: 8500
     refuelRate: 20
@@ -195,6 +196,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_UK
     costBuy: 12000
     costSell: 9000
     refuelRate: 20
@@ -229,6 +231,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_FRANCE
     costBuy: 15000
     costSell: 12000
     refuelRate: 20
@@ -263,6 +266,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_UK
     costBuy: 18000
     costSell: 16000
     refuelRate: 20
@@ -296,6 +300,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_GERMANY
     costBuy: 16000
     costSell: 14000
     refuelRate: 20
@@ -332,6 +337,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_FRANCE
     costBuy: 25000
     costSell: 20000
     refuelRate: 20
@@ -366,6 +372,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_UK
     costBuy: 33000
     costSell: 30000
     refuelRate: 20
@@ -399,6 +406,7 @@ crafts:
     vehicles: 0
     pilots: 1
     allowLanding: false
+    requiresBuyCountry: STR_GERMANY
     costBuy: 30000
     costSell: 28000
     refuelRate: 20
@@ -440,6 +448,7 @@ crafts:
     vehicles: 0
     pilots: 5
     allowLanding: false
+    requiresBuyCountry: STR_RUSSIA
     costBuy: 30000
     costSell: 28000
     refuelRate: 20
@@ -476,6 +485,7 @@ crafts:
     vehicles: 0
     pilots: 2
     allowLanding: false
+    requiresBuyCountry: STR_GERMANY
     costBuy: 20000
     costSell: 18000
     refuelRate: 20
@@ -512,6 +522,7 @@ crafts:
     vehicles: 0
     pilots: 5
     allowLanding: false
+    requiresBuyCountry: STR_UK
     costBuy: 25000
     costSell: 23000
     refuelRate: 20
@@ -551,6 +562,7 @@ crafts:
     vehicles: 0
     pilots: 10
     allowLanding: false
+    requiresBuyCountry: STR_GERMANY
     costBuy: 50000
     costSell: 48000
     refuelRate: 20
@@ -587,6 +599,7 @@ crafts:
     vehicles: 0
     pilots: 2
     allowLanding: false
+    requiresBuyCountry: STR_FRANCE
     costBuy: 50000
     costSell: 35000
     refuelRate: 20
@@ -622,6 +635,7 @@ crafts:
     vehicles: 0
     pilots: 2
     allowLanding: false
+    requiresBuyCountry: STR_UK
     costBuy: 50000
     costSell: 35000
     refuelRate: 20
@@ -725,6 +739,8 @@ crafts:
     soldiers: 70 #32
     vehicles: 6 #4
     pilots: 48
+    requires:
+      - STR_IMPROVED_LANDSHIP_RESEARCH
     costBuy: 3000000
     costRent: 300000
     refuelRate: 3000

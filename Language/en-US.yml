@@ -2716,18 +2716,30 @@ en-US:
       STR_ADVANCEINDUSTRIALCAPACITY: "Industrial Capacity Development"
       STR_ADVANCECIVILIZATIONEPOCH: "Human Civilization Advancement"
       STR_EARLYSPACEPROGRAM: "Human Space Program Development"
-      STR_SCHUMN_SUPERDREADNOUGHT1: "USA-AD 13 Lincoln" #American / Japan; 1:Landship; 2:Mass Production
-      STR_SCHUMN_SUPERDREADNOUGHT2:  "USA-AD 14 Washington"
-      STR_MACFIE_SUPERDEREADNOUGHT1: "LSD-13 King Arthur"  #British; 1:Landship; 2:Mass Production
-      STR_MACFIE_SUPERDEREADNOUGHT2: "LCW-14 Richard Lion"
-      STR_HOTDOG_SUPERDREADNOUGHT1: "BLD-13 Napoleon" #French; 1:Landship; 2:Mass Production
-      STR_HOTDOG_SUPERDREADNOUGHT2: "SWD-14 Joan of Arc"
-      STR_TSARS_SUPERQUADTANKWHEEL1: "SQD-13 Saint Peter" #Russian; 1:Landship; 2:Mass Production
-      STR_TSARS_SUPERQUADTANKWHEEL2: "SQD-14 Catherine"
-      STR_LOMGOBARDI_COMBINATION1: "BWD-13 Theodore Greate" #Italian; 1:Landship; 2:Mass Production
-      STR_LOMGOBARDI_COMBINATION2: "LCW-14 Augustus"
-      STR_KAISER_GOEBELLANDPANWAGEN1: "LCD-13 Bismarack" #German / Austria-Hungary; 1:Landship; 2:Mass Production
-      STR_KAISER_GOEBELLANDPANWAGEN2: "LSW-14 Barbarossa"
+      #American / Japan; 1:Landship; 2:Mass Production
+      STR_AMERICANDREADNOUGHT1: "BENJAMIN FN3"
+      STR_AMERICANDREADNOUGHT2:  "GOLIATH B2"
+      STR_AMERICANVEET1: "JOHN H5"
+      #British; 1:Landship; 2:Mass Production
+      STR_BRITISHDREADNOUGHT1: "HENRY 8B MK3"
+      STR_BRITISHDREADNOUGHT2: "DRUIDS BETA4"
+      STR_BRITISHVEET1: "TREANT W2"
+      #French; 1:Landship; 2:Mass Production
+      STR_FRENCHDREADNOUGHT1: "GUILLITINE MK1"
+      STR_FRENCHDREADNOUGHT2: "ANARCHY B2"
+      STR_FRENCHVEET1: "VAULCONSON 1"
+      #Russian; 1:Landship; 2:Mass Production
+      STR_RUSSIANDREADNOUGHT1: "NIKOLAY W05"
+      STR_RUSSIANDREADNOUGHT2: "RUSH BOYAR MK2"
+      STR_RUSSIANVEET1: "GREYWOLF C2"
+      #Italian; 1:Landship; 2:Mass Production
+      STR_ITALIANDREADNOUGHT1: "DA VINCI L3"
+      STR_ITALIANDREADNOUGHT2: "CORDITTO / GENOSES"
+      STR_ITALIANVEET1: "LEONARDO MK2"
+      #German / Austria-Hungary; 1:Landship; 2:Mass Production
+      STR_GERMANDREADNOUGHT1: "KARL B4 MK2"
+      STR_GERMANDREADNOUGHT2: "HUSKARL 1K"
+      STR_GERMANVEET1: "RUBEZALH Mk.3"
 
 
 

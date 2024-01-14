@@ -336,8 +336,7 @@ items:
     size: 6
     costBuy: 25000
     costSell: 24000
-    requiresBuyCountry:
-      - STR_FRANCE
+    requiresBuyCountry: STR_FRANCE
     transferTime: 96
   - type: STR_RENAULT_FT_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
@@ -346,8 +345,7 @@ items:
     size: 6
     costBuy: 34000
     costSell: 25000
-    requiresBuyCountry:
-      - STR_FRANCE
+    requiresBuyCountry: STR_FRANCE
     transferTime: 96
   - type: STR_MARK_V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
@@ -356,8 +354,7 @@ items:
     size: 6
     costBuy: 30000
     costSell: 28000
-    requiresBuyCountry:
-      - STR_UK
+    requiresBuyCountry: STR_UK
     transferTime: 96
   - type: STR_A7V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
@@ -366,8 +363,7 @@ items:
     size: 7
     costBuy: 28000
     costSell: 30000
-    requiresBuyCountry:
-      - STR_GERMANY
+    requiresBuyCountry: STR_GERMANY
     transferTime: 96
   - type: STR_VEZDEKHOD_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
@@ -376,8 +372,7 @@ items:
     size: 7
     costBuy: 25000
     costSell: 18000
-    requiresBuyCountry:
-      - STR_RUSSIA
+    requiresBuyCountry: STR_RUSSIA
     transferTime: 96
 ##############################
 ####### TANK WEAPONS ########
