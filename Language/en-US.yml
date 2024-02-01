@@ -2560,7 +2560,7 @@ en-US:
       STR_IEFCONYARD1: "IEF Construction Yard"
       STR_IEFCONYARD1_UFOPEDIA: ""
       STR_IEFCONWALKER: "Mobile Construction Walker"
-      STR_IEFCONWALKER_UFOPEDIA: ""
+      STR_IEFCONWALKER_UFOPEDIA: "The first use of construction walkers are introduced for the IEF first engineer vehicle. It enables the workers to build advance facilties and defenses for better structural integrity."
 
       ##### Subterranean Structures
       STR_ACCESS_GATE: "Main Access Elevator" #
@@ -2590,7 +2590,8 @@ en-US:
       ##### Mindshield + Gravity Shield + Radar Range
       STR_PLANETDEFD2: "PDS: Tactical Level"
       STR_PLANETDEF03: "PDS: Strategic Level"
-      STR_PlanetDEF04: "PDS: Global Level"
+      STR_PLANETDEF04: "PDS: Global Level"
+      STR_PLANETDEF05: "PDS: Planet Orbit"
 ##### Interplanetary Expedition Forces
 ##### Vehicles and Aerospace; Requires manufacture
 #### 6 Legs
@@ -2618,9 +2619,66 @@ en-US:
       STR_BIPEDALHUMANMINOTAUR: "VFM-01 Minotaur"
       STR_BIPEDALHUMANGOLEM: "VFM-02 Golem" #C&C=GDI Titan Mech
       STR_BIPEDALHUMANAVATAR: "VFM-03 Avatar"  #C&C=Nod Avatar Warmech Universal Weapon Station
+###### Alien Technology and Components
+## Tech Tier 1 Ditto
+## Tech Tier 2 including Zero Gravity
+      STR_ALIENMETAL1: "Unknown Light-weight Alloy"
+      STR_GRAPPLEHOOK: "Grapple Hook Machine"
+      STR_NAVIGATEDEVICE1: "Navigation Component"
+      STR_POWERGENERATE1: "Power Component System"
+      STR_DRIVESYSTEM1: "Alien Driving System"
+      STR_ALIENMACHINE1: "Alien Vehicle System 1"
+      STR_GRAVITYSYSTEM1: "Alien Gravity Device"
+      STR_TURBODRIVE1: "Alien Turbo Space Drive"
+      STR_SUBSPACEDRIVE1: "Alien Subspace System"
+## Tech Tier 3 Zero Gravity Plus Aqua Null and Extensions
+      STR_ALIENMETAL2: "Unknown Hybrid Alloy"
+      STR_GRAVITYTRACTOR: "Gravity Traction Device"
+      STR_NAVIGATEDEVICE2: "Alien Navi-Radar Component"
+      STR_POWERGENERATE2: "Power Source Hybrid System 2"
+      STR_DRIVESYSTEM2: "Alien Driving System 2"
+      STR_ALIENMACHINE2: "Alien Vehicle System 2"
+      STR_GRAVITYSYSTEM2: "Alien Hybrid Gravity System"
+      STR_JUMPGATEDRIVE:  "Jumpdrive Warp System"
+      STR_SLIPSPACEDRIVE: "Sliphole Generator Device"
+      STR_WORMHOLEDRIVE: "Wormhole Generator Device"
+      STR_HYPERSPACEDRIVE: "Hyperspace Drive System"
+      STR_FTLINHIBITOR: "Felocity Light Inhibitor"
+## Tech Tier 4
+      STR_ALIENMETAL3: "Unknown Zero Five Alloy"
+      STR_GRAVITYTRACT3: "Gravity Traction Device 2"
+      STR_NAVIGATEDEVICE3: "Alien Navi-Radar Component"
+      STR_POWERGENERATE3: "Power Source Hybrid System 2"
+      STR_DRIVESYSTEM3: "Alien Driving System 2"
+      STR_ALIENMACHINE3: "Alien Vehicle System 2"
+      STR_GRAVITYSYSTEM3: "Alien Hybrid Gravity System"
+      STR_APEXHYPERSDRIVE: "Apex Hyperspace Drive"
+      STR_VOIDSPACEDRIVE: "Void Space Device"
+      STR_TRANSDMSNDRIVE: "Trans-dimension Generator"
+      STR_VORTEXHOLEDRIVE: "Vortex Wormhole System"
+
+###### Mars Humanoid
+###### Octasapiens
+###### Selenites
+###### Jovians Empire
+###### Chimera
+###### Judikars
+###### Martians
+###### Martians
+###### Martians
+###### Martians
+###### Martians
+
 ###### Advance and Next Generation Vehicles and Aerospace Research
+      ############# Epoch Discover based on their reports
+      ############# Epoch Tier 1 Recent Common Earth Alloys 1889
+      ############# Epoch Tier 2 Tunguskium Foundation Alloys 1914
+      ############# Epoch Tier 3 Cavorite Zero Gravity Alloys 1920
       STR_ALIENALLOYS2: "Cavorite Alloys" #Zero Gravity Alloys
-      STR_ALIENALLOYS3: "Zedimetium Alloys" # Zero Dimension Alloys
+      ############# Epoch Tier 4 Cavorite Abyssium Hybrid 1935
+      STR_ALIENALLOYS3: "Cavorithium Hybrid Alloys" #Zero Gravity Plus Aquarite
+      ############# Epoch Tier 5 Zedimetium Final Alloys 1985
+      STR_ALIENALLOYS4: "Zedimetium Alloys" # Zero Dimension Alloys
       STR_MOBILEAMPHIBIANPLATFORM: "Amphibian Battleship"
       STR_MOBILEWEAPONPLATFORM: "Landship Variable Gun Turret"
       STR_VARIABLEFORMULAMACHINE: "Variable Formula Machine System"
@@ -2640,6 +2698,7 @@ en-US:
       STR_PULSEDPLASMAENGINE: "Pulsed Plasma Thrusters"
       STR_NUCLEARFISSION: "Nuclear Energy Reactor"
       STR_ATTACKBIKES: "Assault Motocycle" ### Armed with Autogun and Missile
+      STR_SUBMERGEWAR: "Underwater Warfare"
 ###### Alien Research from Interrogated Aliens; Medic; Engineer; Leader; Commander; Higher Ranks
 ###### Alien Higher Ranks
       STR_DATASLATE: "Data Slate Tablet"
@@ -2664,6 +2723,7 @@ en-US:
       STR_ORDER1886HISTORY: "Arthurs Round Table Archives" ##Get Tesla with you.
       STR_ORDER1886ARCHIVES: "United India Company"
       STR_DARKESTDAYSARCHIVES: "USA 1864 Incident Report" ##Activate North America Conquest
+      STR_NEWMEXICOARCHIVES: "New Mexico Inicident Report" ##Activate North America Conquest
       ## Personal Armor
       STR_JUNOPROJECT: "Jumpsuit: Utility-Belt: Navigator Outift"
       STR_JUDAPROJECT: "Jumpsuit: Utility-Belt: Designated Armor"
@@ -2681,11 +2741,11 @@ en-US:
       STR_CATOPROJECT: "Civilization Advancement Treaty Organization"
       STR_PLATOPROJECT: "Planetary Level: Artillery Tactical Operation"
       STR_PLUTOPROJECT: "Planetary Level: Underground Tactical Operation"
-      STR_PLINYPROJECT: "Planetary Level: Initiate Network System"
+      STR_PLINYPROJECT: "Planetary Level: Interstellar Network System"
       STR_ODINPROJECT: "Orbital Defense Interstellar Network"
       STR_THORPROJECT: "Thermal Heat Optronic Rod"
       ## Android
-      STR_ILIADPROJECT: "Level: Intelligent Android Device"
+      STR_ILIADPROJECT: "Logic: Intelligent Android Device"
       ## Power Source and Energy
       STR_HORUSPROJECT: "Hyrdogen Research: Unit-power Source"
       STR_HODRPROJECT: "Hyrdogen Development: Reactor"
@@ -2727,7 +2787,7 @@ en-US:
       #French; 1:Landship; 2:Mass Production
       STR_FRENCHDREADNOUGHT1: "GUILLITINE MK1"
       STR_FRENCHDREADNOUGHT2: "ANARCHY B2"
-      STR_FRENCHVEET1: "VAULCONSON 1"
+      STR_FRENCHVEET1: "AUTRUCHE 1"
       #Russian; 1:Landship; 2:Mass Production
       STR_RUSSIANDREADNOUGHT1: "NIKOLAY W05"
       STR_RUSSIANDREADNOUGHT2: "RUSH BOYAR MK2"
@@ -2735,7 +2795,7 @@ en-US:
       #Italian; 1:Landship; 2:Mass Production
       STR_ITALIANDREADNOUGHT1: "DA VINCI L3"
       STR_ITALIANDREADNOUGHT2: "CORDITTO / GENOSES"
-      STR_ITALIANVEET1: "LEONARDO MK2"
+      STR_ITALIANVEET1: "TURTOISE MK2"
       #German / Austria-Hungary; 1:Landship; 2:Mass Production
       STR_GERMANDREADNOUGHT1: "KARL B4 MK2"
       STR_GERMANDREADNOUGHT2: "HUSKARL 1K"
@@ -2751,12 +2811,44 @@ en-US:
 ## Octasapien Weapon Platform Vehicle 20
 
 ####### Kiro Xei's Expanded Lore
+####### Players 111 Year War Campaign "Centurys of the Decade War"
+      STR_THE111YEARCAMPAIGN: "United Inter-Earth Formation"
+      ###### Player can form a faction depending on their chosen alliance
+      #Independent Path
+      STR_INDEPENDENTPATH: "Human Independent Society"
+      STR_CONVINCESELENITES1: "Alliance with Selenites"
+      STR_CONVINCEMARHUMANOIDS1: "Persuade Mars Dissidents"
+      #Independent Path Optional
+      STR_CONVINCEKRONOTEK1: "Preserve Profile"
+      STR_CONVINCEKRONOTEK2: "Opposition Joint"
+      STR_CONVINCELYLATMOBIAN1: "Convince Lylat-Mobians"
+
+      #Wisdom Species
+      STR_MARTIANALLYPATH1: "The Martian Empire"
+      STR_MARTIANALLYPATH2: "The Two Martians Factions"
+      STR_MARTIANALLYHUMANOID1: "Create Terms with Mars Humanoids."
+      STR_MARTIANALLYOCTASAPIEN1: "Create Terms with Octasapiens."
+      #Martian Humanoids Path
+      STR_MARTIANDEFECTION1: Martian Humanoid Defection
+      #Octasapien Path
+      STR_OCTASPIENFRENDSHIP1: Octasapien Diplomacy
+      #Wisdom Species Path Optional
+      STR_OCTASAPIENTALKSTODELTRUNE: "Octasapien Diplmat to Deltrune"
+      STR_JUDIKARSSECRETTECH: "Judikars Faction Research"
+
+      #The Dominators Path
+      STR_JOVIANCONTACT: Contact Jovian Empire
+      STR_JOVIANFACTION: Accept Jovian Empire Offer
+      #Exodus Empire Path
+
 ######### The Species Advance Civilization ###########
-      STR_THEWIZENONES: "The Wisdom Species"
+      STR_INDEPENDENTTHEORY: "The Fate of Decision"
+      STR_INDEPENDENTTHEORYWIKI: ""
+      STR_THEWIZENONES: "The Wisdom Species" #Inhabitant Stratocracy (Mulitple Empire)
       STR_THEWIZENONESSWIKI: ""
-      STR_THEDOMINAOTRS: "The Dominators Race"
+      STR_THEDOMINAOTRS: "The Dominators Race" #Trans-Dimensional Empire (Mulitple Empire)
       STR_THEDOMINATORSWIKI: ""
-      STR_EXODUSEMPIRE: "The Exodus Empire"
+      STR_EXODUSEMPIRE: "The Exodus Empire" #Exodus Stratocracy (Mulitple Empire)
       STR_EXODUSEMPIREWIKI: ""
 ######## Alien Languarge /  Vocabulary Arts
       STR_MARTIAN_VOCABULARY: "Martian Language Arts"
@@ -2800,8 +2892,304 @@ en-US:
       STR_JOVIAN_CULTURE: ""
       STR_JOVIAN_CULTURE_UFOPEDIA: ""
       STR_JOVIAN_ARCHITECTURE: "Martian Humanoids Architecture"
-      STR_JOVIAN_ARCHITECTURE_UFOPEDIA: "Pyramids"
+      STR_JOVIAN_ARCHITECTURE_UFOPEDIA: "Skyscrapper Tower"
+
+############## End of Lore
+
+## Selenites Weapons; Borrowed from Jetforce Gemini as Mizar appearance
+      STR_SELENITEBALLISTIC1: "Selenites Refined Ballistic"
+      STR_SELENITEBALLISTIC2: "Selenites ZGA Ballistic"
+      STR_SELENITELASER1: "Selenites Laser Weapon"
+      STR_SELENITELASER2: "Selenites Renewable Laser"
+      STR_SELENITEPLASMA1: "Selenites Charged Plasma"
+      STR_SELENITEPLASMA2: "Selenites Full Plasma"
+      STR_SELENITEESHOCKS1: "Selenites Electroshocks"
+      STR_SELENITESSHOCKS2: "Selenites Barrys Voltage"
+
+
 ## Jovian Weapons
+#Zero Gravity Alloy Codename: Bulls Eye
+      STR_JOVIANZGABALLISTIC1: "Jovians Zero Gravity Alloy"
+      STR_JOVIANZGABALLISTIC2: "Jovians Zero Dimension Alloy"
+      STR_JOVIANZGABALLISTIC3: "Jovians ZD Warp Ballistic"
+      STR_JOVIANLASERWEAPON1: Jovians Laser Weapon
+      STR_JOVIANLASERWEAPON2: Jovians Proton Weapon
+      STR_JOVIANLASERWEAPON3: Jovians Ion Energy Weapon
+      STR_JOVIANSONICWEAPON1: Jovians Sonic Weapon
+      STR_JOVIANGRAVITYWEAPON1: Jovian Grapple Projecile
+      STR_JOVIANMASSRAILGUNWEAPON1: Jovian Rail Guass Weapon
+      STR_JOVIANMASSRAILGUNWEAPON2: Jovian Hypervelocity Weapon
+      STR_JOVIANCRYOGUNWEAPON1: Jovian Nitro Ballistic Weapon
+      STR_JOVIANELECTRICWEAPON1: Jovian Electric Weapon
+      STR_JOVIANELECTRICWEAPON2: Jovian Deathvolt Weapon
+      STR_JOVIANPLASMAWEAPON1: Pulse Plasma Weapon
+      STR_JOVIANPLASMAWEAPON2: Void-Matter Weapon
+      STR_JOVIANEXPLOSIVES1: Zero Gravity Fragment
+      STR_JOVIANEXPLOSIVES2: Hydrogen Explosives
+      STR_JOVIANMELEEWEAPON1: Jovian Melee Weapon
+      STR_JOVIANSPECIALWEAPON1: Jovian Primitive Weapon
+      #High Tech Higher AP+HP
+      #Chemical Tipped
+      #Combat Pistol
+      STR_JOVIANBULLSEYEP1: Bullseye Pistol MK1 #Extended
+      STR_JOVIANBULLSEYESMG1: Bullseye SMG MK1 #Extended
+      STR_JOVIANBULLSEYECAR1: Bullseye Carbine MK1 #Extended
+      STR_JOVIANBULLSEYERIF1: Bullseye wRifle MK1 #Extended
+      STR_JOVIANBULLSEYEGUN1: Bullseye Gunner MK1 #Mod
+      STR_JOVIANBULLSEYEHVY1: Bullseye Sniper MK1 #Extended
+      STR_JOVIANBULLSEYESNP1: Bullseye Heavy MK1 #Mod
+      STR_JOVIANBULLSEYEP2: Bullseye Pistol MK2 #Sight
+      STR_JOVIANBULLSEYESMG2: Bullseye SMG MK2 #Sight
+      STR_JOVIANBULLSEYECAR2: Bullseye Carbine MK2 #Sight
+      STR_JOVIANBULLSEYERIF2: Bullseye Rifle MK2 #Sight
+      STR_JOVIANBULLSEYEGUN2: Bullseye Gunner MK2 #Sight
+      STR_JOVIANBULLSEYEHVY2: Bullseye Sniper MK2 #Sight
+      STR_JOVIANBULLSEYESNP2: Bullseye Heavy MK2 #Sight
+      STR_JOVIANBULLSEYEP3: Bullseye Pistol MK3 #Barrel
+      STR_JOVIANBULLSEYESMG3: Bullseye SMG MK3 #Barrel
+      STR_JOVIANBULLSEYECAR3: Bullseye Carbine MK3 #Barrel
+      STR_JOVIANBULLSEYERIF3: Bullseye Rifle MK3 #Barrel
+      STR_JOVIANBULLSEYEGUN3: Bullseye Gunner MK3 #Barrel
+      STR_JOVIANBULLSEYEHVY3: Bullseye Sniper MK3 #Barrel
+      STR_JOVIANBULLSEYESNP3: Bullseye Heavy MK3 #Barrel
+      STR_JOVIANBULLSEYEP1CLIP1: Bullseye Pistol MK1 Clip
+      STR_JOVIANBULLSEYESMG1CLIP1: Bullseye SMG MK1 Clip
+      STR_JOVIANBULLSEYECAR1CLIP1: Bullseye Carbine MK1 Clip
+      STR_JOVIANBULLSEYERIF1CLIP1: Bullseye Rifle MK1 Clip
+      STR_JOVIANBULLSEYEGUN1CLIP1: Bullseye Gunner MK1 Clip
+      STR_JOVIANBULLSEYEHVY1CLIP1: Bullseye Sniper MK1 Clip
+      STR_JOVIANBULLSEYESNP1CLIP1: Bullseye Heavy MK1 Clip
+      STR_JOVIANBULLSEYEP1CLIP2: Bullseye Pistol MK1 HE Clip
+      STR_JOVIANBULLSEYESMG1CLIP2: Bullseye SMG MK1 HE  Clip
+      STR_JOVIANBULLSEYECAR1CLIP2: Bullseye Carbine MK1 HE Clip
+      STR_JOVIANBULLSEYERIF1CLIP2: Bullseye Rifle MK1 HE Clip
+      STR_JOVIANBULLSEYEGUN1CLIP2: Bullseye Gunner MK1 HE Clip
+      STR_JOVIANBULLSEYEHVY1CLIP2: Bullseye Sniper MK1 HE Clip
+      STR_JOVIANBULLSEYESNP1CLIP2: Bullseye Heavy MK1 HE Clip
+      STR_JOVIANBULLSEYEP1CLIP3: Bullseye Pistol MK1 Spike Clip
+      STR_JOVIANBULLSEYESMG1CLIP3: Bullseye SMG MK1 Spike Clip
+      STR_JOVIANBULLSEYECAR1CLIP3: Bullseye Carbine MK1 Spike Clip
+      STR_JOVIANBULLSEYERIF1CLIP3: Bullseye Rifle MK1 Spike Clip
+      STR_JOVIANBULLSEYEGUN1CLIP3: Bullseye Gunner MK1 Spike Clip
+      STR_JOVIANBULLSEYEHVY1CLIP3: Bullseye Sniper MK1 Spike Clip
+      STR_JOVIANBULLSEYESNP1CLIP3: Bullseye Heavy MK1 Spike Clip
+      STR_JOVIANBULLSEYEP2CLIP1: Bullseye Pistol MK2 Clip
+      STR_JOVIANBULLSEYESMG2CLIP1: Bullseye SMG MK2 Clip
+      STR_JOVIANBULLSEYECAR2CLIP1: Bullseye Carbine MK2 Clip
+      STR_JOVIANBULLSEYERIF2CLIP1: Bullseye Rifle MK2 Clip
+      STR_JOVIANBULLSEYEGUN2CLIP1: Bullseye Gunner MK2 Clip
+      STR_JOVIANBULLSEYEHVY2CLIP1: Bullseye Sniper MK2 Clip
+      STR_JOVIANBULLSEYESNP2CLIP1: Bullseye Heavy MK2 Clip
+      STR_JOVIANBULLSEYEP2CLIP2: Bullseye Pistol MK2 HE Clip
+      STR_JOVIANBULLSEYESMG2CLIP2: Bullseye SMG MK2 HE  Clip
+      STR_JOVIANBULLSEYECAR2CLIP2: Bullseye Carbine MK2 HE Clip
+      STR_JOVIANBULLSEYERIF2CLIP2: Bullseye Rifle MK2 HE Clip
+      STR_JOVIANBULLSEYEGUN2CLIP2: Bullseye Gunner MK2 HE Clip
+      STR_JOVIANBULLSEYEHVY2CLIP2: Bullseye Sniper MK2 HE Clip
+      STR_JOVIANBULLSEYESNP2CLIP2: Bullseye Heavy MK2 HE Clip
+      STR_JOVIANBULLSEYEP2CLIP3: Bullseye Pistol MK2 Spike Clip
+      STR_JOVIANBULLSEYESMG2CLIP3: Bullseye SMG MK2 Spike Clip
+      STR_JOVIANBULLSEYECAR2CLIP3: Bullseye Carbine MK2 Spike Clip
+      STR_JOVIANBULLSEYERIF2CLIP3: Bullseye Rifle MK2 Spike Clip
+      STR_JOVIANBULLSEYEGUN2CLIP3: Bullseye Gunner MK2 Spike Clip
+      STR_JOVIANBULLSEYEHVY2CLIP3: Bullseye Sniper MK2 Spike Clip
+      STR_JOVIANBULLSEYESNP2CLIP3: Bullseye Heavy MK2 Spike Clip
+      STR_JOVIANBULLSEYEP3CLIP1: Bullseye Pistol MK3 Plasma Clip
+      STR_JOVIANBULLSEYESMG3CLIP1: Bullseye SMG MK3 Plasma Clip
+      STR_JOVIANBULLSEYECAR3CLIP1: Bullseye Carbine MK3 Plasma Clip
+      STR_JOVIANBULLSEYERIF3CLIP1: Bullseye Rifle MK3 Plasma Clip
+      STR_JOVIANBULLSEYEGUN3CLIP1: Bullseye Gunner MK3 Plasma Clip
+      STR_JOVIANBULLSEYEHVY3CLIP1: Bullseye Sniper MK3 Plasma Clip
+      STR_JOVIANBULLSEYESNP3CLIP1: Bullseye Heavy MK3 Plasma Clip
+      STR_JOVIANBULLSEYEP3CLIP2: Bullseye Pistol MK3 HE Clip
+      STR_JOVIANBULLSEYESMG3CLIP2: Bullseye SMG MK3 HE Clip
+      STR_JOVIANBULLSEYECAR3CLIP2: Bullseye Carbine MK3 HE Clip
+      STR_JOVIANBULLSEYERIF3CLIP2: Bullseye Rifle MK3 HE Clip
+      STR_JOVIANBULLSEYEGUN3CLIP2: Bullseye Gunner MK3 HE Clip
+      STR_JOVIANBULLSEYEHVY3CLIP2: Bullseye Sniper MK3 HE Clip
+      STR_JOVIANBULLSEYESNP3CLIP2: Bullseye Heavy MK3 HE Clip
+      STR_JOVIANBULLSEYEP3CLIP3: Bullseye Pistol MK3 Spike Clip
+      STR_JOVIANBULLSEYESMG3CLIP3: Bullseye SMG MK2 Spike Clip
+      STR_JOVIANBULLSEYECAR3CLIP3: Bullseye Carbine MK3 Spike Clip
+      STR_JOVIANBULLSEYERIF3CLIP3: Bullseye Rifle MK3 Spike Clip
+      STR_JOVIANBULLSEYEGUN3CLIP3: Bullseye Gunner MK3 Spike Clip
+      STR_JOVIANBULLSEYEHVY3CLIP3: Bullseye Sniper MK3 Spike Clip
+      STR_JOVIANBULLSEYESNP3CLIP3: Bulleyes Heavy MK3 Spike Clip
+#Jovian Zero Dimension Alloy Codename: AUGER Advance Universeral Gravity Engine Railgauss
+      STR_JOVIANAUGERP1: Auger Pistol MK1 #Rapid
+      STR_JOVIANAUGERSMG1: Auger SMG MK1 #Rapid
+      STR_JOVIANAUGERCAR1: Auger Carbine MK1 #Rapid
+      STR_JOVIANAUGERRIF1: Auger Rifle MK1 #Rapid
+      STR_JOVIANAUGERGUN1: Auger Gunner MK1 #Rapid
+      STR_JOVIANAUGERHVY1: Auger Sniper MK1 #Rapid
+      STR_JOVIANAUGERSNP1: Auger Heavy MK1 #Rapid
+      STR_JOVIANAUGERP2: Auger Pistol MK2 #Hybrid
+      STR_JOVIANAUGERSMG2: Auger SMG MK2 #Hybrid
+      STR_JOVIANAUGERCAR2: Auger Carbine MK2 #Hybrid
+      STR_JOVIANAUGERRIF2: Auger Rifle MK2 #Hybrid
+      STR_JOVIANAUGERGUN2: Auger Gunner MK2 #Hybrid
+      STR_JOVIANAUGERHVY2: Auger Sniper MK2 #Hybrid
+      STR_JOVIANAUGERSNP2: Auger Heavy MK2 #Hybrid
+      STR_JOVIANAUGERP3: Auger Pistol MK3 #Energy+Barrel
+      STR_JOVIANAUGERSMG3: Auger SMG MK3 #Energy
+      STR_JOVIANAUGERCAR3: Auger Carbine MK3 #Energy
+      STR_JOVIANAUGERRIF3: Auger Rifle MK3 #Energy
+      STR_JOVIANAUGERGUN3: Auger Gunner MK3 #Energy
+      STR_JOVIANAUGERHVY3: Auger Sniper MK3 #Energy
+      STR_JOVIANAUGERSNP3: Auger Heavy MK3 #Energy
+      STR_JOVIANAUGERP1CLIP1: Auger Pistol MK1 Clip
+      STR_JOVIANAUGERSMG1CLIP1: Auger SMG MK1 Clip
+      STR_JOVIANAUGERCAR1CLIP1: Auger Carbine MK1 Clip
+      STR_JOVIANAUGERERIF1CLIP1: Auger Rifle MK1 Clip
+      STR_JOVIANAUGERGUN1CLIP1: Auger Gunner MK1 Clip
+      STR_JOVIANAUGERHVY1CLIP1: Auger Sniper MK1 Clip
+      STR_JOVIANAUGERSNP1CLIP1: Auger Heavy MK1 Clip
+      STR_JOVIANAUGERP1CLIP2: Auger Pistol MK1 HE Clip
+      STR_JOVIANAUGERSMG1CLIP2: Auger SMG MK1 HE  Clip
+      STR_JOVIANAUGERCAR1CLIP2: Auger Carbine MK1 HE Clip
+      STR_JOVIANAUGERRIF1CLIP2: Auger Rifle MK1 HE Clip
+      STR_JOVIANAUGEREGUN1CLIP2: Auger Gunner MK1 HE Clip
+      STR_JOVIANAUGERHVY1CLIP2: Auger Sniper MK1 HE Clip
+      STR_JOVIANAUGERSNP1CLIP2: Auger Heavy MK1 HE Clip
+      STR_JOVIANAUGERP1CLIP3: Auger Pistol MK1 Spike Clip
+      STR_JOVIANAUGERSMG1CLIP3: Auger SMG MK1 Spike Clip
+      STR_JOVIANAUGERCAR1CLIP3: Auger Carbine MK1 Spike Clip
+      STR_JOVIANAUGERRIF1CLIP3: Auger Rifle MK1 Spike Clip
+      STR_JOVIANAUGERGUN1CLIP3: Auger Gunner MK1 Spike Clip
+      STR_JOVIANAUGERHVY1CLIP3: Auger Sniper MK1 Spike Clip
+      STR_JOVIANAUGERSNP1CLIP3: Auger Heavy MK1 Spike Clip
+      STR_JOVIANAUGERP2CLIP1: Auger Pistol MK2 Clip
+      STR_JOVIANAUGERSMG2CLIP1: Auger SMG MK2 Clip
+      STR_JOVIANAUGERCAR2CLIP1: Auger Carbine MK2 Clip
+      STR_JOVIANAUGERERIF2CLIP1: Auger Rifle MK2 Clip
+      STR_JOVIANAUGERGUN2CLIP1: Auger Gunner MK2 Clip
+      STR_JOVIANAUGERHVY2CLIP1: Auger Sniper MK2 Clip
+      STR_JOVIANAUGERSNP2CLIP1: Auger Heavy MK2 Clip
+      STR_JOVIANAUGERP2CLIP2: Auger Pistol MK2 HE Clip
+      STR_JOVIANAUGERSMG2CLIP2: Auger SMG MK2 HE  Clip
+      STR_JOVIANAUGERCAR2CLIP2: Auger Carbine MK2 HE Clip
+      STR_JOVIANAUGERRIF2CLIP2: Auger Rifle MK2 HE Clip
+      STR_JOVIANAUGERGUN2CLIP2: Auger Gunner MK2 HE Clip
+      STR_JOVIANAUGERHVY2CLIP2: Auger Sniper MK2 HE Clip
+      STR_JOVIANAUGERSNP2CLIP2: Auger Heavy MK2 HE Clip
+      STR_JOVIANAUGERP2CLIP3: Auger Pistol MK2 Spike Clip
+      STR_JOVIANAUGERSMG2CLIP3: Auger SMG MK2 Spike Clip
+      STR_JOVIANAUGERCAR2CLIP3: Auger Carbine MK2 Spike Clip
+      STR_JOVIANAUGERRIF2CLIP3: Auger Rifle MK2 Spike Clip
+      STR_JOVIANAUGERGUN2CLIP3: Auger Gunner MK2 Spike Clip
+      STR_JOVIANAUGEREHVY2CLIP3: Auger Sniper MK2 Spike Clip
+      STR_JOVIANAUGERSNP2CLIP3: Auger Heavy MK2 Spike Clip
+      STR_JOVIANAUGERP3CLIP1: Auger Pistol MK3 Plasma  Clip
+      STR_JOVIANAUGERESMG3CLIP1: Auger SMG MK3 Plasma  Clip
+      STR_JOVIANAUGERCAR3CLIP1: Auger Carbine MK3 Plasma Clip
+      STR_JOVIANAUGERRIF3CLIP1: Auger Rifle MK3 Plasma  Clip
+      STR_JOVIANAUGERGUN3CLIP1: Auger Gunner MK3 Plasma  Clip
+      STR_JOVIANAUGERHVY3CLIP1: Auger Sniper MK3 Plasma  Clip
+      STR_JOVIANAUGERSNP3CLIP1: Auger Heavy MK3 Plasma  Clip
+      STR_JOVIANAUGERP3CLIP2: Auger Pistol MK3 HE Clip
+      STR_JOVIANAUGERSMG3CLIP2: Auger SMG MK3 HE  Clip
+      STR_JOVIANAUGERCAR3CLIP2: Auger Carbine MK3 HE Clip
+      STR_JOVIANAUGERRIF3CLIP2: Auger Rifle MK3 HE Clip
+      STR_JOVIANAUGERGUN3CLIP2: Auger Gunner MK3 HE Clip
+      STR_JOVIANAUGERHVY3CLIP2: Auger Sniper MK3 HE Clip
+      STR_JOVIANAUGERSNP3CLIP2: Auger Heavy MK3 HE Clip
+      STR_JOVIANAUGERP3CLIP3: Auger Pistol MK3 Spike Clip
+      STR_JOVIANAUGERSMG3CLIP3: Auger SMG MK2 Spike Clip
+      STR_JOVIANAUGERCAR3CLIP3: Auger Carbine MK3 Spike Clip
+      STR_JOVIANAUGERRIF3CLIP3: Auger Rifle MK3 Spike Clip
+      STR_JOVIANAUGERGUN3CLIP3: Auger Gunner MK3 Spike Clip
+      STR_JOVIANAUGERHVY3CLIP3: Auger Sniper MK3 Spike Clip
+      STR_JOVIANAUGERSNP3CLIP3: Auger Heavy MK3 Spike Clip
+      ##### Smart Targeting and Better Weapons
+      STR_JOVIANREAPERP1: Reaper Pistol MK1 #Rapid
+      STR_JOVIANREAPERSMG1: Reaper SMG MK1 #Rapid
+      STR_JOVIANREAPERCAR1: Reaper Carbine MK1 #Rapid
+      STR_JOVIANREAPERRIF1: Reaper Rifle MK1 #Rapid
+      STR_JOVIANREAPERRGUN1: Reaper Gunner MK1 #Rapid
+      STR_JOVIANREAPERHVY1: Reaper Sniper MK1 #Rapid
+      STR_JOVIANREAPERSNP1: Reaper Heavy MK1 #Rapid
+      STR_JOVIANREAPERP2: Reaper Pistol MK2 #Hybrid
+      STR_JOVIANREAPERSMG2: Reaper SMG MK2 #Hybrid
+      STR_JOVIANREAPERCAR2: Reaper Carbine MK2 #Hybrid
+      STR_JOVIANREAPERRIF2: Reaper Rifle MK2 #Hybrid
+      STR_JOVIANREAPERGUN2: Reaper Gunner MK2 #Hybrid
+      STR_JOVIANREAPERHVY2: Reaper Sniper MK2 #Hybrid
+      STR_JOVIANREAPERSNP2: Reaper Heavy MK2 #Hybrid
+      STR_JOVIANREAPERP3: Reaper Pistol MK3 #Energy+Barrel Electro Chemical Plasma
+      STR_JOVIANREAPERSMG3: Reaper SMG MK3 #Energy Electro Chemical Plasma
+      STR_JOVIANREAPERCAR3: Reaper Carbine MK3 #Energy Electro Chemical Plasma
+      STR_JOVIANREAPERRIF3: Reaper Rifle MK3 #Energy Electro Chemical Plasma
+      STR_JOVIANREAPERGUN3: Reaper Gunner MK3 #Energy Electro Chemical Plasma
+      STR_JOVIANREAPERHVY3: Reaper Sniper MK3 #Energy Electro Chemical Plasma
+      STR_JOVIANREAPERSNP3: Reaper Heavy MK3 #Energy Electro Chemical Plasma
+      STR_JOVIANREAPERP1CLIP1: Reaper Pistol MK1 Clip
+      STR_JOVIANREAPERSMG1CLIP1: Reaper SMG MK1 Clip
+      STR_JOVIANREAPERCAR1CLIP1: Reaper Carbine MK1 Clip
+      STR_JOVIANREAPERERIF1CLIP1: Reaper Rifle MK1 Clip
+      STR_JOVIANREAPERGUN1CLIP1: Reaper Gunner MK1 Clip
+      STR_JOVIANREAPERHVY1CLIP1: Reaper Sniper MK1 Clip
+      STR_JOVIANREAPERSNP1CLIP1: Reaper Heavy MK1 Clip
+      STR_JOVIANREAPERP1CLIP2: Reaper Pistol MK1 HE Clip
+      STR_JOVIANREAPERSMG1CLIP2: Reaper SMG MK1 HE  Clip
+      STR_JOVIANREAPERCAR1CLIP2: Reaper Carbine MK1 HE Clip
+      STR_JOVIANREAPERRIF1CLIP2: Reaper Rifle MK1 HE Clip
+      STR_JOVIANREAPEREGUN1CLIP2: Reaper Gunner MK1 HE Clip
+      STR_JOVIANREAPERHVY1CLIP2: Reaper Sniper MK1 HE Clip
+      STR_JOVIANREAPERSNP1CLIP2: Reaper Heavy MK1 HE Clip
+      STR_JOVIANREAPERP1CLIP3: Reaper Pistol MK1 Spike Clip
+      STR_JOVIANREAPERSMG1CLIP3: Reaper SMG MK1 Spike Clip
+      STR_JOVIANREAPERCAR1CLIP3: Reaper Carbine MK1 Spike Clip
+      STR_JOVIANREAPERRIF1CLIP3: Reaper Rifle MK1 Spike Clip
+      STR_JOVIANREAPERGUN1CLIP3: Reaper Gunner MK1 Spike Clip
+      STR_JOVIANREAPERHVY1CLIP3: Reaper Sniper MK1 Spike Clip
+      STR_JOVIANREAPERSNP1CLIP3: Reaper Heavy MK1 Spike Clip
+      STR_JOVIANREAPERP2CLIP1: Reaper Pistol MK2 Clip
+      STR_JOVIANREAPERSMG2CLIP1: Reaper SMG MK2 Clip
+      STR_JOVIANREAPERCAR2CLIP1: Reaper Carbine MK2 Clip
+      STR_JOVIANREAPERERIF2CLIP1: Reaper Rifle MK2 Clip
+      STR_JOVIANREAPERGUN2CLIP1: Reaper Gunner MK2 Clip
+      STR_JOVIANREAPERHVY2CLIP1: Reaper Sniper MK2 Clip
+      STR_JOVIANREAPERSNP2CLIP1: Reaper Heavy MK2 Clip
+      STR_JOVIANREAPERP2CLIP2: Reaper Pistol MK2 HE Clip
+      STR_JOVIANREAPERSMG2CLIP2: Reaper SMG MK2 HE  Clip
+      STR_JOVIANREAPERCAR2CLIP2: Reaper Carbine MK2 HE Clip
+      STR_JOVIANREAPERRIF2CLIP2: Reaper Rifle MK2 HE Clip
+      STR_JOVIANREAPERRGUN2CLIP2: Reaper Gunner MK2 HE Clip
+      STR_JOVIANREAPERHVY2CLIP2: Reaper Sniper MK2 HE Clip
+      STR_JOVIANREAPERSNP2CLIP2: Reaper Heavy MK2 HE Clip
+      STR_JOVIANREAPERP2CLIP3: Reaper Pistol MK2 Chem Clip
+      STR_JOVIANREAPERSMG2CLIP3: Reaper SMG MK2 Chem Clip
+      STR_JOVIANREAPERCAR2CLIP3: Reaper Carbine MK2 Chem Clip
+      STR_JOVIANREAPERRIF2CLIP3: Reaper Rifle MK2 Chem Clip
+      STR_JOVIANREAPERGUN2CLIP3: Reaper Gunner MK2 Chem Clip
+      STR_JOVIANREAPEREHVY2CLIP3: Reaper Sniper MK2 Chem Clip
+      STR_JOVIANREAPERSNP2CLIP3: Reaper Heavy MK2 Chem Clip
+      STR_JOVIANREAPERP3CLIP1: Reaper Pistol MK3 Plasma  Clip
+      STR_JOVIANREAPERESMG3CLIP1: Reaper SMG MK3 Plasma  Clip
+      STR_JOVIANREAPERCAR3CLIP1: Reaper Carbine MK3 Plasma Clip
+      STR_JOVIANREAPERRIF3CLIP1: Reaper Rifle MK3 Plasma  Clip
+      STR_JOVIANREAPERGUN3CLIP1: Reaper Gunner MK3 Plasma  Clip
+      STR_JOVIANREAPERHVY3CLIP1: Reaper Sniper MK3 Plasma  Clip
+      STR_JOVIANREAPERSNP3CLIP1: Reaper Heavy MK3 Plasma  Clip
+      STR_JOVIANREAPERP3CLIP2: Reaper Pistol MK3 HE Clip
+      STR_JOVIANREAPERSMG3CLIP2: Reaper SMG MK3 HE  Clip
+      STR_JOVIANREAPERCAR3CLIP2: Reaper Carbine MK3 HE Clip
+      STR_JOVIANREAPERRIF3CLIP2: Reaper Rifle MK3 HE Clip
+      STR_JOVIANREAPERGUN3CLIP2: Reaper Gunner MK3 HE Clip
+      STR_JOVIANREAPERHVY3CLIP2: Reaper Sniper MK3 HE Clip
+      STR_JOVIANREAPERSNP3CLIP2: Reaper Heavy MK3 HE Clip
+      STR_JOVIANREAPERP3CLIP3: Reaper Pistol MK3 Spike Clip
+      STR_JOVIANREAPERSMG3CLIP3: Reaper SMG MK2 Spike Clip
+      STR_JOVIANREAPERCAR3CLIP3: Reaper Carbine MK3 Spike Clip
+      STR_JOVIANREAPERRIF3CLIP3: Reaper Rifle MK3 Spike Clip
+      STR_JOVIANREAPERGUN3CLIP3: Reaper Gunner MK3 Spike Clip
+      STR_JOVIANREAPERHVY3CLIP3: Reaper Sniper MK3 Spike Clip
+      STR_JOVIANREAPERSNP3CLIP3: Reaper Heavy MK3 Spike Clip
+      ########### Explosives
+
+
+
+
 
 #### Triffids Evolved Mutant Carnivore Plant
       STR_MARTIAN_TRIFFIDS_ORIGINS: ""
@@ -2827,6 +3215,16 @@ en-US:
       STR_OCTASAPIEN_FOREIGN_UFOPEDIA: ""
       STR_OCTASAPIEN_FOREIGN_RELATION: ""
       STR_OCTASAPIEN_FOREIGN_RELATION_UFOPEDIA: ""
+
+
+#### ALIEN FACTIONS
+#### MARTIAN HUMANOID
+
+#### JOVIANS EMPIRE
+#### Jovian machine for Geoscape
+#### Jovian Weapon Mount
+#### Jovian Weapons
+
 #### OCTASAPIENS FACTION
 ###### Octasapiens machine for Geoscape
 ##### 35 Craft / 15 Structures  16 Vehicles 8 Fighters 8 Space Ships 3 Projectiles ( Impossible to chase)
@@ -2895,7 +3293,7 @@ en-US:
       STR_OCTASAPIEN_PROJECTILE5WIKI: "The common artillery ballistic used by many armies. Orbital kinetic bombardment can be very devastating and results severe damage to our base. However, not all kinetic projectiles drop into same location."
 ###### Octasapiens Mobile Structure
       STR_OCTASAPIEN_SENTRY_TOWER: "Octasapien Guard Tower"
-      STR_OCTASAPIEN_SENTRY_TOWERWIKI: ""
+      STR_OCTASAPIEN_SENTRY_TOWERWIKI: "Their defense tower are equiped with automated sentry guns supporting the platform weapons system. It repels armored vehicles and group infantry within weapons range."
       STR_OCTASAPIEN_OUTBASE: "Octasapien Platform"
       STR_OCTASAPIEN_OUTBASEWIKI: "A construction yard base that builds other structures, defenses, and barriacades. It also repair, salvage, and renew weary items into new materials. The interrior contains raw materials and alloys from their origin."
       STR_OCTASAPIEN_REFINERY: "Octasapien Refinery"
@@ -2927,6 +3325,671 @@ en-US:
       STR_OCTASAPIEN_SUBCITY: "Octasapien Subtunnel City"
       STR_OCTASAPIEN_SUBCITYWIKI: ""
 ###### Octasapiens weapons
+      STR_OCTASAPIENNEXTGENBALLISTIC: "Octasapien Ballistic Tier 1"
+      STR_OCTASAPIENNEXTGENBALLISTICWIKI: "The ballistic looks familiar with the Martian Humanoid Bullets. These bullets are more enhanced and its very clean shot against our Tunguskium Alloys. This can destroy any common primitive metals at impact."
+      STR_OCTASAPIENZEROALLOYBALLISTIC: "Octasapien Ballistic Tier 2"
+      STR_OCTASAPIENZEROALLOYBALLISTICWIKI: The next-generation ballistic weapon contains zero gravity alloys. This projectile can destroy our Tunguskium and other common metals. Its performance able to increase veliocity and impact than any of the previous kind. We need to learn more about these new alloys by interrogating one of their engineers. If we want to learn how to create it.
+      STR_OCTASAPIENZERODIMENSIONBALLISTIC: "Octasapien Ballistic Tier 3"
+      STR_OCTASAPIENZERODIMENSIONBALLISTICWIKI: The final-development of the zero dimensional ballisics. Powerful enough to pierce all of the alloys incluing zerogravity as well. It is very lethal to organic which pierce through organ systems causing it to die instantly. The formula of the this product are no-where to obtain. Perhaps we need to learn the technology by capturing Octasapiens members and their allies.
+      STR_OCTASAPIENLASERWEAPON1: Octaspaien Laser Weapon
+      STR_OCTASAPIENLASERWEAPON2: Octasapien Turbolaser Weapon
+      STR_OCTASAPIENLASERWEAPON3: Octasapien Direct Energy Weapons
+      STR_OCTASAPIENPLASMAWEAPON1: Octaspaien Plasma Weapons
+      STR_OCTASAPIENPLASMAWEAPON2: Octaspaien Ultra Plasma Weapons
+      STR_OCTASAPIENRAILGUNWEAPON1: Octasapien Mass Driver Weapons
+      STR_OCTASAPIENRAILGUNWEAPON2: Octasapien Gauss Rail Weapons
+      STR_OCTASAPIENSPECIALWEAPON1: Octasapien Primitive Weapons
+      STR_OCTASAPIENEXPLOSIVES1: Octasapien Hydrogen Explosives
+      STR_OCTASAPIENEXPLOSIVES2: Octasapien Matter Explosives
+      STR_OCTASAPIENELECTRIC1: Octasapien Electric Weapons
+      STR_OCTASAPIENELECTRIC2: Octasapien Megatron Weapons
+      STR_OCTASAPIENMELEEWEAPONS1: Octasapien Melee Weapons
+      STR_OCTASAPIENSONICWEAPON1: Octasapien Sonic Weapons
+      #High Performance
+      #High Tech Higher AP+HP
+      #Chemical Tipped
+      #Combat Pistol
+      STR_OCTASAPIENBULLET1PISTOL1: OSB-P1 Semi ####AMMO: 15
+      STR_OCTASAPIENBULLET1PISTOL2: OSB-P2 Auto ####AMMO: 40
+      STR_OCTASAPIENBULLET1PISTOL3: OSB-P3 Sight ####AMMO: 10
+      STR_OCTASAPIENBULLET1PISTOL1CLIP1: OSB-P1 Semi Clip ####AMMO: 15
+      STR_OCTASAPIENBULLET1PISTOL2CLIP1: OSB-P2 Auto Clip ####AMMO: 40
+      STR_OCTASAPIENBULLET1PISTOL3CLIP1: OSB-P3 Sight Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET1PISTOL1CLIP2: OSB-P1 Semi Clip ####AMMO: 15
+      STR_OCTASAPIENBULLET1PISTOL2CLIP2: OSB-P2 Auto Clip ####AMMO: 40
+      STR_OCTASAPIENBULLET1PISTOL3CLIP2: OSB-P3 Sight Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET1PISTOL1CLIP3: OSB-P1 Semi Clip ####AMMO: 15
+      STR_OCTASAPIENBULLET1PISTOL2CLIP3: OSB-P2 Auto Clip ####AMMO: 40
+      STR_OCTASAPIENBULLET1PISTOL3CLIP3: OSB-P3 Sight Clip ####AMMO: 10
+      #Machine Pistol
+      STR_OCTASAPIENBULLET1SMG1: OSB-SMG1 Cover ####AMMO: 35
+      STR_OCTASAPIENBULLET1SMG2: OSB-SMG2 Sight ####AMMO: 20
+      STR_OCTASAPIENBULLET1SMG3: OSB-SMG3 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET1SMG1CLIP1: OSB-SMG1 Cover Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1SMG2CLIP1: OSB-SMG2 Sight Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SMG3CLIP1: OSB-SMG3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1SMG1CLIP2: OSB-SMG1 Cover Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1SMG2CLIP2: OSB-SMG2 Sight Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SMG3CLIP2: OSB-SMG3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1SMG1CLIP3: OSB-SMG1 Cover Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1SMG2CLIP3: OSB-SMG2 Sight Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SMG3CLIP3: OSB-SMG3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1SHOTGUN1: OSB-SG1 Hybrid # Cartridge Ammo
+      STR_OCTASAPIENBULLET1SHOTGUN2: OSB-SG1 Auto # Drum Mag
+      STR_OCTASAPIENBULLET1SHOTGUN3: OSB-SG1 Sight #Belt Ammo
+      STR_OCTASAPIENBULLET1SHOTGUN1CLIP1: OSB-SG1 Buckshot # x10
+      STR_OCTASAPIENBULLET1SHOTGUN2CLIP1: OSB-SG1 Buckshot # x20
+      STR_OCTASAPIENBULLET1SHOTGUN3CLIP1: OSB-SG1 Buckshot # x8
+      STR_OCTASAPIENBULLET1SHOTGUN1CLIP2: OSB-SG1 Slug Shot
+      STR_OCTASAPIENBULLET1SHOTGUN2CLIP2: OSB-SG1 Slug Shot
+      STR_OCTASAPIENBULLET1SHOTGUN3CLIP2: OSB-SG1 Slug Shot
+      STR_OCTASAPIENBULLET1SHOTGUN1CLIP3: OSB-SG1 Non-Lethal
+      STR_OCTASAPIENBULLET1SHOTGUN2CLIP3: OSB-SG1 Non-Lethal
+      STR_OCTASAPIENBULLET1SHOTGUN3CLIP3: OSB-SG1 Non-Lethal
+      STR_OCTASAPIENBULLET1SHOTGUN1CLIP4: OSB-SG1 Incendiary
+      STR_OCTASAPIENBULLET1SHOTGUN2CLIP4: OSB-SG1 Incendiary
+      STR_OCTASAPIENBULLET1SHOTGUN3CLIP4: OSB-SG1 Incendiary
+      STR_OCTASAPIENBULLET1SHOTGUN1CLIP5: OSB-SG1 Power MAG
+      STR_OCTASAPIENBULLET1SHOTGUN2CLIP5: OSB-SG1 Power MAG
+      STR_OCTASAPIENBULLET1SHOTGUN3CLIP5: OSB-SG1 Power MAG
+      STR_OCTASAPIENBULLET1SHOTGUN1CLIP6: OSB-SG1 Explosive
+      STR_OCTASAPIENBULLET1SHOTGUN2CLIP6: OSB-SG1 Explosive
+      STR_OCTASAPIENBULLET1SHOTGUN3CLIP6: OSB-SG1 Explosive
+      #Personal Defense Weapon #45
+      STR_OCTASAPIENBULLET1PDW1: OSB-PDW1 Shield ####AMMO: 35
+      STR_OCTASAPIENBULLET1PDW2: OSB-PDW2 Sniper ####AMMO: 20
+      STR_OCTASAPIENBULLET1PDW3: OSB-PDW3 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET1PDW1CLIP1: OSB-PDW1 Shield Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1PDW2CLIP1: OSB-PDW2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1PDW3CLIP1: OSB-PDW3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1PDW1CLIP2: OSB-PDW1 Shield Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1PDW2CLIP2: OSB-PDW2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1PDW3CLIP2: OSB-PDW3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1PDW1CLIP3: OSB-PDW1 Shield Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1PDW2CLIP3: OSB-PDW2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1PDW3CLIP3: OSB-PDW3 Extend Clip ####AMMO: 60
+      #Carbine
+      STR_OCTASAPIENBULLET1CAR1: OSB-CAR1 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET1CAR2: OSB-CAR2 Sight ####AMMO: 30
+      STR_OCTASAPIENBULLET1CAR3: OSB-CAR3 Barrel ####AMMO: 30 + 5
+      STR_OCTASAPIENBULLET1CAR1CLIP1: OSB-CAR1 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1CAR2CLIP1: OSB-CAR2 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1CAR3CLIP1: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
+      STR_OCTASAPIENBULLET1CAR1CLIP2: OSB-CAR1 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1CAR2CLIP2: OSB-CAR2 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1CAR3CLIP2: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
+      STR_OCTASAPIENBULLET1CAR1CLIP3: OSB-CAR1 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1CAR2CLIP3: OSB-CAR2 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1CAR3CLIP3: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
+      #Rifle
+      STR_OCTASAPIENBULLET1RIF1: OSB-RIF1 Sight ####AMMO: 30
+      STR_OCTASAPIENBULLET1RIF2: OSB-RIF2 Sniper ####AMMO: 20
+      STR_OCTASAPIENBULLET1RIF3: OSB-RIF3 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET1RIF1CLIP1: OSB-RIF1 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1RIF2CLIP1: OSB-RIF2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1RIF3CLIP1: OSB-RIF3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1RIF1CLIP2: OSB-RIF1 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1RIF2CLIP2: OSB-RIF2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1RIF3CLIP2: OSB-RIF3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1RIF1CLIP3: OSB-RIF1 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1RIF2CLIP3: OSB-RIF2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1RIF3CLIP3: OSB-RIF3 Extend Clip ####AMMO: 60
+      #Machine Gun
+      STR_OCTASAPIENBULLET1MAC1: OSB-MAC1 Chain ####AMMO:100
+      STR_OCTASAPIENBULLET1MAC2: OSB-MAC2 Barrel ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC3: OSB-MAC3 Mod ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC1CLIP1: OSB-MAC1 Chain Clip ####AMMO:100
+      STR_OCTASAPIENBULLET1MAC2CLIP1: OSB-MAC2 Barrel Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC3CLIP1: OSB-MAC3 Mod Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC1CLIP2: OSB-MAC1 Chain Clip ####AMMO:100
+      STR_OCTASAPIENBULLET1MAC2CLIP2: OSB-MAC2 Barrel Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC3CLIP2: OSB-MAC3 Mod Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC1CLIP3: OSB-MAC1 Chain Clip ####AMMO:100
+      STR_OCTASAPIENBULLET1MAC2CLIP3: OSB-MAC2 Barrel Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC3CLIP3: OSB-MAC3 Mod Clip ####AMMO: 50
+      #Gunner Cannon
+      STR_OCTASAPIENBULLET1GUN1: OSB-GUN1 Chain ####AMMO: 250
+      STR_OCTASAPIENBULLET1GUN2: OSB-GUN2 Mobile ####AMMO: 300
+      STR_OCTASAPIENBULLET1GUN3: OSB-GUN3 Mod ####AMMO: 100 + 50
+      STR_OCTASAPIENBULLET1GUN1CLIP1: OSB-GUN1 Chain Clip ####AMMO: 250
+      STR_OCTASAPIENBULLET1GUN2CLIP1: OSB-GUN2 Mobile Clip ####AMMO: 300
+      STR_OCTASAPIENBULLET1GUN3CLIP1: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
+      STR_OCTASAPIENBULLET1GUN1CLIP2: OSB-GUN1 Chain Clip ####AMMO: 250
+      STR_OCTASAPIENBULLET1GUN2CLIP2: OSB-GUN2 Mobile Clip ####AMMO: 300
+      STR_OCTASAPIENBULLET1GUN3CLIP2: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
+      STR_OCTASAPIENBULLET1GUN1CLIP3: OSB-GUN1 Chain Clip ####AMMO: 250
+      STR_OCTASAPIENBULLET1GUN2CLIP3: OSB-GUN2 Mobile Clip ####AMMO: 300
+      STR_OCTASAPIENBULLET1GUN3CLIP3: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
+      #Sniper Rifle
+      STR_OCTASAPIENBULLET1SNP1: OSB-SNP1 Siege ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP2: OSB-SNP2 Mod ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP3: OSB-SNP3 Tank ####AMMO: 10
+      STR_OCTASAPIENBULLET1SNP1CLIP1: OSB-SNP1 Siege Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP2CLIP1: OSB-SNP2 Mod Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP3CLIP1: OSB-SNP3 Tank Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET1SNP1CLIP2: OSB-SNP1 Siege Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP2CLIP2: OSB-SNP2 Mod Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP3CLIP2: OSB-SNP3 Tank Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET1SNP1CLIP3: OSB-SNP1 Siege Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP2CLIP3: OSB-SNP2 Mod Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP3CLIP3: OSB-SNP3 Tank Clip ####AMMO: 10
+      #Heavy Gunner
+      STR_OCTASAPIENBULLET1HVY1: OSB-HVY1 Rapid ####AMMO: 50
+      STR_OCTASAPIENBULLET1HVY2: OSB-HVY2 Mod ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET1HVY3: OSB-HVY3 Tank ####AMMO: 20
+      STR_OCTASAPIENBULLET1HVY1CLIP1: OSB-HVY1 Rapid Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1HVY2CLIP1: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET1HVY3CLIP1: OSB-HVY3 Tank Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1HVY1CLIP2: OSB-HVY1 Rapid Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1HVY2CLIP2: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET1HVY3CLIP2: OSB-HVY3 Tank Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1HVY1CLIP3: OSB-HVY1 Rapid Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1HVY2CLIP3: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET1HVY3CLIP3: OSB-HVY3 Tank Clip ####AMMO: 20
+      #Zero Gravity Alloy#
+      #Chemical Tip
+      #Incendiary
+      STR_OCTASAPIENBULLET2PISTOL1: OSB-P1 Semi ####AMMO: 15
+      STR_OCTASAPIENBULLET2PISTOL2: OSB-P2 Auto ####AMMO: 40
+      STR_OCTASAPIENBULLET2PISTOL3: OSB-P3 Sight ####AMMO: 10
+      STR_OCTASAPIENBULLET2PISTOL1CLIP1: OSB-P1 Semi Clip ####AMMO: 15
+      STR_OCTASAPIENBULLET2PISTOL2CLIP1: OSB-P2 Auto Clip ####AMMO: 40
+      STR_OCTASAPIENBULLET2PISTOL3CLIP1: OSB-P3 Sight Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET2PISTOL1CLIP2: OSB-P1 Semi Clip ####AMMO: 15
+      STR_OCTASAPIENBULLET2PISTOL2CLIP2: OSB-P2 Auto Clip ####AMMO: 40
+      STR_OCTASAPIENBULLET2PISTOL3CLIP2: OSB-P3 Sight Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET2PISTOL1CLIP3: OSB-P1 Semi Clip ####AMMO: 15
+      STR_OCTASAPIENBULLET2PISTOL2CLIP3: OSB-P2 Auto Clip ####AMMO: 40
+      STR_OCTASAPIENBULLET2PISTOL3CLIP3: OSB-P3 Sight Clip ####AMMO: 10
+      #Machine Pistol
+      STR_OCTASAPIENBULLET2SMG1: OSB-SMG1 Cover ####AMMO: 35
+      STR_OCTASAPIENBULLET2SMG2: OSB-SMG2 Sight ####AMMO: 20
+      STR_OCTASAPIENBULLET2SMG3: OSB-SMG3 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET2SMG1CLIP1: OSB-SMG1 Cover Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET2SMG2CLIP1: OSB-SMG2 Sight Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SMG3CLIP1: OSB-SMG3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2SMG1CLIP2: OSB-SMG1 Cover Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET2SMG2CLIP2: OSB-SMG2 Sight Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SMG3CLIP2: OSB-SMG3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2SMG1CLIP3: OSB-SMG1 Cover Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET2SMG2CLIP3: OSB-SMG2 Sight Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SMG3CLIP3: OSB-SMG3 Extend Clip ####AMMO: 60
+      #Personal Defense Weapon
+      STR_OCTASAPIENBULLET2PDW1: OSB-PDW1 Shield ####AMMO: 35
+      STR_OCTASAPIENBULLET2PDW2: OSB-PDW2 Sniper ####AMMO: 20
+      STR_OCTASAPIENBULLET2PDW3: OSB-PDW3 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET2PDW1CLIP1: OSB-PDW1 Shield Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET2PDW2CLIP1: OSB-PDW2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2PDW3CLIP1: OSB-PDW3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2PDW1CLIP2: OSB-PDW1 Shield Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET2PDW2CLIP2: OSB-PDW2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2PDW3CLIP2: OSB-PDW3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2PDW1CLIP3: OSB-PDW1 Shield Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET2PDW2CLIP3: OSB-PDW2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2PDW3CLIP3: OSB-PDW3 Extend Clip ####AMMO: 60
+      #Carbine
+      STR_OCTASAPIENBULLET2CAR1: OSB-CAR1 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET2CAR2: OSB-CAR2 Sight ####AMMO: 30dd
+      STR_OCTASAPIENBULLET2CAR3: OSB-CAR3 Barrel ####AMMO: 30 + 5
+      STR_OCTASAPIENBULLET2CAR1CLIP1: OSB-CAR1 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2CAR2CLIP1: OSB-CAR2 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET2CAR3CLIP1: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
+      STR_OCTASAPIENBULLET2CAR1CLIP2: OSB-CAR1 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2CAR2CLIP2: OSB-CAR2 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET2CAR3CLIP2: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
+      STR_OCTASAPIENBULLET2CAR1CLIP3: OSB-CAR1 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2CAR2CLIP3: OSB-CAR2 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET2CAR3CLIP3: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
+      #Rifle
+      STR_OCTASAPIENBULLET2RIF1: OSB-RIF1 Sight ####AMMO: 30
+      STR_OCTASAPIENBULLET2RIF2: OSB-RIF2 Sniper ####AMMO: 20
+      STR_OCTASAPIENBULLET2RIF3: OSB-RIF3 Extend ####AMMO: 60
+      STR_OCTASAPIENBULLET2RIF1CLIP1: OSB-RIF1 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET2RIF2CLIP1: OSB-RIF2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2RIF3CLIP1: OSB-RIF3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2RIF1CLIP2: OSB-RIF1 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET2RIF2CLIP2: OSB-RIF2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2RIF3CLIP2: OSB-RIF3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET2RIF1CLIP3: OSB-RIF1 Sight Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET2RIF2CLIP3: OSB-RIF2 Sniper Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2RIF3CLIP3: OSB-RIF3 Extend Clip ####AMMO: 60
+      #Machine Gun
+      STR_OCTASAPIENBULLET2MAC1: OSB-MAC1 Chain ####AMMO:100
+      STR_OCTASAPIENBULLET2MAC2: OSB-MAC2 Barrel ####AMMO: 50
+      STR_OCTASAPIENBULLET2MAC3: OSB-MAC3 Mod ####AMMO: 50
+      STR_OCTASAPIENBULLET2MAC1CLIP1: OSB-MAC1 Chain Clip ####AMMO:100
+      STR_OCTASAPIENBULLET2MAC2CLIP1: OSB-MAC2 Barrel Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2MAC3CLIP1: OSB-MAC3 Mod Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2MAC1CLIP2: OSB-MAC1 Chain Clip ####AMMO:100
+      STR_OCTASAPIENBULLET2MAC2CLIP2: OSB-MAC2 Barrel Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2MAC3CLIP2: OSB-MAC3 Mod Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2MAC1CLIP3: OSB-MAC1 Chain Clip ####AMMO:100
+      STR_OCTASAPIENBULLET2MAC2CLIP3: OSB-MAC2 Barrel Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2MAC3CLIP3: OSB-MAC3 Mod Clip ####AMMO: 50
+      #Gunner Cannon
+      STR_OCTASAPIENBULLET2GUN1: OSB-GUN1 Chain ####AMMO: 250
+      STR_OCTASAPIENBULLET2GUN2: OSB-GUN2 Mobile ####AMMO: 300
+      STR_OCTASAPIENBULLET2GUN3: OSB-GUN3 Mod ####AMMO: 100 + 50
+      STR_OCTASAPIENBULLE2GUN1CLIP1: OSB-GUN1 Chain Clip ####AMMO: 250
+      STR_OCTASAPIENBULLET2GUN2CLIP1: OSB-GUN2 Mobile Clip ####AMMO: 300
+      STR_OCTASAPIENBULLET2GUN3CLIP1: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
+      STR_OCTASAPIENBULLET2GUN1CLIP2: OSB-GUN1 Chain Clip ####AMMO: 250
+      STR_OCTASAPIENBULLET2GUN2CLIP2: OSB-GUN2 Mobile Clip ####AMMO: 300
+      STR_OCTASAPIENBULLET2GUN3CLIP2: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
+      STR_OCTASAPIENBULLET2GUN1CLIP3: OSB-GUN1 Chain Clip ####AMMO: 250
+      STR_OCTASAPIENBULLET2GUN2CLIP3: OSB-GUN2 Mobile Clip ####AMMO: 300
+      STR_OCTASAPIENBULLET2GUN3CLIP3: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
+      #Sniper Rifle
+      STR_OCTASAPIENBULLET2SNP1: OSB-SNP1 Siege ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP2: OSB-SNP2 Mod ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP3: OSB-SNP3 Tank ####AMMO: 10
+      STR_OCTASAPIENBULLET2SNP1CLIP1: OSB-SNP1 Siege Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP2CLIP1: OSB-SNP2 Mod Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP3CLIP1: OSB-SNP3 Tank Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET2SNP1CLIP2: OSB-SNP1 Siege Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP2CLIP2: OSB-SNP2 Mod Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP3CLIP2: OSB-SNP3 Tank Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET2SNP1CLIP3: OSB-SNP1 Siege Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP2CLIP3: OSB-SNP2 Mod Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2SNP3CLIP3: OSB-SNP3 Tank Clip ####AMMO: 10
+      #Heavy Gunner
+      STR_OCTASAPIENBULLET2HVY1: OSB-HVY1 Rapid ####AMMO: 50
+      STR_OCTASAPIENBULLET2HVY2: OSB-HVY2 Mod ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET2HVY3: OSB-HVY3 Tank ####AMMO: 20
+      STR_OCTASAPIENBULLET2HVY1CLIP1: OSB-HVY1 Rapid Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2HVY2CLIP1: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET2HVY3CLIP1: OSB-HVY3 Tank Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2HVY1CLIP2: OSB-HVY1 Rapid Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2HVY2CLIP2: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET2HVY3CLIP2: OSB-HVY3 Tank Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET2HVY1CLIP3: OSB-HVY1 Rapid Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET2HVY2CLIP3: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET2HVY3CLIP3: OSB-HVY3 Tank Clip ####AMMO: 20
+      #Shotgun Pellets
+      STR_OCTASAPIENBULLET2SHOTGUN1: OSB-SG1 Hybrid # Cartridge Ammo
+      STR_OCTASAPIENBULLET2SHOTGUN2: OSB-SG1 Auto # Drum Mag
+      STR_OCTASAPIENBULLET2SHOTGUN3: OSB-SG1 Sight #Belt Ammo
+      STR_OCTASAPIENBULLET2SHOTGUN1CLIP1: OSB-SG1 Buckshot # x10
+      STR_OCTASAPIENBULLET2SHOTGUN2CLIP1: OSB-SG1 Buckshot # x20
+      STR_OCTASAPIENBULLET2SHOTGUN3CLIP1: OSB-SG1 Buckshot # x8
+      STR_OCTASAPIENBULLET2SHOTGUN1CLIP2: OSB-SG1 Slug Shot
+      STR_OCTASAPIENBULLET2SHOTGUN2CLIP2: OSB-SG1 Slug Shot
+      STR_OCTASAPIENBULLET2SHOTGUN3CLIP2: OSB-SG1 Slug Shot
+      STR_OCTASAPIENBULLET2SHOTGUN1CLIP3: OSB-SG1 Non-Lethal
+      STR_OCTASAPIENBULLET2SHOTGUN2CLIP3: OSB-SG1 Non-Lethal
+      STR_OCTASAPIENBULLET2SHOTGUN3CLIP3: OSB-SG1 Non-Lethal
+      STR_OCTASAPIENBULLET2SHOTGUN1CLIP4: OSB-SG1 Incendiary
+      STR_OCTASAPIENBULLET2SHOTGUN2CLIP4: OSB-SG1 Incendiary
+      STR_OCTASAPIENBULLET2SHOTGUN3CLIP4: OSB-SG1 Incendiary
+      STR_OCTASAPIENBULLET2SHOTGUN1CLIP5: OSB-SG1 Power MAG
+      STR_OCTASAPIENBULLET2SHOTGUN2CLIP5: OSB-SG1 Power MAG
+      STR_OCTASAPIENBULLET2SHOTGUN3CLIP5: OSB-SG1 Power MAG
+      STR_OCTASAPIENBULLET2SHOTGUN1CLIP6: OSB-SG1 Explosive
+      STR_OCTASAPIENBULLET2SHOTGUN2CLIP6: OSB-SG1 Explosive
+      STR_OCTASAPIENBULLET2SHOTGUN3CLIP6: OSB-SG1 Explosive
+      #Heat Laser
+      STR_OCTASAPIENLASER1PISTOL1: OSL-P1 Rod
+      STR_OCTASAPIENLASER1SMG1: OSL-SMG1 Rod
+      STR_OCTASAPIENLASER1CAR1: OSL-CAR1 Rod
+      STR_OCTASAPIENLASER1SHOT1: OSTL-SHOT Rod
+      STR_OCTASAPIENLASER1RIF1: OSTL-RIF Rod
+      STR_OCTASAPIENLASER1SNP1: OSTL-SNP Rod
+      STR_OCTASAPIENLASER1GUN1: OSTL-GUN Rod
+      STR_OCTASAPIENLASER1HVY1: OSTL-HVY Rod
+      STR_OCTASAPIENLASER1PISTOL1CLIP1: OSL-P1 Battery
+      STR_OCTASAPIENLASER1SMG1CLIP1: OSL-SMG1 Battery
+      STR_OCTASAPIENLASER1CAR1CLIP1: OSL-CAR1 Battery
+      STR_OCTASAPIENLASER1SHOT1CLIP1: OSTL-SHOT Battery
+      STR_OCTASAPIENLASER1RIF1CLIP1: OSTL-RIF Battery
+      STR_OCTASAPIENLASER1SNP1CLIP1: OSTL-SNP Battery
+      STR_OCTASAPIENLASER1GUN1CLIP1: OSTL-GUN Battery
+      STR_OCTASAPIENLASER1HVY1CLIP1: OSTL-HVY Battery
+      STR_OCTASAPIENLASER1PISTOL1CLIP2: OSL-P1 Enhance
+      STR_OCTASAPIENLASER1SMG1CLIP2: OSL-SMG1 Enhance
+      STR_OCTASAPIENLASER1CAR1CLIP2: OSL-CAR1 Enhance
+      STR_OCTASAPIENLASER1SHOT1CLIP2: OSTL-SHOT Enhance
+      STR_OCTASAPIENLASER1RIF1CLIP2: OSTL-RIF Enhance
+      STR_OCTASAPIENLASER1SNP1CLIP2: OSTL-SNP Enhance
+      STR_OCTASAPIENLASER1GUN1CLIP2: OSTL-GUN Enhance
+      STR_OCTASAPIENLASER1HVY1CLIP2: OSTL-HVY Enhance
+      STR_OCTASAPIENLASER1PISTOL1CLIP3: OSL-P1 T-Module
+      STR_OCTASAPIENLASER1SMG1CLIP3: OSL-SMG1 T-Module
+      STR_OCTASAPIENLASER1CAR1CLIP3: OSL-CAR1 T-Module
+      STR_OCTASAPIENLASER1SHOT1CLIP3: OSTL-SHOT T-Module
+      STR_OCTASAPIENLASER1RIF1CLIP3: OSTL-RIF T-Module
+      STR_OCTASAPIENLASER1SNP1CLIP3: OSTL-SNP T-Module
+      STR_OCTASAPIENLASER1GUN1CLIP3: OSTL-GUN T-Module
+      STR_OCTASAPIENLASER1HVY1CLIP3: OSTL-HVY T-Module
+      #Railgun 1
+      STR_OCTASAPIENRAILGUN1P1: OSRG1-P1
+      STR_OCTASAPIENRAILGUN1RIF1: OSRG1-RIF1
+      STR_OCTASAPIENRAILGUN1HVY1: OSRG1-HVY1
+      STR_OCTASAPIENRAILGUN1P1CLIP1: OSRG1-P1 Clip
+      STR_OCTASAPIENRAILGUN1RIF1CLIP1: OSRG1-RIF1 Clip
+      STR_OCTASAPIENRAILGUN1HVY1CLIP1: OSRG1-HVY1 Clip
+      STR_OCTASAPIENRAILGUN1P1CLIP2: OSRG1-P1 Explode
+      STR_OCTASAPIENRAILGUN1RIF1CLIP2: OSRG1-RIF1 Explode
+      STR_OCTASAPIENRAILGUN1HVY1CLIP2: OSRG1-HVY1 Explode
+      STR_OCTASAPIENRAILGUN1P1CLIP3: OSRG1-P1 Chemical
+      STR_OCTASAPIENRAILGUN1RIF1CLIP3: OSRG1-RIF1 Chemical
+      STR_OCTASAPIENRAILGUN1HVY1CLIP3: OSRG1-HVY1 Chemical
+      #Railgun 2
+      STR_OCTASAPIENRAILGUN2P1: OSRG1-P1
+      STR_OCTASAPIENRAILGUN2RIF1: OSRG1-RIF1
+      STR_OCTASAPIENRAILGUN2HVY1: OSRG1-HVY1
+      STR_OCTASAPIENRAILGUN2P1CLIP1: OSRG1-P1 Clip
+      STR_OCTASAPIENRAILGUN2RIF1CLIP1: OSRG1-RIF1 Clip
+      STR_OCTASAPIENRAILGUN2HVY1CLIP1: OSRG1-HVY1 Clip
+      STR_OCTASAPIENRAILGUN2P1CLIP2: OSRG1-P1 Slug
+      STR_OCTASAPIENRAILGUN2RIF1CLIP2: OSRG1-RIF1 Slug
+      STR_OCTASAPIENRAILGUN2HVY1CLIP2: OSRG1-HVY1 Slug
+      STR_OCTASAPIENRAILGUN2P1CLIP3: OSRG1-P1 AM Blast
+      STR_OCTASAPIENRAILGUN2RIF1CLIP3: OSRG1-RIF1 AM Blast
+      STR_OCTASAPIENRAILGUN2HVY1CLIP3: OSRG1-HVY1 AM Blast
+      #Plasma / Fusion Antimatter
+      STR_OCTASAPIENPLASMA1P1: OSPP1-P1
+      STR_OCTASAPIENPLASMA1SMG1: OSPP1-SMG1
+      STR_OCTASAPIENPLASMA1CAR1: OSPP1-CAR1
+      STR_OCTASAPIENPLASMA1RIF1: OSPP1-RIF1
+      STR_OCTASAPIENPLASMA1SNP1: OSPP1-SNP1
+      STR_OCTASAPIENPLASMA1GUN1: OSPP1-GUN1
+      STR_OCTASAPIENPLASMA1HVY1: OSPP1-HVY1
+      STR_OCTASAPIENPLASMA1P1CLIP1: OSPP1-P1 Clip
+      STR_OCTASAPIENPLASMA1SMG1CLIP1: OSPP1-SMG1 Clip
+      STR_OCTASAPIENPLASMA1CAR1CLIP1: OSPP1-CAR1 Clip
+      STR_OCTASAPIENPLASMA1RIF1CLIP1: OSPP1-RIF1 Clip
+      STR_OCTASAPIENPLASMA1SNP1CLIP1: OSPP1-SNP1 Clip
+      STR_OCTASAPIENPLASMA1GUN1CLIP1: OSPP1-GUN1 Clip
+      STR_OCTASAPIENPLASMA1HVY1CLIP1: OSPP1-HVY1 Clip
+      STR_OCTASAPIENPLASMA1P1CLIP2: OSPP1-P1 Slug
+      STR_OCTASAPIENPLASMA1SMG1CLIP2: OSPP1-SMG1 Slug
+      STR_OCTASAPIENPLASMA1CAR1CLIP2: OSPP1-CAR1 Slug
+      STR_OCTASAPIENPLASMA1RIF1CLIP2: OSPP1-RIF1 Slug
+      STR_OCTASAPIENPLASMA1SNP1CLIP2: OSPP1-SNP1 Slug
+      STR_OCTASAPIENPLASMA1GUN1CLIP2: OSPP1-GUN1 Slug
+      STR_OCTASAPIENPLASMA1HVY1CLIP2: OSPP1-HVY1 Slug
+      STR_OCTASAPIENPLASMA1P1CLIP3: OSPP1-P1 Anti-matter
+      STR_OCTASAPIENPLASMA1SMG1CLIP3: OSPP1-SMG1 Anti-matter
+      STR_OCTASAPIENPLASMA1CAR1CLIP3: OSPP1-CAR1 Anti-matter
+      STR_OCTASAPIENPLASMA1RIF1CLIP3: OSPP1-RIF1 Anti-matter
+      STR_OCTASAPIENPLASMA1SNP1CLIP3: OSPP1-SNP1 Anti-matter
+      STR_OCTASAPIENPLASMA1GUN1CLIP3: OSPP1-GUN1 Anti-Matter
+      STR_OCTASAPIENPLASMA1HVY1CLIP3: OSPP1-HVY1 Anti-matter
+      #Launcher
+      STR_OCTASAPIENPLASMA1PLCH1: OSPP1-LCH1 Guided
+      STR_OCTASAPIENPLASMA1PLCH1CLIP1: OSLCH1 Explosive
+      STR_OCTASAPIENPLASMA1PLCH1CLIP2: OSLCH1 Incendiary
+      STR_OCTASAPIENPLASMA1PLCH1CLIP3: OSLCH1 EMP
+      STR_OCTASAPIENPLASMA1PLCH1CLIP4: OSLCH1 Plasma
+      STR_OCTASAPIENPLASMA1PLCH1CLIP5: OSLCH1 AM-Blast
+      STR_OCTASAPIENPLASMA1PLCH1CLIP6: OSLCH1 Shrapnel
+      STR_OCTASAPIENPLASMA1PMSL1: OSMSL1 Lock-On
+      STR_OCTASAPIENPLASMA1PMSL1CLIP1: OSMSL1 Explosive
+      STR_OCTASAPIENPLASMA1PMSL1CLIP2: OSPMSL1 Incendiary
+      STR_OCTASAPIENPLASMA1PMSL1CLIP3: OSPMSL1 EMP
+      STR_OCTASAPIENPLASMA1PMSL1CLIP4: OSMSL1 Plasma
+      STR_OCTASAPIENPLASMA1PMSL1CLIP5: OSPMSL1 AM-Blast
+      STR_OCTASAPIENPLASMA1PMSL1CLIP6: OSPMSL1 Shrapnel
+      STR_OCTASAPIENTHROWER: OS Gasthrower
+      STR_OCTASAPIENTHROWERCLIP1: OS Incendiary
+      STR_OCTASAPIENTHROWERCLIP2: OS Black Mist
+      STR_OCTASAPIENTHROWERCLIP3: OS Chemical
+      STR_OCTASAPIENTHROWERCLIP4: OS Cryo Thrower
+      STR_OCTASAPIENTHROWERCLIP5: OS Plsama Shot
+      STR_OCTASAPIENTHROWERCLIP6: OS Antheistic
+      # Single Shot
+      STR_OCTASAPIENMULTILAUNCH1: OSMGL-1
+      STR_OCTASAPIENMULTILAUNCH1CLIP1: OSSGL-1 Explosive
+      STR_OCTASAPIENMULTILAUNCH1CLIP2: OSSGL-1 Gravity Stun
+      STR_OCTASAPIENMULTILAUNCH1CLIP3: OSSGL-1 AM-Blast
+      STR_OCTASAPIENMULTILAUNCH1CLIP4: OSSGL-1 Blunt
+      STR_OCTASAPIENMULTILAUNCH1CLIP5: OSSGL-1 Illuminator
+      STR_OCTASAPIENMULTILAUNCH1CLIP6: OSSGL-1 Flare
+      STR_OCTASAPIENMULTILAUNCH1CLIP7: OSSGL-1 Acid
+      STR_OCTASAPIENMULTILAUNCH1CLIP8: OSSGL-1 Incendiary
+      STR_OCTASAPIENMULTILAUNCH1CLIP9: OSSGL-1 Cryo
+      # Multiple Shot
+      STR_OCTASAPIENMULTILAUNCH2: OSMGL-1
+      STR_OCTASAPIENMULTILAUNCH2CLIP1: OSMGL-1 Explosive
+      STR_OCTASAPIENMULTILAUNCH2CLIP2: OSMGL-1 Gravity Stun
+      STR_OCTASAPIENMULTILAUNCH2CLIP3: OSMGL-1 AM-Blast
+      STR_OCTASAPIENMULTILAUNCH2CLIP4: OSMGL-1 Blunt
+      STR_OCTASAPIENMULTILAUNCH2CLIP5: OSMGL-1 Illuminator
+      STR_OCTASAPIENMULTILAUNCH2CLIP6: OSMGL-1 Flare
+      STR_OCTASAPIENMULTILAUNCH2CLIP7: OSMGL-1 Acid
+      STR_OCTASAPIENMULTILAUNCH2CLIP8: OSMGL-1 Incendiary
+      STR_OCTASAPIENMULTILAUNCH2CLIP9: OSMGL-1 Cryo
+      #Gravity
+      STR_OCTASAPIENPIMPCTWEAPON1: OS Particle Impact Rifle
+      STR_OCTASAPIENPIMPCTWEAPON1CLIP: OS Particle Impact Rifle Battery
+      STR_OCTASAPIENPIMPCTWEAPON2: OS Particle Tractor Beam
+      STR_OCTASAPIENPIMPCTWEAPON2CLIP: OS Particle Tractor Energy Pack
+      #Sonicsound
+      STR_OCTASAPIENSONICWEAPON1P1: OS-Sonic Pistol
+      STR_OCTASAPIENSONICWEAPON2RIF1: OS Sonic Rifle
+      STR_OCTASAPIENSONICWEAPONHVY1: OS Sonic Heavy
+      STR_OCTASAPIENSONICWEAPONGUN1: OS Sonic Concussion
+      STR_OCTASAPIENSONICWEAPON1CLIP1: OS Sonic Pistol Clip
+      STR_OCTASAPIENSONICWEAPON2CLIP1: OS Sonic Rifle Clip
+      STR_OCTASAPIENSONICWEAPON3CLIP1: OS Sonic Heavy Clip
+      STR_OCTASAPIENSONICWEAPON4CLIP1: OS Sonic Concussion Clip
+      STR_OCTASAPIENSONICWEAPON1CLIP2: OS Sonic Pistol Focus Clip
+      STR_OCTASAPIENSONICWEAPON2CLIP2: OS Sonic Rifle Focus Clip
+      STR_OCTASAPIENSONICWEAPON3CLIP2: OS Sonic Heavy Focus Clip
+      STR_OCTASAPIENSONICWEAPON4CLIP2: OS Sonic Concussion Focus Clip
+      STR_OCTASAPIENSONICWEAPON1CLIP3: OS Sonic Pistol Module
+      STR_OCTASAPIENSONICWEAPON2CLIP3: OS Sonic Rifle Module
+      STR_OCTASAPIENSONICWEAPON3CLIP3: OS Sonic Heavy Module
+      STR_OCTASAPIENSONICWEAPON4CLIP3: OS Sonic Concussion Module
+      #Electric Limited
+      STR_OCTASAPIENELECTRIC1WEAPON1: OS Electric Pistol
+      STR_OCTASAPIENELECTRIC1WEAPON2: OS Electric SMG
+      STR_OCTASAPIENELECTRIC1WEAPON3: OS Electric Rifle
+      STR_OCTASAPIENELECTRIC1WEAPON4: OS Electric Heavy
+      STR_OCTASAPIENELECTRIC1WEAPON1CLIP1: OS Electric Pistol ES Clip
+      STR_OCTASAPIENELECTRIC1WEAPON2CLIP1: OS Electric SMG ES Clip
+      STR_OCTASAPIENELECTRIC1WEAPON3CLIP1: OS Electric Rifle ES Clip
+      STR_OCTASAPIENELECTRIC1WEAPON4CLIP1: OS Electric Heavy ES Clip
+      STR_OCTASAPIENELECTRIC1WEAPON1CLIP2: OS Electric Pistol Volts Clip
+      STR_OCTASAPIENELECTRIC1WEAPON2CLIP2: OS Electric SMG Volts Clip
+      STR_OCTASAPIENELECTRIC1WEAPON3CLIP2: OS Electric Rifle Volts Clip
+      STR_OCTASAPIENELECTRIC1WEAPON4CLIP2: OS Electric Heavy Volts Clip
+      STR_OCTASAPIENELECTRIC1WEAPON1CLIP3: OS Electric Pistol EMP Clip
+      STR_OCTASAPIENELECTRIC1WEAPON2CLIP3: OS Electric SMG EMP Clip
+      STR_OCTASAPIENELECTRIC1WEAPON3CLIP3: OS Electric Rifle EMP Clip
+      STR_OCTASAPIENELECTRIC1WEAPON4CLIP3: OS Electric Heavy EMP Clip
+      #Electric Infinite
+      STR_OCTASAPIENELECTRIC2WEAPON1: OS Megatron Pistol
+      STR_OCTASAPIENELECTRIC2WEAPON2: OS Megatronc SMG
+      STR_OCTASAPIENELECTRIC2WEAPON3: OS Megatron Rifle
+      STR_OCTASAPIENELECTRIC2WEAPON4: OS Megatron Heavy
+      STR_OCTASAPIENELECTRIC2WEAPON1CLIP1: OS Megatron Pistol ES Clip
+      STR_OCTASAPIENELECTRIC2WEAPON2CLIP1: OS Megatron SMG ES Clip
+      STR_OCTASAPIENELECTRIC2WEAPON3CLIP1: OS Megatron Rifle ES Clip
+      STR_OCTASAPIENELECTRIC2WEAPON4CLIP1: OS Megatron Heavy ES Clip
+      STR_OCTASAPIENELECTRIC2WEAPON1CLIP2: OS Megatron Pistol Volts Clip
+      STR_OCTASAPIENELECTRIC2WEAPON2CLIP2: OS Megatron SMG Volts Clip
+      STR_OCTASAPIENELECTRIC2WEAPON3CLIP2: OS Megatron Rifle Volts Clip
+      STR_OCTASAPIENELECTRIC2WEAPON4CLIP2: OS Megatron Heavy Volts Clip
+      STR_OCTASAPIENELECTRIC2WEAPON1CLIP3: OS Megatron Pistol EMP Clip
+      STR_OCTASAPIENELECTRIC2WEAPON2CLIP3: OS Megatron SMG EMP Clip
+      STR_OCTASAPIENELECTRIC2WEAPON3CLIP3: OS Megatron Rifle EMP Clip
+      STR_OCTASAPIENELECTRIC2WEAPON4CLIP3: OS Megatron Heavy EMP Clip
+      #Melee 32
+      STR_OCTASAPIENKNIFE1: OS Knife
+      STR_OCTASAPIENKATAR1: OS Katar
+      STR_OCTASAPIENSPEAR1: OS Spear
+      STR_OCTASAPIENKNIFE1CLIP1: OS EMR Alloy Knife
+      STR_OCTASAPIENKATAR1CLIP1: OS EMR Alloy Katar
+      STR_OCTASAPIENSPEAR1CLIP1: OS EMR Alloy Spear
+      STR_OCTASAPIENKNIFE1CLIP2: OS ZGR Alloy Knife
+      STR_OCTASAPIENKATAR1CLIP2: OS ZGR Alloy Katar
+      STR_OCTASAPIENSPEAR1CLIP2: OS ZGR Alloy Spear
+      STR_OCTASAPIENKNIFE1CLIP3: OS ZGR Alloy Stun
+      STR_OCTASAPIENKATAR1CLIP3: OS ZGR Alloy Stun
+      STR_OCTASAPIENSPEAR1CLIP3: OS ZGR Alloy Stun
+      STR_OCTASAPIENKNIFE1CLIP4: OS ZGR Alloy Volt
+      STR_OCTASAPIENKATAR1CLIP4: OS ZGR Alloy Volt
+      STR_OCTASAPIENSPEAR1CLIP4: OS ZGR Alloy Volt
+      STR_OCTASAPIENKNIFE1CLIP5: OS ZGR Laser Slice
+      STR_OCTASAPIENKATAR1CLIP5: OS ZGR Laser Slice
+      STR_OCTASAPIENSPEAR1CLIP5: OS ZGR Laser Slice
+      STR_OCTASAPIENKNIFE1CLIP6: OS ZGR Plasma Slice
+      STR_OCTASAPIENKATAR1CLIP6: OS ZGR Plasma Slice
+      STR_OCTASAPIENSPEAR1CLIP6: OS ZGR Plasma Slice
+      STR_OCTASAPIENCUTTERS: OSC Chainsaw
+      STR_OCTASAPIENCUTTERSCLIP1: OSC Chainsaw
+      STR_OCTASAPIENCUTTERSCLIP2: OSC ZGR Chainsaw
+      STR_OCTASAPIENCUTTERSCLIP3: OSC Laser Cutter
+      STR_OCTASAPIENMACROSAW: OSM Marcosaw
+      STR_OCTASAPIENMACROSAWCLIP1: OSM Chainsaw
+      STR_OCTASAPIENMACROSAWCLIP2: OSM ZGR Chainsaw
+      STR_OCTASAPIENMACROSAWCLIP3: OSM Plasma Cutter
+      STR_OCTASAPIENLANCE1: OSC Screw Drill
+      STR_OCTASAPIENLANCE2: OSC Screw Lance
+      STR_OCTASAPIENLANCE3: OSC Thermal Lance
+      #Grenades/Democharge
+      STR_OCTASAPIENGRENADE1: OS Frag Grenade
+      STR_OCTASAPIENGRENADE2: OS HE Grenade
+      STR_OCTASAPIENGRENADE3: OS Blackmist Grenade
+      STR_OCTASAPIENGRENADE4: OS Incendiary Grenade
+      STR_OCTASAPIENGRENADE5: OS Chemical Grenade
+      STR_OCTASAPIENGRENADE6: OS Cryo Grenade
+      STR_OCTASAPIENGRENADE7: OS Plasma Grenade
+      STR_OCTASAPIENGRENADE8: OS Holo-Grenade
+      STR_OCTASAPIENGRENADE9: OS Smoke Grenade
+      STR_OCTASAPIENGRENADE10: OS Sonic Grenade
+      STR_OCTASAPIENGRENADE11: OS EMP Grenade
+      STR_OCTASAPIENGRENADE12: OS Anti Matter Grenade
+      STR_OCTASAPIENMINE1: OS Frag Mines
+      STR_OCTASAPIENMINE2: OS HE Mines
+      STR_OCTASAPIENMINE3: OS Blackmist Mines
+      STR_OCTASAPIENMINE4: OS Incendiary Mines
+      STR_OCTASAPIENMINE5: OS Chemical Mines
+      STR_OCTASAPIENMINE6: OS Cryo Mines
+      STR_OCTASAPIENMINE7: OS Plasma Mines
+      STR_OCTASAPIENMINE8: OS Holo-Mines
+      STR_OCTASAPIENMINE9: OS Smoke Mines
+      STR_OCTASAPIENMINE10: OS Sonic Mines
+      STR_OCTASAPIENMINE11: OS EMP Mines
+      STR_OCTASAPIENMINE12: OS Anti Matter Mines
+      STR_OCTASAPIENCHARGE1: OS Frag Charge
+      STR_OCTASAPIENCHARGE2: OS HE Charge
+      STR_OCTASAPIENCHARGE3: OS Blackmist Charge
+      STR_OCTASAPIENCHARGE4: OS Incendiary Charge
+      STR_OCTASAPIENCHARGE5: OS Chemical Charge
+      STR_OCTASAPIENCHARGE6: OS Cryo Charge
+      STR_OCTASAPIENCHARGE7: OS Plasma Charge
+      STR_OCTASAPIENCHARGE8: OS Holo-Charge
+      STR_OCTASAPIENCHARGE9: OS Smoke Charge
+      STR_OCTASAPIENCHARGE10: OS Sonic Charge
+      STR_OCTASAPIENCHARGE11: OS EMP Charge
+      STR_OCTASAPIENCHARGE12: OS Anti Matter Charge
+      #Primitive
+      STR_OCTASAPIENCROSSBOW1: OS Crossbowshot
+      STR_OCTASAPIENCROSSBOW1CLIP1: OS Crossbowshot HP
+      STR_OCTASAPIENCROSSBOW1CLIP2: OS Crossbowshot Poison
+      STR_OCTASAPIENCROSSBOW1CLIP3: OS Crossbowshot HE
+      STR_OCTASAPIENCROSSBOW2: OS Crosspecker
+      STR_OCTASAPIENCROSSBOW2CLIP1: OS Crosspecker HP
+      STR_OCTASAPIENCROSSBOW2CLIP2: OS Crosspecker Poison
+      STR_OCTASAPIENCROSSBOW2CLIP3: OS Crosspecker HE
+      STR_OCTASAPIENSHIELD1: High Tier Physical Shield
+      STR_OCTASAPIENSHIELD2: OS-ZGA Ballistic Shield
+      STR_OCTASAPIENSHIELD3: OS-ZDA Gravity Shield
+      STR_OCTASAPIENSHILED4: OS-DVC Plasma Shield
+      STR_OCTASAPIENSHIELD5: OS-JGE Void Shield
+      #OctasapienZedimetiumAlloy 179 56 total: 397 of 400 Maximum 25
+      STR_OCTASAPIENZDABALLISTICP1: OSZDAB1-P1
+      STR_OCTASAPIENZDABALLISTICRIF1: OSZDAB1-RIF1
+      STR_OCTASAPIENZDABALLISTICHVY1: OSZDAB1-HVY1
+      STR_OCTASAPIENZDABALLISTICP1CLIP1: OSZDAB1-P1 Clip
+      STR_OCTASAPIENZDABALLISTICRIF1CLIP1: OSZDAB1-RIF1 Clip
+      STR_OCTASAPIENZDABALLISTICHVY1CLIP1: OSZDAB1-HVY1 Clip
+      STR_OCTASAPIENZDABALLISTICP1CLIP2: OSZDAB1-P1 Chem Clip
+      STR_OCTASAPIENZDABALLISTICRIF1CLIP2: OSZDAB1-RIF1 Chem Clip
+      STR_OCTASAPIENZDABALLISTICHVY1CLIP2: OSZDAB1-HVY1 Chem Clip
+      STR_OCTASAPIENZDABALLISTICP1CLIP3: OSZDAB1-P1 Blast Clip
+      STR_OCTASAPIENZDABALLISTICRIF1CLIP3: OSZDAB1-RIF1 Blast Clip
+      STR_OCTASAPIENZDABALLISTICHVY1CLIP3: OSZDAB1-HVY1 Blast Clip
+      STR_OCTASAPIENZDABALLISTICP1CLIP4: OSZDAB1-P1 Inferno Clip
+      STR_OCTASAPIENZDABALLISTICRIF1CLIP4: OSZDAB1-RIF1 Inferno Clip
+      STR_OCTASAPIENZDABALLISTICHVY1CLIP4: OSZDAB1-HVY1 Inferno Clip
+      STR_OCTASAPIENZDABALLISTICP1CLIP5: OSZDAB1-P1 Non-Lethal Clip
+      STR_OCTASAPIENZDABALLISTICRIF1CLIP5: OSZDAB1-RIF1 Non-Lethal Clip
+      STR_OCTASAPIENZDABALLISTICHVY1CLIP5: OSZDAB1-HVY1 Non-Lethalt Clip
+      STR_OCTASAPIENZDABALLISTICP1CLIP6: OSZDAB1-P1 Final Clip
+      STR_OCTASAPIENZDABALLISTICRIF1CLIP6: OSZDAB1-RIF1 Final Clip
+      STR_OCTASAPIENZDABALLISTICHVY1CLIP6: OSZDAB1-HVY1 Final Clip
+      STR_OCTASAPIENVACCUMGUNP1: OS-JGE ZVGUNP1
+      STR_OCTASAPIENVACCUMGUNSMG1: OS-JGE ZVGUNSMG1
+      STR_OCTASAPIENVACCUMGUNRIF1: OS-JGE ZVGUNRIF1
+      STR_OCTASAPIENVACCUMGUNP1CLIP1: OS-JGE ZVGUNP1 Clip
+      STR_OCTASAPIENVACCUMGUNSMG1CLIP1: OS-JGE ZVGUNSMG1 Clip
+      STR_OCTASAPIENVACCUMGUNRIF1CLIP1: S-JGE ZVGUNRIF1  Clip
+      STR_OCTASAPIENVACCUMGUNP1CLIP2: OS-JGE ZVGUNP1 Void Clip
+      STR_OCTASAPIENVACCUMGUNSMG1CLIP2: OS-JGE ZVGUNSMG1 Void Clip
+      STR_OCTASAPIENVACCUMGUNRIF1CLIP2: S-JGE ZVGUNRIF1 Void Clip
+      STR_OCTASAPIENVACCUMGUNP1CLIP3: OS-JGE ZVGUNP1 EMP Clip
+      STR_OCTASAPIENVACCUMGUNSMG1CLIP3: OS-JGE ZVGUNSMG1 EMP Clip
+      STR_OCTASAPIENVACCUMGUNRIF1CLIP3: S-JGE ZVGUNRIF1 EMP Clip
+      STR_OCTASAPIENVACCUMGUNP1CLIP4: OS-JGE ZVGUNP1 UU1 Clip
+      STR_OCTASAPIENVACCUMGUNSMG1CLIP4: OS-JGE ZVGUNSMG1 UU1 Clip
+      STR_OCTASAPIENVACCUMGUNRIF1CLIP4: S-JGE ZVGUNRIF1 UU1 Clip
+      #Octasapien Final Direct Energy Beam
+      STR_OCTASAPIENDEWEAPONP1: OSD-DEW1 P1
+      STR_OCTASAPIENDEWEAPONRIF1: OSD-DEW1 RIF1
+      STR_OCTASAPIENDEWEAPONHVY1: OSD-DEW1 HVY1
+      STR_OCTASAPIENDEWEAPONP1CLIP1: OSD-DEW1 P1 Phazer Module
+      STR_OCTASAPIENDEWEAPONRIF1CLIP1: OSD-DEW1 RIF1 Phazer Module
+      STR_OCTASAPIENDEWEAPONHVY1CLIP1: OSD-DEW1 HVY1 Phazer Module
+      STR_OCTASAPIENDEWEAPONP1CLIP2: OSD-DEW1 P1 Plasma Module
+      STR_OCTASAPIENDEWEAPONRIF1CLIP2: OSD-DEW1 RIF1 Plasma Module
+      STR_OCTASAPIENDEWEAPONHVY1CLIP2: OSD-DEW1 HVY1 Plasma Module
+      STR_OCTASAPIENDEWEAPONP1CLIP3: OSD-DEW1 P1 Cryo Module
+      STR_OCTASAPIENDEWEAPONRIF1CLIP3: OSD-DEW1 RIF1 Cryo Module
+      STR_OCTASAPIENDEWEAPONHVY1CLIP3: OSD-DEW1 HVY1 Cryo Module
+      STR_OCTASAPIENDEWEAPONP1CLIP4: OSD-DEW1 P1 Ion Blast Module
+      STR_OCTASAPIENDEWEAPONRIF1CLIP4: OSD-DEW1 RIF1 Ion Blast Module
+      STR_OCTASAPIENDEWEAPONHVY1CLIP4: OSD-DEW1 HVY1 Ion Blast Module
+      STR_OCTASAPIENDEWEAPONP1CLIP5: OSD-DEW1 P1 Dark Module
+      STR_OCTASAPIENDEWEAPONRIF1CLIP5: OSD-DEW1 RIF1 Dark Module
+      STR_OCTASAPIENDEWEAPONHVY1CLIP5: OSD-DEW1 HVY1 Dark Module
+      STR_OCTASAPIENDEWEAPONP1CLIP6: OSD-DEW1 P1 Megatron Module
+      STR_OCTASAPIENDEWEAPONRIF1CLIP6: OSD-DEW1 RIF1 Megatron Module
+      STR_OCTASAPIENDEWEAPONHVY1CLIP6: OSD-DEW1 HVY1 Megatron Module
+      #Octasapien Item
+      STR_OCTASAPIENFOOD1: OS-Food Cans
+      STR_OCTASAPIENFOOD2: OS-Food Box
+      STR_OCTASAPIENFOOD3: OS-Food Backpack
+      STR_OCTASAPIENFOOD4: OS-Medstims
+      STR_OCASSAPIENFOOD5: OS-Medbackpack
+      STR_OCTASAPIENFOOD6: OS-Medical bag
+      STR_OCTASAPIENFOOD7: OS-DZGA MED-Kit
+      STR_OCTASAPIENFOOD8: OS-Medical Gel
+      STR_OCTASAPIENFOOD9: OS-Personal Data
+      STR_OCTASAPIENFOOD10: OS-Stress Reliver
+      ########### End of Octasapien Weapon
+      ### Ocatsapien Allies Weapons
+      ####End of Octasapien Faction
+      ####LYLAT: Canine; Feline; Batsuine; Kitsuine; Avians; Minotaur; Equine; Fossa in a complete final form with spines and tailless. (Reference: Starfox, Sonic, and Anthro Art.)
+      STR_LYLATMOBIUSNSHIELD1: LM High Tier Physical Shield
+      STR_LYLATMOBIUSNSHIELD2: LM Ballistic Shield
+      STR_LYLATMOBIUSNSHIELD3: LM Gravity Shield
+      STR_LYLATMOBIUSNSHILED4: LM Plasma Shield
+      STR_LYLATMOBIUSNSHIELD5: LM-IPGM Void Shield
+
+      STR_LYLATMOBIUSNFOOD1: OS-Food Cans
+      STR_LYLATMOBIUSFOOD2: OS-Food Box
+      STR_LYLATMOBIUSFOOD3: OS-Food Backpack
+      STR_LYLATMOBIUSFOOD4: OS-Medstims
+      STR_LYLATMOBIUSFOOD5: OS-Medbackpack
+      STR_LYLATMOBIUSFOOD6: OS-Medical bag
+      STR_LYLATMOBIUSFOOD7: OS-DZGA MED-Kit
+      STR_LYLATMOBIUSFOOD8: OS-Medical Gel
+      STR_LYLATMOBIUSFOOD9: OS-Personal Data
+      STR_LYLATMOBIUSFOOD10: OS-Stress Reliver
+      ####Main Operator Terminal Host Entity Rational
 
 
 

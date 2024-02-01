@@ -1381,6 +1381,95 @@ crafts:
 # 5   1
 # 4 3 2
 
+
+
+############ Kiros Reference Area 1;30;2024;
+####### Any Countries Tunguskium
+
+
+
+
+
+
+
+
+####### Cavorite Discovery
+
+
+
+
+
+
+###### Cavorite Outsouring to Coutnries
+###### American
+
+###### British
+
+###### French
+
+###### German
+
+###### Russian
+
+###### Italian
+
+
+
+
+
+###### Cavorite Abyssium Hybrid for All Terrain
+
+
+
+
+##### Cavorite Space Project
+
+
+
+
+
+##### Zedimetium Alloy; Final Alloy
+
+
+##### Apex Regiment Evolved Spacefaring
+
+
+##### Vehicle Prototype
+
+
+
+
+
+
+##### Tunguskium Research
+
+
+
+
+
+
+##### Cavorite Research
+
+
+
+
+
+#####  Cavorite Abyssium Hybrid for All Terrain
+
+
+
+##### Cavorite Space Project
+
+
+
+
+
+##### Zedimetium Alloy; Final Alloy
+
+
+
+############################################
+
 craftWeapons:
 #Delete
   - delete: STR_STINGRAY
