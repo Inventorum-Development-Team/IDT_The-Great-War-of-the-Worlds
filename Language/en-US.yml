@@ -2826,20 +2826,35 @@ en-US:
       #Wisdom Species
       STR_MARTIANALLYPATH1: "The Martian Empire"
       STR_MARTIANALLYPATH2: "The Two Martians Factions"
-      STR_MARTIANALLYHUMANOID1: "Create Terms with Mars Humanoids."
-      STR_MARTIANALLYOCTASAPIEN1: "Create Terms with Octasapiens."
+      STR_MARTIANALLYHUMANOID1: "Create Terms with Mars Humanoids." ###### Mars Humanoid Set
+      STR_MARTIANALLYOCTASAPIEN1: "Create Terms with Octasapiens." ###### Octasapien Set
       #Martian Humanoids Path
       STR_MARTIANDEFECTION1: Martian Humanoid Defection
+      STR_MARTIANOIDCHAPTER1:
+      STR_MARTIANOIDCHAPTER2:
+      STR_MARTIANOIDCHAPTER3:
+      STR_MARTIANOIDCHAPTER4:
+
+
+
+
       #Octasapien Path
-      STR_OCTASPIENFRENDSHIP1: Octasapien Diplomacy
+      STR_OCTASPIENFRENDSHIP1: Octasapiens Diplomacy
+      STR_OCTASAPIENCHAPTER1:
+      STR_OCTASAPIENCHAPTER2:
+      STR_OCTASAPIENCHAPTER3:
+      STR_OCTASAPIENCHAPTER4:
       #Wisdom Species Path Optional
-      STR_OCTASAPIENTALKSTODELTRUNE: "Octasapien Diplmat to Deltrune"
-      STR_JUDIKARSSECRETTECH: "Judikars Faction Research"
+      STR_OCTASAPIENTALKSTODELTRUNE: "Octasapiens Negotiates Deltrune" #### If New Mexico Incident report and Deltrune subterranean in a ship found
+      STR_JUDIKARSSECRETTECH: "Judikars Faction Research" #### Difficult to find it.
 
       #The Dominators Path
       STR_JOVIANCONTACT: Contact Jovian Empire
       STR_JOVIANFACTION: Accept Jovian Empire Offer
-      #Exodus Empire Path
+      STR_JOVIANFACTIONSPECIE: "The Chimerians Traits"
+      #Exodus Empire Path Avaible in the Year 1935 with 1950
+      STR_EXODUSPRECENSE: "Strange Reports from Otherworlds" #### Chance on 50% to have them appear.
+      STR_EXODUSIDENTITY: "The strange horned head race?"
 
 ######### The Species Advance Civilization ###########
       STR_INDEPENDENTTHEORY: "The Fate of Decision"
@@ -2861,7 +2876,7 @@ en-US:
       STR_MARTIAN_HUMANOIDS_CULTURE: "Martian Humanoid Culture"
       STR_MARTIAN_HUMANOIDS_CULTURE_UFOPEDIA: "These creatures originated from the Mars surface. Before Mars was changed into hospitable planet, there was once a cold harsh desert with ice on polar caps."
       STR_MARTIAN_HUMANOIDS_ARCHITECTURE: "Martian Humanoids Architecture"
-      STR_MARTIAN_HUMANOIDS_ARCHITECTURE_UFOPEDIA: "Pyramids"
+      STR_MARTIAN_HUMANOIDS_ARCHITECTURE_UFOPEDIA: "These Martianoids seems to quite building pyramid designs for many purpose. According to the trivial, our human ancestors known as the ancient egypt dynasty designed these pyramids for pharoahs royal tomb. Unlike our current structures, Martianoids version are quite more advanced. Their pyramids are able to protect their kins from Mars turbo storms and solar winds radiation. It's quite interesting from their designs if we want to replicate their version for sandstorm strikes."
 ## Overlord
       STR_OVERLORD_ORIGINS: "Martian Overlord Origins"
       STR_OVERLORD_O_UFOPEDIA: ""
@@ -2869,6 +2884,8 @@ en-US:
       STR_OVERLORD_FOOD_UFOPEDIA: ""
       STR_OVERLORD_CULTURE: ""
       STR_OVERLORD_CULTURE_UFOPEDIA: ""
+
+#### Selenite Faction
 ## Selenites Lore
       STR_LUNARIAN_VOCABULARY: "Lunarian Language Arts"
       STR_SELENITE: "Selenites"
@@ -2881,6 +2898,31 @@ en-US:
       STR_SELENITE_CULTURE_UFOPEDIA: ""
       STR_SELENITE_ARCHITECTURE: "Martian Humanoids Architecture"
       STR_SELENITE_ARCHITECTURE_UFOPEDIA: "Pyramids"
+## Selenites Weapons; Borrowed from Jetforce Gemini as Mizar appearance
+      STR_SELENITEBALLISTIC1: "Selenites Refined Ballistic"
+      STR_SELENITEBALLISTIC2: "Selenites ZGA Ballistic"
+      STR_SELENITELASER1: "Selenites Laser Weapon"
+      STR_SELENITELASER2: "Selenites Renewable Laser"
+      STR_SELENITEPLASMA1: "Selenites Charged Plasma"
+      STR_SELENITEPLASMA2: "Selenites Full Plasma"
+      STR_SELENITEESHOCKS1: "Selenites Electroshocks"
+      STR_SELENITESSHOCKS2: "Selenites Barrys Voltage"
+## Selenites Ballistic Weapons 1
+      STR_SELENITESBULLET1P1: "LUNARBW P-1 Extend"
+      STR_SELENITESBULLET1P2: "LUNARBW P-2 Sight"
+      STR_SELENITESBULLET1P3: "LUNARBW P-3 Carbine"
+      STR_SELENITESBULLET1P1CLIP1: "LUNARBW P-1 Clip"
+      STR_SELENITESBULLET1P2CLIP1: "LUNARBW P-2 Clip"
+      STR_SELENITESBULLET1P3CLIP1: "LUNARBW P-3 Clip"
+      STR_SELENITESBULLET1P1CLIP2: "LUNARBW P-1 ZGA"
+      STR_SELENITESBULLET1P2CLIP2: "LUNARBW P-2 ZGA"
+      STR_SELENITESBULLET1P3CLIP2: "LUNARBW P-3 ZGA"
+      STR_SELENITESBULLET1P1CLIP3: "LUNARBW P-1 Extend"
+      STR_SELENITESBULLET1P2CLIP3: "LUNARBW P-2 Sight"
+      STR_SELENITESBULLET1P3CLIP3: "LUNARBW P-3 Carbine"
+
+#### JOVIANS EMPIRE
+
 ## Jovians Lore
       STR_JUPITERIS_VOCABULARY: " Jupteris Language Arts"
       STR_JOVIAN: "Jovians"
@@ -2893,21 +2935,14 @@ en-US:
       STR_JOVIAN_CULTURE_UFOPEDIA: ""
       STR_JOVIAN_ARCHITECTURE: "Martian Humanoids Architecture"
       STR_JOVIAN_ARCHITECTURE_UFOPEDIA: "Skyscrapper Tower"
-
-############## End of Lore
-
-## Selenites Weapons; Borrowed from Jetforce Gemini as Mizar appearance
-      STR_SELENITEBALLISTIC1: "Selenites Refined Ballistic"
-      STR_SELENITEBALLISTIC2: "Selenites ZGA Ballistic"
-      STR_SELENITELASER1: "Selenites Laser Weapon"
-      STR_SELENITELASER2: "Selenites Renewable Laser"
-      STR_SELENITEPLASMA1: "Selenites Charged Plasma"
-      STR_SELENITEPLASMA2: "Selenites Full Plasma"
-      STR_SELENITEESHOCKS1: "Selenites Electroshocks"
-      STR_SELENITESSHOCKS2: "Selenites Barrys Voltage"
-
-
-## Jovian Weapons
+#### Jovian machine for Geoscape
+#### Jovian Weapon Mount
+#### Jovian Infantry
+      STR_JOVIANWISELINDWYRM1: Jovian Wyrm Soldier
+      STR_JOVIANWISELINDWYRM2: Jovian Wyrm Armored
+      STR_JOVIANWISELINDWYRM3: Jovian Wyrm Elites
+#### Jovian Weapons
+#### Jovian Weapons
 #Zero Gravity Alloy Codename: Bulls Eye
       STR_JOVIANZGABALLISTIC1: "Jovians Zero Gravity Alloy"
       STR_JOVIANZGABALLISTIC2: "Jovians Zero Dimension Alloy"
@@ -3193,6 +3228,11 @@ en-US:
 
 #### Triffids Evolved Mutant Carnivore Plant
       STR_MARTIAN_TRIFFIDS_ORIGINS: ""
+
+
+
+
+#### OCTASAPIENS FACTION
 ##########  Human Research On Octasapiens
 ## Octasapiens
       STR_OCTASAPIENS: "Martian Octasapiens"
@@ -3217,15 +3257,6 @@ en-US:
       STR_OCTASAPIEN_FOREIGN_RELATION_UFOPEDIA: ""
 
 
-#### ALIEN FACTIONS
-#### MARTIAN HUMANOID
-
-#### JOVIANS EMPIRE
-#### Jovian machine for Geoscape
-#### Jovian Weapon Mount
-#### Jovian Weapons
-
-#### OCTASAPIENS FACTION
 ###### Octasapiens machine for Geoscape
 ##### 35 Craft / 15 Structures  16 Vehicles 8 Fighters 8 Space Ships 3 Projectiles ( Impossible to chase)
 #10x10x10
@@ -3250,10 +3281,61 @@ en-US:
 ### Octasapien Vehicle Role
 
 ### Octasapien Weapon Mount
-
-###
-
-
+### Octasapien Infantry
+      STR_OCTASAPIENINFANTRY1CLASS1: "Octasapien Modsoldier" ## Starts with High Performance
+      STR_OCTASAPIENINFANTRY1CLASS2: "Octasapien Phantom C"
+      STR_OCTASAPIENINFANTRY1CLASS3: "Octasapien Recon V"
+      STR_OCTASAPIENINFANTRY1CLASS4: "Octasapien Jumpjet"
+      STR_OCTASAPIENINFANTRY1CLASS5: "Octasapien Juggernaut A"
+      STR_OCTASAPIENINFANTRY1CLASS6: "Octasapien Engineer"
+      STR_OCTASAPIENINFANTRY1CLASS7: "Octasapien Operative"
+      STR_OCTASAPIENINFANTRY1CLASS8: "Octasapien Legendary E"
+      STR_OCTASAPIENINFANTRY2CLASS1: "Octasapien Modsoldier AV" ## Starts with Zero Gravity Alloys
+      STR_OCTASAPIENINFANTRY2CLASS2: "Octasapien Phantom AV"
+      STR_OCTASAPIENINFANTRY2CLASS3: "Octasapien Recon AV"
+      STR_OCTASAPIENINFANTRY2CLASS4: "Octasapien Jumpjet AV"
+      STR_OCTASAPIENINFANTRY2CLASS5: "Octasapien Juggernaut AV"
+      STR_OCTASAPIENINFANTRY2CLASS6: "Octasapien Engineer AV"
+      STR_OCTASAPIENINFANTRY2CLASS7: "Octasapien Operative AV"
+      STR_OCTASAPIENINFANTRY2CLASS8: "Octasapien Legendary AV"
+      STR_OCTASAPIENINFANTRY3CLASS1: "Octasapien Modsoldier CE" ## Starts with Zero Dimension Alloys
+      STR_OCTASAPIENINFANTRY3CLASS2: "Octasapien Phantom CE"
+      STR_OCTASAPIENINFANTRY3CLASS3: "Octasapien Recon CE"
+      STR_OCTASAPIENINFANTRY3CLASS4: "Octasapien Jumpjet CE"
+      STR_OCTASAPIENINFANTRY3CLASS5: "Octasapien Juggernaut CE"
+      STR_OCTASAPIENINFANTRY3CLASS6: "Octasapien Engineer CE"
+      STR_OCTASAPIENINFANTRY3CLASS7: "Octasapien Operative VACE"
+      STR_OCTASAPIENINFANTRY3CLASS8: "Octasapien Legendary VACE"
+      STR_OCTASAPIENINFANTRY4CLASS1: "Octasapien Modsoldier VACE" ## Starts with High Performance
+      STR_OCTASAPIENINFANTRY4CLASS2: "Octasapien Phantom VACE"
+      STR_OCTASAPIENINFANTRY4CLASS3: "Octasapien Recon VACE"
+      STR_OCTASAPIENINFANTRY4CLASS4: "Octasapien Jumpjet VACE"
+      STR_OCTASAPIENINFANTRY4CLASS5: "Octasapien Juggernaut VACE"
+      STR_OCTASAPIENINFANTRY4CLASS6: "Octasapien Engineer VACE"
+      STR_OCTASAPIENINFANTRY4CLASS7: "Octasapien Operative VACE"
+      STR_OCTASAPIENINFANTRY4CLASS8: "Octasapien Legendary VACE"
+      STR_OCTASAPIENCAMOFLAUGE: "Octasapien Camo Fabrics"
+      STR_OCTASAPIENENERGYSHIELDS: "Octasapien E-Shield Device"
+      STR_OCTASAPIENCLOAKFIELDS: "Octaspaien Cloakfield Device"
+      STR_OCTASAPIENNXTARMOR: "Octasapien Nextgen Armor"
+### Octasapien HWP; 1:Armor 2:Cloak 3:Shield
+      #### Machine Hunter
+      STR_OCTASAPIENSARM1HWP1: "Pesticide Walker" #Pest Control
+      STR_OCTASAPIENSARM1HWP2: "Combat Grenadier" #Cleaners
+      STR_OCTASAPIENSARM1HWP3: "Combot Companion" #Enterntainer
+      STR_OCTASAPIENSARM1HWP4: "Security Android" #Law Enforcer
+      STR_OCTASAPIENSARM1HWP5: "Heavy Autonoids" #Heavy Loader
+      STR_OCTASAPIENSARM1HWP6: "Multi Grenadier" #Maintainance
+      STR_OCTASAPIENSARM1HWP7: "Warframe Tanks" #Wreckers
+      STR_OCTASAPIENSARM1HWP8: "Long Arms Walker" #Artillery
+      STR_OCTASAPIENSARM1HWP9: "Battle Autonoids" #Melee Knights
+      STR_OCTASAPIENROACH1: "Octasapien Roach Pet" #Attack Cockroach
+      STR_OCTASAPIENCANINE: "Octasapien Guard Pet" #Attack Dog
+      STR_OCTASAPIENLIZARD: "Octasapien Charmelon" #Charmelon
+      STR_OCTASAPIENTREMORS1: "Octasapien Tremors"
+      STR_OCTASAPIENBRUTES1: "OSFriend Brutes Warrior" #Brutes
+      STR_OCTASAPIENBRUTES2: "OSFriend Brutes Armored Troops" #Brutes
+      STR_OCTASAPIENBRUTES3: "OSFriend Brutes Shocktroops" #Brutes
 ### Impossibile to Kill!
       STR_OCTASAPIEN_VFGSQUADRON4: "Warning Unknown Unit 1"
       STR_OCTASAPIEN_VFGSQUADRON4WIKI: ""
@@ -3290,7 +3372,7 @@ en-US:
       STR_OCTASAPIEN_PROJECTILE4: "Cruise Missile Projectile"
       STR_OCTASAPIEN_PROJECTILE4WIKI: "A remote rocket guided with radar tracking system. It can evade our vehicle / aircraft weapons while focusing on a target designation. We need to learn how to avoid cruise missile directions, while sending our units performing their task ASAP."
       STR_OCTASAPIEN_PROJECTILE5: "Kinetic Ballistic Shot"
-      STR_OCTASAPIEN_PROJECTILE5WIKI: "The common artillery ballistic used by many armies. Orbital kinetic bombardment can be very devastating and results severe damage to our base. However, not all kinetic projectiles drop into same location."
+      STR_OCTASAPIEN_PROJECTILE5WIKI: "The common artillery ballistic used by many armies. Orbital kinetic bombardment can be very devastating and results severe damage to our base. However, not all kinetic projectiles drop into the same location."
 ###### Octasapiens Mobile Structure
       STR_OCTASAPIEN_SENTRY_TOWER: "Octasapien Guard Tower"
       STR_OCTASAPIEN_SENTRY_TOWERWIKI: "Their defense tower are equiped with automated sentry guns supporting the platform weapons system. It repels armored vehicles and group infantry within weapons range."
@@ -3299,9 +3381,9 @@ en-US:
       STR_OCTASAPIEN_REFINERY: "Octasapien Refinery"
       STR_OCTASAPIEN_REFINERYWIKI: "Advance Quarry Base mining raw materials and salvaged assets into new versions. The abundant of alien alloys, and other harden components."
       STR_OCTASAPIEN_MANUFACTURE: "Octasapien Factory"
-      STR_OCTASAPIEN_MANUFACTUREWIKI: ""
+      STR_OCTASAPIEN_MANUFACTUREWIKI: "The production facility is equipped with robotic cranes and automated. Their current manufacturing capacity are more faster than our current designs. It's supported by workers and security personnel. "
       STR_OCTASAPIEN_OUTPOST: "Octasapien Outpost"
-      STR_OCTASAPIEN_OUTPOSTWIKI: ""
+      STR_OCTASAPIEN_OUTPOSTWIKI: "The defense post constructed with"
       STR_OCTASAPIEN_COMPOUND: "Octasapien Tech Center"
       STR_OCTASAPIEN_COMPOUNDWIKI: ""
       STR_OCTASAPIEN_FARM: "Octasapien Agricultural"
@@ -3331,7 +3413,7 @@ en-US:
       STR_OCTASAPIENZEROALLOYBALLISTICWIKI: The next-generation ballistic weapon contains zero gravity alloys. This projectile can destroy our Tunguskium and other common metals. Its performance able to increase veliocity and impact than any of the previous kind. We need to learn more about these new alloys by interrogating one of their engineers. If we want to learn how to create it.
       STR_OCTASAPIENZERODIMENSIONBALLISTIC: "Octasapien Ballistic Tier 3"
       STR_OCTASAPIENZERODIMENSIONBALLISTICWIKI: The final-development of the zero dimensional ballisics. Powerful enough to pierce all of the alloys incluing zerogravity as well. It is very lethal to organic which pierce through organ systems causing it to die instantly. The formula of the this product are no-where to obtain. Perhaps we need to learn the technology by capturing Octasapiens members and their allies.
-      STR_OCTASAPIENLASERWEAPON1: Octaspaien Laser Weapon
+      STR_OCTASAPIENLASERWEAPON1: Octaspaien Laser Weapons
       STR_OCTASAPIENLASERWEAPON2: Octasapien Turbolaser Weapon
       STR_OCTASAPIENLASERWEAPON3: Octasapien Direct Energy Weapons
       STR_OCTASAPIENPLASMAWEAPON1: Octaspaien Plasma Weapons
@@ -3355,9 +3437,9 @@ en-US:
       STR_OCTASAPIENBULLET1PISTOL1CLIP1: OSB-P1 Semi Clip ####AMMO: 15
       STR_OCTASAPIENBULLET1PISTOL2CLIP1: OSB-P2 Auto Clip ####AMMO: 40
       STR_OCTASAPIENBULLET1PISTOL3CLIP1: OSB-P3 Sight Clip ####AMMO: 10
-      STR_OCTASAPIENBULLET1PISTOL1CLIP2: OSB-P1 Semi Clip ####AMMO: 15
-      STR_OCTASAPIENBULLET1PISTOL2CLIP2: OSB-P2 Auto Clip ####AMMO: 40
-      STR_OCTASAPIENBULLET1PISTOL3CLIP2: OSB-P3 Sight Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET1PISTOL1CLIP2: OSB-P1 Semi FMJH Clip ####AMMO: 15
+      STR_OCTASAPIENBULLET1PISTOL2CLIP2: OSB-P2 Auto FMJH Clip ####AMMO: 40
+      STR_OCTASAPIENBULLET1PISTOL3CLIP2: OSB-P3 Sight FMJH Clip ####AMMO: 10
       STR_OCTASAPIENBULLET1PISTOL1CLIP3: OSB-P1 Semi Clip ####AMMO: 15
       STR_OCTASAPIENBULLET1PISTOL2CLIP3: OSB-P2 Auto Clip ####AMMO: 40
       STR_OCTASAPIENBULLET1PISTOL3CLIP3: OSB-P3 Sight Clip ####AMMO: 10
@@ -3368,9 +3450,9 @@ en-US:
       STR_OCTASAPIENBULLET1SMG1CLIP1: OSB-SMG1 Cover Clip ####AMMO: 35
       STR_OCTASAPIENBULLET1SMG2CLIP1: OSB-SMG2 Sight Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1SMG3CLIP1: OSB-SMG3 Extend Clip ####AMMO: 60
-      STR_OCTASAPIENBULLET1SMG1CLIP2: OSB-SMG1 Cover Clip ####AMMO: 35
-      STR_OCTASAPIENBULLET1SMG2CLIP2: OSB-SMG2 Sight Clip ####AMMO: 20
-      STR_OCTASAPIENBULLET1SMG3CLIP2: OSB-SMG3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1SMG1CLIP2: OSB-SMG1 Cover FMJH Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1SMG2CLIP2: OSB-SMG2 Sight FMJH Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SMG3CLIP2: OSB-SMG3 Extend FMJH Clip ####AMMO: 60
       STR_OCTASAPIENBULLET1SMG1CLIP3: OSB-SMG1 Cover Clip ####AMMO: 35
       STR_OCTASAPIENBULLET1SMG2CLIP3: OSB-SMG2 Sight Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1SMG3CLIP3: OSB-SMG3 Extend Clip ####AMMO: 60
@@ -3402,9 +3484,9 @@ en-US:
       STR_OCTASAPIENBULLET1PDW1CLIP1: OSB-PDW1 Shield Clip ####AMMO: 35
       STR_OCTASAPIENBULLET1PDW2CLIP1: OSB-PDW2 Sniper Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1PDW3CLIP1: OSB-PDW3 Extend Clip ####AMMO: 60
-      STR_OCTASAPIENBULLET1PDW1CLIP2: OSB-PDW1 Shield Clip ####AMMO: 35
-      STR_OCTASAPIENBULLET1PDW2CLIP2: OSB-PDW2 Sniper Clip ####AMMO: 20
-      STR_OCTASAPIENBULLET1PDW3CLIP2: OSB-PDW3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1PDW1CLIP2: OSB-PDW1 Shield FMJH Clip ####AMMO: 35
+      STR_OCTASAPIENBULLET1PDW2CLIP2: OSB-PDW2 Sniper FMJH Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1PDW3CLIP2: OSB-PDW3 Extend FMJH Clip ####AMMO: 60
       STR_OCTASAPIENBULLET1PDW1CLIP3: OSB-PDW1 Shield Clip ####AMMO: 35
       STR_OCTASAPIENBULLET1PDW2CLIP3: OSB-PDW2 Sniper Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1PDW3CLIP3: OSB-PDW3 Extend Clip ####AMMO: 60
@@ -3415,9 +3497,9 @@ en-US:
       STR_OCTASAPIENBULLET1CAR1CLIP1: OSB-CAR1 Extend Clip ####AMMO: 60
       STR_OCTASAPIENBULLET1CAR2CLIP1: OSB-CAR2 Sight Clip ####AMMO: 30
       STR_OCTASAPIENBULLET1CAR3CLIP1: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
-      STR_OCTASAPIENBULLET1CAR1CLIP2: OSB-CAR1 Extend Clip ####AMMO: 60
-      STR_OCTASAPIENBULLET1CAR2CLIP2: OSB-CAR2 Sight Clip ####AMMO: 30
-      STR_OCTASAPIENBULLET1CAR3CLIP2: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
+      STR_OCTASAPIENBULLET1CAR1CLIP2: OSB-CAR1 Extend FMJH Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1CAR2CLIP2: OSB-CAR2 Sight FMJH Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1CAR3CLIP2: OSB-CAR3 Barrel FMJH Clip ####AMMO: 30 + 5
       STR_OCTASAPIENBULLET1CAR1CLIP3: OSB-CAR1 Extend Clip ####AMMO: 60
       STR_OCTASAPIENBULLET1CAR2CLIP3: OSB-CAR2 Sight Clip ####AMMO: 30
       STR_OCTASAPIENBULLET1CAR3CLIP3: OSB-CAR3 Barrel Clip ####AMMO: 30 + 5
@@ -3428,9 +3510,9 @@ en-US:
       STR_OCTASAPIENBULLET1RIF1CLIP1: OSB-RIF1 Sight Clip ####AMMO: 30
       STR_OCTASAPIENBULLET1RIF2CLIP1: OSB-RIF2 Sniper Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1RIF3CLIP1: OSB-RIF3 Extend Clip ####AMMO: 60
-      STR_OCTASAPIENBULLET1RIF1CLIP2: OSB-RIF1 Sight Clip ####AMMO: 30
-      STR_OCTASAPIENBULLET1RIF2CLIP2: OSB-RIF2 Sniper Clip ####AMMO: 20
-      STR_OCTASAPIENBULLET1RIF3CLIP2: OSB-RIF3 Extend Clip ####AMMO: 60
+      STR_OCTASAPIENBULLET1RIF1CLIP2: OSB-RIF1 Sight FMJH Clip ####AMMO: 30
+      STR_OCTASAPIENBULLET1RIF2CLIP2: OSB-RIF2 Sniper FMJH Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1RIF3CLIP2: OSB-RIF3 Extend FMJH Clip ####AMMO: 60
       STR_OCTASAPIENBULLET1RIF1CLIP3: OSB-RIF1 Sight Clip ####AMMO: 30
       STR_OCTASAPIENBULLET1RIF2CLIP3: OSB-RIF2 Sniper Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1RIF3CLIP3: OSB-RIF3 Extend Clip ####AMMO: 60
@@ -3440,9 +3522,9 @@ en-US:
       STR_OCTASAPIENBULLET1MAC3: OSB-MAC3 Mod ####AMMO: 50
       STR_OCTASAPIENBULLET1MAC1CLIP1: OSB-MAC1 Chain Clip ####AMMO:100
       STR_OCTASAPIENBULLET1MAC2CLIP1: OSB-MAC2 Barrel Clip ####AMMO: 50
-      STR_OCTASAPIENBULLET1MAC3CLIP1: OSB-MAC3 Mod Clip ####AMMO: 50
-      STR_OCTASAPIENBULLET1MAC1CLIP2: OSB-MAC1 Chain Clip ####AMMO:100
-      STR_OCTASAPIENBULLET1MAC2CLIP2: OSB-MAC2 Barrel Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC3CLIP1: OSB-MAC3 Mod FMJH Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1MAC1CLIP2: OSB-MAC1 Chain FMJH Clip ####AMMO:100
+      STR_OCTASAPIENBULLET1MAC2CLIP2: OSB-MAC2 Barrel FMJH Clip ####AMMO: 50
       STR_OCTASAPIENBULLET1MAC3CLIP2: OSB-MAC3 Mod Clip ####AMMO: 50
       STR_OCTASAPIENBULLET1MAC1CLIP3: OSB-MAC1 Chain Clip ####AMMO:100
       STR_OCTASAPIENBULLET1MAC2CLIP3: OSB-MAC2 Barrel Clip ####AMMO: 50
@@ -3454,9 +3536,9 @@ en-US:
       STR_OCTASAPIENBULLET1GUN1CLIP1: OSB-GUN1 Chain Clip ####AMMO: 250
       STR_OCTASAPIENBULLET1GUN2CLIP1: OSB-GUN2 Mobile Clip ####AMMO: 300
       STR_OCTASAPIENBULLET1GUN3CLIP1: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
-      STR_OCTASAPIENBULLET1GUN1CLIP2: OSB-GUN1 Chain Clip ####AMMO: 250
-      STR_OCTASAPIENBULLET1GUN2CLIP2: OSB-GUN2 Mobile Clip ####AMMO: 300
-      STR_OCTASAPIENBULLET1GUN3CLIP2: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
+      STR_OCTASAPIENBULLET1GUN1CLIP2: OSB-GUN1 Chain FMJH Clip ####AMMO: 250
+      STR_OCTASAPIENBULLET1GUN2CLIP2: OSB-GUN2 Mobile FMJH Clip ####AMMO: 300
+      STR_OCTASAPIENBULLET1GUN3CLIP2: OSB-GUN3 Mod FMJH Clip ####AMMO: 100 + 50
       STR_OCTASAPIENBULLET1GUN1CLIP3: OSB-GUN1 Chain Clip ####AMMO: 250
       STR_OCTASAPIENBULLET1GUN2CLIP3: OSB-GUN2 Mobile Clip ####AMMO: 300
       STR_OCTASAPIENBULLET1GUN3CLIP3: OSB-GUN3 Mod Clip ####AMMO: 100 + 50
@@ -3467,9 +3549,9 @@ en-US:
       STR_OCTASAPIENBULLET1SNP1CLIP1: OSB-SNP1 Siege Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1SNP2CLIP1: OSB-SNP2 Mod Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1SNP3CLIP1: OSB-SNP3 Tank Clip ####AMMO: 10
-      STR_OCTASAPIENBULLET1SNP1CLIP2: OSB-SNP1 Siege Clip ####AMMO: 20
-      STR_OCTASAPIENBULLET1SNP2CLIP2: OSB-SNP2 Mod Clip ####AMMO: 20
-      STR_OCTASAPIENBULLET1SNP3CLIP2: OSB-SNP3 Tank Clip ####AMMO: 10
+      STR_OCTASAPIENBULLET1SNP1CLIP2: OSB-SNP1 Siege FMJH Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP2CLIP2: OSB-SNP2 Mod FMJH Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1SNP3CLIP2: OSB-SNP3 Tank FMJH Clip ####AMMO: 10
       STR_OCTASAPIENBULLET1SNP1CLIP3: OSB-SNP1 Siege Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1SNP2CLIP3: OSB-SNP2 Mod Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1SNP3CLIP3: OSB-SNP3 Tank Clip ####AMMO: 10
@@ -3480,9 +3562,9 @@ en-US:
       STR_OCTASAPIENBULLET1HVY1CLIP1: OSB-HVY1 Rapid Clip ####AMMO: 50
       STR_OCTASAPIENBULLET1HVY2CLIP1: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
       STR_OCTASAPIENBULLET1HVY3CLIP1: OSB-HVY3 Tank Clip ####AMMO: 20
-      STR_OCTASAPIENBULLET1HVY1CLIP2: OSB-HVY1 Rapid Clip ####AMMO: 50
-      STR_OCTASAPIENBULLET1HVY2CLIP2: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
-      STR_OCTASAPIENBULLET1HVY3CLIP2: OSB-HVY3 Tank Clip ####AMMO: 20
+      STR_OCTASAPIENBULLET1HVY1CLIP2: OSB-HVY1 Rapid FMJH Clip ####AMMO: 50
+      STR_OCTASAPIENBULLET1HVY2CLIP2: OSB-HVY2 Mod FMJH Clip ####AMMO: 50 + 50
+      STR_OCTASAPIENBULLET1HVY3CLIP2: OSB-HVY3 Tank FMJH Clip ####AMMO: 20
       STR_OCTASAPIENBULLET1HVY1CLIP3: OSB-HVY1 Rapid Clip ####AMMO: 50
       STR_OCTASAPIENBULLET1HVY2CLIP3: OSB-HVY2 Mod Clip ####AMMO: 50 + 50
       STR_OCTASAPIENBULLET1HVY3CLIP3: OSB-HVY3 Tank Clip ####AMMO: 20
