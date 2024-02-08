@@ -1927,7 +1927,7 @@ en-US:
       STR_LANDSHIP_HISTORY_1: "Landship History I"
       STR_LANDSHIP_HISTORY_1_UFOPEDIA: "The concept of the landship began in 1903, when the world famous author Sir Herbert George Wells (widely known for his first-hand account of the First Invasion of 1896) published a scientific paper called 'The Land Ironclads'. In his writing, Sir Wells detailed how future wars could be waged using large armored fighting vehicles similar to warships, but using wheels or caterpillars to transverse the land. The main purpose was to break the unnatural stalemate of the modern warfare and the growing tendency of entrenched armies. Like a force of nature, the land ironclads could ignore any amount of trenches or fortifications, wreacking havoc all over the front... like an ominous mountain of steel and guns."
       STR_LANDSHIP_HISTORY_2: "Landship History II"
-      STR_LANDSHIP_HISTORY_2_UFOPEDIA: "Sir Wells' publication drawed lots of attention towards the prospect of 'land ironclads'. It was Winston Churchill, First Lord of the Admiralty, who promoted the idea among the British high command. After the establishment of the Landship Committee by Navy officers, engineers and politicians in 1905, several designs were made over the course of the years. The major objetive was to create a ground-based arm of the Royal Navy, tasked on protecting His Majesty overseas territories... pretty much an analog of the seaborne fleets. The first prototype, 'Little Willy', was tested in 1909. The design included several different armament, from a 2-pounder Pom Pom gun to a combination of Maxim MGs. However, much of the funding and attention was diverter to the Walker Mech projects, putting the development of a landship to a halt. Blueprints were stored in vaults and the Committee members went to other projects.  "
+      STR_LANDSHIP_HISTORY_2_UFOPEDIA: "Sir Wells' publication drawed lots of attention towards the prospect of 'land ironclads'. It was Winston Churchill, First Lord of the Admiralty, who promoted the idea among the British high command. After the establishment of the Landship Committee by Navy officers, engineers and politicians in 1905, several designs were made over the course of the years. The major objective was to create a ground-based arm of the Royal Navy, tasked on protecting His Majesty overseas territories... pretty much an analog of the seaborne fleets. The first prototype, 'Little Willy', was tested in 1909. The design included several different armament, from a 2-pounder Pom Pom gun to a combination of Maxim MGs. However, much of the funding and attention was diverter to the Walker Mech projects, putting the development of a landship to a halt. Blueprints were stored in vaults and the Committee members went to other projects.  "
       STR_LANDSHIP_HISTORY_3: "Landship History III"
       STR_LANDSHIP_HISTORY_3_UFOPEDIA: "The second coming of the Martians meant a complete change in the development of new war machines. During the interwar period, the new vehicles were seen more as a novelty than a practical use. The blueprints and mockups of the landships were quickly brought back to the table, looking for a machine able to stop the insatiable warmongering enemy. The most sucessful result is the Conqueror landship, seen as more mechanically reliable and cheaper than the Walkers. The initial concept saw the use of sawed-off artillery guns mounted in sponsons all over the chassis, but a 360° rotating turret was selected as a better option.  A 6-pounder naval gun was selected as the main armament, along with several Maxim machine guns as infantry support. The main purpose of the landships was to efficiently transport infantrymen in the hellish battlefields of the Great War. Thanks to it's relatively fast speed and size, they are often nicknamed 'land destroyers'."
       STR_LANDSHIP_HISTORY_4: "Landship History IV"
@@ -1936,7 +1936,7 @@ en-US:
       STR_LANDSHIP_HISTORY_5_UFOPEDIA: "Eventually, the concept of 'putting more and bigger guns' on the landships had to come to an end. And the end, was materialized in the Land Battleship, a large ground vessel with a similar gun turret distribution of a seaborne Navy warship. Four naval guns and several more machine guns are disposed all over the chassis, with powerful threads beneath. The crew is located on top of a bridge tower, granting superior visibility of the warzone. While the land battleship isn't exactly meant to ferry troops, a small contingent onboard could disembark and support the combat operations where the vessel is taking part. The major downside (and possibly the only thing that prevents its deployment in massive numbers) is the large cost of the construction of each ship, both in materials and in money. Thus, few land battleships are actually used by the allied forces."
 
       STR_WALKER_DATA: "Walker Data"
-      STR_WALKER_DATA_UFOPEDIA: "Since the initial enemy attack in '96, the image of towering walking machines has been imprinted in the minds and hearts of the world. Our technology has come a long way thanks to the reverse engineering we have applied. However, mechanized walking vehicles (called interchangeably 'walkers' or 'mechs') are more complex to build and maintain than wheeled and tracked vehicles. Their advantage lies in their flexibility in all types of terrain, because they are not limited to roads and flat areas. Mountains, swamps, jungles? There's nothing a mech can't traverse."
+      STR_WALKER_DATA_UFOPEDIA: "Since the initial enemy attack in 1896, the image of towering walking machines has been imprinted in the minds and hearts of the world. Our technology has come a long way thanks to the reverse engineering we have applied. However, mechanized walking vehicles (called interchangeably 'walkers' or 'mechs') are more complex to build and maintain than wheeled and tracked vehicles. Their advantage lies in their flexibility in all types of terrain, because they are not limited to roads and flat areas. Mountains, swamps, jungles? There's nothing a mech can't traverse."
 
       STR_WALKER_HISTORY_1: "Walker History I"
       STR_WALKER_HISTORY_1_UFOPEDIA: "The first prototypes were built using scrap and leftover parts from the Martian Tripods used in the 1896 Attack. For 10 years, the United Kingdom and Germany were the countries most focused on adapting the enemy's technology, with varying results. The first working model was presented to the world in London in 1907. The Hague Convention of 1899 forbade the production of 'Walkers' for war purposes, so most were used as a means of transportation."
@@ -2564,9 +2564,9 @@ en-US:
 
       ##### Subterranean Structures
       STR_ACCESS_GATE: "Main Access Elevator" #
-      STR_STORESUB1: "Storage Sublevel" #
-      STR_STORESUB2: "Large Storage Sublevel"
-      STR_STORESUB3: "Huge Storage Sublevel"
+      STR_STORESUB1: "Storage Sublevel" # 1x1
+      STR_STORESUB2: "Large Storage Sublevel" # 2x2
+      STR_STORESUB3: "Huge Storage Sublevel" # 3x3
       STR_SECRUITYSUB1: "Security Corridor" #
       STR_LIVING_SUB1: "Living Q. Sublevel" #
       STR_LIVING_SUB2: "Large Living Q. Sublevel"
@@ -2588,23 +2588,50 @@ en-US:
       STR_MINDSHIELDSUB1: "Signal Inhibiter"
       STR_PLANETCORE1: "Planetary Command System" # Enables Planetary Defense Weapons
       ##### Mindshield + Gravity Shield + Radar Range
-      STR_PLANETDEFD2: "PDS: Tactical Level"
-      STR_PLANETDEF03: "PDS: Strategic Level"
-      STR_PLANETDEF04: "PDS: Global Level"
-      STR_PLANETDEF05: "PDS: Planet Orbit"
+      STR_PLANETDEFD2: "PDS: Tactical Level" #Requires Planetary Command System
+      STR_PLANETDEF03: "PDS: Strategic Level" #Requires Planetary Command System
+      STR_PLANETDEF04: "PDS: Global Level" #Requires Planetary Command System
+      STR_PLANETDEF05: "PDS: Planet Orbit" #Requires Planetary Command System
+      ##### Purchase from Alien Forces; Requires Live Aliens by converting them to memberships after creating terms.
+      STR_EMBASSY1: "Marsnoids Embassy"
+      STR_EMBASSY2: "Octasapien Embassy"
+      STR_EMBASSY3: "Selenite Embassy"
+      STR_EMBASSY4: "Jovians Embassy"
+      STR_EMBASSY5: "Octasapien Foreign Embassy"
+      STR_EMBASSY6: "Kronotek Installation"
+      STR_EMBASSY7: "Koell Design" #Requires Kronotek Installation
+      STR_EMBASSY8: "Victo Design" #Requires Kronotek Installation
+      STR_EMBASSY9: "Exodusians Embassy" #
+      STR_EMBASSY10: "Galorifts Base Ops" #Requires Exodusians Embassy
+      STR_EMBASSY11: "Draconel Base Ops" #Requires Exodusians Embassy
+      STR_EMBASSY12: "Minotrek Base Ops" #Requires Exodusians Embassy
+      STR_EMBASSY13: "Drakels Base Ops" #Requires Exodusians Embassy
+      STR_EMBASSY14: "Tenakels Base Ops" #Requires Exodusians Embassy
+      STR_EMBASSY15: "Strigon Base Ops" #Requires Exodusians Embassy
+      STR_EMBASSY16: "Lylat-Mobians Base"
+
+
+
+
+
 ##### Interplanetary Expedition Forces
 ##### Vehicles and Aerospace; Requires manufacture
 #### 6 Legs
-      STR_HEXAPODHUMANSTONHENGE: "VFM-SH Stonehenge Class"
+      STR_HEXAPODHUMANSTONHENGE: "STONEHENGE"
+      STR_HEXAPODHUMANSTONHENGEWIKI: "VFM-SH Stonehenge Class"
       #### Amphibious Landship
-      STR_AMPHIBIANHUMANALIGATOR1: "ASD-9 Alligator MK1" #C&C=Allied Assault Destroyer G
-      STR_AMPHIBIANHUMANALIGATOR2: "ASD-01 Alligator MK2" #C&C=Allied Assault Destroyer Hyper Radar G
+      STR_AMPHIBIANHUMANALIGATOR1: "ALIGATOR MK1" #C&C=Allied Assault Destroyer G
+      STR_AMPHIBIANHUMANALIGATOR1WIKI: "ASD-9 Alligator MK1"
+      STR_AMPHIBIANHUMANALIGATOR2: "ALIGATOR MK2" #C&C=Allied Assault Destroyer Hyper Radar G
+      STR_AMPHIBIANHUMANALIGATOR2WIKI: "ASD-01 Alligator MK2"
       ### LANDSHIP
-      STR_LANDSHIPHUMANCAESAR: "LBC SS-JA1 Caesar" ## Assault Landship
+      STR_LANDSHIPHUMANCAESAR: "CAESAR" ## Assault Landship
+      STR_LANDSHIPHUMANCAESARWIKI: "LBC SS-JA1 Caesar"
       STR_LANDSHIPHUMANCENTAUR1: "LBC Mace-1 Centaur"
       STR_LANDSHIPHUMANCENTAUR2: "LBC SV-3 Centaur 2"
       STR_LANDSHIPHUMANCHIEFTAN: "Wild Weasel Chieftan"
-      STR_LANDSHIPHUMANIRONCLAD: "Command P-1 Iron Clad" # Needs Improved Landship
+      STR_LANDSHIPHUMANIRONCLAD: "IRONCLAD" # Needs Improved Landship
+      STR_LANDSHIPHUMANIRONCLADWIKI: "Command P-1 Iron Clad"
       STR_LANDSHIPHUMANMAMMOTH1: "LBC GDX-6-10 Mammoth" #C&C=GDI Mammoth Tank
       STR_LANDSHIPHUMANMAMMOTH2: "LBC GDX-6-10 Mammoth MK2" #C&C=GDI Mammoth Tank Hyper Radar
       STR_LANDSHIPHUMANAPOCALYPSE1: "LBC SSS-7 Apocalypse" #C&C=Soviet Apcalypse Tank Universal Weapon Station
@@ -2676,7 +2703,7 @@ en-US:
       ############# Epoch Tier 3 Cavorite Zero Gravity Alloys 1920
       STR_ALIENALLOYS2: "Cavorite Alloys" #Zero Gravity Alloys
       ############# Epoch Tier 4 Cavorite Abyssium Hybrid 1935
-      STR_ALIENALLOYS3: "Cavorithium Hybrid Alloys" #Zero Gravity Plus Aquarite
+      STR_ALIENALLOYS3: "Cavorithium Alloys" #Zero Gravity Plus Aquarite
       ############# Epoch Tier 5 Zedimetium Final Alloys 1985
       STR_ALIENALLOYS4: "Zedimetium Alloys" # Zero Dimension Alloys
       STR_MOBILEAMPHIBIANPLATFORM: "Amphibian Battleship"
@@ -2802,26 +2829,33 @@ en-US:
       STR_GERMANVEET1: "RUBEZALH Mk.3"
 
 
-
-
-## Octasapien Faction will coming the next 2 years or when its done.
-#########
-
-## Octaspaien Infantry 30
-## Octasapien Weapon Platform Vehicle 20
-
+## Octasapien Faction will coming the next 3 years or when its done.
 ####### Kiro Xei's Expanded Lore
 ####### Players 111 Year War Campaign "Centurys of the Decade War"
       STR_THE111YEARCAMPAIGN: "United Inter-Earth Formation"
       ###### Player can form a faction depending on their chosen alliance
-      #Independent Path
-      STR_INDEPENDENTPATH: "Human Independent Society"
+      #Independent Path or reject the terms Chapter 1
+      STR_INDEPENDENTFORCE: "Human Independent Society"
       STR_CONVINCESELENITES1: "Alliance with Selenites"
       STR_CONVINCEMARHUMANOIDS1: "Persuade Mars Dissidents"
+      STR_SETIPROJECT: "The SETI Project"
+      STR_INDEPENDENT1PATH1: "Securing Continental Region"
+      STR_INDEPENDENT1PATH2: "Multiple Government Concept"
+      STR_INDEPENDENT1PATH3: "Civilization Advancement"
+      STR_INDEPENDENT1PATH4: "Technological Reverse-Engineer"
+      STR_INDEPENDENT1PATH5: ""
+      STR_INDEPENDENT1PATH6: ""
+      STR_INDEPENDENT1PATH7: "Securing Earth Orbit"
+      STR_INDEPENDENT1PATH8: "Create a Economic Trade"
+      STR_INDEPENDENT1PATH9: ""
+      STR_INDEPENDENT1PATH10: ""
+      STR_INDEPENDENT1PATH11: ""
       #Independent Path Optional
       STR_CONVINCEKRONOTEK1: "Preserve Profile"
       STR_CONVINCEKRONOTEK2: "Opposition Joint"
       STR_CONVINCELYLATMOBIAN1: "Convince Lylat-Mobians"
+      #Independent Path Chapter 2 Reject Exodus
+      #Independent Path Chapter 3 Reject Exodus
 
       #Wisdom Species
       STR_MARTIANALLYPATH1: "The Martian Empire"
@@ -2829,32 +2863,72 @@ en-US:
       STR_MARTIANALLYHUMANOID1: "Create Terms with Mars Humanoids." ###### Mars Humanoid Set
       STR_MARTIANALLYOCTASAPIEN1: "Create Terms with Octasapiens." ###### Octasapien Set
       #Martian Humanoids Path
-      STR_MARTIANDEFECTION1: Martian Humanoid Defection
-      STR_MARTIANOIDCHAPTER1:
-      STR_MARTIANOIDCHAPTER2:
-      STR_MARTIANOIDCHAPTER3:
-      STR_MARTIANOIDCHAPTER4:
-
-
-
-
+      STR_MARTIANDEFECTION1: "Martian Humanoid Defection"
+      STR_MARTIANOIDCHAPTER1: "Permit Martianoids to establish a permament settlement"
+      STR_MARTIANOIDCHAPTER2: "Perform Terms with the Selenites"
+      STR_MARTIANOIDCHAPTER3: "Secure the Moon Area"
+      STR_MARTIANOIDCHAPTER4: "Conquest on Venus"
+      STR_MARTIANOIDCHAPTER5: "Battle on Deimos"
+      STR_MARTIANOIDCHAPTER6: "Battle on Phobos"
+      STR_MARTIANOIDCHAPTER7: "Battle on Mars Orbital Elevator"
+      STR_MARTIANOIDCHAPTER8: "Securing the Asteroid Belt and Ceres"
+      STR_MARTIANOIDCHAPTER9: "Establishing Alliance with Martianoids" ### Unlock Purchase Martianoids Weapons 1
       #Octasapien Path
-      STR_OCTASPIENFRENDSHIP1: Octasapiens Diplomacy
-      STR_OCTASAPIENCHAPTER1:
-      STR_OCTASAPIENCHAPTER2:
-      STR_OCTASAPIENCHAPTER3:
-      STR_OCTASAPIENCHAPTER4:
+      STR_OCTASPIENFRENDSHIP1: "Octasapiens Diplomacy"
+      STR_OCTASAPIENCHAPTER1: "Suppressing the Martianoids Rebellion"
+      STR_OCTASAPIENCHAPTER2: "Incident on Lunars Colony"
+      STR_OCTASAPIENCHAPTER3: "Suppressing the Selenites Army"
+      STR_OCTASAPIENCHAPTER4: "Exterminating Triffids on Venus"
+      STR_OCTASAPIENCHAPTER5: "Defending the Mars Orbital Elevator"
+      STR_OCTASAPIENCHAPTER6: "Setting up Advance defense on 2 Mars Satellite"
+      STR_OCTASAPIENCHAPTER7: "Aiding the defense on Asteroid Belt and Ceres"
+      STR_OCTASAPIENCHAPTER8: "Laying a Star System Siege on Jovians"
+      STR_OCTASAPIENCHAPTER9: "Establish Alliance with Octasapiens" ### Unlock Purchase Octasapiens Weapons 1
       #Wisdom Species Path Optional
       STR_OCTASAPIENTALKSTODELTRUNE: "Octasapiens Negotiates Deltrune" #### If New Mexico Incident report and Deltrune subterranean in a ship found
       STR_JUDIKARSSECRETTECH: "Judikars Faction Research" #### Difficult to find it.
-
+      ##Martian Wars with Jovians
+      STR_MARTIANWARWITHJOVIANS1: "Defense of the Asteroid Belt"
+      STR_MARTIANWARWITHJOVIANS2: "Battle of Saturn Revolve Area"
+      STR_MARTIANWARWITHJOVIANS3: "Securing Jovians Communication Space Stations"
+      STR_MARTIANWARWITHJOVIANS4: "Raid on Jovians Energy Converter Station"
+      STR_MARTIANWARWITHJOVIANS5: "Sabotaging the Anti-Gravity Engine"
+      STR_MARTIANWARWITHJOVIANS6: "Capturing the Jovian Weapon Station"
+      STR_MARTIANWARWITHJOVIANS7: "Battle of Jupiter Revolve Area"
+      STR_MARTIANWARWITHJOVIANS8: "Occupying Ganymede"
+      STR_MARTIANWARWITHJOVIANS9: "Occupying Titan"
+      STR_MARTIANWARWITHJOVIANS10: "Battle of Uranus Revolve Area"
+      STR_MARTIANWARWITHJOVIANS11: "Battle of Neptune Revolve Area"
+      STR_MARTIANWARWITHJOVIANS12: "Plutos Granite"
+      STR_MARTIANWARWITHJOVIANS13: "Conquering Sedna" #Sol System Dwarf Planets
+      STR_MARTIANWARWITHJOVIANS14: "Supporting Alpha Cenaturi Forces"
+      STR_MARTIANWARWITHJOVIANS15: "Earning best frends with the Martians" # Unlock Purchase Martianoids or Octasapiens Weapons 2
+      STR_MARTIANALLYHUMANOID2: "Martianoids Alliance"
+      STR_MARTIANALLYOCTASAPIEN2: "Octasapiens Alliance"
+      ##Martian War with Exodus
+      STR_MARTIANWARWITHEXODUS1: "Mysterious Force on Earth"
+      STR_MARTIANWARWITHEXODUS2: "Mysterious Force on Moon"
+      STR_MARTIANWARWITHEXODUS3: "Mysterious Force on Mars"
+      STR_MARTIANWARWITHEXODUS4: "Mysterious Force on Phobos"
+      STR_MARTIANWARWITHEXODUS5: "Mysterious Force on Deimos"
+      STR_MARTIANWARWITHEXODUS6: "Mysterious Force on Ganymede"
+      STR_MARTIANWARWITHEXODUS7: "Mysterious Force on Jupiter Area"
+      STR_MARTIANWARWITHEXODUS8: "Entering the Unknown Warp Gate"
+      STR_MARTIANWARWITHEXODUS9: "Reports on the Exodus"
+      STR_MARTIANWARWITHEXODUS10: "Sol Counterattack"
+      STR_MARTIANWARWITHEXODUS11: "Retrieving the Inhibitor"
+      STR_MARTIANWARWITHEXODUS12: "Star System Defense"
+      STR_MARTIANWARWITHEXODUS13: "Securing Sol System."
+      STR_MARTIANWARWITHEXODUS14: "Assisting Alpha Centauri Forces"
+      STR_MARTIANWARWITHEXODUS15: "Battle Against Exodus Territory"
+      STR_MARTIANWARWITHEXODUS16: "Establish as Octasapien Vassals"
       #The Dominators Path
       STR_JOVIANCONTACT: Contact Jovian Empire
       STR_JOVIANFACTION: Accept Jovian Empire Offer
       STR_JOVIANFACTIONSPECIE: "The Chimerians Traits"
       #Exodus Empire Path Avaible in the Year 1935 with 1950
       STR_EXODUSPRECENSE: "Strange Reports from Otherworlds" #### Chance on 50% to have them appear.
-      STR_EXODUSIDENTITY: "The strange horned head race?"
+      STR_EXODUSIDENTITY: "The strange horned head race?" #### If you have not Allied with any alien factions. Or not independent
 
 ######### The Species Advance Civilization ###########
       STR_INDEPENDENTTHEORY: "The Fate of Decision"
@@ -2890,36 +2964,85 @@ en-US:
       STR_LUNARIAN_VOCABULARY: "Lunarian Language Arts"
       STR_SELENITE: "Selenites"
       STR_SELENITE_UFOPEDIA: ""
-      STR_SELENITE_LANGUAGE: "Selenite Languarge Arts"
+      STR_SELENITE_LANGUAGE: "Selenite Language Arts"
       STR_SELENITE_L_UFOPEDIA: ""
       STR_SELENITE_FOOD: ""
       STR_SELENITE_FOOD_UFOPEDIA: ""
       STR_SELENITE_CULTURE: ""
       STR_SELENITE_CULTURE_UFOPEDIA: ""
-      STR_SELENITE_ARCHITECTURE: "Martian Humanoids Architecture"
-      STR_SELENITE_ARCHITECTURE_UFOPEDIA: "Pyramids"
+      STR_SELENITE_ARCHITECTURE: "Selenite Humanoids Architecture"
+      STR_SELENITE_ARCHITECTURE_UFOPEDIA: "Subterranean Cities"
 ## Selenites Weapons; Borrowed from Jetforce Gemini as Mizar appearance
       STR_SELENITEBALLISTIC1: "Selenites Refined Ballistic"
       STR_SELENITEBALLISTIC2: "Selenites ZGA Ballistic"
       STR_SELENITELASER1: "Selenites Laser Weapon"
       STR_SELENITELASER2: "Selenites Renewable Laser"
-      STR_SELENITEPLASMA1: "Selenites Charged Plasma"
+      STR_SELENITEPLASMA1: "Selenites Charge Plasma"
       STR_SELENITEPLASMA2: "Selenites Full Plasma"
       STR_SELENITEESHOCKS1: "Selenites Electroshocks"
       STR_SELENITESSHOCKS2: "Selenites Barrys Voltage"
 ## Selenites Ballistic Weapons 1
       STR_SELENITESBULLET1P1: "LUNARBW P-1 Extend"
       STR_SELENITESBULLET1P2: "LUNARBW P-2 Sight"
-      STR_SELENITESBULLET1P3: "LUNARBW P-3 Carbine"
+      STR_SELENITESBULLET1P3: "LUNARBW P-3 Stock"
       STR_SELENITESBULLET1P1CLIP1: "LUNARBW P-1 Clip"
       STR_SELENITESBULLET1P2CLIP1: "LUNARBW P-2 Clip"
       STR_SELENITESBULLET1P3CLIP1: "LUNARBW P-3 Clip"
-      STR_SELENITESBULLET1P1CLIP2: "LUNARBW P-1 ZGA"
-      STR_SELENITESBULLET1P2CLIP2: "LUNARBW P-2 ZGA"
-      STR_SELENITESBULLET1P3CLIP2: "LUNARBW P-3 ZGA"
-      STR_SELENITESBULLET1P1CLIP3: "LUNARBW P-1 Extend"
-      STR_SELENITESBULLET1P2CLIP3: "LUNARBW P-2 Sight"
-      STR_SELENITESBULLET1P3CLIP3: "LUNARBW P-3 Carbine"
+      STR_SELENITESBULLET1P1CLIP2: "LUNARBW P-1 FMJH"
+      STR_SELENITESBULLET1P2CLIP2: "LUNARBW P-2 FMJH"
+      STR_SELENITESBULLET1P3CLIP2: "LUNARBW P-3 FMJH"
+      STR_SELENITESBULLET1P1CLIP3: "LUNARBW P-1 ZGA Clip"
+      STR_SELENITESBULLET1P2CLIP3: "LUNARBW P-2 ZGA Clip"
+      STR_SELENITESBULLET1P3CLIP3: "LUNARBW P-3 ZGA Clip"
+      STR_SELENITESBULLET1SMG1: "LUNARBW SMG-1 Extend"
+      STR_SELENITESBULLET1SMG2: "LUNARBW SMG-2 Sight"
+      STR_SELENITESBULLET1SMG3: "LUNARBW SMG-3 Stock"
+      STR_SELENITESBULLET1SMG1CLIP1: "LUNARBW SMG-1 Clip"
+      STR_SELENITESBULLET1SMG2CLIP1: "LUNARBW SMG-2 Clip"
+      STR_SELENITESBULLET1SMG3CLIP1: "LUNARBW SMG-3 Clip"
+      STR_SELENITESBULLET1SMG1CLIP2: "LUNARBW SMG-1 FMJH"
+      STR_SELENITESBULLET1SMG2CLIP2: "LUNARBW SMG-2 FMJH"
+      STR_SELENITESBULLET1SMG3CLIP2: "LUNARBW SMG-3 FMJH"
+      STR_SELENITESBULLET1SMG1CLIP3: "LUNARBW SMG-1 ZGA Clip"
+      STR_SELENITESBULLET1SMG2CLIP3: "LUNARBW SMG-2 ZGA Clip"
+      STR_SELENITESBULLET1SMG3CLIP3: "LUNARBW SMG-3 ZGA Clip"
+      STR_SELENITESBULLETSNIPER1: "LUNARBW SNIPER-1 Extend"
+      STR_SELENITESBULLET1SNIPER2: "LUNARBW SNIPER-2 Autoshot"
+      STR_SELENITESBULLET1SNIPER3: "LUNARBW SNIPER-3 Anti-Material"
+      STR_SELENITESBULLET1SNIPER1CLIP1: "LUNARBW SNIPER-1 Clip"
+      STR_SELENITESBULLET1SNIPER2CLIP1: "LUNARBW SNIPER-2 Clip"
+      STR_SELENITESBULLET1SNIPER3CLIP1: "LUNARBW SNIPER-3 Clip"
+      STR_SELENITESBULLET1SNIPER1CLIP2: "LUNARBW SNIPER-1 Explosive Clip"
+      STR_SELENITESBULLET1SNIPER2CLIP2: "LUNARBW SNIPER-2 Explosive Clip"
+      STR_SELENITESBULLET1SNIPER3CLIP2: "LUNARBW SNIPER-3 Explosive Clip"
+      STR_SELENITESBULLET1SNIPER1CLIP3: "LUNARBW SNIPER-1 ZGA Clip"
+      STR_SELENITESBULLET1SNIPER2CLIP3: "LUNARBW SNIPER-2 ZGA Clip"
+      STR_SELENITESBULLET1SNIPER3CLIP3: "LUNARBW SNIPER-3 ZGA Clip"
+      STR_SELENITESBULLET1GUNNER1: "LUNARBW GUNNER-1 Barrel"
+      STR_SELENITESBULLET1GUNNER2: "LUNARBW GUNNER-2 Mod"
+      STR_SELENITESBULLET1GUNNER3: "LUNARBW GUNNER-3 Chain"
+      STR_SELENITESBULLET1GUNNER1CLIP1: "LUNARBW GUNNER-1 Clip"
+      STR_SELENITESBULLET1GUNNER2CLIP1: "LUNARBW GUNNER-2 Clip"
+      STR_SELENITESBULLET1GUNNER3CLIP1: "LUNARBW GUNNER-3 Clip"
+      STR_SELENITESBULLET1GUNNER1CLIP2: "LUNARBW GUNNER-1 Explosive Clip"
+      STR_SELENITESBULLET1GUNNER2CLIP2: "LUNARBW GUNNER-2 Explosive Clip"
+      STR_SELENITESBULLET1GUNNER3CLIP2: "LUNARBW GUNNER-3 Explosive Clip"
+      STR_SELENITESBULLET1GUNNER1CLIP3: "LUNARBW GUNNER-1 Buckshot Clip"
+      STR_SELENITESBULLET1GUNNER2CLIP3: "LUNARBW GUNNER-2 Buckshot Clip"
+      STR_SELENITESBULLET1GUNNER3CLIP3: "LUNARBW GUNNER-3 Buckshot Clip"
+      STR_SELENITESBULLET1HEAVY1: "LUNARBW HEAVY-1 Barrel"
+      STR_SELENITESBULLET1HEAVY2: "LUNARBW HEAVY-2 Mod"
+      STR_SELENITESBULLET1HEAVY3: "LUNARBW HEAVY-3 Chain"
+      STR_SELENITESBULLET1HEAVY1CLIP1: "LUNARBW HEAVY-1 Clip"
+      STR_SELENITESBULLET1HEAVY2CLIP1: "LUNARBW HEAVY-2 Clip"
+      STR_SELENITESBULLET1HEAVY3CLIP1: "LUNARBW HEAVY-3 Clip"
+      STR_SELENITESBULLET1HEAVY1CLIP2: "LUNARBW HEAVY-1 Explosive Clip"
+      STR_SELENITESBULLET1HEAVY2CLIP2: "LUNARBW HEAVY-2 Explosive Clip"
+      STR_SELENITESBULLET1HEAVY3CLIP2: "LUNARBW HEAVY-3 Explosive Clip"
+      STR_SELENITESBULLET1HEAVY1CLIP3: "LUNARBW HEAVY-1 Buckshot Clip"
+      STR_SELENITESBULLET1HEAVY2CLIP3: "LUNARBW HEAVY-2 Buckshot Clip"
+      STR_SELENITESBULLET1HEAVY3CLIP3: "LUNARBW HEAVY-3 Buckshot Clip"
+
 
 #### JOVIANS EMPIRE
 
@@ -2969,7 +3092,7 @@ en-US:
       STR_JOVIANBULLSEYEP1: Bullseye Pistol MK1 #Extended
       STR_JOVIANBULLSEYESMG1: Bullseye SMG MK1 #Extended
       STR_JOVIANBULLSEYECAR1: Bullseye Carbine MK1 #Extended
-      STR_JOVIANBULLSEYERIF1: Bullseye wRifle MK1 #Extended
+      STR_JOVIANBULLSEYERIF1: Bullseye Rifle MK1 #Extended
       STR_JOVIANBULLSEYEGUN1: Bullseye Gunner MK1 #Mod
       STR_JOVIANBULLSEYEHVY1: Bullseye Sniper MK1 #Extended
       STR_JOVIANBULLSEYESNP1: Bullseye Heavy MK1 #Mod
@@ -3354,6 +3477,8 @@ en-US:
       STR_OCTASAPIEN_FIGHTER6: ""
       STR_OCTASAPIEN_FIGHTER7: ""
       STR_OCTASAPIEN_FIGHTER8: ""
+      STR_OCTASAPIEN_FIGHTER9: ""
+      STR_OCTASAPIEN_FIGHTER10:
       STR_OCTASAPIEN_SPACEFLEET1: ""
       STR_OCTASAPIEN_SPACEFLEET2: ""
       STR_OCTASAPIEN_SPACEFLEET3: ""
@@ -3362,6 +3487,8 @@ en-US:
       STR_OCTASAPIEN_SPACEFLEET6: ""
       STR_OCTASAPIEN_SPACEFLEET7: ""
       STR_OCTASAPIEN_SPACEFLEET8: ""
+      STR_OCTASAPIEN_SPACEFLEET9: ""
+      STR_OCTASAPIEN_SPACEFLEET10: ""
 # Impossible to shoot down;  Hypersonic
       STR_OCTASAPIEN_PROJECTILE1: "Thermal Heat Laser Beam"
       STR_OCTASAPIEN_PROJECTILE1WIKI: "This energy beam is difficult to intercept or evade from long-range precision weapons. The light is noticeable to locate the origin of the laser beam trace."
@@ -3882,7 +4009,7 @@ en-US:
       STR_OCTASAPIENELECTRIC1WEAPON4CLIP3: OS Electric Heavy EMP Clip
       #Electric Infinite
       STR_OCTASAPIENELECTRIC2WEAPON1: OS Megatron Pistol
-      STR_OCTASAPIENELECTRIC2WEAPON2: OS Megatronc SMG
+      STR_OCTASAPIENELECTRIC2WEAPON2: OS Megatron SMG
       STR_OCTASAPIENELECTRIC2WEAPON3: OS Megatron Rifle
       STR_OCTASAPIENELECTRIC2WEAPON4: OS Megatron Heavy
       STR_OCTASAPIENELECTRIC2WEAPON1CLIP1: OS Megatron Pistol ES Clip
@@ -4054,24 +4181,259 @@ en-US:
       ########### End of Octasapien Weapon
       ### Ocatsapien Allies Weapons
       ####End of Octasapien Faction
+
+      #######Additional Factions as Optional
       ####LYLAT: Canine; Feline; Batsuine; Kitsuine; Avians; Minotaur; Equine; Fossa in a complete final form with spines and tailless. (Reference: Starfox, Sonic, and Anthro Art.)
       STR_LYLATMOBIUSNSHIELD1: LM High Tier Physical Shield
       STR_LYLATMOBIUSNSHIELD2: LM Ballistic Shield
       STR_LYLATMOBIUSNSHIELD3: LM Gravity Shield
       STR_LYLATMOBIUSNSHILED4: LM Plasma Shield
       STR_LYLATMOBIUSNSHIELD5: LM-IPGM Void Shield
+      #####Lylat Mobains Supplies
+      STR_LYLATMOBIUSFOOD1: LYMB-Food Cans
+      STR_LYLATMOBIUSFOOD2: LYMB-Food Box
+      STR_LYLATMOBIUSFOOD3: LYMB-Food Backpack
+      STR_LYLATMOBIUSFOOD4: LYMB-Medstims
+      STR_LYLATMOBIUSFOOD5: LYMB-Medbackpack
+      STR_LYLATMOBIUSFOOD6: LYMB-Medical bag
+      STR_LYLATMOBIUSFOOD7: LYMB-DZGA MED-Kit
+      STR_LYLATMOBIUSFOOD8: LYMB-Medical Gel
+      STR_LYLATMOBIUSFOOD9: LYMB-Personal Data
+      STR_LYLATMOBIUSFOOD10: LYMB-Stress Reliver
+      ####Main Operator Terminal: Host Entity Role; Darkest of Days
+      STR_DAYDARKNESSFACTION: ""
+      ##### Armor + Camo
+      STR_KRONOTEKAGENTKOELL1: "Koell Battle Armor"
+      STR_KRONOTEKAGENTKOELL2: "Koell Camo Armor"
+      STR_KRONOTEKAGENTKOELL3: "Koell Jump Jets" #Camoflauge and Jetpacks
+      STR_KRONOTEKAGENTKOELL4: "Koell Legionaire"
+      ##### Armor + E Shields
+      STR_KRONOTEKAGENTVICTO1: "Victo Battle Armor"
+      STR_KRONOTEKAGENTVICTO2: "Victo E-Shield Armor"
+      STR_KRONOTEKAGENTVICTO3: "Victo Juggernaut Suit"
+      STR_KRONOTEKAGENTVICTO4: "Victo Legionaire"
+      ##### Krono Tek Weapons
+      STR_KRONOTEKBALLISTICS1: Kronotek Tungsten Carbide
+      STR_KRONOTEKBALLISTICS2: Kronotek ZGA Ballistics
+      ##### KronoKoell Weapons
+      ##### High Performance
+      STR_KRONOKOELLBW1DNGR1P1: DNGR-P1
+      STR_KRONOKOELLBW1DNGR1P2: DNGR-P2
+      STR_KRONOKOELLBW1DNGR1P3: DNGR-P3
+      STR_KRONOKOELLBW1DNGR1P1CLIP1: DNGR-P1 Clip
+      STR_KRONOKOELLBW1DNGR1P2CLIP1: DNGR-P2 Clip
+      STR_KRONOKOELLBW1DNGR1P3CLIP1: DNGR-P3 Clip
+      STR_KRONOKOELLBW1DNGR1P1CLIP2: DNGR-P1 FMJH Clip
+      STR_KRONOKOELLBW1DNGR1P2CLIP2: DNGR-P2 FMJH Clip
+      STR_KRONOKOELLBW1DNGR1P3CLIP2: DNGR-P3 FMJH Clip
+      STR_KRONOKOELLBW1DNGR1P1CLIP3: DNGR-P1 ZGA Clip
+      STR_KRONOKOELLBW1DNGR1P2CLIP3: DNGR-P2 ZGA Clip
+      STR_KRONOKOELLBW1DNGR1P3CLIP3: DNGR-P3 ZGA Clip
+      STR_KRONOKOELLBW1R55AR1: R55AR1-V1 Sight
+      STR_KRONOKOELLBW1R55AR2: R55AR1-V2 Extend
+      STR_KRONOKOELLBW1R55AR3: R55AR1-V3 Barrel
+      STR_KRONOKOELLBW1R55AR1CLIP1: BW1R55AR11 Clip
+      STR_KRONOKOELLBW1R55AR2CLIP1: BW1R55AR12 Clip
+      STR_KRONOKOELLBW1R55ARP3CLIP1: BW1R55AR13 Clip
+      STR_KRONOKOELLBW1R55ARP1CLIP2: BW1R55AR11 FMJH Clip
+      STR_KRONOKOELLBW1R55ARP2CLIP2: BW1R55AR12 FMJH Clip
+      STR_KRONOKOELLBW1R55ARP3CLIP2: BW1R55AR13 FMJH Clip
+      STR_KRONOKOELLBW1R55ARP1CLIP3: BW1R55AR11 ZGA Clip
+      STR_KRONOKOELLBW1R55ARP2CLIP3: BW1R55AR12 ZGA Clip
+      STR_KRONOKOELLBW1R55ARP3CLIP3: BW1R55AR13 ZGA Clip
+      STR_KRONOKOELLBW1CO7SHOTGUN1: CO7-1 Pump Shotgun
+      STR_KRONOKOELLBW1CO7SHOTGUN2: CO7-2 Shotgun
+      STR_KRONOKOELLBW1CO7SHOTGUN3: CO7-3 AutoShotgun
+      STR_KRONOKOELLBW1CO7SHOTGUN1CLIP1: CO7SHOTGUN1 Buckshot Clip
+      STR_KRONOKOELLBW1CO7SHOTGUN2CLIP1: CO7SHOTGUN2 Buckshot Clip
+      STR_KRONOKOELLBW1CO7SHOTGUNP3CLIP1: CO7SHOTGUN3 Buckshot Clip
+      STR_KRONOKOELLBW1CO7SHOTGUNP1CLIP2: CO7SHOTGUN1 Slug Clip
+      STR_KRONOKOELLBW1CO7SHOTGUNP2CLIP2: CO7SHOTGUN2 Slug Clip
+      STR_KRONOKOELLBW1CO7SHOTGUNP3CLIP2: CO7SHOTGUN3 Slug Clip
+      STR_KRONOKOELLBW1CO7SHOTGUNP1CLIP3: CO7SHOTGUN1 Incendiary Clip
+      STR_KRONOKOELLBW1CO7SHOTGUNP2CLIP3: CO7SHOTGUN2 Incendiary Clip
+      STR_KRONOKOELLBW1CO7SHOTGUNP3CLIP3: CO7SHOTGUN3 Incendiary Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG1: Auto-mark P-60 SMG-1
+      STR_KRONOKOELLBW1AUTOMP60SMG2: Auto-mark P-60 SMG-2 Chain
+      STR_KRONOKOELLBW1AUTOMP60SMG3: Auto-mark P-60 SMG-3 Mobile
+      STR_KRONOKOELLBW1AUTOMP60SMG1CLIP1: AMP-60 SMG1 Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG2CLIP1: AMP-60 SMG2 Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG3CLIP1: AMP-60 SMG3 Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG1CLIP2: AMP-60 SMG1 Tech Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG2CLIP2: AMP-60 SMG2 Tech Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG3CLIP2: AMP-60 SMG3 Tech Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG1CLIP3: AMP-60 SMG1 ZGA Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG2CLIP3: AMP-60 SMG2 ZGA Clip
+      STR_KRONOKOELLBW1AUTOMP60SMG3CLIP3: AMP-60 SMG3 ZGA Clip
+      STR_KRONOKOELLBW1DNGRSNIPER1: DNGR Sniper Smart-1
+      STR_KRONOKOELLBW1DNGRSNIPER2: DNGR Anti-Material Smart-2
+      STR_KRONOKOELLBW1DNGRSNIPER3: DNGR Gunner Smart-3
+      STR_KRONOKOELLBW1DNGRSNIPER1CLIP1: DNGRSS1 Clip
+      STR_KRONOKOELLBW1DNGRSNIPER2CLIP1: DNGRAMS2 Clip
+      STR_KRONOKOELLBW1DNGRSNIPER3CLIP1: DNGRGS3 Clip
+      STR_KRONOKOELLBW1DNGRSNIPER1CLIP2: DNGRSS1 Tech Clip
+      STR_KRONOKOELLBW1DNGRSNIPER2CLIP2: DNGRAMS2 Tech Clip
+      STR_KRONOKOELLBW1DNGRSNIPER3CLIP2: DNGRGS3 Tech Clip
+      STR_KRONOKOELLBW1DNGRSNIPER1CLIP3: DNGRSS1 ZGA Clip
+      STR_KRONOKOELLBW1DNGRSNIPER2CLIP3: DNGRAMS2 ZGA Clip
+      STR_KRONOKOELLBW1DNGRSNIPER3CLIP3: DNGRGS3 ZGA Clip
+      STR_KRONOKOELLBW1FMGCANNON1: FMG Auto Cannon
+      STR_KRONOKOELLBW1FMGCANNON2: FMG BW1 Cannon
+      STR_KRONOKOELLBW1FMGCANNON3: FMG Modded Cannon
+      STR_KRONOKOELLBW1FMGCANNON1CLIP1: FMG Auto Cannon Clip
+      STR_KRONOKOELLBW1FMGCANNON2CLIP1: FMG BW1 Cannon Clip
+      STR_KRONOKOELLBW1FMGCANNON3CLIP1: FMG Modded Cannon Clip
+      STR_KRONOKOELLBW1FMGCANNON1CLIP2: FMG Auto Cannon Tech Clip
+      STR_KRONOKOELLBW1FMGCANNON2CLIP2: FMG BW1 Cannon Tech Clip
+      STR_KRONOKOELLBW1FMGCANNON3CLIP2: FMG Modded Cannon Tech Clip
+      STR_KRONOKOELLBW1FMGCANNON1CLIP3: FMG Auto Cannon ZGA Clip
+      STR_KRONOKOELLBW1FMGCANNON2CLIP3: FMG BW1 Cannon ZGA Clip
+      STR_KRONOKOELLBW1FMGCANNON3CLIP3: FMG Modded Cannon ZGA Clip
+      ##### High Performance
+      STR_KRONOKOELLBW2DNGR1P1: DNGR2-P1
+      STR_KRONOKOELLBW2DNGR1P2: DNGR2-P2
+      STR_KRONOKOELLBW2DNGR1P3: DNGR2-P3
+      STR_KRONOKOELLBW2DNGR1P1CLIP1: DNGR2-P1 Clip
+      STR_KRONOKOELLBW2DNGR1P2CLIP1: DNGR2-P2 Clip
+      STR_KRONOKOELLBW2DNGR1P3CLIP1: DNGR2-P3 Clip
+      STR_KRONOKOELLBW2DNGR1P1CLIP2: DNGR2-P1 FMJH Clip
+      STR_KRONOKOELLBW2DNGR1P2CLIP2: DNGR2-P2 FMJH Clip
+      STR_KRONOKOELLBW2DNGR1P3CLIP2: DNGR2-P3 FMJH Clip
+      STR_KRONOKOELLBW2DNGR1P1CLIP3: DNGR2-P1 ZGA Clip
+      STR_KRONOKOELLBW2DNGR1P2CLIP3: DNGR2-P2 ZGA Clip
+      STR_KRONOKOELLBW2DNGR1P3CLIP3: DNGR2-P3 ZGA Clip
+      STR_KRONOKOELLBW2R55AR1: R55AR2-V1 Sight
+      STR_KRONOKOELLBW2R55AR2: R55AR2-V2 Extend
+      STR_KRONOKOELLBW2R55AR3: R55AR2-V3 Barrel
+      STR_KRONOKOELLBW2R55AR1CLIP1: BW2R55AR21 Clip
+      STR_KRONOKOELLBW2R55AR2CLIP1: BW2R55AR22 Clip
+      STR_KRONOKOELLBW2R55ARP3CLIP1: BW2R55AR23 Clip
+      STR_KRONOKOELLBW2R55ARP1CLIP2: BW2R55AR21 FMJH Clip
+      STR_KRONOKOELLBW2R55ARP2CLIP2: BW2R55AR22 FMJH Clip
+      STR_KRONOKOELLBW2R55ARP3CLIP2: BW2R55AR23 FMJH Clip
+      STR_KRONOKOELLBW2R55ARP1CLIP3: BW2R55AR21 ZGA Clip
+      STR_KRONOKOELLBW2R55ARP2CLIP3: BW2R55AR22 ZGA Clip
+      STR_KRONOKOELLBW2R55ARP3CLIP3: BW2R55AR13 ZGA Clip
+      STR_KRONOKOELLBW2CO7SHOTGUN1: CO8-1 Pump Shotgun
+      STR_KRONOKOELLBW2CO7SHOTGUN2: CO8-2 Shotgun
+      STR_KRONOKOELLBW2CO7SHOTGUN3: CO8-3 AutoShotgun
+      STR_KRONOKOELLBW2CO7SHOTGUN1CLIP1: CO8SHOTGUN1 Buckshot Clip
+      STR_KRONOKOELLBW2CO7SHOTGUN2CLIP1: CO8SHOTGUN2 Buckshot Clip
+      STR_KRONOKOELLBW2CO7SHOTGUNP3CLIP1: CO8SHOTGUN3 Buckshot Clip
+      STR_KRONOKOELLBW2CO7SHOTGUNP1CLIP2: CO8SHOTGUN1 Slug Clip
+      STR_KRONOKOELLBW2CO7SHOTGUNP2CLIP2: CO8SHOTGUN2 Slug Clip
+      STR_KRONOKOELLBW2CO7SHOTGUNP3CLIP2: CO8SHOTGUN3 Slug Clip
+      STR_KRONOKOELLBW2CO7SHOTGUNP1CLIP3: CO8SHOTGUN1 Incendiary Clip
+      STR_KRONOKOELLBW2CO7SHOTGUNP2CLIP3: CO8SHOTGUN2 Incendiary Clip
+      STR_KRONOKOELLBW2CO7SHOTGUNP3CLIP3: CO8SHOTGUN3 Incendiary Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG1: Auto-mark P-62 SMG-1
+      STR_KRONOKOELLBW2AUTOMP60SMG2: Auto-mark P-62 SMG-2 Chain
+      STR_KRONOKOELLBW2AUTOMP60SMG3: Auto-mark P-62 SMG-3 Mobile
+      STR_KRONOKOELLBW2AUTOMP60SMG1CLIP1: AMP-62 SMG1 Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG2CLIP1: AMP-62 SMG2 Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG3CLIP1: AMP-62 SMG3 Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG1CLIP2: AMP-62 SMG1 Tech Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG2CLIP2: AMP-62 SMG2 Tech Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG3CLIP2: AMP-62 SMG3 Tech Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG1CLIP3: AMP-62 SMG1 ZGA Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG2CLIP3: AMP-62 SMG2 ZGA Clip
+      STR_KRONOKOELLBW2AUTOMP60SMG3CLIP3: AMP-62 SMG3 ZGA Clip
+      STR_KRONOKOELLBW2DNGRSNIPER1: DNGR2 Sniper Smart-1
+      STR_KRONOKOELLBW2DNGRSNIPER2: DNGR2 Anti-Material Smart-2
+      STR_KRONOKOELLBW2DNGRSNIPER3: DNGR2 Gunner Smart-3
+      STR_KRONOKOELLBW2DNGRSNIPER1CLIP1: DNGR2SS1 Clip
+      STR_KRONOKOELLBW2DNGRSNIPER2CLIP1: DNGR2AMS2 Clip
+      STR_KRONOKOELLBW2DNGRSNIPER3CLIP1: DNGR2GS3 Clip
+      STR_KRONOKOELLBW2DNGRSNIPER1CLIP2: DNGR2SS1 Tech Clip
+      STR_KRONOKOELLBW2DNGRSNIPER2CLIP2: DNGR2AMS2 Tech Clip
+      STR_KRONOKOELLBW2DNGRSNIPER3CLIP2: DNGR2GS3 Tech Clip
+      STR_KRONOKOELLBW2DNGRSNIPER1CLIP3: DNGR2SS1 ZGA Clip
+      STR_KRONOKOELLBW2DNGRSNIPER2CLIP3: DNGR2AMS2 ZGA Clip
+      STR_KRONOKOELLBW2DNGRSNIPER3CLIP3: DNGR2GS3 ZGA Clip
+      STR_KRONOKOELLBW2FMGCANNON1: FMG2 Auto Cannon
+      STR_KRONOKOELLBW2FMGCANNON2: FMG2 BW2 Cannon
+      STR_KRONOKOELLBW2FMGCANNON3: FMG2 Modded Cannon
+      STR_KRONOKOELLBW2FMGCANNON1CLIP1: FMG2 Auto Cannon Clip
+      STR_KRONOKOELLBW2FMGCANNON2CLIP1: FMG2 BW2 Cannon Clip
+      STR_KRONOKOELLBW2FMGCANNON3CLIP1: FMG2 Modded Cannon Clip
+      STR_KRONOKOELLBW2FMGCANNON1CLIP2: FMG2 Auto Cannon Tech Clip
+      STR_KRONOKOELLBW2FMGCANNON2CLIP2: FMG2 BW2 Cannon Tech Clip
+      STR_KRONOKOELLBW2FMGCANNON3CLIP2: FMG2 Modded Cannon Tech Clip
+      STR_KRONOKOELLBW2FMGCANNON1CLIP3: FMG2 Auto Cannon ZGA Clip
+      STR_KRONOKOELLBW2FMGCANNON2CLIP3: FMG2 BW2 Cannon ZGA Clip
+      STR_KRONOKOELLBW2FMGCANNON3CLIP3: FMG2 Modded Cannon ZGA Clip
+      ############Laser Weapons
+      STR_KRONOKOELLLASER1P1: FMGL1-P1
+      STR_KRONOKOELLLASER1SMG1: FMGL1-SMG1
+      STR_KRONOKOELLLASER1CAR1: FMGL1-CAR1
+      STR_KRONOKOELLLASER1RIF1: FMGL1-RIF1
+      STR_KRONOKOELLLASER1SNP1: FMGL1-SNP1
+      STR_KRONOKOELLLASER1GUN1: FMGL1-GUN1
+      STR_KRONOKOELLLASER1HVY1: FMGL1-HVY1
+      STR_KRONOKOELLLASER1P1CLIP1: FMGL1-P1 Battery
+      STR_KRONOKOELLLASER1SMG1CLIP1: FMGL1-SMG1 Battery
+      STR_KRONOKOELLLASER1CAR1CLIP1: FMGL1-CAR1 Battery
+      STR_KRONOKOELLLASER1RIF1CLIP1: FMGL1-RIF1 Battery
+      STR_KRONOKOELLLASER1SNP1CLIP1: FMGL1-SNP1 Battery
+      STR_KRONOKOELLLASER1GUN1CLIP1: FMGL1-GUN1 Battery
+      STR_KRONOKOELLLASER1HVY1CLIP1: FMGL1-HVY1 Battery
+      STR_KRONOKOELLLASER1P1CLIP2: FMGL1-P1 Enhanced
+      STR_KRONOKOELLLASER1SMG1CLIP2: FMGL1-SMG1 Enhanced
+      STR_KRONOKOELLLASER1CAR1CLIP2: FMGL1-CAR1 Enhanced
+      STR_KRONOKOELLLASER1RIF1CLIP2: FMGL1-RIF1 Enhanced
+      STR_KRONOKOELLLASER1SNP1CLIP2: FMGL1-SNP1 Enhanced
+      STR_KRONOKOELLLASER1GUN1CLIP2: FMGL1-GUN1 Enhanced
+      STR_KRONOKOELLLASER1HVY1CLIP2: FMGL1-HVY1 Enhanced
+      STR_KRONOKOELLLASER1P1CLIP3: FMGL1-P1 Module #Rechargable Plus Blast
+      STR_KRONOKOELLLASER1SMG1CLIP3: FMGL1-SMG1 Module #Rechargable Plus Blast
+      STR_KRONOKOELLLASER1CAR1CLIP3: FMGL1-CAR1 Module #Rechargable Plus Blast
+      STR_KRONOKOELLLASER1RIF1CLIP3: FMGL1-RIF1 Module #Rechargable Plus Blast
+      STR_KRONOKOELLLASER1SNP1CLIP3: FMGL1-SNP1 Module #Rechargable Plus Blast
+      STR_KRONOKOELLLASER1GUN1CLIP3: FMGL1-GUN1 Module #Rechargable Plus Blast
+      STR_KRONOKOELLLASER1HVY1CLIP3: FMGL1-HVY1 Module #Rechargable Plus Blast
+      #############Grenades
+      #############Mines
+      #############Explosives
+      #############RocketLauncher
+      STR_MA22LAUNCHER: MA-22 Launcher #20 Round
+      STR_MA22LAUNCHERCLIP1: MA22 AP Round
+      STR_MA22LAUNCHERCLIP2: MA22 ZGA Round
+      STR_MA22LAUNCHERCLIP3: MA22 HE TML Ammo
+      STR_MA22LAUNCHERCLIP4: MA22 Flare Ammo
+      STR_MA22LAUNCHERCLIP5: MA22 Incendiary Ammo
+      STR_MA22LAUNCHERCLIP6: MA22 ZGA Shrapnel
+      STR_RF11LAUNCHER: RF-11 Launcher #2 Round
+      STR_RF11LAUNCHERCLIP1: RF-11 AP Round
+      STR_RF11LAUNCHERCLIP2: RF-11 ZGA Round
+      STR_RF11LAUNCHERCLIP3: RF-11 HE TML Ammo
+      STR_RF11LAUNCHERCLIP4: RF-11 Flare Ammo
+      STR_RF11LAUNCHERCLIP5: RF-11 Incend Ammo
+      STR_RF11LAUNCHERCLIP6: RF-11 ZGA Shrapnel
+      #####Kronos Supplies
+      STR_KRONOFOOD1: KRONO-Food Cans
+      STR_KRONOFOOD2: KRONO-Food Box
+      STR_KRONOFOOD3: KRONO-Food Backpack
+      STR_KRONOFOOD4: KRONO-Medstims
+      STR_KRONOFOOD5: KRONO-Medbackpack
+      STR_KRONOFOOD6: KRONO-Medical bag
+      STR_KRONOFOOD7: KRONO-DZGA MED-Kit
+      STR_KRONOFOOD8: KRONO-Medical Gel
+      STR_KRONOFOOD9: KRONO-Personal Data
+      STR_KRONOFOOD10: KRONO-Stress Reliver
 
-      STR_LYLATMOBIUSNFOOD1: OS-Food Cans
-      STR_LYLATMOBIUSFOOD2: OS-Food Box
-      STR_LYLATMOBIUSFOOD3: OS-Food Backpack
-      STR_LYLATMOBIUSFOOD4: OS-Medstims
-      STR_LYLATMOBIUSFOOD5: OS-Medbackpack
-      STR_LYLATMOBIUSFOOD6: OS-Medical bag
-      STR_LYLATMOBIUSFOOD7: OS-DZGA MED-Kit
-      STR_LYLATMOBIUSFOOD8: OS-Medical Gel
-      STR_LYLATMOBIUSFOOD9: OS-Personal Data
-      STR_LYLATMOBIUSFOOD10: OS-Stress Reliver
-      ####Main Operator Terminal Host Entity Rational
+
+      ##### KronoVictor Weapons
+      ##### High Performance
+
+
+
+
+
+
+
+
+
+
 
 
 
