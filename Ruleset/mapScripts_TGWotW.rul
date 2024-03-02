@@ -1,8 +1,8 @@
 mapScripts:
   - type: STR_CRAFT_DEPLOYMENT_PREVIEW
     commands:
-    - type: addCraft
-    - type: fillArea
+      - type: addCraft
+      - type: fillArea
 ####################################
 ########## STORY MISSIONS #########
 ##################################
@@ -10,306 +10,306 @@ mapScripts:
 
   - type: VERDUN_SCRIPT                                    # trenches - test
     commands:
-    - type: addLine # adds the row of trenches
-      label: 1
-      conditionals: -1
-      # executionChances: 100
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addLine
-      direction: vertical
-      # executionChances: 100
-      groups: 3
-      rects:
-        - [1, 1, 1, 3]
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      executionChances: 100
-      groups: 4
-      rects:
-        - [1, 1, 1, 3]
-    - type: addCraft
-      executions: 1
-      groups: 1
-    - type: addUFO
-      groups: 1
-      executions: 1
-    - type: addUFO
-      UFOName: STR_BUNKER_SMALL
-    - type: addUFO
-      UFOName: STR_BUNKER_SMALL
-    - type: fillArea
+      - type: addLine # adds the row of trenches
+        label: 1
+        conditionals: -1
+        # executionChances: 100
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addLine
+        direction: vertical
+        # executionChances: 100
+        groups: 3
+        rects:
+          - [1, 1, 1, 3]
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+        executionChances: 100
+        groups: 4
+        rects:
+          - [1, 1, 1, 3]
+      - type: addCraft
+        executions: 1
+        groups: 1
+      - type: addUFO
+        groups: 1
+        executions: 1
+      - type: addUFO
+        UFOName: STR_BUNKER_SMALL
+      - type: addUFO
+        UFOName: STR_BUNKER_SMALL
+      - type: fillArea
   - type: TRENCH_FORTS_VERDUN                                 # trenches - test
     commands:
-    - type: addUFO
-      UFOName: STR_BUNKER_SPAWN
-      executions: 1
-    - type: addLine # adds the row of trenches
-      label: 1
-      conditionals: -1
-      executionChances: 100
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addBlock # test - large block
-      groups: 4
-      executionChances: 99
-      size: 2
-      maxUses: 1
-    - type: fillArea
+      - type: addUFO
+        UFOName: STR_BUNKER_SPAWN
+        executions: 1
+      - type: addLine # adds the row of trenches
+        label: 1
+        conditionals: -1
+        executionChances: 100
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addBlock # test - large block
+        groups: 4
+        executionChances: 99
+        size: 2
+        maxUses: 1
+      - type: fillArea
   - type: VILLAGE_VERDUN
     commands:
-    - type: addCraft
-      #executions: 1
-#    - type: addCraft
-      craftName: STR_BUNKER_SPAWN
-      executions: 1
-    - type: addLine
-      label: 1
-      direction: horizontal
-      executionChances: 33
-    - type: addLine
-      label: 2
-      direction: vertical
-      conditionals: -1
-      executionChances: 50
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addBlock
-      size: 2
-      executions: 6
-    - type: fillArea
+      - type: addCraft
+        #executions: 1
+#     - type: addCraft
+        craftName: STR_BUNKER_SPAWN
+        executions: 1
+      - type: addLine
+        label: 1
+        direction: horizontal
+        executionChances: 33
+      - type: addLine
+        label: 2
+        direction: vertical
+        conditionals: -1
+        executionChances: 50
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+      - type: addBlock
+        size: 2
+        executions: 6
+      - type: fillArea
 
 ########################################
 
   - type: DEFAULT_TRENCH # forest, mountain
     commands:
-    - type: addUFO
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 0]
-          groups: 1
-        - type: craft
-          size: [1, 1, 4]
-    - type: addCraft
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 0]
-          groups: 1
-        - type: craft
-          size: [1, 1, 4]
-    - type: addBlock
-      size: [2, 2, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 1
-          size: [2, 2, 1]
-        - type: middle
-          size: [2, 2, 4]
-      executions: 2
-    - type: addBlock
-      terrain: DEEPTRENCH
-      size: 1
-      executions: 6
-    - type: fillArea
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 4]
+      - type: addUFO
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 0]
+            groups: 1
+          - type: craft
+            size: [1, 1, 4]
+      - type: addCraft
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 0]
+            groups: 1
+          - type: craft
+            size: [1, 1, 4]
+      - type: addBlock
+        size: [2, 2, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 1
+            size: [2, 2, 1]
+          - type: middle
+            size: [2, 2, 4]
+        executions: 2
+      - type: addBlock
+        terrain: DEEPTRENCH
+        size: 1
+        executions: 6
+      - type: fillArea
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 4]
 
   - type: FARM_MIX
     commands:
-    - type: addUFO
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 0]
-          groups: 1
-        - type: craft
-          size: [1, 1, 4]
-    - type: addCraft
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 0]
-          groups: 1
-        - type: craft
-          size: [1, 1, 4]
-    - type: addBlock
-      terrain: DEEPTRENCH
-      size: 1
-      executions: 5
-    - type: fillArea
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 4]
+      - type: addUFO
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 0]
+            groups: 1
+          - type: craft
+            size: [1, 1, 4]
+      - type: addCraft
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 0]
+            groups: 1
+          - type: craft
+            size: [1, 1, 4]
+      - type: addBlock
+        terrain: DEEPTRENCH
+        size: 1
+        executions: 5
+      - type: fillArea
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 4]
 
   - type: DIRT_TRENCH_MIX_FARM_2
     commands:
-    - type: addCraft
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 0]
-          groups: 1
-        - type: craft
-          size: [1, 1, 4]
-    - type: addUFO
-      size: [1, 1, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 0
-          size: [1, 1, 1]
-        - type: middle
-          size: [1, 1, 0]
-          groups: 1
-        - type: craft
-          size: [1, 1, 4]
-    - type: addBlock
-      size: [2, 2, 5]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 1
-          size: [2, 2, 1]
-        - type: middle
-          size: [2, 2, 4]
-      executions: 2
-    - type: addBlock
-      terrain: DEEPTRENCH
-      size: 1
-      executions: 4
-    - type: fillArea
-      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
-      verticalLevels:
-        - type: ground
-          terrain: DIRT
-          blocks: 1
-          size: [2, 2, 1]
-        - type: middle
-          size: [2, 2, 4]
+      - type: addCraft
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 0]
+            groups: 1
+          - type: craft
+            size: [1, 1, 4]
+      - type: addUFO
+        size: [1, 1, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 0
+            size: [1, 1, 1]
+          - type: middle
+            size: [1, 1, 0]
+            groups: 1
+          - type: craft
+            size: [1, 1, 4]
+      - type: addBlock
+        size: [2, 2, 5]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 1
+            size: [2, 2, 1]
+          - type: middle
+            size: [2, 2, 4]
+        executions: 2
+      - type: addBlock
+        terrain: DEEPTRENCH
+        size: 1
+        executions: 4
+      - type: fillArea
+        blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+        maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+        verticalLevels:
+          - type: ground
+            terrain: DIRT
+            blocks: 1
+            size: [2, 2, 1]
+          - type: middle
+            size: [2, 2, 4]
 
   - type: TRENCH                                    # trenches - test
     commands:
-    - type: addCraft
-      executions: 1
-      groups: 1
-    - type: addUFO
-      groups: 1
-      executions: 1
-    - type: addLine # adds the row of trenches
-      label: 1
-      conditionals: -1
-      executionChances: 100
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addBlock # test - large block
-      groups: 4
-      executionChances: 99
-      size: 2
-      maxUses: 1
-    - type: fillArea
+      - type: addCraft
+        executions: 1
+        groups: 1
+      - type: addUFO
+        groups: 1
+        executions: 1
+      - type: addLine # adds the row of trenches
+        label: 1
+        conditionals: -1
+        executionChances: 100
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addBlock # test - large block
+        groups: 4
+        executionChances: 99
+        size: 2
+        maxUses: 1
+      - type: fillArea
 
   - type: TRENCH_FORTS                                    # trenches - test
     commands:
-    - type: addCraft
-      executions: 1
-      groups: 1
-    - type: addUFO
-      groups: 1
-      executions: 1
-    - type: addUFO
-      UFOName: STR_BUNKER_SMALL
-    - type: addUFO
-      UFOName: STR_BUNKER_SMALL
-    - type: addLine # adds the row of trenches
-      label: 1
-      conditionals: -1
-      executionChances: 100
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addBlock # test - large block
-      groups: 4
-      executionChances: 99
-      size: 2
-      maxUses: 1
-    - type: fillArea
+      - type: addCraft
+        executions: 1
+        groups: 1
+      - type: addUFO
+        groups: 1
+        executions: 1
+      - type: addUFO
+        UFOName: STR_BUNKER_SMALL
+      - type: addUFO
+        UFOName: STR_BUNKER_SMALL
+      - type: addLine # adds the row of trenches
+        label: 1
+        conditionals: -1
+        executionChances: 100
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addBlock # test - large block
+        groups: 4
+        executionChances: 99
+        size: 2
+        maxUses: 1
+      - type: fillArea
 
   - type: S_IDT_VILLAGE
     commands:
-    - type: addCraft
-      groups: 1
-    - type: addUFO
-      groups: 1
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 50
-      rects:
-        - [1, 1, 4, 1]
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [1, 1, 4, 4]
-    - type: addBlock
-      size: 2
-      executions: 2
-    - type: addBlock
-      executions: 1
-      executionChances: 80
-      groups: 5
-    - type: addBlock
-      executions: 1
-      executionChances: 40
-      groups: 5
-    - type: fillArea
+      - type: addCraft
+        groups: 1
+      - type: addUFO
+        groups: 1
+      - type: addLine
+        label: 1
+        direction: vertical
+        executionChances: 50
+        rects:
+          - [1, 1, 4, 1]
+      - type: addLine
+        label: 2
+        conditionals: -1
+        executionChances: 50
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+        rects:
+          - [1, 1, 4, 4]
+      - type: addBlock
+        size: 2
+        executions: 2
+      - type: addBlock
+        executions: 1
+        executionChances: 80
+        groups: 5
+      - type: addBlock
+        executions: 1
+        executionChances: 40
+        groups: 5
+      - type: fillArea
       # URBAN set is lacking blocks 10-13, so the numbers don't correlate properly here,
       # because these are references to the block numbers within the sets, not the file names.
       # blocks: [3, 4, 10, 11, 12, 13, 14]
@@ -317,273 +317,273 @@ mapScripts:
 
   - type: ALIEN_FOREST                     #Luke83 Mapscript -
     commands:
-    - type: addCraft
-    - type: addUFO
-      executions: 1
-    - type: addBlock #Need working large mountains
-      executionChances: 60
-      executions: 2
-      size: 2
-    # - type: addBlock  # Infected Barrels
-    #   groups: 2
-    #   maxUses: 1
-    - type: addBlock
-      groups: 4
-      executionChances: 70
-      maxUses: 4
-    # - type: addBlock  # HILLS - was working
-    #   groups: 5
-    #   executionChances: 40
-    #   maxUses: 4
-    - type: fillArea
-      # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]
-      # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+      - type: addCraft
+      - type: addUFO
+        executions: 1
+      - type: addBlock #Need working large mountains
+        executionChances: 60
+        executions: 2
+        size: 2
+     # - type: addBlock  # Infected Barrels
+     #   groups: 2
+     #   maxUses: 1
+      - type: addBlock
+        groups: 4
+        executionChances: 70
+        maxUses: 4
+     # - type: addBlock  # HILLS - was working
+     #   groups: 5
+     #   executionChances: 40
+     #   maxUses: 4
+      - type: fillArea
+       # blocks: [1, 2, 3, 7, 18, 21, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34]
+       # freqs: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
   - type: RUINED_URBAN                    #Luke83 Mapscript - Ruined Urban
     commands:
-    - type: addCraft
-      terrain: INFESTED
-      executions: 1
-      groups: 1
-    - type: addUFO
-      terrain: INFESTED
-      groups: 1
-      executions: 1
-    - type: addLine  # Trying to add Roads to map
-      terrain: RUINED_URBAN_B
-      label: 1
-      direction: vertical
-      executionChances: 50
-      rects:
-        - [1, 1, 4, 1]
-    - type: addLine # Trying to add Roads to map
-      terrain: RUINED_URBAN_B
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addLine # Trying to add Roads to map
-      terrain: RUINED_URBAN_B
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [1, 1, 4, 4] # Trying to add Roads to map
-    - type: fillArea
+      - type: addCraft
+        terrain: INFESTED
+        executions: 1
+        groups: 1
+      - type: addUFO
+        terrain: INFESTED
+        groups: 1
+        executions: 1
+      - type: addLine # Trying to add Roads to map
+        terrain: RUINED_URBAN_B
+        label: 1
+        direction: vertical
+        executionChances: 50
+        rects:
+          - [1, 1, 4, 1]
+      - type: addLine # Trying to add Roads to map
+        terrain: RUINED_URBAN_B
+        label: 2
+        conditionals: -1
+        executionChances: 50
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addLine # Trying to add Roads to map
+        terrain: RUINED_URBAN_B
+        conditionals: [-1, -2]
+        direction: both
+        rects:
+          - [1, 1, 4, 4] # Trying to add Roads to map
+      - type: fillArea
   - type: MIXED_LAND
     commands:
-    - type: addCraft
-    - type: addUFO
-    - type: addBlock
-      executions: 2
-    - type: addBlock
-      terrain: INFESTED
-      size: 2
-    - type: addUFO
-    - type: addBlock
-      terrain: INFESTED
-      size: 1
-      executions: 2
-    - type: fillArea
+      - type: addCraft
+      - type: addUFO
+      - type: addBlock
+        executions: 2
+      - type: addBlock
+        terrain: INFESTED
+        size: 2
+      - type: addUFO
+      - type: addBlock
+        terrain: INFESTED
+        size: 1
+        executions: 2
+      - type: fillArea
   - type: MIXED_LAND_NO_UFO
     commands:
-    - type: addCraft
-    - type: addBlock
-      groups: 2
-      executions: 2
-    - type: addBlock
-      terrain: INFESTED
-      size: 1
-      executions: 4
-    - type: addBlock
-      terrain: INFESTED
-      size: 2
-      executions: 1
-    - type: fillArea
+      - type: addCraft
+      - type: addBlock
+        groups: 2
+        executions: 2
+      - type: addBlock
+        terrain: INFESTED
+        size: 1
+        executions: 4
+      - type: addBlock
+        terrain: INFESTED
+        size: 2
+        executions: 1
+      - type: fillArea
   - type: VILLAGE
     commands:
-    - type: addLine
-      label: 1
-      direction: horizontal
-      executionChances: 33
-    - type: addLine
-      label: 2
-      direction: vertical
-      conditionals: -1
-      executionChances: 50
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addCraft
-    - type: addUFO
-    - type: addBlock
-      size: 2
-      executions: 6
-    - type: fillArea
+      - type: addLine
+        label: 1
+        direction: horizontal
+        executionChances: 33
+      - type: addLine
+        label: 2
+        direction: vertical
+        conditionals: -1
+        executionChances: 50
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+      - type: addCraft
+      - type: addUFO
+      - type: addBlock
+        size: 2
+        executions: 6
+      - type: fillArea
   - type: VILLAGE_NO_UFO
     commands:
-    - type: addLine
-      label: 1
-      direction: horizontal
-      executionChances: 33
-    - type: addLine
-      label: 2
-      direction: vertical
-      conditionals: -1
-      executionChances: 50
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addCraft
-    - type: addBlock
-      size: 2
-      executions: 6
-    - type: fillArea
+      - type: addLine
+        label: 1
+        direction: horizontal
+        executionChances: 33
+      - type: addLine
+        label: 2
+        direction: vertical
+        conditionals: -1
+        executionChances: 50
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+      - type: addCraft
+      - type: addBlock
+        size: 2
+        executions: 6
+      - type: fillArea
   - type: INFESTED_VILLAGE_NO_UFO
     commands:
-    - type: addLine
-      label: 1
-      direction: horizontal
-      executionChances: 33
-    - type: addLine
-      label: 2
-      direction: vertical
-      conditionals: -1
-      executionChances: 50
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addCraft
+      - type: addLine
+        label: 1
+        direction: horizontal
+        executionChances: 33
+      - type: addLine
+        label: 2
+        direction: vertical
+        conditionals: -1
+        executionChances: 50
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+      - type: addCraft
     #- type: addUFO
-    - type: addBlock
-      terrain: INFESTED
-      size: 1
-      executions: 3
-    - type: addBlock
-      size: 2
-      executions: 6
-    - type: fillArea
+      - type: addBlock
+        terrain: INFESTED
+        size: 1
+        executions: 3
+      - type: addBlock
+        size: 2
+        executions: 6
+      - type: fillArea
   - type: INFESTED_VILLAGE_UFO
     commands:
-    - type: addLine
-      label: 1
-      direction: horizontal
-      executionChances: 33
-    - type: addLine
-      label: 2
-      direction: vertical
-      conditionals: -1
-      executionChances: 50
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-    - type: addCraft
-    - type: addUFO
-    - type: addBlock
-      terrain: INFESTED
-      size: 1
-      executions: 3
-    - type: addBlock
-      size: 2
-      executions: 6
-    - type: fillArea
+      - type: addLine
+        label: 1
+        direction: horizontal
+        executionChances: 33
+      - type: addLine
+        label: 2
+        direction: vertical
+        conditionals: -1
+        executionChances: 50
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+      - type: addCraft
+      - type: addUFO
+      - type: addBlock
+        terrain: INFESTED
+        size: 1
+        executions: 3
+      - type: addBlock
+        size: 2
+        executions: 6
+      - type: fillArea
   - type: URBAN
     commands:
-    - type: addCraft
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 33
-      rects:
-        - [1, 1, 4, 1]
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [1, 1, 4, 4]
-    - type: addBlock
-      size: 2
-      executions: 3
-    - type: fillArea
+      - type: addCraft
+      - type: addLine
+        label: 1
+        direction: vertical
+        executionChances: 33
+        rects:
+          - [1, 1, 4, 1]
+      - type: addLine
+        label: 2
+        conditionals: -1
+        executionChances: 50
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+        rects:
+          - [1, 1, 4, 4]
+      - type: addBlock
+        size: 2
+        executions: 3
+      - type: fillArea
   - type: URBAN_UFO_INFESTED
     commands:
-    - type: addUFO
-    - type: addCraft
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 33
-      rects:
-        - [1, 1, 4, 1]
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [1, 1, 4, 4]
-    - type: addBlock
-      size: 2
-      executions: 3
-    - type: addBlock
-      terrain: INFESTED
-      size: 1
-      executions: 3
-    - type: fillArea
+      - type: addUFO
+      - type: addCraft
+      - type: addLine
+        label: 1
+        direction: vertical
+        executionChances: 33
+        rects:
+          - [1, 1, 4, 1]
+      - type: addLine
+        label: 2
+        conditionals: -1
+        executionChances: 50
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+        rects:
+          - [1, 1, 4, 4]
+      - type: addBlock
+        size: 2
+        executions: 3
+      - type: addBlock
+        terrain: INFESTED
+        size: 1
+        executions: 3
+      - type: fillArea
   - type: URBAN_UFO
     commands:
-    - type: addUFO
-    - type: addCraft
-    - type: addLine
-      label: 1
-      direction: vertical
-      executionChances: 33
-      rects:
-        - [1, 1, 4, 1]
-    - type: addLine
-      label: 2
-      conditionals: -1
-      executionChances: 50
-      direction: horizontal
-      rects:
-        - [1, 1, 1, 4]
-    - type: addLine
-      conditionals: [-1, -2]
-      direction: both
-      rects:
-        - [1, 1, 4, 4]
-    - type: addBlock
-      size: 2
-      executions: 3
-    - type: fillArea
+      - type: addUFO
+      - type: addCraft
+      - type: addLine
+        label: 1
+        direction: vertical
+        executionChances: 33
+        rects:
+          - [1, 1, 4, 1]
+      - type: addLine
+        label: 2
+        conditionals: -1
+        executionChances: 50
+        direction: horizontal
+        rects:
+          - [1, 1, 1, 4]
+      - type: addLine
+        conditionals: [-1, -2]
+        direction: both
+        rects:
+          - [1, 1, 4, 4]
+      - type: addBlock
+        size: 2
+        executions: 3
+      - type: fillArea
 
 #####################################
 ####### RAILROAD MAPSCRIPTS ########
 ###################################
   - type: FOREST_RAIL
     commands:
-    - type: addLine  # Trying to add Roads to map
-      groups: 3
-      label: 1
-      direction: vertical
-      executionChances: 99
-      rects:
-        - [1, 1, 4, 1]
-    - type: addCraft
-      executions: 1
-      groups: 1
-    - type: addUFO
-      executions: 1
-    - type: fillArea
+      - type: addLine  # Trying to add Roads to map
+        groups: 3
+        label: 1
+        direction: vertical
+        executionChances: 99
+        rects:
+          - [1, 1, 4, 1]
+      - type: addCraft
+        executions: 1
+        groups: 1
+      - type: addUFO
+        executions: 1
+      - type: fillArea

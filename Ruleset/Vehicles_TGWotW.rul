@@ -829,10 +829,10 @@ crafts:
           fuseTimers:
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
-              - position: [3, 14, 6]
-                amount: 5
-                mixed: true
-                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+            - position: [3, 14, 6]
+              amount: 5
+              mixed: true
+              itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [4, 2, 6]
     deployment:
 # Frontal gondola
@@ -909,10 +909,10 @@ crafts:
           fuseTimers:
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
-              - position: [3, 14, 6]
-                amount: 5
-                mixed: true
-                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+            - position: [3, 14, 6]
+              amount: 5
+              mixed: true
+              itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [4, 2, 6]
     deployment:
 # Frontal gondola
@@ -997,10 +997,10 @@ crafts:
           fuseTimers:
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
-              - position: [6, 0, 2]
-                amount: 2
-                mixed: true
-                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+            - position: [6, 0, 2]
+              amount: 2
+              mixed: true
+              itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [3, 12, 2]
     deployment:
 # First walker
@@ -1096,10 +1096,10 @@ crafts:
           fuseTimers:
             STR_6PDR_VEHICLE_TURRET_SPAWNER: [0, 0]
           randomizedItems:
-              - position: [5, 2, 2]
-                amount: 2
-                mixed: true
-                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+            - position: [5, 2, 2]
+              amount: 2
+              mixed: true
+              itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [1, 7, 4]
     deployment:
 # First walker
@@ -1175,10 +1175,10 @@ crafts:
             STR_6PDR_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
-              - position: [4, 7, 3]
-                amount: 2
-                mixed: true
-                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+            - position: [4, 7, 3]
+              amount: 2
+              mixed: true
+              itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [4, 8, 3]
     deployment:
 # First walker
@@ -1270,10 +1270,10 @@ crafts:
             STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
-              - position: [4, 3, 3]
-                amount: 2
-                mixed: true
-                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+            - position: [4, 3, 3]
+              amount: 2
+              mixed: true
+              itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [3, 4, 3]
     deployment:
 # First walker
@@ -1352,10 +1352,10 @@ crafts:
             STR_8_8CM_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_ZEPPELIN_TURRET_SPAWNER: [0, 0]
           randomizedItems:
-              - position: [6, 8, 4]
-                amount: 2
-                mixed: true
-                itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
+            - position: [6, 8, 4]
+              amount: 2
+              mixed: true
+              itemList: [STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_MAXIM_MG_DRUM, STR_TURRET_INTERACTION_ITEM]
     craftInventoryTile: [8, 8, 3]
     deployment:
 # First walker
@@ -2832,35 +2832,35 @@ items:
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_AUX_FUEL_TANK
+      - STR_AUX_FUEL_TANK
   - type: STR_AUX_ROCKET_TURBINE_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_AUX_ROCKET_TURBINE
+      - STR_AUX_ROCKET_TURBINE
   - type: STR_AUX_TARGETING_SIGHTS_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_AUX_TARGETING_SIGHTS
+      - STR_AUX_TARGETING_SIGHTS
   - type: STR_AUX_ARMOR_PLATES_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_AUX_ARMOR_PLATES
+      - STR_AUX_ARMOR_PLATES
   - type: STR_AUX_KMM_ROUNDS_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
 
   - type: STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER
     size: 1.0
@@ -2868,21 +2868,21 @@ items:
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_ALIENS_ONLY
+      - STR_ALIENS_ONLY
   - type: STR_VEHICLE_8_8CM_TURRET_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_ALIENS_ONLY
+      - STR_ALIENS_ONLY
   - type: STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER
     size: 1.0
     costBuy: 35000
     costSell: 37500
     transferTime: 48
     requires:
-     - STR_ALIENS_ONLY
+      - STR_ALIENS_ONLY
 
 
 

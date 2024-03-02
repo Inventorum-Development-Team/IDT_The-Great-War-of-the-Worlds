@@ -66,7 +66,7 @@ alienMissions:
     siteType: STR_CAMPAIGN_VERDUN_VOIE_SACREE
     raceWeights:
       0:
-          STR_SECTOID: 100
+        STR_SECTOID: 100
     waves:
       - ufo: STR_CAMPAIGN_VERDUN_VOIE_SACREE
         count: 1
