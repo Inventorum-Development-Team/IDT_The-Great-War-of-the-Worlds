@@ -2926,6 +2926,10 @@ items:
     invHeight: 0
     recover: false
 
+###### Kiroxeis Spot
+
+
+
 
 extraSprites:
 # "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
@@ -3020,6 +3024,10 @@ extraSprites:
       534: Resources/Mechs/Praetorian_base9.png
       535: Resources/Mechs/Praetorian_base10.png
       536: Resources/Mechs/Praetorian_base11.png
+
+###### Kiroxeis Spot
+
+
   - type: INTICON.PCK
     files:
       99: Resources/Crafts/March_minimised.png
@@ -3198,6 +3206,12 @@ extraSprites:
       512: Resources/Mechs/Praetorian_dogfight.png
       513: Resources/Mechs/Praetorian_dogfight.png
       514: Resources/Mechs/Praetorian_dogfight.png
+
+###### Kiroxeis Spot
+
+
+
+
 #Craft weapons
   - type: BASEBITS.PCK
     files:

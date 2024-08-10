@@ -2402,6 +2402,13 @@ en-US:
       STR_1913_COUNTERATTACK_2: "1913 Counterattack"
       STR_1913_COUNTERATTACK_UFOPEDIA_1: "Mankind met its darkest hour in 1912 after losing several times against the Martians. The casualties were counted by thousands after several futile attacks. Hope was lost and human armies were at risk of being routed. Until the spring of 1913, the British Commonwealth joint leadership proposed a series of coordinated attacks along the frontlines, focusing on breaking the alien advances on North America and Russia. Through intense diplomatic efforts, the US, Mexico, Germany, Russia, France, Italy and Japan joined the British. The date was set on August 31st, 1913. With additional reserves and newly deployed Mech Walkers, the General Counteroffensive began with thunderous artillery barrages and Walker-mounted heavy infantry. "
       STR_1913_COUNTERATTACK_UFOPEDIA_2: "From the US Midwest to the Russian Far East, the humans engaged the invaders at the same time. Austro-Hungary, the ABC Pact, China and the Ottoman Empire joined shortly after. The Martians were caught by surprise and the line was broken in a matter of days. The offensive lasted several weeks until the reserves were literally exhausted. The attack broke the Martian momentum and from then, began to dig in and go on the defensive. It was the first time were the remaining nations of the world fought together, side by side... Eventually becoming the Coalition of Nations."
+      ################### Kiros Expansion #############
+
+      STR_WORLDSTATEWEIMARREPUBLIC: "Weimar Republic" ### 1919 German Government Transformation
+      STR_WORLDSTATECOMMUNERUSSIA: "Commune Russia States" ### 1924 Russian Empire Collapse
+      STR_WORLDSTATEAMERICANSTATE: "American Superpower State" ### 1925 Mexico Joins with United States
+      STR_WORLDSTATESUPERKINGDOM: "United Continental Kingdom"
+
       ###########################################
       ##KIROXEI fixes the missing string text#######################
       ###########################################
@@ -2575,6 +2582,8 @@ en-US:
       STR_SUBTERRANHQ1: "Tunnel HQ Sublevel" #
       STR_SUBTERRANHQ2: "Digital HQ Sublevel"
       STR_SUBTERRANHQ3: "Virtual AI HQ"
+      STR_ARMYGARAGE1: "Military Garage"
+      STR_ARMYGARAGE2: "Large Army Garage"
       STR_LABORATORY_SUB1: "Research Sublevel" #1x1
       STR_LABORATORY_SUB2: "Prototype Lab Base" #1x1 Introduction to Digtal Computers
       STR_LABORATORY_SUB3: "Digital Laboratory" #1x1 Next Gen Computers
@@ -2592,6 +2601,10 @@ en-US:
       STR_PLANETDEF03: "PDS: Strategic Level" #Requires Planetary Command System
       STR_PLANETDEF04: "PDS: Global Level" #Requires Planetary Command System
       STR_PLANETDEF05: "PDS: Planet Orbit" #Requires Planetary Command System
+      STR_PLANETDEFD2WIKI: "PDS: Tactical Level" #Requires Planetary Command System
+      STR_PLANETDEF03WIKI: "PDS: Strategic Level" #Requires Planetary Command System
+      STR_PLANETDEF04WIKI: "PDS: Global Level" #Requires Planetary Command System
+      STR_PLANETDEF05WIKI: "PDS: Planet Orbit" #Requires Planetary Command System
       ##### Purchase from Alien Forces; Requires Live Aliens by converting them to memberships after creating terms.
       STR_EMBASSY1: "Marsnoids Embassy"
       STR_EMBASSY2: "Octasapien Embassy"
@@ -2601,14 +2614,17 @@ en-US:
       STR_EMBASSY6: "Kronotek Installation"
       STR_EMBASSY7: "Koell Design" #Requires Kronotek Installation
       STR_EMBASSY8: "Victo Design" #Requires Kronotek Installation
-      STR_EMBASSY9: "Exodusians Embassy" #
-      STR_EMBASSY10: "Galorifts Base Ops" #Requires Exodusians Embassy
-      STR_EMBASSY11: "Draconel Base Ops" #Requires Exodusians Embassy
-      STR_EMBASSY12: "Minotrek Base Ops" #Requires Exodusians Embassy
-      STR_EMBASSY13: "Drakels Base Ops" #Requires Exodusians Embassy
-      STR_EMBASSY14: "Tenakels Base Ops" #Requires Exodusians Embassy
-      STR_EMBASSY15: "Strigon Base Ops" #Requires Exodusians Embassy
-      STR_EMBASSY16: "Lylat-Mobians Base"
+      STR_EMBASSY9: "Exodusians Embassy" #Requires Exodus Faction
+      STR_EMBASSY10: "Galorifts Base Ops" #Requires Exodusians Embassy / Horn Forehead
+      STR_EMBASSY11: "Draconel Base Ops" #Requires Exodusians Embassy /  Dragon with Ears with horns
+      STR_EMBASSY12: "Minotrek Base Ops" #Requires Exodusians Embassy / Two taurus horn head
+      STR_EMBASSY13: "Drakels Base Ops" #Requires Exodusians Embassy / Dragon Drake
+      STR_EMBASSY14: "Tenakels Base Ops" #Requires Exodusians Embassy 6 Eyes Alien
+      STR_EMBASSY15: "Strigon Base Ops" #Requires Exodusians Embassy / Bats
+      STR_EMBASSY16: "Rinedual Base Ops" #Requires Exodusians Embassy Two Horn straight nose
+      STR_EMBASSY17: "United Multi-Galaxy Embassy"
+      STR_EMBASSY18: "Lylat-Mobians Base Ops" #Requires UMG Embasy
+      STR_EMBASSY19: "Homonid-Simians Base Ops" #Requires UMG Embasy
 
 
 
@@ -2620,34 +2636,106 @@ en-US:
       STR_HEXAPODHUMANSTONHENGE: "STONEHENGE"
       STR_HEXAPODHUMANSTONHENGEWIKI: "VFM-SH Stonehenge Class"
       #### Amphibious Landship
-      STR_AMPHIBIANHUMANALIGATOR1: "ALIGATOR MK1" #C&C=Allied Assault Destroyer G
+      STR_AMPHIBIANHUMANALIGATOR1: "ALLIGATOR MK1" #C&C=Allied Assault Destroyer G
       STR_AMPHIBIANHUMANALIGATOR1WIKI: "ASD-9 Alligator MK1"
-      STR_AMPHIBIANHUMANALIGATOR2: "ALIGATOR MK2" #C&C=Allied Assault Destroyer Hyper Radar G
+      STR_AMPHIBIANHUMANALIGATOR2: "ALLIGATOR MK2" #C&C=Allied Assault Destroyer Hyper Radar G
       STR_AMPHIBIANHUMANALIGATOR2WIKI: "ASD-01 Alligator MK2"
       ### LANDSHIP
       STR_LANDSHIPHUMANCAESAR: "CAESAR" ## Assault Landship
       STR_LANDSHIPHUMANCAESARWIKI: "LBC SS-JA1 Caesar"
-      STR_LANDSHIPHUMANCENTAUR1: "LBC Mace-1 Centaur"
-      STR_LANDSHIPHUMANCENTAUR2: "LBC SV-3 Centaur 2"
-      STR_LANDSHIPHUMANCHIEFTAN: "Wild Weasel Chieftan"
-      STR_LANDSHIPHUMANIRONCLAD: "IRONCLAD" # Needs Improved Landship
-      STR_LANDSHIPHUMANIRONCLADWIKI: "Command P-1 Iron Clad"
-      STR_LANDSHIPHUMANMAMMOTH1: "LBC GDX-6-10 Mammoth" #C&C=GDI Mammoth Tank
-      STR_LANDSHIPHUMANMAMMOTH2: "LBC GDX-6-10 Mammoth MK2" #C&C=GDI Mammoth Tank Hyper Radar
-      STR_LANDSHIPHUMANAPOCALYPSE1: "LBC SSS-7 Apocalypse" #C&C=Soviet Apcalypse Tank Universal Weapon Station
+      STR_LANDSHIPHUMANCENTAUR1: "M1 CENTUAR"
+      STR_LANDSHIPHUMANCENTAUR1WIKI: "LBC Mace-1 Centaur"
+      STR_LANDSHIPHUMANCENTAUR2: "CENTAUR MK2"
+      STR_LANDSHIPHUMANCENTAUR2WIKI: "LBC SV-3 Centaur 2"
+      STR_LANDSHIPHUMANCHIEFTAN: "WW4 CHIEFTAN"
+      STR_LANDSHIPHUMANCHIEFTANWIKI: "Wild Weasel Chieftan"
+      STR_LANDSHIPHUMANIRONCLAD: "IRONCLAD MK1" # Needs Improved Landship
+      STR_LANDSHIPHUMANIRONCLADWIKI: "Command P-1 Ironclad"
+      STR_LANDSHIPHUMANMAMMOTH1: "MAMMOTH TANK 1" #C&C=GDI Mammoth Tank
+      STR_LANDSHIPHUMANMAMMOTH1WIKI: "LBC GDX-6-10 Mammoth"
+      STR_LANDSHIPHUMANMAMMOTH2: "MAMMOTH MK2" #C&C=GDI Mammoth Tank Hyper Radar
+      STR_LANDSHIPHUMANMAMMOTH2WIKI: "LBC GDX-6-10 Mammoth MK2"
+      STR_LANDSHIPHUMANAPOCALYPSE1: "APOCALYPSE" #C&C=Soviet Apcalypse Tank Universal Weapon Station
+      STR_LANDSHIPHUMANAPOCALYPSE1WIKI: "LBC SSS-7 Apocalypse"
       STR_LANDSHIPHUMANAPOCALYPSE2: "LBC SSS-7 Apocalypse MK2" #C&C=Soviet Apcalypse Tank Radar Universal Weapon Station
+      STR_LANDSHIPHUMANAPOCALYPSE2WIKI: "LBC SSS-7 Apocalypse MK2"
       STR_LANDSHIPHUMANSTONEHENGE: "LB Artillery Stonehenge 2"
+      STR_LANDSHIPHUMANSTONEHENGEWIKI: "LB Artillery Stonehenge 2"
     ##### 4 Legs
-      STR_QUADPODHUMANCENTAUR1: "QWC Mace-1 Centaur"
-      STR_QUADPODHUMANCENTAUR2: "VFM Mace-2 Centaur"
-      STR_QUADPODHUMANELEFANT1: "QWC-SV 10-mk2 Elefant"
-      STR_QUADPODHUMANELEGANT2: "VFM-SV 10-mk3 Elefant"
+      STR_QUADPODHUMANCENTAUR1: "CENTAUR Q"
+      STR_QUADPODHUMANCENTAUR1WIKI: "QWC Mace-1 Centaur"
+      STR_QUADPODHUMANCENTAUR2: "CENTAUR VF"
+      STR_QUADPODHUMANCENTAUR2WIKI: "VFM Mace-2 Centaur"
+      STR_QUADPODHUMANELEFANT1: "ELEFANT 1"
+      STR_QUADPODHUMANELEFANT1WIKI: "QWC-SV 10-mk2 Elefant"
+      STR_QUADPODHUMANELEGANT2: "ELEFANT 2"
+      STR_QUADPODHUMANELEGANT2WIKI: "VFM-SV 10-mk3 Elefant"
       #### 2 Pedals with Universal Weapon Stations and Variable Formula Machine System
-      STR_BIPEDALHUMANMINOTAUR: "VFM-01 Minotaur"
-      STR_BIPEDALHUMANGOLEM: "VFM-02 Golem" #C&C=GDI Titan Mech
-      STR_BIPEDALHUMANAVATAR: "VFM-03 Avatar"  #C&C=Nod Avatar Warmech Universal Weapon Station
+      STR_BIPEDALHUMANMINOTAUR: "MINOTAUR"
+      STR_BIPEDALHUMANMINOTAURWIKI: "VFM-01 Minotaur"
+      STR_BIPEDALHUMANGOLEM: "GOLEM" #C&C=GDI Titan Mech
+      STR_BIPEDALHUMANGOLEMWIKI: "VFM-02 Golem"
+      STR_BIPEDALHUMANAVATAR: "AVATAR"  #C&C=Nod Avatar Warmech Universal Weapon Station
+      STR_BIPEDALHUMANAVATARWIKI: "VFM-03 Avatar"
+      ##### Cavorite Abyssium Hybrids
+      ##### Naval Warships
+      STR_GUNBOATT1A: ""
+      STR_COVETTET1A: ""
+      STR_FRIGATET1A: ""
+      STR_CRUISERT1A: ""
+      STR_DESTROYERTA1: ""
+      STR_BATTLESHIPA1: ""
+      STR_GUNBOATT1AWIKI: ""
+      STR_COVETTET1AWIKI: ""
+      STR_FRIGATET1AWIKI: ""
+      STR_CRUISERT1AWIKI: ""
+      STR_DESTROYERTA1WIKI: ""
+      STR_BATTLESHIPA1WIKI: ""
+      ##### Naval Submarine
+      STR_SUBGUNSHIPA1: ""
+      STR_SUBFRIGATEA1: ""
+      STR_SUBCRUISERTA1: ""
+      STR_SUBGUNSHIPA1WIKI: ""
+      STR_SUBFRIGATEA1WIKI: ""
+      STR_SUBCRUISERTA1WIKI: ""
+      ##### Cavorite Abyssium Hybrids
+      ##### Naval Warships
+      STR_GUNBOATT2A: ""
+      STR_COVETTET2A: ""
+      STR_FRIGATET2A: ""
+      STR_CRUISERT2A: ""
+      STR_DESTROYERTA2: ""
+      STR_BATTLESHIPA2: ""
+      STR_GUNBOATT2AWIKI: ""
+      STR_COVETTET2AWIKI: ""
+      STR_FRIGATET2AWIKI: ""
+      STR_CRUISERT2AWIKI: ""
+      STR_DESTROYERTA2WIKI: ""
+      STR_BATTLESHIPA2WIKI: ""
+      ##### Naval Submarine
+      STR_SUBGUNSHIPA2: ""
+      STR_SUBFRIGATEA2: ""
+      STR_SUBCRUISERTA2: ""
+      STR_SUBGUNSHIPA2WIKI: ""
+      STR_SUBFRIGATEA2WIKI: ""
+      STR_SUBCRUISERTA2WIKI: ""
+      #### Aerial Warships and Spacecrafts
+      STR_GUNSHIPSIEGE1: "Gunship Siege Concept"
+      STR_GUNSHIPSIEGE1WIKI: "The introduction of the aerial warship weapons is equipping with air armaments and ammunitions instead of paradrops to the frontlines. Only few pilots consists of 4 to 6 will be sent to the battlefield with enough mechanical weapons to wipe out enemies on the field. Weapon emplacements will be useful to increase fire support with coordinated teams."
+      STR_GUNSHIPSIEGEDEV1: "Gunship Siege Tunguskium"
+      STR_GUNSHIPSIEGEDEV1WIKI: "The first phase of the gunship craft with Tunguskium will be our main support craft."
+      STR_GUNSHIPSIEGEDEV1A1: "Gunship Siege Tunguskium Improvement"
+      STR_GUNSHIPSIEGEDEV1A1WIKI: "The aliens engine technology."
+
+
+      STR_GUNSHIPSIEGEDEV2: "Gunship Siege Cavorite"
+      STR_GUNSHIPSIEGEDEV2WIKI: "The second phase of the gunship craft with Tunguskium will be our main support craft."
+      STR_GUNSHIPSIEGEDEV3: "Gunship Siege Cavoryssium"
+      STR_GUNSHIPSIEGEDEV3WIKI: "The first phase of the gunship craft with Tunguskium will be our main support craft."
+
+
 ###### Alien Technology and Components
-## Tech Tier 1 Ditto
+## Tech Tier 1 Ditto Tunguskium
 ## Tech Tier 2 including Zero Gravity
       STR_ALIENMETAL1: "Unknown Light-weight Alloy"
       STR_GRAPPLEHOOK: "Grapple Hook Machine"
@@ -2671,7 +2759,7 @@ en-US:
       STR_WORMHOLEDRIVE: "Wormhole Generator Device"
       STR_HYPERSPACEDRIVE: "Hyperspace Drive System"
       STR_FTLINHIBITOR: "Felocity Light Inhibitor"
-## Tech Tier 4
+## Tech Tier 4 Zedimetium Alloys
       STR_ALIENMETAL3: "Unknown Zero Five Alloy"
       STR_GRAVITYTRACT3: "Gravity Traction Device 2"
       STR_NAVIGATEDEVICE3: "Alien Navi-Radar Component"
@@ -2684,52 +2772,88 @@ en-US:
       STR_TRANSDMSNDRIVE: "Trans-dimension Generator"
       STR_VORTEXHOLEDRIVE: "Vortex Wormhole System"
 
-###### Mars Humanoid
+###### Martianoids
 ###### Octasapiens
 ###### Selenites
 ###### Jovians Empire
 ###### Chimera
 ###### Judikars
+###### Exodussians
 ###### Martians
 ###### Martians
-###### Martians
-###### Martians
-###### Martians
+###### Lylat-Mobians
+###### Unknown Human
 
-###### Advance and Next Generation Vehicles and Aerospace Research
+###### Advance, Next Generation Vehicles, Aerospace, Technology Research
+      ############# Hints and Info
+      STR_WIKI1: "World Information Connection Interface"
+      STR_WIKI1INFO: "This guide is introduced during the war against the aliens menace. Your information will be updated as soon your scientist will research many discoveries. Also, there's new hints and advice that will aid you on your campaign."
       ############# Epoch Discover based on their reports
       ############# Epoch Tier 1 Recent Common Earth Alloys 1889
       ############# Epoch Tier 2 Tunguskium Foundation Alloys 1914
+      STR_NUCLEARFISSION: "Nuclear Energy Reactor"
+      STR_OCEANSALVAGE1: "Naval Resource Salvage"
       ############# Epoch Tier 3 Cavorite Zero Gravity Alloys 1920
+      STR_NEXTGENSOLDIER1: "Next Generation Soldiers"
+      STR_NEXTGENSOLDIER1WIKI: "Our current soldiers capability has reached their boundaries. In order to push the soldiers beyond its limits. We have introduce the Next Generation Combat Program to train our troops for high performance. This will equip them with better weapons and armor for tough battles. Unfortunately, our current soldiers must be re-enrolled for the program. "
+      STR_EINSTEINEQUATION: "Einstein Formula E=MC2"
       STR_ALIENALLOYS2: "Cavorite Alloys" #Zero Gravity Alloys
-      ############# Epoch Tier 4 Cavorite Abyssium Hybrid 1935
-      STR_ALIENALLOYS3: "Cavorithium Alloys" #Zero Gravity Plus Aquarite
-      ############# Epoch Tier 5 Zedimetium Final Alloys 1985
-      STR_ALIENALLOYS4: "Zedimetium Alloys" # Zero Dimension Alloys
-      STR_MOBILEAMPHIBIANPLATFORM: "Amphibian Battleship"
       STR_MOBILEWEAPONPLATFORM: "Landship Variable Gun Turret"
+      STR_GRAVITYMODULE: "Gravity Module Device"
+      STR_SUBMERGEWAR: "Underwater Warfare"
       STR_VARIABLEFORMULAMACHINE: "Variable Formula Machine System"
       STR_UNIVERSALWEAPONSTATIONS: "Universal Weapon Stations"
       STR_ELECTRONICTECH: "Computer Electronics"
       STR_OPTRONICTECH: "Optronics Technology"
+      STR_MEDICALTECH1: "Human Tech Surgery"
+      ############# Epoch Tier 4 Cavorite Abyssium Hybrid 1935
+      STR_NEXTGENSOLDIER2: "Super Soldier Project"
+      STR_NEXTGENSOLDIER2WIKI: "The discovery of the cybernetics and medicine allowed us to introduce cybernetic enhancements on our troops. This"
+      STR_NEXTGENRECRUITS: "Next Generation Recruits"
+      STR_NEXTGENRECRUITSWIKI: "The new discovery of many alien technology enables the Multi-national government to create their own soldier programs. From there we can recruit advance soldiers at a price and a new salary. It has better performane than the cheap cost."
+      STR_ALIENALLOYS3: "Cavobysium Alloys" #Zero Gravity Plus Aquarite
+      STR_MOBILEAMPHIBIANPLATFORM: "Amphibian Battleship"
       STR_IRONCURTAIN: "Ion Conduit Reactive"  ##C&C Red Alert
       STR_CHRONOSPHERE: "Wormhole Teleport System"  ##C&C Red Alert
-      STR_GRAVITYMODULE: "Gravity Module Device"
-      STR_EINSTEINEQUATION: "Einstein Formula E=MC2"
+      STR_MEDICALTECH2: "Advance Human Tech Surgery"
+      STR_TABLETCOMPUTER: "Tablet Computer"
+      ############# Epoch Tier 5 Zedimetium Final Alloys 1985
+      STR_NEXTGENSOLDIER3: "Future Generation Soldier"
+      STR_NEXTGENSOLDIER3WIKI: ""
+      STR_ALIENALLOYS4: "Zedimetium Alloys" # Zero Dimension Alloys
+      STR_GRAVARMORDESIGN: "Grav Armor Design"
       STR_AEROSPACEPROJECT: "Aerospace Project Proposal"
       STR_CAVORITESMELTFORGE: "Cavorite Zero Gravity Forge"
       STR_TRACTORBEAM: "Tractor Beam Component"
       STR_OPTICALCLOAK: "Optical Cloak Tech Systems"
       STR_OPTICALALLOYLAYER: "Optical Cloak Composite"
-      STR_TABLETCOMPUTER: "Tablet Computer"
+
       STR_PULSEDPLASMAENGINE: "Pulsed Plasma Thrusters"
-      STR_NUCLEARFISSION: "Nuclear Energy Reactor"
       STR_ATTACKBIKES: "Assault Motocycle" ### Armed with Autogun and Missile
-      STR_SUBMERGEWAR: "Underwater Warfare"
+      STR_ATTAKETRIKES: "Assault Mototrike" ### Armed with Autogun and Missile
+
+###### Advance Personel Armor
+###### Cavorite; Zero Gravity Alloys
+      STR_CAVORITEINFANTRYARMOR1V1: "CZGA-1 Armor"
+      STR_CAVORITEINFANTRYARMOR1V2: "CZGA-2 Hazsuit"
+      STR_CAVORITEINFANTRYARMOR1V3: "CZGA-3 Hvy-Suit"
+      STR_CAVORITEINFANTRYARMOR1V4: "CZGA-4 Exo-Suit"
+###### Cavorite Abysium Hybrid
+      STR_CAVORYSIUMINFANTRYARMOR1V1: "CAHA-1 Aquasuit"
+      STR_CAVORYSIUMINFANTRYARMOR1V2: "CAHA-2 Hardsuit"
+      STR_CAVORYSIUMINFANTRYARMOR1V3: "CAHA-3 Sea Armor"
+      STR_CAVORYSIUMINFANTRYARMOR1V4: "CAHA-4 Sea Exo-suit"
+###### Zedimithium Alloy
+      STR_ZEDIMENSIONINFANTRYARMOR2V1: "ZDMA-1 Armor"
+      STR_ZEDIMENSIONINFANTRYARMOR2V2: "ZDMA-2 Hazsuit"
+      STR_ZEDIMENSIONINFANTRYARMOR2V3: "ZDMA-3 Hvy-Suit"
+      STR_ZEDIMENSIONINFANTRYARMOR2V4: "ZDMA-4 Exo-Suit"
+
 ###### Alien Research from Interrogated Aliens; Medic; Engineer; Leader; Commander; Higher Ranks
 ###### Alien Higher Ranks
       STR_DATASLATE: "Data Slate Tablet"
       STR_DATAFRAME: "Data Mainframe Terminal"
+      STR_HOLOGRAM1: "Holodata Device"
 ###### Alien Engineers
       STR_ANTIMATERTHEORY: "Anti-Matter Theory"
       STR_ANTIHYDROGEN: "Anti-Hydrogen Containment"
@@ -2744,16 +2868,52 @@ en-US:
       STR_COOLINGDEVICE: "Nitrogen Cooling System"
       STR_MAGNETICACCEL: "Magnetic Accelerator Gravity"
       STR_DELTARAY: "Delta Radiation Theory"
+      STR_ESHIELD1: "Harden E-Shield" ## Good against Ballistic
+      STR_ESHIELD2: "Ion-Field E-Shield" ## Good against Laser
+      STR_ESHIELD3: "Gravity E-Shield" ## Good against Liquid
+      STR_ESHIELD4: "Disruptor E-Shield" ## Good against Plasma
+      STR_ESHIELD5: "Bubble E-Shield" ## Good against Gas
+      STR_ESHIELD6: "Muffler E-Shield" ## Good against Sonic
+      STR_ESHIELD7: "Thermal E-Shield" ## Good against Temperatures
+      STR_ESHIELD8: "Neural E-Shield" ## Good against Neural
+      STR_ESHIELD9: "Reverse E-Shield" ## Good against Impact
+      STR_ESHIELD10: "Bouncer E-Shield" ## Good against Melee
+      STR_CAMOFLAUGE: "Camo Fabrics"
+      STR_ENERGYSHIELDS: "E-Shield Device"
+      STR_CLOAKFIELDS: "Cloakfield Device"
+      STR_NXTARMOR: "Nextgen Armor"
+      STR_CAMOFLAUGEWIKI: "Alien durable fabric was one of their main uniforms to withstand against stains and usage. It helps to withstand heat, electrical, and ballistics. Which provided them more resistance against attacks. In addition it will grant them camoflauge patterns to remain unseen on most environments, but full invisibilty."
+      STR_ENERGYSHIELDSWIKI: "These energy shields can provide them more protection against certain projectiles. Their device have different types of shields, what they used against it."
+      STR_CLOAKFIELDSWIKI: "Most Aliens used these cloakfield device to remain hidden from many visibility including radar devices. Even neural detection won't work against disruption signatures."
+      STR_NXTARMORWIKI: "The aliens begun developing their advance armor since 1908. Each next generation armor gave the aliens more durable and usable on tough battles. Our encounter against alien armor will be much difficult if we haven't develop new armor and weapons. "
+
 ###### A.R.E.S and Extended ########
       STR_ARESPROJECT: "Apex Regiment: Evolved Spacefaring" ##### Disables All Country Factions
+      STR_ARESPROJECTWIKI: "We created a military proposal project for the concept named: Star Wars. A military created from the Earth Coaliation around the world with the development of stars technology. With this proposal, we can recruit many soldiers and pilots arcros the globe. However, we will not purchase all of the nations weapons respectively, because of international policy. Except that we can purchase current weapons and war machines from several weapon companies."
       ## ARES Extended Lore
       STR_ORDER1886HISTORY: "Arthurs Round Table Archives" ##Get Tesla with you.
-      STR_ORDER1886ARCHIVES: "United India Company"
-      STR_DARKESTDAYSARCHIVES: "USA 1864 Incident Report" ##Activate North America Conquest
-      STR_NEWMEXICOARCHIVES: "New Mexico Inicident Report" ##Activate North America Conquest
-      ## Personal Armor
-      STR_JUNOPROJECT: "Jumpsuit: Utility-Belt: Navigator Outift"
-      STR_JUDAPROJECT: "Jumpsuit: Utility-Belt: Designated Armor"
+      STR_ORDER1886HISTORYWIKI: "Before the 1896 Martian invasion, there was a early international forces development. Codename: Arthurs Round Table aka ART, the very first coalition forces based on British Empire territory. Combined with British and their colonial military batallions. It also provided with funds and supplies by United India Company. However, drawbacks has been made due to their mismanagement and tensions between the two. After the incident, ART has been in turmoiled and disbanded, while United India Company filed bankruptcy. Most of the UIC assets were sealed on British secured storage location, and the other were sold to other national military. There's no UIC activity after being defunct. Perhaps, we should contact the British military archives for lost prototypes and lost assets."
+      STR_ORDER1886HISTORYTESLA: "Teslas Report 1886"
+      STR_ORDER1886HISTORYTESLAWIKI: "According to the Teslas history employment with the British Army. He provided Gahalad platoons with better technological weapon based on the wreckage alien war machine. By the time there's a rebellion on the British soil. He witness theres a strange humanoid appear to be in the shape of the half-man beast, knownly as werewolf and a batnoids. He confirmed the exsistence of the beast man are likely more intelligent than we theorized."
+      STR_ORDER1886TESLALEND: "Ask Teslas Archive Weapons"
+      STR_ORDER1886TESLALENDWIKI: "We got a approval from Teslas and his cohorts. He'll lend us some advance prototype that was not used to counter the first outsider invasion. Perhaps we can refined it for better performance than the previous version."
+      STR_ORDER1886ARCHIVESUIC: "United India Company"
+      STR_ORDER1886ARCHIVESUICWIKI: "United India Company were used to a stock holding company before their bankruptcy. However, by the time the strange aliens on the US soil, they change their interest on the alien techs. They brought those alien techs from US after the civil war. Which they invest amount of funds to develop new technologies to improve civilization advancements. This development was met at the prototype stage to introduce advance machinery. Until 1880, British Empire have acquired UIC as their private military contractors. UIC was assigned to provide British army with better weapons and first phase machines. However on 1886, UIC and British government are under fire by dissidents and criminals. British soil became under martial after there was society disorder along their own troops. British law enforcement regain to control the areas until the disorder ceased by 1890. After the incident UIC are disbanded and forced to bankrupt without interference. UIC are no longer active on all location after disbandment."
+      STR_ORDER1886SALVAGEUIC: "Search & Recover: United India Company" ##Activate europe Conquest
+      STR_ORDER1886SALVAGEUICWIKI: "Our representatives have discussed a meeting with the British miltary archives to recover UIC assets. They agreed to help us searching the lost UIC assets throughout their territory. "
+      STR_DARKESTDAYSARCHIVES1: "USA 1864 Incident Report" ##Activate North America Conquest
+      STR_DARKESTDAYSARCHIVES1WIKI: "This report looks very interesting, according from United States military report. It is really confirmed that the very first alien invasion took place on US soil during the civil war. Union and Confederates fought each other until they are caught off in a crossfire with the multiple aliens races. This unnamed aliens began to steamroll on US both sides while they are traveling to regroup with their soldiers. Unfortunately, US available technology is no match against them, instead reunited to fight against them. After the incident, United States was reformed again and gather many aliens samples of technology and sealed it for research. None of them reported to the early international committer, except UIC have acquired certain alien techs for development."
+      STR_NEWMEXICOARCHIVES1: "New Mexico Incident Report" ##Activate North America Conquest
+      STR_NEWMEXICOARCHIVES1WIKI: "We have gained another information concerning the aliens involvement on the US territory. The aliens arrival and threat has brought US attention about the report. US began a military hunt on the aliens technologies for their advancements. However, their progress was slow due to under industrial technology development and lack of mobility. In the end some of the colony residents on New Mexico territory were attacked by alien assaults. Only to be crater remains and scars through the desert terrain. US was having difficult dealing with the aliens until the war 1908."
+
+      STR_CALIFORNIAARCHIVES1: "California Incident"
+      STR_CALIFORNIAARCHIVES1WIKI: ""
+      STR_HAWAIIARCHIVES1: "Hawaii Strange Sightings"
+      STR_HAWAIIARCHIVES1WIKI: ""
+      ### Personal Armor ###
+      STR_JUNOPROJECT: "Jumpsuit Utility-Belt Navigator Outift"
+      STR_JUNOPROJECTWIKI: "Jumpsuit Utility-Belt Navigator Outift"
+      STR_JUDAPROJECT: "Jumpsuit Utility-Belt Designated Armor"
       STR_HADESPROJECT: "Heavy Armor: Detached & Equipment Shoulder"
       STR_HAPIPROJECT: "Heavy Armor: Personal Interface"
       STR_PTAHPROJECT: "Personal Tablet Artificial Hologram"
@@ -2772,7 +2932,7 @@ en-US:
       STR_ODINPROJECT: "Orbital Defense Interstellar Network"
       STR_THORPROJECT: "Thermal Heat Optronic Rod"
       ## Android
-      STR_ILIADPROJECT: "Logic: Intelligent Android Device"
+      STR_ILIADPROJECT: "Innovation Logistic: Intelligent Android Device"
       ## Power Source and Energy
       STR_HORUSPROJECT: "Hyrdogen Research: Unit-power Source"
       STR_HODRPROJECT: "Hyrdogen Development: Reactor"
@@ -2792,11 +2952,27 @@ en-US:
       STR_PILOTTOOPERATIVE: "Operators Combined Arms"
       STR_AIRBORNE_CONCEPT: "Airborne Development"
       STR_AIRBORNE_CONCEPT_UFOPEDIA: ""
+      #### ARES Cavorite Armor
+      STR_CAVORITEINFANTRYARMORARES1V1: "CARES-1 Armor"
+      STR_CAVORITEINFANTRYARMORARES1V2: "CARES-2 Hazsuit"
+      STR_CAVORITEINFANTRYARMORARES1V3: "CARES-3 Hvy-Suit"
+      STR_CAVORITEINFANTRYARMORARES1V4: "CARES-4 Exo-Suit"
+      #### CARBORYSIUM Armor
+      STR_CARBORYSIUMINFANTRYARMORARES1V1: "CYARES-1 Armor"
+      STR_CARBORYSIUMINFANTRYARMORARES1V2: "CYARES-2 Hazsuit"
+      STR_CARBORYSIUMINFANTRYARMORARES1V3: "CYARES-3 Hvy-Suit"
+      STR_CARBORYSIUMINFANTRYARMORARES1V4: "CYARES-4 Exo-Suit"
+      ## Craft / Vehicles
+      STR_IXIERSPACECRAFT1: "IXIER Project"
+      STR_IXIERSPACECRAFT1WIKI: "Integrated Experimental Interspacefaring Expedition Reconaissance."
+      STR_ACTRAISERPROJECT1: "Actraiser Project"
+
+
 ##### Outsourcing Research
       STR_ADVANCEVEHICLENSPACE1: "Advance Generation Vehicle Outsourcing"
       STR_ADVANCEVEHICLENSPACE1_UFOPEDIA: "Our manufacturing capabilities cannot keep up the construction on weapons and vehicles due to limited space. We suggests that we must established uphold meetings to all manufacturing companies and military contractors. They will arrive at the government conventional forum for industrial regulation."
       STR_ADVANCEVEHICLENSPACE2: "Multi-National Corporation Committee"
-      STR_ADVANCEVEHICLENSPACE2_UFOPEDIA: "We established a meeting for military manufacturing companies to further push for mass production. Many manufacturing representatives have arrived to discuss about coalition capabilies of utilizing alien technology. "
+      STR_ADVANCEVEHICLENSPACE2_UFOPEDIA: "We established a meeting for military manufacturing companies to further push for mass production. Many manufacturing representatives have arrived to discuss about coalition capabilies of utilizing alien technology. If we permit them to develop new industrial technologies. "
       STR_ADVANCEVEHICLENSPACEACCEPT: "Establish Multi-National R&D Proposal"
       STR_ADVANCEVEHICLENSPACEREJECT: "Cancel Multi-National R&D Proposal"
       STR_ADVANCETECHNOLOGYADAPT: "National Technological Adaptation"
@@ -2808,8 +2984,8 @@ en-US:
       STR_AMERICANDREADNOUGHT2:  "GOLIATH B2"
       STR_AMERICANVEET1: "JOHN H5"
       #British; 1:Landship; 2:Mass Production
-      STR_BRITISHDREADNOUGHT1: "HENRY 8B MK3"
-      STR_BRITISHDREADNOUGHT2: "DRUIDS BETA4"
+      STR_BRITISHDREADNOUGHT1: "HENRY-8B MK3"
+      STR_BRITISHDREADNOUGHT2: "DRUIDS BETA-4"
       STR_BRITISHVEET1: "TREANT W2"
       #French; 1:Landship; 2:Mass Production
       STR_FRENCHDREADNOUGHT1: "GUILLITINE MK1"
@@ -2817,17 +2993,17 @@ en-US:
       STR_FRENCHVEET1: "AUTRUCHE 1"
       #Russian; 1:Landship; 2:Mass Production
       STR_RUSSIANDREADNOUGHT1: "NIKOLAY W05"
-      STR_RUSSIANDREADNOUGHT2: "RUSH BOYAR MK2"
+      STR_RUSSIANDREADNOUGHT2: "BOYAR MK2"
       STR_RUSSIANVEET1: "GREYWOLF C2"
       #Italian; 1:Landship; 2:Mass Production
-      STR_ITALIANDREADNOUGHT1: "DA VINCI L3"
-      STR_ITALIANDREADNOUGHT2: "CORDITTO / GENOSES"
+      STR_ITALIANDREADNOUGHT1: "DA-VINCI L3"
+      STR_ITALIANDREADNOUGHT2: "CORDITTO"
       STR_ITALIANVEET1: "TURTOISE MK2"
       #German / Austria-Hungary; 1:Landship; 2:Mass Production
       STR_GERMANDREADNOUGHT1: "KARL B4 MK2"
       STR_GERMANDREADNOUGHT2: "HUSKARL 1K"
       STR_GERMANVEET1: "RUBEZALH Mk.3"
-
+##### Alien Staff Crews
 
 ## Octasapien Faction will coming the next 3 years or when its done.
 ####### Kiro Xei's Expanded Lore
@@ -2836,20 +3012,20 @@ en-US:
       ###### Player can form a faction depending on their chosen alliance
       #Independent Path or reject the terms Chapter 1
       STR_INDEPENDENTFORCE: "Human Independent Society"
-      STR_CONVINCESELENITES1: "Alliance with Selenites"
+      STR_CONVINCESELENITES1: "Selenites Alliance"
       STR_CONVINCEMARHUMANOIDS1: "Persuade Mars Dissidents"
       STR_SETIPROJECT: "The SETI Project"
       STR_INDEPENDENT1PATH1: "Securing Continental Region"
       STR_INDEPENDENT1PATH2: "Multiple Government Concept"
       STR_INDEPENDENT1PATH3: "Civilization Advancement"
-      STR_INDEPENDENT1PATH4: "Technological Reverse-Engineer"
-      STR_INDEPENDENT1PATH5: ""
-      STR_INDEPENDENT1PATH6: ""
+      STR_INDEPENDENT1PATH4: "Reverse-Engineer"
+      STR_INDEPENDENT1PATH5: "Modernization Program"
+      STR_INDEPENDENT1PATH6: "Space Warfare Concept"
       STR_INDEPENDENT1PATH7: "Securing Earth Orbit"
-      STR_INDEPENDENT1PATH8: "Create a Economic Trade"
-      STR_INDEPENDENT1PATH9: ""
-      STR_INDEPENDENT1PATH10: ""
-      STR_INDEPENDENT1PATH11: ""
+      STR_INDEPENDENT1PATH8: "Economic Free Trade"
+      STR_INDEPENDENT1PATH9: "Netherworld Architecture Project" #Subterranean Civilization and Mining.
+      STR_INDEPENDENT1PATH10: "Space Battleship Concept"
+      STR_INDEPENDENT1PATH11: "Securing the Moon"
       #Independent Path Optional
       STR_CONVINCEKRONOTEK1: "Preserve Profile"
       STR_CONVINCEKRONOTEK2: "Opposition Joint"
@@ -2859,39 +3035,39 @@ en-US:
 
       #Wisdom Species
       STR_MARTIANALLYPATH1: "The Martian Empire"
-      STR_MARTIANALLYPATH2: "The Two Martians Factions"
-      STR_MARTIANALLYHUMANOID1: "Create Terms with Mars Humanoids." ###### Mars Humanoid Set
-      STR_MARTIANALLYOCTASAPIEN1: "Create Terms with Octasapiens." ###### Octasapien Set
+      STR_MARTIANALLYPATH2: "Two Martians Factions"
+      STR_MARTIANALLYHUMANOID1: "Mars Humanoids Terms" ###### Mars Humanoid Set
+      STR_MARTIANALLYOCTASAPIEN1: "Octasapiens Terms" ###### Octasapien Set
       #Martian Humanoids Path
       STR_MARTIANDEFECTION1: "Martian Humanoid Defection"
-      STR_MARTIANOIDCHAPTER1: "Permit Martianoids to establish a permament settlement"
-      STR_MARTIANOIDCHAPTER2: "Perform Terms with the Selenites"
+      STR_MARTIANOIDCHAPTER1: "Permit Martianoids"
+      STR_MARTIANOIDCHAPTER2: "Selenites Alliance"
       STR_MARTIANOIDCHAPTER3: "Secure the Moon Area"
       STR_MARTIANOIDCHAPTER4: "Conquest on Venus"
       STR_MARTIANOIDCHAPTER5: "Battle on Deimos"
       STR_MARTIANOIDCHAPTER6: "Battle on Phobos"
-      STR_MARTIANOIDCHAPTER7: "Battle on Mars Orbital Elevator"
-      STR_MARTIANOIDCHAPTER8: "Securing the Asteroid Belt and Ceres"
-      STR_MARTIANOIDCHAPTER9: "Establishing Alliance with Martianoids" ### Unlock Purchase Martianoids Weapons 1
+      STR_MARTIANOIDCHAPTER7: "Mars Orbital Elevator"
+      STR_MARTIANOIDCHAPTER8: "Asteroid Belt and Ceres"
+      STR_MARTIANOIDCHAPTER9: "Martianoids Alliance" ### Unlock Purchase Martianoids Weapons 1
       #Octasapien Path
       STR_OCTASPIENFRENDSHIP1: "Octasapiens Diplomacy"
       STR_OCTASAPIENCHAPTER1: "Suppressing the Martianoids Rebellion"
       STR_OCTASAPIENCHAPTER2: "Incident on Lunars Colony"
       STR_OCTASAPIENCHAPTER3: "Suppressing the Selenites Army"
       STR_OCTASAPIENCHAPTER4: "Exterminating Triffids on Venus"
-      STR_OCTASAPIENCHAPTER5: "Defending the Mars Orbital Elevator"
-      STR_OCTASAPIENCHAPTER6: "Setting up Advance defense on 2 Mars Satellite"
-      STR_OCTASAPIENCHAPTER7: "Aiding the defense on Asteroid Belt and Ceres"
-      STR_OCTASAPIENCHAPTER8: "Laying a Star System Siege on Jovians"
-      STR_OCTASAPIENCHAPTER9: "Establish Alliance with Octasapiens" ### Unlock Purchase Octasapiens Weapons 1
+      STR_OCTASAPIENCHAPTER5: "Mars Orbital Elevator"
+      STR_OCTASAPIENCHAPTER6: "Mars Satellite Defense"
+      STR_OCTASAPIENCHAPTER7: "The Asteroid Belt"
+      STR_OCTASAPIENCHAPTER8: "Jupiters Satellite Siege"
+      STR_OCTASAPIENCHAPTER9: "Octasapiens Alliance" ### Unlock Purchase Octasapiens Weapons 1
       #Wisdom Species Path Optional
       STR_OCTASAPIENTALKSTODELTRUNE: "Octasapiens Negotiates Deltrune" #### If New Mexico Incident report and Deltrune subterranean in a ship found
       STR_JUDIKARSSECRETTECH: "Judikars Faction Research" #### Difficult to find it.
       ##Martian Wars with Jovians
-      STR_MARTIANWARWITHJOVIANS1: "Defense of the Asteroid Belt"
+      STR_MARTIANWARWITHJOVIANS1: "Asteroid Belt Defense"
       STR_MARTIANWARWITHJOVIANS2: "Battle of Saturn Revolve Area"
-      STR_MARTIANWARWITHJOVIANS3: "Securing Jovians Communication Space Stations"
-      STR_MARTIANWARWITHJOVIANS4: "Raid on Jovians Energy Converter Station"
+      STR_MARTIANWARWITHJOVIANS3: "Securing Jovians Comm-Space"
+      STR_MARTIANWARWITHJOVIANS4: "Raid on Jovians Energy Converter"
       STR_MARTIANWARWITHJOVIANS5: "Sabotaging the Anti-Gravity Engine"
       STR_MARTIANWARWITHJOVIANS6: "Capturing the Jovian Weapon Station"
       STR_MARTIANWARWITHJOVIANS7: "Battle of Jupiter Revolve Area"
@@ -2901,8 +3077,8 @@ en-US:
       STR_MARTIANWARWITHJOVIANS11: "Battle of Neptune Revolve Area"
       STR_MARTIANWARWITHJOVIANS12: "Plutos Granite"
       STR_MARTIANWARWITHJOVIANS13: "Conquering Sedna" #Sol System Dwarf Planets
-      STR_MARTIANWARWITHJOVIANS14: "Supporting Alpha Cenaturi Forces"
-      STR_MARTIANWARWITHJOVIANS15: "Earning best frends with the Martians" # Unlock Purchase Martianoids or Octasapiens Weapons 2
+      STR_MARTIANWARWITHJOVIANS14: "Supporting Alpha Cenaturi"
+      STR_MARTIANWARWITHJOVIANS15: "Martians Best Friend" # Unlock Purchase Martianoids or Octasapiens Weapons 2
       STR_MARTIANALLYHUMANOID2: "Martianoids Alliance"
       STR_MARTIANALLYOCTASAPIEN2: "Octasapiens Alliance"
       ##Martian War with Exodus
@@ -2929,6 +3105,17 @@ en-US:
       #Exodus Empire Path Avaible in the Year 1935 with 1950
       STR_EXODUSPRECENSE: "Strange Reports from Otherworlds" #### Chance on 50% to have them appear.
       STR_EXODUSIDENTITY: "The strange horned head race?" #### If you have not Allied with any alien factions. Or not independent
+      STR_EXODUSCONVINCE1: "Convince Exodus Diplmacy"
+      STR_EXODUSCHAPTER1: "Exodus & Freeworld Ideology"
+      STR_EXODUSCHAPTER2: "Exodus Embassy Settlement"
+      STR_EXODUSCHAPTER3: "The Competittion"
+      STR_EXODUSCHAPTER4: "The Machine Contest"
+      STR_EXODUSCHAPTER5: "Supersoldier Contest"
+      STR_EXODUSCHAPTER6: "Exodusian Development"
+      STR_EXODUSCHAPTER7: "Exodus Alliance"
+      STR_EXODUSCHAPTER8: "The Explanation"
+      STR_EXODUSCHAPTERWARWITHWISDOM: "Wisdom War"
+      STR_EXODUSCHAPTERWARWITHRACE: "Dominators War"
 
 ######### The Species Advance Civilization ###########
       STR_INDEPENDENTTHEORY: "The Fate of Decision"
@@ -2946,10 +3133,10 @@ en-US:
       STR_MARTIAN_HUMANOIDS_LAUNGUAGE: "Martian Humanoids Language Arts"
       STR_MARTIAN_HUMANOIDS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts. The Martian Humanoids writings can allow us to translate our words to their readings. "
       STR_MARTIAN_HUMANOIDS_FOOD: "Martian Humanoids Foodstuffs"
-      STR_MARTIAN_HUMANOIDS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. Human do not know if the alien fruit / vegatbles would fit for human diet."
+      STR_MARTIAN_HUMANOIDS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. We don't know if the alien fruit / vegatbles would fit for human diet."
       STR_MARTIAN_HUMANOIDS_CULTURE: "Martian Humanoid Culture"
       STR_MARTIAN_HUMANOIDS_CULTURE_UFOPEDIA: "These creatures originated from the Mars surface. Before Mars was changed into hospitable planet, there was once a cold harsh desert with ice on polar caps."
-      STR_MARTIAN_HUMANOIDS_ARCHITECTURE: "Martian Humanoids Architecture"
+      STR_MARTIAN_HUMANOIDS_ARCHITECTURE: "Martianoids Architecture"
       STR_MARTIAN_HUMANOIDS_ARCHITECTURE_UFOPEDIA: "These Martianoids seems to quite building pyramid designs for many purpose. According to the trivial, our human ancestors known as the ancient egypt dynasty designed these pyramids for pharoahs royal tomb. Unlike our current structures, Martianoids version are quite more advanced. Their pyramids are able to protect their kins from Mars turbo storms and solar winds radiation. It's quite interesting from their designs if we want to replicate their version for sandstorm strikes."
 ## Overlord
       STR_OVERLORD_ORIGINS: "Martian Overlord Origins"
@@ -2973,14 +3160,14 @@ en-US:
       STR_SELENITE_ARCHITECTURE: "Selenite Humanoids Architecture"
       STR_SELENITE_ARCHITECTURE_UFOPEDIA: "Subterranean Cities"
 ## Selenites Weapons; Borrowed from Jetforce Gemini as Mizar appearance
-      STR_SELENITEBALLISTIC1: "Selenites Refined Ballistic"
-      STR_SELENITEBALLISTIC2: "Selenites ZGA Ballistic"
+      STR_SELENITEBALLISTIC1: "Selenites Refined Ballistic" #
+      STR_SELENITEBALLISTIC2: "Selenites ZGA Ballistic" #
       STR_SELENITELASER1: "Selenites Laser Weapon"
       STR_SELENITELASER2: "Selenites Renewable Laser"
       STR_SELENITEPLASMA1: "Selenites Charge Plasma"
       STR_SELENITEPLASMA2: "Selenites Full Plasma"
       STR_SELENITEESHOCKS1: "Selenites Electroshocks"
-      STR_SELENITESSHOCKS2: "Selenites Barrys Voltage"
+      STR_SELENITESSHOCKS2: "Selenites Jeffs Voltage"
 ## Selenites Ballistic Weapons 1
       STR_SELENITESBULLET1P1: "LUNARBW P-1 Extend"
       STR_SELENITESBULLET1P2: "LUNARBW P-2 Sight"
@@ -3006,7 +3193,7 @@ en-US:
       STR_SELENITESBULLET1SMG1CLIP3: "LUNARBW SMG-1 ZGA Clip"
       STR_SELENITESBULLET1SMG2CLIP3: "LUNARBW SMG-2 ZGA Clip"
       STR_SELENITESBULLET1SMG3CLIP3: "LUNARBW SMG-3 ZGA Clip"
-      STR_SELENITESBULLETSNIPER1: "LUNARBW SNIPER-1 Extend"
+      STR_SELENITESBULLET1SNIPER1: "LUNARBW SNIPER-1 Extend"
       STR_SELENITESBULLET1SNIPER2: "LUNARBW SNIPER-2 Autoshot"
       STR_SELENITESBULLET1SNIPER3: "LUNARBW SNIPER-3 Anti-Material"
       STR_SELENITESBULLET1SNIPER1CLIP1: "LUNARBW SNIPER-1 Clip"
@@ -3042,40 +3229,271 @@ en-US:
       STR_SELENITESBULLET1HEAVY1CLIP3: "LUNARBW HEAVY-1 Buckshot Clip"
       STR_SELENITESBULLET1HEAVY2CLIP3: "LUNARBW HEAVY-2 Buckshot Clip"
       STR_SELENITESBULLET1HEAVY3CLIP3: "LUNARBW HEAVY-3 Buckshot Clip"
+## Selenites Ballistic Weapons 2
+      STR_SELENITESBULLET2P1: "LUNARZGB P-1 Extend"
+      STR_SELENITESBULLET2P2: "LUNARZGB P-2 Sight"
+      STR_SELENITESBULLET2P3: "LUNARZGB P-3 Stock"
+      STR_SELENITESBULLET2P1CLIP1: "LUNARZGB P-1 ZGA  Clip"
+      STR_SELENITESBULLET2P2CLIP1: "LUNARZGB P-2 ZGA  Clip"
+      STR_SELENITESBULLET2P3CLIP1: "LUNARZGB P-3 ZGA  Clip"
+      STR_SELENITESBULLET2P1CLIP2: "LUNARZGB P-1 Tech Clip"
+      STR_SELENITESBULLET2P2CLIP2: "LUNARZGB P-2 Tech Clip"
+      STR_SELENITESBULLET2P3CLIP2: "LUNARZGB P-3 Tech Clip"
+      STR_SELENITESBULLET2P1CLIP3: "LUNARZGB P-1 Chem Clip"
+      STR_SELENITESBULLET2P2CLIP3: "LUNARZGB P-2 Chem Clip"
+      STR_SELENITESBULLET2P3CLIP3: "LUNARZGB P-3 Chem Clip"
+      STR_SELENITESBULLET2SMG1: "LUNARZGB SMG-1 Extend"
+      STR_SELENITESBULLET2SMG2: "LUNARZGB SMG-2 Sight"
+      STR_SELENITESBULLET2SMG3: "LUNARZGB SMG-3 Stock"
+      STR_SELENITESBULLET2SMG1CLIP1: "LUNARZGB SMG-1 Clip"
+      STR_SELENITESBULLET2SMG2CLIP1: "LUNARZGB SMG-2 Clip"
+      STR_SELENITESBULLET2SMG3CLIP1: "LUNARZGB SMG-3 Clip"
+      STR_SELENITESBULLET2SMG1CLIP2: "LUNARZGB SMG-1 FMJH"
+      STR_SELENITESBULLET2SMG2CLIP2: "LUNARZGB SMG-2 FMJH"
+      STR_SELENITESBULLET2SMG3CLIP2: "LUNARZGB SMG-3 FMJH"
+      STR_SELENITESBULLET2SMG1CLIP3: "LUNARZGB SMG-1 ZGA Clip"
+      STR_SELENITESBULLET2SMG2CLIP3: "LUNARZGB SMG-2 ZGA Clip"
+      STR_SELENITESBULLET2SMG3CLIP3: "LUNARZGB SMG-3 ZGA Clip"
+      STR_SELENITESBULLET2SNIPER1: "LUNARZGB SNIPER-1 Extend"
+      STR_SELENITESBULLET2SNIPER2: "LUNARZGB SNIPER-2 Autoshot"
+      STR_SELENITESBULLET2SNIPER3: "LUNARZGB SNIPER-3 Anti-Material"
+      STR_SELENITESBULLET2SNIPER1CLIP1: "LUNARZGB SNIPER-1 Clip"
+      STR_SELENITESBULLET2SNIPER2CLIP1: "LUNARZGB SNIPER-2 Clip"
+      STR_SELENITESBULLET2SNIPER3CLIP1: "LUNARZGB SNIPER-3 Clip"
+      STR_SELENITESBULLET2SNIPER1CLIP2: "LUNARZGB SNIPER-1 Explosive Clip"
+      STR_SELENITESBULLET2SNIPER2CLIP2: "LUNARZGB SNIPER-2 Explosive Clip"
+      STR_SELENITESBULLET2SNIPER3CLIP2: "LUNARZGB SNIPER-3 Explosive Clip"
+      STR_SELENITESBULLET2SNIPER1CLIP3: "LUNARZGB SNIPER-1 ZGA Clip"
+      STR_SELENITESBULLET2SNIPER2CLIP3: "LUNARZGB SNIPER-2 ZGA Clip"
+      STR_SELENITESBULLET2SNIPER3CLIP3: "LUNARZGB SNIPER-3 ZGA Clip"
+      STR_SELENITESBULLET2GUNNER1: "LUNARZGB GUNNER-1 Barrel"
+      STR_SELENITESBULLET2GUNNER2: "LUNARZGB GUNNER-2 Mod"
+      STR_SELENITESBULLET2GUNNER3: "LUNARZGB GUNNER-3 Chain"
+      STR_SELENITESBULLET2GUNNER1CLIP1: "LUNARZGB GUNNER-1 Clip"
+      STR_SELENITESBULLET2GUNNER2CLIP1: "LUNARZGB GUNNER-2 Clip"
+      STR_SELENITESBULLET2GUNNER3CLIP1: "LUNARZGB GUNNER-3 Clip"
+      STR_SELENITESBULLET2GUNNER1CLIP2: "LUNARZGB GUNNER-1 Explosive Clip"
+      STR_SELENITESBULLET2GUNNER2CLIP2: "LUNARZGB GUNNER-2 Explosive Clip"
+      STR_SELENITESBULLET2GUNNER3CLIP2: "LUNARZGB GUNNER-3 Explosive Clip"
+      STR_SELENITESBULLET2GUNNER1CLIP3: "LUNARZGB GUNNER-1 Buckshot Clip"
+      STR_SELENITESBULLET2GUNNER2CLIP3: "LUNARZGB GUNNER-2 Buckshot Clip"
+      STR_SELENITESBULLET2GUNNER3CLIP3: "LUNARZGB GUNNER-3 Buckshot Clip"
+      STR_SELENITESBULLET2HEAVY1: "LUNARZGB HEAVY-1 Barrel"
+      STR_SELENITESBULLET2HEAVY2: "LUNARZGB HEAVY-2 Mod"
+      STR_SELENITESBULLET2HEAVY3: "LUNARZGB HEAVY-3 Chain"
+      STR_SELENITESBULLET2HEAVY1CLIP1: "LUNARZGB HEAVY-1 Clip"
+      STR_SELENITESBULLET2HEAVY2CLIP1: "LUNARZGB HEAVY-2 Clip"
+      STR_SELENITESBULLET2HEAVY3CLIP1: "LUNARZGB HEAVY-3 Clip"
+      STR_SELENITESBULLET2HEAVY1CLIP2: "LUNARZGB HEAVY-1 Explosive Clip"
+      STR_SELENITESBULLET2HEAVY2CLIP2: "LUNARZGB HEAVY-2 Explosive Clip"
+      STR_SELENITESBULLET2HEAVY3CLIP2: "LUNARZGB HEAVY-3 Explosive Clip"
+      STR_SELENITESBULLET2HEAVY1CLIP3: "LUNARZGB HEAVY-1 Buckshot Clip"
+      STR_SELENITESBULLET2HEAVY2CLIP3: "LUNARZGB HEAVY-2 Buckshot Clip"
+      STR_SELENITESBULLET2HEAVY3CLIP3: "LUNARZGB HEAVY-3 Buckshot Clip"
+## Selenites Laser Weapons 1
+      STR_SELENITESLASER1P1: "LUNARLW1-Pistol"
+      STR_SELENITESLASER1SMG1: "LUNARLW1-SMG"
+      STR_SELENITESLASER1CAR1: "LUNARLW1-Carbine"
+      STR_SELENITESLASER1RIF1: "LUNARLW1-Rifle"
+      STR_SELENITESLASER1SNP1: "LUNARLW1-Sniper"
+      STR_SELENITESLASER1GUN1: "LUNARLW1-Gunner"
+      STR_SELENITESLASER1HVY1: "LUNARLW1-Heavy"
+      STR_SELENITESLASER1P1CLIP1: "LUNARLW1-Pistol Battery"
+      STR_SELENITESLASER1SMG1CLIP1: "LUNARLW1-SMG Battery"
+      STR_SELENITESLASER1CAR1CLIP1: "LUNARLW1-Carbine Battery"
+      STR_SELENITESLASER1RIF1CLIP1: "LUNARLW1-Rifle Battery"
+      STR_SELENITESLASER1SNP1CLIP1: "LUNARLW1-Sniper Battery"
+      STR_SELENITESLASER1GUN1CLIP1: "LUNARLW1-Gunner Battery"
+      STR_SELENITESLASER1HVY1CLIP1: "LUNARLW1-Heavy Battery"
+      STR_SELENITESLASER1P1CLIP2: "LUNARLW1-Pistol Backup Module"
+      STR_SELENITESLASER1SMG1CLIP2: "LUNARLW1-SMG Backup Module"
+      STR_SELENITESLASER1CAR1CLIP2: "LUNARLW1-Carbine Backup Module"
+      STR_SELENITESLASER1RIF1CLIP2: "LUNARLW1-Rifle Backup Module"
+      STR_SELENITESLASER1SNP1CLIP2: "LUNARLW1-Sniper Backup Module"
+      STR_SELENITESLASER1GUN1CLIP2: "LUNARLW1-Gunner Backup Module"
+      STR_SELENITESLASER1HVY1CLIP2: "LUNARLW1-Heavy Backup Module"
+      STR_SELENITESLASER1P1CLIP3: "LUNARLW1-Pistol Enhance Module"
+      STR_SELENITESLASER1SMG1CLIP3: "LUNARLW1-SMG Enhance Module"
+      STR_SELENITESLASER1CAR1CLIP3: "LUNARLW1-Carbine Enhance Module"
+      STR_SELENITESLASER1RIF1CLIP3: "LUNARLW1-Rifle Enhance Module"
+      STR_SELENITESLASER1SNP1CLIP3: "LUNARLW1-Sniperl Enhance Module"
+      STR_SELENITESLASER1GUN1CLIP3: "LUNARLW1-Gunner Enhance Module"
+      STR_SELENITESLASER1HVY1CLIP3: "LUNARLW1-Heavy Enhance Module"
+## Selenites Laser Weapons 2
+      STR_SELENITESLASER2P1: "LUNARLW2-Pistol"
+      STR_SELENITESLASER2SMG1: "LUNARLW2-SMG"
+      STR_SELENITESLASER2CAR1: "LUNARLW2-Carbine"
+      STR_SELENITESLASER2RIF1: "LUNARLW2-Rifle"
+      STR_SELENITESLASER2SNP1: "LUNARLW2-Sniper"
+      STR_SELENITESLASER2GUN1: "LUNARLW2-Gunner"
+      STR_SELENITESLASER2HVY1: "LUNARLW2-Heavy"
+      STR_SELENITESLASER2P1CLIP1: "LUNARLW2-Pistol Module"
+      STR_SELENITESLASER2SMG1CLIP1: "LUNARLW2-SMG Module"
+      STR_SELENITESLASER2CAR1CLIP1: "LUNARLW2-Carbine Module"
+      STR_SELENITESLASER2RIF1CLIP1: "LUNARLW2-Rifle Module"
+      STR_SELENITESLASER2SNP1CLIP1: "LUNARLW2-Sniper Module"
+      STR_SELENITESLASER2GUN1CLIP1: "LUNARLW2-Gunner Module"
+      STR_SELENITESLASER2HVY1CLIP1: "LUNARLW2-Heavy Module"
+      STR_SELENITESLASER2P1CLIP2: "LUNARLW2-Pistol Turbo Module"
+      STR_SELENITESLASER2SMG1CLIP2: "LUNARLW2-SMG Turbo Module"
+      STR_SELENITESLASER2CAR1CLIP2: "LUNARLW2-Carbine Turbo Module"
+      STR_SELENITESLASER2RIF1CLIP2: "LUNARLW2-Rifle Turbo Module"
+      STR_SELENITESLASER2SNP1CLIP2: "LUNARLW2-Sniper Turbo Module"
+      STR_SELENITESLASER2GUN1CLIP2: "LUNARLW2-Gunner Turbo Module"
+      STR_SELENITESLASER2HVY1CLIP2: "LUNARLW2-Heavy Turbo Module"
+      STR_SELENITESLASER2P1CLIP3: "LUNARLW2-Pistol Cryo Module"
+      STR_SELENITESLASER2SMG1CLIP3: "LUNARLW2-SMG Cryo Module"
+      STR_SELENITESLASER2CAR1CLIP3: "LUNARLW2-Carbine Cryo Module"
+      STR_SELENITESLASER2RIF1CLIP3: "LUNARLW2-Rifle Cryo Module"
+      STR_SELENITESLASER2SNP1CLIP3: "LUNARLW2-Sniperl Cryo Module"
+      STR_SELENITESLASER2GUN1CLIP3: "LUNARLW2-Gunner Cryo Module"
+      STR_SELENITESLASER2HVY1CLIP3: "LUNARLW2-Heavy Cryo Module"
+## Selenites Plasma Weapons 1
+      STR_SELENITESPLASMA1P1: "SEW-PLASMA Pistol"
+      STR_SELENITESPLASMA1SMG1: "SEW-PLASMA SMG"
+      STR_SELENITESPLASMA1CAR1: "SEW-PLASMA Carbine"
+      STR_SELENITESPLASMA1RIF1: "SEW-PLASMA Rifle"
+      STR_SELENITESPLASMA1SNP1: "SEW-PLASMA Sniper"
+      STR_SELENITESPLASMA1GUN1: "SEW-PLASMA Gunner"
+      STR_SELENITESPLASMA1HVY1: "SEW-PLASMA Heavy"
+      STR_SELENITESPLASMA1P1CLIP1: "SEW-PLASMA Pistol Battery"
+      STR_SELENITESPLASMA1SMG1CLIP1: "SEW-PLASMA SMG Battery"
+      STR_SELENITESPLASMA1CAR1CLIP1: SEW-PLASMA Carbine Battery"
+      STR_SELENITESPLASMA1RIF1CLIP1: "SEW-PLASMA Rifle Battery"
+      STR_SELENITESPLASMA1SNP1CLIP1: "SEW-PLASMA Sniper Battery"
+      STR_SELENITESPLASMA1GUN1CLIP1: "SEW-PLASMA Gunner Battery"
+      STR_SELENITESPLASMA1HVY1CLIP1: "SEW-PLASMA Heavy Battery"
+      STR_SELENITESPLASMA1P1CLIP2: "SEW-PLASMA P1 AM Battery"
+      STR_SELENITESPLASMA1SMG1CLIP2: "SEW-PLASMA SMG1 AM Battery"
+      STR_SELENITESPLASMA1CAR1CLIP2: "SEW-PLASMA CAR1 AM Battery"
+      STR_SELENITESPLASMA1RIF1CLIP2: "SEW-PLASMA RIF1 AM Battery"
+      STR_SELENITESPLASMA1SNP1CLIP2: "SEW-PLASMA SNP1 AM Battery"
+      STR_SELENITESPLASMA1GUN1CLIP2: "SEW-PLASMA GUN1 AM Battery"
+      STR_SELENITESPLASMA1HVY1CLIP2: "SEW-PLASMA HVY1 AM Battery"
+      STR_SELENITESPLASMA1P1CLIP3: "SEW-PLASMAP Frequent Module"
+      STR_SELENITESPLASMA1SMG1CLIP3: "SEW-PLASMAP Frequent Module"
+      STR_SELENITESPLASMA1CAR1CLIP3: "SEW-PLASMAP Frequent Module"
+      STR_SELENITESPLASMA1RIF1CLIP3: "SEW-PLASMAP Frequent Module"
+      STR_SELENITESPLASMA1SNP1CLIP3: "SEW-PLASMAP Frequent Module"
+      STR_SELENITESPLASMA1GUN1CLIP3: "SEW-PLASMAP Frequent Module"
+      STR_SELENITESPLASMA1HVY1CLIP3: "SEW-PLASMAP Frequent Module"
+## Selenites Plasma Weapons 2
+      STR_SELENITESPLASMA2P1: "SEW-PLASMAMK2 Pistol"
+      STR_SELENITESPLASMA2SMG1: "SEW-PLASMAMK2 SMG"
+      STR_SELENITESPLASMA2CAR1: "SEW-PLASMAMK2 Carbine"
+      STR_SELENITESPLASMA2RIF1: "SEW-PLASMAMK2 Rifle"
+      STR_SELENITESPLASMA2SNP1: "SEW-PLASMAMK2 Sniper"
+      STR_SELENITESPLASMA2GUN1: "SEW-PLASMAMK2 Gunner"
+      STR_SELENITESPLASMA2HVY1: "SEW-PLASMAMK2 Heavy"
+      STR_SELENITESPLASMA2P1CLIP1: "SEW-PLASMAMK2-P FC Battery"
+      STR_SELENITESPLASMA2SMG1CLIP1: "SEW-PLASMAMK2-SMG FC Battery"
+      STR_SELENITESPLASMA2CAR1CLIP1: SEW-PLASMAMK2-CAR FC Battery"
+      STR_SELENITESPLASMA2RIF1CLIP1: "SEW-PLASMAMK2-RIF FC Battery"
+      STR_SELENITESPLASMA2SNP1CLIP1: "SEW-PLASMAMK2-SNP FC Battery"
+      STR_SELENITESPLASMA2GUN1CLIP1: "SEW-PLASMAMK2-GUN FC Battery"
+      STR_SELENITESPLASMA2HVY1CLIP1: "SEW-PLASMAMK2-HVY FC Battery"
+      STR_SELENITESPLASMA2P1CLIP2: "SEW-PLASMAMK2 P1  AM Battery"
+      STR_SELENITESPLASMA2SMG1CLIP2: "SEW-PLASMAMK2 SMG1 AM Battery"
+      STR_SELENITESPLASMA2CAR1CLIP2: "SEW-PLASMAMK2 CAR1 AM Battery"
+      STR_SELENITESPLASMA2RIF1CLIP2: "SEW-PLASMAMK2 RIF1 AM Battery"
+      STR_SELENITESPLASMA2SNP1CLIP2: "SEW-PLASMAMK2 SNP1 AM Battery"
+      STR_SELENITESPLASMA2GUN1CLIP2: "SEW-PLASMAMK2 GUN1 AM Battery"
+      STR_SELENITESPLASMA2HVY1CLIP2: "SEW-PLASMAMK2 HVY1 AM Battery"
+      STR_SELENITESPLASMA2P1CLIP3: "SEW-PLASMAMK2 Frequent Module"
+      STR_SELENITESPLASMA2SMG1CLIP3: "SEW-PLASMAMK2 Frequent Module"
+      STR_SELENITESPLASMA2CAR1CLIP3: "SEW-PLASMAMK2 Frequent Module"
+      STR_SELENITESPLASMA2RIF1CLIP3: "SEW-PLASMAMK2 Frequent Module"
+      STR_SELENITESPLASMA2SNP1CLIP3: "SEW-PLASMAMK2 Frequent Module"
+      STR_SELENITESPLASMA2GUN1CLIP3: "SEW-PLASMAMK2 Frequent Module"
+      STR_SELENITESPLASMA2HVY1CLIP3: "SEW-PLASMAMK2 Frequent Module"
+
+
+## Selenites Special Weapons 2
+      STR_SELENITESSHIELDS1: "Mobility Shield"
+      STR_SELENITESSHIELDS2: "Defense Shield"
+      STR_SELENITESSHIELDS3: "Siege Shield"
+      STR_SELENITESMELEEWEAPON1:
+      STR_SELENITESMELEEWEAPON2:
+      STR_SELENITESMELEEWEAPON3:
+      STR_SELENITESMELEEWEAPON4:
+      STR_SELENITESMELEEWEAPON5:
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #### JOVIANS EMPIRE
-
 ## Jovians Lore
       STR_JUPITERIS_VOCABULARY: " Jupteris Language Arts"
       STR_JOVIAN: "Jovians"
       STR_JOVIAN_UFOPEDIA: ""
       STR_JOVIAN_LANGUAGE: "Jovians Language Arts"
       STR_JOVIAN_L_UFOPEDIA: ""
-      STR_JOVIAN_FOOD: ""
+      STR_JOVIAN_FOOD: "Jovians Foodstuffs"
       STR_JOVIAN_FOOD_UFOPEDIA: ""
-      STR_JOVIAN_CULTURE: ""
+      STR_JOVIAN_CULTURE: "Jovians Culture"
       STR_JOVIAN_CULTURE_UFOPEDIA: ""
       STR_JOVIAN_ARCHITECTURE: "Martian Humanoids Architecture"
       STR_JOVIAN_ARCHITECTURE_UFOPEDIA: "Skyscrapper Tower"
 #### Jovian machine for Geoscape
 #### Jovian Weapon Mount
 #### Jovian Infantry
-      STR_JOVIANWISELINDWYRM1: Jovian Wyrm Soldier
-      STR_JOVIANWISELINDWYRM2: Jovian Wyrm Armored
-      STR_JOVIANWISELINDWYRM3: Jovian Wyrm Elites
-#### Jovian Weapons
+      STR_JOVIANWISELINDWYRM1: "Jovian Wyrm Soldier"
+      STR_JOVIANWISELINDWYRM2: "Jovian Wyrm Armored"
+      STR_JOVIANWISELINDWYRM3: "Jovian Wyrm Elites"
+      STR_JOVIANWISELINDWYRM4: "Jovian Wyrm Sniper"
+      STR_JOVIANWISELINDWYRM5: "Jovian Wyrm Recon"
+      STR_JOVIANWISELINDWYRM6: "Jovian Wyrm Engineer"
+      STR_JOVIANWISELINDWYRM7: "Jovian Wyrm Medic"
+      STR_JOVIANWISELINDWYRM8: "Jovian Wyrm Officer"
+      STR_JOVIANWISELINDWYRM9: "Jovian Wyrm Pilot"
+      STR_JOVIANWISELINDWYRM10: "Jovian Wyrm Commander"
+      STR_JOVIANANDROIDVERSION1: "Jovian Labor"
+      STR_JOVIANANDROIDVERSION2: "Jovian Warrior"
+      STR_JOVIANANDROIDVERSION3: "Jovian Archer"
+      STR_JOVIANANDROIDVERSION4: "Jovian Knight"
+      STR_JOVIANANDROIDVERSION5: "Jovian Guard"
+      STR_JOVIANANDROIDVERSION6: "Jovian Cavalier"
+      STR_JOVIANANDROIDVERSION7: "Jovian Druid"
+      STR_JOVIANANDROIDVERSION8: "Jovian Mage"
+      STR_JOVIANANDROIDVERSION9: "Jovian Bandit"
+      STR_JOVIANANDROIDVERSION10: "Jovian Zealot"
+      STR_JOVIANCOMBATDRONE1: ""
+      STR_JOVIANCOMBATDRONE2: ""
+      STR_JOVIANCOMBATDRONE3: ""
+      STR_JOVIANCOMBATDRONE4: ""
+      STR_JOVIANCOMBATDRONE5: ""
+      STR_JOVIANCOMBATDRONE6: ""
+      STR_JOVIANCOMBATDRONE7: ""
+      STR_JOVIANCOMBATDRONE8: ""
+      STR_JOVIANCOMBATDRONE9: ""
+      STR_JOVIANCOMBATDRONE10: ""
+      STR_JOVIANNEURAPHYSICSPDA: ""
+      STR_JOVIANCAMOFLAGUE: ""
+      STR_JOVIANENERGYSHIELD: ""
+      STR_EXOSKELETONNSUIT1: ""
+#### Jovian HWP
 #### Jovian Weapons
 #Zero Gravity Alloy Codename: Bulls Eye
       STR_JOVIANZGABALLISTIC1: "Jovians Zero Gravity Alloy"
       STR_JOVIANZGABALLISTIC2: "Jovians Zero Dimension Alloy"
       STR_JOVIANZGABALLISTIC3: "Jovians ZD Warp Ballistic"
-      STR_JOVIANLASERWEAPON1: Jovians Laser Weapon
-      STR_JOVIANLASERWEAPON2: Jovians Proton Weapon
-      STR_JOVIANLASERWEAPON3: Jovians Ion Energy Weapon
-      STR_JOVIANSONICWEAPON1: Jovians Sonic Weapon
-      STR_JOVIANGRAVITYWEAPON1: Jovian Grapple Projecile
-      STR_JOVIANMASSRAILGUNWEAPON1: Jovian Rail Guass Weapon
+      STR_JOVIANLASERWEAPON1: "Jovians Laser weapon"
+      STR_JOVIANLASERWEAPON2: "Jovians Proton Weapon"
+      STR_JOVIANLASERWEAPON3: "Jovians Ion Energy Weapon"
+      STR_JOVIANSONICWEAPON1: "Jovians Sonic Weapon"
+      STR_JOVIANGRAVITYWEAPON1: "Jovian Grapple Projecile"
+      STR_JOVIANMASSRAILGUNWEAPON1: "Jovian Rail Guass Weapon"
       STR_JOVIANMASSRAILGUNWEAPON2: Jovian Hypervelocity Weapon
       STR_JOVIANCRYOGUNWEAPON1: Jovian Nitro Ballistic Weapon
       STR_JOVIANELECTRICWEAPON1: Jovian Electric Weapon
@@ -3359,7 +3777,7 @@ en-US:
 ##########  Human Research On Octasapiens
 ## Octasapiens
       STR_OCTASAPIENS: "Martian Octasapiens"
-      STR_OCTASAPIENS_UFOPEDIA: ""
+      STR_OCTASAPIENS_UFOPEDIA: "A bizzare big head octopus into a real evolved sapient species. Large spine in a full body without tentacles and their fingers are merged into limbs with 4 parts. A incredible intelligents allows them to adapt the battle situation with better ways. Even they can wield many weapons and vehicles similar to our counterparts. It's impossible to identify any weakness only than normal starvation."
       STR_OCTASAPIENS_LANGUAGE: "Octasapien Language Arts"
       STR_OCTASAPIENS_L_UFOPEDIA: "We have completed a compilation of a Martian Octasapiens language Arts based on all information from their ranks. "
       STR_OCTASAPIENS_FOOD: "Octasapien Foodstuffs"
@@ -3371,6 +3789,7 @@ en-US:
       STR_OCTASAPIENS_SPACE_ELEVATOR: "Mars Space Elevator Structure"
       STR_OCTASAPIENS_ARCHITECTURE: "Martian Humanoids Architecture"
       STR_OCTASAPIENS_ARCHITECTURE_UFOPEDIA: "Pyramids"
+      STR_EASTEREGG1: "Yipes! What in the world?!"
 ## Octasapien Foreign Forces
       STR_OCTASAPIEN_FOREIGN_TRANSLATE: "Martian Alliance Translation"
       STR_OCTASAPIEN_FOREIGN_TRANSLATE_UFOPEDIA: ""
@@ -3437,10 +3856,23 @@ en-US:
       STR_OCTASAPIENINFANTRY4CLASS6: "Octasapien Engineer VACE"
       STR_OCTASAPIENINFANTRY4CLASS7: "Octasapien Operative VACE"
       STR_OCTASAPIENINFANTRY4CLASS8: "Octasapien Legendary VACE"
-      STR_OCTASAPIENCAMOFLAUGE: "Octasapien Camo Fabrics"
-      STR_OCTASAPIENENERGYSHIELDS: "Octasapien E-Shield Device"
-      STR_OCTASAPIENCLOAKFIELDS: "Octaspaien Cloakfield Device"
-      STR_OCTASAPIENNXTARMOR: "Octasapien Nextgen Armor"
+      STR_OCTASAPIENINFANTRYTYPE1: "Octasapien Modsoldier"
+      STR_OCTASAPIENINFANTRYTYPE2: "Octasapien Phantom"
+      STR_OCTASAPIENINFANTRYTYPE3: "Octasapien Recon"
+      STR_OCTASAPIENINFANTRYTYPE4: "Octasapien Jumpjet"
+      STR_OCTASAPIENINFANTRYTYPE5: "Octasapien Juggernaut"
+      STR_OCTASAPIENINFANTRYTYPE6: "Octasapien Engineer"
+      STR_OCTASAPIENINFANTRYTYPE7: "Octasapien Operative"
+      STR_OCTASAPIENINFANTRYTYPE8: "Octasapien Legendary"
+      STR_OCTASAPIENINFANTRYTYPE1WIKI: "Modsoldier Role: Average and well-trained Soldier from their basic training base. They are known as the Octasapien Front=line Infantry and back-bone military. Utliizes basic tools to maintain their equipment."
+      STR_OCTASAPIENINFANTRYTYPE2WIKI: "Phantom Role: Cloak Device attached to their backs to maintain invisilbility from enemy sights. They are difficult to be seen with a primitive eyes, but not limit to projectile directions. Their close quarters & melee attacks can be very deadly if they found it unguarded."
+      STR_OCTASAPIENINFANTRYTYPE3WIKI: "Recon Role: Long-Range scout infantry and sniper support attached with camoflauge. They are more deadly with distance weapons and able to pickout one bye one. It is advised not to go out on all-out assault. "
+      STR_OCTASAPIENINFANTRYTYPE4WIKI: "Jumpjet Role: Operated Jumpjet device attached to the Octasapien Armor. They can maneuver anywhere on the battlefield. Performing suprise assaults, rescue pinned down infantry, and exfiltration tasks."
+      STR_OCTASAPIENINFANTRYTYPE5WIKI: "Juggernaut Role: Heavy-Weighted Armor with max protection on all-sides. However these mechanical exo skeletons allows them to move efficiently with much armor weight. Heavy Weapons can make them more deadly against numbers on narrow areas."
+      STR_OCTASAPIENINFANTRYTYPE6WIKI: "Engineer Role: These engineers can perform most of the task with a higher paid salary. They can maintain, repairs, and salvage any machines for better use."
+      STR_OCTASAPIENINFANTRYTYPE7WIKI: "Operative Role: Octasapiens Elite Class of the all-round roles. They can use officers tactics, operating machines, and other dangerous missions. They are equipped with higher weapons to outwit them."
+      STR_OCTASAPIENINFANTRYTYPE8WIKI: "Legendary Role: The dangerous rank of all infantry from the ranks of Modsoldiers to Operative roles. They can wipe out single next to another without difficults. However, they have tactics to destroy tanks only 1 soldier."
+
 ### Octasapien HWP; 1:Armor 2:Cloak 3:Shield
       #### Machine Hunter
       STR_OCTASAPIENSARM1HWP1: "Pesticide Walker" #Pest Control
@@ -3504,14 +3936,14 @@ en-US:
       STR_OCTASAPIEN_SENTRY_TOWER: "Octasapien Guard Tower"
       STR_OCTASAPIEN_SENTRY_TOWERWIKI: "Their defense tower are equiped with automated sentry guns supporting the platform weapons system. It repels armored vehicles and group infantry within weapons range."
       STR_OCTASAPIEN_OUTBASE: "Octasapien Platform"
-      STR_OCTASAPIEN_OUTBASEWIKI: "A construction yard base that builds other structures, defenses, and barriacades. It also repair, salvage, and renew weary items into new materials. The interrior contains raw materials and alloys from their origin."
+      STR_OCTASAPIEN_OUTBASEWIKI: "A construction yard base that builds other structures, defenses, and barriacades. It also repair, salvage, and renew weary items into new materials. The interior contains raw materials and alloys from their origin."
       STR_OCTASAPIEN_REFINERY: "Octasapien Refinery"
       STR_OCTASAPIEN_REFINERYWIKI: "Advance Quarry Base mining raw materials and salvaged assets into new versions. The abundant of alien alloys, and other harden components."
       STR_OCTASAPIEN_MANUFACTURE: "Octasapien Factory"
-      STR_OCTASAPIEN_MANUFACTUREWIKI: "The production facility is equipped with robotic cranes and automated. Their current manufacturing capacity are more faster than our current designs. It's supported by workers and security personnel. "
+      STR_OCTASAPIEN_MANUFACTUREWIKI: "The production facility is equipped with robotic cranes and automated. Their current manufacturing capacity are more faster than our current designs. It's supported by workers and security personnel. However their defense is vulnerable to any attack if nessecary."
       STR_OCTASAPIEN_OUTPOST: "Octasapien Outpost"
       STR_OCTASAPIEN_OUTPOSTWIKI: "The defense post constructed with"
-      STR_OCTASAPIEN_COMPOUND: "Octasapien Tech Center"
+      STR_OCTASAPIEN_COMPOUND: "Octasapien Research Center"
       STR_OCTASAPIEN_COMPOUNDWIKI: ""
       STR_OCTASAPIEN_FARM: "Octasapien Agricultural"
       STR_OCTASAPIEN_FARMWIKI: ""
@@ -4424,14 +4856,26 @@ en-US:
 
       ##### KronoVictor Weapons
       ##### High Performance
+      STR_KRONOVICTORM7PISTOL: ""
+      STR_KRONOVICTORM8RIFLE: ""
 
 
+      ###### Exodus Weapons
+
+      ###### Exodus Weapon Exclusive
+      STR_SCARFINT1: Fist Glove
+      STR_SCARFINT2: Arcane Gauntlet
+      STR_SCARFINT3: Schwartz Blade
+      STR_SCARFINT4: Chain Caliber
+      STR_SCARFINT5: Gun Grizzler
+      STR_SCARFINT6: Exodus Case
+      STR_SCARFINT7: Experfiew
+      STR_SCARFINT8: Gunlock WSYS
+      STR_SCARFINT9: Mobile Mines
+      STR_SCARFINT10: Exodia Arbitors
 
 
-
-
-
-
+      ####### Craft Defense with Facility Defenses: Requires coding with script; Base Defense with weapon range;
 
 
 
