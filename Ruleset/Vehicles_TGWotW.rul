@@ -10,9 +10,9 @@ crafts:
 #################################
   - type: STR_MARCH
     sprite: 99
-    fuelMax: 9000
+    fuelMax: 99999
     damageMax: 50
-    speedMax: 80
+    speedMax: 2
     accel: 1
     avoidBonus: 60
     undetectable: true
@@ -69,9 +69,9 @@ crafts:
 # 4 3 2
   - type: STR_MARCH_LARGE
     sprite: 100
-    fuelMax: 9000
+    fuelMax: 99999
     damageMax: 100
-    speedMax: 50
+    speedMax: 2
     avoidBonus: 40
     accel: 1
     weapons: 2
@@ -3026,7 +3026,7 @@ extraSprites:
       536: Resources/Mechs/Praetorian_base11.png
 
 ###### Kiroxeis Spot
-
+      570: Resources/Craftsextended/Aligator1base.png #0 +33
 
   - type: INTICON.PCK
     files:
@@ -3208,7 +3208,8 @@ extraSprites:
       514: Resources/Mechs/Praetorian_dogfight.png
 
 ###### Kiroxeis Spot
-
+      537: Resources/Craftsextended/Aligator1minimised.png #0
+      548: Resources/Craftsextended/Aligator1dogfight.png #11
 
 
 
