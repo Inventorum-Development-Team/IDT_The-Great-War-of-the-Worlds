@@ -451,8 +451,8 @@ ufos:
 
 
 musics:
-   - type: IDT_TGWOTW_THEME
-     normalization: 2.0
+  - type: IDT_TGWOTW_THEME
+    normalization: 2.0
 
 itemCategories:
   - type: STR_BALLISTIC

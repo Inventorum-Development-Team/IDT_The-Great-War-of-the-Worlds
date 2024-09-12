@@ -20,7 +20,7 @@ missionScripts:
     #raceWeights:
     raceWeights:
       0:
-       STR_MARTIAN_SKIRMISHERS: 100
+        STR_MARTIAN_SKIRMISHERS: 100
     missionWeights:
       0:
         STR_ALIEN_TERROR: 100
@@ -48,7 +48,7 @@ missionScripts:
         STR_ALIEN_ABDUCTION: 50
     raceWeights:
       0:
-       STR_MARTIAN_SCIENCE_TEAM: 100
+        STR_MARTIAN_SCIENCE_TEAM: 100
     firstMonth: 2
     startDelay: 43500
     targetBaseOdds: 100

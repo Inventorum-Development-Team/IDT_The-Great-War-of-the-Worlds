@@ -206,7 +206,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMLE_MKIII_UFOPEDIA
     requires:
-     - STR_SMLE_MKIII_UNLOCK
+      - STR_SMLE_MKIII_UNLOCK
     listOrder: 2000
   - id: STR_SMLE_MKIII_CLIP
     type_id: 4
@@ -214,14 +214,14 @@ ufopaedia:
   - id: STR_SMLE_MKIII_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_P14_ENFIELD
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_P14_ENFIELD_UFOPEDIA
     requires:
-     - STR_P14_ENFIELD_UNLOCK
+      - STR_P14_ENFIELD_UNLOCK
     listOrder: 2100
     ##listOrder: 2001
   - id: STR_SPRINGFIELD
@@ -229,7 +229,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SPRINGFIELD_UFOPEDIA
     requires:
-     - STR_SPRINGFIELD_UNLOCK
+      - STR_SPRINGFIELD_UNLOCK
     ##listOrder: 2005
   - id: STR_SPRINGFIELD_CLIP
     type_id: 4
@@ -237,7 +237,7 @@ ufopaedia:
   - id: STR_SPRINGFIELD_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_GEWEHR98
     type_id: 4
@@ -251,14 +251,14 @@ ufopaedia:
   - id: STR_GEWEHR98_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_LEBEL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LEBEL_UFOPEDIA
     requires:
-     - STR_LEBEL_UNLOCK
+      - STR_LEBEL_UNLOCK
     listOrder: 2300
     ##listOrder: 2013
   - id: STR_LEBEL_CLIP
@@ -267,14 +267,14 @@ ufopaedia:
   - id: STR_LEBEL_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MOSIN_NAGANT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MOSIN_NAGANT_UFOPEDIA
     requires:
-     - STR_MOSIN_NAGANT_UNLOCK
+      - STR_MOSIN_NAGANT_UNLOCK
     listOrder: 2400
     ##listOrder: 2001
   - id: STR_WINCHESTER_M1915
@@ -282,7 +282,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_WINCHESTER_M1915_UFOPEDIA
     requires:
-     - STR_WINCHESTER_M1915_UNLOCK
+      - STR_WINCHESTER_M1915_UNLOCK
     listOrder: 2500
     ##listOrder: 2005
   - id: STR_MOSIN_NAGANT_CLIP
@@ -291,14 +291,14 @@ ufopaedia:
   - id: STR_MOSIN_NAGANT_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_BERDAN_II
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BERDAN_II_UFOPEDIA
     requires:
-     - STR_BERDAN_II_UNLOCK
+      - STR_BERDAN_II_UNLOCK
     listOrder: 2600
     ##listOrder: 2005
   - id: STR_BERDAN_II_AMMO
@@ -306,7 +306,7 @@ ufopaedia:
     section: STR_NOT_AVAILABLE
   - id: STR_BERDAN_II_AMMO_KMM
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     type_id: 4
     section: STR_NOT_AVAILABLE
   ###########################################
@@ -317,7 +317,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_PROTOTYPE_UFOPEDIA
     requires:
-     - STR_PHLOGISTON_PROTOTYPE
+      - STR_PHLOGISTON_PROTOTYPE
     listOrder: 2700
 
   - id: STR_PHLOGISTON_HEAVY_RIFLE
@@ -325,7 +325,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_HEAVY_RIFLE_UFOPEDIA
     requires:
-     - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
+      - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
     listOrder: 2710
 
     ##listOrder: 2005
@@ -346,7 +346,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FARQHUAR_HILL_UFOPEDIA
     requires:
-     - STR_FARQHUAR_HILL_UNLOCK
+      - STR_FARQHUAR_HILL_UNLOCK
     listOrder: 2800
     ##listOrder: 2002
   - id: STR_FARQHUAR_HILL_DRUM
@@ -355,11 +355,11 @@ ufopaedia:
   - id: STR_FARQHUAR_HILL_DRUM_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MONDRAGON
     requires:
-     - STR_MONDRAGON_UNLOCK
+      - STR_MONDRAGON_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MONDRAGON_UFOPEDIA
@@ -371,11 +371,11 @@ ufopaedia:
   - id: STR_MONDRAGON_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_SELBSTLADER_M1916
     requires:
-     - STR_SELBSTLADER_M1916_UNLOCK
+      - STR_SELBSTLADER_M1916_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SELBSTLADER_M1916_UFOPEDIA
@@ -387,11 +387,11 @@ ufopaedia:
   - id: STR_SELBSTLADER_M1916_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_RSC17
     requires:
-     - STR_RSC17_UNLOCK
+      - STR_RSC17_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_RSC17_UFOPEDIA
@@ -403,11 +403,11 @@ ufopaedia:
   - id: STR_RSC17_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_FEDOROV_AVTOMAT
     requires:
-     - STR_FEDOROV_AVTOMAT_UNLOCK
+      - STR_FEDOROV_AVTOMAT_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FEDOROV_AVTOMAT_UFOPEDIA
@@ -419,11 +419,11 @@ ufopaedia:
   - id: STR_FEDOROV_AVTOMAT_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_CEI_RIGOTTI
     requires:
-     - STR_CEI_RIGOTTI_UNLOCK
+      - STR_CEI_RIGOTTI_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_CEI_RIGOTTI_UFOPEDIA
@@ -435,7 +435,7 @@ ufopaedia:
   - id: STR_CEI_RIGOTTI_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   #################################################
@@ -446,7 +446,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_BATTLE_RIFLE_UFOPEDIA
     requires:
-     - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
+      - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
     listOrder: 3400
     ##listOrder: 2029
   - id: STR_PHLOGISTON_MEDIUM_BATTERY
@@ -464,7 +464,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SERVICE_REVOLVER_UFOPEDIA
     requires:
-     - STR_SERVICE_REVOLVER_UNLOCK
+      - STR_SERVICE_REVOLVER_UNLOCK
     listOrder: 3500
     ##listOrder: 2000
   - id: STR_REVOLVER_CLIP
@@ -473,19 +473,19 @@ ufopaedia:
   - id: STR_REVOLVER_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_REVOLVER_CLIP_DUMDUM
     type_id: 4
     requires:
-     - STR_GENEVA_CONVENTION_APPEAL
+      - STR_GENEVA_CONVENTION_APPEAL
     section: STR_NOT_AVAILABLE
   - id: STR_AUTOMATIC_REVOLVER
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_AUTOMATIC_REVOLVER_UFOPEDIA
     requires:
-     - STR_AUTOMATIC_REVOLVER_UNLOCK
+      - STR_AUTOMATIC_REVOLVER_UNLOCK
     listOrder: 3600
     ##listOrder: 2000
   - id: STR_HEAVY_REVOLVER
@@ -493,7 +493,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HEAVY_REVOLVER_UFOPEDIA
     requires:
-     - STR_HEAVY_REVOLVER_UNLOCK
+      - STR_HEAVY_REVOLVER_UNLOCK
     listOrder: 3700
     ##listOrder: 2000
   - id: STR_M1911_COLT
@@ -501,7 +501,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_M1911_COLT_UFOPEDIA
     requires:
-     - STR_M1911_COLT_UNLOCK
+      - STR_M1911_COLT_UNLOCK
     listOrder: 3800
     ##listOrder: 2004
   - id: STR_M1911_COLT_MAG
@@ -510,14 +510,14 @@ ufopaedia:
   - id: STR_M1911_COLT_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MAUSER_C96
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MAUSER_C96_UFOPEDIA
     requires:
-     - STR_MAUSER_C96_UNLOCK
+      - STR_MAUSER_C96_UNLOCK
     listOrder: 3900
     ##listOrder: 2009
   - id: STR_MAUSER_C96_CLIP
@@ -526,14 +526,14 @@ ufopaedia:
   - id: STR_MAUSER_C96_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_LUGER_P08
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LUGER_P08_UFOPEDIA
     requires:
-     - STR_LUGER_P08_UNLOCK
+      - STR_LUGER_P08_UNLOCK
     listOrder: 4000
     ##listOrder: 2009
   - id: STR_LUGER_P08_MAG
@@ -542,14 +542,14 @@ ufopaedia:
   - id: STR_LUGER_P08_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_OBREZ_PISTOL
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_OBREZ_PISTOL_UFOPEDIA
     requires:
-     - STR_OBREZ_PISTOL_UNLOCK
+      - STR_OBREZ_PISTOL_UNLOCK
     listOrder: 4100
     ##listOrder: 2009
 
@@ -562,7 +562,7 @@ ufopaedia:
     text: STR_TESLA_PISTOL_UFOPEDIA
     listOrder: 4200
     requires:
-     - STR_TESLA_ELECTRIC_BLUEPRINTS
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
     ##listOrder: 2009
   - id: STR_TESLA_LIGHT_BATTERY
     type_id: 4
@@ -578,7 +578,7 @@ ufopaedia:
     listOrder: 4300
     ##listOrder: 2009
     requires:
-     - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
+      - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
   - id: STR_PHLOGISTON_SMALL_BATTERY
     type_id: 4
     section: STR_NOT_AVAILABLE
@@ -598,7 +598,7 @@ ufopaedia:
   - id: STR_M1907_SL_CARBINE_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_MAUSER_C96_CARBINE
@@ -606,7 +606,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MAUSER_C96_CARBINE_UFOPEDIA
     requires:
-     - STR_MAUSER_C96_CARBINE_UNLOCK
+      - STR_MAUSER_C96_CARBINE_UNLOCK
     listOrder: 4500
     ##listOrder: 2009
   - id: STR_MAUSER_C96_MAG
@@ -615,7 +615,7 @@ ufopaedia:
   - id: STR_MAUSER_C96_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_LUGER_ARTILLERY
@@ -623,7 +623,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LUGER_ARTILLERY_UFOPEDIA
     requires:
-     - STR_LUGER_ARTILLERY_UNLOCK
+      - STR_LUGER_ARTILLERY_UNLOCK
     listOrder: 4600
     ##listOrder: 2057
   - id: STR_LUGER_ARTILLERY_DRUM
@@ -632,11 +632,11 @@ ufopaedia:
   - id: STR_LUGER_ARTILLERY_DRUM_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_CARCANO_M91_CARBINE
     requires:
-     - STR_CARCANO_M91_CARBINE_UNLOCK
+      - STR_CARCANO_M91_CARBINE_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_CARCANO_M91_CARBINE_UFOPEDIA
@@ -648,12 +648,12 @@ ufopaedia:
   - id: STR_CARCANO_M91_CARBINE_CLIP_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_RSC_CARBINE
     requires:
-     - STR_RSC_CARBINE_UNLOCK
+      - STR_RSC_CARBINE_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_RSC_CARBINE_UFOPEDIA
@@ -665,7 +665,7 @@ ufopaedia:
   ############################################
   - id: STR_PHLOGISTON_AUTOMATIC_CARBINE
     requires:
-     - STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
+      - STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_PHLOGISTON_AUTOMATIC_CARBINE_UFOPEDIA
@@ -683,7 +683,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ANNIHILATOR_SMG_UFOPEDIA
     requires:
-     - STR_ANNIHILATOR_SMG_UNLOCK
+      - STR_ANNIHILATOR_SMG_UNLOCK
     listOrder: 5000
     ##listOrder: 2009
   - id: STR_ANNIHILATOR_SMG_MAG
@@ -692,12 +692,12 @@ ufopaedia:
   - id: STR_ANNIHILATOR_SMG_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_MP18
     requires:
-     - STR_MP18_UNLOCK
+      - STR_MP18_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MP18_UFOPEDIA
@@ -709,12 +709,12 @@ ufopaedia:
   - id: STR_MP18_DRUM_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_SMG_0818
     requires:
-     - STR_SMG_0818_UNLOCK
+      - STR_SMG_0818_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SMG_0818_UFOPEDIA
@@ -726,12 +726,12 @@ ufopaedia:
   - id: STR_SMG_0818_BOX_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_BERETTA_MAB18
     requires:
-     - STR_BERETTA_MAB18_UNLOCK
+      - STR_BERETTA_MAB18_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BERETTA_MAB18_UFOPEDIA
@@ -743,12 +743,12 @@ ufopaedia:
   - id: STR_BERETTA_MAB18_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_VILLAR_PEROSA
     requires:
-     - STR_VILLAR_PEROSA_UNLOCK
+      - STR_VILLAR_PEROSA_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_VILLAR_PEROSA_UFOPEDIA
@@ -760,7 +760,7 @@ ufopaedia:
   - id: STR_VILLAR_PEROSA_MAGS_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   ##########################################
@@ -774,11 +774,11 @@ ufopaedia:
     text: STR_TESLA_PROTOTYPE_UFOPEDIA
     listOrder: 5500
     requires:
-     - STR_TESLA_ELECTRIC_BLUEPRINTS
+      - STR_TESLA_ELECTRIC_BLUEPRINTS
     ##listOrder: 2030
   - id: STR_TESLA_SMG
     requires:
-     - STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
+      - STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_SMG_UFOPEDIA
@@ -790,7 +790,7 @@ ufopaedia:
   ########################################
   - id: STR_HUOT_LMG
     requires:
-     - STR_HUOT_LMG_UNLOCK
+      - STR_HUOT_LMG_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_HUOT_LMG_UFOPEDIA
@@ -802,12 +802,12 @@ ufopaedia:
   - id: STR_HUOT_LMG_DRUM_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_BAR
     requires:
-     - STR_BAR_UNLOCK
+      - STR_BAR_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_BAR_UFOPEDIA
@@ -819,12 +819,12 @@ ufopaedia:
   - id: STR_BAR_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_MG0815
     requires:
-     - STR_MG0815_UNLOCK
+      - STR_MG0815_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MG0815_UFOPEDIA
@@ -836,7 +836,7 @@ ufopaedia:
   - id: STR_MG0815_DRUM_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   - id: STR_CHAUCHAT_LMG
@@ -844,7 +844,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_CHAUCHAT_LMG_UFOPEDIA
     requires:
-     - STR_CHAUCHAT_LMG_UNLOCK
+      - STR_CHAUCHAT_LMG_UNLOCK
     listOrder: 6000
     ##listOrder: 2014
   - id: STR_CHAUCHAT_LMG_MAG
@@ -853,11 +853,11 @@ ufopaedia:
   - id: STR_CHAUCHAT_LMG_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_RIBEYROLLES
     requires:
-     - STR_RIBEYROLLES_UNLOCK
+      - STR_RIBEYROLLES_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_RIBEYROLLES_UFOPEDIA
@@ -869,11 +869,11 @@ ufopaedia:
   - id: STR_RIBEYROLLES_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_LEWIS_GUN
     requires:
-     - STR_LEWIS_GUN_UNLOCK
+      - STR_LEWIS_GUN_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_LEWIS_GUN_UFOPEDIA
@@ -885,7 +885,7 @@ ufopaedia:
   - id: STR_LEWIS_GUN_PAN_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
   - id: STR_MADSEN_LMG
     #requires:
@@ -901,7 +901,7 @@ ufopaedia:
   - id: STR_MADSEN_LMG_MAG_KMM
     type_id: 4
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     section: STR_NOT_AVAILABLE
 
   ##########################################
@@ -909,7 +909,7 @@ ufopaedia:
   ########################################
   - id: STR_TESLA_AUTOCANNON
     requires:
-     - STR_TESLA_INFANTRY_CANNON_RESEARCH
+      - STR_TESLA_INFANTRY_CANNON_RESEARCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_AUTOCANNON_UFOPEDIA
@@ -927,7 +927,7 @@ ufopaedia:
   ########################################
   - id: STR_WINCHESTER_TRENCH_GUN
     requires:
-     - STR_WINCHESTER_TRENCH_GUN_UNLOCK
+      - STR_WINCHESTER_TRENCH_GUN_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_WINCHESTER_TRENCH_GUN_UFOPEDIA
@@ -939,25 +939,25 @@ ufopaedia:
   - id: STR_SHOTGUN_DUMDUM_SHELLS_5
     type_id: 4
     requires:
-     - STR_GENEVA_CONVENTION_APPEAL
+      - STR_GENEVA_CONVENTION_APPEAL
     section: STR_NOT_AVAILABLE
   - id: STR_REMINGTON_MODEL_11
     requires:
-     - STR_REMINGTON_MODEL_11_UNLOCK
+      - STR_REMINGTON_MODEL_11_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_REMINGTON_MODEL_11_UFOPEDIA
     listOrder: 6600
   - id: STR_INERTIA_SHOTGUN
     requires:
-     - STR_INERTIA_SHOTGUN_UNLOCK
+      - STR_INERTIA_SHOTGUN_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_INERTIA_SHOTGUN_UFOPEDIA
     listOrder: 6700
   - id: STR_MODEL_1900
     requires:
-     - STR_MODEL_1900_UNLOCK
+      - STR_MODEL_1900_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MODEL_1900_UFOPEDIA
@@ -965,7 +965,7 @@ ufopaedia:
     ##listOrder: 2006
   - id: STR_MODEL_1900_SAWEDOFF
     requires:
-     - STR_MODEL_1900_SAWEDOFF_UNLOCK
+      - STR_MODEL_1900_SAWEDOFF_UNLOCK
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MODEL_1900_SAWEDOFF_UFOPEDIA
@@ -977,11 +977,11 @@ ufopaedia:
   - id: STR_SHOTGUN_DUMDUM_SHELLS_2
     type_id: 4
     requires:
-     - STR_GENEVA_CONVENTION_APPEAL
+      - STR_GENEVA_CONVENTION_APPEAL
     section: STR_NOT_AVAILABLE
   - id: STR_TRANQUILIZER_RIFLE
     requires:
-     - STR_TRANQUILIZER_SHOTGUN_PROJECT
+      - STR_TRANQUILIZER_SHOTGUN_PROJECT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TRANQUILIZER_RIFLE_UFOPEDIA
@@ -996,7 +996,7 @@ ufopaedia:
   ########################################
   - id: STR_TESLA_TRENCH_BROOM
     requires:
-     - STR_TESLA_RAPID_DISCHARGE_RESEARCH
+      - STR_TESLA_RAPID_DISCHARGE_RESEARCH
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TESLA_TRENCH_BROOM_UFOPEDIA
@@ -1014,7 +1014,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_ANTITANK_GRENADE_UFOPEDIA
     requires:
-     - STR_ANTITANK_GRENADE_UNLOCK
+      - STR_ANTITANK_GRENADE_UNLOCK
     listOrder: 7200
     ##listOrder: 2059
   - id: STR_STICK_GRENADE
@@ -1022,7 +1022,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_STICK_GRENADE_UFOPEDIA
     requires:
-     - STR_STICK_GRENADE_UNLOCK
+      - STR_STICK_GRENADE_UNLOCK
     listOrder: 7300
     ##listOrder: 2066
   - id: STR_FRAG_GRENADE
@@ -1030,7 +1030,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_FRAG_GRENADE_UFOPEDIA
     requires:
-     - STR_FRAG_GRENADE_UNLOCK
+      - STR_FRAG_GRENADE_UNLOCK
     listOrder: 7400
     ##listOrder: 2067
   - id: STR_DYNAMITE
@@ -1038,7 +1038,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_DYNAMITE_UFOPEDIA
     requires:
-     - STR_DYNAMITE_UNLOCK
+      - STR_DYNAMITE_UNLOCK
     listOrder: 7500
     ##listOrder: 2068
 #  - id: STR_GRENADE_LAUNCHER
@@ -1130,7 +1130,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MM_SABRE_UFOPEDIA
     requires:
-     - STR_IMPROVED_METALURGIC_TECHNIQUES
+      - STR_IMPROVED_METALURGIC_TECHNIQUES
     listOrder: 8100
     ##listOrder: 2040
   - id: STR_TRENCH_KNIFE
@@ -1138,7 +1138,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TRENCH_KNIFE_UFOPEDIA
     requires:
-     - STR_TRENCH_KNIFE_UNLOCK
+      - STR_TRENCH_KNIFE_UNLOCK
     listOrder: 8200
     ##listOrder: 2041
   - id: STR_TRENCH_SHOVEL
@@ -1146,7 +1146,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TRENCH_SHOVEL_UFOPEDIA
     requires:
-     - STR_TRENCH_SHOVEL_UNLOCK
+      - STR_TRENCH_SHOVEL_UNLOCK
     listOrder: 8300
     ##listOrder: 2042
   - id: STR_SHOVEL
@@ -1154,7 +1154,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SHOVEL_UFOPEDIA
     requires:
-     - STR_SHOVEL_UNLOCK
+      - STR_SHOVEL_UNLOCK
     listOrder: 8400
     ##listOrder: 2042
   - id: STR_TRENCH_MACE
@@ -1162,14 +1162,14 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TRENCH_MACE_UFOPEDIA
     requires:
-     - STR_TRENCH_MACE_UNLOCK
+      - STR_TRENCH_MACE_UNLOCK
     listOrder: 8500
   - id: STR_TRENCH_CLUB
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_TRENCH_CLUB_UFOPEDIA
     requires:
-     - STR_TRENCH_CLUB_UNLOCK
+      - STR_TRENCH_CLUB_UNLOCK
     listOrder: 8600
     ##listOrder: 2060
   - id: STR_SHASHKA
@@ -1177,7 +1177,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_SHASHKA_UFOPEDIA
     requires:
-     - STR_SHASHKA_UNLOCK
+      - STR_SHASHKA_UNLOCK
     listOrder: 8700
     ##listOrder: 2060
   - id: STR_MM_SHASHKA
@@ -1185,7 +1185,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MM_SHASHKA_UFOPEDIA
     requires:
-     - STR_MM_SHASHKA_UNLOCK
+      - STR_MM_SHASHKA_UNLOCK
     listOrder: 8800
     ##listOrder: 2060
   - id: STR_MM_DAGGER
@@ -1193,7 +1193,7 @@ ufopaedia:
     section: STR_WEAPONS_AND_EQUIPMENT
     text: STR_MM_DAGGER_UFOPEDIA
     requires:
-     - STR_MM_DAGGER_UNLOCK
+      - STR_MM_DAGGER_UNLOCK
     listOrder: 8900
     ##listOrder: 2043
 #  - id: STR_TRENCH_AXE
@@ -2120,7 +2120,7 @@ ufopaedia:
     listOrder: 14900
   - id: STR_ADVANCED_FIREARMS
     requires:
-     - STR_FRONTLINES_FIELD_REPORT
+      - STR_FRONTLINES_FIELD_REPORT
     type_id: 7
     section: STR_NEW_TECHNOLOGIES
     image_id: ADVANCED_FIREARMS_IMAGE
@@ -2130,7 +2130,7 @@ ufopaedia:
     listOrder: 15000
   - id: STR_KMM_BULLETS
     requires:
-     - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     type_id: 7
     section: STR_NEW_TECHNOLOGIES
     image_id: KMM_BULLETS_IMAGE

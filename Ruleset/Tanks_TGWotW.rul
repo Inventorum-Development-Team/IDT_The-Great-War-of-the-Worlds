@@ -10,10 +10,10 @@
     allowsKneeling: false
     fearImmune: false
     corpseBattle:
-     - STR_SIDECAR_MOTORCYCLE_RECOVER
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
+      - STR_SIDECAR_MOTORCYCLE_RECOVER
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
     corpseGeo: STR_SIDECAR_MOTORCYCLE_RECOVER
     storeItem: STR_SIDECAR_MOTORCYCLE_ITEM
     #weight: -200
@@ -26,10 +26,10 @@
     size: 2
     #overKill: 3.0
     stats: &SECTION_LIGHT_TANK_STATS
-       bravery: 20
-       tu: 175
-       stamina: 700
-       reactions: -15
+      bravery: 20
+      tu: 175
+      stamina: 700
+      reactions: -15
     recovery:  &SECTION_LIGHT_TANK_RECOVERY
       energy:
         flatHundred: 7.5
@@ -86,10 +86,10 @@
     allowsKneeling: false
     fearImmune: false
     corpseBattle:
-     - STR_SCHNEIDER_CA1_RECOVER
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
+      - STR_SCHNEIDER_CA1_RECOVER
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
     corpseGeo: STR_SCHNEIDER_CA1_RECOVER
     storeItem: STR_SCHNEIDER_CA1_ITEM
     weight: -200
@@ -128,10 +128,10 @@
     allowsKneeling: false
     fearImmune: false
     corpseBattle:
-     - STR_MARK_V_RECOVER
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
+      - STR_MARK_V_RECOVER
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
     corpseGeo: STR_MARK_V_RECOVER
     storeItem: STR_MARK_V_ITEM
     weight: -200
@@ -201,10 +201,10 @@
     allowsKneeling: false
     fearImmune: false
     corpseBattle:
-     - STR_A7V_RECOVER
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
+      - STR_A7V_RECOVER
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
     corpseGeo: STR_A7V_RECOVER
     storeItem: STR_A7V_ITEM # TODO FIXME, MISSING
     weight: -200
@@ -243,10 +243,10 @@
     allowsKneeling: false
     fearImmune: false
     corpseBattle:
-     - STR_RENAULT_FT_RECOVER
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
+      - STR_RENAULT_FT_RECOVER
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
     corpseGeo: STR_RENAULT_FT_RECOVER
     storeItem: STR_RENAULT_FT_ITEM
     weight: -200
@@ -286,10 +286,10 @@
     allowsKneeling: false
     fearImmune: false
     corpseBattle:
-     - STR_VEZDEKHOD_RECOVER
-     - TANK_CORPSE_2
-     - TANK_CORPSE_3
-     - TANK_CORPSE_4
+      - STR_VEZDEKHOD_RECOVER
+      - TANK_CORPSE_2
+      - TANK_CORPSE_3
+      - TANK_CORPSE_4
     corpseGeo: STR_VEZDEKHOD_RECOVER
     storeItem: STR_VEZDEKHOD_ITEM
     weight: -200
@@ -332,7 +332,7 @@ items:
   - type: STR_SCHNEIDER_CA1_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
     requiresBuy:
-    - STR_INITIAL_TANK_DESIGN
+      - STR_INITIAL_TANK_DESIGN
     size: 6
     costBuy: 25000
     costSell: 24000
@@ -341,7 +341,7 @@ items:
   - type: STR_RENAULT_FT_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 6
     costBuy: 34000
     costSell: 25000
@@ -350,7 +350,7 @@ items:
   - type: STR_MARK_V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 6
     costBuy: 30000
     costSell: 28000
@@ -359,7 +359,7 @@ items:
   - type: STR_A7V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 7
     costBuy: 28000
     costSell: 30000
@@ -368,7 +368,7 @@ items:
   - type: STR_VEZDEKHOD_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 7
     costBuy: 25000
     costSell: 18000
@@ -424,7 +424,7 @@ items:
   - type: AUX_COAXIAL_HOTCHKISS_MG_AMMO
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_INITIAL_TANK_DESIGN
+      - STR_INITIAL_TANK_DESIGN
     size: 0.1
     costBuy: 1000
     costSell: 750
@@ -449,8 +449,8 @@ items:
   - type: AUX_COAXIAL_HOTCHKISS_MG_KMM_AMMO
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_INITIAL_TANK_DESIGN
-    - STR_MARTIAN_METAL_REFORGED_AMMO
+      - STR_INITIAL_TANK_DESIGN
+      - STR_MARTIAN_METAL_REFORGED_AMMO
     size: 0.1
     costBuy: 1000
     costSell: 750
@@ -476,7 +476,7 @@ items:
   - type: AUX_COAXIAL_MG08_MG
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     weight: 44
     bigSprite: 5100
     accuracySnap: 60
@@ -522,7 +522,7 @@ items:
   - type: AUX_QF_6_PDR_HOTCHKISS_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 6
     costBuy: 0
     costSell: 0
@@ -541,9 +541,9 @@ items:
       - AUX_57MM_KMM_CANNON_SHELLS
     accuracyAimed: 65
     accuracyMultiplier:
-     reactions: 0.5
-     firing: 0.5
-     bravery: 0.3
+      reactions: 0.5
+      firing: 0.5
+      bravery: 0.3
     tuAimed: 40
     battleType: 1
     fixedWeapon: true
@@ -554,7 +554,7 @@ items:
   - type: AUX_57MM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -581,7 +581,7 @@ items:
   - type: AUX_57MM_HE_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -609,7 +609,7 @@ items:
   - type: AUX_57MM_INC_CANNON_SHELLS
     categories: [STR_HUMAN_TECH, STR_AUXILIARY, STR_SPACE, STR_LAND, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -638,7 +638,7 @@ items:
   - type: AUX_57MM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -666,7 +666,7 @@ items:
   - type: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 6
     costBuy: 0
     costSell: 0
@@ -684,9 +684,9 @@ items:
       - AUX_5_7CM_KMM_CANNON_SHELLS
     accuracyAimed: 80
     accuracyMultiplier:
-     reactions: 0.5
-     firing: 0.5
-     bravery: 0.3
+      reactions: 0.5
+      firing: 0.5
+      bravery: 0.3
     tuAimed: 50
     battleType: 1
     fixedWeapon: true
@@ -697,7 +697,7 @@ items:
   - type: AUX_5_7CM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -724,7 +724,7 @@ items:
   - type: AUX_5_7CM_HE_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -752,7 +752,7 @@ items:
   - type: AUX_5_7CM_CANISTER_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -783,7 +783,7 @@ items:
   - type: AUX_5_7CM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 2000
     costSell: 1500
@@ -811,7 +811,7 @@ items:
   - type: AUX_37MM_PUTEAUX_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 0
     costSell: 0
@@ -838,7 +838,7 @@ items:
   - type: AUX_37MM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 500
     costSell: 400
@@ -866,7 +866,7 @@ items:
   - type: AUX_37MM_KMM_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     size: 3.0
     costBuy: 500
     costSell: 400
@@ -908,7 +908,7 @@ items:
     recover: false
   - type: AUX_TANK_SMOKE_GRENADE
     requiresBuy:
-    - STR_BASIC_TANK
+      - STR_BASIC_TANK
     weight: 0
     costBuy: 100
     bigSprite: 20
@@ -1127,41 +1127,41 @@ extraSprites:
 # TODO uncomment this when the resources are found :D
   - type: BIGOBS.PCK
     files:
-     5100: Resources/Tanks/Bigob_MG08.png
-     5108: Resources/Tanks/Bigob_MG08.png
-     5116: Resources/Tanks/Bigob_MG08.png
-     5124: Resources/Tanks/Bigob_M1914.png
-     5132: Resources/Tanks/Bigob_M1914.png
-     5140: Resources/Tanks/Bigob_M1914.png
-     5148: Resources/Tanks/Bigob_M1914_Clip.png
-     5156: Resources/Tanks/Bigob_M1914_KMM_Clip.png
-     5164: Resources/Tanks/Bigob_QF-6.png
-     5172: Resources/Tanks/Bigob_QF-6_AP_Clip.png
-     5180: Resources/Tanks/Bigob_QF-6_HE_Clip.png
-     5188: Resources/Tanks/Bigob_QF-6_INC_Clip.png
-     5196: Resources/Tanks/Bigob_QF-6_KMM_Clip.png
-     5204: Resources/Tanks/Bigob_5_7CM.png
-     5212: Resources/Tanks/Bigob_5_7CM_AP_Clip.png
-     5220: Resources/Tanks/Bigob_5_7CM_HE_Clip.png
-     5228: Resources/Tanks/Bigob_5_7CM_Canister_Clip.png
-     5236: Resources/Tanks/Bigob_5_7CM_KMM_Clip.png
-     5244: Resources/Tanks/bigob_37MM.png
-     5252: Resources/Tanks/bigob_37MM_AP_Clip.png
-     5260: Resources/Tanks/bigob_37MM_KMM_Clip.png
-     5268: Resources/Tanks/Bigob_75MM.png
-     5276: Resources/Tanks/Bigob_75MM_HE_Clip.png
-     5284: Resources/Tanks/Bigob_75MM_AP_Clip.png
-     5292: Resources/Tanks/Bigob_75MM_Gas_Clip.png
-     5300: Resources/Tanks/Bigob_75MM_KMM_Clip.png
-     5308: Resources/Tanks/Bigob_60MM_Mortar.png
-     5316: Resources/Tanks/Bigob_60MM_HE_Mortar_Clip.png
-     5324: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
-     5332: Resources/Tanks/Bigob_60MM_Frag_Mortar_Clip.png
-     5340: Resources/Tanks/bigob_MG18.png
-     5348: Resources/Tanks/bigob_MG18.png
-     5356: Resources/Tanks/bigob_MG18.png
-     5364: Resources/Tanks/Bigob_MG18_Clip.png
-     5372: Resources/Tanks/Bigob_MG18_KMM_Clip.png
+      5100: Resources/Tanks/Bigob_MG08.png
+      5108: Resources/Tanks/Bigob_MG08.png
+      5116: Resources/Tanks/Bigob_MG08.png
+      5124: Resources/Tanks/Bigob_M1914.png
+      5132: Resources/Tanks/Bigob_M1914.png
+      5140: Resources/Tanks/Bigob_M1914.png
+      5148: Resources/Tanks/Bigob_M1914_Clip.png
+      5156: Resources/Tanks/Bigob_M1914_KMM_Clip.png
+      5164: Resources/Tanks/Bigob_QF-6.png
+      5172: Resources/Tanks/Bigob_QF-6_AP_Clip.png
+      5180: Resources/Tanks/Bigob_QF-6_HE_Clip.png
+      5188: Resources/Tanks/Bigob_QF-6_INC_Clip.png
+      5196: Resources/Tanks/Bigob_QF-6_KMM_Clip.png
+      5204: Resources/Tanks/Bigob_5_7CM.png
+      5212: Resources/Tanks/Bigob_5_7CM_AP_Clip.png
+      5220: Resources/Tanks/Bigob_5_7CM_HE_Clip.png
+      5228: Resources/Tanks/Bigob_5_7CM_Canister_Clip.png
+      5236: Resources/Tanks/Bigob_5_7CM_KMM_Clip.png
+      5244: Resources/Tanks/bigob_37MM.png
+      5252: Resources/Tanks/bigob_37MM_AP_Clip.png
+      5260: Resources/Tanks/bigob_37MM_KMM_Clip.png
+      5268: Resources/Tanks/Bigob_75MM.png
+      5276: Resources/Tanks/Bigob_75MM_HE_Clip.png
+      5284: Resources/Tanks/Bigob_75MM_AP_Clip.png
+      5292: Resources/Tanks/Bigob_75MM_Gas_Clip.png
+      5300: Resources/Tanks/Bigob_75MM_KMM_Clip.png
+      5308: Resources/Tanks/Bigob_60MM_Mortar.png
+      5316: Resources/Tanks/Bigob_60MM_HE_Mortar_Clip.png
+      5324: Resources/Tanks/Bigob_60MM_Gas_Mortar_Clip.png
+      5332: Resources/Tanks/Bigob_60MM_Frag_Mortar_Clip.png
+      5340: Resources/Tanks/bigob_MG18.png
+      5348: Resources/Tanks/bigob_MG18.png
+      5356: Resources/Tanks/bigob_MG18.png
+      5364: Resources/Tanks/Bigob_MG18_Clip.png
+      5372: Resources/Tanks/Bigob_MG18_KMM_Clip.png
 
   - type: INITIAL_TANK_DESIGN_IMAGE
     singleImage: true

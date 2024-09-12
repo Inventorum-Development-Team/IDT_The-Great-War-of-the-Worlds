@@ -571,7 +571,7 @@ items:
 
 extended:
   tags:
-   RuleItem:
+    RuleItem:
       AmmoReSprite: int
       AmmoNo: int
       FoldStock: int
@@ -581,8 +581,8 @@ extended:
   scripts:
 
     selectItemSprite: #Switches between weapon sprites depending on ammo
-       - offset: 1
-         code: |
+      - offset: 1
+        code: |
           var int x;
           var int y;
           var ptr BattleItem ammoptr;
