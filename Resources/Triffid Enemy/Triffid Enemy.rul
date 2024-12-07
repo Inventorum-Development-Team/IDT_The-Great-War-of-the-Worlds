@@ -48,7 +48,7 @@ items:
     costSell: 350000
   - type: TRIFFID_WEAPON
     weight: 3
-    bigSprite: 203
+    bigSprite: 99
     floorSprite: 31
     handSprite: 104
     meleeSound: 48
