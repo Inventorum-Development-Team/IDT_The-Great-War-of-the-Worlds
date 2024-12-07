@@ -2568,8 +2568,20 @@ en-US:
       STR_IEFCONYARD1_UFOPEDIA: ""
       STR_IEFCONWALKER: "Mobile Construction Walker"
       STR_IEFCONWALKER_UFOPEDIA: "The first use of construction walkers are introduced for the IEF first engineer vehicle. It enables the workers to build advance facilties and defenses for better structural integrity."
+      STR_IEFMCV1: "Mobile Construction Vehicle"
+      STR_IEFMCV1WIKI: "Mobile Construction Vehicle"
+
 
       ##### Subterranean Structures
+      #Default Barracks Tent 1x1 20
+      #Default Hangar Tent 2x2 2
+      #Default Lab Tent 1x1
+      #Default Assembly 1x1
+      #Default Radar Bunker 1x1
+      #
+      #
+      #
+      #
       STR_ACCESS_GATE: "Main Access Elevator" #
       STR_STORESUB1: "Storage Sublevel" # 1x1
       STR_STORESUB2: "Large Storage Sublevel" # 2x2
@@ -2582,8 +2594,8 @@ en-US:
       STR_SUBTERRANHQ1: "Tunnel HQ Sublevel" #
       STR_SUBTERRANHQ2: "Digital HQ Sublevel"
       STR_SUBTERRANHQ3: "Virtual AI HQ"
-      STR_ARMYGARAGE1: "Military Garage"
-      STR_ARMYGARAGE2: "Large Army Garage"
+      STR_ARMYGARAGE1: "Military Garage" #1x1 1 Vehicle Type 1
+      STR_ARMYGARAGE2: "Large Army Garage" #2x2 6 Vehicles Type 1
       STR_LABORATORY_SUB1: "Research Sublevel" #1x1
       STR_LABORATORY_SUB2: "Prototype Lab Base" #1x1 Introduction to Digtal Computers
       STR_LABORATORY_SUB3: "Digital Laboratory" #1x1 Next Gen Computers
@@ -2591,8 +2603,8 @@ en-US:
       STR_SUBTERRANRADAR1: "Improved Radar System"
       STR_SUBHANGARBAY1: "Sublevel Hangar Bay" #2 2x2
       STR_SUBHANGARBAY2: "Experimental Hangar" #4 2x2
-      STR_SUBHANGARBAY3: "Large Sublevel Hangar" #8 2x6
-      STR_SUBHANGARBAY4: "Advance Large Hangar"  #16 2x6
+      STR_SUBHANGARBAY3: "Large Sublevel Hangar" #8 3x3
+      STR_SUBHANGARBAY4: "Advance Large Hangar"  #16 3x3
       STR_GRAVDEFSUB1: "Energy Shield Generator"
       STR_MINDSHIELDSUB1: "Signal Inhibiter"
       STR_PLANETCORE1: "Planetary Command System" # Enables Planetary Defense Weapons
@@ -2612,8 +2624,8 @@ en-US:
       STR_EMBASSY4: "Jovians Embassy"
       STR_EMBASSY5: "Octasapien Foreign Embassy"
       STR_EMBASSY6: "Kronotek Installation"
-      STR_EMBASSY7: "Koell Design" #Requires Kronotek Installation
-      STR_EMBASSY8: "Victo Design" #Requires Kronotek Installation
+      STR_EMBASSY7: "Koell Design" #Requires Kronotek Installation, Exclusive
+      STR_EMBASSY8: "Victo Design" #Requires Kronotek Installation, Exclusive
       STR_EMBASSY9: "Exodusians Embassy" #Requires Exodus Faction
       STR_EMBASSY10: "Galorifts Base Ops" #Requires Exodusians Embassy / Horn Forehead
       STR_EMBASSY11: "Draconel Base Ops" #Requires Exodusians Embassy /  Dragon with Ears with horns
@@ -2677,7 +2689,7 @@ en-US:
       STR_BIPEDALHUMANGOLEMWIKI: "VFM-02 Golem"
       STR_BIPEDALHUMANAVATAR: "AVATAR"  #C&C=Nod Avatar Warmech Universal Weapon Station
       STR_BIPEDALHUMANAVATARWIKI: "VFM-03 Avatar"
-      ##### Cavorite Abyssium Hybrids
+      ##### Cavorite Hybrids
       ##### Naval Warships
       STR_GUNBOATT1A: ""
       STR_COVETTET1A: ""
@@ -2726,8 +2738,6 @@ en-US:
       STR_GUNSHIPSIEGEDEV1WIKI: "The first phase of the gunship craft with Tunguskium will be our main support craft."
       STR_GUNSHIPSIEGEDEV1A1: "Gunship Siege Tunguskium Improvement"
       STR_GUNSHIPSIEGEDEV1A1WIKI: "The aliens engine technology."
-
-
       STR_GUNSHIPSIEGEDEV2: "Gunship Siege Cavorite"
       STR_GUNSHIPSIEGEDEV2WIKI: "The second phase of the gunship craft with Tunguskium will be our main support craft."
       STR_GUNSHIPSIEGEDEV3: "Gunship Siege Cavoryssium"
@@ -2789,13 +2799,22 @@ en-US:
       STR_WIKI1: "World Information Connection Interface"
       STR_WIKI1INFO: "This guide is introduced during the war against the aliens menace. Your information will be updated as soon your scientist will research many discoveries. Also, there's new hints and advice that will aid you on your campaign."
       ############# Epoch Discover based on their reports
-      ############# Epoch Tier 1 Recent Common Earth Alloys 1889
+      ############# Epoch Tier 1 Recent Common Earth Alloys 1900
       ############# Epoch Tier 2 Tunguskium Foundation Alloys 1914
       STR_NUCLEARFISSION: "Nuclear Energy Reactor"
       STR_OCEANSALVAGE1: "Naval Resource Salvage"
-      ############# Epoch Tier 3 Cavorite Zero Gravity Alloys 1920
+      STR_OPTICS1: "Advance Optics 1"
+      STR_ADVANCETRUCK1: "Personel Cargo Truck"
+      STR_HALFTRACK1: "Half-Track Vehicle"
+      STR_MAINBATTLETANK1: "Tank Chassis & Single Turret"
+      STR_RECONVEHICLE1: "Recon Vehicle"
+      ############# Electro-Magnetic Techs 1924
+      STR_GUNREMOTESYSTEM: "Gunnery Remote System"
+      STR_TANKTRAILER1: "Cargo Trailers"
+
+      ############# Epoch Tier 3 Cavorite Zero Gravity Alloys 1935
       STR_NEXTGENSOLDIER1: "Next Generation Soldiers"
-      STR_NEXTGENSOLDIER1WIKI: "Our current soldiers capability has reached their boundaries. In order to push the soldiers beyond its limits. We have introduce the Next Generation Combat Program to train our troops for high performance. This will equip them with better weapons and armor for tough battles. Unfortunately, our current soldiers must be re-enrolled for the program. "
+      STR_NEXTGENSOLDIER1WIKI: "Our current soldiers capability has reached their boundaries. In order to push the soldiers beyond its limits. We have introduce the Next Generation Combat Program to train our troops for high performance. This will equip them with better weapons and armor for tough battles. Any of our experienced soldiers can be re-enrolled for the program. "
       STR_EINSTEINEQUATION: "Einstein Formula E=MC2"
       STR_ALIENALLOYS2: "Cavorite Alloys" #Zero Gravity Alloys
       STR_MOBILEWEAPONPLATFORM: "Landship Variable Gun Turret"
@@ -2806,7 +2825,11 @@ en-US:
       STR_ELECTRONICTECH: "Computer Electronics"
       STR_OPTRONICTECH: "Optronics Technology"
       STR_MEDICALTECH1: "Human Tech Surgery"
-      ############# Epoch Tier 4 Cavorite Abyssium Hybrid 1935
+      STR_TANKCAMO1: "Armored Vehicle Camo"
+      STR_HALFTRACK2: "Advance Half-Track" #2Tracks rear; 4 Wheels Front
+      STR_MAINBATTLETANK2: "Tank Weapon Mount"
+      STR_RECONVEHICLE2: "Recon Armored Vehicle"
+      ############# Epoch Tier 4 Cavorite Abyssium Hybrid 1950
       STR_NEXTGENSOLDIER2: "Super Soldier Project"
       STR_NEXTGENSOLDIER2WIKI: "The discovery of the cybernetics and medicine allowed us to introduce cybernetic enhancements on our troops. This"
       STR_NEXTGENRECRUITS: "Next Generation Recruits"
@@ -2827,10 +2850,17 @@ en-US:
       STR_TRACTORBEAM: "Tractor Beam Component"
       STR_OPTICALCLOAK: "Optical Cloak Tech Systems"
       STR_OPTICALALLOYLAYER: "Optical Cloak Composite"
-
+      STR_TELEPORTERSYSTEM1: "Teleport System"
       STR_PULSEDPLASMAENGINE: "Pulsed Plasma Thrusters"
       STR_ATTACKBIKES: "Assault Motocycle" ### Armed with Autogun and Missile
       STR_ATTAKETRIKES: "Assault Mototrike" ### Armed with Autogun and Missile
+###### Energy Fuel
+      STR_NUCLEARFUSION1: "Uranium Cell Refinement" #Humans Energy Fuel 1
+      STR_NUCLEARFUSION2: "Plutonium Cell Refinement" #Humans Energy Fuel 2
+      STR_NUCLEARFUSION3: "Thorium Cell Refinement" #Humans Energy Fuel 3
+      STR_HYDROGENCELLFORMULA1: "Hydrogen Cell Creation" #Mars Energy Fuel
+      STR_IANIUMCRYSTALFORMULA1: "Ianium Crystal Fusion" #Alternative Tiberium with No Hazard
+      STR_IOSULFUMINEFORMULA1: "Ion Sulmine Fusion" #Jovian Energy Fuel
 
 ###### Advance Personel Armor
 ###### Cavorite; Zero Gravity Alloys
@@ -3029,7 +3059,7 @@ en-US:
       #Independent Path Optional
       STR_CONVINCEKRONOTEK1: "Preserve Profile"
       STR_CONVINCEKRONOTEK2: "Opposition Joint"
-      STR_CONVINCELYLATMOBIAN1: "Convince Lylat-Mobians"
+      STR_CONVINCELYLATMOBIAN1: "Convince Lylabians"
       #Independent Path Chapter 2 Reject Exodus
       #Independent Path Chapter 3 Reject Exodus
 
@@ -3105,7 +3135,7 @@ en-US:
       #Exodus Empire Path Avaible in the Year 1935 with 1950
       STR_EXODUSPRECENSE: "Strange Reports from Otherworlds" #### Chance on 50% to have them appear.
       STR_EXODUSIDENTITY: "The strange horned head race?" #### If you have not Allied with any alien factions. Or not independent
-      STR_EXODUSCONVINCE1: "Convince Exodus Diplmacy"
+      STR_EXODUSCONVINCE1: "Convince Exodus Diplomacy"
       STR_EXODUSCHAPTER1: "Exodus & Freeworld Ideology"
       STR_EXODUSCHAPTER2: "Exodus Embassy Settlement"
       STR_EXODUSCHAPTER3: "The Competittion"
@@ -3116,6 +3146,25 @@ en-US:
       STR_EXODUSCHAPTER8: "The Explanation"
       STR_EXODUSCHAPTERWARWITHWISDOM: "Wisdom War"
       STR_EXODUSCHAPTERWARWITHRACE: "Dominators War"
+      ##### The existence of other alien from other interstellar civilization
+      ##### Endings
+      ##### Worst Ending; Release the Advance Bacterial Weapon
+      ##### Bad Victory; Capture Overlords and research it; Accept the Offer
+      ##### Kiroxei saids that he'll add more story up to 111 years for survival expansion. If he manage to plan it properly. IF humans wants to win the war and peace.
+      ##### Worst Endings or Bad Victory;
+      ##### Time passes 1918 - 1920 Cease fire Octasapiens + Martianoids vs Jovians
+      ##### 1921 War ensues
+      ##### 1936 Another Unknown Presense?
+
+      ## 22 Years to prepare the survival mode
+      ## 1990 Early to finish the game.
+      ## True Endings with: Martianoids; Octasapiens; Jovians; Exodus; Independence
+      ## Martianoids:
+      ## Octasapiens:
+      ## Jovians:
+      ## Exodus: Humans expedition on Aether world
+      ## Independnce: Humans new starsystem organization
+
 
 ######### The Species Advance Civilization ###########
       STR_INDEPENDENTTHEORY: "The Fate of Decision"

@@ -977,7 +977,7 @@ manufacture:
     category: STR_ARMOR_REPAIR
     space: 12
     time: 200
-    cost: 5000
+    cost: 10000
     requiredItems:
       STR_SIDECAR_MOTORCYCLE_RECOVER: 1
     producedItems:
@@ -990,7 +990,7 @@ manufacture:
       - STR_BASIC_TANK
     space: 12
     time: 200
-    cost: 5000
+    cost: 50000
     requiredItems:
       STR_SCHNEIDER_CA1_RECOVER: 1
       STR_ALIEN_ALLOYS: 1
@@ -1003,7 +1003,7 @@ manufacture:
       - STR_IMPROVED_FRENCH_TANK
     space: 12
     time: 200
-    cost: 5000
+    cost: 50000
     requiredItems:
       STR_RENAULT_FT_RECOVER: 1
       STR_ALIEN_ALLOYS: 1
@@ -1016,7 +1016,7 @@ manufacture:
       - STR_IMPROVED_BRITISH_TANK
     space: 12
     time: 200
-    cost: 5000
+    cost: 50000
     requiredItems:
       STR_MARK_V_RECOVER: 1
       STR_ALIEN_ALLOYS: 1
@@ -1029,7 +1029,7 @@ manufacture:
       - STR_IMPROVED_GERMAN_TANK
     space: 12
     time: 200
-    cost: 5000
+    cost: 50000
     requiredItems:
       STR_A7V_RECOVER: 1
       STR_ALIEN_ALLOYS: 1
@@ -1042,7 +1042,7 @@ manufacture:
       - STR_IMPROVED_GERMAN_TANK
     space: 12
     time: 200
-    cost: 5000
+    cost: 50000
     requiredItems:
       STR_VEZDEKHOD_RECOVER: 1
       STR_ALIEN_ALLOYS: 1

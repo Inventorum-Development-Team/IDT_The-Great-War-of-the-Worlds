@@ -1384,6 +1384,11 @@ crafts:
 
 
 ############ Kiros Reference Area 1;30;2024;
+
+####### Basics
+
+
+
 ####### Any Countries Tunguskium
 
 
@@ -2883,19 +2888,11 @@ items:
     transferTime: 48
     requires:
      - STR_ALIENS_ONLY
-
-
-
      ### Kiroxeis spot
-
   - type: STR_AUX_VEHICLE_NUMBERS
     size: 1.0
     transferTime: 48
-
-
-
 ####################################
-
   - type: STR_CONQUEROR_TURRET_CORPSE
     battleType: 11
     power: 60
@@ -2925,12 +2922,7 @@ items:
     invWidth: 0
     invHeight: 0
     recover: false
-
 ###### Kiroxeis Spot
-
-
-
-
 extraSprites:
 # "Crafts : The corresponding extrasprite file id for BASEBITS.PCK is sprite+33 INTICON.PCK contains a minimized icon id=sprite the file id for the dogfight image is sprite+11"
 # INTICON Minimized Id = Sprite ; INTICON DogFight Id = Sprite+11 ; BASEBITS Id = Sprite+33
@@ -2947,19 +2939,15 @@ extraSprites:
       139: Resources/Crafts/Spad_base.png
       140: Resources/Crafts/SE5a_base.png
       141: Resources/Crafts/FokkerDR1_base.png
-
       157: Resources/Crafts/IlyaMuromets_base.png
       158: Resources/Crafts/Halberstadt_base.png
       159: Resources/Crafts/HandleyPageTypeO_base.png
       160: Resources/Crafts/ZeppelinStaakenRVI_base.png
       161: Resources/Crafts/CaprioniCa5_base.png
       162: Resources/Crafts/BristolF2B_base.png
-
       180: Resources/Crafts/Conqueror_base.png
-
       359: Resources/Crafts/CClassAirship_base.png
       360: Resources/Crafts/RClassAirship_base.png
-
       381: Resources/Mechs/Phalanx_base0.png
       382: Resources/Mechs/Phalanx_base1.png
       394: Resources/Mechs/Phalanx_base2.png
@@ -2972,7 +2960,6 @@ extraSprites:
       401: Resources/Mechs/Phalanx_base9.png
       402: Resources/Mechs/Phalanx_base10.png
       414: Resources/Mechs/Phalanx_base11.png
-
       417: Resources/Mechs/Legionnaire_base0.png
       418: Resources/Mechs/Legionnaire_base1.png
       419: Resources/Mechs/Legionnaire_base2.png
@@ -2985,7 +2972,6 @@ extraSprites:
       437: Resources/Mechs/Legionnaire_base9.png
       438: Resources/Mechs/Legionnaire_base10.png
       439: Resources/Mechs/Legionnaire_base11.png
-
       442: Resources/Mechs/Centurion_base0.png
       454: Resources/Mechs/Centurion_base1.png
       455: Resources/Mechs/Centurion_base2.png
@@ -2998,7 +2984,6 @@ extraSprites:
       462: Resources/Mechs/Centurion_base9.png
       474: Resources/Mechs/Centurion_base10.png
       475: Resources/Mechs/Centurion_base11.png
-
       478: Resources/Mechs/Testudo_base0.png
       479: Resources/Mechs/Testudo_base1.png
       480: Resources/Mechs/Testudo_base2.png
@@ -3011,7 +2996,6 @@ extraSprites:
       498: Resources/Mechs/Testudo_base9.png
       499: Resources/Mechs/Testudo_base10.png
       500: Resources/Mechs/Testudo_base11.png
-
       514: Resources/Mechs/Praetorian_base0.png
       515: Resources/Mechs/Praetorian_base1.png
       516: Resources/Mechs/Praetorian_base2.png
@@ -3024,10 +3008,28 @@ extraSprites:
       534: Resources/Mechs/Praetorian_base9.png
       535: Resources/Mechs/Praetorian_base10.png
       536: Resources/Mechs/Praetorian_base11.png
-
-###### Kiroxeis Spot
-      570: Resources/Craftsextended/Aligator1base.png #0 +33
-
+      1033: Resources/Craftsextended/Aligator1base.png #0 +33 Kiroxeis Spot
+      1034: Resources/Craftsextended/Aligator1base.png
+      1035: Resources/Craftsextended/Aligator1base.png
+      1036: Resources/Craftsextended/Aligator1base.png
+      1037: Resources/Craftsextended/Aligator1base.png
+      1038: Resources/Craftsextended/Aligator1base.png
+      1039: Resources/Craftsextended/Aligator1base.png
+      1040: Resources/Craftsextended/Aligator1base.png
+      1041: Resources/Craftsextended/Aligator1base.png
+      1042: Resources/Craftsextended/Aligator1base.png
+      1043: Resources/Craftsextended/Aligator1base.png
+      1083: Resources/Craftsextended/Aligator1base.png #0 +33
+      1084: Resources/Craftsextended/Aligator1base.png
+      1085: Resources/Craftsextended/Aligator1base.png
+      1086: Resources/Craftsextended/Aligator1base.png
+      1087: Resources/Craftsextended/Aligator1base.png
+      1088: Resources/Craftsextended/Aligator1base.png
+      1089: Resources/Craftsextended/Aligator1base.png
+      1090: Resources/Craftsextended/Aligator1base.png
+      1091: Resources/Craftsextended/Aligator1base.png
+      1092: Resources/Craftsextended/Aligator1base.png
+      1093: Resources/Craftsextended/Aligator1base.png
   - type: INTICON.PCK
     files:
       99: Resources/Crafts/March_minimised.png
@@ -3105,7 +3107,6 @@ extraSprites:
       466: Resources/Mechs/Testudo_minimised.png
       467: Resources/Mechs/Testudo_minimised.png
       #468: Resources/Mechs/Testudo_minimised.png
-
       481: Resources/Mechs/Praetorian_minimised.png
       482: Resources/Mechs/Praetorian_minimised.png
       483: Resources/Mechs/Praetorian_minimised.png
@@ -3118,7 +3119,6 @@ extraSprites:
       501: Resources/Mechs/Praetorian_minimised.png
       502: Resources/Mechs/Praetorian_minimised.png
       503: Resources/Mechs/Praetorian_minimised.png
-
       110: Resources/Crafts/March_dogfight.png
       111: Resources/Crafts/March_Large_dogfight.png
       112: Resources/Crafts/FokkerEindecker_dogfight.png
@@ -3129,19 +3129,15 @@ extraSprites:
       117: Resources/Crafts/Spad_dogfight.png
       118: Resources/Crafts/SE5a_dogfight.png
       119: Resources/Crafts/FokkerDR1_dogfight.png
-
       135: Resources/Crafts/IlyaMuromets_dogfight.png
       136: Resources/Crafts/Halberstadt_dogfight.png
       137: Resources/Crafts/HandleyPageTypeO_dogfight.png
       138: Resources/Crafts/ZeppelinStaakenRVI_dogfight.png
       139: Resources/Crafts/CaprioniCa5_dogfight.png
       140: Resources/Crafts/BristolF2B_dogfight.png
-
       158: Resources/Crafts/Conqueror_dogfight.png
-
       337: Resources/Crafts/CClassAirship_dogfight.png
       338: Resources/Crafts/RClassAirship_dogfight.png
-
       359: Resources/Mechs/Phalanx_dogfight.png
       360: Resources/Mechs/Phalanx_dogfight.png
       372: Resources/Mechs/Phalanx_dogfight.png
@@ -3154,7 +3150,6 @@ extraSprites:
       379: Resources/Mechs/Phalanx_dogfight.png
       380: Resources/Mechs/Phalanx_dogfight.png
       392: Resources/Mechs/Phalanx_dogfight.png
-
       395: Resources/Mechs/Legionnaire_dogfight.png
       393: Resources/Mechs/Legionnaire_dogfight.png
       397: Resources/Mechs/Legionnaire_dogfight.png
@@ -3167,7 +3162,6 @@ extraSprites:
       415: Resources/Mechs/Legionnaire_dogfight.png
       416: Resources/Mechs/Legionnaire_dogfight.png
       417: Resources/Mechs/Legionnaire_dogfight.png
-
       420: Resources/Mechs/Centurion_dogfight.png
       432: Resources/Mechs/Centurion_dogfight.png
       433: Resources/Mechs/Centurion_dogfight.png
@@ -3180,7 +3174,6 @@ extraSprites:
       440: Resources/Mechs/Centurion_dogfight.png
       452: Resources/Mechs/Centurion_dogfight.png
       453: Resources/Mechs/Centurion_dogfight.png
-
       456: Resources/Mechs/Testudo_dogfight.png
       457: Resources/Mechs/Testudo_dogfight.png
       458: Resources/Mechs/Testudo_dogfight.png
@@ -3193,7 +3186,6 @@ extraSprites:
       476: Resources/Mechs/Testudo_dogfight.png
       477: Resources/Mechs/Testudo_dogfight.png
       478: Resources/Mechs/Testudo_dogfight.png
-
       492: Resources/Mechs/Praetorian_dogfight.png
       493: Resources/Mechs/Praetorian_dogfight.png
       494: Resources/Mechs/Praetorian_dogfight.png
@@ -3206,10 +3198,56 @@ extraSprites:
       512: Resources/Mechs/Praetorian_dogfight.png
       513: Resources/Mechs/Praetorian_dogfight.png
       514: Resources/Mechs/Praetorian_dogfight.png
-
 ###### Kiroxeis Spot
-      537: Resources/Craftsextended/Aligator1minimised.png #0
-      548: Resources/Craftsextended/Aligator1dogfight.png #11
+      1000: Resources/Craftsextended/Aligator1minimised.png #0
+      1001: Resources/Craftsextended/Aligator1minimised.png
+      1002: Resources/Craftsextended/Aligator1minimised.png
+      1003: Resources/Craftsextended/Aligator1minimised.png
+      1004: Resources/Craftsextended/Aligator1minimised.png
+      1005: Resources/Craftsextended/Aligator1minimised.png
+      1006: Resources/Craftsextended/Aligator1minimised.png
+      1007: Resources/Craftsextended/Aligator1minimised.png
+      1008: Resources/Craftsextended/Aligator1minimised.png
+      1009: Resources/Craftsextended/Aligator1minimised.png
+      1010: Resources/Craftsextended/Aligator1minimised.png
+      1011: Resources/Craftsextended/Aligator1dogfight.png #11
+      1012: Resources/Craftsextended/Aligator1dgfight.png
+      1013: Resources/Craftsextended/Aligator1dgfight.png
+      1014: Resources/Craftsextended/Aligator1dgfight.png
+      1015: Resources/Craftsextended/Aligator1dgfight.png
+      1016: Resources/Craftsextended/Aligator1dgfight.png
+      1017: Resources/Craftsextended/Aligator1dgfight.png
+      1018: Resources/Craftsextended/Aligator1dgfight.png
+      1019: Resources/Craftsextended/Aligator1dgfight.png
+      1020: Resources/Craftsextended/Aligator1dgfight.png
+      1021: Resources/Craftsextended/Aligator1dgfight.png
+      1050: Resources/Craftsextended/Aligator1minimised.png #0
+      1051: Resources/Craftsextended/Aligator1minimised.png
+      1052: Resources/Craftsextended/Aligator1minimised.png
+      1053: Resources/Craftsextended/Aligator1minimised.png
+      1054: Resources/Craftsextended/Aligator1minimised.png
+      1055: Resources/Craftsextended/Aligator1minimised.png
+      1056: Resources/Craftsextended/Aligator1minimised.png
+      1057: Resources/Craftsextended/Aligator1minimised.png
+      1058: Resources/Craftsextended/Aligator1minimised.png
+      1059: Resources/Craftsextended/Aligator1minimised.png
+      1060: Resources/Craftsextended/Aligator1minimised.png
+      1061: Resources/Craftsextended/Aligator1dogfight.png #11
+      1062: Resources/Craftsextended/Aligator1dogfight.png
+      1063: Resources/Craftsextended/Aligator1dogfight.png
+      1064: Resources/Craftsextended/Aligator1dogfight.png
+      1065: Resources/Craftsextended/Aligator1dogfight.png
+      1066: Resources/Craftsextended/Aligator1dogfight.png
+      1067: Resources/Craftsextended/Aligator1dogfight.png
+      1068: Resources/Craftsextended/Aligator1dogfight.png
+      1069: Resources/Craftsextended/Aligator1dogfight.png
+      1070: Resources/Craftsextended/Aligator1dogfight.png
+      1071: Resources/Craftsextended/Aligator1dogfight.png
+
+
+
+
+
 
 
 

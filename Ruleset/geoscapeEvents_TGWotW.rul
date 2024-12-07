@@ -4,7 +4,7 @@ eventScripts:
 ################################
   # sequentially generated one-time events (cannot repeat)
   - type: STR_PHLOGISTON_PLOT_EVENTS_SCRIPT
-    oneTimeSequentialEvents:      
+    oneTimeSequentialEvents:
       - STR_PHLOGISTON_DISCOVERY_EVENT
       - STR_PHLOGISTON_PROTOTYPE_TESTING_EVENT
       - STR_PHLOGISTON_BREAKTHROUGH_EVENT
@@ -21,7 +21,7 @@ eventScripts:
     researchTriggers:
       STR_IMPROVED_METALURGIC_TECHNIQUES: true
       STR_HEATRAY_WEAPONS_ANALYSIS: true
-      
+
   - type: STR_HUMAN_WAR_EFFORTS_EVENT_SCRIPT
     eventWeights:
       0:

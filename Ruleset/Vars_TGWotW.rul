@@ -8,12 +8,12 @@ startingTime:
   day: 12
   month: 9
   year: 1914
-costEngineer: 25000
-costScientist: 30000
+costEngineer: 2500
+costScientist: 3000
 displayCustomCategories: 2
 timePersonnel: 72
 maxViewDistance: 40
-initialFunding: 9000
+initialFunding: 500
 alienFuel: [STR_ELERIUM_115, 50]
 crewEmergencyEvacuationSurvivalChance: 65
 pilotsEmergencyEvacuationSurvivalChance: 55
