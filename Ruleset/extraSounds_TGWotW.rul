@@ -19,7 +19,6 @@
 #      61: Resources/Craft/Sounds/light_cannon_launch.wav
 #      62: Resources/Craft/Sounds/pompom_launch.wav
 #      63: Resources/Craft/Sounds/naval_artillery_launch.wav
-
   - type: BATTLE.CAT
     files:
       0: Resources/HQSounds/Battle/walk_snakeman.ogg	#snakeman move
@@ -83,7 +82,6 @@
 #---------------------
     #  52: Resources/HQSounds/Battle/sample.ogg	#rocket launch
     #  53: Resources/HQSounds/Battle/sample.ogg	#blaster bomb launcher
-
       100: Resources/HumanWeapons/Sounds/webley_fire.wav
       101: Resources/HumanWeapons/Sounds/smle_fire.wav
       102: Resources/HumanWeapons/Sounds/farqhuarhill_fire.wav
@@ -117,21 +115,17 @@
 #      130: Resources/HumanWeapons/Sounds/arisaka_fire.wav
 #      131: Resources/HumanWeapons/Sounds/general_liu_fire.wav
 #      132: Resources/HumanWeapons/Sounds/nambu_fire.wav
-
       133: Resources/HumanWeapons/Sounds/trench_whistle.wav
 #      134: Resources/HumanWeapons/Sounds/bagpipe1.wav
 #      135: Resources/HumanWeapons/Sounds/bagpipe2.wav
 #      136: Resources/HumanWeapons/Sounds/bagpipe3.wav
-
       137: Resources/HumanWeapons/Sounds/luger_artillery_fire.wav
       138: Resources/HumanWeapons/Sounds/mp18_fire.wav
-
 #      139: Resources/HumanWeapons/Sounds/m1917_trench_carbine_fire.wav
 #      140: Resources/HumanWeapons/Sounds/sawed_off_fire.wav
 #      141: Resources/HumanWeapons/Sounds/rsc_carbine_fire.wav
 #      142: Resources/HumanWeapons/Sounds/bac_fire.wav
 #      143: Resources/HumanWeapons/Sounds/c93_carbine.wav
-
       144: Resources/HumanWeapons/Sounds/Explosions/grenade_explosion1.wav
       145: Resources/HumanWeapons/Sounds/Explosions/grenade_explosion2.wav
       146: Resources/HumanWeapons/Sounds/Explosions/grenade_explosion3.wav
@@ -140,7 +134,6 @@
       149: Resources/HumanWeapons/Sounds/Explosions/normal_explosion.wav
       150: Resources/HumanWeapons/Sounds/Explosions/dynamite_explosion.wav
       151: Resources/HumanWeapons/Sounds/Explosions/grenade_launcher_fire.wav
-
       152: Resources/HumanWeapons/Sounds/Melee/cutting_hit1.wav
       153: Resources/HumanWeapons/Sounds/Melee/cutting_hit2.wav
       154: Resources/HumanWeapons/Sounds/Melee/cutting_hit3.wav
@@ -168,7 +161,6 @@
       176: Resources/HumanWeapons/Sounds/Melee/melee_hit8.wav
       177: Resources/HumanWeapons/Sounds/Melee/melee_hit9.wav
       178: Resources/HumanWeapons/Sounds/Melee/melee_hit10.wav
-
       179: Resources/HumanWeapons/Sounds/BattleCry/battle_cry1.wav
       180: Resources/HumanWeapons/Sounds/BattleCry/battle_cry2.wav
       181: Resources/HumanWeapons/Sounds/BattleCry/battle_cry3.wav
@@ -184,7 +176,6 @@
       191: Resources/HumanWeapons/Sounds/BattleCry/battle_cry14.wav
       192: Resources/HumanWeapons/Sounds/BattleCry/battle_cry15.wav
       193: Resources/HumanWeapons/Sounds/BattleCry/battle_cry16.wav
-
       194: Resources/HumanWeapons/Sounds/Food/canned_food1.wav
       195: Resources/HumanWeapons/Sounds/Food/canned_food2.wav
       196: Resources/HumanWeapons/Sounds/Food/canned_food3.wav
@@ -197,14 +188,12 @@
 #      202: Resources/HumanWeapons/Sounds/Food/drink3.wav
       203: Resources/HumanWeapons/Sounds/Food/bread1.wav
       204: Resources/HumanWeapons/Sounds/Food/bread2.wav
-
       250: Resources/HumanWeapons/Sounds/Tesla_Pistol.wav
       251: Resources/HumanWeapons/Sounds/Tesla_Prototype.wav
       252: Resources/HumanWeapons/Sounds/Tesla_SMG.wav
       253: Resources/HumanWeapons/Sounds/Tesla_Rifle.wav
       254: Resources/HumanWeapons/Sounds/Tesla_Heavy.wav
       255: Resources/HumanWeapons/Sounds/Reload_Tesla.wav
-
       260: Resources/HumanWeapons/Sounds/PlasmaCannon0.wav
       261: Resources/HumanWeapons/Sounds/PlasmaCannon1.wav
       262: Resources/HumanWeapons/Sounds/PlasmaCannon2.wav
@@ -224,7 +213,6 @@
       276: Resources/HumanWeapons/Sounds/Laspistol1.wav
       277: Resources/HumanWeapons/Sounds/Laspistol2.wav
       278: Resources/HumanWeapons/Sounds/Laspistol3.wav
-
       300: Resources/HumanWeapons/Sounds/webley_reload.wav
       301: Resources/HumanWeapons/Sounds/smle_reload.wav
       302: Resources/HumanWeapons/Sounds/farqhuarhill_reload.wav
@@ -258,7 +246,6 @@
 #      330: Resources/HumanWeapons/Sounds/arisaka_reload.wav
 #      331: Resources/HumanWeapons/Sounds/general_liu_reload.wav
 #      332: Resources/HumanWeapons/Sounds/nambu_reload.wav
-
       333: Resources/HumanWeapons/Sounds/trench_whistle.wav
 #      334: Resources/HumanWeapons/Sounds/bagpipe1.wav
 #      335: Resources/HumanWeapons/Sounds/bagpipe2.wav
@@ -266,52 +253,43 @@
 #
       337: Resources/HumanWeapons/Sounds/luger_artillery_reload.wav
       338: Resources/HumanWeapons/Sounds/mp18_reload.wav
-
 #      339: Resources/HumanWeapons/Sounds/m1917_trench_carbine_reload.wav
 #      340: Resources/HumanWeapons/Sounds/sawed_off_reload.wav
 #      341: Resources/HumanWeapons/Sounds/rsc_carbine_reload.wav
 #      342: Resources/HumanWeapons/Sounds/bac_reload.wav
 #      343: Resources/HumanWeapons/Sounds/c93_carbine_reload.wav
-
 #      400: Resources/PhlogistonWeapons/Sounds/m1917_trench_carbine_reload.wav
 #      401: Resources/PhlogistonWeapons/Sounds/sawed_off_reload.wav
 #      402: Resources/PhlogistonWeapons/Sounds/rsc_carbine_reload.wav
 #      403: Resources/PhlogistonWeapons/Sounds/bac_reload.wav
 #      449: Resources/PhlogistonWeapons/Sounds/c93_carbine_reload.wav
-
 #      450: Resources/TeslaWeapons/Sounds/m1917_trench_carbine_reload.wav
 #      401: Resources/TeslaWeapons/Sounds/sawed_off_reload.wav
 #      402: Resources/TeslaWeapons/Sounds/rsc_carbine_reload.wav
 #      403: Resources/TeslaWeapons/Sounds/bac_reload.wav
 #      499: Resources/TeslaWeapons/Sounds/c93_carbine_reload.wav
-
 #      500: Resources/CoilgunWeapons/Sounds/m1917_trench_carbine_reload.wav
 #      401: Resources/CoilgunWeapons/Sounds/sawed_off_reload.wav
 #      402: Resources/CoilgunWeapons/Sounds/rsc_carbine_reload.wav
 #      403: Resources/CoilgunWeapons/Sounds/bac_reload.wav
 #      549: Resources/CoilgunWeapons/Sounds/c93_carbine_reload.wav
-
 #      550: Resources/HybridPlasmaWeapons/Sounds/m1917_trench_carbine_reload.wav
 #      401: Resources/HybridPlasmaWeapons/Sounds/sawed_off_reload.wav
 #      402: Resources/HybridPlasmaWeapons/Sounds/rsc_carbine_reload.wav
 #      403: Resources/HybridPlasmaWeapons/Sounds/bac_reload.wav
 #      599: Resources/HybridPlasmaWeapons/Sounds/c93_carbine_reload.wav
-
       600: Resources/HeatRay/Sound/heatraypistol_fire.wav
       601: Resources/HeatRay/Sound/heatrayrifle_fire.wav
       602: Resources/HeatRay/Sound/heatraycannon_fire.wav
       603: Resources/HeatRay/Sound/heatraysniper_fire.wav
       604: Resources/HeatRay/Sound/martianlauncher_fire.wav
       605: Resources/HeatRay/Sound/martianrockthrower_fire.wav
-
 #      650: Resources/SeleniteWeapons/Sounds/m1917_trench_carbine_reload.wav
 #      401: Resources/SeleniteWeapons/Sounds/sawed_off_reload.wav
 #      402: Resources/SeleniteWeapons/Sounds/rsc_carbine_reload.wav
 #      403: Resources/SeleniteWeapons/Sounds/bac_reload.wav
 #      699: Resources/SeleniteWeapons/Sounds/c93_carbine_reload.wav
-
       500: Resources/Martians/CerebrealRace/CerebrealBlast.wav
-
       800: Resources/Tanks/Sounds/artillery_shot1.wav
       801: Resources/Tanks/Sounds/artillery_shot2.wav
       802: Resources/Tanks/Sounds/artillery_shot3.wav

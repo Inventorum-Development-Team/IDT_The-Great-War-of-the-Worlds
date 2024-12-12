@@ -131,7 +131,6 @@ terrains:
       - STR_FRENCH_T1_RAIDER_NPC
       - STR_FRENCH_T1_OFFICER_NPC
       - STR_FRENCH_T1_SUPPORT_NPC
-
   - name: STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT_TERRAIN
     mapDataSets:
       - BLANKS
@@ -294,7 +293,6 @@ terrains:
       - name: VILBAN55
         width: 10
         length: 10
-
   - name: STR_FRONTLINES_MEUSE_ARGONNE_TERRAIN
     mapDataSets:
       - BLANKS
@@ -370,8 +368,6 @@ terrains:
         width: 10
         length: 10
         groups: 3 # NS RAIL
-
-
 alienDeployments:
 ##############################################
 ######### GRAND BATTLE DEPLOYMENTS ##########
@@ -538,7 +534,6 @@ alienDeployments:
             - STR_MAUSER_C96_CLIP
             - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
-
           -
             - STR_SABRE
             - STR_MAUSER_C96
@@ -575,7 +570,6 @@ alienDeployments:
             - STR_MAUSER_C96_CLIP
             - STR_MAUSER_C96_CLIP
             - STR_WHISTLE
-
           -
             - STR_SABRE
             - STR_MAUSER_C96
@@ -681,7 +675,6 @@ alienDeployments:
       background: FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND
       showTarget: false
       showCraft: false
-
   - type: STR_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
     startingCondition: STR_STARTING_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
     data: &FRENCH_ARMY_RANKS_DATA
@@ -982,7 +975,6 @@ alienDeployments:
       background: FRONTLINES_FLEURY_DEVANT_DOUAUMONT_BACKGROUND
       showTarget: false
       showCraft: false
-
   - type: STR_FRONTLINES_MEUSE_ARGONNE
     startingCondition: STR_STARTING_FRONTLINES_MEUSE_ARGONNE
     data: *GERMAN_ARMY_RANKS_DATA
@@ -1006,7 +998,6 @@ alienDeployments:
       background: FRONTLINES_MEUSE_ARGONNE_BACKGROUND
       showTarget: false
       showCraft: false
-
 extraSprites:
   - type: FRONTLINES_VERDUN_FORT_VAUX_BACKGROUND
     singleImage: true
@@ -1026,7 +1017,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/FRONTLINES_MEUSE_ARGONNE_BACKGROUND.png
-
 ##########################################
 ######### GRAND BATTLE ENEMIES ##########
 ########################################
@@ -1041,7 +1031,6 @@ alienRaces: # usually in file AlianRaces.rul
       - STR_GERMAN_ARMY_RIFLEMAN #SOLDIER
       - STR_GERMAN_ARMY_RAIDER #TERRORIST
       - STR_GERMAN_ARMY_FLAME_TROOPER #TERRORIST
-
   - id: STR_FRENCH_ARMY
     members:
       - STR_FRENCH_ARMY_OFFICER #COMMANDER
@@ -1052,7 +1041,6 @@ alienRaces: # usually in file AlianRaces.rul
       - STR_FRENCH_ARMY_RIFLEMAN #SOLDIER
       - STR_FRENCH_ARMY_RAIDER #TERRORIST
       - STR_FRENCH_ARMY_FLAME_TROOPER #TERRORIST
-
 units: # Usually in file Armor.rul
   - type: STR_GERMAN_ARMY_OFFICER
     race: STR_GERMAN_ARMY
@@ -1080,7 +1068,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_GERMAN_ARMY_SUPPORT
     race: STR_GERMAN_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1106,7 +1093,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_GERMAN_ARMY_MEDIC
     race: STR_GERMAN_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1132,7 +1118,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_GERMAN_ARMY_ASSAULT
     race: STR_GERMAN_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1158,7 +1143,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_GERMAN_ARMY_RIFLEMAN
     race: STR_GERMAN_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1184,7 +1168,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_GERMAN_ARMY_RAIDER
     race: STR_GERMAN_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1211,7 +1194,6 @@ units: # Usually in file Armor.rul
     isLeeroyJenkins: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_GERMAN_ARMY_FLAME_TROOPER
     race: STR_GERMAN_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1264,7 +1246,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_FRENCH_ARMY_SUPPORT
     race: STR_FRENCH_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1290,7 +1271,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_FRENCH_ARMY_MEDIC
     race: STR_FRENCH_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1316,7 +1296,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_FRENCH_ARMY_ASSAULT
     race: STR_FRENCH_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1342,7 +1321,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_FRENCH_ARMY_RIFLEMAN
     race: STR_FRENCH_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1368,7 +1346,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_FRENCH_ARMY_RAIDER
     race: STR_FRENCH_ARMY
     rank: STR_LIVE_SOLDIER
@@ -1395,7 +1372,6 @@ units: # Usually in file Armor.rul
     canSurrender: true
     showFullNameInAlienInventory: 1
     pickUpWeaponsMoreActively: 1
-
   - type: STR_FRENCH_ARMY_FLAME_TROOPER
     race: STR_FRENCH_ARMY
     rank: STR_LIVE_SOLDIER

@@ -15,7 +15,6 @@ terrains:
 #        length: 10
 #        groups: 1
     script: TRENCH_RAID_MS
-
 mapScripts:
   - type: TRENCH_RAID_MS
     commands:
@@ -27,7 +26,6 @@ mapScripts:
 #      executions: 1
     - type: addBlock
       size: [1,3]
-
 alienDeployments:
   - type: TRENCH_RAID_REDWEED
     data:

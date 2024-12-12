@@ -267,7 +267,6 @@ extraSprites:
     height: 102
     files:
       0: Resources/Pyramids/Test.gif
-
 alienDeployments:
 #Race
 #alienRank: 5 - Soldier
@@ -295,7 +294,6 @@ alienDeployments:
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
-
           -
             - STR_MARTIAN_SLUGTHROWER
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
@@ -406,7 +404,6 @@ alienDeployments:
     height: 10
     #duration: [360, 720]
     #despawnPenalty: 200
-
   - type: STR_MARTIAN_OUTPOST
     data:
       - alienRank: 5
@@ -427,7 +424,6 @@ alienDeployments:
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
-
           -
             - STR_MARTIAN_SLUGTHROWER
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
@@ -538,7 +534,6 @@ alienDeployments:
     height: 10
     #duration: [360, 720]
     #despawnPenalty: 200
-
   - type: STR_MARTIAN_TROOP_BARRACKS
     data:
       - alienRank: 5
@@ -559,7 +554,6 @@ alienDeployments:
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
-
           -
             - STR_MARTIAN_SLUGTHROWER
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
@@ -747,7 +741,6 @@ alienDeployments:
     height: 10
     #duration: [360, 720]
     #despawnPenalty: 200
-
   - type: STR_MARTIAN_HIGH_COMMAND
     data:
       - alienRank: 5
@@ -936,7 +929,6 @@ alienDeployments:
     height: 10
     #duration: [360, 720]
     #despawnPenalty: 200
-
   - type: STR_MARTIAN_HARVEST_FACILITY
     data:
       - alienRank: 5
@@ -1132,7 +1124,6 @@ alienDeployments:
     height: 10
     #duration: [360, 720]
     #despawnPenalty: 200
-
   - type: STR_MARTIAN_WATCHTOWER
     data:
       - alienRank: 5
@@ -1153,7 +1144,6 @@ alienDeployments:
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
-
           -
             - STR_MARTIAN_SLUGTHROWER
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
@@ -1303,7 +1293,6 @@ alienDeployments:
     height: 10
     #duration: [360, 720]
     #despawnPenalty: 200
-
   - type: STR_MARTIAN_CLONE_LAB
     data:
       - alienRank: 5
@@ -1324,7 +1313,6 @@ alienDeployments:
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
-
           -
             - STR_MARTIAN_SLUGTHROWER
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
@@ -1512,7 +1500,6 @@ alienDeployments:
     height: 10
     #duration: [360, 720]
     #despawnPenalty: 200
-
   - type: STR_MARTIAN_SUPPLY_DEPOT
     data:
       - alienRank: 5
@@ -1533,7 +1520,6 @@ alienDeployments:
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
             - STR_MARTIAN_SLUGTHROWER_ROUNDS
-
           -
             - STR_MARTIAN_SLUGTHROWER
             - STR_MARTIAN_SLUGTHROWER_ROUNDS

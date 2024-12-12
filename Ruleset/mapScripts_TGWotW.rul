@@ -6,8 +6,6 @@ mapScripts:
 ####################################
 ########## STORY MISSIONS #########
 ##################################
-
-
   - type: VERDUN_SCRIPT                                    # trenches - test
     commands:
     - type: addLine # adds the row of trenches
@@ -82,9 +80,7 @@ mapScripts:
       size: 2
       executions: 6
     - type: fillArea
-
 ########################################
-
   - type: DEFAULT_TRENCH # forest, mountain
     commands:
     - type: addUFO
@@ -134,7 +130,6 @@ mapScripts:
           size: [1, 1, 1]
         - type: middle
           size: [1, 1, 4]
-
   - type: FARM_MIX
     commands:
     - type: addUFO
@@ -174,7 +169,6 @@ mapScripts:
           size: [1, 1, 1]
         - type: middle
           size: [1, 1, 4]
-
   - type: DIRT_TRENCH_MIX_FARM_2
     commands:
     - type: addCraft
@@ -225,7 +219,6 @@ mapScripts:
           size: [2, 2, 1]
         - type: middle
           size: [2, 2, 4]
-
   - type: TRENCH                                    # trenches - test
     commands:
     - type: addCraft
@@ -247,7 +240,6 @@ mapScripts:
       size: 2
       maxUses: 1
     - type: fillArea
-
   - type: TRENCH_FORTS                                    # trenches - test
     commands:
     - type: addCraft
@@ -273,7 +265,6 @@ mapScripts:
       size: 2
       maxUses: 1
     - type: fillArea
-
   - type: S_IDT_VILLAGE
     commands:
     - type: addCraft
@@ -314,7 +305,6 @@ mapScripts:
       # because these are references to the block numbers within the sets, not the file names.
       # blocks: [3, 4, 10, 11, 12, 13, 14]
       # freqs: [3, 3, 2, 2, 2, 2, 2]
-
   - type: ALIEN_FOREST                     #Luke83 Mapscript -
     commands:
     - type: addCraft
@@ -568,7 +558,6 @@ mapScripts:
       size: 2
       executions: 3
     - type: fillArea
-
 #####################################
 ####### RAILROAD MAPSCRIPTS ########
 ###################################

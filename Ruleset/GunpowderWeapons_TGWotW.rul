@@ -3,7 +3,6 @@
 #Mid-range combat: 11-20 tiles
 #Long range combat: 21-40 tiles
 #Extra long range combat: 41-60
-
 # weapon proficicency system - by memmaker
 # Type 1 -> WEAPON_TYPE: 1 Rifles
 # Type 2 -> WEAPON_TYPE: 2 Sidearms
@@ -143,7 +142,6 @@ items:
       ToMorale: 0.5
       ToStun: 0.2
       RandomWound: true
-
   #################################################
   ######### BALLISTIC BOLT-ACTION RIFLES #########
   ###############################################
@@ -246,7 +244,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 2000
-
   - type: STR_SMLE_MKIII_CLIP
     categories:
       [
@@ -318,7 +315,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2020
-
   - type: STR_P14_ENFIELD
     categories:
       [
@@ -364,7 +360,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 2030
-
   - type: STR_SPRINGFIELD
     categories:
       [
@@ -380,7 +375,6 @@ items:
     size: 0.02
     costBuy: 1500
     costSell: 1150
-
     weight: 5
     bigSprite: 248
     floorSprite: 248
@@ -464,7 +458,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 2040
-
   - type: STR_SPRINGFIELD_CLIP
     categories:
       [
@@ -539,7 +532,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2060
-
   - type: STR_GEWEHR98
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
@@ -630,7 +622,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 2070
-
   - type: STR_GEWEHR98_CLIP
     categories:
       [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
@@ -687,7 +678,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2090
-
   - type: STR_LEBEL
     categories:
       [
@@ -787,7 +777,6 @@ items:
     # Bayonet segment end
     attraction: 8
     listOrder: 2100
-
   - type: STR_LEBEL_CLIP
     categories:
       [
@@ -858,7 +847,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2120
-
   - type: STR_MOSIN_NAGANT
     categories:
       [
@@ -958,7 +946,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 2130
-
   - type: STR_WINCHESTER_M1915
     categories:
       [
@@ -1057,7 +1044,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 2140
-
   - type: STR_OBREZ_PISTOL
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
@@ -1088,7 +1074,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2145
-
   - type: STR_MOSIN_NAGANT_CLIP
     categories:
       [
@@ -1163,7 +1148,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2160
-
   - type: STR_BERDAN_II
     categories:
       [
@@ -1262,7 +1246,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 2170
-
   - type: STR_BERDAN_II_AMMO
     categories:
       [
@@ -1337,7 +1320,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2190
-
   #  - type: STR_GEWEHR_M95
   #    categories: [STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
   #    size: 0.02
@@ -1450,7 +1432,6 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2200
-
   - type: STR_PHLOGISTON_HEAVY_RIFLE
     categories:
       [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
@@ -1488,7 +1469,6 @@ items:
     autoRange: 11
     attraction: 8
     listOrder: 2205
-
   - type: STR_PHLOGISTON_RUBY_CLIP
     categories:
       [
@@ -1521,7 +1501,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2210
-
   ###########################################
   ######## GAUSS BOLT-ACTION RIFLES ########
   #########################################
@@ -1572,7 +1551,6 @@ items:
     battleType: 1
     attraction: 8
     listOrder: 2220
-
   - type: STR_FARQHUAR_HILL_DRUM
     categories:
       [
@@ -1649,7 +1627,6 @@ items:
     invHeight: 1
     listOrder: 2240
     costBuy: 1000
-
   - type: STR_MONDRAGON
     categories:
       [
@@ -1752,7 +1729,6 @@ items:
     # Bayonet segment end
     attraction: 7
     listOrder: 2250
-
   - type: STR_MONDRAGON_MAG
     categories:
       [
@@ -1829,7 +1805,6 @@ items:
     armor: 30
     attraction: 7
     listOrder: 2270
-
   - type: STR_SELBSTLADER_M1916
     categories:
       [
@@ -1875,7 +1850,6 @@ items:
     armor: 30
     attraction: 10
     listOrder: 2280
-
   - type: STR_SELBSTLADER_M1916_MAG
     categories:
       [
@@ -1952,7 +1926,6 @@ items:
     armor: 30
     attraction: 7
     listOrder: 2300
-
   - type: STR_RSC17
     categories:
       [
@@ -2123,7 +2096,6 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 2330
-
   - type: STR_FEDOROV_AVTOMAT
     categories:
       [
@@ -2174,7 +2146,6 @@ items:
     armor: 30
     attraction: 10
     listOrder: 2340
-
   - type: STR_FEDOROV_AVTOMAT_MAG
     categories:
       [
@@ -2251,7 +2222,6 @@ items:
     armor: 30
     attraction: 7
     listOrder: 2360
-
   - type: STR_CEI_RIGOTTI
     categories:
       [
@@ -2302,7 +2272,6 @@ items:
     armor: 30
     attraction: 10
     listOrder: 2370
-
   - type: STR_CEI_RIGOTTI_CLIP
     categories:
       [
@@ -2379,7 +2348,6 @@ items:
     armor: 30
     attraction: 7
     listOrder: 2390
-
   #################################################
   ######### SELF-LOADING RIFLES #######
   ###############################################
@@ -2468,9 +2436,6 @@ items:
   #################################################
   ######### GAUSS SELF-LOADING RIFLES ############
   ###############################################
-
-
-
   ##########################################
   ######### BALLISTIC SIDEARMS ############
   ########################################
@@ -2510,7 +2475,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2420
-
   - type: STR_HEAVY_REVOLVER
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
@@ -2544,7 +2508,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2430
-
   - type: STR_SERVICE_REVOLVER
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
@@ -2578,7 +2541,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2440
-
   - type: STR_REVOLVER_CLIP
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -2669,7 +2631,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2470
-
   - type: STR_M1911_COLT
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
@@ -2706,7 +2667,6 @@ items:
     armor: 35
     attraction: 12
     listOrder: 2480
-
   - type: STR_M1911_COLT_MAG
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -2771,7 +2731,6 @@ items:
     invHeight: 1
     armor: 35
     listOrder: 2500
-
   - type: STR_MAUSER_C96
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
     requiresBuy:
@@ -2804,7 +2763,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2510
-
   - type: STR_MAUSER_C96_CLIP
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -2865,7 +2823,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2530
-
   - type: STR_LUGER_P08
     categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT]
     requiresBuy:
@@ -2897,7 +2854,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2540
-
   - type: STR_LUGER_P08_MAG
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -2958,9 +2914,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2560
-
-
-
   ##########################################
   ############# TESLA SIDEARMS ############
   ########################################
@@ -3141,7 +3094,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2610
-
   - type: STR_M1907_SL_CARBINE_MAG
     categories:
       [
@@ -3223,7 +3175,6 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2630
-
   #- type: STR_REVOLVER_CARBINE
   #  categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_BRITISH_EQUIPMENT]
   #  size: 0.01
@@ -3290,7 +3241,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2640
-
   - type: STR_MAUSER_C96_MAG
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -3340,7 +3290,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2660
-
   - type: STR_LUGER_ARTILLERY
     categories:
       [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
@@ -3373,7 +3322,6 @@ items:
     battleType: 1
     armor: 250
     listOrder: 2670
-
   - type: STR_LUGER_ARTILLERY_DRUM
     categories: [STR_BALLISTIC, STR_CARBINES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -3434,7 +3382,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 2690
-
   - type: STR_CARCANO_M91_CARBINE
     categories:
       [
@@ -3533,7 +3480,6 @@ items:
     # Bayonet segment end
     attraction: 8
     listOrder: 2710
-
   - type: STR_CARCANO_M91_CARBINE_CLIP
     categories:
       [
@@ -3603,7 +3549,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 2730
-
   ##############################################
   ############ CARBINES ############
   ############################################
@@ -3661,11 +3606,9 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2740
-
   ##############################################
   ############# GAUSS CARBINES ################
   ############################################
-
   ##########################################
   ############# BALLISTIC SMGS ############
   ########################################
@@ -3732,7 +3675,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2750
-
   - type: STR_ANNIHILATOR_SMG_MAG
     categories:
       [
@@ -3815,7 +3757,6 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2770
-
   - type: STR_MP18
     categories:
       [
@@ -3879,7 +3820,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2780
-
   - type: STR_MP18_DRUM
     categories:
       [
@@ -3962,7 +3902,6 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2800
-
   - type: STR_SMG_0818
     categories:
       [
@@ -4026,7 +3965,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2810
-
   - type: STR_SMG_0818_BOX
     categories:
       [
@@ -4110,7 +4048,6 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2830
-
   - type: STR_BERETTA_MAB18
     categories:
       [
@@ -4229,7 +4166,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2840
-
   - type: STR_BERETTA_MAB18_MAG
     categories:
       [
@@ -4314,7 +4250,6 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2860
-
   - type: STR_VILLAR_PEROSA
     categories:
       [
@@ -4382,7 +4317,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 2870
-
   - type: STR_VILLAR_PEROSA_MAGS
     categories:
       [
@@ -4467,7 +4401,6 @@ items:
     battleType: 2
     armor: 35
     listOrder: 2890
-
   ##########################################
   ############# TESLA SMGS ################
   ########################################
@@ -4593,13 +4526,9 @@ items:
     battleType: 2
     armor: 200
     listOrder: 2920
-
   ##########################################
   ############# PLASMA SMGS ###############
   ########################################
-
-
-
   ##########################################
   ############ BALLISTIC LMGS #############
   ########################################
@@ -4661,7 +4590,6 @@ items:
     sprayWaypoints: 2
     attraction: 10
     listOrder: 2930
-
   - type: STR_HUOT_LMG_DRUM
     categories:
       [
@@ -4744,7 +4672,6 @@ items:
     invHeight: 1
     attraction: 10
     listOrder: 2950
-
   - type: STR_BAR
     categories:
       [
@@ -4799,7 +4726,6 @@ items:
     invHeight: 3
     listOrder: 2960
     bulletSpeed: 17
-
   - type: STR_BAR_MAG
     categories:
       [
@@ -4876,8 +4802,6 @@ items:
     invWidth: 1
     battleType: 2
     listOrder: 2980
-
-
   - type: STR_MG0815
     categories:
       [
@@ -4938,7 +4862,6 @@ items:
     bulletSpeed: 17
     attraction: 9
     listOrder: 2990
-
   - type: STR_MG0815_DRUM
     categories:
       [
@@ -5021,7 +4944,6 @@ items:
     invHeight: 1
     attraction: 9
     listOrder: 3010
-
   - type: STR_CHAUCHAT_LMG
     categories:
       [
@@ -5080,7 +5002,6 @@ items:
     sprayWaypoints: 2
     attraction: 10
     listOrder: 3020
-
   - type: STR_CHAUCHAT_LMG_MAG
     categories:
       [
@@ -5159,7 +5080,6 @@ items:
     invHeight: 1
     attraction: 10
     listOrder: 3040
-
   - type: STR_RIBEYROLLES
     categories:
       [
@@ -5178,7 +5098,6 @@ items:
     size: 0.01
     costBuy: 4000
     costSell: 3200
-
     weight: 6
     bigSprite: 2272
     floorSprite: 2272
@@ -5222,7 +5141,6 @@ items:
     armor: 35
     attraction: 10
     listOrder: 3050
-
   - type: STR_RIBEYROLLES_MAG
     categories:
       [
@@ -5307,7 +5225,6 @@ items:
     battleType: 2
     armor: 35
     listOrder: 3070
-
   - type: STR_LEWIS_GUN
     categories:
       [
@@ -5367,7 +5284,6 @@ items:
     sprayWaypoints: 2
     attraction: 10
     listOrder: 3080
-
   - type: STR_LEWIS_GUN_PAN
     categories:
       [
@@ -5450,7 +5366,6 @@ items:
     invHeight: 1
     attraction: 10
     listOrder: 3100
-
   - type: STR_MADSEN_LMG
     categories:
       [
@@ -5508,7 +5423,6 @@ items:
     sprayWaypoints: 2
     attraction: 10
     listOrder: 3110
-
   - type: STR_MADSEN_LMG_MAG
     categories:
       [
@@ -5587,7 +5501,6 @@ items:
     invHeight: 1
     attraction: 10
     listOrder: 3130
-
   ##########################################
   ############# TESLA LMGS ################
   ########################################
@@ -5667,11 +5580,9 @@ items:
     invWidth: 2
     armor: 200
     listOrder: 3150
-
   ##########################################
   ############# PLASMA LMGS ###############
   ########################################
-
   ##########################################
   ########## BALLISTIC SHOTGUNS ###########
   ########################################
@@ -5727,7 +5638,6 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 3160
-
   - type: STR_REMINGTON_MODEL_11
     categories:
       [
@@ -5772,7 +5682,6 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 3170
-
   - type: STR_INERTIA_SHOTGUN
     categories:
       [
@@ -5817,7 +5726,6 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 3180
-
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_5
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -5878,7 +5786,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 3200
-
   - type: STR_MODEL_1900
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
@@ -5914,7 +5821,6 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 3210
-
   - type: STR_MODEL_1900_SAWEDOFF
     categories:
       [
@@ -5961,7 +5867,6 @@ items:
     twoHanded: true
     armor: 250
     listOrder: 3220
-
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_2
     categories:
       [
@@ -6044,7 +5949,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 3240
-
   - type: STR_TRANQUILIZER_RIFLE
     categories: [STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
     requiresBuy:
@@ -6109,7 +6013,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 3248
-
   ##########################################
   ########### TESLA SHOTGUNS ##############
   ########################################
@@ -6193,7 +6096,6 @@ items:
     invWidth: 1
     armor: 200
     listOrder: 3260
-
   ######################################
   ######### EXPLOSIVE DEVICES #########
   ####################################
@@ -6231,7 +6133,6 @@ items:
     blastRadius: 3
     attraction: 6
     listOrder: 3270
-
   - type: STR_STICK_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
@@ -6261,7 +6162,6 @@ items:
     invHeight: 2
     blastRadius: 5
     listOrder: 3280
-
   - type: STR_FRAG_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
@@ -6291,7 +6191,6 @@ items:
     invHeight: 1
     blastRadius: 5
     listOrder: 3290
-
   - type: STR_DYNAMITE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
@@ -6322,7 +6221,6 @@ items:
     blastRadius: 2
     attraction: 6
     listOrder: 3300
-
   - type: STR_FLAMETHROWER
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_HEAVY_EQUIPMENT]
     requiresBuy:
@@ -6368,7 +6266,6 @@ items:
     vaporDensitySurface: 10
     vaporProbabilitySurface: 100
     listOrder: 3310
-
   - type: STR_RIFLE_GRENADE
     categories: [STR_FIREARMS, STR_EXPLOSIVES, STR_RIFLEMAN_CLASS, STR_CLIPS]
     size: 0.01
@@ -6398,7 +6295,6 @@ items:
     invWidth: 1
     invHeight: 2
     listOrder: 2195
-
   - type: STR_GAS_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     requiresBuy:
@@ -6427,7 +6323,6 @@ items:
     battleType: 4
     armor: 20
     listOrder: 3330
-
   - type: STR_FLARE_GUN
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT]
     size: 0.01
@@ -6454,7 +6349,6 @@ items:
     snapRange: 12
     attraction: 1
     listOrder: 3340
-
   - type: STR_FLARE_ROUND
     categories: [STR_BALLISTIC, STR_PISTOLS, STR_LIGHT_EQUIPMENT, STR_CLIPS]
     size: 0.01
@@ -6479,7 +6373,6 @@ items:
     armor: 50
     attraction: 1
     listOrder: 3350
-
   - type: STR_HANDHELD_MORTAR
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.02
@@ -6505,7 +6398,6 @@ items:
     armor: 20
     arcingShot: true
     listOrder: 3360
-
   - type: STR_MORTAR_SHELL
     categories: [STR_FIREARMS, STR_ARTILLERY, STR_CLIPS]
     size: 0.01
@@ -6534,7 +6426,6 @@ items:
     invHeight: 2
     bulletSprite: 4
     listOrder: 3370
-
   - type: STR_HEAVY_GRENADE
     categories: [STR_EXPLOSIVES, STR_RAIDER_CLASS]
     requiresBuy:
@@ -6564,7 +6455,6 @@ items:
     invHeight: 2
     blastRadius: 5
     listOrder: 3380
-
   ######################################
   ######### MELEE EQUIPMENT ###########
   ####################################
@@ -6643,7 +6533,6 @@ items:
     armor: 75
     attraction: 8
     listOrder: 3390
-
   - type: STR_MM_SABRE
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
@@ -6721,7 +6610,6 @@ items:
     armor: 75
     attraction: 8
     listOrder: 3400
-
   - type: STR_TRENCH_KNIFE
     categories: [STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     requiresBuy:
@@ -6808,7 +6696,6 @@ items:
     invHeight: 2
     attraction: 8
     listOrder: 3410
-
   - type: STR_TRENCH_SHOVEL
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
@@ -6893,7 +6780,6 @@ items:
     experienceTrainingMode: 1
     attraction: 6
     listOrder: 3420
-
   - type: STR_SHOVEL
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
@@ -6978,7 +6864,6 @@ items:
     experienceTrainingMode: 1
     attraction: 6
     listOrder: 3430
-
   - type: STR_TRENCH_MACE
     categories: [STR_CQB, STR_RAIDER_CLASS, STR_LIGHT_EQUIPMENT]
     requiresBuy:
@@ -7044,7 +6929,6 @@ items:
     experienceTrainingMode: 1
     attraction: 6
     listOrder: 3440
-
   - type: STR_TRENCH_CLUB
     categories: [STR_CQB, STR_RAIDER_CLASS, STR_ASSAULT_CLASS]
     requiresBuy:
@@ -7109,7 +6993,6 @@ items:
     experienceTrainingMode: 13
     attraction: 6
     listOrder: 3450
-
   - type: STR_SHASHKA
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
@@ -7188,7 +7071,6 @@ items:
     armor: 75
     attraction: 8
     listOrder: 3460
-
   - type: STR_MM_DAGGER
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
@@ -7266,7 +7148,6 @@ items:
     armor: 75
     attraction: 8
     listOrder: 3470
-
   - type: STR_MM_SHASHKA
     categories: [STR_CQB, STR_RAIDER_CLASS]
     requiresBuy:
@@ -7423,7 +7304,6 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 3500
-
   - type: STR_BANDAGES
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.01
@@ -7449,7 +7329,6 @@ items:
     attraction: 6
     experienceTrainingMode: 19
     listOrder: 3510
-
   - type: STR_PAINKILLER
     categories: [STR_MEDICAL, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT]
     size: 0.01
@@ -7471,7 +7350,6 @@ items:
     invWidth: 1
     invHeight: 1
     listOrder: 3520
-
   #  - STR_ADRENALINE
   #    listOrder: 2083
   #  - type: STR_COMBAT_STIMULANT
@@ -7581,7 +7459,6 @@ items:
       FTAG_BUFF_VALUE_TIMEUNITS: 20
       FTAG_BUFF_VALUE_BRAVERY: 10
       FTAG_BUFF_VALUE_REACTIONS: 5
-
   #  - type: STR_BAGPIPE
   #    categories: [STR_LIGHT_EQUIPMENT]
   #    size: 0.02
@@ -7708,7 +7585,6 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3560
-
   - type: STR_CANNED_BEEF
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.01
@@ -7769,7 +7645,6 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3580
-
   - type: STR_BISCUIT_BOX
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.01
@@ -7830,7 +7705,6 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3600
-
   - type: STR_WINE
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.01
@@ -7928,7 +7802,6 @@ items:
     attraction: 6
     listOrder: 3620
     costBuy: 1000
-
   - type: STR_TEA_FLASK
     categories: [STR_MILITARY_RATIONS, STR_LIGHT_EQUIPMENT]
     size: 0.01
@@ -7954,7 +7827,6 @@ items:
     experienceTrainingMode: 21
     recoveryPoints: 10
     listOrder: 3630
-
 #  - STR_CANNED_SPAGUETTI
 #    listOrder: 20
 #  - STR_
@@ -8003,8 +7875,6 @@ manufacture:
   - delete: STR_FIRESTORM
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
-
-
 extraSprites:
   - type: BIGOBS.PCK
     files:
@@ -8164,7 +8034,6 @@ extraSprites:
       1376: Resources/HumanWeapons/Handgun/BigTeslaPistol_ammo1.png
       1384: Resources/HumanWeapons/Handgun/BigPhlogistonPistol_nomag.png
       1392: Resources/HumanWeapons/Handgun/BigPhlogistonPistol_ammo1.png
-
       1400: Resources/HumanWeapons/Carbine/BigM1907SLCarbine_nomag.png
       1408: Resources/HumanWeapons/Carbine/BigM1907SLCarbine_ammo1.png
       1416: Resources/HumanWeapons/Carbine/BigM1907SLCarbine_ammo2.png
@@ -8312,7 +8181,6 @@ extraSprites:
       2552: Resources/HumanWeapons/Shotgun/BigTeslaTrenchBroom_nomag.png
       2560: Resources/HumanWeapons/Shotgun/BigTeslaTrenchBroom_ammo1.png
       2568: Resources/HumanWeapons/Shotgun/BigTeslaExtendedBattery.png
-
       2576: Resources/HumanWeapons/Explosives/BigAntiTankGrenade.png
       2584: Resources/HumanWeapons/Explosives/BigStickGrenade.png
       2592: Resources/HumanWeapons/Explosives/BigFragGrenade.png
@@ -8333,7 +8201,6 @@ extraSprites:
       2712: Resources/HumanWeapons/Explosives/BigNovitskiGrenade.png
       #2720: Resources/HumanWeapons/Explosives/BigToxicGrenade.png
       2728: Resources/HumanWeapons/Explosives/BigIncendiaryGrenade.png
-
       2736: Resources/HumanWeapons/Melee/BigSabre.png
       2744: Resources/HumanWeapons/Melee/BigTrenchKnife.png
       2752: Resources/HumanWeapons/Melee/BigTrenchShovel.png
@@ -8357,7 +8224,6 @@ extraSprites:
       2896: Resources/HumanWeapons/Melee/BigMMDagger.png
       2904: Resources/HumanWeapons/Melee/BigMMShashka.png
       2920: Resources/HumanWeapons/Melee/BigBrokenWineBottle.png
-
       2912: Resources/HumanWeapons/Medical/BigMedikit.png
       2928: Resources/HumanWeapons/Medical/BigMedicalSyringe.png
       #2936: Resources/HumanWeapons/Medical/BigSurgeryKit.png
@@ -8377,7 +8243,6 @@ extraSprites:
       3048: Resources/HumanWeapons/Medical/BigTeaFlask.png
       3056: Resources/HumanWeapons/Stun/BigTranquilizerRifle.png
       3064: Resources/HumanWeapons/Stun/BigTranquilizerDarts.png
-
   - type: FLOOROB.PCK
     files:
       152: Resources/HumanWeapons/BoltAction/FloorPhlogistonPrototype_nomag.png
@@ -8536,7 +8401,6 @@ extraSprites:
       1376: Resources/HumanWeapons/Handgun/FloorTeslaPistol_ammo1.png
       1384: Resources/HumanWeapons/Handgun/FloorPhlogistonPistol_nomag.png
       1392: Resources/HumanWeapons/Handgun/FloorPhlogistonPistol_ammo1.png
-
       1400: Resources/HumanWeapons/Carbine/FloorM1907SLCarbine_nomag.png
       1408: Resources/HumanWeapons/Carbine/FloorM1907SLCarbine_ammo1.png
       1416: Resources/HumanWeapons/Carbine/FloorM1907SLCarbine_ammo2.png
@@ -8684,7 +8548,6 @@ extraSprites:
       2552: Resources/HumanWeapons/Shotgun/FloorTeslaTrenchBroom_nomag.png
       2560: Resources/HumanWeapons/Shotgun/FloorTeslaTrenchBroom_ammo1.png
       2568: Resources/HumanWeapons/Shotgun/FloorTeslaExtendedBattery.png
-
       2576: Resources/HumanWeapons/Explosives/FloorAntiTankGrenade.png
       2584: Resources/HumanWeapons/Explosives/FloorStickGrenade.png
       2592: Resources/HumanWeapons/Explosives/FloorFragGrenade.png
@@ -8705,7 +8568,6 @@ extraSprites:
       2712: Resources/HumanWeapons/Explosives/FloorNovitskiGrenade.png
       #2720: Resources/HumanWeapons/Explosives/FloorToxicGrenade.png
       2728: Resources/HumanWeapons/Explosives/FloorIncendiaryGrenade.png
-
       2736: Resources/HumanWeapons/Melee/FloorSabre.png
       2744: Resources/HumanWeapons/Melee/FloorTrenchKnife.png
       2752: Resources/HumanWeapons/Melee/FloorTrenchShovel.png
@@ -8729,7 +8591,6 @@ extraSprites:
       2896: Resources/HumanWeapons/Melee/FloorMMDagger.png
       2904: Resources/HumanWeapons/Melee/FloorMMShashka.png
       2920: Resources/HumanWeapons/Melee/FloorBrokenWineBottle.png
-
       2912: Resources/HumanWeapons/Medical/FloorMedikit.png
       2928: Resources/HumanWeapons/Medical/FloorMedicalSyringe.png
       #2936: Resources/HumanWeapons/Medical/FloorSurgeryKit.png
@@ -8749,7 +8610,6 @@ extraSprites:
       3048: Resources/HumanWeapons/Medical/FloorTeaFlask.png
       3056: Resources/HumanWeapons/Stun/FloorTranquilizerRifle.png
       3064: Resources/HumanWeapons/Stun/FloorTranquilizerDarts.png
-
   - type: HANDOB.PCK
     height: 40
     width: 256
@@ -8874,7 +8734,6 @@ extraSprites:
       1376: Resources/HumanWeapons/Handgun/HandTeslaPistol_ammo1.png
       1384: Resources/HumanWeapons/Handgun/HandPhlogistonPistol_nomag.png
       1392: Resources/HumanWeapons/Handgun/HandPhlogistonPistol_ammo1.png
-
       1400: Resources/HumanWeapons/Carbine/HandM1907SLCarbine_nomag.png
       1408: Resources/HumanWeapons/Carbine/HandM1907SLCarbine_ammo1.png
       1416: Resources/HumanWeapons/Carbine/HandM1907SLCarbine_ammo2.png
@@ -8992,7 +8851,6 @@ extraSprites:
       2552: Resources/HumanWeapons/Shotgun/HandTeslaTrenchBroom_nomag.png
       2560: Resources/HumanWeapons/Shotgun/HandTeslaTrenchBroom_ammo1.png
       2568: Resources/HumanWeapons/Shotgun/HandTeslaExtendedBattery.png
-
       2576: Resources/HumanWeapons/Explosives/HandAntiTankGrenade.png
       2584: Resources/HumanWeapons/Explosives/HandStickGrenade.png
       2592: Resources/HumanWeapons/Explosives/HandFragGrenade.png
@@ -9013,7 +8871,6 @@ extraSprites:
       2712: Resources/HumanWeapons/Explosives/HandNovitskiGrenade.png
       #2720: Resources/HumanWeapons/Explosives/HandToxicGrenade.png
       2728: Resources/HumanWeapons/Explosives/HandIncendiaryGrenade.png
-
       2736: Resources/HumanWeapons/Melee/HandSabre.png
       2744: Resources/HumanWeapons/Melee/HandTrenchKnife.png
       2752: Resources/HumanWeapons/Melee/HandTrenchShovel.png
@@ -9037,7 +8894,6 @@ extraSprites:
       2896: Resources/HumanWeapons/Melee/HandMMDagger.png
       2904: Resources/HumanWeapons/Melee/HandMMShashka.png
       2920: Resources/HumanWeapons/Melee/HandBrokenWineBottle.png
-
       2912: Resources/HumanWeapons/Medical/HandMedikit.png
       2928: Resources/HumanWeapons/Medical/HandMedicalSyringe.png
       #2936: Resources/HumanWeapons/Medical/HandSurgeryKit.png
@@ -9057,7 +8913,6 @@ extraSprites:
       3048: Resources/HumanWeapons/Medical/HandTeaFlask.png
       3056: Resources/HumanWeapons/Stun/HandTranquilizerRifle.png
       3064: Resources/HumanWeapons/Stun/HandTranquilizerDarts.png
-
   #############################
   - type: WW1_MEDIKIT
     singleImage: true
@@ -9084,7 +8939,6 @@ extraSprites:
       700: Resources/BulletSprites/FlameProjectile.png #20
       735: Resources/BulletSprites/Rocket_Bullet.png #21
       770: Resources/BulletSprites/Tank_Bullet.png #22
-
   - type: HIT.PCK
     height: 40
     width: 128
@@ -9093,7 +8947,6 @@ extraSprites:
     files:
       4: Resources/BulletSprites/CuttingHit.png
       8: Resources/BulletSprites/FireHit.png
-
   - type: X1.PCK # ignoreDuplicate
     width: 1024
     height: 64
@@ -9102,7 +8955,6 @@ extraSprites:
     files:
       208: Resources/BulletSprites/Green_Skull_Explosion.png
       216: Resources/BulletSprites/Grey_Skull_Explosion.png
-
   - type: SMOKE.PCK
     height: 80
     width: 160
@@ -9112,7 +8964,6 @@ extraSprites:
       90: Resources/BulletSprites/HumanElectric_Hit.png
       100: Resources/BulletSprites/RedLaser_Hit.png
       110: Resources/BulletSprites/HansFireHit.png
-
   #########################################
   ######### UFOPEDIA IMAGES ###############
   #########################################
@@ -9147,7 +8998,6 @@ extraSprites:
     files:
       0: Resources/UFOpedia/HUMAN_CHEMICAL_WEAPONS_IMAGE.PNG
 #########################################
-
 ##########################################
 ####### FINNIK'S BUFFING SCRIPTS #########
 ##########################################
@@ -9184,9 +9034,7 @@ extended:
           var int buffValueStrength;
           var int buffValuePsiStrength;
           var int buffValuePsiSkill;
-
           var int newValue;
-
           damaging_item.getRuleItem itemRuleset; #get stats from item
           itemRuleset.getTag buffValueTimeUnits Tag.FTAG_BUFF_VALUE_TIMEUNITS;
           itemRuleset.getTag buffValueStamina Tag.FTAG_BUFF_VALUE_STAMINA;
@@ -9199,84 +9047,72 @@ extended:
           itemRuleset.getTag buffValueStrength Tag.FTAG_BUFF_VALUE_STRENGTH;
           itemRuleset.getTag buffValuePsiStrength Tag.FTAG_BUFF_VALUE_PSISTRENGTH;
           itemRuleset.getTag buffValuePsiSkill Tag.FTAG_BUFF_VALUE_PSISKILL;
-
           if neq buffValueTimeUnits 0; #if item has TimeUnits effect
             unit.Stats.getTimeUnits newValue; #get original stat
             add newValue buffValueTimeUnits; #calculate buff
             unit.Stats.setTimeUnits newValue; #apply debuff
             clear newValue;
           end;
-
           if neq buffValueStamina 0; #if item has Stamina effect
             unit.Stats.getStamina newValue;
             add newValue buffValueStamina;
             unit.Stats.setStamina newValue;
             clear newValue;
           end;
-
           if neq buffValueHealth 0; #if item has Health effect
             unit.Stats.getHealth newValue;
             add newValue buffValueHealth;
             unit.Stats.setHealth newValue;
             clear newValue;
           end;
-
           if neq buffValueBravery 0; #if item has Bravery effect
             unit.Stats.getBravery newValue;
             add newValue buffValueBravery;
             unit.Stats.setBravery newValue;
             clear newValue;
           end;
-
           if neq buffValueReactions 0; #if item has Reactions effect
             unit.Stats.getReactions newValue;
             add newValue buffValueReactions;
             unit.Stats.setReactions newValue;
             clear newValue;
           end;
-
           if neq buffValueFiring 0; #if item has Firing effect
             unit.Stats.getFiring newValue;
             add newValue buffValueFiring;
             unit.Stats.setFiring newValue;
             clear newValue;
           end;
-
           if neq buffValueThrowing 0; #if item has Throwing effect
             unit.Stats.getThrowing newValue;
             add newValue buffValueThrowing;
             unit.Stats.setThrowing newValue;
             clear newValue;
           end;
-
           if neq buffValueMelee 0; #if item has Melee effect
             unit.Stats.getMelee newValue;
             add newValue buffValueMelee;
             unit.Stats.setMelee newValue;
             clear newValue;
           end;
-
           if neq buffValueStrength 0; #if item has Strength effect
             unit.Stats.getStrength newValue;
             add newValue buffValueStrength;
             unit.Stats.setStrength newValue;
             clear newValue;
           end;
-
           if neq buffValuePsiStrength 0; #if item has PsiStrength effect
             unit.Stats.getPsiStrength newValue;
             add newValue buffValuePsiStrength;
             unit.Stats.setPsiStrength newValue;
             clear newValue;
           end;
-
           if neq buffValuePsiSkill 0; #if item has PsiSkill effect
             unit.Stats.getPsiSkill newValue;
             add newValue buffValuePsiSkill;
             unit.Stats.setPsiSkill newValue;
             clear newValue;
           end;
-
           return power part side;
       - offset: 2 #X2 POWER
         code: |
@@ -9311,9 +9147,5 @@ extended:
             end;
           end;
           return power part side;
-
-
-
-
 ## Calculate Size with meters to hexosize
 #0.10 meters = 0.01 hexosize / hexometers

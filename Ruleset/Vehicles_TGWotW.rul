@@ -140,11 +140,9 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
-
 ###################################
 ######### AIRCRAFT ###############
 #################################
-
 #TIER 0
   - type: STR_FOKKER_EINDECKER
     sprite: 101
@@ -177,7 +175,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
-
   - type: STR_AIRCO_DH2
     sprite: 102
     fuelMax: 300
@@ -244,7 +241,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_FRENCH_FIGHTER_OPTION_A
-
   - type: STR_SOPWITH_PUP
     sprite: 104
     fuelMax: 400
@@ -279,7 +275,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_BRITISH_SCOUT_OPTION_B
-
   - type: STR_ALBATROS_DIII
     sprite: 105
     fuelMax: 350
@@ -313,10 +308,8 @@ crafts:
     #listOrder: 850
     requires:
       - STR_GERMAN_FIGHTER_OPTION_C
-
 #################################
 # TIER 2
-
   - type: STR_SPAD
     sprite: 106
     fuelMax: 500
@@ -350,7 +343,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
-
   - type: STR_ROYAL_AIRCRAFT_SE5A
     sprite: 107
     fuelMax: 600
@@ -385,7 +377,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
-
   - type: STR_FOKKER_DR1
     sprite: 108
     fuelMax: 350
@@ -420,7 +411,6 @@ crafts:
     requires:
       - STR_GERMAN_IMPROVED_FIGHTER_OPTION_C
 #########################################
-
 #############################
 ######## BOMBERS ###########
 ###########################
@@ -461,7 +451,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
-
   - type: STR_HALBERSTADT_CLII
     sprite: 125
     fuelMax: 350
@@ -498,7 +487,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_GERMAN_ATTACK_PLANE_OPTION_B
-
   - type: STR_HANDLEY_PAGE_TYPE_O
     sprite: 126
     fuelMax: 450
@@ -535,10 +523,8 @@ crafts:
     #listOrder: 850
     requires:
       - STR_BRITISH_BOMBER_OPTION_C
-
 ###########################
 # TIER 2
-
   - type: STR_ZEPPELIN_STAAKEN_RVI
     sprite: 127
     fuelMax: 700
@@ -575,7 +561,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A
-
   - type: STR_CAPRIONI_CA5
     sprite: 128
     fuelMax: 300
@@ -612,7 +597,6 @@ crafts:
     #listOrder: 850
     requires:
       - STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
-
   - type: STR_BRISTOL_F2B
     sprite: 129
     fuelMax: 300
@@ -648,11 +632,9 @@ crafts:
     #listOrder: 850
     requires:
       - STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
-
 #########################
 ####### LANDSHIP #######
 #######################
-
   - type: STR_CONQUEROR
     sprite: 147
     fuelMax: 1000
@@ -721,7 +703,6 @@ crafts:
     requires:
       - STR_LANDSHIP_RESEARCH
 ## Kiro Xei writes:
-
   - type: STR_CONQUEROR_CONVOY
     sprite: 147
     fuelMax: 3000
@@ -770,13 +751,9 @@ crafts:
             STR_6PDR_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_75MM_FORT_TURRET_SPAWNER: [0, 0]
             STR_8_8CM_VEHICLE_TURRET_SPAWNER: [0, 0]
-
     craftInventoryTile: [3, 6, 0]
     #deployment:
       #[,, 0, 0]
-
-
-
 ############################
 ######## AIRSHIPS #########
 ##########################
@@ -857,7 +834,6 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
-
   - type: STR_RCLASS_AIRSHIP
     sprite: 327
     fuelMax: 1450
@@ -937,12 +913,9 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
-
-
 #########################
 ##### MECH WALKERS #####
 #######################
-
   - type: STR_PHALANX_MECH
     sprite: 348
     maxSkinIndex: 11            # default 0
@@ -1019,7 +992,6 @@ crafts:
       - [5, 4, 3, 6]
       - [7, 4, 3, 2]
       - [6, 4, 4, 4]
-
 # First walker
 # Transport deck
       - [2, 16, 2, 6]
@@ -1030,7 +1002,6 @@ crafts:
       - [2, 18, 2, 4]
       - [3, 18, 2, 4]
       - [4, 18, 2, 4]
-
 # Second walker
 # Transport deck
       - [5, 4, 2, 6]
@@ -1045,7 +1016,6 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
-
   - type: STR_LEGIONNAIRE_MECH
     sprite: 384
     maxSkinIndex: 11            # default 0
@@ -1116,7 +1086,6 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
-
   - type: STR_TESTUDO_MECH
     sprite: 445
     maxSkinIndex: 11            # default 0
@@ -1210,7 +1179,6 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
-
   - type: STR_CENTURION_MECH
     sprite: 409
     maxSkinIndex: 11            # default 0
@@ -1264,7 +1232,6 @@ crafts:
             STR_ZEPPELIN_TURRET_SPAWNER:
               - [3, 2, 4]
               - [6, 2, 4]
-
           fuseTimers:
             STR_8_8CM_VEHICLE_TURRET_SPAWNER: [0, 0]
             STR_HEAT_RAY_VEHICLE_TURRET_SPAWNER: [0, 0]
@@ -1291,7 +1258,6 @@ crafts:
 # 6 7 0
 # 5   1
 # 4 3 2
-
   - type: STR_PRAETORIAN_MECH
     sprite: 481
     maxSkinIndex: 11            # default 0
@@ -1375,113 +1341,38 @@ crafts:
 # Machine Gunners
       - [7, 8, 5, 6]
       - [10, 8, 5, 2]
-
 # unit facing
 # 6 7 0
 # 5   1
 # 4 3 2
-
-
-
 ############ Kiros Reference Area 1;30;2024;
-
 ####### Basics
-
-
-
 ####### Any Countries Tunguskium
-
-
-
-
-
-
-
-
 ####### Cavorite Discovery
-
-
-
-
-
-
 ###### Cavorite Outsouring to Coutnries
 ###### American
-
 ###### British
-
 ###### French
-
 ###### German
-
 ###### Russian
-
 ###### Italian
-
-
-
-
-
 ###### Cavorite Abyssium Hybrid for All Terrain
-
-
-
-
 ##### Cavorite Space Project
-
-
-
-
-
 ##### Zedimetium Alloy; Final Alloy
-
-
 ##### Apex Regiment Evolved Spacefaring
-
-
 ##### Vehicle Prototype
-
-
-
-
-
-
 ##### Tunguskium Research
-
-
-
-
-
-
 ##### Cavorite Research
-
-
-
-
-
 #####  Cavorite Abyssium Hybrid for All Terrain
-
-
-
 ##### Cavorite Space Project
-
-
-
-
-
 ##### Zedimetium Alloy; Final Alloy
-
-
-
 ############################################
-
 craftWeapons:
 #Delete
   - delete: STR_STINGRAY
   - delete: STR_AVALANCHE
   - delete: STR_CANNON_UC
 #modders: the corresponding extrasprites file id for INTICON.PCK is sprite+5 and sprite+48 for BASEBITS.PCK
-
 # weaponType 0 = Forward Machine Guns (Fast but weak, a lot of ammo, close range)
 # weaponType 1 = Defensive Machine Guns (Very Fast but weak, a lot of ammo, closer range)
 # weaponType 2 = Light Cannons (Medium ROF, average power, medium range cannon)
@@ -1490,7 +1381,6 @@ craftWeapons:
 # weaponType 5 = Bombs (Free fall ordnance, close range, good damage)
 # weaponType 6 = Rockets (Rocket propelled projectiles, short range, very fast ROF)
 # weaponType 7 = Auxliary Systems (Fuel tanks, extra shields, etc)
-
 #Forward Machine Gun
   - type: STR_VICKERS_MMG
     weaponType: 0
@@ -1509,7 +1399,6 @@ craftWeapons:
     #clip: STR_VICKERS_MMG_ROUNDS_X250
     projectileType: 2
     projectileSpeed: 10
-
   - type: STR_TWIN_HMG
     weaponType: 0
     sprite: 201
@@ -1527,7 +1416,6 @@ craftWeapons:
     #clip: STR_TWIN_HMG_ROUNDS_X50
     projectileType: 2
     projectileSpeed: 10
-
   - type: STR_50CAL_BROWNING_HMG
     weaponType: 0
     sprite: 202
@@ -1545,7 +1433,6 @@ craftWeapons:
     #clip: STR_VICKERS_MMG_ROUNDS_X250
     projectileType: 2
     projectileSpeed: 10
-
 #Defensive Machine Gun
   - type: STR_LEWIS_303_TURRET
     weaponType: 1
@@ -1598,7 +1485,6 @@ craftWeapons:
     #clip: STR_LEWIS_303_TURRET_ROUNDS_X47
     projectileType: 2
     projectileSpeed: 10
-
 #Autocannon
   - type: STR_BECKER_2CM_CANNON
     weaponType: 3
@@ -1648,7 +1534,6 @@ craftWeapons:
     launcher: STR_VICKERS_S_40MM_AUTOCANNON_LAUNCHER
     projectileType: 2
     projectileSpeed: 7
-
 #Light Cannons
   - type: STR_QF_1_PDR_POMPOM
     weaponType: 2
@@ -1701,7 +1586,6 @@ craftWeapons:
     #clip: STR_QF_1_PDR_POMPOM_X30
     projectileType: 2
     projectileSpeed: 5
-
 #Bombs
   - type: STR_FRAGMENTATION_BOMB
     weaponType: 5
@@ -1754,7 +1638,6 @@ craftWeapons:
     projectileSpeed: 9
     launcher: STR_CLUSTER_BOMB_LAUNCHER
     #clip: STR_FRAGMENTATION_BOMB_X3
-
 #Rockets
   - type: STR_LE_PRIEUR_ROCKETS
     weaponType: 6
@@ -1772,7 +1655,6 @@ craftWeapons:
     launcher: STR_LE_PRIEUR_ROCKETS_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
-
   - type: STR_CLUSTER_ROCKETS
     weaponType: 6
     sprite: 232
@@ -1789,7 +1671,6 @@ craftWeapons:
     launcher: STR_CLUSTER_ROCKETS_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
-
   - type: STR_MAGNETIC_ROCKETS
     weaponType: 6
     sprite: 233
@@ -1806,7 +1687,6 @@ craftWeapons:
     launcher: STR_MAGNETIC_ROCKETS_LAUNCHER
     projectileType: 0
     projectileSpeed: 8
-
   - type: STR_GUIDED_ROCKETS
     weaponType: 6
     sprite: 234
@@ -1823,7 +1703,6 @@ craftWeapons:
     launcher: STR_GUIDED_ROCKETS_LAUNCHER
     projectileType: 1
     projectileSpeed: 8
-
 #Aircraft Heat-Rays
   - type: STR_AUX_HEAT_RAY_MK1
     weaponType: 7
@@ -1870,7 +1749,6 @@ craftWeapons:
     rearmRate: 50
     launcher: STR_AUX_HEAT_RAY_MK3_LAUNCHER
     projectileType: 4
-
 #Auxiliary
   - type: STR_AUX_FUEL_TANK
     weaponType: 5
@@ -1987,8 +1865,6 @@ craftWeapons:
    # projectileSpeed: 0
    # stats:
    #   powerBonus: 300
-
-
 #Ground Vehicle Artillery
   - type: STR_VEHICLE_QF_6_PDR_TURRET
     weaponType: 7
@@ -2039,7 +1915,6 @@ craftWeapons:
     rearmRate: 25
     launcher: STR_VEHICLE_HEAT_RAY_TURRET_LAUNCHER
     projectileType: 5
-
 units:
 #*** Player-controlled units spawned on craft
   - type: STR_CONQUEROR_TURRET
@@ -2374,7 +2249,6 @@ armors:
     zombiImmune: true
     bleedImmune: true
     painImmune: true
-
 #########Twin Mortar Shot
   #- type: STR_TWIN_MORTAR_TURRET_ARMOR
     #spriteSheet: TWIN_MORTAR_TURRET_SPRITESHEET.PCK
@@ -2418,10 +2292,7 @@ armors:
    # zombiImmune: true
    # bleedImmune: true
    # painImmune: true
-
-
     ######## End of Turret
-
 items:
 #*** Vehicle turrets spawned on maps ***
   - type: STR_6PDR_VEHICLE_TURRET_SPAWNER
@@ -2454,18 +2325,8 @@ items:
   #  invWidth: 0
   #  invHeight: 0
   #  battleType: 4
-
 ######
-
-
-
-
-
 ###### End of Stationary Turret
-
-
-
-
   - type: STR_CONQUEROR_AUTOCANNON
     size: 1.0
     weight: 100
@@ -2559,7 +2420,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 3
     vaporProbabilitySurface: 100
-
   - type: STR_75MM_FORT_TURRET_GUN
     size: 1.0
     weight: 100
@@ -2594,7 +2454,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 3
     vaporProbabilitySurface: 100
-
   - type: STR_HEAT_RAY_VEHICLE_TURRET_GUN
     size: 1.0
     weight: 100
@@ -2625,7 +2484,6 @@ items:
     invHeight: 3
     clipSize: -1
     recover: false
-
   #- type: STR_TWIN_MORTAR_TURRET_GUN
   #  size: 1.0
   #  weight: 100
@@ -2660,9 +2518,6 @@ items:
  #   vaporColorSurface: 0
   #  vaporDensitySurface: 3
   #  vaporProbabilitySurface: 100
-
-
-
   - type: STR_ZEPPELIN_TURRET_SPAWNER
     spawnUnit: STR_MAXIM_MG_TURRET
     spawnUnitFaction: 0
@@ -2756,7 +2611,6 @@ items:
     transferTime: 96
     requires:
       - STR_CANNON_T3_RESEARCH
-
   - type: STR_FRAGMENTATION_BOMB_LAUNCHER
     size: 1
     costBuy: 2500
@@ -2778,7 +2632,6 @@ items:
     transferTime: 48
     requires:
       - STR_BOMBS_T3_RESEARCH
-
   - type: STR_LE_PRIEUR_ROCKETS_LAUNCHER
     size: 1.0
     costBuy: 35000
@@ -2807,8 +2660,6 @@ items:
     transferTime: 48
     requires:
       - STR_ROCKETS_T4_RESEARCH
-
-
   - type: STR_AUX_HEAT_RAY_MK1_LAUNCHER
     size: 1.0
     costBuy: 35000
@@ -2830,7 +2681,6 @@ items:
     transferTime: 48
     requires:
       - STR_AUX_HEAT_RAY_MK3_RESEARCH
-
   - type: STR_AUX_FUEL_TANK_LAUNCHER
     size: 1.0
     costBuy: 35000
@@ -2866,7 +2716,6 @@ items:
     transferTime: 48
     requires:
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - type: STR_VEHICLE_QF_6_PDR_TURRET_LAUNCHER
     size: 1.0
     costBuy: 35000
@@ -3042,19 +2891,15 @@ extraSprites:
       106: Resources/Crafts/Spad_minimised.png
       107: Resources/Crafts/SE5a_minimised.png
       108: Resources/Crafts/FokkerDR1_minimised.png
-
       124: Resources/Crafts/IlyaMuromets_minimised.png
       125: Resources/Crafts/Halberstadt_minimised.png
       126: Resources/Crafts/HandleyPageTypeO_minimised.png
       127: Resources/Crafts/ZeppelinStaakenRVI_minimised.png
       128: Resources/Crafts/CaprioniCa5_minimised.png
       129: Resources/Crafts/BristolF2B_minimised.png
-
       147: Resources/Crafts/Conqueror_minimised.png
-
       326: Resources/Crafts/CClassAirship_minimised.png
       327: Resources/Crafts/RClassAirship_minimised.png
-
       348: Resources/Mechs/Phalanx_minimised.png
       349: Resources/Mechs/Phalanx_minimised.png
       361: Resources/Mechs/Phalanx_minimised.png
@@ -3067,7 +2912,6 @@ extraSprites:
       368: Resources/Mechs/Phalanx_minimised.png
       369: Resources/Mechs/Phalanx_minimised.png
       381: Resources/Mechs/Phalanx_minimised.png
-
       384: Resources/Mechs/Legionnaire_minimised.png
       385: Resources/Mechs/Legionnaire_minimised.png
       386: Resources/Mechs/Legionnaire_minimised.png
@@ -3080,7 +2924,6 @@ extraSprites:
       404: Resources/Mechs/Legionnaire_minimised.png
       405: Resources/Mechs/Legionnaire_minimised.png
       406: Resources/Mechs/Legionnaire_minimised.png
-
       409: Resources/Mechs/Centurion_minimised.png
       421: Resources/Mechs/Centurion_minimised.png
       422: Resources/Mechs/Centurion_minimised.png
@@ -3093,7 +2936,6 @@ extraSprites:
       429: Resources/Mechs/Centurion_minimised.png
       441: Resources/Mechs/Centurion_minimised.png
       442: Resources/Mechs/Centurion_minimised.png
-
       445: Resources/Mechs/Testudo_minimised.png
       446: Resources/Mechs/Testudo_minimised.png
       447: Resources/Mechs/Testudo_minimised.png
@@ -3243,14 +3085,6 @@ extraSprites:
       1069: Resources/Craftsextended/Aligator1dogfight.png
       1070: Resources/Craftsextended/Aligator1dogfight.png
       1071: Resources/Craftsextended/Aligator1dogfight.png
-
-
-
-
-
-
-
-
 #Craft weapons
   - type: BASEBITS.PCK
     files:
@@ -3258,106 +3092,82 @@ extraSprites:
       248: Resources/CraftWeapons/VickersMMG_base.png
       249: Resources/CraftWeapons/TwinHMG_base.png
       250: Resources/CraftWeapons/50calBrowningHMG_base.png
-
 #Defensive MGs
       254: Resources/CraftWeapons/303LewisTurret_base.png
       255: Resources/CraftWeapons/30calBrowningTurret_base.png
       256: Resources/CraftWeapons/VickersKTurret_base.png
-
  #Light Cannon
       259: Resources/CraftWeapons/PomPom_basebits.png
       260: Resources/CraftWeapons/37mmCannon_base.png
       261: Resources/CraftWeapons/75mmCannon_base.png
-
  #Autocannon
       264: Resources/CraftWeapons/Becker2cm_base.png
       265: Resources/CraftWeapons/Oerlikon20mmAutocannon_base.png
       266: Resources/CraftWeapons/VickersS40mmAutocannon_base.png
-
 #Bombs
       274: Resources/CraftWeapons/Frag_Bomb_base.png
       275: Resources/CraftWeapons/HE_Bomb_base.png
       276: Resources/CraftWeapons/Cluster_Bomb_base.png
-
 #Rockets
       279: Resources/CraftWeapons/LePrieur_base.png
       280: Resources/CraftWeapons/ClusterRockets_base.png
       281: Resources/CraftWeapons/MagneticRocket_base.png
       282: Resources/CraftWeapons/GuidedRocket_base.png
-
 #Aircraft Heat-Rays
       284: Resources/CraftWeapons/CraftHeatRayMk1_base.png
       285: Resources/CraftWeapons/CraftHeatRayMk2_base.png
       286: Resources/CraftWeapons/CraftHeatRayMk3_base.png
-
 #Auxliary systems
       287: Resources/CraftWeapons/Fuel_Tank_base.png
       288: Resources/CraftWeapons/RocketTurbine_base.png
       289: Resources/CraftWeapons/TargetingSights_base.png
       290: Resources/CraftWeapons/ArmorPlates_basebits.png
       294: Resources/CraftWeapons/KMMBullets_base.png
-
-
 #Vehicle turrets
       291: Resources/CraftWeapons/VehicleQF6pdrCannon_base.png #6-pdr vehicle turret
       292: Resources/CraftWeapons/Vehicle88cmCannon_base.png #8,8cm vehicle turret
       293: Resources/CraftWeapons/VehicleHeatRayCannon_base.png #Heat Ray Mk.IX vehicle turret
-
   - type: INTICON.PCK
     files:
 #Forward MGs
       205: Resources/CraftWeapons/VickersMMG_dogfight.png
       206: Resources/CraftWeapons/TwinHMG_dogfight.png
       207: Resources/CraftWeapons/50calBrowningHMG_dogfight.png
-
 #Defensive MGs
       211: Resources/CraftWeapons/303LewisTurret_dogfight.png
       212: Resources/CraftWeapons/30calBrowningTurret_dogfight.png
       213: Resources/CraftWeapons/VickersKTurret_dogfight.png
-
  #Light Cannon
       216: Resources/CraftWeapons/PomPom_dogfight.png
       217: Resources/CraftWeapons/37mmCannon_dogfight.png
       218: Resources/CraftWeapons/75mmCannon_dogfight.png
-
  #Autocannon
       221: Resources/CraftWeapons/Becker2cm_dogfight.png
       222: Resources/CraftWeapons/Oerlikon20mmAutocannon_dogfight.png
       223: Resources/CraftWeapons/VickersS40mmAutocannon_dogfight.png
-
 #Bombs
       231: Resources/CraftWeapons/Frag_Bomb_dogfight.png
       232: Resources/CraftWeapons/HE_Bomb_dogfight.png
       233: Resources/CraftWeapons/Cluster_Bomb_dogfight.png
-
 #Rockets
       236: Resources/CraftWeapons/LePrieur_dogfight.png
       237: Resources/CraftWeapons/ClusterRockets_dogfight.png
       238: Resources/CraftWeapons/MagneticRocket_dogfight.png
       239: Resources/CraftWeapons/GuidedRocket_dogfight.png
-
 #Aircraft Heat-Rays
       241: Resources/CraftWeapons/CraftHeatRayMk1_dogfight.png
       242: Resources/CraftWeapons/CraftHeatRayMk2_dogfight.png
       243: Resources/CraftWeapons/CraftHeatRayMk3_dogfight.png
-
 #Auxliary systems
       244: Resources/CraftWeapons/Fuel_Tank_dogfight.png
       245: Resources/CraftWeapons/RocketTurbine_dogfight.png
       246: Resources/CraftWeapons/TargetingSights_dogfight.png
       247: Resources/CraftWeapons/ArmorPlates_dogfight.png
       251: Resources/CraftWeapons/KMMBullets_dogfight.png
-
-
 #Vehicle turrets
       248: Resources/CraftWeapons/VehicleQF6pdrCannon_dogfight.png #6-pdr vehicle turret
       249: Resources/CraftWeapons/Vehicle88cmCannon_dogfight.png #8,8cm vehicle turret
       250: Resources/CraftWeapons/VehicleHeatRayCannon_dogfight.png #Heat Ray Mk.IX vehicle turret
-
-
-
-
-
 #UFOpedia
   - type: MARCH_IMAGE
     singleImage: true
@@ -3461,7 +3271,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Crafts/CCLASS_AIRSHIP_UFOPEDIA.png
-
   - type: CENTURION_UFOPEDIA
     singleImage: true
     width: 320
@@ -3492,20 +3301,12 @@ extraSprites:
     height: 200
     files:
       0: Resources/Mechs/TESTUDO_UFOPEDIA.png
-
-
-
-
-
-
-
   - type: CONQUEROR.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Crafts/CONQUEROR_UFOPEDIA.png
-
   - type: RCLASS_AIRSHIP.SPK
     singleImage: true
     width: 320
@@ -3537,7 +3338,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/75MM_CANNON.png
-
   - type: 303_LEWIS_TURRET
     singleImage: true
     width: 320
@@ -3562,7 +3362,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/CLUSTER_BOMB.png
-
   - type: CLUSTER_ROCKETS
     singleImage: true
     width: 320
@@ -3587,7 +3386,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/CRAFT_HEAT_RAY_MK3.png
-
   - type: FUEL_TANK
     singleImage: true
     width: 320
@@ -3612,7 +3410,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/FRAG_BOMB.png
-
   - type: JET_TURBINE
     singleImage: true
     width: 320
@@ -3637,7 +3434,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/MAGNETIC_ROCKET.png
-
   - type: OERLIKON_20MM_AUTOCANNON
     singleImage: true
     width: 320
@@ -3662,7 +3458,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/TARGETING_SIGHTS.png
-
   - type: TWIN_HMG
     singleImage: true
     width: 320
@@ -3681,7 +3476,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/VEHICLE_HEAT_RAY.png
-
   - type: VEHICLE_QF_6PDR
     singleImage: true
     width: 320
@@ -3706,4 +3500,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/CraftWeapons/VICKERS_S_40MM_AUTOCANNON.png
-

@@ -87,7 +87,6 @@ regions:
         - [246.552, 255.061, -31.2045, -27.4787] # Northern Mexico
         - [249.372, 254.996, -27.2746, -24.8517] # North-eastern Mexico
         - [251.461, 271.133, -24.9112, -13.4631] # Central Mexico
-
   - type: STR_SOUTH_AMERICA
     cost: 600000
     areas:
@@ -169,7 +168,6 @@ regions:
 # MissionZone 6 - Martian Ocupation Zone, no-fly/no-go zone - Red
         - [2.55916, 7.02969, -53.1922, -49.8876] # Benelux Zone West
         - [6.54306, 10.0053, -53.4902, -50.261] # Benelux Zone East
-
   - type: STR_ARCTIC
     cost: 950000
     areas:
@@ -298,7 +296,6 @@ regions:
         - [32.75, 32.75, -39.875, -39.875, -1, STR_ANKARA]
         - [88.375, 88.375, -22.625, -22.625, -1, STR_CALCUTTA]
         - [79.88, 79.88, -7.37, -7.37, -1, STR_SRI_LANKA]
-
       -
         - [42.375, 52.125, -23.5, -18.375, -110]
       -
@@ -397,7 +394,6 @@ regions:
 # MissionZone 6 - Martian Ocupation Zone, no-fly/no-go zone - Red
         - [113.649, 129.123, 21.9433, 31.6768] # Western Australia
         - [126.708, 139.768, 13.9269, 21.7654] # Northern Territory
-
   - type: STR_NORTH_PACIFIC
     cost: 600000
     areas:

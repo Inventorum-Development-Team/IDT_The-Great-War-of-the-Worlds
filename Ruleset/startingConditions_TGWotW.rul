@@ -41,8 +41,6 @@ startingConditions:
       - STR_VEZDEKHOD_ARMOR_UC
       - STR_PERSONAL_ARMOR_UC
       - STR_POWER_SUIT_UC
-
-
   - type: STR_STARTING_FRONTLINES_VERDUN_FORT_VAUX
     defaultArmor:
       STR_BRITISH_SOLDIER:
@@ -69,7 +67,6 @@ startingConditions:
     allowedCraft:
       - STR_MARCH
       - STR_MARCH_LARGE
-
   - type: STR_STARTING_FRONTLINES_MEUSE_ARGONNE
     defaultArmor:
       STR_BRITISH_SOLDIER:
@@ -96,7 +93,6 @@ startingConditions:
     allowedCraft:
       - STR_MARCH
       - STR_MARCH_LARGE
-
   - type: STR_STARTING_FRONTLINES_FLEURY_DEVANT_DOUAUMONT
     defaultArmor:
       STR_BRITISH_SOLDIER:
@@ -123,6 +119,5 @@ startingConditions:
     allowedCraft:
       - STR_MARCH
       - STR_MARCH_LARGE
-
 ############Kiro Spot
 ######### Underwater Operations

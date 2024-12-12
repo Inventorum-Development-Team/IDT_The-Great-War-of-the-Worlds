@@ -597,7 +597,6 @@ interfaces: #done
         color2: 133  # minty green
       - id: button
         color: 239   # bright green
-
   - type: ufopaedia
     elements:
       - id: palette
@@ -616,7 +615,6 @@ interfaces: #done
       - id: button2
         color: 100
         color2: 180 # 300 yellowinvert
-
   - type: promotions
     elements:
       - id: palette
@@ -680,7 +678,6 @@ interfaces: #done
         color2: 138  # yellow
       - id: button
         color: 239   # bright green
-
   - type: inventory
     elements: #color is the color index of the PAL_BATTLESCAPE palette
       - id: textName
@@ -789,7 +786,6 @@ interfaces: #done
       - id: list
         color: 6   # 55 seems good green
         color2: 71  # light blue
-
   - type: articleItem
     elements:
       - id: button

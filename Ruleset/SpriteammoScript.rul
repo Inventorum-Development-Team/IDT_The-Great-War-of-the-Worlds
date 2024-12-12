@@ -58,7 +58,6 @@
 #      1080: Resources/BallisticWeapons/Rifles/BigM4MASSnomag.png # slot 0 empty, slot 1 filled
 #      1088: Resources/BallisticWeapons/Rifles/BigM4MASS.png # both slots filled
 # Example of a mod where the script is used: https://github.com/Inventorum-Development-Team/CTO
-
 items:
 ###############################
 ########### RIFLES ###########
@@ -225,11 +224,9 @@ items:
   - type: STR_HEAVY_REVOLVER #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Sidearms
-
   - type: STR_SERVICE_REVOLVER #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Sidearms
-
   - type: STR_M1911_COLT #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Sidearms
@@ -305,7 +302,6 @@ items:
   - type: STR_RSC_CARBINE #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Carbines
-
   - type: STR_CARCANO_M91_CARBINE #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Carbines
@@ -318,11 +314,9 @@ items:
   - type: STR_PHLOGISTON_AUTOMATIC_CARBINE #ignoreDuplicate
     tags:
       AmmoReSprite: 1 # Carbines
-
 #  - type: STR_CARBINE
 #    tags:
 #      AmmoReSprite: 1 # Carbines
-
 ###############################
 ########### SMGS #############
 #############################
@@ -383,7 +377,6 @@ items:
 #  - type: STR_SMG
 #    tags:
 #      AmmoReSprite: 1 # SMGs
-
 ###############################
 ########### LMGS #############
 #############################
@@ -459,8 +452,6 @@ items:
 #  - type: STR_LMG
 #    tags:
 #      AmmoReSprite: 1 # LMGs
-
-
 ###############################
 ########## SHOTGUNS ##########
 #############################
@@ -497,8 +488,6 @@ items:
   - type: STR_TESLA_EXTENDED_BATTERY # ignoreDuplicate
     tags:
       AmmoNo: 1
-
-
 #################################
 ###### Heat Ray Weapons ########
 ###############################
@@ -568,7 +557,6 @@ items:
   - type: STR_MARTIAN_BLOOD_EXTRACTOR_EMPTY_CONTAINER # ignoreDuplicate
     tags:
       AmmoNo: 1
-
 extended:
   tags:
    RuleItem:
@@ -576,10 +564,7 @@ extended:
       AmmoNo: int
       FoldStock: int
       UBS: int
-
-
   scripts:
-
     selectItemSprite: #Switches between weapon sprites depending on ammo
        - offset: 1
          code: |
@@ -646,7 +631,6 @@ extended:
             end;
            end;
           return sprite_index;
-
 # Explanation on how the script is supposed to function, does not include explanations for multi slot or folding weapons
 # First, every weapon that will be affected by sprite changing depending on what ammo is loaded will have a tag with the value of 1, if they don't the script will not affect them.
 # Every ammotype will get a tag, i.e a number attached to them, currently only the 9mm types do. Currently the 30x has a tag with the value of 3, the 20x has 2 and the 10x has 1.
@@ -656,4 +640,3 @@ extended:
 # This is why there needs to be a specific order of sprite indexes, because a weapons bigob, floorob and handob might be any of 4 different indexes depending on what weapon is loaded.
 # The reason of why the script is this way is because it can easily be extended to different sets of ammo, just by adding tags to them with the value of 1-3. the script can be easily extended to support more ammotypes per weapon (infact i just did that in 20 seconds, you can now have tags with values 4 and 5 which add 32 and 40 to the indexes).
 # The main drawback of the script is that it wastes indexes, as some floorobs and handobs are defined to multiple indexes. Also the way i'm going to arrange the indexes is going to leave a lot of empty ones, as i don't have the will of doing it the efficient but more convoluted way.
-

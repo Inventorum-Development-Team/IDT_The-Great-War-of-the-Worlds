@@ -6,7 +6,6 @@ Changes made:
 * Improved Mech Walker maps, now they have thicker and better protected legs, by Kiro Xei
 * Reduced amount of Martian Machines in the alienMissions to avoid overwhelming the player with more enemies than the actual response capability, by efrenespartano
 * Living Quarters now have 20 training rooms, by Kiro Xei
-
 25-December-2023: 1.0 "Attrition"
 Changes made:
 * Added most of the missing codes. By Kiro Xei
@@ -31,8 +30,6 @@ Changes made:
 * Laboratory spaces reduces to 30; while Advance Laboratory was added to 60 to match the description.
 * Changed HWP Tank requirements.
 * General Bugfixing. By Kiro Xei.
-
-
 15-October-2023: 0.9 Mk. IV 'Slavyanka'
 Changes made:
 * Updated to latest OXCE v7.9.8
@@ -55,8 +52,6 @@ Changes made:
 * Removed research restrictions for T1 Autocannon, Defensive MG and Cannon, to make them available since the start, reported by GrooveCrusader
 * Changed alienDeployments loadouts for Martian machines and bases
 * General bugfixing
-
-
 10-December-2022: 0.8 Mk. IV 'Slavyanka'
 Changes made:
 *Updated to latest OXCE version v7.8
@@ -91,7 +86,6 @@ Changes made:
 *Martian Pyramids available in campaign
 *Martian Machines now have Heat-Ray turrets in Battlescape
 *Redesigned Heat-Ray weapons, two new Martian weapons by efrenespartano & Hans Woofington
-
 14-April-2020: v0.7.2 Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *Updated to latest OXCE v6.4.2
@@ -99,14 +93,12 @@ Changes made:
 *Fixed wrongly defined North Pacific region, thanks to Tson to found it, Meridian & Warboy to giving advice
 *Fixed issue with German Trench Coat corpse not appearing, found by Tson and the Cosmoteer RP community!
 *Fixed issues with IDT_SNOWVILLAGE, by Dioxine
-
 18-February-2020: v0.7.1f Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *Re-uploaded to fix critical crash
 *Minor update, fixed issues with v0.7.1 reported by StormRangerX
 *OXCE v6.3.4 is now a requisite to use the mod
 *Minor Spanish spellcheck
-
 16-February-2020: v0.7.1 Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *New French translations, by BlackStaff
@@ -119,7 +111,6 @@ Changes made:
 *Improved Spanish and English War Codex text entries (some were off screen)
 *Fixed issue with Alien Supply mission (the assigned Supply ship was wrongly defined)
 *Lewis and T-Gewehr turrets now have inventory image
-
 13-February-2020: v0.7 Mk III Beta 'Tempesta d'Acciaio'
 Changes made:
 *Introduced memmaker's Weapon Proficiency based on Weapon Class. Now you will become better if you use certain weapon type
@@ -162,7 +153,6 @@ Changes made:
 *Tweaked M1903 Springfield and Gewehr 98 stats, suggested by Bootchicken48
 *Tweaked German Soldiers initial stats, suggested by Bootchicken48
 *Fixed crash with Frontline missions
-
 29-January-2020: v0.6.6 Mk Beta 'On Ne Passe Pas!'
 Changes made:
 *Updated to OXCE v6.3.4
@@ -181,7 +171,6 @@ Changes made:
 *Fixed Unarmed Melee Attack running out of ammo, found by Bootchicken48
 *Added missing extraStrings, found by Bootchicken48
 *Trench Gun now has automatic fire mode (IRL, the Trench Gun doesn't have trigger disconector)
-
 25-December-2019: v0.6.5 Mk II Beta 'On Ne Passe Pas!'
 Changes made:
 *Disabled crashing vanilla Tank Cannon War Codex entry (the item & unit were disabled, but the ufopedia entry no)
@@ -190,7 +179,6 @@ Changes made:
 *Added Gas Grenade, unlocked from Human Chemical Weapons
 *Starting armors now have the new damageTypes defined, armors with gasmask resist better the effects of gas weapons
 *Re-arranged L-Class Airship map, boxes provide some cover now.
-
 14-December-2019: v0.6.4 Mk II Beta 'On Ne Passe Pas!'
 Changes made:
 *Updated to OXCE v6.2
@@ -207,7 +195,6 @@ Changes made:
 *Fixed research tree, research topics won't be available from start
 *Locked War Codex Tier II weapon entries behind their respective research
 *Deleted Hobbes' content
-
 15-October-2019: v0.6.3 Mk II Beta 'On Ne Passe Pas!'
 Changes made:
 *Updated to OXCE v6.0
@@ -216,7 +203,6 @@ Changes made:
 *Added random Operation and Base names
 *Improved starting base, Hangars and General Stores now have more room
 *Many minor fixes
-
 3-September-2019: v0.6.2 Mk II Beta 'On Ne Passe Pas!'
 Changes made:
 *Added French Faction

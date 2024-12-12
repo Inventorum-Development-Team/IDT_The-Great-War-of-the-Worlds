@@ -124,7 +124,6 @@ terrains:
         width: 10
         length: 10
         groups: 3
-
   - name: VERDUN_VOIE_SACREE
     mapDataSets:
       - BLANKS
@@ -554,7 +553,6 @@ terrains:
       - STR_FRENCH_T1_OFFICER_NPC
       - STR_BRITISH_T2_SUPPORT_NPC
       - STR_FRENCH_T2_SUPPORT_NPC
-
   - name: VILLAGE
     mapDataSets:
       - BLANKS
@@ -1041,7 +1039,6 @@ terrains:
       - name: CULTA18
         width: 10
         length: 10
-
   - name: VILLAGE_INFESTED
     mapDataSets:
       - BLANKS
@@ -1209,7 +1206,6 @@ terrains:
       - INFECTED_VILFRNITURE
     script: INFESTED_VILLAGE_NO_UFO
     mapBlocks: *AnchorVillage
-
   - name: FOREST_INFESTED
     mapDataSets:
       - BLANKS
@@ -1253,7 +1249,6 @@ terrains:
       - name: FOREST11
         width: 20
         length: 20
-
   - name: JUNGLE_INFESTED
     mapDataSets:
       - BLANKS
@@ -1300,7 +1295,6 @@ terrains:
         width: 10
         length: 10
 ####################################
-
 #####################################
 ####### RAILROAD MAP TERRAINS ######
 ###################################
@@ -1374,7 +1368,6 @@ terrains:
         length: 10
         groups: 3 # NS RAIL
 ########################################
-
 #######################################
   - name: IDT_FOREST
     mapDataSets:
@@ -1434,7 +1427,6 @@ terrains:
       - name: IDT_FOREST15 #hut
         width: 10
         length: 10
-
   - name: IDT_VILLAGE
     mapDataSets:
       - BLANKS
@@ -1516,7 +1508,6 @@ terrains:
         width: 10
         length: 10
         groups: 4
-
   - name: IDT_SNOWFOREST
     mapDataSets:
       - BLANKS
@@ -1575,7 +1566,6 @@ terrains:
       - name: IDT_SNOWFOREST15 #hut
         width: 10
         length: 10
-
   - name: IDT_SNOWVILLAGE
     mapDataSets:
       - BLANKS
@@ -1660,7 +1650,6 @@ terrains:
 ########################################
 ##### BULLETDESIGNER'S TERRAINS #######
 ######################################
-
   - name: POLAR #   NEW POLARHR
     mapDataSets:
       - BLANKS
@@ -1806,7 +1795,6 @@ terrains:
       - name: MOUNT12
         width: 20
         length: 20
-
   - name: MOUNTGRASS # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
     mapDataSets:
       - BLANKS
@@ -1854,7 +1842,6 @@ terrains:
       - name: MOUNT12
         width: 20
         length: 20
-
   - name: MOUNTSAND # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
     mapDataSets:
       - BLANKS
@@ -1902,7 +1889,6 @@ terrains:
       - name: MOUNT12
         width: 20
         length: 20
-
   - name: MOUNTROCK # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
     mapDataSets:
       - BLANKS
@@ -1950,7 +1936,6 @@ terrains:
       - name: MOUNT12
         width: 20
         length: 20
-
   - name: MOUNTTROP # MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS MOUNTAINS
     mapDataSets:
       - BLANKS
@@ -1998,7 +1983,6 @@ terrains:
       - name: MOUNT12
         width: 20
         length: 20
-
   - name: PLAINS #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
     mapDataSets:
       - BLANKS
@@ -2046,7 +2030,6 @@ terrains:
       - name: PLAINS12
         width: 20
         length: 20
-
   - name: PLAINSSNOW #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
     mapDataSets:
       - BLANKS
@@ -2094,7 +2077,6 @@ terrains:
       - name: PLAINS12
         width: 20
         length: 20
-
   - name: PLAINSGRASS #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
     mapDataSets:
       - BLANKS
@@ -2142,7 +2124,6 @@ terrains:
       - name: PLAINS12
         width: 20
         length: 20
-
   - name: PLAINSSAND #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
     mapDataSets:
       - BLANKS
@@ -2190,7 +2171,6 @@ terrains:
       - name: PLAINS12
         width: 20
         length: 20
-
   - name: PLAINSROCK #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
     mapDataSets:
       - BLANKS
@@ -2238,7 +2218,6 @@ terrains:
       - name: PLAINS12
         width: 20
         length: 20
-
   - name: PLAINSTROP #PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS PLAINS
     mapDataSets:
       - BLANKS
@@ -2286,8 +2265,6 @@ terrains:
       - name: PLAINS12
         width: 20
         length: 20
-
-
 ##############################################
 ##### TRENCHES AND RED WEED ZONES ###########
 ############################################
@@ -2412,7 +2389,6 @@ terrains:
         width: 10
         length: 10
         groups: 3
-
   - name: TRENCH_FARM
     script: FARM_MIX
     mapDataSets:
@@ -2480,7 +2456,6 @@ terrains:
       - name: CULTA18
         width: 10
         length: 10
-
   - name: DIRT
     mapDataSets:
       - BLANKS
@@ -2494,7 +2469,6 @@ terrains:
         width: 20
         length: 20
         height: 1
-
   - name: FOREST_TRENCH
     mapDataSets:
       - BLANKS
@@ -2539,7 +2513,6 @@ terrains:
       - name: FOREST11
         width: 20
         length: 20
-
 ##########################
 ###### BASE TERRAINS #####
 ##########################
@@ -2891,7 +2864,6 @@ terrains:
       - name: FOREST11
         width: 20
         length: 20
-
   - name: JUNGLE_INFESTED_FILL
     mapDataSets:
       - BLANKS

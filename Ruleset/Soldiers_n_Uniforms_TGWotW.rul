@@ -356,7 +356,6 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     specialWeapon: STR_UNARMED_UNIFORM
-
 ##################
 # ITALIAN
 ##################
@@ -429,7 +428,6 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     specialWeapon: STR_UNARMED_UNIFORM
-
 ##################
 # RUSSIAN
 ##################
@@ -502,9 +500,7 @@ soldiers:
     deathMale: [41, 42, 43]
     deathFemale: [44, 45, 46]
     specialWeapon: STR_UNARMED_UNIFORM
-
 items:
-
   - type: STR_UNARMED_UNIFORM
     weight: 0
     bigSprite: 99
@@ -541,11 +537,9 @@ items:
     recover: false
     specialIconSprite: 2
     specialUseEmptyHand: true
-
 ######################
 # SPECIAL ARMORS
 #####################
-
   - type: STR_PERSONAL_ARMOR
     size: 0.08
     requires:
@@ -562,7 +556,6 @@ items:
     costBuy: 1000
     visibilityAtDay: 30
     visibilityAtDark: 18
-
   - type: STR_PERSONAL_ARMOR_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -593,11 +586,9 @@ items:
   #  invHeight: 3
   #  armor: 30
   #  recover: true
-
 #############################
 # BRITISH
 #############################
-
   - type: STR_BRITISH_T2_BODY_ARMOR
     size: 0.08
     requires:
@@ -682,11 +673,9 @@ items:
     invHeight: 3
     armor: 30
     recover: true
-
 #####################
 # AMERICANS
 #####################
-
   - type: STR_AMERICAN_T2_BODY_ARMOR
     size: 0.08
     requires:
@@ -781,11 +770,9 @@ items:
     invHeight: 3
     armor: 30
     recover: true
-
 #########################
 # GERMANS
 #########################
-
   - type: STR_GERMAN_T2_BODY_ARMOR
     size: 0.08
     requires:
@@ -886,7 +873,6 @@ items:
 ###################
 # FRENCH
 ####################
-
   - type: STR_FRENCH_T2_BODY_ARMOR
     size: 0.08
     requires:
@@ -901,7 +887,6 @@ items:
     requiresBuyCountry: STR_FRANCE
     costSell: 8500
     costBuy: 1000
-
   - type: STR_FRENCH_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -975,7 +960,6 @@ items:
 ####################
 # ITALIAN
 #####################
-
   - type: STR_ITALIAN_T2_BODY_ARMOR
     size: 0.08
     requires:
@@ -990,7 +974,6 @@ items:
     requiresBuyCountry: STR_ITALY
     costSell: 8500
     costBuy: 1000
-
   - type: STR_ITALIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -1054,7 +1037,6 @@ items:
 #####################
 # RUSSIAN
 #####################
-
   - type: STR_RUSSIAN_T2_BODY_ARMOR
     size: 0.08
     requires:
@@ -1069,7 +1051,6 @@ items:
     requiresBuyCountry: STR_RUSSIA
     costSell: 8500
     costBuy: 1000
-
   - type: STR_RUSSIAN_FIELD_UNIFORM_CORPSE
     name: STR_CORPSE
     battleType: 11
@@ -1130,14 +1111,11 @@ items:
     invHeight: 3
     armor: 30
     recover: true
-
 armors:
-
 ##################################
 ####### SPECIAL ARMORS ##########
 #################################
   - delete: STR_PERSONAL_ARMOR_UC
-
   - type: STR_PERSONAL_ARMOR_UC
     spriteSheet: INMORTALE_HEAVY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -1349,7 +1327,6 @@ armors:
       - STR_ITALIAN_SOLDIER
       - STR_RUSSIAN_SOLDIER
       - STR_PILOT
-
   - type: STR_POWER_SUIT_UC
     spriteSheet: TOTENKOPF_POWER_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -1560,7 +1537,6 @@ armors:
       - STR_ITALIAN_SOLDIER
       - STR_RUSSIAN_SOLDIER
       - STR_PILOT
-
 #####################
 # AMERICAN
 ######################
@@ -1768,7 +1744,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
-
   - type: STR_AMERICAN_CAMPAIGN_UNIFORM
     spriteSheet: AMERICAN_CAMPAIGN_UNIFORM_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -1954,7 +1929,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
-
   - type: STR_MEXICAN_FIELD_UNIFORM
     spriteSheet: MEXICAN_FIELD_UNIFORM_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -2140,7 +2114,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
-
 #Gasmask
   - type: STR_AMERICAN_GASMASK_UC
     spriteSheet: AMERICAN_GASMASK_SPRITESHEET
@@ -2346,11 +2319,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
-
 #########################
 ######  TIER 2 #########
 #######################
-
   - type: STR_AMERICAN_T2_BODY_ARMOR
     spriteSheet: AMERICAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -2555,7 +2526,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
-
   - type: STR_AMERICAN_T2_BODY_ARMOR_GASMASK
     spriteSheet: AMERICAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -2760,12 +2730,8 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
-
 ##############################
-
-
 ################################
-
   - type: STR_AMERICAN_T3_BODY_ARMOR
     spriteSheet: AMERICAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -2970,11 +2936,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_AMERICAN_SOLDIER
-
 ###########################
 # BRITISH
 ##########################
-
   - type: STR_BRITISH_FIELD_UNIFORM_UC
     spriteSheet: BRITISH_FIELD_UNIFORM_SPRITESHEET
     corpseBattle:
@@ -3160,7 +3124,6 @@ armors:
 #      - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_BRITISH_SOLDIER
-
   - type: STR_BRITISH_ANZAC_UNIFORM_UC
     spriteSheet: BRITISH_ANZAC_UNIFORM_SPRITESHEET
     corpseBattle:
@@ -3346,7 +3309,6 @@ armors:
 #      - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_BRITISH_SOLDIER
-
   - type: STR_BRITISH_GASMASK_UC
     spriteSheet: BRITISH_GASMASK_SPRITESHEET
     corpseBattle:
@@ -3532,11 +3494,9 @@ armors:
 #      - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_BRITISH_SOLDIER
-
 ##########################
 ####### TIER 2 ##########
 ########################
-
   - type: STR_BRITISH_T2_BODY_ARMOR
     spriteSheet: BRITISH_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -3722,7 +3682,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_BRITISH_SOLDIER
-
   - type: STR_BRITISH_T2_BODY_ARMOR_GASMASK
     spriteSheet: BRITISH_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -3908,12 +3867,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_BRITISH_SOLDIER
-
 #########################
 ######## TIER 3 ########
 #######################
-
-
   - type: STR_BRITISH_T3_BODY_ARMOR
     spriteSheet: BRITISH_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -4099,7 +4055,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_BRITISH_SOLDIER
-
 #########################
 # GERMANS
 #########################
@@ -4289,7 +4244,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_GERMAN_SOLDIER
-
 #Pickelhauben
   - type: STR_GERMAN_PICKELHAUBE_UNIFORM
     spriteSheet: GERMAN_PICKELHAUBE_UNIFORM_SPRITESHEET
@@ -4476,7 +4430,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_GERMAN_SOLDIER
-
 #Gasmask
   - type: STR_GERMAN_GASMASK_UC
     spriteSheet: GERMAN_GASMASK_SPRITESHEET
@@ -4663,11 +4616,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_GERMAN_SOLDIER
-
 ##########################
 ####### TIER 2 ##########
 ########################
-
   - type: STR_GERMAN_T2_BODY_ARMOR
     spriteSheet: GERMAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -4853,7 +4804,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_GERMAN_SOLDIER
-
   - type: STR_GERMAN_T2_BODY_ARMOR_GASMASK
     spriteSheet: GERMAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -5039,12 +4989,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_GERMAN_SOLDIER
-
 #########################
 ######## TIER 3 ########
 #######################
-
-
   - type: STR_GERMAN_T3_BODY_ARMOR
     spriteSheet: GERMAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -5230,7 +5177,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_GERMAN_SOLDIER
-
 ####################
 # PILOT
 ###################
@@ -5421,7 +5367,6 @@ armors:
       - INV_PARACHUTE_C_3X3
     units:
       - STR_PILOT
-
   - type: STR_PILOT_UNIFORM_GASMASK_UC
     spriteSheet: PILOT_GASMASK_SPRITESHEET
     corpseBattle:
@@ -5608,7 +5553,6 @@ armors:
       - INV_PARACHUTE_C_3X3
     units:
       - STR_PILOT
-
 ####################
 # FRENCH
 #####################
@@ -5798,7 +5742,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_FRENCH_SOLDIER
-
   - type: STR_FRENCH_COLONIAL_UNIFORM
     spriteSheet: FRENCH_COLONIAL_UNIFORM_SPRITESHEET
     corpseBattle:
@@ -5984,7 +5927,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_FRENCH_SOLDIER
-
   - type: STR_FRENCH_COAT
     spriteSheet: FRENCH_COAT_SPRITESHEET
     corpseBattle:
@@ -6167,7 +6109,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_FRENCH_SOLDIER
-
   - type: STR_FRENCH_GASMASK_UC
     spriteSheet: FRENCH_GASMASK_SPRITESHEET
     corpseBattle:
@@ -6353,11 +6294,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_FRENCH_SOLDIER
-
 ##########################
 ####### TIER 2 ##########
 ########################
-
   - type: STR_FRENCH_T2_BODY_ARMOR
     spriteSheet: FRENCH_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -6543,7 +6482,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_FRENCH_SOLDIER
-
   - type: STR_FRENCH_T2_BODY_ARMOR_GASMASK
     spriteSheet: FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -6729,12 +6667,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_FRENCH_SOLDIER
-
 #########################
 ######## TIER 3 ########
 #######################
-
-
   - type: STR_FRENCH_T3_BODY_ARMOR
     spriteSheet: FRENCH_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -7128,7 +7063,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_ITALIAN_SOLDIER
-
   - type: STR_ITALIAN_ALPINI_UNIFORM_UC
     spriteSheet: ITALIAN_ALPINI_UNIFORM_SPRITESHEET
     corpseBattle:
@@ -7307,7 +7241,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_ITALIAN_SOLDIER
-
   - type: STR_ITALIAN_GASMASK_UC
     spriteSheet: ITALIAN_GASMASK_SPRITESHEET
     corpseBattle:
@@ -7493,11 +7426,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_ITALIAN_SOLDIER
-
 ##########################
 ####### TIER 2 ##########
 ########################
-
   - type: STR_ITALIAN_T2_BODY_ARMOR
     spriteSheet: ITALIAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -7683,7 +7614,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_ITALIAN_SOLDIER
-
   - type: STR_ITALIAN_T2_BODY_ARMOR_GASMASK
     spriteSheet: ITALIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -7869,12 +7799,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_ITALIAN_SOLDIER
-
 #########################
 ######## TIER 3 ########
 #######################
-
-
   - type: STR_ITALIAN_T3_BODY_ARMOR
     spriteSheet: ITALIAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -8060,11 +7987,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_ITALIAN_SOLDIER
-
 ###########################
 ###### RUSSIAN ###########
 #########################
-
   - type: STR_RUSSIAN_FIELD_UNIFORM_UC
     spriteSheet: RUSSIAN_FIELD_UNIFORM_SPRITESHEET
     corpseBattle:
@@ -8250,7 +8175,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_RUSSIAN_SOLDIER
-
   - type: STR_RUSSIAN_COAT_UNIFORM
     spriteSheet: RUSSIAN_COAT_UNIFORM_SPRITESHEET
     corpseBattle:
@@ -8429,7 +8353,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_RUSSIAN_SOLDIER
-
   - type: STR_RUSSIAN_GASMASK_UC
     spriteSheet: RUSSIAN_GASMASK_SPRITESHEET
     corpseBattle:
@@ -8615,11 +8538,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_RUSSIAN_SOLDIER
-
 ##########################
 ####### TIER 2 ##########
 ########################
-
   - type: STR_RUSSIAN_T2_BODY_ARMOR
     spriteSheet: RUSSIAN_T2_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -8805,7 +8726,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_RUSSIAN_SOLDIER
-
   - type: STR_RUSSIAN_T2_BODY_ARMOR_GASMASK
     spriteSheet: RUSSIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -8991,12 +8911,9 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_RUSSIAN_SOLDIER
-
 #########################
 ######## TIER 3 ########
 #######################
-
-
   - type: STR_RUSSIAN_T3_BODY_ARMOR
     spriteSheet: RUSSIAN_T3_BODY_ARMOR_SPRITESHEET
     layersDefaultPrefix: HUMAN
@@ -9182,7 +9099,6 @@ armors:
       - INV_NULL_1X1_LEFT_LEG
     units:
       - STR_RUSSIAN_SOLDIER
-
 extraSprites:
 ##############
 # SPECIAL
@@ -9195,7 +9111,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Special/INMORTALE_HEAVY_ARMOR_SPRITESHEET.png
-
 #Totenkopf Powered Armor
   - type: TOTENKOPF_POWER_ARMOR_SPRITESHEET
     width: 512
@@ -9246,7 +9161,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/American/Inventory/MAN_23M3.png
-
   - type: AMERICAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -9254,7 +9168,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_FIELD_UNIFORM_SPRITESHEET.png
-
 #Gas Mask
   - type: AMERICAN_GASMASK_SPRITESHEET
     width: 512
@@ -9279,7 +9192,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/American/MEXICAN_FIELD_UNIFORM_SPRITESHEET.png
-
 #American T2 Armor
   - type: AMERICAN_T2_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9295,7 +9207,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
-
 #American T3 Armor
   - type: AMERICAN_T3_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9304,11 +9215,9 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/American/AMERICAN_T3_BODY_ARMOR_SPRITESHEET.png
-
 ###################
 # BRITISH
 ###################
-
   - type: BRITISH_SOLDIER_IMAGE
     singleImage: true
     width: 320
@@ -9348,7 +9257,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/British/Inventory/MAN_22M3.png
-
   - type: BRITISH_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -9363,7 +9271,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/British/BRITISH_ANZAC_UNIFORM_SPRITESHEET.png
-
 #Gasmask
   - type: BRITISH_GASMASK_SPRITESHEET
     width: 512
@@ -9372,7 +9279,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/British/BRITISH_GASMASK_SPRITESHEET.png
-
 #British T2 Armor
   - type: BRITISH_T2_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9388,7 +9294,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/British/BRITISH_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
-
 #British T3 Armor
   - type: BRITISH_T3_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9397,8 +9302,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/British/BRITISH_T3_BODY_ARMOR_SPRITESHEET.png
-
-
 ###################
 # GERMANS
 ###################
@@ -9441,7 +9344,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/German/Inventory/MAN_24M3.png
-
 #Field Uniform
   - type: GERMAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
@@ -9450,7 +9352,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/German/GERMAN_FIELD_UNIFORM_SPRITESHEET.png
-
   - type: GERMAN_PICKELHAUBE_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -9458,7 +9359,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/German/GERMAN_PICKELHAUBE_UNIFORM_SPRITESHEET.png
-
 #Gas Mask
   - type: GERMAN_GASMASK_SPRITESHEET
     width: 512
@@ -9467,8 +9367,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/German/GERMAN_GASMASK_SPRITESHEET.png
-
-
 #German T2 Armor
   - type: GERMAN_T2_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9484,7 +9382,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/German/GERMAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
-
 #German T3 Armor
   - type: GERMAN_T3_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9493,7 +9390,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/German/GERMAN_T3_BODY_ARMOR_SPRITESHEET.png
-
 ####################
 # PILOT
 ####################
@@ -9503,12 +9399,10 @@ extraSprites:
     height: 200
     files:
       0: Resources/UFOpedia/PILOT_IMAGE.PNG
-
   - type: MAN_25M3.SPK
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/Pilot/Inventory/MAN_25M3.png
-
   - type: PILOT_SPRITESHEET
     width: 512
     height: 720
@@ -9516,7 +9410,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Pilot/PILOT_UNIFORM.png
-
   - type: PILOT_GASMASK_SPRITESHEET
     width: 512
     height: 720
@@ -9524,12 +9417,9 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Pilot/PILOT_UNIFORM_GASMASK.png
-
-
 ###################
 # FRENCH
 ####################
-
   - type: FRENCH_SOLDIER_IMAGE
     singleImage: true
     width: 320
@@ -9569,7 +9459,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/French/Inventory/MAN_26M3.png
-
   - type: FRENCH_FIELD_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -9577,7 +9466,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_FIELD_UNIFORM_SPRITESHEET.png
-
   - type: FRENCH_COLONIAL_UNIFORM_SPRITESHEET
     width: 512
     height: 720
@@ -9585,7 +9473,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_COLONIAL_UNIFORM_SPRITESHEET.png
-
   - type: FRENCH_COAT_SPRITESHEET
     width: 512
     height: 720
@@ -9593,7 +9480,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_COAT_SPRITESHEET.png
-
 #Gas Mask
   - type: FRENCH_GASMASK_SPRITESHEET
     width: 512
@@ -9602,7 +9488,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_GASMASK_SPRITESHEET.png
-
 #French T2 Armor
   - type: FRENCH_T2_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9611,7 +9496,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_SPRITESHEET.png
-
   - type: FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET
     width: 512
     height: 720
@@ -9619,7 +9503,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
-
  #French T3 Armor
   - type: FRENCH_T3_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9628,8 +9511,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/French/FRENCH_T3_BODY_ARMOR_SPRITESHEET.png
-
-
 ####################
 # ITALIAN
 ####################
@@ -9672,7 +9553,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Battlescape/Italian/Inventory/MAN_27M3.png
-
 #Field Uniform
   - type: ITALIAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
@@ -9689,7 +9569,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_GASMASK_SPRITESHEET.png
-
 #Alpini Uniform
   - type: ITALIAN_ALPINI_UNIFORM_SPRITESHEET
     width: 512
@@ -9698,7 +9577,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_ALPINI_UNIFORM_SPRITESHEET.png
-
 #Italian T2 Armor
   - type: ITALIAN_T2_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9714,7 +9592,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
-
 #Italian T3 Armor
   - type: ITALIAN_T3_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9723,18 +9600,15 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_SPRITESHEET.png
-
 ####################
 # RUSSIAN
 ####################
-
   - type: RUSSIAN_SOLDIER_IMAGE
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/UFOpedia/RUSSIAN_SOLDIER_IMAGE.PNG
-
 #Field Uniform
   - type: RUSSIAN_FIELD_UNIFORM_SPRITESHEET
     width: 512
@@ -9759,7 +9633,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_GASMASK_SPRITESHEET.png
-
 # Russian T2 Armor
   - type: RUSSIAN_T2_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9775,7 +9648,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_SPRITESHEET.png
-
 # Russian T3 Armor
   - type: RUSSIAN_T3_BODY_ARMOR_SPRITESHEET
     width: 512
@@ -9784,18 +9656,14 @@ extraSprites:
     subY: 40
     files:
       0: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_SPRITESHEET.png
-
 #############
 # SPECIAL ARMORS
 #############
-
   - type: BIGOBS.PCK
     files:
-
       5000: Resources/SoldiersSprites/Battlescape/Special/PERSONAL_ARMOR_CORPSE_BIGOB.png
       5001: Resources/SoldiersSprites/Battlescape/Special/POWER_SUIT_CORPSE_BIGOB.png
       #5002: Resources/SoldiersSprites/Battlescape/Special/FLAMETROOPER_CORPSE_BIGOB.png
-
 #############
 # BRITISH
 #############
@@ -9850,7 +9718,6 @@ extraSprites:
       5063: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5064: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
       5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE_BIGOB.png
-
 #############
 # RUSSIAN
 #############
@@ -9860,17 +9727,14 @@ extraSprites:
       5073: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_CORPSE_BIGOB.png
       5074: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE_BIGOB.png
       5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE_BIGOB.png
-
   - type: FLOOROB.PCK
     files:
-
 #############
 # SPECIAL ARMORS
 #############
       5000: Resources/SoldiersSprites/Battlescape/Special/PERSONAL_ARMOR_CORPSE_FLOOROB.png
       5001: Resources/SoldiersSprites/Battlescape/Special/POWER_SUIT_CORPSE_FLOOROB.png
       #5002: Resources/SoldiersSprites/Battlescape/Special/FLAMETROOPER_CORPSE_FLOOROB.png
-
 #############
 # BRITISH
 #############
@@ -9925,7 +9789,6 @@ extraSprites:
       5063: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5064: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
       5065: Resources/SoldiersSprites/Battlescape/Italian/ITALIAN_T3_BODY_ARMOR_CORPSE_FLOOROB.png
-
 #############
 # RUSSIAN
 #############
@@ -9935,15 +9798,6 @@ extraSprites:
       5073: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_CORPSE_FLOOROB.png
       5074: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T2_BODY_ARMOR_GASMASK_CORPSE_FLOOROB.png
       5075: Resources/SoldiersSprites/Battlescape/Russian/RUSSIAN_T3_BODY_ARMOR_CORPSE_FLOOOROB.png
-
-
-
-
-
-
-
-
-
 #####################
 # BRITISH
 #####################
@@ -9971,7 +9825,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Flags/05-Australian.png
-
 ######################
 # AMERICAN
 #####################
@@ -10043,7 +9896,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Flags/22-Italian.png
-
 ##################
 # RUSSIAN
 ##################
@@ -10051,7 +9903,6 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/SoldiersSprites/Flags/23-Russian.png
-
 ####################
 # AVATAR BACKGROUND
 ####################
@@ -10059,11 +9910,9 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/UI/avatar-background.png
-
 ######################
 # LAYERED PAPERDOLLS
 ######################
-
 # Empiezan HumanBodies
   - typeSingle: HUMAN__0__M0_NUDE
     fileSingle: Resources/SoldiersSprites/00-Body/MAN_M0.png
@@ -10485,7 +10334,6 @@ extraSprites:
     fileSingle: Resources/SoldiersSprites/05-AmmoBandolier/RightSingleBandolierD.png
 # Finaliza AmmoBandoliers
 # Empieza FaceItem
-
 # Termina FaceItem
 # Empieza Helmets
   - typeSingle: HUMAN__7__AMERICAN_BRODIE_U
@@ -10574,26 +10422,19 @@ extraSprites:
     fileSingle: Resources/SoldiersSprites/07-Helmet/PilotCapGasmask.png
 # Termina Helmets
 # Empieza Capes
-
 # Termina Capes
-
 #luego copias todo esto en tu coso de extrasprites. en teoria deberia estar listo
-
 # Calculating based on height:
 # Male Height 1.74m
 # Female Height 1.61m
 # Uniforms are not larger than 0.2
 # Formula for OpenXcom Size / Scale: Meters to Pixel Units
 # First Layer + Second Layer + Third Layer + Fourth Layer; based on art layer design
-
 # Add all items heights based on how many items equipped; divided by many items equipped.
 # Add by how many layers equiped based with number of tiers;
 # 1: Uniform and Belt; 2:Body Armor; 3: Assist Mobility; 4:Extra Armor; 5:Complete Protection 6:Boosters / Mobility
-
 # Meters: Helmet: 0.40; Hat: 0.25; Gasmask: 0.40; Gloves: 0.25; Shoes: 0.30; Trousers: 0.85; Jacket: 0.75
 # Round the to the estimate 1 - 5 : 5 -
 # 0.59 > 0.60 meters
 # Convert meters to  hexometers : hexosize 1.00 = 0.0100
 # 0.06 hexosize; 0.01 hexometers = 0.1 meters
-
-

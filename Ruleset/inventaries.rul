@@ -161,7 +161,6 @@
     fixedWeapon: true
     defaultInventorySlot: STR_BACK_PACK
     recover: false
-
   - type: NULL_2X1_LS
     categories: [STR_BLANKS]
     weight: 0
@@ -171,7 +170,6 @@
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_LEFT_SHOULDER
-
   - type: NULL_2X1_RS
     categories: [STR_BLANKS]
     weight: 0
@@ -181,7 +179,6 @@
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_RIGHT_SHOULDER
-
   - type: NULL_2X1_LL
     categories: [STR_BLANKS]
     weight: 0
@@ -191,7 +188,6 @@
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_LEFT_LEG
-
   - type: NULL_2X1_RL
     categories: [STR_BLANKS]
     weight: 0
@@ -201,7 +197,6 @@
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_RIGHT_LEG
-
   - type: NULL_2X3
     categories: [STR_BLANKS]
     weight: 0
@@ -211,7 +206,6 @@
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_LEFT_HAND
-
   - type: NULL_3X3
     categories: [STR_BLANKS]
     weight: 0
@@ -221,7 +215,6 @@
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_BACK_PACK
-
   - type: NULL_4X2
     categories: [STR_BLANKS]
     weight: 0
@@ -231,7 +224,6 @@
     fixedWeapon: true
     recover: false
     defaultInventorySlot: STR_BELT
-
 invs:
   - id: STR_GROUND
     costs:

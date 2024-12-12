@@ -117,9 +117,6 @@ items:
     clipSize: -1
     invWidth: 2
     invHeight: 3
-
-
-
 armors:
   - type: TRIFFID_ARMOR
     spriteSheet: TRIFFID.PCK
@@ -176,7 +173,6 @@ research:
   - name: STR_TRIFFID_AUTOPSY
     points: 20
     needItem: true
-
 ufopaedia:
   - id: STR_TRIFFID
     type_id: 7
@@ -202,7 +198,6 @@ extraStrings:
       STR_TRIFFID_CORPSE: Triffid Corpse
       STR_TRIFFID_AUTOPSY: Triffid Autopsy
       TRIFFID_CORPSE_1: Triffid Corpse
-
 units:
   - type: STR_TRIFFID_TERRORIST
     race: STR_TRIFFID

@@ -138,11 +138,9 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/TACTICBACK08.PNG
-
 ##########################################
 ########### USER INTERFACE ###############
 ##########################################
-
   - type: InvCopy
     width: 32
     height: 22
@@ -259,22 +257,17 @@ extraSprites:
     height: 48
     files:
       99: Resources/specialWeapons/BigFist.png
-
   - type: SPICONS.DAT
     width: 32
     height: 24
     files:
       2: Resources/specialWeapons/spicon_brawl.png
-
 # specialWeaponInventorySlots:
 #   - STR_BELT
-
 #############################
 ###### GLOBE MARKERS #######
 ###########################
-
 # Begin with marker: 11, as the first 8 are for the base, alien base and cities and 9-10 are for missions
-
 #    marker: 9 Attack mission
 #    marker: 10 Defend mission
 # Markers 11, 12, 13, 14: Tier I-IV fighters
@@ -285,15 +278,12 @@ extraSprites:
 # Markers 29, 30, 31, 32, 33: mech walkers
 # Markers 34, 35, 36, 37: Tier I-IV trains
 # Markers 38, 39, 40, 41: Tier I-IV warships
-
 # Markers
-
 crafts:
   - type: STR_MARCH # ignoreDuplicate
     marker: 23
   - type: STR_MARCH_LARGE # ignoreDuplicate
     marker: 24
-
   - type: STR_FOKKER_EINDECKER # ignoreDuplicate
     marker: 11
   - type: STR_AIRCO_DH2 # ignoreDuplicate
@@ -320,15 +310,12 @@ crafts:
     marker: 17
   - type: STR_BRISTOL_F2B # ignoreDuplicate
     marker: 17
-
   - type: STR_CCLASS_AIRSHIP # ignoreDuplicate
     marker: 19
   - type: STR_RCLASS_AIRSHIP # ignoreDuplicate
     marker: 20
-
   - type: STR_CONQUEROR # ignoreDuplicate
     marker: 26
-
   - type: STR_PHALANX_MECH # ignoreDuplicate
     marker: 29
   - type: STR_LEGIONNAIRE_MECH # ignoreDuplicate
@@ -339,9 +326,7 @@ crafts:
     marker: 32
   - type: STR_PRAETORIAN_MECH # ignoreDuplicate
     marker: 33
-
 ufos:
-
 ############################
   - type: STR_MARTIAN_RECON_WALKER # ignoreDuplicate
     marker: 42
@@ -411,7 +396,6 @@ ufos:
     marker: 58
     markerLand: 84
     markerCrash: 110
-
   - type: STR_MARTIAN_CAMP
     marker: 59 ####
     markerLand: 85
@@ -448,12 +432,9 @@ ufos:
     marker: 67
     markerLand: 93
     markerCrash: 118
-
-
 musics:
    - type: IDT_TGWOTW_THEME
      normalization: 2.0
-
 itemCategories:
   - type: STR_BALLISTIC
     listOrder: 10
@@ -548,8 +529,6 @@ itemCategories:
   - type: STR_BLANKS
     listOrder: 400
     hidden: true
-
-
 enviroEffects:
   - type: STR_ENVIRO_UNIT_UNDER_SIEGE
     environmentalConditions:
@@ -564,10 +543,7 @@ enviroEffects:
         bodyPart: -1
 #This is when our team has been under siege by
 #many days and is tired
-
-
 items:
-
   - type: STR_SIEGE_LOW_MORALE_WEAPON
     # damage: 30
     damageType: 6
@@ -575,12 +551,10 @@ items:
       RandomType: 6
       IgnoreOverKill: false
       ToMorale: 3.0
-
 extraSounds:
   - type: BATTLE.CAT
     files:
       99: Resources/specialWeapons/ClubHit.wav
-
 monthlyRatings:
   3000: STR_MT_RATING_EXEMPLARY
   2000: STR_MT_RATING_EXCELLENT
@@ -603,7 +577,6 @@ missionRatings:
   -99999: STR_MT_RATING_ABOMINABLE
 defeatScore: -5000
 defeatFunds: -1000000
-
 startingBase:
   facilities:
     - type: STR_ACCESS_LIFT
@@ -692,7 +665,6 @@ startingBase:
         STR_MADSEN_LMG_MAG: 3
         STR_SABRE: 8
       status: STR_READY
-
   items:
     STR_BECKER_2CM_CANNON_LAUNCHER: 1
     STR_QF_1_PDR_POMPOM_LAUNCHER: 1

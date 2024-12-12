@@ -80,7 +80,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3388
-
   - type: STR_HEATRAY_CARBINE
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_CARBINES]
     requires:
@@ -160,7 +159,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3390
-
   - type: STR_HEATRAY_RIFLE
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_SELFLOADING_RIFLES]
     requires:
@@ -246,7 +244,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3392
-
   - type: STR_HEATRAY_CANNON
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY]
     requires:
@@ -324,7 +321,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3394
-
   - type: STR_HEATRAY_SNIPER
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_BOLT_ACTION_RIFLES]
     requires:
@@ -407,7 +403,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3396
-
   - type: STR_MARTIAN_LAUNCHER
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY]
     requires:
@@ -589,7 +584,6 @@ items:
     shotgunSpread: 45
     battleType: 2
     armor: 250
-
     listOrder: 3401
   - type: STR_MARTIAN_ROCK_THROWER_ACID_CAPSULE_X3
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS, STR_ARTILLERY, STR_PISTOLS, STR_CLIPS]
@@ -619,7 +613,6 @@ items:
     battleType: 2
     armor: 250
     listOrder: 3402
-
   - type: STR_MARTIAN_SLUGTHROWER
     requires:
       - STR_ALIENS_ONLY
@@ -696,7 +689,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 3403
-
   - type: STR_MARTIAN_SLUGTHROWER_ROUNDS
     requires:
       - STR_ALIENS_ONLY
@@ -732,7 +724,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3404
-
   - type: STR_MARTIAN_BLADE
     categories: [STR_CQB, STR_ALIEN_TECH]
     requires:
@@ -780,7 +771,6 @@ items:
     invHeight: 3
     attraction: 8
     listOrder: 3405
-
   - type: STR_MARTIAN_BLOOD_EXTRACTOR
     categories: [STR_HEAT_RAY, STR_ALIEN_TECH, STR_FIREARMS]
     requires:
@@ -876,7 +866,6 @@ items:
     battleType: 2
     armor: 12
     listOrder: 3405
-
 extraSprites:
   - type: BIGOBS.PCK
     files:

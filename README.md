@@ -1,8 +1,6 @@
 # IDT_The-Great-War-of-the-Worlds
  This mod created by the Inventorum Development Team for OpenXcom is located on an alternate WW1 where the enemy is not human, but Martian. Fight back the Sons of Ares using weapons from the Great War!
-
 The Great War of the Worlds - 1914
-
 Set in an alternate timeline where the Martians of the H.G. Wells masterpiece invaded Earth in 1896.
 Swept by bacteria, the invasion came to an end just a couple of weeks after it started.
 Humanity united and rebuilt and prepared for the worst. 12 years later, the mankind's worst nightmares came true. In 1908 the Martians launched a second invasion, this time more deadly.
@@ -13,9 +11,7 @@ Your unit is one of elite, formed with the best that the armies of the world hav
 The year is 1914.
 This is the War to End All Wars.
 TOGETHER WE STAND
-
 Special Thanks to (in no particular order):
-
 * Hobbes, his help is invaluable and always solves my questions about Geoscape & ruleset editing.
 * bulletdesigner, for making the original Chimera map (now called Conqueror).
 * Solarius Scorch and Dioxine, for their Village terrain, also kind words, inspiration and ruleset reference from their projects, The X-Com Files and X-Piratez.
@@ -25,9 +21,7 @@ Special Thanks to (in no particular order):
 * ivandogovich, Anon011, TarzanCZ, davide, chaosshade, BlackStaff, SG_Barton, Hashirama015 & SquirrelofNukes for their kind comments and support.
 * stosstruppen1918, sturmsoldat_des_kaisers & m_ww1_memes, ino_bartula, __robo__, scgex, mighty_mega_max, daniel_gautreaux and the one hundred followers for their huge support on social media
 * 130° División Blindada [130_L] efrenespartano's World of Tanks Blitz clan, for being our first beta testers.
-
 Credits by name:
-
 * alinare: Artwork, Mutant Crusher, ideas & ruleset editing.
 * Andr: Craft sprites plus ideas
 * Anon: feedback support
@@ -74,30 +68,20 @@ Credits by name:
 * tollworkout: DeepAliens UFOs (selenite UFOs)
 * Warboy: debugging support, OXC dev
 * wolwerin: Tea Flask, Bandages, Rifle Grenade, Martian Skirmirshers, Silacoid, Heat-Ray Batteries, Coilgun sprites plus ideas
-
-
 *Most of the backgrounds are exclusive photos kindly provided by Stosstruppen1918
 https://www.instagram.com/stosstruppen1918/?hl=es-la
-
 For the intro music
 IDT Hephaestus Wrath sound
 https://freesound.org/people/Spennnyyy/sounds/350506/
 Thunder by Spennnyyy
-
 https://freesound.org/people/Benboncan/sounds/103630/
 Anvil & Steel Hammer by Benboncan
-
 TGWotW intro
 https://www.youtube.com/watch?v=W87Mao2WsMo
 OFFENSIVE by Cephei
-
-
 How do I install this mod?
-
 First you need to get a legal copy of Xcom: UFO Defense. You can get it at Steam or GOG.com :) Download the latest OpenXcom Extended (OXCE) version here, available for PC, Android, macOS and iOS. Put your original Xcom data inside /UFO folder
-
 PC:
-
 - Open your "user" folder
 - Copy the entire TGWotW folder to the "/mods" folder. You can choose to unzip it or just move the zipped file.
 - Enable the mod from the Mods option on the main menu.
@@ -106,16 +90,8 @@ Android:
 - Open your "openxcom" folder inside the root of your Android device,
 - Copy the entire TGWotW folder to the "/mods" folder, You can choose to unzip it or just move the zipped file.
 - Enable the mod from the Mods option on the main menu.
-
 How do I provide feedback?
-
 Please, ask suggestions, report any bugs and crashes in the comments box below. We love to reply comments here!
 You can send them to efrenespartano@gmail.com too!
-
-
-
 DISCLAIMER:
-
 The purpose of this project is to entertain. The creators do not look for a renumbering with this. Uses resources and images owned by third parties. All rights belong to their legitimate creators. For this reason, it is absolutely forbidden to sell, buy or market this product.
-
-

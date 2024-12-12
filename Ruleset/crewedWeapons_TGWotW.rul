@@ -4,22 +4,18 @@ extended:
       ARMOR_IS_CREWED_WEAPON: int
       ARMOR_CREWED_WEAPON_CAN_BE_PUSHED: int
       ARMOR_CREWED_WEAPON_CAN_BE_DISASSEMBLED: int
-
     RuleItem:
       ITEM_INTERACTS_WITH_CREWED_WEAPONS: int
-
     BattleGame:
       GAME_CREWED_WEAPON_CURRENT_ID: int
       GAME_CREWED_WEAPON_CURRENT_BIT_ID: int
       GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING: int
       GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_REACTIONS: int
-
     BattleUnit:
       UNIT_IS_USING_CREWED_WEAPON: int
       UNIT_CREWED_WEAPON_ID: int
       UNIT_CREWED_WEAPON_EXPERIENCE_FIRING: int
       UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS: int
-
   scripts:
     createUnit:
 #*** Crewed weapons should have 0 energy so they only move when "pushed" ***
@@ -27,18 +23,12 @@ extended:
         code: |
           var ptr RuleArmor turretArmor;
           var int checkedTag;
-
           unit.getRuleArmor turretArmor;
           turretArmor.getTag checkedTag Tag.ARMOR_IS_CREWED_WEAPON;
-
           if neq 0 checkedTag;
-
             unit.setEnergy 0;
-
           end;
-
           return;
-
     newTurnUnit:
 #*** Handles counting experience from crewed weapons ***
       - offset: 10
@@ -46,65 +36,46 @@ extended:
           var int unitIsUsingCrewedWeapon;
           var int gameCrewedWeaponExperienceBitCounter;
           var int unitCrewedWeaponExperience;
-
           unit.getTag unitIsUsingCrewedWeapon Tag.UNIT_IS_USING_CREWED_WEAPON;
           if neq 0 unitIsUsingCrewedWeapon;
-
             battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING;
             bit_and unitIsUsingCrewedWeapon gameCrewedWeaponExperienceBitCounter;
             if neq 0 unitIsUsingCrewedWeapon;
-
               unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_FIRING;
               add unitCrewedWeaponExperience 1;
               unit.setTag Tag.UNIT_CREWED_WEAPON_EXPERIENCE_FIRING unitCrewedWeaponExperience;
-
             end;
-
             battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_REACTIONS;
             bit_and unitIsUsingCrewedWeapon gameCrewedWeaponExperienceBitCounter;
             if neq 0 unitIsUsingCrewedWeapon;
-
               unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS;
               add unitCrewedWeaponExperience 1;
               unit.setTag Tag.UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS unitCrewedWeaponExperience;
-
             end;
-
           end;
-
           return;
-
 #*** Handles resetting crewed weapons ***
       - offset: 11
         code: |
           var ptr RuleArmor turretArmor;
           var int checkedTag;
-
           # Validation:
           #   1. Player's turn
           if neq 0 side;
-
             return;
-
           end;
-
           # Reset crewed weapon accuracy and reactions, and energy
           unit.getRuleArmor turretArmor;
           turretArmor.getTag checkedTag Tag.ARMOR_IS_CREWED_WEAPON;
           if neq 0 checkedTag;
-
             unit.Stats.setFiring 0;
             unit.Stats.setReactions 0;
             unit.setEnergy 0;
-
           end;
-
           # Reset tags on crewed weapons and soldiers
           unit.setTag Tag.UNIT_CREWED_WEAPON_ID 0;
           unit.setTag Tag.UNIT_IS_USING_CREWED_WEAPON 0;
-
           return;
-
 #*** Handles resetting BattleGame tags for crewed weapons ***
 #*** Using newTurnItem since it runs after newTurnUnit, which would reset these tags after the first unit otherwise
     newTurnItem:
@@ -113,33 +84,24 @@ extended:
           # Validation:
           #   1. Player's turn
           if neq 0 side;
-
             return;
-
           end;
-
           battle_game.setTag Tag.GAME_CREWED_WEAPON_CURRENT_ID 0;
           battle_game.setTag Tag.GAME_CREWED_WEAPON_CURRENT_BIT_ID 1;
           battle_game.setTag Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING 0;
           battle_game.setTag Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_REACTIONS 0;
-
           return;
-
     hitUnit:
 #*** Counts for experience tags when a crewed weapon hits a target ***
       - offset: 10
         code: |
           var int crewedWeaponID;
           var int gameCrewedWeaponExperienceBitCounter;
-
           attacker.getTag crewedWeaponID Tag.UNIT_CREWED_WEAPON_ID;
           battle_game.getTag gameCrewedWeaponExperienceBitCounter Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING;
-
           bit_or gameCrewedWeaponExperienceBitCounter crewedWeaponID;
           battle_game.setTag Tag.GAME_CREWED_WEAPON_EXPERIENCE_BIT_COUNTER_FIRING gameCrewedWeaponExperienceBitCounter;
-
           return power part side;
-
 #*** Handles interactions with crewed weapons ***
       - offset: 11
         code: |
@@ -155,7 +117,6 @@ extended:
           var int transferStats;
           var int maxStats;
           var int soldierStrength;
-
           # Validation step:
           #   1. unit must be a crewed weapon
           #   2. action must be melee
@@ -164,115 +125,78 @@ extended:
           #   5. crewed weapon must not already be in-use
           unit.getRuleArmor turretArmor;
           turretArmor.getTag unitIsCrewedWeapon Tag.ARMOR_IS_CREWED_WEAPON;
-
           attacker.getRuleSoldier interactingSoldier;
-
           unit.getTag crewedWeaponID Tag.UNIT_CREWED_WEAPON_ID;
-
           if or eq 0 unitIsCrewedWeapon neq battle_action battle_action_hit eq null interactingSoldier neq 0 crewedWeaponID;
-
             return power part side;
-
           end;
-
           # Determine what kind of interaction we're doing:
           # 1. Tools for assembling/disassembling turrets - handle in damageUnit
           # 2. Stand + hit - "push" the weapon emplacement
           # 3. Kneel + hit - use the weapon emplacement
-
           weapon_item.getRuleItem interactingItem;
           interactingItem.getTag itemInteractsWithCrewedWeapons Tag.ITEM_INTERACTS_WITH_CREWED_WEAPONS;
           attacker.isKneeled soldierIsKneeling;
           turretArmor.getTag crewedWeaponCanBePushed Tag.ARMOR_CREWED_WEAPON_CAN_BE_PUSHED;
-
           if neq 0 itemInteractsWithCrewedWeapons;
-
             return power part side;
-
           else neq 0 soldierIsKneeling;
-
             # We have a valid interaction between soldier and crewed weapon - initialize the weapon and immobilize the soldier
             # Set the ID tags on the soldier and the crewed weapon
             battle_game.getTag crewedWeaponID Tag.GAME_CREWED_WEAPON_CURRENT_ID;
             # Limit to only 31 interactions (max of bitwise operations)
             if gt crewedWeaponID 30;
-
               return 0 part side;
-
             end;
             add crewedWeaponID 1; # increment beforehand since it might be set to 1
             battle_game.setTag Tag.GAME_CREWED_WEAPON_CURRENT_ID crewedWeaponID;
-
             battle_game.getTag crewedWeaponID Tag.GAME_CREWED_WEAPON_CURRENT_BIT_ID;
             if eq 0 crewedWeaponID; # ensure we're setting a bit
-
               set crewedWeaponID 1;
-
             end;
-
             unit.setTag Tag.UNIT_CREWED_WEAPON_ID crewedWeaponID;
             attacker.setTag Tag.UNIT_IS_USING_CREWED_WEAPON crewedWeaponID;
-
             shl crewedWeaponID 1;
             battle_game.setTag Tag.GAME_CREWED_WEAPON_CURRENT_BIT_ID crewedWeaponID;
-
             # Set time units on the turret and set soldier TUs to 0
             attacker.getTimeUnits transferStats;
             attacker.getTimeUnitsMax maxStats;
             muldiv transferStats 100 maxStats;
-
             # If the soldier has >50%, set to 100% on the turret, otherwise 50%
             if gt transferStats 50;
-
               set transferStats 100;
-
             else;
-
               set transferStats 50;
-
             end;
-
             unit.getTimeUnitsMax maxStats;
             muldiv maxStats transferStats 100;
             unit.setTimeUnits maxStats;
             attacker.setTimeUnits 0;
-
             # Once we're using the weapon, it shouldn't move again
             unit.setEnergy 0;
-
             # Copy soldier's firing accuracy and reactions to the crewed weapon
             attacker.Stats.getFiring transferStats;
             unit.Stats.setFiring transferStats;
-
             attacker.Stats.getReactions transferStats;
             unit.Stats.setReactions transferStats;
-
           else neq 0 crewedWeaponCanBePushed;
-
             # Check the crewed weapon's TUs - you can't just whack the turret multiple times and send it across the map
             unit.getTimeUnits transferStats;
             if lt transferStats 7;
-
               # We'll give max push at 50 strength for 20 TUs, guarantee at least 8 TUs
               attacker.Stats.getStrength soldierStrength;
               muldiv soldierStrength 20 50;
               limit soldierStrength 8 20;
-
               add transferStats soldierStrength;
               unit.setTimeUnits soldierStrength;
-
               # Gain half the energy as TUs in order to move
               div soldierStrength 2;
               unit.getEnergy transferStats;
               add transferStats soldierStrength;
               unit.setEnergy transferStats;
-
             end;
-
           end;
-
           return 0 part side;
-
 #      - offset: 12
 #*** Find a way to set ammo by melee? Leaving this out for now
 #        code: |
@@ -285,22 +209,16 @@ extended:
 #          debug_log 0 ammoQuantity;
 #
 #          return power part side;
-
     damageUnit:
 #*** Prevents soldiers who are using crew-served weapons from getting TUs back ***
       - offset: 10
         code: |
           var int unitIsUsingCrewedWeapon;
-
           unit.getTag unitIsUsingCrewedWeapon Tag.UNIT_IS_USING_CREWED_WEAPON;
           if neq 0 unitIsUsingCrewedWeapon;
-
             set to_time 0;
-
           end;
-
           return;
-
 #*** Handles using crewed weapon interaction items to assemble/disassemble crewed weapons
       - offset: 11
         code: |
@@ -309,57 +227,39 @@ extended:
           var int unitIsCrewedWeapon;
           var int itemInteractsWithCrewedWeapons;
           var int crewedWeaponCanBeDisassembled;
-
           # First-level validation: is the unit a crewed weapon?
           unit.getRuleArmor turretArmor;
           turretArmor.getTag unitIsCrewedWeapon Tag.ARMOR_IS_CREWED_WEAPON;
-
           if eq 0 unitIsCrewedWeapon;
-
             return;
-
           end;
-
           # Crewed weapons don't get TUs or energy from damage methods
           set to_time 0;
           set to_energy 0;
           set to_wound 0;
-
           # Second-level validation: does the item interact with crewed weapons?
           weapon_item.getRuleItem interactingItem;
           interactingItem.getTag itemInteractsWithCrewedWeapons Tag.ITEM_INTERACTS_WITH_CREWED_WEAPONS;
           turretArmor.getTag crewedWeaponCanBeDisassembled Tag.ARMOR_CREWED_WEAPON_CAN_BE_DISASSEMBLED;
-
           if or eq 0 itemInteractsWithCrewedWeapons eq 0 crewedWeaponCanBeDisassembled;
-
             # Check if this was a push or if the weapon can be set up/broken down
-
             return;
-
           end;
-
           # If the attack was a melee, the turret must already be assembled, so disassembly time (stun)
           # If it's a ranged attack, then assemble it (revive)
           if eq battle_action battle_action_hit;
-
             set to_health 0;
             unit.getHealthMax to_stun;
             unit.getTimeUnitsMax to_time;
             unit.getHealthMax to_energy;
-
           else;
-
             set to_health 0;
             unit.getHealthMax to_stun;
             muldiv to_stun 4 -1; # make sure it wakes up!
             unit.getTimeUnitsMax to_time;
             unit.getHealthMax to_energy;
-
           end;
-
           return;
-
-
 #    reactionUnitReaction:
 #*** Awards experience for reacting with a crewed weapon *** (disabled since reaction scripts are read-only)
 #      - offset: 10
@@ -382,7 +282,6 @@ extended:
 #          end;
 #
 #          return reaction_chance;
-
     returnFromMissionUnit:
 #*** Adds the experience gained from crewed weapons ***
       - offset: 10
@@ -393,64 +292,43 @@ extended:
           var int cappedStat;
           var int statGainLowerBound;
           var int statGain;
-
           unit.getRuleSoldier soldierRuleset;
           if neq null soldierRuleset;
-
             unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_FIRING;
-
             if neq 0 unitCrewedWeaponExperience;
-
               soldierRuleset.StatsCap.getFiring cappedStat;
               soldier.Stats.getFiring currentStat;
               if lt currentStat cappedStat;
-
                 # If at least 3 experience, ensure a gain of +1 or more
                 set statGainLowerBound unitCrewedWeaponExperience;
                 div statGainLowerBound 3;
                 limit statGainLowerBound 0 1;
-
                 # Cap gain at +3
                 limit unitCrewedWeaponExperience 1 3;
-
                 # RNG roll
                 battle_game.randomRange statGain statGainLowerBound unitCrewedWeaponExperience;
-
                 add currentStat statGain;
                 soldier.Stats.setFiring currentStat;
-
               end;
-
             unit.getTag unitCrewedWeaponExperience Tag.UNIT_CREWED_WEAPON_EXPERIENCE_REACTIONS;
-
             if neq 0 unitCrewedWeaponExperience;
-
               soldierRuleset.StatsCap.getReactions cappedStat;
               soldier.Stats.getReactions currentStat;
               if lt currentStat cappedStat;
-
                 # If at least 3 experience, ensure a gain of +1 or more
                 set statGainLowerBound unitCrewedWeaponExperience;
                 div statGainLowerBound 3;
                 limit statGainLowerBound 0 1;
-
                 # Cap gain at +3
                 limit unitCrewedWeaponExperience 1 3;
-
                 # RNG roll
                 battle_game.randomRange statGain statGainLowerBound unitCrewedWeaponExperience;
-
                 add currentStat statGain;
                 soldier.Stats.setReactions currentStat;
-
               end;
-
             end;
-
           end;
-
           return;
-
 items:
   - type: STR_TURRET_INTERACTION_ITEM
     tags:
@@ -522,7 +400,6 @@ items:
     invWidth: 2
     invHeight: 3
     recover: false
-
   - type: STR_MAXIM_MG_TURRET
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT]
     size: 1.0
@@ -570,7 +447,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 1
     vaporProbabilitySurface: 25
-
   - type: STR_MAXIM_MG_DRUM
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT, STR_CLIPS]
     size: 0.3
@@ -600,7 +476,6 @@ items:
     invHeight: 3
     recover: false
     battleType: 11
-
   - type: STR_TGEWEHR_TURRET
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT]
     requires:
@@ -634,7 +509,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 1
     vaporProbabilitySurface: 50
-
   - type: STR_TGEWEHR_ROUND
     categories: [STR_BALLISTIC, STR_TURRETS, STR_HEAVY_EQUIPMENT, STR_CLIPS]
     requires:
@@ -660,14 +534,12 @@ items:
     invHeight: 1
     attraction: 10
     listOrder: 1105
-
   - type: HEAVY_HEAT_RAY_PROJECTOR_TURRET_SPAWNER
     spawnUnit: HEAVY_HEAT_RAY_PROJECTOR_TURRET
     spawnUnitFaction: 1
     invWidth: 0
     invHeight: 0
     battleType: 4
-
   - type: STR_HEAVY_HEAT_RAY_PROJECTOR_TURRET
     requires:
       - STR_ALIENS_ONLY
@@ -703,7 +575,6 @@ items:
     recoveryPoints: 5
     armor: 80
     attraction: 1
-
   - type: STR_HEAVY_HEAT_RAY_PROJECTOR_CORPSE
     size: 1
     costSell: 20000
@@ -734,14 +605,12 @@ items:
     invHeight: 0
     battleType: 11
     recover: false
-
   - type: LIGHT_HEAT_RAY_PROJECTOR_TURRET_SPAWNER
     spawnUnit: LIGHT_HEAT_RAY_PROJECTOR_TURRET
     spawnUnitFaction: 1
     invWidth: 0
     invHeight: 0
     battleType: 4
-
   - type: STR_LIGHT_HEAT_RAY_PROJECTOR_TURRET
     requires:
       - STR_ALIENS_ONLY
@@ -781,7 +650,6 @@ items:
     recoveryPoints: 5
     armor: 80
     attraction: 1
-
   - type: STR_LIGHT_HEAT_RAY_PROJECTOR_CORPSE
     weight: 45
     bigSprite: 4010
@@ -793,7 +661,6 @@ items:
 #####################################################
 ########## LIGHT HEAT RAY MARTIAN TURRET ###########
 ###################################################
-
 armors:
   - type: STR_MAXIM_MG_TURRET_ARMOR
     tags:
@@ -841,7 +708,6 @@ armors:
       - NULL_2X3
       - NULL_3X3
       - NULL_4X2
-
   - type: STR_TGEWEHR_TURRET_ARMOR
     tags:
       ARMOR_IS_CREWED_WEAPON: 1
@@ -888,7 +754,6 @@ armors:
       - NULL_2X3
       - NULL_3X3
       - NULL_4X2
-
   - type: STR_HEAVY_HEAT_RAY_PROJECTOR_ARMOR
     allowsMoving: false
     spriteSheet: HEAVY_HEAT_RAY_PROJECTOR_SPRITESHEET.PCK
@@ -941,7 +806,6 @@ armors:
       - NULL_2X3
       - NULL_3X3
       - NULL_4X2
-
   - type: STR_LIGHT_HEAT_RAY_PROJECTOR_ARMOR
     allowsKneeling: false
     allowsRunning: false
@@ -994,7 +858,6 @@ armors:
       - NULL_2X3
       - NULL_3X3
       - NULL_4X2
-
 units:
   - type: STR_MAXIM_MG_TURRET
     race: STR_MAXIM_MG_TURRET
@@ -1016,7 +879,6 @@ units:
     deathSound: 23
     livingWeapon: true
     energyRecovery: 0
-
   - type: STR_TGEWEHR_TURRET
     race: STR_TGEWEHR_TURRET
     stats:
@@ -1037,7 +899,6 @@ units:
     deathSound: 23
     livingWeapon: true
     energyRecovery: 0
-
   - type: HEAVY_HEAT_RAY_PROJECTOR_TURRET
     race: HEAVY_HEAT_RAY_PROJECTOR_TURRET
     stats:
@@ -1065,7 +926,6 @@ units:
     energyRecovery: 34
     builtInWeaponSets:
       - - STR_HEAVY_HEAT_RAY_PROJECTOR_TURRET
-
   - type: LIGHT_HEAT_RAY_PROJECTOR_TURRET
     race: LIGHT_HEAT_RAY_PROJECTOR_TURRET
     stats:
@@ -1093,7 +953,6 @@ units:
     energyRecovery: 34
     builtInWeaponSets:
       - - STR_LIGHT_HEAT_RAY_PROJECTOR_TURRET
-
 extraSprites:
   - type: MAXIM_TURRET.PCK
     width: 256
@@ -1109,7 +968,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Turrets/crewed_TGewehr_Turret.png
-
 #*** CONQUEROR turret ***
   - type: CONQUEROR_TURRET.PCK
     subX: 32
@@ -1118,7 +976,6 @@ extraSprites:
     height: 840
     files:
       0: Resources/UnitSprites/conqueror_turret.png
-
   - type: 6PDR_CANNON_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -1126,7 +983,6 @@ extraSprites:
     height: 680
     files:
       0: Resources/Turrets/6PDR_CANNON_SPRITESHEET.png
-
   - type: 8_8CM_CANNON_TURRET.PCK
     subX: 32
     subY: 40
@@ -1134,7 +990,6 @@ extraSprites:
     height: 680
     files:
       0: Resources/Turrets/8_8CM_CANNON_TURRET.png
-
   - type: 75MM_FORT_CANNON_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -1142,7 +997,6 @@ extraSprites:
     height: 680
     files:
       0: Resources/Turrets/75MM_FORT_CANNON_SPRITESHEET.png
-
   - type: TWIN_MORTAR_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -1150,7 +1004,6 @@ extraSprites:
     height: 680
     files:
       0: Resources/Turrets/TWIN_MORTAR_SPRITESHEET.png
-
   - type: HUMAN_HEAT_RAY_CANNON_SPRITESHEET.PCK
     subX: 32
     subY: 40
@@ -1159,7 +1012,6 @@ extraSprites:
     files:
       0: Resources/Turrets/HUMAN_HEAT_RAY_CANNON_SPRITESHEET.png
 #########################
-
   - type: LIGHT_HEAT_RAY_PROJECTOR_SPRITESHEET.PCK
     width: 256
     height: 120
@@ -1167,7 +1019,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Turrets/LIGHT_HEAT_RAY_PROJECTOR_SPRITESHEET.png
-
   - type: HEAVY_HEAT_RAY_PROJECTOR_SPRITESHEET.PCK
     width: 256
     height: 160
@@ -1175,7 +1026,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Turrets/HEAVY_HEAT_RAY_PROJECTOR_SPRITESHEET.png
-
 #########################
   - type: MAXIM_MG_BACKGROUND
     singleImage: true
@@ -1183,34 +1033,28 @@ extraSprites:
     height: 200
     files:
       0: Resources/Turrets/Background/MAXIM_MG_BACKGROUND.png
-
   - type: TGEWEHR_BACKGROUND
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Turrets/Background/TGEWEHR_BACKGROUND.png
-
   - type: MAXIM_MGM0.SPK
     singleImage: true
     files:
       0: Resources/Turrets/Inventory/MAXIM_MG_INVENTORY.png
-
   - type: TGEWEHRM0.SPK
     singleImage: true
     files:
       0: Resources/Turrets/Inventory/TGEWEHR_INVENTORY.png
-
   - type: LIGHT_HEAT_RAY_PROJECTORM0.SPK
     singleImage: true
     files:
       0: Resources/Turrets/Inventory/LIGHT_HEAT_RAY_PROJECTOR_INVENTORY.png
-
   - type: HEAVY_HEAT_RAY_PROJECTORM0.SPK
     singleImage: true
     files:
       0: Resources/Turrets/Inventory/HEAVY_HEAT_RAY_PROJECTOR_INVENTORY.png
-
   - type: BIGOBS.PCK
     width: 32
     height: 48
@@ -1227,7 +1071,6 @@ extraSprites:
       4020: Resources/Turrets/Big8_8cm.png
       4025: Resources/Turrets/Big75mm.png
       4030: Resources/Turrets/BigHeatRayProjector.png
-
   - type: FLOOROB.PCK
     files:
       4000: Resources/Turrets/FloorTurretWrench.png
@@ -1242,8 +1085,6 @@ extraSprites:
       4012: Resources/Turrets/FloorHeavyHeatRayProjector_1.png
       4013: Resources/Turrets/FloorHeavyHeatRayProjector_2.png
       4014: Resources/Turrets/FloorHeavyHeatRayProjector_3.png
-
-
   - type: HANDOB.PCK
     height: 40
     width: 256
@@ -1251,7 +1092,6 @@ extraSprites:
     subY: 40
     files:
       900: Resources/Turrets/HandTurretWrench.png
-
   - type: HIT.PCK # ignoreDuplicate
     width: 128
     height: 40
@@ -1259,7 +1099,6 @@ extraSprites:
     subY: 40
     files:
       100: Resources/Turrets/repair_melee.png
-
   - type: X1.PCK
     width: 512
     height: 128
@@ -1267,14 +1106,12 @@ extraSprites:
     subY: 64
     files:
       100: Resources/Turrets/repair_x1.png
-
   - type: TURRET_GUIDE_IMAGE
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/UFOpedia/TURRET_GUIDE_IMAGE.PNG
-
 extraSounds:
   - type: BATTLE.CAT
     files:
@@ -1283,4 +1120,3 @@ extraSounds:
       1002: Resources/Turrets/Sounds/maxim_reload.wav
       1003: Resources/Turrets/Sounds/tgewehr_fire.wav
       1004: Resources/Turrets/Sounds/tgewehr_reload.wav
-

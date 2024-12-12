@@ -21,7 +21,6 @@ eventScripts:
     researchTriggers:
       STR_IMPROVED_METALURGIC_TECHNIQUES: true
       STR_HEATRAY_WEAPONS_ANALYSIS: true
-
   - type: STR_HUMAN_WAR_EFFORTS_EVENT_SCRIPT
     eventWeights:
       0:
@@ -44,7 +43,6 @@ eventScripts:
     executionOdds: 100
     minDifficulty: 0
     maxDifficulty: 4
-
   - type: STR_HUMAN_SUPPLIES_EVENT_SCRIPT
     eventWeights:
       0:
@@ -64,7 +62,6 @@ eventScripts:
     executionOdds: 100
     minDifficulty: 0
     maxDifficulty: 4
-
   - type: STR_DISASTER_EVENT_SCRIPT2
     eventWeights:
       0:
@@ -87,8 +84,6 @@ eventScripts:
     executionOdds: 100
     minDifficulty: 0
     maxDifficulty: 4
-
-
 # - type: STR_TEST_EVENT_SCRIPT
 #    eventWeights:                 # randomly generated repeatable events
 #      0:
@@ -101,7 +96,6 @@ eventScripts:
 #      STR_TEST_EVENT1R: 100
 #      STR_TEST_EVENT1R: 100
 #    timerRandom: 150
-
 events:
 #    regionList: [STR_ARCTIC, STR_NORTH_AMERICA, STR_EUROPE, STR_SOUTH_AMERICA, STR_NORTH_AFRICA, STR_SOUTHERN_AFRICA, STR_CENTRAL_ASIA, STR_SIBERIA, STR_SOUTH_EAST_ASIA, STR_AUSTRALASIA, STR_PACIFIC, STR_NORTH_ATLANTIC, STR_SOUTH_ATLANTIC, STR_INDIAN_OCEAN]
 #############################
@@ -121,7 +115,6 @@ events:
 #    interruptResearch: XXX
     timer: 3600
     timerRandom: 30500
-
   - name: STR_WAR_TROPHIES_EVENT
     description: STR_WAR_TROPHIES_DESCRIPTION
     background: WAR_TROPHIES_EVENT_BACKGROUND
@@ -136,7 +129,6 @@ events:
 #    interruptResearch: XXX
     timer: 2700
     timerRandom: 43500
-
   - name: STR_MECHANIZED_SKIRMISH_EVENT
     description: STR_MECHANIZED_SKIRMISH_DESCRIPTION
     background: MECHANIZED_SKIRMISH_EVENT_BACKGROUND
@@ -151,7 +143,6 @@ events:
 #    interruptResearch: XXX
     timer: 6000
     timerRandom: 43500
-
   - name: STR_SUCCESSFUL_BOMBING_RUN_EVENT
     description: STR_SUCCESSFUL_BOMBING_RUN_DESCRIPTION
     background: SUCCESSFUL_BOMBING_RUN_EVENT_BACKGROUND
@@ -166,11 +157,9 @@ events:
 #    interruptResearch: XXX
     timer: 2700
     timerRandom: 43500
-
 #############################
 #### SUPPLY RUN EVENTS #####
 ###########################
-
   - name: STR_SUPPLY_SURPLUS_EVENT
     description: STR_SUPPLY_SURPLUS_DESCRIPTION
     background: SUPPLY_SURPLUS_EVENT_BACKGROUND
@@ -181,7 +170,6 @@ events:
     everyItemList: [STR_MEDIKIT, STR_BANDAGES, STR_BANDAGES, STR_CANNED_BEEF, STR_CANNED_BEEF, STR_BISCUIT_BOX]
     timer: 2300
     timerRandom: 30000
-
   - name: STR_FIELD_KITCHEN_EVENT
     description: STR_FIELD_KITCHEN_DESCRIPTION
     background: FIELD_KITCHEN_EVENT_BACKGROUND
@@ -192,11 +180,9 @@ events:
     everyItemList: [STR_BREAD, STR_BREAD, STR_BREAD, STR_BREAD, STR_BREAD, STR_TEA_FLASK]
     timer: 3600
     timerRandom: 6000
-
 #############################
 ##### DISASTER EVENTS ######
 ###########################
-
   - name: STR_FACTORY_MALFUNCTION_EVENT
     description: STR_FACTORY_MALFUNCTION_DESCRIPTION
     background: FACTORY_MALFUNCTION_EVENT_BACKGROUND
@@ -212,7 +198,6 @@ events:
 #    itemTriggers:
 #       STR_ITEM1: true
 #       STR_ITEM2: false
-
   - name: STR_CIVILIAN_AIRSHIP_DOWN_EVENT
     description: STR_CIVILIAN_AIRSHIP_DOWN_DESCRIPTION
     background: CIVILIAN_AIRSHIP_DOWN_EVENT_BACKGROUND
@@ -228,7 +213,6 @@ events:
 #    itemTriggers:
 #       STR_ITEM1: true
 #       STR_ITEM2: false
-
   - name: STR_MILITARY_AIRSHIP_DOWN_EVENT
     description: STR_MILITARY_AIRSHIP_DOWN_DESCRIPTION
     background: MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND
@@ -243,11 +227,9 @@ events:
 #    itemTriggers:
 #       STR_ITEM1: true
 #       STR_ITEM2: false
-
 ##################################
 #### PHLOGISTON PLOT EVENTS #####
 ################################
-
   - name: STR_PHLOGISTON_DISCOVERY_EVENT
     description: STR_PHLOGISTON_DISCOVERY_EVENT_DESCRIPTION
     background: PHLOGISTON_EVENT_1_BACKGROUND
@@ -306,7 +288,6 @@ events:
 #    itemTriggers:
 #       STR_ITEM1: true
 #       STR_ITEM2: false
-
   - name: STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT_EVENT
     description: STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
     background: PHLOGISTON_EVENT_3_BACKGROUND
@@ -316,7 +297,6 @@ events:
     everyItemList: [STR_PHLOGISTON_BATTLE_RIFLE, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY]
     timer: 2700
     timerRandom: 43500
-
   - name: STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT
     description: STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
     background: PHLOGISTON_EVENT_3_BACKGROUND
@@ -326,7 +306,6 @@ events:
     everyItemList: [STR_PHLOGISTON_PISTOL, STR_PHLOGISTON_SMALL_BATTERY, STR_PHLOGISTON_SMALL_BATTERY, STR_PHLOGISTON_SMALL_BATTERY]
     timer: 2700
     timerRandom: 43500
-
   - name: STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT
     description: STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
     background: PHLOGISTON_EVENT_3_BACKGROUND
@@ -336,7 +315,6 @@ events:
     everyItemList: [STR_PHLOGISTON_HEAVY_RIFLE, STR_PHLOGISTON_RUBY_CLIP, STR_PHLOGISTON_RUBY_CLIP, STR_PHLOGISTON_RUBY_CLIP]
     timer: 2700
     timerRandom: 43500
-
   - name: STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT
     description: STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT_EVENT_DESCRIPTION
     background: PHLOGISTON_EVENT_3_BACKGROUND
@@ -346,22 +324,18 @@ events:
     everyItemList: [STR_PHLOGISTON_AUTOMATIC_CARBINE, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY, STR_PHLOGISTON_MEDIUM_BATTERY]
     timer: 2700
     timerRandom: 43500
-
 ######################################
 # COLLABORATION FINALE
-
   - name: STR_MARTIANS_SEEKS_DIPLOMACY_EVENT
     description: STR_MARTIANS_SEEKS_DIPLOMACY_EVENT_DESCRIPTION
     background: GENERIC_EVENT_4_BACKGROUND
     points: 100
     timer: 2700
-
   - name: STR_TRUCE_REJECTED_EVENT
     description: STR_TRUCE_REJECTED_EVENT_DESCRIPTION
     background: GENERIC_EVENT_2_BACKGROUND
     points: 100
     timer: 2700
-
 extraSprites:
 ##########################################
 ############ BACKGROUNDS #################
@@ -390,7 +364,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/SUCCESSFUL_BOMBING_RUN_EVENT_BACKGROUND.PNG
-
   - type: SUPPLY_SURPLUS_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -403,7 +376,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/FIELD_KITCHEN_EVENT_BACKGROUND.PNG
-
   - type: FACTORY_MALFUNCTION_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -422,7 +394,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/MILITARY_AIRSHIP_DOWN_EVENT_BACKGROUND.PNG
-
   - type: PHLOGISTON_EVENT_1_BACKGROUND
     singleImage: true
     width: 320
@@ -441,7 +412,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/PHLOGISTON_EVENT_3_BACKGROUND.PNG
-
   - type: GENERIC_EVENT_BACKGROUND
     singleImage: true
     width: 320
@@ -472,4 +442,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/Backgrounds/Events/GENERIC_EVENT_4_BACKGROUND.PNG
-

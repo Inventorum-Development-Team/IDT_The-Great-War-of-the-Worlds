@@ -10,7 +10,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-
   - type: STR_MARTIAN_MARINE_CORPSE
     size: 0.4
     costSell: 2000
@@ -22,7 +21,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-
   - type: STR_MARTIAN_SHOCK_GUARD_CORPSE
     size: 0.4
     costSell: 2000
@@ -34,7 +32,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-
   - type: STR_MARTIAN_SKIRMISHER_CORPSE
     size: 0.4
     costSell: 3000
@@ -46,7 +43,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-
   - type: STR_MARTIAN_ROYAL_GUARD_CORPSE
     size: 0.4
     costSell: 7000
@@ -58,7 +54,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 27
-
   - type: STR_MARTIAN_SCIENTIST_CORPSE
     size: 0.4
     costSell: 3000
@@ -70,7 +65,6 @@ items:
     recoveryPoints: 5
     battleType: 11
     armor: 26
-
   - type: STR_CEREBREAL_CORPSE
     size: 0.4
     costSell: 20000
@@ -83,7 +77,6 @@ items:
     battleType: 11
     armor: 26
     listOrder: 6715
-
   - type: STR_MARTIAN_LINE_INFANTRY
     size: 0.0
     recover: true
@@ -96,7 +89,6 @@ items:
     liveAlien: true
     costSell: 40000
     listOrder: 14401
-
   - type: STR_MARTIAN_MARINE
     size: 0.0
     recover: true
@@ -109,7 +101,6 @@ items:
     liveAlien: true
     costSell: 60000
     listOrder: 14402
-
   - type: STR_MARTIAN_SHOCK_GUARD
     size: 0.0
     recover: true
@@ -122,7 +113,6 @@ items:
     liveAlien: true
     costSell: 60000
     listOrder: 14403
-
   - type: STR_MARTIAN_SKIRMISHER
     size: 0.0
     recover: true
@@ -135,7 +125,6 @@ items:
     liveAlien: true
     costSell: 60000
     listOrder: 14404
-
   - type: STR_MARTIAN_ROYAL_GUARD
     size: 0.0
     recover: true
@@ -148,7 +137,6 @@ items:
     liveAlien: true
     costSell: 60000
     listOrder: 14405
-
   - type: STR_MARTIAN_SCIENTIST
     size: 0.0
     recover: true
@@ -161,14 +149,12 @@ items:
     liveAlien: true
     costSell: 60000
     listOrder: 14403
-
   - type: STR_CEREBREAL_COMMANDER
     size: 0.0
     recover: true
     liveAlien: true
     costSell: 60000
     listOrder: 14406
-
   #- type: CEREBREAL_WEAPON
    # weight: 3
    # bigSprite: 60
@@ -190,9 +176,6 @@ items:
    # invHeight: 3
     #clipSize: -1
    # recover: false
-
-
-
 armors:
   - type: SECTOID_ARMOR0  # ignoreDuplicate
     spriteSheet: SECTOID.PCK
@@ -225,7 +208,6 @@ armors:
       - 1.8 #17 Toxic
       - 1.5 #18 Flames
     loftempsSet: [ 2 ]
-
   - type: STR_MARTIAN_LINE_INFANTRY_ARMOR
     spriteSheet: MARTIAN_LINE_INFANTRY_SPRITESHEET.PCK
     corpseBattle:
@@ -257,7 +239,6 @@ armors:
       - 0.1 #17 Toxic
       - 1.0 #18 Flames
     loftempsSet: [ 3 ]
-
   - type: STR_MARTIAN_MARINE_ARMOR
     spriteSheet: MARTIAN_MARINE_SPRITESHEET.PCK
     corpseBattle:
@@ -289,7 +270,6 @@ armors:
       - 0.1 #17 Toxic
       - 1.0 #18 Flames
     loftempsSet: [ 3 ]
-
   - type: STR_MARTIAN_SHOCK_GUARD_ARMOR
     spriteSheet: MARTIAN_SHOCK_GUARD_SPRITESHEET.PCK
     corpseBattle:
@@ -321,7 +301,6 @@ armors:
       - 0.1 #17 Toxic
       - 1.1 #18 Flames
     loftempsSet: [ 3 ]
-
   - type: STR_MARTIAN_SKIRMISHER_ARMOR
     spriteSheet: MARTIAN_SKIRMISHER_SPRITESHEET.PCK
     corpseBattle:
@@ -353,7 +332,6 @@ armors:
       - 1.8 #17 Toxic
       - 1.5 #18 Flames
     loftempsSet: [ 3 ]
-
   - type: STR_MARTIAN_ROYAL_POWER_ARMOR
     spriteSheet: MARTIAN_ROYAL_GUARD_SPRITESHEET.PCK
     corpseBattle:
@@ -385,7 +363,6 @@ armors:
       - 1.8 #17 Toxic
       - 1.1 #18 Flames
     loftempsSet: [ 3 ]
-
   - type: STR_MARTIAN_SCIENTIST_ARMOR
     spriteSheet: MARTIAN_SCIENCE_TEAM_SPRITESHEET.PCK
     corpseBattle:
@@ -417,7 +394,6 @@ armors:
       - 1.8 #17 Toxic
       - 1.5 #18 Flames
     loftempsSet: [ 3 ]
-
   - type: CEREBREAL_ARMOR
     spriteSheet: CEREBREAL.PCK
     spriteInv: CEREBREAL_INVENTORY
@@ -450,7 +426,6 @@ armors:
       - 1.8 #17 Toxic
       - 1.9 #18 Flames
     loftempsSet: [ 3 ]
-
 units:
   - type: STR_SECTOID_LEADER
     race: STR_SECTOID
@@ -500,7 +475,6 @@ units:
     aggression: 3
     canSurrender: true
     showFullNameInAlienInventory: 1
-
   - type: STR_MARTIAN_LINE_INFANTRY_LEADER
     race: STR_MARTIAN_LINE_INFANTRY
     rank: STR_LIVE_LEADER
@@ -549,7 +523,6 @@ units:
     aggression: 5
     canSurrender: true
     showFullNameInAlienInventory: 1
-
   - type: STR_MARTIAN_SHOCK_GUARD_LEADER
     race: STR_MARTIAN_SHOCK_GUARDS
     rank: STR_LIVE_SOLDIER
@@ -600,7 +573,6 @@ units:
     aggression: 4
     canSurrender: false
     showFullNameInAlienInventory: 1
-
   - type: STR_MARTIAN_MARINE_LEADER
     race: STR_MARTIAN_MARINES
     rank: STR_LIVE_NAVIGATOR
@@ -649,7 +621,6 @@ units:
     aggression: 3
     canSurrender: true
     showFullNameInAlienInventory: 1
-
   - type: STR_MARTIAN_SKIRMISHER_LEADER
     race: STR_MARTIAN_SKIRMISHERS
     rank: STR_LIVE_SOLDIER
@@ -698,7 +669,6 @@ units:
     aggression: 2
     canSurrender: true
     showFullNameInAlienInventory: 1
-
   - type: STR_MARTIAN_ROYAL_GUARD
     race: STR_MARTIAN_ROYAL_GUARD
     rank: STR_LIVE_SOLDIER
@@ -747,7 +717,6 @@ units:
     aggression: 1
     canSurrender: false
     showFullNameInAlienInventory: 1
-
   - type: STR_MARTIAN_SCIENTIST_LEADER
     race: STR_MARTIAN_SCIENCE_TEAM
     rank: STR_LIVE_MEDIC
@@ -796,7 +765,6 @@ units:
     aggression: 1
     canSurrender: true
     showFullNameInAlienInventory: 1
-
   - type: STR_CEREBREAL_COMMANDER
     race: STR_CEREBREAL
     rank: STR_LIVE_COMMANDER
@@ -823,7 +791,6 @@ units:
     aggression: 0
     livingWeapon: false
     showFullNameInAlienInventory: 1
-
 alienRaces:
   - delete: STR_SECTOID
   - delete: STR_FLOATER
@@ -840,8 +807,6 @@ alienRaces:
 #alienRank: 5 - Soldier
 #alienRank: 6 - Terror unit 1
 #alienRank: 7 - Terror unit 2
-
-
   - id: STR_SECTOID
     members:
       - STR_SECTOID_LEADER
@@ -852,7 +817,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_FLOATER
     members:
       - STR_MARTIAN_MARINE_LEADER
@@ -863,7 +827,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_ETHEREAL
     members:
       - STR_MARTIAN_LINE_INFANTRY_LEADER
@@ -874,7 +837,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_MUTON
     members:
       - STR_MARTIAN_SHOCK_GUARD_LEADER
@@ -885,7 +847,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_MARTIAN_LINE_INFANTRIES
     members:
       - STR_MARTIAN_LINE_INFANTRY_LEADER
@@ -896,7 +857,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_MARTIAN_MARINES
     members:
       - STR_MARTIAN_MARINE_LEADER
@@ -907,7 +867,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_MARTIAN_SHOCK_GUARDS
     members:
       - STR_MARTIAN_SHOCK_GUARD_LEADER
@@ -918,7 +877,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_SECTOPOD_TERRORIST
-
   - id: STR_MARTIAN_SKIRMISHERS
     members:
       - STR_MARTIAN_SKIRMISHER_LEADER
@@ -929,7 +887,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_MARTIAN_ROYAL_GUARDS
     members:
       - STR_CEREBREAL_COMMANDER
@@ -940,7 +897,6 @@ alienRaces:
       - STR_MARTIAN_ROYAL_GUARD
       - STR_SECTOPOD_TERRORIST
       - STR_SECTOPOD_TERRORIST
-
   - id: STR_MARTIAN_SCIENCE_TEAM
     members:
       - STR_MARTIAN_SHOCK_GUARD_LEADER
@@ -951,7 +907,6 @@ alienRaces:
       - STR_MARTIAN_SCIENTIST
       - STR_MARTIAN_SCIENTIST
       - STR_MARTIAN_SCIENTIST
-
   - id: STR_MIXED
     members:
       - STR_MARTIAN_LINE_INFANTRY_LEADER
@@ -962,7 +917,6 @@ alienRaces:
       - STR_SECTOID_SOLDIER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
   - id: STR_SNAKEMAN
     members:
       - STR_MARTIAN_LINE_INFANTRY_LEADER
@@ -973,7 +927,6 @@ alienRaces:
       - STR_MARTIAN_ROYAL_GUARD_LEADER
       - STR_CYBERDISC_TERRORIST
       - STR_CYBERDISC_TERRORIST
-
 extraSprites:
   - type: MARTIAN_LINE_INFANTRY_SPRITESHEET.PCK
     width: 1024
@@ -982,7 +935,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_SPRITESHEET.png
-
   - type: MARTIAN_MARINE_SPRITESHEET.PCK
     width: 1024
     height: 360
@@ -990,7 +942,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Martians/Marines/MARINE_BATTLESUIT_SPRITESHEET.png
-
   - type: MARTIAN_SHOCK_GUARD_SPRITESHEET.PCK
     width: 1024
     height: 360
@@ -998,7 +949,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_SPRITESHEET.png
-
   - type: MARTIAN_SKIRMISHER_SPRITESHEET.PCK
     width: 320
     height: 1080
@@ -1006,7 +956,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Martians/Skirmishers/Sectoid_Skirmisher.png
-
   - type: MARTIAN_ROYAL_GUARD_SPRITESHEET.PCK
     width: 256
     height: 1440
@@ -1014,7 +963,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Martians/RoyalGuards/SpriteSheet_SectoidPowerSkeleton.png
-
   - type: MARTIAN_SCIENCE_TEAM_SPRITESHEET.PCK
     width: 320
     height: 1080
@@ -1022,7 +970,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Martians/ScienceTeam/WHITE_SECTOID_SPRITESHEET.png
-
   - type: CEREBREAL.PCK
     subX: 32
     subY: 40
@@ -1030,7 +977,6 @@ extraSprites:
     height: 200
     files:
       0: Resources/Martians/CerebrealRace/CEREBREAL.png
-
   - type: BIGOBS.PCK
     files:
       4050: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_CORPSE_BIGOB.png
@@ -1049,65 +995,54 @@ extraSprites:
       4054: Resources/Martians/RoyalGuards/FloorOb_SectoidPowerSkeleton.png
       4055: Resources/Martians/ScienceTeam/FloorOb_Sectoid_White.png
       4056: Resources/Martians/CerebrealRace/floorob_CEREBREAL_CORPSE.PNG
-
   - type: CONSCRIPT_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Martians/Conscripts/CONSCRIPT_INVENTORY.png
-
   - type: MARTIAN_LINE_INFANTRY_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Martians/LineInfantry/LINE_INFANTRY_BATTLESUIT_INVENTORY.png
-
   - type: MARTIAN_MARINE_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Martians/Marines/MARINE_BATTLESUIT_INVENTORY.png
-
   - type: MARTIAN_SHOCK_GUARD_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Martians/ShockGuards/SHOCK_GUARD_BATTLESUIT_INVENTORY.png
-
 #Note: Scientist doesn't actually have an inventory file, likely to produce error -Rclipse
-
   - type: MARTIAN_SCIENTIST_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Martians/ScienceTeam/WHITE_SECTOID_INVENTORY.png
-
   - type: MARTIAN_SKIRMISHER_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Martians/Skirmishers/Inv_Skirmisher.png
-
   - type: MARTIAN_ROYAL_GUARD_INVENTORY.SPK
     singleImage: true
     width: 320
     height: 200
     files:
       0: Resources/Martians/RoyalGuards/Inventory_SectoidPowerSkeleton.png
-
   - type: CEREBREAL_INVENTORY.SPK
     singleImage: true
     files:
       0: Resources/Martians/CerebrealRace/inventory_CEREBREAL.PNG
-
 # Inventory
-
   - type: UFOPAEDIA_IMG_CEREBREAL_AUTOPSY
     singleImage: true
     width: 320
@@ -1120,4 +1055,3 @@ extraSprites:
     height: 200
     files:
       0: Resources/Martians/CerebrealRace/ufopaedia_CEREBREAL.gif
-

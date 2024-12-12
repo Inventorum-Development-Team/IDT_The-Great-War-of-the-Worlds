@@ -243,13 +243,11 @@ facilities:
     fireSound: 9
     hitSound: 10
     mapName: WW1BASE_24
-
 mapScripts:
   - type: WW1BASE
     commands:
     - type: fillArea
       terrain: baseTerrain
-
 terrains:
   - name: WW1BASE
     mapDataSets:
@@ -359,7 +357,6 @@ terrains:
       - name: WW1BASE_24
         width: 10
         length: 10
-
 extraSprites:
   - type: BASEBITS.PCK
     files:

@@ -634,7 +634,6 @@ ufos:
               - [ 2, 2, 2]
           fuseTimers:
             LIGHT_HEAT_RAY_PROJECTOR_TURRET_SPAWNER: [0, 0]
-
   - type: STR_MARTIAN_CYLINDER
     size: STR_VERY_LARGE
     sprite: 1
@@ -673,7 +672,6 @@ ufos:
               - [ 9, 8, 1]
           fuseTimers:
             LIGHT_HEAT_RAY_PROJECTOR_TURRET_SPAWNER: [0, 0]
-
 #####################################
   - type: STR_BUNKER_SMALL
     size: STR_SMALL
@@ -702,7 +700,6 @@ ufos:
                 amount: 2
                 mixed: true
                 itemList: &MedicalItems [STR_MEDIKIT, STR_PAINKILLER, STR_BANDAGES, STR_BANDAGES, STR_MEDIKIT]
-
   - type: STR_BUNKER_SPAWN
     size: STR_SMALL
     sprite: 1
@@ -728,7 +725,6 @@ ufos:
                 amount: 2
                 mixed: true
                 itemList: &MedicalItems [STR_MEDIKIT, STR_PAINKILLER, STR_BANDAGES, STR_BANDAGES, STR_MEDIKIT]
-
   - type: STR_VERDUN_BATTLE_WAVE
     size: STR_SMALL
     sprite: 1
@@ -747,7 +743,6 @@ ufos:
         - name: BUNKER_SMALL
           width: 10
           length: 10
-
 alienDeployments:
 #Flying Machines
 #################################
@@ -2070,7 +2065,6 @@ alienDeployments:
     briefing:
       palette: 4
 #      music: GMISPOSH
-
 #################################
 ###### SELENITE CRAFTS #########
 ###############################
@@ -2518,7 +2512,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-
   - type: STR_MARTIAN_BATTLE_WALKER
     data:
 #Race Rank Reference
@@ -2753,7 +2746,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-
   - type: STR_MARTIAN_SIEGE_WALKER
     data:
 #Race Rank Reference
@@ -3624,7 +3616,6 @@ alienDeployments:
     width: 50
     length: 50
     height: 10
-
   - type: STR_MARTIAN_CYLINDER
     data:
 #Race Rank Reference
@@ -3888,7 +3879,6 @@ alienDeployments:
     duration: [900, 1800]
     despawnPenalty: 500
 ##############################
-
 extraSprites:
   - type: NIMBLE_FIGHTER_INTERWIN
     singleImage: true

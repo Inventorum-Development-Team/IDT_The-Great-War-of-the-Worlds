@@ -11,7 +11,6 @@ research:
   - delete: STR_PERSONAL_ARMOR
   - delete: STR_POWER_SUIT
   - delete: STR_FLYING_SUIT
-
 ##############################
   - name: STR_ALIENS_ONLY
     cost: 7500
@@ -19,11 +18,9 @@ research:
     dependencies:
       - STR_ALIENS_ONLY
 ###############################
-
 ##################################
 ####### LORE REPORTS ############
 ################################
-
   - name: STR_STATE_OF_THE_WORLD_MEXICO
     points: 50
     needItem: true
@@ -45,7 +42,6 @@ research:
   - name: STR_STATE_OF_THE_WORLD_RUSSIA
     points: 50
     needItem: true
-
 #######################################
 ########### STARTING TECH ############
 #####################################
@@ -60,19 +56,15 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
   - name: STR_HEAVY_SUPPORT_SHIPS
     cost: 600
     points: 200
-
 #####################################
 ############ VEHICLES ##############
 ###################################
-
 #######################################
 ###### TIER 0 FIGHTER RESEARCH #######
 ####################################
-
   - name: STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
     cost: 50
     points: 20
@@ -87,8 +79,6 @@ research:
       - STR_FORWARD_FIRING_AIRCRAFT_RESEARCH
     #disables:
     #  - STR_BRITISH_FORWARD_FIRING_AIRCRAFT_OPTION_A
-
-
 ########################################
 ########### TIER 1 VEHICLES ###########
 ######################################
@@ -105,77 +95,64 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
   - name: STR_LANDSHIP_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_MECHANIZED_WARFARE_RESEARCH
-
   - name: STR_COMBAT_WALKER_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_MECHANIZED_WARFARE_RESEARCH
-
   - name: STR_HUNTER_SCOUT_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_MECHANIZED_WARFARE_RESEARCH
-
   - name: STR_FRENCH_FIGHTER_OPTION_A
     cost: 50
     points: 20
     dependencies:
       - STR_HUNTER_SCOUT_RESEARCH
-
   - name: STR_BRITISH_SCOUT_OPTION_B
     cost: 50
     points: 20
     dependencies:
       - STR_HUNTER_SCOUT_RESEARCH
-
   - name: STR_GERMAN_FIGHTER_OPTION_C
     cost: 50
     points: 20
     dependencies:
       - STR_HUNTER_SCOUT_RESEARCH
-
   - name: STR_BOMBER_ATTACK_CRAFT_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_MECHANIZED_WARFARE_RESEARCH
-
   - name: STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
     cost: 50
     points: 20
     dependencies:
       - STR_BOMBER_ATTACK_CRAFT_RESEARCH
-
   - name: STR_GERMAN_ATTACK_PLANE_OPTION_B
     cost: 50
     points: 20
     dependencies:
       - STR_BOMBER_ATTACK_CRAFT_RESEARCH
-
   - name: STR_BRITISH_BOMBER_OPTION_C
     cost: 50
     points: 20
     dependencies:
       - STR_BOMBER_ATTACK_CRAFT_RESEARCH
-
   - name: STR_AERIAL_BEHEMOTH_RESEARCH
     cost: 50
     points: 20
     dependencies:
       - STR_HEAVY_SUPPORT_SHIPS
-
 ########################################
 ########### TIER 2 VEHICLES ###########
 ######################################
-
   - name: STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
     cost: 200
     points: 50
@@ -190,80 +167,67 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
   - name: STR_IMPROVED_LANDSHIP_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
       - STR_FRONTLINES_FIELD_REPORT
-
   - name: STR_IMPROVED_COMBAT_WALKER_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
       - STR_FRONTLINES_FIELD_REPORT
-
   - name: STR_IMPROVED_MULTIROLE_WALKER_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
       - STR_FRONTLINES_FIELD_REPORT
-
   - name: STR_IMPROVED_HUNTER_SCOUT_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
-
   - name: STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
     cost: 50
     points: 20
     dependencies:
       - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
-
   - name: STR_BRITISH_IMPROVED_SCOUT_OPTION_B
     cost: 50
     points: 20
     dependencies:
       - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
-
   - name: STR_GERMAN_IMPROVED_FIGHTER_OPTION_C
     cost: 50
     points: 20
     dependencies:
       - STR_IMPROVED_HUNTER_SCOUT_RESEARCH
-
   - name: STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
     cost: 100
     points: 50
     dependencies:
       - STR_IMPROVED_ARMORED_VEHICLES_RESEARCH
-
   - name: STR_GERMAN_IMPROVED_STRATEGIC_BOMBER_OPTION_A
     cost: 50
     points: 20
     dependencies:
       - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
-
   - name: STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
     cost: 50
     points: 20
     dependencies:
       - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
-
   - name: STR_BRITISH_IMPROVED_ATTACK_PLANE_OPTION_C
     cost: 50
     points: 20
     dependencies:
       - STR_IMPROVED_BOMBER_ATTACK_CRAFT_RESEARCH
-
 ########################################
 ########### TIER 3 VEHICLES ###########
 ######################################
-
   - name: STR_ALL_METAL_ARMORED_VEHICLES_RESEARCH
     cost: 200
     points: 50
@@ -278,7 +242,6 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
   - name: STR_NEMESIS_WALKER_RESEARCH
     cost: 100
     points: 50
@@ -288,7 +251,6 @@ research:
 ##################################
 ######### CRAFT WEAPONS ##########
 #################################
-
 #FORWARD MACHINE GUNS
   - name: STR_FORWARD_MACHINE_GUN_T1_RESEARCH
     cost: 10
@@ -305,7 +267,6 @@ research:
     points: 50
     dependencies:
       - STR_FORWARD_MACHINE_GUN_T2_RESEARCH
-
 #DEFENSIVE MACHINE GUNS
   - name: STR_DEFENSIVE_MACHINE_GUN_T1_RESEARCH
     cost: 10
@@ -322,7 +283,6 @@ research:
     points: 50
     dependencies:
       - STR_DEFENSIVE_MACHINE_GUN_T2_RESEARCH
-
  #AUTOCANNONS
  # - name: STR_AUTOCANNON_T1_RESEARCH
  #   cost: 10
@@ -339,12 +299,10 @@ research:
     points: 50
     dependencies:
       - STR_AUTOCANNON_T2_RESEARCH
-
 #CANNON
  # - name: STR_CANNON_T1_RESEARCH
  #   cost: 10
  #   points: 50
-
   - name: STR_CANNON_T2_RESEARCH
     cost: 50
     points: 50
@@ -355,7 +313,6 @@ research:
     points: 50
     dependencies:
       - STR_CANNON_T2_RESEARCH
-
 #BOMBS
   - name: STR_BOMBS_T1_RESEARCH
     cost: 10
@@ -372,7 +329,6 @@ research:
     points: 50
     dependencies:
       - STR_BOMBS_T2_RESEARCH
-
 #ROCKETS
   - name: STR_ROCKET_THEORY_RESEARCH
     cost: 100
@@ -399,7 +355,6 @@ research:
     points: 50
     dependencies:
       - STR_ROCKETS_T3_RESEARCH
-
 #HUMAN HEAT-RAYS
   - name: STR_AUX_HEAT_RAY_MK1_RESEARCH
     cost: 10
@@ -418,7 +373,6 @@ research:
     dependencies:
       - STR_AUX_HEAT_RAY_MK2_RESEARCH
       - STR_HEAT_RAY_TECH_MICROWAVE
-
 #AUX UNITS
   - name: STR_AUX_FUEL_TANK
     cost: 100
@@ -440,16 +394,11 @@ research:
     points: 50
     dependencies:
       - STR_MARTIAN_METAL_ARMOR_PLATES
-
-
-
 ##################################
-
   - name: STR_OFFENSIVE_OPERATIONS
     cost: 100
     points: 50
     #needItem: true
-
   - name: STR_NORTH_AMERICAN_CAMPAIGN
     cost: 50
     points: 50
@@ -474,11 +423,9 @@ research:
     dependencies:
       - STR_OFFENSIVE_OPERATIONS
     #needItem: true
-
 ##########################################
 ######### HUMAN WEAPONS REPORTS ##############
 #########################################
-
   - name: STR_FRONTLINES_FIELD_REPORT
     cost: 1000
     points: 50
@@ -498,7 +445,6 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
   - name: STR_TRANQUILIZER_SHOTGUN_PROJECT
     cost: 100
     points: 50
@@ -511,12 +457,10 @@ research:
       - STR_MARTIAN_ROYAL_GUARD_CORPSE
       - STR_CEREBREAL_CORPSE
     #needItem: true
-
 ######################
 # BALLISTIC WEAPONS
 ######################
 # FACTION EQUIPMENT
-
   - name: STR_BRITISH_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -528,7 +472,6 @@ research:
       - STR_FRENCH_EQUIPMENT_SELECTION
       - STR_ITALIAN_EQUIPMENT_SELECTION
       - STR_RUSSIAN_EQUIPMENT_SELECTION
-
   - name: STR_BRITISH_WEAPONS_T1
     cost: 0
     dependencies:
@@ -550,7 +493,6 @@ research:
      - STR_TRENCH_KNIFE_UNLOCK
      - STR_TRENCH_SHOVEL_UNLOCK
      - STR_TRENCH_MACE_UNLOCK
-
   - name: STR_BRITISH_WEAPONS_T2
     cost: 100
     dependencies:
@@ -563,8 +505,6 @@ research:
      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
      - STR_HUOT_LMG_UNLOCK
      - STR_HUOT_LMG_AMMO_UNLOCK
-
-
   - name: STR_AMERICAN_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -576,7 +516,6 @@ research:
       - STR_FRENCH_EQUIPMENT_SELECTION
       - STR_ITALIAN_EQUIPMENT_SELECTION
       - STR_RUSSIAN_EQUIPMENT_SELECTION
-
   - name: STR_AMERICAN_WEAPONS_T1
     cost: 0
     dependencies:
@@ -595,7 +534,6 @@ research:
      - STR_FRAG_GRENADE_UNLOCK
      - STR_DYNAMITE_UNLOCK
      - STR_TRENCH_KNIFE_UNLOCK
-
   - name: STR_AMERICAN_WEAPONS_T2
     cost: 100
     dependencies:
@@ -608,7 +546,6 @@ research:
      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
      - STR_BAR_UNLOCK
      - STR_BAR_AMMO_UNLOCK
-
   - name: STR_GERMAN_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -620,7 +557,6 @@ research:
       - STR_FRENCH_EQUIPMENT_SELECTION
       - STR_ITALIAN_EQUIPMENT_SELECTION
       - STR_RUSSIAN_EQUIPMENT_SELECTION
-
   - name: STR_GERMAN_WEAPONS_T1
     cost: 0
     dependencies:
@@ -637,7 +573,6 @@ research:
      - STR_DYNAMITE_UNLOCK
      - STR_TRENCH_SHOVEL_UNLOCK
      - STR_TRENCH_CLUB_UNLOCK
-
   - name: STR_GERMAN_WEAPONS_T2
     cost: 100
     dependencies:
@@ -654,7 +589,6 @@ research:
      - STR_MG0815_AMMO_UNLOCK
      - STR_SELBSTLADER_M1916_UNLOCK
      - STR_SELBSTLADER_M1916_AMMO_UNLOCK
-
   - name: STR_FRENCH_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -666,7 +600,6 @@ research:
       - STR_BRITISH_EQUIPMENT_SELECTION
       - STR_ITALIAN_EQUIPMENT_SELECTION
       - STR_RUSSIAN_EQUIPMENT_SELECTION
-
   - name: STR_FRENCH_WEAPONS_T1
     cost: 0
     dependencies:
@@ -685,7 +618,6 @@ research:
      - STR_TRENCH_KNIFE_UNLOCK
      - STR_TRENCH_SHOVEL_UNLOCK
      - STR_TRENCH_CLUB_UNLOCK
-
   - name: STR_FRENCH_WEAPONS_T2
     cost: 100
     dependencies:
@@ -697,7 +629,6 @@ research:
      - STR_RSC_CARBINE_UNLOCK
      - STR_RIBEYROLLES_UNLOCK
      - STR_RIBEYROLLES_AMMO_UNLOCK
-
   - name: STR_ITALIAN_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -709,7 +640,6 @@ research:
       - STR_FRENCH_EQUIPMENT_SELECTION
       - STR_BRITISH_EQUIPMENT_SELECTION
       - STR_RUSSIAN_EQUIPMENT_SELECTION
-
   - name: STR_ITALIAN_WEAPONS_T1
     cost: 0
     dependencies:
@@ -735,7 +665,6 @@ research:
      - STR_DYNAMITE_UNLOCK
      - STR_TRENCH_KNIFE_UNLOCK
      - STR_TRENCH_MACE_UNLOCK
-
   - name: STR_ITALIAN_WEAPONS_T2
     cost: 100
     dependencies:
@@ -748,7 +677,6 @@ research:
      - STR_MAUSER_C96_CARBINE_AMMO_UNLOCK
      - STR_VILLAR_PEROSA_UNLOCK
      - STR_VILLAR_PEROSA_AMMO_UNLOCK
-
   - name: STR_RUSSIAN_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -760,7 +688,6 @@ research:
       - STR_FRENCH_EQUIPMENT_SELECTION
       - STR_ITALIAN_EQUIPMENT_SELECTION
       - STR_BRITISH_EQUIPMENT_SELECTION
-
   - name: STR_RUSSIAN_WEAPONS_T1
     cost: 0
     dependencies:
@@ -780,7 +707,6 @@ research:
      - STR_SHASHKA_UNLOCK
      - STR_HEAVY_GRENADE_UNLOCK
      - STR_DYNAMITE_UNLOCK
-
   - name: STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -792,7 +718,6 @@ research:
     disables:
      - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
      - STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
-
   - name: STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -804,7 +729,6 @@ research:
     disables:
      - STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
      - STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
-
   - name: STR_RUSSIAN_CZECH_LEGION_EQUIPMENT_SELECTION
     cost: 100
     points: 50
@@ -816,7 +740,6 @@ research:
     disables:
      - STR_RUSSIAN_IMPERIAL_GUARD_EQUIPMENT_SELECTION
      - STR_RUSSIAN_COSSACK_EQUIPMENT_SELECTION
-
   - name: STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
     cost: 100
     dependencies:
@@ -827,8 +750,6 @@ research:
      - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
      - STR_WINCHESTER_M1915_UNLOCK
      - STR_MOSIN_NAGANT_AMMO_UNLOCK
-
-
   - name: STR_RUSSIAN_COSSACK_WEAPONS_T2
     cost: 100
     dependencies:
@@ -841,8 +762,6 @@ research:
      - STR_MM_SHASHKA_UNLOCK
      - STR_OBREZ_PISTOL_UNLOCK
      - STR_MOSIN_NAGANT_AMMO_UNLOCK
-
-
   - name: STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
     cost: 100
     dependencies:
@@ -855,28 +774,23 @@ research:
      - STR_SMG_0818_AMMO_UNLOCK
      - STR_MG0815_UNLOCK
      - STR_MG0815_AMMO_UNLOCK
-
 #####################################
 # BOLT-ACTION RIFLES
-
   - name: STR_SMLE_MKIII_UNLOCK
     cost: 0
     dependencies:
      - STR_BRITISH_WEAPONS_T1
     unlocks:
      - STR_SMLE_MKIII_AMMO_UNLOCK
-
   - name: STR_SMLE_MKIII_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_SMLE_MKIII_UNLOCK
-
   - name: STR_SMLE_MKIII_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_SMLE_MKIII_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_P14_ENFIELD_UNLOCK
     cost: 0
     dependencies:
@@ -884,177 +798,147 @@ research:
      - STR_AMERICAN_WEAPONS_T1
     unlocks:
      - STR_SPRINGFIELD_AMMO_UNLOCK
-
   - name: STR_SPRINGFIELD_UNLOCK
     cost: 0
     dependencies:
      - STR_AMERICAN_WEAPONS_T1
     unlocks:
      - STR_SPRINGFIELD_AMMO_UNLOCK
-
   - name: STR_SPRINGFIELD_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_P14_ENFIELD_UNLOCK
      - STR_SPRINGFIELD_UNLOCK
-
   - name: STR_SPRINGFIELD_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_P14_ENFIELD_UNLOCK
      - STR_SPRINGFIELD_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_GEWEHR98_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_LEBEL_UNLOCK
     cost: 0
     dependencies:
      - STR_FRENCH_WEAPONS_T1
     unlocks:
      - STR_LEBEL_AMMO_UNLOCK
-
   - name: STR_LEBEL_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LEBEL_UNLOCK
-
   - name: STR_LEBEL_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LEBEL_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_MOSIN_NAGANT_UNLOCK
     cost: 0
     dependencies:
      - STR_RUSSIAN_WEAPONS_T1
     unlocks:
      - STR_MOSIN_NAGANT_AMMO_UNLOCK
-
   - name: STR_WINCHESTER_M1915_UNLOCK
     cost: 0
     dependencies:
      - STR_RUSSIAN_IMPERIAL_GUARD_WEAPONS_T2
     unlocks:
      - STR_MOSIN_NAGANT_AMMO_UNLOCK
-
   - name: STR_MOSIN_NAGANT_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MOSIN_NAGANT_UNLOCK
      - STR_WINCHESTER_M1915_UNLOCK
-
   - name: STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MOSIN_NAGANT_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_BERDAN_II_UNLOCK
     cost: 0
     dependencies:
      - STR_RUSSIAN_WEAPONS_T1
     unlocks:
      - STR_BERDAN_II_AMMO_UNLOCK
-
   - name: STR_BERDAN_II_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_BERDAN_II_UNLOCK
-
   - name: STR_BERDAN_II_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_BERDAN_II_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
 ################################
 # SELF-LOADING RIFLES
-
   - name: STR_FARQHUAR_HILL_UNLOCK
     cost: 0
     dependencies:
      - STR_BRITISH_WEAPONS_T2
     unlocks:
      - STR_FARQHUAR_HILL_AMMO_UNLOCK
-
   - name: STR_FARQHUAR_HILL_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_FARQHUAR_HILL_UNLOCK
-
   - name: STR_FARQHUAR_HILL_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_FARQHUAR_HILL_AMMO_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_MONDRAGON_UNLOCK
     cost: 0
     dependencies:
      - STR_AMERICAN_WEAPONS_T2
     unlocks:
      - STR_MONDRAGON_AMMO_UNLOCK
-
   - name: STR_MONDRAGON_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MONDRAGON_UNLOCK
-
   - name: STR_MONDRAGON_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MONDRAGON_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_SELBSTLADER_M1916_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T2
     unlocks:
      - STR_SELBSTLADER_M1916_AMMO_UNLOCK
-
   - name: STR_SELBSTLADER_M1916_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_SELBSTLADER_M1916_UNLOCK
-
   - name: STR_SELBSTLADER_M1916_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_SELBSTLADER_M1916_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_RSC17_UNLOCK
     cost: 0
     dependencies:
      - STR_FRENCH_WEAPONS_T2
     unlocks:
      - STR_RSC17_AMMO_UNLOCK
-
   - name: STR_RSC17_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_RSC17_UNLOCK
-
   - name: STR_RSC17_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_RSC17_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_RSC_CARBINE_UNLOCK
     cost: 0
     dependencies:
      - STR_FRENCH_WEAPONS_T2
     unlocks:
      - STR_RSC17_AMMO_UNLOCK
-
-
   - name: STR_FEDOROV_AVTOMAT_UNLOCK
     cost: 0
     dependencies:
@@ -1063,53 +947,44 @@ research:
      - STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
     unlocks:
      - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
-
   - name: STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_FEDOROV_AVTOMAT_UNLOCK
-
   - name: STR_FEDOROV_AVTOMAT_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_FEDOROV_AVTOMAT_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_CEI_RIGOTTI_UNLOCK
     cost: 0
     dependencies:
      - STR_ITALIAN_WEAPONS_T2
     unlocks:
      - STR_CEI_RIGOTTI_AMMO_UNLOCK
-
   - name: STR_CEI_RIGOTTI_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_CEI_RIGOTTI_UNLOCK
-
   - name: STR_CEI_RIGOTTI_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_CEI_RIGOTTI_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
 #################################
 # SIDEARMS
-
   - name: STR_AUTOMATIC_REVOLVER_UNLOCK
     cost: 0
     dependencies:
      - STR_BRITISH_WEAPONS_T1
     unlocks:
      - STR_REVOLVER_AMMO_UNLOCK
-
   - name: STR_HEAVY_REVOLVER_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T1
     unlocks:
      - STR_REVOLVER_AMMO_UNLOCK
-
   - name: STR_SERVICE_REVOLVER_UNLOCK
     cost: 0
     dependencies:
@@ -1118,14 +993,12 @@ research:
      - STR_RUSSIAN_WEAPONS_T1
     unlocks:
      - STR_REVOLVER_AMMO_UNLOCK
-
   - name: STR_REVOLVER_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_AUTOMATIC_REVOLVER_UNLOCK
      - STR_HEAVY_REVOLVER_UNLOCK
      - STR_SERVICE_REVOLVER_UNLOCK
-
   - name: STR_REVOLVER_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
@@ -1135,7 +1008,6 @@ research:
      - STR_MARTIAN_METAL_REFORGED_AMMO
     unlocks:
     - STR_REVOLVER_KMM_AMMO_UNLOCK
-
   - name: STR_REVOLVER_DUMDUM_AMMO_UNLOCK
     cost: 0
     dependencies:
@@ -1145,25 +1017,21 @@ research:
      - STR_GENEVA_CONVENTION_APPEAL
     unlocks:
       - STR_REVOLVER_DUMDUM_AMMO_UNLOCK
-
   - name: STR_M1911_COLT_UNLOCK
     cost: 0
     dependencies:
      - STR_AMERICAN_WEAPONS_T1
     unlocks:
      - STR_M1911_COLT_AMMO_UNLOCK
-
   - name: STR_M1911_COLT_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_M1911_COLT_UNLOCK
-
   - name: STR_M1911_COLT_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_M1911_COLT_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_MAUSER_C96_UNLOCK
     cost: 0
     dependencies:
@@ -1171,36 +1039,30 @@ research:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
      - STR_MAUSER_C96_AMMO_UNLOCK
-
   - name: STR_MAUSER_C96_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MAUSER_C96_UNLOCK
-
   - name: STR_MAUSER_C96_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MAUSER_C96_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_LUGER_P08_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T1
     unlocks:
      - STR_LUGER_P08_AMMO_UNLOCK
-
   - name: STR_LUGER_P08_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LUGER_P08_UNLOCK
-
   - name: STR_LUGER_P08_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LUGER_P08_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_OBREZ_PISTOL_UNLOCK
     cost: 0
     dependencies:
@@ -1209,12 +1071,10 @@ research:
      - STR_MOSIN_NAGANT_AMMO_UNLOCK
 ##################################
 # CARBINES
-
   - name: STR_M1907_SL_CARBINE_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_MAUSER_C96_CARBINE_UNLOCK
     cost: 0
     dependencies:
@@ -1222,57 +1082,47 @@ research:
      - STR_ITALIAN_WEAPONS_T2
     unlocks:
      - STR_MAUSER_C96_CARBINE_UNLOCK
-
   - name: STR_MAUSER_C96_CARBINE_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MAUSER_C96_CARBINE_UNLOCK
-
   - name: STR_MAUSER_C96_CARBINE_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MAUSER_C96_CARBINE_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_LUGER_ARTILLERY_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T2
     unlocks:
      - STR_LUGER_ARTILLERY_AMMO_UNLOCK
-
   - name: STR_LUGER_ARTILLERY_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LUGER_ARTILLERY_UNLOCK
-
   - name: STR_LUGER_ARTILLERY_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LUGER_ARTILLERY_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_CARCANO_M91_CARBINE_UNLOCK
     cost: 0
     dependencies:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
      - STR_CARCANO_M91_CARBINE_UNLOCK
-
   - name: STR_CARCANO_M91_CARBINE_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_CARCANO_M91_CARBINE_UNLOCK
-
   - name: STR_CARCANO_M91_CARBINE_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_CARCANO_M91_CARBINE_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
 ###########################
 # SMGS
-
   - name: STR_ANNIHILATOR_SMG_UNLOCK
     cost: 0
     dependencies:
@@ -1280,134 +1130,111 @@ research:
      - STR_BRITISH_WEAPONS_T2
     unlocks:
      - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
-
   - name: STR_ANNIHILATOR_SMG_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_ANNIHILATOR_SMG_UNLOCK
-
   - name: STR_ANNIHILATOR_SMG_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_ANNIHILATOR_SMG_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_MP18_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T2
     unlocks:
      - STR_MP18_AMMO_UNLOCK
-
   - name: STR_MP18_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MP18_UNLOCK
-
   - name: STR_MP18_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MP18_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_SMG_0818_UNLOCK
     cost: 0
     dependencies:
      - STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
     unlocks:
      - STR_SMG_0818_AMMO_UNLOCK
-
   - name: STR_SMG_0818_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_SMG_0818_UNLOCK
-
   - name: STR_SMG_0818_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_SMG_0818_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_BERETTA_MAB18_UNLOCK
     cost: 0
     dependencies:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
      - STR_BERETTA_MAB18_AMMO_UNLOCK
-
   - name: STR_BERETTA_MAB18_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_BERETTA_MAB18_UNLOCK
-
   - name: STR_BERETTA_MAB18_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_BERETTA_MAB18_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_VILLAR_PEROSA_UNLOCK
     cost: 0
     dependencies:
      - STR_ITALIAN_WEAPONS_T2
     unlocks:
      - STR_VILLAR_PEROSA_AMMO_UNLOCK
-
   - name: STR_VILLAR_PEROSA_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_VILLAR_PEROSA_UNLOCK
-
   - name: STR_VILLAR_PEROSA_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_VILLAR_PEROSA_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
 ##############################
 # LMGS
-
   - name: STR_HUOT_LMG_UNLOCK
     cost: 0
     dependencies:
      - STR_BRITISH_WEAPONS_T2
     unlocks:
      - STR_HUOT_LMG_AMMO_UNLOCK
-
   - name: STR_HUOT_LMG_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_HUOT_LMG_UNLOCK
-
   - name: STR_HUOT_LMG_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_HUOT_LMG_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_MADSEN_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_BAR_UNLOCK
     cost: 0
     dependencies:
      - STR_AMERICAN_WEAPONS_T2
     unlocks:
      - STR_BAR_AMMO_UNLOCK
-
   - name: STR_BAR_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_BAR_UNLOCK
-
   - name: STR_BAR_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_BAR_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_MG0815_UNLOCK
     cost: 0
     dependencies:
@@ -1415,18 +1242,15 @@ research:
      - STR_RUSSIAN_CZECH_LEGION_WEAPONS_T2
     unlocks:
      - STR_MG0815_AMMO_UNLOCK
-
   - name: STR_MG0815_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MG0815_UNLOCK
-
   - name: STR_MG0815_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MG0815_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_CHAUCHAT_LMG_UNLOCK
     cost: 0
     dependencies:
@@ -1435,65 +1259,53 @@ research:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
      - STR_CHAUCHAT_LMG_AMMO_UNLOCK
-
   - name: STR_CHAUCHAT_LMG_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_CHAUCHAT_LMG_UNLOCK
-
   - name: STR_CHAUCHAT_LMG_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_CHAUCHAT_LMG_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_RIBEYROLLES_UNLOCK
     cost: 0
     dependencies:
      - STR_FRENCH_WEAPONS_T2
     unlocks:
      - STR_RIBEYROLLES_AMMO_UNLOCK
-
   - name: STR_RIBEYROLLES_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_RIBEYROLLES_UNLOCK
-
   - name: STR_RIBEYROLLES_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_RIBEYROLLES_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
   - name: STR_LEWIS_GUN_UNLOCK
     cost: 0
     dependencies:
      - STR_BRITISH_WEAPONS_T1
     unlocks:
      - STR_LEWIS_GUN_AMMO_UNLOCK
-
   - name: STR_LEWIS_GUN_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LEWIS_GUN_UNLOCK
-
   - name: STR_LEWIS_GUN_KMM_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_LEWIS_GUN_UNLOCK
      - STR_MARTIAN_METAL_REFORGED_AMMO
-
 ########################
 # SHOTGUNS
-
   - name: STR_WINCHESTER_TRENCH_GUN_UNLOCK
     cost: 0
     dependencies:
      - STR_AMERICAN_WEAPONS_T1
-
     unlocks:
      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
-
   - name: STR_REMINGTON_MODEL_11_UNLOCK
     cost: 0
     dependencies:
@@ -1501,7 +1313,6 @@ research:
      - STR_FRENCH_WEAPONS_T1
     unlocks:
      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
-
   - name: STR_INERTIA_SHOTGUN_UNLOCK
     cost: 0
     dependencies:
@@ -1509,14 +1320,12 @@ research:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
      - STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
-
   - name: STR_SHOTGUN_BUCKSHOT_SHELLS_5_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_WINCHESTER_TRENCH_GUN_UNLOCK
      - STR_REMINGTON_MODEL_11_UNLOCK
      - STR_INERTIA_SHOTGUN_UNLOCK
-
   - name: STR_SHOTGUN_DUMDUM_SHELLS_5_AMMO_UNLOCK
     cost: 0
     dependencies:
@@ -1526,7 +1335,6 @@ research:
      - STR_INERTIA_SHOTGUN_UNLOCK
     unlocks:
       - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
-
   - name: STR_MODEL_1900_UNLOCK
     cost: 0
     dependencies:
@@ -1534,7 +1342,6 @@ research:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
      - STR_SHOTGUN_BUCKSHOT_SHELLS_2_AMMO_UNLOCK
-
   - name: STR_MODEL_1900_SAWEDOFF_UNLOCK
     cost: 0
     dependencies:
@@ -1542,13 +1349,11 @@ research:
      - STR_ITALIAN_WEAPONS_T1
     unlocks:
      - STR_SHOTGUN_BUCKSHOT_SHELLS_2_AMMO_UNLOCK
-
   - name: STR_SHOTGUN_BUCKSHOT_SHELLS_2_AMMO_UNLOCK
     cost: 0
     dependencies:
      - STR_MODEL_1900_UNLOCK
      - STR_MODEL_1900_SAWEDOFF_UNLOCK
-
   - name: STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
     cost: 0
     dependencies:
@@ -1557,10 +1362,8 @@ research:
      - STR_MODEL_1900_SAWEDOFF_UNLOCK
     unlocks:
      - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
-
 ##############################
 # EXPLOSIVES
-
   - name: STR_ANTITANK_GRENADE_UNLOCK
     cost: 0
     dependencies:
@@ -1569,12 +1372,10 @@ research:
      - STR_ITALIAN_WEAPONS_T1
      - STR_AMERICAN_WEAPONS_T1
      - STR_BRITISH_WEAPONS_T1
-
   - name: STR_STICK_GRENADE_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T1
-
   - name: STR_FRAG_GRENADE_UNLOCK
     cost: 0
     dependencies:
@@ -1582,7 +1383,6 @@ research:
      - STR_ITALIAN_WEAPONS_T1
      - STR_AMERICAN_WEAPONS_T1
      - STR_BRITISH_WEAPONS_T1
-
   - name: STR_DYNAMITE_UNLOCK
     cost: 0
     dependencies:
@@ -1592,20 +1392,16 @@ research:
      - STR_AMERICAN_WEAPONS_T1
      - STR_BRITISH_WEAPONS_T1
      - STR_RUSSIAN_WEAPONS_T1
-
   - name: STR_HEAVY_GRENADE_UNLOCK
     cost: 0
     dependencies:
      - STR_RUSSIAN_WEAPONS_T1
-
 #############################
 # MELEE WEAPONS
-
   - name: STR_MM_SABRE_UNLOCK
     cost: 50
     dependencies:
      - STR_IMPROVED_METALURGIC_TECHNIQUES
-
   - name: STR_TRENCH_KNIFE_UNLOCK
     cost: 0
     dependencies:
@@ -1613,43 +1409,36 @@ research:
      - STR_ITALIAN_WEAPONS_T1
      - STR_AMERICAN_WEAPONS_T1
      - STR_BRITISH_WEAPONS_T1
-
   - name: STR_TRENCH_SHOVEL_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T1
      - STR_FRENCH_WEAPONS_T1
      - STR_BRITISH_WEAPONS_T1
-
   - name: STR_SHOVEL_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T1
      - STR_RUSSIAN_WEAPONS_T1
-
   - name: STR_TRENCH_MACE_UNLOCK
     cost: 0
     dependencies:
      - STR_ITALIAN_WEAPONS_T1
      - STR_BRITISH_WEAPONS_T1
-
   - name: STR_TRENCH_CLUB_UNLOCK
     cost: 0
     dependencies:
      - STR_GERMAN_WEAPONS_T1
      - STR_FRENCH_WEAPONS_T1
-
   - name: STR_SHASHKA_UNLOCK
     cost: 0
     dependencies:
      - STR_RUSSIAN_WEAPONS_T1
-
   - name: STR_MM_DAGGER_UNLOCK
     cost: 0
     dependencies:
      - STR_RUSSIAN_COSSACK_WEAPONS_T2
      - STR_IMPROVED_METALURGIC_TECHNIQUES
-
   - name: STR_MM_SHASHKA_UNLOCK
     cost: 0
     dependencies:
@@ -1658,7 +1447,6 @@ research:
 ######################
 # TESLA WEAPONS
 ######################
-
   - name: STR_CONTACT_WITH_TESLA
     cost: 100
     points: 50
@@ -1671,20 +1459,17 @@ research:
       - STR_MARTIAN_ROYAL_GUARD_LEADER
       - STR_CEREBREAL_COMMANDER
     #needItem: true
-
   - name: STR_TESLA_PROTOTYPE
     cost: 50
     points: 60
     needItem: true
     unlocks:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
-
   - name: STR_TESLA_ELECTRIC_BLUEPRINTS
     cost: 100
     points: 50
     dependencies:
       - STR_TESLA_PROTOTYPE
-
   - name: STR_TESLA_FOCUSED_DISCHARGE_RESEARCH
     cost: 100
     points: 50
@@ -1702,43 +1487,35 @@ research:
     dependencies:
       - STR_TESLA_ELECTRIC_BLUEPRINTS
       - STR_TESLA_INFANTRY_CANNON_RESEARCH
-
 ######################
 # PHLOGISTON
 ######################
-
   - name: STR_PHLOGISTON_PROTOTYPE
     cost: 0
     points: 60
     needItem: true
     unlocks:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
-
   - name: STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
     cost: 0
     points: 50
     dependencies:
       - STR_PHLOGISTON_PROTOTYPE
-
-
   - name: STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
     cost: 0
     points: 50
     dependencies:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
-
   - name: STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
     cost: 0
     points: 50
     dependencies:
       - STR_PHLOGISTON_PROTOTYPE
-
   - name: STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
     cost: 0
     points: 50
     dependencies:
       - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
-
 ##################################
   - name: STR_ALIEN_ALLOYS
     cost: 600
@@ -1781,15 +1558,12 @@ research:
       - STR_STATE_OF_THE_WORLD_RUSSIA
     unlocks:
     - STR_REVOLVER_KMM_AMMO_UNLOCK
-
   - name: STR_MARTIAN_METAL_ARMOR_PLATES
     #    listOrder: 902
     cost: 400
     points: 70
     dependencies:
       - STR_IMPROVED_METALURGIC_TECHNIQUES
-
-
   - name: STR_REFINED_HYBRID_METALURGIC_TECHNIQUES
     cost: 700
     points: 20
@@ -1804,25 +1578,21 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
 ###############################
 ####### HUMAN ARMORS #########
 #############################
-
   - name: STR_BODY_ARMOR_THEORY
     #    listOrder: 902
     cost: 200
     points: 70
     dependencies:
       - STR_FRONTLINES_FIELD_REPORT
-
   - name: STR_T2_LIGHT_BODY_ARMOR
     #    listOrder: 902
     cost: 100
     points: 70
     dependencies:
       - STR_BODY_ARMOR_THEORY
-
   - name: STR_T2_HEAVY_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1830,13 +1600,11 @@ research:
     dependencies:
       - STR_BODY_ARMOR_THEORY
       - STR_MARTIAN_METAL_ARMOR_PLATES
-
   - name: STR_PERSONAL_ARMOR
     cost: 180
     points: 20
     dependencies:
       - STR_T2_HEAVY_BODY_ARMOR
-
   - name: STR_AMERICAN_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1844,7 +1612,6 @@ research:
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_AMERICAN_EQUIPMENT_SELECTION
-
   - name: STR_BRITISH_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1852,7 +1619,6 @@ research:
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_BRITISH_EQUIPMENT_SELECTION
-
   - name: STR_GERMAN_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1860,7 +1626,6 @@ research:
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_GERMAN_EQUIPMENT_SELECTION
-
   - name: STR_FRENCH_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1868,7 +1633,6 @@ research:
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_FRENCH_EQUIPMENT_SELECTION
-
   - name: STR_ITALIAN_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1876,7 +1640,6 @@ research:
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_ITALIAN_EQUIPMENT_SELECTION
-
   - name: STR_RUSSIAN_T2_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1884,9 +1647,7 @@ research:
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_RUSSIAN_EQUIPMENT_SELECTION
-
 ######
-
   - name: STR_T3_LIGHT_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1894,7 +1655,6 @@ research:
     dependencies:
       - STR_T2_LIGHT_BODY_ARMOR
       - STR_MARTIAN_METAL_ARMOR_PLATES
-
   - name: STR_T3_HEAVY_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1904,19 +1664,16 @@ research:
       - STR_MARTIAN_METAL_ARMOR_PLATES
       - STR_ELERIUM_115
       - STR_UFO_POWER_SOURCE
-
   - name: STR_POWER_SUIT
     cost: 205
     points: 20
     dependencies:
       - STR_T3_HEAVY_BODY_ARMOR
-
   - name: STR_FLYING_SUIT
     cost: 330
     points: 20
     dependencies:
       - STR_ALIENS_ONLY
-
   - name: STR_AMERICAN_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1924,7 +1681,6 @@ research:
     dependencies:
       - STR_T3_LIGHT_BODY_ARMOR
       - STR_AMERICAN_EQUIPMENT_SELECTION
-
   - name: STR_BRITISH_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1932,7 +1688,6 @@ research:
     dependencies:
       - STR_T3_LIGHT_BODY_ARMOR
       - STR_BRITISH_EQUIPMENT_SELECTION
-
   - name: STR_GERMAN_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1940,7 +1695,6 @@ research:
     dependencies:
       - STR_T3_LIGHT_BODY_ARMOR
       - STR_GERMAN_EQUIPMENT_SELECTION
-
   - name: STR_FRENCH_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1948,7 +1702,6 @@ research:
     dependencies:
       - STR_T3_LIGHT_BODY_ARMOR
       - STR_FRENCH_EQUIPMENT_SELECTION
-
   - name: STR_ITALIAN_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1956,7 +1709,6 @@ research:
     dependencies:
       - STR_T3_LIGHT_BODY_ARMOR
       - STR_ITALIAN_EQUIPMENT_SELECTION
-
   - name: STR_RUSSIAN_T3_BODY_ARMOR
     #    listOrder: 902
     cost: 100
@@ -1965,7 +1717,6 @@ research:
       - STR_T3_LIGHT_BODY_ARMOR
       - STR_RUSSIAN_EQUIPMENT_SELECTION
 ############################
-
   - name: STR_INITIAL_TANK_DESIGN
     cost: 500
     points: 50
@@ -1976,7 +1727,6 @@ research:
     points: 50
     dependencies:
       - STR_INITIAL_TANK_DESIGN
-
   - name: STR_IMPROVED_TANK_DESIGN
     cost: 500
     points: 50
@@ -1997,9 +1747,7 @@ research:
     points: 50
     dependencies:
       - STR_IMPROVED_TANK_DESIGN
-
 ############################
-
   - name: STR_HUMAN_CHEMICAL_WEAPONS
     #    listOrder: 902
     cost: 600
@@ -2015,7 +1763,6 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
   - name: STR_HEATRAY_WEAPONS_ANALYSIS
     cost: 600
     points: 10
@@ -2143,11 +1890,9 @@ research:
   - name: STR_MARTIAN_BLOOD_EXTRACTOR_FULL_CONTAINER
     destroyItem: true
     needItem: true
-
 ########################################
 ######### INTERROGATIONS ##############
 ######################################
-
   - name: STR_UNIVERSAL_TRANSLATION_DEVICE
     cost: 450
     points: 50
@@ -2164,9 +1909,7 @@ research:
       - STR_STATE_OF_THE_WORLD_FRANCE
       - STR_STATE_OF_THE_WORLD_ABC_PACT
       - STR_STATE_OF_THE_WORLD_RUSSIA
-
 # REGULAR SOLDIERS
-
   - name: STR_MARTIAN_CONSCRIPT_INTERROGATION
     cost: 15
     points: 50
@@ -2174,7 +1917,6 @@ research:
     dependencies:
     - STR_SECTOID
     - STR_SECTOID_LEADER
-
   - name: STR_MARTIAN_LINE_INFANTRY_INTERROGATION
     cost: 20
     points: 50
@@ -2182,7 +1924,6 @@ research:
     dependencies:
     - STR_MARTIAN_LINE_INFANTRY
     - STR_MARTIAN_LINE_INFANTRY_LEADER
-
   - name: STR_MARTIAN_MARINE_INTERROGATION
     cost: 15
     points: 50
@@ -2190,7 +1931,6 @@ research:
     dependencies:
     - STR_MARTIAN_MARINE
     - STR_MARTIAN_MARINE_LEADER
-
   - name: STR_MARTIAN_SKIRMISHER_INTERROGATION
     cost: 15
     points: 50
@@ -2198,7 +1938,6 @@ research:
     dependencies:
     - STR_MARTIAN_SKIRMISHER
     - STR_MARTIAN_SKIRMISHER_LEADER
-
   - name: STR_MARTIAN_ROYAL_GUARD_INTERROGATION
     cost: 15
     points: 50
@@ -2206,14 +1945,12 @@ research:
     dependencies:
     - STR_MARTIAN_ROYAL_GUARD
     - STR_MARTIAN_ROYAL_GUARD_LEADER
-
   - name: STR_MARTIAN_SCIENTIST_INTERROGATION
     cost: 15
     points: 50
     needItem: false
     dependencies:
     - STR_MARTIAN_SCIENTIST
-
   - name: STR_MARTIAN_SHOCK_GUARD_INTERROGATION
     cost: 15
     points: 50
@@ -2221,13 +1958,9 @@ research:
     dependencies:
     - STR_MARTIAN_SHOCK_GUARD
     - STR_MARTIAN_SHOCK_GUARD_LEADER
-
-
-
 #################################################
 ###### OVERLORDS AND COLLABORATION FINALE ######
 ###############################################
-
   - name: STR_CEREBREAL_COMMANDER
     cost: 800
     points: 150
@@ -2246,7 +1979,6 @@ research:
     sequentialGetOneFree: true
     needItem: true
     destroyItem: true
-
   - name: STR_OVERLORD_INTEL_1
     requires:
       - STR_CEREBREAL_COMMANDER
@@ -2258,13 +1990,11 @@ research:
       - STR_OVERLORD_INTEL_2
     unlocks:
       - STR_MARTIAN_METAL_REPLICATION
-
   - name: STR_MARTIAN_METAL_REPLICATION
     cost: 100
     points: 50
     dependencies:
       - STR_OVERLORD_INTEL_3
-
   - name: STR_OVERLORD_INTEL_4
     requires:
       - STR_OVERLORD_INTEL_3
@@ -2286,20 +2016,17 @@ research:
     unlocks:
       - STR_MARTIAN_OVERLORD_DIPLOMACY
     spawnedEvent: STR_MARTIANS_SEEKS_DIPLOMACY_EVENT
-
   - name: STR_MARTIAN_OVERLORD_DIPLOMACY
     cost: 100
     points: 50
     dependencies:
       - STR_OVERLORD_INTEL_9
-
   - name: STR_ACCEPT_TRUCE
     cost: 10
     points: 10
     dependencies:
       - STR_MARTIAN_OVERLORD_DIPLOMACY
     cutscene: winGameCollaboration
-
   - name: STR_REJECT_TRUCE
     cost: 10
     points: 500
@@ -2309,7 +2036,6 @@ research:
 #################################################
 ######### LEADERS AND MISC KNOWLEDGE ###########
 ###############################################
-
   - name: STR_SECTOID_LEADER
     cost: 800
     points: 50
@@ -2406,7 +2132,6 @@ research:
     sequentialGetOneFree: true
     needItem: true
     destroyItem: true
-
   - name: STR_LEADER_1
     requires:
       - STR_SECTOID_LEADER
@@ -2414,7 +2139,6 @@ research:
       - STR_MARTIAN_MARINE_LEADER
       - STR_MARTIAN_SKIRMISHER_LEADER
       - STR_MARTIAN_SHOCK_GUARD_LEADER
-
   - name: STR_LEADER_INTEL_1
     requires:
       - STR_LEADER_1
@@ -2433,11 +2157,9 @@ research:
   - name: STR_LEADER_INTEL_6
     requires:
       - STR_LEADER_INTEL_5
-
 ###################################################
 ###### SCIENTISTS AND PYRRIC VICTORY FINALE ######
 #################################################
-
   - name: STR_MARTIAN_SCIENTIST
     cost: 600
     points: 50
@@ -2454,11 +2176,9 @@ research:
     sequentialGetOneFree: true
     needItem: true
     destroyItem: true
-
   - name: STR_SCIENTIST_1
     requires:
       - STR_MARTIAN_SCIENTIST
-
   - name: STR_HEAT_RAY_TECH_PHOTON
     requires:
       - STR_SCIENTIST_1
@@ -2477,8 +2197,6 @@ research:
   - name: STR_ORGANIC_FLYING_MACHINES
     requires:
       - STR_MARTIAN_TERRAFORMATION
-
-
   - name: STR_GENEVA_CONVENTION_APPEAL
     cost: 400
     points: -50
@@ -2488,8 +2206,6 @@ research:
       - STR_REVOLVER_DUMDUM_AMMO_UNLOCK
       - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
       - STR_SHOTGUN_DUMDUM_SHELLS_5_AMMO_UNLOCK
-
-
   - name: STR_BIOLOGICAL_WARFARE
     cost: 300
     points: 80
@@ -2501,17 +2217,14 @@ research:
     points: 100
     dependencies:
       - STR_BIOLOGICAL_WARFARE
-
   - name: STR_LAUNCH_FIRESTORM
     cost: 10
     points: 100
     dependencies:
       - STR_OPERATION_FIRESTORM
     cutscene: winGamePyrricVictory
-
 ###########################################
 ###########################################
-
   - name: STR_SECTOID_AUTOPSY
     points: 50
     needItem: true
@@ -2523,7 +2236,6 @@ research:
       - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_SECTOID_AUTOPSY
     needItem: true
-
   - name: STR_MARTIAN_LINE_INFANTRY_AUTOPSY
     points: 50
     needItem: true
@@ -2535,7 +2247,6 @@ research:
       - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_LINE_INFANTRY_AUTOPSY
     needItem: true
-
   - name: STR_MARTIAN_MARINE_AUTOPSY
     points: 50
     needItem: true
@@ -2547,7 +2258,6 @@ research:
       - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_MARINE_AUTOPSY
     needItem: true
-
   - name: STR_MARTIAN_SKIRMISHER_AUTOPSY
     points: 50
     needItem: true
@@ -2559,7 +2269,6 @@ research:
       - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_SKIRMISHER_AUTOPSY
     needItem: true
-
   - name: STR_MARTIAN_SHOCK_GUARD_AUTOPSY
     points: 50
     needItem: true
@@ -2571,7 +2280,6 @@ research:
       - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_SHOCK_GUARD_AUTOPSY
     needItem: true
-
   - name: STR_MARTIAN_ROYAL_GUARD_AUTOPSY
     points: 50
     needItem: true
@@ -2583,7 +2291,6 @@ research:
       - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_MARTIAN_ROYAL_GUARD_AUTOPSY
     needItem: true
-
   - name: STR_CEREBREAL_AUTOPSY
     points: 50
     needItem: true
@@ -2595,9 +2302,7 @@ research:
       - STR_FRONTLINES_FIELD_REPORT
     lookup: STR_CEREBREAL_AUTOPSY
     needItem: true
-
 ############################################
-
   - name: STR_SECTOID_SOLDIER
     cost: 192
     points: 50
@@ -2614,7 +2319,6 @@ research:
       - STR_MARTIAN_OUTPOST
       - STR_MARTIAN_TROOP_BARRACKS
       - STR_MARTIAN_WATCHTOWER
-
   - name: STR_MARTIAN_LINE_INFANTRY
     cost: 192
     points: 50
@@ -2638,7 +2342,6 @@ research:
       - STR_MARTIAN_SUPPLY_DEPOT
       - STR_MARTIAN_CLONE_LAB
       - STR_MARTIAN_REDOUBT
-
   - name: STR_MARTIAN_MARINE
     cost: 192
     points: 50
@@ -2664,7 +2367,6 @@ research:
       - FRIGATE
       - DESTROYER
       - CRUISER
-
   - name: STR_MARTIAN_SKIRMISHER
     cost: 192
     points: 50
@@ -2688,7 +2390,6 @@ research:
       - STR_MARTIAN_SUPPLY_DEPOT
       - STR_MARTIAN_CLONE_LAB
       - STR_MARTIAN_REDOUBT
-
   - name: STR_MARTIAN_SHOCK_GUARD
     cost: 192
     points: 50
@@ -2704,7 +2405,6 @@ research:
       - FRIGATE
       - DESTROYER
       - CRUISER
-
   - name: STR_MARTIAN_ROYAL_GUARD
     cost: 192
     points: 50
@@ -2732,7 +2432,6 @@ research:
       - FRIGATE
       - DESTROYER
       - CRUISER
-
 ##############################
 ##### SHIPS AND BASES #######
 ############################

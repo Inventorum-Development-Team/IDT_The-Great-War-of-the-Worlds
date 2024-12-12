@@ -1,5 +1,4 @@
 ﻿armors:
-
   - type: STR_SIDECAR_MOTORCYCLE_ARMOR_UC
     spriteSheet: SIDECAR_MOTORCYCLE_SPRITESHEET
     spriteInv: SIDECAR_MOTORCYCLE_INV
@@ -75,7 +74,6 @@
       - NULL_2X3
       - NULL_4X2
     loftempsSet: [ 92, 89, 90, 91 ]
-
   - type: STR_SCHNEIDER_CA1_ARMOR_UC
     spriteSheet: SCHNEIDER_CA1_SPRITESHEET
     spriteInv: SCHNEIDER_INV
@@ -117,7 +115,6 @@
       - NULL_2X3
       - NULL_4X2
     loftempsSet: [ 92, 89, 90, 91 ]
-
   - type: STR_MARK_V_ARMOR_UC
     spriteSheet: MARK_V_SPRITESHEET
     spriteInv: MARK_V_INV
@@ -190,7 +187,6 @@
       - NULL_2X3
       - NULL_4X2
     loftempsSet: [ 92, 89, 90, 91 ]
-
   - type: STR_A7V_ARMOR_UC
     spriteSheet: A7V_SPRITESHEET
     spriteInv: A7V_INV
@@ -232,7 +228,6 @@
       - NULL_2X3
       - NULL_4X2
     loftempsSet: [ 92, 89, 90, 91 ]
-
   - type: STR_RENAULT_FT_ARMOR_UC
     spriteSheet: RENAULT_FT_SPRITESHEET
     spriteInv: RENAULT_FT_INV
@@ -275,7 +270,6 @@
       - NULL_2X3
       - NULL_4X2
     loftempsSet: [ 92, 89, 90, 91 ]
-
   - type: STR_VEZDEKHOD_ARMOR_UC
     spriteSheet: VEZDEKHOD_SPRITESHEET
     spriteInv: VEZDEKHOD_INV
@@ -420,7 +414,6 @@ items:
     experienceTrainingMode: 5
     invWidth: 2
     invHeight: 3
-
   - type: AUX_COAXIAL_HOTCHKISS_MG_AMMO
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
@@ -472,7 +465,6 @@ items:
     invHeight: 1
     attraction: 9
     listOrder: 2023
-
   - type: AUX_COAXIAL_MG08_MG
     categories: [STR_TANKS, STR_MACHINE_GUNS, STR_FIXED_WEAPONS]
     requiresBuy:
@@ -518,7 +510,6 @@ items:
     invWidth: 2
     invHeight: 3
     ###turretType: 0
-
   - type: AUX_QF_6_PDR_HOTCHKISS_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
     requiresBuy:
@@ -550,7 +541,6 @@ items:
     invWidth: 2
     invHeight: 3
     ###turretType: 0
-
   - type: AUX_57MM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
@@ -662,7 +652,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 3
     vaporProbabilitySurface: 50
-
   - type: AUX_5_7CM_MAXIM_NORDENFELT_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
     requiresBuy:
@@ -693,7 +682,6 @@ items:
     invWidth: 2
     invHeight: 3
     ###turretType: 0
-
   - type: AUX_5_7CM_AP_CANNON_SHELLS
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS, STR_CLIPS]
     requiresBuy:
@@ -807,7 +795,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 3
     vaporProbabilitySurface: 50
-
   - type: AUX_37MM_PUTEAUX_CANNON
     categories: [STR_TANKS, STR_CANNON, STR_FIXED_WEAPONS]
     requiresBuy:
@@ -891,7 +878,6 @@ items:
     vaporColorSurface: 0
     vaporDensitySurface: 3
     vaporProbabilitySurface: 50
-
   - type: AUX_TANK_SMOKE_LAUNCHER
     weight: 0
     bigSprite: 20
@@ -966,8 +952,6 @@ items:
     listOrder: 10601
 #############################################
 #######################################
-
-
 ###################################
 ######## TANK REPAIRS ##############
 #################################
@@ -983,7 +967,6 @@ manufacture:
     producedItems:
       STR_SIDECAR_MOTORCYCLE_ITEM: 1
     listOrder: 2701
-
   - name: STR_REPAIR_SCHNEIDER_CA1
     category: STR_ARMOR_REPAIR
     requires:
@@ -1049,12 +1032,8 @@ manufacture:
     producedItems:
       STR_VEZDEKHOD_ITEM: 1
     listOrder: 2701
-
 #########################################
-
-
 extraSprites:
-
   - type: SIDECAR_MOTORCYCLE_SPRITESHEET
     width: 256
     height: 160
@@ -1097,7 +1076,6 @@ extraSprites:
     subY: 40
     files:
       0: Resources/Tanks/VEZDEKHOD_SPRITESHEET.png
-
   - type: SIDECAR_MOTORCYCLE_INV
     singleImage: true
     files:
@@ -1118,12 +1096,10 @@ extraSprites:
     singleImage: true
     files:
       0: Resources/Tanks/Inventory/RENAULT_FT_INV.png
-
   - type: VEZDEKHOD_INV
     singleImage: true
     files:
       0: Resources/Tanks/Inventory/VEZDEKHOD_INV.png
-
 # TODO uncomment this when the resources are found :D
   - type: BIGOBS.PCK
     files:
@@ -1162,7 +1138,6 @@ extraSprites:
      5356: Resources/Tanks/bigob_MG18.png
      5364: Resources/Tanks/Bigob_MG18_Clip.png
      5372: Resources/Tanks/Bigob_MG18_KMM_Clip.png
-
   - type: INITIAL_TANK_DESIGN_IMAGE
     singleImage: true
     width: 320
