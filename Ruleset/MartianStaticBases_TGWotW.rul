@@ -1,5 +1,5 @@
 ufos:
-  - type: STR_MARTIAN_CAMP
+  - type: STR_MARTIAN_CAMP #ignoreDuplicate
     size: STR_VERY_SMALL
     modSprite: PlaceHolder
     damageMax: 250
@@ -29,7 +29,7 @@ ufos:
         - name: PSCOUT2
           width: 10
           length: 10
-  - type: STR_MARTIAN_OUTPOST
+  - type: STR_MARTIAN_OUTPOST #ignoreDuplicate
     size: STR_SMALL
     modSprite: PlaceHolder
     damageMax: 400
@@ -54,7 +54,7 @@ ufos:
         - name: PABDUCT
           width: 20
           length: 10
-  - type: STR_MARTIAN_TROOP_BARRACKS
+  - type: STR_MARTIAN_TROOP_BARRACKS #ignoreDuplicate
     size: STR_SMALL
     modSprite: PlaceHolder
     damageMax: 750
@@ -86,7 +86,7 @@ ufos:
         - name: P4_B
           width: 20
           length: 20
-  - type: STR_MARTIAN_SUPPLY_DEPOT
+  - type: STR_MARTIAN_SUPPLY_DEPOT #ignoreDuplicate
     size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1500
@@ -115,7 +115,7 @@ ufos:
         - name: P8_A
           width: 20
           length: 20
-  - type: STR_MARTIAN_CLONE_LAB
+  - type: STR_MARTIAN_CLONE_LAB #ignoreDuplicate
     size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 1000
@@ -144,7 +144,7 @@ ufos:
         - name: P7_B
           width: 20
           length: 20
-  - type: STR_MARTIAN_HIGH_COMMAND
+  - type: STR_MARTIAN_HIGH_COMMAND #ignoreDuplicate
     size: STR_LARGE
     modSprite: PlaceHolder
     damageMax: 2500
@@ -173,7 +173,7 @@ ufos:
         - name: P6_B
           width: 30
           length: 20
-  - type: STR_MARTIAN_HARVEST_FACILITY
+  - type: STR_MARTIAN_HARVEST_FACILITY #ignoreDuplicate
     size: STR_MEDIUM_UC
     modSprite: PlaceHolder
     damageMax: 800
@@ -201,7 +201,7 @@ ufos:
         - name: PHARVEST
           width: 20
           length: 20
-  - type: STR_MARTIAN_WATCHTOWER
+  - type: STR_MARTIAN_WATCHTOWER #ignoreDuplicate
     size: STR_SMALL
     modSprite: PlaceHolder
     damageMax: 550
@@ -232,7 +232,7 @@ ufos:
         - name: PTower2
           width: 10
           length: 10
-  - type: STR_MARTIAN_REDOUBT
+  - type: STR_MARTIAN_REDOUBT #ignoreDuplicate
     size: STR_VERY_LARGE
     modSprite: PlaceHolder
     damageMax: 3000

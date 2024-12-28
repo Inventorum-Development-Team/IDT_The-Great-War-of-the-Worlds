@@ -8,10 +8,10 @@ startingTime:
   day: 12
   month: 9
   year: 1914
-costEngineer: 2500
-costScientist: 3000
+costEngineer: 5500
+costScientist: 6000
 displayCustomCategories: 2
-timePersonnel: 72
+timePersonnel: 96
 maxViewDistance: 40
 initialFunding: 500
 alienFuel: [STR_ELERIUM_115, 50]

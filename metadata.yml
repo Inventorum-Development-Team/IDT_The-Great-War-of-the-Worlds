@@ -8,5 +8,5 @@ isMaster: true
 loadResources:
   - UFO
 reservedSpace: 6
-requiredExtendedVersion: "7.8"
+requiredExtendedVersion: "8.0"
 resourceConfig: transparency.rul

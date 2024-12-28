@@ -1,3 +1,12 @@
+30-December-2024: 1.2 "Upgrade Chapter 1"
+Changes made:
+* Updated the mod for OXCE 8.0v
+* All of the Code / Syntax are reorganized to meet minimal requirement.
+* Fixed Typos and adding missing text.
+* Changed to hiring arrival time to 4 days.
+* Changed the initial funding to 500k; realism settings
+* Changed scientist and engineers hiring costs: 6000 and 5500 for realism settings
+* The start of the game difficult is increased and you have few months to prepare for battle.
 7-January-2024: 1.1 "Attrition"
 Changes made:
 * Fixed fatal crash related to Martian air interception missions, by Buscher; reported by Kiro Xei, LogriasDa2nd & tajava

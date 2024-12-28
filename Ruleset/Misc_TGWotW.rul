@@ -352,52 +352,52 @@ ufos:
     marker: 47 #
     markerLand: 73
     markerCrash: 99
-  - type: STR_MARTIAN_LIGHT_FIGHTER
+  - type: STR_MARTIAN_LIGHT_FIGHTER #ignoreDuplicate
     marker: 48
     markerLand: 74
     markerCrash: 100
-  - type: NIMBLE_FIGHTER
+  - type: NIMBLE_FIGHTER #ignoreDuplicate
     marker: 49
     markerLand: 75
     markerCrash: 101
-  - type: TRANSPORT_BARGE
+  - type: TRANSPORT_BARGE #ignoreDuplicate
     marker: 50
     markerLand: 76
     markerCrash: 102
-  - type: BLOCKADE_RUNNER
+  - type: BLOCKADE_RUNNER #ignoreDuplicate
     marker: 51
     markerLand: 77
     markerCrash: 103
-  - type: SUPPORT_BOAT
+  - type: SUPPORT_BOAT #ignoreDuplicate
     marker: 52
     markerLand: 78
     markerCrash: 104
-  - type: FRIGATE
+  - type: FRIGATE #ignoreDuplicate
     marker: 53
     markerLand: 79
     markerCrash: 105
-  - type: DESTROYER
+  - type: DESTROYER #ignoreDuplicate
     marker: 54
     markerLand: 80
     markerCrash: 106
-  - type: CRUISER
+  - type: CRUISER #ignoreDuplicate
     marker: 55
     markerLand: 81
     markerCrash: 107
-  - type: STR_SELENITE_FIGHTER
+  - type: STR_SELENITE_FIGHTER #ignoreDuplicate
     marker: 56
     markerLand: 82
     markerCrash: 108
-  - type: STR_SELENITE_GUNSHIP
+  - type: STR_SELENITE_GUNSHIP #ignoreDuplicate
     marker: 57
     markerLand: 83
     markerCrash: 109
-  - type: STR_SELENITE_TRANSPORT
+  - type: STR_SELENITE_TRANSPORT #ignoreDuplicate
     marker: 58
     markerLand: 84
     markerCrash: 110
-  - type: STR_MARTIAN_CAMP
-    marker: 59 ####
+  - type: STR_MARTIAN_CAMP #ignoreDuplicate
+    marker: 59
     markerLand: 85
     markerCrash: 111
   - type: STR_MARTIAN_OUTPOST

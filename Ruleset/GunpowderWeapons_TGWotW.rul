@@ -146,14 +146,7 @@ items:
   ######### BALLISTIC BOLT-ACTION RIFLES #########
   ###############################################
   - type: STR_SMLE_MKIII
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, ]
     requiresBuy:
       - STR_SMLE_MKIII_UNLOCK
     requiresBuyCountry: STR_UK
@@ -245,14 +238,7 @@ items:
     attraction: 8
     listOrder: 2000
   - type: STR_SMLE_MKIII_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SMLE_MKIII_AMMO_UNLOCK
     requiresBuyCountry: STR_UK
@@ -280,14 +266,7 @@ items:
     armor: 12
     listOrder: 2010
   - type: STR_SMLE_MKIII_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SMLE_MKIII_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_UK
@@ -316,16 +295,7 @@ items:
     armor: 12
     listOrder: 2020
   - type: STR_P14_ENFIELD
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_SNIPER_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_SNIPER_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, ]
     requiresBuy:
       - STR_P14_ENFIELD_UNLOCK
     requiresBuyCountry: STR_UK
@@ -361,14 +331,7 @@ items:
     attraction: 8
     listOrder: 2030
   - type: STR_SPRINGFIELD
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, ]
     requiresBuy:
       - STR_SPRINGFIELD_UNLOCK
     requiresBuyCountry: STR_USA
@@ -459,14 +422,7 @@ items:
     attraction: 8
     listOrder: 2040
   - type: STR_SPRINGFIELD_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SPRINGFIELD_AMMO_UNLOCK
     requiresBuyCountry: STR_USA
@@ -496,14 +452,7 @@ items:
     armor: 12
     listOrder: 2050
   - type: STR_SPRINGFIELD_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SPRINGFIELD_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_USA
@@ -533,8 +482,7 @@ items:
     armor: 12
     listOrder: 2060
   - type: STR_GEWEHR98
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT]
     size: 0.02
     requiresBuyCountry: STR_GERMANY
     costBuy: 1500
@@ -623,8 +571,7 @@ items:
     attraction: 8
     listOrder: 2070
   - type: STR_GEWEHR98_CLIP
-    categories:
-      [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     size: 0.01
     requiresBuyCountry: STR_GERMANY
     costBuy: 150
@@ -650,8 +597,7 @@ items:
     armor: 12
     listOrder: 2080
   - type: STR_GEWEHR98_CLIP_KMM
-    categories:
-      [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
+    categories: [STR_BALLISTIC, STR_SNIPER_RIFLES, STR_GERMAN_EQUIPMENT, STR_CLIPS]
     requiresBuy:
       - STR_GEWEHR98_KMM_AMMO_UNLOCK
     size: 0.01
@@ -679,14 +625,7 @@ items:
     armor: 12
     listOrder: 2090
   - type: STR_LEBEL
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, ]
     requiresBuy:
       - STR_LEBEL_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -778,14 +717,7 @@ items:
     attraction: 8
     listOrder: 2100
   - type: STR_LEBEL_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_LEBEL_AMMO_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -813,14 +745,7 @@ items:
     armor: 12
     listOrder: 2110
   - type: STR_LEBEL_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_LEBEL_KMM_AMMO_UNLOCK
     size: 0.01
@@ -848,14 +773,7 @@ items:
     armor: 12
     listOrder: 2120
   - type: STR_MOSIN_NAGANT
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, ]
     requiresBuy:
       - STR_MOSIN_NAGANT_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -947,14 +865,7 @@ items:
     attraction: 8
     listOrder: 2130
   - type: STR_WINCHESTER_M1915
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, ]
     requiresBuy:
       - STR_WINCHESTER_M1915_UNLOCK
     requiresBuyCountry: STR_USA
@@ -1045,8 +956,7 @@ items:
     attraction: 8
     listOrder: 2140
   - type: STR_OBREZ_PISTOL
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_RUSSIAN_EQUIPMENT]
     requiresBuy:
       - STR_OBREZ_PISTOL_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -1075,14 +985,7 @@ items:
     armor: 250
     listOrder: 2145
   - type: STR_MOSIN_NAGANT_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES, STR_PISTOLS,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_PISTOLS, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MOSIN_NAGANT_AMMO_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -1112,14 +1015,7 @@ items:
     armor: 12
     listOrder: 2150
   - type: STR_MOSIN_NAGANT_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES, STR_PISTOLS,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_PISTOLS, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MOSIN_NAGANT_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -1149,14 +1045,7 @@ items:
     armor: 12
     listOrder: 2160
   - type: STR_BERDAN_II
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, ]
     requiresBuy:
       - STR_BERDAN_II_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -1247,14 +1136,7 @@ items:
     attraction: 8
     listOrder: 2170
   - type: STR_BERDAN_II_AMMO
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_BERDAN_II_AMMO_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -1284,14 +1166,7 @@ items:
     armor: 12
     listOrder: 2180
   - type: STR_BERDAN_II_AMMO_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_BERDAN_II_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -1394,8 +1269,7 @@ items:
   ##### BOLT-ACTION RIFLES ######
   #########################################
   - type: STR_PHLOGISTON_PROTOTYPE
-    categories:
-      [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_PHLOGISTON_PROTOTYPE
     size: 0.02
@@ -1433,8 +1307,7 @@ items:
     attraction: 8
     listOrder: 2200
   - type: STR_PHLOGISTON_HEAVY_RIFLE
-    categories:
-      [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
     size: 0.02
@@ -1470,14 +1343,7 @@ items:
     attraction: 8
     listOrder: 2205
   - type: STR_PHLOGISTON_RUBY_CLIP
-    categories:
-      [
-        STR_PHLOGISTON,
-        STR_FIREARMS,
-        STR_BOLT_ACTION_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_CLIPS,
-      ]
+    categories: [ STR_PHLOGISTON, STR_FIREARMS, STR_BOLT_ACTION_RIFLES, STR_RIFLEMAN_CLASS, STR_CLIPS, ]
     requiresBuy:
       - STR_PHLOGISTON_HEAVY_WEAPON_DEVELOPMENT
     size: 0.01
@@ -1508,14 +1374,7 @@ items:
   ######### BALLISTIC SELF-LOADING RIFLES ########
   ###############################################
   - type: STR_FARQHUAR_HILL
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, ]
     requiresBuy:
       - STR_FARQHUAR_HILL_UNLOCK
     requiresBuyCountry: STR_UK
@@ -1552,14 +1411,7 @@ items:
     attraction: 8
     listOrder: 2220
   - type: STR_FARQHUAR_HILL_DRUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_FARQHUAR_HILL_AMMO_UNLOCK
     requiresBuyCountry: STR_UK
@@ -1590,14 +1442,7 @@ items:
     listOrder: 2230
     costBuy: 1000
   - type: STR_FARQHUAR_HILL_DRUM_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_FARQHUAR_HILL_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_UK
@@ -1628,13 +1473,7 @@ items:
     listOrder: 2240
     costBuy: 1000
   - type: STR_MONDRAGON
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, ]
     requiresBuy:
       - STR_MONDRAGON_UNLOCK
     requiresBuyCountry: STR_MEXICAN_RESISTANCE
@@ -1673,43 +1512,9 @@ items:
     armor: 30
     # Bayonet segment
     meleeSound:
-      [
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-      ]
+      [ 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, ]
     meleeHitSound:
-      [
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-      ]
+      [ 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, ]
     #Stab sounds
     meleeAnimation: 0
     meleeType: 7
@@ -1730,14 +1535,7 @@ items:
     attraction: 7
     listOrder: 2250
   - type: STR_MONDRAGON_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MONDRAGON_AMMO_UNLOCK
     requiresBuyCountry: STR_MEXICAN_RESISTANCE
@@ -1768,14 +1566,7 @@ items:
     attraction: 7
     listOrder: 2260
   - type: STR_MONDRAGON_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MONDRAGON_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_MEXICAN_RESISTANCE
@@ -1806,14 +1597,7 @@ items:
     attraction: 7
     listOrder: 2270
   - type: STR_SELBSTLADER_M1916
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SNIPER_RIFLES,
-        STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS,
-        STR_GERMAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SNIPER_RIFLES, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_GERMAN_EQUIPMENT, ]
     requiresBuy:
       - STR_SELBSTLADER_M1916_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -1851,14 +1635,7 @@ items:
     attraction: 10
     listOrder: 2280
   - type: STR_SELBSTLADER_M1916_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SNIPER_RIFLES,
-        STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SNIPER_RIFLES, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_GERMAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SELBSTLADER_M1916_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -1889,14 +1666,7 @@ items:
     attraction: 7
     listOrder: 2290
   - type: STR_SELBSTLADER_M1916_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SNIPER_RIFLES,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SNIPER_RIFLES, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SELBSTLADER_M1916_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -1927,14 +1697,7 @@ items:
     attraction: 7
     listOrder: 2300
   - type: STR_RSC17
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, ]
     requiresBuy:
       - STR_RSC17_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -1973,14 +1736,7 @@ items:
     attraction: 8
     listOrder: 2310
   - type: STR_RSC17_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_RSC17_AMMO_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -2012,14 +1768,7 @@ items:
     invHeight: 1
     listOrder: 2320
   - type: STR_RSC_CARBINE
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, ]
     requiresBuy:
       - STR_RSC_CARBINE_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -2058,14 +1807,7 @@ items:
     attraction: 8
     listOrder: 2315
   - type: STR_RSC17_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_FRENCH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_RSC17_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -2097,14 +1839,7 @@ items:
     invHeight: 1
     listOrder: 2330
   - type: STR_FEDOROV_AVTOMAT
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_RIFLEMAN_CLASS, ]
     requiresBuy:
       - STR_FEDOROV_AVTOMAT_UNLOCK
     #requiresBuy:
@@ -2147,14 +1882,7 @@ items:
     attraction: 10
     listOrder: 2340
   - type: STR_FEDOROV_AVTOMAT_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS, ]
     requiresBuy:
       - STR_FEDOROV_AVTOMAT_AMMO_UNLOCK
     #requiresBuy:
@@ -2185,14 +1913,7 @@ items:
     attraction: 7
     listOrder: 2350
   - type: STR_FEDOROV_AVTOMAT_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS, ]
     requiresBuy:
       - STR_FEDOROV_AVTOMAT_KMM_AMMO_UNLOCK
     #requiresBuy:
@@ -2223,14 +1944,7 @@ items:
     attraction: 7
     listOrder: 2360
   - type: STR_CEI_RIGOTTI
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_ITALIAN_EQUIPMENT,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_RIFLEMAN_CLASS, ]
     requiresBuy:
       - STR_CEI_RIGOTTI_UNLOCK
     #requiresBuy:
@@ -2273,14 +1987,7 @@ items:
     attraction: 10
     listOrder: 2370
   - type: STR_CEI_RIGOTTI_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_ITALIAN_EQUIPMENT,
-        STR_CLIPS,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS, ]
     requiresBuy:
       - STR_CEI_RIGOTTI_AMMO_UNLOCK
     #requiresBuy:
@@ -2311,14 +2018,7 @@ items:
     attraction: 7
     listOrder: 2380
   - type: STR_CEI_RIGOTTI_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SELFLOADING_RIFLES,
-        STR_ITALIAN_EQUIPMENT,
-        STR_CLIPS,
-        STR_RIFLEMAN_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_RIFLEMAN_CLASS, ]
     requiresBuy:
       - STR_CEI_RIGOTTI_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -2352,8 +2052,7 @@ items:
   ######### SELF-LOADING RIFLES #######
   ###############################################
   - type: STR_PHLOGISTON_BATTLE_RIFLE
-    categories:
-      [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS]
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS]
     requiresBuy:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
     size: 0.02
@@ -2401,14 +2100,7 @@ items:
   #    tags:
   #WEAPON_TYPE: 1 # Rifles
   - type: STR_PHLOGISTON_MEDIUM_BATTERY
-    categories:
-      [
-        STR_PHLOGISTON,
-        STR_FIREARMS,
-        STR_SELFLOADING_RIFLES,
-        STR_RIFLEMAN_CLASS,
-        STR_CLIPS,
-      ]
+    categories: [ STR_PHLOGISTON, STR_FIREARMS, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_CLIPS, ]
     requiresBuy:
       - STR_PHLOGISTON_INFANTRY_WEAPON_DEVELOPMENT
     size: 0.01
@@ -2440,8 +2132,7 @@ items:
   ######### BALLISTIC SIDEARMS ############
   ########################################
   - type: STR_AUTOMATIC_REVOLVER
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_ITALIAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_BRITISH_EQUIPMENT, STR_ITALIAN_EQUIPMENT]
     requiresBuy:
       - STR_AUTOMATIC_REVOLVER_UNLOCK
     requiresBuyCountry: STR_UK
@@ -2476,8 +2167,7 @@ items:
     armor: 250
     listOrder: 2420
   - type: STR_HEAVY_REVOLVER
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
     requiresBuy:
       - STR_HEAVY_REVOLVER_UNLOCK
     requiresBuyCountry: STR_GERMAN
@@ -2509,8 +2199,7 @@ items:
     armor: 250
     listOrder: 2430
   - type: STR_SERVICE_REVOLVER
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_AUSTRO_HUNGARIAN_EQUIPMENT]
     requiresBuy:
       - STR_SERVICE_REVOLVER_UNLOCK
     requiresBuyCountry: STR_USA
@@ -2632,8 +2321,7 @@ items:
     armor: 250
     listOrder: 2470
   - type: STR_M1911_COLT
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_PISTOLS, STR_AMERICAN_EQUIPMENT]
     requiresBuy:
       - STR_M1911_COLT_UNLOCK
     requiresBuyCountry: STR_USA
@@ -3014,8 +2702,7 @@ items:
     listOrder: 2590
   #    listOrder: 2002
   - type: STR_PHLOGISTON_SMALL_BATTERY
-    categories:
-      [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS, STR_CLIPS]
+    categories: [STR_PHLOGISTON, STR_FIREARMS, STR_PISTOLS, STR_RIFLEMAN_CLASS, STR_CLIPS]
     requiresBuy:
       - STR_PHLOGISTON_HANDHELD_WEAPON_DEVELOPMENT
     size: 0.01
@@ -3044,16 +2731,7 @@ items:
   ############# BALLISTIC CARBINES ############
   ############################################
   - type: STR_M1907_SL_CARBINE
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_MEDIC_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_BRITISH_EQUIPMENT ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.01
@@ -3095,16 +2773,7 @@ items:
     attraction: 10
     listOrder: 2610
   - type: STR_M1907_SL_CARBINE_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_MEDIC_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_AMERICAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025
@@ -3136,15 +2805,7 @@ items:
     armor: 35
     listOrder: 2620
   - type: STR_M1907_SL_CARBINE_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_MEDIC_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_M1907_SL_CARBINE_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_USA
@@ -3205,8 +2866,7 @@ items:
   #  armor: 250
   #  listOrder: 2000
   - type: STR_MAUSER_C96_CARBINE
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
     requiresBuy:
       - STR_MAUSER_C96_CARBINE_UNLOCK
     size: 0.01
@@ -3291,8 +2951,7 @@ items:
     armor: 250
     listOrder: 2660
   - type: STR_LUGER_ARTILLERY
-    categories:
-      [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
+    categories: [STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_GERMAN_EQUIPMENT]
     requiresBuy:
       - STR_LUGER_ARTILLERY_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -3383,14 +3042,7 @@ items:
     armor: 250
     listOrder: 2690
   - type: STR_CARCANO_M91_CARBINE
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_ITALIAN_EQUIPMENT,
-        STR_MEDIC_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_ITALIAN_EQUIPMENT, STR_MEDIC_CLASS, ]
     requiresBuy:
       - STR_CARCANO_M91_CARBINE_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -3423,44 +3075,8 @@ items:
     invWidth: 1
     invHeight: 3
     # Bayonet segment
-    meleeSound:
-      [
-        179,
-        180,
-        181,
-        182,
-        183,
-        184,
-        185,
-        186,
-        187,
-        188,
-        189,
-        190,
-        191,
-        192,
-        193,
-      ]
-    meleeHitSound:
-      [
-        152,
-        153,
-        154,
-        155,
-        156,
-        157,
-        158,
-        159,
-        160,
-        161,
-        162,
-        163,
-        164,
-        165,
-        166,
-        167,
-        168,
-      ]
+    meleeSound: [ 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, ]
+    meleeHitSound: [ 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, ]
     #Stab sounds
     meleeAnimation: 0
     meleeType: 7
@@ -3481,14 +3097,7 @@ items:
     attraction: 8
     listOrder: 2710
   - type: STR_CARCANO_M91_CARBINE_CLIP
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_ITALIAN_EQUIPMENT,
-        STR_CLIPS,
-        STR_MEDIC_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_CARBINES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_MEDIC_CLASS, ]
     requiresBuy:
       - STR_CARCANO_M91_CARBINE_AMMO_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -3516,14 +3125,7 @@ items:
     armor: 12
     listOrder: 2720
   - type: STR_CARCANO_M91_CARBINE_CLIP_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_ITALIAN_EQUIPMENT,
-        STR_CLIPS,
-        STR_MEDIC_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_CARBINES, STR_ITALIAN_EQUIPMENT, STR_CLIPS, STR_MEDIC_CLASS, ]
     requiresBuy:
       - STR_CARCANO_M91_CARBINE_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -3553,17 +3155,9 @@ items:
   ############ CARBINES ############
   ############################################
   - type: STR_PHLOGISTON_AUTOMATIC_CARBINE
-    categories:
-      [
-        STR_PHLOGISTON,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_MEDIC_CLASS,
-      ]
+    categories: [ STR_PHLOGISTON, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, ]
     requiresBuy:
       - STR_PHLOGISTON_SUPPORT_WEAPON_DEVELOPMENT
-    #requiresBuy:
-     # - STR_ADVANCED_FIREARMS
     size: 0.01
     costBuy: 4000
     costSell: 3200
@@ -3613,14 +3207,7 @@ items:
   ############# BALLISTIC SMGS ############
   ########################################
   - type: STR_ANNIHILATOR_SMG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, ]
     requiresBuy:
       - STR_ANNIHILATOR_SMG_UNLOCK
     #requiresBuy:
@@ -3676,14 +3263,7 @@ items:
     attraction: 10
     listOrder: 2750
   - type: STR_ANNIHILATOR_SMG_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_ANNIHILATOR_SMG_AMMO_UNLOCK
     requiresBuyCountry: STR_USA
@@ -3717,14 +3297,7 @@ items:
     armor: 35
     listOrder: 2760
   - type: STR_ANNIHILATOR_SMG_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_ANNIHILATOR_SMG_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_USA
@@ -3758,14 +3331,7 @@ items:
     armor: 35
     listOrder: 2770
   - type: STR_MP18
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, ]
     requiresBuy:
       - STR_MP18_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -3821,14 +3387,7 @@ items:
     attraction: 10
     listOrder: 2780
   - type: STR_MP18_DRUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MP18_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -3862,14 +3421,7 @@ items:
     armor: 35
     listOrder: 2790
   - type: STR_MP18_DRUM_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MP18_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -3903,15 +3455,7 @@ items:
     armor: 35
     listOrder: 2800
   - type: STR_SMG_0818
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SMGS,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_RUSSIAN_EQUIPMENT, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, ]
     requiresBuy:
       - STR_SMG_0818_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -3966,15 +3510,7 @@ items:
     attraction: 10
     listOrder: 2810
   - type: STR_SMG_0818_BOX
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_RUSSIAN_EQUIPMENT, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SMG_0818_AMMO_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -4008,14 +3544,7 @@ items:
     armor: 35
     listOrder: 2820
   - type: STR_SMG_0818_BOX_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS, STR_RUSSIAN_EQUIPMENT,
-        STR_ASSAULT_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_RUSSIAN_EQUIPMENT, STR_ASSAULT_CLASS, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SMG_0818_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -4049,15 +3578,7 @@ items:
     armor: 35
     listOrder: 2830
   - type: STR_BERETTA_MAB18
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SMGS,
-        STR_ITALIAN_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_ASSAULT_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_ASSAULT_CLASS, ]
     requiresBuy:
       - STR_BERETTA_MAB18_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -4167,15 +3688,7 @@ items:
     attraction: 10
     listOrder: 2840
   - type: STR_BERETTA_MAB18_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ITALIAN_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-        STR_ASSAULT_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS, ]
     requiresBuy:
       - STR_BERETTA_MAB18_AMMO_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -4209,15 +3722,7 @@ items:
     armor: 35
     listOrder: 2850
   - type: STR_BERETTA_MAB18_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ITALIAN_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-        STR_ASSAULT_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS, ]
     requiresBuy:
       - STR_BERETTA_MAB18_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -4251,14 +3756,7 @@ items:
     armor: 35
     listOrder: 2860
   - type: STR_VILLAR_PEROSA
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SMGS,
-        STR_ITALIAN_EQUIPMENT,
-        STR_ASSAULT_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_ASSAULT_CLASS, ]
     requiresBuy:
       - STR_VILLAR_PEROSA_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -4318,15 +3816,7 @@ items:
     attraction: 10
     listOrder: 2870
   - type: STR_VILLAR_PEROSA_MAGS
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ITALIAN_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-        STR_ASSAULT_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS, ]
     requiresBuy:
       - STR_VILLAR_PEROSA_AMMO_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -4360,15 +3850,7 @@ items:
     armor: 35
     listOrder: 2880
   - type: STR_VILLAR_PEROSA_MAGS_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SMGS,
-        STR_ITALIAN_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-        STR_ASSAULT_CLASS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SMGS, STR_ITALIAN_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, STR_ASSAULT_CLASS, ]
     requiresBuy:
       - STR_VILLAR_PEROSA_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_ITALY
@@ -4533,15 +4015,7 @@ items:
   ############ BALLISTIC LMGS #############
   ########################################
   - type: STR_HUOT_LMG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, ]
     requiresBuy:
       - STR_HUOT_LMG_UNLOCK
     requiresBuyCountry: STR_CANADA
@@ -4591,15 +4065,7 @@ items:
     attraction: 10
     listOrder: 2930
   - type: STR_HUOT_LMG_DRUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_HUOT_LMG_AMMO_UNLOCK
     requiresBuyCountry: STR_CANADA
@@ -4632,15 +4098,7 @@ items:
     attraction: 10
     listOrder: 2940
   - type: STR_HUOT_LMG_DRUM_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_HUOT_LMG_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_CANADA
@@ -4673,13 +4131,7 @@ items:
     attraction: 10
     listOrder: 2950
   - type: STR_BAR
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, ]
     requiresBuy:
       - STR_BAR_UNLOCK
     requiresBuyCountry: STR_USA
@@ -4727,14 +4179,7 @@ items:
     listOrder: 2960
     bulletSpeed: 17
   - type: STR_BAR_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_BAR_AMMO_UNLOCK
     requiresBuyCountry: STR_USA
@@ -4765,14 +4210,7 @@ items:
     battleType: 2
     listOrder: 2970
   - type: STR_BAR_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_BAR_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_USA
@@ -4803,15 +4241,7 @@ items:
     battleType: 2
     listOrder: 2980
   - type: STR_MG0815
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, ]
     requiresBuy:
       - STR_MG0815_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -4863,15 +4293,7 @@ items:
     attraction: 9
     listOrder: 2990
   - type: STR_MG0815_DRUM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MG0815_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -4904,15 +4326,7 @@ items:
     attraction: 9
     listOrder: 3000
   - type: STR_MG0815_DRUM_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MG0815_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -4945,15 +4359,7 @@ items:
     attraction: 9
     listOrder: 3010
   - type: STR_CHAUCHAT_LMG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, ]
     requiresBuy:
       - STR_CHAUCHAT_LMG_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -5003,15 +4409,7 @@ items:
     attraction: 10
     listOrder: 3020
   - type: STR_CHAUCHAT_LMG_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_CHAUCHAT_LMG_AMMO_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -5042,15 +4440,7 @@ items:
     attraction: 10
     listOrder: 3030
   - type: STR_CHAUCHAT_LMG_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_CHAUCHAT_LMG_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -5081,15 +4471,7 @@ items:
     attraction: 10
     listOrder: 3040
   - type: STR_RIBEYROLLES
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_CARBINES,
-        STR_MEDIC_CLASS,
-        STR_LIGHT_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_CARBINES, STR_MEDIC_CLASS, STR_LIGHT_EQUIPMENT, STR_FRENCH_EQUIPMENT, ]
     requiresBuy:
       - STR_RIBEYROLLES_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -5142,15 +4524,7 @@ items:
     attraction: 10
     listOrder: 3050
   - type: STR_RIBEYROLLES_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_MEDIC_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_RIBEYROLLES_AMMO_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -5184,15 +4558,7 @@ items:
     armor: 35
     listOrder: 3060
   - type: STR_RIBEYROLLES_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_CARBINES,
-        STR_MEDIC_CLASS,
-        STR_FRENCH_EQUIPMENT,
-        STR_LIGHT_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_RIBEYROLLES_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_FRANCE
@@ -5226,15 +4592,7 @@ items:
     armor: 35
     listOrder: 3070
   - type: STR_LEWIS_GUN
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, ]
     requiresBuy:
       - STR_LEWIS_GUN_UNLOCK
     requiresBuyCountry: STR_UK
@@ -5285,15 +4643,7 @@ items:
     attraction: 10
     listOrder: 3080
   - type: STR_LEWIS_GUN_PAN
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_LEWIS_GUN_AMMO_UNLOCK
     requiresBuyCountry: STR_UK
@@ -5326,15 +4676,7 @@ items:
     attraction: 10
     listOrder: 3090
   - type: STR_LEWIS_GUN_PAN_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_LEWIS_GUN_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_UK
@@ -5367,16 +4709,7 @@ items:
     attraction: 10
     listOrder: 3100
   - type: STR_MADSEN_LMG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     requiresBuyCountry: STR_GERMANY
@@ -5424,15 +4757,7 @@ items:
     attraction: 10
     listOrder: 3110
   - type: STR_MADSEN_LMG_MAG
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, ]
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     requiresBuyCountry: STR_GERMANY
@@ -5463,15 +4788,7 @@ items:
     attraction: 10
     listOrder: 3120
   - type: STR_MADSEN_LMG_MAG_KMM
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_MACHINE_GUNS,
-        STR_SUPPORT_CLASS,
-        STR_HEAVY_EQUIPMENT,
-        STR_BRITISH_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_MACHINE_GUNS, STR_SUPPORT_CLASS, STR_HEAVY_EQUIPMENT, STR_BRITISH_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MADSEN_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
@@ -5587,14 +4904,7 @@ items:
   ########## BALLISTIC SHOTGUNS ###########
   ########################################
   - type: STR_WINCHESTER_TRENCH_GUN
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SHOTGUNS,
-        STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, ]
     requiresBuy:
       - STR_WINCHESTER_TRENCH_GUN_UNLOCK
     requiresBuyCountry: STR_USA
@@ -5639,15 +4949,7 @@ items:
     armor: 250
     listOrder: 3160
   - type: STR_REMINGTON_MODEL_11
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SHOTGUNS,
-        STR_ASSAULT_CLASS,
-        STR_BRITISH_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT ]
     requiresBuy:
       - STR_REMINGTON_MODEL_11_UNLOCK
     requiresBuyCountry: STR_USA
@@ -5683,15 +4985,7 @@ items:
     armor: 250
     listOrder: 3170
   - type: STR_INERTIA_SHOTGUN
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SHOTGUNS,
-        STR_ASSAULT_CLASS,
-        STR_GERMAN_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT ]
     requiresBuy:
       - STR_INERTIA_SHOTGUN_UNLOCK
     requiresBuyCountry: STR_RUSSIA
@@ -5822,16 +5116,7 @@ items:
     armor: 250
     listOrder: 3210
   - type: STR_MODEL_1900_SAWEDOFF
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_FIREARMS,
-        STR_SHOTGUNS,
-        STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-        STR_ITALIAN_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT
-      ]
+    categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT ]
     requiresBuy:
       - STR_MODEL_1900_SAWEDOFF_UNLOCK
     requiresBuyCountry: STR_USA
@@ -5868,17 +5153,7 @@ items:
     armor: 250
     listOrder: 3220
   - type: STR_SHOTGUN_BUCKSHOT_SHELLS_2
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SHOTGUNS,
-        STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-        STR_ITALIAN_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SHOTGUN_BUCKSHOT_SHELLS_2_AMMO_UNLOCK
     #requiresBuy:
@@ -5905,17 +5180,7 @@ items:
     armor: 250
     listOrder: 3230
   - type: STR_SHOTGUN_DUMDUM_SHELLS_2
-    categories:
-      [
-        STR_BALLISTIC,
-        STR_SHOTGUNS,
-        STR_ASSAULT_CLASS,
-        STR_AMERICAN_EQUIPMENT,
-        STR_FRENCH_EQUIPMENT,
-        STR_ITALIAN_EQUIPMENT,
-        STR_RUSSIAN_EQUIPMENT,
-        STR_CLIPS,
-      ]
+    categories: [ STR_BALLISTIC, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, STR_FRENCH_EQUIPMENT, STR_ITALIAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_SHOTGUN_DUMDUM_SHELLS_2_AMMO_UNLOCK
     #requiresBuy:

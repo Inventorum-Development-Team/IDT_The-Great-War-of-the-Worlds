@@ -4382,4 +4382,18 @@ en-US:
       STR_SCARFINT10: Exodia Arbitors
       ####### Craft Defense with Facility Defenses: Requires coding with script; Base Defense with weapon range;
       ###
+      STR_SIEGE_LOW_MORALE_WEAPON: "Siege Attack Morale"
+      STR_BLANKS: "NONE"
+      HEAVY_HEAT_RAY_PROJECTOR_TURRET_SPAWNER: "HHRP Turret Spawn"
+      STR_TGEWEHR_TURRET_CORPSE: "Wrecked TGEWEHR Turret"
+      STR_HUMAN_TECH: "Human-Tech"
+      STR_AUXILIARY: "Auxiliary"
+      STR_SPACE: "Space"
+      STR_LAND: "Land Ground"
+      STR_BUNKER_SPAWN: "Bunker Spawn"
+      New Castle: "NEW CASTLE"
+      STR_HUMAN_WAR_EFFORTS_EVENT_SCRIPT: "Human Forces Event"
+      Bozen: "BOZEN"
+      Vienna: "Vienna"
+      STR_ARMOR_REPAIR: "Personal Vehicle"
       ##STR##
