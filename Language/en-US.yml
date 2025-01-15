@@ -1440,6 +1440,10 @@ en-US:
       STR_CRAFT_LIGHT_CANNON_TWO: "LIGHT CANNON-2>{ALT}{0}"
       STR_CRAFT_LIGHT_CANNON_THREE: "LIGHT CANNON-3>{ALT}{0}"
       STR_CRAFT_LIGHT_CANNON_FOUR: "LIGHT CANNON-4>{ALT}{0}"
+      STR_CRAFT_CANNON_ONE: "CANNON-1>{ALT}{0}"
+      STR_CRAFT_CANNON_TWO: "CANNON-2>{ALT}{0}"
+      STR_CRAFT_CANNON_THREE: "CANNON-3>{ALT}{0}"
+      STR_CRAFT_CANNON_FOUR: "CANNON-4>{ALT}{0}"
       STR_CRAFT_AUTOCANNON_ONE: "AUTOCANNON-1>{ALT}{0}"
       STR_CRAFT_AUTOCANNON_TWO: "AUTOCANNON-2>{ALT}{0}"
       STR_CRAFT_AUTOCANNON_THREE: "AUTOCANNON-3>{ALT}{0}"
@@ -1448,6 +1452,10 @@ en-US:
       STR_CRAFT_ARTILLERY_TWO: "ARTILLERY-2>{ALT}{0}"
       STR_CRAFT_ARTILLERY_THREE: "ARTILLERY-3>{ALT}{0}"
       STR_CRAFT_ARTILLERY_FOUR: "ARTILLERY-4>{ALT}{0}"
+      STR_CRAFT_ENERGY_WEAPON_ONE: "ENERGY WEAPON-1>{ALT}{0}"
+      STR_CRAFT_ENERGY_WEAPON_TWO: "ENERGY WEAPON-2>{ALT}{0}"
+      STR_CRAFT_ENERGY_WEAPON_THREE: "ENERGY WEAPON-3>{ALT}{0}"
+      STR_CRAFT_ENERGY_WEAPON_FOUR: "ENERGY WEAPON-4>{ALT}{0}"
       STR_CRAFT_ROCKET_ONE: "ROCKET-1>{ALT}{0}"
       STR_CRAFT_ROCKET_TWO: "ROCKET-2>{ALT}{0}"
       STR_CRAFT_ROCKET_THREE: "ROCKET-3>{{ALT}{0}"
@@ -2442,6 +2450,8 @@ en-US:
       STR_CALIFORNIAARCHIVES1WIKI: ""
       STR_HAWAIIARCHIVES1: "Hawaii Strange Sightings"
       STR_HAWAIIARCHIVES1WIKI: ""
+      STR_NORTHPACIFICINCIDENT1: ""
+      STR_NORTHPACIFICINCIDENT1WIKI: ""
       ### Personal Armor ###
       STR_JUNOPROJECT: "Jumpsuit Utility-Belt Navigator Outift"
       STR_JUNOPROJECTWIKI: "Jumpsuit Utility-Belt Navigator Outift"
@@ -2656,9 +2666,9 @@ en-US:
       ## 22 Years to prepare the survival mode
       ## 1990 Early to finish the game.
       ## True Endings with: Martianoids; Octasapiens; Jovians; Exodus; Independence
-      ## Martianoids:
-      ## Octasapiens:
-      ## Jovians:
+      ## Martianoids: The Fruit of Forgiveness
+      ## Octasapiens: The construction of the Human New Colony
+      ## Jovians: The New Dimension
       ## Exodus: Humans expedition on Aether world
       ## Independnce: Humans new starsystem organization
 ######### The Species Advance Civilization ###########
@@ -2675,7 +2685,7 @@ en-US:
       STR_MARTIAN_HUMANOIDS: "Martian Humanoids"
       STR_MARTIAN_HUMANOIDS_UFOPEDIA: "The Martian humanoids looks familiar to humans only in a different physical traits. However, they live in a harsh climates which their bodys able to produce heat better than our counterparts. They do travel anywhere on cold hostile environment except heat temperatures. This challenge us to learn survival on cold hostile planets. Which we will create a plan for our next generations."
       STR_MARTIAN_HUMANOIDS_LAUNGUAGE: "Martian Humanoids Language Arts"
-      STR_MARTIAN_HUMANOIDS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts. The Martian Humanoids writings can allow us to translate our words to their readings. "
+      STR_MARTIAN_HUMANOIDS_L_UFOPEDIA: "Our scientist and xenologist have completed the Martian Humanoids language arts. The Martian Humanoids writings can allow us to translate our words to their readings."
       STR_MARTIAN_HUMANOIDS_FOOD: "Martian Humanoids Foodstuffs"
       STR_MARTIAN_HUMANOIDS_FOOD_UFOPEDIA: "Martian Humanoids diet relies on rich iron nutrients with few calories. Although they also eat vegetables on Mars, which they had a agriculture on Mars surface. They don't seem to starve that much, but the preserve their calories without wasting foodstuffs. However, we have confirmed that these alien plants contains fruits and vegatables where the Martians collect food. We don't know if the alien fruit / vegatbles would fit for human diet."
       STR_MARTIAN_HUMANOIDS_CULTURE: "Martian Humanoid Culture"
@@ -3294,19 +3304,21 @@ en-US:
 ##########  Human Research On Octasapiens
 ## Octasapiens
       STR_OCTASAPIENS: "Martian Octasapiens"
-      STR_OCTASAPIENS_UFOPEDIA: "A bizzare big head octopus into a real evolved sapient species. Large spine in a full body without tentacles and their fingers are merged into limbs with 4 parts. A incredible intelligents allows them to adapt the battle situation with better ways. Even they can wield many weapons and vehicles similar to our counterparts. It's impossible to identify any weakness only than normal starvation."
+      STR_OCTASAPIENS_UFOPEDIA: "A bizzare big head octopus into a real evolved sapient species. Large spine in a full body without tentacles and their fingers are merged into limbs with 4 parts. A incredible intelligents allows them to adapt the battle situation with better ways. Even they can wield many weapons and vehicles similar to our counterparts. It's impossible to identify any weakness other than normal starvation."
       STR_OCTASAPIENS_LANGUAGE: "Octasapien Language Arts"
-      STR_OCTASAPIENS_L_UFOPEDIA: "We have completed a compilation of a Martian Octasapiens language Arts based on all information from their ranks. "
+      STR_OCTASAPIENS_L_UFOPEDIA: "We have completed a compilation of a Martian Octasapiens language Arts based on all information from their ranks. From now on, we can now interrogate specific Octasapiens that has more knowledge than low tier ranks."
       STR_OCTASAPIENS_FOOD: "Octasapien Foodstuffs"
-      STR_OCTASAPIENS_FOOD_UFOPEDIA: ""
+      STR_OCTASAPIENS_FOOD_UFOPEDIA: "Octasapiens consumes fruits, vegetables, grains, dairy, and sometimes proteins. It can survive up to 8 months in a empty stomach, while they continue to operate their activities."
       STR_OCTASAPIENS_CULTURE: ""
       STR_OCTASAPIENS_CULTURE_UFOPEDIA: ""
       STR_OCTASAPIENS_AGARTHA: "Mars Subterranean Agartha"
       STR_OCTASAPIENS_SUBTERRANEAN_EMPIRE: "Octasapien Subterranean Empire"
       STR_OCTASAPIENS_SPACE_ELEVATOR: "Mars Space Elevator Structure"
       STR_OCTASAPIENS_ARCHITECTURE: "Martian Humanoids Architecture"
-      STR_OCTASAPIENS_ARCHITECTURE_UFOPEDIA: "Pyramids"
+      STR_OCTASAPIENS_ARCHITECTURE_UFOPEDIA: "Octagon Floor Architecture"
+      STR_OCTASAPIENS_RINGWORLD_DEVELOPMENT1: "Octasapien Ringworld"
       STR_EASTEREGG1: "Yipes! What in the world?!"
+      STR_EASTEREGG2: "This thing is smarter than we are!?"
 ## Octasapien Foreign Forces
       STR_OCTASAPIEN_FOREIGN_TRANSLATE: "Martian Alliance Translation"
       STR_OCTASAPIEN_FOREIGN_TRANSLATE_UFOPEDIA: ""
