@@ -146,11 +146,11 @@ crafts:
 #TIER 0
   - type: STR_FOKKER_EINDECKER
     sprite: 101
-    fuelMax: 250
+    fuelMax: 200
     damageMax: 150
-    speedMax: 250
-    avoidBonus: 25
-    accel: 4
+    speedMax: 75
+    avoidBonus: 5
+    accel: 3
     weapons: 2
     weaponTypes:
       - 0
@@ -165,6 +165,7 @@ crafts:
     requiresBuyCountry: STR_GERMANY
     costBuy: 10000
     costSell: 8500
+    monthlyBuyLimit: 4
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -177,10 +178,10 @@ crafts:
       - STR_GERMAN_FORWARD_FIRING_AIRCRAFT_OPTION_B
   - type: STR_AIRCO_DH2
     sprite: 102
-    fuelMax: 300
+    fuelMax: 250
     damageMax: 130
-    speedMax: 200
-    accel: 4
+    speedMax: 80
+    accel: 1
     avoidBonus: 20
     weapons: 2
     weaponTypes:
@@ -196,6 +197,7 @@ crafts:
     requiresBuyCountry: STR_UK
     costBuy: 12000
     costSell: 9000
+    monthlyBuyLimit: 4
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -210,10 +212,10 @@ crafts:
 # TIER 1
   - type: STR_NIEUPORT_17
     sprite: 103
-    fuelMax: 300
+    fuelMax: 155
     damageMax: 260
-    speedMax: 350
-    accel: 5
+    speedMax: 110
+    accel: 3
     avoidBonus: 15
     weapons: 3
     weaponTypes:
@@ -231,6 +233,7 @@ crafts:
     requiresBuyCountry: STR_FRANCE
     costBuy: 15000
     costSell: 12000
+    monthlyBuyLimit: 4
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -243,9 +246,9 @@ crafts:
       - STR_FRENCH_FIGHTER_OPTION_A
   - type: STR_SOPWITH_PUP
     sprite: 104
-    fuelMax: 400
+    fuelMax: 192
     damageMax: 250
-    speedMax: 300
+    speedMax: 112
     accel: 3
     avoidBonus: 10
     hitBonus: 15
@@ -265,6 +268,7 @@ crafts:
     requiresBuyCountry: STR_UK
     costBuy: 18000
     costSell: 16000
+    monthlyBuyLimit: 4
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -277,9 +281,9 @@ crafts:
       - STR_BRITISH_SCOUT_OPTION_B
   - type: STR_ALBATROS_DIII
     sprite: 105
-    fuelMax: 350
+    fuelMax: 300
     damageMax: 270
-    speedMax: 340
+    speedMax: 110
     accel: 4
     avoidBonus: 15
     weapons: 3
@@ -296,6 +300,7 @@ crafts:
     pilots: 1
     allowLanding: false
     requiresBuyCountry: STR_GERMANY
+    monthlyBuyLimit: 4
     costBuy: 16000
     costSell: 14000
     refuelRate: 20
@@ -312,9 +317,9 @@ crafts:
 # TIER 2
   - type: STR_SPAD
     sprite: 106
-    fuelMax: 500
+    fuelMax: 149
     damageMax: 350
-    speedMax: 500
+    speedMax: 135
     accel: 5
     avoidBonus: 10
     weapons: 3
@@ -333,6 +338,7 @@ crafts:
     requiresBuyCountry: STR_FRANCE
     costBuy: 25000
     costSell: 20000
+    monthlyBuyLimit: 4
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -345,10 +351,10 @@ crafts:
       - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
   - type: STR_ROYAL_AIRCRAFT_SE5A
     sprite: 107
-    fuelMax: 600
+    fuelMax: 300
     damageMax: 400
-    speedMax: 600
-    accel: 6
+    speedMax: 138
+    accel: 4
     avoidBonus: 10
     hitBonus: 15
     weapons: 3
@@ -379,9 +385,9 @@ crafts:
       - STR_FRENCH_IMPROVED_FIGHTER_OPTION_A
   - type: STR_FOKKER_DR1
     sprite: 108
-    fuelMax: 350
+    fuelMax: 186
     damageMax: 460
-    speedMax: 350
+    speedMax: 115
     accel: 5
     avoidBonus: 20
     weapons: 3
@@ -400,6 +406,7 @@ crafts:
     requiresBuyCountry: STR_GERMANY
     costBuy: 30000
     costSell: 28000
+    monthlyBuyLimit: 4
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -417,9 +424,9 @@ crafts:
 # TIER 1
   - type: STR_SIKORSKI_ILYA_MUROMETS
     sprite: 124
-    fuelMax: 500
+    fuelMax: 350
     damageMax: 350
-    speedMax: 150
+    speedMax: 81
     avoidBonus: -10
     hitBonus: 15
     accel: 2
@@ -434,13 +441,14 @@ crafts:
       - STR_CRAFT_BOMB_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
-    soldiers: 5
+    soldiers: 8
     vehicles: 0
-    pilots: 5
+    pilots: 8
     allowLanding: false
     requiresBuyCountry: STR_RUSSIA
     costBuy: 30000
     costSell: 28000
+    monthlyBuyLimit: 2
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -453,9 +461,9 @@ crafts:
       - STR_RUSSIAN_STRATEGIC_BOMBER_OPTION_A
   - type: STR_HALBERSTADT_CLII
     sprite: 125
-    fuelMax: 350
+    fuelMax: 311
     damageMax: 300
-    speedMax: 300
+    speedMax: 103
     avoidBonus: 5
     hitBonus: 5
     accel: 3
@@ -477,6 +485,7 @@ crafts:
     requiresBuyCountry: STR_GERMANY
     costBuy: 20000
     costSell: 18000
+    monthlyBuyLimit: 4
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -489,9 +498,9 @@ crafts:
       - STR_GERMAN_ATTACK_PLANE_OPTION_B
   - type: STR_HANDLEY_PAGE_TYPE_O
     sprite: 126
-    fuelMax: 450
+    fuelMax: 700
     damageMax: 300
-    speedMax: 180
+    speedMax: 100
     accel: 2
     avoidBonus: -10
     hitBonus: 10
@@ -506,13 +515,14 @@ crafts:
       - STR_CRAFT_DEFENSIVE_MACHINE_GUN_TWO
       - STR_CRAFT_BOMB_THREE
       - STR_CRAFT_BOMB_FOUR
-    soldiers: 5
+    soldiers: 14
     vehicles: 0
-    pilots: 5
+    pilots: 14
     allowLanding: false
     requiresBuyCountry: STR_UK
     costBuy: 25000
     costSell: 23000
+    monthlyBuyLimit: 1
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -527,9 +537,9 @@ crafts:
 # TIER 2
   - type: STR_ZEPPELIN_STAAKEN_RVI
     sprite: 127
-    fuelMax: 700
+    fuelMax: 500
     damageMax: 560
-    speedMax: 500
+    speedMax: 87
     avoidBonus: -15
     hitBonus: 15
     accel: 3
@@ -551,6 +561,7 @@ crafts:
     requiresBuyCountry: STR_GERMANY
     costBuy: 50000
     costSell: 48000
+    monthlyBuyLimit: 1
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -565,7 +576,7 @@ crafts:
     sprite: 128
     fuelMax: 300
     damageMax: 130
-    speedMax: 500
+    speedMax: 100
     avoidBonus: -10
     hitBonus: 10
     accel: 4
@@ -599,9 +610,9 @@ crafts:
       - STR_ITALIAN_IMPROVED_BOMBER_OPTION_B
   - type: STR_BRISTOL_F2B
     sprite: 129
-    fuelMax: 300
+    fuelMax: 370
     damageMax: 130
-    speedMax: 500
+    speedMax: 125
     accel: 4
     weapons: 4
     hitBonus: 12
@@ -622,6 +633,7 @@ crafts:
     requiresBuyCountry: STR_UK
     costBuy: 50000
     costSell: 35000
+    monthlyBuyLimit: 1
     refuelRate: 20
     transferTime: 72
     autoPatrol: true
@@ -637,9 +649,9 @@ crafts:
 #######################
   - type: STR_CONQUEROR
     sprite: 147
-    fuelMax: 1000
-    damageMax: 1000
-    speedMax: 90
+    fuelMax: 125
+    damageMax: 500
+    speedMax: 10
     hitBonus: -15
     accel: 2
     weapons: 2
@@ -650,9 +662,10 @@ crafts:
     soldiers: 24 #32
     vehicles: 2 #4
     pilots: 8
-    costBuy: 500000
+    costBuy: 60000
     costRent: 48000
-    refuelRate: 1000
+    monthlyBuyLimit: 3
+    refuelRate: 100
     transferTime: 96
     score: 250
     repairRate: 4
@@ -705,11 +718,11 @@ crafts:
 ## Kiro Xei writes:
   - type: STR_CONQUEROR_CONVOY
     sprite: 147
-    fuelMax: 3000
-    damageMax: 3000
-    speedMax: 100
+    fuelMax: 200
+    damageMax: 1500
+    speedMax: 75
     hitBonus: -15
-    accel: 3
+    accel: 2
     weapons: 4
     weaponStrings:
       - STR_CRAFT_LIGHT_CANNON_ONE
@@ -722,8 +735,9 @@ crafts:
     pilots: 48
     requires:
       - STR_IMPROVED_LANDSHIP_RESEARCH
-    costBuy: 3000000
-    costRent: 300000
+    costBuy: 200000
+    costRent: 180000
+    monthlyBuyLimit: 1
     refuelRate: 3000
     transferTime: 96
     score: 250
@@ -761,8 +775,8 @@ crafts:
     sprite: 326
     fuelMax: 1450
     damageMax: 300
-    speedMax: 300
-    accel: 1
+    speedMax: 60
+    accel: 2
     weapons: 4
     weaponTypes:
       - [0, 1, 2]
@@ -778,8 +792,9 @@ crafts:
     maxSmallVehicles: 4
     vehicles: 0
     pilots: 4
-    costBuy: 675000
-    costSell: 600000
+    costBuy: 67500
+    costSell: 60000
+    monthlyBuyLimit: 2
     refuelRate: 60
     transferTime: 72
     autoPatrol: true
@@ -836,9 +851,9 @@ crafts:
 # 4 3 2
   - type: STR_RCLASS_AIRSHIP
     sprite: 327
-    fuelMax: 1450
+    fuelMax: 4598
     damageMax: 500
-    speedMax: 300
+    speedMax: 63
     accel: 1
     weapons: 4
     weaponTypes:
@@ -855,8 +870,9 @@ crafts:
     maxSmallVehicles: 4
     vehicles: 0
     pilots: 6
-    costBuy: 675000
-    costSell: 600000
+    costBuy: 67500
+    costSell: 60000
+    monthlyBuyLimit: 1
     refuelRate: 60
     transferTime: 72
     autoPatrol: true
@@ -937,6 +953,7 @@ crafts:
     pilots: 4
     costBuy: 675000
     costSell: 600000
+    monthlyBuyLimit: 1
     refuelRate: 60
     transferTime: 72
     autoPatrol: true
@@ -1033,8 +1050,9 @@ crafts:
     maxSmallVehicles: 2
     vehicles: 0
     pilots: 6
-    costBuy: 675000
-    costSell: 600000
+    costBuy: 67500
+    costSell: 60000
+    monthlyBuyLimit: 2
     refuelRate: 60
     transferTime: 72
     autoPatrol: true
@@ -1105,8 +1123,9 @@ crafts:
     maxSmallVehicles: 4
     vehicles: 0
     pilots: 5
-    costBuy: 675000
-    costSell: 600000
+    costBuy: 67500
+    costSell: 60000
+    monthlyBuyLimit: 1
     refuelRate: 60
     transferTime: 72
     autoPatrol: true
@@ -1198,8 +1217,9 @@ crafts:
     maxSmallVehicles: 4
     vehicles: 0
     pilots: 5
-    costBuy: 675000
-    costSell: 600000
+    costBuy: 67500
+    costSell: 60000
+    monthlyBuyLimit: 1
     refuelRate: 60
     transferTime: 72
     autoPatrol: true
@@ -1277,8 +1297,9 @@ crafts:
     maxSmallVehicles: 6
     vehicles: 6
     pilots: 5
-    costBuy: 675000
-    costSell: 600000
+    costBuy: 67500
+    costSell: 60000
+    monthlyBuyLimit: 1
     refuelRate: 60
     transferTime: 72
     autoPatrol: true

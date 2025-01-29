@@ -323,6 +323,7 @@ items:
     costBuy: 12000
     costSell: 18000
     transferTime: 96
+    monthlyBuyLimit: 4
   - type: STR_SCHNEIDER_CA1_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
     requiresBuy:
@@ -332,6 +333,7 @@ items:
     costSell: 24000
     requiresBuyCountry: STR_FRANCE
     transferTime: 96
+    monthlyBuyLimit: 4
   - type: STR_RENAULT_FT_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
     requiresBuy:
@@ -341,6 +343,7 @@ items:
     costSell: 25000
     requiresBuyCountry: STR_FRANCE
     transferTime: 96
+    monthlyBuyLimit: 4
   - type: STR_MARK_V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
     requiresBuy:
@@ -350,6 +353,7 @@ items:
     costSell: 28000
     requiresBuyCountry: STR_UK
     transferTime: 96
+    monthlyBuyLimit: 4
   - type: STR_A7V_ITEM # Item for the armor
     categories: [STR_TANKS, STR_HEAVY_TANKS]
     requiresBuy:
@@ -359,6 +363,7 @@ items:
     costSell: 30000
     requiresBuyCountry: STR_GERMANY
     transferTime: 96
+    monthlyBuyLimit: 4
   - type: STR_VEZDEKHOD_ITEM # Item for the armor
     categories: [STR_TANKS, STR_LIGHT_TANKS]
     requiresBuy:
@@ -368,6 +373,7 @@ items:
     costSell: 18000
     requiresBuyCountry: STR_RUSSIA
     transferTime: 96
+    monthlyBuyLimit: 4
 ##############################
 ####### TANK WEAPONS ########
 ############################
@@ -634,6 +640,7 @@ items:
     costSell: 1500
     transferTime: 48
     weight: 15
+    monthlyBuyLimit: 5
     bigSprite: 5196
     floorSprite: 12
     hitSound: 0
@@ -775,6 +782,7 @@ items:
     size: 3.0
     costBuy: 2000
     costSell: 1500
+    monthlyBuyLimit: 5
     transferTime: 48
     weight: 15
     bigSprite: 5236
@@ -859,6 +867,7 @@ items:
     costSell: 400
     transferTime: 48
     weight: 20
+    monthlyBuyLimit: 5
     bigSprite: 5260
     floorSprite: 12
     hitSound: 0

@@ -248,6 +248,7 @@ items:
     size: 0.01
     costBuy: 150
     costSell: 90
+    monthlyBuyLimit: 10
     weight: 3
     bigSprite: 208
     floorSprite: 208
@@ -402,6 +403,7 @@ items:
     size: 0.01
     costBuy: 150
     costSell: 90
+    monthlyBuyLimit: 10
     weight: 3
     bigSprite: 288
     floorSprite: 288
@@ -513,6 +515,7 @@ items:
       - STR_GEWEHR98_KMM_AMMO_UNLOCK
     requiresBuyCountry: STR_GERMANY
     size: 0.01
+    monthlyBuyLimit: 10
     costBuy: 150
     costSell: 90
     weight: 3
@@ -632,6 +635,7 @@ items:
     size: 0.01
     costBuy: 150
     costSell: 90
+    monthlyBuyLimit: 10
     weight: 3
     bigSprite: 384
     floorSprite: 384
@@ -836,6 +840,7 @@ items:
     size: 0.01
     costBuy: 150
     costSell: 90
+    monthlyBuyLimit: 10
     weight: 3
     bigSprite: 456
     floorSprite: 456
@@ -958,6 +963,7 @@ items:
     costBuy: 150
     costSell: 90
     weight: 1
+    monthlyBuyLimit: 10
     bigSprite: 496
     floorSprite: 496
     handSprite: 208
@@ -1236,6 +1242,7 @@ items:
     requiresBuyCountry: STR_UK
     size: 0.01
     costSell: 200
+    monthlyBuyLimit: 10
     weight: 3
     bigSprite: 680
     floorSprite: 680
@@ -1265,7 +1272,7 @@ items:
     categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, ]
     requiresBuy:
       - STR_MONDRAGON_UNLOCK
-    requiresBuyCountry: STR_USA
+    requiresBuyCountry: STR_MEXICAN_RESISTANCE
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.02
@@ -1326,7 +1333,7 @@ items:
     categories: [ STR_BALLISTIC, STR_SELFLOADING_RIFLES, STR_RIFLEMAN_CLASS, STR_AMERICAN_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_MONDRAGON_AMMO_UNLOCK
-    requiresBuyCountry: TR_MEXICAN_RESISTANCE
+    requiresBuyCountry: STR_MEXICAN_RESISTANCE
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.04
@@ -1364,6 +1371,7 @@ items:
     size: 0.04
     costBuy: 70
     costSell: 50
+    monthlyBuyLimit: 10
     weight: 3
     bigSprite: 720
     floorSprite: 720
@@ -1466,6 +1474,7 @@ items:
     size: 0.04
     costBuy: 70
     costSell: 50
+    monthlyBuyLimit: 10
     weight: 3
     bigSprite: 760
     floorSprite: 760
@@ -1617,6 +1626,7 @@ items:
     costBuy: 400
     costSell: 200
     weight: 3
+    monthlyBuyLimit: 10
     bigSprite: 800
     floorSprite: 800
     handSprite: 680
@@ -1726,6 +1736,7 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
+    monthlyBuyLimit: 10
     bigSprite: 840
     floorSprite: 840
     handSprite: 680
@@ -1840,6 +1851,7 @@ items:
     costBuy: 70
     costSell: 50
     weight: 3
+    monthlyBuyLimit: 10
     bigSprite: 880
     floorSprite: 880
     handSprite: 680
@@ -2083,6 +2095,7 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1080
     floorSprite: 1080
     handSprite: 1080
@@ -2217,6 +2230,7 @@ items:
     costBuy: 75
     costSell: 55
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1128
     floorSprite: 1128
     handSprite: 680
@@ -2315,6 +2329,7 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1168
     floorSprite: 1168
     handSprite: 208
@@ -2411,6 +2426,7 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1248
     floorSprite: 1248
     handSprite: 680
@@ -2567,6 +2583,7 @@ items:
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.01
+    requiresBuyCountry: STR_USA
     costBuy: 4000
     costSell: 3200
     weight: 7
@@ -2614,6 +2631,7 @@ items:
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.025
+    requiresBuyCountry: STR_USA
     costBuy: 50
     costSell: 40
     weight: 2
@@ -2647,10 +2665,12 @@ items:
     categories: [ STR_BALLISTIC, STR_CARBINES, STR_MEDIC_CLASS, STR_FRENCH_EQUIPMENT, STR_LIGHT_EQUIPMENT, STR_CLIPS, ]
     requiresBuy:
       - STR_M1907_SL_CARBINE_KMM_AMMO_UNLOCK
+    requiresBuyCountry: STR_USA
     size: 0.025
     costBuy: 50
     costSell: 40
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1432
     floorSprite: 1432
     handSprite: 680
@@ -2788,6 +2808,7 @@ items:
     costBuy: 500
     costSell: 150
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1544
     floorSprite: 1544
     handSprite: 680
@@ -2879,6 +2900,7 @@ items:
     costBuy: 500
     costSell: 150
     weight: 4
+    monthlyBuyLimit: 10
     bigSprite: 1624
     floorSprite: 1624
     handSprite: 1624
@@ -2996,6 +3018,7 @@ items:
     costBuy: 150
     costSell: 90
     weight: 3
+    monthlyBuyLimit: 10
     bigSprite: 1728
     floorSprite: 1728
     handSprite: 208
@@ -3178,6 +3201,7 @@ items:
     costBuy: 250
     costSell: 300
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1840
     floorSprite: 1840
     handSprite: 680
@@ -3306,6 +3330,7 @@ items:
     costBuy: 250
     costSell: 300
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1880
     floorSprite: 1880
     handSprite: 680
@@ -3431,6 +3456,7 @@ items:
     costBuy: 250
     costSell: 300
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 1920
     floorSprite: 1920
     handSprite: 1920
@@ -3576,6 +3602,7 @@ items:
     costBuy: 100
     costSell: 90
     weight: 3
+    monthlyBuyLimit: 10
     bigSprite: 1960
     floorSprite: 1960
     handSprite: 680
@@ -3707,6 +3734,7 @@ items:
     costBuy: 100
     costSell: 80
     weight: 6
+    monthlyBuyLimit: 10
     bigSprite: 2000
     floorSprite: 2000
     handSprite: 680
@@ -3959,6 +3987,7 @@ items:
     costBuy: 600
     costSell: 450
     weight: 5
+    monthlyBuyLimit: 10
     bigSprite: 2144
     floorSprite: 2144
     handSprite: 2144
@@ -4082,6 +4111,7 @@ items:
     size: 0.03
     costSell: 150
     weight: 3
+    monthlyBuyLimit: 10
     bigSprite: 2184
     floorSprite: 2184
     handSprite: 680
@@ -4201,6 +4231,7 @@ items:
     costBuy: 1000
     costSell: 750
     weight: 12
+    monthlyBuyLimit: 10
     bigSprite: 2224
     floorSprite: 2224
     handSprite: 2144
@@ -4316,6 +4347,7 @@ items:
     costBuy: 1500
     costSell: 1250
     weight: 8
+    monthlyBuyLimit: 10
     bigSprite: 2264
     floorSprite: 2264
     handSprite: 2264
@@ -4438,6 +4470,7 @@ items:
     costBuy: 50
     costSell: 40
     weight: 2
+    monthlyBuyLimit: 10
     bigSprite: 2304
     floorSprite: 2304
     handSprite: 680
@@ -4560,6 +4593,7 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
+    monthlyBuyLimit: 10
     bigSprite: 2344
     floorSprite: 2344
     handSprite: 2344
@@ -4673,6 +4707,7 @@ items:
     costBuy: 600
     costSell: 450
     weight: 7
+    monthlyBuyLimit: 10
     bigSprite: 2384
     floorSprite: 2384
     handSprite: 680
@@ -4786,6 +4821,7 @@ items:
     categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_AMERICAN_EQUIPMENT, ]
     requiresBuy:
       - STR_WINCHESTER_TRENCH_GUN_UNLOCK
+    requiresBuyCountry: STR_USA
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.03
@@ -4830,6 +4866,7 @@ items:
     categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_BRITISH_EQUIPMENT, STR_FRENCH_EQUIPMENT ]
     requiresBuy:
       - STR_REMINGTON_MODEL_11_UNLOCK
+    requiresBuyCountry: STR_USA
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.03
@@ -4866,6 +4903,7 @@ items:
     categories: [ STR_BALLISTIC, STR_FIREARMS, STR_SHOTGUNS, STR_ASSAULT_CLASS, STR_GERMAN_EQUIPMENT, STR_RUSSIAN_EQUIPMENT ]
     requiresBuy:
       - STR_INERTIA_SHOTGUN_UNLOCK
+    requiresBuyCountry: STR_GERMANY
     #requiresBuy:
      # - STR_ADVANCED_FIREARMS
     size: 0.03
